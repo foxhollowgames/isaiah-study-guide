@@ -1,0 +1,32 @@
+{
+  "bounds": [
+    [
+      24.5271348225978,
+      28.125
+    ],
+    [
+      40.97989806962013,
+      50.625
+    ]
+  ],
+  "source": "https://registry.opendata.aws/terrain-tiles/",
+  "attribution": "Terrain: Mapzen / Tilezen; USGS SRTM & GMTED2010, NOAA ETOPO1",
+  "note": "Modern elevation reference. Meridian color and hillshade rendering; not ancient terrain reconstruction.",
+  "detail": {
+    "url": "assets/terrain/{z}/{x}/{y}.png",
+    "minZoom": 8,
+    "maxNativeZoom": 10,
+    "bounds": [
+      [
+        29.22889003019423,
+        32.34375
+      ],
+      [
+        35.746512259918504,
+        37.96875
+      ]
+    ],
+    "shorelineSource": "https://github.com/nvkelso/natural-earth-vector/tree/master/geojson",
+    "note": "Zoom 10 measured elevation; 8 times the linear resolution of the overview. Modern Natural Earth 1:10m water outlines."
+  }
+}

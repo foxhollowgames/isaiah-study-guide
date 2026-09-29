@@ -1,0 +1,812 @@
+{
+  "checked": "2026-09-27",
+  "window": {
+    "start": "2025-09-27",
+    "end": "2026-09-27"
+  },
+  "method": "Scanned official English conference article text and footnotes for Isaiah and links to /scriptures/ot/isa/. Reviewed matching citations and their associated paragraphs. Includes one named Isaiah reference through Luke. Unnamed allusions and quotations through other books without an explicit Isaiah attribution were not systematically identified.",
+  "conferences": [
+    "October 2025",
+    "April 2026"
+  ],
+  "pagesScanned": [
+    {
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/10/11eyring?lang=eng",
+      "title": "Sustaining of General Authorities, Area Seventies, and General Officers",
+      "matched": false
+    },
+    {
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/10/12stevenson?lang=eng",
+      "title": "Blessed Are the Peacemakers",
+      "matched": false
+    },
+    {
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/10/13browning?lang=eng",
+      "title": "Tune Your Heart to Jesus Christ: The Sacred Gift of Primary Music",
+      "matched": false
+    },
+    {
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/10/14barcellos?lang=eng",
+      "title": "The Lord Looketh on the Heart",
+      "matched": true
+    },
+    {
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/10/15eyre?lang=eng",
+      "title": "Know Who You Really Are",
+      "matched": false
+    },
+    {
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/10/16uchtdorf?lang=eng",
+      "title": "Do Your Part with All Your Heart",
+      "matched": false
+    },
+    {
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/10/17johnson?lang=eng",
+      "title": "Be Reconciled to God",
+      "matched": true
+    },
+    {
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/10/19oaks?lang=eng",
+      "title": "Introduction",
+      "matched": false
+    },
+    {
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/10/21rasband?lang=eng",
+      "title": "The Family Proclamation—Words from God",
+      "matched": false
+    },
+    {
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/10/22webb?lang=eng",
+      "title": "That All May Be Edified",
+      "matched": false
+    },
+    {
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/10/23jaggi?lang=eng",
+      "title": "Humble Souls at Altars Kneel",
+      "matched": true
+    },
+    {
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/10/24brown?lang=eng",
+      "title": "The Eternal Gift of Testimony",
+      "matched": false
+    },
+    {
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/10/25gong?lang=eng",
+      "title": "No One Sits Alone",
+      "matched": false
+    },
+    {
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/10/26cziesla?lang=eng",
+      "title": "Simplicity in Christ",
+      "matched": true
+    },
+    {
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/10/27cook?lang=eng",
+      "title": "The Lord Is Hastening His Work",
+      "matched": false
+    },
+    {
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/10/31kearon?lang=eng",
+      "title": "Jesus Christ and Your New Beginning",
+      "matched": false
+    },
+    {
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/10/32dennis?lang=eng",
+      "title": "Cheering Each Other On",
+      "matched": false
+    },
+    {
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/10/33barlow?lang=eng",
+      "title": "“Lovest Thou Me?”",
+      "matched": false
+    },
+    {
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/10/34jackson?lang=eng",
+      "title": "Remembering the Sheep",
+      "matched": false
+    },
+    {
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/10/35andersen?lang=eng",
+      "title": "The Atoning Love of Jesus Christ",
+      "matched": true
+    },
+    {
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/10/41holland?lang=eng",
+      "title": "And Now I See",
+      "matched": true
+    },
+    {
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/10/42evanson?lang=eng",
+      "title": "Go and Do Likewise",
+      "matched": false
+    },
+    {
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/10/43soares?lang=eng",
+      "title": "Adorned with the Virtue of Temperance",
+      "matched": false
+    },
+    {
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/10/44johnson?lang=eng",
+      "title": "The Power of Ministering to the One",
+      "matched": false
+    },
+    {
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/10/45christofferson?lang=eng",
+      "title": "Look to God and Live",
+      "matched": true
+    },
+    {
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/10/46spannaus?lang=eng",
+      "title": "Prophets of God",
+      "matched": true
+    },
+    {
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/10/47eyring?lang=eng",
+      "title": "Proved and Strengthened in Christ",
+      "matched": false
+    },
+    {
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/10/51bednar?lang=eng",
+      "title": "They Are Their Own Judges",
+      "matched": true
+    },
+    {
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/10/52cuvelier?lang=eng",
+      "title": "The Name by Which Ye Are Called",
+      "matched": true
+    },
+    {
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/10/53holland?lang=eng",
+      "title": "Forsake Not Your Own Mercy",
+      "matched": false
+    },
+    {
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/10/54godoy?lang=eng",
+      "title": "Smiling Faces and Grateful Hearts",
+      "matched": false
+    },
+    {
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/10/55renlund?lang=eng",
+      "title": "Taking on the Name of Jesus Christ",
+      "matched": true
+    },
+    {
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/10/56amos?lang=eng",
+      "title": "The Good News Recipe",
+      "matched": false
+    },
+    {
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/10/57farias?lang=eng",
+      "title": "The Book of Mormon—an Immeasurable Treasure on Our Journey",
+      "matched": false
+    },
+    {
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/10/58oaks?lang=eng",
+      "title": "The Family-Centered Gospel of Jesus Christ",
+      "matched": false
+    },
+    {
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2026/04/11oaks?lang=eng",
+      "title": "Introduction",
+      "matched": false
+    },
+    {
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2026/04/12christofferson?lang=eng",
+      "title": "Solemn Assembly",
+      "matched": false
+    },
+    {
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2026/04/13kearon?lang=eng",
+      "title": "About His Business",
+      "matched": true
+    },
+    {
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2026/04/14yee?lang=eng",
+      "title": "Ministering—“That Ye Love One Another; as I Have Loved You”",
+      "matched": true
+    },
+    {
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2026/04/15gilbert?lang=eng",
+      "title": "Come Home",
+      "matched": true
+    },
+    {
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2026/04/16bednar?lang=eng",
+      "title": "All Who Have Endured Valiantly",
+      "matched": false
+    },
+    {
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2026/04/17teh?lang=eng",
+      "title": "Follow the Prophet; He Knows the Way",
+      "matched": false
+    },
+    {
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2026/04/18becerra?lang=eng",
+      "title": "Tithing—Putting God First",
+      "matched": false
+    },
+    {
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2026/04/19eyring?lang=eng",
+      "title": "Prayers for Peace",
+      "matched": false
+    },
+    {
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2026/04/210soares?lang=eng",
+      "title": "Jesus Christ—the True Vine",
+      "matched": true
+    },
+    {
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2026/04/21christofferson?lang=eng",
+      "title": "Sustaining of General Authorities, Area Seventies, and General Officers",
+      "matched": false
+    },
+    {
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2026/04/22larson?lang=eng",
+      "title": "Church Auditing Department Report, 2025",
+      "matched": false
+    },
+    {
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2026/04/23stevenson?lang=eng",
+      "title": "Lost Luggage, Redeemed Souls",
+      "matched": false
+    },
+    {
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2026/04/24ortega?lang=eng",
+      "title": "Christ—Author and Finisher of Our Faith",
+      "matched": false
+    },
+    {
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2026/04/25wu?lang=eng",
+      "title": "“I Will Give Away All My Sins to Know Thee”",
+      "matched": false
+    },
+    {
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2026/04/26wunderli?lang=eng",
+      "title": "Jesus Christ Is Not Our Burden; He Is Our Relief",
+      "matched": true
+    },
+    {
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2026/04/27causse?lang=eng",
+      "title": "Love All; Love Each",
+      "matched": false
+    },
+    {
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2026/04/28holmes?lang=eng",
+      "title": "Jesus Christ Is the Way",
+      "matched": false
+    },
+    {
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2026/04/29matswagothata?lang=eng",
+      "title": "He Knows You by Name",
+      "matched": true
+    },
+    {
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2026/04/41uchtdorf?lang=eng",
+      "title": "Encounter at the Empty Tomb",
+      "matched": false
+    },
+    {
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2026/04/42freeman?lang=eng",
+      "title": "Best Days and Worst Days",
+      "matched": false
+    },
+    {
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2026/04/43larreal?lang=eng",
+      "title": "I Feel My Savior’s Love",
+      "matched": false
+    },
+    {
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2026/04/44rowe?lang=eng",
+      "title": "Choose Jesus Christ as Your Guide",
+      "matched": true
+    },
+    {
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2026/04/45rasband?lang=eng",
+      "title": "He Is Risen",
+      "matched": true
+    },
+    {
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2026/04/46renlund?lang=eng",
+      "title": "Because of Jesus Christ",
+      "matched": false
+    },
+    {
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2026/04/47mutombo?lang=eng",
+      "title": "The Joy of a Covenant Relationship with God",
+      "matched": false
+    },
+    {
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2026/04/48walker?lang=eng",
+      "title": "A Peculiar Treasure",
+      "matched": false
+    },
+    {
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2026/04/49oaks?lang=eng",
+      "title": "Alive in Christ",
+      "matched": false
+    },
+    {
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2026/04/51christofferson?lang=eng",
+      "title": "The Character of Christ",
+      "matched": false
+    },
+    {
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2026/04/52wong?lang=eng",
+      "title": "Remember, Remember",
+      "matched": false
+    },
+    {
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2026/04/53hall?lang=eng",
+      "title": "I Glory in My Jesus",
+      "matched": true
+    },
+    {
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2026/04/54porter?lang=eng",
+      "title": "“Here Am I, Send Me”",
+      "matched": true
+    },
+    {
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2026/04/55andersen?lang=eng",
+      "title": "Eternal Marriage Is an Eternal Journey",
+      "matched": true
+    },
+    {
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2026/04/56cook?lang=eng",
+      "title": "Keys, Covenants, and Easter",
+      "matched": false
+    },
+    {
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2026/04/57wakolo?lang=eng",
+      "title": "Come unto Christ—Together",
+      "matched": false
+    },
+    {
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2026/04/58gong?lang=eng",
+      "title": "’Tis Eastertide: No One Walks Alone",
+      "matched": false
+    },
+    {
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2026/04/59oaks?lang=eng",
+      "title": "Closing Remarks",
+      "matched": false
+    }
+  ],
+  "matches": [
+    {
+      "key": "2025-10-14barcellos",
+      "title": "The Lord Looketh on the Heart",
+      "author": "Elder Ronald M. Barcellos",
+      "conference": "October 2025",
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/10/14barcellos?lang=eng",
+      "references": [
+        {
+          "label": "Isaiah 29:13",
+          "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/isa/29?lang=eng&id=p13#p13",
+          "contextUrl": "https://www.churchofjesuschrist.org/study/general-conference/2025/10/14barcellos?lang=eng#note9",
+          "location": "Note 9",
+          "kind": "Explicit Isaiah citation"
+        }
+      ]
+    },
+    {
+      "key": "2025-10-17johnson",
+      "title": "Be Reconciled to God",
+      "author": "Elder Kelly R. Johnson",
+      "conference": "October 2025",
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/10/17johnson?lang=eng",
+      "references": [
+        {
+          "label": "Isaiah 11:1",
+          "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/isa/11?lang=eng&id=p1#p1",
+          "contextUrl": "https://www.churchofjesuschrist.org/study/general-conference/2025/10/17johnson?lang=eng#note12",
+          "location": "Note 12",
+          "kind": "Explicit Isaiah citation"
+        }
+      ]
+    },
+    {
+      "key": "2025-10-23jaggi",
+      "title": "Humble Souls at Altars Kneel",
+      "author": "Elder Jeremy R. Jaggi",
+      "conference": "October 2025",
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/10/23jaggi?lang=eng",
+      "references": [
+        {
+          "label": "Isaiah 6:8",
+          "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/isa/6?lang=eng&id=p8#p8",
+          "contextUrl": "https://www.churchofjesuschrist.org/study/general-conference/2025/10/23jaggi?lang=eng#note5",
+          "location": "Note 5",
+          "kind": "Explicit Isaiah citation"
+        },
+        {
+          "label": "Isaiah 28:10, 13",
+          "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/isa/28?lang=eng&id=p10,p13#p10",
+          "contextUrl": "https://www.churchofjesuschrist.org/study/general-conference/2025/10/23jaggi?lang=eng#note17",
+          "location": "Note 17",
+          "kind": "Explicit Isaiah citation"
+        },
+        {
+          "label": "Isaiah 51:17, 22",
+          "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/isa/51?lang=eng&id=p17,p22#p17",
+          "contextUrl": "https://www.churchofjesuschrist.org/study/general-conference/2025/10/23jaggi?lang=eng#note26",
+          "location": "Note 26",
+          "kind": "Explicit Isaiah citation"
+        }
+      ]
+    },
+    {
+      "key": "2025-10-26cziesla",
+      "title": "Simplicity in Christ",
+      "author": "Elder Michael Cziesla",
+      "conference": "October 2025",
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/10/26cziesla?lang=eng",
+      "references": [
+        {
+          "label": "Isaiah 9:6",
+          "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/isa/9?lang=eng&id=p6#p6",
+          "contextUrl": "https://www.churchofjesuschrist.org/study/general-conference/2025/10/26cziesla?lang=eng#note14",
+          "location": "Note 14",
+          "kind": "Explicit Isaiah citation"
+        },
+        {
+          "label": "Isaiah 49:13",
+          "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/isa/49?lang=eng&id=p13#p13",
+          "contextUrl": "https://www.churchofjesuschrist.org/study/general-conference/2025/10/26cziesla?lang=eng#note15",
+          "location": "Note 15",
+          "kind": "Explicit Isaiah citation"
+        }
+      ]
+    },
+    {
+      "key": "2025-10-35andersen",
+      "title": "The Atoning Love of Jesus Christ",
+      "author": "Elder Neil L. Andersen",
+      "conference": "October 2025",
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/10/35andersen?lang=eng",
+      "references": [
+        {
+          "label": "Isaiah 61:3",
+          "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/isa/61?lang=eng&id=p3#p3",
+          "contextUrl": "https://www.churchofjesuschrist.org/study/general-conference/2025/10/35andersen?lang=eng#note19",
+          "location": "Note 19",
+          "kind": "Explicit Isaiah citation"
+        }
+      ]
+    },
+    {
+      "key": "2025-10-41holland",
+      "title": "And Now I See",
+      "author": "Elder Jeffrey R. Holland",
+      "conference": "October 2025",
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/10/41holland?lang=eng",
+      "references": [
+        {
+          "label": "Isaiah 53:2",
+          "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/isa/53?lang=eng&id=p2#p2",
+          "contextUrl": "https://www.churchofjesuschrist.org/study/general-conference/2025/10/41holland?lang=eng#note8",
+          "location": "Note 8",
+          "kind": "Explicit Isaiah citation"
+        }
+      ]
+    },
+    {
+      "key": "2025-10-45christofferson",
+      "title": "Look to God and Live",
+      "author": "Elder D. Todd Christofferson",
+      "conference": "October 2025",
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/10/45christofferson?lang=eng",
+      "references": [
+        {
+          "label": "Isaiah 1:16–18",
+          "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/isa/1?lang=eng&id=p16-p18#p16",
+          "contextUrl": "https://www.churchofjesuschrist.org/study/general-conference/2025/10/45christofferson?lang=eng#p_zS0QN",
+          "location": "Text reference",
+          "kind": "Explicit Isaiah citation"
+        },
+        {
+          "label": "Isaiah 45:22",
+          "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/isa/45?lang=eng&id=p22#p22",
+          "contextUrl": "https://www.churchofjesuschrist.org/study/general-conference/2025/10/45christofferson?lang=eng#note22",
+          "location": "Note 22",
+          "kind": "Explicit Isaiah citation"
+        }
+      ]
+    },
+    {
+      "key": "2025-10-46spannaus",
+      "title": "Prophets of God",
+      "author": "Sister Andrea Muñoz Spannaus",
+      "conference": "October 2025",
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/10/46spannaus?lang=eng",
+      "references": [
+        {
+          "label": "Isaiah 52:1",
+          "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/isa/52?lang=eng&id=p1#p1",
+          "contextUrl": "https://www.churchofjesuschrist.org/study/general-conference/2025/10/46spannaus?lang=eng#note29",
+          "location": "Note 29",
+          "kind": "Explicit Isaiah citation"
+        },
+        {
+          "label": "Isaiah 28:16",
+          "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/isa/28?lang=eng&id=p16#p16",
+          "contextUrl": "https://www.churchofjesuschrist.org/study/general-conference/2025/10/46spannaus?lang=eng#note30",
+          "location": "Note 30",
+          "kind": "Explicit Isaiah citation"
+        }
+      ]
+    },
+    {
+      "key": "2025-10-51bednar",
+      "title": "They Are Their Own Judges",
+      "author": "Elder David A. Bednar",
+      "conference": "October 2025",
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/10/51bednar?lang=eng",
+      "references": [
+        {
+          "label": "Isaiah 11:2–3",
+          "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/isa/11?lang=eng&id=p2-p3#p2",
+          "contextUrl": "https://www.churchofjesuschrist.org/study/general-conference/2025/10/51bednar?lang=eng#note41",
+          "location": "Note 41",
+          "kind": "Explicit Isaiah citation"
+        }
+      ]
+    },
+    {
+      "key": "2025-10-52cuvelier",
+      "title": "The Name by Which Ye Are Called",
+      "author": "Elder B. Corey Cuvelier",
+      "conference": "October 2025",
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/10/52cuvelier?lang=eng",
+      "references": [
+        {
+          "label": "Isaiah 28:10",
+          "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/isa/28?lang=eng&id=p10#p10",
+          "contextUrl": "https://www.churchofjesuschrist.org/study/general-conference/2025/10/52cuvelier?lang=eng#note21",
+          "location": "Note 21",
+          "kind": "Explicit Isaiah citation"
+        },
+        {
+          "label": "Isaiah 43:1",
+          "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/isa/43?lang=eng&id=p1#p1",
+          "contextUrl": "https://www.churchofjesuschrist.org/study/general-conference/2025/10/52cuvelier?lang=eng#note34",
+          "location": "Note 34",
+          "kind": "Explicit Isaiah citation"
+        }
+      ]
+    },
+    {
+      "key": "2025-10-55renlund",
+      "title": "Taking on the Name of Jesus Christ",
+      "author": "Elder Dale G. Renlund",
+      "conference": "October 2025",
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/10/55renlund?lang=eng",
+      "references": [
+        {
+          "label": "Isaiah through Luke 4:18",
+          "url": "https://www.churchofjesuschrist.org/study/scriptures/nt/luke/4?lang=eng&id=p18#p18",
+          "contextUrl": "https://www.churchofjesuschrist.org/study/general-conference/2025/10/55renlund?lang=eng#note20",
+          "location": "Note 20",
+          "kind": "Named Isaiah reference through another scripture"
+        }
+      ]
+    },
+    {
+      "key": "2026-04-13kearon",
+      "title": "About His Business",
+      "author": "Elder Patrick Kearon",
+      "conference": "April 2026",
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2026/04/13kearon?lang=eng",
+      "references": [
+        {
+          "label": "Isaiah 55:8–11",
+          "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/isa/55?lang=eng&id=p8-p11#p8",
+          "contextUrl": "https://www.churchofjesuschrist.org/study/general-conference/2026/04/13kearon?lang=eng#note10",
+          "location": "Note 10",
+          "kind": "Explicit Isaiah citation"
+        }
+      ]
+    },
+    {
+      "key": "2026-04-14yee",
+      "title": "Ministering—“That Ye Love One Another; as I Have Loved You”",
+      "author": "Sister Kristin M. Yee",
+      "conference": "April 2026",
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2026/04/14yee?lang=eng",
+      "references": [
+        {
+          "label": "Isaiah 41:10",
+          "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/isa/41?lang=eng&id=p10#p10",
+          "contextUrl": "https://www.churchofjesuschrist.org/study/general-conference/2026/04/14yee?lang=eng#note26",
+          "location": "Note 26",
+          "kind": "Explicit Isaiah citation"
+        }
+      ]
+    },
+    {
+      "key": "2026-04-15gilbert",
+      "title": "Come Home",
+      "author": "Elder Clark G. Gilbert",
+      "conference": "April 2026",
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2026/04/15gilbert?lang=eng",
+      "references": [
+        {
+          "label": "Isaiah 58:12",
+          "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/isa/58?lang=eng&id=p12#p12",
+          "contextUrl": "https://www.churchofjesuschrist.org/study/general-conference/2026/04/15gilbert?lang=eng#note4",
+          "location": "Note 4",
+          "kind": "Explicit Isaiah citation"
+        }
+      ]
+    },
+    {
+      "key": "2026-04-210soares",
+      "title": "Jesus Christ—the True Vine",
+      "author": "Elder Ulisses Soares",
+      "conference": "April 2026",
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2026/04/210soares?lang=eng",
+      "references": [
+        {
+          "label": "Isaiah 55:1, 3, 6, 12",
+          "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/isa/55?lang=eng&id=p1,p3,p6,p12#p1",
+          "contextUrl": "https://www.churchofjesuschrist.org/study/general-conference/2026/04/210soares?lang=eng#note15",
+          "location": "Note 15",
+          "kind": "Explicit Isaiah citation"
+        }
+      ]
+    },
+    {
+      "key": "2026-04-26wunderli",
+      "title": "Jesus Christ Is Not Our Burden; He Is Our Relief",
+      "author": "Brother David J. Wunderli",
+      "conference": "April 2026",
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2026/04/26wunderli?lang=eng",
+      "references": [
+        {
+          "label": "Isaiah 41:10",
+          "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/isa/41?lang=eng&id=p10#p10",
+          "contextUrl": "https://www.churchofjesuschrist.org/study/general-conference/2026/04/26wunderli?lang=eng#note19",
+          "location": "Note 19",
+          "kind": "Explicit Isaiah citation"
+        }
+      ]
+    },
+    {
+      "key": "2026-04-29matswagothata",
+      "title": "He Knows You by Name",
+      "author": "Elder Clement M. Matswagothata",
+      "conference": "April 2026",
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2026/04/29matswagothata?lang=eng",
+      "references": [
+        {
+          "label": "Isaiah 40:31",
+          "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/isa/40?lang=eng&id=p31#p31",
+          "contextUrl": "https://www.churchofjesuschrist.org/study/general-conference/2026/04/29matswagothata?lang=eng#note16",
+          "location": "Note 16",
+          "kind": "Explicit Isaiah citation"
+        }
+      ]
+    },
+    {
+      "key": "2026-04-44rowe",
+      "title": "Choose Jesus Christ as Your Guide",
+      "author": "Elder Edward B. Rowe",
+      "conference": "April 2026",
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2026/04/44rowe?lang=eng",
+      "references": [
+        {
+          "label": "Isaiah 41:10",
+          "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/isa/41?lang=eng&id=p10#p10",
+          "contextUrl": "https://www.churchofjesuschrist.org/study/general-conference/2026/04/44rowe?lang=eng#note17",
+          "location": "Note 17",
+          "kind": "Explicit Isaiah citation"
+        },
+        {
+          "label": "Isaiah 43:1, 3",
+          "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/isa/43?lang=eng&id=p1,p3#p1",
+          "contextUrl": "https://www.churchofjesuschrist.org/study/general-conference/2026/04/44rowe?lang=eng#note17",
+          "location": "Note 17",
+          "kind": "Explicit Isaiah citation"
+        }
+      ]
+    },
+    {
+      "key": "2026-04-45rasband",
+      "title": "He Is Risen",
+      "author": "Elder Ronald A. Rasband",
+      "conference": "April 2026",
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2026/04/45rasband?lang=eng",
+      "references": [
+        {
+          "label": "Isaiah 45:23",
+          "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/isa/45?lang=eng&id=p23#p23",
+          "contextUrl": "https://www.churchofjesuschrist.org/study/general-conference/2026/04/45rasband?lang=eng#note10",
+          "location": "Note 10",
+          "kind": "Explicit Isaiah citation"
+        },
+        {
+          "label": "Isaiah 41:10",
+          "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/isa/41?lang=eng&id=p10#p10",
+          "contextUrl": "https://www.churchofjesuschrist.org/study/general-conference/2026/04/45rasband?lang=eng#note30",
+          "location": "Note 30",
+          "kind": "Explicit Isaiah citation"
+        },
+        {
+          "label": "Isaiah 49:16",
+          "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/isa/49?lang=eng&id=p16#p16",
+          "contextUrl": "https://www.churchofjesuschrist.org/study/general-conference/2026/04/45rasband?lang=eng#note43",
+          "location": "Note 43",
+          "kind": "Explicit Isaiah citation"
+        }
+      ]
+    },
+    {
+      "key": "2026-04-53hall",
+      "title": "I Glory in My Jesus",
+      "author": "Elder Aaron T. Hall",
+      "conference": "April 2026",
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2026/04/53hall?lang=eng",
+      "references": [
+        {
+          "label": "Isaiah 9:6",
+          "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/isa/9?lang=eng&id=p6#p6",
+          "contextUrl": "https://www.churchofjesuschrist.org/study/general-conference/2026/04/53hall?lang=eng#note17",
+          "location": "Note 17",
+          "kind": "Explicit Isaiah citation"
+        },
+        {
+          "label": "Isaiah 49:16",
+          "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/isa/49?lang=eng&id=p16#p16",
+          "contextUrl": "https://www.churchofjesuschrist.org/study/general-conference/2026/04/53hall?lang=eng#note21",
+          "location": "Note 21",
+          "kind": "Explicit Isaiah citation"
+        },
+        {
+          "label": "Isaiah 33:22",
+          "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/isa/33?lang=eng&id=p22#p22",
+          "contextUrl": "https://www.churchofjesuschrist.org/study/general-conference/2026/04/53hall?lang=eng#note37",
+          "location": "Note 37",
+          "kind": "Explicit Isaiah citation"
+        },
+        {
+          "label": "Isaiah 9:6",
+          "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/isa/9?lang=eng&id=p6#p6",
+          "contextUrl": "https://www.churchofjesuschrist.org/study/general-conference/2026/04/53hall?lang=eng#note44",
+          "location": "Note 44",
+          "kind": "Explicit Isaiah citation"
+        }
+      ]
+    },
+    {
+      "key": "2026-04-54porter",
+      "title": "“Here Am I, Send Me”",
+      "author": "President Susan H. Porter",
+      "conference": "April 2026",
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2026/04/54porter?lang=eng",
+      "references": [
+        {
+          "label": "Isaiah 53:4–5",
+          "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/isa/53?lang=eng&id=p4-p5#p4",
+          "contextUrl": "https://www.churchofjesuschrist.org/study/general-conference/2026/04/54porter?lang=eng#note8",
+          "location": "Note 8",
+          "kind": "Explicit Isaiah citation"
+        }
+      ]
+    },
+    {
+      "key": "2026-04-55andersen",
+      "title": "Eternal Marriage Is an Eternal Journey",
+      "author": "Elder Neil L. Andersen",
+      "conference": "April 2026",
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2026/04/55andersen?lang=eng",
+      "references": [
+        {
+          "label": "Isaiah 40:28–29, 31",
+          "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/isa/40?lang=eng&id=p28-p29,p31#p28",
+          "contextUrl": "https://www.churchofjesuschrist.org/study/general-conference/2026/04/55andersen?lang=eng#note16",
+          "location": "Note 16",
+          "kind": "Explicit Isaiah citation"
+        }
+      ]
+    }
+  ]
+}

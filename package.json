@@ -1,0 +1,7 @@
+{
+  "name": "meridian-isaiah-study",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": { "start": "node scripts/serve.mjs", "check": "node scripts/check.mjs && node scripts/check-map-transitions.mjs && node scripts/check-chapter-maps.mjs && node scripts/check-path-verses.mjs" }
+}
