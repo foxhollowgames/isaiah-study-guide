@@ -24,14 +24,14 @@
           <fieldset><legend>Study perspective</legend><div class="segmented perspective"><button data-perspective="historical" class="active" aria-pressed="true">Historical</button><button data-perspective="lds" aria-pressed="false">LDS</button></div></fieldset>
           <label class="portrait-setting"><input id="nonGeneratedPortraits" type="checkbox" role="switch" aria-describedby="portraitSettingHelp"><span>Use non-generated portraits</span></label>
           <p id="portraitSettingHelp">Use old art when we have a free copy.</p>
+          <button id="libraryButton" class="source-details-button" type="button">Open source library</button>
         </section>
       </div>
     </header>
     <main id="main">
-      <aside class="rail" aria-label="Study navigation"><span>Isaiah</span><div id="railChapters"></div><footer class="rail-footer"><button id="libraryButton" aria-label="Open source library">Sources</button></footer></aside>
       <section class="map-view view active" id="mapView" aria-label="Map study">
         <aside class="scripture-sidebar" id="scriptureSidebar"><div id="sidebarContent" class="sidebar-content"></div>
-        <div id="scriptureResize" class="scripture-resize" role="separator" tabindex="0" aria-label="Scripture panel width" aria-controls="scriptureSidebar" aria-orientation="vertical" aria-valuemin="280" aria-valuemax="720" aria-valuenow="432" title="Drag to change the width. You can also use the Left and Right arrow keys."></div>
+        <div id="scriptureResize" class="scripture-resize" role="separator" tabindex="0" aria-label="Resize scripture panel" aria-controls="scriptureSidebar" aria-orientation="vertical" aria-valuemin="280" aria-valuemax="720" aria-valuenow="432"></div>
         </aside>
         <section class="map-workspace">
           <div class="map-stage"><div id="map" aria-label="Historical map"></div><div class="map-veil"></div>

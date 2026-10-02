@@ -4,7 +4,7 @@ All 66 chapters have an exact World English Bible quotation and an original expl
 
 The chapter enrichment pass added 18 verified short quotations from linked works. The earlier Luckenbill quotation remains. There are now 6 sources with licensed images. The Wikipedia review added article background, artifact and site images, and revised map connections. See WIKIPEDIA-MAP-REVIEW.md for its scope and limits. A chapter without an appropriate image uses its selected passage and explanation. General reading-method advice is labeled separately.
 
-The source inventory covers all 154 source records, including cited works, map data, and language references. It records how each source is used. It is not a claim that every complete external work was read again. Full books, blocked pages, video transcripts, and existing source checks retain their stated limits. Only exact quotations checked against the source text are presented as new direct quotations.
+The source inventory covers all 161 source records, including cited works, map data, and language references. It records how each source is used. It is not a claim that every complete external work was read again. Full books, blocked pages, video transcripts, and existing source checks retain their stated limits. Only exact quotations checked against the source text are presented as new direct quotations.
 
 ## Chapter coverage
 
@@ -99,6 +99,7 @@ Chapter associations include works cited within another source. Some association
 | The Cyrus Cylinder | 44, 45 | Image; Paraphrase or reference |
 | A Concise Dictionary of the Words in the Hebrew Bible | Map, word, or library resource | Paraphrase or reference |
 | Open Scriptures Hebrew Bible | Map, word, or library resource | Paraphrase or reference |
+| Isaiah 7 — Swete’s Septuagint | Map, word, or library resource | Paraphrase or reference |
 | Isaiah 36 — Swete’s Septuagint | Map, word, or library resource | Paraphrase or reference |
 | Isaiah 37 — Swete’s Septuagint | Map, word, or library resource | Paraphrase or reference |
 | Isaiah 38 — Swete’s Septuagint | Map, word, or library resource | Paraphrase or reference |
@@ -207,13 +208,19 @@ Chapter associations include works cited within another source. Some association
 | Isaiah 64 — World English Bible | 64 | Paraphrase or reference |
 | Isaiah 65 — World English Bible | 65 | Paraphrase or reference |
 | Isaiah 66 — World English Bible | 66 | Paraphrase or reference |
+| Poetry in the Book of Isaiah | 1 | Paraphrase or reference |
+| Ann Madsen Shares Insights Into Understanding Isaiah (Part 1) | 30 | Paraphrase or reference |
+| Isaiah 2 · King James Version | 2 | Paraphrase or reference |
+| 2 Nephi 12 · Book of Mormon | 2 | Paraphrase or reference |
 | Sennacherib’s Prism — the Taylor Prism | 36, 37 | Image; Paraphrase or reference |
 | The Annals of Sennacherib — free English translation | 36, 37 | Verified short quotation |
 | The Assyrian Campaign in Judah as told in the Sennacherib Prism | 36, 37 | Paraphrase or reference |
-| Opening Isaiah: A Harmony | 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66 | Paraphrase or reference |
-| Opening Isaiah — public sample: Isaiah 1–6 and 7:1 | 1, 2, 3, 4, 5, 6, 7 | Paraphrase or reference |
-| Shon Hopkin — The Start of Opening Isaiah: A Harmony with Ann Madsen | 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66 | Paraphrase or reference |
-| Ann Madsen — Shares Her Experiences & Studies of Isaiah | 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66 | Verified short quotation |
+| Opening Isaiah: A Harmony | Map, word, or library resource | Paraphrase or reference |
+| Opening Isaiah — public sample: Isaiah 1–6 and 7:1 | Map, word, or library resource | Paraphrase or reference |
+| Shon Hopkin — The Start of Opening Isaiah: A Harmony with Ann Madsen | 2 | Verified short quotation |
+| Ann Madsen — Shares Her Experiences & Studies of Isaiah | 6 | Verified short quotation |
+| The Roads and Highways of Ancient Israel | Map, word, or library resource | Paraphrase or reference |
+| The Land of the Bible: A Historical Geography | Map, word, or library resource | Paraphrase or reference |
 | Constructing the Assyrian Siege Ramp at Lachish | 36 | Paraphrase or reference |
 | Sennacherib · Wikipedia | 36, 37 | Image; Paraphrase or reference |
 | Sennacherib's campaign in the Levant · Wikipedia | 36 | Paraphrase or reference |

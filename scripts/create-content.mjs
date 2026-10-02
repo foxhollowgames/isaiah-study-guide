@@ -7,6 +7,7 @@ import { addMcClellan } from './mcclellan.mjs';
 import { addGeneralConference } from './general-conference.mjs';
 import { addPrismAndHarmony } from './prism-and-harmony.mjs';
 import { addChapterEnrichment } from './chapter-enrichment.mjs';
+import { addAncientRoads } from './ancient-roads.mjs';
 
 const sources = [];
 function s(id,title,author,year,type,url,summary,limitations,license='Linked reading; original Meridian summary, no article reproduction') { sources.push({id,title,author,year,type,url,summary,limitations,license}); }
@@ -118,6 +119,7 @@ addGeneralConference(out);
 addFullIsaiah(out, JSON.parse(await readFile(new URL('../dist/data/scripture.json', import.meta.url), 'utf8')));
 for (const campaign of out.campaigns) campaign.faction = ['lachish-mission', 'west-campaign'].includes(campaign.id) ? 'assyria' : 'babylonia';
 addPrismAndHarmony(out);
+addAncientRoads(out);
 addSourcePreviews(out);
 await addChapterGeography(out, JSON.parse(await readFile(new URL('../dist/data/scripture.json', import.meta.url), 'utf8')));
 addChapterEnrichment(out, JSON.parse(await readFile(new URL('../dist/data/scripture.json', import.meta.url), 'utf8')));

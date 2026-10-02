@@ -43,13 +43,21 @@ async function main() {
   const [content, scripture, relief] = await Promise.all([
     readJson('data/content.json'), readJson('data/scripture.json'), readJson('data/relief.json'),
   ]);
-  for (const key of ['sources', 'passages', 'events', 'places', 'campaigns', 'regions', 'words', 'guides', 'periods']) {
+  const [appSource, styleSource] = await Promise.all([
+    readFile(resolve(dist, 'app.js'), 'utf8'),
+    readFile(resolve(dist, 'styles.css'), 'utf8'),
+  ]);
+  assert(!/feature-uncertainty|<strong>Map limit\./.test(appSource), 'Map features must use the shared footer disclaimer instead of dedicated disclaimer panels');
+  assert(appSource.includes('const regions = state.layers.history ? data.regions.filter(visibleAt) : [];'), 'The Nations toggle must independently control historical regions');
+  assert(appSource.includes("color:'#e1d6b8',weight:active ? 4 : 2.25"), 'Road selection must thicken the parchment road color without changing its hue');
+  assert(styleSource.includes('path.ancient-road-hit:focus-visible{stroke:#e1d6b8;stroke-width:18;stroke-opacity:.08}'), 'Keyboard focus must not restore the blue road style');
+  for (const key of ['sources', 'passages', 'events', 'places', 'campaigns', 'ancientRoads', 'regions', 'words', 'guides', 'periods']) {
     assert(Array.isArray(content[key]), `content.json.${key} must be an array`);
   }
 
   const sourceById = ids(content.sources, 'source');
   const placeById = ids(content.places, 'place');
-  ids(content.passages, 'passage'); ids(content.events, 'event'); ids(content.campaigns, 'campaign'); ids(content.regions, 'region'); ids(content.words, 'word'); ids(content.guides, 'guide'); ids(content.periods, 'period');
+  ids(content.passages, 'passage'); ids(content.events, 'event'); ids(content.campaigns, 'campaign'); const roadById = ids(content.ancientRoads, 'ancient road'); ids(content.regions, 'region'); ids(content.words, 'word'); ids(content.guides, 'guide'); ids(content.periods, 'period');
 
   for (const source of content.sources) {
     if (source.image) {
@@ -140,6 +148,20 @@ async function main() {
     campaign.points?.forEach((point, i) => coordinate(point, `Campaign ${campaign.id} point ${i + 1}`));
     reference(campaign.sourceIds, sourceById, `Campaign ${campaign.id}`); checkChapterVerse(campaign.chapter, campaign.verse, `Campaign ${campaign.id}`, scripture);
   }
+
+  for (const road of content.ancientRoads) {
+    assert(['strong', 'probable'].includes(road.confidence), `Ancient road ${road.id} needs a supported confidence level`);
+    assert(road.title && road.summary && road.detail && road.uncertainty, `Ancient road ${road.id} is missing display text`);
+    assert(Array.isArray(road.points) && road.points.length >= 2, `Ancient road ${road.id} must have at least two corridor points`);
+    road.points?.forEach((point, i) => coordinate(point, `Ancient road ${road.id} point ${i + 1}`));
+    reference(road.sourceIds, sourceById, `Ancient road ${road.id}`);
+  }
+  for (const id of ['road-syrian-inland', 'road-aleppo-euphrates', 'road-assyrian-kings-road', 'road-assyrian-tigris', 'road-arbela-babylonia']) {
+    assert(roadById.has(id), `Regional road coverage is missing ${id}`);
+  }
+  const roadPoints = content.ancientRoads.flatMap(road => road.points);
+  assert(Math.max(...roadPoints.map(([, lng]) => lng)) >= 44, 'Road coverage must extend east through Assyria toward Babylonia');
+  assert(Math.max(...roadPoints.map(([lat]) => lat)) >= 37, 'Road coverage must extend north through the upper Mesopotamian corridor');
 
   for (const region of content.regions) {
     assert(region.name && region.summary && region.color, `Region ${region.id} is missing display text or color`);

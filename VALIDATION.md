@@ -105,6 +105,23 @@ Added source-based notes for Isaiah 1, 2, 6, and 30 in LDS mode. These replace t
 
 All six check suites pass. Automated checks cover the selected chapter citations and all 132 chapter and mode renders. They confirm that the new notes are absent from unrelated chapters and Historical mode. The old generic reading-help section remains absent. JavaScript syntax checks pass.
 
+## Ancient roads layer — October 2, 2026
+
+- Added 14 sourced Iron Age travel corridors across the southern Levant, inland Syria, Assyria, and Babylonia. Ten use the stronger evidence style. Four use a dashed probable-corridor style.
+- The Ancient roads layer is off by default. Its saved setting survives reloads. Roads stay below chapter Paths and do not receive direction arrows.
+- Each road supports pointer and keyboard selection. Its card gives a description and links to Dorsey and Aharoni as applicable. The shared footer provides the map disclaimer.
+- Added schema checks for road IDs, confidence levels, coordinates, required explanations, and source references.
+- `npm run check`, JavaScript syntax checks, and `git diff --check` pass. Browser checks covered desktop and 390 × 844 layouts, toggle on/off, keyboard selection, the source card, saved state, and console warnings or errors. No console warnings or errors were present.
+
+### Road and layer corrections
+
+- Roads now use a thin, light parchment line (`#e1d6b8`). They remain less prominent than chapter Paths.
+- A selected road keeps the same color. It becomes thicker and more opaque. Pointer and keyboard focus do not add a blue road style.
+- The Nations control now independently shows or hides historical nation regions. The Areas control continues to manage chapter-specific areas.
+- Road cards use the shared footer disclaimer. They do not add a separate map-limit panel.
+- Regression checks protect the shared-disclaimer rule, the Nations layer boundary, and the road selection style.
+- Expanded coverage includes the Damascus–Aleppo inland corridor, the Aleppo–Euphrates approach, the Assyrian King’s Road to Nineveh, the Tigris route through the Assyrian capitals, and the route through Arbela toward Babylonia. The added records cite academic historical geography and Oracc’s Assyrian Empire Builders project.
+
 ## Closer terrain zoom
 
 - Raised the manual zoom limit from 10 to 14.

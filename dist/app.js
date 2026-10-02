@@ -5,9 +5,9 @@ import { chapterFocus, chapterRoutes, chapterPoints, movementStyle } from './cha
 const $ = (s, root = document) => root.querySelector(s);
 const $$ = (s, root = document) => [...root.querySelectorAll(s)];
 const chapters = Array.from({ length: 66 }, (_, i) => i + 1);
-const defaults = { chapter: 1, verse: 1, view: 'map', perspective: 'historical', portraitMode: 'generated', date: -701, layers: { places: true, regions: true, campaigns: true, history: false }, sidebar: 'scripture', map: { center: [32.1, 35.0], zoom: 7 } };
+const defaults = { chapter: 1, verse: 1, view: 'map', perspective: 'historical', portraitMode: 'generated', date: -701, layers: { places: true, regions: true, campaigns: true, roads: false, history: false }, sidebar: 'scripture', map: { center: [32.1, 35.0], zoom: 7 } };
 let state = { ...defaults, ...readSaved(), layers: { ...defaults.layers, ...(readSaved().layers || {}) } };
-let data = { sources: [], passages: [], events: [], places: [], campaigns: [], regions: [], words: [], guides: [], periods: [] };
+let data = { sources: [], passages: [], events: [], places: [], campaigns: [], ancientRoads: [], regions: [], words: [], guides: [], periods: [] };
 let scripture = { translation: 'World English Bible', chapters: {} };
 let map, savedScroll = 0, selectedWordButton, toastTimer, guideState = null;
 
@@ -104,8 +104,7 @@ function buildStaticUi() {
   $('#scriptureAttribution').textContent = `${scripture.translation || 'World English Bible'} · ${scripture.copyright || 'Public domain'}`;
   initScriptureResize();
   initTimelineTooltip();
-  $('#railChapters').innerHTML = chapters.map(c => `<button data-chapter="${c}" aria-label="Isaiah ${c}">${c}</button>`).join('');
-  $('#layerOptions').innerHTML = [['places','Places','place'],['regions','Areas','region'],['campaigns','Paths','route'],['history','Nations','region']].map(([key,label,kind]) => `<label class="layer-option"><input type="checkbox" data-layer="${key}"><span class="layer-swatch ${kind}"></span>${label}</label>`).join('');
+  $('#layerOptions').innerHTML = [['places','Places','place'],['regions','Areas','region'],['campaigns','Paths','route'],['roads','Ancient roads','road'],['history','Nations','region']].map(([key,label,kind]) => `<label class="layer-option"><input type="checkbox" data-layer="${key}"><span class="layer-swatch ${kind}"></span>${label}</label>`).join('');
   $('#periods').innerHTML = (data.periods.length ? data.periods : [{id:'pre',label:'Before Isaiah',description:'Earlier events'},{id:'isaiah',label:'Isaiah',description:'Events in Isaiah 36–39'},{id:'post',label:'After Isaiah',description:'Later events'}]).slice(0,3).map(p => `<button data-period="${esc(p.id)}">${esc(p.label)}<small>${esc(p.description || '')}</small></button>`).join('');
   document.addEventListener('click', onClick);
   document.addEventListener('change', onChange);
@@ -150,29 +149,43 @@ function initSettings() {
 }
 function initScriptureResize() {
   const divider = $('#scriptureResize'), panel = $('#scriptureSidebar'), view = $('#mapView');
-  const desktop = matchMedia('(min-width:721px)');
+  const wide = matchMedia('(min-width:1025px)');
   let drag = null, frame = 0;
-  const maximum = () => Math.max(280, view.clientWidth - 288);
-  function update(width) {
-    if (!desktop.matches || !view.clientWidth) return;
-    const value = Math.round(Math.max(280, Math.min(maximum(), width)));
-    panel.style.setProperty('--scripture-width', `${value}px`);
+  const minimum = () => wide.matches ? 280 : 220;
+  const maximum = () => wide.matches ? Math.max(280, view.clientWidth - 288) : Math.max(220, view.clientHeight - 180);
+  function update(size) {
+    if (!view.clientWidth || !view.clientHeight) return;
+    const value = Math.round(Math.max(minimum(), Math.min(maximum(), size)));
+    panel.style.setProperty(wide.matches ? '--scripture-width' : '--scripture-height', `${value}px`);
     divider.setAttribute('aria-valuemax', String(maximum()));
+    divider.setAttribute('aria-valuemin', String(minimum()));
     divider.setAttribute('aria-valuenow', String(value));
     divider.setAttribute('aria-valuetext', `${value} pixels`);
     return value;
   }
+  function syncMode() {
+    const isWide = wide.matches;
+    divider.setAttribute('aria-orientation', isWide ? 'vertical' : 'horizontal');
+    divider.title = isWide
+      ? 'Drag left or right to resize the scripture panel. You can also use the Left and Right arrow keys.'
+      : 'Drag up to enlarge the scripture panel. You can also use the Up and Down arrow keys.';
+    update(isWide
+      ? Number(state.scriptureWidth) || (innerWidth <= 1100 ? 365 : 432)
+      : Number(state.scriptureHeight) || Math.round(view.clientHeight * 0.42));
+  }
   divider.addEventListener('pointerdown', e => {
-    if (e.button !== 0 || !desktop.matches) return;
+    if (e.button !== 0) return;
     e.preventDefault();
     divider.focus();
-    drag = { id: e.pointerId, x: e.clientX, width: panel.getBoundingClientRect().width };
+    const bounds = panel.getBoundingClientRect();
+    drag = { id: e.pointerId, x: e.clientX, y: e.clientY, width: bounds.width, height: bounds.height };
     divider.setPointerCapture(e.pointerId);
     document.body.classList.add('resizing-scripture');
   });
   divider.addEventListener('pointermove', e => {
     if (!drag || e.pointerId !== drag.id) return;
-    state.scriptureWidth = update(drag.width + e.clientX - drag.x);
+    if (wide.matches) state.scriptureWidth = update(drag.width + e.clientX - drag.x);
+    else state.scriptureHeight = update(drag.height + drag.y - e.clientY);
   });
   function finish() {
     if (!drag) return;
@@ -184,16 +197,20 @@ function initScriptureResize() {
   divider.addEventListener('pointercancel', finish);
   divider.addEventListener('lostpointercapture', finish);
   divider.addEventListener('keydown', e => {
-    const current = panel.getBoundingClientRect().width;
-    const widths = { ArrowLeft: current - 20, ArrowRight: current + 20, Home: 280, End: maximum() };
-    if (!(e.key in widths)) return;
+    const bounds = panel.getBoundingClientRect();
+    const sizes = wide.matches
+      ? { ArrowLeft: bounds.width - 20, ArrowRight: bounds.width + 20, Home: minimum(), End: maximum() }
+      : { ArrowDown: bounds.height - 20, ArrowUp: bounds.height + 20, Home: minimum(), End: maximum() };
+    if (!(e.key in sizes)) return;
     e.preventDefault();
-    state.scriptureWidth = update(widths[e.key]);
+    if (wide.matches) state.scriptureWidth = update(sizes[e.key]);
+    else state.scriptureHeight = update(sizes[e.key]);
     persist();
   });
   new ResizeObserver(() => {
-    update(Number(state.scriptureWidth) || (innerWidth <= 1100 ? 365 : 432));
+    syncMode();
   }).observe(view);
+  wide.addEventListener('change', syncMode);
   new ResizeObserver(() => {
     cancelAnimationFrame(frame);
     frame = requestAnimationFrame(() => map?.invalidateSize({ pan: false }));
@@ -389,8 +406,8 @@ function initTimelineTooltip() {
 }
 function eventsNear(year, range = 10) { return data.events.filter(e => Math.abs(Number(e.year) - year) <= range).sort((a,b) => Math.abs(a.year-year)-Math.abs(b.year-year)); }
 function selectEvent(event) { state.date = Number(event.year); renderTimeline(); drawOverlays(); persist(); openFeature(event, true, null); }
-function findFeature(id) { return [...data.places, ...data.events, ...data.campaigns, ...data.regions, ...focusedRoutes(), ...chapterImpacts(), ...chapterAreas()].find(f => f.id === id); }
-function featureType(f) { return f.narrativeRegion ? 'Map area' : f.impact ? 'Loss or pain' : f.chapterRoute || f.textRoute ? 'Chapter path' : data.campaigns.includes(f) ? 'Army path' : data.regions.includes(f) ? 'Area of rule' : data.places.includes(f) ? 'Place' : 'Event'; }
+function findFeature(id) { return [...data.places, ...data.events, ...data.campaigns, ...data.ancientRoads, ...data.regions, ...focusedRoutes(), ...chapterImpacts(), ...chapterAreas()].find(f => f.id === id); }
+function featureType(f) { return f.narrativeRegion ? 'Map area' : f.impact ? 'Loss or pain' : f.chapterRoute || f.textRoute ? 'Chapter path' : data.ancientRoads.includes(f) ? 'Major road corridor' : data.campaigns.includes(f) ? 'Army path' : data.regions.includes(f) ? 'Area of rule' : data.places.includes(f) ? 'Place' : 'Event'; }
 function mapDisplayText(text = '') {
   const footerCovered = /\b(?:map|line|connection|route|road|itinerary|coordinate|pin|location|border|area of influence|travel order|sequence of (?:movement|stops))\b/i;
   const caveat = /\b(?:approximate|schematic|representative|precise|exact|verified|confirmed|unknown|uncertain|does not (?:establish|show|trace|identify|reconstruct)|not (?:a|an|the)|remain debated)\b/i;
@@ -566,7 +583,7 @@ function initMap() {
   // Remove color outside the terrain bounds. Keep story markers above this pane.
   map.getPane('outsideFocus').style.mixBlendMode = 'saturation';
   // Keep area fills and distress rings below city dots in every draw order.
-  for (const [name,z] of [['areas',300],['routes',410],['impacts',415],['places',420],['geography',450]]) {
+  for (const [name,z] of [['areas',300],['roads',390],['routes',410],['impacts',415],['places',420],['geography',450]]) {
     map.createPane(name); map.getPane(name).style.zIndex = z;
   }
   map.getPane('geography').style.pointerEvents = 'none';
@@ -738,14 +755,20 @@ function drawOverlays() {
   };
   const current = findFeature($('#contextCard').dataset.feature);
   if (current && !visibleAt(current)) hideModalPanel($('#contextCard'));
-  const regions = state.layers.regions && (state.layers.history || activePassage()?.year != null) ? data.regions.filter(visibleAt) : [];
+  const regions = state.layers.history ? data.regions.filter(visibleAt) : [];
   if (state.layers.regions) chapterAreas().forEach(r => {
     feature(r.id,()=>L.polygon(r.points,{pane:'areas',color:'#79501b',weight:2.5,dashArray:'6 4',fillColor:'#d39a48',fillOpacity:.32,className:'chapter-area'}),r);
   });
   const campaigns = state.layers.campaigns ? displayedCampaigns() : [];
+  const roads = state.layers.roads ? data.ancientRoads : [];
   regions.forEach(r => {
     const color = factionFor(r).color;
     feature(`region:${r.id}`, () => L.polygon(r.points, { pane:'areas', color, weight: 2.5, dashArray: '6 4', fillColor: color, fillOpacity: .3, className: 'region-overlay' }), r);
+  });
+  roads.forEach(road => {
+    const dash = road.confidence === 'probable' ? '7 7' : null;
+    feature(`road:${road.id}`, () => L.polyline(road.points, {pane:'roads',color:'#e1d6b8',weight:2.25,opacity:.58,dashArray:dash,interactive:false,className:'ancient-road-overlay'}));
+    feature(`road-hit:${road.id}`, () => L.polyline(road.points, {pane:'roads',color:'#e1d6b8',weight:18,opacity:0,className:'ancient-road-hit'}), road);
   });
   campaigns.forEach(c => {
     const style = movementStyle(c), color = c.chapterRoute ? style.color : factionFor(c).color;
@@ -765,7 +788,8 @@ function drawOverlays() {
   $('#factionLegend').hidden = !active.length;
   const focus = chapterFocus(data, state.chapter);
   const kinds = [...new Set(campaigns.filter(c=>c.chapterRoute).map(c=>c.kind))];
-  $('.map-note').innerHTML = `<button data-action="focus-chapter" class="chapter-focus-button">Focus Isaiah ${state.chapter}</button><div class="movement-legend">${kinds.map(kind=>{const s=movementStyle({kind});return `<span><i style="background:${s.color}"></i>${s.label}</span>`;}).join('')}${focus?.impacts?.length && state.layers.places ? '<span><i class="impact-key"></i>Destruction / distress</span>' : ''}</div>${focus?.narrative ? `<details><summary>Map context</summary>${esc(focus.narrative)}</details>` : ''}`;
+  const roadKey = roads.length ? '<div class="road-key"><span><i></i>Strong corridor</span><span><i class="probable"></i>Probable corridor</span></div>' : '';
+  $('.map-note').innerHTML = `<button data-action="focus-chapter" class="chapter-focus-button">Focus Isaiah ${state.chapter}</button><div class="movement-legend">${kinds.map(kind=>{const s=movementStyle({kind});return `<span><i style="background:${s.color}"></i>${s.label}</span>`;}).join('')}${focus?.impacts?.length && state.layers.places ? '<span><i class="impact-key"></i>Destruction / distress</span>' : ''}</div>${roadKey}${focus?.narrative ? `<details><summary>Map context</summary>${esc(focus.narrative)}</details>` : ''}`;
   refreshMapDetails();
 }
 function refreshMapDetails() {
@@ -892,6 +916,11 @@ function syncMapSelection() {
       el?.classList.toggle('selected-place', active);
       el?.setAttribute('aria-pressed', String(active));
     }
+  }
+  for (const road of data.ancientRoads) {
+    const active = road.id === selected;
+    mapFeatures.get(`road:${road.id}`)?.layer.setStyle({color:'#e1d6b8',weight:active ? 4 : 2.25,opacity:active ? .92 : .58});
+    mapFeatures.get(`road-hit:${road.id}`)?.layer.getElement()?.setAttribute('aria-pressed', String(active));
   }
 }
 function leafletLabel(latlng, label, className, feature) {
