@@ -4,6 +4,7 @@ import { initModalDragging } from './modal-drag.js';
 import { chapterFocus, chapterRoutes, chapterPoints, movementStyle } from './chapter-map.js';
 const $ = (s, root = document) => root.querySelector(s);
 const $$ = (s, root = document) => [...root.querySelectorAll(s)];
+const releaseVersion = '20261002.2';
 const chapters = Array.from({ length: 66 }, (_, i) => i + 1);
 const defaults = { chapter: 1, verse: 1, view: 'map', perspective: 'historical', portraitMode: 'generated', date: -701, layers: { places: true, regions: true, campaigns: true, roads: false, history: false }, sidebar: 'scripture', map: { center: [32.1, 35.0], zoom: 7 } };
 let state = { ...defaults, ...readSaved(), layers: { ...defaults.layers, ...(readSaved().layers || {}) } };
@@ -82,7 +83,7 @@ function matchWord(token, candidates) { const plain = token.replace(/^[^\p{L}\p{
 
 async function load() {
   parseUrl();
-  const results = await Promise.allSettled(['data/content.json', 'data/scripture.json', 'data/portrait-images.json'].map(p => fetch(p).then(r => { if (!r.ok) throw Error(`${p} (${r.status})`); return r.json(); })));
+  const results = await Promise.allSettled(['data/content.json', 'data/scripture.json', 'data/portrait-images.json'].map(p => fetch(`${p}?v=${releaseVersion}`).then(r => { if (!r.ok) throw Error(`${p} (${r.status})`); return r.json(); })));
   if (results[0].status === 'fulfilled') data = { ...data, ...results[0].value };
   if (results[1].status === 'fulfilled') scripture = results[1].value;
   if (!chapters.includes(state.chapter)) state.chapter = 1;
@@ -98,13 +99,25 @@ async function load() {
   if (results.some(r => r.status === 'rejected')) showToast('Some study notes did not load. Reload the page and try again.');
 }
 
+function ensureLayerOptions() {
+  const existing = $('#layerOptions');
+  if (existing) return existing;
+  const toggle = $('#layerToggle'), panel = toggle?.closest('.layers');
+  if (!toggle || !panel) return null;
+  const options = document.createElement('div');
+  options.id = 'layerOptions';
+  toggle.insertAdjacentElement('afterend', options);
+  return options;
+}
 function buildStaticUi() {
   initSettings();
   initModalDragging();
   $('#scriptureAttribution').textContent = `${scripture.translation || 'World English Bible'} · ${scripture.copyright || 'Public domain'}`;
   initScriptureResize();
   initTimelineTooltip();
-  $('#layerOptions').innerHTML = [['places','Places','place'],['regions','Areas','region'],['campaigns','Paths','route'],['roads','Ancient roads','road'],['history','Nations','region']].map(([key,label,kind]) => `<label class="layer-option"><input type="checkbox" data-layer="${key}"><span class="layer-swatch ${kind}"></span>${label}</label>`).join('');
+  const layerOptions = ensureLayerOptions();
+  if (!layerOptions) throw new Error('Map layer controls are unavailable.');
+  layerOptions.innerHTML = [['places','Places','place'],['regions','Areas','region'],['campaigns','Paths','route'],['roads','Ancient roads','road'],['history','Nations','region']].map(([key,label,kind]) => `<label class="layer-option"><input type="checkbox" data-layer="${key}"><span class="layer-swatch ${kind}"></span>${label}</label>`).join('');
   $('#periods').innerHTML = (data.periods.length ? data.periods : [{id:'pre',label:'Before Isaiah',description:'Earlier events'},{id:'isaiah',label:'Isaiah',description:'Events in Isaiah 36–39'},{id:'post',label:'After Isaiah',description:'Later events'}]).slice(0,3).map(p => `<button data-period="${esc(p.id)}">${esc(p.label)}<small>${esc(p.description || '')}</small></button>`).join('');
   document.addEventListener('click', onClick);
   document.addEventListener('change', onChange);
@@ -117,7 +130,7 @@ function buildStaticUi() {
     hideModalPanel(dialog);
   });
   if (matchMedia('(max-width:720px)').matches) {
-    $('#layerOptions').classList.add('hidden');
+    layerOptions.classList.add('hidden');
     $('#layerToggle').setAttribute('aria-expanded', 'false');
   }
 }

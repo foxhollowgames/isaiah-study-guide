@@ -121,6 +121,7 @@ All six check suites pass. Automated checks cover the selected chapter citations
 - Road cards use the shared footer disclaimer. They do not add a separate map-limit panel.
 - Regression checks protect the shared-disclaimer rule, the Nations layer boundary, and the road selection style.
 - Expanded coverage includes the Damascus–Aleppo inland corridor, the Aleppo–Euphrates approach, the Assyrian King’s Road to Nineveh, the Tigris route through the Assyrian capitals, and the route through Arbela toward Babylonia. The added records cite academic historical geography and Oracc’s Assyrian Empire Builders project.
+- Release assets and data now use one version token. If a browser temporarily combines cached HTML with a newer script, startup recreates the missing layer-options container instead of leaving the map blank.
 
 ## Closer terrain zoom
 

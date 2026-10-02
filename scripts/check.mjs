@@ -43,14 +43,17 @@ async function main() {
   const [content, scripture, relief] = await Promise.all([
     readJson('data/content.json'), readJson('data/scripture.json'), readJson('data/relief.json'),
   ]);
-  const [appSource, styleSource] = await Promise.all([
+  const [appSource, styleSource, indexSource] = await Promise.all([
     readFile(resolve(dist, 'app.js'), 'utf8'),
     readFile(resolve(dist, 'styles.css'), 'utf8'),
+    readFile(resolve(dist, 'index.html'), 'utf8'),
   ]);
   assert(!/feature-uncertainty|<strong>Map limit\./.test(appSource), 'Map features must use the shared footer disclaimer instead of dedicated disclaimer panels');
   assert(appSource.includes('const regions = state.layers.history ? data.regions.filter(visibleAt) : [];'), 'The Nations toggle must independently control historical regions');
   assert(appSource.includes("color:'#e1d6b8',weight:active ? 4 : 2.25"), 'Road selection must thicken the parchment road color without changing its hue');
   assert(styleSource.includes('path.ancient-road-hit:focus-visible{stroke:#e1d6b8;stroke-width:18;stroke-opacity:.08}'), 'Keyboard focus must not restore the blue road style');
+  assert(appSource.includes('function ensureLayerOptions()') && appSource.includes("fetch(`${p}?v=${releaseVersion}`)"), 'Startup must recover the layer controls and version its data requests');
+  assert(indexSource.includes('styles.css?v=20261002.2') && indexSource.includes("app.js?v=20261002.2"), 'The page must request one version of its release assets');
   for (const key of ['sources', 'passages', 'events', 'places', 'campaigns', 'ancientRoads', 'regions', 'words', 'guides', 'periods']) {
     assert(Array.isArray(content[key]), `content.json.${key} must be an array`);
   }
