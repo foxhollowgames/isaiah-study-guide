@@ -68,6 +68,77 @@ const notes = `
   return { chapter:Number(chapter),title,summary,question,placeIds:places ? places.split(',') : [] };
 });
 
+// Reader copy. Each note keeps the main idea but uses short, direct sentences.
+const simpleNotes = `
+1|Judah has turned away from God. God asks the people to stop doing wrong. He tells them to help people in need. God also gives them hope.|How can worship help you care for others?
+2|People from many lands come to learn from God. They turn swords into farm tools. God warns them not to trust pride, wealth, or idols.|How can God’s ways change how you treat people?
+3|Judah loses its good leaders. Some leaders hurt poor people. God calls them to answer for what they did.|How should leaders care for poor people?
+4|God makes Jerusalem clean. He stays with the people who are left. A cloud, fire, and shelter show his care.|How does God clean and guard his people?
+5|God’s people are like a vineyard. God wants good fruit, such as fair and kind acts. He finds harm instead.|What good fruit can you grow in your town?
+6|Isaiah sees the Lord. God makes Isaiah clean. Isaiah then agrees to do a hard job for God.|How does God help Isaiah answer his call?
+7|Two kings plan to attack Judah. Isaiah tells King Ahaz not to fear. God gives a sign called Immanuel.|What does fear do to Ahaz’s trust?
+8|Assyria is coming like a flood. Isaiah tells the people to fear God, not their foes. He warns them about false guides.|Who do you listen to when you feel afraid?
+9|A great light shines on people in pain. A child will rule with peace and justice. The chapter also warns proud leaders.|What kind of hope does a just ruler bring?
+10|Assyria harms many lands and grows proud. God says its power will end. A small group of God’s people will return.|How can success make a person proud?
+11|A new ruler comes from Jesse’s family. God’s Spirit rests on him. He rules with justice and brings peace.|How does this ruler care for poor people?
+12|The people thank God for saving them. They trust him and are not afraid. They tell others what God has done.|How can you share your thanks to God?
+13|God warns proud Babylon. A great attack will bring the city down. Its fall shows that human power does not last.|Why does human power fail?
+14|Israel sings about the fall of Babylon’s king. His pride brought him down. The chapter also warns Assyria and Philistia.|What does pride do to a ruler?
+15|Towns in Moab fall. People cry and run away. Isaiah feels grief for them.|How should we act when other people hurt?
+16|Moab asks for a safe place. The chapter calls for a fair ruler. It also warns Moab about pride.|Why do proud people still need help?
+17|Damascus and Israel lose their power. A few people live. They learn to look to God, not things they made.|What changes when people look to God?
+18|Fast messengers cross the land. God waits and watches. At the end, people bring a gift to Zion.|What can you learn when God seems to wait?
+19|Egypt faces fear, fights, and hunger. Later, Egypt turns to God. Egypt, Assyria, and Israel share God’s gift.|How can God bring old foes together?
+20|Isaiah acts out a warning. Egypt and Cush will be taken away. People learn that these nations cannot save them.|What may look safe but fail later?
+21|A guard watches for news. He says that Babylon has fallen. The chapter also tells people to help those who flee war.|How can you watch and also help?
+22|Jerusalem gets ready for war but forgets God. The people feast when they should turn back. God also gives Eliakim a key and a new job.|How can you plan and still trust God?
+23|Tyre grows rich through sea trade. Then its trade fails. The chapter asks how wealth should be used.|How should people use wealth?
+24|The whole earth feels God’s judgment. Joy ends because people break faith with God. God will rule from Zion.|How do broken promises hurt a town?
+25|God makes a feast for all people. He ends death, tears, and shame. He also brings proud Moab down.|Who is welcome at God’s feast?
+26|Judah sings about trust. The people still feel pain and wait for justice. They also hope that the dead will live.|How can hope and pain exist together?
+27|God guards his vineyard. It grows fruit again. God gathers his people back to worship him.|How is this vineyard unlike the one in chapter 5?
+28|Proud leaders trust lies. God offers a firm stone as a safe base. A farmer shows that God works in more than one way.|What makes a base safe and strong?
+29|Jerusalem faces danger. The people honor God with words, but not with their hearts. God promises that they will see and hear again.|How can words of worship become empty?
+30|Judah runs to Egypt for help. God asks the people to rest and trust him. They refuse, but God still offers mercy.|Why can quiet trust feel hard?
+31|Egypt’s horses cannot save Judah. Human strength cannot take God’s place. God asks his people to return.|What good things can become false gods?
+32|A good king rules with justice. God’s Spirit changes the land. Justice brings peace and safe homes.|Why does true peace need justice?
+33|The people ask God for help. Roads are empty, and peace deals are broken. God promises safety, justice, and pardon.|How can people live close to a holy God?
+34|God judges Edom and other nations. The poem shows fire and empty land. These pictures show that proud power ends.|What do the empty cities teach about power?
+35|The dry land blooms. Weak people grow strong. A safe road brings God’s people home with joy.|How do healing and coming home fit together?
+40|God speaks comfort to Jerusalem. People grow tired, but God does not. He gives new strength to those who trust him.|How does God help people who feel forgotten?
+41|God tells Israel not to fear. He calls Israel his servant. He will hold and help his people.|How does God’s help change fear?
+42|God’s servant brings justice with care. He does not crush weak people. God also tells his people to see and hear.|How can a gentle person still be strong?
+43|God calls Israel by name. He stays with his people through water and fire. He makes a new path in the desert.|How does an old rescue give new hope?
+44|People make an idol from the same wood they burn. The idol cannot save them. God names Cyrus as a ruler who will help Jerusalem.|Why can things we make not save us?
+45|God gives Cyrus a job, though Cyrus does not know him. God rules over all lands. He asks all people to turn to him.|Who can God use to do his work?
+46|People must carry Babylon’s gods. God says he will carry his people all their lives. He alone can save.|What does it mean for God to carry you?
+47|Babylon is like a queen who loses her throne. Her pride and magic cannot save her. God holds her to account.|How can pride hide our wrong acts?
+48|God asks Israel to listen. He tells the people to leave Babylon. He will care for them on the way.|What can keep you from listening to God?
+49|God’s servant has a task for all nations. Zion thinks God forgot her. God says his care is stronger than a mother’s care.|How does God answer Zion’s fear?
+50|God’s servant listens before he speaks. He helps tired people and trusts God through pain. Others trust their own light.|How does listening help you serve?
+51|God tells the people to remember Abraham and Sarah. Old acts of rescue give them hope. Jerusalem’s pain will end.|How can old stories give new hope?
+52|A messenger brings good news to Zion. He tells of peace, rescue, and God’s rule. The people are called to leave and be clean.|Why is this news good?
+53|People first reject God’s servant. Then they see his pain in a new way. He suffers for others and is honored in the end.|How does this chapter help you think about Jesus?
+54|Zion feels like a wife left alone. God promises love and peace. He will build the city again and guard its people.|How do these family pictures show love?
+55|God offers free food and drink to thirsty people. He asks them to listen and live. His word will do its work.|What good gifts can we not buy?
+56|God welcomes people who once felt left out. His house is for all people who keep his covenant. He also warns bad leaders.|Who is welcome in God’s house?
+57|The people worship false gods. Yet God stays near humble people who are sorry. He offers healing and peace.|Why does God come near humble people?
+58|The people fast but still hurt others. God asks them to feed, house, and clothe people in need. Such care brings light.|How can care for others make worship real?
+59|Lies and violence push people away from God. The people admit their shared sin. God comes to save and judge.|How can a group admit that it did wrong?
+60|God’s light rises over Zion. Nations and lost children come to the city. God gives it peace and lasting light.|How can God’s light help you serve?
+61|God’s chosen servant brings good news. He helps poor, hurt, and trapped people. Ruined places will be built again.|How does Jesus bring good news and care?
+62|Zion gets a new name. It is no longer left alone. Watchmen pray as a road is made ready for the people.|How can a new name give hope?
+63|A warrior comes after judgment. Then the people recall God’s past love and help. They ask him to return.|How can prayer hold pain and hope?
+64|The people ask God to come down. They admit their sin. They call God their Father and the maker who shapes clay.|What does the clay picture teach about God?
+65|God judges those who fight him. He blesses his servants. He promises a new world with joy, homes, good work, and peace.|What parts of life will God make new?
+66|God values humble people who listen to him. He comforts Zion and judges evil. The book ends with all nations coming to worship.|How do comfort and judgment fit together?
+`.trim().split('\n').map(line => {
+  const [chapter, summary, question] = line.split('|');
+  return [Number(chapter), {summary, question}];
+});
+const simpleNoteByChapter = new Map(simpleNotes);
+for (const note of notes) Object.assign(note, simpleNoteByChapter.get(note.chapter));
+
 export function addFullIsaiah(content, scripture) {
   const web = content.sources.find(s => s.id === 'web');
   web.title = 'Isaiah — World English Bible';
@@ -75,7 +146,7 @@ export function addFullIsaiah(content, scripture) {
   web.url = 'https://ebible.org/engwebp/ISA01.htm';
   for (const note of notes) {
     const c = note.chapter, sourceId = `web${c}`;
-    content.sources.push({id:sourceId,title:`Isaiah ${c} — World English Bible`,author:'World English Bible project',year:'2026 retrieval',type:'Biblical text',url:`https://ebible.org/engwebp/ISA${String(c).padStart(2,'0')}.htm`,summary:note.summary,limitations:'This source supplies the chapter text. Meridian summaries and questions are reading aids, not independent historical evidence.',license:'Public domain'});
+    content.sources.push({id:sourceId,title:`Isaiah ${c} — World English Bible`,author:'World English Bible project',year:'2026 retrieval',type:'Biblical text',url:`https://ebible.org/engwebp/ISA${String(c).padStart(2,'0')}.htm`,summary:note.summary,limitations:'This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history.',license:'Public domain'});
     const lesson = c <= 12 ? 38 : c <= 35 ? 39 : c <= 49 ? 40 : c <= 57 ? 41 : 42;
     const direct = !(c >= 15 && c <= 21 || c === 23 || c >= 31 && c <= 34);
     const lds = {

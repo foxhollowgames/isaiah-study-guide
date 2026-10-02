@@ -1,14 +1,15 @@
-import { featurePortraits, wordPortraits } from './portraits.js';
+import { initChapterPicker } from './chapter-picker.js';
+import { featurePortraits, wordPortraits, setPortraitMode } from './portraits.js';
+import { initModalDragging } from './modal-drag.js';
 import { chapterFocus, chapterRoutes, chapterPoints, movementStyle } from './chapter-map.js';
 const $ = (s, root = document) => root.querySelector(s);
 const $$ = (s, root = document) => [...root.querySelectorAll(s)];
 const chapters = Array.from({ length: 66 }, (_, i) => i + 1);
-const defaults = { chapter: 1, verse: 1, view: 'map', perspective: 'historical', date: -701, layers: { places: true, regions: true, campaigns: true, history: false }, sidebar: 'scripture', map: { center: [32.1, 35.0], zoom: 7 } };
+const defaults = { chapter: 1, verse: 1, view: 'map', perspective: 'historical', portraitMode: 'generated', date: -701, layers: { places: true, regions: true, campaigns: true, history: false }, sidebar: 'scripture', map: { center: [32.1, 35.0], zoom: 7 } };
 let state = { ...defaults, ...readSaved(), layers: { ...defaults.layers, ...(readSaved().layers || {}) } };
 let data = { sources: [], passages: [], events: [], places: [], campaigns: [], regions: [], words: [], guides: [], periods: [] };
 let scripture = { translation: 'World English Bible', chapters: {} };
-let map, savedScroll = 0, selectedWordButton, toastTimer, cardCloseTimer, cardOpenTimer, guideState = null;
-let suppressFeatureFocus = false;
+let map, savedScroll = 0, selectedWordButton, toastTimer, guideState = null;
 
 function readSaved() { try { return JSON.parse(localStorage.getItem('meridian-state')) || {}; } catch { return {}; } }
 function persist() { try { localStorage.setItem('meridian-state', JSON.stringify({ ...state, map: map ? { center: [map.getCenter().lat, map.getCenter().lng], zoom: map.getZoom() } : state.map })); } catch {} updateUrl(); }
@@ -21,17 +22,18 @@ function source(id) { return data.sources.find(s => s.id === id); }
 function sourcesHtml(ids = [], numbered = false) {
   ids = [...new Set(ids)].filter(id => source(id));
   if (!ids.length) return '<p class="muted">This entry has no source link.</p>';
-  return ids.map((id, index) => {
+  const tag = numbered ? 'ol' : 'ul';
+  return `<${tag} class="study-source-links">${ids.map(id => {
     const s = source(id);
-    return `<section class="source-preview"><h4>${numbered ? `${index + 1}. ` : ''}${esc(s.title)}</h4>${sourceImageHtml(s.image)}<p class="source-summary"><small>Source summary</small>${esc(s.summary || '')}</p><a class="source-link" target="_blank" rel="noopener" href="${esc(s.url)}">Read full source ↗ <small>(${esc(s.type)})</small></a></section>`;
-  }).join('');
+    return `<li><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.title)} ↗</a></li>`;
+  }).join('')}</${tag}>`;
 }
 
 function passageFootnotes(p) {
-  const ids = [...new Set([...(p?.sourceIds || []), ...(state.perspective === 'lds' ? p?.lds?.sourceIds || [] : [])])].filter(id => source(id));
+  const ids = p?.chapter ? chapterSourceIds(p.chapter) : [...new Set([...(p?.sourceIds || []), ...(state.perspective === 'lds' ? p?.lds?.sourceIds || [] : [])])].filter(id => source(id) && !/^web(?:\d+)?$/.test(id));
   return (references = []) => [...new Set(references)].map(id => {
     const s = source(id), number = ids.indexOf(id) + 1;
-    return s && number ? `<sup class="source-footnote"><a href="${esc(s.url)}" target="_blank" rel="noopener" aria-label="Source ${number}">${number}<span class="footnote-label" hidden>${esc(s.title)} ↗ (${esc(s.type)})</span></a></sup>` : '';
+    return s && number ? `<sup class="source-footnote"><a href="${esc(s.url)}" data-source-id="${esc(id)}" aria-haspopup="dialog" aria-label="Source ${number}: ${esc(s.title)}">${number}<span class="footnote-label" hidden>${esc(s.title)} · Open source details (${esc(s.type)})</span></a></sup>` : '';
   }).join('');
 }
 
@@ -80,35 +82,71 @@ function matchWord(token, candidates) { const plain = token.replace(/^[^\p{L}\p{
 
 async function load() {
   parseUrl();
-  const results = await Promise.allSettled(['data/content.json', 'data/scripture.json'].map(p => fetch(p).then(r => { if (!r.ok) throw Error(`${p} (${r.status})`); return r.json(); })));
+  const results = await Promise.allSettled(['data/content.json', 'data/scripture.json', 'data/portrait-images.json'].map(p => fetch(p).then(r => { if (!r.ok) throw Error(`${p} (${r.status})`); return r.json(); })));
   if (results[0].status === 'fulfilled') data = { ...data, ...results[0].value };
   if (results[1].status === 'fulfilled') scripture = results[1].value;
   if (!chapters.includes(state.chapter)) state.chapter = 1;
   if (!scripture.chapters[state.chapter]?.some(v => v.verse === state.verse)) state.verse = 1;
   state.view = 'map';
   if (!['historical','lds'].includes(state.perspective)) state.perspective = 'historical';
-  state.date = Math.max(-780, Math.min(-539, Number(state.date) || -701));
+  if (!['generated', 'non-generated'].includes(state.portraitMode)) state.portraitMode = 'generated';
+  setPortraitMode(state.portraitMode, results[2].status === 'fulfilled' ? results[2].value : {});
+  // Ignore dates left by the retired timeline when opening the scripture view.
+  state.date = activePassage()?.year ?? defaults.date;
   state.sidebar = 'scripture';
   buildStaticUi(); initMap(); renderAll();
-  if (results.some(r => r.status === 'rejected')) showToast('Some study information did not load. Reload the page to try again.');
+  if (results.some(r => r.status === 'rejected')) showToast('Some study notes did not load. Reload the page and try again.');
 }
 
 function buildStaticUi() {
+  initSettings();
+  initModalDragging();
   $('#scriptureAttribution').textContent = `${scripture.translation || 'World English Bible'} · ${scripture.copyright || 'Public domain'}`;
   initScriptureResize();
   initTimelineTooltip();
   $('#railChapters').innerHTML = chapters.map(c => `<button data-chapter="${c}" aria-label="Isaiah ${c}">${c}</button>`).join('');
-  $('#layerOptions').innerHTML = [['places','Places','place'],['regions','Areas','region'],['campaigns','Paths','route'],['history','Dated context','route']].map(([key,label,kind]) => `<label class="layer-option"><input type="checkbox" data-layer="${key}"><span class="layer-swatch ${kind}"></span>${label}</label>`).join('');
+  $('#layerOptions').innerHTML = [['places','Places','place'],['regions','Areas','region'],['campaigns','Paths','route'],['history','Nations','region']].map(([key,label,kind]) => `<label class="layer-option"><input type="checkbox" data-layer="${key}"><span class="layer-swatch ${kind}"></span>${label}</label>`).join('');
   $('#periods').innerHTML = (data.periods.length ? data.periods : [{id:'pre',label:'Before Isaiah',description:'Earlier events'},{id:'isaiah',label:'Isaiah',description:'Events in Isaiah 36–39'},{id:'post',label:'After Isaiah',description:'Later events'}]).slice(0,3).map(p => `<button data-period="${esc(p.id)}">${esc(p.label)}<small>${esc(p.description || '')}</small></button>`).join('');
   document.addEventListener('click', onClick);
   document.addEventListener('change', onChange);
   $('#timelineRange').addEventListener('input', e => { state.date = Number(e.target.value); renderTimeline(); drawOverlays(); persist(); });
-  $('#timelineRange').addEventListener('change', () => { if (!isPassageDate()) showToast('The map now shows the date you selected. Select Return to passage to restore the passage date.'); });
-  $('#libraryDialog .dialog-close').addEventListener('click', () => $('#libraryDialog').close());
+  $('#timelineRange').addEventListener('change', () => { if (!isPassageDate()) showToast('The map now shows your date. Select Return to passage to go back.'); });
+  $('#libraryDialog .dialog-close').addEventListener('click', () => hideModalPanel($('#libraryDialog')));
+  $('#sourceDialog .dialog-close').addEventListener('click', () => hideModalPanel($('#sourceDialog')));
+  for (const dialog of $$('dialog')) dialog.addEventListener('cancel', event => {
+    event.preventDefault();
+    hideModalPanel(dialog);
+  });
   if (matchMedia('(max-width:720px)').matches) {
     $('#layerOptions').classList.add('hidden');
     $('#layerToggle').setAttribute('aria-expanded', 'false');
   }
+}
+function initSettings() {
+  const menu = $('#settingsMenu'), button = $('#settingsButton'), panel = $('#settingsPanel');
+  function close(restoreFocus = false) {
+    panel.hidden = true;
+    button.setAttribute('aria-expanded', 'false');
+    button.setAttribute('aria-label', 'Open settings');
+    if (restoreFocus) button.focus();
+  }
+  button.addEventListener('click', () => {
+    if (!panel.hidden) return close();
+    panel.hidden = false;
+    button.setAttribute('aria-expanded', 'true');
+    button.setAttribute('aria-label', 'Close settings');
+  });
+  document.addEventListener('click', event => { if (!menu.contains(event.target)) close(); });
+  document.addEventListener('focusin', event => { if (!menu.contains(event.target)) close(); });
+  menu.addEventListener('keydown', event => {
+    if (event.key === 'Escape' && !panel.hidden) { event.preventDefault(); event.stopPropagation(); close(true); }
+  });
+  $('#nonGeneratedPortraits').addEventListener('change', event => {
+    state.portraitMode = event.target.checked ? 'non-generated' : 'generated';
+    setPortraitMode(state.portraitMode);
+    renderTop();
+    persist();
+  });
 }
 function initScriptureResize() {
   const divider = $('#scriptureResize'), panel = $('#scriptureSidebar'), view = $('#mapView');
@@ -162,6 +200,11 @@ function initScriptureResize() {
   }).observe(panel);
 }
 function onClick(e) {
+  const citation = e.target.closest('[data-source-id]');
+  if (citation) {
+    if (e.ctrlKey || e.metaKey || e.shiftKey || e.altKey) return;
+    e.preventDefault(); openSource(citation.dataset.sourceId); return;
+  }
   const chapter = e.target.closest('[data-chapter]'); if (chapter) { selectChapter(Number(chapter.dataset.chapter)); return; }
   const perspective = e.target.closest('[data-perspective]'); if (perspective) { state.perspective = perspective.dataset.perspective; renderAll(); persist(); return; }
   const layer = e.target.closest('[data-layer]'); if (layer) { state.layers[layer.dataset.layer] = e.target.checked; drawOverlays(); persist(); return; }
@@ -174,7 +217,6 @@ function onChange(e) { if (e.target.matches('[data-layer]')) { state.layers[e.ta
 function performAction(action, id) {
   if (action === 'chapter-prev' || action === 'chapter-next') { const i = chapters.indexOf(state.chapter); const next = chapters[i + (action === 'chapter-prev' ? -1 : 1)]; if (next) selectChapter(next); return; }
   if (action === 'focus-chapter') focusChapterMap();
-  if (action === 'map-overview' || action === 'map-detail') { mapScope = action === 'map-detail' ? 'detail' : 'overview'; drawOverlays(); focusChapterMap(); }
   if (action === 'story-route') {
     const route = focusedRoutes().find(r=>r.id === id);
     if (route && map) { map.stop(); map.fitBounds(L.latLngBounds(route.points).pad(.2), {paddingTopLeft:[Math.min($('.layers').offsetWidth+35,map.getSize().x*.5),45],paddingBottomRight:[40,45],maxZoom:10,animate:!reducedMapMotion.matches}); openFeature(route,true); }
@@ -185,17 +227,26 @@ function performAction(action, id) {
     const collapsed = $('#layerOptions').classList.toggle('hidden');
     $('#layerToggle').setAttribute('aria-expanded', String(!collapsed));
     layoutPlaceLabels();
+    layoutGeographyLabels();
   }
   if (action === 'return-passage') { const p = activePassage(); if (p?.year) state.date = p.year; renderTimeline(); drawOverlays(); focusChapterMap(); persist(); }
   if (action === 'library') openLibrary();
   if (action === 'guide') startGuide(id);
   if (action === 'open-guides') { renderGuides(); persist(); }
   if (action === 'guide-list') { guideState = null; renderGuides(); $("#tourDrawer .tour-choice")?.focus(); }
-  if (action === 'close-guides') $('#tourDrawer').classList.add('hidden');
+  if (action === 'close-guides') hideModalPanel($('#tourDrawer'));
   if (action === 'guide-next' || action === 'guide-prev') moveGuide(action === 'guide-next' ? 1 : -1);
 }
-function renderAll() { if (lastMapChapter !== state.chapter) mapScope = 'overview'; renderTop(); renderView(); renderTimeline(); renderScripture(); drawOverlays(); if (lastMapChapter !== state.chapter) focusChapterMap(lastMapChapter != null); if (!$('#tourDrawer').classList.contains('hidden')) renderGuides(); }
-function renderTop() { $$('[data-chapter]').forEach(b => b.classList.toggle('active', Number(b.dataset.chapter) === state.chapter)); $$('[data-perspective]').forEach(b => b.classList.toggle('active', b.dataset.perspective === state.perspective)); $$('[data-layer]').forEach(i => i.checked = !!state.layers[i.dataset.layer]); }
+function renderAll() { renderTop(); renderView(); renderTimeline(); renderScripture(); drawOverlays(); if (lastMapChapter !== state.chapter) focusChapterMap(lastMapChapter != null); if (!$('#tourDrawer').classList.contains('hidden')) renderGuides(); }
+function renderTop() {
+  $$('[data-chapter]').forEach(b => b.classList.toggle('active', Number(b.dataset.chapter) === state.chapter));
+  $$('[data-perspective]').forEach(b => { const active = b.dataset.perspective === state.perspective; b.classList.toggle('active', active); b.setAttribute('aria-pressed', String(active)); });
+  $$('[data-layer]').forEach(i => i.checked = !!state.layers[i.dataset.layer]);
+  $('#nonGeneratedPortraits').checked = state.portraitMode === 'non-generated';
+  $('#portraitAttribution').textContent = state.portraitMode === 'non-generated'
+    ? 'These old pictures are free to use. We do not know how these people looked.'
+    : 'Generated portraits are illustrations. They do not establish actual appearance.';
+}
 function renderView() { $('#timelineTooltip').hidden = true; setTimeout(() => map?.invalidateSize(), 80); }
 function activePassage() { return data.passages.find(p => Number(p.chapter) === state.chapter && state.verse >= p.start && state.verse <= p.end) || data.passages.find(p => Number(p.chapter) === state.chapter); }
 function selectChapter(chapter, verse = 1) { state.chapter = chapter; state.verse = verse; state.sidebar = 'scripture'; const p = activePassage(); if (p?.year) state.date = p.year; renderAll(); persist(); $('#sidebarContent').scrollTop=0; }
@@ -204,20 +255,63 @@ function renderScripture() {
   if (state.sidebar === 'word') return renderWord();
   const verses = scripture.chapters?.[state.chapter] || [];
   const body = verses.length ? verses.map(v => renderVerse(v)).join('') : `<div class="word-view"><h2>Isaiah ${state.chapter}</h2><p>The text for this chapter is not available.</p></div>`;
-  $('#sidebarContent').innerHTML = `<div class="scripture-heading"><button class="sidebar-next" data-action="chapter-prev" aria-label="Previous chapter" ${state.chapter === 1 ? 'disabled' : ''}>‹</button><h1>Isaiah ${state.chapter}</h1><button class="sidebar-next" data-action="chapter-next" aria-label="Next chapter" ${state.chapter === 66 ? 'disabled' : ''}>›</button></div><label class="chapter-picker">Chapter<select data-chapter-select aria-label="Choose Isaiah chapter">${chapters.map(c => `<option value="${c}" ${c === state.chapter ? 'selected' : ''}>${c} · ${esc(data.passages.find(p => p.chapter === c)?.title || `Isaiah ${c}`)}</option>`).join('')}</select></label>${mapStoryHtml()}${body}`;
+  $('#sidebarContent').innerHTML = `<div class="scripture-heading"><button class="sidebar-next" data-action="chapter-prev" aria-label="Previous chapter" ${state.chapter === 1 ? 'disabled' : ''}>‹</button><h1 class="chapter-picker"><button type="button" class="chapter-picker-trigger" aria-label="Choose Isaiah chapter, current chapter ${state.chapter}" aria-haspopup="listbox" aria-expanded="false" aria-controls="chapterPickerMenu">Isaiah ${state.chapter}<svg aria-hidden="true" width="16" height="16" viewBox="0 0 16 16"><path d="m4 6 4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/></svg></button></h1><div id="chapterPickerMenu" class="chapter-picker-menu" popover="auto" role="listbox" aria-label="Choose Isaiah chapter">${chapters.map(c => `<button type="button" role="option" aria-selected="${c === state.chapter}" tabindex="-1" data-value="${c}"><span>Isaiah ${c}</span><span class="chapter-picker-check" aria-hidden="true">${c === state.chapter ? '✓' : ''}</span></button>`).join('')}</div><button class="sidebar-next" data-action="chapter-next" aria-label="Next chapter" ${state.chapter === 66 ? 'disabled' : ''}>›</button></div>${body}`;
+  initChapterPicker(document.querySelector('#sidebarContent'), state.chapter, chapters, selectChapter);
   $('#sidebarContent .verse')?.insertAdjacentHTML('beforebegin', passageContextHtml());
+}
+function chapterSourceIds(chapter = state.chapter) {
+  return [...new Set(data.passages.filter(p => p.chapter === chapter).flatMap(p => [
+    ...(p.sourceIds || []), ...(state.perspective === 'lds' ? p.lds?.sourceIds || [] : []),
+    ...(p.studyNotes || []).filter(n => n.perspective !== 'lds' || state.perspective === 'lds').flatMap(n => n.sourceIds || [])
+  ]))].filter(id => source(id) && !/^web(?:\d+)?$/.test(id));
+}
+function chapterInterviewNotesHtml() {
+  if (state.perspective !== 'lds') return '';
+  const cite = passageFootnotes({chapter:state.chapter});
+  return data.passages.filter(p => p.chapter === state.chapter)
+    .flatMap(p => p.studyNotes || []).filter(note => note.kind === 'interview-insight')
+    .map(note => `<div class="interview-insight"><p><strong>${esc(note.title)}.</strong> ${esc(note.text)}${cite(note.sourceIds)}</p>${sourceMediaHtml(note.sourceIds, {images:false})}<p><strong>Try this reading · Meridian application.</strong> ${esc(note.application)}</p></div>`).join('');
+}
+function openSource(id) {
+  const s = source(id); if (!s) return;
+  hideSourceTooltip();
+  const chapter = /^web(?:\d+)?$/.test(id) ? (id === 'web' ? state.chapter : Number(id.slice(3))) : null;
+  const reading = chapter && scripture.chapters[chapter] ? `<details><summary>Read Isaiah ${chapter} here · World English Bible</summary>${scripture.chapters[chapter].map(v => `<p><b>${v.verse}</b> ${esc(v.text)}</p>`).join('')}</details>` : '';
+  $('#sourceContent').innerHTML = `<h2 id="sourceDialogTitle">Source details</h2>${librarySourceHtml(s).replace(`id="library-${esc(s.id)}"`, `id="detail-${esc(s.id)}"`)}${reading}<p class="source-rights">${esc(s.license || '')}</p>`;
+  const dialog = $('#sourceDialog');
+  // Keep the reader or guide underneath this dialog so closing returns to it.
+  showModalPanel(dialog, id);
+  dialog.scrollTop = 0;
+  $('#sourceDialog .dialog-close').focus({preventScroll:true});
 }
 function passageOptions() { return data.passages.filter(p => Number(p.chapter) === state.chapter); }
 function passageSelectHtml() { const entries = passageOptions(); if (entries.length < 2) return ''; const current = activePassage()?.id; return `<label class="eyebrow">Historical setting<select class="passage-select" data-passage-select>${entries.map(p => `<option value="${esc(p.id)}" ${p.id === current ? 'selected' : ''}>${esc(p.start)}–${esc(p.end)} · ${esc(p.title || p.dateLabel || 'Passage context')}</option>`).join('')}</select></label>`; }
-function passageContextHtml() { const p = activePassage(); if (!p) return ''; const cite = passageFootnotes(p); return `<section class="passage-context" aria-label="Passage context"><h2>${esc(p.title || 'Passage context')}</h2><div class="passage-prose"><p>${esc(p.summary)}${cite(p.sourceIds)}</p>${p.uncertainty ? `<p class="translation">${esc(p.uncertainty)}</p>` : ''}</div></section>`; }
+function passageContextHtml() {
+  const passages = data.passages.filter(p => p.chapter === state.chapter);
+  const p = passages[0]; if (!p) return '';
+  const cite = passageFootnotes(p);
+  const introductions = {
+    36: 'In 701 BCE, Assyria takes many towns in Judah. An officer goes from Lachish to Jerusalem. He tells the people not to trust Egypt, Hezekiah, or God. A palace picture shows Sennacherib with goods taken from Lachish. His clay prism calls the war a win for the king.',
+    37: 'Hezekiah prays to God about the Assyrian threat. Isaiah says that God will save the city. The Bible says that God saves Jerusalem. Sennacherib’s prism tells about Judah’s losses and gifts to Assyria. It does not say that he took Jerusalem. Sennacherib dies in 681 BCE. This is twenty years after the war.',
+    38: 'Hezekiah gets sick. God tells him that he will get well. God also says that he will guard Jerusalem. Hezekiah’s song moves from fear to thanks. We do not know the exact date of his illness.',
+    39: 'Hezekiah shows his wealth to guests from Babylon. Isaiah says Babylon will take this wealth later. He also says that some of the king’s family will be taken. We do not know the date of the visit. The chapter order does not prove the event order.'
+  };
+  const ids = [...new Set(passages.flatMap(p => p.sourceIds || []))];
+  const reflection = state.perspective === 'lds' ? `<p><strong>LDS reflection.</strong> ${esc(p.lds?.text || '')}${cite(p.lds?.sourceIds)}</p>${sourceInsightsHtml(passages.flatMap(item => item.lds?.sourceIds || []))}` : '';
+  return `<section class="passage-context chapter-introduction" aria-label="Chapter introduction"><h2>${esc(p.title)}</h2><div class="passage-prose"><p>${esc(introductions[state.chapter] || p.summary)}${cite(ids)}</p>${chapterEvidenceHtml()}${sourceInsightsHtml(ids)}${reflection}${chapterInterviewNotesHtml()}</div>${mapStoryHtml()}</section>`;
+}
 function passageInterpretationHtml() {
   if (state.perspective !== 'lds') return '';
   const p = activePassage(), cite = passageFootnotes(p);
-  return `<section class="passage-interpretation"><h3>Faithful LDS interpretation</h3><p class="translation">${p ? `Isaiah ${esc(String(p.chapter))}:${esc(String(p.start))}–${esc(String(p.end))} · ${esc(p.title || '')}` : `Isaiah ${state.chapter}`}</p><div class="passage-prose"><p>${esc(p?.lds?.text || 'This passage has no LDS study note yet.')}${cite(p?.lds?.sourceIds)}</p></div></section>`;
+  return `<section class="passage-interpretation"><h3>LDS reading</h3><p class="translation">${p ? `Isaiah ${esc(String(p.chapter))}:${esc(String(p.start))}–${esc(String(p.end))} · ${esc(p.title || '')}` : `Isaiah ${state.chapter}`}</p><div class="passage-prose"><p>${esc(p?.lds?.text || 'This passage has no LDS study note yet.')}${cite(p?.lds?.sourceIds)}</p>${sourceInsightsHtml(p?.lds?.sourceIds)}</div></section>`;
 }
 function renderVerse(v, prefix = 'side') {
   const candidates = eligibleWords(v); const parts = v.text.split(/(\s+)/); const text = parts.map(part => { if (/^\s+$/.test(part)) return part; const found = matchWord(part, candidates); const label = esc(part); return found ? `<button class="word" data-word-id="${esc(found.id)}">${label}</button>` : label; }).join('');
-  return `<article class="verse ${v.verse === state.verse ? 'selected-verse' : ''}" id="${prefix}-verse-${v.verse}"><span class="verse-number">${v.verse}</span><span>${text}</span></article>`;
+  const passage = data.passages.find(p => p.chapter === state.chapter && p.start === v.verse);
+  const refs = passage ? [...(passage.sourceIds || []), ...(state.perspective === 'lds' ? passage.lds?.sourceIds || [] : [])] : [];
+  const citations = passage ? passageFootnotes(passage)(refs) : '';
+  const notes = citations ? `<small class="verse-study-sources">Study sources for ${passage.start}–${passage.end}${citations}</small>` : '';
+  return `<article class="verse ${v.verse === state.verse ? 'selected-verse' : ''}" id="${prefix}-verse-${v.verse}"><span class="verse-number">${v.verse}</span><span>${text}${notes}</span></article>`;
 }
 function openWord(word, trigger) { if (!word) return; savedScroll = $('#sidebarContent').scrollTop; const verseNode = trigger.closest('.verse'); const same = '[data-word-id="' + CSS.escape(word.id) + '"]'; const peers = verseNode ? $$(same, verseNode) : []; selectedWordButton = { verse: Number(verseNode?.id.match(/verse-(\d+)/)?.[1] || state.verse), selector: same, index: Math.max(0, peers.indexOf(trigger)) }; state.sidebar = 'word'; state.wordId = word.id; state.wordLabel = word.label; renderScripture(); $('#sidebarContent').scrollTop = 0; requestAnimationFrame(() => $('#sidebarContent .back-button')?.focus({preventScroll:true})); persist(); }
 function wordReferences(word) {
@@ -230,7 +324,7 @@ function wordReferences(word) {
 }
 function wordLanguagesHtml(word) {
   const refs = wordReferences(word), cite = refs.cite;
-  return `<div class="word-section word-languages"><div class="word-language-grid"><div class="word-language"><h3>Septuagint Greek</h3>${word.greek ? `<p class="term" lang="grc">${esc(word.greek)}${cite(refs.greek)}</p>` : '<p>No confirmed Greek match.</p>'}</div><div class="word-language word-language-hebrew"><h3>Hebrew</h3>${word.hebrew ? `<p class="term hebrew-term"><bdi lang="he" dir="rtl">${esc(word.hebrew)}</bdi>${cite(refs.hebrew)}</p><p>${esc(word.transliteration || '')}</p>` : '<p>No confirmed Hebrew match.</p>'}</div></div>${word.greek && word.greekNote ? `<p class="word-language-note">${esc(word.greekNote)}${cite(refs.greek)}</p>` : ''}</div>`;
+  return `<div class="word-section word-languages"><div class="word-language-grid"><div class="word-language"><h3>Greek (Septuagint)</h3>${word.greek ? `<p class="term" lang="grc">${esc(word.greek)}${cite(refs.greek)}</p>` : '<p>No Greek match was found.</p>'}</div><div class="word-language word-language-hebrew"><h3>Hebrew</h3>${word.hebrew ? `<p class="term hebrew-term"><bdi lang="he" dir="rtl">${esc(word.hebrew)}</bdi>${cite(refs.hebrew)}</p><p>${esc(word.transliteration || '')}</p>` : '<p>No Hebrew match was found.</p>'}</div></div>${word.greek && word.greekNote ? `<p class="word-language-note">${esc(word.greekNote)}${cite(refs.greek)}</p>` : ''}</div>`;
 }
 function renderWord() {
   const word = data.words.find(w => w.id === state.wordId); const title = word?.label || state.wordLabel || 'Selected word';
@@ -239,10 +333,11 @@ function renderWord() {
   else {
     const refs = wordReferences(word), cite = refs.cite;
     html += wordLanguagesHtml(word);
-    if (word.meaning) html += `<div class="word-section"><h3>Meaning in this passage</h3><p>${richText(word.meaning)}${cite(refs.meaning)}</p></div>`;
+    if (word.meaning) html += `<div class="word-section"><h3>${word.scope === 'dictionary' ? 'Dictionary meaning' : 'Meaning in this passage'}</h3><p>${richText(word.meaning)}${cite(refs.meaning)}</p></div>`;
     if (word.discussion) html += `<div class="word-section"><h3>Study note</h3><p>${richText(word.discussion)}${cite(refs.discussion)}</p></div>`;
 
     if (word.related?.length) html += `<div class="word-section"><h3>Related use</h3>${word.related.map(r => `<a class="source-link" target="_blank" rel="noopener" href="${esc(r.url)}">${esc(r.label)} — ${esc(r.note || '')}</a>`).join('')}</div>`;
+    html += sourceInsightsHtml(refs.ordered);
     html += `<div class="word-section"><h3>Sources</h3>${sourcesHtml(refs.ordered, true)}</div>`;
   } $('#sidebarContent').innerHTML = html + '</section>';
 }
@@ -265,7 +360,7 @@ function renderTimeline() {
   $('#timelineRange').value = state.date;
   $('#timelineRange').setAttribute('aria-valuetext', `${Math.abs(state.date)} BCE`);
   $('#timelineChapter').textContent = `Isaiah ${state.chapter}`;
-  $('#dateLabel').value = p?.year == null ? 'Date Unclear' : follow && p?.dateLabel ? p.dateLabel : `${Math.abs(state.date)} BCE`;
+  $('#dateLabel').value = p?.year == null ? 'Date not known' : follow && p?.dateLabel ? p.dateLabel : `${Math.abs(state.date)} BCE`;
   $('#returnPassage').classList.toggle('hidden', follow || !p?.year);
   $('#timelineTooltip').textContent = `${Math.abs(state.date)} BCE`;
 }
@@ -295,27 +390,53 @@ function initTimelineTooltip() {
 function eventsNear(year, range = 10) { return data.events.filter(e => Math.abs(Number(e.year) - year) <= range).sort((a,b) => Math.abs(a.year-year)-Math.abs(b.year-year)); }
 function selectEvent(event) { state.date = Number(event.year); renderTimeline(); drawOverlays(); persist(); openFeature(event, true, null); }
 function findFeature(id) { return [...data.places, ...data.events, ...data.campaigns, ...data.regions, ...focusedRoutes(), ...chapterImpacts(), ...chapterAreas()].find(f => f.id === id); }
-function featureType(f) { return f.narrativeRegion ? 'Geographic area · approximate' : f.impact ? 'Destruction / distress' : f.chapterRoute || f.textRoute ? 'Chapter path · schematic' : data.campaigns.includes(f) ? 'Campaign route' : data.regions.includes(f) ? 'Political influence' : data.places.includes(f) ? 'Place' : 'Timeline event'; }
+function featureType(f) { return f.narrativeRegion ? 'Map area' : f.impact ? 'Loss or pain' : f.chapterRoute || f.textRoute ? 'Chapter path' : data.campaigns.includes(f) ? 'Army path' : data.regions.includes(f) ? 'Area of rule' : data.places.includes(f) ? 'Place' : 'Event'; }
+function mapDisplayText(text = '') {
+  const footerCovered = /\b(?:map|line|connection|route|road|itinerary|coordinate|pin|location|border|area of influence|travel order|sequence of (?:movement|stops))\b/i;
+  const caveat = /\b(?:approximate|schematic|representative|precise|exact|verified|confirmed|unknown|uncertain|does not (?:establish|show|trace|identify|reconstruct)|not (?:a|an|the)|remain debated)\b/i;
+  return text.split(/(?<=[.!?])\s+/).filter(sentence => !(footerCovered.test(sentence) && caveat.test(sentence))).join(' ').trim();
+}
+function mapDisplayName(name = '') {
+  return name.replace(/ · (?:approximate(?: regional influence)?|regional focus|uncertain site)$/i, '');
+}
+const modalOpeningAnimations = new WeakMap();
+const modalContentKeys = new WeakMap();
+function showModalPanel(panel, contentKey) {
+  const isDialog = panel.tagName === 'DIALOG';
+  const wasClosed = isDialog ? !panel.open : panel.classList.contains('hidden');
+  const contentChanged = contentKey !== undefined && modalContentKeys.get(panel) !== contentKey;
+  modalContentKeys.set(panel, contentKey);
+  if (!wasClosed && !contentChanged) return;
+  if (wasClosed) {
+    if (isDialog) panel.showModal();
+    else panel.classList.remove('hidden');
+  }
+  // Shared panels also animate when another item replaces their content.
+  modalOpeningAnimations.get(panel)?.cancel();
+  if (matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  const animation = panel.animate([
+    { opacity: 0, scale: '.94' },
+    { opacity: 1, scale: '1' }
+  ], { duration: 180, easing: 'ease-in-out' });
+  modalOpeningAnimations.set(panel, animation);
+}
+function hideModalPanel(panel) {
+  modalOpeningAnimations.get(panel)?.cancel();
+  if (panel.tagName === 'DIALOG') panel.close();
+  else panel.classList.add('hidden');
+}
 // Keep floating study windows mutually exclusive without restoring old focus.
-function openStudyModal(id) {
-  clearTimeout(cardOpenTimer);
-  clearTimeout(cardCloseTimer);
+function openStudyModal(id, contentKey) {
   hideSourceTooltip();
-  const previousSuppression = suppressFeatureFocus;
-  suppressFeatureFocus = true;
   try {
     for (const modal of $$('#contextCard, #tourDrawer, dialog')) {
       if (modal.id === id) continue;
-      if (modal.tagName === 'DIALOG') {
-        if (modal.open) modal.close();
-      } else modal.classList.add('hidden');
+      hideModalPanel(modal);
     }
     const modal = $('#' + id);
-    if (modal.tagName === 'DIALOG') {
-      if (!modal.open) modal.showModal();
-    } else modal.classList.remove('hidden');
+    if (id === 'contextCard') modal.style.translate = '';
+    showModalPanel(modal, contentKey);
   } finally {
-    suppressFeatureFocus = previousSuppression;
     syncMapSelection();
   }
 }
@@ -323,34 +444,197 @@ function focusPathVerse(feature) {
   if (!feature.chapterRoute && !feature.textRoute && !data.campaigns.includes(feature)) return;
   const chapter = Number(feature.chapter), verse = Number(feature.verse);
   if (!scripture.chapters[chapter]?.some(v => v.verse === verse)) return;
-  if (chapter !== state.chapter) selectChapter(chapter, verse);
+  if (chapter !== state.chapter) return;
   if (state.sidebar !== 'scripture') { state.sidebar = 'scripture'; renderScripture(); }
   scrollVerse(verse, false);
 }
-function openFeature(f, pinned = false, origin) { if (!f) return; if (pinned) focusPathVerse(f); const card = $('#contextCard'); if (!pinned && card.dataset.pinned === 'true' && !card.classList.contains('hidden')) return; card.dataset.feature = f.id; card.dataset.pinned = String(pinned); const lds = state.perspective === 'lds' && f.lds?.text ? `<div class="word-section"><h3>Faithful LDS interpretation</h3><p>${esc(f.lds.text)}</p></div>` : ''; card.innerHTML = `<button class="dialog-close" data-action="close-card" aria-label="Close context">×</button><span class="eyebrow">${featureType(f)}</span><h2>${esc(f.name || f.title)}</h2>${featurePortraits(f, state.date)}${f.dateLabel ? `<span class="badge">${esc(f.dateLabel)}</span>` : ''}<p>${esc(f.summary || 'No description is available for this feature.')}</p>${lds}<div class="word-section"><h3>Sources & evidence</h3>${sourcesHtml(f.sourceIds)}</div>`; openStudyModal('contextCard'); card.scrollTop = 0; card._origin = origin?.getElement?.() || origin || card._origin; const point = origin?.getLatLng?.() || origin?.getCenter?.(); const stage = $('.map-stage'); const labelRect = origin?.getElement?.()?.matches('.city-label') ? origin.getElement().firstElementChild.getBoundingClientRect() : null; const stageRect = stage.getBoundingClientRect(); const at = labelRect ? {x:labelRect.right-stageRect.left, y:labelRect.top-stageRect.top} : point && map ? map.latLngToContainerPoint(point) : {x: stage.clientWidth / 2, y: 70}; card.style.left = `${Math.max(12, Math.min(at.x + 18, stage.clientWidth - card.offsetWidth - 12))}px`; card.style.top = `${Math.max(12, Math.min(at.y, stage.clientHeight - card.offsetHeight - 12))}px`; }
-function closeCard() { const card = $('#contextCard'); if (card.classList.contains('hidden')) return; card.classList.add('hidden'); syncMapSelection(); suppressFeatureFocus=true; card._origin?.focus?.({preventScroll:true}); suppressFeatureFocus=false; }
+function sourceMediaHtml(ids = [], options = {}) {
+  const images = new Set(), chapter = options.chapter ?? state.chapter;
+  return [...new Set(ids)].map(id => {
+    const item = source(id);
+    if (!item) return '';
+    const showImage = options.images !== false && item.image && !images.has(item.image.src);
+    if (showImage) images.add(item.image.src);
+    const excerpt = options.quotes === false ? null : item.excerpt;
+    const showExcerpt = excerpt && (!excerpt.chapters || excerpt.chapters.includes(Number(chapter)) || options.allExcerpts);
+    const previewText = mapDisplayText(item.previewText || '');
+    return `${showImage ? `<div class="study-evidence">${previewText ? `<p>${esc(previewText)}</p>` : ''}${sourceImageHtml(item.image)}</div>` : ''}${showExcerpt ? `<figure class="study-quotation"><blockquote cite="${esc(excerpt.url || item.url)}">${esc(excerpt.text)}</blockquote><figcaption>${esc(excerpt.attribution)}<br><a href="${esc(excerpt.url || item.url)}" target="_blank" rel="noopener">${esc(excerpt.location)} ↗</a></figcaption>${excerpt.context ? `<p>${esc(excerpt.context)}</p>` : ''}</figure>` : ''}`;
+  }).join('');
+}
+function sourceInsightsHtml(ids = [], chapter = state.chapter) {
+  const seen = new Set();
+  return [...new Set(ids)].map(id => {
+    const item = source(id);
+    if (!item || /^(web\d*|geo|earth|strong|oshb|lxx\d+)$/.test(id)) return '';
+    if (seen.has(id)) return '';
+    seen.add(id);
+    if (item.group === 'conference-year' && !item.scriptureReferences?.some(ref => {
+      const match = ref.label.match(/Isaiah\s+(\d+)(?=\D|$)/i);
+      return match ? Number(match[1]) === Number(chapter) : Number(chapter) === 61 && /Luke 4:18/.test(ref.label);
+    })) return '';
+    const related = item.chapterCoverage && !item.chapterCoverage.includes(Number(chapter));
+    const context = mapDisplayText((related ? `This lesson covers nearby chapters, not Isaiah ${chapter}. ` : '') + (item.studyText || item.summary || ''));
+    const note = context && !item.image ? `<p class="source-insight">${esc(context)} <a class="source-inline-citation" href="${esc(item.url)}" data-source-id="${esc(id)}" aria-haspopup="dialog">${esc(item.author || item.title)}</a></p>` : '';
+    const cited = (item.citedSourceIds || []).filter(id => !ids.includes(id) && !seen.has(id)).map(source).filter(Boolean);
+    cited.forEach(work => seen.add(work.id));
+    const supporting = cited.map(work => `<p class="source-insight">${esc(mapDisplayText(work.summary))} <a class="source-inline-citation" href="${esc(work.url)}" data-source-id="${esc(work.id)}" aria-haspopup="dialog">${esc(work.author || work.title)}</a></p>`).join('');
+    return note + sourceMediaHtml([id], {chapter}) + supporting;
+  }).join('');
+}
+function scriptureExcerptHtml(chapter, verse, context = '') {
+  const reading = scripture.chapters[chapter]?.find(item => item.verse === Number(verse));
+  if (!reading) return '';
+  const url = `https://ebible.org/engwebp/ISA${String(chapter).padStart(2, '0')}.htm#V${Number(verse)}`;
+  return `<figure class="study-quotation scripture-excerpt"><blockquote cite="${esc(url)}">${esc(reading.text)}</blockquote><figcaption><a href="${esc(url)}" target="_blank" rel="noopener">Isaiah ${Number(chapter)}:${Number(verse)} ↗</a> · World English Bible · Public domain</figcaption>${context ? `<p>${esc(context)}</p>` : ''}</figure>`;
+}
+function chapterEvidenceHtml(chapter = state.chapter) {
+  const study = data.chapterStudies?.find(item => item.chapter === Number(chapter));
+  return study ? scriptureExcerptHtml(study.chapter, study.verse, study.context) : '';
+}
+function placeVerseInChapter(feature, chapter = state.chapter) {
+  if (!data.places?.some(place => place.id === feature.id)) return null;
+  const name = (feature.name || '').split(' · ')[0];
+  const nameWords = name.toLowerCase().match(/[\p{L}\p{N}]+/gu) || [];
+  return (scripture.chapters[chapter] || []).find(item => {
+    const words = item.text.toLowerCase().match(/[\p{L}\p{N}]+/gu) || [];
+    return nameWords.length && words.some((_, index) => nameWords.every((word, offset) => words[index + offset] === word));
+  }) || null;
+}
+function sourceChapters(id) {
+  const item = source(id);
+  const reviewed = data.studySourceReview?.find(entry => entry.sourceId === id)?.chapters || [];
+  const webChapter = id === 'web' ? 36 : id.match(/^web(\d+)$/)?.[1];
+  return [...new Set([...(item?.chapterCoverage || []), ...reviewed, ...(webChapter ? [Number(webChapter)] : [])].map(Number))];
+}
+function genericPlaceDescription(feature) {
+  const name = mapDisplayName(feature.name || feature.title);
+  const chapterSpecific = /\b(?:Isaiah|chapter|passage|prophecy|speaker|speech|account|narrative)\b/i;
+  const mapSpecific = /\b(?:marker|map|route|line|pin|coordinate)\b/i;
+  const clauses = (feature.summary || '').split(/(?<=[.!?])\s+|;\s+/)
+    .map(text => text.trim()).filter(text => text && !chapterSpecific.test(text) && !mapSpecific.test(text));
+  if (!clauses.length) return `${name} is a place in the geographic setting of Isaiah.`;
+  return clauses.map((text, index) => {
+    if (index || !/^It(?:s)?\b/.test(text)) return text;
+    return text.replace(/^Its\b/, `${name}’s`).replace(/^It\b/, name);
+  }).join(' ');
+}
+function featureChapterContext(feature) {
+  const isPlace = data.places?.some(place => place.id === feature.id);
+  if (!isPlace || Number(feature.chapter) === state.chapter) {
+    return { paragraphs:[...new Set([feature.summary, feature.detail].map(mapDisplayText).filter(Boolean))], sourceIds:feature.sourceIds || [] };
+  }
+  const verse = placeVerseInChapter(feature);
+  const name = mapDisplayName(feature.name || feature.title);
+  const paragraphs = [verse ? `Isaiah ${state.chapter}:${verse.verse} names ${name}.` : genericPlaceDescription(feature), mapDisplayText(feature.detail)].filter(Boolean);
+  const sourceIds = (feature.sourceIds || []).filter(id => {
+    const chapters = sourceChapters(id);
+    return !chapters.length || chapters.includes(state.chapter);
+  });
+  const webId = state.chapter === 36 ? 'web' : `web${state.chapter}`;
+  if (verse && source(webId)) sourceIds.push(webId);
+  return { paragraphs, sourceIds:[...new Set(sourceIds)] };
+}
+function featureScriptureHtml(feature) {
+  const reference = feature.reference?.match(/^Isaiah (\d+):(\d+)/);
+  if (reference) return scriptureExcerptHtml(Number(reference[1]), Number(reference[2]));
+  if (feature.textRoute || data.campaigns?.some(item => item.id === (feature.originalId || feature.id))) {
+    return scriptureExcerptHtml(feature.chapter, feature.verse);
+  }
+  // A place gets a quotation only when its name occurs in the current chapter.
+  if (data.places?.some(place => place.id === feature.id)) {
+    const verse = placeVerseInChapter(feature);
+    return verse ? scriptureExcerptHtml(state.chapter, verse.verse) : '';
+  }
+  return '';
+}
+function featureBodyHtml(feature) {
+  const context = featureChapterContext(feature);
+  return `<div class="feature-prose">${(context.paragraphs.length ? context.paragraphs : ['No description is available for this feature.']).map(text => `<p>${esc(text)}</p>`).join('')}${featureScriptureHtml(feature)}${data.regions.includes(feature) ? '' : sourceMediaHtml(context.sourceIds, {chapter:state.chapter})}</div>`;
+}
+function openFeature(f, pinned = false, origin) { if (!f) return; if (pinned) focusPathVerse(f); const card = $('#contextCard'); if (!pinned && card.dataset.pinned === 'true' && !card.classList.contains('hidden')) return; card.dataset.feature = f.id; card.dataset.pinned = String(pinned); const context = featureChapterContext(f); const lds = state.perspective === 'lds' && f.lds?.text ? `<div class="word-section"><h3>LDS reading</h3><p>${esc(f.lds.text)}</p>${sourceInsightsHtml(f.lds.sourceIds)}</div>` : ''; card.innerHTML = `<button class="dialog-close" data-action="close-card" aria-label="Close context">×</button><span class="eyebrow">${featureType(f)}</span><h2>${esc(mapDisplayName(f.name || f.title))}</h2>${featurePortraits(f, state.date)}${f.dateLabel ? `<span class="badge">${esc(f.dateLabel)}</span>` : ''}${featureBodyHtml(f)}${lds}<div class="word-section"><h3>Sources</h3>${sourcesHtml([...context.sourceIds, ...(state.perspective === 'lds' ? f.lds?.sourceIds || [] : [])])}</div>`; openStudyModal('contextCard', f.id); card.scrollTop = 0; card._origin = origin?.getElement?.() || origin || card._origin; const point = origin?.getLatLng?.() || origin?.getCenter?.(); const stage = $('.map-stage'); const labelRect = origin?.getElement?.()?.matches('.city-label') ? origin.getElement().firstElementChild.getBoundingClientRect() : null; const stageRect = stage.getBoundingClientRect(); const at = labelRect ? {x:labelRect.right-stageRect.left, y:labelRect.top-stageRect.top} : point && map ? map.latLngToContainerPoint(point) : {x: stage.clientWidth / 2, y: 70}; card.style.left = `${Math.max(12, Math.min(at.x + 18, stage.clientWidth - card.offsetWidth - 12))}px`; card.style.top = `${Math.max(12, Math.min(at.y, stage.clientHeight - card.offsetHeight - 12))}px`; }
+function closeCard() { const card = $('#contextCard'); if (card.classList.contains('hidden')) return; hideModalPanel(card); syncMapSelection(); card._origin?.focus?.({preventScroll:true}); }
 
 function initMap() {
   if (!window.L) { showToast('The map did not load. Reload the page to try again.'); return; }
-  const stored = state.map || defaults.map; const center = Array.isArray(stored.center) && stored.center[0] >= 8 && stored.center[0] <= 45 && stored.center[1] >= 20 && stored.center[1] <= 57 ? stored.center : defaults.map.center; const zoom = stored.zoom >= 3 && stored.zoom <= 10 ? stored.zoom : defaults.map.zoom;
-  map = L.map('map', { zoomControl: false, attributionControl: true, preferCanvas: false, minZoom: 3, maxZoom: 10, zoomSnap: .25, maxBounds: [[8,20],[45,57]], maxBoundsViscosity: .8 }).setView(center, zoom);
+  const stored = state.map || defaults.map; const center = Array.isArray(stored.center) && stored.center[0] >= 8 && stored.center[0] <= 45 && stored.center[1] >= 20 && stored.center[1] <= 57 ? stored.center : defaults.map.center; const zoom = stored.zoom >= 3 && stored.zoom <= 14 ? stored.zoom : defaults.map.zoom;
+  map = L.map('map', { zoomControl: false, attributionControl: true, preferCanvas: false, minZoom: 3, maxZoom: 14, zoomSnap: .25, maxBounds: [[8,20],[45,57]], maxBoundsViscosity: .8 }).setView(center, zoom);
   L.control.zoom({position:'bottomright'}).addTo(map);
   L.control.scale({position:'bottomleft',imperial:false}).addTo(map);
   map.attributionControl.setPrefix(false);
   map.attributionControl.addAttribution('Natural Earth · Terrain: Mapzen / USGS / NOAA · Places: <a href="https://www.openbible.info/geo/">OpenBible.info</a> / <a href="https://www.openstreetmap.org/copyright">OSM contributors</a>');
-  for (const [name,z] of [['base',200],['relief',220],['detail',230],['water',240]]) { map.createPane(name); map.getPane(name).style.zIndex=z; map.getPane(name).style.pointerEvents='none'; }
-  map.on('moveend', persist).on('moveend zoomend resize', refreshMapDetails).on('dragstart zoomstart', () => { const card = $('#contextCard'); if (card.dataset.pinned !== 'true') card.classList.add('hidden'); });
-  Promise.allSettled(['data/land.geojson','data/lakes-detail.geojson','data/relief.json'].map(p => fetch(p).then(r => r.json()))).then(r => {
+  for (const [name,z] of [['base',200],['relief',220],['detail',230],['water',240],['outsideFocus',250]]) { map.createPane(name); map.getPane(name).style.zIndex=z; map.getPane(name).style.pointerEvents='none'; }
+  // Remove color outside the terrain bounds. Keep story markers above this pane.
+  map.getPane('outsideFocus').style.mixBlendMode = 'saturation';
+  // Keep area fills and distress rings below city dots in every draw order.
+  for (const [name,z] of [['areas',300],['routes',410],['impacts',415],['places',420],['geography',450]]) {
+    map.createPane(name); map.getPane(name).style.zIndex = z;
+  }
+  map.getPane('geography').style.pointerEvents = 'none';
+  addGeographyLabels();
+  map.on('moveend', persist).on('moveend zoomend resize', refreshMapDetails).on('dragstart zoomstart', () => { const card = $('#contextCard'); if (card.dataset.pinned !== 'true') hideModalPanel(card); });
+  Promise.allSettled(['data/land.geojson','data/lakes-detail.geojson','data/relief.json','data/rivers.geojson'].map(p => fetch(p).then(r => r.json()))).then(r => {
     if (r[0].status === 'fulfilled') L.geoJSON(r[0].value, {pane:'base',interactive:false, style: { color: '#dfc990', weight: 1, fillColor: '#a4ac79', fillOpacity: 1 } }).addTo(map);
     if (r[1].status === 'fulfilled') L.geoJSON(r[1].value, {pane:'water',interactive:false, style: { color: '#81bbca', weight: 1.2, fillColor: '#155c80', fillOpacity: 1 } }).addTo(map);
+    if (r[3].status === 'fulfilled') L.geoJSON(r[3].value, {pane:'water', interactive:false,
+      style: f => ({color:'#5194ae', weight:f.properties.rank <= 5 ? 1.8 : 1.2, opacity:.85})}).addTo(map);
     if (r[2].status === 'fulfilled') {
       L.imageOverlay('assets/relief.png',r[2].value.bounds,{pane:'relief',opacity:1,interactive:false}).addTo(map);
-      const detail = r[2].value.detail;
-      if (detail) L.tileLayer(detail.url, {pane:'detail', bounds:detail.bounds, minZoom:detail.minZoom,
-        maxNativeZoom:detail.maxNativeZoom, maxZoom:10, noWrap:true, keepBuffer:1,
-        errorTileUrl:'data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs='}).addTo(map);
+      const [[south,west],[north,east]] = r[2].value.bounds;
+      L.polygon([
+        [[-85,-180],[-85,180],[85,180],[85,-180]],
+        [[south,west],[north,west],[north,east],[south,east]]
+      ], {pane:'outsideFocus', interactive:false, stroke:false, fillColor:'#888888',
+        fillOpacity:1, fillRule:'evenodd', smoothFactor:0}).addTo(map);
+      // Keep coarse tiles beneath finer layers as a fallback outside their bounds.
+      const details = [r[2].value.detail, ...(r[2].value.closeDetail || [])].filter(Boolean);
+      details.forEach((detail,index) => L.tileLayer(detail.url, {
+        pane:'detail', bounds:detail.bounds, minZoom:detail.minZoom,
+        maxNativeZoom:detail.maxNativeZoom, maxZoom:14, noWrap:true, keepBuffer:1,
+        zIndex:index+1,
+        errorTileUrl:'data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs='
+      }).addTo(map));
     }
   });
+}
+const geographyLabels = [];
+function addGeographyLabels() {
+  // Fixed geographic anchors keep names on their water features as the map moves.
+  const labels = [
+    ['Mediterranean Sea',34,32,4,0], ['Red Sea',23.5,37,4,-62],
+    ['Dead Sea',31.5,35.48,7,-78], ['Sea of Galilee',32.82,35.59,8,0],
+    ['Gulf of Aqaba',28.8,34.75,7,-62], ['Gulf of Suez',28.8,32.9,7,-55],
+    ['Persian Gulf',27,51,4,-32], ['Black Sea',43,34,4,0],
+    ['Nile',28,30.8,6,-80], ['Jordan',32.28,35.57,8,-80],
+    ['Euphrates',35.2,40.5,6,35], ['Tigris',35.4,43.35,6,48]
+  ];
+  for (const [name,lat,lng,minZoom,angle] of labels) {
+    const layer = L.marker([lat,lng], {pane:'geography',interactive:false,keyboard:false,
+      icon:L.divIcon({className:'geography-label',iconSize:[0,0],iconAnchor:[0,0],
+        html:`<span style="--water-angle:${angle}deg">${esc(name)}</span>`})}).addTo(map);
+    layer.getElement().setAttribute('aria-hidden','true');
+    const positions = name === 'Mediterranean Sea' ? [[34,32],[32,33],[35,34],[33,33]]
+      : name === 'Red Sea' ? [[23.5,37],[26,35],[27.3,34.1]] : [[lat,lng]];
+    geographyLabels.push({layer,minZoom,positions});
+  }
+}
+function layoutGeographyLabels() {
+  const occupied = [...labelFeatures.values()].filter(e => e.visible).map(e => e.layer.getElement().getBoundingClientRect());
+  occupied.push(...$$('.layers, .leaflet-control').map(el => el.getBoundingClientRect()));
+  const bounds = map.getContainer().getBoundingClientRect();
+  for (const {layer,minZoom,positions} of geographyLabels) {
+    const el = layer.getElement();
+    el.style.visibility = 'hidden';
+    if (map.getZoom() < minZoom) continue;
+    for (const position of positions) {
+      layer.setLatLng(position);
+      const rect = el.firstElementChild.getBoundingClientRect();
+      const overlaps = occupied.some(r => rect.left < r.right+5 && rect.right > r.left-5 && rect.top < r.bottom+5 && rect.bottom > r.top-5);
+      if (overlaps || rect.left < bounds.left || rect.right > bounds.right || rect.top < bounds.top || rect.bottom > bounds.bottom) continue;
+      el.style.visibility = 'visible';
+      occupied.push(rect);
+      break;
+    }
+  }
 }
 const mapFeatures = new Map(), arrowFeatures = new Map(), labelFeatures = new Map();
 const reducedMapMotion = matchMedia('(prefers-reduced-motion: reduce)');
@@ -399,17 +683,16 @@ reducedMapMotion.addEventListener('change', () => {
 });
 function visibleAt(f) { return (f.start == null || state.date >= f.start) && (f.end == null || state.date <= f.end); }
 const factions = {
-  judah: { name: 'Judah', color: '#8a5908' },
-  assyria: { name: 'Assyria', color: '#ae3924' },
-  babylonia: { name: 'Babylonia', color: '#783951' },
-  persian: { name: 'Persia', color: '#694529' }
+  judah: { name: 'Judah', color: '#8a5908', selectedBorder: '#4d3003' },
+  assyria: { name: 'Assyria', color: '#ae3924', selectedBorder: '#651d11' },
+  babylonia: { name: 'Babylonia', color: '#783951', selectedBorder: '#431b2d' },
+  persian: { name: 'Persia', color: '#694529', selectedBorder: '#3d2718' }
 };
-function factionFor(feature) { return factions[feature.faction || feature.id] || { name: 'Place', color: '#594530' }; }
+function factionFor(feature) { return factions[feature.faction || feature.id] || { name: 'Place', color: '#594530', selectedBorder: '#34271b' }; }
 let lastMapChapter;
-let mapScope = 'overview';
 function focusChapterMap(animate = true) {
   if (!map) return;
-  const focus = chapterFocus(data, state.chapter), points = chapterPoints(data, state.chapter, mapScope);
+  const focus = chapterFocus(data, state.chapter), points = chapterPoints(data, state.chapter);
   lastMapChapter = state.chapter;
   if (!points.length) return;
   closeCard();
@@ -430,19 +713,16 @@ function chapterImpacts() {
     const place = data.places.find(p=>p.id===item.placeId);
     return {...place,id:`impact:${state.chapter}:${item.placeId}`,impact:true,
       name:`${place.name.split(' · ')[0]} · destruction or distress`,
-      summary:`${item.reference}. ${item.description} ${focus.limits}`,sourceIds:focus.sourceIds};
+      reference:item.reference, summary:item.description, uncertainty:focus.limits, sourceIds:focus.sourceIds};
   });
 }
 function mapStoryHtml() {
-  const focus = chapterFocus(data,state.chapter);
-  if (!focus?.narrative) return '';
   const routes = focusedRoutes();
-  return `<section class="map-story" aria-label="Geographic story"><h2>The wider story</h2><p>${esc(focus.narrative)}</p><details><summary>Movements & evidence${routes.length ? ` · ${routes.length}` : ''}</summary><p>${esc(focus.limits)}</p>${routes.map(r=>`<button class="story-route" data-action="story-route" data-id="${esc(r.id)}"><i style="background:${movementStyle(r).color}"></i><span>${esc(r.title)}<small>${esc(movementStyle(r).label)} · ${esc(r.evidence)}</small></span></button>`).join('')}<a class="source-link" target="_blank" rel="noopener" href="https://ebible.org/engwebp/ISA${String(state.chapter).padStart(2,'0')}.htm">Isaiah ${state.chapter} · source text ↗</a></details></section>`;
+  if (!routes.length) return '';
+  return `<details class="chapter-movements"><summary>Paths and facts · ${routes.length}</summary>${routes.map(r=>{const evidence=mapDisplayText(r.evidence);return `<button class="story-route" data-action="story-route" data-id="${esc(r.id)}"><i style="background:${movementStyle(r).color}"></i><span>${esc(r.title)}<small>${esc(movementStyle(r).label)}${evidence ? ` · ${esc(evidence)}` : ''}</small></span></button>`;}).join('')}</details>`;
 }
 function displayedCampaigns() {
-  const focused = focusedRoutes();
-  const used = new Set(focused.map(r => r.originalId));
-  return [...data.campaigns.filter(c => state.layers.history && visibleAt(c) && !used.has(c.id)), ...focused];
+  return focusedRoutes();
 }
 function chapterPlaceVisible(p) { return !p.chapterLocation || chapterFocus(data, state.chapter)?.placeIds.includes(p.id); }
 function drawOverlays() {
@@ -457,26 +737,27 @@ function drawOverlays() {
     });
   };
   const current = findFeature($('#contextCard').dataset.feature);
-  if (current && !visibleAt(current)) $('#contextCard').classList.add('hidden');
+  if (current && !visibleAt(current)) hideModalPanel($('#contextCard'));
   const regions = state.layers.regions && (state.layers.history || activePassage()?.year != null) ? data.regions.filter(visibleAt) : [];
   if (state.layers.regions) chapterAreas().forEach(r => {
-    feature(r.id,()=>L.polygon(r.points,{color:'#896020',weight:1.5,dashArray:'3 5',fillColor:'#c69c50',fillOpacity:.09,className:'chapter-area'}),r);
+    feature(r.id,()=>L.polygon(r.points,{pane:'areas',color:'#79501b',weight:2.5,dashArray:'6 4',fillColor:'#d39a48',fillOpacity:.32,className:'chapter-area'}),r);
   });
   const campaigns = state.layers.campaigns ? displayedCampaigns() : [];
   regions.forEach(r => {
     const color = factionFor(r).color;
-    feature(`region:${r.id}`, () => L.polygon(r.points, { color, weight: 1.6, dashArray: '5 5', fillColor: color, fillOpacity: .12, className: 'region-overlay' }), r);
+    feature(`region:${r.id}`, () => L.polygon(r.points, { pane:'areas', color, weight: 2.5, dashArray: '6 4', fillColor: color, fillOpacity: .3, className: 'region-overlay' }), r);
   });
   campaigns.forEach(c => {
     const style = movementStyle(c), color = c.chapterRoute ? style.color : factionFor(c).color;
-    feature(`campaign:${c.id}`, () => L.polyline(c.points, { color, weight: c.chapterRoute ? (c.contextRoute ? 3.5 : 5) : 2, opacity: c.chapterRoute ? .9 : .3, dashArray: c.chapterRoute ? style.dash : '10 7', interactive: false, className: 'campaign-overlay' }));
-    feature(`hit:${c.id}`, () => L.polyline(c.points, {color, weight:22, opacity:0, className:'campaign-hit'}), c);
+    // Keep every enabled route readable before hover or selection.
+    feature(`campaign:${c.id}`, () => L.polyline(c.points, { pane:'routes', color, weight: c.chapterRoute && !c.contextRoute ? 5 : 3.5, opacity: 1, dashArray: c.chapterRoute ? style.dash : '10 7', interactive: false, className: 'campaign-overlay' }));
+    feature(`hit:${c.id}`, () => L.polyline(c.points, {pane:'routes', color, weight:22, opacity:0, className:'campaign-hit'}), c);
   });
   if (state.layers.places) data.places.filter(chapterPlaceVisible).forEach(p => {
-    feature(`place:${p.id}`, () => L.circleMarker([p.lat,p.lng], {radius:5, color:'#fff4dc', weight:2, fillColor:'#594530', fillOpacity:1}), p);
+    feature(`place:${p.id}`, () => L.circleMarker([p.lat,p.lng], {pane:'places',radius:5, color:'#fff4dc', weight:2, fillColor:'#594530', fillOpacity:1}), p);
   });
   if (state.layers.places) chapterImpacts().forEach(p => {
-    feature(p.id,()=>L.circleMarker([p.lat,p.lng],{radius:11,color:'#b52e26',weight:2.5,fillColor:'#c43c32',fillOpacity:.16,className:'chapter-impact'}),p);
+    feature(p.id,()=>L.circleMarker([p.lat,p.lng],{pane:'impacts',radius:11,color:'#b52e26',weight:2.5,fillColor:'#c43c32',fillOpacity:.16,className:'chapter-impact'}),p);
   });
   retireMapFeatures(mapFeatures, wanted);
   const active = [...new Set([...regions, ...campaigns].map(f => f.faction || f.id))];
@@ -484,7 +765,7 @@ function drawOverlays() {
   $('#factionLegend').hidden = !active.length;
   const focus = chapterFocus(data, state.chapter);
   const kinds = [...new Set(campaigns.filter(c=>c.chapterRoute).map(c=>c.kind))];
-  $('.map-note').innerHTML = `<div class="map-scope"><button data-action="map-overview" aria-pressed="${mapScope === 'overview'}">Big picture</button><button data-action="map-detail" aria-pressed="${mapScope === 'detail'}">Local detail</button></div><button data-action="focus-chapter" class="chapter-focus-button">Focus Isaiah ${state.chapter}</button><div class="movement-legend">${kinds.map(kind=>{const s=movementStyle({kind});return `<span><i style="background:${s.color}"></i>${s.label}</span>`;}).join('')}${focus?.impacts?.length && state.layers.places ? '<span><i class="impact-key"></i>Destruction / distress</span>' : ''}</div><details><summary>Map evidence</summary>${esc(focus?.limits || focus?.note || '')}</details><span>Lines show connections, not exact roads.</span>`;
+  $('.map-note').innerHTML = `<button data-action="focus-chapter" class="chapter-focus-button">Focus Isaiah ${state.chapter}</button><div class="movement-legend">${kinds.map(kind=>{const s=movementStyle({kind});return `<span><i style="background:${s.color}"></i>${s.label}</span>`;}).join('')}${focus?.impacts?.length && state.layers.places ? '<span><i class="impact-key"></i>Destruction / distress</span>' : ''}</div>${focus?.narrative ? `<details><summary>Map context</summary>${esc(focus.narrative)}</details>` : ''}`;
   refreshMapDetails();
 }
 function refreshMapDetails() {
@@ -509,7 +790,7 @@ function refreshMapDetails() {
         const arrow = keepMapFeature(arrowFeatures, key, () => L.marker(latlng, {interactive:false, keyboard:false, icon:L.divIcon({className:'route-arrow', iconSize:[18,18], iconAnchor:[9,9], html:'<svg viewBox="0 0 18 18" aria-hidden="true"><path d="M3 3 L14 9 L3 15 L6 9 Z" fill="' + (c.chapterRoute ? movementStyle(c).color : factionFor(c).color) + '" stroke="#fff0d5" stroke-width="1.2"/></svg>'})}).addTo(map));
         arrow.setLatLng(latlng);
         const svg = arrow.getElement().firstElementChild;
-        svg.style.opacity = c.chapterRoute ? '1' : '.3';
+        svg.style.opacity = '1';
         svg.style.transform = `rotate(${angle}deg)`;
         if (entering && !reducedMapMotion.matches && svg.animate) {
           svg.animate([
@@ -522,6 +803,7 @@ function refreshMapDetails() {
   });
   retireMapFeatures(arrowFeatures, wanted);
   layoutPlaceLabels();
+  layoutGeographyLabels();
   syncMapSelection();
 }
 function placePriority(place) {
@@ -547,30 +829,34 @@ function layoutPlaceLabels() {
     if (r.width && r.height) occupied.push({x:r.left-mapRect.left-5,y:r.top-mapRect.top-5,w:r.width+10,h:r.height+10});
   });
   const places = data.places.filter(chapterPlaceVisible).map(p => ({p, point:map.latLngToContainerPoint([p.lat,p.lng]), priority:placePriority(p)}));
-  places.forEach(({point}) => occupied.push({x:point.x-6,y:point.y-6,w:12,h:12}));
-  const collides = r => occupied.some(b => r.x < b.x+b.w && r.x+r.w > b.x && r.y < b.y+b.h && r.y+r.h > b.y);
+  places.forEach(({p,point}) => occupied.push({id:p.id,x:point.x-6,y:point.y-6,w:12,h:12}));
+  const collides = (r, id) => occupied.some(b => b.id !== id && r.x < b.x+b.w && r.x+r.w > b.x && r.y < b.y+b.h && r.y+r.h > b.y);
   places.sort((a,b) => b.priority-a.priority || a.p.name.localeCompare(b.p.name)).forEach(({p,point,priority}) => {
     if (!priority && zoom < 7) return;
     if (point.x < 0 || point.y < 0 || point.x > size.x || point.y > size.y) return;
     const existing = labelFeatures.get(p.id);
-    const label = existing?.layer || leafletLabel([p.lat,p.lng], p.name.replace(' · approximate',''), 'city-label', p);
+    const label = existing?.layer || leafletLabel([p.lat,p.lng], mapDisplayName(p.name), 'city-label', p);
     const el = label.getElement();
     el.classList.toggle('relevant-label', !!priority);
     const text = el.firstElementChild;
     const w = text.offsetWidth, h = text.offsetHeight;
     const gap = priority ? 3 : Math.max(4, 20-(zoom-7)*7);
     const offset = 8 + gap;
-    const offsets = [[offset,-h/2],[-w-offset,-h/2],[-w/2,-h-offset],[-w/2,offset]];
+    const offsets = [[offset,-h/2],[-w-offset,-h/2]];
+    const target = x => ({left:Math.min(-16,x), right:Math.max(16,x+w)});
     const fit = offsets.find(([x,y]) => {
-      const r = {x:point.x+x-gap,y:point.y+y-gap,w:w+gap*2,h:h+gap*2};
-      return r.x >= 4 && r.y >= 4 && r.x+r.w <= size.x-4 && r.y+r.h <= size.y-4 && !collides(r);
+      const hit = target(x);
+      const r = {x:point.x+hit.left-gap,y:point.y+y-gap,w:hit.right-hit.left+gap*2,h:h+gap*2};
+      return r.x >= 4 && r.y >= 4 && r.x+r.w <= size.x-4 && r.y+r.h <= size.y-4 && !collides(r,p.id);
     });
     if (!fit) { if (!existing) map.removeLayer(label); return; }
-    el.style.width = w + 'px';
+    const hit = target(fit[0]);
+    el.style.width = hit.right-hit.left + 'px';
+    text.style.marginLeft = fit[0]-hit.left + 'px';
     el.style.height = h + 'px';
-    el.style.marginLeft = fit[0] + 'px';
+    el.style.marginLeft = hit.left + 'px';
     el.style.marginTop = fit[1] + 'px';
-    occupied.push({x:point.x+fit[0]-gap,y:point.y+fit[1]-gap,w:w+2*gap,h:h+2*gap});
+    occupied.push({x:point.x+hit.left-gap,y:point.y+fit[1]-gap,w:hit.right-hit.left+2*gap,h:h+2*gap});
     wanted.add(p.id);
     keepMapFeature(labelFeatures, p.id, () => label);
   });
@@ -582,13 +868,15 @@ function syncMapSelection() {
   for (const region of data.regions) {
     const active = region.id === selected;
     const layer = mapFeatures.get(`region:${region.id}`)?.layer;
+    const faction = factionFor(region);
     layer?.setStyle({
-      color:active ? '#0877c4' : factionFor(region).color,
-      weight:active ? 3.5 : 1.6,
-      dashArray:active ? null : '5 5',
-      fillOpacity:active ? .3 : .12
+      color:active ? faction.selectedBorder : faction.color,
+      weight:active ? 3.5 : 2.5,
+      dashArray:active ? null : '6 4',
+      fillOpacity:active ? .45 : .3
     });
     const el = layer?.getElement();
+    el?.style.setProperty('--selected-region-border', faction.selectedBorder);
     el?.classList.toggle('selected-region', active);
     el?.setAttribute('aria-pressed', String(active));
   }
@@ -596,6 +884,7 @@ function syncMapSelection() {
     const active = place.id === selected;
     const relevant = chapterFocus(data, state.chapter)?.focusPlaceIds.includes(place.id);
     const marker = mapFeatures.get(`place:${place.id}`)?.layer;
+    marker?.getElement()?.setAttribute('tabindex', labelFeatures.get(place.id)?.visible ? '-1' : '0');
     marker?.setRadius(active ? 8 : relevant ? 6.5 : 4);
     marker?.setStyle({color:active ? '#fff' : '#fff4dc', weight:active ? 3 : 2, fillColor:active || relevant ? '#0877c4' : '#594530'});
     for (const layer of [marker, labelFeatures.get(place.id)?.layer]) {
@@ -607,11 +896,24 @@ function syncMapSelection() {
 }
 function leafletLabel(latlng, label, className, feature) {
   const layer = L.marker(latlng, { interactive:!!feature, keyboard:false, icon: L.divIcon({ className: `map-text ${className}`, html: '<span>' + esc(label) + '</span>', iconSize: [0,0], iconAnchor: [0,0] }) }).addTo(map);
-  if (feature) bindFeature(layer, feature, false);
+  if (feature) bindFeature(layer, feature);
   return layer;
 }
-function scheduleCardClose() { clearTimeout(cardCloseTimer); cardCloseTimer = setTimeout(() => { const c = $('#contextCard'); if (c.dataset.pinned !== 'true' && !c.matches(':hover')) c.classList.add('hidden'); }, 350); }
-function bindFeature(layer, feature, preview = true) { layer.on({ mouseover(e) { if (!preview) return; clearTimeout(cardCloseTimer); clearTimeout(cardOpenTimer); cardOpenTimer = setTimeout(() => openFeature(feature, false, e.target), 260); }, mouseout() { clearTimeout(cardOpenTimer); scheduleCardClose(); }, click(e) { openFeature(feature, true, e.target); }, keypress(e) { if (e.originalEvent.key === 'Enter') openFeature(feature, true, e.target); } }); const el = layer.getElement?.(); if (el) { el.setAttribute('tabindex','0'); el.setAttribute('role','button'); el.setAttribute('aria-label', `${featureType(feature)}: ${feature.title || feature.name}`); el.addEventListener('focus', () => { if (preview && !suppressFeatureFocus) openFeature(feature, false, layer); }); el.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); openFeature(feature, true, layer); } }); } }
+function bindFeature(layer, feature) {
+  layer.on({ click(e) { openFeature(feature, true, e.target); } });
+  const el = layer.getElement?.();
+  if (!el) return;
+  el.classList.add('map-feature');
+  el.setAttribute('tabindex', '0');
+  el.setAttribute('role', 'button');
+  el.setAttribute('aria-label', `${featureType(feature)}: ${feature.title || feature.name}`);
+  el.addEventListener('keydown', e => {
+    if (e.key === 'Enter' || e.key === ' ') {
+      e.preventDefault();
+      openFeature(feature, true, layer);
+    }
+  });
+}
 function isLdsSource(s) { const ldsIds = new Set(data.passages.flatMap(p => p.lds?.sourceIds || [])); return ldsIds.has(s.id) || /faith|lds|church|devotional/i.test(s.type || ''); }
 function librarySourceHtml(s) {
   const moments = (s.timestamps || []).map(moment => {
@@ -621,16 +923,24 @@ function librarySourceHtml(s) {
   }).join('');
   const cited = (s.citedSourceIds || []).map(id => source(id)).filter(Boolean);
   const scriptureRefs = (s.scriptureReferences || []).map(ref => `<p><a target="_blank" rel="noopener" href="${esc(ref.url)}">${esc(ref.label)} ↗</a> · <a target="_blank" rel="noopener" href="${esc(ref.contextUrl)}">${esc(ref.location)} in talk ↗</a></p>`).join('');
-  return `<article class="library-source" id="library-${esc(s.id)}"><a target="_blank" rel="noopener" href="${esc(s.url)}">${esc(s.title)} ↗</a><p>${esc(s.author || '')}${s.year ? ` · ${esc(s.year)}` : ''} · ${esc(s.type || 'Source')}</p>${sourceImageHtml(s.image)}<p>${esc(s.summary || '')}</p>${scriptureRefs ? `<details><summary>Isaiah references</summary>${scriptureRefs}</details>` : ''}${moments ? `<details><summary>Video sections</summary>${moments}</details>` : ''}${cited.length ? `<details><summary>Works cited in this video</summary>${cited.map(item => `<a class="source-link" href="#library-${esc(item.id)}">${esc(item.title)} · Read resource summary</a>`).join('')}</details>` : ''}${s.reviewed ? `<p><span class="badge">Source check</span> ${esc(s.reviewed)}</p>` : ''}${s.limitations ? `<p><span class="badge">Limitations</span> ${esc(s.limitations)}</p>` : ''}</article>`;
+  return `<article class="library-source" id="library-${esc(s.id)}"><a target="_blank" rel="noopener" href="${esc(s.url)}">${esc(s.title)} ↗</a><p>${esc(s.author || '')}${s.year ? ` · ${esc(s.year)}` : ''} · ${esc(s.type || 'Source')}</p>${sourceImageHtml(s.image)}${sourceMediaHtml([s.id], {images:false, allExcerpts:true})}<p><span class="badge">About this source</span> ${esc(s.summary || '')}</p>${scriptureRefs ? `<details><summary>Isaiah links</summary>${scriptureRefs}</details>` : ''}${moments ? `<details><summary>Video parts</summary>${moments}</details>` : ''}${cited.length ? `<details><summary>Sources used</summary>${cited.map(item => `<a class="source-link" href="${esc(item.url)}" data-source-id="${esc(item.id)}">${esc(item.title)} · Read source note</a>`).join('')}</details>` : ''}${s.revisionUrl ? `<p><a href="${esc(s.revisionUrl)}" target="_blank" rel="noopener">Wikipedia page we checked ↗</a> · <a href="${esc(s.licenseUrl)}" target="_blank" rel="noopener">${esc(s.license)}</a> · We made the notes shorter.</p>` : ''}${s.reviewed ? `<p><span class="badge">What we checked</span> ${esc(s.reviewed)}</p>` : ''}${s.limitations ? `<p><span class="badge">What this cannot show</span> ${esc(s.limitations)}</p>` : ''}</article>`;
 }
 function openLibrary() {
   const list = state.perspective === 'historical' ? data.sources.filter(s => !isLdsSource(s)) : data.sources;
   const additions = list.filter(s => s.group === 'mcclellan');
   const conference = list.filter(s => s.group === 'conference-year');
-  const other = list.filter(s => !['mcclellan', 'conference-year'].includes(s.group));
-  const conferenceHtml = conference.length ? `<section aria-label="Recent general conference"><h3>General conference · past year</h3><p>September 27, 2025–September 27, 2026. Reviewed 72 conference items from October 2025 and April 2026. Found ${conference.length} talks with explicit Isaiah citations or a named Isaiah reference. Unnamed allusions were not systematically identified.</p><p>Conference sources are linked to the chapters they cite. Study questions are Meridian reflections.</p>${['April 2026','October 2025'].map(month => { const talks = conference.filter(s => s.conference === month); return `<details><summary>${month} · ${talks.length} talks</summary>${talks.map(librarySourceHtml).join('')}</details>`; }).join('')}</section>` : '';
-  const modeNotice = state.perspective === 'historical' ? 'Historical mode shows historical sources. Select LDS to include Church sources.' : 'LDS mode shows historical sources and Church sources.';
-  $('#libraryContent').innerHTML = `<h2>Source library</h2><p class="translation">${modeNotice}</p>${conferenceHtml}${additions.length ? `<section aria-label="Dan McClellan and cited scholarship"><h3>Dan McClellan and cited scholarship</h3><p>Four selected videos and five works cited in them. Read each summary with its source-check note and limitations. The authorship video connects directly to Isaiah 39. The other videos support broader Isaiah study.</p>${additions.map(librarySourceHtml).join('')}</section><h3>Other study resources</h3>` : ''}${other.map(librarySourceHtml).join('') || (additions.length || conference.length ? '' : '<p>No sources are available for this study mode.</p>')}`;
+  const publicGroups = [
+    ['sennacherib-prism', 'Sennacherib’s Prism', 'Museum records, a free scholarly edition, and a public-domain photograph. Compare the royal account with Isaiah 36–37.'],
+    ['opening-isaiah', 'Opening Isaiah: A Harmony', 'Public sample, publisher information, and author interviews. Ann N. Madsen and Shon D. Hopkin’s study aid is separate from official Church teaching.']
+  ];
+  const publicHtml = publicGroups.map(([group, title, description]) => {
+    const entries = list.filter(s => s.group === group);
+    return entries.length ? `<section aria-label="${esc(title)}"><h3>${esc(title)}</h3><p>${esc(description)}</p>${entries.map(librarySourceHtml).join('')}</section>` : '';
+  }).join('');
+  const other = list.filter(s => !['mcclellan', 'conference-year', ...publicGroups.map(([group]) => group)].includes(s.group));
+  const conferenceHtml = conference.length ? `<section aria-label="Recent general conference"><h3>General conference · past year</h3><p>We checked 72 talks from October 2025 and April 2026. We found ${conference.length} talks that name Isaiah or cite his words. We may not have found hints that do not name him.</p><p>Each talk links to the chapter it uses. Meridian made the study questions.</p>${['April 2026','October 2025'].map(month => { const talks = conference.filter(s => s.conference === month); return `<details><summary>${month} · ${talks.length} talks</summary>${talks.map(librarySourceHtml).join('')}</details>`; }).join('')}</section>` : '';
+  const modeNotice = state.perspective === 'historical' ? 'This mode shows history sources. Select LDS to add Church sources.' : 'This mode shows history sources and Church sources.';
+  $('#libraryContent').innerHTML = `<h2>Source library</h2><p class="translation">${modeNotice}</p>${publicHtml}${conferenceHtml}${additions.length ? `<section aria-label="Dan McClellan and cited scholarship"><h3>Dan McClellan and his sources</h3><p>This group has four videos and five works used in them. Each note says what we checked. It also says what the source cannot prove. The video about who wrote Isaiah links to chapter 39. The other videos help with the whole book.</p>${additions.map(librarySourceHtml).join('')}</section><h3>Other study sources</h3>` : ''}${other.map(librarySourceHtml).join('') || (additions.length || conference.length ? '' : '<p>No sources are available for this study mode.</p>')}`;
   // Scroll inside the dialog without replacing the app's chapter/verse URL state.
   $('#libraryContent').querySelectorAll('a[href^="#library-"]').forEach(link => link.addEventListener('click', event => {
     event.preventDefault();
@@ -654,10 +964,8 @@ function guideReadingHtml(step) {
   const words = (step.wordIds || []).map(id => data.words.find(w => w.id === id)).filter(Boolean);
   return reading + words.map(w => `<section class="guide-reading"><h3>${esc(w.label)}</h3><p>${esc(w.meaning)}</p><p>${esc(w.discussion)}</p>${sourcesHtml(w.sourceIds)}</section>`).join('');
 }
-function renderGuideStep() { const guide = data.guides.find(g => g.id === guideState?.id); const step = guide?.steps?.[guideState.index]; if (!guide || !step) { guideState = null; return renderGuides(); } const extraSources = (step.sourceIds || []).filter(id => !/^web(?:\d+)?$/.test(id)); const sourceHtml = extraSources.length ? sourcesHtml(extraSources) : ''; $('#tourDrawer').innerHTML = `<button class="dialog-close" data-action="close-guides" aria-label="Close guide">×</button><button class="back-button guide-back" data-action="guide-list">← Back to guide list</button><p class="tour-progress">${esc(guide.title)} · Step ${guideState.index + 1} of ${guide.steps.length}</p><h2>${esc(step.title)}</h2><p>${richText(step.text || '')}</p>${(step.sourceIds || []).some(id => source(id)?.image) ? sourceHtml + guideReadingHtml(step) : guideReadingHtml(step) + sourceHtml}${passageInterpretationHtml()}<div class="tour-nav"><button data-action="guide-prev" ${guideState.index === 0 ? 'disabled' : ''}>← Previous</button><button data-action="guide-next">${guideState.index === guide.steps.length - 1 ? 'Finish' : 'Next →'}</button></div>`; $('#tourDrawer').scrollTop = 0; }
-function moveGuide(direction) { const guide = data.guides.find(g => g.id === guideState?.id); if (!guide) return; const next = guideState.index + direction; if (next < 0) return; if (next >= guide.steps.length) { showToast(`${guide.title} complete. You can continue your study.`); guideState = null; $('#tourDrawer').classList.add('hidden'); return; } guideState.index = next; applyGuideStep(); }
+function renderGuideStep() { const guide = data.guides.find(g => g.id === guideState?.id); const step = guide?.steps?.[guideState.index]; if (!guide || !step) { guideState = null; return renderGuides(); } const extraSources = (step.sourceIds || []).filter(id => !/^web(?:\d+)?$/.test(id)); const sourceHtml = extraSources.length ? sourcesHtml(extraSources) : ''; $('#tourDrawer').innerHTML = `<button class="dialog-close" data-action="close-guides" aria-label="Close guide">×</button><button class="back-button guide-back" data-action="guide-list">← Back to guide list</button><p class="tour-progress">${esc(guide.title)} · Step ${guideState.index + 1} of ${guide.steps.length}</p><h2>${esc(step.title)}</h2><p>${richText(step.text || '')}</p>${sourceInsightsHtml(step.sourceIds, step.chapter)}${guideReadingHtml(step)}${sourceHtml ? `<div class="word-section"><h3>Sources</h3>${sourceHtml}</div>` : ''}${passageInterpretationHtml()}<div class="tour-nav"><button data-action="guide-prev" ${guideState.index === 0 ? 'disabled' : ''}>← Previous</button><button data-action="guide-next">${guideState.index === guide.steps.length - 1 ? 'Finish' : 'Next →'}</button></div>`; $('#tourDrawer').scrollTop = 0; }
+function moveGuide(direction) { const guide = data.guides.find(g => g.id === guideState?.id); if (!guide) return; const next = guideState.index + direction; if (next < 0) return; if (next >= guide.steps.length) { showToast(`${guide.title} complete. You can continue your study.`); guideState = null; hideModalPanel($('#tourDrawer')); return; } guideState.index = next; applyGuideStep(); }
 document.addEventListener('keydown', e => { if (e.key === 'Escape') closeCard(); });
 $('#layerToggle').dataset.action = 'toggle-layers'; $('#libraryButton').dataset.action = 'library'; $('#tourButton').dataset.action = 'open-guides'; $('#returnPassage').dataset.action = 'return-passage';
-$('#contextCard').addEventListener('mouseenter', () => clearTimeout(cardCloseTimer));
-$('#contextCard').addEventListener('mouseleave', scheduleCardClose);
 load();

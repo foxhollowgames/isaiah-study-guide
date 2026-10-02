@@ -72,8 +72,43 @@ The revision applies plain-English principles from ASD-STE100. It does not estab
 
 ## Wider narrative maps — September 28, 2026 UTC
 
-- The overview is now the default. A separate Local detail control preserves close route-section views.
+- Chapter selection and Focus Isaiah show the full chapter view. The redundant Big picture and Local detail buttons have been removed.
 - All 66 chapters have narrative notes. The data contains 81 places, nine approximate geographic areas, and 39 narrative path records across 19 chapters with mapped movements.
 - Isaiah 15 has eight distress markers and four flight connections. The text’s unnamed attacker remains unnamed. Branches do not claim distinct refugee groups or confirmed starting towns.
 - Tests cover movement kinds, scripture references, geographic areas, Moab’s missing military itinerary, the full chapter 36 campaign, local detail, future exile, visionary connections, and suppression of unrelated inherited campaigns.
 - All automated checks pass. Browser checks passed for all 66 narratives and default overview selection. The Moab route list opened its reference and uncertainty card. Overview and detail controls worked in the 390-pixel phone layout. No application browser errors were reported.
+
+
+## Chapter source dialogs — September 29, 2026
+
+- All five `npm run check` suites pass. The new chapter-source suite checks stable citation numbers, local footnote targets, image previews, perspective filters, interview links in all 66 chapters, and the sample's chapter limits.
+- `node --check dist/app.js` and `git diff --check` pass.
+- Browser check: an Isaiah 36 footnote opens the Lachish relief photo, source summary, credit, and limits inside the app.
+- Browser check: Escape closes the source dialog and restores focus to the chapter footnote. The chapter and verse URL remain unchanged.
+- Browser check: the Hopkin interview footnote opens its summary, review note, and limits inside the chapter.
+- Public sources retain the review scope recorded in each source. The added UI does not imply that the full harmony or every interview recording was reviewed.
+
+
+All-chapter study enrichment: automated checks render every chapter in Historical and LDS mode (132 combinations). Checks confirm exact scripture quotations, explanation coverage, quote attribution, source inventory completeness, lesson scope, conference chapter filters, Cyrus image scope, and whole-word place matches. Existing chapter, map, citation, and navigation checks remain required. Public source quotations were checked against their linked text; unquoted source notes remain paraphrases with their existing review limits.
+
+
+## Remove generic harmony commentary — September 29, 2026
+
+The repeated Madsen and Hopkin reading-help section and its chapter citations were removed. This replaces the interview-link behavior recorded above. The publisher record, sample, and interviews remain in the source library. The content generator no longer adds generic harmony notes or references to chapters.
+
+All six `npm run check` suites pass. The chapter-source checks confirm that all 66 chapters exclude these general resources from chapter evidence. The 132 chapter and mode renders still pass. `node --check dist/app.js` passes.
+
+
+## Specific interview insights — September 30, 2026
+
+Added source-based notes for Isaiah 1, 2, 6, and 30 in LDS mode. These replace the blanket removal above with selected, useful material. Reviewed the public Madsen and Hopkin transcripts, Madsen’s poetry example, and the official Isaiah 2 and 2 Nephi 12 texts. Short quotations retain attribution. Meridian applications are labeled separately. The full book and recordings were not reviewed.
+
+All six check suites pass. Automated checks cover the selected chapter citations and all 132 chapter and mode renders. They confirm that the new notes are absent from unrelated chapters and Historical mode. The old generic reading-help section remains absent. JavaScript syntax checks pass.
+
+## Closer terrain zoom
+
+- Raised the manual zoom limit from 10 to 14.
+- Added 7,580 offline terrain tiles (466.2 MB). The Levant detail area reaches native zoom 12. Jerusalem, Lachish, and Samaria reach native zoom 14.
+- `npm run check` passed, including complete tile coverage, PNG headers, geographic bounds, and named-place coverage. Pillow also decoded all 7,580 new tiles.
+- Browser checks reached the maximum zoom with level-14 tiles loaded and no console errors. Panning beyond the close-up area showed the broader terrain without empty areas. The chapter focus control still returned to the overview.
+- River and shoreline geometry remains at its previous resolution. Terrain outside the close-up areas is enlarged at zoom levels 13 and 14.

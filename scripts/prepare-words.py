@@ -8,18 +8,34 @@ headwords={int(d.get('n')):d.find('o:w',NS).attrib for d in lex.findall('.//o:di
 hb=E.parse(ROOT/'scripts/Isa.xml')
 verses={v.get('osisID'):v for v in hb.findall('.//o:verse',NS)}
 words=[]
+scripture=json.loads((ROOT/'dist/data/scripture.json').read_text(encoding='utf-8'))['chapters']
+
+def tokens(text):
+    return {re.sub(r'^\W+|\W+$', '', token).casefold() for token in text.split()}
+
+def lemma_ids(verse):
+    return {int(number) for w in verse.findall('o:w',NS) for number in re.findall(r'\d+',w.get('lemma',''))}
+
+def hebrew_verse(chapter, verse):
+    # OSHB follows Hebrew numbering; the reading pane follows English numbering.
+    if chapter==9:
+        chapter,verse=(8,23) if verse==1 else (9,verse-1)
+    elif chapter==64:
+        chapter,verse=(63,19) if verse==1 else (64,verse-1)
+    return verses[f'Isa.{chapter}.{verse}']
 def word(id,label,matches,chapter,verse_list,strong,greek,meaning,discussion,greeknote='',related=None):
     # Check each verse where the English selection can actually appear.
-    english=json.loads((ROOT/'dist/data/scripture.json').read_text(encoding='utf-8'))['chapters'][str(chapter)]
+    english=scripture[str(chapter)]
     for verse_number in verse_list:
         text=next(v['text'] for v in english if v['verse']==verse_number)
         if not any(re.search(r'\b'+re.escape(m)+r'\b',text,re.I) for m in matches):
             continue
-        v=verses[f'Isa.{chapter}.{verse_number}']
+        v=hebrew_verse(chapter,verse_number)
         found=any(str(strong) in re.findall(r'\d+',w.get('lemma','')) for w in v.findall('o:w',NS))
         assert found,(id,chapter,verse_number,strong)
     entry=headwords[strong]
-    words.append(dict(id=id,label=label,matches=matches,chapter=chapter,verses=verse_list,hebrew=entry.get('lemma',''),transliteration=entry.get('xlit',''),greek=greek,greekNote=greeknote,meaning=meaning,grammar=f'Hebrew dictionary entry H{strong}. The word shown is its dictionary form. Its spelling in the verse can differ.',discussion=discussion,sourceIds=['strong','oshb',f'lxx{chapter}','web' if chapter==36 else f'web{chapter}'],related=related or []))
+    words.append(dict(id=id,label=label,matches=matches,chapter=chapter,verses=verse_list,hebrew=entry.get('lemma',''),transliteration=entry.get('xlit',''),greek=greek,greekNote=greeknote,meaning=meaning,grammar=f'This is Hebrew word H{strong}. We show its main form. The form in this verse may look different.',discussion=discussion,sourceIds=['strong','oshb',f'lxx{chapter}','web' if chapter==36 else f'web{chapter}'],related=related or []))
+    words[-1]['strongId']=f'H{strong}'
 
 word('king','King',['King','king'],36,[1],4428,'βασιλεὺς','A ruler. The verse names both Judah’s king and the Assyrian king.','Both rulers have the title king, but their power differs. Later, the speaker calls the Assyrian king “great” to stress his power.')
 word('hezekiah','Hezekiah',['Hezekiah'],36,[1,2,3,4,5,7,14,15,16,18,22],2396,'Ἑζεκίου','The king of Judah in this account.',"")
@@ -79,6 +95,43 @@ for chapter,verse,label,match,strong,meaning,discussion in additional:
     word(f'isaiah-{chapter}-{match.lower()}',label,[match],chapter,[verse],strong,'',meaning,discussion)
     words[-1]['sourceIds']=['strong','oshb',f'web{chapter}']
 
+# Passage-specific Greek forms must not be copied into other chapters.
+word('isaiah-7-king','King',['king','kings'],7,[1,6,16,17,20],4428,'βασιλεὺς','A royal ruler. The chapter names rulers of Judah, Syria, Israel, and Assyria.','The same title applies to rulers on different sides of the conflict.','The displayed form occurs in verse 1. Verses 16, 17, and 20 use other forms. Verse 6 uses the related verb βασιλεύσομεν.')
+word('isaiah-7-believe','Believe',['believe','established'],7,[9],539,'πιστεύσητε','To believe or trust. The Hebrew also uses a form of the same root for being established.','The Hebrew connects trust with stability through two forms of the same root.','This form corresponds to believe. The Greek ends with συνῆτε, meaning understand, where the English has established.')
+word('isaiah-7-virgin','Virgin / young woman',['virgin'],7,[14],5959,'παρθένος','The Hebrew term refers to a young woman of marriageable age. This English translation uses virgin.','Read the word within the sign given to the house of David. A dictionary entry alone does not settle the identity of the woman or the child.','The Greek uses παρθένος, commonly translated virgin.')
+word('isaiah-7-immanuel','Immanuel',['Immanuel'],7,[14],6005,'Ἐμμανουήλ','The name means God with us.','The name is part of the sign announced during the threat against Judah.','The Greek gives the Hebrew name in Greek letters.')
+sign=next(w for w in words if w['id']=='isaiah-7-sign')
+sign.update(verses=[11,14],greek='σημεῖον',greekNote='This form occurs in verses 11 and 14.',sourceIds=['strong','oshb','lxx7','web7'])
+
+# Match complete displayed tokens, then require the Hebrew dictionary number
+# in that same verse. Existing passage notes take priority over general entries.
+covered={(w['chapter'],v,m.casefold()) for w in words for v in w['verses'] for m in w['matches']}
+catalog=json.loads((ROOT/'scripts/word-catalog.json').read_text(encoding='utf-8'))
+for strong,label,aliases,meaning in catalog:
+    for chapter,chapter_verses in scripture.items():
+        chapter=int(chapter)
+        for match in aliases.split('|'):
+            hits=[v['verse'] for v in chapter_verses
+                  if match.casefold() in tokens(v['text'])
+                  and strong in lemma_ids(hebrew_verse(chapter,v['verse']))
+                  and (chapter,v['verse'],match.casefold()) not in covered]
+            if not hits:
+                continue
+            word(f'lex-{chapter}-{strong}-{match.lower()}',label,[match],chapter,hits,strong,'',meaning,
+                 '')
+            words[-1].update(scope='dictionary',sourceIds=['strong','oshb','web' if chapter==36 else f'web{chapter}'])
+            covered.update((chapter,v,match.casefold()) for v in hits)
+
 out=ROOT/'dist/data/content.json'; content=json.loads(out.read_text(encoding='utf-8')); content['words']=words
+if not any(s['id']=='lxx7' for s in content['sources']):
+    template=next(s for s in content['sources'] if s['id']=='lxx36')
+    content['sources'].append({**template,'id':'lxx7','title':'Isaiah 7 — Swete’s Septuagint','url':'https://biblehub.com/sepd/isaiah/7.htm'})
+background = {
+    'sennacherib':['wiki-sennacherib'], 'hezekiah':['wiki-hezekiah'],
+    'lachish':['wiki-lachish','wiki-lachish-siege'], 'babylon':['wiki-exile','wiki-merodach'],
+}
+source_ids={source['id'] for source in content['sources']}
+for entry in words:
+    entry['sourceIds'] += [sid for sid in background.get(entry['id'],[]) if sid in source_ids]
 out.write_text(json.dumps(content,ensure_ascii=False,indent=2),encoding='utf-8')
 print(f'Prepared {len(words)} curated word studies with Hebrew lemma checks.')

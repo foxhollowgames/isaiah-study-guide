@@ -36,7 +36,7 @@ export function addGeneralConference(content) {
       group: 'conference-year', conference: talk.conference, summary,
       scriptureReferences: talk.references,
       reviewed: 'Official English text, Isaiah references, and the associated paragraphs checked on September 27, 2026.',
-      limitations: 'This talk uses Isaiah for religious teaching. Its verified references are outside Isaiah 36–39. Related pilot study questions are Meridian reflections, not claims that the speaker discussed those chapters.',
+      limitations: 'This talk uses Isaiah to teach faith. Its Isaiah links are not in chapters 36–39. Meridian made the study questions. The speaker did not teach those questions.',
       license: 'Linked Church resource; original Meridian summary. Talk text and media are not reproduced.',
     };
     const index = content.sources.findIndex(s => s.id === record.id);

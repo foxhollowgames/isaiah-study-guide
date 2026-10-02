@@ -1,8 +1,8 @@
 {
   "bounds": [
     [
-      24.5271348225978,
-      28.125
+      11.178401873711781,
+      25.3125
     ],
     [
       40.97989806962013,
@@ -28,5 +28,75 @@
     ],
     "shorelineSource": "https://github.com/nvkelso/natural-earth-vector/tree/master/geojson",
     "note": "Zoom 10 measured elevation; 8 times the linear resolution of the overview. Modern Natural Earth 1:10m water outlines."
-  }
+  },
+  "closeDetail": [
+    {
+      "id": "levant",
+      "url": "assets/terrain/{z}/{x}/{y}.png",
+      "minZoom": 11,
+      "maxNativeZoom": 12,
+      "bounds": [
+        [
+          29.22889003019423,
+          32.34375
+        ],
+        [
+          35.746512259918504,
+          37.96875
+        ]
+      ],
+      "note": "Modern measured elevation. Source resolution varies. Natural Earth 1:10m water outlines."
+    },
+    {
+      "id": "jerusalem",
+      "url": "assets/terrain/{z}/{x}/{y}.png",
+      "minZoom": 13,
+      "maxNativeZoom": 14,
+      "bounds": [
+        [
+          31.653381399663985,
+          35.068359375
+        ],
+        [
+          31.87755764334002,
+          35.33203125
+        ]
+      ],
+      "note": "Modern measured elevation. Source resolution varies. Natural Earth 1:10m water outlines."
+    },
+    {
+      "id": "lachish",
+      "url": "assets/terrain/{z}/{x}/{y}.png",
+      "minZoom": 13,
+      "maxNativeZoom": 14,
+      "bounds": [
+        [
+          31.42866311735861,
+          34.716796875
+        ],
+        [
+          31.653381399663985,
+          34.98046875
+        ]
+      ],
+      "note": "Modern measured elevation. Source resolution varies. Natural Earth 1:10m water outlines."
+    },
+    {
+      "id": "samaria",
+      "url": "assets/terrain/{z}/{x}/{y}.png",
+      "minZoom": 13,
+      "maxNativeZoom": 14,
+      "bounds": [
+        [
+          32.17561247849933,
+          35.068359375
+        ],
+        [
+          32.398515802474016,
+          35.33203125
+        ]
+      ],
+      "note": "Modern measured elevation. Source resolution varies. Natural Earth 1:10m water outlines."
+    }
+  ]
 }

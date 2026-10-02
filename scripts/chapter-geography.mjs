@@ -1,5 +1,7 @@
 import { readFile } from 'node:fs/promises';
 import { addNarrativeGeography } from './narrative-geography.mjs';
+import { refineWikipediaGeography, addWikipediaEnrichment } from './wikipedia-enrichment.mjs';
+import { applyMapDescriptions } from './map-descriptions.mjs';
 
 // Reviewed chapter emphasis. Secondary references do not force a continent-wide view.
 const focusRows = `
@@ -86,7 +88,7 @@ export async function addChapterGeography(data, scripture) {
       if (ring) {
         const points = ring.trim().split(/\s+/).map(pair=>{const [lng,lat]=pair.split(',').map(Number);return [lat,lng];});
         data.narrativeRegions.push({id:`geographic:${areaName.toLowerCase()}`,placeId:areaName.toLowerCase(),name:areaName,points,
-          narrativeRegion:true,summary:`Approximate geographic setting of ${areaName}, based on the OpenBible atlas. This area is not a dated political border or a boundary of destruction.`,sourceIds:['geo']});
+          narrativeRegion:true,summary:`Geographic setting of ${areaName}, based on the OpenBible atlas.`,sourceIds:['geo']});
       }
     }
     const coordinate = placemark.match(/<Point>\s*<coordinates>(.*?)<\/coordinates>/)?.[1];
@@ -107,8 +109,8 @@ export async function addChapterGeography(data, scripture) {
     const references = Object.entries(scripture.chapters).flatMap(([chapter, verses]) => verses.filter(v => terms.some(term => new RegExp(`\\b${term}\\b`, 'i').test(v.text))).map(v => ({chapter:Number(chapter), verse:v.verse})));
     if (!references.length) continue;
     const first = references[0];
-    data.places.push({ id, name: `${name} · approximate`, lat:candidate.lat, lng:candidate.lng,
-      summary:`Geographic reference for Isaiah ${first.chapter}:${first.verse}. ${candidate.identification}. This is a representative location, not a precise ancient boundary. Other site identifications may exist.`,
+    data.places.push({ id, name, lat:candidate.lat, lng:candidate.lng,
+      summary:`Geographic reference for Isaiah ${first.chapter}:${first.verse}. ${candidate.identification}.`,
       ...first, sourceIds:['geo', `web${first.chapter === 36 ? '' : first.chapter}`], aliases:terms, chapterLocation:true });
   }
   data.textRoutes = [];
@@ -117,11 +119,11 @@ export async function addChapterGeography(data, scripture) {
     data.textRoutes.push({id,title,points,chapter,verse,summary,sourceIds:['geo',`web${chapter === 36 ? '' : chapter}`],
       uncertainty:'Schematic connection of named places. The exact road and some site identifications are uncertain.', textRoute:true});
   };
-  route('northern-approach','The approach toward Zion',['aiath','migron','michmash','geba','nob'],10,28,'Isaiah 10:28–32 pictures an advance toward Zion. This is a literary itinerary, not a verified itinerary of the 701 BCE campaign. Ramah, Gibeah, and other nearby towns react to the advance; the line does not treat them as confirmed stops.');
+  route('northern-approach','The approach toward Zion',['aiath','migron','michmash','geba','nob'],10,28,'Isaiah 10:28–32 pictures an advance toward Zion. Ramah, Gibeah, and other nearby towns react to the advance.');
   route('lachish-libnah','From Lachish to Libnah',['lachish','libnah'],37,8,'The speaker returns and finds the Assyrian king at Libnah after leaving Lachish.');
-  route('egypt-envoys','Envoys seeking Egypt',['jerusalem','zoan','hanes'],30,4,'Isaiah 30:1–6 describes an appeal to Egypt, naming Zoan and Hanes. The connecting line does not establish their order of travel.');
+  route('egypt-envoys','Envoys seeking Egypt',['jerusalem','zoan','hanes'],30,4,'Isaiah 30:1–6 describes an appeal to Egypt, naming Zoan and Hanes.');
   data.textRoutes.find(r => r.id === 'egypt-envoys').direction = false;
-  route('return-babylon','Leaving Babylon',['babylon','jerusalem'],48,20,'Isaiah 48:20 calls for departure from Babylon. Jerusalem provides the wider restoration context. The line indicates a connection, not a road across the desert.');
+  route('return-babylon','Leaving Babylon',['babylon','jerusalem'],48,20,'Isaiah 48:20 calls for departure from Babylon. Jerusalem provides the wider restoration context.');
   const routeRefs = {
     10:[{id:'northern-approach',from:0,to:4,reference:'Isaiah 10:28–32'}],
     30:[{id:'egypt-envoys',from:0,to:2,reference:'Isaiah 30:1–6'}],
@@ -142,4 +144,7 @@ export async function addChapterGeography(data, scripture) {
       sourceIds:[`web${chapter === 36 ? '' : chapter}`,'geo']};
   });
   addNarrativeGeography(data);
+  refineWikipediaGeography(data);
+  addWikipediaEnrichment(data);
+  applyMapDescriptions(data);
 }

@@ -2,36 +2,71 @@
 <html lang="en">
 <head>
   <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="theme-color" content="#04192d"><title>Meridian — Isaiah Study Guide</title>
+  <meta name="description" content="Study all 66 chapters of Isaiah through scripture, historical context, geography, language notes, and an optional Latter-day Saint reading layer.">
+  <meta name="theme-color" content="#04192d"><meta name="color-scheme" content="dark">
+  <meta property="og:type" content="website"><meta property="og:title" content="Meridian — Isaiah Study Guide">
+  <meta property="og:description" content="A map-first guide to all 66 chapters of Isaiah.">
+  <meta property="og:url" content="https://isaiah.josephnewelldesign.com/">
+  <link rel="canonical" href="https://isaiah.josephnewelldesign.com/">
+  <title>Meridian — Isaiah Study Guide</title>
   <link rel="stylesheet" href="vendor/leaflet.css"><link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to study content</a>
   <div class="app-shell" id="app">
     <header class="topbar">
-      <a class="brand" href="#"><span class="compass">✦</span><span><b>MERIDIAN</b><small>Study Isaiah 1–66</small></span></a>
+      <a class="brand" href="#"><span class="compass" aria-hidden="true"><svg width="26" height="26" viewBox="0 0 24 24" focusable="false"><path fill="currentColor" d="M12 0C14 8 16 10 24 12C16 14 14 16 12 24C10 16 8 14 0 12C8 10 10 8 12 0Z"/></svg></span><b>MERIDIAN</b></a>
       <div class="segmented" aria-label="Study guides"><button id="tourButton" aria-label="Open study guides">Guides</button></div>
-      <div class="segmented perspective" aria-label="Study perspective"><button data-perspective="historical" class="active">Historical</button><button data-perspective="lds">LDS</button></div>
+      <div class="settings-menu" id="settingsMenu">
+        <button id="settingsButton" class="settings-button" aria-label="Open settings" aria-expanded="false" aria-controls="settingsPanel"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/></svg></button>
+        <section id="settingsPanel" class="settings-panel" aria-labelledby="settingsHeading" hidden>
+          <h2 id="settingsHeading">Settings</h2>
+          <fieldset><legend>Study perspective</legend><div class="segmented perspective"><button data-perspective="historical" class="active" aria-pressed="true">Historical</button><button data-perspective="lds" aria-pressed="false">LDS</button></div></fieldset>
+          <label class="portrait-setting"><input id="nonGeneratedPortraits" type="checkbox" role="switch" aria-describedby="portraitSettingHelp"><span>Use non-generated portraits</span></label>
+          <p id="portraitSettingHelp">Use old art when we have a free copy.</p>
+        </section>
+      </div>
     </header>
     <main id="main">
-      <aside class="rail" aria-label="Study navigation"><span class="rail-mark">⌂</span><span>Isaiah</span><div id="railChapters"></div><footer class="rail-footer"><button id="libraryButton" aria-label="Open source library">Sources</button></footer></aside>
+      <aside class="rail" aria-label="Study navigation"><span>Isaiah</span><div id="railChapters"></div><footer class="rail-footer"><button id="libraryButton" aria-label="Open source library">Sources</button></footer></aside>
       <section class="map-view view active" id="mapView" aria-label="Map study">
-        <aside class="scripture-sidebar" id="scriptureSidebar"><div id="sidebarContent" class="sidebar-content"></div></aside>
-        <div id="scriptureResize" class="scripture-resize" role="separator" tabindex="0" aria-label="Scripture panel width" aria-controls="scriptureSidebar" aria-orientation="vertical" aria-valuemin="280" aria-valuemax="720" aria-valuenow="432" title="Drag to resize scripture. Use Left and Right arrow keys to adjust."></div>
+        <aside class="scripture-sidebar" id="scriptureSidebar"><div id="sidebarContent" class="sidebar-content"></div>
+        <div id="scriptureResize" class="scripture-resize" role="separator" tabindex="0" aria-label="Scripture panel width" aria-controls="scriptureSidebar" aria-orientation="vertical" aria-valuemin="280" aria-valuemax="720" aria-valuenow="432" title="Drag to change the width. You can also use the Left and Right arrow keys."></div>
+        </aside>
         <section class="map-workspace">
           <div class="map-stage"><div id="map" aria-label="Historical map"></div><div class="map-veil"></div>
-            <aside class="layers panel" aria-label="Map layers"><button class="layer-heading" id="layerToggle" aria-expanded="true" aria-controls="layerOptions">Map layers <svg class="layer-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m6 9 6 6 6-6"/></svg></button><div id="layerOptions"></div><div id="factionLegend" class="faction-legend" aria-label="Visible kingdoms"></div><p class="map-note">Arrows show travel direction.</p></aside>
+            <aside class="layers panel" aria-label="Map layers"><button class="layer-heading" id="layerToggle" aria-expanded="true" aria-controls="layerOptions">Map layers <svg class="layer-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m6 9 6 6 6-6"/></svg></button><div id="layerOptions"></div><div id="factionLegend" class="faction-legend" aria-label="Visible kingdoms"></div><p class="map-note">Arrows show travel direction.</p><p class="map-coverage-key"><span aria-hidden="true"></span>Gray areas are outside the study map.</p></aside>
             <section class="context-card panel hidden" id="contextCard" aria-live="polite"></section>
             <section class="tour-drawer panel hidden" id="tourDrawer" aria-live="polite"></section>
             <div class="map-labels" aria-hidden="true"><span class="map-label label-assyria">ASSYRIA</span><span class="map-label label-judah">JUDAH</span><span class="map-label label-sea">Mediterranean<br>Sea</span></div>
           </div>
-          <section class="timeline" aria-label="Historical timeline"><div class="timeline-header"><div class="timeline-date"><span id="timelineChapter" class="eyebrow"></span><output id="dateLabel" for="timelineRange" aria-describedby="timelineChapter"></output></div><button class="text-button hidden" id="returnPassage">Return to passage</button></div><input id="timelineRange" type="range" min="-780" max="-539" step="1" aria-label="Historical date"><div class="periods" id="periods"></div><div id="timelineTooltip" class="timeline-tooltip" role="tooltip" hidden></div></section>
+          <!-- Retained for a future mode with the timeline as its main focus. -->
+          <section class="timeline" aria-label="Historical timeline" hidden><div class="timeline-header"><div class="timeline-date"><span id="timelineChapter" class="eyebrow"></span><output id="dateLabel" for="timelineRange" aria-describedby="timelineChapter"></output></div><button class="text-button hidden" id="returnPassage">Return to passage</button></div><input id="timelineRange" type="range" min="-780" max="-539" step="1" aria-label="Historical date"><div class="periods" id="periods"></div><div id="timelineTooltip" class="timeline-tooltip" role="tooltip" hidden></div></section>
         </section>
       </section>
     </main>
-    <footer class="site-footer">Distances, exact routes, site locations, and areas of influence are approximations based on our current knowledge. <span aria-hidden="true">·</span> This app uses generated portraits for clarity only. They do not represent how the individuals may have actually looked. <span aria-hidden="true">·</span> <span id="scriptureAttribution">World English Bible · Public domain</span></footer>
+    <footer class="site-footer">Map lines and places may not be exact. We use the best facts we have. <span aria-hidden="true">·</span> <span id="portraitAttribution">The portraits are art. We do not know how these people looked.</span> <span aria-hidden="true">·</span> <span id="scriptureAttribution">World English Bible · Public domain</span></footer>
     <div id="toast" role="status" class="toast hidden"></div>
     <dialog id="libraryDialog"><button class="dialog-close" aria-label="Close source library">×</button><div id="libraryContent"></div></dialog>
+    <dialog id="sourceDialog" aria-labelledby="sourceDialogTitle"><button class="dialog-close" aria-label="Close source details">×</button><div id="sourceContent"></div></dialog>
   </div>
-  <script src="vendor/leaflet.js"></script><script type="module" src="app.js"></script>
+  <section id="localLaunchHelp" hidden style="max-width:620px;margin:12vh auto;padding:28px;line-height:1.6">
+    <h1>Open Meridian through its local server</h1>
+    <p>The map will not work if you open this file by itself.</p>
+    <p>Open the Isaiah Study Guide folder. Double-click <strong>Start Meridian.cmd</strong>. Keep that window open while you study.</p>
+    <p><a href="http://127.0.0.1:4173/" style="color:#92e5ff">Open Meridian</a></p>
+    <p>If the server is already running, use the link above.</p>
+  </section>
+  <script src="vendor/leaflet.js"></script>
+  <script>
+    if (location.protocol === 'file:') {
+      document.getElementById('app').style.display = 'none';
+      document.getElementById('localLaunchHelp').hidden = false;
+    } else {
+      const appScript = document.createElement('script');
+      appScript.type = 'module';
+      appScript.src = 'app.js';
+      document.body.append(appScript);
+    }
+  </script>
 </body></html>

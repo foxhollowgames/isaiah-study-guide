@@ -56,7 +56,7 @@ export function addComeFollowMe(content) {
       type: 'LDS Come, Follow Me manual',
       url: `https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/${lesson.lesson}?lang=eng`,
       summary: lesson.summary,
-      limitations: `This lesson covers ${lesson.range}. It does not cover Isaiah 36–39. Meridian adds the related study questions. The lesson teaches faith; it is not independent historical evidence.`,
+      limitations: `This lesson covers ${lesson.range}. It does not cover Isaiah 36–39. Meridian made the linked questions. The lesson teaches faith. It is not proof from history.`,
       license: 'Linked reading; original Meridian paraphrase. Church lesson text and images are not reproduced.',
     };
     const index = content.sources.findIndex(item => item.id === source.id);

@@ -109,6 +109,11 @@ async function main() {
     assert(passage.title && passage.summary && passage.dateLabel && typeof passage.uncertainty === 'string' && (passage.year === null || passage.uncertainty.trim()), `Passage ${passage.id} is missing contextual display text`);
     reference(passage.sourceIds, sourceById, `Passage ${passage.id}`);
     reference(passage.placeIds, placeById, `Passage ${passage.id}`);
+    for (const note of passage.studyNotes || []) {
+      assert(note.title && note.text, `Passage ${passage.id} has an incomplete study note`);
+      assert(['historical', 'lds'].includes(note.perspective), `Passage ${passage.id} has an invalid study-note perspective`);
+      reference(note.sourceIds, sourceById, `Passage ${passage.id} study note`);
+    }
     if (passage.lds) { assert(passage.lds.text, `Passage ${passage.id} LDS entry has no text`); reference(passage.lds.sourceIds, sourceById, `Passage ${passage.id} LDS entry`); }
   }
 

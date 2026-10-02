@@ -5,9 +5,9 @@ from PIL import Image,ImageDraw
 import math,json
 root=Path(__file__).resolve().parent.parent
 rows=[]
-for y in range(48,55):
+for y in range(48,60):
     row=[]
-    for x in range(74,82):
+    for x in range(73,82):
         a=np.array(Image.open(root/f'scripts/terrain/{x}-{y}.png').convert('RGB'),dtype=float)
         row.append(a[:,:,0]*256+a[:,:,1]+a[:,:,2]/256-32768)
     rows.append(np.concatenate(row,axis=1))
@@ -32,7 +32,7 @@ draw=ImageDraw.Draw(mask)
 def pixel(point):
     lng,latitude=point[:2]
     latitude=max(-85,min(85,latitude))
-    xx=(lng+180)/360*32768-74*256
+    xx=(lng+180)/360*32768-73*256
     yy=(1-math.asinh(math.tan(math.radians(latitude)))/math.pi)/2*32768-48*256
     return (xx,yy)
 for feature in json.loads((root/'dist/data/land.geojson').read_text())['features']:
@@ -50,7 +50,7 @@ rgb[sea]=water[sea]
 out=np.uint8(rgb)
 Image.fromarray(out).save(root/'dist/assets/relief.png',optimize=True)
 def lat(y):return math.degrees(math.atan(math.sinh(math.pi*(1-2*y/128))))
-bounds=[[lat(55),74/128*360-180],[lat(48),82/128*360-180]]
+bounds=[[lat(60),73/128*360-180],[lat(48),82/128*360-180]]
 metadata={'bounds':bounds,'source':'https://registry.opendata.aws/terrain-tiles/','attribution':'Terrain: Mapzen / Tilezen; USGS SRTM & GMTED2010, NOAA ETOPO1','note':'Modern elevation reference. Meridian color and hillshade rendering; not ancient terrain reconstruction.'}
 metadata_path=root/'dist/data/relief.json'
 if metadata_path.exists():

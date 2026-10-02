@@ -4,9 +4,13 @@
 
 `chapterMaps` contains exactly one entry for each chapter. Entries have `chapter`, `focusPlaceIds`, `placeIds`, `routes`, `maxZoom`, `note`, and `sourceIds`. Focus places control the camera. Other referenced places remain visible without widening the focus. Route references contain `id`, inclusive zero-based `from` and `to` indices, and a scripture `reference`.
 
+Place cards use the chapter that the reader has open. If the chapter names the place, the card shows that verse and its chapter source. Otherwise, the card shows a generic place description and keeps only general map sources. It does not call attention to a missing scripture reference. A card must not show a note or Bible source from a different chapter. Source summaries do not repeat the card explanation.
+
+Every place and political area has two short content parts. `summary` identifies the place or area in one or two sentences. `detail` uses one or two sentences to explain its geopolitical or literary importance in Isaiah. Descriptions must add information; they must not explain visible map shapes, colors, labels, or rivers.
+
 `textRoutes` contains schematic chapter connections without assigned historical dates. They have `id`, `title`, `points`, `chapter`, `verse`, `summary`, `uncertainty`, and `sourceIds`. An optional `direction:false` suppresses directional arrows when the text does not establish the travel order. Historical `campaigns` keep their date ranges. The map displays chapter routes independently of the timeline date, with their uncertainty visible in context cards.
 
-The current guide contains Isaiah 1–66, with 1,292 verses. Every verse belongs to exactly one passage note. The original chapters 36–39 retain their detailed passage divisions. Added chapters each have one chapter-level note. There are six guides and 50 selected word studies.
+The current guide contains Isaiah 1–66, with 1,292 verses. Every verse belongs to exactly one passage note. The original chapters 36–39 retain their detailed passage divisions. Added chapters each have one chapter-level note. There are six guides and 1,310 word-study records.
 
 Passage `year` can be `null` when no event year is assigned. The map then keeps its independent reference date and labels that distinction. Historical map events retain the range 780–539 BCE. This range does not cover every proposed composition period. Source chapter URLs use two digits, such as `ISA01.htm`.
 
@@ -34,4 +38,21 @@ Narrative routes have `kind` (`military`, `flight`, `exile`, `restoration`, or `
 
 An impact has `placeId`, `reference`, and `description`. Impacts show distress or destruction without inventing military routes. `narrativeRegions` stores approximate geographic areas from the cached atlas. These areas are not dated political borders. They have IDs separate from historical influence layers.
 
-The chapter narrative generator is `scripts/narrative-geography.mjs`. It runs during normal geography generation. Dated campaign overlays require the optional Dated context control. Undated chapters do not inherit unrelated historical influence overlays by default.
+The chapter narrative generator is `scripts/narrative-geography.mjs`. It runs during normal geography generation. Paths stay within the current chapter. The Nations control enables historical influence areas for the selected timeline year in undated passages. Areas must also be enabled. Undated passages hide these historical influence areas by default.
+
+## Chapter source notes
+
+Passages can include `studyNotes: [{title, text, perspective, sourceIds}]`. `perspective` is `historical` (shared evidence in both modes) or `lds` (LDS mode only). Notes describe how linked sources help the reader. General study-method notes must not imply chapter-specific commentary. Chapter footnote numbering includes visible passage, LDS, and study-note sources. Footnotes open the local source dialog. It shows shared image metadata and source summaries without changing the reading position.
+
+
+## Chapter study material
+
+`chapterStudies` contains exactly one selected verse and original explanation for each chapter, 1–66. Fields are `chapter`, `verse`, `text`, `context`, `sourceId`, `attribution`, and `url`. Quoted text must equal the cached World English Bible verse. This selection does not replace the complete chapter or claim that one verse represents every theme.
+
+Sources may have `studyText` for prose in the main summary, `chapterCoverage` for lesson scope, and `excerpt` for a verified quotation. An excerpt has `text`, `attribution`, `location`, `url`, `checked`, optional `chapters`, and optional `context`. A quotation outside its assigned chapters is shown only in that source's own details or library entry. Source images retain their shared license and credit metadata.
+
+`studySourceReview` records every source's chapter associations, media availability, selected treatment, and existing access limits. Associations include works cited by another source. An inventory entry is not a claim that an entire external work was re-read. New direct quotations require a check against the original public text.
+
+## Word coverage extension
+
+Word records include `strongId` (the Hebrew dictionary number). Generated general entries also have `scope: "dictionary"`; the UI labels their meaning as a dictionary meaning. The catalog requires a complete English token and the Hebrew lemma in the same verse. Chapter and verse restrictions stay explicit. Existing passage notes take priority. Greek forms and passage-specific comments must not be copied to other chapters. English Isaiah 9:1 maps to Hebrew 8:23; the rest of chapter 9 is offset by one. English 64:1 maps to Hebrew 63:19b; the rest of chapter 64 is offset by one. Coverage is broad but remains a verse-level association, not a full interlinear alignment.

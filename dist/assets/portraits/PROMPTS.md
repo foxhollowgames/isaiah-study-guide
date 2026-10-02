@@ -1,5 +1,24 @@
 # Portrait generation
 
+## Added portrait prompts (September 2026)
+
+Generated with the built-in image generation tool. Each asset uses this shared prompt plus its subject below. These are imagined likenesses.
+
+Use case: historical-scene. Create one square painted head-and-shoulders portrait for an educational tooltip. Refined realistic editorial oil painting. Clear face and silhouette readable at 88 pixels. Face occupies at least half the frame height, entire headwear visible. Ancient Near Eastern setting. Interpretive imaginative likeness, not a verified historical likeness. No text, watermark, border, collage, modern items or European medieval crowns. Subject:
+
+**rezin-v2.png:** Rezin, king of Aram-Damascus, mature Levantine man, angular olive face, dark beard flecked gray, low bronze royal headband, russet robe. Right-facing three-quarter pose, watchful expression. Muted teal background with distant Damascus stone.
+
+**ahaz-v2.png:** Ahaz, king of Judah, young adult Levantine man, short dark beard, narrow olive face, modest gold circlet, burgundy robe. Left-facing three-quarter pose, tense thoughtful expression. Warm ochre Jerusalem stone background.
+
+**pekah-v2.png:** Pekah, king of Israel, mature Levantine man, broad olive face, thick dark beard, simple bronze circlet, dark blue robe. Frontal pose, firm serious expression. Muted olive green Samaria hills background.
+
+**uzziah-v2.png:** Uzziah, king of Judah, older Levantine man, silver-streaked full beard, broad olive face, modest gold circlet, cream and ochre robe. Right-facing three-quarter pose, calm expression. Warm sandy Jerusalem stone background.
+
+**jotham-v2.png:** Jotham, king of Judah, middle-aged Levantine man, neatly trimmed dark beard, long olive face, simple gold headband, forest green robe. Left-facing three-quarter pose, attentive expression. Soft slate blue Jerusalem stone background.
+
+**david-v2.png:** David, king of Israel, mature Levantine man, wavy chestnut hair, medium brown beard, olive face, simple gold circlet, deep red robe. Frontal three-quarter pose, reflective expression. Warm dusk violet Judean hills background.
+
+
 Created with the built-in image generation tool. Interpretive illustrations, not documentary likenesses.
 
 Saved assets: `dist/assets/portraits/<person>-v2.png`.
