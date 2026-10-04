@@ -11,19 +11,21 @@ const proseKeys = new Set([
   'status', 'text', 'previewText',
 ]);
 const badText = /proveed|reshow|givess|showss|\b(?:teh|recieve|seperate)\b/i;
+const unclearTerms = /\b(?:schematic|corridor|itinerary|geopolitical|chronology|reconstruction|contextual anchor|coherent account)\b/i;
 
 function checkText(text, path) {
   if (!text) return;
   if (/\s{2,}/.test(text)) errors.push(`${path}: repeated spaces`);
   if (badText.test(text)) errors.push(`${path}: possible typo`);
   if (/\b(?:undefined|null|NaN)\b/.test(text)) errors.push(`${path}: unfinished generated value`);
+  if (unclearTerms.test(text)) errors.push(`${path}: use simpler words or explain the technical term`);
   const mayBeLabel = path.includes('.periods[') || path.endsWith('.evidence');
   if (!mayBeLabel && !/[.!?…”')\]]$/.test(text)) errors.push(`${path}: prose does not end with punctuation`);
 
   const sentences = text.split(/(?<=[.!?][”')\]]?)\s+/);
   for (const sentence of sentences) {
     const words = sentence.match(/[A-Za-zÀ-ÿ0-9’'-]+/g) || [];
-    if (words.length > 30) errors.push(`${path}: sentence has ${words.length} words`);
+    if (words.length > 15) errors.push(`${path}: sentence has ${words.length} words; the guide limit is 15`);
   }
 }
 
@@ -69,5 +71,4 @@ for (const passage of data.passages) {
   }
 }
 assert.equal(errors.length, 0, `Prose check failed:\n${errors.slice(0, 30).join('\n')}`);
-console.log('Prose check passed: punctuation, generated values, common typos, spacing, and sentence length.');
-
+console.log('Prose check passed: punctuation, generated values, common typos, spacing, vocabulary, and the 15-word sentence limit.');

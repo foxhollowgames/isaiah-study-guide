@@ -7,7 +7,7 @@ const sources = [
     id: 'dm-isaiah53', title: 'My claim about Isaiah 53 is “demonstrably false”?',
     author: 'Dan McClellan', year: 'September 2, 2026', type: 'Scholar video',
     url: 'https://www.youtube.com/watch?v=kfaeHPSkMHY',
-    summary: 'McClellan says the servant is Israel. He links the servant’s pain with exile. He says an old Aramaic Bible does not show a dying Messiah before the time of Jesus. The books he cites do not rule out every earlier idea.',
+    summary: 'McClellan says the servant is Israel. He links the servant’s pain with exile. He studies an old Aramaic Bible. He says it does not show a dying Messiah before Jesus’s time. The books he cites do not rule out every earlier idea.',
     limitations: 'This video is about Isaiah 49 and 53. It gives McClellan’s view of history. It is not Church teaching. Experts still debate who the servant is. Missing proof does not prove that an idea never existed.',
     reviewed: 'English auto-captions reviewed. Publication titles checked against publisher or university records.',
     citedSourceIds: ['dm-chilton','dm-page','dm-suffering-servant','dm-tooman'],
@@ -53,7 +53,7 @@ const sources = [
     id: 'dm-page', title: 'The Suffering Servant between the Testaments',
     author: 'S. H. T. Page', year: '1985 · New Testament Studies 31(4), 481–497', type: 'Scholarly article',
     url: 'https://www.cambridge.org/core/journals/new-testament-studies/article/abs/suffering-servant-between-the-testaments/EA79EE87245D6E4AF34470865632660B',
-    summary: 'Examines whether a messianic interpretation of the suffering servant existed before Christianity. In the conclusion read at 5:10–6:55, Page rejects claims of uniform interpretation. He also rejects ruling out earlier possibilities. He considers a developed expectation of a Messiah who atones through suffering unlikely, while allowing preparatory ideas. This qualification matters when assessing McClellan’s stronger opening wording.',
+    summary: 'Examines whether people saw the suffering servant as the Messiah before Christianity. Page rejects the claim that all readers agreed. He also refuses to rule out all earlier ideas. He finds no clear early belief in a Messiah who atones through suffering. He allows that some ideas prepared for that belief. This limit matters when we assess McClellan’s stronger opening words.',
     limitations: 'Cambridge’s record, extract, and references were accessible. The conclusion was reviewed through McClellan’s reading, not a complete independent reading of the article. This 1985 study does not represent every subsequent argument.',
     reviewed: 'Bibliography checked with Cambridge. Conclusion summary is explicitly indirect, through the cited video.',
   },
@@ -61,7 +61,7 @@ const sources = [
     id: 'dm-suffering-servant', title: 'The Suffering Servant: Isaiah 53 in Jewish and Christian Sources',
     author: 'Bernd Janowski and Peter Stuhlmacher, editors', year: '2004', type: 'Scholarly essay collection',
     url: 'https://www.eerdmans.com/9780802808455/the-suffering-servant/',
-    summary: 'Collects studies of Isaiah 53 in Jewish and Christian interpretation. McClellan introduces this volume at 7:47. His selected passage discusses the Targum’s victorious Messiah and cautions against assuming that its changes were directed against Christianity. The collection provides a route to broader study of the passage’s interpretation.',
+    summary: 'Collects Jewish and Christian studies of Isaiah 53. McClellan introduces this book at 7:47. His selected passage describes the Targum’s victorious Messiah. It warns against assuming that its changes were aimed at Christianity. The collection points readers to more study of this passage.',
     limitations: 'Publisher description and the excerpt read in the video were reviewed. The complete collection was not read. The chapter author and page for the displayed excerpt were not independently verified. The selected excerpt must not be treated as the conclusion of every contributor.',
     reviewed: 'Title, editors, and publication year checked with Eerdmans. Excerpt summary is indirect, through the video.',
   },
@@ -77,7 +77,7 @@ const sources = [
     id: 'dm-ulrich', title: 'The Biblical Qumran Scrolls: Transcriptions and Textual Variants',
     author: 'Eugene Ulrich, editor', year: '2010', type: 'Scholarly manuscript edition',
     url: 'https://www.degruyterbrill.com/document/isbn/9789004181830/html',
-    summary: 'Presents transcriptions of biblical manuscripts from Qumran and records differences between texts. McClellan introduces it at 1:07 in his Great Isaiah Scroll video. A critical apparatus is the set of notes that identifies these differences. It helps readers check which manuscript supports a reading instead of relying on a general claim of accuracy.',
+    summary: 'Presents written copies of Bible manuscripts from Qumran. It also records differences between the texts. McClellan introduces it at 1:07 in his Great Isaiah Scroll video. A critical apparatus is a set of notes about these differences. It helps readers check which manuscript supports each reading. Readers do not need to trust a broad claim about accuracy.',
     limitations: 'Publisher description and McClellan’s explanation were reviewed, not the complete edition. The local guide does not reproduce its transcriptions or apparatus. The video’s letter counts remain attributed to McClellan.',
     reviewed: 'Bibliography and scope checked with the publisher. Passage-level discussion comes from the video.',
   },
@@ -92,7 +92,7 @@ export function addMcClellan(content) {
   }
   const passage = content.passages.find(p => p.chapter === 39 && p.start <= 6 && p.end >= 6);
   if (!passage) throw new Error('Missing Isaiah 39:6 passage');
-  const note = ' McClellan’s authorship overview contrasts this warning of exile with the exile already assumed in Isaiah 40. He presents this shift as evidence for later composition of Isaiah 40–55, often called Second Isaiah.';
+  const note = ' McClellan compares this warning with Isaiah 40. Isaiah 40 speaks as if the exile has already happened. He uses this change to support a later date for Isaiah 40–55. Scholars often call this section Second Isaiah.';
   if (!passage.summary.includes(note.trim())) passage.summary += note;
   passage.sourceIds = [...new Set([...passage.sourceIds, 'dm-deutero'])];
   const step = content.guides.find(g => g.id === 'horizon')?.steps.find(s => s.title === 'Jerusalem’s later destruction');

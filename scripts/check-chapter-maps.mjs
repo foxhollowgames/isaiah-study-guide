@@ -50,7 +50,7 @@ assert(chapterPoints(data,36).some(([lat])=>lat>33),'Overview must restore the f
 assert.equal(chapterRoutes(data,15).length,4,'Moab flight passages must be mapped');
 assert(chapterRoutes(data,15).every(r=>r.kind==='flight'),'Do not invent a named attacking army for Moab');
 assert.equal(chapterFocus(data,15).impacts.length,8);
-assert(chapterFocus(data,15).limits.includes('attacker and military approach are unnamed'));
+assert(chapterFocus(data,15).limits.includes('attacker and army route are not named'));
 assert(chapterRoutes(data,16).some(r=>r.kind==='diplomacy'));
 assert(chapterRoutes(data,39).some(r=>r.kind==='exile'));
 assert(chapterRoutes(data,27).every(r=>r.kind==='restoration'));

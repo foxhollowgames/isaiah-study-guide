@@ -150,7 +150,7 @@ export function addFullIsaiah(content, scripture) {
     const lesson = c <= 12 ? 38 : c <= 35 ? 39 : c <= 49 ? 40 : c <= 57 ? 41 : 42;
     const direct = !(c >= 15 && c <= 21 || c === 23 || c >= 31 && c <= 34);
     const lds = {
-      text:`${note.question} ${direct ? 'Read the linked Come, Follow Me lesson for the Church study perspective.' : 'The linked Come, Follow Me lesson covers nearby chapters. This question is a study guide reflection, not a claim that the lesson teaches this chapter.'}`,
+      text:`${note.question} ${direct ? 'Read the linked Come, Follow Me lesson for the Church study perspective.' : 'The linked Come, Follow Me lesson covers nearby chapters. This question comes from the study guide. The lesson does not teach this chapter.'}`,
       sourceIds:[sourceId,`cfm2026-${lesson}`]
     };
     content.passages.push({id:`isaiah-${c}`,chapter:c,start:1,end:scripture.chapters[c].length,title:note.title,summary:note.summary,year:null,dateLabel:'Literary context · no assigned event year',uncertainty:'',placeIds:note.placeIds,sourceIds:[sourceId],lds});
@@ -171,7 +171,7 @@ export function addFullIsaiah(content, scripture) {
     content.passages.find(p => p.chapter === chapter).sourceIds.push(sourceId);
   }
   content.editorial.status = 'Complete reading text with original chapter notes. Historical research and language notes remain selected, not exhaustive.';
-  content.editorial.periodNote = 'The timeline covers selected events from 780–539 BCE. It does not date every passage or cover all proposed composition periods.';
+  content.editorial.periodNote = 'The timeline covers selected events from 780–539 BCE. It does not date every passage. It also does not show every proposed date for when parts of Isaiah were written.';
   content.guides.push(
     {id:'justice',title:'Worship and justice',description:'Trace care for vulnerable people across Isaiah.',steps:[
       {title:'Learn to do good',text:'Read Isaiah 1:10–20. Compare the criticism of worship with the command to defend vulnerable people.',chapter:1,verse:17,placeId:'jerusalem',sourceIds:['web1']},

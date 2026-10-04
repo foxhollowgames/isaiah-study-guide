@@ -117,7 +117,7 @@ export async function addChapterGeography(data, scripture) {
   const route = (id, title, placeIds, chapter, verse, summary) => {
     const points = placeIds.map(id => { const p = data.places.find(p => p.id === id); if (!p) throw Error(id); return [p.lat,p.lng]; });
     data.textRoutes.push({id,title,points,chapter,verse,summary,sourceIds:['geo',`web${chapter === 36 ? '' : chapter}`],
-      uncertainty:'Schematic connection of named places. The exact road and some site identifications are uncertain.', textRoute:true});
+      uncertainty:'This line connects named places. The exact road is uncertain. Some ancient sites are also uncertain.', textRoute:true});
   };
   route('northern-approach','The approach toward Zion',['aiath','migron','michmash','geba','nob'],10,28,'Isaiah 10:28–32 pictures an advance toward Zion. Ramah, Gibeah, and other nearby towns react to the advance.');
   route('lachish-libnah','From Lachish to Libnah',['lachish','libnah'],37,8,'The speaker returns and finds the Assyrian king at Libnah after leaving Lachish.');

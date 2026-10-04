@@ -52,15 +52,15 @@ const summaries = {
   medeba: 'Medeba was a town on the Moabite plateau east of the Dead Sea. Its surrounding plain supported farming and travel.',
   media: 'Media was a kingdom on the Iranian plateau east of Assyria. Median forces later helped Babylon defeat the Assyrian Empire.',
   michmash: 'Michmash was a hill town north of Jerusalem near a narrow pass. The pass made it important for travel and defense.',
-  midian: 'Midian was a broad region and group of peoples south and east of the Gulf of Aqaba. Its routes connected Arabia with the Levant.',
+  midian: 'Midian was a broad region south and east of the Gulf of Aqaba. The name also described groups of people. Its routes connected Arabia with the Levant.',
   migron: 'Migron was a site north of Jerusalem near Michmash. Its precise identification is uncertain.',
   moab: 'Moab occupied the plateau east of the Dead Sea. Its towns, farms, and roads lay between Judah, Ammon, Edom, and Arabia.',
   'mount-carmel': 'Mount Carmel is a wooded ridge reaching the Mediterranean coast. It overlooks the coastal plain and the Jezreel Valley.',
   'mount-seir': 'Mount Seir was the rugged highland associated with Edom. Its ridges controlled routes through the southern Transjordan.',
-  nebo: 'Nebo was a Moabite town and cult center on the plateau east of the Dead Sea. Its exact ancient site is usually placed near Mount Nebo.',
+  nebo: 'Nebo was a Moabite town east of the Dead Sea. It was also a center for worship. Its exact ancient site is usually placed near Mount Nebo.',
   negeb: 'The Negeb was Judah’s dry southern region. Roads through it linked the hill country with Egypt, Edom, and Arabia.',
   nile: 'The Nile sustained Egypt’s farms, cities, and transport. Control of its water and harvests supported Egyptian power.',
-  nimrim: 'Nimrim was a water-rich location in Moab, often linked with a stream south of the Dead Sea. Its exact identification is uncertain.',
+  nimrim: 'Nimrim was a place with much water in Moab. It is often linked with a stream south of the Dead Sea. Its exact identification is uncertain.',
   nob: 'Nob was a settlement close to Jerusalem, probably on a northern approach. Its exact location remains uncertain.',
   pathros: 'Pathros means Upper Egypt, the Nile Valley south of the Delta. It was one of Egypt’s main historic regions.',
   philistia: 'Philistia was the coastal plain ruled by cities such as Ashdod, Ashkelon, and Ekron. Its ports and roads made it valuable to larger empires.',
@@ -88,7 +88,7 @@ const summaries = {
 const relevanceGroups = [
   [['aiath','anathoth','geba','gibeah','michmash','migron','nob','ramah'], 'Isaiah uses this chain of towns to picture an army moving toward Jerusalem. The names make the Assyrian threat feel closer at each step.'],
   [['ar','arnon','beer-elim','dibon','elealeh','heshbon','horonaim','jahaz','jazer','kir-hareseth','luhith','medeba','moab','nebo','nimrim','sela','sibmah','zoar','brook-of-the-willows','eglaim','eglath-shelishiyah'], 'Isaiah’s poems about Moab move through towns, fields, and escape routes. Together they show war and displacement spreading across a whole region.'],
-  [['tyre','sidon','cyprus','jaffa'], 'Isaiah uses the Phoenician trade world to show that wealth and international reach do not make a city secure. These ports also show how Judah belonged to a larger economic world.'],
+  [['tyre','sidon','cyprus','jaffa'], 'Isaiah uses Phoenician trade to make a clear point. Wealth and wide influence cannot keep a city safe. These ports also show Judah in a larger trade world.'],
   [['ashkelon','ashdod','ekron','philistia','timnah'], 'Philistine cities stood between Judah and Egypt on the main coastal road. Their revolts and alliances drew Assyria toward Judah’s border.'],
   [['egypt','memphis','nile','pathros','zoan','hanes','cush'], 'Egypt and Cush offered an alternative to Assyrian power. Isaiah repeatedly asks whether Judah should trust that alliance or trust God.'],
   [['dedan','kedar','tema','sheba','midian'], 'Arabian routes carried goods, news, and refugees across the desert. Isaiah uses these peoples to widen the story beyond Judah and the great empires.'],
@@ -100,7 +100,7 @@ const details = {
   jerusalem: 'Jerusalem is the political and spiritual center of Isaiah’s world. Assyrian pressure, royal policy, temple worship, judgment, and hope all meet here.',
   lachish: 'Assyria’s capture of Lachish exposed Jerusalem to direct attack. Its fall shows how much of Judah was lost even though the capital survived.',
   nineveh: 'Nineveh represents the imperial power that threatened Judah. It also preserves Assyrian art and inscriptions that can be compared with Isaiah’s account.',
-  babylon: 'In Isaiah, Babylon changes from a rival inside Assyria’s world to the power linked with Judah’s future exile. It later becomes the setting from which restoration is announced.',
+  babylon: 'In Isaiah, Babylon first appears as a rival under Assyrian rule. It later becomes the power linked with Judah’s exile. It then becomes the place where a promised return begins.',
   samaria: 'Samaria’s fall showed Judah what Assyrian conquest could do to a neighboring kingdom. Isaiah treats that disaster as both a warning and part of the region’s political upheaval.',
   hamath: 'Assyria’s defeat of Hamath made it a warning to other western kingdoms. Isaiah uses such fallen cities to expose the empire’s argument that resistance is useless.',
   arpad: 'Arpad’s long resistance ended in Assyrian conquest. Its defeat became part of Assyria’s political message to cities such as Jerusalem.',
@@ -108,9 +108,9 @@ const details = {
   gozan: 'Gozan became part of the Assyrian system of provinces and deportation. Its name helps Isaiah’s readers feel the scale of Assyria’s earlier conquests.',
   libnah: 'Libnah matters because the Assyrian campaign did not stop at Lachish. Its uncertain location also warns against drawing a precise military route from the text.',
   damascus: 'Damascus joined Israel against Judah before it fell to Assyria. Its rise and defeat show how small kingdoms formed coalitions under imperial pressure.',
-  carchemish: 'The later Babylonian victory at Carchemish shifted control of Syria and the Levant away from Egypt. That change helps explain the Babylonian future anticipated in Isaiah.',
+  carchemish: 'Babylon later won a battle at Carchemish. This victory moved control of Syria and the Levant away from Egypt. That change helps explain the Babylonian future in Isaiah.',
   susa: 'Susa belongs to the Persian horizon that follows Babylon. Persia’s rise provides the political setting for Isaiah’s promises connected with Cyrus.',
-  assyria: 'Assyria is the dominant geopolitical force in much of Isaiah 1–39. The book presents it as both a human empire and an instrument whose violence and pride are judged.',
+  assyria: 'Assyria is the main political power in much of Isaiah 1–39. The book presents Assyria as a human empire. It also shows God using Assyria and judging its violence and pride.',
   bashan: 'Bashan’s famous strength and fertility make it a useful image of human grandeur. Isaiah places such grandeur under God’s judgment.',
   aroer: 'Aroer helps locate the borderlands east of Israel. Isaiah uses abandoned towns there to show the reach of regional collapse.',
   calneh: 'Calneh belongs to the list of cities Assyria claimed to have overcome. The comparison turns geography into imperial propaganda aimed at Jerusalem.',
@@ -118,9 +118,9 @@ const details = {
   lebanon: 'Isaiah uses Lebanon’s cedars as images of wealth, height, and royal power. Their fall represents the humbling of proud rulers and empires.',
   media: 'The Medes helped end Assyrian rule and later became part of the Persian imperial world. Their appearance marks how quickly the balance of power could change.',
   'mount-carmel': 'Carmel’s fertility made its withering a strong image of national disaster. Its recovery could also signal renewed life.',
-  negeb: 'The Negeb was a corridor for envoys, tribute, and armies moving toward Egypt. Isaiah uses it when criticizing Judah’s search for Egyptian protection.',
+  negeb: 'The Negeb was a route for messengers, gifts, and armies moving toward Egypt. Isaiah uses it when criticizing Judah’s search for Egyptian protection.',
   euphrates: 'The Euphrates often marks the direction from which Mesopotamian empires reached Syria and Judah. Isaiah uses its floodwaters as an image of Assyria’s overwhelming advance.',
-  rezeph: 'Rezeph was another city absorbed by Assyria. Its fate strengthens the imperial boast that no local god or king could resist Assyrian power.',
+  rezeph: 'Rezeph was another city taken by Assyria. Its fate supports Assyria’s proud claim. Assyria says that no local god or king could resist its power.',
   sharon: 'Sharon links the coast with Judah’s hill country. Isaiah uses its fertile landscape to measure both devastation and restoration.',
   'valley-of-achor': 'Isaiah turns this remembered place of trouble into pasture for a restored people. The geography supports the movement from judgment to hope.'
 };
@@ -128,34 +128,34 @@ const details = {
 const regionProfiles = {
   'babylonia-early': {
     summary: 'Babylonia occupied the river plain of southern Mesopotamia, with Babylon as its leading city. Its rulers controlled rich farmland, temples, and trade routes but often faced Assyrian intervention.',
-    detail: 'Babylon mattered to Isaiah before it became the next great empire. Merodach-baladan challenged Assyria and contacted Hezekiah, making Babylon both a possible ally and a warning about Judah’s future.'
+    detail: 'Babylon mattered to Isaiah before it became the next great empire. Merodach-baladan challenged Assyria and contacted Hezekiah. Babylon could seem like a possible ally. It also warned of Judah’s future.'
   },
   judah: {
-    summary: 'Judah was a small highland kingdom centered on Jerusalem. Its farms, fortified towns, and roads connected the capital with the coastal plain, the Jordan Valley, and the south.',
+    summary: 'Judah was a small hill kingdom centered on Jerusalem. Its farms, walled towns, and roads supported the capital. They connected it with the coast, Jordan Valley, and south.',
     detail: 'Judah stood between larger powers and had to choose between revolt, tribute, and foreign alliances. Isaiah addresses those choices while warning that political plans cannot replace faithful leadership.'
   },
   philistia: {
-    summary: 'Philistia consisted of several city-states on the southern coastal plain, including Ashdod, Ashkelon, Ekron, Gaza, and Gath. The cities could act together, compete with one another, or answer to a larger empire.',
-    detail: 'Philistia matters in Isaiah because its cities stood on the coastal route between Egypt and the Levant. Its rulers appear in warnings, revolts, alliances, and the Assyrian campaign that also threatened Judah.'
+    summary: 'Philistia had several city-states on the southern coast. They included Ashdod, Ashkelon, Ekron, Gaza, and Gath. The cities could work together, compete, or answer to a larger empire.',
+    detail: 'Philistia matters because its cities stood on a major coastal route. The route joined Egypt with the Levant. Its rulers appear in warnings, revolts, alliances, and the campaign against Judah.'
   },
   'egypt-region': {
-    summary: 'Egypt controlled the Nile valley and delta. Its divided rulers, armies, horses, and wealth made it an attractive but unreliable political partner for Judah.',
-    detail: 'Isaiah addresses Egypt both as a major nation in God’s wider purposes and as a warning against misplaced political trust. Chapters 30–31 challenge Judah’s attempt to rely on Egyptian horses and military help.'
+    summary: 'Egypt controlled the Nile valley and delta. Egypt had divided rulers, armies, horses, and wealth. Judah saw it as a strong but unsafe ally.',
+    detail: 'Isaiah presents Egypt as a major nation in God’s wider plans. He also warns Judah not to put its trust in Egypt. Chapters 30–31 challenge Judah’s trust in Egyptian horses and military help.'
   },
   'cush-region': {
     summary: 'Cush was a kingdom south of Egypt in Nubia. Kushite kings also ruled Egypt as its Twenty-fifth Dynasty during part of Isaiah’s historical setting.',
-    detail: 'Cush appears in Isaiah as a distant nation, a source of messengers, and part of the conflict between Egypt and Assyria. Isaiah 37 names Tirhakah, usually identified with the Kushite ruler Taharqa.'
+    detail: 'Cush appears in Isaiah as a distant nation. Its messengers travel north. It also joins the conflict between Egypt and Assyria. Isaiah 37 names Tirhakah, usually identified with the Kushite ruler Taharqa.'
   },
   assyria: {
     summary: 'The Neo-Assyrian Empire expanded from northern Mesopotamia to the Mediterranean and Egypt. It ruled through armies, governors, tribute, local client kings, and forced population movement.',
-    detail: 'Assyria created the central political crisis in much of Isaiah 1–39. Its expansion destroyed Israel, devastated Judah, and forced Jerusalem to decide where it placed its trust.'
+    detail: 'Assyria caused the main political crisis in much of Isaiah 1–39. Assyria destroyed Israel and caused great harm in Judah. Jerusalem then had to decide where to place its trust.'
   },
   babylonia: {
     summary: 'The Neo-Babylonian Empire replaced Assyria as the main power in Mesopotamia and the Levant. Under Nebuchadnezzar II, Babylon conquered Jerusalem and deported many Judeans.',
-    detail: 'Babylon forms the horizon of Isaiah’s exile and restoration material. It represents both the power that carries Judah away and the empire from which the exiles are later called to depart.'
+    detail: 'Babylon is central to Isaiah’s words about exile and return. Babylon is the power that carries Judah away. It is also the empire that the exiles must later leave.'
   },
   persian: {
-    summary: 'The Persian Empire under Cyrus took Babylon in 539 BCE and joined its territories to a much larger realm. Persian kings often governed through existing local institutions and officials.',
+    summary: 'Cyrus and the Persian Empire took Babylon in 539 BCE. Persia then joined Babylon’s lands to a much larger kingdom. Persian kings often governed through existing local leaders and offices.',
     detail: 'Persia matters because Cyrus’s rise changed the future of displaced Judeans. Isaiah presents him as the ruler who makes Jerusalem’s restoration politically possible.'
   }
 };
