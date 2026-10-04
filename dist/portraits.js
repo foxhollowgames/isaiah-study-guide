@@ -242,9 +242,11 @@ export function portraitsHtml(ids = [], options = {}) {
     const credit = image?.sourceUrl ? `<small class="portrait-credit"><a href="${escapeHtml(image.sourceUrl)}" target="_blank" rel="noopener">${escapeHtml(image.credit)}</a> · <a href="${escapeHtml(image.licenseUrl)}" target="_blank" rel="noopener">${escapeHtml(image.license)}</a> · Cropped</small>` : '';
     const imageKind = licensedImage ? 'Historical depiction' : 'Generated illustration';
     const art = `<span class="portrait-art" style="--portrait-hue:${hue}"><span class="portrait-initial" role="img" aria-label="${name}: portrait failed to load" aria-hidden="true">${name[0]}</span><img src="${escapeHtml(image.src)}" width="88" height="88" alt="${imageKind} of ${name}"></span>`;
-    const imageControl = options.interactive === false ? art : `<button type="button" class="portrait-profile-button portrait-image-button" data-person-id="${id}" aria-label="Open profile for ${escapeHtml(name)}">${art}</button>`;
-    const nameControl = options.interactive === false ? `<strong>${escapeHtml(name)}</strong>` : `<button type="button" class="portrait-profile-button portrait-name-button" data-person-id="${id}">${escapeHtml(name)}</button>`;
-    return `<figure class="person-portrait">${imageControl}<figcaption>${nameControl}<span>${linkedRole}</span>${credit}</figcaption></figure>`;
+    if (options.interactive === false) {
+      return `<figure class="person-portrait">${art}<figcaption><strong>${escapeHtml(name)}</strong><span>${linkedRole}</span>${credit}</figcaption></figure>`;
+    }
+    const profileControl = `<button type="button" class="portrait-profile-button" data-person-id="${id}" aria-label="Open profile for ${escapeHtml(name)}">${art}<span class="portrait-copy"><strong class="portrait-name">${escapeHtml(name)}</strong><span class="portrait-role">${escapeHtml(role)}</span></span></button>`;
+    return `<figure class="person-portrait portrait-profile-link">${profileControl}${credit}</figure>`;
   }).join('')}</div>`;
 }
 

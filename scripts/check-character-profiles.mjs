@@ -6,7 +6,7 @@ globalThis.document = {
   querySelectorAll() { return []; }
 };
 
-const { people, personProfileHtml, personIdForLabel, setPortraitMode } = await import('../dist/portraits.js');
+const { people, portraitsHtml, personProfileHtml, personIdForLabel, setPortraitMode } = await import('../dist/portraits.js');
 const app = await readFile(new URL('../dist/app.js', import.meta.url), 'utf8');
 const styles = await readFile(new URL('../dist/styles.css', import.meta.url), 'utf8');
 const requiredPeople = [
@@ -32,6 +32,9 @@ for (const [id, person] of Object.entries(people)) {
   assert.ok(html.includes('data-action="person-profile-back"'), `${id} profile must support return navigation`);
   assert.match(html, new RegExp(`assets/portraits/${id}-v2\\.png`), `${id} profile needs its generated portrait`);
 }
+const interactivePortrait = portraitsHtml(['isaiah']);
+assert.equal((interactivePortrait.match(/class="portrait-profile-button"/g) || []).length, 1, 'Each interactive portrait must use one profile button');
+assert.ok(interactivePortrait.includes('<strong class="portrait-name">Isaiah</strong>'), 'The profile button must contain the person name');
 
 setPortraitMode('non-generated', {});
 for (const id of Object.keys(people)) {
