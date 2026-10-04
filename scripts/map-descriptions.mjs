@@ -134,6 +134,18 @@ const regionProfiles = {
     summary: 'Judah was a small highland kingdom centered on Jerusalem. Its farms, fortified towns, and roads connected the capital with the coastal plain, the Jordan Valley, and the south.',
     detail: 'Judah stood between larger powers and had to choose between revolt, tribute, and foreign alliances. Isaiah addresses those choices while warning that political plans cannot replace faithful leadership.'
   },
+  philistia: {
+    summary: 'Philistia consisted of several city-states on the southern coastal plain, including Ashdod, Ashkelon, Ekron, Gaza, and Gath. The cities could act together, compete with one another, or answer to a larger empire.',
+    detail: 'Philistia matters in Isaiah because its cities stood on the coastal route between Egypt and the Levant. Its rulers appear in warnings, revolts, alliances, and the Assyrian campaign that also threatened Judah.'
+  },
+  'egypt-region': {
+    summary: 'Egypt controlled the Nile valley and delta. Its divided rulers, armies, horses, and wealth made it an attractive but unreliable political partner for Judah.',
+    detail: 'Isaiah addresses Egypt both as a major nation in God’s wider purposes and as a warning against misplaced political trust. Chapters 30–31 challenge Judah’s attempt to rely on Egyptian horses and military help.'
+  },
+  'cush-region': {
+    summary: 'Cush was a kingdom south of Egypt in Nubia. Kushite kings also ruled Egypt as its Twenty-fifth Dynasty during part of Isaiah’s historical setting.',
+    detail: 'Cush appears in Isaiah as a distant nation, a source of messengers, and part of the conflict between Egypt and Assyria. Isaiah 37 names Tirhakah, usually identified with the Kushite ruler Taharqa.'
+  },
   assyria: {
     summary: 'The Neo-Assyrian Empire expanded from northern Mesopotamia to the Mediterranean and Egypt. It ruled through armies, governors, tribute, local client kings, and forced population movement.',
     detail: 'Assyria created the central political crisis in much of Isaiah 1–39. Its expansion destroyed Israel, devastated Judah, and forced Jerusalem to decide where it placed its trust.'

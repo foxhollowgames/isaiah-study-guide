@@ -1,0 +1,4 @@
+interface:
+  display_name: "Cinematic Product Trailer"
+  short_description: "Plan, build, render, and verify product trailers"
+  default_prompt: "Create a cinematic product trailer from verified product facts and supplied assets."

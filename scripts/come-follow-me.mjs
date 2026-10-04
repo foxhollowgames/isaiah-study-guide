@@ -1,5 +1,5 @@
 // Source-checked against the five official 2026 lesson pages on 2026-09-27.
-// These lessons omit Isaiah 36–39; passage connections are Meridian reflections.
+// Keep each lesson's stated chapter range. Attach it only where the lesson covers the chapter.
 const lessons = [
   {
     lesson: 38,
@@ -38,14 +38,6 @@ const lessons = [
   },
 ];
 
-const connections = [
-  ['war-of-words', 38, 'The lesson on Isaiah 7–9 emphasizes trust in the Lord during political pressure. Meridian study question: How does Ahaz’s challenge compare with the appeals for trust in Isaiah 36?'],
-  ['letter-prayer', 40, 'The lesson on Isaiah 40–49 emphasizes God’s strength over worldly powers. Meridian study question: How does that theme compare with Hezekiah’s prayer to the Creator in Isaiah 37:16–20?'],
-  ['illness-sign', 41, 'The lesson on Isaiah 53 emphasizes Christ’s bearing of human grief. Meridian study question: How does hope in the Savior relate to Hezekiah’s distress? His recovery does not promise healing for everyone.'],
-  ['song-recovery', 42, 'The lesson connects Isaiah 61:1–3 with the Savior’s healing mission. Meridian study question: How does its change from mourning to joy compare with Hezekiah’s song after recovery?'],
-  ['babylon-envoys', 39, 'The lesson on Isaiah 13–14 treats Babylon as a symbol of pride. Meridian study question: How does that theme relate to Hezekiah’s display of wealth in Isaiah 39? Also consider the visitors as people in their historical setting.'],
-];
-
 export function addComeFollowMe(content) {
   for (const lesson of lessons) {
     const source = {
@@ -56,19 +48,12 @@ export function addComeFollowMe(content) {
       type: 'LDS Come, Follow Me manual',
       url: `https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/${lesson.lesson}?lang=eng`,
       summary: lesson.summary,
-      limitations: `This lesson covers ${lesson.range}. It does not cover Isaiah 36–39. Meridian made the linked questions. The lesson teaches faith. It is not proof from history.`,
-      license: 'Linked reading; original Meridian paraphrase. Church lesson text and images are not reproduced.',
+      limitations: `This lesson covers ${lesson.range}. The linked questions are original study prompts. The lesson teaches faith. It is not proof from history.`,
+      license: 'Linked reading; original study guide paraphrase. Church lesson text and images are not reproduced.',
     };
     const index = content.sources.findIndex(item => item.id === source.id);
     if (index === -1) content.sources.push(source);
     else content.sources[index] = source;
-  }
-  for (const [passageId, lesson, reflection] of connections) {
-    const passage = content.passages.find(item => item.id === passageId);
-    if (!passage?.lds) throw new Error(`Missing LDS passage: ${passageId}`);
-    const note = `Related Come, Follow Me lesson (2026): ${reflection}`;
-    if (!passage.lds.text.includes(note)) passage.lds.text += ` ${note}`;
-    passage.lds.sourceIds = [...new Set([...passage.lds.sourceIds, `cfm2026-${lesson}`])];
   }
   return content;
 }

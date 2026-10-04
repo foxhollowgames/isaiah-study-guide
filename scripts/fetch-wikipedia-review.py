@@ -9,7 +9,7 @@ subjects=['Sennacherib', "Sennacherib's campaign in the Levant", 'Siege of Lachi
 def fetch(title):
     url='https://en.wikipedia.org/wiki/'+quote(title.replace(' ','_'))
     try:
-        req=urllib.request.Request(url,headers={'User-Agent':'MeridianStudyGuide/0.1 (local educational source review)'})
+        req=urllib.request.Request(url,headers={'User-Agent':'IsaiahStudyGuide/0.1 (local educational source review)'})
         with urllib.request.urlopen(req,timeout=35) as response: html=response.read().decode('utf-8'); final=response.url
         soup=BeautifulSoup(html,'html.parser')
         body=soup
@@ -27,6 +27,6 @@ def fetch(title):
         return {'title':title,'url':final,'revisionId':match.group(1) if match else None,'coordinates':coordinate.get_text() if coordinate else None,'files':files,'references':refs,'paragraphs':paragraphs}
     except Exception as e:return {'title':title,'url':url,'error':str(e)}
 with ThreadPoolExecutor(max_workers=4) as pool:rows=list(pool.map(fetch,subjects))
-cache=Path(tempfile.gettempdir())/'meridian-wikipedia-review.json'
+cache=Path(tempfile.gettempdir())/'isaiah-study-guide-wikipedia-review.json'
 cache.write_text(json.dumps(rows,ensure_ascii=False,indent=2),encoding='utf-8')
 print(json.dumps({'cache':str(cache),'articles':len(rows),'errors':[{'title':r['title'],'error':r['error']} for r in rows if 'error' in r]}))

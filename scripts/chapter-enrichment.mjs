@@ -79,7 +79,7 @@ const readings = `
 export function addChapterEnrichment(content, scripture) {
   for (const source of content.sources) if (excerpts[source.id]) {
     source.excerpt = excerpts[source.id];
-    source.license = 'Linked source with original Meridian notes and a short attributed quotation. Other text and media are linked, not reproduced.';
+    source.license = 'Linked source with original study guide notes and a short attributed quotation. Other text and media are linked, not reproduced.';
     source.reviewed = `${source.reviewed || ''} ${excerpts[source.id].checked}`.trim();
   }
   const coverage = {
@@ -106,7 +106,8 @@ export function addChapterEnrichment(content, scripture) {
       source.studyText = source.summary.replace(/^(Uses|Cites|Quotes|Applies|Names|Links)/, verb => `${name} ${verb.toLowerCase()}`);
     }
     if (source.id.startsWith('cfm2026-')) {
-      source.studyText = source.summary.replace(/^(Encourages|Uses|Reads|Connects)/, verb => `The lesson ${verb.toLowerCase()}`);
+      const range = source.title.match(/— (.*?):/)?.[1] || 'these chapters';
+      source.studyText = `The Church of Jesus Christ of Latter-day Saints published this 2026 Come, Follow Me lesson for ${range}. ${source.summary}`;
     }
   }
   content.chapterStudies = readings.map(reading => {

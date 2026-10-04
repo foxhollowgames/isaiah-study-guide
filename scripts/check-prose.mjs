@@ -42,6 +42,32 @@ function visit(value, path = 'content', parentKey = '') {
 }
 
 visit(data);
+for (const source of data.sources) {
+  if (/^The (?:lesson|article|interview|study)\b/i.test(source.studyText || '')) {
+    errors.push(`source ${source.id}: study text begins without naming its source`);
+  }
+  if ((source.id.startsWith('cfm2026-') || source.group === 'conference-year') && /chapters 36[–-]39/i.test(source.limitations || '')) {
+    errors.push(`source ${source.id}: generic source limits must not center chapters 36–39`);
+  }
+}
+if (/Isaiah 36[–-]39/i.test(data.periods.find(period => period.id === 'pre')?.description || '')) {
+  errors.push('period pre: timeline label must not center chapters 36–39');
+}
+for (const passage of data.passages) {
+  if (/^(?:Meridian|Isaiah Study Guide) study question:/i.test(passage.lds?.text || '')) {
+    errors.push(`passage ${passage.id}: LDS question must not use a branded preface`);
+  }
+  if (passage.chapter >= 36 && passage.chapter <= 39 && /Related (?:Come, Follow Me|general conference) study:/i.test(passage.lds?.text || '')) {
+    errors.push(`passage ${passage.id}: pilot-era cross-chapter prompt must not privilege chapters 36–39`);
+  }
+  for (const note of passage.studyNotes || []) {
+    if ((note.sourceIds || []).some(id => id.startsWith('madsen') || id === 'opening-isaiah-madsen')) {
+      if (!/Ann (?:N\. )?Madsen/.test(`${note.title} ${note.text}`) || !/scholar/i.test(note.text) || !/interview/i.test(note.text)) {
+        errors.push(`passage ${passage.id}: Madsen note needs her full name, role, and interview context`);
+      }
+    }
+  }
+}
 assert.equal(errors.length, 0, `Prose check failed:\n${errors.slice(0, 30).join('\n')}`);
 console.log('Prose check passed: punctuation, generated values, common typos, spacing, and sentence length.');
 

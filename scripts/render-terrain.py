@@ -51,7 +51,7 @@ out=np.uint8(rgb)
 Image.fromarray(out).save(root/'dist/assets/relief.png',optimize=True)
 def lat(y):return math.degrees(math.atan(math.sinh(math.pi*(1-2*y/128))))
 bounds=[[lat(60),73/128*360-180],[lat(48),82/128*360-180]]
-metadata={'bounds':bounds,'source':'https://registry.opendata.aws/terrain-tiles/','attribution':'Terrain: Mapzen / Tilezen; USGS SRTM & GMTED2010, NOAA ETOPO1','note':'Modern elevation reference. Meridian color and hillshade rendering; not ancient terrain reconstruction.'}
+metadata={'bounds':bounds,'source':'https://registry.opendata.aws/terrain-tiles/','attribution':'Terrain: Mapzen / Tilezen; USGS SRTM & GMTED2010, NOAA ETOPO1','note':'Modern elevation reference. Study guide color and hillshade rendering; not ancient terrain reconstruction.'}
 metadata_path=root/'dist/data/relief.json'
 if metadata_path.exists():
     detail=json.loads(metadata_path.read_text()).get('detail')

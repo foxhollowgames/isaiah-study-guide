@@ -1,5 +1,5 @@
 // Original reading notes. These summarize the cited chapter, not an independent historical reconstruction.
-// Fields: chapter | title | reading summary | Meridian devotional question | map reference places.
+// Fields: chapter | title | reading summary | devotional question | map reference places.
 const notes = `
 1|Worship and justice|The opening vision addresses Judah and Jerusalem. Sacrifices cannot replace justice for vulnerable people. The chapter joins a call to repentance with a promise to restore the city.|How can worship lead to care for people who lack protection?|jerusalem
 2|Nations learn peace|The nations come to the LORD's mountain to learn his ways. The vision of peace gives way to a warning against pride, wealth, and idols. Human power cannot provide lasting security.|What would learning the Lord's ways change about how you treat others?|jerusalem
@@ -146,11 +146,11 @@ export function addFullIsaiah(content, scripture) {
   web.url = 'https://ebible.org/engwebp/ISA01.htm';
   for (const note of notes) {
     const c = note.chapter, sourceId = `web${c}`;
-    content.sources.push({id:sourceId,title:`Isaiah ${c} — World English Bible`,author:'World English Bible project',year:'2026 retrieval',type:'Biblical text',url:`https://ebible.org/engwebp/ISA${String(c).padStart(2,'0')}.htm`,summary:note.summary,limitations:'This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history.',license:'Public domain'});
+    content.sources.push({id:sourceId,title:`Isaiah ${c} — World English Bible`,author:'World English Bible project',year:'2026 retrieval',type:'Biblical text',url:`https://ebible.org/engwebp/ISA${String(c).padStart(2,'0')}.htm`,summary:note.summary,limitations:'This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history.',license:'Public domain'});
     const lesson = c <= 12 ? 38 : c <= 35 ? 39 : c <= 49 ? 40 : c <= 57 ? 41 : 42;
     const direct = !(c >= 15 && c <= 21 || c === 23 || c >= 31 && c <= 34);
     const lds = {
-      text:`Meridian study question: ${note.question} ${direct ? 'Read the linked Come, Follow Me lesson for the Church study perspective.' : 'The linked Come, Follow Me lesson covers nearby chapters. This question is a Meridian reflection, not a claim that the lesson teaches this chapter.'}`,
+      text:`${note.question} ${direct ? 'Read the linked Come, Follow Me lesson for the Church study perspective.' : 'The linked Come, Follow Me lesson covers nearby chapters. This question is a study guide reflection, not a claim that the lesson teaches this chapter.'}`,
       sourceIds:[sourceId,`cfm2026-${lesson}`]
     };
     content.passages.push({id:`isaiah-${c}`,chapter:c,start:1,end:scripture.chapters[c].length,title:note.title,summary:note.summary,year:null,dateLabel:'Literary context · no assigned event year',uncertainty:'',placeIds:note.placeIds,sourceIds:[sourceId],lds});

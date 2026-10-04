@@ -42,7 +42,7 @@ for (let chapter = 1; chapter <= 66; chapter++) {
   assert.equal(sources.includes('madsen-poetry'), chapter === 1);
   assert.equal(sources.includes('madsen-understanding'), chapter === 30);
   assert(!sources.includes('opening-isaiah') && !sources.includes('opening-isaiah-sample'));
-  assert.equal(context.passageContextHtml().includes('Meridian application.'), [1,2,6,30].includes(chapter));
+  assert.equal(context.passageContextHtml().includes('Try this reading.'), [1,2,6,30].includes(chapter));
   assert(!context.passageContextHtml().includes('Reading help.'));
 }
 assert(data.sources.some(s => s.id === 'opening-isaiah-sample'), 'Keep the sample in the source library');

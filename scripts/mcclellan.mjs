@@ -1,6 +1,6 @@
 // Reviewed 2026-09-27. Video summaries use YouTube's English auto-captions.
 // Publisher and university records verify bibliography. Access limits stay visible.
-const license = 'Linked resource; original Meridian summary. Video, transcript, and publication text are not reproduced.';
+const license = 'Linked resource; original study guide summary. Video, transcript, and publication text are not reproduced.';
 const group = 'mcclellan';
 const sources = [
   {

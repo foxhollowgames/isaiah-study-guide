@@ -53,7 +53,7 @@
       "url": "https://www.metmuseum.org/exhibitions/listings/2014/assyria-to-iberia/blog/posts/sennacherib-and-jerusalem",
       "summary": "The museum looks at old writings, wall pictures, and the Bible. These sources tell about the war in 701 BCE. Judah lost many towns, but Jerusalem lived.",
       "limitations": "The museum joins several sources. We still do not know why Assyria left.",
-      "license": "Linked reading; original Meridian summary, no article reproduction",
+      "license": "Linked reading; original study guide summary, no article reproduction",
       "studyText": "Assyrian writings and wall pictures tell about Judah’s losses. The Bible tells how Jerusalem lived. Each source has a different goal. We still do not know why Assyria left."
     },
     {
@@ -65,7 +65,7 @@
       "url": "https://oracc.museum.upenn.edu/rinap/rinap3/Q003945",
       "summary": "Provides an edited Assyrian inscription and translation describing attacks on Hezekiah’s fortified settlements.",
       "limitations": "Parts of this royal account are missing. It promotes the king’s power. Examine its numbers and victory claims with care.",
-      "license": "Linked reading; original Meridian summary, no article reproduction",
+      "license": "Linked reading; original study guide summary, no article reproduction",
       "studyText": "The Assyrian writing tells about attacks on Judah’s walled towns. It praises the king. Part of the writing is gone. Its numbers may not be exact."
     },
     {
@@ -77,7 +77,7 @@
       "url": "https://www.britishmuseum.org/collection/object/W_1856-0909-14_7",
       "summary": "The palace relief identifies Lachish and depicts its conquest from the Assyrian court’s viewpoint.",
       "limitations": "The date of the relief is not the campaign date. Its images celebrate imperial victory; they do not document every detail of Isaiah.",
-      "license": "Linked reading; original Meridian summary, no article reproduction",
+      "license": "Linked reading; original study guide summary, no article reproduction",
       "image": {
         "src": "assets/lachish-relief.jpg",
         "fullUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Lachish_Relief%2C_British_Museum_7.jpg",
@@ -103,7 +103,7 @@
       "url": "https://www.scielo.org.za/scielo.php?pid=S0259-94222009000100009&script=sci_arttext",
       "summary": "The writers compare Isaiah with the same story in Kings. They think Isaiah’s form came first. They study words that repeat and where the story was placed.",
       "limitations": "Other experts do not agree. Kings may have come first. Both books may also use an older source.",
-      "license": "Linked reading; original Meridian summary, no article reproduction",
+      "license": "Linked reading; original study guide summary, no article reproduction",
       "studyText": "Joel E. Anderson and Pieter M. Venter argue that Isaiah 36–39 forms a coherent account and may have been written before the parallel account in Kings. They connect its purpose with debate after Sennacherib’s invasion. These are scholarly arguments, not settled dates or proof of every reported event."
     },
     {
@@ -115,7 +115,7 @@
       "url": "https://yalebiblestudy.org/courses/first-isaiah/lessons/historical-context-study-guide/",
       "summary": "This lesson tells about Isaiah’s time. It also tells why Zion and David’s royal family mattered. Some parts of the book may come from later times.",
       "limitations": "This is a short lesson. It does not give every reason for each date.",
-      "license": "Linked reading; original Meridian summary, no article reproduction"
+      "license": "Linked reading; original study guide summary, no article reproduction"
     },
     {
       "id": "metchron",
@@ -126,7 +126,7 @@
       "url": "https://www.metmuseum.org/toah/ht/04/wam.html",
       "summary": "This page shows when three empires ruled. They were Assyria, Babylon, and Persia. It also gives dates for the falls of Nineveh and Jerusalem.",
       "limitations": "This is a wide view of time. Some dates are ranges. Other sources give the dates for Carchemish and the first fall of Jerusalem.",
-      "license": "Linked reading; original Meridian summary, no article reproduction"
+      "license": "Linked reading; original study guide summary, no article reproduction"
     },
     {
       "id": "livius605",
@@ -137,7 +137,7 @@
       "url": "https://www.livius.org/sources/content/mesopotamian-chronicles-content/abc-5-jerusalem-chronicle/",
       "summary": "Provides a freely readable translation and context for the Babylonian Chronicle’s 605 BCE Carchemish campaign and 597 BCE capture of Jerusalem.",
       "limitations": "A secondary web presentation of an ancient chronicle; the tablet is terse and damaged, so it cannot supply a complete narrative of either campaign.",
-      "license": "Linked reading; original Meridian summary, no article reproduction"
+      "license": "Linked reading; original study guide summary, no article reproduction"
     },
     {
       "id": "cyrus",
@@ -148,7 +148,7 @@
       "url": "https://www.britishmuseum.org/collection/object/W_1880-0617.1941",
       "summary": "Cyrus had this royal message written on clay. It tells how he took Babylon. It also says he gave holy places back to some people.",
       "limitations": "The message does not name Judah. It does not say that people from Judah went home.",
-      "license": "Linked reading; original Meridian summary, no article reproduction",
+      "license": "Linked reading; original study guide summary, no article reproduction",
       "image": {
         "src": "assets/cyrus-cylinder.jpg",
         "fullUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Cyrus_Cylinder_BM_ME90920.jpg",
@@ -171,9 +171,9 @@
       "author": "James Strong · Open Scriptures XML edition",
       "year": "1894 / digital edition",
       "type": "Historical lexicon",
-      "url": "https://github.com/openscriptures/strongs/blob/master/hebrew/StrongHebrewG.xml",
+      "url": "https://github.com/openscriptures/strongs",
       "summary": "Lists Hebrew dictionary forms and their possible meanings. Use it with the passage to study a word.",
-      "limitations": "This is an older dictionary. Compare its meanings with the passage. A list of meanings alone cannot tell you which one applies.",
+      "limitations": "This is an older dictionary. Compare its meanings with the passage. A list of meanings alone cannot tell you which one applies. The link opens the project overview because the underlying XML dictionary is too large for GitHub’s normal file preview.",
       "license": "Source XML declares Public Domain. Only selected headwords and lexical information are used."
     },
     {
@@ -182,9 +182,9 @@
       "author": "Open Scriptures contributors / Westminster Leningrad Codex",
       "year": "Digital edition",
       "type": "Hebrew text",
-      "url": "https://github.com/openscriptures/morphhb/blob/master/wlc/Isa.xml",
-      "summary": "Provides the Hebrew text and word identifiers. Meridian uses these to check selected word studies against their verses.",
-      "limitations": "The app checks selected words, not every English–Hebrew match. It shows Hebrew dictionary forms. The forms in the verses can differ.",
+      "url": "https://hb.openscriptures.org/",
+      "summary": "Provides the Hebrew text and word identifiers. This study guide uses these to check selected word studies against their verses.",
+      "limitations": "The app checks selected words, not every English–Hebrew match. It shows Hebrew dictionary forms. The forms in the verses can differ. The link opens the project overview instead of the oversized Isaiah XML file.",
       "license": "Hebrew text public domain; lemma/morphology data CC BY 4.0. Original work of the Open Scriptures Hebrew Bible, https://hb.openscriptures.org/."
     },
     {
@@ -251,7 +251,7 @@
       "url": "https://www.churchofjesuschrist.org/study/manual/old-testament-seminary-teacher-resource-manual/the-book-of-isaiah/isaiah-36-39?lang=eng",
       "summary": "Presents the shift from Assyrian danger to Babylonian threat and teaching themes of mercy, repentance, suffering, and hope.",
       "limitations": "This source gives Church teaching suggestions. It is not independent historical evidence. A teaching suggestion does not necessarily state Church doctrine.",
-      "license": "Linked source with original Meridian notes and a short attributed quotation. Other text and media are linked, not reproduced.",
+      "license": "Linked source with original study guide notes and a short attributed quotation. Other text and media are linked, not reproduced.",
       "excerpt": {
         "text": "They record the end of the threat of Assyrian invasion and introduce Babylon as the real threat to the future of Judah.",
         "attribution": "The Church of Jesus Christ of Latter-day Saints",
@@ -274,7 +274,7 @@
       "url": "https://www.churchofjesuschrist.org/study/manual/old-testament-seminary-teacher-manual/introduction-to-the-book-of-isaiah/lesson-124-isaiah-36-41?lang=eng",
       "summary": "Invites readers to learn trust in God from the deliverance narrative and connects these chapters to Kings.",
       "limitations": "Devotional interpretation is identified separately from the historical reconstruction.",
-      "license": "Linked source with original Meridian notes and a short attributed quotation. Other text and media are linked, not reproduced.",
+      "license": "Linked source with original study guide notes and a short attributed quotation. Other text and media are linked, not reproduced.",
       "excerpt": {
         "text": "look for truths that can build their confidence and trust in the Lord.",
         "attribution": "The Church of Jesus Christ of Latter-day Saints",
@@ -298,7 +298,7 @@
       "url": "https://www.churchofjesuschrist.org/study/general-conference/1990/04/some-scriptural-lessons-on-leadership?lang=eng",
       "summary": "Uses Hezekiah’s reforms and trust as an example of leaders helping a community change.",
       "limitations": "An application of Kings and Chronicles, not a verse-by-verse treatment of Isaiah or a historical dating study.",
-      "license": "Linked source with original Meridian notes and a short attributed quotation. Other text and media are linked, not reproduced.",
+      "license": "Linked source with original study guide notes and a short attributed quotation. Other text and media are linked, not reproduced.",
       "excerpt": {
         "text": "Leadership positions do not totally protect us from temptation.",
         "attribution": "Spencer J. Condie · General Conference",
@@ -320,8 +320,8 @@
       "type": "LDS scripture",
       "url": "https://www.churchofjesuschrist.org/study/scriptures/bofm/3-ne/23?lang=eng",
       "summary": "Provides a Restoration-scripture reason to study Isaiah carefully.",
-      "limitations": "A later scriptural invitation to study Isaiah; not a direct quotation of Isaiah 36–39.",
-      "license": "Linked reading; original Meridian summary, no article reproduction"
+      "limitations": "This later scriptural invitation supports careful study. It is not historical evidence for a specific event in Isaiah.",
+      "license": "Linked reading; original study guide summary, no article reproduction"
     },
     {
       "id": "earth",
@@ -353,8 +353,8 @@
       "type": "LDS Come, Follow Me manual",
       "url": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/38?lang=eng",
       "summary": "Encourages reading Isaiah with attention to symbols, Jesus Christ, and multiple prophetic fulfillments. Connects repentance with hope (Isaiah 1), temple worship and gathering (2; 11–12), prophetic calling (6), and trust in the promised Savior (7–9).",
-      "limitations": "This lesson covers Isaiah 1–12. It does not cover Isaiah 36–39. Meridian made the linked questions. The lesson teaches faith. It is not proof from history.",
-      "license": "Linked source with original Meridian notes and a short attributed quotation. Other text and media are linked, not reproduced.",
+      "limitations": "This lesson covers Isaiah 1–12. The linked questions are original study prompts. The lesson teaches faith. It is not proof from history.",
+      "license": "Linked source with original study guide notes and a short attributed quotation. Other text and media are linked, not reproduced.",
       "excerpt": {
         "text": "The book of Isaiah contains numerous prophecies that seem to have multiple fulfillments.",
         "attribution": "Dallin H. Oaks, quoted in Come, Follow Me 2026",
@@ -392,7 +392,7 @@
         11,
         12
       ],
-      "studyText": "The lesson encourages reading Isaiah with attention to symbols, Jesus Christ, and multiple prophetic fulfillments. Connects repentance with hope (Isaiah 1), temple worship and gathering (2; 11–12), prophetic calling (6), and trust in the promised Savior (7–9)."
+      "studyText": "The Church of Jesus Christ of Latter-day Saints published this 2026 Come, Follow Me lesson for Isaiah 1–12. It encourages readers to notice symbols, Jesus Christ, and multiple prophetic fulfillments. It connects repentance with hope in Isaiah 1 and temple worship with gathering in chapters 2 and 11–12. It also connects prophetic calling with chapter 6 and trust in the promised Savior with chapters 7–9."
     },
     {
       "id": "cfm2026-39",
@@ -402,8 +402,8 @@
       "type": "LDS Come, Follow Me manual",
       "url": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/39?lang=eng",
       "summary": "Uses Babylon as an image of pride and sin (Isaiah 13–14). Finds the Messiah’s mission in 22:22–23; 25:6–8; 26:19; and 28:16. Connects Isaiah 29 with the Restoration and reads 30:18–26 and 35 as invitations to trust the Lord’s power to heal and renew.",
-      "limitations": "This lesson covers Isaiah 13–14; 22; 24–30; 35. It does not cover Isaiah 36–39. Meridian made the linked questions. The lesson teaches faith. It is not proof from history.",
-      "license": "Linked source with original Meridian notes and a short attributed quotation. Other text and media are linked, not reproduced.",
+      "limitations": "This lesson covers Isaiah 13–14; 22; 24–30; 35. The linked questions are original study prompts. The lesson teaches faith. It is not proof from history.",
+      "license": "Linked source with original study guide notes and a short attributed quotation. Other text and media are linked, not reproduced.",
       "excerpt": {
         "text": "Because Babylon symbolizes pride, greed, and sin, things that still surround us today.",
         "attribution": "The Church of Jesus Christ of Latter-day Saints",
@@ -430,7 +430,7 @@
         30,
         35
       ],
-      "studyText": "The lesson uses Babylon as an image of pride and sin (Isaiah 13–14). Finds the Messiah’s mission in 22:22–23; 25:6–8; 26:19; and 28:16. Connects Isaiah 29 with the Restoration and reads 30:18–26 and 35 as invitations to trust the Lord’s power to heal and renew."
+      "studyText": "The Church of Jesus Christ of Latter-day Saints published this 2026 Come, Follow Me lesson for Isaiah 13–14; 22; 24–30; and 35. It uses Babylon as an image of pride and sin. It connects Isaiah 29 with the Restoration and reads chapters 30 and 35 as invitations to trust the Lord’s power to heal and renew."
     },
     {
       "id": "cfm2026-40",
@@ -440,8 +440,8 @@
       "type": "LDS Come, Follow Me manual",
       "url": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/40?lang=eng",
       "summary": "Reads these chapters as comfort for future Babylonian captives and for readers facing discouragement. Highlights divine strength (Isaiah 40:29–31), help amid fear (41:10–13), and God’s remembrance of His people (49:13–16). Explores servant language in relation to Christ, Israel, and Cyrus, and God’s power over earthly rulers.",
-      "limitations": "This lesson covers Isaiah 40–49. It does not cover Isaiah 36–39. Meridian made the linked questions. The lesson teaches faith. It is not proof from history.",
-      "license": "Linked source with original Meridian notes and a short attributed quotation. Other text and media are linked, not reproduced.",
+      "limitations": "This lesson covers Isaiah 40–49. The linked questions are original study prompts. The lesson teaches faith. It is not proof from history.",
+      "license": "Linked source with original study guide notes and a short attributed quotation. Other text and media are linked, not reproduced.",
       "excerpt": {
         "text": "The Lord has not forgotten you, and He has power over situations that seem out of your control.",
         "attribution": "The Church of Jesus Christ of Latter-day Saints",
@@ -475,7 +475,7 @@
         48,
         49
       ],
-      "studyText": "The lesson reads these chapters as comfort for future Babylonian captives and for readers facing discouragement. Highlights divine strength (Isaiah 40:29–31), help amid fear (41:10–13), and God’s remembrance of His people (49:13–16). Explores servant language in relation to Christ, Israel, and Cyrus, and God’s power over earthly rulers."
+      "studyText": "The Church of Jesus Christ of Latter-day Saints published this 2026 Come, Follow Me lesson for Isaiah 40–49. It reads these chapters as comfort for future Babylonian captives and for readers who face discouragement. It highlights divine strength, help during fear, and God’s remembrance of His people."
     },
     {
       "id": "cfm2026-41",
@@ -485,8 +485,8 @@
       "type": "LDS Come, Follow Me manual",
       "url": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/41?lang=eng",
       "summary": "Reads Isaiah 53 through Jesus Christ’s suffering for sins and sorrows. Finds hope for returning to Him in 54:4–10 and 57:15–19, and an invitation extending beyond one nation in chapters 55–56. Encourages readers to connect Israel’s difficulties and Isaiah’s prophecies with their own need for divine help.",
-      "limitations": "This lesson covers Isaiah 50–57. It does not cover Isaiah 36–39. Meridian made the linked questions. The lesson teaches faith. It is not proof from history.",
-      "license": "Linked source with original Meridian notes and a short attributed quotation. Other text and media are linked, not reproduced.",
+      "limitations": "This lesson covers Isaiah 50–57. The linked questions are original study prompts. The lesson teaches faith. It is not proof from history.",
+      "license": "Linked source with original study guide notes and a short attributed quotation. Other text and media are linked, not reproduced.",
       "excerpt": {
         "text": "He does not save us from a distance.",
         "attribution": "The Church of Jesus Christ of Latter-day Saints",
@@ -516,7 +516,7 @@
         56,
         57
       ],
-      "studyText": "The lesson reads Isaiah 53 through Jesus Christ’s suffering for sins and sorrows. Finds hope for returning to Him in 54:4–10 and 57:15–19, and an invitation extending beyond one nation in chapters 55–56. Encourages readers to connect Israel’s difficulties and Isaiah’s prophecies with their own need for divine help."
+      "studyText": "The Church of Jesus Christ of Latter-day Saints published this 2026 Come, Follow Me lesson for Isaiah 50–57. It reads Isaiah 53 through Jesus Christ’s suffering for sins and sorrows. It finds hope in chapters 54 and 57 and an invitation that extends beyond one nation in chapters 55–56."
     },
     {
       "id": "cfm2026-42",
@@ -526,8 +526,8 @@
       "type": "LDS Come, Follow Me manual",
       "url": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/42?lang=eng",
       "summary": "Connects fasting with care for people in need (Isaiah 58:3–12) and Sabbath worship with joy (58:13–14). Links the healing mission in 61:1–3 with Jesus’s declaration in Luke 4:16–21. Studies gathering through images of light (60; 62) and looks toward Christ’s millennial reign (65:17–25; 66).",
-      "limitations": "This lesson covers Isaiah 58–66. It does not cover Isaiah 36–39. Meridian made the linked questions. The lesson teaches faith. It is not proof from history.",
-      "license": "Linked source with original Meridian notes and a short attributed quotation. Other text and media are linked, not reproduced.",
+      "limitations": "This lesson covers Isaiah 58–66. The linked questions are original study prompts. The lesson teaches faith. It is not proof from history.",
+      "license": "Linked source with original study guide notes and a short attributed quotation. Other text and media are linked, not reproduced.",
       "excerpt": {
         "text": "How can fasting bless others?",
         "attribution": "The Church of Jesus Christ of Latter-day Saints",
@@ -551,7 +551,7 @@
         65,
         66
       ],
-      "studyText": "The lesson connects fasting with care for people in need (Isaiah 58:3–12) and Sabbath worship with joy (58:13–14). Links the healing mission in 61:1–3 with Jesus’s declaration in Luke 4:16–21. Studies gathering through images of light (60; 62) and looks toward Christ’s millennial reign (65:17–25; 66)."
+      "studyText": "The Church of Jesus Christ of Latter-day Saints published this 2026 Come, Follow Me lesson for Isaiah 58–66. It connects fasting with care for people in need and Sabbath worship with joy. It links Isaiah 61 with Jesus’s declaration in Luke 4 and studies gathering through images of light."
     },
     {
       "id": "dm-isaiah53",
@@ -592,7 +592,7 @@
         }
       ],
       "group": "mcclellan",
-      "license": "Linked resource; original Meridian summary. Video, transcript, and publication text are not reproduced."
+      "license": "Linked resource; original study guide summary. Video, transcript, and publication text are not reproduced."
     },
     {
       "id": "dm-deutero",
@@ -615,7 +615,7 @@
         }
       ],
       "group": "mcclellan",
-      "license": "Linked resource; original Meridian summary. Video, transcript, and publication text are not reproduced."
+      "license": "Linked resource; original study guide summary. Video, transcript, and publication text are not reproduced."
     },
     {
       "id": "dm-scroll",
@@ -645,7 +645,7 @@
         }
       ],
       "group": "mcclellan",
-      "license": "Linked resource; original Meridian summary. Video, transcript, and publication text are not reproduced."
+      "license": "Linked resource; original study guide summary. Video, transcript, and publication text are not reproduced."
     },
     {
       "id": "dm-line",
@@ -668,7 +668,7 @@
         }
       ],
       "group": "mcclellan",
-      "license": "Linked resource; original Meridian summary. Video, transcript, and publication text are not reproduced."
+      "license": "Linked resource; original study guide summary. Video, transcript, and publication text are not reproduced."
     },
     {
       "id": "dm-chilton",
@@ -681,7 +681,7 @@
       "limitations": "Publisher description and the excerpt read in the video were reviewed, not the complete book. The proposed dates describe layers of interpretation. They do not date every sentence. The linked edition’s date differs from the 1982 original cited in the video.",
       "reviewed": "Publisher record checked. Video excerpt supplies the specific dating discussion.",
       "group": "mcclellan",
-      "license": "Linked resource; original Meridian summary. Video, transcript, and publication text are not reproduced."
+      "license": "Linked resource; original study guide summary. Video, transcript, and publication text are not reproduced."
     },
     {
       "id": "dm-page",
@@ -694,7 +694,7 @@
       "limitations": "Cambridge’s record, extract, and references were accessible. The conclusion was reviewed through McClellan’s reading, not a complete independent reading of the article. This 1985 study does not represent every subsequent argument.",
       "reviewed": "Bibliography checked with Cambridge. Conclusion summary is explicitly indirect, through the cited video.",
       "group": "mcclellan",
-      "license": "Linked resource; original Meridian summary. Video, transcript, and publication text are not reproduced."
+      "license": "Linked resource; original study guide summary. Video, transcript, and publication text are not reproduced."
     },
     {
       "id": "dm-suffering-servant",
@@ -707,7 +707,7 @@
       "limitations": "Publisher description and the excerpt read in the video were reviewed. The complete collection was not read. The chapter author and page for the displayed excerpt were not independently verified. The selected excerpt must not be treated as the conclusion of every contributor.",
       "reviewed": "Title, editors, and publication year checked with Eerdmans. Excerpt summary is indirect, through the video.",
       "group": "mcclellan",
-      "license": "Linked resource; original Meridian summary. Video, transcript, and publication text are not reproduced."
+      "license": "Linked resource; original study guide summary. Video, transcript, and publication text are not reproduced."
     },
     {
       "id": "dm-tooman",
@@ -720,7 +720,7 @@
       "limitations": "The university repository provides an accessible manuscript. Its pagination can differ from the published chapter. The argument concerns this Targum’s interpretation, not every Jewish reading of Isaiah. The university dates publication to 2021, despite the video’s approximate recollection of its age.",
       "reviewed": "Repository manuscript and University of St Andrews publication record reviewed.",
       "group": "mcclellan",
-      "license": "Linked resource; original Meridian summary. Video, transcript, and publication text are not reproduced."
+      "license": "Linked resource; original study guide summary. Video, transcript, and publication text are not reproduced."
     },
     {
       "id": "dm-ulrich",
@@ -733,7 +733,7 @@
       "limitations": "Publisher description and McClellan’s explanation were reviewed, not the complete edition. The local guide does not reproduce its transcriptions or apparatus. The video’s letter counts remain attributed to McClellan.",
       "reviewed": "Bibliography and scope checked with the publisher. Passage-level discussion comes from the video.",
       "group": "mcclellan",
-      "license": "Linked resource; original Meridian summary. Video, transcript, and publication text are not reproduced."
+      "license": "Linked resource; original study guide summary. Video, transcript, and publication text are not reproduced."
     },
     {
       "id": "gc-2025-10-14barcellos",
@@ -755,8 +755,8 @@
         }
       ],
       "reviewed": "Official English text, Isaiah references, and the associated paragraphs checked on September 27, 2026.",
-      "limitations": "This talk uses Isaiah to teach faith. Its Isaiah links are not in chapters 36–39. Meridian made the study questions. The speaker did not teach those questions.",
-      "license": "Linked Church resource; original Meridian summary. Talk text and media are not reproduced.",
+      "limitations": "This talk uses Isaiah to teach faith. The questions are original study prompts. The speaker did not teach those questions.",
+      "license": "Linked Church resource; original study guide summary. Talk text and media are not reproduced.",
       "studyText": "Barcellos uses Isaiah 29:13 alongside Matthew 15:8 to distinguish sincere devotion from outward religious behavior. Barcellos asks listeners to examine their motives and give their hearts to God."
     },
     {
@@ -779,8 +779,8 @@
         }
       ],
       "reviewed": "Official English text, Isaiah references, and the associated paragraphs checked on September 27, 2026. 2026-09-29: exact wording verified in the public source text.",
-      "limitations": "This talk uses Isaiah to teach faith. Its Isaiah links are not in chapters 36–39. Meridian made the study questions. The speaker did not teach those questions.",
-      "license": "Linked source with original Meridian notes and a short attributed quotation. Other text and media are linked, not reproduced.",
+      "limitations": "This talk uses Isaiah to teach faith. The questions are original study prompts. The speaker did not teach those questions.",
+      "license": "Linked source with original study guide notes and a short attributed quotation. Other text and media are linked, not reproduced.",
       "excerpt": {
         "text": "Reconciliation to God, through Jesus Christ’s Atonement, leads to unshakable faith.",
         "attribution": "Elder Kelly R. Johnson",
@@ -828,8 +828,8 @@
         }
       ],
       "reviewed": "Official English text, Isaiah references, and the associated paragraphs checked on September 27, 2026.",
-      "limitations": "This talk uses Isaiah to teach faith. Its Isaiah links are not in chapters 36–39. Meridian made the study questions. The speaker did not teach those questions.",
-      "license": "Linked Church resource; original Meridian summary. Talk text and media are not reproduced.",
+      "limitations": "This talk uses Isaiah to teach faith. The questions are original study prompts. The speaker did not teach those questions.",
+      "license": "Linked Church resource; original study guide summary. Talk text and media are not reproduced.",
       "studyText": "Jaggi links Isaiah 6:8 with willingness to answer God’s call. Uses Isaiah 28:10, 13 for gradual understanding of the Atonement. Applies Isaiah 51:17, 22’s cup imagery to Christ’s suffering, alongside 3 Nephi 11:11. These references support teaching about covenants, worship, and strength through suffering."
     },
     {
@@ -859,8 +859,8 @@
         }
       ],
       "reviewed": "Official English text, Isaiah references, and the associated paragraphs checked on September 27, 2026. 2026-09-29: exact wording verified in the public source text.",
-      "limitations": "This talk uses Isaiah to teach faith. Its Isaiah links are not in chapters 36–39. Meridian made the study questions. The speaker did not teach those questions.",
-      "license": "Linked source with original Meridian notes and a short attributed quotation. Other text and media are linked, not reproduced.",
+      "limitations": "This talk uses Isaiah to teach faith. The questions are original study prompts. The speaker did not teach those questions.",
+      "license": "Linked source with original study guide notes and a short attributed quotation. Other text and media are linked, not reproduced.",
       "excerpt": {
         "text": "Applying the simplicity that is in Christ makes us prioritize people over processes and eternal relationships over short-term behaviors.",
         "attribution": "Elder Michael Cziesla",
@@ -895,8 +895,8 @@
         }
       ],
       "reviewed": "Official English text, Isaiah references, and the associated paragraphs checked on September 27, 2026. 2026-09-29: exact wording verified in the public source text.",
-      "limitations": "This talk uses Isaiah to teach faith. Its Isaiah links are not in chapters 36–39. Meridian made the study questions. The speaker did not teach those questions.",
-      "license": "Linked source with original Meridian notes and a short attributed quotation. Other text and media are linked, not reproduced.",
+      "limitations": "This talk uses Isaiah to teach faith. The questions are original study prompts. The speaker did not teach those questions.",
+      "license": "Linked source with original study guide notes and a short attributed quotation. Other text and media are linked, not reproduced.",
       "excerpt": {
         "text": "Healing and forgiveness are each found in their fulness in the atoning love of Jesus Christ.",
         "attribution": "Elder Neil L. Andersen",
@@ -930,8 +930,8 @@
         }
       ],
       "reviewed": "Official English text, Isaiah references, and the associated paragraphs checked on September 27, 2026.",
-      "limitations": "This talk uses Isaiah to teach faith. Its Isaiah links are not in chapters 36–39. Meridian made the study questions. The speaker did not teach those questions.",
-      "license": "Linked Church resource; original Meridian summary. Talk text and media are not reproduced.",
+      "limitations": "This talk uses Isaiah to teach faith. The questions are original study prompts. The speaker did not teach those questions.",
+      "license": "Linked Church resource; original study guide summary. Talk text and media are not reproduced.",
       "studyText": "Holland applies Isaiah 53:2 to Jesus Christ’s humble appearance. Holland connects this with the broader theme that God can work through ordinary or unexpected people and means. He relates that theme to his testimony of the Book of Mormon."
     },
     {
@@ -961,8 +961,8 @@
         }
       ],
       "reviewed": "Official English text, Isaiah references, and the associated paragraphs checked on September 27, 2026.",
-      "limitations": "This talk uses Isaiah to teach faith. Its Isaiah links are not in chapters 36–39. Meridian made the study questions. The speaker did not teach those questions.",
-      "license": "Linked Church resource; original Meridian summary. Talk text and media are not reproduced.",
+      "limitations": "This talk uses Isaiah to teach faith. The questions are original study prompts. The speaker did not teach those questions.",
+      "license": "Linked Church resource; original study guide summary. Talk text and media are not reproduced.",
       "studyText": "Christofferson uses Isaiah 45:22 to invite people to seek salvation and strength from God. A quotation from Russell M. Nelson includes Isaiah 1:16–18 in a call to repentance and forgiveness. Christofferson applies these teachings to faith amid personal and public challenges."
     },
     {
@@ -992,8 +992,8 @@
         }
       ],
       "reviewed": "Official English text, Isaiah references, and the associated paragraphs checked on September 27, 2026.",
-      "limitations": "This talk uses Isaiah to teach faith. Its Isaiah links are not in chapters 36–39. Meridian made the study questions. The speaker did not teach those questions.",
-      "license": "Linked Church resource; original Meridian summary. Talk text and media are not reproduced.",
+      "limitations": "This talk uses Isaiah to teach faith. The questions are original study prompts. The speaker did not teach those questions.",
+      "license": "Linked Church resource; original study guide summary. Talk text and media are not reproduced.",
       "studyText": "Spannaus uses Isaiah 52:1’s garments of Zion and cites Isaiah 28:16 alongside Psalm 125:1. Spannaus applies these images to confidence in Christ’s kingdom. She encourages testimony, repentance, and attention to living prophets."
     },
     {
@@ -1016,8 +1016,8 @@
         }
       ],
       "reviewed": "Official English text, Isaiah references, and the associated paragraphs checked on September 27, 2026.",
-      "limitations": "This talk uses Isaiah to teach faith. Its Isaiah links are not in chapters 36–39. Meridian made the study questions. The speaker did not teach those questions.",
-      "license": "Linked Church resource; original Meridian summary. Talk text and media are not reproduced.",
+      "limitations": "This talk uses Isaiah to teach faith. The questions are original study prompts. The speaker did not teach those questions.",
+      "license": "Linked Church resource; original study guide summary. Talk text and media are not reproduced.",
       "studyText": "Bednar cites Isaiah 11:2–3 with Job and Proverbs while distinguishing reverence for God from anxious fear. Bednar teaches that faith, repentance, and covenant keeping can bring confidence about the Final Judgment."
     },
     {
@@ -1047,8 +1047,8 @@
         }
       ],
       "reviewed": "Official English text, Isaiah references, and the associated paragraphs checked on September 27, 2026.",
-      "limitations": "This talk uses Isaiah to teach faith. Its Isaiah links are not in chapters 36–39. Meridian made the study questions. The speaker did not teach those questions.",
-      "license": "Linked Church resource; original Meridian summary. Talk text and media are not reproduced.",
+      "limitations": "This talk uses Isaiah to teach faith. The questions are original study prompts. The speaker did not teach those questions.",
+      "license": "Linked Church resource; original study guide summary. Talk text and media are not reproduced.",
       "studyText": "Cuvelier cites Isaiah 28:10 alongside Doctrine and Covenants 98:12 to describe discipleship as gradual growth. Concludes with Isaiah 43:1’s assurance of being called by name and belonging to the Redeemer. Cuvelier encourages listeners to make their identity as Christ’s disciples their priority."
     },
     {
@@ -1071,8 +1071,8 @@
         }
       ],
       "reviewed": "Official English text, Isaiah references, and the associated paragraphs checked on September 27, 2026. 2026-09-29: exact wording verified in the public source text.",
-      "limitations": "This talk uses Isaiah to teach faith. Its Isaiah links are not in chapters 36–39. Meridian made the study questions. The speaker did not teach those questions.",
-      "license": "Linked source with original Meridian notes and a short attributed quotation. Other text and media are linked, not reproduced.",
+      "limitations": "This talk uses Isaiah to teach faith. The questions are original study prompts. The speaker did not teach those questions.",
+      "license": "Linked source with original study guide notes and a short attributed quotation. Other text and media are linked, not reproduced.",
       "excerpt": {
         "text": "The more we identify with and remember Jesus Christ, the more we want to be like Him.",
         "attribution": "Elder Dale G. Renlund",
@@ -1106,8 +1106,8 @@
         }
       ],
       "reviewed": "Official English text, Isaiah references, and the associated paragraphs checked on September 27, 2026. 2026-09-29: exact wording verified in the public source text.",
-      "limitations": "This talk uses Isaiah to teach faith. Its Isaiah links are not in chapters 36–39. Meridian made the study questions. The speaker did not teach those questions.",
-      "license": "Linked source with original Meridian notes and a short attributed quotation. Other text and media are linked, not reproduced.",
+      "limitations": "This talk uses Isaiah to teach faith. The questions are original study prompts. The speaker did not teach those questions.",
+      "license": "Linked source with original study guide notes and a short attributed quotation. Other text and media are linked, not reproduced.",
       "excerpt": {
         "text": "Our service is a choice, an offering to God, and a blessing.",
         "attribution": "Elder Patrick Kearon",
@@ -1141,8 +1141,8 @@
         }
       ],
       "reviewed": "Official English text, Isaiah references, and the associated paragraphs checked on September 27, 2026. 2026-09-29: exact wording verified in the public source text.",
-      "limitations": "This talk uses Isaiah to teach faith. Its Isaiah links are not in chapters 36–39. Meridian made the study questions. The speaker did not teach those questions.",
-      "license": "Linked source with original Meridian notes and a short attributed quotation. Other text and media are linked, not reproduced.",
+      "limitations": "This talk uses Isaiah to teach faith. The questions are original study prompts. The speaker did not teach those questions.",
+      "license": "Linked source with original study guide notes and a short attributed quotation. Other text and media are linked, not reproduced.",
       "excerpt": {
         "text": "Ministering is truly loving and caring for others as the Savior would.",
         "attribution": "Sister Kristin M. Yee",
@@ -1176,8 +1176,8 @@
         }
       ],
       "reviewed": "Official English text, Isaiah references, and the associated paragraphs checked on September 27, 2026.",
-      "limitations": "This talk uses Isaiah to teach faith. Its Isaiah links are not in chapters 36–39. Meridian made the study questions. The speaker did not teach those questions.",
-      "license": "Linked Church resource; original Meridian summary. Talk text and media are not reproduced.",
+      "limitations": "This talk uses Isaiah to teach faith. The questions are original study prompts. The speaker did not teach those questions.",
+      "license": "Linked Church resource; original study guide summary. Talk text and media are not reproduced.",
       "studyText": "Gilbert cites Isaiah 58:12 in applying the name Repairer to Jesus Christ. Gilbert presents Christ’s invitation to return and describes Him as the Redeemer who helps people come home."
     },
     {
@@ -1200,8 +1200,8 @@
         }
       ],
       "reviewed": "Official English text, Isaiah references, and the associated paragraphs checked on September 27, 2026. 2026-09-29: exact wording verified in the public source text.",
-      "limitations": "This talk uses Isaiah to teach faith. Its Isaiah links are not in chapters 36–39. Meridian made the study questions. The speaker did not teach those questions.",
-      "license": "Linked source with original Meridian notes and a short attributed quotation. Other text and media are linked, not reproduced.",
+      "limitations": "This talk uses Isaiah to teach faith. The questions are original study prompts. The speaker did not teach those questions.",
+      "license": "Linked source with original study guide notes and a short attributed quotation. Other text and media are linked, not reproduced.",
       "excerpt": {
         "text": "Abiding in Christ is not an occasional or casual act; it is a constant, conscious, and sacred choice.",
         "attribution": "Elder Ulisses Soares",
@@ -1235,8 +1235,8 @@
         }
       ],
       "reviewed": "Official English text, Isaiah references, and the associated paragraphs checked on September 27, 2026. 2026-09-29: exact wording verified in the public source text.",
-      "limitations": "This talk uses Isaiah to teach faith. Its Isaiah links are not in chapters 36–39. Meridian made the study questions. The speaker did not teach those questions.",
-      "license": "Linked source with original Meridian notes and a short attributed quotation. Other text and media are linked, not reproduced.",
+      "limitations": "This talk uses Isaiah to teach faith. The questions are original study prompts. The speaker did not teach those questions.",
+      "license": "Linked source with original study guide notes and a short attributed quotation. Other text and media are linked, not reproduced.",
       "excerpt": {
         "text": "May we together continue to walk with Jesus Christ, even in our most difficult moments.",
         "attribution": "Brother David J. Wunderli",
@@ -1270,8 +1270,8 @@
         }
       ],
       "reviewed": "Official English text, Isaiah references, and the associated paragraphs checked on September 27, 2026.",
-      "limitations": "This talk uses Isaiah to teach faith. Its Isaiah links are not in chapters 36–39. Meridian made the study questions. The speaker did not teach those questions.",
-      "license": "Linked Church resource; original Meridian summary. Talk text and media are not reproduced.",
+      "limitations": "This talk uses Isaiah to teach faith. The questions are original study prompts. The speaker did not teach those questions.",
+      "license": "Linked Church resource; original study guide summary. Talk text and media are not reproduced.",
       "studyText": "Matswagothata quotes Isaiah 40:31 in note 16 to support renewed strength through waiting upon the Lord. Matswagothata connects this promise with trusting Christ during trials and hoping for a better future."
     },
     {
@@ -1301,8 +1301,8 @@
         }
       ],
       "reviewed": "Official English text, Isaiah references, and the associated paragraphs checked on September 27, 2026.",
-      "limitations": "This talk uses Isaiah to teach faith. Its Isaiah links are not in chapters 36–39. Meridian made the study questions. The speaker did not teach those questions.",
-      "license": "Linked Church resource; original Meridian summary. Talk text and media are not reproduced.",
+      "limitations": "This talk uses Isaiah to teach faith. The questions are original study prompts. The speaker did not teach those questions.",
+      "license": "Linked Church resource; original study guide summary. Talk text and media are not reproduced.",
       "studyText": "Rowe quotes Isaiah 41:10 and 43:1, 3 in note 17 as assurances against fear. Rowe applies their promises of strength, redemption, and personal care to following Christ as guide and healer."
     },
     {
@@ -1339,8 +1339,8 @@
         }
       ],
       "reviewed": "Official English text, Isaiah references, and the associated paragraphs checked on September 27, 2026.",
-      "limitations": "This talk uses Isaiah to teach faith. Its Isaiah links are not in chapters 36–39. Meridian made the study questions. The speaker did not teach those questions.",
-      "license": "Linked Church resource; original Meridian summary. Talk text and media are not reproduced.",
+      "limitations": "This talk uses Isaiah to teach faith. The questions are original study prompts. The speaker did not teach those questions.",
+      "license": "Linked Church resource; original study guide summary. Talk text and media are not reproduced.",
       "studyText": "Rasband uses Isaiah 41:10’s supporting hand and Isaiah 49:16’s engraved palms to describe Christ’s continuing care. Note 10 also cites Isaiah 45:23 alongside the promise that every knee will bow. Rasband places these references within his Easter witness of Christ’s Resurrection."
     },
     {
@@ -1384,8 +1384,8 @@
         }
       ],
       "reviewed": "Official English text, Isaiah references, and the associated paragraphs checked on September 27, 2026.",
-      "limitations": "This talk uses Isaiah to teach faith. Its Isaiah links are not in chapters 36–39. Meridian made the study questions. The speaker did not teach those questions.",
-      "license": "Linked Church resource; original Meridian summary. Talk text and media are not reproduced.",
+      "limitations": "This talk uses Isaiah to teach faith. The questions are original study prompts. The speaker did not teach those questions.",
+      "license": "Linked Church resource; original study guide summary. Talk text and media are not reproduced.",
       "studyText": "Hall uses Isaiah 9:6 for names of Christ, including Prince of Peace and Counselor. Cites Isaiah 49:16 when describing the Redeemer’s mercy and Isaiah 33:22 when calling Him the Lawgiver. Hall connects these names with repentance, forgiveness, and covenant discipleship."
     },
     {
@@ -1408,8 +1408,8 @@
         }
       ],
       "reviewed": "Official English text, Isaiah references, and the associated paragraphs checked on September 27, 2026. 2026-09-29: exact wording verified in the public source text.",
-      "limitations": "This talk uses Isaiah to teach faith. Its Isaiah links are not in chapters 36–39. Meridian made the study questions. The speaker did not teach those questions.",
-      "license": "Linked source with original Meridian notes and a short attributed quotation. Other text and media are linked, not reproduced.",
+      "limitations": "This talk uses Isaiah to teach faith. The questions are original study prompts. The speaker did not teach those questions.",
+      "license": "Linked source with original study guide notes and a short attributed quotation. Other text and media are linked, not reproduced.",
       "excerpt": {
         "text": "Jesus Christ knows you, He understands you, and He loves you.",
         "attribution": "President Susan H. Porter",
@@ -1443,8 +1443,8 @@
         }
       ],
       "reviewed": "Official English text, Isaiah references, and the associated paragraphs checked on September 27, 2026.",
-      "limitations": "This talk uses Isaiah to teach faith. Its Isaiah links are not in chapters 36–39. Meridian made the study questions. The speaker did not teach those questions.",
-      "license": "Linked Church resource; original Meridian summary. Talk text and media are not reproduced.",
+      "limitations": "This talk uses Isaiah to teach faith. The questions are original study prompts. The speaker did not teach those questions.",
+      "license": "Linked Church resource; original study guide summary. Talk text and media are not reproduced.",
       "studyText": "Andersen applies Isaiah 40:28–29, 31 to strength and patience within an eternal marriage. Andersen adapts the wording to address a couple waiting upon the Lord together. The published quotation marks these additions with brackets."
     },
     {
@@ -1455,7 +1455,7 @@
       "type": "Biblical text",
       "url": "https://ebible.org/engwebp/ISA01.htm",
       "summary": "Judah has turned away from God. God asks the people to stop doing wrong. He tells them to help people in need. God also gives them hope.",
-      "limitations": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history.",
+      "limitations": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history.",
       "license": "Public domain"
     },
     {
@@ -1466,7 +1466,7 @@
       "type": "Biblical text",
       "url": "https://ebible.org/engwebp/ISA02.htm",
       "summary": "People from many lands come to learn from God. They turn swords into farm tools. God warns them not to trust pride, wealth, or idols.",
-      "limitations": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history.",
+      "limitations": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history.",
       "license": "Public domain"
     },
     {
@@ -1477,7 +1477,7 @@
       "type": "Biblical text",
       "url": "https://ebible.org/engwebp/ISA03.htm",
       "summary": "Judah loses its good leaders. Some leaders hurt poor people. God calls them to answer for what they did.",
-      "limitations": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history.",
+      "limitations": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history.",
       "license": "Public domain"
     },
     {
@@ -1488,7 +1488,7 @@
       "type": "Biblical text",
       "url": "https://ebible.org/engwebp/ISA04.htm",
       "summary": "God makes Jerusalem clean. He stays with the people who are left. A cloud, fire, and shelter show his care.",
-      "limitations": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history.",
+      "limitations": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history.",
       "license": "Public domain"
     },
     {
@@ -1499,7 +1499,7 @@
       "type": "Biblical text",
       "url": "https://ebible.org/engwebp/ISA05.htm",
       "summary": "God’s people are like a vineyard. God wants good fruit, such as fair and kind acts. He finds harm instead.",
-      "limitations": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history.",
+      "limitations": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history.",
       "license": "Public domain"
     },
     {
@@ -1510,7 +1510,7 @@
       "type": "Biblical text",
       "url": "https://ebible.org/engwebp/ISA06.htm",
       "summary": "Isaiah sees the Lord. God makes Isaiah clean. Isaiah then agrees to do a hard job for God.",
-      "limitations": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history.",
+      "limitations": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history.",
       "license": "Public domain"
     },
     {
@@ -1521,7 +1521,7 @@
       "type": "Biblical text",
       "url": "https://ebible.org/engwebp/ISA07.htm",
       "summary": "Two kings plan to attack Judah. Isaiah tells King Ahaz not to fear. God gives a sign called Immanuel.",
-      "limitations": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history.",
+      "limitations": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history.",
       "license": "Public domain"
     },
     {
@@ -1532,7 +1532,7 @@
       "type": "Biblical text",
       "url": "https://ebible.org/engwebp/ISA08.htm",
       "summary": "Assyria is coming like a flood. Isaiah tells the people to fear God, not their foes. He warns them about false guides.",
-      "limitations": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history.",
+      "limitations": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history.",
       "license": "Public domain"
     },
     {
@@ -1543,7 +1543,7 @@
       "type": "Biblical text",
       "url": "https://ebible.org/engwebp/ISA09.htm",
       "summary": "A great light shines on people in pain. A child will rule with peace and justice. The chapter also warns proud leaders.",
-      "limitations": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history.",
+      "limitations": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history.",
       "license": "Public domain"
     },
     {
@@ -1554,7 +1554,7 @@
       "type": "Biblical text",
       "url": "https://ebible.org/engwebp/ISA10.htm",
       "summary": "Assyria harms many lands and grows proud. God says its power will end. A small group of God’s people will return.",
-      "limitations": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history.",
+      "limitations": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history.",
       "license": "Public domain"
     },
     {
@@ -1565,7 +1565,7 @@
       "type": "Biblical text",
       "url": "https://ebible.org/engwebp/ISA11.htm",
       "summary": "A new ruler comes from Jesse’s family. God’s Spirit rests on him. He rules with justice and brings peace.",
-      "limitations": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history.",
+      "limitations": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history.",
       "license": "Public domain"
     },
     {
@@ -1576,7 +1576,7 @@
       "type": "Biblical text",
       "url": "https://ebible.org/engwebp/ISA12.htm",
       "summary": "The people thank God for saving them. They trust him and are not afraid. They tell others what God has done.",
-      "limitations": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history.",
+      "limitations": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history.",
       "license": "Public domain"
     },
     {
@@ -1587,7 +1587,7 @@
       "type": "Biblical text",
       "url": "https://ebible.org/engwebp/ISA13.htm",
       "summary": "God warns proud Babylon. A great attack will bring the city down. Its fall shows that human power does not last.",
-      "limitations": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history.",
+      "limitations": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history.",
       "license": "Public domain"
     },
     {
@@ -1598,7 +1598,7 @@
       "type": "Biblical text",
       "url": "https://ebible.org/engwebp/ISA14.htm",
       "summary": "Israel sings about the fall of Babylon’s king. His pride brought him down. The chapter also warns Assyria and Philistia.",
-      "limitations": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history.",
+      "limitations": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history.",
       "license": "Public domain"
     },
     {
@@ -1609,7 +1609,7 @@
       "type": "Biblical text",
       "url": "https://ebible.org/engwebp/ISA15.htm",
       "summary": "Towns in Moab fall. People cry and run away. Isaiah feels grief for them.",
-      "limitations": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history.",
+      "limitations": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history.",
       "license": "Public domain"
     },
     {
@@ -1620,7 +1620,7 @@
       "type": "Biblical text",
       "url": "https://ebible.org/engwebp/ISA16.htm",
       "summary": "Moab asks for a safe place. The chapter calls for a fair ruler. It also warns Moab about pride.",
-      "limitations": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history.",
+      "limitations": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history.",
       "license": "Public domain"
     },
     {
@@ -1631,7 +1631,7 @@
       "type": "Biblical text",
       "url": "https://ebible.org/engwebp/ISA17.htm",
       "summary": "Damascus and Israel lose their power. A few people live. They learn to look to God, not things they made.",
-      "limitations": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history.",
+      "limitations": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history.",
       "license": "Public domain"
     },
     {
@@ -1642,7 +1642,7 @@
       "type": "Biblical text",
       "url": "https://ebible.org/engwebp/ISA18.htm",
       "summary": "Fast messengers cross the land. God waits and watches. At the end, people bring a gift to Zion.",
-      "limitations": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history.",
+      "limitations": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history.",
       "license": "Public domain"
     },
     {
@@ -1653,7 +1653,7 @@
       "type": "Biblical text",
       "url": "https://ebible.org/engwebp/ISA19.htm",
       "summary": "Egypt faces fear, fights, and hunger. Later, Egypt turns to God. Egypt, Assyria, and Israel share God’s gift.",
-      "limitations": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history.",
+      "limitations": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history.",
       "license": "Public domain"
     },
     {
@@ -1664,7 +1664,7 @@
       "type": "Biblical text",
       "url": "https://ebible.org/engwebp/ISA20.htm",
       "summary": "Isaiah acts out a warning. Egypt and Cush will be taken away. People learn that these nations cannot save them.",
-      "limitations": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history.",
+      "limitations": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history.",
       "license": "Public domain"
     },
     {
@@ -1675,7 +1675,7 @@
       "type": "Biblical text",
       "url": "https://ebible.org/engwebp/ISA21.htm",
       "summary": "A guard watches for news. He says that Babylon has fallen. The chapter also tells people to help those who flee war.",
-      "limitations": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history.",
+      "limitations": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history.",
       "license": "Public domain"
     },
     {
@@ -1686,7 +1686,7 @@
       "type": "Biblical text",
       "url": "https://ebible.org/engwebp/ISA22.htm",
       "summary": "Jerusalem gets ready for war but forgets God. The people feast when they should turn back. God also gives Eliakim a key and a new job.",
-      "limitations": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history.",
+      "limitations": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history.",
       "license": "Public domain"
     },
     {
@@ -1697,7 +1697,7 @@
       "type": "Biblical text",
       "url": "https://ebible.org/engwebp/ISA23.htm",
       "summary": "Tyre grows rich through sea trade. Then its trade fails. The chapter asks how wealth should be used.",
-      "limitations": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history.",
+      "limitations": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history.",
       "license": "Public domain"
     },
     {
@@ -1708,7 +1708,7 @@
       "type": "Biblical text",
       "url": "https://ebible.org/engwebp/ISA24.htm",
       "summary": "The whole earth feels God’s judgment. Joy ends because people break faith with God. God will rule from Zion.",
-      "limitations": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history.",
+      "limitations": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history.",
       "license": "Public domain"
     },
     {
@@ -1719,7 +1719,7 @@
       "type": "Biblical text",
       "url": "https://ebible.org/engwebp/ISA25.htm",
       "summary": "God makes a feast for all people. He ends death, tears, and shame. He also brings proud Moab down.",
-      "limitations": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history.",
+      "limitations": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history.",
       "license": "Public domain"
     },
     {
@@ -1730,7 +1730,7 @@
       "type": "Biblical text",
       "url": "https://ebible.org/engwebp/ISA26.htm",
       "summary": "Judah sings about trust. The people still feel pain and wait for justice. They also hope that the dead will live.",
-      "limitations": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history.",
+      "limitations": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history.",
       "license": "Public domain"
     },
     {
@@ -1741,7 +1741,7 @@
       "type": "Biblical text",
       "url": "https://ebible.org/engwebp/ISA27.htm",
       "summary": "God guards his vineyard. It grows fruit again. God gathers his people back to worship him.",
-      "limitations": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history.",
+      "limitations": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history.",
       "license": "Public domain"
     },
     {
@@ -1752,7 +1752,7 @@
       "type": "Biblical text",
       "url": "https://ebible.org/engwebp/ISA28.htm",
       "summary": "Proud leaders trust lies. God offers a firm stone as a safe base. A farmer shows that God works in more than one way.",
-      "limitations": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history.",
+      "limitations": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history.",
       "license": "Public domain"
     },
     {
@@ -1763,7 +1763,7 @@
       "type": "Biblical text",
       "url": "https://ebible.org/engwebp/ISA29.htm",
       "summary": "Jerusalem faces danger. The people honor God with words, but not with their hearts. God promises that they will see and hear again.",
-      "limitations": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history.",
+      "limitations": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history.",
       "license": "Public domain"
     },
     {
@@ -1774,7 +1774,7 @@
       "type": "Biblical text",
       "url": "https://ebible.org/engwebp/ISA30.htm",
       "summary": "Judah runs to Egypt for help. God asks the people to rest and trust him. They refuse, but God still offers mercy.",
-      "limitations": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history.",
+      "limitations": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history.",
       "license": "Public domain"
     },
     {
@@ -1785,7 +1785,7 @@
       "type": "Biblical text",
       "url": "https://ebible.org/engwebp/ISA31.htm",
       "summary": "Egypt’s horses cannot save Judah. Human strength cannot take God’s place. God asks his people to return.",
-      "limitations": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history.",
+      "limitations": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history.",
       "license": "Public domain"
     },
     {
@@ -1796,7 +1796,7 @@
       "type": "Biblical text",
       "url": "https://ebible.org/engwebp/ISA32.htm",
       "summary": "A good king rules with justice. God’s Spirit changes the land. Justice brings peace and safe homes.",
-      "limitations": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history.",
+      "limitations": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history.",
       "license": "Public domain"
     },
     {
@@ -1807,7 +1807,7 @@
       "type": "Biblical text",
       "url": "https://ebible.org/engwebp/ISA33.htm",
       "summary": "The people ask God for help. Roads are empty, and peace deals are broken. God promises safety, justice, and pardon.",
-      "limitations": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history.",
+      "limitations": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history.",
       "license": "Public domain"
     },
     {
@@ -1818,7 +1818,7 @@
       "type": "Biblical text",
       "url": "https://ebible.org/engwebp/ISA34.htm",
       "summary": "God judges Edom and other nations. The poem shows fire and empty land. These pictures show that proud power ends.",
-      "limitations": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history.",
+      "limitations": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history.",
       "license": "Public domain"
     },
     {
@@ -1829,7 +1829,7 @@
       "type": "Biblical text",
       "url": "https://ebible.org/engwebp/ISA35.htm",
       "summary": "The dry land blooms. Weak people grow strong. A safe road brings God’s people home with joy.",
-      "limitations": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history.",
+      "limitations": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history.",
       "license": "Public domain"
     },
     {
@@ -1840,7 +1840,7 @@
       "type": "Biblical text",
       "url": "https://ebible.org/engwebp/ISA40.htm",
       "summary": "God speaks comfort to Jerusalem. People grow tired, but God does not. He gives new strength to those who trust him.",
-      "limitations": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history.",
+      "limitations": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history.",
       "license": "Public domain"
     },
     {
@@ -1851,7 +1851,7 @@
       "type": "Biblical text",
       "url": "https://ebible.org/engwebp/ISA41.htm",
       "summary": "God tells Israel not to fear. He calls Israel his servant. He will hold and help his people.",
-      "limitations": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history.",
+      "limitations": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history.",
       "license": "Public domain"
     },
     {
@@ -1862,7 +1862,7 @@
       "type": "Biblical text",
       "url": "https://ebible.org/engwebp/ISA42.htm",
       "summary": "God’s servant brings justice with care. He does not crush weak people. God also tells his people to see and hear.",
-      "limitations": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history.",
+      "limitations": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history.",
       "license": "Public domain"
     },
     {
@@ -1873,7 +1873,7 @@
       "type": "Biblical text",
       "url": "https://ebible.org/engwebp/ISA43.htm",
       "summary": "God calls Israel by name. He stays with his people through water and fire. He makes a new path in the desert.",
-      "limitations": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history.",
+      "limitations": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history.",
       "license": "Public domain"
     },
     {
@@ -1884,7 +1884,7 @@
       "type": "Biblical text",
       "url": "https://ebible.org/engwebp/ISA44.htm",
       "summary": "People make an idol from the same wood they burn. The idol cannot save them. God names Cyrus as a ruler who will help Jerusalem.",
-      "limitations": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history.",
+      "limitations": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history.",
       "license": "Public domain"
     },
     {
@@ -1895,7 +1895,7 @@
       "type": "Biblical text",
       "url": "https://ebible.org/engwebp/ISA45.htm",
       "summary": "God gives Cyrus a job, though Cyrus does not know him. God rules over all lands. He asks all people to turn to him.",
-      "limitations": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history.",
+      "limitations": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history.",
       "license": "Public domain"
     },
     {
@@ -1906,7 +1906,7 @@
       "type": "Biblical text",
       "url": "https://ebible.org/engwebp/ISA46.htm",
       "summary": "People must carry Babylon’s gods. God says he will carry his people all their lives. He alone can save.",
-      "limitations": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history.",
+      "limitations": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history.",
       "license": "Public domain"
     },
     {
@@ -1917,7 +1917,7 @@
       "type": "Biblical text",
       "url": "https://ebible.org/engwebp/ISA47.htm",
       "summary": "Babylon is like a queen who loses her throne. Her pride and magic cannot save her. God holds her to account.",
-      "limitations": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history.",
+      "limitations": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history.",
       "license": "Public domain"
     },
     {
@@ -1928,7 +1928,7 @@
       "type": "Biblical text",
       "url": "https://ebible.org/engwebp/ISA48.htm",
       "summary": "God asks Israel to listen. He tells the people to leave Babylon. He will care for them on the way.",
-      "limitations": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history.",
+      "limitations": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history.",
       "license": "Public domain"
     },
     {
@@ -1939,7 +1939,7 @@
       "type": "Biblical text",
       "url": "https://ebible.org/engwebp/ISA49.htm",
       "summary": "God’s servant has a task for all nations. Zion thinks God forgot her. God says his care is stronger than a mother’s care.",
-      "limitations": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history.",
+      "limitations": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history.",
       "license": "Public domain"
     },
     {
@@ -1950,7 +1950,7 @@
       "type": "Biblical text",
       "url": "https://ebible.org/engwebp/ISA50.htm",
       "summary": "God’s servant listens before he speaks. He helps tired people and trusts God through pain. Others trust their own light.",
-      "limitations": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history.",
+      "limitations": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history.",
       "license": "Public domain"
     },
     {
@@ -1961,7 +1961,7 @@
       "type": "Biblical text",
       "url": "https://ebible.org/engwebp/ISA51.htm",
       "summary": "God tells the people to remember Abraham and Sarah. Old acts of rescue give them hope. Jerusalem’s pain will end.",
-      "limitations": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history.",
+      "limitations": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history.",
       "license": "Public domain"
     },
     {
@@ -1972,7 +1972,7 @@
       "type": "Biblical text",
       "url": "https://ebible.org/engwebp/ISA52.htm",
       "summary": "A messenger brings good news to Zion. He tells of peace, rescue, and God’s rule. The people are called to leave and be clean.",
-      "limitations": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history.",
+      "limitations": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history.",
       "license": "Public domain"
     },
     {
@@ -1983,7 +1983,7 @@
       "type": "Biblical text",
       "url": "https://ebible.org/engwebp/ISA53.htm",
       "summary": "People first reject God’s servant. Then they see his pain in a new way. He suffers for others and is honored in the end.",
-      "limitations": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history.",
+      "limitations": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history.",
       "license": "Public domain"
     },
     {
@@ -1994,7 +1994,7 @@
       "type": "Biblical text",
       "url": "https://ebible.org/engwebp/ISA54.htm",
       "summary": "Zion feels like a wife left alone. God promises love and peace. He will build the city again and guard its people.",
-      "limitations": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history.",
+      "limitations": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history.",
       "license": "Public domain"
     },
     {
@@ -2005,7 +2005,7 @@
       "type": "Biblical text",
       "url": "https://ebible.org/engwebp/ISA55.htm",
       "summary": "God offers free food and drink to thirsty people. He asks them to listen and live. His word will do its work.",
-      "limitations": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history.",
+      "limitations": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history.",
       "license": "Public domain"
     },
     {
@@ -2016,7 +2016,7 @@
       "type": "Biblical text",
       "url": "https://ebible.org/engwebp/ISA56.htm",
       "summary": "God welcomes people who once felt left out. His house is for all people who keep his covenant. He also warns bad leaders.",
-      "limitations": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history.",
+      "limitations": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history.",
       "license": "Public domain"
     },
     {
@@ -2027,7 +2027,7 @@
       "type": "Biblical text",
       "url": "https://ebible.org/engwebp/ISA57.htm",
       "summary": "The people worship false gods. Yet God stays near humble people who are sorry. He offers healing and peace.",
-      "limitations": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history.",
+      "limitations": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history.",
       "license": "Public domain"
     },
     {
@@ -2038,7 +2038,7 @@
       "type": "Biblical text",
       "url": "https://ebible.org/engwebp/ISA58.htm",
       "summary": "The people fast but still hurt others. God asks them to feed, house, and clothe people in need. Such care brings light.",
-      "limitations": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history.",
+      "limitations": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history.",
       "license": "Public domain"
     },
     {
@@ -2049,7 +2049,7 @@
       "type": "Biblical text",
       "url": "https://ebible.org/engwebp/ISA59.htm",
       "summary": "Lies and violence push people away from God. The people admit their shared sin. God comes to save and judge.",
-      "limitations": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history.",
+      "limitations": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history.",
       "license": "Public domain"
     },
     {
@@ -2060,7 +2060,7 @@
       "type": "Biblical text",
       "url": "https://ebible.org/engwebp/ISA60.htm",
       "summary": "God’s light rises over Zion. Nations and lost children come to the city. God gives it peace and lasting light.",
-      "limitations": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history.",
+      "limitations": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history.",
       "license": "Public domain"
     },
     {
@@ -2071,7 +2071,7 @@
       "type": "Biblical text",
       "url": "https://ebible.org/engwebp/ISA61.htm",
       "summary": "God’s chosen servant brings good news. He helps poor, hurt, and trapped people. Ruined places will be built again.",
-      "limitations": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history.",
+      "limitations": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history.",
       "license": "Public domain"
     },
     {
@@ -2082,7 +2082,7 @@
       "type": "Biblical text",
       "url": "https://ebible.org/engwebp/ISA62.htm",
       "summary": "Zion gets a new name. It is no longer left alone. Watchmen pray as a road is made ready for the people.",
-      "limitations": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history.",
+      "limitations": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history.",
       "license": "Public domain"
     },
     {
@@ -2093,7 +2093,7 @@
       "type": "Biblical text",
       "url": "https://ebible.org/engwebp/ISA63.htm",
       "summary": "A warrior comes after judgment. Then the people recall God’s past love and help. They ask him to return.",
-      "limitations": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history.",
+      "limitations": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history.",
       "license": "Public domain"
     },
     {
@@ -2104,7 +2104,7 @@
       "type": "Biblical text",
       "url": "https://ebible.org/engwebp/ISA64.htm",
       "summary": "The people ask God to come down. They admit their sin. They call God their Father and the maker who shapes clay.",
-      "limitations": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history.",
+      "limitations": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history.",
       "license": "Public domain"
     },
     {
@@ -2115,7 +2115,7 @@
       "type": "Biblical text",
       "url": "https://ebible.org/engwebp/ISA65.htm",
       "summary": "God judges those who fight him. He blesses his servants. He promises a new world with joy, homes, good work, and peace.",
-      "limitations": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history.",
+      "limitations": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history.",
       "license": "Public domain"
     },
     {
@@ -2126,7 +2126,7 @@
       "type": "Biblical text",
       "url": "https://ebible.org/engwebp/ISA66.htm",
       "summary": "God values humble people who listen to him. He comforts Zion and judges evil. The book ends with all nations coming to worship.",
-      "limitations": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history.",
+      "limitations": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history.",
       "license": "Public domain"
     },
     {
@@ -2135,12 +2135,12 @@
       "title": "Poetry in the Book of Isaiah",
       "author": "Ann N. Madsen, interviewed by Darryl Alder · Search Isaiah",
       "url": "https://searchisaiah.org/expert-insights/ann-madsen/poetry-in-the-book-of-isaiah/",
-      "summary": "Madsen explains how related poetic lines develop an idea. In Isaiah 1:8, field shelters and a besieged city give different aspects of Zion’s isolation.",
+      "summary": "Latter-day Saint Isaiah scholar Ann N. Madsen explains in an interview how related poetic lines develop an idea. In Isaiah 1:8, field shelters and a besieged city give different aspects of Zion’s isolation.",
       "limitations": "This page presents interview excerpts. The note summarizes her example; it does not treat every line of Isaiah as the same poetic form.",
       "year": "Undated online text",
       "type": "Public interview excerpt",
       "reviewed": "Checked September 30, 2026. Relevant public text reviewed. Recordings and full book not reviewed.",
-      "license": "Linked source with an original Meridian summary. Short quotations retain attribution."
+      "license": "Linked source with an original study guide summary. Short quotations retain attribution."
     },
     {
       "id": "madsen-understanding",
@@ -2148,12 +2148,12 @@
       "title": "Ann Madsen Shares Insights Into Understanding Isaiah (Part 1)",
       "author": "Ann N. Madsen, interviewed by Darryl Alder · Search Isaiah",
       "url": "https://searchisaiah.org/expert-insights/ann-madsen-shares-insights-into-understanding-isaiah-part-1/",
-      "summary": "Madsen connects study with historical context and close reading. She reads Isaiah 30:21 as an example of personal revelation.",
+      "summary": "Latter-day Saint Isaiah scholar Ann N. Madsen connects study with historical context and close reading in an interview. She reads Isaiah 30:21 as an example of personal revelation.",
       "limitations": "Her personal-revelation reading is an LDS devotional application. It does not replace the passage’s address to Judah.",
       "year": "Undated online text",
       "type": "Public interview excerpt",
       "reviewed": "Checked September 30, 2026. Relevant public text reviewed. Recordings and full book not reviewed.",
-      "license": "Linked source with an original Meridian summary. Short quotations retain attribution."
+      "license": "Linked source with an original study guide summary. Short quotations retain attribution."
     },
     {
       "id": "harmony-kjv2",
@@ -2166,7 +2166,7 @@
       "year": "Undated online text",
       "type": "Scripture · official online edition",
       "reviewed": "Checked September 30, 2026. Relevant public text reviewed. Recordings and full book not reviewed.",
-      "license": "Linked source with an original Meridian summary. Short quotations retain attribution."
+      "license": "Linked source with an original study guide summary. Short quotations retain attribution."
     },
     {
       "id": "harmony-nephi12",
@@ -2179,7 +2179,7 @@
       "year": "Undated online text",
       "type": "Scripture · official online edition",
       "reviewed": "Checked September 30, 2026. Relevant public text reviewed. Recordings and full book not reviewed.",
-      "license": "Linked source with an original Meridian summary. Short quotations retain attribution."
+      "license": "Linked source with an original study guide summary. Short quotations retain attribution."
     },
     {
       "id": "prism-taylor",
@@ -2220,7 +2220,7 @@
       "summary": "The university provides the full edition as a free PDF. It includes an English translation, transliteration, and copies of the cuneiform signs. The Chicago Prism’s Hezekiah passage is in column III, on printed pages 32–34 (PDF pages 46–48). Sennacherib claims 46 fortified cities, captives, and tribute. He describes Hezekiah confined in Jerusalem. He does not claim to have captured Jerusalem.",
       "limitations": "This 1924 translation uses older language and includes uncertain readings. Royal claims and numerical totals are not independent counts. The inscription does not confirm Isaiah’s account of an angel or the number of Assyrian deaths.",
       "reviewed": "Checked September 29, 2026. University publication record and the Hezekiah section of the linked PDF checked. The complete book was not reviewed.",
-      "license": "Free PDF linked from the university. Its current publication page displays CC BY-NC-ND 4.0. Meridian reproduces no pages.",
+      "license": "Free PDF linked from the university. Its current publication page displays CC BY-NC-ND 4.0. Isaiah Study Guide reproduces no pages.",
       "excerpt": {
         "text": "Himself, like a caged bird I shut up in Jerusalem his royal city.",
         "attribution": "Sennacherib’s royal account · translated by Daniel David Luckenbill (1924)",
@@ -2242,7 +2242,7 @@
       "summary": "The museum identifies its Jerusalem Prism as IMJ 71.72.249, from Nineveh. Its public display page connects the royal account with Isaiah 36–37, 2 Kings 18–19, and 2 Chronicles 32. It provides links for translation, transliteration, the object, and the campaign. The museum notes that the text does not explicitly describe a siege of Jerusalem.",
       "limitations": "This page concerns the Jerusalem object, not the Taylor Prism. The linked translation pages returned no readable text during this check. Their full contents were not reviewed. Confinement language alone does not establish the details of military operations.",
       "reviewed": "Checked September 29, 2026. English exhibition text and object metadata reviewed.",
-      "license": "Linked source with an original Meridian summary. Public access does not grant permission to reproduce the work.",
+      "license": "Linked source with an original study guide summary. Public access does not grant permission to reproduce the work.",
       "studyText": "The Jerusalem Prism is another copy of the king’s story. The Israel Museum compares it with Isaiah 36–37. The clay writing does not clearly say that Assyria attacked Jerusalem’s walls."
     },
     {
@@ -2256,7 +2256,7 @@
       "summary": "This harmony places Isaiah texts beside each other for comparison: King James Version, Joseph Smith Translation, Book of Mormon, Dead Sea Scrolls, and New Revised Standard Version. The public publisher page describes notes and maps. Its contents list includes a map for Isaiah 36:19 and 37:12–13.",
       "limitations": "BYU marks the full book as unavailable for online reading. The download button requires purchase details. A separate public sample is listed below. This scholarly study aid is not an official statement of Church doctrine.",
       "reviewed": "Checked September 29, 2026. Publisher description, authors, publication year, contents list, and purchase-download page checked. Full book not reviewed.",
-      "license": "Linked source with an original Meridian summary. Public access does not grant permission to reproduce the work.",
+      "license": "Linked source with an original study guide summary. Public access does not grant permission to reproduce the work.",
       "studyText": "Madsen and Hopkin compare Isaiah across five text traditions. Their columns help readers notice differences in wording and interpretation. This is a scholarly LDS study aid, not an official statement of Church doctrine."
     },
     {
@@ -2284,7 +2284,7 @@
       "summary": "Hopkin explains that students needed an easier way to compare Isaiah in the Book of Mormon and Joseph Smith Translation. He describes collaboration with Madsen, the five columns, Dead Sea Scrolls variants, and short explanatory notes. He identifies the modern column as the NRSV and mentions NIV readings in notes.",
       "limitations": "The page provides an interview transcript, not the book. Statements about release timing and electronic availability describe the interview period. They do not establish free access to the full book today.",
       "reviewed": "Checked September 29, 2026. Public transcript reviewed; embedded recording not independently checked. 2026-09-30: exact wording verified in the public transcript.",
-      "license": "Linked source with original Meridian notes and a short attributed quotation. Other text and media are linked, not reproduced.",
+      "license": "Linked source with original study guide notes and a short attributed quotation. Other text and media are linked, not reproduced.",
       "excerpt": {
         "text": "the scriptures are front and center, not what we are saying about the scriptures",
         "attribution": "Shon D. Hopkin, interviewed by Ken Krogue",
@@ -2305,10 +2305,10 @@
       "year": "2018",
       "type": "LDS author interview · public transcript",
       "url": "https://searchisaiah.org/podcast/ann-madsen-shares-her-experiences-studies-of-isaiah/",
-      "summary": "Madsen explains hineni in Isaiah 6:8 as readiness to serve. She also describes how poetic lines, word notes, and maps help readers understand the text.",
+      "summary": "Latter-day Saint Isaiah scholar Ann N. Madsen explains in an interview that hineni in Isaiah 6:8 shows readiness to serve. She also describes how poetic lines, word notes, and maps help readers understand the text.",
       "limitations": "This is the author’s brief explanation of the resource. It does not reproduce the harmony or independently establish its textual conclusions.",
       "reviewed": "Checked September 29, 2026. Public transcript reviewed; embedded recording not independently checked. 2026-09-30: exact wording verified in the public transcript.",
-      "license": "Linked source with original Meridian notes and a short attributed quotation. Other text and media are linked, not reproduced.",
+      "license": "Linked source with original study guide notes and a short attributed quotation. Other text and media are linked, not reproduced.",
       "excerpt": {
         "text": "behold I am here, I am at your service",
         "attribution": "Ann N. Madsen, interviewed by Kelsey Wilding",
@@ -2330,7 +2330,7 @@
       "url": "https://books.google.com/books?id=y0z7DwAAQBAJ",
       "summary": "Dorsey reconstructs the road network west of the Jordan during the Iron Age. He uses terrain, settlement patterns, written evidence, gates, passes, and later road remains.",
       "limitations": "The reconstruction combines evidence from about 1200–587 BCE. Most routes cannot be dated only to Isaiah’s lifetime, and an approximate corridor does not identify every surviving roadbed.",
-      "license": "Linked reading; route corridors independently redrawn and summarized by Meridian. The published maps and text are not reproduced."
+      "license": "Linked reading; route corridors independently redrawn and summarized for this study guide. The published maps and text are not reproduced."
     },
     {
       "id": "aharoni-land",
@@ -2341,7 +2341,7 @@
       "url": "https://books.google.com/books?id=AMtoyNxWw0UC",
       "summary": "Aharoni explains how terrain and regional connections shaped the main roads of the southern Levant. His treatment also provides context for routes east of the Jordan.",
       "limitations": "The road map is a broad historical reconstruction. It does not give a surveyed network for one year in the eighth century BCE.",
-      "license": "Linked reading; route corridors independently redrawn and summarized by Meridian. The published maps and text are not reproduced."
+      "license": "Linked reading; route corridors independently redrawn and summarized for this study guide. The published maps and text are not reproduced."
     },
     {
       "id": "radner-kings-road",
@@ -2351,8 +2351,8 @@
       "type": "Academic Neo-Assyrian history",
       "url": "https://oracc.museum.upenn.edu/saao/aebp/Essentials/Governors/TheKing%27sRoad/index.html",
       "summary": "Radner describes the Neo-Assyrian state road and relay network. Her route example crosses the Euphrates at Til Barsip, passes Harran, Guzana, and Nasibina, and reaches the Tigris at Nineveh.",
-      "limitations": "The essay identifies major crossings and stations. Meridian connects them as a broad corridor and does not claim a surveyed roadbed between each station.",
-      "license": "Linked academic reading from Oracc and the University of Pennsylvania; corridor independently redrawn and summarized by Meridian."
+      "limitations": "The essay identifies major crossings and stations. This study guide connects them as a broad corridor and does not claim a surveyed roadbed between each station.",
+      "license": "Linked academic reading from Oracc and the University of Pennsylvania; corridor independently redrawn and summarized for this study guide."
     },
     {
       "id": "del-fabbro-aleppo-roads",
@@ -2363,7 +2363,7 @@
       "url": "https://www.researchgate.net/publication/279847109_The_roads_from_and_to_Aleppo_Some_historical-geographical_considerations_in_light_of_new_archaeological_data",
       "summary": "Del Fabbro combines ancient texts, terrain, archaeological survey, and satellite imagery to study the routes around Aleppo. The study traces an Assyrian approach from Nineveh through the upper Habur and Balih regions to the Euphrates, then west toward Aleppo.",
       "limitations": "Some sections have stronger textual and archaeological support than others. Long-distance connections are corridors, and local tracks changed across the long period discussed.",
-      "license": "Linked academic reading; corridor lines independently redrawn and summarized by Meridian. Published maps are not reproduced."
+      "license": "Linked academic reading; corridor lines independently redrawn and summarized for this study guide. Published maps are not reproduced."
     },
     {
       "id": "radner-kalhu-routes",
@@ -2374,7 +2374,7 @@
       "url": "https://oracc.museum.upenn.edu/saao/aebp/essentials/cities/kalhu/index.html",
       "summary": "Radner places Kalhu on the north–south Tigris route between Nineveh and Assur. She also identifies its eastward connection through Arbela and the western Zagros fringe toward Babylonia.",
       "limitations": "The source establishes the principal connections, not every bend or station. The eastward and southern continuation is therefore shown as a probable corridor.",
-      "license": "Linked academic reading from Oracc and the University of Pennsylvania; corridors independently redrawn and summarized by Meridian."
+      "license": "Linked academic reading from Oracc and the University of Pennsylvania; corridors independently redrawn and summarized for this study guide."
     },
     {
       "id": "lachish-ramp-study",
@@ -2854,7 +2854,7 @@
         "wiki-isaiah"
       ],
       "lds": {
-        "text": "Meridian study question: How can worship help you care for others?",
+        "text": "How can worship help you care for others?",
         "sourceIds": [
           "web1",
           "cfm2026-38",
@@ -2863,8 +2863,8 @@
       },
       "studyNotes": [
         {
-          "title": "Madsen: three images of an isolated city",
-          "text": "Madsen reads Isaiah 1:8 as related images that develop one idea. A temporary field shelter and a city under siege show different aspects of Zion’s isolation. The lines build meaning through comparison, not end rhyme.",
+          "title": "Ann Madsen on three images of an isolated city",
+          "text": "Latter-day Saint Isaiah scholar Ann N. Madsen explains in an interview that Isaiah 1:8 uses related images to develop one idea. A temporary field shelter and a city under siege show different aspects of Zion’s isolation. The lines build meaning through comparison, not end rhyme.",
           "application": "Read verses 7–9 together. The images follow the account of ruined land; the surviving city remains exposed. Survival here does not mean safety.",
           "sourceIds": [
             "madsen-poetry"
@@ -2891,7 +2891,7 @@
         "web2"
       ],
       "lds": {
-        "text": "Meridian study question: How can God’s ways change how you treat people?",
+        "text": "How can God’s ways change how you treat people?",
         "sourceIds": [
           "web2",
           "cfm2026-38"
@@ -2929,7 +2929,7 @@
         "web3"
       ],
       "lds": {
-        "text": "Meridian study question: How should leaders care for poor people?",
+        "text": "How should leaders care for poor people?",
         "sourceIds": [
           "web3",
           "cfm2026-38"
@@ -2954,7 +2954,7 @@
         "web4"
       ],
       "lds": {
-        "text": "Meridian study question: How does God clean and guard his people?",
+        "text": "How does God clean and guard his people?",
         "sourceIds": [
           "web4",
           "cfm2026-38"
@@ -2979,7 +2979,7 @@
         "web5"
       ],
       "lds": {
-        "text": "Meridian study question: What good fruit can you grow in your town?",
+        "text": "What good fruit can you grow in your town?",
         "sourceIds": [
           "web5",
           "cfm2026-38"
@@ -3004,7 +3004,7 @@
         "web6"
       ],
       "lds": {
-        "text": "Meridian study question: How does God help Isaiah answer his call?",
+        "text": "How does God help Isaiah answer his call?",
         "sourceIds": [
           "web6",
           "cfm2026-38",
@@ -3013,8 +3013,8 @@
       },
       "studyNotes": [
         {
-          "title": "Madsen: “Here I am” is an offer to serve",
-          "text": "Madsen explains hineni in Isaiah 6:8 as an expression of readiness to serve. Isaiah offers himself for the mission; he does more than announce his presence.",
+          "title": "Ann Madsen on Isaiah’s offer to serve",
+          "text": "Latter-day Saint Isaiah scholar Ann N. Madsen explains in an interview that hineni in Isaiah 6:8 expresses readiness to serve. Isaiah offers himself for the mission; he does more than announce his presence.",
           "application": "Trace the sequence in verses 5–8: Isaiah admits his unclean lips, receives cleansing, then volunteers. His offer follows the removal of guilt. Read the reply as a response to that cleansing.",
           "sourceIds": [
             "opening-isaiah-madsen"
@@ -3044,7 +3044,7 @@
         "wiki-syro-ephraimite"
       ],
       "lds": {
-        "text": "Meridian study question: What does fear do to Ahaz’s trust?",
+        "text": "What does fear do to Ahaz’s trust?",
         "sourceIds": [
           "web7",
           "cfm2026-38"
@@ -3072,7 +3072,7 @@
         "wiki-syro-ephraimite"
       ],
       "lds": {
-        "text": "Meridian study question: Who do you listen to when you feel afraid?",
+        "text": "Who do you listen to when you feel afraid?",
         "sourceIds": [
           "web8",
           "cfm2026-38"
@@ -3098,7 +3098,7 @@
         "web9"
       ],
       "lds": {
-        "text": "Meridian study question: What kind of hope does a just ruler bring?",
+        "text": "What kind of hope does a just ruler bring?",
         "sourceIds": [
           "web9",
           "cfm2026-38",
@@ -3126,7 +3126,7 @@
         "web10"
       ],
       "lds": {
-        "text": "Meridian study question: How can success make a person proud?",
+        "text": "How can success make a person proud?",
         "sourceIds": [
           "web10",
           "cfm2026-38"
@@ -3151,7 +3151,7 @@
         "web11"
       ],
       "lds": {
-        "text": "Meridian study question: How does this ruler care for poor people?",
+        "text": "How does this ruler care for poor people?",
         "sourceIds": [
           "web11",
           "cfm2026-38",
@@ -3178,7 +3178,7 @@
         "web12"
       ],
       "lds": {
-        "text": "Meridian study question: How can you share your thanks to God?",
+        "text": "How can you share your thanks to God?",
         "sourceIds": [
           "web12",
           "cfm2026-38"
@@ -3203,7 +3203,7 @@
         "web13"
       ],
       "lds": {
-        "text": "Meridian study question: Why does human power fail?",
+        "text": "Why does human power fail?",
         "sourceIds": [
           "web13",
           "cfm2026-39"
@@ -3229,7 +3229,7 @@
         "web14"
       ],
       "lds": {
-        "text": "Meridian study question: What does pride do to a ruler?",
+        "text": "What does pride do to a ruler?",
         "sourceIds": [
           "web14",
           "cfm2026-39"
@@ -3253,7 +3253,7 @@
         "wiki-moab"
       ],
       "lds": {
-        "text": "Meridian study question: How should we act when other people hurt? The linked Come, Follow Me lesson covers nearby chapters. This question is a Meridian reflection, not a claim that the lesson teaches this chapter.",
+        "text": "How should we act when other people hurt? The linked Come, Follow Me lesson covers nearby chapters. This question is a study guide reflection, not a claim that the lesson teaches this chapter.",
         "sourceIds": [
           "web15",
           "cfm2026-39"
@@ -3279,7 +3279,7 @@
         "wiki-moab"
       ],
       "lds": {
-        "text": "Meridian study question: Why do proud people still need help? The linked Come, Follow Me lesson covers nearby chapters. This question is a Meridian reflection, not a claim that the lesson teaches this chapter.",
+        "text": "Why do proud people still need help? The linked Come, Follow Me lesson covers nearby chapters. This question is a study guide reflection, not a claim that the lesson teaches this chapter.",
         "sourceIds": [
           "web16",
           "cfm2026-39"
@@ -3305,7 +3305,7 @@
         "web17"
       ],
       "lds": {
-        "text": "Meridian study question: What changes when people look to God? The linked Come, Follow Me lesson covers nearby chapters. This question is a Meridian reflection, not a claim that the lesson teaches this chapter.",
+        "text": "What changes when people look to God? The linked Come, Follow Me lesson covers nearby chapters. This question is a study guide reflection, not a claim that the lesson teaches this chapter.",
         "sourceIds": [
           "web17",
           "cfm2026-39"
@@ -3330,7 +3330,7 @@
         "web18"
       ],
       "lds": {
-        "text": "Meridian study question: What can you learn when God seems to wait? The linked Come, Follow Me lesson covers nearby chapters. This question is a Meridian reflection, not a claim that the lesson teaches this chapter.",
+        "text": "What can you learn when God seems to wait? The linked Come, Follow Me lesson covers nearby chapters. This question is a study guide reflection, not a claim that the lesson teaches this chapter.",
         "sourceIds": [
           "web18",
           "cfm2026-39"
@@ -3356,7 +3356,7 @@
         "web19"
       ],
       "lds": {
-        "text": "Meridian study question: How can God bring old foes together? The linked Come, Follow Me lesson covers nearby chapters. This question is a Meridian reflection, not a claim that the lesson teaches this chapter.",
+        "text": "How can God bring old foes together? The linked Come, Follow Me lesson covers nearby chapters. This question is a study guide reflection, not a claim that the lesson teaches this chapter.",
         "sourceIds": [
           "web19",
           "cfm2026-39"
@@ -3379,7 +3379,7 @@
         "web20"
       ],
       "lds": {
-        "text": "Meridian study question: What may look safe but fail later? The linked Come, Follow Me lesson covers nearby chapters. This question is a Meridian reflection, not a claim that the lesson teaches this chapter.",
+        "text": "What may look safe but fail later? The linked Come, Follow Me lesson covers nearby chapters. This question is a study guide reflection, not a claim that the lesson teaches this chapter.",
         "sourceIds": [
           "web20",
           "cfm2026-39"
@@ -3405,7 +3405,7 @@
         "wiki-edom"
       ],
       "lds": {
-        "text": "Meridian study question: How can you watch and also help? The linked Come, Follow Me lesson covers nearby chapters. This question is a Meridian reflection, not a claim that the lesson teaches this chapter.",
+        "text": "How can you watch and also help? The linked Come, Follow Me lesson covers nearby chapters. This question is a study guide reflection, not a claim that the lesson teaches this chapter.",
         "sourceIds": [
           "web21",
           "cfm2026-39"
@@ -3431,7 +3431,7 @@
         "wiki-siloam"
       ],
       "lds": {
-        "text": "Meridian study question: How can you plan and still trust God?",
+        "text": "How can you plan and still trust God?",
         "sourceIds": [
           "web22",
           "cfm2026-39"
@@ -3459,7 +3459,7 @@
         "wiki-tyre"
       ],
       "lds": {
-        "text": "Meridian study question: How should people use wealth? The linked Come, Follow Me lesson covers nearby chapters. This question is a Meridian reflection, not a claim that the lesson teaches this chapter.",
+        "text": "How should people use wealth? The linked Come, Follow Me lesson covers nearby chapters. This question is a study guide reflection, not a claim that the lesson teaches this chapter.",
         "sourceIds": [
           "web23",
           "cfm2026-39"
@@ -3484,7 +3484,7 @@
         "web24"
       ],
       "lds": {
-        "text": "Meridian study question: How do broken promises hurt a town?",
+        "text": "How do broken promises hurt a town?",
         "sourceIds": [
           "web24",
           "cfm2026-39"
@@ -3509,7 +3509,7 @@
         "web25"
       ],
       "lds": {
-        "text": "Meridian study question: Who is welcome at God’s feast?",
+        "text": "Who is welcome at God’s feast?",
         "sourceIds": [
           "web25",
           "cfm2026-39"
@@ -3534,7 +3534,7 @@
         "web26"
       ],
       "lds": {
-        "text": "Meridian study question: How can hope and pain exist together?",
+        "text": "How can hope and pain exist together?",
         "sourceIds": [
           "web26",
           "cfm2026-39"
@@ -3559,7 +3559,7 @@
         "web27"
       ],
       "lds": {
-        "text": "Meridian study question: How is this vineyard unlike the one in chapter 5?",
+        "text": "How is this vineyard unlike the one in chapter 5?",
         "sourceIds": [
           "web27",
           "cfm2026-39"
@@ -3586,7 +3586,7 @@
         "dm-line"
       ],
       "lds": {
-        "text": "Meridian study question: What makes a base safe and strong?",
+        "text": "What makes a base safe and strong?",
         "sourceIds": [
           "web28",
           "cfm2026-39",
@@ -3614,7 +3614,7 @@
         "web29"
       ],
       "lds": {
-        "text": "Meridian study question: How can words of worship become empty?",
+        "text": "How can words of worship become empty?",
         "sourceIds": [
           "web29",
           "cfm2026-39",
@@ -3641,7 +3641,7 @@
         "web30"
       ],
       "lds": {
-        "text": "Meridian study question: Why can quiet trust feel hard?",
+        "text": "Why can quiet trust feel hard?",
         "sourceIds": [
           "web30",
           "cfm2026-39"
@@ -3649,8 +3649,8 @@
       },
       "studyNotes": [
         {
-          "title": "Madsen: hearing guidance and following it",
-          "text": "Madsen reads the guiding voice in Isaiah 30:21 as an example of personal revelation. Her LDS application connects hearing God’s direction with following it.",
+          "title": "Ann Madsen on hearing and following guidance",
+          "text": "Latter-day Saint Isaiah scholar Ann N. Madsen reads the guiding voice in Isaiah 30:21 as an example of personal revelation during an interview. Her LDS application connects hearing God’s direction with following it.",
           "application": "Read verses 19–22 together. Guidance comes amid distress, and the people then reject their idols. In this passage, listening leads to a change in worship and conduct. Madsen’s personal application builds on this address to Judah.",
           "sourceIds": [
             "madsen-understanding"
@@ -3678,7 +3678,7 @@
         "web31"
       ],
       "lds": {
-        "text": "Meridian study question: What good things can become false gods? The linked Come, Follow Me lesson covers nearby chapters. This question is a Meridian reflection, not a claim that the lesson teaches this chapter.",
+        "text": "What good things can become false gods? The linked Come, Follow Me lesson covers nearby chapters. This question is a study guide reflection, not a claim that the lesson teaches this chapter.",
         "sourceIds": [
           "web31",
           "cfm2026-39"
@@ -3703,7 +3703,7 @@
         "web32"
       ],
       "lds": {
-        "text": "Meridian study question: Why does true peace need justice? The linked Come, Follow Me lesson covers nearby chapters. This question is a Meridian reflection, not a claim that the lesson teaches this chapter.",
+        "text": "Why does true peace need justice? The linked Come, Follow Me lesson covers nearby chapters. This question is a study guide reflection, not a claim that the lesson teaches this chapter.",
         "sourceIds": [
           "web32",
           "cfm2026-39"
@@ -3728,7 +3728,7 @@
         "web33"
       ],
       "lds": {
-        "text": "Meridian study question: How can people live close to a holy God? The linked Come, Follow Me lesson covers nearby chapters. This question is a Meridian reflection, not a claim that the lesson teaches this chapter.",
+        "text": "How can people live close to a holy God? The linked Come, Follow Me lesson covers nearby chapters. This question is a study guide reflection, not a claim that the lesson teaches this chapter.",
         "sourceIds": [
           "web33",
           "cfm2026-39",
@@ -3753,7 +3753,7 @@
         "wiki-edom"
       ],
       "lds": {
-        "text": "Meridian study question: What do the empty cities teach about power? The linked Come, Follow Me lesson covers nearby chapters. This question is a Meridian reflection, not a claim that the lesson teaches this chapter.",
+        "text": "What do the empty cities teach about power? The linked Come, Follow Me lesson covers nearby chapters. This question is a study guide reflection, not a claim that the lesson teaches this chapter.",
         "sourceIds": [
           "web34",
           "cfm2026-39"
@@ -3778,7 +3778,7 @@
         "web35"
       ],
       "lds": {
-        "text": "Meridian study question: How do healing and coming home fit together?",
+        "text": "How do healing and coming home fit together?",
         "sourceIds": [
           "web35",
           "cfm2026-39"
@@ -3860,12 +3860,10 @@
         "wiki-hezekiah"
       ],
       "lds": {
-        "text": "The repeated question of whom to trust can be read alongside Hezekiah’s leadership. Condie’s conference talk applies his example to communities choosing change. Related Come, Follow Me lesson (2026): The lesson on Isaiah 7–9 emphasizes trust in the Lord during political pressure. Meridian study question: How does Ahaz’s challenge compare with the appeals for trust in Isaiah 36? Related general conference study: Rowe uses Isaiah 41:10 and 43:1, 3 to discuss trust when fear arises. Meridian study question: How does this counsel relate to the threats in Isaiah 36?",
+        "text": "The repeated question of whom to trust can be read alongside Hezekiah’s leadership. Condie’s conference talk applies his example to communities choosing change.",
         "sourceIds": [
           "condie",
-          "ldslesson",
-          "cfm2026-38",
-          "gc-2026-04-44rowe"
+          "ldslesson"
         ]
       },
       "studyNotes": []
@@ -3896,10 +3894,9 @@
         "wiki-taharqa"
       ],
       "lds": {
-        "text": "Hezekiah’s prayer offers a faithful model for turning toward God in distress. This is a devotional reading of the narrative, alongside the evidence discussed in Historical mode. Related Come, Follow Me lesson (2026): The lesson on Isaiah 40–49 emphasizes God’s strength over worldly powers. Meridian study question: How does that theme compare with Hezekiah’s prayer to the Creator in Isaiah 37:16–20?",
+        "text": "Hezekiah’s prayer offers a faithful model for turning toward God in distress. This is a devotional reading of the narrative, alongside the evidence discussed in Historical mode.",
         "sourceIds": [
-          "ldslesson",
-          "cfm2026-40"
+          "ldslesson"
         ]
       },
       "studyNotes": [
@@ -4001,11 +3998,9 @@
         "wiki-hezekiah"
       ],
       "lds": {
-        "text": "The Lord’s promise to hear prayer offers hope in times of need. Hezekiah’s recovery does not promise the same outcome for every illness. Related Come, Follow Me lesson (2026): The lesson on Isaiah 53 emphasizes Christ’s bearing of human grief. Meridian study question: How does hope in the Savior relate to Hezekiah’s distress? His recovery does not promise healing for everyone. Related general conference study: Andersen uses Isaiah 61:3 to offer hope after suffering, without setting a time for healing. Meridian study question: How does this help distinguish hope in Christ from a promise of immediate recovery?",
+        "text": "The Lord’s promise to hear prayer offers hope in times of need. Hezekiah’s recovery does not promise the same outcome for every illness.",
         "sourceIds": [
-          "ldsmanual",
-          "cfm2026-41",
-          "gc-2025-10-35andersen"
+          "ldsmanual"
         ]
       },
       "studyNotes": []
@@ -4028,11 +4023,9 @@
         "wiki-hezekiah"
       ],
       "lds": {
-        "text": "Church teaching uses this passage to discuss suffering, mercy, and forgiveness. The poem offers ideas for reflection. It does not promise physical recovery for everyone. Related Come, Follow Me lesson (2026): The lesson connects Isaiah 61:1–3 with the Savior’s healing mission. Meridian study question: How does its change from mourning to joy compare with Hezekiah’s song after recovery? Related general conference study: Matswagothata uses Isaiah 40:31 to discuss renewed strength during trials. Meridian study question: How does this compare with Hezekiah’s gratitude for restored life?",
+        "text": "Church teaching uses this passage to discuss suffering, mercy, and forgiveness. The poem offers ideas for reflection. It does not promise physical recovery for everyone.",
         "sourceIds": [
-          "ldsmanual",
-          "cfm2026-42",
-          "gc-2026-04-29matswagothata"
+          "ldsmanual"
         ]
       },
       "studyNotes": []
@@ -4060,10 +4053,9 @@
         "wiki-exile"
       ],
       "lds": {
-        "text": "The Church manual reads these chapters as a transition from Assyrian danger to Babylonian captivity. Consider the contrast between present security and responsibility for future generations. Related Come, Follow Me lesson (2026): The lesson on Isaiah 13–14 treats Babylon as a symbol of pride. Meridian study question: How does that theme relate to Hezekiah’s display of wealth in Isaiah 39? Also consider the visitors as people in their historical setting.",
+        "text": "The Church manual reads these chapters as a transition from Assyrian danger to Babylonian captivity. Consider the contrast between present security and responsibility for future generations.",
         "sourceIds": [
-          "ldsmanual",
-          "cfm2026-39"
+          "ldsmanual"
         ]
       },
       "studyNotes": []
@@ -4086,7 +4078,7 @@
         "wiki-isaiah"
       ],
       "lds": {
-        "text": "Meridian study question: How does God help people who feel forgotten?",
+        "text": "How does God help people who feel forgotten?",
         "sourceIds": [
           "web40",
           "cfm2026-40",
@@ -4113,7 +4105,7 @@
         "web41"
       ],
       "lds": {
-        "text": "Meridian study question: How does God’s help change fear?",
+        "text": "How does God’s help change fear?",
         "sourceIds": [
           "web41",
           "cfm2026-40",
@@ -4140,7 +4132,7 @@
         "web42"
       ],
       "lds": {
-        "text": "Meridian study question: How can a gentle person still be strong?",
+        "text": "How can a gentle person still be strong?",
         "sourceIds": [
           "web42",
           "cfm2026-40"
@@ -4166,7 +4158,7 @@
         "web43"
       ],
       "lds": {
-        "text": "Meridian study question: How does an old rescue give new hope?",
+        "text": "How does an old rescue give new hope?",
         "sourceIds": [
           "web43",
           "cfm2026-40",
@@ -4196,7 +4188,7 @@
         "cyrus"
       ],
       "lds": {
-        "text": "Meridian study question: Why can things we make not save us?",
+        "text": "Why can things we make not save us?",
         "sourceIds": [
           "web44",
           "cfm2026-40"
@@ -4224,7 +4216,7 @@
         "cyrus"
       ],
       "lds": {
-        "text": "Meridian study question: Who can God use to do his work?",
+        "text": "Who can God use to do his work?",
         "sourceIds": [
           "web45",
           "cfm2026-40",
@@ -4251,7 +4243,7 @@
         "web46"
       ],
       "lds": {
-        "text": "Meridian study question: What does it mean for God to carry you?",
+        "text": "What does it mean for God to carry you?",
         "sourceIds": [
           "web46",
           "cfm2026-40"
@@ -4277,7 +4269,7 @@
         "wiki-exile"
       ],
       "lds": {
-        "text": "Meridian study question: How can pride hide our wrong acts?",
+        "text": "How can pride hide our wrong acts?",
         "sourceIds": [
           "web47",
           "cfm2026-40"
@@ -4304,7 +4296,7 @@
         "wiki-exile"
       ],
       "lds": {
-        "text": "Meridian study question: What can keep you from listening to God?",
+        "text": "What can keep you from listening to God?",
         "sourceIds": [
           "web48",
           "cfm2026-40"
@@ -4329,7 +4321,7 @@
         "web49"
       ],
       "lds": {
-        "text": "Meridian study question: How does God answer Zion’s fear?",
+        "text": "How does God answer Zion’s fear?",
         "sourceIds": [
           "web49",
           "cfm2026-40",
@@ -4355,7 +4347,7 @@
         "web50"
       ],
       "lds": {
-        "text": "Meridian study question: How does listening help you serve?",
+        "text": "How does listening help you serve?",
         "sourceIds": [
           "web50",
           "cfm2026-41"
@@ -4380,7 +4372,7 @@
         "web51"
       ],
       "lds": {
-        "text": "Meridian study question: How can old stories give new hope?",
+        "text": "How can old stories give new hope?",
         "sourceIds": [
           "web51",
           "cfm2026-41",
@@ -4406,7 +4398,7 @@
         "web52"
       ],
       "lds": {
-        "text": "Meridian study question: Why is this news good?",
+        "text": "Why is this news good?",
         "sourceIds": [
           "web52",
           "cfm2026-41",
@@ -4432,7 +4424,7 @@
         "dm-scroll"
       ],
       "lds": {
-        "text": "Meridian study question: How does this chapter help you think about Jesus?",
+        "text": "How does this chapter help you think about Jesus?",
         "sourceIds": [
           "web53",
           "cfm2026-41",
@@ -4459,7 +4451,7 @@
         "web54"
       ],
       "lds": {
-        "text": "Meridian study question: How do these family pictures show love?",
+        "text": "How do these family pictures show love?",
         "sourceIds": [
           "web54",
           "cfm2026-41"
@@ -4482,7 +4474,7 @@
         "web55"
       ],
       "lds": {
-        "text": "Meridian study question: What good gifts can we not buy?",
+        "text": "What good gifts can we not buy?",
         "sourceIds": [
           "web55",
           "cfm2026-41",
@@ -4510,7 +4502,7 @@
         "wiki-isaiah"
       ],
       "lds": {
-        "text": "Meridian study question: Who is welcome in God’s house?",
+        "text": "Who is welcome in God’s house?",
         "sourceIds": [
           "web56",
           "cfm2026-41"
@@ -4533,7 +4525,7 @@
         "web57"
       ],
       "lds": {
-        "text": "Meridian study question: Why does God come near humble people?",
+        "text": "Why does God come near humble people?",
         "sourceIds": [
           "web57",
           "cfm2026-41"
@@ -4558,7 +4550,7 @@
         "web58"
       ],
       "lds": {
-        "text": "Meridian study question: How can care for others make worship real?",
+        "text": "How can care for others make worship real?",
         "sourceIds": [
           "web58",
           "cfm2026-42",
@@ -4584,7 +4576,7 @@
         "web59"
       ],
       "lds": {
-        "text": "Meridian study question: How can a group admit that it did wrong?",
+        "text": "How can a group admit that it did wrong?",
         "sourceIds": [
           "web59",
           "cfm2026-42"
@@ -4609,7 +4601,7 @@
         "web60"
       ],
       "lds": {
-        "text": "Meridian study question: How can God’s light help you serve?",
+        "text": "How can God’s light help you serve?",
         "sourceIds": [
           "web60",
           "cfm2026-42"
@@ -4634,7 +4626,7 @@
         "web61"
       ],
       "lds": {
-        "text": "Meridian study question: How does Jesus bring good news and care?",
+        "text": "How does Jesus bring good news and care?",
         "sourceIds": [
           "web61",
           "cfm2026-42",
@@ -4661,7 +4653,7 @@
         "web62"
       ],
       "lds": {
-        "text": "Meridian study question: How can a new name give hope?",
+        "text": "How can a new name give hope?",
         "sourceIds": [
           "web62",
           "cfm2026-42"
@@ -4685,7 +4677,7 @@
         "wiki-edom"
       ],
       "lds": {
-        "text": "Meridian study question: How can prayer hold pain and hope?",
+        "text": "How can prayer hold pain and hope?",
         "sourceIds": [
           "web63",
           "cfm2026-42"
@@ -4710,7 +4702,7 @@
         "web64"
       ],
       "lds": {
-        "text": "Meridian study question: What does the clay picture teach about God?",
+        "text": "What does the clay picture teach about God?",
         "sourceIds": [
           "web64",
           "cfm2026-42"
@@ -4735,7 +4727,7 @@
         "web65"
       ],
       "lds": {
-        "text": "Meridian study question: What parts of life will God make new?",
+        "text": "What parts of life will God make new?",
         "sourceIds": [
           "web65",
           "cfm2026-42"
@@ -4760,7 +4752,7 @@
         "web66"
       ],
       "lds": {
-        "text": "Meridian study question: How do comfort and judgment fit together?",
+        "text": "How do comfort and judgment fit together?",
         "sourceIds": [
           "web66",
           "cfm2026-42"
@@ -4774,8 +4766,8 @@
       "id": "background",
       "year": -780,
       "dateLabel": "Early eighth century BCE",
-      "title": "Before the crisis",
-      "summary": "Judah and Israel face the growing power of Assyria. This date shows the earlier setting. It does not mark one event.",
+      "title": "Early eighth-century setting",
+      "summary": "Judah and Israel face the growing power of Assyria. This date shows an earlier setting. It does not mark one event.",
       "sourceIds": [
         "yale",
         "metchron"
@@ -4784,9 +4776,9 @@
         "jerusalem",
         "samaria"
       ],
-      "chapter": 36,
+      "chapter": 1,
       "verse": 1,
-      "uncertainty": "780 BCE marks the pilot’s chosen viewing boundary, not Isaiah’s birth or a campaign."
+      "uncertainty": "780 BCE marks the timeline’s viewing boundary, not Isaiah’s birth or a campaign."
     },
     {
       "id": "northern-fall",
@@ -5239,7 +5231,7 @@
       "name": "Susa",
       "lat": 32.189,
       "lng": 48.257,
-      "summary": "Susa was an ancient city east of Babylon and later a Persian royal center. It linked Mesopotamia with the Iranian plateau.",
+      "summary": "A city east of Babylon that helps show the Persian setting. Isaiah does not describe an event at Susa.",
       "chapter": 39,
       "verse": 6,
       "sourceIds": [
@@ -6748,6 +6740,159 @@
         "web"
       ],
       "detail": "Judah stood between larger powers and had to choose between revolt, tribute, and foreign alliances. Isaiah addresses those choices while warning that political plans cannot replace faithful leadership."
+    },
+    {
+      "id": "philistia",
+      "faction": "philistia",
+      "name": "Philistine city-states · approximate",
+      "start": -780,
+      "end": -604,
+      "chapterCoverage": [
+        9,
+        11,
+        14,
+        20,
+        23,
+        36
+      ],
+      "points": [
+        [
+          31.95,
+          34.55
+        ],
+        [
+          31.82,
+          34.82
+        ],
+        [
+          31.28,
+          34.72
+        ],
+        [
+          31.15,
+          34.32
+        ],
+        [
+          31.72,
+          34.38
+        ]
+      ],
+      "color": "#a4634f",
+      "summary": "Philistia consisted of several city-states on the southern coastal plain, including Ashdod, Ashkelon, Ekron, Gaza, and Gath. The cities could act together, compete with one another, or answer to a larger empire.",
+      "uncertainty": "The shape is schematic. Philistine political control changed by city and year, especially under Assyrian and Babylonian pressure.",
+      "sourceIds": [
+        "geo",
+        "web14",
+        "wiki-ekron"
+      ],
+      "detail": "Philistia matters in Isaiah because its cities stood on the coastal route between Egypt and the Levant. Its rulers appear in warnings, revolts, alliances, and the Assyrian campaign that also threatened Judah."
+    },
+    {
+      "id": "egypt-region",
+      "faction": "egypt",
+      "name": "Egyptian realm · approximate",
+      "start": -780,
+      "end": -539,
+      "chapterCoverage": [
+        11,
+        19,
+        20,
+        23,
+        27,
+        30,
+        31,
+        36,
+        37
+      ],
+      "points": [
+        [
+          31.7,
+          29.7
+        ],
+        [
+          31.7,
+          32.6
+        ],
+        [
+          30.2,
+          32.8
+        ],
+        [
+          29.5,
+          31.9
+        ],
+        [
+          24,
+          32.1
+        ],
+        [
+          24,
+          30.4
+        ],
+        [
+          29.4,
+          30.5
+        ]
+      ],
+      "color": "#4f8278",
+      "summary": "Egypt controlled the Nile valley and delta. Its divided rulers, armies, horses, and wealth made it an attractive but unreliable political partner for Judah.",
+      "uncertainty": "The shape is schematic. Egypt’s dynasties and centers of power changed during Isaiah’s setting, and Kushite rulers governed Egypt for part of this period.",
+      "sourceIds": [
+        "geo",
+        "web19",
+        "web30",
+        "web31"
+      ],
+      "detail": "Isaiah addresses Egypt both as a major nation in God’s wider purposes and as a warning against misplaced political trust. Chapters 30–31 challenge Judah’s attempt to rely on Egyptian horses and military help."
+    },
+    {
+      "id": "cush-region",
+      "faction": "cush",
+      "name": "Cushite realm · approximate",
+      "start": -780,
+      "end": -539,
+      "chapterCoverage": [
+        11,
+        18,
+        20,
+        37
+      ],
+      "points": [
+        [
+          24,
+          30.4
+        ],
+        [
+          24,
+          33
+        ],
+        [
+          18,
+          33.5
+        ],
+        [
+          12.5,
+          32.7
+        ],
+        [
+          12.5,
+          29.2
+        ],
+        [
+          18,
+          30.4
+        ]
+      ],
+      "color": "#7b5f8e",
+      "summary": "Cush was a kingdom south of Egypt in Nubia. Kushite kings also ruled Egypt as its Twenty-fifth Dynasty during part of Isaiah’s historical setting.",
+      "uncertainty": "The shape is schematic and shows only the northern part of the Kushite sphere. Control changed over time, and the map does not mark a fixed border.",
+      "sourceIds": [
+        "geo",
+        "web18",
+        "web20",
+        "wiki-taharqa"
+      ],
+      "detail": "Cush appears in Isaiah as a distant nation, a source of messengers, and part of the conflict between Egypt and Assyria. Isaiah 37 names Tirhakah, usually identified with the Kushite ruler Taharqa."
     },
     {
       "id": "assyria",
@@ -42069,7 +42214,7 @@
         },
         {
           "title": "The royal inscription",
-          "text": "Meridian summary: Sennacherib presents Judah’s losses and Hezekiah’s tribute as royal success. The prism does not claim Jerusalem’s capture. Compare this account with Isaiah 37. What does each account emphasize? The photograph shows the Taylor Prism. Luckenbill’s edition translates the separate Chicago Prism.",
+          "text": "Study guide summary: Sennacherib presents Judah’s losses and Hezekiah’s tribute as royal success. The prism does not claim Jerusalem’s capture. Compare this account with Isaiah 37. What does each account emphasize? The photograph shows the Taylor Prism. Luckenbill’s edition translates the separate Chicago Prism.",
           "chapter": 37,
           "verse": 18,
           "year": -701,
@@ -42277,14 +42422,14 @@
       "label": "Before Isaiah",
       "start": -780,
       "end": -741,
-      "description": "Before the events in Isaiah 36–39"
+      "description": "Earlier eighth-century setting"
     },
     {
       "id": "isaiah",
       "label": "Isaiah",
       "start": -740,
       "end": -681,
-      "description": "Assyria, Judah, and Hezekiah"
+      "description": "Assyria, Judah, and Isaiah’s ministry"
     },
     {
       "id": "post",
@@ -42359,7 +42504,7 @@
         ]
       ],
       "summary": "This major corridor linked Egypt with the coastal plain and the northern Levant. Trade, diplomacy, and imperial armies used its connected plains and passes.",
-      "detail": "The southern section followed the coast through Gaza and Philistia. Farther north, important branches crossed the Carmel region and the Jezreel Valley. “Via Maris” is a familiar later label; Meridian uses the descriptive name international coastal highway.",
+      "detail": "The southern section followed the coast through Gaza and Philistia. Farther north, important branches crossed the Carmel region and the Jezreel Valley. “Via Maris” is a familiar later label; This study guide uses the descriptive name international coastal highway.",
       "uncertainty": "Strong evidence supports the corridor. The displayed line is approximate, and its branches and exact roadbeds changed over time.",
       "sourceIds": [
         "dorsey-roads",
@@ -47991,7 +48136,7 @@
       "quotation": false,
       "treatment": "Relevant source insights appear in the main study text. Available images and verified excerpts appear beside them.",
       "quotationCheck": "No new direct quotation selected. Existing source notes remain paraphrases.",
-      "accessLimits": "A later scriptural invitation to study Isaiah; not a direct quotation of Isaiah 36–39."
+      "accessLimits": "This later scriptural invitation supports careful study. It is not historical evidence for a specific event in Isaiah."
     },
     {
       "sourceId": "earth",
@@ -48032,7 +48177,7 @@
       "quotation": true,
       "treatment": "Relevant source insights appear in the main study text. Available images and verified excerpts appear beside them.",
       "quotationCheck": "2026-09-29: exact wording verified in the public source text.",
-      "accessLimits": "This lesson covers Isaiah 1–12. It does not cover Isaiah 36–39. Meridian made the linked questions. The lesson teaches faith. It is not proof from history."
+      "accessLimits": "This lesson covers Isaiah 1–12. The linked questions are original study prompts. The lesson teaches faith. It is not proof from history."
     },
     {
       "sourceId": "cfm2026-39",
@@ -48066,7 +48211,7 @@
       "quotation": true,
       "treatment": "Relevant source insights appear in the main study text. Available images and verified excerpts appear beside them.",
       "quotationCheck": "2026-09-29: exact wording verified in the public source text.",
-      "accessLimits": "This lesson covers Isaiah 13–14; 22; 24–30; 35. It does not cover Isaiah 36–39. Meridian made the linked questions. The lesson teaches faith. It is not proof from history."
+      "accessLimits": "This lesson covers Isaiah 13–14; 22; 24–30; 35. The linked questions are original study prompts. The lesson teaches faith. It is not proof from history."
     },
     {
       "sourceId": "cfm2026-40",
@@ -48087,7 +48232,7 @@
       "quotation": true,
       "treatment": "Relevant source insights appear in the main study text. Available images and verified excerpts appear beside them.",
       "quotationCheck": "2026-09-29: exact wording verified in the public source text.",
-      "accessLimits": "This lesson covers Isaiah 40–49. It does not cover Isaiah 36–39. Meridian made the linked questions. The lesson teaches faith. It is not proof from history."
+      "accessLimits": "This lesson covers Isaiah 40–49. The linked questions are original study prompts. The lesson teaches faith. It is not proof from history."
     },
     {
       "sourceId": "cfm2026-41",
@@ -48106,7 +48251,7 @@
       "quotation": true,
       "treatment": "Relevant source insights appear in the main study text. Available images and verified excerpts appear beside them.",
       "quotationCheck": "2026-09-29: exact wording verified in the public source text.",
-      "accessLimits": "This lesson covers Isaiah 50–57. It does not cover Isaiah 36–39. Meridian made the linked questions. The lesson teaches faith. It is not proof from history."
+      "accessLimits": "This lesson covers Isaiah 50–57. The linked questions are original study prompts. The lesson teaches faith. It is not proof from history."
     },
     {
       "sourceId": "cfm2026-42",
@@ -48126,7 +48271,7 @@
       "quotation": true,
       "treatment": "Relevant source insights appear in the main study text. Available images and verified excerpts appear beside them.",
       "quotationCheck": "2026-09-29: exact wording verified in the public source text.",
-      "accessLimits": "This lesson covers Isaiah 58–66. It does not cover Isaiah 36–39. Meridian made the linked questions. The lesson teaches faith. It is not proof from history."
+      "accessLimits": "This lesson covers Isaiah 58–66. The linked questions are original study prompts. The lesson teaches faith. It is not proof from history."
     },
     {
       "sourceId": "dm-isaiah53",
@@ -48236,7 +48381,7 @@
       "quotation": false,
       "treatment": "Relevant source insights appear in the main study text. Available images and verified excerpts appear beside them.",
       "quotationCheck": "No new direct quotation selected. Existing source notes remain paraphrases.",
-      "accessLimits": "This talk uses Isaiah to teach faith. Its Isaiah links are not in chapters 36–39. Meridian made the study questions. The speaker did not teach those questions."
+      "accessLimits": "This talk uses Isaiah to teach faith. The questions are original study prompts. The speaker did not teach those questions."
     },
     {
       "sourceId": "gc-2025-10-17johnson",
@@ -48247,7 +48392,7 @@
       "quotation": true,
       "treatment": "Relevant source insights appear in the main study text. Available images and verified excerpts appear beside them.",
       "quotationCheck": "2026-09-29: exact wording verified in the public source text.",
-      "accessLimits": "This talk uses Isaiah to teach faith. Its Isaiah links are not in chapters 36–39. Meridian made the study questions. The speaker did not teach those questions."
+      "accessLimits": "This talk uses Isaiah to teach faith. The questions are original study prompts. The speaker did not teach those questions."
     },
     {
       "sourceId": "gc-2025-10-23jaggi",
@@ -48260,7 +48405,7 @@
       "quotation": false,
       "treatment": "Relevant source insights appear in the main study text. Available images and verified excerpts appear beside them.",
       "quotationCheck": "No new direct quotation selected. Existing source notes remain paraphrases.",
-      "accessLimits": "This talk uses Isaiah to teach faith. Its Isaiah links are not in chapters 36–39. Meridian made the study questions. The speaker did not teach those questions."
+      "accessLimits": "This talk uses Isaiah to teach faith. The questions are original study prompts. The speaker did not teach those questions."
     },
     {
       "sourceId": "gc-2025-10-26cziesla",
@@ -48272,7 +48417,7 @@
       "quotation": true,
       "treatment": "Relevant source insights appear in the main study text. Available images and verified excerpts appear beside them.",
       "quotationCheck": "2026-09-29: exact wording verified in the public source text.",
-      "accessLimits": "This talk uses Isaiah to teach faith. Its Isaiah links are not in chapters 36–39. Meridian made the study questions. The speaker did not teach those questions."
+      "accessLimits": "This talk uses Isaiah to teach faith. The questions are original study prompts. The speaker did not teach those questions."
     },
     {
       "sourceId": "gc-2025-10-35andersen",
@@ -48284,7 +48429,7 @@
       "quotation": true,
       "treatment": "Relevant source insights appear in the main study text. Available images and verified excerpts appear beside them.",
       "quotationCheck": "2026-09-29: exact wording verified in the public source text.",
-      "accessLimits": "This talk uses Isaiah to teach faith. Its Isaiah links are not in chapters 36–39. Meridian made the study questions. The speaker did not teach those questions."
+      "accessLimits": "This talk uses Isaiah to teach faith. The questions are original study prompts. The speaker did not teach those questions."
     },
     {
       "sourceId": "gc-2025-10-41holland",
@@ -48295,7 +48440,7 @@
       "quotation": false,
       "treatment": "Relevant source insights appear in the main study text. Available images and verified excerpts appear beside them.",
       "quotationCheck": "No new direct quotation selected. Existing source notes remain paraphrases.",
-      "accessLimits": "This talk uses Isaiah to teach faith. Its Isaiah links are not in chapters 36–39. Meridian made the study questions. The speaker did not teach those questions."
+      "accessLimits": "This talk uses Isaiah to teach faith. The questions are original study prompts. The speaker did not teach those questions."
     },
     {
       "sourceId": "gc-2025-10-45christofferson",
@@ -48307,7 +48452,7 @@
       "quotation": false,
       "treatment": "Relevant source insights appear in the main study text. Available images and verified excerpts appear beside them.",
       "quotationCheck": "No new direct quotation selected. Existing source notes remain paraphrases.",
-      "accessLimits": "This talk uses Isaiah to teach faith. Its Isaiah links are not in chapters 36–39. Meridian made the study questions. The speaker did not teach those questions."
+      "accessLimits": "This talk uses Isaiah to teach faith. The questions are original study prompts. The speaker did not teach those questions."
     },
     {
       "sourceId": "gc-2025-10-46spannaus",
@@ -48319,7 +48464,7 @@
       "quotation": false,
       "treatment": "Relevant source insights appear in the main study text. Available images and verified excerpts appear beside them.",
       "quotationCheck": "No new direct quotation selected. Existing source notes remain paraphrases.",
-      "accessLimits": "This talk uses Isaiah to teach faith. Its Isaiah links are not in chapters 36–39. Meridian made the study questions. The speaker did not teach those questions."
+      "accessLimits": "This talk uses Isaiah to teach faith. The questions are original study prompts. The speaker did not teach those questions."
     },
     {
       "sourceId": "gc-2025-10-51bednar",
@@ -48330,7 +48475,7 @@
       "quotation": false,
       "treatment": "Relevant source insights appear in the main study text. Available images and verified excerpts appear beside them.",
       "quotationCheck": "No new direct quotation selected. Existing source notes remain paraphrases.",
-      "accessLimits": "This talk uses Isaiah to teach faith. Its Isaiah links are not in chapters 36–39. Meridian made the study questions. The speaker did not teach those questions."
+      "accessLimits": "This talk uses Isaiah to teach faith. The questions are original study prompts. The speaker did not teach those questions."
     },
     {
       "sourceId": "gc-2025-10-52cuvelier",
@@ -48342,7 +48487,7 @@
       "quotation": false,
       "treatment": "Relevant source insights appear in the main study text. Available images and verified excerpts appear beside them.",
       "quotationCheck": "No new direct quotation selected. Existing source notes remain paraphrases.",
-      "accessLimits": "This talk uses Isaiah to teach faith. Its Isaiah links are not in chapters 36–39. Meridian made the study questions. The speaker did not teach those questions."
+      "accessLimits": "This talk uses Isaiah to teach faith. The questions are original study prompts. The speaker did not teach those questions."
     },
     {
       "sourceId": "gc-2025-10-55renlund",
@@ -48353,7 +48498,7 @@
       "quotation": true,
       "treatment": "Relevant source insights appear in the main study text. Available images and verified excerpts appear beside them.",
       "quotationCheck": "2026-09-29: exact wording verified in the public source text.",
-      "accessLimits": "This talk uses Isaiah to teach faith. Its Isaiah links are not in chapters 36–39. Meridian made the study questions. The speaker did not teach those questions."
+      "accessLimits": "This talk uses Isaiah to teach faith. The questions are original study prompts. The speaker did not teach those questions."
     },
     {
       "sourceId": "gc-2026-04-13kearon",
@@ -48364,7 +48509,7 @@
       "quotation": true,
       "treatment": "Relevant source insights appear in the main study text. Available images and verified excerpts appear beside them.",
       "quotationCheck": "2026-09-29: exact wording verified in the public source text.",
-      "accessLimits": "This talk uses Isaiah to teach faith. Its Isaiah links are not in chapters 36–39. Meridian made the study questions. The speaker did not teach those questions."
+      "accessLimits": "This talk uses Isaiah to teach faith. The questions are original study prompts. The speaker did not teach those questions."
     },
     {
       "sourceId": "gc-2026-04-14yee",
@@ -48375,7 +48520,7 @@
       "quotation": true,
       "treatment": "Relevant source insights appear in the main study text. Available images and verified excerpts appear beside them.",
       "quotationCheck": "2026-09-29: exact wording verified in the public source text.",
-      "accessLimits": "This talk uses Isaiah to teach faith. Its Isaiah links are not in chapters 36–39. Meridian made the study questions. The speaker did not teach those questions."
+      "accessLimits": "This talk uses Isaiah to teach faith. The questions are original study prompts. The speaker did not teach those questions."
     },
     {
       "sourceId": "gc-2026-04-15gilbert",
@@ -48386,7 +48531,7 @@
       "quotation": false,
       "treatment": "Relevant source insights appear in the main study text. Available images and verified excerpts appear beside them.",
       "quotationCheck": "No new direct quotation selected. Existing source notes remain paraphrases.",
-      "accessLimits": "This talk uses Isaiah to teach faith. Its Isaiah links are not in chapters 36–39. Meridian made the study questions. The speaker did not teach those questions."
+      "accessLimits": "This talk uses Isaiah to teach faith. The questions are original study prompts. The speaker did not teach those questions."
     },
     {
       "sourceId": "gc-2026-04-210soares",
@@ -48397,7 +48542,7 @@
       "quotation": true,
       "treatment": "Relevant source insights appear in the main study text. Available images and verified excerpts appear beside them.",
       "quotationCheck": "2026-09-29: exact wording verified in the public source text.",
-      "accessLimits": "This talk uses Isaiah to teach faith. Its Isaiah links are not in chapters 36–39. Meridian made the study questions. The speaker did not teach those questions."
+      "accessLimits": "This talk uses Isaiah to teach faith. The questions are original study prompts. The speaker did not teach those questions."
     },
     {
       "sourceId": "gc-2026-04-26wunderli",
@@ -48408,7 +48553,7 @@
       "quotation": true,
       "treatment": "Relevant source insights appear in the main study text. Available images and verified excerpts appear beside them.",
       "quotationCheck": "2026-09-29: exact wording verified in the public source text.",
-      "accessLimits": "This talk uses Isaiah to teach faith. Its Isaiah links are not in chapters 36–39. Meridian made the study questions. The speaker did not teach those questions."
+      "accessLimits": "This talk uses Isaiah to teach faith. The questions are original study prompts. The speaker did not teach those questions."
     },
     {
       "sourceId": "gc-2026-04-29matswagothata",
@@ -48420,7 +48565,7 @@
       "quotation": false,
       "treatment": "Relevant source insights appear in the main study text. Available images and verified excerpts appear beside them.",
       "quotationCheck": "No new direct quotation selected. Existing source notes remain paraphrases.",
-      "accessLimits": "This talk uses Isaiah to teach faith. Its Isaiah links are not in chapters 36–39. Meridian made the study questions. The speaker did not teach those questions."
+      "accessLimits": "This talk uses Isaiah to teach faith. The questions are original study prompts. The speaker did not teach those questions."
     },
     {
       "sourceId": "gc-2026-04-44rowe",
@@ -48433,7 +48578,7 @@
       "quotation": false,
       "treatment": "Relevant source insights appear in the main study text. Available images and verified excerpts appear beside them.",
       "quotationCheck": "No new direct quotation selected. Existing source notes remain paraphrases.",
-      "accessLimits": "This talk uses Isaiah to teach faith. Its Isaiah links are not in chapters 36–39. Meridian made the study questions. The speaker did not teach those questions."
+      "accessLimits": "This talk uses Isaiah to teach faith. The questions are original study prompts. The speaker did not teach those questions."
     },
     {
       "sourceId": "gc-2026-04-45rasband",
@@ -48446,7 +48591,7 @@
       "quotation": false,
       "treatment": "Relevant source insights appear in the main study text. Available images and verified excerpts appear beside them.",
       "quotationCheck": "No new direct quotation selected. Existing source notes remain paraphrases.",
-      "accessLimits": "This talk uses Isaiah to teach faith. Its Isaiah links are not in chapters 36–39. Meridian made the study questions. The speaker did not teach those questions."
+      "accessLimits": "This talk uses Isaiah to teach faith. The questions are original study prompts. The speaker did not teach those questions."
     },
     {
       "sourceId": "gc-2026-04-53hall",
@@ -48459,7 +48604,7 @@
       "quotation": false,
       "treatment": "Relevant source insights appear in the main study text. Available images and verified excerpts appear beside them.",
       "quotationCheck": "No new direct quotation selected. Existing source notes remain paraphrases.",
-      "accessLimits": "This talk uses Isaiah to teach faith. Its Isaiah links are not in chapters 36–39. Meridian made the study questions. The speaker did not teach those questions."
+      "accessLimits": "This talk uses Isaiah to teach faith. The questions are original study prompts. The speaker did not teach those questions."
     },
     {
       "sourceId": "gc-2026-04-54porter",
@@ -48470,7 +48615,7 @@
       "quotation": true,
       "treatment": "Relevant source insights appear in the main study text. Available images and verified excerpts appear beside them.",
       "quotationCheck": "2026-09-29: exact wording verified in the public source text.",
-      "accessLimits": "This talk uses Isaiah to teach faith. Its Isaiah links are not in chapters 36–39. Meridian made the study questions. The speaker did not teach those questions."
+      "accessLimits": "This talk uses Isaiah to teach faith. The questions are original study prompts. The speaker did not teach those questions."
     },
     {
       "sourceId": "gc-2026-04-55andersen",
@@ -48481,7 +48626,7 @@
       "quotation": false,
       "treatment": "Relevant source insights appear in the main study text. Available images and verified excerpts appear beside them.",
       "quotationCheck": "No new direct quotation selected. Existing source notes remain paraphrases.",
-      "accessLimits": "This talk uses Isaiah to teach faith. Its Isaiah links are not in chapters 36–39. Meridian made the study questions. The speaker did not teach those questions."
+      "accessLimits": "This talk uses Isaiah to teach faith. The questions are original study prompts. The speaker did not teach those questions."
     },
     {
       "sourceId": "web1",
@@ -48492,7 +48637,7 @@
       "quotation": false,
       "treatment": "Exact passage quotations; chapter notes explain the selected text.",
       "quotationCheck": "No new direct quotation selected. Existing source notes remain paraphrases.",
-      "accessLimits": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history."
+      "accessLimits": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history."
     },
     {
       "sourceId": "web2",
@@ -48503,7 +48648,7 @@
       "quotation": false,
       "treatment": "Exact passage quotations; chapter notes explain the selected text.",
       "quotationCheck": "No new direct quotation selected. Existing source notes remain paraphrases.",
-      "accessLimits": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history."
+      "accessLimits": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history."
     },
     {
       "sourceId": "web3",
@@ -48514,7 +48659,7 @@
       "quotation": false,
       "treatment": "Exact passage quotations; chapter notes explain the selected text.",
       "quotationCheck": "No new direct quotation selected. Existing source notes remain paraphrases.",
-      "accessLimits": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history."
+      "accessLimits": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history."
     },
     {
       "sourceId": "web4",
@@ -48525,7 +48670,7 @@
       "quotation": false,
       "treatment": "Exact passage quotations; chapter notes explain the selected text.",
       "quotationCheck": "No new direct quotation selected. Existing source notes remain paraphrases.",
-      "accessLimits": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history."
+      "accessLimits": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history."
     },
     {
       "sourceId": "web5",
@@ -48536,7 +48681,7 @@
       "quotation": false,
       "treatment": "Exact passage quotations; chapter notes explain the selected text.",
       "quotationCheck": "No new direct quotation selected. Existing source notes remain paraphrases.",
-      "accessLimits": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history."
+      "accessLimits": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history."
     },
     {
       "sourceId": "web6",
@@ -48547,7 +48692,7 @@
       "quotation": false,
       "treatment": "Exact passage quotations; chapter notes explain the selected text.",
       "quotationCheck": "No new direct quotation selected. Existing source notes remain paraphrases.",
-      "accessLimits": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history."
+      "accessLimits": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history."
     },
     {
       "sourceId": "web7",
@@ -48558,7 +48703,7 @@
       "quotation": false,
       "treatment": "Exact passage quotations; chapter notes explain the selected text.",
       "quotationCheck": "No new direct quotation selected. Existing source notes remain paraphrases.",
-      "accessLimits": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history."
+      "accessLimits": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history."
     },
     {
       "sourceId": "web8",
@@ -48569,7 +48714,7 @@
       "quotation": false,
       "treatment": "Exact passage quotations; chapter notes explain the selected text.",
       "quotationCheck": "No new direct quotation selected. Existing source notes remain paraphrases.",
-      "accessLimits": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history."
+      "accessLimits": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history."
     },
     {
       "sourceId": "web9",
@@ -48580,7 +48725,7 @@
       "quotation": false,
       "treatment": "Exact passage quotations; chapter notes explain the selected text.",
       "quotationCheck": "No new direct quotation selected. Existing source notes remain paraphrases.",
-      "accessLimits": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history."
+      "accessLimits": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history."
     },
     {
       "sourceId": "web10",
@@ -48591,7 +48736,7 @@
       "quotation": false,
       "treatment": "Exact passage quotations; chapter notes explain the selected text.",
       "quotationCheck": "No new direct quotation selected. Existing source notes remain paraphrases.",
-      "accessLimits": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history."
+      "accessLimits": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history."
     },
     {
       "sourceId": "web11",
@@ -48602,7 +48747,7 @@
       "quotation": false,
       "treatment": "Exact passage quotations; chapter notes explain the selected text.",
       "quotationCheck": "No new direct quotation selected. Existing source notes remain paraphrases.",
-      "accessLimits": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history."
+      "accessLimits": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history."
     },
     {
       "sourceId": "web12",
@@ -48613,7 +48758,7 @@
       "quotation": false,
       "treatment": "Exact passage quotations; chapter notes explain the selected text.",
       "quotationCheck": "No new direct quotation selected. Existing source notes remain paraphrases.",
-      "accessLimits": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history."
+      "accessLimits": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history."
     },
     {
       "sourceId": "web13",
@@ -48624,7 +48769,7 @@
       "quotation": false,
       "treatment": "Exact passage quotations; chapter notes explain the selected text.",
       "quotationCheck": "No new direct quotation selected. Existing source notes remain paraphrases.",
-      "accessLimits": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history."
+      "accessLimits": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history."
     },
     {
       "sourceId": "web14",
@@ -48635,7 +48780,7 @@
       "quotation": false,
       "treatment": "Exact passage quotations; chapter notes explain the selected text.",
       "quotationCheck": "No new direct quotation selected. Existing source notes remain paraphrases.",
-      "accessLimits": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history."
+      "accessLimits": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history."
     },
     {
       "sourceId": "web15",
@@ -48646,7 +48791,7 @@
       "quotation": false,
       "treatment": "Exact passage quotations; chapter notes explain the selected text.",
       "quotationCheck": "No new direct quotation selected. Existing source notes remain paraphrases.",
-      "accessLimits": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history."
+      "accessLimits": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history."
     },
     {
       "sourceId": "web16",
@@ -48657,7 +48802,7 @@
       "quotation": false,
       "treatment": "Exact passage quotations; chapter notes explain the selected text.",
       "quotationCheck": "No new direct quotation selected. Existing source notes remain paraphrases.",
-      "accessLimits": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history."
+      "accessLimits": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history."
     },
     {
       "sourceId": "web17",
@@ -48668,7 +48813,7 @@
       "quotation": false,
       "treatment": "Exact passage quotations; chapter notes explain the selected text.",
       "quotationCheck": "No new direct quotation selected. Existing source notes remain paraphrases.",
-      "accessLimits": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history."
+      "accessLimits": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history."
     },
     {
       "sourceId": "web18",
@@ -48679,7 +48824,7 @@
       "quotation": false,
       "treatment": "Exact passage quotations; chapter notes explain the selected text.",
       "quotationCheck": "No new direct quotation selected. Existing source notes remain paraphrases.",
-      "accessLimits": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history."
+      "accessLimits": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history."
     },
     {
       "sourceId": "web19",
@@ -48690,7 +48835,7 @@
       "quotation": false,
       "treatment": "Exact passage quotations; chapter notes explain the selected text.",
       "quotationCheck": "No new direct quotation selected. Existing source notes remain paraphrases.",
-      "accessLimits": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history."
+      "accessLimits": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history."
     },
     {
       "sourceId": "web20",
@@ -48701,7 +48846,7 @@
       "quotation": false,
       "treatment": "Exact passage quotations; chapter notes explain the selected text.",
       "quotationCheck": "No new direct quotation selected. Existing source notes remain paraphrases.",
-      "accessLimits": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history."
+      "accessLimits": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history."
     },
     {
       "sourceId": "web21",
@@ -48712,7 +48857,7 @@
       "quotation": false,
       "treatment": "Exact passage quotations; chapter notes explain the selected text.",
       "quotationCheck": "No new direct quotation selected. Existing source notes remain paraphrases.",
-      "accessLimits": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history."
+      "accessLimits": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history."
     },
     {
       "sourceId": "web22",
@@ -48723,7 +48868,7 @@
       "quotation": false,
       "treatment": "Exact passage quotations; chapter notes explain the selected text.",
       "quotationCheck": "No new direct quotation selected. Existing source notes remain paraphrases.",
-      "accessLimits": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history."
+      "accessLimits": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history."
     },
     {
       "sourceId": "web23",
@@ -48734,7 +48879,7 @@
       "quotation": false,
       "treatment": "Exact passage quotations; chapter notes explain the selected text.",
       "quotationCheck": "No new direct quotation selected. Existing source notes remain paraphrases.",
-      "accessLimits": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history."
+      "accessLimits": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history."
     },
     {
       "sourceId": "web24",
@@ -48745,7 +48890,7 @@
       "quotation": false,
       "treatment": "Exact passage quotations; chapter notes explain the selected text.",
       "quotationCheck": "No new direct quotation selected. Existing source notes remain paraphrases.",
-      "accessLimits": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history."
+      "accessLimits": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history."
     },
     {
       "sourceId": "web25",
@@ -48756,7 +48901,7 @@
       "quotation": false,
       "treatment": "Exact passage quotations; chapter notes explain the selected text.",
       "quotationCheck": "No new direct quotation selected. Existing source notes remain paraphrases.",
-      "accessLimits": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history."
+      "accessLimits": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history."
     },
     {
       "sourceId": "web26",
@@ -48767,7 +48912,7 @@
       "quotation": false,
       "treatment": "Exact passage quotations; chapter notes explain the selected text.",
       "quotationCheck": "No new direct quotation selected. Existing source notes remain paraphrases.",
-      "accessLimits": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history."
+      "accessLimits": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history."
     },
     {
       "sourceId": "web27",
@@ -48778,7 +48923,7 @@
       "quotation": false,
       "treatment": "Exact passage quotations; chapter notes explain the selected text.",
       "quotationCheck": "No new direct quotation selected. Existing source notes remain paraphrases.",
-      "accessLimits": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history."
+      "accessLimits": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history."
     },
     {
       "sourceId": "web28",
@@ -48789,7 +48934,7 @@
       "quotation": false,
       "treatment": "Exact passage quotations; chapter notes explain the selected text.",
       "quotationCheck": "No new direct quotation selected. Existing source notes remain paraphrases.",
-      "accessLimits": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history."
+      "accessLimits": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history."
     },
     {
       "sourceId": "web29",
@@ -48800,7 +48945,7 @@
       "quotation": false,
       "treatment": "Exact passage quotations; chapter notes explain the selected text.",
       "quotationCheck": "No new direct quotation selected. Existing source notes remain paraphrases.",
-      "accessLimits": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history."
+      "accessLimits": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history."
     },
     {
       "sourceId": "web30",
@@ -48811,7 +48956,7 @@
       "quotation": false,
       "treatment": "Exact passage quotations; chapter notes explain the selected text.",
       "quotationCheck": "No new direct quotation selected. Existing source notes remain paraphrases.",
-      "accessLimits": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history."
+      "accessLimits": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history."
     },
     {
       "sourceId": "web31",
@@ -48822,7 +48967,7 @@
       "quotation": false,
       "treatment": "Exact passage quotations; chapter notes explain the selected text.",
       "quotationCheck": "No new direct quotation selected. Existing source notes remain paraphrases.",
-      "accessLimits": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history."
+      "accessLimits": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history."
     },
     {
       "sourceId": "web32",
@@ -48833,7 +48978,7 @@
       "quotation": false,
       "treatment": "Exact passage quotations; chapter notes explain the selected text.",
       "quotationCheck": "No new direct quotation selected. Existing source notes remain paraphrases.",
-      "accessLimits": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history."
+      "accessLimits": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history."
     },
     {
       "sourceId": "web33",
@@ -48844,7 +48989,7 @@
       "quotation": false,
       "treatment": "Exact passage quotations; chapter notes explain the selected text.",
       "quotationCheck": "No new direct quotation selected. Existing source notes remain paraphrases.",
-      "accessLimits": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history."
+      "accessLimits": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history."
     },
     {
       "sourceId": "web34",
@@ -48855,7 +49000,7 @@
       "quotation": false,
       "treatment": "Exact passage quotations; chapter notes explain the selected text.",
       "quotationCheck": "No new direct quotation selected. Existing source notes remain paraphrases.",
-      "accessLimits": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history."
+      "accessLimits": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history."
     },
     {
       "sourceId": "web35",
@@ -48866,7 +49011,7 @@
       "quotation": false,
       "treatment": "Exact passage quotations; chapter notes explain the selected text.",
       "quotationCheck": "No new direct quotation selected. Existing source notes remain paraphrases.",
-      "accessLimits": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history."
+      "accessLimits": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history."
     },
     {
       "sourceId": "web40",
@@ -48877,7 +49022,7 @@
       "quotation": false,
       "treatment": "Exact passage quotations; chapter notes explain the selected text.",
       "quotationCheck": "No new direct quotation selected. Existing source notes remain paraphrases.",
-      "accessLimits": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history."
+      "accessLimits": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history."
     },
     {
       "sourceId": "web41",
@@ -48888,7 +49033,7 @@
       "quotation": false,
       "treatment": "Exact passage quotations; chapter notes explain the selected text.",
       "quotationCheck": "No new direct quotation selected. Existing source notes remain paraphrases.",
-      "accessLimits": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history."
+      "accessLimits": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history."
     },
     {
       "sourceId": "web42",
@@ -48899,7 +49044,7 @@
       "quotation": false,
       "treatment": "Exact passage quotations; chapter notes explain the selected text.",
       "quotationCheck": "No new direct quotation selected. Existing source notes remain paraphrases.",
-      "accessLimits": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history."
+      "accessLimits": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history."
     },
     {
       "sourceId": "web43",
@@ -48910,7 +49055,7 @@
       "quotation": false,
       "treatment": "Exact passage quotations; chapter notes explain the selected text.",
       "quotationCheck": "No new direct quotation selected. Existing source notes remain paraphrases.",
-      "accessLimits": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history."
+      "accessLimits": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history."
     },
     {
       "sourceId": "web44",
@@ -48921,7 +49066,7 @@
       "quotation": false,
       "treatment": "Exact passage quotations; chapter notes explain the selected text.",
       "quotationCheck": "No new direct quotation selected. Existing source notes remain paraphrases.",
-      "accessLimits": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history."
+      "accessLimits": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history."
     },
     {
       "sourceId": "web45",
@@ -48932,7 +49077,7 @@
       "quotation": false,
       "treatment": "Exact passage quotations; chapter notes explain the selected text.",
       "quotationCheck": "No new direct quotation selected. Existing source notes remain paraphrases.",
-      "accessLimits": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history."
+      "accessLimits": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history."
     },
     {
       "sourceId": "web46",
@@ -48943,7 +49088,7 @@
       "quotation": false,
       "treatment": "Exact passage quotations; chapter notes explain the selected text.",
       "quotationCheck": "No new direct quotation selected. Existing source notes remain paraphrases.",
-      "accessLimits": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history."
+      "accessLimits": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history."
     },
     {
       "sourceId": "web47",
@@ -48954,7 +49099,7 @@
       "quotation": false,
       "treatment": "Exact passage quotations; chapter notes explain the selected text.",
       "quotationCheck": "No new direct quotation selected. Existing source notes remain paraphrases.",
-      "accessLimits": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history."
+      "accessLimits": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history."
     },
     {
       "sourceId": "web48",
@@ -48965,7 +49110,7 @@
       "quotation": false,
       "treatment": "Exact passage quotations; chapter notes explain the selected text.",
       "quotationCheck": "No new direct quotation selected. Existing source notes remain paraphrases.",
-      "accessLimits": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history."
+      "accessLimits": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history."
     },
     {
       "sourceId": "web49",
@@ -48976,7 +49121,7 @@
       "quotation": false,
       "treatment": "Exact passage quotations; chapter notes explain the selected text.",
       "quotationCheck": "No new direct quotation selected. Existing source notes remain paraphrases.",
-      "accessLimits": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history."
+      "accessLimits": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history."
     },
     {
       "sourceId": "web50",
@@ -48987,7 +49132,7 @@
       "quotation": false,
       "treatment": "Exact passage quotations; chapter notes explain the selected text.",
       "quotationCheck": "No new direct quotation selected. Existing source notes remain paraphrases.",
-      "accessLimits": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history."
+      "accessLimits": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history."
     },
     {
       "sourceId": "web51",
@@ -48998,7 +49143,7 @@
       "quotation": false,
       "treatment": "Exact passage quotations; chapter notes explain the selected text.",
       "quotationCheck": "No new direct quotation selected. Existing source notes remain paraphrases.",
-      "accessLimits": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history."
+      "accessLimits": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history."
     },
     {
       "sourceId": "web52",
@@ -49009,7 +49154,7 @@
       "quotation": false,
       "treatment": "Exact passage quotations; chapter notes explain the selected text.",
       "quotationCheck": "No new direct quotation selected. Existing source notes remain paraphrases.",
-      "accessLimits": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history."
+      "accessLimits": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history."
     },
     {
       "sourceId": "web53",
@@ -49020,7 +49165,7 @@
       "quotation": false,
       "treatment": "Exact passage quotations; chapter notes explain the selected text.",
       "quotationCheck": "No new direct quotation selected. Existing source notes remain paraphrases.",
-      "accessLimits": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history."
+      "accessLimits": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history."
     },
     {
       "sourceId": "web54",
@@ -49031,7 +49176,7 @@
       "quotation": false,
       "treatment": "Exact passage quotations; chapter notes explain the selected text.",
       "quotationCheck": "No new direct quotation selected. Existing source notes remain paraphrases.",
-      "accessLimits": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history."
+      "accessLimits": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history."
     },
     {
       "sourceId": "web55",
@@ -49042,7 +49187,7 @@
       "quotation": false,
       "treatment": "Exact passage quotations; chapter notes explain the selected text.",
       "quotationCheck": "No new direct quotation selected. Existing source notes remain paraphrases.",
-      "accessLimits": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history."
+      "accessLimits": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history."
     },
     {
       "sourceId": "web56",
@@ -49053,7 +49198,7 @@
       "quotation": false,
       "treatment": "Exact passage quotations; chapter notes explain the selected text.",
       "quotationCheck": "No new direct quotation selected. Existing source notes remain paraphrases.",
-      "accessLimits": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history."
+      "accessLimits": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history."
     },
     {
       "sourceId": "web57",
@@ -49064,7 +49209,7 @@
       "quotation": false,
       "treatment": "Exact passage quotations; chapter notes explain the selected text.",
       "quotationCheck": "No new direct quotation selected. Existing source notes remain paraphrases.",
-      "accessLimits": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history."
+      "accessLimits": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history."
     },
     {
       "sourceId": "web58",
@@ -49075,7 +49220,7 @@
       "quotation": false,
       "treatment": "Exact passage quotations; chapter notes explain the selected text.",
       "quotationCheck": "No new direct quotation selected. Existing source notes remain paraphrases.",
-      "accessLimits": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history."
+      "accessLimits": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history."
     },
     {
       "sourceId": "web59",
@@ -49086,7 +49231,7 @@
       "quotation": false,
       "treatment": "Exact passage quotations; chapter notes explain the selected text.",
       "quotationCheck": "No new direct quotation selected. Existing source notes remain paraphrases.",
-      "accessLimits": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history."
+      "accessLimits": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history."
     },
     {
       "sourceId": "web60",
@@ -49097,7 +49242,7 @@
       "quotation": false,
       "treatment": "Exact passage quotations; chapter notes explain the selected text.",
       "quotationCheck": "No new direct quotation selected. Existing source notes remain paraphrases.",
-      "accessLimits": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history."
+      "accessLimits": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history."
     },
     {
       "sourceId": "web61",
@@ -49108,7 +49253,7 @@
       "quotation": false,
       "treatment": "Exact passage quotations; chapter notes explain the selected text.",
       "quotationCheck": "No new direct quotation selected. Existing source notes remain paraphrases.",
-      "accessLimits": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history."
+      "accessLimits": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history."
     },
     {
       "sourceId": "web62",
@@ -49119,7 +49264,7 @@
       "quotation": false,
       "treatment": "Exact passage quotations; chapter notes explain the selected text.",
       "quotationCheck": "No new direct quotation selected. Existing source notes remain paraphrases.",
-      "accessLimits": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history."
+      "accessLimits": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history."
     },
     {
       "sourceId": "web63",
@@ -49130,7 +49275,7 @@
       "quotation": false,
       "treatment": "Exact passage quotations; chapter notes explain the selected text.",
       "quotationCheck": "No new direct quotation selected. Existing source notes remain paraphrases.",
-      "accessLimits": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history."
+      "accessLimits": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history."
     },
     {
       "sourceId": "web64",
@@ -49141,7 +49286,7 @@
       "quotation": false,
       "treatment": "Exact passage quotations; chapter notes explain the selected text.",
       "quotationCheck": "No new direct quotation selected. Existing source notes remain paraphrases.",
-      "accessLimits": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history."
+      "accessLimits": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history."
     },
     {
       "sourceId": "web65",
@@ -49152,7 +49297,7 @@
       "quotation": false,
       "treatment": "Exact passage quotations; chapter notes explain the selected text.",
       "quotationCheck": "No new direct quotation selected. Existing source notes remain paraphrases.",
-      "accessLimits": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history."
+      "accessLimits": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history."
     },
     {
       "sourceId": "web66",
@@ -49163,7 +49308,7 @@
       "quotation": false,
       "treatment": "Exact passage quotations; chapter notes explain the selected text.",
       "quotationCheck": "No new direct quotation selected. Existing source notes remain paraphrases.",
-      "accessLimits": "This source gives the Bible text. Meridian made the notes and questions. The notes are study help, not proof from history."
+      "accessLimits": "This source gives the Bible text. The notes and questions are original study material. The notes are study help, not proof from history."
     },
     {
       "sourceId": "madsen-poetry",
@@ -49310,7 +49455,7 @@
       "quotation": false,
       "treatment": "Relevant source insights appear in the main study text. Available images and verified excerpts appear beside them.",
       "quotationCheck": "No new direct quotation selected. Existing source notes remain paraphrases.",
-      "accessLimits": "The essay identifies major crossings and stations. Meridian connects them as a broad corridor and does not claim a surveyed roadbed between each station."
+      "accessLimits": "The essay identifies major crossings and stations. This study guide connects them as a broad corridor and does not claim a surveyed roadbed between each station."
     },
     {
       "sourceId": "del-fabbro-aleppo-roads",

@@ -8,7 +8,7 @@ const roadSources = [
     url: 'https://books.google.com/books?id=y0z7DwAAQBAJ',
     summary: 'Dorsey reconstructs the road network west of the Jordan during the Iron Age. He uses terrain, settlement patterns, written evidence, gates, passes, and later road remains.',
     limitations: 'The reconstruction combines evidence from about 1200–587 BCE. Most routes cannot be dated only to Isaiah’s lifetime, and an approximate corridor does not identify every surviving roadbed.',
-    license: 'Linked reading; route corridors independently redrawn and summarized by Meridian. The published maps and text are not reproduced.'
+    license: 'Linked reading; route corridors independently redrawn and summarized for this study guide. The published maps and text are not reproduced.'
   },
   {
     id: 'aharoni-land',
@@ -19,7 +19,7 @@ const roadSources = [
     url: 'https://books.google.com/books?id=AMtoyNxWw0UC',
     summary: 'Aharoni explains how terrain and regional connections shaped the main roads of the southern Levant. His treatment also provides context for routes east of the Jordan.',
     limitations: 'The road map is a broad historical reconstruction. It does not give a surveyed network for one year in the eighth century BCE.',
-    license: 'Linked reading; route corridors independently redrawn and summarized by Meridian. The published maps and text are not reproduced.'
+    license: 'Linked reading; route corridors independently redrawn and summarized for this study guide. The published maps and text are not reproduced.'
   },
   {
     id: 'radner-kings-road',
@@ -29,8 +29,8 @@ const roadSources = [
     type: 'Academic Neo-Assyrian history',
     url: 'https://oracc.museum.upenn.edu/saao/aebp/Essentials/Governors/TheKing%27sRoad/index.html',
     summary: 'Radner describes the Neo-Assyrian state road and relay network. Her route example crosses the Euphrates at Til Barsip, passes Harran, Guzana, and Nasibina, and reaches the Tigris at Nineveh.',
-    limitations: 'The essay identifies major crossings and stations. Meridian connects them as a broad corridor and does not claim a surveyed roadbed between each station.',
-    license: 'Linked academic reading from Oracc and the University of Pennsylvania; corridor independently redrawn and summarized by Meridian.'
+    limitations: 'The essay identifies major crossings and stations. This study guide connects them as a broad corridor and does not claim a surveyed roadbed between each station.',
+    license: 'Linked academic reading from Oracc and the University of Pennsylvania; corridor independently redrawn and summarized for this study guide.'
   },
   {
     id: 'del-fabbro-aleppo-roads',
@@ -41,7 +41,7 @@ const roadSources = [
     url: 'https://www.researchgate.net/publication/279847109_The_roads_from_and_to_Aleppo_Some_historical-geographical_considerations_in_light_of_new_archaeological_data',
     summary: 'Del Fabbro combines ancient texts, terrain, archaeological survey, and satellite imagery to study the routes around Aleppo. The study traces an Assyrian approach from Nineveh through the upper Habur and Balih regions to the Euphrates, then west toward Aleppo.',
     limitations: 'Some sections have stronger textual and archaeological support than others. Long-distance connections are corridors, and local tracks changed across the long period discussed.',
-    license: 'Linked academic reading; corridor lines independently redrawn and summarized by Meridian. Published maps are not reproduced.'
+    license: 'Linked academic reading; corridor lines independently redrawn and summarized for this study guide. Published maps are not reproduced.'
   },
   {
     id: 'radner-kalhu-routes',
@@ -52,7 +52,7 @@ const roadSources = [
     url: 'https://oracc.museum.upenn.edu/saao/aebp/essentials/cities/kalhu/index.html',
     summary: 'Radner places Kalhu on the north–south Tigris route between Nineveh and Assur. She also identifies its eastward connection through Arbela and the western Zagros fringe toward Babylonia.',
     limitations: 'The source establishes the principal connections, not every bend or station. The eastward and southern continuation is therefore shown as a probable corridor.',
-    license: 'Linked academic reading from Oracc and the University of Pennsylvania; corridors independently redrawn and summarized by Meridian.'
+    license: 'Linked academic reading from Oracc and the University of Pennsylvania; corridors independently redrawn and summarized for this study guide.'
   }
 ];
 
@@ -63,7 +63,7 @@ const ancientRoads = [
     id: 'road-coastal-highway', title: 'International coastal highway', confidence: 'strong',
     points: [[31.04,32.55],[31.13,33.80],[31.50,34.46],[31.67,34.55],[31.80,34.65],[32.05,34.75],[32.10,34.93],[32.58,35.18],[32.68,35.10],[32.93,35.08],[33.27,35.20],[33.56,35.37],[33.89,35.50]],
     summary: 'This major corridor linked Egypt with the coastal plain and the northern Levant. Trade, diplomacy, and imperial armies used its connected plains and passes.',
-    detail: 'The southern section followed the coast through Gaza and Philistia. Farther north, important branches crossed the Carmel region and the Jezreel Valley. “Via Maris” is a familiar later label; Meridian uses the descriptive name international coastal highway.',
+    detail: 'The southern section followed the coast through Gaza and Philistia. Farther north, important branches crossed the Carmel region and the Jezreel Valley. “Via Maris” is a familiar later label; This study guide uses the descriptive name international coastal highway.',
     uncertainty: 'Strong evidence supports the corridor. The displayed line is approximate, and its branches and exact roadbeds changed over time.',
     sourceIds: ['dorsey-roads','aharoni-land']
   },

@@ -29,6 +29,6 @@ def fetch(s):
         return {'id':s['id'],'url':s['url'],'blocks':reader.blocks}
     except Exception as e: return {'id':s['id'],'url':s['url'],'error':str(e)}
 with ThreadPoolExecutor(max_workers=6) as pool: results=list(pool.map(fetch,selected))
-cache=Path(tempfile.gettempdir())/'meridian-study-source-review.json'
+cache=Path(tempfile.gettempdir())/'isaiah-study-guide-source-review.json'
 cache.write_text(json.dumps(results,ensure_ascii=False,indent=2),encoding='utf-8')
 print(json.dumps({'cache':str(cache),'sources':len(results),'errors':[{'id':r['id'],'error':r.get('error','No text')} for r in results if not r.get('blocks')]},ensure_ascii=False))

@@ -18,9 +18,9 @@ const server = http.createServer(async (req, res) => {
       }
       const trailerDirectory = resolve(root, 'assets/trailer');
       await mkdir(trailerDirectory, { recursive: true });
-      await writeFile(resolve(trailerDirectory, 'meridian-trailer.webm'), Buffer.concat(chunks));
+      await writeFile(resolve(trailerDirectory, 'isaiah-study-guide-trailer.webm'), Buffer.concat(chunks));
       res.writeHead(201, { 'Content-Type':'application/json' });
-      return res.end(JSON.stringify({ path: 'assets/trailer/meridian-trailer.webm', bytes: size }));
+      return res.end(JSON.stringify({ path: 'assets/trailer/isaiah-study-guide-trailer.webm', bytes: size }));
     }
     if (!['GET','HEAD'].includes(req.method)) { res.writeHead(405); return res.end(); }
     const pathname = decodeURIComponent(new URL(req.url, 'http://localhost').pathname);
@@ -33,4 +33,4 @@ const server = http.createServer(async (req, res) => {
   } catch { res.writeHead(404, {'Content-Type':'text/plain'}); res.end('Not found'); }
 });
 server.on('error', error => { console.error(error.message); process.exit(1); });
-server.listen(port, '127.0.0.1', () => console.log(`Meridian is ready at http://127.0.0.1:${port}`));
+server.listen(port, '127.0.0.1', () => console.log(`Isaiah Study Guide is ready at http://127.0.0.1:${port}`));

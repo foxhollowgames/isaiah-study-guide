@@ -1,6 +1,6 @@
-// Public sources checked on September 29, 2026. Summaries are Meridian prose.
+// Public sources checked on September 29, 2026. Summaries are original study guide prose.
 const reviewed = 'Checked September 29, 2026. ';
-const linked = 'Linked source with an original Meridian summary. Public access does not grant permission to reproduce the work.';
+const linked = 'Linked source with an original study guide summary. Public access does not grant permission to reproduce the work.';
 export function addPrismAndHarmony(content) {
   const sources = [
 {
@@ -9,12 +9,12 @@ export function addPrismAndHarmony(content) {
   "title": "Poetry in the Book of Isaiah",
   "author": "Ann N. Madsen, interviewed by Darryl Alder · Search Isaiah",
   "url": "https://searchisaiah.org/expert-insights/ann-madsen/poetry-in-the-book-of-isaiah/",
-  "summary": "Madsen explains how related poetic lines develop an idea. In Isaiah 1:8, field shelters and a besieged city give different aspects of Zion’s isolation.",
+  "summary": "Latter-day Saint Isaiah scholar Ann N. Madsen explains in an interview how related poetic lines develop an idea. In Isaiah 1:8, field shelters and a besieged city give different aspects of Zion’s isolation.",
   "limitations": "This page presents interview excerpts. The note summarizes her example; it does not treat every line of Isaiah as the same poetic form.",
   "year": "Undated online text",
   "type": "Public interview excerpt",
   "reviewed": "Checked September 30, 2026. Relevant public text reviewed. Recordings and full book not reviewed.",
-  "license": "Linked source with an original Meridian summary. Short quotations retain attribution."
+  "license": "Linked source with an original study guide summary. Short quotations retain attribution."
 },
 {
   "id": "madsen-understanding",
@@ -22,12 +22,12 @@ export function addPrismAndHarmony(content) {
   "title": "Ann Madsen Shares Insights Into Understanding Isaiah (Part 1)",
   "author": "Ann N. Madsen, interviewed by Darryl Alder · Search Isaiah",
   "url": "https://searchisaiah.org/expert-insights/ann-madsen-shares-insights-into-understanding-isaiah-part-1/",
-  "summary": "Madsen connects study with historical context and close reading. She reads Isaiah 30:21 as an example of personal revelation.",
+  "summary": "Latter-day Saint Isaiah scholar Ann N. Madsen connects study with historical context and close reading in an interview. She reads Isaiah 30:21 as an example of personal revelation.",
   "limitations": "Her personal-revelation reading is an LDS devotional application. It does not replace the passage’s address to Judah.",
   "year": "Undated online text",
   "type": "Public interview excerpt",
   "reviewed": "Checked September 30, 2026. Relevant public text reviewed. Recordings and full book not reviewed.",
-  "license": "Linked source with an original Meridian summary. Short quotations retain attribution."
+  "license": "Linked source with an original study guide summary. Short quotations retain attribution."
 },
 {
   "id": "harmony-kjv2",
@@ -40,7 +40,7 @@ export function addPrismAndHarmony(content) {
   "year": "Undated online text",
   "type": "Scripture · official online edition",
   "reviewed": "Checked September 30, 2026. Relevant public text reviewed. Recordings and full book not reviewed.",
-  "license": "Linked source with an original Meridian summary. Short quotations retain attribution."
+  "license": "Linked source with an original study guide summary. Short quotations retain attribution."
 },
 {
   "id": "harmony-nephi12",
@@ -53,7 +53,7 @@ export function addPrismAndHarmony(content) {
   "year": "Undated online text",
   "type": "Scripture · official online edition",
   "reviewed": "Checked September 30, 2026. Relevant public text reviewed. Recordings and full book not reviewed.",
-  "license": "Linked source with an original Meridian summary. Short quotations retain attribution."
+  "license": "Linked source with an original study guide summary. Short quotations retain attribution."
 },
     {
       id: 'prism-taylor', group: 'sennacherib-prism',
@@ -73,7 +73,7 @@ export function addPrismAndHarmony(content) {
       summary: 'The university provides the full edition as a free PDF. It includes an English translation, transliteration, and copies of the cuneiform signs. The Chicago Prism’s Hezekiah passage is in column III, on printed pages 32–34 (PDF pages 46–48). Sennacherib claims 46 fortified cities, captives, and tribute. He describes Hezekiah confined in Jerusalem. He does not claim to have captured Jerusalem.',
       limitations: 'This 1924 translation uses older language and includes uncertain readings. Royal claims and numerical totals are not independent counts. The inscription does not confirm Isaiah’s account of an angel or the number of Assyrian deaths.',
       reviewed: reviewed + 'University publication record and the Hezekiah section of the linked PDF checked. The complete book was not reviewed.',
-      license: 'Free PDF linked from the university. Its current publication page displays CC BY-NC-ND 4.0. Meridian reproduces no pages.'
+      license: 'Free PDF linked from the university. Its current publication page displays CC BY-NC-ND 4.0. Isaiah Study Guide reproduces no pages.'
     },
     {
       id: 'prism-jerusalem', group: 'sennacherib-prism',
@@ -113,7 +113,7 @@ export function addPrismAndHarmony(content) {
       id: 'opening-isaiah-madsen', group: 'opening-isaiah', title: 'Ann Madsen — Shares Her Experiences & Studies of Isaiah',
       author: 'Ann N. Madsen, interviewed by Kelsey Wilding · Search Isaiah', year: '2018', type: 'LDS author interview · public transcript',
       url: 'https://searchisaiah.org/podcast/ann-madsen-shares-her-experiences-studies-of-isaiah/',
-      summary: 'Madsen explains hineni in Isaiah 6:8 as readiness to serve. She also describes how poetic lines, word notes, and maps help readers understand the text.',
+      summary: 'Latter-day Saint Isaiah scholar Ann N. Madsen explains in an interview that hineni in Isaiah 6:8 shows readiness to serve. She also describes how poetic lines, word notes, and maps help readers understand the text.',
       limitations: 'This is the author’s brief explanation of the resource. It does not reproduce the harmony or independently establish its textual conclusions.',
       reviewed: reviewed + 'Public transcript reviewed; embedded recording not independently checked.', license: linked
     }
@@ -123,8 +123,8 @@ export function addPrismAndHarmony(content) {
   }
   const interviewNotes = {
   "1": {
-    "title": "Madsen: three images of an isolated city",
-    "text": "Madsen reads Isaiah 1:8 as related images that develop one idea. A temporary field shelter and a city under siege show different aspects of Zion’s isolation. The lines build meaning through comparison, not end rhyme.",
+    "title": "Ann Madsen on three images of an isolated city",
+    "text": "Latter-day Saint Isaiah scholar Ann N. Madsen explains in an interview that Isaiah 1:8 uses related images to develop one idea. A temporary field shelter and a city under siege show different aspects of Zion’s isolation. The lines build meaning through comparison, not end rhyme.",
     "application": "Read verses 7–9 together. The images follow the account of ruined land; the surviving city remains exposed. Survival here does not mean safety.",
     "sourceIds": [
       "madsen-poetry"
@@ -145,8 +145,8 @@ export function addPrismAndHarmony(content) {
     "kind": "interview-insight"
   },
   "6": {
-    "title": "Madsen: “Here I am” is an offer to serve",
-    "text": "Madsen explains hineni in Isaiah 6:8 as an expression of readiness to serve. Isaiah offers himself for the mission; he does more than announce his presence.",
+    "title": "Ann Madsen on Isaiah’s offer to serve",
+    "text": "Latter-day Saint Isaiah scholar Ann N. Madsen explains in an interview that hineni in Isaiah 6:8 expresses readiness to serve. Isaiah offers himself for the mission; he does more than announce his presence.",
     "application": "Trace the sequence in verses 5–8: Isaiah admits his unclean lips, receives cleansing, then volunteers. His offer follows the removal of guilt. Read the reply as a response to that cleansing.",
     "sourceIds": [
       "opening-isaiah-madsen"
@@ -155,8 +155,8 @@ export function addPrismAndHarmony(content) {
     "kind": "interview-insight"
   },
   "30": {
-    "title": "Madsen: hearing guidance and following it",
-    "text": "Madsen reads the guiding voice in Isaiah 30:21 as an example of personal revelation. Her LDS application connects hearing God’s direction with following it.",
+    "title": "Ann Madsen on hearing and following guidance",
+    "text": "Latter-day Saint Isaiah scholar Ann N. Madsen reads the guiding voice in Isaiah 30:21 as an example of personal revelation during an interview. Her LDS application connects hearing God’s direction with following it.",
     "application": "Read verses 19–22 together. Guidance comes amid distress, and the people then reject their idols. In this passage, listening leads to a change in worship and conduct. Madsen’s personal application builds on this address to Judah.",
     "sourceIds": [
       "madsen-understanding"
@@ -185,7 +185,7 @@ export function addPrismAndHarmony(content) {
   }
   const step = content.guides.find(guide => guide.id === 'evidence')?.steps.find(item => item.title === 'The royal inscription');
   if (step) {
-    step.text = 'Meridian summary: Sennacherib presents Judah’s losses and Hezekiah’s tribute as royal success. The prism does not claim Jerusalem’s capture. Compare this account with Isaiah 37. What does each account emphasize? The photograph shows the Taylor Prism. Luckenbill’s edition translates the separate Chicago Prism.';
+    step.text = 'Study guide summary: Sennacherib presents Judah’s losses and Hezekiah’s tribute as royal success. The prism does not claim Jerusalem’s capture. Compare this account with Isaiah 37. What does each account emphasize? The photograph shows the Taylor Prism. Luckenbill’s edition translates the separate Chicago Prism.';
     addIds(step, ['prism-taylor', 'prism-luckenbill', 'prism-jerusalem']);
   }
 }

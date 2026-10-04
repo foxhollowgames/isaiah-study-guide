@@ -11,7 +11,7 @@ const W = canvas.width, H = canvas.height, DURATION = 38;
 const palette = { ink:'#eff9ff', muted:'#9ebfd2', navy:'#020d18', blue:'#062844', cyan:'#63e4ff', gold:'#efc77a', red:'#d95d4b' };
 const assetPaths = {
   landscape:'assets/reading-landscape.png',
-  interface:'assets/trailer/meridian-interface.png',
+  interface:'assets/trailer/isaiah-study-guide-interface.png',
   relief:'assets/lachish-relief.jpg',
   prism:'assets/taylor-prism.jpg',
   cylinder:'assets/cyrus-cylinder.jpg',
@@ -81,7 +81,7 @@ function brand(y, alpha = 1, scale = 1) {
   ctx.fillStyle = palette.cyan; ctx.beginPath();
   for (let i=0;i<8;i++){ const angle=-Math.PI/2+i*Math.PI/4, radius=i%2?8:24; const px=-272+Math.cos(angle)*radius, py=-14+Math.sin(angle)*radius; i?ctx.lineTo(px,py):ctx.moveTo(px,py); }
   ctx.closePath(); ctx.fill();
-  text('MERIDIAN', 38, 0, 76, { tracking:9, shadow:true });
+  text('ISAIAH STUDY GUIDE', 38, 0, 76, { tracking:9, shadow:true });
   ctx.restore();
 }
 function drawGrain(time) {
@@ -211,7 +211,7 @@ async function renderVideo(){if(exporting)return;exporting=true;playing=false;st
   await new Promise(resolve=>{function render(now){const time=(now-started)/1000;draw(Math.min(time,DURATION-.01));updateUi(Math.min(time,DURATION));status.textContent=`Rendering video in real time… ${Math.min(100,Math.round(time/DURATION*100))}%`;if(time<DURATION)requestAnimationFrame(render);else resolve();}requestAnimationFrame(render);});
   playing=false;recorder.stop();await new Promise(resolve=>recorder.addEventListener('stop',resolve,{once:true}));stopSound();if(audioContext.state!=='closed')audioContext.close();const blob=new Blob(chunks,{type:mimeType||'video/webm'});status.textContent='Saving the finished trailer…';
   try{const response=await fetch('/__save-trailer',{method:'POST',headers:{'Content-Type':'video/webm'},body:blob});if(!response.ok)throw new Error('Local save endpoint unavailable');const result=await response.json();status.textContent=`Saved ${result.path} (${(result.bytes/1024/1024).toFixed(1)} MB).`;}
-  catch{const link=document.createElement('a');link.href=URL.createObjectURL(blob);link.download='meridian-trailer.webm';link.click();status.textContent='The trailer was downloaded as meridian-trailer.webm.';setTimeout(()=>URL.revokeObjectURL(link.href),10000);}
+  catch{const link=document.createElement('a');link.href=URL.createObjectURL(blob);link.download='isaiah-study-guide-trailer.webm';link.click();status.textContent='The trailer was downloaded as isaiah-study-guide-trailer.webm.';setTimeout(()=>URL.revokeObjectURL(link.href),10000);}
   exporting=false;exportButton.disabled=false;restartButton.disabled=false;soundButton.disabled=false;playButton.hidden=false;draw(DURATION-.01);updateUi(DURATION);
 }
 

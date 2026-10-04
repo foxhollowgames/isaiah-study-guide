@@ -1,4 +1,4 @@
-# Meridian — Isaiah Study Guide Product Requirements
+# Isaiah Study Guide — Isaiah Study Guide Product Requirements
 
 Version: 0.4 · September 20, 2026 · Planning draft
 
@@ -14,11 +14,11 @@ Success means the reader can explain a passage's historical setting, explore the
 - The timeline concerns historical settings represented in the book; composition dates are supplementary context.
 - Use a legally reusable Bible translation. NRSV is preferred if permission becomes practical; alternatives are acceptable.
 - Include Hebrew, Septuagint Greek, and relevant later Greek uses of Isaiah.
-- Begin with a focused pilot.
+- Give all 66 chapters equal top-level status. Add deeper detail only where the passage or evidence warrants it.
 - Use freely accessible scholarship and other credible public resources. Do not make paywalled material required reading.
 - Support guided learning and independent exploration.
 - Run locally first, with a possible public website later.
-- Unified Meridian branding: dark navy and blue surfaces across Read and Map views, with illustrated landscapes in Read view.
+- Unified Isaiah Study Guide branding: dark navy and blue surfaces across Read and Map views, with illustrated landscapes in Read view.
 - Map view's right sidebar shows scripture by default. Selecting a word replaces that sidebar with word study; a back arrow restores the scripture at the same position.
 
 Choices labeled proposed below are recommendations, not additional user commitments.
@@ -37,13 +37,13 @@ Retain the full historical foundation and add faithful interpretation, relevant 
 
 Distinguish scripture, statements in talks, teaching manuals, and the guide's own synthesis. Do not imply that every statement in a Church-hosted resource has the same doctrinal status. Present differences between historical scholarship and faithful interpretations respectfully; do not manufacture agreement or let mode selection silently change historical evidence.
 
-**Proposed default:** Official Church resources supply the pilot's LDS commentary. Independently published LDS scholarship can be added later with separate labels. Include relevant Book of Mormon and other Restoration connections when supported, without forcing a connection for every passage.
+**Proposed default:** Official Church resources supply the guide's LDS commentary. Independently published LDS scholarship can be added later with separate labels. Include relevant Book of Mormon and other Restoration connections when supported, without forcing a connection for every passage.
 
-## 4. Proposed pilot
+## 4. Current full-book scope
 
-Cover Isaiah 36–39: a contained sequence that can exercise political geography, the Assyrian threat, Hezekiah's story, and the transition toward Babylonian concerns. The Church's chapter guide also identifies this transition and the parallel account in 2 Kings [3]. External evidence can be introduced through Assyrian inscriptions and museum resources [4–6]. These sources must be compared critically rather than treated as automatic corroboration of every narrative detail.
+Cover Isaiah 1–66. Treat each chapter as part of one study guide. Do not use chapters 36–39 as the default frame for profiles, source notices, navigation labels, or chapter introductions. Keep chapter-specific evidence where it is directly relevant.
 
-Provide full reading coverage for these four chapters. Other chapters may appear in navigation as unavailable; do not imply complete coverage.
+The original focused build used chapters 36–39 to test political geography, historical evidence, and passage-level dates. That implementation history does not give those chapters higher status in the current product.
 
 Proposed content budget, adjustable after source review:
 
@@ -57,7 +57,7 @@ All four chapters receive context notes; chapters 38–39 must not inherit chapt
 
 ## 5. Reader and visual workspace
 
-Use one Meridian identity across two layouts selected with a Read / Map control. This layout control is independent of the Historical / LDS perspective control. Both layouts use dark navy backgrounds, layered blue panels, pale readable text, and restrained cyan selection accents. Use consistent typography, navigation, and controls throughout; do not switch to cream or parchment panels in Read view.
+Use one Isaiah Study Guide identity across two layouts selected with a Read / Map control. This layout control is independent of the Historical / LDS perspective control. Both layouts use dark navy backgrounds, layered blue panels, pale readable text, and restrained cyan selection accents. Use consistent typography, navigation, and controls throughout; do not switch to cream or parchment panels in Read view.
 
 **Read view:** Present spacious scripture text with Waymark-inspired illustrated landscapes in a complementary blue palette. Keep illustrations separate from the solid reading surface and label reconstructions. Provide a contextual study sidebar for selected words, commentary, and sources. Retain a compact timeline and an action to open the passage in Map view.
 
@@ -91,7 +91,7 @@ Support equivalent interactions for place markers, influence regions, and timeli
 
 Pan and zoom remain independent of passage selection. Dismiss transient previews when dragging or zooming; keep a pinned card stable with an offscreen-location indicator if its anchor moves out of view. Scrubbing the timeline or hiding a layer dismisses cards for features no longer visible, with no silent date change. Respect reduced-motion preferences and use line weight or outline as well as color for selection. The next prototype should validate card placement, hover delay, route hit areas, and the clarity of pinned versus transient states.
 
-Keep the requested labels Pre-Isaiah, Isaiah, and Post-Isaiah, with subtitles defining them as antecedents, core historical setting, and aftermath for the selected study sequence. Explain that these are navigation periods, not claims about authorship or composition. Exact boundaries and the pilot's total time range remain an editorial research task; include only events needed to explain the selected passages and their aftermath.
+Keep the requested labels Pre-Isaiah, Isaiah, and Post-Isaiah, with subtitles defining them as antecedents, core historical setting, and aftermath for the selected study sequence. Explain that these are navigation periods, not claims about authorship or composition. Exact boundaries and the timeline's total range remain an editorial research task; include only events needed to explain the selected passages and their aftermath.
 
 Provide event snapping, readable date ranges, and a visible current date. Preserve chronological order even where passage order differs. Distinguish the setting of the narrative, events referenced or anticipated by the text, and proposed composition dates. Put later reception, including modern Church talks, in a separate panel so it does not stretch the ancient geopolitical timeline.
 
@@ -105,7 +105,7 @@ Show Septuagint Greek with its own lemma, transliteration, contextual gloss, and
 
 Model word alignment as many-to-many: one English word may correspond to a phrase or no explicit source-language token. Preserve verse-numbering differences between editions. Do not present automated alignment as verified or assume Greek is an interchangeable original for the Hebrew.
 
-The pilot's detailed annotations are curated from sources. Basic dictionary senses must not masquerade as passage-specific scholarly conclusions. Exhaustive coverage of Hebrew variants, Greek variants, and later reception belongs to later expansion.
+Detailed annotations are curated from sources. Basic dictionary senses must not masquerade as passage-specific scholarly conclusions. Exhaustive coverage of Hebrew variants, Greek variants, and later reception belongs to later expansion.
 
 ## 8. Research and editorial requirements
 
@@ -127,15 +127,15 @@ Record reuse terms separately for Bible texts, Hebrew/Greek datasets, translatio
 
 ## 10. Local operation and scope boundaries
 
-Proposed: a browser-based application served locally, with curated content stored alongside it. No account, paid API, or remote database is required for normal study. Store reading position and preferred mode locally. Bundle permitted core text, notes, and map assets so the basic pilot can function without internet after setup; opening original sources requires connectivity.
+Proposed: a browser-based application served locally, with curated content stored alongside it. No account, paid API, or remote database is required for normal study. Store reading position and preferred mode locally. Bundle permitted core text, notes, and map assets so the guide can function without internet after setup; opening original sources requires connectivity.
 
 Design for later web deployment, but do not publish in this phase. Personal notes, exports, full-book coverage, live AI chat, community features, exhaustive language commentary, and separate mobile apps are deferred.
 
-## 11. Pilot acceptance criteria
+## 11. Acceptance criteria
 
-- All pilot chapters are readable; each curated passage has a linked historical explanation and a meaningful map/timeline state, or an explicit reason no precise state applies.
+- All 66 chapters are readable; each curated passage has a linked historical explanation and a meaningful map/timeline state, or an explicit reason no precise state applies.
 - Selecting a passage, event, place, or word keeps the reader's position intact. Returning from exploration restores passage context.
-- Both Read and Map use the unified dark blue Meridian design. Map opens with scripture in its sidebar; selecting a word replaces that sidebar, and Back to scripture restores the exact reading position and focus without resetting map or timeline state.
+- Both Read and Map use the unified dark blue Isaiah Study Guide design. Map opens with scripture in its sidebar; selecting a word replaces that sidebar, and Back to scripture restores the exact reading position and focus without resetting map or timeline state.
 - Switching study modes preserves navigation. Historical mode excludes LDS interpretive commentary; LDS mode includes the same historical evidence plus clearly attributed faithful commentary.
 - Every substantive historical claim, map overlay, and detailed word-study interpretation has supporting citations and any relevant uncertainty label.
 - Every recommended research reading is accessible in full without a subscription at verification time.
@@ -150,20 +150,20 @@ Design for later web deployment, but do not publish in this phase. Personal note
 These do not block the PRD. Proposed defaults can be revised during the prototype:
 
 1. One application with two study modes, rather than two independent applications.
-2. Isaiah 36–39 as the pilot, with the final time range set through source research.
+2. Isaiah 1–66 as one guide, with detail driven by the needs of each chapter.
 3. World English Bible initially; translation expansion remains possible.
-4. Official Church sources for LDS interpretation in the pilot, with independently published LDS scholarship deferred.
+4. Official Church sources for LDS interpretation, with independently published LDS scholarship labeled separately.
 5. Desktop-first local experience with permitted core content available offline.
 
-Before implementation, validate original-language dataset licenses and alignment quality, source the timeline boundaries, and test a single passage end to end. Build the remaining pilot content only after that complete interaction is satisfactory.
+For future expansions, validate original-language dataset licenses and alignment quality. Test one complete interaction before applying a shared change across the book.
 
 ## 13. User flow charts
 
-These flows describe the proposed pilot experience. Charts use Mermaid notation. The selected passage, reading position, study mode, and map/timeline exploration state persist while opening and closing detail panels.
+These flows describe the study experience. Charts use Mermaid notation. The selected passage, reading position, study mode, and map/timeline exploration state persist while opening and closing detail panels.
 
 ### 13.1. Start or resume passage study
 
-Readers can resume their last session, enter through a passage link, or select a pilot chapter. Historical context is assigned at passage level.
+Readers can resume their last session, enter through a passage link, or select any chapter. Historical context is assigned at passage level.
 
 ```mermaid
 flowchart TD
@@ -172,7 +172,7 @@ flowchart TD
     B -->|Passage link| D[Open linked passage]
     B -->|New session| E[Choose Historical or LDS mode]
     E --> F[Select chapter or passage]
-    D --> G{Available in pilot?}
+    D --> G{Detailed study available?}
     F --> G
     G -->|No| H[Show coverage notice and available passages]
     H --> F
@@ -211,7 +211,7 @@ flowchart TD
     K --> A
 ```
 
-Closing a feature panel preserves the current date and navigation state; it does not itself enter Explore history. A related passage outside pilot coverage shows the coverage notice and leaves the current passage intact.
+Closing a feature panel preserves the current date and navigation state; it does not itself enter Explore history. A related passage without detailed coverage shows a coverage notice and leaves the current passage intact.
 
 ### 13.3. Inspect a word and its textual connections
 
@@ -349,7 +349,7 @@ Hover never changes the passage, scripture scroll position, or timeline date. Se
 
 ## Source checks and starting resources
 
-These establish initial feasibility and research leads; they are not a completed pilot bibliography. Accessed September 20, 2026.
+These establish initial feasibility and research leads; they are not a complete bibliography. Accessed September 20, 2026.
 
 1. [World English Bible — copyright declaration](https://ebible.org/engwebp/copyright.htm).
 2. [Friendship Press — licensing and permission guidelines](https://www.friendshippress.org/pages/nrsvue-quick-faq).

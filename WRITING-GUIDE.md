@@ -1,4 +1,4 @@
-# Meridian writing guide
+# Isaiah Study Guide writing guide
 
 Use plain English based on ASD-STE100 principles for app labels, instructions, messages, and original study notes. Aim for a third-grade reading level when the facts allow it. This is a project writing guide, not a claim of full STE100 compliance.
 
@@ -18,12 +18,12 @@ Use plain English based on ASD-STE100 principles for app labels, instructions, m
 - Prefer concrete words. Explain necessary historical, religious, Hebrew, and Greek terms in context.
 - Replace abstract metaphors such as “contextual anchor” with a direct explanation: “The map uses 703 BCE to show the setting.”
 - State what the app knows and what remains uncertain. Simplification must not increase a claim’s certainty.
-- Distinguish the biblical account, historical evidence, Church teaching, and Meridian study questions. Keep each claim attached to its sources.
+- Distinguish the biblical account, historical evidence, Church teaching, and original study questions. Keep each claim attached to its sources.
 - An empty state must describe what is missing. Do not say information is loading unless loading is actually in progress.
 
 ## Preserve source text
 
-Preserve scripture quotations, source titles, proper names, Hebrew and Greek text, and attribution. Simplify Meridian’s surrounding explanations. Do not present a paraphrase as a quotation.
+Preserve scripture quotations, source titles, proper names, Hebrew and Greek text, and attribution. Simplify the study guide’s surrounding explanations. Do not present a paraphrase as a quotation.
 
 Use “dictionary form” to explain the base form of a word. Explain that a word’s form and meaning can change in a passage. Do not imply that every English word has an exact Hebrew or Greek match.
 

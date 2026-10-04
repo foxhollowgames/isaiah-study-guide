@@ -11,7 +11,7 @@
   ],
   "source": "https://registry.opendata.aws/terrain-tiles/",
   "attribution": "Terrain: Mapzen / Tilezen; USGS SRTM & GMTED2010, NOAA ETOPO1",
-  "note": "Modern elevation reference. Meridian color and hillshade rendering; not ancient terrain reconstruction.",
+  "note": "Modern elevation reference. Study guide color and hillshade rendering; not ancient terrain reconstruction.",
   "detail": {
     "url": "assets/terrain/{z}/{x}/{y}.png",
     "minZoom": 8,

@@ -1,4 +1,6 @@
-# Pilot validation — September 20, 2026
+# Initial pilot validation — September 20, 2026
+
+This section records the original build history. It does not define the current scope. The current guide covers Isaiah 1–66 and gives no default priority to chapters 36–39.
 
 The delivered pilot contains Isaiah 36–39 (90 WEB verses), 27 selected word studies, 24 source records, eight passage settings, and three guided explorations.
 
@@ -25,13 +27,13 @@ Pointer-hover previews are implemented with a short delay and a wider route hit 
 
 ## Come, Follow Me source update · September 27, 2026
 
-Read and checked the five official 2026 Isaiah lesson pages (38–42). Added five Church source records with original summaries, chapter coverage, links, and limitations, plus related reflections on five pilot passages. These lessons do not directly cover Isaiah 36–39; the added passage connections are explicitly attributed to Meridian.
+Read and checked the five official 2026 Isaiah lesson pages (38–42). Added five Church source records with original summaries, chapter coverage, links, and limitations. Pilot-era cross-chapter prompts were removed after full-book coverage was complete. Each lesson now stays with its stated chapter range.
 
 `npm run check` passes with 90 verses, 29 sources, 8 passages, and 27 curated word studies. Syntax checks pass for the source module and content generator. A focused check confirms five additions, classification as LDS sources under the existing library filter, preservation of the word studies, and no duplicate changes when the update is applied again. No browser interaction was rerun for this content-only update; the earlier browser counts above describe the original pilot.
 
 ## Boundaries
 
-This is a focused pilot, not a complete Isaiah commentary. Political overlays and routes are schematic; terrain is a modern elevation reference. Chapter 39 uses an explicitly uncertain contextual anchor. The app identifies uncurated words rather than inventing language alignments. Citation integrity checks do not guarantee continued availability of external websites. Research summaries and interpretive notes have not undergone independent specialist review.
+This is a study guide, not a complete Isaiah commentary. Political overlays and routes are schematic; terrain is a modern elevation reference. The app identifies uncurated words rather than inventing language alignments. Citation integrity checks do not guarantee continued availability of external websites. Research summaries and interpretive notes have not undergone independent specialist review.
 # Map readability update
 
 - Routes use faction colors and screen-sized arrowheads following the stored point order. The legend lists factions present in the enabled layers at the selected date.
@@ -101,7 +103,7 @@ All six `npm run check` suites pass. The chapter-source checks confirm that all 
 
 ## Specific interview insights — September 30, 2026
 
-Added source-based notes for Isaiah 1, 2, 6, and 30 in LDS mode. These replace the blanket removal above with selected, useful material. Reviewed the public Madsen and Hopkin transcripts, Madsen’s poetry example, and the official Isaiah 2 and 2 Nephi 12 texts. Short quotations retain attribution. Meridian applications are labeled separately. The full book and recordings were not reviewed.
+Added source-based notes for Isaiah 1, 2, 6, and 30 in LDS mode. These replace the blanket removal above with selected, useful material. Reviewed the public Madsen and Hopkin transcripts, Madsen’s poetry example, and the official Isaiah 2 and 2 Nephi 12 texts. Short quotations retain attribution. study guide applications are labeled separately. The full book and recordings were not reviewed.
 
 All six check suites pass. Automated checks cover the selected chapter citations and all 132 chapter and mode renders. They confirm that the new notes are absent from unrelated chapters and Historical mode. The old generic reading-help section remains absent. JavaScript syntax checks pass.
 

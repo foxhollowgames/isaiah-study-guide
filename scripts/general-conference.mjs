@@ -36,23 +36,11 @@ export function addGeneralConference(content) {
       group: 'conference-year', conference: talk.conference, summary,
       scriptureReferences: talk.references,
       reviewed: 'Official English text, Isaiah references, and the associated paragraphs checked on September 27, 2026.',
-      limitations: 'This talk uses Isaiah to teach faith. Its Isaiah links are not in chapters 36–39. Meridian made the study questions. The speaker did not teach those questions.',
-      license: 'Linked Church resource; original Meridian summary. Talk text and media are not reproduced.',
+      limitations: 'This talk uses Isaiah to teach faith. The questions are original study prompts. The speaker did not teach those questions.',
+      license: 'Linked Church resource; original study guide summary. Talk text and media are not reproduced.',
     };
     const index = content.sources.findIndex(s => s.id === record.id);
     if (index < 0) content.sources.push(record);
     else content.sources[index] = record;
-  }
-  const connections = [
-    ['war-of-words', 'gc-2026-04-44rowe', 'Rowe uses Isaiah 41:10 and 43:1, 3 to discuss trust when fear arises. Meridian study question: How does this counsel relate to the threats in Isaiah 36?'],
-    ['illness-sign', 'gc-2025-10-35andersen', 'Andersen uses Isaiah 61:3 to offer hope after suffering, without setting a time for healing. Meridian study question: How does this help distinguish hope in Christ from a promise of immediate recovery?'],
-    ['song-recovery', 'gc-2026-04-29matswagothata', 'Matswagothata uses Isaiah 40:31 to discuss renewed strength during trials. Meridian study question: How does this compare with Hezekiah’s gratitude for restored life?'],
-  ];
-  for (const [id, sourceId, reflection] of connections) {
-    const passage = content.passages.find(p => p.id === id);
-    if (!passage?.lds) throw new Error(`Missing LDS passage: ${id}`);
-    const note = `Related general conference study: ${reflection}`;
-    if (!passage.lds.text.includes(note)) passage.lds.text += ` ${note}`;
-    passage.lds.sourceIds = [...new Set([...passage.lds.sourceIds, sourceId])];
   }
 }

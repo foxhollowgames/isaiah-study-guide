@@ -32,6 +32,6 @@ for chapter, expected in enumerate(counts,1):
     assert [v['verse'] for v in parser.verses]==list(range(1,expected+1))
     assert all(v['text'] for v in parser.verses)
     chapters[str(chapter)]=parser.verses
-out={'translation':'World English Bible','copyright':'Public domain','source':'https://ebible.org/engwebp/ISA01.htm','edition':'Updated WEB, 66-book protocanon (engwebp). Chapters 36–39 retrieved September 20, 2026; remaining chapters September 27, 2026.','chapters':chapters}
+out={'translation':'World English Bible','copyright':'Public domain','source':'https://ebible.org/engwebp/ISA01.htm','edition':'Updated WEB, 66-book protocanon (engwebp). Chapters retrieved September 20–27, 2026.','chapters':chapters}
 (ROOT/'dist/data/scripture.json').write_text(json.dumps(out,ensure_ascii=False,indent=2),encoding='utf-8')
 print(f'Prepared {sum(counts)} verses across Isaiah 1–66.')

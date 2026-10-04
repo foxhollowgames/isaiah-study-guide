@@ -4,18 +4,18 @@
   <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="description" content="Study all 66 chapters of Isaiah through scripture, historical context, geography, language notes, and an optional Latter-day Saint reading layer.">
   <meta name="theme-color" content="#04192d"><meta name="color-scheme" content="dark">
-  <meta property="og:type" content="website"><meta property="og:title" content="Meridian — Isaiah Study Guide">
+  <meta property="og:type" content="website"><meta property="og:title" content="Isaiah Study Guide">
   <meta property="og:description" content="A map-first guide to all 66 chapters of Isaiah.">
   <meta property="og:url" content="https://isaiah.josephnewelldesign.com/">
   <link rel="canonical" href="https://isaiah.josephnewelldesign.com/">
-  <title>Meridian — Isaiah Study Guide</title>
-  <link rel="stylesheet" href="vendor/leaflet.css"><link rel="stylesheet" href="styles.css?v=20261002.2">
+  <title>Isaiah Study Guide</title>
+  <link rel="stylesheet" href="vendor/leaflet.css"><link rel="stylesheet" href="styles.css?v=20261003.1">
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to study content</a>
   <div class="app-shell" id="app">
     <header class="topbar">
-      <a class="brand" href="#"><span class="compass" aria-hidden="true"><svg width="26" height="26" viewBox="0 0 24 24" focusable="false"><path fill="currentColor" d="M12 0C14 8 16 10 24 12C16 14 14 16 12 24C10 16 8 14 0 12C8 10 10 8 12 0Z"/></svg></span><b>MERIDIAN</b></a>
+      <a class="brand" href="#" aria-label="Isaiah Study Guide home"><span class="compass" aria-hidden="true"><svg width="26" height="26" viewBox="0 0 24 24" focusable="false"><path fill="currentColor" d="M12 0C14 8 16 10 24 12C16 14 14 16 12 24C10 16 8 14 0 12C8 10 10 8 12 0Z"/></svg></span><b>ISAIAH<small>STUDY GUIDE</small></b></a>
       <div class="segmented" aria-label="Study guides"><button id="tourButton" aria-label="Open study guides">Guides</button></div>
       <div class="settings-menu" id="settingsMenu">
         <button id="settingsButton" class="settings-button" aria-label="Open settings" aria-expanded="false" aria-controls="settingsPanel"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/></svg></button>
@@ -51,10 +51,10 @@
     <dialog id="sourceDialog" aria-labelledby="sourceDialogTitle"><button class="dialog-close" aria-label="Close source details">×</button><div id="sourceContent"></div></dialog>
   </div>
   <section id="localLaunchHelp" hidden style="max-width:620px;margin:12vh auto;padding:28px;line-height:1.6">
-    <h1>Open Meridian through its local server</h1>
+    <h1>Open Isaiah Study Guide through its local server</h1>
     <p>The map will not work if you open this file by itself.</p>
-    <p>Open the Isaiah Study Guide folder. Double-click <strong>Start Meridian.cmd</strong>. Keep that window open while you study.</p>
-    <p><a href="http://127.0.0.1:4173/" style="color:#92e5ff">Open Meridian</a></p>
+    <p>Open the Isaiah Study Guide folder. Double-click <strong>Start Isaiah Study Guide.cmd</strong>. Keep that window open while you study.</p>
+    <p><a href="http://127.0.0.1:4173/" style="color:#92e5ff">Open Isaiah Study Guide</a></p>
     <p>If the server is already running, use the link above.</p>
   </section>
   <script src="vendor/leaflet.js"></script>
@@ -65,7 +65,7 @@
     } else {
       const appScript = document.createElement('script');
       appScript.type = 'module';
-      appScript.src = 'app.js?v=20261002.2';
+      appScript.src = 'app.js?v=20261003.1';
       document.body.append(appScript);
     }
   </script>

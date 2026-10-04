@@ -23,7 +23,7 @@ FILES = {
 }
 
 def fetch(url):
-    request = urllib.request.Request(url, headers={'User-Agent': 'MeridianStudyGuide/1.0 (educational portrait attribution)'})
+    request = urllib.request.Request(url, headers={'User-Agent': 'IsaiahStudyGuide/1.0 (educational portrait attribution)'})
     with urllib.request.urlopen(request, timeout=45) as response:
         return response.read()
 

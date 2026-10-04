@@ -1,19 +1,19 @@
 import { initChapterPicker } from './chapter-picker.js';
-import { featurePortraits, wordPortraits, setPortraitMode } from './portraits.js';
+import { people, featurePortraits, wordPortraits, personProfileHtml, personIdForLabel, setPortraitMode } from './portraits.js';
 import { initModalDragging } from './modal-drag.js';
 import { chapterFocus, chapterRoutes, chapterPoints, movementStyle } from './chapter-map.js';
 const $ = (s, root = document) => root.querySelector(s);
 const $$ = (s, root = document) => [...root.querySelectorAll(s)];
-const releaseVersion = '20261002.2';
+const releaseVersion = '20261003.1';
 const chapters = Array.from({ length: 66 }, (_, i) => i + 1);
 const defaults = { chapter: 1, verse: 1, view: 'map', perspective: 'historical', portraitMode: 'generated', date: -701, layers: { places: true, regions: true, campaigns: true, roads: false, history: false }, sidebar: 'scripture', map: { center: [32.1, 35.0], zoom: 7 } };
 let state = { ...defaults, ...readSaved(), layers: { ...defaults.layers, ...(readSaved().layers || {}) } };
 let data = { sources: [], passages: [], events: [], places: [], campaigns: [], ancientRoads: [], regions: [], words: [], guides: [], periods: [] };
 let scripture = { translation: 'World English Bible', chapters: {} };
-let map, savedScroll = 0, selectedWordButton, toastTimer, guideState = null;
+let map, savedScroll = 0, selectedWordButton, toastTimer, guideState = null, sidebarPersonHistory = [];
 
-function readSaved() { try { return JSON.parse(localStorage.getItem('meridian-state')) || {}; } catch { return {}; } }
-function persist() { try { localStorage.setItem('meridian-state', JSON.stringify({ ...state, map: map ? { center: [map.getCenter().lat, map.getCenter().lng], zoom: map.getZoom() } : state.map })); } catch {} updateUrl(); }
+function readSaved() { try { return JSON.parse(localStorage.getItem('isaiah-study-guide-state') || localStorage.getItem('meridian-state')) || {}; } catch { return {}; } }
+function persist() { try { localStorage.setItem('isaiah-study-guide-state', JSON.stringify({ ...state, map: map ? { center: [map.getCenter().lat, map.getCenter().lng], zoom: map.getZoom() } : state.map })); } catch {} updateUrl(); }
 function updateUrl() { const p = new URLSearchParams({ chapter: state.chapter, verse: state.verse, view: state.view, mode: state.perspective }); history.replaceState(null, '', `#${p}`); }
 function parseUrl() { const p = new URLSearchParams(location.hash.slice(1)); for (const key of ['chapter', 'verse']) if (p.has(key) && Number(p.get(key))) state[key] = Number(p.get(key)); if (['historical','lds'].includes(p.get('mode'))) state.perspective = p.get('mode'); }
 function esc(s='') { const d = document.createElement('div'); d.textContent = s; return d.innerHTML; }
@@ -118,7 +118,7 @@ function buildStaticUi() {
   const layerOptions = ensureLayerOptions();
   if (!layerOptions) throw new Error('Map layer controls are unavailable.');
   layerOptions.innerHTML = [['places','Places','place'],['regions','Areas','region'],['campaigns','Paths','route'],['roads','Ancient roads','road'],['history','Nations','region']].map(([key,label,kind]) => `<label class="layer-option"><input type="checkbox" data-layer="${key}"><span class="layer-swatch ${kind}"></span>${label}</label>`).join('');
-  $('#periods').innerHTML = (data.periods.length ? data.periods : [{id:'pre',label:'Before Isaiah',description:'Earlier events'},{id:'isaiah',label:'Isaiah',description:'Events in Isaiah 36–39'},{id:'post',label:'After Isaiah',description:'Later events'}]).slice(0,3).map(p => `<button data-period="${esc(p.id)}">${esc(p.label)}<small>${esc(p.description || '')}</small></button>`).join('');
+  $('#periods').innerHTML = (data.periods.length ? data.periods : [{id:'pre',label:'Before Isaiah',description:'Earlier eighth-century setting'},{id:'isaiah',label:'Isaiah',description:'Assyria, Judah, and Isaiah’s ministry'},{id:'post',label:'After Isaiah',description:'Later events in Babylon and Persia'}]).slice(0,3).map(p => `<button data-period="${esc(p.id)}">${esc(p.label)}<small>${esc(p.description || '')}</small></button>`).join('');
   document.addEventListener('click', onClick);
   document.addEventListener('change', onChange);
   $('#timelineRange').addEventListener('input', e => { state.date = Number(e.target.value); renderTimeline(); drawOverlays(); persist(); });
@@ -238,6 +238,7 @@ function onClick(e) {
   const chapter = e.target.closest('[data-chapter]'); if (chapter) { selectChapter(Number(chapter.dataset.chapter)); return; }
   const perspective = e.target.closest('[data-perspective]'); if (perspective) { state.perspective = perspective.dataset.perspective; renderAll(); persist(); return; }
   const layer = e.target.closest('[data-layer]'); if (layer) { state.layers[layer.dataset.layer] = e.target.checked; drawOverlays(); persist(); return; }
+  const person = e.target.closest('[data-person-id]'); if (person) { openPersonProfile(person.dataset.personId, person); return; }
   const word = e.target.closest('[data-word-id]'); if (word) { openWord(data.words.find(w => w.id === word.dataset.wordId), word); return; }
   const event = e.target.closest('[data-event]'); if (event) { const ev = data.events.find(x => x.id === event.dataset.event); if (ev) selectEvent(ev); return; }
   const act = e.target.closest('[data-action]'); if (act) { performAction(act.dataset.action, act.dataset.id); return; }
@@ -252,6 +253,8 @@ function performAction(action, id) {
     if (route && map) { map.stop(); map.fitBounds(L.latLngBounds(route.points).pad(.2), {paddingTopLeft:[Math.min($('.layers').offsetWidth+35,map.getSize().x*.5),45],paddingBottomRight:[40,45],maxZoom:10,animate:!reducedMapMotion.matches}); openFeature(route,true); }
   }
   if (action === 'back-scripture') closeWord();
+  if (action === 'person-profile-back') closePersonProfile();
+  if (action === 'sidebar-person-back') closeSidebarPersonProfile();
   if (action === 'close-card') closeCard();
   if (action === 'toggle-layers') {
     const collapsed = $('#layerOptions').classList.toggle('hidden');
@@ -281,11 +284,17 @@ function renderView() { $('#timelineTooltip').hidden = true; setTimeout(() => ma
 function activePassage() { return data.passages.find(p => Number(p.chapter) === state.chapter && state.verse >= p.start && state.verse <= p.end) || data.passages.find(p => Number(p.chapter) === state.chapter); }
 function selectChapter(chapter, verse = 1) { state.chapter = chapter; state.verse = verse; state.sidebar = 'scripture'; const p = activePassage(); if (p?.year) state.date = p.year; renderAll(); persist(); $('#sidebarContent').scrollTop=0; }
 function selectPassage(id) { const p = data.passages.find(x => x.id === id); if (!p) return; state.chapter = Number(p.chapter); state.verse = Number(p.start); state.sidebar = 'scripture'; if (p.year != null) state.date = Number(p.year); renderAll(); persist(); showToast(`Following ${p.title || `Isaiah ${p.chapter}:${p.start}–${p.end}`}.`); }
+function chapterDateHtml() {
+  const range = 'Between about 740 and 680 BCE';
+  const detail = 'Isaiah takes place between about 740 and 680 BCE. We do not know when this chapter was written.';
+  return `<div class="chapter-date-wrap"><span class="chapter-date" tabindex="0" aria-label="Estimated period: ${range}" aria-describedby="chapterDateTooltip">${range}<span class="chapter-date-info" aria-hidden="true">i</span></span><span class="chapter-date-tooltip" id="chapterDateTooltip" role="tooltip">${detail}</span></div>`;
+}
 function renderScripture() {
+  sidebarPersonHistory = [];
   if (state.sidebar === 'word') return renderWord();
   const verses = scripture.chapters?.[state.chapter] || [];
   const body = verses.length ? verses.map(v => renderVerse(v)).join('') : `<div class="word-view"><h2>Isaiah ${state.chapter}</h2><p>The text for this chapter is not available.</p></div>`;
-  $('#sidebarContent').innerHTML = `<div class="scripture-heading"><button class="sidebar-next" data-action="chapter-prev" aria-label="Previous chapter" ${state.chapter === 1 ? 'disabled' : ''}>‹</button><h1 class="chapter-picker"><button type="button" class="chapter-picker-trigger" aria-label="Choose Isaiah chapter, current chapter ${state.chapter}" aria-haspopup="listbox" aria-expanded="false" aria-controls="chapterPickerMenu">Isaiah ${state.chapter}<svg aria-hidden="true" width="16" height="16" viewBox="0 0 16 16"><path d="m4 6 4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/></svg></button></h1><div id="chapterPickerMenu" class="chapter-picker-menu" popover="auto" role="listbox" aria-label="Choose Isaiah chapter">${chapters.map(c => `<button type="button" role="option" aria-selected="${c === state.chapter}" tabindex="-1" data-value="${c}"><span>Isaiah ${c}</span><span class="chapter-picker-check" aria-hidden="true">${c === state.chapter ? '✓' : ''}</span></button>`).join('')}</div><button class="sidebar-next" data-action="chapter-next" aria-label="Next chapter" ${state.chapter === 66 ? 'disabled' : ''}>›</button></div>${body}`;
+  $('#sidebarContent').innerHTML = `<div class="scripture-heading"><button class="sidebar-next" data-action="chapter-prev" aria-label="Previous chapter" ${state.chapter === 1 ? 'disabled' : ''}>‹</button><div class="chapter-picker-block"><h1 class="chapter-picker"><button type="button" class="chapter-picker-trigger" aria-label="Choose Isaiah chapter, current chapter ${state.chapter}" aria-haspopup="listbox" aria-expanded="false" aria-controls="chapterPickerMenu">Isaiah ${state.chapter}<svg aria-hidden="true" width="16" height="16" viewBox="0 0 16 16"><path d="m4 6 4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/></svg></button></h1>${chapterDateHtml()}</div><div id="chapterPickerMenu" class="chapter-picker-menu" popover="auto" role="listbox" aria-label="Choose Isaiah chapter">${chapters.map(c => `<button type="button" role="option" aria-label="Isaiah chapter ${c}" aria-selected="${c === state.chapter}" tabindex="-1" data-value="${c}"><span>${c}</span><span class="chapter-picker-check" aria-hidden="true">${c === state.chapter ? '✓' : ''}</span></button>`).join('')}</div><button class="sidebar-next" data-action="chapter-next" aria-label="Next chapter" ${state.chapter === 66 ? 'disabled' : ''}>›</button></div>${body}`;
   initChapterPicker(document.querySelector('#sidebarContent'), state.chapter, chapters, selectChapter);
   $('#sidebarContent .verse')?.insertAdjacentHTML('beforebegin', passageContextHtml());
 }
@@ -300,7 +309,7 @@ function chapterInterviewNotesHtml() {
   const cite = passageFootnotes({chapter:state.chapter});
   return data.passages.filter(p => p.chapter === state.chapter)
     .flatMap(p => p.studyNotes || []).filter(note => note.kind === 'interview-insight')
-    .map(note => `<div class="interview-insight"><p><strong>${esc(note.title)}.</strong> ${esc(note.text)}${cite(note.sourceIds)}</p>${sourceMediaHtml(note.sourceIds, {images:false})}<p><strong>Try this reading · Meridian application.</strong> ${esc(note.application)}</p></div>`).join('');
+    .map(note => `<div class="interview-insight"><p><strong>${esc(note.title)}.</strong> ${esc(note.text)}${cite(note.sourceIds)}</p>${sourceMediaHtml(note.sourceIds, {images:false})}<p><strong>Try this reading.</strong> ${esc(note.application)}</p></div>`).join('');
 }
 function openSource(id) {
   const s = source(id); if (!s) return;
@@ -320,15 +329,9 @@ function passageContextHtml() {
   const passages = data.passages.filter(p => p.chapter === state.chapter);
   const p = passages[0]; if (!p) return '';
   const cite = passageFootnotes(p);
-  const introductions = {
-    36: 'In 701 BCE, Assyria takes many towns in Judah. An officer goes from Lachish to Jerusalem. He tells the people not to trust Egypt, Hezekiah, or God. A palace picture shows Sennacherib with goods taken from Lachish. His clay prism calls the war a win for the king.',
-    37: 'Hezekiah prays to God about the Assyrian threat. Isaiah says that God will save the city. The Bible says that God saves Jerusalem. Sennacherib’s prism tells about Judah’s losses and gifts to Assyria. It does not say that he took Jerusalem. Sennacherib dies in 681 BCE. This is twenty years after the war.',
-    38: 'Hezekiah gets sick. God tells him that he will get well. God also says that he will guard Jerusalem. Hezekiah’s song moves from fear to thanks. We do not know the exact date of his illness.',
-    39: 'Hezekiah shows his wealth to guests from Babylon. Isaiah says Babylon will take this wealth later. He also says that some of the king’s family will be taken. We do not know the date of the visit. The chapter order does not prove the event order.'
-  };
   const ids = [...new Set(passages.flatMap(p => p.sourceIds || []))];
   const reflection = state.perspective === 'lds' ? `<p><strong>LDS reflection.</strong> ${esc(p.lds?.text || '')}${cite(p.lds?.sourceIds)}</p>${sourceInsightsHtml(passages.flatMap(item => item.lds?.sourceIds || []))}` : '';
-  return `<section class="passage-context chapter-introduction" aria-label="Chapter introduction"><h2>${esc(p.title)}</h2><div class="passage-prose"><p>${esc(introductions[state.chapter] || p.summary)}${cite(ids)}</p>${chapterEvidenceHtml()}${sourceInsightsHtml(ids)}${reflection}${chapterInterviewNotesHtml()}</div>${mapStoryHtml()}</section>`;
+  return `<section class="passage-context chapter-introduction" aria-label="Chapter introduction"><h2>${esc(p.title)}</h2><div class="passage-prose"><p>${esc(p.summary)}${cite(ids)}</p>${chapterEvidenceHtml()}${sourceInsightsHtml(ids)}${reflection}${chapterInterviewNotesHtml()}</div>${mapStoryHtml()}</section>`;
 }
 function passageInterpretationHtml() {
   if (state.perspective !== 'lds') return '';
@@ -358,7 +361,8 @@ function wordLanguagesHtml(word) {
 }
 function renderWord() {
   const word = data.words.find(w => w.id === state.wordId); const title = word?.label || state.wordLabel || 'Selected word';
-  let html = `<section class="word-view"><button class="back-button" data-action="back-scripture">← Back to scripture</button><h2>${esc(title)}</h2>${wordPortraits(title)}`;
+  const personId = personIdForLabel(title);
+  let html = `<section class="word-view"><button class="back-button" data-action="back-scripture">← Back to scripture</button>${personId ? personProfileHtml(personId) : `<h2>${esc(title)}</h2>${wordPortraits(title)}`}`;
   if (!word) html += `<p class="translation">No study note yet</p><div class="word-section"><p>This word has no study note yet. The app does not give a Hebrew or Greek match for it.</p></div>`;
   else {
     const refs = wordReferences(word), cite = refs.cite;
@@ -581,7 +585,74 @@ function featureBodyHtml(feature) {
   const context = featureChapterContext(feature);
   return `<div class="feature-prose">${(context.paragraphs.length ? context.paragraphs : ['No description is available for this feature.']).map(text => `<p>${esc(text)}</p>`).join('')}${featureScriptureHtml(feature)}${data.regions.includes(feature) ? '' : sourceMediaHtml(context.sourceIds, {chapter:state.chapter})}</div>`;
 }
-function openFeature(f, pinned = false, origin) { if (!f) return; if (pinned) focusPathVerse(f); const card = $('#contextCard'); if (!pinned && card.dataset.pinned === 'true' && !card.classList.contains('hidden')) return; card.dataset.feature = f.id; card.dataset.pinned = String(pinned); const context = featureChapterContext(f); const lds = state.perspective === 'lds' && f.lds?.text ? `<div class="word-section"><h3>LDS reading</h3><p>${esc(f.lds.text)}</p>${sourceInsightsHtml(f.lds.sourceIds)}</div>` : ''; card.innerHTML = `<button class="dialog-close" data-action="close-card" aria-label="Close context">×</button><span class="eyebrow">${featureType(f)}</span><h2>${esc(mapDisplayName(f.name || f.title))}</h2>${featurePortraits(f, state.date)}${f.dateLabel ? `<span class="badge">${esc(f.dateLabel)}</span>` : ''}${featureBodyHtml(f)}${lds}<div class="word-section"><h3>Sources</h3>${sourcesHtml([...context.sourceIds, ...(state.perspective === 'lds' ? f.lds?.sourceIds || [] : [])])}</div>`; openStudyModal('contextCard', f.id); card.scrollTop = 0; card._origin = origin?.getElement?.() || origin || card._origin; const point = origin?.getLatLng?.() || origin?.getCenter?.(); const stage = $('.map-stage'); const labelRect = origin?.getElement?.()?.matches('.city-label') ? origin.getElement().firstElementChild.getBoundingClientRect() : null; const stageRect = stage.getBoundingClientRect(); const at = labelRect ? {x:labelRect.right-stageRect.left, y:labelRect.top-stageRect.top} : point && map ? map.latLngToContainerPoint(point) : {x: stage.clientWidth / 2, y: 70}; card.style.left = `${Math.max(12, Math.min(at.x + 18, stage.clientWidth - card.offsetWidth - 12))}px`; card.style.top = `${Math.max(12, Math.min(at.y, stage.clientHeight - card.offsetHeight - 12))}px`; }
+function renderContextPersonProfile(card, personId, backLabel) {
+  card.innerHTML = `<button class="dialog-close" data-action="close-card" aria-label="Close context">×</button>${personProfileHtml(personId, {backLabel:`Back to ${backLabel}`})}`;
+  openStudyModal('contextCard', `person:${personId}`);
+  card.scrollTop = 0;
+  requestAnimationFrame(() => $('.person-profile-back', card)?.focus({preventScroll:true}));
+}
+function openSidebarPersonProfile(personId, trigger) {
+  if (!personProfileHtml(personId)) return;
+  const content = $('#sidebarContent');
+  const currentId = trigger.closest('[data-person-profile]')?.dataset.personProfile;
+  sidebarPersonHistory.push({html:content.innerHTML, scrollTop:content.scrollTop, returnPersonId:personId});
+  const backLabel = people[currentId]?.name || 'previous profile';
+  content.innerHTML = `<section class="word-view"><button class="back-button person-profile-back" data-action="sidebar-person-back">← Back to ${esc(backLabel)}</button>${personProfileHtml(personId)}</section>`;
+  content.scrollTop = 0;
+  requestAnimationFrame(() => $('[data-action="sidebar-person-back"]', content)?.focus({preventScroll:true}));
+}
+function closeSidebarPersonProfile() {
+  const content = $('#sidebarContent'), previous = sidebarPersonHistory.pop();
+  if (!previous) return closeWord();
+  content.innerHTML = previous.html;
+  requestAnimationFrame(() => {
+    content.scrollTop = previous.scrollTop;
+    $(`[data-person-id="${CSS.escape(previous.returnPersonId)}"]`, content)?.focus({preventScroll:true});
+  });
+}
+function openPersonProfile(personId, trigger) {
+  const card = trigger?.closest('#contextCard');
+  if (!card) return openSidebarPersonProfile(personId, trigger);
+  if (!personProfileHtml(personId)) return;
+  const feature = findFeature(card.dataset.feature);
+  if (!feature) return;
+  const currentId = trigger.closest('[data-person-profile]')?.dataset.personProfile;
+  if (!currentId) {
+    card._personProfileHistory = [];
+    card._personProfileBack = {
+      featureId: feature.id,
+      pinned: card.dataset.pinned === 'true',
+      scrollTop: card.scrollTop,
+      label: mapDisplayName(feature.name || feature.title)
+    };
+  } else {
+    card._personProfileHistory ||= [];
+    card._personProfileHistory.push({personId:currentId, scrollTop:card.scrollTop, returnPersonId:personId});
+  }
+  renderContextPersonProfile(card, personId, currentId ? people[currentId].name : card._personProfileBack.label);
+}
+function closePersonProfile() {
+  const card = $('#contextCard'), back = card._personProfileBack, previous = card._personProfileHistory?.pop();
+  if (previous) {
+    const backLabel = card._personProfileHistory?.length
+      ? people[card._personProfileHistory.at(-1).personId].name
+      : back.label;
+    renderContextPersonProfile(card, previous.personId, backLabel);
+    requestAnimationFrame(() => {
+      card.scrollTop = previous.scrollTop;
+      $(`[data-person-id="${CSS.escape(previous.returnPersonId)}"]`, card)?.focus({preventScroll:true});
+    });
+    return;
+  }
+  const feature = back && findFeature(back.featureId);
+  if (!feature) return closeCard();
+  openFeature(feature, back.pinned, card._origin);
+  requestAnimationFrame(() => {
+    card.scrollTop = back.scrollTop;
+    $(`[data-person-id]`, card)?.focus({preventScroll:true});
+  });
+}
+function openFeature(f, pinned = false, origin) { if (!f) return; if (pinned) focusPathVerse(f); const card = $('#contextCard'); if (!pinned && card.dataset.pinned === 'true' && !card.classList.contains('hidden')) return; card._personProfileHistory = []; card._personProfileBack = null; card.dataset.feature = f.id; card.dataset.pinned = String(pinned); const context = featureChapterContext(f); const lds = state.perspective === 'lds' && f.lds?.text ? `<div class="word-section"><h3>LDS reading</h3><p>${esc(f.lds.text)}</p>${sourceInsightsHtml(f.lds.sourceIds)}</div>` : ''; card.innerHTML = `<button class="dialog-close" data-action="close-card" aria-label="Close context">×</button><span class="eyebrow">${featureType(f)}</span><h2>${esc(mapDisplayName(f.name || f.title))}</h2>${featurePortraits(f, state.date)}${f.dateLabel ? `<span class="badge">${esc(f.dateLabel)}</span>` : ''}${featureBodyHtml(f)}${lds}<div class="word-section"><h3>Sources</h3>${sourcesHtml([...context.sourceIds, ...(state.perspective === 'lds' ? f.lds?.sourceIds || [] : [])])}</div>`; openStudyModal('contextCard', f.id); card.scrollTop = 0; card._origin = origin?.getElement?.() || origin || card._origin; const point = origin?.getLatLng?.() || origin?.getCenter?.(); const stage = $('.map-stage'); const labelRect = origin?.getElement?.()?.matches('.city-label') ? origin.getElement().firstElementChild.getBoundingClientRect() : null; const stageRect = stage.getBoundingClientRect(); const at = labelRect ? {x:labelRect.right-stageRect.left, y:labelRect.top-stageRect.top} : point && map ? map.latLngToContainerPoint(point) : {x: stage.clientWidth / 2, y: 70}; card.style.left = `${Math.max(12, Math.min(at.x + 18, stage.clientWidth - card.offsetWidth - 12))}px`; card.style.top = `${Math.max(12, Math.min(at.y, stage.clientHeight - card.offsetHeight - 12))}px`; }
 function closeCard() { const card = $('#contextCard'); if (card.classList.contains('hidden')) return; hideModalPanel(card); syncMapSelection(); card._origin?.focus?.({preventScroll:true}); }
 
 function initMap() {
@@ -606,7 +677,7 @@ function initMap() {
     if (r[0].status === 'fulfilled') L.geoJSON(r[0].value, {pane:'base',interactive:false, style: { color: '#dfc990', weight: 1, fillColor: '#a4ac79', fillOpacity: 1 } }).addTo(map);
     if (r[1].status === 'fulfilled') L.geoJSON(r[1].value, {pane:'water',interactive:false, style: { color: '#81bbca', weight: 1.2, fillColor: '#155c80', fillOpacity: 1 } }).addTo(map);
     if (r[3].status === 'fulfilled') L.geoJSON(r[3].value, {pane:'water', interactive:false,
-      style: f => ({color:'#5194ae', weight:f.properties.rank <= 5 ? 1.8 : 1.2, opacity:.85})}).addTo(map);
+      style: f => ({color:'#4b9fbd', weight:f.properties.rank <= 5 ? 3.2 : 2.2, opacity:1})}).addTo(map);
     if (r[2].status === 'fulfilled') {
       L.imageOverlay('assets/relief.png',r[2].value.bounds,{pane:'relief',opacity:1,interactive:false}).addTo(map);
       const [[south,west],[north,east]] = r[2].value.bounds;
@@ -714,6 +785,9 @@ reducedMapMotion.addEventListener('change', () => {
 function visibleAt(f) { return (f.start == null || state.date >= f.start) && (f.end == null || state.date <= f.end); }
 const factions = {
   judah: { name: 'Judah', color: '#8a5908', selectedBorder: '#4d3003' },
+  philistia: { name: 'Philistia', color: '#a4634f', selectedBorder: '#563126' },
+  egypt: { name: 'Egypt', color: '#4f8278', selectedBorder: '#285047' },
+  cush: { name: 'Cush', color: '#7b5f8e', selectedBorder: '#45334f' },
   assyria: { name: 'Assyria', color: '#ae3924', selectedBorder: '#651d11' },
   babylonia: { name: 'Babylonia', color: '#783951', selectedBorder: '#431b2d' },
   persian: { name: 'Persia', color: '#694529', selectedBorder: '#3d2718' }
@@ -755,6 +829,21 @@ function displayedCampaigns() {
   return focusedRoutes();
 }
 function chapterPlaceVisible(p) { return !p.chapterLocation || chapterFocus(data, state.chapter)?.placeIds.includes(p.id); }
+function placeMentionedInChapter(place) { return !!placeVerseInChapter(place, state.chapter); }
+function regionMentionedInChapter(region) {
+  const text = (scripture.chapters[state.chapter] || []).map(verse => verse.text).join(' ');
+  const patterns = {
+    judah: /\bJudah\b/i,
+    philistia: /\bPhilist(?:ia|ines?)\b/i,
+    'egypt-region': /\bEgypt(?:ian|ians)?\b/i,
+    'cush-region': /\b(?:Cush|Ethiopia|Tirhakah)\b/i,
+    assyria: /\bAssyria(?:n|ns)?\b/i,
+    'babylonia-early': /\bBabylon(?:ia|ian|ians)?\b/i,
+    babylonia: /\bBabylon(?:ia|ian|ians)?\b/i,
+    persian: /\b(?:Persia|Persian|Cyrus)\b/i
+  };
+  return patterns[region.id]?.test(text) || false;
+}
 function drawOverlays() {
   if (!map) return;
   const wanted = new Set();
@@ -768,7 +857,7 @@ function drawOverlays() {
   };
   const current = findFeature($('#contextCard').dataset.feature);
   if (current && !visibleAt(current)) hideModalPanel($('#contextCard'));
-  const regions = state.layers.history ? data.regions.filter(visibleAt) : [];
+  const regions = state.layers.history ? data.regions.filter(region => visibleAt(region) && (!region.chapterCoverage || region.chapterCoverage.includes(state.chapter))) : [];
   if (state.layers.regions) chapterAreas().forEach(r => {
     feature(r.id,()=>L.polygon(r.points,{pane:'areas',color:'#79501b',weight:2.5,dashArray:'6 4',fillColor:'#d39a48',fillOpacity:.32,className:'chapter-area'}),r);
   });
@@ -776,7 +865,10 @@ function drawOverlays() {
   const roads = state.layers.roads ? data.ancientRoads : [];
   regions.forEach(r => {
     const color = factionFor(r).color;
-    feature(`region:${r.id}`, () => L.polygon(r.points, { pane:'areas', color, weight: 2.5, dashArray: '6 4', fillColor: color, fillOpacity: .3, className: 'region-overlay' }), r);
+    const mentioned = regionMentionedInChapter(r);
+    const layer = feature(`region:${r.id}`, () => L.polygon(r.points, { pane:'areas', color, weight: mentioned ? 2.75 : 1.5, dashArray: mentioned ? '6 4' : '3 6', fillColor: color, fillOpacity: mentioned ? .3 : .13, className: 'region-overlay' }), r);
+    layer.setStyle({weight:mentioned ? 2.75 : 1.5,dashArray:mentioned ? '6 4' : '3 6',fillOpacity:mentioned ? .3 : .13});
+    layer.getElement()?.classList.toggle('chapter-relevant-region', mentioned);
   });
   roads.forEach(road => {
     const dash = road.confidence === 'probable' ? '7 7' : null;
@@ -790,7 +882,11 @@ function drawOverlays() {
     feature(`hit:${c.id}`, () => L.polyline(c.points, {pane:'routes', color, weight:22, opacity:0, className:'campaign-hit'}), c);
   });
   if (state.layers.places) data.places.filter(chapterPlaceVisible).forEach(p => {
-    feature(`place:${p.id}`, () => L.circleMarker([p.lat,p.lng], {pane:'places',radius:5, color:'#fff4dc', weight:2, fillColor:'#594530', fillOpacity:1}), p);
+    const mentioned = placeMentionedInChapter(p);
+    const layer = feature(`place:${p.id}`, () => L.circleMarker([p.lat,p.lng], {pane:'places',radius:mentioned ? 6 : 4, color:mentioned ? '#fff4dc' : '#9bb2b7', weight:mentioned ? 2.5 : 1.25, fillColor:mentioned ? '#594530' : '#304c55', fillOpacity:mentioned ? 1 : .72}), p);
+    layer.setRadius(mentioned ? 6 : 4);
+    layer.setStyle({color:mentioned ? '#fff4dc' : '#9bb2b7',weight:mentioned ? 2.5 : 1.25,fillColor:mentioned ? '#594530' : '#304c55',fillOpacity:mentioned ? 1 : .72});
+    layer.getElement()?.classList.toggle('chapter-relevant-place', mentioned);
   });
   if (state.layers.places) chapterImpacts().forEach(p => {
     feature(p.id,()=>L.circleMarker([p.lat,p.lng],{pane:'impacts',radius:11,color:'#b52e26',weight:2.5,fillColor:'#c43c32',fillOpacity:.16,className:'chapter-impact'}),p);
@@ -874,7 +970,9 @@ function layoutPlaceLabels() {
     const existing = labelFeatures.get(p.id);
     const label = existing?.layer || leafletLabel([p.lat,p.lng], mapDisplayName(p.name), 'city-label', p);
     const el = label.getElement();
-    el.classList.toggle('relevant-label', !!priority);
+    const mentioned = placeMentionedInChapter(p);
+    el.classList.toggle('relevant-label', mentioned);
+    el.classList.toggle('context-label', !mentioned);
     const text = el.firstElementChild;
     const w = text.offsetWidth, h = text.offsetHeight;
     const gap = priority ? 3 : Math.max(4, 20-(zoom-7)*7);
@@ -906,11 +1004,12 @@ function syncMapSelection() {
     const active = region.id === selected;
     const layer = mapFeatures.get(`region:${region.id}`)?.layer;
     const faction = factionFor(region);
+    const mentioned = regionMentionedInChapter(region);
     layer?.setStyle({
       color:active ? faction.selectedBorder : faction.color,
-      weight:active ? 3.5 : 2.5,
-      dashArray:active ? null : '6 4',
-      fillOpacity:active ? .45 : .3
+      weight:active ? 3.5 : mentioned ? 2.75 : 1.5,
+      dashArray:active ? null : mentioned ? '6 4' : '3 6',
+      fillOpacity:active ? .45 : mentioned ? .3 : .13
     });
     const el = layer?.getElement();
     el?.style.setProperty('--selected-region-border', faction.selectedBorder);
@@ -980,7 +1079,7 @@ function openLibrary() {
     return entries.length ? `<section aria-label="${esc(title)}"><h3>${esc(title)}</h3><p>${esc(description)}</p>${entries.map(librarySourceHtml).join('')}</section>` : '';
   }).join('');
   const other = list.filter(s => !['mcclellan', 'conference-year', ...publicGroups.map(([group]) => group)].includes(s.group));
-  const conferenceHtml = conference.length ? `<section aria-label="Recent general conference"><h3>General conference · past year</h3><p>We checked 72 talks from October 2025 and April 2026. We found ${conference.length} talks that name Isaiah or cite his words. We may not have found hints that do not name him.</p><p>Each talk links to the chapter it uses. Meridian made the study questions.</p>${['April 2026','October 2025'].map(month => { const talks = conference.filter(s => s.conference === month); return `<details><summary>${month} · ${talks.length} talks</summary>${talks.map(librarySourceHtml).join('')}</details>`; }).join('')}</section>` : '';
+  const conferenceHtml = conference.length ? `<section aria-label="Recent general conference"><h3>General conference · past year</h3><p>We checked 72 talks from October 2025 and April 2026. We found ${conference.length} talks that name Isaiah or cite his words. We may not have found hints that do not name him.</p><p>Each talk links to the chapter it uses. The questions are original study prompts.</p>${['April 2026','October 2025'].map(month => { const talks = conference.filter(s => s.conference === month); return `<details><summary>${month} · ${talks.length} talks</summary>${talks.map(librarySourceHtml).join('')}</details>`; }).join('')}</section>` : '';
   const modeNotice = state.perspective === 'historical' ? 'This mode shows history sources. Select LDS to add Church sources.' : 'This mode shows history sources and Church sources.';
   $('#libraryContent').innerHTML = `<h2>Source library</h2><p class="translation">${modeNotice}</p>${publicHtml}${conferenceHtml}${additions.length ? `<section aria-label="Dan McClellan and cited scholarship"><h3>Dan McClellan and his sources</h3><p>This group has four videos and five works used in them. Each note says what we checked. It also says what the source cannot prove. The video about who wrote Isaiah links to chapter 39. The other videos help with the whole book.</p>${additions.map(librarySourceHtml).join('')}</section><h3>Other study sources</h3>` : ''}${other.map(librarySourceHtml).join('') || (additions.length || conference.length ? '' : '<p>No sources are available for this study mode.</p>')}`;
   // Scroll inside the dialog without replacing the app's chapter/verse URL state.

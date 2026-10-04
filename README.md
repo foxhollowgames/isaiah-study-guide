@@ -1,18 +1,18 @@
-# Meridian — Isaiah Study Guide
+# Isaiah Study Guide — Isaiah Study Guide
 
-Meridian is a local, map-first study guide for all 66 chapters of Isaiah. It connects the World English Bible text with chapter summaries, selected historical settings, geography, language notes, and an optional faithful Latter-day Saint reading layer.
+Isaiah Study Guide is a local, map-first study guide for all 66 chapters of Isaiah. It connects the World English Bible text with chapter summaries, selected historical settings, geography, language notes, and an optional faithful Latter-day Saint reading layer.
 
 The public site is [isaiah.josephnewelldesign.com](https://isaiah.josephnewelldesign.com/). GitHub Pages publishes the contents of `dist` after each push to `main`.
 
 ## Run locally
 
-Node.js is required (already available on the build computer). No dependency installation is needed. Double-click **Start Meridian.cmd**, or run this from the project folder:
+Node.js is required (already available on the build computer). No dependency installation is needed. Double-click **Start Isaiah Study Guide.cmd**, or run this from the project folder:
 
 ```text
 npm start
 ```
 
-Open [Meridian](http://127.0.0.1:4173). Keep the server window open while studying. Run `npm run check` to validate the local reading text, citation URL syntax and IDs, reference integrity, map coordinates, and curated word associations. This check does not verify external website availability or adjudicate scholarly claims.
+Open [Isaiah Study Guide](http://127.0.0.1:4173). Keep the server window open while studying. Run `npm run check` to validate the local reading text, citation URL syntax and IDs, reference integrity, map coordinates, and curated word associations. This check does not verify external website availability or adjudicate scholarly claims.
 
 ## Study scope
 
@@ -22,7 +22,7 @@ Portrait credits and license records are in `dist/data/portrait-images.json`. Th
 
 The guide includes all 1,292 verses of Isaiah, 70 passage notes, 1,310 word-study records, and six guided studies. Use the chapter selector above the reading text to reach any chapter. Previous and Next stop at chapters 1 and 66.
 
-The original detailed studies of Isaiah 36–39 remain intact. Each added chapter has an original summary, a Meridian devotional question, and source links. The five Come, Follow Me lessons connect to their chapters. Chapters omitted from those lessons link to nearby material with an explicit label. Existing conference sources also connect to the chapters they cite.
+Each chapter has an original summary, a devotional question, and source links. Passage divisions follow changes in content, setting, or date. No chapter range receives default priority. The five Come, Follow Me lessons and the conference sources connect to the chapters they cite.
 
 Word studies cover all 66 chapters. They include 54 passage notes and 1,256 general dictionary records, with 1,974 verse associations for the dictionary records. The catalog in `scripts/word-catalog.json` supplies common words and names. Each new link requires the complete English token and the Hebrew dictionary number in the same verse. These are verse-level associations, not a complete word-by-word alignment. Existing passage notes take priority. Greek forms are supplied only for checked passages, including five entries in Isaiah 7. Hebrew and English verse-number differences in chapters 9 and 64 are handled during generation. Only words with entries can be selected.
 
@@ -44,11 +44,11 @@ To rebuild, run `node scripts/fetch-scripture.mjs` once to obtain missing publis
 
 Historical mode presents the shared historical evidence and its limits. LDS mode retains that material and adds separately labeled Church resources and faithful interpretation. The historical map uses approximate places, influence areas, and schematic routes where the evidence does not justify exact boundaries or reconstructed movements.
 
-The LDS source library includes all five 2026 Come, Follow Me lessons for Isaiah, with linked summaries. These lessons cover Isaiah 1–35 (selected chapters) and 40–66. Connections to Isaiah 36–39 remain labeled as related Meridian study reflections. Source additions are maintained in `scripts/come-follow-me.mjs`.
+The LDS source library includes all five 2026 Come, Follow Me lessons for Isaiah, with linked summaries. Each lesson appears with its stated chapter coverage. Source additions are maintained in `scripts/come-follow-me.mjs`.
 
 ## App wording
 
-The LDS source library also includes 22 talks from October 2025 and April 2026 general conference. The review covers September 27, 2025–September 27, 2026. All 72 official conference article pages were scanned for explicit Isaiah citations and named mentions in the text and notes. The 34 citation locations include one reference through Luke 4:18. Unnamed allusions were not systematically identified. Entries link to scripture and the relevant talk reference. The citations fall outside Isaiah 36–39; three pilot connections are labeled Meridian study questions. Maintain summaries in `scripts/general-conference.mjs` and citation metadata in `scripts/conference-isaiah-audit.json`.
+The LDS source library also includes 22 talks from October 2025 and April 2026 general conference. The review covers September 27, 2025–September 27, 2026. All 72 official conference article pages were scanned for explicit Isaiah citations and named mentions in the text and notes. The 34 citation locations include one reference through Luke 4:18. Unnamed allusions were not systematically identified. Entries link to scripture and the relevant talk reference. Maintain summaries in `scripts/general-conference.mjs` and citation metadata in `scripts/conference-isaiah-audit.json`.
 
 The source library includes four selected Dan McClellan Isaiah videos and five works cited in them. Video entries include timestamp links and cited resource summaries. The authorship video also appears in Isaiah 39's passage context and the Babylon guide. Other videos cover Isaiah 28, Isaiah 53, and manuscript transmission. Source-check notes distinguish reviewed transcripts, accessible scholarship, publisher descriptions, and excerpts reported through a video. Maintain these additions in `scripts/mcclellan.mjs`. This is a selected collection, not a complete channel index.
 
@@ -75,14 +75,14 @@ Every linked research source has its own attribution, reuse note, and limitation
 
 The source library includes seven public resources checked on September 29, 2026. Sennacherib’s Prism has museum records, a free scholarly edition, and a local public-domain photograph by David Castor. These resources connect to Isaiah 36–37 and the **Two accounts, one crisis** guide. The records distinguish the Taylor, Chicago, and Jerusalem prisms. Object dates differ from the 701 BCE campaign date.
 
-In LDS mode, **Opening Isaiah: A Harmony** includes the publisher record, a public sample, and interviews with Ann N. Madsen and Shon D. Hopkin. The 23-page sample covers Isaiah 1–6 and 7:1. The general book resources remain in the source library. Selected interview insights appear in LDS mode for Isaiah 1, 2, 6, and 30. Each note separates the author’s insight from a Meridian application. Short quotations appear with attribution. The Isaiah 2 comparison cites both scripture editions; it is an application of Hopkin’s method, not his own example. The full book remains a purchase resource. No book pages, modern translation columns, or proprietary maps are copied into Meridian. Maintain these additions in `scripts/prism-and-harmony.mjs` and the image credit in `scripts/source-previews.mjs`.
+In LDS mode, **Opening Isaiah: A Harmony** includes the publisher record, a public sample, and interviews with Ann N. Madsen and Shon D. Hopkin. The 23-page sample covers Isaiah 1–6 and 7:1. The general book resources remain in the source library. Selected interview insights appear in LDS mode for Isaiah 1, 2, 6, and 30. Each note separates the author’s insight from a study guide application. Short quotations appear with attribution. The Isaiah 2 comparison cites both scripture editions; it is an application of Hopkin’s method, not his own example. The full book remains a purchase resource. No book pages, modern translation columns, or proprietary maps are copied into Isaiah Study Guide. Maintain these additions in `scripts/prism-and-harmony.mjs` and the image credit in `scripts/source-previews.mjs`.
 
 Chapter footnotes now open a **Source details** dialog inside the app. It includes the source summary, available local images, attribution, review notes, and limits. Full-source links remain available. Closing the dialog returns to the reader or guide. Numbers remain consistent within each chapter. World English Bible credits remain in the footer and source library, without inline footnotes. Source footnotes also appear at the start of each passage. The reading panel shows LDS notes in LDS mode.
 
-In LDS mode, each chapter includes both harmony interviews as general reading help. This label distinguishes study methods from commentary on that chapter. Isaiah 36 includes a note with the Lachish relief and prism sources. Isaiah 37 includes an account-comparison note. These notes are original Meridian summaries; interview transcripts and copyrighted book pages are not copied.
+In LDS mode, each chapter includes both harmony interviews as general reading help. This label distinguishes study methods from commentary on that chapter. Isaiah 36 includes a note with the Lachish relief and prism sources. Isaiah 37 includes an account-comparison note. These notes are original study guide summaries; interview transcripts and copyrighted book pages are not copied.
 
 
-Chapter openings use one introduction. It combines the chapter summary and relevant evidence. Movement controls remain in an expandable list within that section. LDS mode adds reflection and reading help inside the same section. General map cautions appear in the footer; source-specific limits remain in source dialogs. Isaiah 36–39 have consolidated introductions in `passageContextHtml()` in `dist/app.js`.
+Chapter openings use the same introduction component. It combines the chapter summary and relevant evidence. Movement controls remain in an expandable list within that section. LDS mode adds reflection and reading help inside the same section. General map cautions appear in the footer; source-specific limits remain in source dialogs.
 
 
 Every chapter now includes a selected World English Bible passage and an original close-reading note. Main summaries also show relevant source insights, available object photographs, and short verified quotations. Historical and LDS material retain separate labels. The Cyrus Cylinder appears with Isaiah 44–45, which name Cyrus. It is not evidence for every restoration vision. Chapter 53 includes the existing manuscript discussion and its cited scholarship.

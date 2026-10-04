@@ -8,7 +8,7 @@ const errors = [];
 const fail = (message) => errors.push(message);
 const assert = (condition, message) => { if (!condition) fail(message); };
 const readJson = async (relative) => JSON.parse(await readFile(resolve(dist, relative), 'utf8'));
-const pilot = new Set(Array.from({ length: 66 }, (_, i) => i + 1));
+const chapterSet = new Set(Array.from({ length: 66 }, (_, i) => i + 1));
 
 function ids(items, name) {
   const index = new Map();
@@ -30,7 +30,7 @@ function coordinate([lat, lng], description) {
 }
 
 function checkChapterVerse(chapter, verse, description, scripture) {
-  assert(pilot.has(Number(chapter)), `${description} has a chapter outside Isaiah 1–66: ${chapter}`);
+  assert(chapterSet.has(Number(chapter)), `${description} has a chapter outside Isaiah 1–66: ${chapter}`);
   const verses = scripture.chapters?.[chapter] || [];
   assert(Number.isInteger(Number(verse)) && Number(verse) >= 1 && Number(verse) <= verses.length, `${description} has an invalid verse: ${chapter}:${verse}`);
 }
@@ -49,16 +49,25 @@ async function main() {
     readFile(resolve(dist, 'index.html'), 'utf8'),
   ]);
   assert(!/feature-uncertainty|<strong>Map limit\./.test(appSource), 'Map features must use the shared footer disclaimer instead of dedicated disclaimer panels');
-  assert(appSource.includes('const regions = state.layers.history ? data.regions.filter(visibleAt) : [];'), 'The Nations toggle must independently control historical regions');
+  assert(appSource.includes('visibleAt(region) && (!region.chapterCoverage || region.chapterCoverage.includes(state.chapter))'), 'The Nations toggle must show added regional powers only in relevant chapters');
   assert(appSource.includes("color:'#e1d6b8',weight:active ? 4 : 2.25"), 'Road selection must thicken the parchment road color without changing its hue');
   assert(styleSource.includes('path.ancient-road-hit:focus-visible{stroke:#e1d6b8;stroke-width:18;stroke-opacity:.08}'), 'Keyboard focus must not restore the blue road style');
+  assert(appSource.includes("weight:f.properties.rank <= 5 ? 3.2 : 2.2, opacity:1"), 'Rivers must remain visible beneath political overlays');
   assert(appSource.includes('function ensureLayerOptions()') && appSource.includes("fetch(`${p}?v=${releaseVersion}`)"), 'Startup must recover the layer controls and version its data requests');
-  assert(indexSource.includes('styles.css?v=20261002.2') && indexSource.includes("app.js?v=20261002.2"), 'The page must request one version of its release assets');
+  assert(indexSource.includes('styles.css?v=20261003.1') && indexSource.includes("app.js?v=20261003.1"), 'The page must request one version of its release assets');
+  assert(indexSource.includes('<title>Isaiah Study Guide</title>') && indexSource.includes('<b>ISAIAH<small>STUDY GUIDE</small></b>'), 'The app must use the Isaiah Study Guide brand');
+  assert(!indexSource.includes('Meridian') && !appSource.includes('Meridian application'), 'The retired brand must not appear in the user interface');
+  assert(appSource.includes('aria-label="Isaiah chapter ${c}"') && appSource.includes('<span>${c}</span><span class="chapter-picker-check"'), 'Chapter-picker options must show numbers only while retaining descriptive labels');
+  assert(!appSource.includes('<span>Isaiah ${c}</span>'), 'Chapter-picker options must not repeat the book name');
+  assert(appSource.includes('function chapterDateHtml()') && appSource.includes('Between about 740 and 680 BCE'), 'Each scripture heading must show the estimated period for Isaiah');
+  assert(appSource.includes('aria-describedby="chapterDateTooltip"') && appSource.includes('We do not know when this chapter was written.'), 'The estimated period must explain its uncertainty on hover or keyboard focus');
   for (const key of ['sources', 'passages', 'events', 'places', 'campaigns', 'ancientRoads', 'regions', 'words', 'guides', 'periods']) {
     assert(Array.isArray(content[key]), `content.json.${key} must be an array`);
   }
 
   const sourceById = ids(content.sources, 'source');
+  assert(sourceById.get('strong')?.url === 'https://github.com/openscriptures/strongs', 'The Strong dictionary must link to its readable project overview');
+  assert(sourceById.get('oshb')?.url === 'https://hb.openscriptures.org/', 'The Hebrew Bible must link to its readable project overview');
   const placeById = ids(content.places, 'place');
   ids(content.passages, 'passage'); ids(content.events, 'event'); ids(content.campaigns, 'campaign'); const roadById = ids(content.ancientRoads, 'ancient road'); ids(content.regions, 'region'); ids(content.words, 'word'); ids(content.guides, 'guide'); ids(content.periods, 'period');
 
@@ -92,9 +101,9 @@ async function main() {
 
   assert(scripture.translation && scripture.copyright && scripture.source, 'scripture.json must identify its translation, copyright, and source');
   const chapterKeys = Object.keys(scripture.chapters || {}).map(Number).sort((a, b) => a - b);
-  assert(JSON.stringify(chapterKeys) === JSON.stringify([...pilot]), 'scripture.json must contain exactly Isaiah 1–66');
+  assert(JSON.stringify(chapterKeys) === JSON.stringify([...chapterSet]), 'scripture.json must contain exactly Isaiah 1–66');
   let verseCount = 0;
-  for (const chapter of pilot) {
+  for (const chapter of chapterSet) {
     const verses = scripture.chapters?.[chapter];
     assert(Array.isArray(verses) && verses.length > 0, `Isaiah ${chapter} has no reading text`);
     verses?.forEach((verse, i) => {
@@ -104,7 +113,7 @@ async function main() {
     verseCount += verses?.length || 0;
   }
   assert(verseCount === 1292, `Isaiah must contain 1292 verses; found ${verseCount}`);
-  for (const chapter of pilot) {
+  for (const chapter of chapterSet) {
     const entries = content.passages.filter(p => p.chapter === chapter);
     for (const verse of scripture.chapters[chapter] || []) {
       assert(entries.filter(p => p.start <= verse.verse && p.end >= verse.verse).length === 1, `Isaiah ${chapter}:${verse.verse} must have exactly one passage note`);
@@ -112,7 +121,7 @@ async function main() {
   }
 
   for (const passage of content.passages) {
-    assert(pilot.has(Number(passage.chapter)), `Passage ${passage.id} has an invalid chapter`);
+    assert(chapterSet.has(Number(passage.chapter)), `Passage ${passage.id} has an invalid chapter`);
     assert(Number.isInteger(passage.start) && Number.isInteger(passage.end) && passage.start <= passage.end, `Passage ${passage.id} has an invalid verse interval`);
     checkChapterVerse(passage.chapter, passage.start, `Passage ${passage.id}`, scripture);
     checkChapterVerse(passage.chapter, passage.end, `Passage ${passage.id}`, scripture);
@@ -129,7 +138,7 @@ async function main() {
   }
 
   for (const event of content.events) {
-    assert(Number.isInteger(event.year) && event.year >= -780 && event.year <= -539, `Event ${event.id} has a year outside the pilot timeline`);
+    assert(Number.isInteger(event.year) && event.year >= -780 && event.year <= -539, `Event ${event.id} has a year outside the study timeline`);
     assert(event.title && event.summary && event.dateLabel && event.uncertainty, `Event ${event.id} is missing display text`);
     reference(event.sourceIds, sourceById, `Event ${event.id}`); reference(event.placeIds, placeById, `Event ${event.id}`);
     checkChapterVerse(event.chapter, event.verse, `Event ${event.id}`, scripture);
@@ -146,7 +155,7 @@ async function main() {
     assert(['judah', 'assyria', 'babylonia', 'persian'].includes(campaign.faction), `Campaign ${campaign.id} needs a known faction for its route color`);
     assert(campaign.title && campaign.summary && campaign.detail && campaign.dateLabel, `Campaign ${campaign.id} is missing display text`);
     assert(Number.isInteger(campaign.start) && Number.isInteger(campaign.end) && campaign.start <= campaign.end, `Campaign ${campaign.id} has an invalid date range`);
-    assert(campaign.start >= -780 && campaign.end <= -539, `Campaign ${campaign.id} lies outside the pilot timeline`);
+    assert(campaign.start >= -780 && campaign.end <= -539, `Campaign ${campaign.id} lies outside the study timeline`);
     assert(Array.isArray(campaign.points) && campaign.points.length >= 2, `Campaign ${campaign.id} must have at least two route points`);
     campaign.points?.forEach((point, i) => coordinate(point, `Campaign ${campaign.id} point ${i + 1}`));
     reference(campaign.sourceIds, sourceById, `Campaign ${campaign.id}`); checkChapterVerse(campaign.chapter, campaign.verse, `Campaign ${campaign.id}`, scripture);
@@ -171,14 +180,20 @@ async function main() {
     assert(Number.isInteger(region.start) && Number.isInteger(region.end) && region.start <= region.end, `Region ${region.id} has an invalid date range`);
     assert(Array.isArray(region.points) && region.points.length >= 3, `Region ${region.id} must have at least three boundary points`);
     region.points?.forEach((point, i) => coordinate(point, `Region ${region.id} point ${i + 1}`)); reference(region.sourceIds, sourceById, `Region ${region.id}`);
+    for (const chapter of region.chapterCoverage || []) assert(chapterSet.has(chapter), `Region ${region.id} has invalid chapter coverage: ${chapter}`);
+  }
+  for (const id of ['philistia', 'egypt-region', 'cush-region']) {
+    const region = content.regions.find(item => item.id === id);
+    assert(region?.chapterCoverage?.length, `Regional power ${id} must exist and identify relevant chapters`);
+    assert(region?.detail, `Regional power ${id} needs Isaiah-specific context`);
   }
 
   for (const word of content.words) {
     assert(word.label && Array.isArray(word.matches) && word.matches.length, `Word ${word.id} needs a label and one or more English selection matches`);
-    if (word.chapter != null) assert(pilot.has(Number(word.chapter)), `Word ${word.id} has a chapter outside the pilot`);
+    if (word.chapter != null) assert(chapterSet.has(Number(word.chapter)), `Word ${word.id} has a chapter outside Isaiah 1–66`);
     for (const verse of word.verses || []) checkChapterVerse(word.chapter, verse, `Word ${word.id}`, scripture);
     reference(word.sourceIds, sourceById, `Word ${word.id}`);
-    const chapters = word.chapter == null ? [...pilot] : [Number(word.chapter)];
+    const chapters = word.chapter == null ? [...chapterSet] : [Number(word.chapter)];
     const eligible = chapters.flatMap(chapter => (scripture.chapters[chapter] || []).filter(v => !word.verses?.length || word.verses.includes(v.verse)).map(v => normalized(v.text)));
     for (const match of word.matches) assert(eligible.some(text => text.includes(normalized(match))), `Word ${word.id} match “${match}” does not occur in an eligible scripture verse`);
   }
@@ -208,8 +223,8 @@ async function main() {
     try { assert((await stat(resolve(dist, asset))).size > 0, `Required local asset is empty: ${asset}`); } catch { fail(`Missing required local asset: ${asset}`); }
   }
 
-  if (errors.length) { console.error(`Meridian data check failed with ${errors.length} issue(s):`); errors.forEach(error => console.error(`- ${error}`)); process.exitCode = 1; return; }
-  console.log(`Meridian data check passed: ${verseCount} verses, ${content.sources.length} sources, ${content.passages.length} passages, ${content.words.length} curated word studies.`);
+  if (errors.length) { console.error(`Isaiah Study Guide data check failed with ${errors.length} issue(s):`); errors.forEach(error => console.error(`- ${error}`)); process.exitCode = 1; return; }
+  console.log(`Isaiah Study Guide data check passed: ${verseCount} verses, ${content.sources.length} sources, ${content.passages.length} passages, ${content.words.length} curated word studies.`);
 }
 
-main().catch(error => { console.error(`Meridian data check could not run: ${error.stack || error}`); process.exitCode = 1; });
+main().catch(error => { console.error(`Isaiah Study Guide data check could not run: ${error.stack || error}`); process.exitCode = 1; });
