@@ -131,7 +131,7 @@ assert(samariaCard.paragraphs[1].includes('Assyrian conquest'));
 assert(data.places.every(place=>place.summary && place.detail), 'Every place needs identity and Isaiah relevance');
 assert(data.places.every(place=>!place.summary.includes('Geographic reference')), 'Place cards must not use placeholder descriptions');
 assert(data.regions.every(region=>region.summary && region.detail && !region.summary.includes('shaded area')), 'Political areas need historical context instead of map instructions');
-const featureBody = app.slice(app.indexOf('function featureBodyHtml('), app.indexOf('function openFeature(', app.indexOf('function featureBodyHtml(')));
+const featureBody = app.slice(app.indexOf('function featureBodyHtml('), app.indexOf('function featureDetailBodyHtml(', app.indexOf('function featureBodyHtml(')));
 assert(!featureBody.includes('sourceInsightsHtml'), 'Map cards must not repeat source summaries');
 for (let chapter=1;chapter<=66;chapter++) {
   for (const route of chapterRoutes(data,chapter)) {

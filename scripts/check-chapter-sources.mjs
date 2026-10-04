@@ -8,6 +8,7 @@ const context = vm.createContext({
   data, scripture: JSON.parse(await readFile(new URL('../dist/data/scripture.json', import.meta.url), 'utf8')), state: {chapter:36, perspective:'historical'},
   source: id => data.sources.find(s => s.id === id),
   esc: value => String(value ?? '').replaceAll('&', '&amp;').replaceAll('"', '&quot;').replaceAll('<', '&lt;'),
+  linkedEntityHtml: value => String(value ?? '').replaceAll('&', '&amp;').replaceAll('"', '&quot;').replaceAll('<', '&lt;'),
   mapStoryHtml: () => '<details><summary>Movements &amp; evidence</summary></details>',
   sourceImageHtml: image => image ? `<img src="${image.src}">` : ''
 });

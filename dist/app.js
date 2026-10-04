@@ -10,7 +10,7 @@ const defaults = { chapter: 1, verse: 1, view: 'map', perspective: 'historical',
 let state = { ...defaults, ...readSaved(), layers: { ...defaults.layers, ...(readSaved().layers || {}) } };
 let data = { sources: [], passages: [], events: [], places: [], campaigns: [], ancientRoads: [], regions: [], words: [], guides: [], periods: [] };
 let scripture = { translation: 'World English Bible', chapters: {} };
-let map, savedScroll = 0, selectedWordButton, toastTimer, guideState = null, sidebarPersonHistory = [];
+let map, savedScroll = 0, selectedWordButton, toastTimer, guideState = null, sidebarPersonHistory = [], entityLinkCache = {chapter:null, terms:[]};
 
 function readSaved() { try { return JSON.parse(localStorage.getItem('isaiah-study-guide-state') || localStorage.getItem('meridian-state')) || {}; } catch { return {}; } }
 function persist() { try { localStorage.setItem('isaiah-study-guide-state', JSON.stringify({ ...state, map: map ? { center: [map.getCenter().lat, map.getCenter().lng], zoom: map.getZoom() } : state.map })); } catch {} updateUrl(); }
@@ -80,6 +80,51 @@ document.addEventListener('scroll', hideSourceTooltip, true);
 window.addEventListener('resize', hideSourceTooltip);
 function eligibleWords(verse) { return data.words.filter(w => (w.chapter == null || Number(w.chapter) === state.chapter) && (!w.verses?.length || w.verses.includes(verse.verse))); }
 function matchWord(token, candidates) { const plain = token.replace(/^[^\p{L}\p{N}]+|[^\p{L}\p{N}]+$/gu, ''); return candidates.find(w => (w.matches || [w.label]).some(m => m.toLowerCase() === plain.toLowerCase())) || null; }
+function entityLinkTerms() {
+  if (entityLinkCache.chapter === state.chapter && entityLinkCache.terms.length) return entityLinkCache.terms;
+  const terms = new Map();
+  const add = (label, type, id, name = label) => {
+    const clean = String(label || '').trim();
+    if (clean.length < 3 || terms.has(clean.toLowerCase())) return;
+    terms.set(clean.toLowerCase(), {label:clean, type, id, name});
+  };
+  for (const [id, person] of Object.entries(people)) {
+    for (const label of [person.name, ...(person.linkNames || [])]) add(label, 'person', id, person.name);
+  }
+  for (const feature of [...data.places, ...data.regions, ...data.campaigns, ...data.events, ...data.ancientRoads]) {
+    const name = mapDisplayName(feature.name || feature.title || '');
+    add(name, 'feature', feature.id, name);
+  }
+  const words = data.words.filter(word => Number(word.chapter) === state.chapter);
+  for (const word of words) for (const label of [word.label, ...(word.matches || [])]) add(label, 'word', word.id, word.label);
+  entityLinkCache = {chapter:state.chapter, terms:[...terms.values()].sort((a, b) => b.label.length - a.label.length)};
+  return entityLinkCache.terms;
+}
+function linkedEntityHtml(text = '', options = {}) {
+  const excluded = new Set();
+  const person = people[options.excludePersonId];
+  if (person) for (const label of [person.name, ...(person.linkNames || [])]) excluded.add(label.toLowerCase());
+  const terms = entityLinkTerms().filter(term => !excluded.has(term.label.toLowerCase()) && !(term.type === options.excludeType && term.id === options.excludeId));
+  if (!terms.length) return esc(text);
+  const byLabel = new Map(terms.map(term => [term.label.toLowerCase(), term]));
+  const pattern = new RegExp(terms.map(term => term.label.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|'), 'giu');
+  let html = '', cursor = 0;
+  for (const match of String(text).matchAll(pattern)) {
+    const start = match.index, end = start + match[0].length;
+    if (/\p{L}|\p{N}/u.test(text[start - 1] || '') || /\p{L}|\p{N}/u.test(text[end] || '')) continue;
+    const term = byLabel.get(match[0].toLowerCase());
+    if (!term) continue;
+    html += esc(text.slice(cursor, start));
+    html += term.type === 'person'
+      ? `<button type="button" class="entity-inline-link" data-person-id="${esc(term.id)}" aria-label="Open profile for ${esc(term.name)}">${esc(match[0])}</button>`
+      : `<button type="button" class="entity-inline-link" data-detail-type="${term.type}" data-detail-id="${esc(term.id)}" aria-label="Open details for ${esc(term.name)}">${esc(match[0])}</button>`;
+    cursor = end;
+  }
+  return html + esc(text.slice(cursor));
+}
+function linkedPersonProfileHtml(id, options = {}) {
+  return personProfileHtml(id, {...options, linkHtml:text => linkedEntityHtml(text, {excludePersonId:id})});
+}
 
 async function load() {
   parseUrl();
@@ -239,6 +284,7 @@ function onClick(e) {
   const perspective = e.target.closest('[data-perspective]'); if (perspective) { state.perspective = perspective.dataset.perspective; renderAll(); persist(); return; }
   const layer = e.target.closest('[data-layer]'); if (layer) { state.layers[layer.dataset.layer] = e.target.checked; drawOverlays(); persist(); return; }
   const person = e.target.closest('[data-person-id]'); if (person) { openPersonProfile(person.dataset.personId, person); return; }
+  const detail = e.target.closest('[data-detail-type][data-detail-id]'); if (detail) { openLinkedDetail(detail.dataset.detailType, detail.dataset.detailId, detail); return; }
   const word = e.target.closest('[data-word-id]'); if (word) { openWord(data.words.find(w => w.id === word.dataset.wordId), word); return; }
   const event = e.target.closest('[data-event]'); if (event) { const ev = data.events.find(x => x.id === event.dataset.event); if (ev) selectEvent(ev); return; }
   const act = e.target.closest('[data-action]'); if (act) { performAction(act.dataset.action, act.dataset.id); return; }
@@ -284,10 +330,31 @@ function renderView() { $('#timelineTooltip').hidden = true; setTimeout(() => ma
 function activePassage() { return data.passages.find(p => Number(p.chapter) === state.chapter && state.verse >= p.start && state.verse <= p.end) || data.passages.find(p => Number(p.chapter) === state.chapter); }
 function selectChapter(chapter, verse = 1) { state.chapter = chapter; state.verse = verse; state.sidebar = 'scripture'; const p = activePassage(); if (p?.year) state.date = p.year; renderAll(); persist(); $('#sidebarContent').scrollTop=0; }
 function selectPassage(id) { const p = data.passages.find(x => x.id === id); if (!p) return; state.chapter = Number(p.chapter); state.verse = Number(p.start); state.sidebar = 'scripture'; if (p.year != null) state.date = Number(p.year); renderAll(); persist(); showToast(`Following ${p.title || `Isaiah ${p.chapter}:${p.start}–${p.end}`}.`); }
+const chapterDateBands = [
+  {from:1, to:5, label:'~740 - 680 BCE'},
+  {from:6, to:6, label:'~742 - 734 BCE'},
+  {from:7, to:8, label:'~735 - 732 BCE'},
+  {from:9, to:12, label:'~740 - 680 BCE'},
+  {from:13, to:14, label:'~625 - 539 BCE'},
+  {from:15, to:19, label:'~740 - 600 BCE'},
+  {from:20, to:20, label:'~711 BCE'},
+  {from:21, to:23, label:'~740 - 680 BCE'},
+  {from:24, to:27, label:'~500 - 400 BCE'},
+  {from:28, to:33, label:'~715 - 701 BCE'},
+  {from:34, to:35, label:'~550 - 539 BCE'},
+  {from:36, to:36, label:'~701 BCE'},
+  {from:37, to:37, label:'~701 - 681 BCE'},
+  {from:38, to:38, label:'~715 - 701 BCE'},
+  {from:39, to:39, label:'~704 - 703 BCE'},
+  {from:40, to:55, label:'~550 - 539 BCE'},
+  {from:56, to:66, label:'~539 - 450 BCE'}
+];
+function chapterDateLabel(chapter = state.chapter) {
+  return chapterDateBands.find(band => chapter >= band.from && chapter <= band.to)?.label || '~740 - 680 BCE';
+}
 function chapterDateHtml() {
-  const range = 'Between about 740 and 680 BCE';
-  const detail = 'Isaiah takes place between about 740 and 680 BCE. We do not know when this chapter was written.';
-  return `<div class="chapter-date-wrap"><span class="chapter-date" tabindex="0" aria-label="Estimated period: ${range}" aria-describedby="chapterDateTooltip">${range}<span class="chapter-date-info" aria-hidden="true">i</span></span><span class="chapter-date-tooltip" id="chapterDateTooltip" role="tooltip">${detail}</span></div>`;
+  const label = chapterDateLabel();
+  return `<p class="chapter-date" aria-label="Approximate historical or composition period: ${esc(label)}">${esc(label)}</p>`;
 }
 function renderScripture() {
   sidebarPersonHistory = [];
@@ -359,21 +426,25 @@ function wordLanguagesHtml(word) {
   const refs = wordReferences(word), cite = refs.cite;
   return `<div class="word-section word-languages"><div class="word-language-grid"><div class="word-language"><h3>Greek (Septuagint)</h3>${word.greek ? `<p class="term" lang="grc">${esc(word.greek)}${cite(refs.greek)}</p>` : '<p>No Greek match was found.</p>'}</div><div class="word-language word-language-hebrew"><h3>Hebrew</h3>${word.hebrew ? `<p class="term hebrew-term"><bdi lang="he" dir="rtl">${esc(word.hebrew)}</bdi>${cite(refs.hebrew)}</p><p>${esc(word.transliteration || '')}</p>` : '<p>No Hebrew match was found.</p>'}</div></div>${word.greek && word.greekNote ? `<p class="word-language-note">${esc(word.greekNote)}${cite(refs.greek)}</p>` : ''}</div>`;
 }
-function renderWord() {
-  const word = data.words.find(w => w.id === state.wordId); const title = word?.label || state.wordLabel || 'Selected word';
+function wordStudyBodyHtml(word, title = word?.label || 'Selected word') {
   const personId = personIdForLabel(title);
-  let html = `<section class="word-view"><button class="back-button" data-action="back-scripture">← Back to scripture</button>${personId ? personProfileHtml(personId) : `<h2>${esc(title)}</h2>${wordPortraits(title)}`}`;
+  let html = personId ? linkedPersonProfileHtml(personId) : `<h2>${esc(title)}</h2>${wordPortraits(title)}`;
   if (!word) html += `<p class="translation">No study note yet</p><div class="word-section"><p>This word has no study note yet. The app does not give a Hebrew or Greek match for it.</p></div>`;
   else {
     const refs = wordReferences(word), cite = refs.cite;
     html += wordLanguagesHtml(word);
-    if (word.meaning) html += `<div class="word-section"><h3>${word.scope === 'dictionary' ? 'Dictionary meaning' : 'Meaning in this passage'}</h3><p>${richText(word.meaning)}${cite(refs.meaning)}</p></div>`;
-    if (word.discussion) html += `<div class="word-section"><h3>Study note</h3><p>${richText(word.discussion)}${cite(refs.discussion)}</p></div>`;
+    if (word.meaning) html += `<div class="word-section"><h3>${word.scope === 'dictionary' ? 'Dictionary meaning' : 'Meaning in this passage'}</h3><p>${linkedEntityHtml(word.meaning, {excludeType:'word', excludeId:word.id}).replace(/\n/g, '<br>')}${cite(refs.meaning)}</p></div>`;
+    if (word.discussion) html += `<div class="word-section"><h3>Study note</h3><p>${linkedEntityHtml(word.discussion, {excludeType:'word', excludeId:word.id}).replace(/\n/g, '<br>')}${cite(refs.discussion)}</p></div>`;
 
     if (word.related?.length) html += `<div class="word-section"><h3>Related use</h3>${word.related.map(r => `<a class="source-link" target="_blank" rel="noopener" href="${esc(r.url)}">${esc(r.label)} — ${esc(r.note || '')}</a>`).join('')}</div>`;
     html += sourceInsightsHtml(refs.ordered);
     html += `<div class="word-section"><h3>Sources</h3>${sourcesHtml(refs.ordered, true)}</div>`;
-  } $('#sidebarContent').innerHTML = html + '</section>';
+  }
+  return html;
+}
+function renderWord() {
+  const word = data.words.find(w => w.id === state.wordId); const title = word?.label || state.wordLabel || 'Selected word';
+  $('#sidebarContent').innerHTML = `<section class="word-view"><button class="back-button" data-action="back-scripture">← Back to scripture</button>${wordStudyBodyHtml(word, title)}</section>`;
 }
 function closeWord() { const restore = selectedWordButton; state.sidebar = 'scripture'; renderScripture(); persist(); requestAnimationFrame(() => { $('#sidebarContent').scrollTop = savedScroll; const verse = $(`#side-verse-${restore?.verse}`); const button = verse ? $$(restore.selector, verse)[restore.index] : null; button?.focus({ preventScroll: true }); }); }
 function scrollVerse(verse, focus = true) {
@@ -583,21 +654,43 @@ function featureScriptureHtml(feature) {
 }
 function featureBodyHtml(feature) {
   const context = featureChapterContext(feature);
-  return `<div class="feature-prose">${(context.paragraphs.length ? context.paragraphs : ['No description is available for this feature.']).map(text => `<p>${esc(text)}</p>`).join('')}${featureScriptureHtml(feature)}${data.regions.includes(feature) ? '' : sourceMediaHtml(context.sourceIds, {chapter:state.chapter})}</div>`;
+  return `<div class="feature-prose">${(context.paragraphs.length ? context.paragraphs : ['No description is available for this feature.']).map(text => `<p>${linkedEntityHtml(text, {excludeType:'feature', excludeId:feature.id})}</p>`).join('')}${featureScriptureHtml(feature)}${data.regions.includes(feature) ? '' : sourceMediaHtml(context.sourceIds, {chapter:state.chapter})}</div>`;
 }
-function renderContextPersonProfile(card, personId, backLabel) {
-  card.innerHTML = `<button class="dialog-close" data-action="close-card" aria-label="Close context">×</button>${personProfileHtml(personId, {backLabel:`Back to ${backLabel}`})}`;
-  openStudyModal('contextCard', `person:${personId}`);
+function featureDetailBodyHtml(feature) {
+  const context = featureChapterContext(feature);
+  const lds = state.perspective === 'lds' && feature.lds?.text ? `<div class="word-section"><h3>LDS reading</h3><p>${linkedEntityHtml(feature.lds.text, {excludeType:'feature', excludeId:feature.id})}</p>${sourceInsightsHtml(feature.lds.sourceIds)}</div>` : '';
+  return `<span class="eyebrow">${featureType(feature)}</span><h2>${esc(mapDisplayName(feature.name || feature.title))}</h2>${featurePortraits(feature, state.date)}${feature.dateLabel ? `<span class="badge">${esc(feature.dateLabel)}</span>` : ''}${featureBodyHtml(feature)}${lds}<div class="word-section"><h3>Sources</h3>${sourcesHtml([...context.sourceIds, ...(state.perspective === 'lds' ? feature.lds?.sourceIds || [] : [])])}</div>`;
+}
+function linkedDetail(type, id) {
+  if (type === 'person') return people[id] ? {type, id, label:people[id].name} : null;
+  if (type === 'word') { const word = data.words.find(item => item.id === id); return word ? {type, id, label:word.label, item:word} : null; }
+  if (type === 'feature') { const feature = findFeature(id); return feature ? {type, id, label:mapDisplayName(feature.name || feature.title), item:feature} : null; }
+  return null;
+}
+function detailReturnSelector(type, id) {
+  return type === 'person' ? `[data-person-id="${CSS.escape(id)}"]` : `[data-detail-type="${CSS.escape(type)}"][data-detail-id="${CSS.escape(id)}"]`;
+}
+function linkedDetailBodyHtml(detail, backLabel, context = 'sidebar') {
+  const back = `<button class="back-button person-profile-back" data-action="${context === 'context' ? 'person-profile-back' : 'sidebar-person-back'}">← Back to ${esc(backLabel)}</button>`;
+  if (detail.type === 'person') return context === 'context'
+    ? linkedPersonProfileHtml(detail.id, {backLabel:`Back to ${backLabel}`})
+    : `<section class="word-view">${back}${linkedPersonProfileHtml(detail.id)}</section>`;
+  const body = detail.type === 'word' ? wordStudyBodyHtml(detail.item, detail.label) : featureDetailBodyHtml(detail.item);
+  return `<section class="word-view">${back}${body}</section>`;
+}
+function renderContextLinkedDetail(card, detail, backLabel) {
+  card.innerHTML = `<button class="dialog-close" data-action="close-card" aria-label="Close context">×</button>${linkedDetailBodyHtml(detail, backLabel, 'context')}`;
+  openStudyModal('contextCard', `${detail.type}:${detail.id}`);
   card.scrollTop = 0;
   requestAnimationFrame(() => $('.person-profile-back', card)?.focus({preventScroll:true}));
 }
-function openSidebarPersonProfile(personId, trigger) {
-  if (!personProfileHtml(personId)) return;
+function openSidebarLinkedDetail(type, id, trigger) {
+  const detail = linkedDetail(type, id);
+  if (!detail) return;
   const content = $('#sidebarContent');
-  const currentId = trigger.closest('[data-person-profile]')?.dataset.personProfile;
-  sidebarPersonHistory.push({html:content.innerHTML, scrollTop:content.scrollTop, returnPersonId:personId});
-  const backLabel = people[currentId]?.name || 'previous profile';
-  content.innerHTML = `<section class="word-view"><button class="back-button person-profile-back" data-action="sidebar-person-back">← Back to ${esc(backLabel)}</button>${personProfileHtml(personId)}</section>`;
+  const backLabel = $('h2', content)?.textContent?.trim() || state.wordLabel || `Isaiah ${state.chapter}`;
+  sidebarPersonHistory.push({html:content.innerHTML, scrollTop:content.scrollTop, returnSelector:detailReturnSelector(type, id)});
+  content.innerHTML = linkedDetailBodyHtml(detail, backLabel);
   content.scrollTop = 0;
   requestAnimationFrame(() => $('[data-action="sidebar-person-back"]', content)?.focus({preventScroll:true}));
 }
@@ -607,52 +700,40 @@ function closeSidebarPersonProfile() {
   content.innerHTML = previous.html;
   requestAnimationFrame(() => {
     content.scrollTop = previous.scrollTop;
-    $(`[data-person-id="${CSS.escape(previous.returnPersonId)}"]`, content)?.focus({preventScroll:true});
+    $(previous.returnSelector, content)?.focus({preventScroll:true});
   });
 }
 function openPersonProfile(personId, trigger) {
   const card = trigger?.closest('#contextCard');
-  if (!card) return openSidebarPersonProfile(personId, trigger);
-  if (!personProfileHtml(personId)) return;
-  const feature = findFeature(card.dataset.feature);
-  if (!feature) return;
-  const currentId = trigger.closest('[data-person-profile]')?.dataset.personProfile;
-  if (!currentId) {
-    card._personProfileHistory = [];
-    card._personProfileBack = {
-      featureId: feature.id,
-      pinned: card.dataset.pinned === 'true',
-      scrollTop: card.scrollTop,
-      label: mapDisplayName(feature.name || feature.title)
-    };
-  } else {
-    card._personProfileHistory ||= [];
-    card._personProfileHistory.push({personId:currentId, scrollTop:card.scrollTop, returnPersonId:personId});
-  }
-  renderContextPersonProfile(card, personId, currentId ? people[currentId].name : card._personProfileBack.label);
+  if (!card) return openSidebarLinkedDetail('person', personId, trigger);
+  openContextLinkedDetail('person', personId, trigger);
+}
+function openLinkedDetail(type, id, trigger) {
+  const card = trigger?.closest('#contextCard');
+  if (!card) return openSidebarLinkedDetail(type, id, trigger);
+  openContextLinkedDetail(type, id, trigger);
+}
+function openContextLinkedDetail(type, id, trigger) {
+  const detail = linkedDetail(type, id), card = trigger?.closest('#contextCard');
+  if (!detail || !card) return;
+  const backLabel = $('h2', card)?.textContent?.trim() || 'previous entry';
+  card._detailHistory ||= [];
+  card._detailHistory.push({html:card.innerHTML, scrollTop:card.scrollTop, returnSelector:detailReturnSelector(type, id)});
+  renderContextLinkedDetail(card, detail, backLabel);
 }
 function closePersonProfile() {
-  const card = $('#contextCard'), back = card._personProfileBack, previous = card._personProfileHistory?.pop();
+  const card = $('#contextCard'), previous = card._detailHistory?.pop();
   if (previous) {
-    const backLabel = card._personProfileHistory?.length
-      ? people[card._personProfileHistory.at(-1).personId].name
-      : back.label;
-    renderContextPersonProfile(card, previous.personId, backLabel);
+    card.innerHTML = previous.html;
     requestAnimationFrame(() => {
       card.scrollTop = previous.scrollTop;
-      $(`[data-person-id="${CSS.escape(previous.returnPersonId)}"]`, card)?.focus({preventScroll:true});
+      $(previous.returnSelector, card)?.focus({preventScroll:true});
     });
     return;
   }
-  const feature = back && findFeature(back.featureId);
-  if (!feature) return closeCard();
-  openFeature(feature, back.pinned, card._origin);
-  requestAnimationFrame(() => {
-    card.scrollTop = back.scrollTop;
-    $(`[data-person-id]`, card)?.focus({preventScroll:true});
-  });
+  closeCard();
 }
-function openFeature(f, pinned = false, origin) { if (!f) return; if (pinned) focusPathVerse(f); const card = $('#contextCard'); if (!pinned && card.dataset.pinned === 'true' && !card.classList.contains('hidden')) return; card._personProfileHistory = []; card._personProfileBack = null; card.dataset.feature = f.id; card.dataset.pinned = String(pinned); const context = featureChapterContext(f); const lds = state.perspective === 'lds' && f.lds?.text ? `<div class="word-section"><h3>LDS reading</h3><p>${esc(f.lds.text)}</p>${sourceInsightsHtml(f.lds.sourceIds)}</div>` : ''; card.innerHTML = `<button class="dialog-close" data-action="close-card" aria-label="Close context">×</button><span class="eyebrow">${featureType(f)}</span><h2>${esc(mapDisplayName(f.name || f.title))}</h2>${featurePortraits(f, state.date)}${f.dateLabel ? `<span class="badge">${esc(f.dateLabel)}</span>` : ''}${featureBodyHtml(f)}${lds}<div class="word-section"><h3>Sources</h3>${sourcesHtml([...context.sourceIds, ...(state.perspective === 'lds' ? f.lds?.sourceIds || [] : [])])}</div>`; openStudyModal('contextCard', f.id); card.scrollTop = 0; card._origin = origin?.getElement?.() || origin || card._origin; const point = origin?.getLatLng?.() || origin?.getCenter?.(); const stage = $('.map-stage'); const labelRect = origin?.getElement?.()?.matches('.city-label') ? origin.getElement().firstElementChild.getBoundingClientRect() : null; const stageRect = stage.getBoundingClientRect(); const at = labelRect ? {x:labelRect.right-stageRect.left, y:labelRect.top-stageRect.top} : point && map ? map.latLngToContainerPoint(point) : {x: stage.clientWidth / 2, y: 70}; card.style.left = `${Math.max(12, Math.min(at.x + 18, stage.clientWidth - card.offsetWidth - 12))}px`; card.style.top = `${Math.max(12, Math.min(at.y, stage.clientHeight - card.offsetHeight - 12))}px`; }
+function openFeature(f, pinned = false, origin) { if (!f) return; if (pinned) focusPathVerse(f); const card = $('#contextCard'); if (!pinned && card.dataset.pinned === 'true' && !card.classList.contains('hidden')) return; card._detailHistory = []; card.dataset.feature = f.id; card.dataset.pinned = String(pinned); card.innerHTML = `<button class="dialog-close" data-action="close-card" aria-label="Close context">×</button>${featureDetailBodyHtml(f)}`; openStudyModal('contextCard', f.id); card.scrollTop = 0; card._origin = origin?.getElement?.() || origin || card._origin; const point = origin?.getLatLng?.() || origin?.getCenter?.(); const stage = $('.map-stage'); const labelRect = origin?.getElement?.()?.matches('.city-label') ? origin.getElement().firstElementChild.getBoundingClientRect() : null; const stageRect = stage.getBoundingClientRect(); const at = labelRect ? {x:labelRect.right-stageRect.left, y:labelRect.top-stageRect.top} : point && map ? map.latLngToContainerPoint(point) : {x: stage.clientWidth / 2, y: 70}; card.style.left = `${Math.max(12, Math.min(at.x + 18, stage.clientWidth - card.offsetWidth - 12))}px`; card.style.top = `${Math.max(12, Math.min(at.y, stage.clientHeight - card.offsetHeight - 12))}px`; }
 function closeCard() { const card = $('#contextCard'); if (card.classList.contains('hidden')) return; hideModalPanel(card); syncMapSelection(); card._origin?.focus?.({preventScroll:true}); }
 
 function initMap() {

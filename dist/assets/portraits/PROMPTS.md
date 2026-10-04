@@ -49,3 +49,20 @@ Nebuchadnezzar II king of Babylon, broad mature Mesopotamian face, square jaw, t
 
 Cyrus king of Persia, mature Iranian man, long wavy dark hair, medium beard with a few silver streaks, simple cloth royal headband, ivory and brown Persian robe. Relaxed RIGHT-facing three-quarter pose, head gently tilted, open kind expression with slight confident smile, eyes looking off to distant horizon. Eye-level camera pulled back slightly to include both shoulders. Background: bright rose and apricot dawn over a distant Persian mountain ridge. Airy warm pink and ivory palette.
 
+## Completed profile portrait set (October 2026)
+
+Generated with the built-in image generation tool. Each image uses a polished realistic historical style, a square crop, plausible ancient Near Eastern clothing, and no text or watermark. The prompts deliberately vary the pose, expression, light, and setting.
+
+- **remaliah-v2.png:** Older Israelite nobleman on the left third. He looks past the viewer with concern. Late-afternoon olive grove and hill town.
+- **jesse-v2.png:** Older shepherd on the right third. He has a gentle half-smile and holds a staff. Overcast Bethlehem pasture.
+- **amoz-v2.png:** Older Judean man in a close, slightly bowed pose. He looks thoughtful. Shaded Jerusalem courtyard with a fig tree.
+- **shear-jashub-v2.png:** Young Judean boy in side profile. He looks alert as if listening. Breezy Jerusalem rooftop at dawn.
+- **maher-shalal-hash-baz-v2.png:** Young Judean boy kneeling with a clay toy. He has a bright smile. Sunny family courtyard with a pomegranate tree.
+- **sargon-ii-v2.png:** Assyrian king in a strong side profile. He has a stern, controlled expression. Shadowed Dur-Sharrukin palace passage.
+- **esarhaddon-v2.png:** Assyrian king seated with one hand near his chin. He looks tired and calculating. Lamplit Nineveh council chamber.
+- **rabshakeh-v2.png:** Assyrian official shown mid-speech with an open hand. He looks confident and challenging. Windy field camp outside Jerusalem.
+- **eliakim-v2.png:** Judean administrator at a palace gate with a ring of keys. He has a focused, welcoming expression. Bright morning light.
+- **shebna-v2.png:** Judean scribe seated at a writing desk. He glances sideways with a slight proud smile. Cool records room with scrolls and seals.
+- **joah-v2.png:** Judean recorder walking away and looking back. He has a grave expression. Jerusalem wall after rain.
+- **nabopolassar-v2.png:** Older Babylonian king in a low-angle view. He looks weary and triumphant. Babylon terrace at blue hour with torchlight and an unfinished gate.
+

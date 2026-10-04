@@ -59,8 +59,9 @@ async function main() {
   assert(!indexSource.includes('Meridian') && !appSource.includes('Meridian application'), 'The retired brand must not appear in the user interface');
   assert(appSource.includes('aria-label="Isaiah chapter ${c}"') && appSource.includes('<span>${c}</span><span class="chapter-picker-check"'), 'Chapter-picker options must show numbers only while retaining descriptive labels');
   assert(!appSource.includes('<span>Isaiah ${c}</span>'), 'Chapter-picker options must not repeat the book name');
-  assert(appSource.includes('function chapterDateHtml()') && appSource.includes('Between about 740 and 680 BCE'), 'Each scripture heading must show the estimated period for Isaiah');
-  assert(appSource.includes('aria-describedby="chapterDateTooltip"') && appSource.includes('We do not know when this chapter was written.'), 'The estimated period must explain its uncertainty on hover or keyboard focus');
+  assert(appSource.includes('function chapterDateLabel(') && appSource.includes("{from:40, to:55, label:'~550 - 539 BCE'}") && appSource.includes("{from:56, to:66, label:'~539 - 450 BCE'}"), 'Chapter headings must distinguish First, Second, and Third Isaiah date ranges');
+  assert(appSource.includes("{from:20, to:20, label:'~711 BCE'}") && appSource.includes("{from:36, to:36, label:'~701 BCE'}"), 'Historically anchored chapters must use narrower date labels');
+  assert(!appSource.includes('chapterDateTooltip') && !appSource.includes('We do not know when this chapter was written.'), 'Chapter dates must not use the retired uncertainty tooltip');
   for (const key of ['sources', 'passages', 'events', 'places', 'campaigns', 'ancientRoads', 'regions', 'words', 'guides', 'periods']) {
     assert(Array.isArray(content[key]), `content.json.${key} must be an array`);
   }

@@ -236,10 +236,12 @@ export function portraitsHtml(ids = [], options = {}) {
     const {name, role} = people[id];
     const linkedRole = role.replace(/Isaiah (\d+)(?:–\d+)?/g, (reference, chapter) =>
       `<a class="scripture-reference" href="https://www.churchofjesuschrist.org/study/scriptures/ot/isa/${chapter}?lang=eng" target="_blank" rel="noopener">${reference}</a>`);
-    const image = portraitMode === 'non-generated' ? licensedImages[id] : { src: `assets/portraits/${id}-v2.png` };
+    const licensedImage = portraitMode === 'non-generated' ? licensedImages[id] : null;
+    const image = licensedImage || { src: `assets/portraits/${id}-v2.png` };
     const hue = [...id].reduce((sum, c) => sum + c.charCodeAt(0), 0) % 360;
     const credit = image?.sourceUrl ? `<small class="portrait-credit"><a href="${escapeHtml(image.sourceUrl)}" target="_blank" rel="noopener">${escapeHtml(image.credit)}</a> · <a href="${escapeHtml(image.licenseUrl)}" target="_blank" rel="noopener">${escapeHtml(image.license)}</a> · Cropped</small>` : '';
-    const art = `<span class="portrait-art" style="--portrait-hue:${hue}"><span class="portrait-initial" role="img" aria-label="${name}: no portrait available" ${image ? 'aria-hidden="true"' : ''}>${name[0]}</span>${image ? `<img src="${escapeHtml(image.src)}" width="88" height="88" alt="${portraitMode === 'non-generated' ? 'Historical depiction' : 'Generated illustration'} of ${name}">` : ''}</span>`;
+    const imageKind = licensedImage ? 'Historical depiction' : 'Generated illustration';
+    const art = `<span class="portrait-art" style="--portrait-hue:${hue}"><span class="portrait-initial" role="img" aria-label="${name}: portrait failed to load" aria-hidden="true">${name[0]}</span><img src="${escapeHtml(image.src)}" width="88" height="88" alt="${imageKind} of ${name}"></span>`;
     const imageControl = options.interactive === false ? art : `<button type="button" class="portrait-profile-button portrait-image-button" data-person-id="${id}" aria-label="Open profile for ${escapeHtml(name)}">${art}</button>`;
     const nameControl = options.interactive === false ? `<strong>${escapeHtml(name)}</strong>` : `<button type="button" class="portrait-profile-button portrait-name-button" data-person-id="${id}">${escapeHtml(name)}</button>`;
     return `<figure class="person-portrait">${imageControl}<figcaption>${nameControl}<span>${linkedRole}</span>${credit}</figcaption></figure>`;
@@ -249,8 +251,9 @@ export function portraitsHtml(ids = [], options = {}) {
 export function personProfileHtml(id, options = {}) {
   const person = people[id];
   if (!person) return '';
+  const linkHtml = options.linkHtml || (text => linkedPeopleHtml(text, id));
   const back = options.backLabel ? `<button class="back-button person-profile-back" data-action="person-profile-back">← ${escapeHtml(options.backLabel)}</button>` : '';
-  return `<section class="person-profile" data-person-profile="${id}">${back}<span class="eyebrow">Person profile</span><h2>${escapeHtml(person.name)}</h2>${portraitsHtml([id], {interactive:false})}<dl class="person-facts"><div><dt>Estimated lifespan</dt><dd>${escapeHtml(person.life)}</dd></div><div><dt>Known for</dt><dd>${escapeHtml(person.role)}</dd></div><div><dt>Key locations</dt><dd>${person.locations.map(escapeHtml).join(' · ')}</dd></div></dl><p class="profile-date-note"><strong>Date note.</strong> ${linkedPeopleHtml(person.dateNote, id)}</p><div class="word-section"><h3>Why this person matters</h3><p>${linkedPeopleHtml(person.importance, id)}</p></div><div class="word-section"><h3>Story connections</h3><p>${linkedPeopleHtml(person.connections, id)}</p></div><div class="word-section"><h3>Relevant passages</h3><ul class="profile-passages">${person.passages.map(passage => `<li>${escapeHtml(passage)}</li>`).join('')}</ul></div><p class="profile-portrait-note">Portraits are illustrations or later historical depictions. They do not show the person’s known appearance.</p></section>`;
+  return `<section class="person-profile" data-person-profile="${id}">${back}<h2>${escapeHtml(person.name)}</h2>${portraitsHtml([id], {interactive:false})}<dl class="person-facts"><div><dt>Estimated lifespan</dt><dd>${escapeHtml(person.life)}</dd></div><div><dt>Known for</dt><dd>${linkHtml(person.role)}</dd></div><div><dt>Key locations</dt><dd>${person.locations.map(linkHtml).join(' · ')}</dd></div></dl><p class="profile-date-note"><strong>Date note.</strong> ${linkHtml(person.dateNote)}</p><div class="word-section"><h3>Why this person matters</h3><p>${linkHtml(person.importance)}</p></div><div class="word-section"><h3>Story connections</h3><p>${linkHtml(person.connections)}</p></div><div class="word-section"><h3>Relevant passages</h3><ul class="profile-passages">${person.passages.map(passage => `<li>${escapeHtml(passage)}</li>`).join('')}</ul></div><p class="profile-portrait-note">Portraits are illustrations or later historical depictions. They do not show the person’s known appearance.</p></section>`;
 }
 
 export function personIdForLabel(label = '') {
