@@ -1,0 +1,649 @@
+{
+  "sources": [
+    {
+      "id": "web",
+      "title": "Ruth — World English Bible",
+      "url": "https://ebible.org/engwebp/RUT01.htm",
+      "summary": "The public-domain reading text supplies all four chapters.",
+      "category": "Scripture",
+      "perspective": "historical",
+      "limits": "The text supplies the narrated actions and genealogy. It does not independently verify event years or personal appearance.",
+      "type": "Scripture",
+      "limitations": "The text supplies the narrated actions and genealogy. It does not independently verify event years or personal appearance.",
+      "license": "Public domain"
+    },
+    {
+      "id": "atlas",
+      "title": "Bible Maps: The World of the Old Testament",
+      "perspective": "historical",
+      "category": "Geography",
+      "url": "https://www.churchofjesuschrist.org/study/scriptures/bible-maps/map-9?lang=eng",
+      "summary": "This Church-published atlas locates the wider setting and marks some disputed places.",
+      "limits": "Use the geographic labels as context. The linked atlas also includes LDS commentary.",
+      "type": "Geography",
+      "limitations": "Use the geographic labels as context. The linked atlas also includes LDS commentary.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "atlas-canaan",
+      "title": "Bible Maps: Canaan in Old Testament Times",
+      "perspective": "historical",
+      "category": "Geography",
+      "url": "https://www.churchofjesuschrist.org/study/scriptures/bible-maps/map-10?lang=eng",
+      "summary": "This Church-published atlas identifies towns and regions in Canaan.",
+      "limits": "Coordinates are display estimates. A town marker does not verify each Genesis event.",
+      "type": "Geography",
+      "limitations": "Coordinates are display estimates. A town marker does not verify each Genesis event.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "terrain",
+      "title": "Mapzen / Tilezen terrain and Natural Earth geography",
+      "perspective": "historical",
+      "category": "Geography",
+      "url": "https://registry.opendata.aws/terrain-tiles/",
+      "summary": "Cached terrain shows modern elevation. Natural Earth supplies the land and water outlines.",
+      "limits": "Modern terrain is a geographic aid. It does not reconstruct ancient shorelines or settlements.",
+      "type": "Geography",
+      "limitations": "Modern terrain is a geographic aid. It does not reconstruct ancient shorelines or settlements.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "yale-ruth",
+      "title": "The Book of Ruth, Part 2 · Yale Bible Study",
+      "url": "https://yalebiblestudy.org/courses/ruth-song-of-songs-lamentations-and-esther/lessons/the-book-of-ruth-part-2-study-guide/",
+      "summary": "The study examines the women’s relationship, household survival, devotion, and uncertainty about the threshing-floor encounter.",
+      "category": "Scholarly study",
+      "perspective": "historical",
+      "limits": "The published study guide was reviewed, not its video. Its final paragraph incorrectly contrasts Ruth with Boaz in the genealogy. Ruth 4:18–22 names Boaz; this guide follows the biblical text.",
+      "author": "Yale Bible Study · course presenters Joel S. Baden and Jacqueline Vayntrub",
+      "reviewed": "2026-10-05: Published study guide and course presenter record reviewed.",
+      "chapterCoverage": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "type": "Scholarly study",
+      "limitations": "The published study guide was reviewed, not its video. Its final paragraph incorrectly contrasts Ruth with Boaz in the genealogy. Ruth 4:18–22 names Boaz; this guide follows the biblical text.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "scholar-schipper",
+      "title": "Ruth: A New Translation with Introduction and Commentary",
+      "url": "https://yalebooks.yale.edu/book/9780300216547/ruth/",
+      "summary": "The publisher describes Schipper’s study of relationships, household status, gender, and ethnicity in Ruth.",
+      "category": "Scholarly study",
+      "perspective": "historical",
+      "limits": "The 2016 publisher description and author record were reviewed. The full commentary was not read.",
+      "author": "Jeremy Schipper",
+      "year": 2016,
+      "reviewed": "2026-10-05: Yale University Press edition and description reviewed.",
+      "chapterCoverage": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "type": "Scholarly study",
+      "limitations": "The 2016 publisher description and author record were reviewed. The full commentary was not read.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "dm-ruth",
+      "title": "Ruth 2: Translation and Notes",
+      "url": "https://danielomcclellan.wordpress.com/2010/05/05/ruth-2-translation-and-notes/",
+      "summary": "McClellan discusses Hebrew grammar and differences between Hebrew and Greek readings in Ruth 2, including the uncertain wording of verse 7.",
+      "category": "Scholar commentary",
+      "perspective": "historical",
+      "limits": "This is one scholar’s 2010 translation and notes. The guide retains the World English Bible reading and does not treat each proposed reconstruction as settled.",
+      "author": "Dan McClellan",
+      "year": "May 5, 2010",
+      "group": "mcclellan",
+      "reviewed": "2026-10-05: Original translation and notes reviewed, particularly notes 1, 6, 10, and 16.",
+      "chapterCoverage": [
+        2
+      ],
+      "type": "Scholar commentary",
+      "limitations": "This is one scholar’s 2010 translation and notes. The guide retains the World English Bible reading and does not treat each proposed reconstruction as settled.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "lds-ruth",
+      "title": "Ruth 1–4 · Institute commentary",
+      "url": "https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/judges-13-21-ruth-1-4-the-reign-of-the-judges-part-2?lang=eng",
+      "summary": "The manual explains gleaning, family redemption, the proposal, and the witnessed gate agreement.",
+      "category": "LDS study manual",
+      "perspective": "lds",
+      "limits": "The Ruth sections of the 1980 manual were reviewed. Its historical explanations remain distinct from independent evidence. Boaz is a relative, not Mahlon’s stated brother.",
+      "author": "The Church of Jesus Christ of Latter-day Saints",
+      "year": 1980,
+      "reviewed": "2026-10-05: Sections 23-14–23-20 and the Ruth portion of 23-22 reviewed.",
+      "chapterCoverage": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "type": "LDS study manual",
+      "limitations": "The Ruth sections of the 1980 manual were reviewed. Its historical explanations remain distinct from independent evidence. Boaz is a relative, not Mahlon’s stated brother.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "cfm-2026-23",
+      "title": "Come, Follow Me 2026 · Ruth; 1 Samuel 1–7 · Ruth coverage",
+      "author": "The Church of Jesus Christ of Latter-day Saints",
+      "year": 2026,
+      "category": "LDS study manual",
+      "perspective": "lds",
+      "url": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/23?lang=eng",
+      "summary": "The lesson studies faith through loss, practical kindness, and family redemption. It compares Ruth and Boaz with Jesus Christ.",
+      "reviewed": "2026-10-05: Official lesson heading, selected chapter coverage, and relevant study sections reviewed.",
+      "limits": "This is Church teaching and application. It does not independently establish archaeological evidence or event dates.",
+      "license": "Linked official Church lesson. Original guide summary.",
+      "chapterCoverage": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "type": "LDS study manual",
+      "limitations": "This is Church teaching and application. It does not independently establish archaeological evidence or event dates."
+    },
+    {
+      "id": "wiki-ruth",
+      "title": "Book of Ruth · Wikipedia",
+      "author": "Wikipedia contributors",
+      "category": "Encyclopedia background",
+      "perspective": "historical",
+      "url": "https://en.wikipedia.org/wiki/Book_of_Ruth",
+      "revisionId": "1374486736",
+      "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1374486736",
+      "summary": "Ruth follows a Moabite widow’s return with Naomi to Bethlehem. The household account ends with a genealogy connected to David.",
+      "reviewed": "2026-10-05: Opening overview and book structure reviewed. These notes make no claim about exact composition dates.",
+      "limits": "Anyone can edit this source. Use it for background and source discovery. Its disputed historical claims require separate scholarly review.",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "chapterCoverage": [
+        1,
+        4
+      ],
+      "type": "Encyclopedia background",
+      "limitations": "Anyone can edit this source. Use it for background and source discovery. Its disputed historical claims require separate scholarly review."
+    }
+  ],
+  "passages": [
+    {
+      "id": "ruth-1",
+      "chapter": 1,
+      "start": 1,
+      "end": 22,
+      "title": "Loss and the return to Bethlehem",
+      "summary": "Famine takes Elimelech’s household to Moab. After three deaths, Naomi returns. Ruth stays with her, while Orpah returns home. Grief and chosen loyalty shape the opening. Orpah receives Naomi’s blessing. Her departure does not make her an enemy.",
+      "year": null,
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "The map shows the named town and broad region. It does not identify private buildings or an ancient road.",
+      "placeIds": [
+        "moab",
+        "bethlehem"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-ruth",
+        "scholar-schipper",
+        "atlas-canaan",
+        "wiki-ruth"
+      ],
+      "lds": {
+        "text": "The Church lesson studies faith through loss. Its application does not promise that every bereaved person will remarry.",
+        "sourceIds": [
+          "lds-ruth",
+          "cfm-2026-23"
+        ]
+      }
+    },
+    {
+      "id": "ruth-2",
+      "chapter": 2,
+      "start": 1,
+      "end": 23,
+      "title": "Ruth gleans in Boaz’s field",
+      "summary": "Ruth gathers leftover grain. Boaz provides protection, food, and additional grain. Naomi recognizes his connection with their family. Gleaning means collecting grain left after harvest. The account makes safety, work, and practical care central to household survival.",
+      "year": null,
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "The map shows the named town and broad region. It does not identify private buildings or an ancient road.",
+      "placeIds": [
+        "bethlehem"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-ruth",
+        "scholar-schipper",
+        "atlas-canaan",
+        "dm-ruth"
+      ],
+      "lds": {
+        "text": "Come, Follow Me studies kindness and trust. Consider how practical help changes the conditions another person faces.",
+        "sourceIds": [
+          "lds-ruth",
+          "cfm-2026-23"
+        ]
+      }
+    },
+    {
+      "id": "ruth-3",
+      "chapter": 3,
+      "start": 1,
+      "end": 18,
+      "title": "The request at the threshing floor",
+      "summary": "Naomi proposes a plan. Ruth approaches Boaz at night and asks for his protection. He promises action after consulting a nearer relative. Ruth speaks directly about family redemption. Readers debate the scene’s implications. The text does not explicitly describe a sexual act.",
+      "year": null,
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "The map shows the named town and broad region. It does not identify private buildings or an ancient road.",
+      "placeIds": [
+        "bethlehem"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-ruth",
+        "scholar-schipper",
+        "atlas-canaan"
+      ],
+      "lds": {
+        "text": "The older manual reads Ruth’s request as a marriage proposal. Keep that interpretation distinct from unstated details.",
+        "sourceIds": [
+          "lds-ruth",
+          "cfm-2026-23"
+        ]
+      }
+    },
+    {
+      "id": "ruth-4",
+      "chapter": 4,
+      "start": 1,
+      "end": 22,
+      "title": "The gate agreement and Obed’s birth",
+      "summary": "Boaz consults the nearer relative and witnesses at the gate. He marries Ruth. Obed is born, and the closing genealogy reaches David. Public witnesses connect household care with recognized responsibility. The genealogy is the book’s claim about ancestry, not an independently verified record.",
+      "year": null,
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "The map shows the named town and broad region. It does not identify private buildings or an ancient road.",
+      "placeIds": [
+        "bethlehem"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-ruth",
+        "scholar-schipper",
+        "atlas-canaan",
+        "wiki-ruth"
+      ],
+      "lds": {
+        "text": "Come, Follow Me compares Ruth and Boaz with Jesus Christ. This Christian reading is separate from the ancient narrated transaction.",
+        "sourceIds": [
+          "lds-ruth",
+          "cfm-2026-23"
+        ]
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "ruth-1",
+      "chapter": 1,
+      "verse": 1,
+      "eventOrder": 1,
+      "title": "Loss and the return to Bethlehem",
+      "summary": "Famine takes Elimelech’s household to Moab. After three deaths, Naomi returns. Ruth stays with her, while Orpah returns home.",
+      "detail": "Grief and chosen loyalty shape the opening. Orpah receives Naomi’s blessing. Her departure does not make her an enemy.",
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "The map shows the named town and broad region. It does not identify private buildings or an ancient road.",
+      "sourceIds": [
+        "web",
+        "yale-ruth",
+        "scholar-schipper",
+        "atlas-canaan",
+        "wiki-ruth"
+      ],
+      "placeIds": [
+        "moab",
+        "bethlehem"
+      ],
+      "lds": {
+        "text": "The Church lesson studies faith through loss. Its application does not promise that every bereaved person will remarry.",
+        "sourceIds": [
+          "lds-ruth",
+          "cfm-2026-23"
+        ]
+      }
+    },
+    {
+      "id": "ruth-2",
+      "chapter": 2,
+      "verse": 1,
+      "eventOrder": 2,
+      "title": "Ruth gleans in Boaz’s field",
+      "summary": "Ruth gathers leftover grain. Boaz provides protection, food, and additional grain. Naomi recognizes his connection with their family.",
+      "detail": "Gleaning means collecting grain left after harvest. The account makes safety, work, and practical care central to household survival.",
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "The map shows the named town and broad region. It does not identify private buildings or an ancient road.",
+      "sourceIds": [
+        "web",
+        "yale-ruth",
+        "scholar-schipper",
+        "atlas-canaan",
+        "dm-ruth"
+      ],
+      "placeIds": [
+        "bethlehem"
+      ],
+      "lds": {
+        "text": "Come, Follow Me studies kindness and trust. Consider how practical help changes the conditions another person faces.",
+        "sourceIds": [
+          "lds-ruth",
+          "cfm-2026-23"
+        ]
+      }
+    },
+    {
+      "id": "ruth-3",
+      "chapter": 3,
+      "verse": 1,
+      "eventOrder": 3,
+      "title": "The request at the threshing floor",
+      "summary": "Naomi proposes a plan. Ruth approaches Boaz at night and asks for his protection. He promises action after consulting a nearer relative.",
+      "detail": "Ruth speaks directly about family redemption. Readers debate the scene’s implications. The text does not explicitly describe a sexual act.",
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "The map shows the named town and broad region. It does not identify private buildings or an ancient road.",
+      "sourceIds": [
+        "web",
+        "yale-ruth",
+        "scholar-schipper",
+        "atlas-canaan"
+      ],
+      "placeIds": [
+        "bethlehem"
+      ],
+      "lds": {
+        "text": "The older manual reads Ruth’s request as a marriage proposal. Keep that interpretation distinct from unstated details.",
+        "sourceIds": [
+          "lds-ruth",
+          "cfm-2026-23"
+        ]
+      }
+    },
+    {
+      "id": "ruth-4",
+      "chapter": 4,
+      "verse": 1,
+      "eventOrder": 4,
+      "title": "The gate agreement and Obed’s birth",
+      "summary": "Boaz consults the nearer relative and witnesses at the gate. He marries Ruth. Obed is born, and the closing genealogy reaches David.",
+      "detail": "Public witnesses connect household care with recognized responsibility. The genealogy is the book’s claim about ancestry, not an independently verified record.",
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "The map shows the named town and broad region. It does not identify private buildings or an ancient road.",
+      "sourceIds": [
+        "web",
+        "yale-ruth",
+        "scholar-schipper",
+        "atlas-canaan",
+        "wiki-ruth"
+      ],
+      "placeIds": [
+        "bethlehem"
+      ],
+      "lds": {
+        "text": "Come, Follow Me compares Ruth and Boaz with Jesus Christ. This Christian reading is separate from the ancient narrated transaction.",
+        "sourceIds": [
+          "lds-ruth",
+          "cfm-2026-23"
+        ]
+      }
+    }
+  ],
+  "places": [
+    {
+      "id": "moab",
+      "name": "Moab · broad region",
+      "lat": 31.5,
+      "lng": 35.75,
+      "summary": "The household’s destination during famine. Naomi and Ruth later leave this region.",
+      "limits": "Regional marker only. The family’s home and the journey’s exact path are unknown.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan"
+      ],
+      "detail": "Regional marker only. The family’s home and the journey’s exact path are unknown.",
+      "uncertainty": "Regional marker only. The family’s home and the journey’s exact path are unknown.",
+      "chapterLocation": true
+    },
+    {
+      "id": "bethlehem",
+      "name": "Bethlehem",
+      "lat": 31.705,
+      "lng": 35.202,
+      "summary": "Naomi’s return town and the setting of Ruth’s work and marriage agreement.",
+      "limits": "Town locality only. Boaz’s field, threshing floor, and gate are not securely identified.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan"
+      ],
+      "detail": "Town locality only. Boaz’s field, threshing floor, and gate are not securely identified.",
+      "uncertainty": "Town locality only. Boaz’s field, threshing floor, and gate are not securely identified.",
+      "chapterLocation": true
+    }
+  ],
+  "campaigns": [],
+  "ancientRoads": [],
+  "regions": [],
+  "words": [],
+  "guides": [
+    {
+      "id": "ruth-overview",
+      "title": "Study Ruth",
+      "description": "Follow selected chapters through the book.",
+      "steps": [
+        {
+          "title": "Loss and the return to Bethlehem",
+          "text": "Famine takes Elimelech’s household to Moab. After three deaths, Naomi returns. Ruth stays with her, while Orpah returns home. Grief and chosen loyalty shape the opening. Orpah receives Naomi’s blessing. Her departure does not make her an enemy.",
+          "chapter": 1,
+          "verse": 1,
+          "sourceIds": [
+            "web",
+            "yale-ruth",
+            "scholar-schipper",
+            "atlas-canaan",
+            "wiki-ruth"
+          ]
+        },
+        {
+          "title": "The request at the threshing floor",
+          "text": "Naomi proposes a plan. Ruth approaches Boaz at night and asks for his protection. He promises action after consulting a nearer relative. Ruth speaks directly about family redemption. Readers debate the scene’s implications. The text does not explicitly describe a sexual act.",
+          "chapter": 3,
+          "verse": 1,
+          "sourceIds": [
+            "web",
+            "yale-ruth",
+            "scholar-schipper",
+            "atlas-canaan"
+          ]
+        },
+        {
+          "title": "The gate agreement and Obed’s birth",
+          "text": "Boaz consults the nearer relative and witnesses at the gate. He marries Ruth. Obed is born, and the closing genealogy reaches David. Public witnesses connect household care with recognized responsibility. The genealogy is the book’s claim about ancestry, not an independently verified record.",
+          "chapter": 4,
+          "verse": 1,
+          "sourceIds": [
+            "web",
+            "yale-ruth",
+            "scholar-schipper",
+            "atlas-canaan",
+            "wiki-ruth"
+          ]
+        }
+      ]
+    }
+  ],
+  "periods": [
+    {
+      "id": "part-0",
+      "label": "Ruth 1–1",
+      "start": 1,
+      "end": 1,
+      "description": "Chapter order"
+    },
+    {
+      "id": "part-1",
+      "label": "Ruth 2–2",
+      "start": 2,
+      "end": 2,
+      "description": "Chapter order"
+    },
+    {
+      "id": "part-2",
+      "label": "Ruth 3–4",
+      "start": 3,
+      "end": 4,
+      "description": "Chapter order"
+    }
+  ],
+  "chapterMaps": [
+    {
+      "chapter": 1,
+      "focusPlaceIds": [
+        "moab",
+        "bethlehem"
+      ],
+      "placeIds": [
+        "moab",
+        "bethlehem"
+      ],
+      "routes": [
+        {
+          "id": "ruth-1-journey",
+          "to": 1,
+          "reference": "Ruth 1:1",
+          "from": 0
+        }
+      ],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "The map shows the named town and broad region. It does not identify private buildings or an ancient road.",
+      "narrative": "Famine takes Elimelech’s household to Moab. After three deaths, Naomi returns. Ruth stays with her, while Orpah returns home.",
+      "limits": "The map shows the named town and broad region. It does not identify private buildings or an ancient road.",
+      "sourceIds": [
+        "web",
+        "yale-ruth",
+        "scholar-schipper",
+        "atlas-canaan",
+        "wiki-ruth"
+      ]
+    },
+    {
+      "chapter": 2,
+      "focusPlaceIds": [
+        "bethlehem"
+      ],
+      "placeIds": [
+        "bethlehem"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "The map shows the named town and broad region. It does not identify private buildings or an ancient road.",
+      "narrative": "Ruth gathers leftover grain. Boaz provides protection, food, and additional grain. Naomi recognizes his connection with their family.",
+      "limits": "The map shows the named town and broad region. It does not identify private buildings or an ancient road.",
+      "sourceIds": [
+        "web",
+        "yale-ruth",
+        "scholar-schipper",
+        "atlas-canaan",
+        "dm-ruth"
+      ]
+    },
+    {
+      "chapter": 3,
+      "focusPlaceIds": [
+        "bethlehem"
+      ],
+      "placeIds": [
+        "bethlehem"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "The map shows the named town and broad region. It does not identify private buildings or an ancient road.",
+      "narrative": "Naomi proposes a plan. Ruth approaches Boaz at night and asks for his protection. He promises action after consulting a nearer relative.",
+      "limits": "The map shows the named town and broad region. It does not identify private buildings or an ancient road.",
+      "sourceIds": [
+        "web",
+        "yale-ruth",
+        "scholar-schipper",
+        "atlas-canaan"
+      ]
+    },
+    {
+      "chapter": 4,
+      "focusPlaceIds": [
+        "bethlehem"
+      ],
+      "placeIds": [
+        "bethlehem"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "The map shows the named town and broad region. It does not identify private buildings or an ancient road.",
+      "narrative": "Boaz consults the nearer relative and witnesses at the gate. He marries Ruth. Obed is born, and the closing genealogy reaches David.",
+      "limits": "The map shows the named town and broad region. It does not identify private buildings or an ancient road.",
+      "sourceIds": [
+        "web",
+        "yale-ruth",
+        "scholar-schipper",
+        "atlas-canaan",
+        "wiki-ruth"
+      ]
+    }
+  ],
+  "textRoutes": [
+    {
+      "id": "ruth-1-journey",
+      "title": "Loss and the return to Bethlehem",
+      "points": [
+        [
+          31.5,
+          35.75
+        ],
+        [
+          31.705,
+          35.202
+        ]
+      ],
+      "chapter": 1,
+      "verse": 1,
+      "summary": "Famine takes Elimelech’s household to Moab. After three deaths, Naomi returns. Ruth stays with her, while Orpah returns home.",
+      "detail": "Grief and chosen loyalty shape the opening. Orpah receives Naomi’s blessing. Her departure does not make her an enemy.",
+      "uncertainty": "The text names departure from Moab and arrival at Bethlehem. The line omits an unknown path around the Dead Sea.",
+      "evidence": "The text names departure from Moab and arrival at Bethlehem. The line omits an unknown path around the Dead Sea.",
+      "kind": "journey",
+      "direction": true,
+      "textRoute": true,
+      "sourceIds": [
+        "web",
+        "yale-ruth",
+        "scholar-schipper",
+        "atlas-canaan",
+        "wiki-ruth"
+      ]
+    }
+  ],
+  "narrativeRegions": [],
+  "chapterStudies": []
+}

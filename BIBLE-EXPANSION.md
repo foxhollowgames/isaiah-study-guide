@@ -15,11 +15,12 @@ Book pages use `/book.html?book=<slug>`.
 - Deuteronomy: all 34 chapters, 959 verses, 34 chapter studies, and 29 selected person or ancestral profiles with portraits.
 - Joshua: all 24 chapters, 658 verses, 24 chapter studies, and 46 selected person or ancestral profiles with portraits.
 - Judges: all 21 chapters, 618 verses, 21 chapter studies, and 62 selected profiles with portraits.
-- Other 58 books: directory entries and clear planned pages. They have no study content yet.
+- Ruth: all four chapters, 85 verses, four chapter studies, and 22 named or unnamed profiles with portraits.
+- Other 57 books: directory entries and clear planned pages. They have no study content yet.
 
 ## Next book
 
-Ruth is next in canonical order. Complete and verify one book before starting another.
+1 Samuel is next in canonical order. Complete and verify one book before starting another.
 Do not label a book ready until its reading text, chapter studies, sources, portraits, and maps pass review.
 Use the existing Isaiah guide as the detail standard. Genesis currently has selected major people and chapter-level events.
 Future enrichment can add finer passage divisions, additional people, language notes, and more specific citations.
@@ -113,3 +114,9 @@ The guide preserves differing readings of Jephthah’s vow and the Moses/Manasse
 Judges reuses 24 portraits, adds 21 historical art assets, shares two scene illustrations, and adds 15 generated portraits.
 The prompts and saved asset paths are in scripts/judges-generated-portraits.json.
 Build Judges with scripts/build-judges.py, scripts/finish-judges-art.py, and scripts/build-native-books.py, in that order.
+
+Ruth uses Yale Bible Study, Schipper’s verified publisher record, McClellan’s original Ruth 2 notes, and official Church lessons.
+The guide states source access limits and corrects Yale’s closing genealogy error against Ruth 4:18–22.
+Ruth reuses four Genesis portraits and adds five historical illustrations and 13 generated portraits.
+The generated prompts and saved paths are in scripts/ruth-generated-portraits.json.
+Build Ruth with scripts/build-ruth.py, scripts/finish-ruth-art.py, and scripts/build-native-books.py, in that order.

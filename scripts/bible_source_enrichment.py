@@ -7,6 +7,7 @@ DATE='2026-10-05'
 CFM='https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/'
 def span(a,z):return list(range(a,z+1))
 LESSONS=[
+ ('ruth',23,[1,2,3,4],'Ruth; 1 Samuel 1–7 · Ruth coverage','The lesson studies faith through loss, practical kindness, and family redemption. It compares Ruth and Boaz with Jesus Christ.'),
  ('judges',22,[2,3,4,6,7,8,13,14,15,16],'Judges 2–4; 6–8; 13–16','The lesson studies repeated repentance, Deborah’s influence, trust through Gideon’s experience, and Samson’s covenant conduct.'),
  ('joshua',21,span(1,8)+[23,24],'Joshua 1–8; 23–24','The lesson studies courage, scripture study, Rahab’s faith and actions, remembrance, and choosing to serve God.'),
  ('deuteronomy',20,[6,7,8,15,18,29,30,34],'Deuteronomy 6–8; 15; 18; 29–30; 34','The lesson studies love for God, remembrance, generous care, and agency. It connects the prophet like Moses with Jesus Christ.'),
@@ -28,6 +29,7 @@ LESSONS=[
  ('numbers',19,[11,12,13,14,20,21,22,23,24,27],'Numbers 11–14; 20–24; 27','The lesson studies gratitude, meekness, trust, and resistance to pressure. It connects the bronze serpent with faith in Christ.'),
 ]
 WIKI={
+ 'ruth':([1,4],'Ruth follows a Moabite widow’s return with Naomi to Bethlehem. The household account ends with a genealogy connected to David.'),
  'judges':([1,2,17,21],'Judges combines local deliverance accounts with a repeated crisis pattern. Its closing episodes concern a shrine, migration, and conflict within Israel.'),
  'joshua':([1,13,24],'Joshua moves from crossing and campaigns to land distribution and final covenant addresses. This overview supplies the book’s broad structure.'),
  'deuteronomy':([1,5,31,34],'Deuteronomy presents Moses’s addresses before Israel’s entry into the land. Its ending includes poems, Joshua’s succession, and the account of Moses’s departure.'),
