@@ -18,11 +18,12 @@ Book pages use `/book.html?book=<slug>`.
 - Ruth: all four chapters, 85 verses, four chapter studies, and 22 named or unnamed profiles with portraits.
 - 1 Samuel: all 31 chapters, 810 verses, 31 chapter studies, and 56 selected profiles with portraits.
 - 2 Samuel: all 24 chapters, 695 verses, 24 chapter studies, and 75 selected profiles with portraits.
-- Other 55 books: directory entries and clear planned pages. They have no study content yet.
+- 1 Kings: all 22 chapters, 816 verses, 22 chapter studies, and 68 selected profiles with portraits.
+- Other 54 books: directory entries and clear planned pages. They have no study content yet.
 
 ## Next book
 
-1 Kings is next in canonical order. Complete and verify one book before starting another.
+2 Kings is next in canonical order. Complete and verify one book before starting another.
 Do not label a book ready until its reading text, chapter studies, sources, portraits, and maps pass review.
 Use the existing Isaiah guide as the detail standard. Genesis currently has selected major people and chapter-level events.
 Future enrichment can add finer passage divisions, additional people, language notes, and more specific citations.
@@ -135,3 +136,7 @@ Build with scripts/build-1-samuel.py, scripts/finish-samuel-art.py, and scripts/
 2 Samuel source records include original McClellan posts, reviewed Yale study text, official Church manuals, and 2026 Come, Follow Me sections. Publisher-only records state that the full book was not read. The reviewed Wikipedia revision and license are preserved.
 
 2 Samuel includes 58 new built-in generated portraits and 17 reused same-person portraits. Prompts and original paths are preserved in `scripts/2-samuel-generated-portraits.json`. Profile links distinguish names within the same chapter by verse.
+
+1 Kings uses reviewed Yale study text, original McClellan commentary on the heavenly council, official Church manuals, and 2026 Come, Follow Me. Wikipedia revision and license records remain attached. Publisher and thesis records state access limits.
+
+1 Kings adds 55 built-in generated portraits and reuses 13 same-person portraits. Adult Solomon has a new portrait. Prompts and original paths are in `scripts/1-kings-generated-portraits.json`. Same-name checks separate two Hirams, two Jehus, and two Ben Hadads.

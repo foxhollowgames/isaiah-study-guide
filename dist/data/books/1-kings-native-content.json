@@ -1,0 +1,3164 @@
+{
+  "sources": [
+    {
+      "id": "web",
+      "title": "1 Kings · World English Bible",
+      "url": "https://ebible.org/engwebp/1KI01.htm",
+      "summary": "Public-domain reading text for all 22 chapters.",
+      "category": "Scripture",
+      "perspective": "historical",
+      "limits": "The reading text preserves narrative claims. It does not independently verify dates, appearances, quantities, or every event.",
+      "type": "Scripture",
+      "limitations": "The reading text preserves narrative claims. It does not independently verify dates, appearances, quantities, or every event.",
+      "license": "Public domain"
+    },
+    {
+      "id": "atlas",
+      "title": "Bible Maps: The World of the Old Testament",
+      "perspective": "historical",
+      "category": "Geography",
+      "url": "https://www.churchofjesuschrist.org/study/scriptures/bible-maps/map-9?lang=eng",
+      "summary": "This Church-published atlas locates the wider setting and marks some disputed places.",
+      "limits": "Use the geographic labels as context. The linked atlas also includes LDS commentary.",
+      "type": "Geography",
+      "limitations": "Use the geographic labels as context. The linked atlas also includes LDS commentary.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "atlas-canaan",
+      "title": "Bible Maps: Canaan in Old Testament Times",
+      "perspective": "historical",
+      "category": "Geography",
+      "url": "https://www.churchofjesuschrist.org/study/scriptures/bible-maps/map-10?lang=eng",
+      "summary": "This Church-published atlas identifies towns and regions in Canaan.",
+      "limits": "Coordinates are display estimates. A town marker does not verify each Genesis event.",
+      "limitations": "Coordinates are display estimates. A town marker does not verify each Genesis event.",
+      "type": "Geography",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "terrain",
+      "title": "Mapzen / Tilezen terrain and Natural Earth geography",
+      "perspective": "historical",
+      "category": "Geography",
+      "url": "https://registry.opendata.aws/terrain-tiles/",
+      "summary": "Cached terrain shows modern elevation. Natural Earth supplies the land and water outlines.",
+      "limits": "Modern terrain is a geographic aid. It does not reconstruct ancient shorelines or settlements.",
+      "type": "Geography",
+      "limitations": "Modern terrain is a geographic aid. It does not reconstruct ancient shorelines or settlements.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "yale-solomon",
+      "title": "Solomon · Yale Bible Study",
+      "url": "https://yalebiblestudy.org/courses/kings-and-chronicles/lessons/kings-part-1-discussion-g/",
+      "summary": "The guide studies the mixture of royal praise, criticism, and theological history.",
+      "category": "Scholarly study",
+      "perspective": "historical",
+      "limits": "Proposed literary sources and assessments of Solomon’s economy remain interpretations. They do not verify every narrated action.",
+      "author": "Yale Divinity School · course presented by Joel S. Baden and John J. Collins",
+      "year": "Linked course",
+      "chapterCoverage": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "reviewed": "2026-10-05: Main study-guide text and course presenter record reviewed.",
+      "type": "Scholarly study",
+      "limitations": "Proposed literary sources and assessments of Solomon’s economy remain interpretations. They do not verify every narrated action.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "yale-division",
+      "title": "The divided monarchy · Yale Bible Study",
+      "url": "https://yalebiblestudy.org/courses/kings-and-chronicles/lessons/the-book-of-kings-part-2-study-guide/",
+      "summary": "The guide examines construction burdens, political division, royal shrines, and the northern monarchy.",
+      "category": "Scholarly study",
+      "perspective": "historical",
+      "limits": "Its claim that temple construction defied God’s instruction is not adopted. Its broad economic and pre-monarchy reconstructions need independent evidence.",
+      "author": "Yale Divinity School · Kings and Chronicles course",
+      "year": "Linked course",
+      "chapterCoverage": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        11,
+        12,
+        16,
+        21
+      ],
+      "reviewed": "2026-10-05: Main study-guide text reviewed.",
+      "type": "Scholarly study",
+      "limitations": "Its claim that temple construction defied God’s instruction is not adopted. Its broad economic and pre-monarchy reconstructions need independent evidence.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "yale-prophets",
+      "title": "Prophetic authority · Yale Bible Study",
+      "url": "https://yalebiblestudy.org/courses/kings-and-chronicles/lessons/the-book-of-kings-part-3-study-guide/",
+      "summary": "The guide examines prophetic opposition to royal abuse and stories of provision and healing.",
+      "category": "Scholarly study",
+      "perspective": "historical",
+      "limits": "Use only for its literary framework. Its count of Baal prophets differs from 1 Kings 18:19. Later reference errors and attribution of Jehu’s actions to Elijah are not adopted.",
+      "author": "Yale Divinity School · Kings and Chronicles course",
+      "year": "Linked course",
+      "chapterCoverage": [
+        17,
+        18,
+        19,
+        21
+      ],
+      "reviewed": "2026-10-05: Prophetic Authority and Prophetic Miracles sections reviewed.",
+      "type": "Scholarly study",
+      "limitations": "Use only for its literary framework. Its count of Baal prophets differs from 1 Kings 18:19. Later reference errors and attribution of Jehu’s actions to Elijah are not adopted.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "nelson-record",
+      "title": "First and Second Kings · published edition record",
+      "url": "https://books.google.com/books/about/First_and_Second_Kings.html?id=RCgUvQOIvD0C",
+      "summary": "The edition record identifies Nelson’s commentary and its treatment of Kings as theological literature.",
+      "category": "Scholarly study",
+      "perspective": "historical",
+      "limits": "The full commentary was not read. This record verifies the work cited in Wikipedia, not every argument attributed to it.",
+      "author": "Richard D. Nelson · Westminster John Knox Press",
+      "year": 1987,
+      "chapterCoverage": [],
+      "reviewed": "2026-10-05: Licensed Google Books edition metadata and contents reviewed.",
+      "type": "Scholarly study",
+      "limitations": "The full commentary was not read. This record verifies the work cited in Wikipedia, not every argument attributed to it.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "wiki-1-kings",
+      "title": "Books of Kings · Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Books_of_Kings",
+      "summary": "The opening locates Kings in the biblical account of monarchy and introduces Solomon’s succession.",
+      "category": "Encyclopedia background",
+      "perspective": "historical",
+      "limits": "Use for background and source discovery. Broad reliability and composition claims require separate evidence.",
+      "author": "Wikipedia contributors",
+      "year": "Reviewed revision",
+      "chapterCoverage": [
+        1,
+        11,
+        12,
+        22
+      ],
+      "reviewed": "2026-10-05: Opening four substantive paragraphs reviewed at revision 1376823112.",
+      "revisionId": "1376823112",
+      "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1376823112",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "citedSourceIds": [
+        "nelson-record"
+      ],
+      "type": "Encyclopedia background",
+      "limitations": "Use for background and source discovery. Broad reliability and composition claims require separate evidence."
+    },
+    {
+      "id": "porter-record",
+      "title": "God Among the Gods · thesis record",
+      "url": "https://digitalcommons.liberty.edu/masters/141/",
+      "summary": "The university record identifies the thesis that McClellan critiques.",
+      "category": "Scholarly study",
+      "perspective": "historical",
+      "limits": "The linked thesis returned an access error. Its full argument and House commentary citations were not checked. The abstract is not adopted as consensus.",
+      "author": "Daniel F. Porter · Liberty University",
+      "year": 2010,
+      "chapterCoverage": [],
+      "reviewed": "2026-10-05: University record and abstract reviewed.",
+      "type": "Scholarly study",
+      "limitations": "The linked thesis returned an access error. Its full argument and House commentary citations were not checked. The abstract is not adopted as consensus.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "dm-kings-council",
+      "title": "1 Kings 22 and the divine council · original McClellan commentary",
+      "url": "https://danielomcclellan.wordpress.com/2010/07/30/new-masters-thesis-on-the-divine-council/",
+      "summary": "McClellan contrasts readings of the heavenly council and questions an assumed uniform biblical theology.",
+      "category": "Scholar commentary",
+      "perspective": "historical",
+      "limits": "Older critical commentary. Porter’s full thesis and House’s commentary were not read. One post does not establish scholarly consensus.",
+      "author": "Dan McClellan",
+      "year": "July 30, 2010",
+      "chapterCoverage": [
+        22
+      ],
+      "reviewed": "2026-10-05: Original post’s paragraph on 1 Kings 22 reviewed. Related Porter thesis record verified.",
+      "group": "mcclellan",
+      "citedSourceIds": [
+        "porter-record"
+      ],
+      "type": "Scholar commentary",
+      "limitations": "Older critical commentary. Porter’s full thesis and House’s commentary were not read. One post does not establish scholarly consensus.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "lds-kings-solomon",
+      "title": "1 Kings 1–11 · Institute commentary",
+      "url": "https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-1?lang=eng",
+      "summary": "The manual studies wisdom, temple furnishings, dedication, and Solomon’s failure.",
+      "category": "LDS study manual",
+      "perspective": "lds",
+      "limits": "Older motive claims and historical reconstructions are not adopted as verified facts. The bronze sea comparison is Church interpretation.",
+      "author": "The Church of Jesus Christ of Latter-day Saints",
+      "year": 1982,
+      "chapterCoverage": [
+        7
+      ],
+      "reviewed": "2026-10-05: Sections 1-16–1-17, 1-23, 1-32–1-35, 1-39, and 1-44–1-45 reviewed.",
+      "type": "LDS study manual",
+      "limitations": "Older motive claims and historical reconstructions are not adopted as verified facts. The bronze sea comparison is Church interpretation.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "lds-kings-division",
+      "title": "1 Kings 12 · Institute commentary",
+      "url": "https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-4?lang=eng",
+      "summary": "The manual studies counsel, division, and royal worship policy.",
+      "category": "LDS study manual",
+      "perspective": "lds",
+      "limits": "Later sections on chapters 13–16 were not reviewed. Proposed private motives and precise dates need other evidence.",
+      "author": "The Church of Jesus Christ of Latter-day Saints",
+      "year": 1982,
+      "chapterCoverage": [],
+      "reviewed": "2026-10-05: Sections 4-2–4-12 reviewed, covering the division in chapter 12.",
+      "type": "LDS study manual",
+      "limitations": "Later sections on chapters 13–16 were not reviewed. Proposed private motives and precise dates need other evidence.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "lds-kings-elijah",
+      "title": "1 Kings 17–22 · Institute commentary",
+      "url": "https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-5?lang=eng",
+      "summary": "The manual studies Elijah’s service, quiet revelation, prophetic calling, and the heavenly council.",
+      "category": "LDS study manual",
+      "perspective": "lds",
+      "limits": "Church interpretation remains separate from archaeological evidence. Its Baal identification and completed Hazael appointment claim are not adopted.",
+      "author": "The Church of Jesus Christ of Latter-day Saints",
+      "year": 1982,
+      "chapterCoverage": [
+        22
+      ],
+      "reviewed": "2026-10-05: Sections 5-2–5-31 reviewed.",
+      "type": "LDS study manual",
+      "limitations": "Church interpretation remains separate from archaeological evidence. Its Baal identification and completed Hazael appointment claim are not adopted.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "cfm-kings-solomon",
+      "title": "Come, Follow Me 2026 · Solomon and the temple",
+      "url": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/26?lang=eng",
+      "summary": "The lesson studies discernment, temple covenants, and lasting faithfulness.",
+      "category": "Come, Follow Me",
+      "perspective": "lds",
+      "limits": "Modern LDS application does not prove that ancient temple practice was identical.",
+      "author": "The Church of Jesus Christ of Latter-day Saints",
+      "year": 2026,
+      "chapterCoverage": [
+        3,
+        6,
+        8,
+        9,
+        11
+      ],
+      "reviewed": "2026-10-05: First Kings teaching sections reviewed: 3; 6–9; 11.",
+      "type": "Come, Follow Me",
+      "limitations": "Modern LDS application does not prove that ancient temple practice was identical.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "cfm-kings-elijah",
+      "title": "Come, Follow Me 2026 · division and Elijah",
+      "url": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/27?lang=eng",
+      "summary": "The lesson studies counsel, the widow’s faith, commitment, and quiet revelation.",
+      "category": "Come, Follow Me",
+      "perspective": "lds",
+      "limits": "The lesson selects passages rather than commenting on every verse in chapters 12–22.",
+      "author": "The Church of Jesus Christ of Latter-day Saints",
+      "year": 2026,
+      "chapterCoverage": [
+        12,
+        17,
+        18,
+        19
+      ],
+      "reviewed": "2026-10-05: Main teaching text reviewed, especially sections on 12 and 17–19.",
+      "type": "Come, Follow Me",
+      "limitations": "The lesson selects passages rather than commenting on every verse in chapters 12–22.",
+      "license": "Linked source. Original guide summaries."
+    }
+  ],
+  "passages": [
+    {
+      "id": "1-kings-1",
+      "chapter": 1,
+      "start": 1,
+      "end": 53,
+      "title": "Solomon is anointed during a succession dispute",
+      "summary": "Adonijah gathers supporters at En Rogel. Bathsheba and Nathan approach David, who orders Solomon’s anointing at Gihon. Succession depends on public recognition and access to the aging king. Abishag serves David, but the text denies sexual relations.",
+      "year": null,
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
+      "placeIds": [
+        "jerusalem",
+        "en-rogel",
+        "gihon"
+      ],
+      "sourceIds": [
+        "web",
+        "atlas-canaan",
+        "yale-solomon",
+        "wiki-1-kings"
+      ],
+      "lds": {
+        "text": "Original study reflection: examine who has a voice when leaders transfer authority.",
+        "sourceIds": []
+      }
+    },
+    {
+      "id": "1-kings-2",
+      "chapter": 2,
+      "start": 1,
+      "end": 46,
+      "title": "David dies and Solomon consolidates power",
+      "summary": "David gives final instructions. Solomon removes Abiathar and orders the deaths of Adonijah, Joab, and Shimei. The royal transition combines covenant advice, political threats, and executions. The guide does not infer every private motive behind the request for Abishag.",
+      "year": null,
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
+      "placeIds": [
+        "jerusalem",
+        "anathoth",
+        "gath"
+      ],
+      "sourceIds": [
+        "web",
+        "atlas-canaan",
+        "yale-solomon"
+      ],
+      "lds": {
+        "text": "Original study reflection: distinguish a ruler’s claim of justice from proof that every action is justified.",
+        "sourceIds": []
+      }
+    },
+    {
+      "id": "1-kings-3",
+      "chapter": 3,
+      "start": 1,
+      "end": 28,
+      "title": "Solomon asks for wisdom and judges a dispute",
+      "summary": "At Gibeon, Solomon asks for an understanding heart. In Jerusalem, two women dispute the identity of a living infant. The threatened division of the child exposes a difference between the women’s responses. It is a judgment story, not a recommended parenting test.",
+      "year": null,
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
+      "placeIds": [
+        "gibeon",
+        "jerusalem"
+      ],
+      "sourceIds": [
+        "web",
+        "atlas-canaan",
+        "yale-solomon"
+      ],
+      "lds": {
+        "text": "Come, Follow Me encourages seeking discernment between right and wrong.",
+        "sourceIds": [
+          "cfm-kings-solomon"
+        ]
+      }
+    },
+    {
+      "id": "1-kings-4",
+      "chapter": 4,
+      "start": 1,
+      "end": 34,
+      "title": "Officials, provisions, and wisdom",
+      "summary": "The chapter lists officials, regional suppliers, royal provisions, and Solomon’s reputation for wisdom. A prosperous court requires workers, food, and administration. Its numerical claims are preserved as textual claims, not independently measured totals.",
+      "year": null,
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
+      "placeIds": [
+        "jerusalem"
+      ],
+      "sourceIds": [
+        "web",
+        "atlas-canaan",
+        "yale-solomon"
+      ],
+      "lds": {
+        "text": "Original study reflection: identify the labor and resources behind a description of prosperity.",
+        "sourceIds": []
+      }
+    },
+    {
+      "id": "1-kings-5",
+      "chapter": 5,
+      "start": 1,
+      "end": 18,
+      "title": "Hiram supplies timber for the temple",
+      "summary": "Solomon and Hiram arrange timber and food exchanges. Adoniram supervises a labor levy, while builders prepare stone and wood. International cooperation and compelled labor support construction. The guide keeps workers visible alongside the royal achievement.",
+      "year": null,
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
+      "placeIds": [
+        "jerusalem",
+        "tyre",
+        "lebanon"
+      ],
+      "sourceIds": [
+        "web",
+        "atlas-canaan",
+        "yale-solomon",
+        "yale-division"
+      ],
+      "lds": {
+        "text": "Original study reflection: consider how sacred projects affect the people who build them.",
+        "sourceIds": []
+      }
+    },
+    {
+      "id": "1-kings-6",
+      "chapter": 6,
+      "start": 1,
+      "end": 38,
+      "title": "The temple is built",
+      "summary": "The account describes the temple’s rooms, wooden carvings, gold covering, and cherubim. God’s promise also requires faithful conduct. The building description is a literary account. The map marks Jerusalem without claiming a verified floor plan or exact surviving foundation.",
+      "year": null,
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
+      "placeIds": [
+        "jerusalem"
+      ],
+      "sourceIds": [
+        "web",
+        "atlas-canaan",
+        "yale-solomon",
+        "yale-division"
+      ],
+      "lds": {
+        "text": "Come, Follow Me invites reflection on sacred space and temple symbols.",
+        "sourceIds": [
+          "cfm-kings-solomon"
+        ]
+      }
+    },
+    {
+      "id": "1-kings-7",
+      "chapter": 7,
+      "start": 1,
+      "end": 51,
+      "title": "Royal buildings and bronze furnishings",
+      "summary": "Solomon’s palace buildings are described. Hiram the bronze worker makes pillars, the sea, movable stands, and other vessels. Hiram the artisan is distinct from the king of Tyre. The chapter describes craft knowledge and materials alongside royal buildings.",
+      "year": null,
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
+      "placeIds": [
+        "jerusalem",
+        "tyre",
+        "succoth",
+        "zarethan"
+      ],
+      "sourceIds": [
+        "web",
+        "atlas-canaan",
+        "yale-solomon",
+        "yale-division"
+      ],
+      "lds": {
+        "text": "The older manual connects the bronze sea with baptism. This is an LDS interpretation, not archaeological proof.",
+        "sourceIds": [
+          "lds-kings-solomon"
+        ]
+      }
+    },
+    {
+      "id": "1-kings-8",
+      "chapter": 8,
+      "start": 1,
+      "end": 66,
+      "title": "The ark enters the temple and Solomon prays",
+      "summary": "The ark is brought into the sanctuary. Solomon prays about justice, forgiveness, drought, foreigners, war, and exile. The prayer says heaven cannot contain God. It joins a particular sacred house with concern for people beyond Israel.",
+      "year": null,
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
+      "placeIds": [
+        "jerusalem"
+      ],
+      "sourceIds": [
+        "web",
+        "atlas-canaan",
+        "yale-solomon",
+        "yale-division"
+      ],
+      "lds": {
+        "text": "Come, Follow Me connects the dedication prayer with temple covenants and walking in God’s ways.",
+        "sourceIds": [
+          "cfm-kings-solomon"
+        ]
+      }
+    },
+    {
+      "id": "1-kings-9",
+      "chapter": 9,
+      "start": 1,
+      "end": 28,
+      "title": "Promises, warnings, labor, and trade",
+      "summary": "God answers Solomon with a promise and warning. The chapter describes towns, building projects, labor, and ships sailing toward Ophir. Sacred status does not remove accountability. Ophir’s location is disputed, so the guide does not invent a destination or sea route.",
+      "year": null,
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
+      "placeIds": [
+        "jerusalem",
+        "tyre",
+        "galilee",
+        "gezer",
+        "hazor",
+        "megiddo",
+        "ezion-geber"
+      ],
+      "sourceIds": [
+        "web",
+        "atlas-canaan",
+        "yale-solomon",
+        "yale-division"
+      ],
+      "lds": {
+        "text": "Come, Follow Me studies God’s promises and the responsibility to keep covenants.",
+        "sourceIds": [
+          "cfm-kings-solomon"
+        ]
+      }
+    },
+    {
+      "id": "1-kings-10",
+      "chapter": 10,
+      "start": 1,
+      "end": 29,
+      "title": "The queen of Sheba visits",
+      "summary": "The queen tests Solomon with questions and sees the court. Gifts, trade, gold, horses, and royal wealth follow. The narrative presents international reputation and abundance. The queen is unnamed, and no exact journey or independent inventory is established here.",
+      "year": null,
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
+      "placeIds": [
+        "jerusalem"
+      ],
+      "sourceIds": [
+        "web",
+        "atlas-canaan",
+        "yale-solomon"
+      ],
+      "lds": {
+        "text": "Original study reflection: compare admiration for wealth with the responsibilities of a ruler.",
+        "sourceIds": []
+      }
+    },
+    {
+      "id": "1-kings-11",
+      "chapter": 11,
+      "start": 1,
+      "end": 43,
+      "title": "Solomon turns away and adversaries rise",
+      "summary": "Solomon supports other gods. Hadad and Rezon become adversaries. Ahijah promises Jeroboam a kingdom, and Solomon later dies. The account holds Solomon responsible for his worship. It also recalls displaced people and rival powers, rather than only court prosperity.",
+      "year": null,
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
+      "placeIds": [
+        "jerusalem",
+        "edom",
+        "egypt",
+        "damascus",
+        "shiloh",
+        "zeredah"
+      ],
+      "sourceIds": [
+        "web",
+        "atlas-canaan",
+        "yale-solomon",
+        "yale-division",
+        "wiki-1-kings"
+      ],
+      "lds": {
+        "text": "Come, Follow Me asks readers to examine influences that turn their hearts from God.",
+        "sourceIds": [
+          "cfm-kings-solomon"
+        ]
+      }
+    },
+    {
+      "id": "1-kings-12",
+      "chapter": 12,
+      "start": 1,
+      "end": 33,
+      "title": "Rehoboam rejects the petition and the kingdom divides",
+      "summary": "Rehoboam rejects advice to ease the people’s burden. The northern tribes follow Jeroboam, who establishes worship at Bethel and Dan. Labor grievances and political decisions contribute to division. The calves’ form and function need interpretation beyond assuming every worshiper’s private belief.",
+      "year": null,
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
+      "placeIds": [
+        "shechem",
+        "jerusalem",
+        "bethel",
+        "dan",
+        "penuel"
+      ],
+      "sourceIds": [
+        "web",
+        "atlas-canaan",
+        "yale-division",
+        "wiki-1-kings"
+      ],
+      "lds": {
+        "text": "Come, Follow Me studies the effect of leaders’ choices and the need for good counsel.",
+        "sourceIds": [
+          "cfm-kings-elijah"
+        ]
+      }
+    },
+    {
+      "id": "1-kings-13",
+      "chapter": 13,
+      "start": 1,
+      "end": 34,
+      "title": "A man of God confronts Bethel",
+      "summary": "A man of God announces judgment at Bethel. An older prophet deceives him into eating, and a lion later kills him. The account combines a future oracle, signs, deception, and death. The older prophet’s claim is explicitly false. The guide does not invent either man’s name.",
+      "year": null,
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
+      "placeIds": [
+        "bethel"
+      ],
+      "sourceIds": [
+        "web",
+        "atlas-canaan"
+      ],
+      "lds": {
+        "text": "Original study reflection: test a claimed revelation without assuming that status makes every claim reliable.",
+        "sourceIds": []
+      }
+    },
+    {
+      "id": "1-kings-14",
+      "chapter": 14,
+      "start": 1,
+      "end": 31,
+      "title": "Ahijah speaks and Shishak attacks Jerusalem",
+      "summary": "Jeroboam’s disguised wife visits Ahijah about their son Abijah. The child dies. The account then describes Rehoboam’s rule and Shishak’s attack. Royal households and ordinary people bear consequences in the account. Abijah the child is distinct from Abijam, Rehoboam’s successor.",
+      "year": null,
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
+      "placeIds": [
+        "tirzah",
+        "shiloh",
+        "jerusalem",
+        "egypt"
+      ],
+      "sourceIds": [
+        "web",
+        "atlas-canaan"
+      ],
+      "lds": {
+        "text": "Original study reflection: retain the child and grieving household when assessing a royal judgment.",
+        "sourceIds": []
+      }
+    },
+    {
+      "id": "1-kings-15",
+      "chapter": 15,
+      "start": 1,
+      "end": 34,
+      "title": "Judah’s rulers and a new northern dynasty",
+      "summary": "Abijam and Asa rule Judah. Asa seeks Ben Hadad’s help against Baasha. Baasha kills Nadab and destroys Jeroboam’s household. The succession notices assess worship and record conflict. The same royal name can refer to different rulers in different generations.",
+      "year": null,
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
+      "placeIds": [
+        "jerusalem",
+        "tirzah",
+        "ramah",
+        "geba",
+        "mizpah",
+        "damascus",
+        "gibbethon"
+      ],
+      "sourceIds": [
+        "web",
+        "atlas-canaan"
+      ],
+      "lds": {
+        "text": "Original study reflection: compare religious reform with the use of war and purchased alliances.",
+        "sourceIds": []
+      }
+    },
+    {
+      "id": "1-kings-16",
+      "chapter": 16,
+      "start": 1,
+      "end": 34,
+      "title": "Rapid succession leads to Omri and Ahab",
+      "summary": "Jehu condemns Baasha’s house. Zimri kills Elah and is defeated. Omri prevails over Tibni, builds Samaria, and is succeeded by Ahab. The narrative records unstable transfers of power. Ahab’s marriage and temple practices lead into the Elijah accounts. Hiel’s sons remain named in the rebuilding notice.",
+      "year": null,
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
+      "placeIds": [
+        "tirzah",
+        "gibbethon",
+        "samaria",
+        "sidon",
+        "jericho"
+      ],
+      "sourceIds": [
+        "web",
+        "atlas-canaan",
+        "yale-division"
+      ],
+      "lds": {
+        "text": "Original study reflection: consider the human costs of a sequence summarized as royal succession.",
+        "sourceIds": []
+      }
+    },
+    {
+      "id": "1-kings-17",
+      "chapter": 17,
+      "start": 1,
+      "end": 24,
+      "title": "Elijah and the widow at Zarephath",
+      "summary": "Elijah announces drought, receives food at Cherith, and stays with a widow at Zarephath. Her food endures, and her son returns to life. The widow expresses scarcity, fear, and grief. Her words matter alongside the prophet’s actions. Cherith’s exact location remains uncertain.",
+      "year": null,
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
+      "placeIds": [
+        "cherith",
+        "zarephath",
+        "gilead"
+      ],
+      "sourceIds": [
+        "web",
+        "atlas-canaan",
+        "yale-prophets"
+      ],
+      "lds": {
+        "text": "Come, Follow Me studies the widow’s trust amid scarcity.",
+        "sourceIds": [
+          "cfm-kings-elijah"
+        ]
+      }
+    },
+    {
+      "id": "1-kings-18",
+      "chapter": 18,
+      "start": 1,
+      "end": 46,
+      "title": "Elijah confronts Ahab at Carmel",
+      "summary": "Obadiah meets Elijah. At Carmel, Elijah challenges divided allegiance. Fire answers his prayer, the Baal prophets are killed, and rain returns. The narrative connects rain with divine power and includes mass killing. A religious application does not remove that violence from the account.",
+      "year": null,
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
+      "placeIds": [
+        "samaria",
+        "carmel",
+        "kishon",
+        "jezreel"
+      ],
+      "sourceIds": [
+        "web",
+        "atlas-canaan",
+        "yale-prophets"
+      ],
+      "lds": {
+        "text": "Come, Follow Me uses Elijah’s challenge to examine commitment to God.",
+        "sourceIds": [
+          "cfm-kings-elijah"
+        ]
+      }
+    },
+    {
+      "id": "1-kings-19",
+      "chapter": 19,
+      "start": 1,
+      "end": 21,
+      "title": "Elijah receives care and calls Elisha",
+      "summary": "Threatened by Jezebel, Elijah flees, asks to die, receives food, and travels to Horeb. He receives renewed work and places his mantle on Elisha. Food, rest, and divine communication precede renewed service. The commands to appoint Hazael and Jehu are not reported as completed here.",
+      "year": null,
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
+      "placeIds": [
+        "jezreel",
+        "beersheba",
+        "horeb",
+        "abel-meholah"
+      ],
+      "sourceIds": [
+        "web",
+        "atlas-canaan",
+        "yale-prophets"
+      ],
+      "lds": {
+        "text": "Come, Follow Me studies the quiet voice and Elisha’s willingness to respond.",
+        "sourceIds": [
+          "cfm-kings-elijah"
+        ]
+      }
+    },
+    {
+      "id": "1-kings-20",
+      "chapter": 20,
+      "start": 1,
+      "end": 43,
+      "title": "Ahab defeats Ben Hadad and releases him",
+      "summary": "Ben Hadad attacks Samaria. Prophets advise Ahab, and Israel wins two battles. Ahab releases his opponent and receives a prophetic rebuke. Military success and divine approval are not identical. The king called Ben Hadad here is kept distinct from Asa’s earlier ally.",
+      "year": null,
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
+      "placeIds": [
+        "samaria",
+        "aphek"
+      ],
+      "sourceIds": [
+        "web",
+        "atlas-canaan"
+      ],
+      "lds": {
+        "text": "Original study reflection: examine how victory can still leave a leader accountable for a decision.",
+        "sourceIds": []
+      }
+    },
+    {
+      "id": "1-kings-21",
+      "chapter": 21,
+      "start": 1,
+      "end": 29,
+      "title": "Naboth is killed and Elijah confronts Ahab",
+      "summary": "Naboth refuses to give up his vineyard. Jezebel arranges false accusations and his killing. Ahab takes possession, and Elijah announces judgment. The king benefits from an injustice carried out through officials and false testimony. Naboth’s refusal concerns inherited land, not simple unwillingness to sell.",
+      "year": null,
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
+      "placeIds": [
+        "jezreel",
+        "samaria"
+      ],
+      "sourceIds": [
+        "web",
+        "atlas-canaan",
+        "yale-division",
+        "yale-prophets"
+      ],
+      "lds": {
+        "text": "Original study reflection: consider how a person can benefit from wrongdoing arranged by another.",
+        "sourceIds": []
+      }
+    },
+    {
+      "id": "1-kings-22",
+      "chapter": 22,
+      "start": 1,
+      "end": 53,
+      "title": "Micaiah warns Ahab before the final battle",
+      "summary": "Ahab and Jehoshaphat seek counsel about Ramoth Gilead. Micaiah describes a heavenly council and predicts defeat. Ahab dies in battle. A large agreement among prophets does not settle the question of truth. The council scene raises difficult questions about deception and divine agency.",
+      "year": null,
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
+      "placeIds": [
+        "samaria",
+        "ramoth-gilead",
+        "jerusalem",
+        "ezion-geber"
+      ],
+      "sourceIds": [
+        "web",
+        "atlas-canaan",
+        "wiki-1-kings",
+        "dm-kings-council"
+      ],
+      "lds": {
+        "text": "The older manual reads the council as divine permission. This remains an LDS interpretation of a difficult scene.",
+        "sourceIds": [
+          "lds-kings-elijah"
+        ]
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "1-kings-1",
+      "chapter": 1,
+      "verse": 1,
+      "eventOrder": 1,
+      "title": "Solomon is anointed during a succession dispute",
+      "summary": "Adonijah gathers supporters at En Rogel. Bathsheba and Nathan approach David, who orders Solomon’s anointing at Gihon.",
+      "detail": "Succession depends on public recognition and access to the aging king. Abishag serves David, but the text denies sexual relations.",
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan",
+        "yale-solomon",
+        "wiki-1-kings"
+      ],
+      "placeIds": [
+        "jerusalem",
+        "en-rogel",
+        "gihon"
+      ],
+      "lds": {
+        "text": "Original study reflection: examine who has a voice when leaders transfer authority.",
+        "sourceIds": []
+      }
+    },
+    {
+      "id": "1-kings-2",
+      "chapter": 2,
+      "verse": 1,
+      "eventOrder": 2,
+      "title": "David dies and Solomon consolidates power",
+      "summary": "David gives final instructions. Solomon removes Abiathar and orders the deaths of Adonijah, Joab, and Shimei.",
+      "detail": "The royal transition combines covenant advice, political threats, and executions. The guide does not infer every private motive behind the request for Abishag.",
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan",
+        "yale-solomon"
+      ],
+      "placeIds": [
+        "jerusalem",
+        "anathoth",
+        "gath"
+      ],
+      "lds": {
+        "text": "Original study reflection: distinguish a ruler’s claim of justice from proof that every action is justified.",
+        "sourceIds": []
+      }
+    },
+    {
+      "id": "1-kings-3",
+      "chapter": 3,
+      "verse": 1,
+      "eventOrder": 3,
+      "title": "Solomon asks for wisdom and judges a dispute",
+      "summary": "At Gibeon, Solomon asks for an understanding heart. In Jerusalem, two women dispute the identity of a living infant.",
+      "detail": "The threatened division of the child exposes a difference between the women’s responses. It is a judgment story, not a recommended parenting test.",
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan",
+        "yale-solomon"
+      ],
+      "placeIds": [
+        "gibeon",
+        "jerusalem"
+      ],
+      "lds": {
+        "text": "Come, Follow Me encourages seeking discernment between right and wrong.",
+        "sourceIds": [
+          "cfm-kings-solomon"
+        ]
+      }
+    },
+    {
+      "id": "1-kings-4",
+      "chapter": 4,
+      "verse": 1,
+      "eventOrder": 4,
+      "title": "Officials, provisions, and wisdom",
+      "summary": "The chapter lists officials, regional suppliers, royal provisions, and Solomon’s reputation for wisdom.",
+      "detail": "A prosperous court requires workers, food, and administration. Its numerical claims are preserved as textual claims, not independently measured totals.",
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan",
+        "yale-solomon"
+      ],
+      "placeIds": [
+        "jerusalem"
+      ],
+      "lds": {
+        "text": "Original study reflection: identify the labor and resources behind a description of prosperity.",
+        "sourceIds": []
+      }
+    },
+    {
+      "id": "1-kings-5",
+      "chapter": 5,
+      "verse": 1,
+      "eventOrder": 5,
+      "title": "Hiram supplies timber for the temple",
+      "summary": "Solomon and Hiram arrange timber and food exchanges. Adoniram supervises a labor levy, while builders prepare stone and wood.",
+      "detail": "International cooperation and compelled labor support construction. The guide keeps workers visible alongside the royal achievement.",
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan",
+        "yale-solomon",
+        "yale-division"
+      ],
+      "placeIds": [
+        "jerusalem",
+        "tyre",
+        "lebanon"
+      ],
+      "lds": {
+        "text": "Original study reflection: consider how sacred projects affect the people who build them.",
+        "sourceIds": []
+      }
+    },
+    {
+      "id": "1-kings-6",
+      "chapter": 6,
+      "verse": 1,
+      "eventOrder": 6,
+      "title": "The temple is built",
+      "summary": "The account describes the temple’s rooms, wooden carvings, gold covering, and cherubim. God’s promise also requires faithful conduct.",
+      "detail": "The building description is a literary account. The map marks Jerusalem without claiming a verified floor plan or exact surviving foundation.",
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan",
+        "yale-solomon",
+        "yale-division"
+      ],
+      "placeIds": [
+        "jerusalem"
+      ],
+      "lds": {
+        "text": "Come, Follow Me invites reflection on sacred space and temple symbols.",
+        "sourceIds": [
+          "cfm-kings-solomon"
+        ]
+      }
+    },
+    {
+      "id": "1-kings-7",
+      "chapter": 7,
+      "verse": 1,
+      "eventOrder": 7,
+      "title": "Royal buildings and bronze furnishings",
+      "summary": "Solomon’s palace buildings are described. Hiram the bronze worker makes pillars, the sea, movable stands, and other vessels.",
+      "detail": "Hiram the artisan is distinct from the king of Tyre. The chapter describes craft knowledge and materials alongside royal buildings.",
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan",
+        "yale-solomon",
+        "yale-division"
+      ],
+      "placeIds": [
+        "jerusalem",
+        "tyre",
+        "succoth",
+        "zarethan"
+      ],
+      "lds": {
+        "text": "The older manual connects the bronze sea with baptism. This is an LDS interpretation, not archaeological proof.",
+        "sourceIds": [
+          "lds-kings-solomon"
+        ]
+      }
+    },
+    {
+      "id": "1-kings-8",
+      "chapter": 8,
+      "verse": 1,
+      "eventOrder": 8,
+      "title": "The ark enters the temple and Solomon prays",
+      "summary": "The ark is brought into the sanctuary. Solomon prays about justice, forgiveness, drought, foreigners, war, and exile.",
+      "detail": "The prayer says heaven cannot contain God. It joins a particular sacred house with concern for people beyond Israel.",
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan",
+        "yale-solomon",
+        "yale-division"
+      ],
+      "placeIds": [
+        "jerusalem"
+      ],
+      "lds": {
+        "text": "Come, Follow Me connects the dedication prayer with temple covenants and walking in God’s ways.",
+        "sourceIds": [
+          "cfm-kings-solomon"
+        ]
+      }
+    },
+    {
+      "id": "1-kings-9",
+      "chapter": 9,
+      "verse": 1,
+      "eventOrder": 9,
+      "title": "Promises, warnings, labor, and trade",
+      "summary": "God answers Solomon with a promise and warning. The chapter describes towns, building projects, labor, and ships sailing toward Ophir.",
+      "detail": "Sacred status does not remove accountability. Ophir’s location is disputed, so the guide does not invent a destination or sea route.",
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan",
+        "yale-solomon",
+        "yale-division"
+      ],
+      "placeIds": [
+        "jerusalem",
+        "tyre",
+        "galilee",
+        "gezer",
+        "hazor",
+        "megiddo",
+        "ezion-geber"
+      ],
+      "lds": {
+        "text": "Come, Follow Me studies God’s promises and the responsibility to keep covenants.",
+        "sourceIds": [
+          "cfm-kings-solomon"
+        ]
+      }
+    },
+    {
+      "id": "1-kings-10",
+      "chapter": 10,
+      "verse": 1,
+      "eventOrder": 10,
+      "title": "The queen of Sheba visits",
+      "summary": "The queen tests Solomon with questions and sees the court. Gifts, trade, gold, horses, and royal wealth follow.",
+      "detail": "The narrative presents international reputation and abundance. The queen is unnamed, and no exact journey or independent inventory is established here.",
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan",
+        "yale-solomon"
+      ],
+      "placeIds": [
+        "jerusalem"
+      ],
+      "lds": {
+        "text": "Original study reflection: compare admiration for wealth with the responsibilities of a ruler.",
+        "sourceIds": []
+      }
+    },
+    {
+      "id": "1-kings-11",
+      "chapter": 11,
+      "verse": 1,
+      "eventOrder": 11,
+      "title": "Solomon turns away and adversaries rise",
+      "summary": "Solomon supports other gods. Hadad and Rezon become adversaries. Ahijah promises Jeroboam a kingdom, and Solomon later dies.",
+      "detail": "The account holds Solomon responsible for his worship. It also recalls displaced people and rival powers, rather than only court prosperity.",
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan",
+        "yale-solomon",
+        "yale-division",
+        "wiki-1-kings"
+      ],
+      "placeIds": [
+        "jerusalem",
+        "edom",
+        "egypt",
+        "damascus",
+        "shiloh",
+        "zeredah"
+      ],
+      "lds": {
+        "text": "Come, Follow Me asks readers to examine influences that turn their hearts from God.",
+        "sourceIds": [
+          "cfm-kings-solomon"
+        ]
+      }
+    },
+    {
+      "id": "1-kings-12",
+      "chapter": 12,
+      "verse": 1,
+      "eventOrder": 12,
+      "title": "Rehoboam rejects the petition and the kingdom divides",
+      "summary": "Rehoboam rejects advice to ease the people’s burden. The northern tribes follow Jeroboam, who establishes worship at Bethel and Dan.",
+      "detail": "Labor grievances and political decisions contribute to division. The calves’ form and function need interpretation beyond assuming every worshiper’s private belief.",
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan",
+        "yale-division",
+        "wiki-1-kings"
+      ],
+      "placeIds": [
+        "shechem",
+        "jerusalem",
+        "bethel",
+        "dan",
+        "penuel"
+      ],
+      "lds": {
+        "text": "Come, Follow Me studies the effect of leaders’ choices and the need for good counsel.",
+        "sourceIds": [
+          "cfm-kings-elijah"
+        ]
+      }
+    },
+    {
+      "id": "1-kings-13",
+      "chapter": 13,
+      "verse": 1,
+      "eventOrder": 13,
+      "title": "A man of God confronts Bethel",
+      "summary": "A man of God announces judgment at Bethel. An older prophet deceives him into eating, and a lion later kills him.",
+      "detail": "The account combines a future oracle, signs, deception, and death. The older prophet’s claim is explicitly false. The guide does not invent either man’s name.",
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan"
+      ],
+      "placeIds": [
+        "bethel"
+      ],
+      "lds": {
+        "text": "Original study reflection: test a claimed revelation without assuming that status makes every claim reliable.",
+        "sourceIds": []
+      }
+    },
+    {
+      "id": "1-kings-14",
+      "chapter": 14,
+      "verse": 1,
+      "eventOrder": 14,
+      "title": "Ahijah speaks and Shishak attacks Jerusalem",
+      "summary": "Jeroboam’s disguised wife visits Ahijah about their son Abijah. The child dies. The account then describes Rehoboam’s rule and Shishak’s attack.",
+      "detail": "Royal households and ordinary people bear consequences in the account. Abijah the child is distinct from Abijam, Rehoboam’s successor.",
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan"
+      ],
+      "placeIds": [
+        "tirzah",
+        "shiloh",
+        "jerusalem",
+        "egypt"
+      ],
+      "lds": {
+        "text": "Original study reflection: retain the child and grieving household when assessing a royal judgment.",
+        "sourceIds": []
+      }
+    },
+    {
+      "id": "1-kings-15",
+      "chapter": 15,
+      "verse": 1,
+      "eventOrder": 15,
+      "title": "Judah’s rulers and a new northern dynasty",
+      "summary": "Abijam and Asa rule Judah. Asa seeks Ben Hadad’s help against Baasha. Baasha kills Nadab and destroys Jeroboam’s household.",
+      "detail": "The succession notices assess worship and record conflict. The same royal name can refer to different rulers in different generations.",
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan"
+      ],
+      "placeIds": [
+        "jerusalem",
+        "tirzah",
+        "ramah",
+        "geba",
+        "mizpah",
+        "damascus",
+        "gibbethon"
+      ],
+      "lds": {
+        "text": "Original study reflection: compare religious reform with the use of war and purchased alliances.",
+        "sourceIds": []
+      }
+    },
+    {
+      "id": "1-kings-16",
+      "chapter": 16,
+      "verse": 1,
+      "eventOrder": 16,
+      "title": "Rapid succession leads to Omri and Ahab",
+      "summary": "Jehu condemns Baasha’s house. Zimri kills Elah and is defeated. Omri prevails over Tibni, builds Samaria, and is succeeded by Ahab.",
+      "detail": "The narrative records unstable transfers of power. Ahab’s marriage and temple practices lead into the Elijah accounts. Hiel’s sons remain named in the rebuilding notice.",
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan",
+        "yale-division"
+      ],
+      "placeIds": [
+        "tirzah",
+        "gibbethon",
+        "samaria",
+        "sidon",
+        "jericho"
+      ],
+      "lds": {
+        "text": "Original study reflection: consider the human costs of a sequence summarized as royal succession.",
+        "sourceIds": []
+      }
+    },
+    {
+      "id": "1-kings-17",
+      "chapter": 17,
+      "verse": 1,
+      "eventOrder": 17,
+      "title": "Elijah and the widow at Zarephath",
+      "summary": "Elijah announces drought, receives food at Cherith, and stays with a widow at Zarephath. Her food endures, and her son returns to life.",
+      "detail": "The widow expresses scarcity, fear, and grief. Her words matter alongside the prophet’s actions. Cherith’s exact location remains uncertain.",
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan",
+        "yale-prophets"
+      ],
+      "placeIds": [
+        "cherith",
+        "zarephath",
+        "gilead"
+      ],
+      "lds": {
+        "text": "Come, Follow Me studies the widow’s trust amid scarcity.",
+        "sourceIds": [
+          "cfm-kings-elijah"
+        ]
+      }
+    },
+    {
+      "id": "1-kings-18",
+      "chapter": 18,
+      "verse": 1,
+      "eventOrder": 18,
+      "title": "Elijah confronts Ahab at Carmel",
+      "summary": "Obadiah meets Elijah. At Carmel, Elijah challenges divided allegiance. Fire answers his prayer, the Baal prophets are killed, and rain returns.",
+      "detail": "The narrative connects rain with divine power and includes mass killing. A religious application does not remove that violence from the account.",
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan",
+        "yale-prophets"
+      ],
+      "placeIds": [
+        "samaria",
+        "carmel",
+        "kishon",
+        "jezreel"
+      ],
+      "lds": {
+        "text": "Come, Follow Me uses Elijah’s challenge to examine commitment to God.",
+        "sourceIds": [
+          "cfm-kings-elijah"
+        ]
+      }
+    },
+    {
+      "id": "1-kings-19",
+      "chapter": 19,
+      "verse": 1,
+      "eventOrder": 19,
+      "title": "Elijah receives care and calls Elisha",
+      "summary": "Threatened by Jezebel, Elijah flees, asks to die, receives food, and travels to Horeb. He receives renewed work and places his mantle on Elisha.",
+      "detail": "Food, rest, and divine communication precede renewed service. The commands to appoint Hazael and Jehu are not reported as completed here.",
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan",
+        "yale-prophets"
+      ],
+      "placeIds": [
+        "jezreel",
+        "beersheba",
+        "horeb",
+        "abel-meholah"
+      ],
+      "lds": {
+        "text": "Come, Follow Me studies the quiet voice and Elisha’s willingness to respond.",
+        "sourceIds": [
+          "cfm-kings-elijah"
+        ]
+      }
+    },
+    {
+      "id": "1-kings-20",
+      "chapter": 20,
+      "verse": 1,
+      "eventOrder": 20,
+      "title": "Ahab defeats Ben Hadad and releases him",
+      "summary": "Ben Hadad attacks Samaria. Prophets advise Ahab, and Israel wins two battles. Ahab releases his opponent and receives a prophetic rebuke.",
+      "detail": "Military success and divine approval are not identical. The king called Ben Hadad here is kept distinct from Asa’s earlier ally.",
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan"
+      ],
+      "placeIds": [
+        "samaria",
+        "aphek"
+      ],
+      "lds": {
+        "text": "Original study reflection: examine how victory can still leave a leader accountable for a decision.",
+        "sourceIds": []
+      }
+    },
+    {
+      "id": "1-kings-21",
+      "chapter": 21,
+      "verse": 1,
+      "eventOrder": 21,
+      "title": "Naboth is killed and Elijah confronts Ahab",
+      "summary": "Naboth refuses to give up his vineyard. Jezebel arranges false accusations and his killing. Ahab takes possession, and Elijah announces judgment.",
+      "detail": "The king benefits from an injustice carried out through officials and false testimony. Naboth’s refusal concerns inherited land, not simple unwillingness to sell.",
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan",
+        "yale-division",
+        "yale-prophets"
+      ],
+      "placeIds": [
+        "jezreel",
+        "samaria"
+      ],
+      "lds": {
+        "text": "Original study reflection: consider how a person can benefit from wrongdoing arranged by another.",
+        "sourceIds": []
+      }
+    },
+    {
+      "id": "1-kings-22",
+      "chapter": 22,
+      "verse": 1,
+      "eventOrder": 22,
+      "title": "Micaiah warns Ahab before the final battle",
+      "summary": "Ahab and Jehoshaphat seek counsel about Ramoth Gilead. Micaiah describes a heavenly council and predicts defeat. Ahab dies in battle.",
+      "detail": "A large agreement among prophets does not settle the question of truth. The council scene raises difficult questions about deception and divine agency.",
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan",
+        "wiki-1-kings",
+        "dm-kings-council"
+      ],
+      "placeIds": [
+        "samaria",
+        "ramoth-gilead",
+        "jerusalem",
+        "ezion-geber"
+      ],
+      "lds": {
+        "text": "The older manual reads the council as divine permission. This remains an LDS interpretation of a difficult scene.",
+        "sourceIds": [
+          "lds-kings-elijah"
+        ]
+      }
+    }
+  ],
+  "places": [
+    {
+      "id": "gath",
+      "name": "Gath",
+      "lat": 31.7,
+      "lng": 34.846,
+      "summary": "Named locality or broad region in the chapter account.",
+      "limits": "Reference marker only. The guide does not identify a private house, exact camp, cave, field, shrine room, or ancient road. Proposed localities remain uncertain.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan"
+      ],
+      "detail": "Gath · Tell es-Safi. Reference marker only. The guide does not identify a private house, exact camp, cave, field, shrine room, or ancient road. Proposed localities remain uncertain.",
+      "uncertainty": "Gath · Tell es-Safi. Reference marker only. The guide does not identify a private house, exact camp, cave, field, shrine room, or ancient road. Proposed localities remain uncertain.",
+      "chapterLocation": true
+    },
+    {
+      "id": "beersheba",
+      "name": "Beersheba",
+      "lat": 31.245,
+      "lng": 34.842,
+      "summary": "Named locality or broad region in the chapter account.",
+      "limits": "Reference marker only. The guide does not identify a private house, exact camp, cave, field, shrine room, or ancient road. Proposed localities remain uncertain.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan"
+      ],
+      "detail": "Beersheba. Reference marker only. The guide does not identify a private house, exact camp, cave, field, shrine room, or ancient road. Proposed localities remain uncertain.",
+      "uncertainty": "Beersheba. Reference marker only. The guide does not identify a private house, exact camp, cave, field, shrine room, or ancient road. Proposed localities remain uncertain.",
+      "chapterLocation": true
+    },
+    {
+      "id": "jerusalem",
+      "name": "Jerusalem",
+      "lat": 31.778,
+      "lng": 35.235,
+      "summary": "Named locality or broad region in the narrative.",
+      "limits": "Reference marker only. Exact houses, camps, battle lines, property boundaries, and ancient roads remain uncertain.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan"
+      ],
+      "detail": "Jerusalem. Reference marker only. Exact houses, camps, battle lines, property boundaries, and ancient roads remain uncertain.",
+      "uncertainty": "Jerusalem. Reference marker only. Exact houses, camps, battle lines, property boundaries, and ancient roads remain uncertain.",
+      "chapterLocation": true
+    },
+    {
+      "id": "gibeon",
+      "name": "Gibeon",
+      "lat": 31.85,
+      "lng": 35.18,
+      "summary": "Named locality or broad region in the narrative.",
+      "limits": "Reference marker only. Exact houses, camps, battle lines, property boundaries, and ancient roads remain uncertain.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan"
+      ],
+      "detail": "Gibeon. Reference marker only. Exact houses, camps, battle lines, property boundaries, and ancient roads remain uncertain.",
+      "uncertainty": "Gibeon. Reference marker only. Exact houses, camps, battle lines, property boundaries, and ancient roads remain uncertain.",
+      "chapterLocation": true
+    },
+    {
+      "id": "tyre",
+      "name": "Tyre",
+      "lat": 33.27,
+      "lng": 35.2,
+      "summary": "Named locality or broad region in the narrative.",
+      "limits": "Reference marker only. Exact houses, camps, battle lines, property boundaries, and ancient roads remain uncertain.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan"
+      ],
+      "detail": "Tyre. Reference marker only. Exact houses, camps, battle lines, property boundaries, and ancient roads remain uncertain.",
+      "uncertainty": "Tyre. Reference marker only. Exact houses, camps, battle lines, property boundaries, and ancient roads remain uncertain.",
+      "chapterLocation": true
+    },
+    {
+      "id": "gezer",
+      "name": "Gezer",
+      "lat": 31.86,
+      "lng": 34.92,
+      "summary": "Named locality or broad region in the narrative.",
+      "limits": "Reference marker only. Exact houses, camps, battle lines, property boundaries, and ancient roads remain uncertain.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan"
+      ],
+      "detail": "Gezer. Reference marker only. Exact houses, camps, battle lines, property boundaries, and ancient roads remain uncertain.",
+      "uncertainty": "Gezer. Reference marker only. Exact houses, camps, battle lines, property boundaries, and ancient roads remain uncertain.",
+      "chapterLocation": true
+    },
+    {
+      "id": "edom",
+      "name": "Edom",
+      "lat": 30.75,
+      "lng": 35.55,
+      "summary": "Named locality or broad region in the narrative.",
+      "limits": "Reference marker only. Exact houses, camps, battle lines, property boundaries, and ancient roads remain uncertain.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan"
+      ],
+      "detail": "Edom · broad region. Reference marker only. Exact houses, camps, battle lines, property boundaries, and ancient roads remain uncertain.",
+      "uncertainty": "Edom · broad region. Reference marker only. Exact houses, camps, battle lines, property boundaries, and ancient roads remain uncertain.",
+      "chapterLocation": true
+    },
+    {
+      "id": "jericho",
+      "name": "Jericho",
+      "lat": 31.87,
+      "lng": 35.45,
+      "summary": "Named locality or broad region in the narrative.",
+      "limits": "Reference marker only. Exact houses, camps, battle lines, property boundaries, and ancient roads remain uncertain.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan"
+      ],
+      "detail": "Jericho. Reference marker only. Exact houses, camps, battle lines, property boundaries, and ancient roads remain uncertain.",
+      "uncertainty": "Jericho. Reference marker only. Exact houses, camps, battle lines, property boundaries, and ancient roads remain uncertain.",
+      "chapterLocation": true
+    },
+    {
+      "id": "en-rogel",
+      "name": "En Rogel",
+      "lat": 31.766,
+      "lng": 35.234,
+      "summary": "Named locality or broad region in the narrative.",
+      "limits": "Reference marker only. Exact houses, camps, battle lines, property boundaries, and ancient roads remain uncertain.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan"
+      ],
+      "detail": "En Rogel · proposed spring locality. Reference marker only. Exact houses, camps, battle lines, property boundaries, and ancient roads remain uncertain.",
+      "uncertainty": "En Rogel · proposed spring locality. Reference marker only. Exact houses, camps, battle lines, property boundaries, and ancient roads remain uncertain.",
+      "chapterLocation": true
+    },
+    {
+      "id": "gilead",
+      "name": "Gilead",
+      "lat": 32.2,
+      "lng": 35.8,
+      "summary": "Named locality or broad region in the narrative.",
+      "limits": "Reference marker only. Exact houses, camps, battle lines, property boundaries, and ancient roads remain uncertain.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan"
+      ],
+      "detail": "Gilead · broad region. Reference marker only. Exact houses, camps, battle lines, property boundaries, and ancient roads remain uncertain.",
+      "uncertainty": "Gilead · broad region. Reference marker only. Exact houses, camps, battle lines, property boundaries, and ancient roads remain uncertain.",
+      "chapterLocation": true
+    },
+    {
+      "id": "dan",
+      "name": "Dan",
+      "lat": 33.249,
+      "lng": 35.653,
+      "summary": "Named locality or broad region in the narrative.",
+      "limits": "Reference marker only. Exact houses, camps, battle lines, property boundaries, and ancient roads remain uncertain.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan"
+      ],
+      "detail": "Dan · broad northern locality. Reference marker only. Exact houses, camps, battle lines, property boundaries, and ancient roads remain uncertain.",
+      "uncertainty": "Dan · broad northern locality. Reference marker only. Exact houses, camps, battle lines, property boundaries, and ancient roads remain uncertain.",
+      "chapterLocation": true
+    },
+    {
+      "id": "sidon",
+      "name": "Sidon",
+      "lat": 33.56,
+      "lng": 35.37,
+      "summary": "Named locality or broad region in the narrative.",
+      "limits": "Reference marker only. Exact houses, camps, battle lines, property boundaries, and ancient roads remain uncertain.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan"
+      ],
+      "detail": "Sidon. Reference marker only. Exact houses, camps, battle lines, property boundaries, and ancient roads remain uncertain.",
+      "uncertainty": "Sidon. Reference marker only. Exact houses, camps, battle lines, property boundaries, and ancient roads remain uncertain.",
+      "chapterLocation": true
+    },
+    {
+      "id": "gihon",
+      "name": "Gihon",
+      "lat": 31.773,
+      "lng": 35.236,
+      "summary": "Named town or broad setting in the chapter.",
+      "limits": "Reference marker only. Proposed or broad locations do not establish an exact house, shrine, brook, mountain, battle position, or ancient road.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan"
+      ],
+      "detail": "Gihon · Jerusalem spring. Reference marker only. Proposed or broad locations do not establish an exact house, shrine, brook, mountain, battle position, or ancient road.",
+      "uncertainty": "Gihon · Jerusalem spring. Reference marker only. Proposed or broad locations do not establish an exact house, shrine, brook, mountain, battle position, or ancient road.",
+      "chapterLocation": true
+    },
+    {
+      "id": "anathoth",
+      "name": "Anathoth",
+      "lat": 31.815,
+      "lng": 35.261,
+      "summary": "Named town or broad setting in the chapter.",
+      "limits": "Reference marker only. Proposed or broad locations do not establish an exact house, shrine, brook, mountain, battle position, or ancient road.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan"
+      ],
+      "detail": "Anathoth · proposed locality. Reference marker only. Proposed or broad locations do not establish an exact house, shrine, brook, mountain, battle position, or ancient road.",
+      "uncertainty": "Anathoth · proposed locality. Reference marker only. Proposed or broad locations do not establish an exact house, shrine, brook, mountain, battle position, or ancient road.",
+      "chapterLocation": true
+    },
+    {
+      "id": "lebanon",
+      "name": "Lebanon",
+      "lat": 34.0,
+      "lng": 35.85,
+      "summary": "Named town or broad setting in the chapter.",
+      "limits": "Reference marker only. Proposed or broad locations do not establish an exact house, shrine, brook, mountain, battle position, or ancient road.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan"
+      ],
+      "detail": "Lebanon · broad mountain region. Reference marker only. Proposed or broad locations do not establish an exact house, shrine, brook, mountain, battle position, or ancient road.",
+      "uncertainty": "Lebanon · broad mountain region. Reference marker only. Proposed or broad locations do not establish an exact house, shrine, brook, mountain, battle position, or ancient road.",
+      "chapterLocation": true
+    },
+    {
+      "id": "succoth",
+      "name": "Succoth",
+      "lat": 32.2,
+      "lng": 35.63,
+      "summary": "Named town or broad setting in the chapter.",
+      "limits": "Reference marker only. Proposed or broad locations do not establish an exact house, shrine, brook, mountain, battle position, or ancient road.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan"
+      ],
+      "detail": "Succoth · proposed locality. Reference marker only. Proposed or broad locations do not establish an exact house, shrine, brook, mountain, battle position, or ancient road.",
+      "uncertainty": "Succoth · proposed locality. Reference marker only. Proposed or broad locations do not establish an exact house, shrine, brook, mountain, battle position, or ancient road.",
+      "chapterLocation": true
+    },
+    {
+      "id": "zarethan",
+      "name": "Zarethan",
+      "lat": 32.27,
+      "lng": 35.58,
+      "summary": "Named town or broad setting in the chapter.",
+      "limits": "Reference marker only. Proposed or broad locations do not establish an exact house, shrine, brook, mountain, battle position, or ancient road.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan"
+      ],
+      "detail": "Zarethan · locality uncertain. Reference marker only. Proposed or broad locations do not establish an exact house, shrine, brook, mountain, battle position, or ancient road.",
+      "uncertainty": "Zarethan · locality uncertain. Reference marker only. Proposed or broad locations do not establish an exact house, shrine, brook, mountain, battle position, or ancient road.",
+      "chapterLocation": true
+    },
+    {
+      "id": "galilee",
+      "name": "Galilee",
+      "lat": 32.85,
+      "lng": 35.3,
+      "summary": "Named town or broad setting in the chapter.",
+      "limits": "Reference marker only. Proposed or broad locations do not establish an exact house, shrine, brook, mountain, battle position, or ancient road.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan"
+      ],
+      "detail": "Galilee · broad region. Reference marker only. Proposed or broad locations do not establish an exact house, shrine, brook, mountain, battle position, or ancient road.",
+      "uncertainty": "Galilee · broad region. Reference marker only. Proposed or broad locations do not establish an exact house, shrine, brook, mountain, battle position, or ancient road.",
+      "chapterLocation": true
+    },
+    {
+      "id": "hazor",
+      "name": "Hazor",
+      "lat": 33.017,
+      "lng": 35.569,
+      "summary": "Named town or broad setting in the chapter.",
+      "limits": "Reference marker only. Proposed or broad locations do not establish an exact house, shrine, brook, mountain, battle position, or ancient road.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan"
+      ],
+      "detail": "Hazor. Reference marker only. Proposed or broad locations do not establish an exact house, shrine, brook, mountain, battle position, or ancient road.",
+      "uncertainty": "Hazor. Reference marker only. Proposed or broad locations do not establish an exact house, shrine, brook, mountain, battle position, or ancient road.",
+      "chapterLocation": true
+    },
+    {
+      "id": "megiddo",
+      "name": "Megiddo",
+      "lat": 32.585,
+      "lng": 35.184,
+      "summary": "Named town or broad setting in the chapter.",
+      "limits": "Reference marker only. Proposed or broad locations do not establish an exact house, shrine, brook, mountain, battle position, or ancient road.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan"
+      ],
+      "detail": "Megiddo. Reference marker only. Proposed or broad locations do not establish an exact house, shrine, brook, mountain, battle position, or ancient road.",
+      "uncertainty": "Megiddo. Reference marker only. Proposed or broad locations do not establish an exact house, shrine, brook, mountain, battle position, or ancient road.",
+      "chapterLocation": true
+    },
+    {
+      "id": "ezion-geber",
+      "name": "Ezion Geber",
+      "lat": 29.55,
+      "lng": 35.0,
+      "summary": "Named town or broad setting in the chapter.",
+      "limits": "Reference marker only. Proposed or broad locations do not establish an exact house, shrine, brook, mountain, battle position, or ancient road.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan"
+      ],
+      "detail": "Ezion Geber · disputed Gulf of Aqaba locality. Reference marker only. Proposed or broad locations do not establish an exact house, shrine, brook, mountain, battle position, or ancient road.",
+      "uncertainty": "Ezion Geber · disputed Gulf of Aqaba locality. Reference marker only. Proposed or broad locations do not establish an exact house, shrine, brook, mountain, battle position, or ancient road.",
+      "chapterLocation": true
+    },
+    {
+      "id": "egypt",
+      "name": "Egypt",
+      "lat": 30.05,
+      "lng": 31.23,
+      "summary": "Named town or broad setting in the chapter.",
+      "limits": "Reference marker only. Proposed or broad locations do not establish an exact house, shrine, brook, mountain, battle position, or ancient road.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan"
+      ],
+      "detail": "Egypt · broad region. Reference marker only. Proposed or broad locations do not establish an exact house, shrine, brook, mountain, battle position, or ancient road.",
+      "uncertainty": "Egypt · broad region. Reference marker only. Proposed or broad locations do not establish an exact house, shrine, brook, mountain, battle position, or ancient road.",
+      "chapterLocation": true
+    },
+    {
+      "id": "damascus",
+      "name": "Damascus",
+      "lat": 33.513,
+      "lng": 36.292,
+      "summary": "Named town or broad setting in the chapter.",
+      "limits": "Reference marker only. Proposed or broad locations do not establish an exact house, shrine, brook, mountain, battle position, or ancient road.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan"
+      ],
+      "detail": "Damascus. Reference marker only. Proposed or broad locations do not establish an exact house, shrine, brook, mountain, battle position, or ancient road.",
+      "uncertainty": "Damascus. Reference marker only. Proposed or broad locations do not establish an exact house, shrine, brook, mountain, battle position, or ancient road.",
+      "chapterLocation": true
+    },
+    {
+      "id": "shiloh",
+      "name": "Shiloh",
+      "lat": 32.055,
+      "lng": 35.289,
+      "summary": "Named town or broad setting in the chapter.",
+      "limits": "Reference marker only. Proposed or broad locations do not establish an exact house, shrine, brook, mountain, battle position, or ancient road.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan"
+      ],
+      "detail": "Shiloh. Reference marker only. Proposed or broad locations do not establish an exact house, shrine, brook, mountain, battle position, or ancient road.",
+      "uncertainty": "Shiloh. Reference marker only. Proposed or broad locations do not establish an exact house, shrine, brook, mountain, battle position, or ancient road.",
+      "chapterLocation": true
+    },
+    {
+      "id": "zeredah",
+      "name": "Zeredah",
+      "lat": 32.04,
+      "lng": 35.02,
+      "summary": "Named town or broad setting in the chapter.",
+      "limits": "Reference marker only. Proposed or broad locations do not establish an exact house, shrine, brook, mountain, battle position, or ancient road.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan"
+      ],
+      "detail": "Zeredah · locality uncertain. Reference marker only. Proposed or broad locations do not establish an exact house, shrine, brook, mountain, battle position, or ancient road.",
+      "uncertainty": "Zeredah · locality uncertain. Reference marker only. Proposed or broad locations do not establish an exact house, shrine, brook, mountain, battle position, or ancient road.",
+      "chapterLocation": true
+    },
+    {
+      "id": "shechem",
+      "name": "Shechem",
+      "lat": 32.213,
+      "lng": 35.282,
+      "summary": "Named town or broad setting in the chapter.",
+      "limits": "Reference marker only. Proposed or broad locations do not establish an exact house, shrine, brook, mountain, battle position, or ancient road.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan"
+      ],
+      "detail": "Shechem. Reference marker only. Proposed or broad locations do not establish an exact house, shrine, brook, mountain, battle position, or ancient road.",
+      "uncertainty": "Shechem. Reference marker only. Proposed or broad locations do not establish an exact house, shrine, brook, mountain, battle position, or ancient road.",
+      "chapterLocation": true
+    },
+    {
+      "id": "bethel",
+      "name": "Bethel",
+      "lat": 31.93,
+      "lng": 35.22,
+      "summary": "Named town or broad setting in the chapter.",
+      "limits": "Reference marker only. Proposed or broad locations do not establish an exact house, shrine, brook, mountain, battle position, or ancient road.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan"
+      ],
+      "detail": "Bethel · proposed locality. Reference marker only. Proposed or broad locations do not establish an exact house, shrine, brook, mountain, battle position, or ancient road.",
+      "uncertainty": "Bethel · proposed locality. Reference marker only. Proposed or broad locations do not establish an exact house, shrine, brook, mountain, battle position, or ancient road.",
+      "chapterLocation": true
+    },
+    {
+      "id": "penuel",
+      "name": "Penuel",
+      "lat": 32.185,
+      "lng": 35.694,
+      "summary": "Named town or broad setting in the chapter.",
+      "limits": "Reference marker only. Proposed or broad locations do not establish an exact house, shrine, brook, mountain, battle position, or ancient road.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan"
+      ],
+      "detail": "Penuel · proposed locality. Reference marker only. Proposed or broad locations do not establish an exact house, shrine, brook, mountain, battle position, or ancient road.",
+      "uncertainty": "Penuel · proposed locality. Reference marker only. Proposed or broad locations do not establish an exact house, shrine, brook, mountain, battle position, or ancient road.",
+      "chapterLocation": true
+    },
+    {
+      "id": "tirzah",
+      "name": "Tirzah",
+      "lat": 32.287,
+      "lng": 35.342,
+      "summary": "Named town or broad setting in the chapter.",
+      "limits": "Reference marker only. Proposed or broad locations do not establish an exact house, shrine, brook, mountain, battle position, or ancient road.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan"
+      ],
+      "detail": "Tirzah · proposed locality. Reference marker only. Proposed or broad locations do not establish an exact house, shrine, brook, mountain, battle position, or ancient road.",
+      "uncertainty": "Tirzah · proposed locality. Reference marker only. Proposed or broad locations do not establish an exact house, shrine, brook, mountain, battle position, or ancient road.",
+      "chapterLocation": true
+    },
+    {
+      "id": "ramah",
+      "name": "Ramah",
+      "lat": 31.853,
+      "lng": 35.237,
+      "summary": "Named town or broad setting in the chapter.",
+      "limits": "Reference marker only. Proposed or broad locations do not establish an exact house, shrine, brook, mountain, battle position, or ancient road.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan"
+      ],
+      "detail": "Ramah · Benjamin locality. Reference marker only. Proposed or broad locations do not establish an exact house, shrine, brook, mountain, battle position, or ancient road.",
+      "uncertainty": "Ramah · Benjamin locality. Reference marker only. Proposed or broad locations do not establish an exact house, shrine, brook, mountain, battle position, or ancient road.",
+      "chapterLocation": true
+    },
+    {
+      "id": "geba",
+      "name": "Geba",
+      "lat": 31.857,
+      "lng": 35.259,
+      "summary": "Named town or broad setting in the chapter.",
+      "limits": "Reference marker only. Proposed or broad locations do not establish an exact house, shrine, brook, mountain, battle position, or ancient road.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan"
+      ],
+      "detail": "Geba · proposed locality. Reference marker only. Proposed or broad locations do not establish an exact house, shrine, brook, mountain, battle position, or ancient road.",
+      "uncertainty": "Geba · proposed locality. Reference marker only. Proposed or broad locations do not establish an exact house, shrine, brook, mountain, battle position, or ancient road.",
+      "chapterLocation": true
+    },
+    {
+      "id": "mizpah",
+      "name": "Mizpah",
+      "lat": 31.886,
+      "lng": 35.215,
+      "summary": "Named town or broad setting in the chapter.",
+      "limits": "Reference marker only. Proposed or broad locations do not establish an exact house, shrine, brook, mountain, battle position, or ancient road.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan"
+      ],
+      "detail": "Mizpah · Benjamin identification uncertain. Reference marker only. Proposed or broad locations do not establish an exact house, shrine, brook, mountain, battle position, or ancient road.",
+      "uncertainty": "Mizpah · Benjamin identification uncertain. Reference marker only. Proposed or broad locations do not establish an exact house, shrine, brook, mountain, battle position, or ancient road.",
+      "chapterLocation": true
+    },
+    {
+      "id": "gibbethon",
+      "name": "Gibbethon",
+      "lat": 31.94,
+      "lng": 34.8,
+      "summary": "Named town or broad setting in the chapter.",
+      "limits": "Reference marker only. Proposed or broad locations do not establish an exact house, shrine, brook, mountain, battle position, or ancient road.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan"
+      ],
+      "detail": "Gibbethon · locality uncertain. Reference marker only. Proposed or broad locations do not establish an exact house, shrine, brook, mountain, battle position, or ancient road.",
+      "uncertainty": "Gibbethon · locality uncertain. Reference marker only. Proposed or broad locations do not establish an exact house, shrine, brook, mountain, battle position, or ancient road.",
+      "chapterLocation": true
+    },
+    {
+      "id": "samaria",
+      "name": "Samaria",
+      "lat": 32.276,
+      "lng": 35.194,
+      "summary": "Named town or broad setting in the chapter.",
+      "limits": "Reference marker only. Proposed or broad locations do not establish an exact house, shrine, brook, mountain, battle position, or ancient road.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan"
+      ],
+      "detail": "Samaria. Reference marker only. Proposed or broad locations do not establish an exact house, shrine, brook, mountain, battle position, or ancient road.",
+      "uncertainty": "Samaria. Reference marker only. Proposed or broad locations do not establish an exact house, shrine, brook, mountain, battle position, or ancient road.",
+      "chapterLocation": true
+    },
+    {
+      "id": "cherith",
+      "name": "Cherith",
+      "lat": 32.2,
+      "lng": 35.85,
+      "summary": "Named town or broad setting in the chapter.",
+      "limits": "Reference marker only. Proposed or broad locations do not establish an exact house, shrine, brook, mountain, battle position, or ancient road.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan"
+      ],
+      "detail": "Cherith · broad eastern Jordan setting, exact brook unknown. Reference marker only. Proposed or broad locations do not establish an exact house, shrine, brook, mountain, battle position, or ancient road.",
+      "uncertainty": "Cherith · broad eastern Jordan setting, exact brook unknown. Reference marker only. Proposed or broad locations do not establish an exact house, shrine, brook, mountain, battle position, or ancient road.",
+      "chapterLocation": true
+    },
+    {
+      "id": "zarephath",
+      "name": "Zarephath",
+      "lat": 33.46,
+      "lng": 35.3,
+      "summary": "Named town or broad setting in the chapter.",
+      "limits": "Reference marker only. Proposed or broad locations do not establish an exact house, shrine, brook, mountain, battle position, or ancient road.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan"
+      ],
+      "detail": "Zarephath · coastal locality. Reference marker only. Proposed or broad locations do not establish an exact house, shrine, brook, mountain, battle position, or ancient road.",
+      "uncertainty": "Zarephath · coastal locality. Reference marker only. Proposed or broad locations do not establish an exact house, shrine, brook, mountain, battle position, or ancient road.",
+      "chapterLocation": true
+    },
+    {
+      "id": "carmel",
+      "name": "Mount Carmel",
+      "lat": 32.73,
+      "lng": 35.04,
+      "summary": "Named town or broad setting in the chapter.",
+      "limits": "Reference marker only. Proposed or broad locations do not establish an exact house, shrine, brook, mountain, battle position, or ancient road.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan"
+      ],
+      "detail": "Mount Carmel · broad mountain setting. Reference marker only. Proposed or broad locations do not establish an exact house, shrine, brook, mountain, battle position, or ancient road.",
+      "uncertainty": "Mount Carmel · broad mountain setting. Reference marker only. Proposed or broad locations do not establish an exact house, shrine, brook, mountain, battle position, or ancient road.",
+      "chapterLocation": true
+    },
+    {
+      "id": "kishon",
+      "name": "Kishon",
+      "lat": 32.75,
+      "lng": 35.12,
+      "summary": "Named town or broad setting in the chapter.",
+      "limits": "Reference marker only. Proposed or broad locations do not establish an exact house, shrine, brook, mountain, battle position, or ancient road.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan"
+      ],
+      "detail": "Kishon · broad river setting. Reference marker only. Proposed or broad locations do not establish an exact house, shrine, brook, mountain, battle position, or ancient road.",
+      "uncertainty": "Kishon · broad river setting. Reference marker only. Proposed or broad locations do not establish an exact house, shrine, brook, mountain, battle position, or ancient road.",
+      "chapterLocation": true
+    },
+    {
+      "id": "jezreel",
+      "name": "Jezreel",
+      "lat": 32.557,
+      "lng": 35.329,
+      "summary": "Named town or broad setting in the chapter.",
+      "limits": "Reference marker only. Proposed or broad locations do not establish an exact house, shrine, brook, mountain, battle position, or ancient road.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan"
+      ],
+      "detail": "Jezreel. Reference marker only. Proposed or broad locations do not establish an exact house, shrine, brook, mountain, battle position, or ancient road.",
+      "uncertainty": "Jezreel. Reference marker only. Proposed or broad locations do not establish an exact house, shrine, brook, mountain, battle position, or ancient road.",
+      "chapterLocation": true
+    },
+    {
+      "id": "horeb",
+      "name": "Horeb",
+      "lat": 28.54,
+      "lng": 33.97,
+      "summary": "Named town or broad setting in the chapter.",
+      "limits": "Reference marker only. Proposed or broad locations do not establish an exact house, shrine, brook, mountain, battle position, or ancient road.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan"
+      ],
+      "detail": "Horeb · traditional Sinai region, identification disputed. Reference marker only. Proposed or broad locations do not establish an exact house, shrine, brook, mountain, battle position, or ancient road.",
+      "uncertainty": "Horeb · traditional Sinai region, identification disputed. Reference marker only. Proposed or broad locations do not establish an exact house, shrine, brook, mountain, battle position, or ancient road.",
+      "chapterLocation": true
+    },
+    {
+      "id": "abel-meholah",
+      "name": "Abel Meholah",
+      "lat": 32.35,
+      "lng": 35.53,
+      "summary": "Named town or broad setting in the chapter.",
+      "limits": "Reference marker only. Proposed or broad locations do not establish an exact house, shrine, brook, mountain, battle position, or ancient road.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan"
+      ],
+      "detail": "Abel Meholah · proposed locality. Reference marker only. Proposed or broad locations do not establish an exact house, shrine, brook, mountain, battle position, or ancient road.",
+      "uncertainty": "Abel Meholah · proposed locality. Reference marker only. Proposed or broad locations do not establish an exact house, shrine, brook, mountain, battle position, or ancient road.",
+      "chapterLocation": true
+    },
+    {
+      "id": "aphek",
+      "name": "Aphek",
+      "lat": 32.82,
+      "lng": 35.71,
+      "summary": "Named town or broad setting in the chapter.",
+      "limits": "Reference marker only. Proposed or broad locations do not establish an exact house, shrine, brook, mountain, battle position, or ancient road.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan"
+      ],
+      "detail": "Aphek · battle locality uncertain. Reference marker only. Proposed or broad locations do not establish an exact house, shrine, brook, mountain, battle position, or ancient road.",
+      "uncertainty": "Aphek · battle locality uncertain. Reference marker only. Proposed or broad locations do not establish an exact house, shrine, brook, mountain, battle position, or ancient road.",
+      "chapterLocation": true
+    },
+    {
+      "id": "ramoth-gilead",
+      "name": "Ramoth Gilead",
+      "lat": 32.47,
+      "lng": 35.85,
+      "summary": "Named town or broad setting in the chapter.",
+      "limits": "Reference marker only. Proposed or broad locations do not establish an exact house, shrine, brook, mountain, battle position, or ancient road.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan"
+      ],
+      "detail": "Ramoth Gilead · locality disputed. Reference marker only. Proposed or broad locations do not establish an exact house, shrine, brook, mountain, battle position, or ancient road.",
+      "uncertainty": "Ramoth Gilead · locality disputed. Reference marker only. Proposed or broad locations do not establish an exact house, shrine, brook, mountain, battle position, or ancient road.",
+      "chapterLocation": true
+    }
+  ],
+  "campaigns": [],
+  "ancientRoads": [],
+  "regions": [],
+  "words": [],
+  "guides": [
+    {
+      "id": "1-kings-overview",
+      "title": "Study 1 Kings",
+      "description": "Follow selected chapters through the book.",
+      "steps": [
+        {
+          "title": "Solomon is anointed during a succession dispute",
+          "text": "Adonijah gathers supporters at En Rogel. Bathsheba and Nathan approach David, who orders Solomon’s anointing at Gihon. Succession depends on public recognition and access to the aging king. Abishag serves David, but the text denies sexual relations.",
+          "chapter": 1,
+          "verse": 1,
+          "sourceIds": [
+            "web",
+            "atlas-canaan",
+            "yale-solomon",
+            "wiki-1-kings"
+          ]
+        },
+        {
+          "title": "Rehoboam rejects the petition and the kingdom divides",
+          "text": "Rehoboam rejects advice to ease the people’s burden. The northern tribes follow Jeroboam, who establishes worship at Bethel and Dan. Labor grievances and political decisions contribute to division. The calves’ form and function need interpretation beyond assuming every worshiper’s private belief.",
+          "chapter": 12,
+          "verse": 1,
+          "sourceIds": [
+            "web",
+            "atlas-canaan",
+            "yale-division",
+            "wiki-1-kings"
+          ]
+        },
+        {
+          "title": "Micaiah warns Ahab before the final battle",
+          "text": "Ahab and Jehoshaphat seek counsel about Ramoth Gilead. Micaiah describes a heavenly council and predicts defeat. Ahab dies in battle. A large agreement among prophets does not settle the question of truth. The council scene raises difficult questions about deception and divine agency.",
+          "chapter": 22,
+          "verse": 1,
+          "sourceIds": [
+            "web",
+            "atlas-canaan",
+            "wiki-1-kings",
+            "dm-kings-council"
+          ]
+        }
+      ]
+    }
+  ],
+  "periods": [
+    {
+      "id": "part-0",
+      "label": "1 Kings 1–7",
+      "start": 1,
+      "end": 7,
+      "description": "Chapter order"
+    },
+    {
+      "id": "part-1",
+      "label": "1 Kings 8–14",
+      "start": 8,
+      "end": 14,
+      "description": "Chapter order"
+    },
+    {
+      "id": "part-2",
+      "label": "1 Kings 15–22",
+      "start": 15,
+      "end": 22,
+      "description": "Chapter order"
+    }
+  ],
+  "chapterMaps": [
+    {
+      "chapter": 1,
+      "focusPlaceIds": [
+        "jerusalem",
+        "en-rogel",
+        "gihon"
+      ],
+      "placeIds": [
+        "jerusalem",
+        "en-rogel",
+        "gihon"
+      ],
+      "routes": [
+        {
+          "id": "1-kings-1-journey",
+          "to": 1,
+          "reference": "1 Kings 1:1",
+          "from": 0
+        }
+      ],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
+      "narrative": "Adonijah gathers supporters at En Rogel. Bathsheba and Nathan approach David, who orders Solomon’s anointing at Gihon.",
+      "limits": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan",
+        "yale-solomon",
+        "wiki-1-kings"
+      ]
+    },
+    {
+      "chapter": 2,
+      "focusPlaceIds": [
+        "jerusalem",
+        "anathoth",
+        "gath"
+      ],
+      "placeIds": [
+        "jerusalem",
+        "anathoth",
+        "gath"
+      ],
+      "routes": [
+        {
+          "id": "1-kings-2-journey",
+          "to": 2,
+          "reference": "1 Kings 2:1",
+          "from": 0
+        }
+      ],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
+      "narrative": "David gives final instructions. Solomon removes Abiathar and orders the deaths of Adonijah, Joab, and Shimei.",
+      "limits": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan",
+        "yale-solomon"
+      ]
+    },
+    {
+      "chapter": 3,
+      "focusPlaceIds": [
+        "gibeon",
+        "jerusalem"
+      ],
+      "placeIds": [
+        "gibeon",
+        "jerusalem"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
+      "narrative": "At Gibeon, Solomon asks for an understanding heart. In Jerusalem, two women dispute the identity of a living infant.",
+      "limits": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan",
+        "yale-solomon"
+      ]
+    },
+    {
+      "chapter": 4,
+      "focusPlaceIds": [
+        "jerusalem"
+      ],
+      "placeIds": [
+        "jerusalem"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
+      "narrative": "The chapter lists officials, regional suppliers, royal provisions, and Solomon’s reputation for wisdom.",
+      "limits": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan",
+        "yale-solomon"
+      ]
+    },
+    {
+      "chapter": 5,
+      "focusPlaceIds": [
+        "jerusalem",
+        "tyre",
+        "lebanon"
+      ],
+      "placeIds": [
+        "jerusalem",
+        "tyre",
+        "lebanon"
+      ],
+      "routes": [
+        {
+          "id": "1-kings-5-journey",
+          "to": 2,
+          "reference": "1 Kings 5:1",
+          "from": 0
+        }
+      ],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
+      "narrative": "Solomon and Hiram arrange timber and food exchanges. Adoniram supervises a labor levy, while builders prepare stone and wood.",
+      "limits": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan",
+        "yale-solomon",
+        "yale-division"
+      ]
+    },
+    {
+      "chapter": 6,
+      "focusPlaceIds": [
+        "jerusalem"
+      ],
+      "placeIds": [
+        "jerusalem"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
+      "narrative": "The account describes the temple’s rooms, wooden carvings, gold covering, and cherubim. God’s promise also requires faithful conduct.",
+      "limits": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan",
+        "yale-solomon",
+        "yale-division"
+      ]
+    },
+    {
+      "chapter": 7,
+      "focusPlaceIds": [
+        "jerusalem",
+        "tyre",
+        "succoth",
+        "zarethan"
+      ],
+      "placeIds": [
+        "jerusalem",
+        "tyre",
+        "succoth",
+        "zarethan"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
+      "narrative": "Solomon’s palace buildings are described. Hiram the bronze worker makes pillars, the sea, movable stands, and other vessels.",
+      "limits": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan",
+        "yale-solomon",
+        "yale-division"
+      ]
+    },
+    {
+      "chapter": 8,
+      "focusPlaceIds": [
+        "jerusalem"
+      ],
+      "placeIds": [
+        "jerusalem"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
+      "narrative": "The ark is brought into the sanctuary. Solomon prays about justice, forgiveness, drought, foreigners, war, and exile.",
+      "limits": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan",
+        "yale-solomon",
+        "yale-division"
+      ]
+    },
+    {
+      "chapter": 9,
+      "focusPlaceIds": [
+        "jerusalem",
+        "tyre",
+        "galilee",
+        "gezer",
+        "hazor",
+        "megiddo",
+        "ezion-geber"
+      ],
+      "placeIds": [
+        "jerusalem",
+        "tyre",
+        "galilee",
+        "gezer",
+        "hazor",
+        "megiddo",
+        "ezion-geber"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
+      "narrative": "God answers Solomon with a promise and warning. The chapter describes towns, building projects, labor, and ships sailing toward Ophir.",
+      "limits": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan",
+        "yale-solomon",
+        "yale-division"
+      ]
+    },
+    {
+      "chapter": 10,
+      "focusPlaceIds": [
+        "jerusalem"
+      ],
+      "placeIds": [
+        "jerusalem"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
+      "narrative": "The queen tests Solomon with questions and sees the court. Gifts, trade, gold, horses, and royal wealth follow.",
+      "limits": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan",
+        "yale-solomon"
+      ]
+    },
+    {
+      "chapter": 11,
+      "focusPlaceIds": [
+        "jerusalem",
+        "edom",
+        "egypt",
+        "damascus",
+        "shiloh",
+        "zeredah"
+      ],
+      "placeIds": [
+        "jerusalem",
+        "edom",
+        "egypt",
+        "damascus",
+        "shiloh",
+        "zeredah"
+      ],
+      "routes": [
+        {
+          "id": "1-kings-11-journey",
+          "to": 1,
+          "reference": "1 Kings 11:1",
+          "from": 0
+        }
+      ],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
+      "narrative": "Solomon supports other gods. Hadad and Rezon become adversaries. Ahijah promises Jeroboam a kingdom, and Solomon later dies.",
+      "limits": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan",
+        "yale-solomon",
+        "yale-division",
+        "wiki-1-kings"
+      ]
+    },
+    {
+      "chapter": 12,
+      "focusPlaceIds": [
+        "shechem",
+        "jerusalem",
+        "bethel",
+        "dan",
+        "penuel"
+      ],
+      "placeIds": [
+        "shechem",
+        "jerusalem",
+        "bethel",
+        "dan",
+        "penuel"
+      ],
+      "routes": [
+        {
+          "id": "1-kings-12-journey",
+          "to": 1,
+          "reference": "1 Kings 12:1",
+          "from": 0
+        }
+      ],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
+      "narrative": "Rehoboam rejects advice to ease the people’s burden. The northern tribes follow Jeroboam, who establishes worship at Bethel and Dan.",
+      "limits": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan",
+        "yale-division",
+        "wiki-1-kings"
+      ]
+    },
+    {
+      "chapter": 13,
+      "focusPlaceIds": [
+        "bethel"
+      ],
+      "placeIds": [
+        "bethel"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
+      "narrative": "A man of God announces judgment at Bethel. An older prophet deceives him into eating, and a lion later kills him.",
+      "limits": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan"
+      ]
+    },
+    {
+      "chapter": 14,
+      "focusPlaceIds": [
+        "tirzah",
+        "shiloh",
+        "jerusalem",
+        "egypt"
+      ],
+      "placeIds": [
+        "tirzah",
+        "shiloh",
+        "jerusalem",
+        "egypt"
+      ],
+      "routes": [
+        {
+          "id": "1-kings-14-journey",
+          "to": 1,
+          "reference": "1 Kings 14:1",
+          "from": 0
+        }
+      ],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
+      "narrative": "Jeroboam’s disguised wife visits Ahijah about their son Abijah. The child dies. The account then describes Rehoboam’s rule and Shishak’s attack.",
+      "limits": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan"
+      ]
+    },
+    {
+      "chapter": 15,
+      "focusPlaceIds": [
+        "jerusalem",
+        "tirzah",
+        "ramah",
+        "geba",
+        "mizpah",
+        "damascus",
+        "gibbethon"
+      ],
+      "placeIds": [
+        "jerusalem",
+        "tirzah",
+        "ramah",
+        "geba",
+        "mizpah",
+        "damascus",
+        "gibbethon"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
+      "narrative": "Abijam and Asa rule Judah. Asa seeks Ben Hadad’s help against Baasha. Baasha kills Nadab and destroys Jeroboam’s household.",
+      "limits": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan"
+      ]
+    },
+    {
+      "chapter": 16,
+      "focusPlaceIds": [
+        "tirzah",
+        "gibbethon",
+        "samaria",
+        "sidon",
+        "jericho"
+      ],
+      "placeIds": [
+        "tirzah",
+        "gibbethon",
+        "samaria",
+        "sidon",
+        "jericho"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
+      "narrative": "Jehu condemns Baasha’s house. Zimri kills Elah and is defeated. Omri prevails over Tibni, builds Samaria, and is succeeded by Ahab.",
+      "limits": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan",
+        "yale-division"
+      ]
+    },
+    {
+      "chapter": 17,
+      "focusPlaceIds": [
+        "cherith",
+        "zarephath",
+        "gilead"
+      ],
+      "placeIds": [
+        "cherith",
+        "zarephath",
+        "gilead"
+      ],
+      "routes": [
+        {
+          "id": "1-kings-17-journey",
+          "to": 1,
+          "reference": "1 Kings 17:1",
+          "from": 0
+        }
+      ],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
+      "narrative": "Elijah announces drought, receives food at Cherith, and stays with a widow at Zarephath. Her food endures, and her son returns to life.",
+      "limits": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan",
+        "yale-prophets"
+      ]
+    },
+    {
+      "chapter": 18,
+      "focusPlaceIds": [
+        "samaria",
+        "carmel",
+        "kishon",
+        "jezreel"
+      ],
+      "placeIds": [
+        "samaria",
+        "carmel",
+        "kishon",
+        "jezreel"
+      ],
+      "routes": [
+        {
+          "id": "1-kings-18-journey",
+          "to": 1,
+          "reference": "1 Kings 18:1",
+          "from": 0
+        }
+      ],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
+      "narrative": "Obadiah meets Elijah. At Carmel, Elijah challenges divided allegiance. Fire answers his prayer, the Baal prophets are killed, and rain returns.",
+      "limits": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan",
+        "yale-prophets"
+      ]
+    },
+    {
+      "chapter": 19,
+      "focusPlaceIds": [
+        "jezreel",
+        "beersheba",
+        "horeb",
+        "abel-meholah"
+      ],
+      "placeIds": [
+        "jezreel",
+        "beersheba",
+        "horeb",
+        "abel-meholah"
+      ],
+      "routes": [
+        {
+          "id": "1-kings-19-journey",
+          "to": 2,
+          "reference": "1 Kings 19:1",
+          "from": 0
+        }
+      ],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
+      "narrative": "Threatened by Jezebel, Elijah flees, asks to die, receives food, and travels to Horeb. He receives renewed work and places his mantle on Elisha.",
+      "limits": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan",
+        "yale-prophets"
+      ]
+    },
+    {
+      "chapter": 20,
+      "focusPlaceIds": [
+        "samaria",
+        "aphek"
+      ],
+      "placeIds": [
+        "samaria",
+        "aphek"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
+      "narrative": "Ben Hadad attacks Samaria. Prophets advise Ahab, and Israel wins two battles. Ahab releases his opponent and receives a prophetic rebuke.",
+      "limits": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan"
+      ]
+    },
+    {
+      "chapter": 21,
+      "focusPlaceIds": [
+        "jezreel",
+        "samaria"
+      ],
+      "placeIds": [
+        "jezreel",
+        "samaria"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
+      "narrative": "Naboth refuses to give up his vineyard. Jezebel arranges false accusations and his killing. Ahab takes possession, and Elijah announces judgment.",
+      "limits": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan",
+        "yale-division",
+        "yale-prophets"
+      ]
+    },
+    {
+      "chapter": 22,
+      "focusPlaceIds": [
+        "samaria",
+        "ramoth-gilead",
+        "jerusalem",
+        "ezion-geber"
+      ],
+      "placeIds": [
+        "samaria",
+        "ramoth-gilead",
+        "jerusalem",
+        "ezion-geber"
+      ],
+      "routes": [
+        {
+          "id": "1-kings-22-journey",
+          "to": 1,
+          "reference": "1 Kings 22:1",
+          "from": 0
+        }
+      ],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
+      "narrative": "Ahab and Jehoshaphat seek counsel about Ramoth Gilead. Micaiah describes a heavenly council and predicts defeat. Ahab dies in battle.",
+      "limits": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan",
+        "wiki-1-kings",
+        "dm-kings-council"
+      ]
+    }
+  ],
+  "textRoutes": [
+    {
+      "id": "1-kings-1-journey",
+      "title": "Solomon is anointed during a succession dispute",
+      "points": [
+        [
+          31.766,
+          35.234
+        ],
+        [
+          31.773,
+          35.236
+        ]
+      ],
+      "chapter": 1,
+      "verse": 1,
+      "summary": "Adonijah gathers supporters at En Rogel. Bathsheba and Nathan approach David, who orders Solomon’s anointing at Gihon.",
+      "detail": "Succession depends on public recognition and access to the aging king. Abishag serves David, but the text denies sexual relations.",
+      "uncertainty": "Connects named settings in narrative order. Approximate lines do not reconstruct ancient roads, sea voyages, or exact battle movements.",
+      "evidence": "Connects named settings in narrative order. Approximate lines do not reconstruct ancient roads, sea voyages, or exact battle movements.",
+      "kind": "journey",
+      "direction": true,
+      "textRoute": true,
+      "sourceIds": [
+        "web",
+        "atlas-canaan",
+        "yale-solomon",
+        "wiki-1-kings"
+      ]
+    },
+    {
+      "id": "1-kings-2-journey",
+      "title": "David dies and Solomon consolidates power",
+      "points": [
+        [
+          31.778,
+          35.235
+        ],
+        [
+          31.7,
+          34.846
+        ],
+        [
+          31.778,
+          35.235
+        ]
+      ],
+      "chapter": 2,
+      "verse": 1,
+      "summary": "David gives final instructions. Solomon removes Abiathar and orders the deaths of Adonijah, Joab, and Shimei.",
+      "detail": "The royal transition combines covenant advice, political threats, and executions. The guide does not infer every private motive behind the request for Abishag.",
+      "uncertainty": "Connects named settings in narrative order. Approximate lines do not reconstruct ancient roads, sea voyages, or exact battle movements.",
+      "evidence": "Connects named settings in narrative order. Approximate lines do not reconstruct ancient roads, sea voyages, or exact battle movements.",
+      "kind": "journey",
+      "direction": true,
+      "textRoute": true,
+      "sourceIds": [
+        "web",
+        "atlas-canaan",
+        "yale-solomon"
+      ]
+    },
+    {
+      "id": "1-kings-5-journey",
+      "title": "Hiram supplies timber for the temple",
+      "points": [
+        [
+          33.27,
+          35.2
+        ],
+        [
+          34.0,
+          35.85
+        ],
+        [
+          31.778,
+          35.235
+        ]
+      ],
+      "chapter": 5,
+      "verse": 1,
+      "summary": "Solomon and Hiram arrange timber and food exchanges. Adoniram supervises a labor levy, while builders prepare stone and wood.",
+      "detail": "International cooperation and compelled labor support construction. The guide keeps workers visible alongside the royal achievement.",
+      "uncertainty": "Connects named settings in narrative order. Approximate lines do not reconstruct ancient roads, sea voyages, or exact battle movements.",
+      "evidence": "Connects named settings in narrative order. Approximate lines do not reconstruct ancient roads, sea voyages, or exact battle movements.",
+      "kind": "journey",
+      "direction": true,
+      "textRoute": true,
+      "sourceIds": [
+        "web",
+        "atlas-canaan",
+        "yale-solomon",
+        "yale-division"
+      ]
+    },
+    {
+      "id": "1-kings-11-journey",
+      "title": "Solomon turns away and adversaries rise",
+      "points": [
+        [
+          30.75,
+          35.55
+        ],
+        [
+          30.05,
+          31.23
+        ]
+      ],
+      "chapter": 11,
+      "verse": 1,
+      "summary": "Solomon supports other gods. Hadad and Rezon become adversaries. Ahijah promises Jeroboam a kingdom, and Solomon later dies.",
+      "detail": "The account holds Solomon responsible for his worship. It also recalls displaced people and rival powers, rather than only court prosperity.",
+      "uncertainty": "Connects named settings in narrative order. Approximate lines do not reconstruct ancient roads, sea voyages, or exact battle movements.",
+      "evidence": "Connects named settings in narrative order. Approximate lines do not reconstruct ancient roads, sea voyages, or exact battle movements.",
+      "kind": "journey",
+      "direction": true,
+      "textRoute": true,
+      "sourceIds": [
+        "web",
+        "atlas-canaan",
+        "yale-solomon",
+        "yale-division",
+        "wiki-1-kings"
+      ]
+    },
+    {
+      "id": "1-kings-12-journey",
+      "title": "Rehoboam rejects the petition and the kingdom divides",
+      "points": [
+        [
+          32.213,
+          35.282
+        ],
+        [
+          31.778,
+          35.235
+        ]
+      ],
+      "chapter": 12,
+      "verse": 1,
+      "summary": "Rehoboam rejects advice to ease the people’s burden. The northern tribes follow Jeroboam, who establishes worship at Bethel and Dan.",
+      "detail": "Labor grievances and political decisions contribute to division. The calves’ form and function need interpretation beyond assuming every worshiper’s private belief.",
+      "uncertainty": "Connects named settings in narrative order. Approximate lines do not reconstruct ancient roads, sea voyages, or exact battle movements.",
+      "evidence": "Connects named settings in narrative order. Approximate lines do not reconstruct ancient roads, sea voyages, or exact battle movements.",
+      "kind": "journey",
+      "direction": true,
+      "textRoute": true,
+      "sourceIds": [
+        "web",
+        "atlas-canaan",
+        "yale-division",
+        "wiki-1-kings"
+      ]
+    },
+    {
+      "id": "1-kings-14-journey",
+      "title": "Ahijah speaks and Shishak attacks Jerusalem",
+      "points": [
+        [
+          32.055,
+          35.289
+        ],
+        [
+          32.287,
+          35.342
+        ]
+      ],
+      "chapter": 14,
+      "verse": 1,
+      "summary": "Jeroboam’s disguised wife visits Ahijah about their son Abijah. The child dies. The account then describes Rehoboam’s rule and Shishak’s attack.",
+      "detail": "Royal households and ordinary people bear consequences in the account. Abijah the child is distinct from Abijam, Rehoboam’s successor.",
+      "uncertainty": "Connects named settings in narrative order. Approximate lines do not reconstruct ancient roads, sea voyages, or exact battle movements.",
+      "evidence": "Connects named settings in narrative order. Approximate lines do not reconstruct ancient roads, sea voyages, or exact battle movements.",
+      "kind": "journey",
+      "direction": true,
+      "textRoute": true,
+      "sourceIds": [
+        "web",
+        "atlas-canaan"
+      ]
+    },
+    {
+      "id": "1-kings-17-journey",
+      "title": "Elijah and the widow at Zarephath",
+      "points": [
+        [
+          32.2,
+          35.85
+        ],
+        [
+          33.46,
+          35.3
+        ]
+      ],
+      "chapter": 17,
+      "verse": 1,
+      "summary": "Elijah announces drought, receives food at Cherith, and stays with a widow at Zarephath. Her food endures, and her son returns to life.",
+      "detail": "The widow expresses scarcity, fear, and grief. Her words matter alongside the prophet’s actions. Cherith’s exact location remains uncertain.",
+      "uncertainty": "Connects named settings in narrative order. Approximate lines do not reconstruct ancient roads, sea voyages, or exact battle movements.",
+      "evidence": "Connects named settings in narrative order. Approximate lines do not reconstruct ancient roads, sea voyages, or exact battle movements.",
+      "kind": "journey",
+      "direction": true,
+      "textRoute": true,
+      "sourceIds": [
+        "web",
+        "atlas-canaan",
+        "yale-prophets"
+      ]
+    },
+    {
+      "id": "1-kings-18-journey",
+      "title": "Elijah confronts Ahab at Carmel",
+      "points": [
+        [
+          32.73,
+          35.04
+        ],
+        [
+          32.557,
+          35.329
+        ]
+      ],
+      "chapter": 18,
+      "verse": 1,
+      "summary": "Obadiah meets Elijah. At Carmel, Elijah challenges divided allegiance. Fire answers his prayer, the Baal prophets are killed, and rain returns.",
+      "detail": "The narrative connects rain with divine power and includes mass killing. A religious application does not remove that violence from the account.",
+      "uncertainty": "Connects named settings in narrative order. Approximate lines do not reconstruct ancient roads, sea voyages, or exact battle movements.",
+      "evidence": "Connects named settings in narrative order. Approximate lines do not reconstruct ancient roads, sea voyages, or exact battle movements.",
+      "kind": "journey",
+      "direction": true,
+      "textRoute": true,
+      "sourceIds": [
+        "web",
+        "atlas-canaan",
+        "yale-prophets"
+      ]
+    },
+    {
+      "id": "1-kings-19-journey",
+      "title": "Elijah receives care and calls Elisha",
+      "points": [
+        [
+          32.557,
+          35.329
+        ],
+        [
+          31.245,
+          34.842
+        ],
+        [
+          28.54,
+          33.97
+        ]
+      ],
+      "chapter": 19,
+      "verse": 1,
+      "summary": "Threatened by Jezebel, Elijah flees, asks to die, receives food, and travels to Horeb. He receives renewed work and places his mantle on Elisha.",
+      "detail": "Food, rest, and divine communication precede renewed service. The commands to appoint Hazael and Jehu are not reported as completed here.",
+      "uncertainty": "Connects named settings in narrative order. Approximate lines do not reconstruct ancient roads, sea voyages, or exact battle movements.",
+      "evidence": "Connects named settings in narrative order. Approximate lines do not reconstruct ancient roads, sea voyages, or exact battle movements.",
+      "kind": "flight",
+      "direction": true,
+      "textRoute": true,
+      "sourceIds": [
+        "web",
+        "atlas-canaan",
+        "yale-prophets"
+      ]
+    },
+    {
+      "id": "1-kings-22-journey",
+      "title": "Micaiah warns Ahab before the final battle",
+      "points": [
+        [
+          32.276,
+          35.194
+        ],
+        [
+          32.47,
+          35.85
+        ]
+      ],
+      "chapter": 22,
+      "verse": 1,
+      "summary": "Ahab and Jehoshaphat seek counsel about Ramoth Gilead. Micaiah describes a heavenly council and predicts defeat. Ahab dies in battle.",
+      "detail": "A large agreement among prophets does not settle the question of truth. The council scene raises difficult questions about deception and divine agency.",
+      "uncertainty": "Connects named settings in narrative order. Approximate lines do not reconstruct ancient roads, sea voyages, or exact battle movements.",
+      "evidence": "Connects named settings in narrative order. Approximate lines do not reconstruct ancient roads, sea voyages, or exact battle movements.",
+      "kind": "journey",
+      "direction": true,
+      "textRoute": true,
+      "sourceIds": [
+        "web",
+        "atlas-canaan",
+        "wiki-1-kings",
+        "dm-kings-council"
+      ]
+    }
+  ],
+  "narrativeRegions": [],
+  "chapterStudies": []
+}
