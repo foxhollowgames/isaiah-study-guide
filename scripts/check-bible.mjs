@@ -105,6 +105,7 @@ for(const book of directory.filter(b=>b.status==='ready'&&!['genesis','isaiah'].
   if(book.id==='job')assert.equal(verses,1070);
   if(book.id==='psalms')assert.equal(verses,2461);
   if(book.id==='proverbs')assert.equal(verses,915);
+  if(book.id==='ecclesiastes')assert.equal(verses,222);
   console.log(`${content.name} checks passed: ${content.chapterCount} chapters, ${verses} verses, ${people.size} portraits.`);
 }
 

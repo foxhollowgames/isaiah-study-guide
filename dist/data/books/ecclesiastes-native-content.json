@@ -1,0 +1,975 @@
+{
+  "sources": [
+    {
+      "id": "web",
+      "title": "Ecclesiastes · World English Bible",
+      "perspective": "historical",
+      "category": "Scripture",
+      "url": "https://ebible.org/engwebp/ECC01.htm",
+      "summary": "The public-domain reading text supplies all twelve chapters.",
+      "limits": "The Preacher’s observations and the closing writer’s advice have distinct voices. The book does not name Solomon.",
+      "type": "Scripture",
+      "limitations": "The Preacher’s observations and the closing writer’s advice have distinct voices. The book does not name Solomon.",
+      "license": "Public domain"
+    },
+    {
+      "id": "atlas-canaan",
+      "title": "Bible Maps: Canaan in Old Testament Times",
+      "perspective": "historical",
+      "category": "Geography",
+      "url": "https://www.churchofjesuschrist.org/study/scriptures/bible-maps/map-10?lang=eng",
+      "summary": "This Church-published atlas identifies towns and regions in Canaan.",
+      "limits": "Coordinates are display estimates. A town marker does not verify each Genesis event.",
+      "type": "Geography",
+      "limitations": "Coordinates are display estimates. A town marker does not verify each Genesis event.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "luther-ecclesiastes-background",
+      "title": "Background of Ecclesiastes · Luther Seminary",
+      "url": "https://enterthebible.org/courses/ecclesiastes/lessons/background-of-ecclesiastes/",
+      "summary": "The authors place the book’s questions within rule over Judah by larger powers.",
+      "category": "Scholarly study",
+      "perspective": "historical",
+      "limits": "The proposed date around 250 BCE is a scholarly estimate. It is not a date for each narrated example.",
+      "author": "James Limburg · revised Cameron B.R. Howard",
+      "year": 2023,
+      "publisher": "Luther Seminary",
+      "chapterCoverage": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "reviewed": {
+        "date": "2026-10-05",
+        "scope": "Complete main Background text reviewed. General setting for the book, not commentary on each verse."
+      },
+      "type": "Scholarly study",
+      "limitations": "The proposed date around 250 BCE is a scholarly estimate. It is not a date for each narrated example.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "fox-ecclesiastes-record",
+      "title": "The JPS Bible Commentary: Ecclesiastes · publisher record",
+      "url": "https://jps.org/books/jps-bible-commentary-ecclesiastes/",
+      "summary": "JPS identifies Michael V. Fox’s commentary and describes questions about justice and lasting value.",
+      "category": "Scholarly study",
+      "perspective": "historical",
+      "limits": "Bibliographic verification only. No chapter interpretation is attributed to unread commentary.",
+      "author": "Michael V. Fox",
+      "year": 2004,
+      "publisher": "The Jewish Publication Society",
+      "chapterCoverage": [],
+      "reviewed": {
+        "date": "2026-10-05",
+        "scope": "Publisher description and author record reviewed. Commentary text not reviewed."
+      },
+      "type": "Scholarly study",
+      "limitations": "Bibliographic verification only. No chapter interpretation is attributed to unread commentary.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "wiki-ecclesiastes",
+      "title": "Ecclesiastes · Wikipedia",
+      "url": "https://en.wikipedia.org/w/index.php?title=Ecclesiastes&oldid=1378255856",
+      "summary": "The opening overview distinguishes the Preacher from the closing writer.",
+      "category": "Wikipedia overview",
+      "perspective": "historical",
+      "limits": "Overview and bibliography discovery. Detailed reader notes use scripture and reviewed named sources.",
+      "author": "Wikipedia contributors",
+      "year": 2026,
+      "publisher": "Wikipedia",
+      "chapterCoverage": [],
+      "reviewed": {
+        "date": "2026-10-05",
+        "scope": "Opening, structure, bibliography, revision footer, and license reviewed. Fox’s cited book checked against its publisher."
+      },
+      "revisionId": 1378255856,
+      "revisionUrl": "https://en.wikipedia.org/w/index.php?title=Ecclesiastes&oldid=1378255856",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "citedSourceIds": [
+        "fox-ecclesiastes-record"
+      ],
+      "type": "Wikipedia overview",
+      "limitations": "Overview and bibliography discovery. Detailed reader notes use scripture and reviewed named sources."
+    },
+    {
+      "id": "cfm-ecclesiastes",
+      "title": "Ecclesiastes · Come, Follow Me 2026 · lesson 37",
+      "url": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/37?lang=eng",
+      "summary": "The lesson connects temporary mortal life with trust in God and obedience.",
+      "category": "Come, Follow Me",
+      "perspective": "lds",
+      "limits": "Later Church teaching remains distinct from the Preacher’s questions and original study questions.",
+      "author": "The Church of Jesus Christ of Latter-day Saints",
+      "year": 2026,
+      "publisher": "The Church of Jesus Christ of Latter-day Saints",
+      "chapterCoverage": [
+        1,
+        2,
+        3,
+        11,
+        12
+      ],
+      "reviewed": {
+        "date": "2026-10-05",
+        "scope": "Complete main and children’s lesson sections reviewed. Coverage uses assigned Ecclesiastes chapters. Linked talks and videos not separately reviewed."
+      },
+      "type": "Come, Follow Me",
+      "limitations": "Later Church teaching remains distinct from the Preacher’s questions and original study questions.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "lds-ecclesiastes-helps",
+      "title": "Ecclesiastes · Scripture Helps",
+      "url": "https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/35-proverbs-1-4-15-16-22-31-ecclesiastes-1-3-11-12?lang=eng",
+      "summary": "Church notes explain temporary life, generosity, and the image of cattle-prodding sticks.",
+      "category": "LDS study manual",
+      "perspective": "lds",
+      "limits": "The Church applications do not settle every disputed reading of the images.",
+      "author": "The Church of Jesus Christ of Latter-day Saints",
+      "year": 2026,
+      "publisher": "The Church of Jesus Christ of Latter-day Saints",
+      "chapterCoverage": [
+        1,
+        11,
+        12
+      ],
+      "reviewed": {
+        "date": "2026-10-05",
+        "scope": "Complete main Ecclesiastes sections reviewed, including vanity, bread on water, and goads. Linked works not separately reviewed."
+      },
+      "type": "LDS study manual",
+      "limitations": "The Church applications do not settle every disputed reading of the images.",
+      "license": "Linked source. Original guide summaries."
+    }
+  ],
+  "passages": [
+    {
+      "id": "ecclesiastes-1",
+      "chapter": 1,
+      "start": 1,
+      "end": 18,
+      "title": "The Preacher asks what work gains",
+      "summary": "The Preacher describes generations, wind, and rivers repeating their courses. He asks what lasting gain work brings. Vanity here concerns what does not last, not pride in appearance. Learning leaves the Preacher with more questions and grief.",
+      "year": null,
+      "dateLabel": "Chapter order",
+      "uncertainty": "Jerusalem supplies the opening speaker’s setting.",
+      "placeIds": [
+        "jerusalem"
+      ],
+      "sourceIds": [
+        "web",
+        "luther-ecclesiastes-background"
+      ],
+      "lds": {
+        "text": "Come, Follow Me studies what gives temporary life lasting value. Why does the Preacher compare human work with wind and rivers?",
+        "sourceIds": [
+          "cfm-ecclesiastes",
+          "lds-ecclesiastes-helps"
+        ]
+      }
+    },
+    {
+      "id": "ecclesiastes-2",
+      "chapter": 2,
+      "start": 1,
+      "end": 26,
+      "title": "Pleasure and great works do not last",
+      "summary": "The Preacher builds houses, plants gardens, gathers wealth, and buys servants. He still finds no lasting gain. Someone else will inherit his work. He cannot control whether that person will use it wisely.",
+      "year": null,
+      "dateLabel": "Chapter order",
+      "uncertainty": "Jerusalem supplies the opening speaker’s setting.",
+      "placeIds": [
+        "jerusalem"
+      ],
+      "sourceIds": [
+        "web",
+        "luther-ecclesiastes-background"
+      ],
+      "lds": {
+        "text": "Come, Follow Me studies mortal life as temporary. Why does leaving his work to another person trouble the Preacher?",
+        "sourceIds": [
+          "cfm-ecclesiastes"
+        ]
+      }
+    },
+    {
+      "id": "ecclesiastes-3",
+      "chapter": 3,
+      "start": 1,
+      "end": 22,
+      "title": "Changing times and shared death",
+      "summary": "The Preacher lists times for opposite actions. He describes injustice and asks what happens after death. People can enjoy their work without understanding all God does. Death also challenges claims of human superiority over animals.",
+      "year": null,
+      "dateLabel": "Chapter order",
+      "uncertainty": "The example does not name a secure map location.",
+      "placeIds": [],
+      "sourceIds": [
+        "web",
+        "luther-ecclesiastes-background"
+      ],
+      "lds": {
+        "text": "Come, Follow Me studies wisdom while recognizing life’s limits. Why does the Preacher connect enjoyment of work with what people cannot know?",
+        "sourceIds": [
+          "cfm-ecclesiastes"
+        ]
+      }
+    },
+    {
+      "id": "ecclesiastes-4",
+      "chapter": 4,
+      "start": 1,
+      "end": 16,
+      "title": "Power, lonely work, and companions",
+      "summary": "The Preacher sees people harmed without comfort. He compares a lonely worker with helpful companions. A companion can lift someone who falls. Endless work for wealth leaves the solitary worker asking whom he serves.",
+      "year": null,
+      "dateLabel": "Chapter order",
+      "uncertainty": "The example does not name a secure map location.",
+      "placeIds": [],
+      "sourceIds": [
+        "web",
+        "luther-ecclesiastes-background"
+      ],
+      "lds": {
+        "text": "What does a companion provide that the lonely worker’s wealth cannot?",
+        "sourceIds": []
+      }
+    },
+    {
+      "id": "ecclesiastes-5",
+      "chapter": 5,
+      "start": 1,
+      "end": 20,
+      "title": "Listen before making promises",
+      "summary": "The Preacher warns against careless promises to God. He describes wealth that prevents sleep or disappears. A promise creates a duty to act. More possessions can bring more demands without bringing satisfaction.",
+      "year": null,
+      "dateLabel": "Chapter order",
+      "uncertainty": "The example does not name a secure map location.",
+      "placeIds": [],
+      "sourceIds": [
+        "web",
+        "luther-ecclesiastes-background"
+      ],
+      "lds": {
+        "text": "Why does the Preacher prefer making no promise to leaving one unpaid?",
+        "sourceIds": []
+      }
+    },
+    {
+      "id": "ecclesiastes-6",
+      "chapter": 6,
+      "start": 1,
+      "end": 12,
+      "title": "Having wealth without enjoying it",
+      "summary": "The Preacher describes a wealthy person unable to enjoy his goods. He asks who knows what is good. Long life and many children do not guarantee enjoyment. Another person can consume the goods the owner gathered.",
+      "year": null,
+      "dateLabel": "Chapter order",
+      "uncertainty": "The example does not name a secure map location.",
+      "placeIds": [],
+      "sourceIds": [
+        "web",
+        "luther-ecclesiastes-background"
+      ],
+      "lds": {
+        "text": "How does the wealthy person’s experience challenge measuring life by possessions?",
+        "sourceIds": []
+      }
+    },
+    {
+      "id": "ecclesiastes-7",
+      "chapter": 7,
+      "start": 1,
+      "end": 29,
+      "title": "Mourning and unfair outcomes",
+      "summary": "The Preacher considers mourning, patience, and unfair outcomes. He also describes a woman as a trap. He sees good people die young and wrongdoers live long. These lives challenge simple rules about reward.",
+      "year": null,
+      "dateLabel": "Chapter order",
+      "uncertainty": "The example does not name a secure map location.",
+      "placeIds": [],
+      "sourceIds": [
+        "web",
+        "luther-ecclesiastes-background"
+      ],
+      "lds": {
+        "text": "Why does the Preacher think a house of mourning can teach the living?",
+        "sourceIds": []
+      }
+    },
+    {
+      "id": "ecclesiastes-8",
+      "chapter": 8,
+      "start": 1,
+      "end": 17,
+      "title": "A ruler’s power and delayed justice",
+      "summary": "The Preacher advises care before a king. He sees wrongdoers prosper and good people suffer. Delayed punishment can encourage further harm. His confidence in God stands beside outcomes he cannot explain.",
+      "year": null,
+      "dateLabel": "Chapter order",
+      "uncertainty": "The example does not name a secure map location.",
+      "placeIds": [],
+      "sourceIds": [
+        "web",
+        "luther-ecclesiastes-background"
+      ],
+      "lds": {
+        "text": "How does delayed punishment affect the people who watch wrongdoing?",
+        "sourceIds": []
+      }
+    },
+    {
+      "id": "ecclesiastes-9",
+      "chapter": 9,
+      "start": 1,
+      "end": 18,
+      "title": "Death, chance, and forgotten wisdom",
+      "summary": "The Preacher urges enjoyment of food, work, and marriage. He recalls a poor man saving a city. The city forgets its poor rescuer. Wisdom can help without securing honor or lasting remembrance.",
+      "year": null,
+      "dateLabel": "Chapter order",
+      "uncertainty": "The example does not name a secure map location.",
+      "placeIds": [],
+      "sourceIds": [
+        "web",
+        "luther-ecclesiastes-background"
+      ],
+      "lds": {
+        "text": "Why do the poor man’s useful words fail to bring him lasting honor?",
+        "sourceIds": []
+      }
+    },
+    {
+      "id": "ecclesiastes-10",
+      "chapter": 10,
+      "start": 1,
+      "end": 20,
+      "title": "Small mistakes and careless rulers",
+      "summary": "The Preacher compares foolishness with flies spoiling perfume. He describes poor choices by rulers and workers. Sharpening an axe reduces wasted effort. Careful preparation matters more than using greater force.",
+      "year": null,
+      "dateLabel": "Chapter order",
+      "uncertainty": "The example does not name a secure map location.",
+      "placeIds": [],
+      "sourceIds": [
+        "web",
+        "luther-ecclesiastes-background"
+      ],
+      "lds": {
+        "text": "How does the blunt axe show the value of preparing before work?",
+        "sourceIds": []
+      }
+    },
+    {
+      "id": "ecclesiastes-11",
+      "chapter": 11,
+      "start": 1,
+      "end": 10,
+      "title": "Act without knowing every outcome",
+      "summary": "The Preacher urges giving, sowing seed, and enjoying youth. He warns that people cannot predict every result. Waiting for perfect weather can prevent planting. Acting in several ways allows for outcomes the worker cannot foresee.",
+      "year": null,
+      "dateLabel": "Chapter order",
+      "uncertainty": "The example does not name a secure map location.",
+      "placeIds": [],
+      "sourceIds": [
+        "web",
+        "luther-ecclesiastes-background"
+      ],
+      "lds": {
+        "text": "Scripture Helps connects bread on water with giving without expecting immediate repayment. Why does the Preacher tell the worker to sow in morning and evening?",
+        "sourceIds": [
+          "cfm-ecclesiastes",
+          "lds-ecclesiastes-helps"
+        ]
+      }
+    },
+    {
+      "id": "ecclesiastes-12",
+      "chapter": 12,
+      "start": 1,
+      "end": 14,
+      "title": "Remember your Creator before old age",
+      "summary": "The Preacher describes fading strength and death. The closing writer praises his teaching and urges obedience to God. The broken household images describe failing life. The closing writer turns from questions toward responsibility for hidden and public actions.",
+      "year": null,
+      "dateLabel": "Chapter order",
+      "uncertainty": "The example does not name a secure map location.",
+      "placeIds": [],
+      "sourceIds": [
+        "web",
+        "luther-ecclesiastes-background"
+      ],
+      "lds": {
+        "text": "Come, Follow Me connects lasting value with fearing God and keeping his commands. What does remembering the Creator change before the losses described in this chapter?",
+        "sourceIds": [
+          "cfm-ecclesiastes",
+          "lds-ecclesiastes-helps"
+        ]
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "ecclesiastes-1",
+      "chapter": 1,
+      "verse": 1,
+      "eventOrder": 1,
+      "title": "The Preacher asks what work gains",
+      "summary": "The Preacher describes generations, wind, and rivers repeating their courses. He asks what lasting gain work brings.",
+      "detail": "Vanity here concerns what does not last, not pride in appearance. Learning leaves the Preacher with more questions and grief.",
+      "dateLabel": "Chapter order",
+      "uncertainty": "Jerusalem supplies the opening speaker’s setting.",
+      "sourceIds": [
+        "web",
+        "luther-ecclesiastes-background"
+      ],
+      "placeIds": [
+        "jerusalem"
+      ],
+      "lds": {
+        "text": "Come, Follow Me studies what gives temporary life lasting value. Why does the Preacher compare human work with wind and rivers?",
+        "sourceIds": [
+          "cfm-ecclesiastes",
+          "lds-ecclesiastes-helps"
+        ]
+      }
+    },
+    {
+      "id": "ecclesiastes-2",
+      "chapter": 2,
+      "verse": 1,
+      "eventOrder": 2,
+      "title": "Pleasure and great works do not last",
+      "summary": "The Preacher builds houses, plants gardens, gathers wealth, and buys servants. He still finds no lasting gain.",
+      "detail": "Someone else will inherit his work. He cannot control whether that person will use it wisely.",
+      "dateLabel": "Chapter order",
+      "uncertainty": "Jerusalem supplies the opening speaker’s setting.",
+      "sourceIds": [
+        "web",
+        "luther-ecclesiastes-background"
+      ],
+      "placeIds": [
+        "jerusalem"
+      ],
+      "lds": {
+        "text": "Come, Follow Me studies mortal life as temporary. Why does leaving his work to another person trouble the Preacher?",
+        "sourceIds": [
+          "cfm-ecclesiastes"
+        ]
+      }
+    },
+    {
+      "id": "ecclesiastes-3",
+      "chapter": 3,
+      "verse": 1,
+      "eventOrder": 3,
+      "title": "Changing times and shared death",
+      "summary": "The Preacher lists times for opposite actions. He describes injustice and asks what happens after death.",
+      "detail": "People can enjoy their work without understanding all God does. Death also challenges claims of human superiority over animals.",
+      "dateLabel": "Chapter order",
+      "uncertainty": "The example does not name a secure map location.",
+      "sourceIds": [
+        "web",
+        "luther-ecclesiastes-background"
+      ],
+      "placeIds": [],
+      "lds": {
+        "text": "Come, Follow Me studies wisdom while recognizing life’s limits. Why does the Preacher connect enjoyment of work with what people cannot know?",
+        "sourceIds": [
+          "cfm-ecclesiastes"
+        ]
+      }
+    },
+    {
+      "id": "ecclesiastes-4",
+      "chapter": 4,
+      "verse": 1,
+      "eventOrder": 4,
+      "title": "Power, lonely work, and companions",
+      "summary": "The Preacher sees people harmed without comfort. He compares a lonely worker with helpful companions.",
+      "detail": "A companion can lift someone who falls. Endless work for wealth leaves the solitary worker asking whom he serves.",
+      "dateLabel": "Chapter order",
+      "uncertainty": "The example does not name a secure map location.",
+      "sourceIds": [
+        "web",
+        "luther-ecclesiastes-background"
+      ],
+      "placeIds": [],
+      "lds": {
+        "text": "What does a companion provide that the lonely worker’s wealth cannot?",
+        "sourceIds": []
+      }
+    },
+    {
+      "id": "ecclesiastes-5",
+      "chapter": 5,
+      "verse": 1,
+      "eventOrder": 5,
+      "title": "Listen before making promises",
+      "summary": "The Preacher warns against careless promises to God. He describes wealth that prevents sleep or disappears.",
+      "detail": "A promise creates a duty to act. More possessions can bring more demands without bringing satisfaction.",
+      "dateLabel": "Chapter order",
+      "uncertainty": "The example does not name a secure map location.",
+      "sourceIds": [
+        "web",
+        "luther-ecclesiastes-background"
+      ],
+      "placeIds": [],
+      "lds": {
+        "text": "Why does the Preacher prefer making no promise to leaving one unpaid?",
+        "sourceIds": []
+      }
+    },
+    {
+      "id": "ecclesiastes-6",
+      "chapter": 6,
+      "verse": 1,
+      "eventOrder": 6,
+      "title": "Having wealth without enjoying it",
+      "summary": "The Preacher describes a wealthy person unable to enjoy his goods. He asks who knows what is good.",
+      "detail": "Long life and many children do not guarantee enjoyment. Another person can consume the goods the owner gathered.",
+      "dateLabel": "Chapter order",
+      "uncertainty": "The example does not name a secure map location.",
+      "sourceIds": [
+        "web",
+        "luther-ecclesiastes-background"
+      ],
+      "placeIds": [],
+      "lds": {
+        "text": "How does the wealthy person’s experience challenge measuring life by possessions?",
+        "sourceIds": []
+      }
+    },
+    {
+      "id": "ecclesiastes-7",
+      "chapter": 7,
+      "verse": 1,
+      "eventOrder": 7,
+      "title": "Mourning and unfair outcomes",
+      "summary": "The Preacher considers mourning, patience, and unfair outcomes. He also describes a woman as a trap.",
+      "detail": "He sees good people die young and wrongdoers live long. These lives challenge simple rules about reward.",
+      "dateLabel": "Chapter order",
+      "uncertainty": "The example does not name a secure map location.",
+      "sourceIds": [
+        "web",
+        "luther-ecclesiastes-background"
+      ],
+      "placeIds": [],
+      "lds": {
+        "text": "Why does the Preacher think a house of mourning can teach the living?",
+        "sourceIds": []
+      }
+    },
+    {
+      "id": "ecclesiastes-8",
+      "chapter": 8,
+      "verse": 1,
+      "eventOrder": 8,
+      "title": "A ruler’s power and delayed justice",
+      "summary": "The Preacher advises care before a king. He sees wrongdoers prosper and good people suffer.",
+      "detail": "Delayed punishment can encourage further harm. His confidence in God stands beside outcomes he cannot explain.",
+      "dateLabel": "Chapter order",
+      "uncertainty": "The example does not name a secure map location.",
+      "sourceIds": [
+        "web",
+        "luther-ecclesiastes-background"
+      ],
+      "placeIds": [],
+      "lds": {
+        "text": "How does delayed punishment affect the people who watch wrongdoing?",
+        "sourceIds": []
+      }
+    },
+    {
+      "id": "ecclesiastes-9",
+      "chapter": 9,
+      "verse": 1,
+      "eventOrder": 9,
+      "title": "Death, chance, and forgotten wisdom",
+      "summary": "The Preacher urges enjoyment of food, work, and marriage. He recalls a poor man saving a city.",
+      "detail": "The city forgets its poor rescuer. Wisdom can help without securing honor or lasting remembrance.",
+      "dateLabel": "Chapter order",
+      "uncertainty": "The example does not name a secure map location.",
+      "sourceIds": [
+        "web",
+        "luther-ecclesiastes-background"
+      ],
+      "placeIds": [],
+      "lds": {
+        "text": "Why do the poor man’s useful words fail to bring him lasting honor?",
+        "sourceIds": []
+      }
+    },
+    {
+      "id": "ecclesiastes-10",
+      "chapter": 10,
+      "verse": 1,
+      "eventOrder": 10,
+      "title": "Small mistakes and careless rulers",
+      "summary": "The Preacher compares foolishness with flies spoiling perfume. He describes poor choices by rulers and workers.",
+      "detail": "Sharpening an axe reduces wasted effort. Careful preparation matters more than using greater force.",
+      "dateLabel": "Chapter order",
+      "uncertainty": "The example does not name a secure map location.",
+      "sourceIds": [
+        "web",
+        "luther-ecclesiastes-background"
+      ],
+      "placeIds": [],
+      "lds": {
+        "text": "How does the blunt axe show the value of preparing before work?",
+        "sourceIds": []
+      }
+    },
+    {
+      "id": "ecclesiastes-11",
+      "chapter": 11,
+      "verse": 1,
+      "eventOrder": 11,
+      "title": "Act without knowing every outcome",
+      "summary": "The Preacher urges giving, sowing seed, and enjoying youth. He warns that people cannot predict every result.",
+      "detail": "Waiting for perfect weather can prevent planting. Acting in several ways allows for outcomes the worker cannot foresee.",
+      "dateLabel": "Chapter order",
+      "uncertainty": "The example does not name a secure map location.",
+      "sourceIds": [
+        "web",
+        "luther-ecclesiastes-background"
+      ],
+      "placeIds": [],
+      "lds": {
+        "text": "Scripture Helps connects bread on water with giving without expecting immediate repayment. Why does the Preacher tell the worker to sow in morning and evening?",
+        "sourceIds": [
+          "cfm-ecclesiastes",
+          "lds-ecclesiastes-helps"
+        ]
+      }
+    },
+    {
+      "id": "ecclesiastes-12",
+      "chapter": 12,
+      "verse": 1,
+      "eventOrder": 12,
+      "title": "Remember your Creator before old age",
+      "summary": "The Preacher describes fading strength and death. The closing writer praises his teaching and urges obedience to God.",
+      "detail": "The broken household images describe failing life. The closing writer turns from questions toward responsibility for hidden and public actions.",
+      "dateLabel": "Chapter order",
+      "uncertainty": "The example does not name a secure map location.",
+      "sourceIds": [
+        "web",
+        "luther-ecclesiastes-background"
+      ],
+      "placeIds": [],
+      "lds": {
+        "text": "Come, Follow Me connects lasting value with fearing God and keeping his commands. What does remembering the Creator change before the losses described in this chapter?",
+        "sourceIds": [
+          "cfm-ecclesiastes",
+          "lds-ecclesiastes-helps"
+        ]
+      }
+    }
+  ],
+  "places": [
+    {
+      "id": "jerusalem",
+      "name": "Jerusalem",
+      "lat": 31.778,
+      "lng": 35.235,
+      "summary": "The opening places the royal speaker in Jerusalem.",
+      "limits": "A setting for the royal voice in chapters 1–2. It does not verify Solomon’s authorship or date later examples.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan"
+      ],
+      "detail": "The opening places the royal speaker in Jerusalem.",
+      "uncertainty": "A setting for the royal voice in chapters 1–2. It does not verify Solomon’s authorship or date later examples.",
+      "chapterLocation": true
+    }
+  ],
+  "campaigns": [],
+  "ancientRoads": [],
+  "regions": [],
+  "words": [],
+  "guides": [
+    {
+      "id": "ecclesiastes-overview",
+      "title": "Study Ecclesiastes",
+      "description": "Follow selected chapters through the book.",
+      "steps": [
+        {
+          "title": "The Preacher asks what work gains",
+          "text": "The Preacher describes generations, wind, and rivers repeating their courses. He asks what lasting gain work brings. Vanity here concerns what does not last, not pride in appearance. Learning leaves the Preacher with more questions and grief.",
+          "chapter": 1,
+          "verse": 1,
+          "sourceIds": [
+            "web",
+            "luther-ecclesiastes-background"
+          ]
+        },
+        {
+          "title": "Mourning and unfair outcomes",
+          "text": "The Preacher considers mourning, patience, and unfair outcomes. He also describes a woman as a trap. He sees good people die young and wrongdoers live long. These lives challenge simple rules about reward.",
+          "chapter": 7,
+          "verse": 1,
+          "sourceIds": [
+            "web",
+            "luther-ecclesiastes-background"
+          ]
+        },
+        {
+          "title": "Remember your Creator before old age",
+          "text": "The Preacher describes fading strength and death. The closing writer praises his teaching and urges obedience to God. The broken household images describe failing life. The closing writer turns from questions toward responsibility for hidden and public actions.",
+          "chapter": 12,
+          "verse": 1,
+          "sourceIds": [
+            "web",
+            "luther-ecclesiastes-background"
+          ]
+        }
+      ]
+    }
+  ],
+  "periods": [
+    {
+      "id": "part-0",
+      "label": "Ecclesiastes 1–4",
+      "start": 1,
+      "end": 4,
+      "description": "Chapter order"
+    },
+    {
+      "id": "part-1",
+      "label": "Ecclesiastes 5–8",
+      "start": 5,
+      "end": 8,
+      "description": "Chapter order"
+    },
+    {
+      "id": "part-2",
+      "label": "Ecclesiastes 9–12",
+      "start": 9,
+      "end": 12,
+      "description": "Chapter order"
+    }
+  ],
+  "chapterMaps": [
+    {
+      "chapter": 1,
+      "focusPlaceIds": [
+        "jerusalem"
+      ],
+      "placeIds": [
+        "jerusalem"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Jerusalem supplies the opening speaker’s setting.",
+      "narrative": "The Preacher describes generations, wind, and rivers repeating their courses. He asks what lasting gain work brings.",
+      "limits": "Jerusalem supplies the opening speaker’s setting.",
+      "sourceIds": [
+        "web",
+        "luther-ecclesiastes-background"
+      ]
+    },
+    {
+      "chapter": 2,
+      "focusPlaceIds": [
+        "jerusalem"
+      ],
+      "placeIds": [
+        "jerusalem"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Jerusalem supplies the opening speaker’s setting.",
+      "narrative": "The Preacher builds houses, plants gardens, gathers wealth, and buys servants. He still finds no lasting gain.",
+      "limits": "Jerusalem supplies the opening speaker’s setting.",
+      "sourceIds": [
+        "web",
+        "luther-ecclesiastes-background"
+      ]
+    },
+    {
+      "chapter": 3,
+      "focusPlaceIds": [],
+      "placeIds": [],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "The example does not name a secure map location.",
+      "narrative": "The Preacher lists times for opposite actions. He describes injustice and asks what happens after death.",
+      "limits": "The example does not name a secure map location.",
+      "sourceIds": [
+        "web",
+        "luther-ecclesiastes-background"
+      ]
+    },
+    {
+      "chapter": 4,
+      "focusPlaceIds": [],
+      "placeIds": [],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "The example does not name a secure map location.",
+      "narrative": "The Preacher sees people harmed without comfort. He compares a lonely worker with helpful companions.",
+      "limits": "The example does not name a secure map location.",
+      "sourceIds": [
+        "web",
+        "luther-ecclesiastes-background"
+      ]
+    },
+    {
+      "chapter": 5,
+      "focusPlaceIds": [],
+      "placeIds": [],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "The example does not name a secure map location.",
+      "narrative": "The Preacher warns against careless promises to God. He describes wealth that prevents sleep or disappears.",
+      "limits": "The example does not name a secure map location.",
+      "sourceIds": [
+        "web",
+        "luther-ecclesiastes-background"
+      ]
+    },
+    {
+      "chapter": 6,
+      "focusPlaceIds": [],
+      "placeIds": [],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "The example does not name a secure map location.",
+      "narrative": "The Preacher describes a wealthy person unable to enjoy his goods. He asks who knows what is good.",
+      "limits": "The example does not name a secure map location.",
+      "sourceIds": [
+        "web",
+        "luther-ecclesiastes-background"
+      ]
+    },
+    {
+      "chapter": 7,
+      "focusPlaceIds": [],
+      "placeIds": [],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "The example does not name a secure map location.",
+      "narrative": "The Preacher considers mourning, patience, and unfair outcomes. He also describes a woman as a trap.",
+      "limits": "The example does not name a secure map location.",
+      "sourceIds": [
+        "web",
+        "luther-ecclesiastes-background"
+      ]
+    },
+    {
+      "chapter": 8,
+      "focusPlaceIds": [],
+      "placeIds": [],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "The example does not name a secure map location.",
+      "narrative": "The Preacher advises care before a king. He sees wrongdoers prosper and good people suffer.",
+      "limits": "The example does not name a secure map location.",
+      "sourceIds": [
+        "web",
+        "luther-ecclesiastes-background"
+      ]
+    },
+    {
+      "chapter": 9,
+      "focusPlaceIds": [],
+      "placeIds": [],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "The example does not name a secure map location.",
+      "narrative": "The Preacher urges enjoyment of food, work, and marriage. He recalls a poor man saving a city.",
+      "limits": "The example does not name a secure map location.",
+      "sourceIds": [
+        "web",
+        "luther-ecclesiastes-background"
+      ]
+    },
+    {
+      "chapter": 10,
+      "focusPlaceIds": [],
+      "placeIds": [],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "The example does not name a secure map location.",
+      "narrative": "The Preacher compares foolishness with flies spoiling perfume. He describes poor choices by rulers and workers.",
+      "limits": "The example does not name a secure map location.",
+      "sourceIds": [
+        "web",
+        "luther-ecclesiastes-background"
+      ]
+    },
+    {
+      "chapter": 11,
+      "focusPlaceIds": [],
+      "placeIds": [],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "The example does not name a secure map location.",
+      "narrative": "The Preacher urges giving, sowing seed, and enjoying youth. He warns that people cannot predict every result.",
+      "limits": "The example does not name a secure map location.",
+      "sourceIds": [
+        "web",
+        "luther-ecclesiastes-background"
+      ]
+    },
+    {
+      "chapter": 12,
+      "focusPlaceIds": [],
+      "placeIds": [],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "The example does not name a secure map location.",
+      "narrative": "The Preacher describes fading strength and death. The closing writer praises his teaching and urges obedience to God.",
+      "limits": "The example does not name a secure map location.",
+      "sourceIds": [
+        "web",
+        "luther-ecclesiastes-background"
+      ]
+    }
+  ],
+  "textRoutes": [],
+  "narrativeRegions": [],
+  "chapterStudies": []
+}
