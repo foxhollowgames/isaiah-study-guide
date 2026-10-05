@@ -21,11 +21,12 @@ Book pages use `/book.html?book=<slug>`.
 - 1 Kings: all 22 chapters, 816 verses, 22 chapter studies, and 68 selected profiles with portraits.
 - 2 Kings: all 25 chapters, 719 verses, 25 chapter studies, and 116 selected profiles with portraits.
 - 1 Chronicles: all 29 chapters, 942 verses, 29 chapter studies, and 139 selected profiles with portraits.
-- Other 52 books: directory entries and clear planned pages. They have no study content yet.
+- 2 Chronicles: all 36 chapters, 822 verses, 36 chapter studies, and 116 selected profiles with portraits.
+- Other 51 books: directory entries and clear planned pages. They have no study content yet.
 
 ## Next book
 
-2 Chronicles is next in canonical order. Complete and verify one book before starting another.
+Ezra is next in canonical order. Complete and verify one book before starting another.
 Do not label a book ready until its reading text, chapter studies, sources, portraits, and maps pass review.
 Use the existing Isaiah guide as the detail standard. Genesis currently has selected major people and chapter-level events.
 Future enrichment can add finer passage divisions, additional people, language notes, and more specific citations.
