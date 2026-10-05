@@ -50,6 +50,8 @@ const secondKingsCounts=[18,25,27,44,27,33,20,29,37,36,21,21,25,29,38,20,41,37,3
 const secondChroniclesCounts=[17,18,17,22,14,42,22,18,31,19,23,16,22,15,19,14,19,34,11,37,20,12,21,27,28,23,9,27,36,27,21,33,25,33,27,23];
 const ezraCounts=[11,70,13,24,17,22,28,36,15,44];
 const nehemiahCounts=[11,20,32,23,19,19,73,18,38,39,36,47,31];
+const estherCounts=[22,23,15,17,14,14,10,17,32,3];
+const jobCounts=[22,13,26,21,27,30,21,22,35,22,20,25,28,22,35,22,16,21,29,29,34,30,17,25,6,14,23,28,25,31,40,22,33,37,16,33,24,41,30,24,34,17];
 const firstChroniclesCounts=[54,55,24,43,26,81,40,40,44,14,47,40,14,17,29,43,27,17,19,8,30,19,32,31,31,32,34,21,30];
 const numbersCounts=[54,34,51,49,31,27,89,26,23,36,35,16,33,45,41,50,13,32,22,29,35,41,30,25,18,65,23,31,40,16,54,42,56,29,34,13];
 const leviticusCounts=[17,16,17,35,19,30,38,36,24,20,47,8,59,57,33,34,16,30,37,27,24,33,44,23,55,46,34];
@@ -74,6 +76,8 @@ for(const book of directory.filter(b=>b.status==='ready'&&!['genesis','isaiah'].
     if(book.id==='2-chronicles')assert.equal(text.length,secondChroniclesCounts[c.chapter-1]);
     if(book.id==='ezra')assert.equal(text.length,ezraCounts[c.chapter-1]);
     if(book.id==='nehemiah')assert.equal(text.length,nehemiahCounts[c.chapter-1]);
+    if(book.id==='esther')assert.equal(text.length,estherCounts[c.chapter-1]);
+    if(book.id==='job')assert.equal(text.length,jobCounts[c.chapter-1]);
     text.forEach((v,i)=>{assert.equal(v.verse,i+1);assert(v.text&&!/\ufffd|\bundefined\b|\b(?:Exodus|Genesis)\s*</.test(v.text));});verses+=text.length;
     assert(c.summary&&c.meaning&&c.lds?.text&&c.historicalNote);
     for(const id of c.sourceIds)assert.equal(sources.get(id)?.perspective,'historical');
@@ -97,6 +101,8 @@ for(const book of directory.filter(b=>b.status==='ready'&&!['genesis','isaiah'].
   if(book.id==='2-chronicles')assert.equal(verses,822);
   if(book.id==='ezra')assert.equal(verses,280);
   if(book.id==='nehemiah')assert.equal(verses,406);
+  if(book.id==='esther')assert.equal(verses,167);
+  if(book.id==='job')assert.equal(verses,1070);
   console.log(`${content.name} checks passed: ${content.chapterCount} chapters, ${verses} verses, ${people.size} portraits.`);
 }
 

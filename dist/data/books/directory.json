@@ -138,8 +138,9 @@
     "id": "job",
     "name": "Job",
     "testament": "Old Testament",
-    "status": "planned",
-    "url": "book.html?book=job"
+    "status": "ready",
+    "url": "book.html?book=job",
+    "description": "Loss · disputed blame · questions · renewed life"
   },
   {
     "id": "psalms",

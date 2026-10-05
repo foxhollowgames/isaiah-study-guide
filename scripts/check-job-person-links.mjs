@@ -1,0 +1,35 @@
+import assert from 'node:assert/strict';
+import {readFile} from 'node:fs/promises';
+import vm from 'node:vm';
+const root=new URL('../dist/',import.meta.url);
+const app=await readFile(new URL('book-job-app.js',root),'utf8');
+const portraits=await readFile(new URL('book-job-portraits.js',root),'utf8');
+const people=JSON.parse(portraits.match(/export const people = (.*);/)[1]);
+const book=JSON.parse(await readFile(new URL('data/books/job.json',root),'utf8'));
+const functions=app.slice(app.indexOf('function entityLinkTerms('),app.indexOf('function linkedPersonProfileHtml('));
+const places=JSON.parse(await readFile(new URL('data/books/job-native-content.json',root),'utf8')).places;
+const context=vm.createContext({people,state:{chapter:1},entityLinkCache:{chapter:null,terms:[]},data:{places,regions:[],campaigns:[],events:[],ancientRoads:[],words:[]},mapDisplayName:s=>s,esc:s=>String(s).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('"','&quot;')});
+vm.runInContext(functions,context);
+const html=(chapter,n)=>{context.state.chapter=chapter;return context.linkedEntityHtml(book.scripture[chapter].find(v=>v.verse===n).text,{verse:n});};
+const linked=(chapter,n,id)=>html(chapter,n).includes(`data-person-id="${id}"`);
+for(const [c,v,id] of [[2,9,'job-wife'],[19,17,'job-wife'],[31,10,'job-wife'],[2,11,'eliphaz-job'],[2,11,'bildad'],[2,11,'zophar'],[32,2,'elihu-job'],[32,2,'barachel-family-job'],[1,14,'job-messengers'],[1,18,'job-first-children'],[1,15,'sabeans-job'],[1,17,'chaldeans-job'],[31,33,'adam'],[42,13,'job-later-sons'],[42,14,'jemimah'],[42,14,'keziah'],[42,14,'keren-happuch'],[42,11,'job-siblings'],[1,6,'satan-job']])assert(linked(c,v,id),`${c}:${v} must link ${id}`);
+const reachable=new Set();
+for(const chapter of book.chapters){
+ context.state.chapter=chapter.chapter;
+ const text=context.linkedEntityHtml(chapter.summary)+book.scripture[chapter.chapter].map(v=>html(chapter.chapter,v.verse)).join('');
+ for(const m of text.matchAll(/data-person-id="([^"]+)"/g))reachable.add(m[1]);
+}
+for(const p of book.people)assert(reachable.has(p.id),`No reader link for ${p.id}`);
+assert.equal(book.people.length,18);
+assert.equal(Object.values(book.scripture).flat().length,1070);
+assert.equal(book.places.length,1);
+assert.equal(book.places[0].id,'jordan');
+assert.deepEqual(book.chapters.filter(c=>c.places.length).map(c=>c.chapter),[40]);
+assert(book.chapters.every(c=>c.route.length===0&&!('year' in c)));
+assert.deepEqual(book.chapters.filter(c=>c.lds.sourceIds.includes('cfm-job-2026')).map(c=>c.chapter),[1,2,3,4,5,8,11,12,13,14,16,19,21,22,23,24,31,38,39,40,42]);
+assert(book.scripture[13].find(v=>v.verse===15).text.includes('no hope'));
+assert(book.chapters[12].meaning.includes('King James Bible'));
+const manifest=JSON.parse(await readFile(new URL('../scripts/job-generated-portraits.json',root),'utf8'));
+assert.equal(Object.keys(manifest).length,17);
+for(const p of Object.values(manifest))assert(p.originalPath,'Generated portrait lacks its original saved path');
+console.log('Job checks passed: 18 reachable profiles, identity links, 1,070 verses, source coverage, and map limits.');

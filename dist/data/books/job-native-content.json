@@ -1,0 +1,3343 @@
+{
+  "sources": [
+    {
+      "id": "web",
+      "title": "Genesis — World English Bible",
+      "perspective": "historical",
+      "category": "Scripture",
+      "url": "https://ebible.org/engwebp/GEN01.htm",
+      "summary": "The public-domain reading text supplies all 50 chapters.",
+      "limits": "Chapter notes describe the narrative. They do not prove every narrated event.",
+      "type": "Scripture",
+      "limitations": "Chapter notes describe the narrative. They do not prove every narrated event.",
+      "license": "Public domain"
+    },
+    {
+      "id": "atlas",
+      "title": "Bible Maps: The World of the Old Testament",
+      "perspective": "historical",
+      "category": "Geography",
+      "url": "https://www.churchofjesuschrist.org/study/scriptures/bible-maps/map-9?lang=eng",
+      "summary": "This Church-published atlas locates the wider setting and marks some disputed places.",
+      "limits": "Use the geographic labels as context. The linked atlas also includes LDS commentary.",
+      "type": "Geography",
+      "limitations": "Use the geographic labels as context. The linked atlas also includes LDS commentary.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "atlas-canaan",
+      "title": "Bible Maps: Canaan in Old Testament Times",
+      "perspective": "historical",
+      "category": "Geography",
+      "url": "https://www.churchofjesuschrist.org/study/scriptures/bible-maps/map-10?lang=eng",
+      "summary": "This Church-published atlas identifies towns and regions in Canaan.",
+      "limits": "Coordinates are display estimates. A town marker does not verify each Genesis event.",
+      "type": "Geography",
+      "limitations": "Coordinates are display estimates. A town marker does not verify each Genesis event.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "luther-job",
+      "title": "Summary of Job · Luther Seminary",
+      "url": "https://enterthebible.org/courses/job/lessons/summary-of-job/",
+      "summary": "Simundson and Schifferdecker stress the different speakers and their conflicting answers about suffering.",
+      "category": "Scholarly study",
+      "perspective": "historical",
+      "limits": "Literary teaching overview. It supplies no precise date or location for Job’s life.",
+      "author": "Daniel Simundson · revised Kathryn M. Schifferdecker",
+      "publisher": "Luther Seminary",
+      "year": 2024,
+      "chapterCoverage": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42
+      ],
+      "reviewed": {
+        "date": "2026-10-05",
+        "scope": "Complete main Summary, So What, Where, Who, When, What, and How sections reviewed."
+      },
+      "type": "Scholarly study",
+      "limitations": "Literary teaching overview. It supplies no precise date or location for Job’s life.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "luther-job-background",
+      "title": "Background of Job · Luther Seminary",
+      "url": "https://enterthebible.org/courses/job/lessons/background-of-job/",
+      "summary": "The authors discuss possible links between Job and questions raised during or after the exile.",
+      "category": "Scholarly study",
+      "perspective": "historical",
+      "limits": "Possible writing context, not evidence that the narrated events happened during the exile.",
+      "author": "Daniel Simundson · revised Kathryn M. Schifferdecker",
+      "publisher": "Luther Seminary",
+      "year": 2024,
+      "chapterCoverage": [],
+      "reviewed": {
+        "date": "2026-10-05",
+        "scope": "Complete main background text reviewed."
+      },
+      "type": "Scholarly study",
+      "limitations": "Possible writing context, not evidence that the narrated events happened during the exile.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "luther-job-issues",
+      "title": "Introductory Issues in Job · Luther Seminary",
+      "url": "https://enterthebible.org/courses/job/lessons/introductory-issues-in-job/",
+      "summary": "The study considers harmful comfort, competing explanations, and Job’s persistent cries to God.",
+      "category": "Scholarly study",
+      "perspective": "historical",
+      "limits": "Uz has no secure location in this review. Interpretations of the final speeches differ.",
+      "author": "Daniel Simundson · revised Kathryn M. Schifferdecker",
+      "publisher": "Luther Seminary",
+      "year": 2024,
+      "chapterCoverage": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42
+      ],
+      "reviewed": {
+        "date": "2026-10-05",
+        "scope": "Sections Cause of suffering through The nature of God reviewed. The Satan section was not retrieved."
+      },
+      "type": "Scholarly study",
+      "limitations": "Uz has no secure location in this review. Interpretations of the final speeches differ.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "seow-job-excerpt",
+      "title": "Job 1–21: Interpretation and Commentary · introduction excerpt",
+      "url": "https://eerdword.com/excerpt-from-c-l-seows-job-1-21-interpretation-and-commentary-illuminations/",
+      "summary": "Seow distinguishes the patient Job of the opening from the protesting Job in the speeches.",
+      "category": "Scholarly study",
+      "perspective": "historical",
+      "limits": "The full commentary was not read. The excerpt provides literary context rather than verse-by-verse review.",
+      "author": "C. L. Seow · Eerdmans",
+      "publisher": "Eerdmans",
+      "year": 2013,
+      "chapterCoverage": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "reviewed": {
+        "date": "2026-10-05",
+        "scope": "Complete publisher-authorized introduction excerpt, paragraphs 1–11, reviewed."
+      },
+      "type": "Scholarly study",
+      "limitations": "The full commentary was not read. The excerpt provides literary context rather than verse-by-verse review.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "net-job-13",
+      "title": "NET Bible notes · Job 13:15",
+      "url": "https://classic.net.bible.org/verse.php?book=Job&chapter=13&theme=false&verse=15",
+      "summary": "The note explains the Hebrew readings behind translations expressing either hope or no hope.",
+      "category": "Scholarly study",
+      "perspective": "historical",
+      "limits": "Original Hebrew was not copied from automatic captions. The note presents several possible readings.",
+      "author": "NET Bible translators · Bible.org",
+      "publisher": "Bible.org",
+      "year": "Classic NET notes",
+      "chapterCoverage": [
+        13
+      ],
+      "reviewed": {
+        "date": "2026-10-05",
+        "scope": "Translation comparisons and translator notes 1–3 reviewed."
+      },
+      "type": "Scholarly study",
+      "limitations": "Original Hebrew was not copied from automatic captions. The note presents several possible readings.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "mcclellan-job",
+      "title": "Job and the problem of suffering · McClellan interview",
+      "url": "https://www.mormonstories.org/how-thoughtful-mormons-stay-dan-mcclellan-part-3/",
+      "summary": "McClellan places Job among biblical discussions of why good people suffer and wicked people prosper.",
+      "category": "McClellan commentary",
+      "perspective": "historical",
+      "limits": "The transcript mishears theodicy as the Odyssey. Only the clear discussion of Job’s question is paraphrased. Audio and the full interview were not reviewed.",
+      "author": "Dan McClellan · Mormon Stories",
+      "publisher": "Mormon Stories",
+      "year": 2023,
+      "chapterCoverage": [
+        1,
+        2,
+        3,
+        21,
+        24
+      ],
+      "reviewed": {
+        "date": "2026-10-05",
+        "scope": "Original publisher transcript at 00:36:07–00:36:33 reviewed for the introduction of Job’s question."
+      },
+      "type": "McClellan commentary",
+      "limitations": "The transcript mishears theodicy as the Odyssey. Only the clear discussion of Job’s question is paraphrased. Audio and the full interview were not reviewed.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "wikipedia-job",
+      "title": "Book of Job · reviewed Wikipedia revision",
+      "url": "https://en.wikipedia.org/w/index.php?title=Book_of_Job&oldid=1377093894",
+      "summary": "The article outlines Job’s speeches and points readers to further scholarship.",
+      "category": "Encyclopedia",
+      "perspective": "historical",
+      "limits": "Encyclopedia background only. Disputed dates and interpretations require primary scholarly review.",
+      "author": "Wikipedia contributors",
+      "publisher": "Wikipedia",
+      "year": 2026,
+      "chapterCoverage": [],
+      "reviewed": {
+        "date": "2026-10-05",
+        "scope": "Opening paragraphs and the Seow bibliography entry reviewed. Seow’s publisher excerpt was checked separately."
+      },
+      "revisionId": 1377093894,
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "citedSourceIds": [
+        "seow-job-excerpt"
+      ],
+      "type": "Encyclopedia",
+      "limitations": "Encyclopedia background only. Disputed dates and interpretations require primary scholarly review."
+    },
+    {
+      "id": "cfm-job-2026",
+      "title": "Come, Follow Me 2026 · Job",
+      "url": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/33?lang=eng",
+      "summary": "The lesson studies faith, helpful friendship, resurrection, and God’s wider view.",
+      "category": "Come, Follow Me",
+      "perspective": "lds",
+      "limits": "Linked Scripture Helps, talks, videos, and other scriptures were not reviewed. The lesson treats the opening conversation as poetry, not an actual bargain.",
+      "author": "The Church of Jesus Christ of Latter-day Saints",
+      "publisher": "The Church of Jesus Christ of Latter-day Saints",
+      "year": 2026,
+      "chapterCoverage": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        8,
+        11,
+        12,
+        13,
+        14,
+        16,
+        19,
+        21,
+        22,
+        23,
+        24,
+        31,
+        38,
+        39,
+        40,
+        42
+      ],
+      "reviewed": {
+        "date": "2026-10-05",
+        "scope": "Complete main and children’s lesson sections reviewed. Coverage follows named reading blocks and specific discussion passages."
+      },
+      "type": "Come, Follow Me",
+      "limitations": "Linked Scripture Helps, talks, videos, and other scriptures were not reviewed. The lesson treats the opening conversation as poetry, not an actual bargain.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "lds-job-111",
+      "title": "Lesson 111: Job 1–16 · Seminary student material",
+      "url": "https://www.churchofjesuschrist.org/study/manual/old-testament-seminary-student-material-2018/job/lesson-111?lang=eng",
+      "summary": "The lesson contrasts Job’s suffering with his friends’ false accusations.",
+      "category": "LDS study manual",
+      "perspective": "lds",
+      "limits": "Some chapters receive only a general summary. The lesson affirms a historical Job through religious sources. This is Church teaching, not independent historical verification.",
+      "author": "The Church of Jesus Christ of Latter-day Saints",
+      "publisher": "The Church of Jesus Christ of Latter-day Saints",
+      "year": 2018,
+      "chapterCoverage": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "reviewed": {
+        "date": "2026-10-05",
+        "scope": "Complete main lesson and quiz text reviewed. Linked media were not reviewed."
+      },
+      "type": "LDS study manual",
+      "limitations": "Some chapters receive only a general summary. The lesson affirms a historical Job through religious sources. This is Church teaching, not independent historical verification.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "lds-job-112",
+      "title": "Lesson 112: Job 17–42 · Seminary student material",
+      "url": "https://www.churchofjesuschrist.org/study/manual/old-testament-seminary-student-material-2018/job/lesson-112?lang=eng",
+      "summary": "The lesson connects Job’s hope with resurrection and God’s plan.",
+      "category": "LDS study manual",
+      "perspective": "lds",
+      "limits": "Chapters 20–37 receive a brief general overview. Linked talks and videos were not reviewed. Later teaching remains distinct from the passage’s wording.",
+      "author": "The Church of Jesus Christ of Latter-day Saints",
+      "publisher": "The Church of Jesus Christ of Latter-day Saints",
+      "year": 2018,
+      "chapterCoverage": [
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42
+      ],
+      "reviewed": {
+        "date": "2026-10-05",
+        "scope": "Complete main lesson, embedded teaching excerpts, and quiz text reviewed."
+      },
+      "type": "LDS study manual",
+      "limitations": "Chapters 20–37 receive a brief general overview. Linked talks and videos were not reviewed. Later teaching remains distinct from the passage’s wording.",
+      "license": "Linked source. Original guide summaries."
+    }
+  ],
+  "passages": [
+    {
+      "id": "job-1",
+      "chapter": 1,
+      "start": 1,
+      "end": 22,
+      "title": "Job loses his children and wealth",
+      "summary": "Satan questions Job’s reasons for serving God. Four messengers report losses. Job mourns and worships. Job’s good life does not protect his family from disaster.",
+      "year": null,
+      "dateLabel": "Chapter order",
+      "uncertainty": "Job’s home in Uz has no secure map location.",
+      "placeIds": [],
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues",
+        "seow-job-excerpt",
+        "mcclellan-job"
+      ],
+      "lds": {
+        "text": "Come, Follow Me reads the heavenly exchange as poetry about an accuser’s challenge.",
+        "sourceIds": [
+          "cfm-job-2026",
+          "lds-job-111"
+        ]
+      }
+    },
+    {
+      "id": "job-2",
+      "chapter": 2,
+      "start": 1,
+      "end": 13,
+      "title": "Illness and silent friends",
+      "summary": "Job suffers painful sores. His wife urges him to renounce God. Three friends sit silently with him. The friends first share Job’s grief before they try to explain it.",
+      "year": null,
+      "dateLabel": "Chapter order",
+      "uncertainty": "Job’s home in Uz has no secure map location.",
+      "placeIds": [],
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues",
+        "seow-job-excerpt",
+        "mcclellan-job"
+      ],
+      "lds": {
+        "text": "Come, Follow Me asks why faith should continue when expected rewards disappear.",
+        "sourceIds": [
+          "cfm-job-2026",
+          "lds-job-111"
+        ]
+      }
+    },
+    {
+      "id": "job-3",
+      "chapter": 3,
+      "start": 1,
+      "end": 26,
+      "title": "Job wishes he had not been born",
+      "summary": "Job curses the day of his birth. He asks why people in pain must keep living. His speech gives words to grief that his earlier worship did not remove.",
+      "year": null,
+      "dateLabel": "Chapter order",
+      "uncertainty": "Job’s home in Uz has no secure map location.",
+      "placeIds": [],
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues",
+        "seow-job-excerpt",
+        "mcclellan-job"
+      ],
+      "lds": {
+        "text": "Come, Follow Me allows questions and faith to remain together during suffering.",
+        "sourceIds": [
+          "cfm-job-2026",
+          "lds-job-111"
+        ]
+      }
+    },
+    {
+      "id": "job-4",
+      "chapter": 4,
+      "start": 1,
+      "end": 21,
+      "title": "Eliphaz explains suffering through guilt",
+      "summary": "Eliphaz recalls Job’s help for others. He claims innocent people do not perish. Eliphaz’s claim conflicts with the opening account, which calls Job blameless.",
+      "year": null,
+      "dateLabel": "Chapter order",
+      "uncertainty": "Job’s home in Uz has no secure map location.",
+      "placeIds": [],
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues",
+        "seow-job-excerpt"
+      ],
+      "lds": {
+        "text": "Come, Follow Me asks readers to examine the friends’ claim that pain proves guilt.",
+        "sourceIds": [
+          "cfm-job-2026",
+          "lds-job-111"
+        ]
+      }
+    },
+    {
+      "id": "job-5",
+      "chapter": 5,
+      "start": 1,
+      "end": 27,
+      "title": "Eliphaz urges Job to accept correction",
+      "summary": "Eliphaz urges Job to seek God. He promises safety, children, and long life after correction. His promises assume that Job’s losses began with wrongdoing.",
+      "year": null,
+      "dateLabel": "Chapter order",
+      "uncertainty": "Job’s home in Uz has no secure map location.",
+      "placeIds": [],
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues",
+        "seow-job-excerpt"
+      ],
+      "lds": {
+        "text": "Come, Follow Me questions the friends’ explanation that God is punishing Job.",
+        "sourceIds": [
+          "cfm-job-2026",
+          "lds-job-111"
+        ]
+      }
+    },
+    {
+      "id": "job-6",
+      "chapter": 6,
+      "start": 1,
+      "end": 30,
+      "title": "Job asks his friends for kindness",
+      "summary": "Job describes pain beyond his strength. He compares his friends to streams that disappear when needed. He asks them to show his error instead of condemning his desperate words.",
+      "year": null,
+      "dateLabel": "Chapter order",
+      "uncertainty": "Job’s home in Uz has no secure map location.",
+      "placeIds": [],
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues",
+        "seow-job-excerpt"
+      ],
+      "lds": {
+        "text": "Job asks for kindness before a verdict. How could his friends answer that request?",
+        "sourceIds": [
+          "lds-job-111"
+        ]
+      }
+    },
+    {
+      "id": "job-7",
+      "chapter": 7,
+      "start": 1,
+      "end": 21,
+      "title": "Job addresses God in his pain",
+      "summary": "Job describes sleepless nights and painful skin. He asks God to leave him alone. He keeps speaking to God while questioning why his short life receives constant scrutiny.",
+      "year": null,
+      "dateLabel": "Chapter order",
+      "uncertainty": "Job’s home in Uz has no secure map location.",
+      "placeIds": [],
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues",
+        "seow-job-excerpt"
+      ],
+      "lds": {
+        "text": "Job speaks directly to God about pain. What does he ask God to change?",
+        "sourceIds": [
+          "lds-job-111"
+        ]
+      }
+    },
+    {
+      "id": "job-8",
+      "chapter": 8,
+      "start": 1,
+      "end": 22,
+      "title": "Bildad blames wrongdoing",
+      "summary": "Bildad suggests Job’s children died for their sins. He promises renewed success if Job is upright. Bildad turns a family’s deaths into an accusation.",
+      "year": null,
+      "dateLabel": "Chapter order",
+      "uncertainty": "Job’s home in Uz has no secure map location.",
+      "placeIds": [],
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues",
+        "seow-job-excerpt"
+      ],
+      "lds": {
+        "text": "Come, Follow Me asks what goes wrong when friends explain pain through blame.",
+        "sourceIds": [
+          "cfm-job-2026",
+          "lds-job-111"
+        ]
+      }
+    },
+    {
+      "id": "job-9",
+      "chapter": 9,
+      "start": 1,
+      "end": 35,
+      "title": "Job asks who could judge his case",
+      "summary": "Job describes God’s power over mountains, stars, and seas. He seeks someone to hear both sides. He fears that unequal power prevents a fair hearing.",
+      "year": null,
+      "dateLabel": "Chapter order",
+      "uncertainty": "Job’s home in Uz has no secure map location.",
+      "placeIds": [],
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues",
+        "seow-job-excerpt"
+      ],
+      "lds": {
+        "text": "Job wants someone to hear both sides. What prevents him from feeling heard?",
+        "sourceIds": [
+          "lds-job-111"
+        ]
+      }
+    },
+    {
+      "id": "job-10",
+      "chapter": 10,
+      "start": 1,
+      "end": 22,
+      "title": "Job asks why his maker harms him",
+      "summary": "Job recalls how God formed his body and gave him life. He asks why God now opposes him. He asks for an explanation instead of accepting his friends’ verdict.",
+      "year": null,
+      "dateLabel": "Chapter order",
+      "uncertainty": "Job’s home in Uz has no secure map location.",
+      "placeIds": [],
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues",
+        "seow-job-excerpt"
+      ],
+      "lds": {
+        "text": "Job recalls the care that formed him. Why does his present pain make that memory difficult?",
+        "sourceIds": [
+          "lds-job-111"
+        ]
+      }
+    },
+    {
+      "id": "job-11",
+      "chapter": 11,
+      "start": 1,
+      "end": 20,
+      "title": "Zophar demands that Job change",
+      "summary": "Zophar says Job deserves worse. He promises relief if Job removes wrongdoing from his home. His confidence leaves little room to hear Job’s claim of innocence.",
+      "year": null,
+      "dateLabel": "Chapter order",
+      "uncertainty": "Job’s home in Uz has no secure map location.",
+      "placeIds": [],
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues",
+        "seow-job-excerpt"
+      ],
+      "lds": {
+        "text": "Come, Follow Me questions Zophar’s claim that Job’s pain comes from wrongdoing.",
+        "sourceIds": [
+          "cfm-job-2026",
+          "lds-job-111"
+        ]
+      }
+    },
+    {
+      "id": "job-12",
+      "chapter": 12,
+      "start": 1,
+      "end": 25,
+      "title": "Job challenges his friends’ wisdom",
+      "summary": "Job says he understands as much as his friends. He points to robbers who live safely. He uses what he sees to challenge their claim that wrongdoing always brings immediate loss.",
+      "year": null,
+      "dateLabel": "Chapter order",
+      "uncertainty": "Job’s home in Uz has no secure map location.",
+      "placeIds": [],
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues",
+        "seow-job-excerpt"
+      ],
+      "lds": {
+        "text": "Come, Follow Me asks what Job knows about God while challenging his friends.",
+        "sourceIds": [
+          "cfm-job-2026",
+          "lds-job-111"
+        ]
+      }
+    },
+    {
+      "id": "job-13",
+      "chapter": 13,
+      "start": 1,
+      "end": 28,
+      "title": "Job seeks a hearing with God",
+      "summary": "Job accuses his friends of speaking falsely for God. He asks God to hear his case. WEB reads verse 15 as having no hope. The King James Bible reads it as trust. Both retain Job’s resolve to defend himself.",
+      "year": null,
+      "dateLabel": "Chapter order",
+      "uncertainty": "Job’s home in Uz has no secure map location.",
+      "placeIds": [],
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues",
+        "seow-job-excerpt",
+        "net-job-13"
+      ],
+      "lds": {
+        "text": "Come, Follow Me follows the King James Bible’s reading about trusting God. WEB follows the other reading noted above.",
+        "sourceIds": [
+          "cfm-job-2026",
+          "lds-job-111"
+        ]
+      }
+    },
+    {
+      "id": "job-14",
+      "chapter": 14,
+      "start": 1,
+      "end": 22,
+      "title": "Job asks whether the dead live again",
+      "summary": "Job compares short human life with a tree that can grow again. He asks God to remember him. The question about life after death appears within his fear of losing hope.",
+      "year": null,
+      "dateLabel": "Chapter order",
+      "uncertainty": "Job’s home in Uz has no secure map location.",
+      "placeIds": [],
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues",
+        "seow-job-excerpt"
+      ],
+      "lds": {
+        "text": "Come, Follow Me connects Job’s question about death with resurrection through Jesus Christ.",
+        "sourceIds": [
+          "cfm-job-2026",
+          "lds-job-111"
+        ]
+      }
+    },
+    {
+      "id": "job-15",
+      "chapter": 15,
+      "start": 1,
+      "end": 35,
+      "title": "Eliphaz condemns Job’s words",
+      "summary": "Eliphaz says Job’s own words prove guilt. He describes the fear and loss awaiting wicked people. Eliphaz treats Job’s protest as evidence against him.",
+      "year": null,
+      "dateLabel": "Chapter order",
+      "uncertainty": "Job’s home in Uz has no secure map location.",
+      "placeIds": [],
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues",
+        "seow-job-excerpt"
+      ],
+      "lds": {
+        "text": "Eliphaz treats protest as proof of guilt. What happens when listeners make that assumption?",
+        "sourceIds": [
+          "lds-job-111"
+        ]
+      }
+    },
+    {
+      "id": "job-16",
+      "chapter": 16,
+      "start": 1,
+      "end": 22,
+      "title": "Job calls his friends poor comforters",
+      "summary": "Job says he would strengthen them if their places were reversed. He asks for a witness in heaven. He wants someone to support his case instead of adding blame.",
+      "year": null,
+      "dateLabel": "Chapter order",
+      "uncertainty": "Job’s home in Uz has no secure map location.",
+      "placeIds": [],
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues",
+        "seow-job-excerpt"
+      ],
+      "lds": {
+        "text": "Come, Follow Me asks how friends can strengthen someone instead of adding blame.",
+        "sourceIds": [
+          "cfm-job-2026",
+          "lds-job-111"
+        ]
+      }
+    },
+    {
+      "id": "job-17",
+      "chapter": 17,
+      "start": 1,
+      "end": 16,
+      "title": "Job sees his hope nearing the grave",
+      "summary": "Job describes broken plans and public shame. He asks where his hope can go. His friends’ promised bright future does not answer the darkness he experiences.",
+      "year": null,
+      "dateLabel": "Chapter order",
+      "uncertainty": "Job’s home in Uz has no secure map location.",
+      "placeIds": [],
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues",
+        "seow-job-excerpt"
+      ],
+      "lds": {
+        "text": "Job’s plans have broken apart. What kind of help could reach him now?",
+        "sourceIds": [
+          "lds-job-112"
+        ]
+      }
+    },
+    {
+      "id": "job-18",
+      "chapter": 18,
+      "start": 1,
+      "end": 21,
+      "title": "Bildad describes the wicked person’s ruin",
+      "summary": "Bildad describes traps, disease, lost children, and a forgotten name. He calls this the wicked person’s fate. His description echoes Job’s losses and deepens the accusation.",
+      "year": null,
+      "dateLabel": "Chapter order",
+      "uncertainty": "Job’s home in Uz has no secure map location.",
+      "placeIds": [],
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues",
+        "seow-job-excerpt"
+      ],
+      "lds": {
+        "text": "Bildad describes the loss of a name and children. How might Job hear those words?",
+        "sourceIds": [
+          "lds-job-112"
+        ]
+      }
+    },
+    {
+      "id": "job-19",
+      "chapter": 19,
+      "start": 1,
+      "end": 29,
+      "title": "Job asks for pity and a defender",
+      "summary": "Job describes relatives, servants, and friends turning away. He declares that his Redeemer lives. He wants his words preserved and someone to support his claim.",
+      "year": null,
+      "dateLabel": "Chapter order",
+      "uncertainty": "Job’s home in Uz has no secure map location.",
+      "placeIds": [],
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues",
+        "seow-job-excerpt"
+      ],
+      "lds": {
+        "text": "Come, Follow Me reads Job’s Redeemer as Jesus Christ and invites reflection on resurrection.",
+        "sourceIds": [
+          "cfm-job-2026",
+          "lds-job-112"
+        ]
+      }
+    },
+    {
+      "id": "job-20",
+      "chapter": 20,
+      "start": 1,
+      "end": 29,
+      "title": "Zophar says wicked success ends quickly",
+      "summary": "Zophar describes stolen wealth turning into suffering. He says wicked people cannot keep their success. His argument depends on a link between wealth, guilt, and ruin that Job will dispute.",
+      "year": null,
+      "dateLabel": "Chapter order",
+      "uncertainty": "Job’s home in Uz has no secure map location.",
+      "placeIds": [],
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues",
+        "seow-job-excerpt"
+      ],
+      "lds": {
+        "text": "Zophar links wickedness with brief success. What evidence would challenge his claim?",
+        "sourceIds": [
+          "lds-job-112"
+        ]
+      }
+    },
+    {
+      "id": "job-21",
+      "chapter": 21,
+      "start": 1,
+      "end": 34,
+      "title": "Job points to wicked people who prosper",
+      "summary": "Job describes wicked people growing old with safe homes and thriving children. He challenges his friends’ answers. Their rule fails to explain lives where wrongdoing and comfort appear together.",
+      "year": null,
+      "dateLabel": "Chapter order",
+      "uncertainty": "Job’s home in Uz has no secure map location.",
+      "placeIds": [],
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues",
+        "seow-job-excerpt",
+        "mcclellan-job"
+      ],
+      "lds": {
+        "text": "Come, Follow Me studies the contrast between wicked success and faithful suffering.",
+        "sourceIds": [
+          "cfm-job-2026",
+          "lds-job-112"
+        ]
+      }
+    },
+    {
+      "id": "job-22",
+      "chapter": 22,
+      "start": 1,
+      "end": 30,
+      "title": "Eliphaz names sins he assumes Job committed",
+      "summary": "Eliphaz accuses Job of withholding food, clothing, and help. He urges Job to return to God. The accusations grow more specific, though Eliphaz supplies no account of witnessing them.",
+      "year": null,
+      "dateLabel": "Chapter order",
+      "uncertainty": "Job’s home in Uz has no secure map location.",
+      "placeIds": [],
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues"
+      ],
+      "lds": {
+        "text": "Come, Follow Me uses Eliphaz’s accusation to ask how friends can offer better help.",
+        "sourceIds": [
+          "cfm-job-2026",
+          "lds-job-112"
+        ]
+      }
+    },
+    {
+      "id": "job-23",
+      "chapter": 23,
+      "start": 1,
+      "end": 17,
+      "title": "Job searches for God’s court",
+      "summary": "Job wants to present his case to God. He cannot find him, but insists he kept his commands. Job’s confidence about his conduct stands beside his fear of God’s power.",
+      "year": null,
+      "dateLabel": "Chapter order",
+      "uncertainty": "Job’s home in Uz has no secure map location.",
+      "placeIds": [],
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues"
+      ],
+      "lds": {
+        "text": "Come, Follow Me connects Job’s search with faith during unanswered questions.",
+        "sourceIds": [
+          "cfm-job-2026",
+          "lds-job-112"
+        ]
+      }
+    },
+    {
+      "id": "job-24",
+      "chapter": 24,
+      "start": 1,
+      "end": 25,
+      "title": "Job describes the suffering of the poor",
+      "summary": "Job describes stolen fields, hungry workers, and people without shelter. He asks why justice seems delayed. The argument widens beyond his own pain to people harmed by others.",
+      "year": null,
+      "dateLabel": "Chapter order",
+      "uncertainty": "Job’s home in Uz has no secure map location.",
+      "placeIds": [],
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues",
+        "mcclellan-job"
+      ],
+      "lds": {
+        "text": "Come, Follow Me asks how Restoration scripture helps readers think about suffering.",
+        "sourceIds": [
+          "cfm-job-2026",
+          "lds-job-112"
+        ]
+      }
+    },
+    {
+      "id": "job-25",
+      "chapter": 25,
+      "start": 1,
+      "end": 6,
+      "title": "Bildad questions human purity",
+      "summary": "Bildad says God rules above and even the stars lack purity before him. He compares people to worms. His brief answer offers no direct help with Job’s examples of injustice.",
+      "year": null,
+      "dateLabel": "Chapter order",
+      "uncertainty": "Job’s home in Uz has no secure map location.",
+      "placeIds": [],
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues"
+      ],
+      "lds": {
+        "text": "Bildad speaks about human weakness. Does his answer address what Job asked?",
+        "sourceIds": [
+          "lds-job-112"
+        ]
+      }
+    },
+    {
+      "id": "job-26",
+      "chapter": 26,
+      "start": 1,
+      "end": 14,
+      "title": "Job describes power beyond human knowledge",
+      "summary": "Job first asks how Bildad has helped him. He describes God’s power over sky, sea, and death. Knowing that God is powerful does not settle their dispute about justice.",
+      "year": null,
+      "dateLabel": "Chapter order",
+      "uncertainty": "Job’s home in Uz has no secure map location.",
+      "placeIds": [],
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues"
+      ],
+      "lds": {
+        "text": "Job asks how Bildad helped him. What separates an impressive speech from useful comfort?",
+        "sourceIds": [
+          "lds-job-112"
+        ]
+      }
+    },
+    {
+      "id": "job-27",
+      "chapter": 27,
+      "start": 1,
+      "end": 23,
+      "title": "Job holds to his innocence",
+      "summary": "Job refuses to admit the friends are right about him. He then describes the fate of oppressors. He rejects their verdict while continuing to discuss judgment against wrongdoing.",
+      "year": null,
+      "dateLabel": "Chapter order",
+      "uncertainty": "Job’s home in Uz has no secure map location.",
+      "placeIds": [],
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues"
+      ],
+      "lds": {
+        "text": "Job refuses a false confession. Why would admitting his friends are right matter?",
+        "sourceIds": [
+          "lds-job-112"
+        ]
+      }
+    },
+    {
+      "id": "job-28",
+      "chapter": 28,
+      "start": 1,
+      "end": 28,
+      "title": "Where can wisdom be found?",
+      "summary": "A poem describes miners finding hidden metals. It asks where wisdom lies and says God knows its way. Skill at finding treasure does not give people complete understanding.",
+      "year": null,
+      "dateLabel": "Chapter order",
+      "uncertainty": "Job’s home in Uz has no secure map location.",
+      "placeIds": [],
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues"
+      ],
+      "lds": {
+        "text": "The poem separates treasure from wisdom. What can skill and wealth fail to teach?",
+        "sourceIds": [
+          "lds-job-112"
+        ]
+      }
+    },
+    {
+      "id": "job-29",
+      "chapter": 29,
+      "start": 1,
+      "end": 25,
+      "title": "Job remembers respect and service",
+      "summary": "Job recalls public honor and his children nearby. He remembers helping widows and people in need. He connects his former standing with care for others.",
+      "year": null,
+      "dateLabel": "Chapter order",
+      "uncertainty": "Job’s home in Uz has no secure map location.",
+      "placeIds": [],
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues"
+      ],
+      "lds": {
+        "text": "Job remembers helping people in need. How does that memory answer Eliphaz’s accusations?",
+        "sourceIds": [
+          "lds-job-112"
+        ]
+      }
+    },
+    {
+      "id": "job-30",
+      "chapter": 30,
+      "start": 1,
+      "end": 31,
+      "title": "Job describes shame and unanswered cries",
+      "summary": "Job contrasts former respect with mockery and pain. He says his calls to God receive no answer. His changed treatment adds public humiliation to his physical suffering.",
+      "year": null,
+      "dateLabel": "Chapter order",
+      "uncertainty": "Job’s home in Uz has no secure map location.",
+      "placeIds": [],
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues"
+      ],
+      "lds": {
+        "text": "Job’s neighbors add mockery to pain. What could they change without knowing why he suffers?",
+        "sourceIds": [
+          "lds-job-112"
+        ]
+      }
+    },
+    {
+      "id": "job-31",
+      "chapter": 31,
+      "start": 1,
+      "end": 40,
+      "title": "Job gives his final defense",
+      "summary": "Job lists wrongs he says he avoided. He describes fairness toward servants, generosity, and welcome for strangers. He asks for a written charge and a chance to answer it.",
+      "year": null,
+      "dateLabel": "Chapter order",
+      "uncertainty": "Job’s home in Uz has no secure map location.",
+      "placeIds": [],
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues"
+      ],
+      "lds": {
+        "text": "Come, Follow Me recalls Job’s repeated request for God to answer him.",
+        "sourceIds": [
+          "cfm-job-2026",
+          "lds-job-112"
+        ]
+      }
+    },
+    {
+      "id": "job-32",
+      "chapter": 32,
+      "start": 1,
+      "end": 22,
+      "title": "Elihu begins after the others fall silent",
+      "summary": "Elihu becomes angry with Job and his three friends. He says youth does not prevent understanding. He waited for older speakers but now claims they failed to answer.",
+      "year": null,
+      "dateLabel": "Chapter order",
+      "uncertainty": "Job’s home in Uz has no secure map location.",
+      "placeIds": [],
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues"
+      ],
+      "lds": {
+        "text": "Elihu waited for older speakers. Does his anger help him listen?",
+        "sourceIds": [
+          "lds-job-112"
+        ]
+      }
+    },
+    {
+      "id": "job-33",
+      "chapter": 33,
+      "start": 1,
+      "end": 33,
+      "title": "Elihu says suffering can teach",
+      "summary": "Elihu says God speaks through dreams and pain. He describes rescue through a messenger and renewed health. This is Elihu’s explanation for suffering, given before God speaks.",
+      "year": null,
+      "dateLabel": "Chapter order",
+      "uncertainty": "Job’s home in Uz has no secure map location.",
+      "placeIds": [],
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues"
+      ],
+      "lds": {
+        "text": "Elihu says pain can teach. How could that idea help or hurt someone in distress?",
+        "sourceIds": [
+          "lds-job-112"
+        ]
+      }
+    },
+    {
+      "id": "job-34",
+      "chapter": 34,
+      "start": 1,
+      "end": 37,
+      "title": "Elihu defends God’s justice",
+      "summary": "Elihu says God treats rich and poor without favor. He accuses Job of adding rebellion to sin. His defense of justice becomes another charge against Job.",
+      "year": null,
+      "dateLabel": "Chapter order",
+      "uncertainty": "Job’s home in Uz has no secure map location.",
+      "placeIds": [],
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues"
+      ],
+      "lds": {
+        "text": "Elihu defends fairness while accusing Job. What evidence supports his charge?",
+        "sourceIds": [
+          "lds-job-112"
+        ]
+      }
+    },
+    {
+      "id": "job-35",
+      "chapter": 35,
+      "start": 1,
+      "end": 16,
+      "title": "Elihu challenges Job’s complaint",
+      "summary": "Elihu says human choices affect other people. He claims pride prevents cries for help from being heard. He treats silence as a failure in the sufferer’s response.",
+      "year": null,
+      "dateLabel": "Chapter order",
+      "uncertainty": "Job’s home in Uz has no secure map location.",
+      "placeIds": [],
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues"
+      ],
+      "lds": {
+        "text": "Elihu links unanswered cries with pride. What would Job’s earlier words challenge?",
+        "sourceIds": [
+          "lds-job-112"
+        ]
+      }
+    },
+    {
+      "id": "job-36",
+      "chapter": 36,
+      "start": 1,
+      "end": 33,
+      "title": "Elihu describes correction and the storm",
+      "summary": "Elihu says suffering opens people’s ears to instruction. He describes rain, clouds, and lightning. His speech moves from explaining human pain to describing God’s work in nature.",
+      "year": null,
+      "dateLabel": "Chapter order",
+      "uncertainty": "Job’s home in Uz has no secure map location.",
+      "placeIds": [],
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues"
+      ],
+      "lds": {
+        "text": "Elihu promises good years after obedience. How does that promise compare with Job’s experience?",
+        "sourceIds": [
+          "lds-job-112"
+        ]
+      }
+    },
+    {
+      "id": "job-37",
+      "chapter": 37,
+      "start": 1,
+      "end": 24,
+      "title": "Elihu asks Job to consider God’s works",
+      "summary": "Elihu describes thunder, snow, and changing weather. He asks whether Job understands their workings. His final questions prepare for the change from human debate to God’s speech.",
+      "year": null,
+      "dateLabel": "Chapter order",
+      "uncertainty": "Job’s home in Uz has no secure map location.",
+      "placeIds": [],
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues"
+      ],
+      "lds": {
+        "text": "Elihu asks about weather beyond human control. What changes when the next speaker is the Lord?",
+        "sourceIds": [
+          "lds-job-112"
+        ]
+      }
+    },
+    {
+      "id": "job-38",
+      "chapter": 38,
+      "start": 1,
+      "end": 41,
+      "title": "The Lord answers from the whirlwind",
+      "summary": "The Lord questions Job about earth, sea, dawn, weather, stars, and animals. The answer draws Job into a world much larger than his dispute.",
+      "year": null,
+      "dateLabel": "Chapter order",
+      "uncertainty": "Job’s home in Uz has no secure map location.",
+      "placeIds": [],
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues"
+      ],
+      "lds": {
+        "text": "The Seminary lesson connects the joyful sons of God with life before birth.",
+        "sourceIds": [
+          "cfm-job-2026",
+          "lds-job-112"
+        ]
+      }
+    },
+    {
+      "id": "job-39",
+      "chapter": 39,
+      "start": 1,
+      "end": 30,
+      "title": "The Lord describes wild animals",
+      "summary": "The Lord asks about goats, wild donkeys, oxen, ostriches, horses, hawks, and eagles. These creatures have strength and freedom that people cannot command.",
+      "year": null,
+      "dateLabel": "Chapter order",
+      "uncertainty": "Job’s home in Uz has no secure map location.",
+      "placeIds": [],
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues"
+      ],
+      "lds": {
+        "text": "Come, Follow Me asks how the creatures in God’s speech change the reader’s view.",
+        "sourceIds": [
+          "cfm-job-2026",
+          "lds-job-112"
+        ]
+      }
+    },
+    {
+      "id": "job-40",
+      "chapter": 40,
+      "start": 1,
+      "end": 24,
+      "title": "Job falls silent and hears about behemoth",
+      "summary": "Job places his hand over his mouth. The Lord questions his judgment and describes behemoth’s strength. The creature’s power challenges Job’s ability to govern the world he questions.",
+      "year": null,
+      "dateLabel": "Chapter order",
+      "uncertainty": "The poem names the Jordan. This marker does not locate Job’s home.",
+      "placeIds": [
+        "jordan"
+      ],
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues"
+      ],
+      "lds": {
+        "text": "Come, Follow Me asks readers to consider God’s creations from different views.",
+        "sourceIds": [
+          "cfm-job-2026",
+          "lds-job-112"
+        ]
+      }
+    },
+    {
+      "id": "job-41",
+      "chapter": 41,
+      "start": 1,
+      "end": 34,
+      "title": "The Lord describes Leviathan",
+      "summary": "The Lord describes Leviathan’s scales, strength, and frightening breath. Human tools cannot subdue it. The poem presents power that exceeds human control.",
+      "year": null,
+      "dateLabel": "Chapter order",
+      "uncertainty": "Job’s home in Uz has no secure map location.",
+      "placeIds": [],
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues"
+      ],
+      "lds": {
+        "text": "The poem describes Leviathan beyond human control. What does that show about the limits of power?",
+        "sourceIds": [
+          "lds-job-112"
+        ]
+      }
+    },
+    {
+      "id": "job-42",
+      "chapter": 42,
+      "start": 1,
+      "end": 17,
+      "title": "Job answers and prays for his friends",
+      "summary": "Job answers the Lord. The Lord rebukes the three friends. Job prays for them and receives renewed prosperity. The friends need the prayer of the man they accused. Job’s daughters receive an inheritance.",
+      "year": null,
+      "dateLabel": "Chapter order",
+      "uncertainty": "Job’s home in Uz has no secure map location.",
+      "placeIds": [],
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues"
+      ],
+      "lds": {
+        "text": "The Seminary lesson connects Job’s prayer and renewed life with hope after loss.",
+        "sourceIds": [
+          "cfm-job-2026",
+          "lds-job-112"
+        ]
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "job-1",
+      "chapter": 1,
+      "verse": 1,
+      "eventOrder": 1,
+      "title": "Job loses his children and wealth",
+      "summary": "Satan questions Job’s reasons for serving God. Four messengers report losses. Job mourns and worships.",
+      "detail": "Job’s good life does not protect his family from disaster.",
+      "dateLabel": "Chapter order",
+      "uncertainty": "Job’s home in Uz has no secure map location.",
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues",
+        "seow-job-excerpt",
+        "mcclellan-job"
+      ],
+      "placeIds": [],
+      "lds": {
+        "text": "Come, Follow Me reads the heavenly exchange as poetry about an accuser’s challenge.",
+        "sourceIds": [
+          "cfm-job-2026",
+          "lds-job-111"
+        ]
+      }
+    },
+    {
+      "id": "job-2",
+      "chapter": 2,
+      "verse": 1,
+      "eventOrder": 2,
+      "title": "Illness and silent friends",
+      "summary": "Job suffers painful sores. His wife urges him to renounce God. Three friends sit silently with him.",
+      "detail": "The friends first share Job’s grief before they try to explain it.",
+      "dateLabel": "Chapter order",
+      "uncertainty": "Job’s home in Uz has no secure map location.",
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues",
+        "seow-job-excerpt",
+        "mcclellan-job"
+      ],
+      "placeIds": [],
+      "lds": {
+        "text": "Come, Follow Me asks why faith should continue when expected rewards disappear.",
+        "sourceIds": [
+          "cfm-job-2026",
+          "lds-job-111"
+        ]
+      }
+    },
+    {
+      "id": "job-3",
+      "chapter": 3,
+      "verse": 1,
+      "eventOrder": 3,
+      "title": "Job wishes he had not been born",
+      "summary": "Job curses the day of his birth. He asks why people in pain must keep living.",
+      "detail": "His speech gives words to grief that his earlier worship did not remove.",
+      "dateLabel": "Chapter order",
+      "uncertainty": "Job’s home in Uz has no secure map location.",
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues",
+        "seow-job-excerpt",
+        "mcclellan-job"
+      ],
+      "placeIds": [],
+      "lds": {
+        "text": "Come, Follow Me allows questions and faith to remain together during suffering.",
+        "sourceIds": [
+          "cfm-job-2026",
+          "lds-job-111"
+        ]
+      }
+    },
+    {
+      "id": "job-4",
+      "chapter": 4,
+      "verse": 1,
+      "eventOrder": 4,
+      "title": "Eliphaz explains suffering through guilt",
+      "summary": "Eliphaz recalls Job’s help for others. He claims innocent people do not perish.",
+      "detail": "Eliphaz’s claim conflicts with the opening account, which calls Job blameless.",
+      "dateLabel": "Chapter order",
+      "uncertainty": "Job’s home in Uz has no secure map location.",
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues",
+        "seow-job-excerpt"
+      ],
+      "placeIds": [],
+      "lds": {
+        "text": "Come, Follow Me asks readers to examine the friends’ claim that pain proves guilt.",
+        "sourceIds": [
+          "cfm-job-2026",
+          "lds-job-111"
+        ]
+      }
+    },
+    {
+      "id": "job-5",
+      "chapter": 5,
+      "verse": 1,
+      "eventOrder": 5,
+      "title": "Eliphaz urges Job to accept correction",
+      "summary": "Eliphaz urges Job to seek God. He promises safety, children, and long life after correction.",
+      "detail": "His promises assume that Job’s losses began with wrongdoing.",
+      "dateLabel": "Chapter order",
+      "uncertainty": "Job’s home in Uz has no secure map location.",
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues",
+        "seow-job-excerpt"
+      ],
+      "placeIds": [],
+      "lds": {
+        "text": "Come, Follow Me questions the friends’ explanation that God is punishing Job.",
+        "sourceIds": [
+          "cfm-job-2026",
+          "lds-job-111"
+        ]
+      }
+    },
+    {
+      "id": "job-6",
+      "chapter": 6,
+      "verse": 1,
+      "eventOrder": 6,
+      "title": "Job asks his friends for kindness",
+      "summary": "Job describes pain beyond his strength. He compares his friends to streams that disappear when needed.",
+      "detail": "He asks them to show his error instead of condemning his desperate words.",
+      "dateLabel": "Chapter order",
+      "uncertainty": "Job’s home in Uz has no secure map location.",
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues",
+        "seow-job-excerpt"
+      ],
+      "placeIds": [],
+      "lds": {
+        "text": "Job asks for kindness before a verdict. How could his friends answer that request?",
+        "sourceIds": [
+          "lds-job-111"
+        ]
+      }
+    },
+    {
+      "id": "job-7",
+      "chapter": 7,
+      "verse": 1,
+      "eventOrder": 7,
+      "title": "Job addresses God in his pain",
+      "summary": "Job describes sleepless nights and painful skin. He asks God to leave him alone.",
+      "detail": "He keeps speaking to God while questioning why his short life receives constant scrutiny.",
+      "dateLabel": "Chapter order",
+      "uncertainty": "Job’s home in Uz has no secure map location.",
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues",
+        "seow-job-excerpt"
+      ],
+      "placeIds": [],
+      "lds": {
+        "text": "Job speaks directly to God about pain. What does he ask God to change?",
+        "sourceIds": [
+          "lds-job-111"
+        ]
+      }
+    },
+    {
+      "id": "job-8",
+      "chapter": 8,
+      "verse": 1,
+      "eventOrder": 8,
+      "title": "Bildad blames wrongdoing",
+      "summary": "Bildad suggests Job’s children died for their sins. He promises renewed success if Job is upright.",
+      "detail": "Bildad turns a family’s deaths into an accusation.",
+      "dateLabel": "Chapter order",
+      "uncertainty": "Job’s home in Uz has no secure map location.",
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues",
+        "seow-job-excerpt"
+      ],
+      "placeIds": [],
+      "lds": {
+        "text": "Come, Follow Me asks what goes wrong when friends explain pain through blame.",
+        "sourceIds": [
+          "cfm-job-2026",
+          "lds-job-111"
+        ]
+      }
+    },
+    {
+      "id": "job-9",
+      "chapter": 9,
+      "verse": 1,
+      "eventOrder": 9,
+      "title": "Job asks who could judge his case",
+      "summary": "Job describes God’s power over mountains, stars, and seas. He seeks someone to hear both sides.",
+      "detail": "He fears that unequal power prevents a fair hearing.",
+      "dateLabel": "Chapter order",
+      "uncertainty": "Job’s home in Uz has no secure map location.",
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues",
+        "seow-job-excerpt"
+      ],
+      "placeIds": [],
+      "lds": {
+        "text": "Job wants someone to hear both sides. What prevents him from feeling heard?",
+        "sourceIds": [
+          "lds-job-111"
+        ]
+      }
+    },
+    {
+      "id": "job-10",
+      "chapter": 10,
+      "verse": 1,
+      "eventOrder": 10,
+      "title": "Job asks why his maker harms him",
+      "summary": "Job recalls how God formed his body and gave him life. He asks why God now opposes him.",
+      "detail": "He asks for an explanation instead of accepting his friends’ verdict.",
+      "dateLabel": "Chapter order",
+      "uncertainty": "Job’s home in Uz has no secure map location.",
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues",
+        "seow-job-excerpt"
+      ],
+      "placeIds": [],
+      "lds": {
+        "text": "Job recalls the care that formed him. Why does his present pain make that memory difficult?",
+        "sourceIds": [
+          "lds-job-111"
+        ]
+      }
+    },
+    {
+      "id": "job-11",
+      "chapter": 11,
+      "verse": 1,
+      "eventOrder": 11,
+      "title": "Zophar demands that Job change",
+      "summary": "Zophar says Job deserves worse. He promises relief if Job removes wrongdoing from his home.",
+      "detail": "His confidence leaves little room to hear Job’s claim of innocence.",
+      "dateLabel": "Chapter order",
+      "uncertainty": "Job’s home in Uz has no secure map location.",
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues",
+        "seow-job-excerpt"
+      ],
+      "placeIds": [],
+      "lds": {
+        "text": "Come, Follow Me questions Zophar’s claim that Job’s pain comes from wrongdoing.",
+        "sourceIds": [
+          "cfm-job-2026",
+          "lds-job-111"
+        ]
+      }
+    },
+    {
+      "id": "job-12",
+      "chapter": 12,
+      "verse": 1,
+      "eventOrder": 12,
+      "title": "Job challenges his friends’ wisdom",
+      "summary": "Job says he understands as much as his friends. He points to robbers who live safely.",
+      "detail": "He uses what he sees to challenge their claim that wrongdoing always brings immediate loss.",
+      "dateLabel": "Chapter order",
+      "uncertainty": "Job’s home in Uz has no secure map location.",
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues",
+        "seow-job-excerpt"
+      ],
+      "placeIds": [],
+      "lds": {
+        "text": "Come, Follow Me asks what Job knows about God while challenging his friends.",
+        "sourceIds": [
+          "cfm-job-2026",
+          "lds-job-111"
+        ]
+      }
+    },
+    {
+      "id": "job-13",
+      "chapter": 13,
+      "verse": 1,
+      "eventOrder": 13,
+      "title": "Job seeks a hearing with God",
+      "summary": "Job accuses his friends of speaking falsely for God. He asks God to hear his case.",
+      "detail": "WEB reads verse 15 as having no hope. The King James Bible reads it as trust. Both retain Job’s resolve to defend himself.",
+      "dateLabel": "Chapter order",
+      "uncertainty": "Job’s home in Uz has no secure map location.",
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues",
+        "seow-job-excerpt",
+        "net-job-13"
+      ],
+      "placeIds": [],
+      "lds": {
+        "text": "Come, Follow Me follows the King James Bible’s reading about trusting God. WEB follows the other reading noted above.",
+        "sourceIds": [
+          "cfm-job-2026",
+          "lds-job-111"
+        ]
+      }
+    },
+    {
+      "id": "job-14",
+      "chapter": 14,
+      "verse": 1,
+      "eventOrder": 14,
+      "title": "Job asks whether the dead live again",
+      "summary": "Job compares short human life with a tree that can grow again. He asks God to remember him.",
+      "detail": "The question about life after death appears within his fear of losing hope.",
+      "dateLabel": "Chapter order",
+      "uncertainty": "Job’s home in Uz has no secure map location.",
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues",
+        "seow-job-excerpt"
+      ],
+      "placeIds": [],
+      "lds": {
+        "text": "Come, Follow Me connects Job’s question about death with resurrection through Jesus Christ.",
+        "sourceIds": [
+          "cfm-job-2026",
+          "lds-job-111"
+        ]
+      }
+    },
+    {
+      "id": "job-15",
+      "chapter": 15,
+      "verse": 1,
+      "eventOrder": 15,
+      "title": "Eliphaz condemns Job’s words",
+      "summary": "Eliphaz says Job’s own words prove guilt. He describes the fear and loss awaiting wicked people.",
+      "detail": "Eliphaz treats Job’s protest as evidence against him.",
+      "dateLabel": "Chapter order",
+      "uncertainty": "Job’s home in Uz has no secure map location.",
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues",
+        "seow-job-excerpt"
+      ],
+      "placeIds": [],
+      "lds": {
+        "text": "Eliphaz treats protest as proof of guilt. What happens when listeners make that assumption?",
+        "sourceIds": [
+          "lds-job-111"
+        ]
+      }
+    },
+    {
+      "id": "job-16",
+      "chapter": 16,
+      "verse": 1,
+      "eventOrder": 16,
+      "title": "Job calls his friends poor comforters",
+      "summary": "Job says he would strengthen them if their places were reversed. He asks for a witness in heaven.",
+      "detail": "He wants someone to support his case instead of adding blame.",
+      "dateLabel": "Chapter order",
+      "uncertainty": "Job’s home in Uz has no secure map location.",
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues",
+        "seow-job-excerpt"
+      ],
+      "placeIds": [],
+      "lds": {
+        "text": "Come, Follow Me asks how friends can strengthen someone instead of adding blame.",
+        "sourceIds": [
+          "cfm-job-2026",
+          "lds-job-111"
+        ]
+      }
+    },
+    {
+      "id": "job-17",
+      "chapter": 17,
+      "verse": 1,
+      "eventOrder": 17,
+      "title": "Job sees his hope nearing the grave",
+      "summary": "Job describes broken plans and public shame. He asks where his hope can go.",
+      "detail": "His friends’ promised bright future does not answer the darkness he experiences.",
+      "dateLabel": "Chapter order",
+      "uncertainty": "Job’s home in Uz has no secure map location.",
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues",
+        "seow-job-excerpt"
+      ],
+      "placeIds": [],
+      "lds": {
+        "text": "Job’s plans have broken apart. What kind of help could reach him now?",
+        "sourceIds": [
+          "lds-job-112"
+        ]
+      }
+    },
+    {
+      "id": "job-18",
+      "chapter": 18,
+      "verse": 1,
+      "eventOrder": 18,
+      "title": "Bildad describes the wicked person’s ruin",
+      "summary": "Bildad describes traps, disease, lost children, and a forgotten name. He calls this the wicked person’s fate.",
+      "detail": "His description echoes Job’s losses and deepens the accusation.",
+      "dateLabel": "Chapter order",
+      "uncertainty": "Job’s home in Uz has no secure map location.",
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues",
+        "seow-job-excerpt"
+      ],
+      "placeIds": [],
+      "lds": {
+        "text": "Bildad describes the loss of a name and children. How might Job hear those words?",
+        "sourceIds": [
+          "lds-job-112"
+        ]
+      }
+    },
+    {
+      "id": "job-19",
+      "chapter": 19,
+      "verse": 1,
+      "eventOrder": 19,
+      "title": "Job asks for pity and a defender",
+      "summary": "Job describes relatives, servants, and friends turning away. He declares that his Redeemer lives.",
+      "detail": "He wants his words preserved and someone to support his claim.",
+      "dateLabel": "Chapter order",
+      "uncertainty": "Job’s home in Uz has no secure map location.",
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues",
+        "seow-job-excerpt"
+      ],
+      "placeIds": [],
+      "lds": {
+        "text": "Come, Follow Me reads Job’s Redeemer as Jesus Christ and invites reflection on resurrection.",
+        "sourceIds": [
+          "cfm-job-2026",
+          "lds-job-112"
+        ]
+      }
+    },
+    {
+      "id": "job-20",
+      "chapter": 20,
+      "verse": 1,
+      "eventOrder": 20,
+      "title": "Zophar says wicked success ends quickly",
+      "summary": "Zophar describes stolen wealth turning into suffering. He says wicked people cannot keep their success.",
+      "detail": "His argument depends on a link between wealth, guilt, and ruin that Job will dispute.",
+      "dateLabel": "Chapter order",
+      "uncertainty": "Job’s home in Uz has no secure map location.",
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues",
+        "seow-job-excerpt"
+      ],
+      "placeIds": [],
+      "lds": {
+        "text": "Zophar links wickedness with brief success. What evidence would challenge his claim?",
+        "sourceIds": [
+          "lds-job-112"
+        ]
+      }
+    },
+    {
+      "id": "job-21",
+      "chapter": 21,
+      "verse": 1,
+      "eventOrder": 21,
+      "title": "Job points to wicked people who prosper",
+      "summary": "Job describes wicked people growing old with safe homes and thriving children. He challenges his friends’ answers.",
+      "detail": "Their rule fails to explain lives where wrongdoing and comfort appear together.",
+      "dateLabel": "Chapter order",
+      "uncertainty": "Job’s home in Uz has no secure map location.",
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues",
+        "seow-job-excerpt",
+        "mcclellan-job"
+      ],
+      "placeIds": [],
+      "lds": {
+        "text": "Come, Follow Me studies the contrast between wicked success and faithful suffering.",
+        "sourceIds": [
+          "cfm-job-2026",
+          "lds-job-112"
+        ]
+      }
+    },
+    {
+      "id": "job-22",
+      "chapter": 22,
+      "verse": 1,
+      "eventOrder": 22,
+      "title": "Eliphaz names sins he assumes Job committed",
+      "summary": "Eliphaz accuses Job of withholding food, clothing, and help. He urges Job to return to God.",
+      "detail": "The accusations grow more specific, though Eliphaz supplies no account of witnessing them.",
+      "dateLabel": "Chapter order",
+      "uncertainty": "Job’s home in Uz has no secure map location.",
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues"
+      ],
+      "placeIds": [],
+      "lds": {
+        "text": "Come, Follow Me uses Eliphaz’s accusation to ask how friends can offer better help.",
+        "sourceIds": [
+          "cfm-job-2026",
+          "lds-job-112"
+        ]
+      }
+    },
+    {
+      "id": "job-23",
+      "chapter": 23,
+      "verse": 1,
+      "eventOrder": 23,
+      "title": "Job searches for God’s court",
+      "summary": "Job wants to present his case to God. He cannot find him, but insists he kept his commands.",
+      "detail": "Job’s confidence about his conduct stands beside his fear of God’s power.",
+      "dateLabel": "Chapter order",
+      "uncertainty": "Job’s home in Uz has no secure map location.",
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues"
+      ],
+      "placeIds": [],
+      "lds": {
+        "text": "Come, Follow Me connects Job’s search with faith during unanswered questions.",
+        "sourceIds": [
+          "cfm-job-2026",
+          "lds-job-112"
+        ]
+      }
+    },
+    {
+      "id": "job-24",
+      "chapter": 24,
+      "verse": 1,
+      "eventOrder": 24,
+      "title": "Job describes the suffering of the poor",
+      "summary": "Job describes stolen fields, hungry workers, and people without shelter. He asks why justice seems delayed.",
+      "detail": "The argument widens beyond his own pain to people harmed by others.",
+      "dateLabel": "Chapter order",
+      "uncertainty": "Job’s home in Uz has no secure map location.",
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues",
+        "mcclellan-job"
+      ],
+      "placeIds": [],
+      "lds": {
+        "text": "Come, Follow Me asks how Restoration scripture helps readers think about suffering.",
+        "sourceIds": [
+          "cfm-job-2026",
+          "lds-job-112"
+        ]
+      }
+    },
+    {
+      "id": "job-25",
+      "chapter": 25,
+      "verse": 1,
+      "eventOrder": 25,
+      "title": "Bildad questions human purity",
+      "summary": "Bildad says God rules above and even the stars lack purity before him. He compares people to worms.",
+      "detail": "His brief answer offers no direct help with Job’s examples of injustice.",
+      "dateLabel": "Chapter order",
+      "uncertainty": "Job’s home in Uz has no secure map location.",
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues"
+      ],
+      "placeIds": [],
+      "lds": {
+        "text": "Bildad speaks about human weakness. Does his answer address what Job asked?",
+        "sourceIds": [
+          "lds-job-112"
+        ]
+      }
+    },
+    {
+      "id": "job-26",
+      "chapter": 26,
+      "verse": 1,
+      "eventOrder": 26,
+      "title": "Job describes power beyond human knowledge",
+      "summary": "Job first asks how Bildad has helped him. He describes God’s power over sky, sea, and death.",
+      "detail": "Knowing that God is powerful does not settle their dispute about justice.",
+      "dateLabel": "Chapter order",
+      "uncertainty": "Job’s home in Uz has no secure map location.",
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues"
+      ],
+      "placeIds": [],
+      "lds": {
+        "text": "Job asks how Bildad helped him. What separates an impressive speech from useful comfort?",
+        "sourceIds": [
+          "lds-job-112"
+        ]
+      }
+    },
+    {
+      "id": "job-27",
+      "chapter": 27,
+      "verse": 1,
+      "eventOrder": 27,
+      "title": "Job holds to his innocence",
+      "summary": "Job refuses to admit the friends are right about him. He then describes the fate of oppressors.",
+      "detail": "He rejects their verdict while continuing to discuss judgment against wrongdoing.",
+      "dateLabel": "Chapter order",
+      "uncertainty": "Job’s home in Uz has no secure map location.",
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues"
+      ],
+      "placeIds": [],
+      "lds": {
+        "text": "Job refuses a false confession. Why would admitting his friends are right matter?",
+        "sourceIds": [
+          "lds-job-112"
+        ]
+      }
+    },
+    {
+      "id": "job-28",
+      "chapter": 28,
+      "verse": 1,
+      "eventOrder": 28,
+      "title": "Where can wisdom be found?",
+      "summary": "A poem describes miners finding hidden metals. It asks where wisdom lies and says God knows its way.",
+      "detail": "Skill at finding treasure does not give people complete understanding.",
+      "dateLabel": "Chapter order",
+      "uncertainty": "Job’s home in Uz has no secure map location.",
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues"
+      ],
+      "placeIds": [],
+      "lds": {
+        "text": "The poem separates treasure from wisdom. What can skill and wealth fail to teach?",
+        "sourceIds": [
+          "lds-job-112"
+        ]
+      }
+    },
+    {
+      "id": "job-29",
+      "chapter": 29,
+      "verse": 1,
+      "eventOrder": 29,
+      "title": "Job remembers respect and service",
+      "summary": "Job recalls public honor and his children nearby. He remembers helping widows and people in need.",
+      "detail": "He connects his former standing with care for others.",
+      "dateLabel": "Chapter order",
+      "uncertainty": "Job’s home in Uz has no secure map location.",
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues"
+      ],
+      "placeIds": [],
+      "lds": {
+        "text": "Job remembers helping people in need. How does that memory answer Eliphaz’s accusations?",
+        "sourceIds": [
+          "lds-job-112"
+        ]
+      }
+    },
+    {
+      "id": "job-30",
+      "chapter": 30,
+      "verse": 1,
+      "eventOrder": 30,
+      "title": "Job describes shame and unanswered cries",
+      "summary": "Job contrasts former respect with mockery and pain. He says his calls to God receive no answer.",
+      "detail": "His changed treatment adds public humiliation to his physical suffering.",
+      "dateLabel": "Chapter order",
+      "uncertainty": "Job’s home in Uz has no secure map location.",
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues"
+      ],
+      "placeIds": [],
+      "lds": {
+        "text": "Job’s neighbors add mockery to pain. What could they change without knowing why he suffers?",
+        "sourceIds": [
+          "lds-job-112"
+        ]
+      }
+    },
+    {
+      "id": "job-31",
+      "chapter": 31,
+      "verse": 1,
+      "eventOrder": 31,
+      "title": "Job gives his final defense",
+      "summary": "Job lists wrongs he says he avoided. He describes fairness toward servants, generosity, and welcome for strangers.",
+      "detail": "He asks for a written charge and a chance to answer it.",
+      "dateLabel": "Chapter order",
+      "uncertainty": "Job’s home in Uz has no secure map location.",
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues"
+      ],
+      "placeIds": [],
+      "lds": {
+        "text": "Come, Follow Me recalls Job’s repeated request for God to answer him.",
+        "sourceIds": [
+          "cfm-job-2026",
+          "lds-job-112"
+        ]
+      }
+    },
+    {
+      "id": "job-32",
+      "chapter": 32,
+      "verse": 1,
+      "eventOrder": 32,
+      "title": "Elihu begins after the others fall silent",
+      "summary": "Elihu becomes angry with Job and his three friends. He says youth does not prevent understanding.",
+      "detail": "He waited for older speakers but now claims they failed to answer.",
+      "dateLabel": "Chapter order",
+      "uncertainty": "Job’s home in Uz has no secure map location.",
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues"
+      ],
+      "placeIds": [],
+      "lds": {
+        "text": "Elihu waited for older speakers. Does his anger help him listen?",
+        "sourceIds": [
+          "lds-job-112"
+        ]
+      }
+    },
+    {
+      "id": "job-33",
+      "chapter": 33,
+      "verse": 1,
+      "eventOrder": 33,
+      "title": "Elihu says suffering can teach",
+      "summary": "Elihu says God speaks through dreams and pain. He describes rescue through a messenger and renewed health.",
+      "detail": "This is Elihu’s explanation for suffering, given before God speaks.",
+      "dateLabel": "Chapter order",
+      "uncertainty": "Job’s home in Uz has no secure map location.",
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues"
+      ],
+      "placeIds": [],
+      "lds": {
+        "text": "Elihu says pain can teach. How could that idea help or hurt someone in distress?",
+        "sourceIds": [
+          "lds-job-112"
+        ]
+      }
+    },
+    {
+      "id": "job-34",
+      "chapter": 34,
+      "verse": 1,
+      "eventOrder": 34,
+      "title": "Elihu defends God’s justice",
+      "summary": "Elihu says God treats rich and poor without favor. He accuses Job of adding rebellion to sin.",
+      "detail": "His defense of justice becomes another charge against Job.",
+      "dateLabel": "Chapter order",
+      "uncertainty": "Job’s home in Uz has no secure map location.",
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues"
+      ],
+      "placeIds": [],
+      "lds": {
+        "text": "Elihu defends fairness while accusing Job. What evidence supports his charge?",
+        "sourceIds": [
+          "lds-job-112"
+        ]
+      }
+    },
+    {
+      "id": "job-35",
+      "chapter": 35,
+      "verse": 1,
+      "eventOrder": 35,
+      "title": "Elihu challenges Job’s complaint",
+      "summary": "Elihu says human choices affect other people. He claims pride prevents cries for help from being heard.",
+      "detail": "He treats silence as a failure in the sufferer’s response.",
+      "dateLabel": "Chapter order",
+      "uncertainty": "Job’s home in Uz has no secure map location.",
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues"
+      ],
+      "placeIds": [],
+      "lds": {
+        "text": "Elihu links unanswered cries with pride. What would Job’s earlier words challenge?",
+        "sourceIds": [
+          "lds-job-112"
+        ]
+      }
+    },
+    {
+      "id": "job-36",
+      "chapter": 36,
+      "verse": 1,
+      "eventOrder": 36,
+      "title": "Elihu describes correction and the storm",
+      "summary": "Elihu says suffering opens people’s ears to instruction. He describes rain, clouds, and lightning.",
+      "detail": "His speech moves from explaining human pain to describing God’s work in nature.",
+      "dateLabel": "Chapter order",
+      "uncertainty": "Job’s home in Uz has no secure map location.",
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues"
+      ],
+      "placeIds": [],
+      "lds": {
+        "text": "Elihu promises good years after obedience. How does that promise compare with Job’s experience?",
+        "sourceIds": [
+          "lds-job-112"
+        ]
+      }
+    },
+    {
+      "id": "job-37",
+      "chapter": 37,
+      "verse": 1,
+      "eventOrder": 37,
+      "title": "Elihu asks Job to consider God’s works",
+      "summary": "Elihu describes thunder, snow, and changing weather. He asks whether Job understands their workings.",
+      "detail": "His final questions prepare for the change from human debate to God’s speech.",
+      "dateLabel": "Chapter order",
+      "uncertainty": "Job’s home in Uz has no secure map location.",
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues"
+      ],
+      "placeIds": [],
+      "lds": {
+        "text": "Elihu asks about weather beyond human control. What changes when the next speaker is the Lord?",
+        "sourceIds": [
+          "lds-job-112"
+        ]
+      }
+    },
+    {
+      "id": "job-38",
+      "chapter": 38,
+      "verse": 1,
+      "eventOrder": 38,
+      "title": "The Lord answers from the whirlwind",
+      "summary": "The Lord questions Job about earth, sea, dawn, weather, stars, and animals.",
+      "detail": "The answer draws Job into a world much larger than his dispute.",
+      "dateLabel": "Chapter order",
+      "uncertainty": "Job’s home in Uz has no secure map location.",
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues"
+      ],
+      "placeIds": [],
+      "lds": {
+        "text": "The Seminary lesson connects the joyful sons of God with life before birth.",
+        "sourceIds": [
+          "cfm-job-2026",
+          "lds-job-112"
+        ]
+      }
+    },
+    {
+      "id": "job-39",
+      "chapter": 39,
+      "verse": 1,
+      "eventOrder": 39,
+      "title": "The Lord describes wild animals",
+      "summary": "The Lord asks about goats, wild donkeys, oxen, ostriches, horses, hawks, and eagles.",
+      "detail": "These creatures have strength and freedom that people cannot command.",
+      "dateLabel": "Chapter order",
+      "uncertainty": "Job’s home in Uz has no secure map location.",
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues"
+      ],
+      "placeIds": [],
+      "lds": {
+        "text": "Come, Follow Me asks how the creatures in God’s speech change the reader’s view.",
+        "sourceIds": [
+          "cfm-job-2026",
+          "lds-job-112"
+        ]
+      }
+    },
+    {
+      "id": "job-40",
+      "chapter": 40,
+      "verse": 1,
+      "eventOrder": 40,
+      "title": "Job falls silent and hears about behemoth",
+      "summary": "Job places his hand over his mouth. The Lord questions his judgment and describes behemoth’s strength.",
+      "detail": "The creature’s power challenges Job’s ability to govern the world he questions.",
+      "dateLabel": "Chapter order",
+      "uncertainty": "The poem names the Jordan. This marker does not locate Job’s home.",
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues"
+      ],
+      "placeIds": [
+        "jordan"
+      ],
+      "lds": {
+        "text": "Come, Follow Me asks readers to consider God’s creations from different views.",
+        "sourceIds": [
+          "cfm-job-2026",
+          "lds-job-112"
+        ]
+      }
+    },
+    {
+      "id": "job-41",
+      "chapter": 41,
+      "verse": 1,
+      "eventOrder": 41,
+      "title": "The Lord describes Leviathan",
+      "summary": "The Lord describes Leviathan’s scales, strength, and frightening breath. Human tools cannot subdue it.",
+      "detail": "The poem presents power that exceeds human control.",
+      "dateLabel": "Chapter order",
+      "uncertainty": "Job’s home in Uz has no secure map location.",
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues"
+      ],
+      "placeIds": [],
+      "lds": {
+        "text": "The poem describes Leviathan beyond human control. What does that show about the limits of power?",
+        "sourceIds": [
+          "lds-job-112"
+        ]
+      }
+    },
+    {
+      "id": "job-42",
+      "chapter": 42,
+      "verse": 1,
+      "eventOrder": 42,
+      "title": "Job answers and prays for his friends",
+      "summary": "Job answers the Lord. The Lord rebukes the three friends. Job prays for them and receives renewed prosperity.",
+      "detail": "The friends need the prayer of the man they accused. Job’s daughters receive an inheritance.",
+      "dateLabel": "Chapter order",
+      "uncertainty": "Job’s home in Uz has no secure map location.",
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues"
+      ],
+      "placeIds": [],
+      "lds": {
+        "text": "The Seminary lesson connects Job’s prayer and renewed life with hope after loss.",
+        "sourceIds": [
+          "cfm-job-2026",
+          "lds-job-112"
+        ]
+      }
+    }
+  ],
+  "places": [
+    {
+      "id": "jordan",
+      "name": "Jordan River",
+      "lat": 31.9,
+      "lng": 35.55,
+      "summary": "The behemoth poem names the Jordan when describing a swelling river.",
+      "limits": "Reference marker for the river. Job’s home and the creature’s location are not placed here.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan"
+      ],
+      "detail": "The behemoth poem names the Jordan when describing a swelling river.",
+      "uncertainty": "Reference marker for the river. Job’s home and the creature’s location are not placed here.",
+      "chapterLocation": true
+    }
+  ],
+  "campaigns": [],
+  "ancientRoads": [],
+  "regions": [],
+  "words": [],
+  "guides": [
+    {
+      "id": "job-overview",
+      "title": "Study Job",
+      "description": "Follow selected chapters through the book.",
+      "steps": [
+        {
+          "title": "Job loses his children and wealth",
+          "text": "Satan questions Job’s reasons for serving God. Four messengers report losses. Job mourns and worships. Job’s good life does not protect his family from disaster.",
+          "chapter": 1,
+          "verse": 1,
+          "sourceIds": [
+            "web",
+            "luther-job",
+            "luther-job-issues",
+            "seow-job-excerpt",
+            "mcclellan-job"
+          ]
+        },
+        {
+          "title": "Eliphaz names sins he assumes Job committed",
+          "text": "Eliphaz accuses Job of withholding food, clothing, and help. He urges Job to return to God. The accusations grow more specific, though Eliphaz supplies no account of witnessing them.",
+          "chapter": 22,
+          "verse": 1,
+          "sourceIds": [
+            "web",
+            "luther-job",
+            "luther-job-issues"
+          ]
+        },
+        {
+          "title": "Job answers and prays for his friends",
+          "text": "Job answers the Lord. The Lord rebukes the three friends. Job prays for them and receives renewed prosperity. The friends need the prayer of the man they accused. Job’s daughters receive an inheritance.",
+          "chapter": 42,
+          "verse": 1,
+          "sourceIds": [
+            "web",
+            "luther-job",
+            "luther-job-issues"
+          ]
+        }
+      ]
+    }
+  ],
+  "periods": [
+    {
+      "id": "part-0",
+      "label": "Job 1–14",
+      "start": 1,
+      "end": 14,
+      "description": "Chapter order"
+    },
+    {
+      "id": "part-1",
+      "label": "Job 15–28",
+      "start": 15,
+      "end": 28,
+      "description": "Chapter order"
+    },
+    {
+      "id": "part-2",
+      "label": "Job 29–42",
+      "start": 29,
+      "end": 42,
+      "description": "Chapter order"
+    }
+  ],
+  "chapterMaps": [
+    {
+      "chapter": 1,
+      "focusPlaceIds": [],
+      "placeIds": [],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Job’s home in Uz has no secure map location.",
+      "narrative": "Satan questions Job’s reasons for serving God. Four messengers report losses. Job mourns and worships.",
+      "limits": "Job’s home in Uz has no secure map location.",
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues",
+        "seow-job-excerpt",
+        "mcclellan-job"
+      ]
+    },
+    {
+      "chapter": 2,
+      "focusPlaceIds": [],
+      "placeIds": [],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Job’s home in Uz has no secure map location.",
+      "narrative": "Job suffers painful sores. His wife urges him to renounce God. Three friends sit silently with him.",
+      "limits": "Job’s home in Uz has no secure map location.",
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues",
+        "seow-job-excerpt",
+        "mcclellan-job"
+      ]
+    },
+    {
+      "chapter": 3,
+      "focusPlaceIds": [],
+      "placeIds": [],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Job’s home in Uz has no secure map location.",
+      "narrative": "Job curses the day of his birth. He asks why people in pain must keep living.",
+      "limits": "Job’s home in Uz has no secure map location.",
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues",
+        "seow-job-excerpt",
+        "mcclellan-job"
+      ]
+    },
+    {
+      "chapter": 4,
+      "focusPlaceIds": [],
+      "placeIds": [],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Job’s home in Uz has no secure map location.",
+      "narrative": "Eliphaz recalls Job’s help for others. He claims innocent people do not perish.",
+      "limits": "Job’s home in Uz has no secure map location.",
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues",
+        "seow-job-excerpt"
+      ]
+    },
+    {
+      "chapter": 5,
+      "focusPlaceIds": [],
+      "placeIds": [],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Job’s home in Uz has no secure map location.",
+      "narrative": "Eliphaz urges Job to seek God. He promises safety, children, and long life after correction.",
+      "limits": "Job’s home in Uz has no secure map location.",
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues",
+        "seow-job-excerpt"
+      ]
+    },
+    {
+      "chapter": 6,
+      "focusPlaceIds": [],
+      "placeIds": [],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Job’s home in Uz has no secure map location.",
+      "narrative": "Job describes pain beyond his strength. He compares his friends to streams that disappear when needed.",
+      "limits": "Job’s home in Uz has no secure map location.",
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues",
+        "seow-job-excerpt"
+      ]
+    },
+    {
+      "chapter": 7,
+      "focusPlaceIds": [],
+      "placeIds": [],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Job’s home in Uz has no secure map location.",
+      "narrative": "Job describes sleepless nights and painful skin. He asks God to leave him alone.",
+      "limits": "Job’s home in Uz has no secure map location.",
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues",
+        "seow-job-excerpt"
+      ]
+    },
+    {
+      "chapter": 8,
+      "focusPlaceIds": [],
+      "placeIds": [],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Job’s home in Uz has no secure map location.",
+      "narrative": "Bildad suggests Job’s children died for their sins. He promises renewed success if Job is upright.",
+      "limits": "Job’s home in Uz has no secure map location.",
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues",
+        "seow-job-excerpt"
+      ]
+    },
+    {
+      "chapter": 9,
+      "focusPlaceIds": [],
+      "placeIds": [],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Job’s home in Uz has no secure map location.",
+      "narrative": "Job describes God’s power over mountains, stars, and seas. He seeks someone to hear both sides.",
+      "limits": "Job’s home in Uz has no secure map location.",
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues",
+        "seow-job-excerpt"
+      ]
+    },
+    {
+      "chapter": 10,
+      "focusPlaceIds": [],
+      "placeIds": [],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Job’s home in Uz has no secure map location.",
+      "narrative": "Job recalls how God formed his body and gave him life. He asks why God now opposes him.",
+      "limits": "Job’s home in Uz has no secure map location.",
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues",
+        "seow-job-excerpt"
+      ]
+    },
+    {
+      "chapter": 11,
+      "focusPlaceIds": [],
+      "placeIds": [],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Job’s home in Uz has no secure map location.",
+      "narrative": "Zophar says Job deserves worse. He promises relief if Job removes wrongdoing from his home.",
+      "limits": "Job’s home in Uz has no secure map location.",
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues",
+        "seow-job-excerpt"
+      ]
+    },
+    {
+      "chapter": 12,
+      "focusPlaceIds": [],
+      "placeIds": [],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Job’s home in Uz has no secure map location.",
+      "narrative": "Job says he understands as much as his friends. He points to robbers who live safely.",
+      "limits": "Job’s home in Uz has no secure map location.",
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues",
+        "seow-job-excerpt"
+      ]
+    },
+    {
+      "chapter": 13,
+      "focusPlaceIds": [],
+      "placeIds": [],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Job’s home in Uz has no secure map location.",
+      "narrative": "Job accuses his friends of speaking falsely for God. He asks God to hear his case.",
+      "limits": "Job’s home in Uz has no secure map location.",
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues",
+        "seow-job-excerpt",
+        "net-job-13"
+      ]
+    },
+    {
+      "chapter": 14,
+      "focusPlaceIds": [],
+      "placeIds": [],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Job’s home in Uz has no secure map location.",
+      "narrative": "Job compares short human life with a tree that can grow again. He asks God to remember him.",
+      "limits": "Job’s home in Uz has no secure map location.",
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues",
+        "seow-job-excerpt"
+      ]
+    },
+    {
+      "chapter": 15,
+      "focusPlaceIds": [],
+      "placeIds": [],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Job’s home in Uz has no secure map location.",
+      "narrative": "Eliphaz says Job’s own words prove guilt. He describes the fear and loss awaiting wicked people.",
+      "limits": "Job’s home in Uz has no secure map location.",
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues",
+        "seow-job-excerpt"
+      ]
+    },
+    {
+      "chapter": 16,
+      "focusPlaceIds": [],
+      "placeIds": [],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Job’s home in Uz has no secure map location.",
+      "narrative": "Job says he would strengthen them if their places were reversed. He asks for a witness in heaven.",
+      "limits": "Job’s home in Uz has no secure map location.",
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues",
+        "seow-job-excerpt"
+      ]
+    },
+    {
+      "chapter": 17,
+      "focusPlaceIds": [],
+      "placeIds": [],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Job’s home in Uz has no secure map location.",
+      "narrative": "Job describes broken plans and public shame. He asks where his hope can go.",
+      "limits": "Job’s home in Uz has no secure map location.",
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues",
+        "seow-job-excerpt"
+      ]
+    },
+    {
+      "chapter": 18,
+      "focusPlaceIds": [],
+      "placeIds": [],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Job’s home in Uz has no secure map location.",
+      "narrative": "Bildad describes traps, disease, lost children, and a forgotten name. He calls this the wicked person’s fate.",
+      "limits": "Job’s home in Uz has no secure map location.",
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues",
+        "seow-job-excerpt"
+      ]
+    },
+    {
+      "chapter": 19,
+      "focusPlaceIds": [],
+      "placeIds": [],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Job’s home in Uz has no secure map location.",
+      "narrative": "Job describes relatives, servants, and friends turning away. He declares that his Redeemer lives.",
+      "limits": "Job’s home in Uz has no secure map location.",
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues",
+        "seow-job-excerpt"
+      ]
+    },
+    {
+      "chapter": 20,
+      "focusPlaceIds": [],
+      "placeIds": [],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Job’s home in Uz has no secure map location.",
+      "narrative": "Zophar describes stolen wealth turning into suffering. He says wicked people cannot keep their success.",
+      "limits": "Job’s home in Uz has no secure map location.",
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues",
+        "seow-job-excerpt"
+      ]
+    },
+    {
+      "chapter": 21,
+      "focusPlaceIds": [],
+      "placeIds": [],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Job’s home in Uz has no secure map location.",
+      "narrative": "Job describes wicked people growing old with safe homes and thriving children. He challenges his friends’ answers.",
+      "limits": "Job’s home in Uz has no secure map location.",
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues",
+        "seow-job-excerpt",
+        "mcclellan-job"
+      ]
+    },
+    {
+      "chapter": 22,
+      "focusPlaceIds": [],
+      "placeIds": [],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Job’s home in Uz has no secure map location.",
+      "narrative": "Eliphaz accuses Job of withholding food, clothing, and help. He urges Job to return to God.",
+      "limits": "Job’s home in Uz has no secure map location.",
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues"
+      ]
+    },
+    {
+      "chapter": 23,
+      "focusPlaceIds": [],
+      "placeIds": [],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Job’s home in Uz has no secure map location.",
+      "narrative": "Job wants to present his case to God. He cannot find him, but insists he kept his commands.",
+      "limits": "Job’s home in Uz has no secure map location.",
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues"
+      ]
+    },
+    {
+      "chapter": 24,
+      "focusPlaceIds": [],
+      "placeIds": [],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Job’s home in Uz has no secure map location.",
+      "narrative": "Job describes stolen fields, hungry workers, and people without shelter. He asks why justice seems delayed.",
+      "limits": "Job’s home in Uz has no secure map location.",
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues",
+        "mcclellan-job"
+      ]
+    },
+    {
+      "chapter": 25,
+      "focusPlaceIds": [],
+      "placeIds": [],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Job’s home in Uz has no secure map location.",
+      "narrative": "Bildad says God rules above and even the stars lack purity before him. He compares people to worms.",
+      "limits": "Job’s home in Uz has no secure map location.",
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues"
+      ]
+    },
+    {
+      "chapter": 26,
+      "focusPlaceIds": [],
+      "placeIds": [],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Job’s home in Uz has no secure map location.",
+      "narrative": "Job first asks how Bildad has helped him. He describes God’s power over sky, sea, and death.",
+      "limits": "Job’s home in Uz has no secure map location.",
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues"
+      ]
+    },
+    {
+      "chapter": 27,
+      "focusPlaceIds": [],
+      "placeIds": [],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Job’s home in Uz has no secure map location.",
+      "narrative": "Job refuses to admit the friends are right about him. He then describes the fate of oppressors.",
+      "limits": "Job’s home in Uz has no secure map location.",
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues"
+      ]
+    },
+    {
+      "chapter": 28,
+      "focusPlaceIds": [],
+      "placeIds": [],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Job’s home in Uz has no secure map location.",
+      "narrative": "A poem describes miners finding hidden metals. It asks where wisdom lies and says God knows its way.",
+      "limits": "Job’s home in Uz has no secure map location.",
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues"
+      ]
+    },
+    {
+      "chapter": 29,
+      "focusPlaceIds": [],
+      "placeIds": [],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Job’s home in Uz has no secure map location.",
+      "narrative": "Job recalls public honor and his children nearby. He remembers helping widows and people in need.",
+      "limits": "Job’s home in Uz has no secure map location.",
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues"
+      ]
+    },
+    {
+      "chapter": 30,
+      "focusPlaceIds": [],
+      "placeIds": [],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Job’s home in Uz has no secure map location.",
+      "narrative": "Job contrasts former respect with mockery and pain. He says his calls to God receive no answer.",
+      "limits": "Job’s home in Uz has no secure map location.",
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues"
+      ]
+    },
+    {
+      "chapter": 31,
+      "focusPlaceIds": [],
+      "placeIds": [],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Job’s home in Uz has no secure map location.",
+      "narrative": "Job lists wrongs he says he avoided. He describes fairness toward servants, generosity, and welcome for strangers.",
+      "limits": "Job’s home in Uz has no secure map location.",
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues"
+      ]
+    },
+    {
+      "chapter": 32,
+      "focusPlaceIds": [],
+      "placeIds": [],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Job’s home in Uz has no secure map location.",
+      "narrative": "Elihu becomes angry with Job and his three friends. He says youth does not prevent understanding.",
+      "limits": "Job’s home in Uz has no secure map location.",
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues"
+      ]
+    },
+    {
+      "chapter": 33,
+      "focusPlaceIds": [],
+      "placeIds": [],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Job’s home in Uz has no secure map location.",
+      "narrative": "Elihu says God speaks through dreams and pain. He describes rescue through a messenger and renewed health.",
+      "limits": "Job’s home in Uz has no secure map location.",
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues"
+      ]
+    },
+    {
+      "chapter": 34,
+      "focusPlaceIds": [],
+      "placeIds": [],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Job’s home in Uz has no secure map location.",
+      "narrative": "Elihu says God treats rich and poor without favor. He accuses Job of adding rebellion to sin.",
+      "limits": "Job’s home in Uz has no secure map location.",
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues"
+      ]
+    },
+    {
+      "chapter": 35,
+      "focusPlaceIds": [],
+      "placeIds": [],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Job’s home in Uz has no secure map location.",
+      "narrative": "Elihu says human choices affect other people. He claims pride prevents cries for help from being heard.",
+      "limits": "Job’s home in Uz has no secure map location.",
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues"
+      ]
+    },
+    {
+      "chapter": 36,
+      "focusPlaceIds": [],
+      "placeIds": [],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Job’s home in Uz has no secure map location.",
+      "narrative": "Elihu says suffering opens people’s ears to instruction. He describes rain, clouds, and lightning.",
+      "limits": "Job’s home in Uz has no secure map location.",
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues"
+      ]
+    },
+    {
+      "chapter": 37,
+      "focusPlaceIds": [],
+      "placeIds": [],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Job’s home in Uz has no secure map location.",
+      "narrative": "Elihu describes thunder, snow, and changing weather. He asks whether Job understands their workings.",
+      "limits": "Job’s home in Uz has no secure map location.",
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues"
+      ]
+    },
+    {
+      "chapter": 38,
+      "focusPlaceIds": [],
+      "placeIds": [],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Job’s home in Uz has no secure map location.",
+      "narrative": "The Lord questions Job about earth, sea, dawn, weather, stars, and animals.",
+      "limits": "Job’s home in Uz has no secure map location.",
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues"
+      ]
+    },
+    {
+      "chapter": 39,
+      "focusPlaceIds": [],
+      "placeIds": [],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Job’s home in Uz has no secure map location.",
+      "narrative": "The Lord asks about goats, wild donkeys, oxen, ostriches, horses, hawks, and eagles.",
+      "limits": "Job’s home in Uz has no secure map location.",
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues"
+      ]
+    },
+    {
+      "chapter": 40,
+      "focusPlaceIds": [
+        "jordan"
+      ],
+      "placeIds": [
+        "jordan"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "The poem names the Jordan. This marker does not locate Job’s home.",
+      "narrative": "Job places his hand over his mouth. The Lord questions his judgment and describes behemoth’s strength.",
+      "limits": "The poem names the Jordan. This marker does not locate Job’s home.",
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues"
+      ]
+    },
+    {
+      "chapter": 41,
+      "focusPlaceIds": [],
+      "placeIds": [],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Job’s home in Uz has no secure map location.",
+      "narrative": "The Lord describes Leviathan’s scales, strength, and frightening breath. Human tools cannot subdue it.",
+      "limits": "Job’s home in Uz has no secure map location.",
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues"
+      ]
+    },
+    {
+      "chapter": 42,
+      "focusPlaceIds": [],
+      "placeIds": [],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Job’s home in Uz has no secure map location.",
+      "narrative": "Job answers the Lord. The Lord rebukes the three friends. Job prays for them and receives renewed prosperity.",
+      "limits": "Job’s home in Uz has no secure map location.",
+      "sourceIds": [
+        "web",
+        "luther-job",
+        "luther-job-issues"
+      ]
+    }
+  ],
+  "textRoutes": [],
+  "narrativeRegions": [],
+  "chapterStudies": []
+}
