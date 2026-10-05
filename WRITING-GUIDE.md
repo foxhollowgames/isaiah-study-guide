@@ -35,6 +35,14 @@ Use “dictionary form” to explain the base form of a word. Explain that a wor
 
 ## Maintain and check
 
+For each Bible book, summaries describe what happens. Meaning notes explain why specific actions matter. Do not repeat the summary.
+
+Tie each study question to the selected chapter. Name the person, action, promise, or conflict. Keep Church lesson attribution beside its actual teaching. Add a separate, passage-specific question. Do not attribute an original question to the lesson.
+
+Identify the speaker when describing a disputed claim. Keep uncertainty that changes the passage's meaning. Put general review limits in Source details.
+
+Save book edits in source files or rebuild overlays before rebuilding reader data. Preserve scripture, source links, people links, map data, and publication status. Run `npm run check:bible` and the relevant book checks. Read the changed passages after rebuilding. Run `npm run check` and `node --check dist/app.js` when shared reader files change.
+
 Interface copy lives in `dist/index.html` and `dist/app.js`. Study content comes from `scripts/create-content.mjs`, `scripts/full-isaiah.mjs`, `scripts/come-follow-me.mjs`, and `scripts/prepare-words.py`. Update the source files, then rebuild `dist/data/content.json`. Run the content generator before the word-study generator, because the content generator starts with an empty word list.
 
 Run `npm run check` and `node --check dist/app.js`. Check changed messages in both Map and Read views where applicable. These checks validate app data and behavior; they do not establish STE100 compliance.
