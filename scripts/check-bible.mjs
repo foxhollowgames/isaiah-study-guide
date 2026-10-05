@@ -43,6 +43,7 @@ const deuteronomyCounts=[46,37,29,49,33,25,26,20,29,22,32,32,18,29,23,22,20,22,2
 const joshuaCounts=[18,24,17,24,15,27,26,35,27,43,23,24,33,15,63,10,18,28,51,9,45,34,16,33];
 const judgesCounts=[36,23,31,24,31,40,25,35,57,18,40,15,25,20,20,31,13,31,30,48,25];
 const ruthCounts=[22,23,18,22];
+const samuelCounts=[28,36,21,22,12,21,17,22,27,27,15,25,23,52,35,23,58,30,24,42,15,23,29,22,44,25,12,25,11,31,13];
 const numbersCounts=[54,34,51,49,31,27,89,26,23,36,35,16,33,45,41,50,13,32,22,29,35,41,30,25,18,65,23,31,40,16,54,42,56,29,34,13];
 const leviticusCounts=[17,16,17,35,19,30,38,36,24,20,47,8,59,57,33,34,16,30,37,27,24,33,44,23,55,46,34];
 for(const book of directory.filter(b=>b.status==='ready'&&!['genesis','isaiah'].includes(b.id))){
@@ -58,6 +59,7 @@ for(const book of directory.filter(b=>b.status==='ready'&&!['genesis','isaiah'].
     if(book.id==='joshua')assert.equal(text.length,joshuaCounts[c.chapter-1]);
     if(book.id==='judges')assert.equal(text.length,judgesCounts[c.chapter-1]);
     if(book.id==='ruth')assert.equal(text.length,ruthCounts[c.chapter-1]);
+    if(book.id==='1-samuel')assert.equal(text.length,samuelCounts[c.chapter-1]);
     text.forEach((v,i)=>{assert.equal(v.verse,i+1);assert(v.text&&!/\ufffd|\bundefined\b|\b(?:Exodus|Genesis)\s*</.test(v.text));});verses+=text.length;
     assert(c.summary&&c.meaning&&c.lds?.text&&c.historicalNote);
     for(const id of c.sourceIds)assert.equal(sources.get(id)?.perspective,'historical');
@@ -73,6 +75,7 @@ for(const book of directory.filter(b=>b.status==='ready'&&!['genesis','isaiah'].
   if(book.id==='joshua')assert.equal(verses,658);
   if(book.id==='judges')assert.equal(verses,618);
   if(book.id==='ruth')assert.equal(verses,85);
+  if(book.id==='1-samuel')assert.equal(verses,810);
   console.log(`${content.name} checks passed: ${content.chapterCount} chapters, ${verses} verses, ${people.size} portraits.`);
 }
 

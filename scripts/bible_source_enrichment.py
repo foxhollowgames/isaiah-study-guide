@@ -7,6 +7,9 @@ DATE='2026-10-05'
 CFM='https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/'
 def span(a,z):return list(range(a,z+1))
 LESSONS=[
+ ('1-samuel',23,span(1,7),'Ruth; 1 Samuel 1–7 · Samuel coverage','The lesson studies prayer in hardship, Samuel’s call, and faithful conduct beyond possession of the ark.'),
+ ('1-samuel',24,[8,9,10,13,15,16],'1 Samuel 8–10; 13; 15–16','The lesson studies Christ as King, calls to service, obedience, and judging character beyond appearance.'),
+ ('1-samuel',25,[17,18,24,25,26],'1 Samuel 17–18; 24–26 · Samuel coverage','The lesson studies courage, friendship, self-control, and forgiveness. It compares Abigail’s intervention with Jesus Christ.'),
  ('ruth',23,[1,2,3,4],'Ruth; 1 Samuel 1–7 · Ruth coverage','The lesson studies faith through loss, practical kindness, and family redemption. It compares Ruth and Boaz with Jesus Christ.'),
  ('judges',22,[2,3,4,6,7,8,13,14,15,16],'Judges 2–4; 6–8; 13–16','The lesson studies repeated repentance, Deborah’s influence, trust through Gideon’s experience, and Samson’s covenant conduct.'),
  ('joshua',21,span(1,8)+[23,24],'Joshua 1–8; 23–24','The lesson studies courage, scripture study, Rahab’s faith and actions, remembrance, and choosing to serve God.'),
@@ -29,6 +32,7 @@ LESSONS=[
  ('numbers',19,[11,12,13,14,20,21,22,23,24,27],'Numbers 11–14; 20–24; 27','The lesson studies gratitude, meekness, trust, and resistance to pressure. It connects the bronze serpent with faith in Christ.'),
 ]
 WIKI={
+ '1-samuel':([1,8,16,31],'The Samuel books connect the prophet’s childhood and the ark account with Saul’s kingship and David’s rise. This background concerns both books.'),
  'ruth':([1,4],'Ruth follows a Moabite widow’s return with Naomi to Bethlehem. The household account ends with a genealogy connected to David.'),
  'judges':([1,2,17,21],'Judges combines local deliverance accounts with a repeated crisis pattern. Its closing episodes concern a shrine, migration, and conflict within Israel.'),
  'joshua':([1,13,24],'Joshua moves from crossing and campaigns to land distribution and final covenant addresses. This overview supplies the book’s broad structure.'),
