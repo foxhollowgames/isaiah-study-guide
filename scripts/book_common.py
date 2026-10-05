@@ -16,6 +16,8 @@ def scripture(slug,code,count):
         raw=re.sub(r'<ul class=[\'"]tnav[\'"]>.*?</ul>','',raw,flags=re.S)
         if code=='PSA':
             raw=re.sub(r"<div class=['\"]d['\"][^>]*>.*?</div>",'',raw,flags=re.S)
+        if code=='SNG':
+            raw=re.sub(r"<div class=['\"]sp['\"][^>]*>.*?</div>",'',raw,flags=re.S)
         matches=list(re.finditer(r'<span class="verse" id="V(\d+)">.*?</span>',raw,re.S));verses=[]
         for i,m in enumerate(matches):
             text=raw[m.end():matches[i+1].start() if i+1<len(matches) else len(raw)]

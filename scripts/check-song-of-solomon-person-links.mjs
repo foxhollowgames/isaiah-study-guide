@@ -1,0 +1,32 @@
+import assert from 'node:assert/strict';
+import {readFile} from 'node:fs/promises';
+import vm from 'node:vm';
+const root=new URL('../dist/',import.meta.url);
+const app=await readFile(new URL('book-song-of-solomon-app.js',root),'utf8');
+const profiles=await readFile(new URL('book-song-of-solomon-portraits.js',root),'utf8');
+const people=JSON.parse(profiles.match(/export const people = (.*);/)[1]);
+const book=JSON.parse(await readFile(new URL('data/books/song-of-solomon.json',root),'utf8'));
+const content=JSON.parse(await readFile(new URL('data/books/song-of-solomon-native-content.json',root),'utf8'));
+const context=vm.createContext({people,state:{chapter:1},entityLinkCache:{chapter:null,terms:[]},data:{places:content.places,regions:[],campaigns:[],events:[],ancientRoads:[],words:[]},mapDisplayName:s=>s,esc:s=>String(s).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('"','&quot;')});
+vm.runInContext(app.slice(app.indexOf('function entityLinkTerms('),app.indexOf('function linkedPersonProfileHtml(')),context);
+const reachable=new Set();
+const verseHtml=(c,v)=>{context.state.chapter=c;return context.linkedEntityHtml(book.scripture[c].find(x=>x.verse===v).text,{verse:v});};
+for(const c of book.chapters){
+ context.state.chapter=c.chapter;
+ const text=context.linkedEntityHtml(c.summary+' '+c.meaning)+book.scripture[c.chapter].map(v=>verseHtml(c.chapter,v.verse)).join('');
+ for(const m of text.matchAll(/data-person-id="([^"]+)"/g))reachable.add(m[1]);
+}
+assert.deepEqual(book.people.filter(p=>!reachable.has(p.id)).map(p=>p.id),[],'Each profile needs a reader link');
+assert.equal(Object.values(book.scripture).flat().length,117);
+assert(book.chapters.every(c=>!('year' in c)&&c.route.length===0));
+const original=JSON.parse(await readFile(new URL('../scripts/song-of-solomon-scripture-review.json',root),'utf8'));
+assert.deepEqual(book.scripture,original);
+assert(verseHtml(3,11).includes('data-person-id="solomon-mother-song"'));
+assert(!verseHtml(8,2).includes('data-person-id="solomon-mother-song"'));
+assert(verseHtml(5,7).includes('data-person-id="watchmen-song"'));
+assert(!verseHtml(5,7).includes('data-person-id="solomon-guards-song"'));
+assert(!verseHtml(5,1).includes('data-person-id="lover-song"'),'Plural beloved does not identify the lover');
+assert(verseHtml(5,9).includes('another beloved'),'An alternative lover remains an unlinked comparison');
+assert(book.chapters.slice(1).every(c=>c.lds.sourceIds.length===0),'Do not claim unread Church chapter lessons');
+assert(book.scripture['5'].find(v=>v.verse===7).text.includes('They beat me. They bruised me.'));
+console.log('Song of Solomon passed: 11 reachable profiles, 117 preserved verses, distinct mothers and guards, and no invented journeys.');

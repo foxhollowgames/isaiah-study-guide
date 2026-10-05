@@ -9,7 +9,7 @@ for(const book of directory.filter(b=>b.status==='ready'&&b.id!=='isaiah')){
   for(const text of copy){
     assert(!/Original study reflection|not independently verified|The guide does not|portrait does not|not a modern/i.test(text),`${book.id}: repeated process note`);
     assert(!/\b(?:chronolog\w*|theolog\w*|narrat\w*|genealog\w*|dynast\w*|administrati\w*|imperial|communal|contested|kinship|allocation|allegiance|proclamation|recrui\w*|precedes|commission)\b/i.test(text),`${book.id}: technical reader copy: ${text}`);
-    for(const sentence of text.split(/(?<=[.!?])\s+/)){
+    for(const sentence of text.split(/(?<=[.!?])(?:[”"’']\s+|\s+)/)){
       assert((sentence.match(/[\w’'-]+/g)||[]).length<=15,`${book.id}: long sentence: ${sentence}`);
     }
   }

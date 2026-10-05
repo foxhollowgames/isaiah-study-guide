@@ -29,11 +29,12 @@ Book pages use `/book.html?book=<slug>`.
 - Psalms: all 150 psalms, 2,461 verses, 39 selected profiles, and 15 reference places.
 - Proverbs: all 31 chapters, 915 verses, 13 profiles, and one cloth-origin map reference.
 - Ecclesiastes: all 12 chapters, 222 verses, nine profiles, and Jerusalem as the opening royal setting.
-- Other 44 books: directory entries and clear planned pages. They have no study content yet.
+- Song of Solomon: all 8 chapters, 117 verses, eleven profiles, and eleven map references.
+- Other 43 books: directory entries and clear planned pages. They have no study content yet.
 
 ## Next book
 
-Song of Solomon is next in canonical order. Complete and verify one book before starting another.
+Jeremiah is next in canonical order. Complete and verify one book before starting another.
 Do not label a book ready until its reading text, chapter studies, sources, portraits, and maps pass review.
 Use the existing Isaiah guide as the detail standard. Genesis currently has selected major people and chapter-level events.
 Future enrichment can add finer passage divisions, additional people, language notes, and more specific citations.

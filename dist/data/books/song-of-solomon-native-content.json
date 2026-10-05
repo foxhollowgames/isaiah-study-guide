@@ -1,0 +1,959 @@
+{
+  "sources": [
+    {
+      "id": "web",
+      "title": "Song of Solomon · World English Bible",
+      "perspective": "historical",
+      "category": "Scripture",
+      "url": "https://ebible.org/engwebp/SNG01.htm",
+      "summary": "The reading text supplies all eight chapters of love poems.",
+      "limits": "Publisher speaker headings are removed from verses. Those headings assign voices that the Hebrew text does not explicitly name. Scenes and comparisons do not establish a continuous journey.",
+      "type": "Scripture",
+      "limitations": "Publisher speaker headings are removed from verses. Those headings assign voices that the Hebrew text does not explicitly name. Scenes and comparisons do not establish a continuous journey.",
+      "license": "Public domain"
+    },
+    {
+      "id": "atlas-canaan",
+      "title": "Bible Maps: Canaan in Old Testament Times",
+      "perspective": "historical",
+      "category": "Geography",
+      "url": "https://www.churchofjesuschrist.org/study/scriptures/bible-maps/map-10?lang=eng",
+      "summary": "The atlas names places and regions used in the poems.",
+      "limits": "Coordinates are approximate display points. Regional markers do not establish the lovers’ movements.",
+      "type": "Geography",
+      "limitations": "Coordinates are approximate display points. Regional markers do not establish the lovers’ movements.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "fishbane-song-excerpt",
+      "title": "EXCERPT: Song of Songs · Michael Fishbane",
+      "url": "https://unpblog.com/2015/02/20/excerpt-song-of-songs/",
+      "summary": "Fishbane explains how lovers use plants, animals, cities, and towers to describe each other.",
+      "category": "Scholarly study",
+      "perspective": "historical",
+      "limits": "Fishbane distinguishes human love in the poems from later readings about God and Israel. His account of early religious interpretation includes proposals, not established events. The full commentary was not reviewed.",
+      "author": "Michael Fishbane",
+      "year": 2015,
+      "publisher": "University of Nebraska Press · The Jewish Publication Society",
+      "chapterCoverage": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "reviewed": {
+        "date": "2026-10-05",
+        "scope": "Complete publisher-posted introductory excerpt reviewed. Its discussion supplies general context, not verse-by-verse commentary."
+      },
+      "type": "Scholarly study",
+      "limitations": "Fishbane distinguishes human love in the poems from later readings about God and Israel. His account of early religious interpretation includes proposals, not established events. The full commentary was not reviewed.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "openbible-song-geo",
+      "title": "Places in Song of Solomon · OpenBible.info",
+      "url": "https://www.openbible.info/geo/preview/song",
+      "summary": "The geography index lists named references and possible ancient locations.",
+      "category": "Geography",
+      "perspective": "historical",
+      "limits": "Mahanaim, Heshbon, and other ancient places have competing identifications. Amana, Bether, Baal Hamon, and Bathrabbim have no separate secure markers here. Kedar names a people whose tents appear in a comparison. Place references are not evidence of travel.",
+      "author": "OpenBible.info",
+      "year": 2026,
+      "publisher": "OpenBible.info",
+      "chapterCoverage": [],
+      "reviewed": {
+        "date": "2026-10-05",
+        "scope": "Complete book geography index, location alternatives, and license footer reviewed. Coordinates remain approximate project display points."
+      },
+      "type": "Geography",
+      "limitations": "Mahanaim, Heshbon, and other ancient places have competing identifications. Amana, Bether, Baal Hamon, and Bathrabbim have no separate secure markers here. Kedar names a people whose tents appear in a comparison. Place references are not evidence of travel.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "kugler-hartin-song-record",
+      "title": "An Introduction to the Bible · publisher record",
+      "url": "https://www.eerdmans.com/9781467441407/an-introduction-to-the-bible/",
+      "summary": "Eerdmans verifies the authors and publication of the introduction cited by Wikipedia.",
+      "category": "Scholarly study",
+      "perspective": "historical",
+      "limits": "Bibliographic verification only. No chapter interpretation is attributed to unread book text.",
+      "author": "Robert A. Kugler · Patrick Hartin",
+      "year": 2009,
+      "publisher": "Eerdmans",
+      "chapterCoverage": [],
+      "reviewed": {
+        "date": "2026-10-05",
+        "scope": "Publisher description, author names, and publication record reviewed. The book text was not reviewed."
+      },
+      "type": "Scholarly study",
+      "limitations": "Bibliographic verification only. No chapter interpretation is attributed to unread book text.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "wiki-song",
+      "title": "Song of Songs · Wikipedia",
+      "url": "https://en.wikipedia.org/w/index.php?title=Song_of_Songs&oldid=1374761180",
+      "summary": "The overview identifies love poems and describes disputed authorship and structure.",
+      "category": "Wikipedia overview",
+      "perspective": "historical",
+      "limits": "Overview and bibliography discovery. Reader notes use scripture and the reviewed Fishbane excerpt.",
+      "author": "Wikipedia contributors",
+      "year": 2026,
+      "publisher": "Wikipedia",
+      "chapterCoverage": [],
+      "reviewed": {
+        "date": "2026-10-05",
+        "scope": "Opening, structure, bibliography, revision footer, and license reviewed. Kugler and Hartin’s cited book checked against its publisher."
+      },
+      "revisionId": 1374761180,
+      "revisionUrl": "https://en.wikipedia.org/w/index.php?title=Song_of_Songs&oldid=1374761180",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "citedSourceIds": [
+        "kugler-hartin-song-record"
+      ],
+      "type": "Wikipedia overview",
+      "limitations": "Overview and bibliography discovery. Reader notes use scripture and the reviewed Fishbane excerpt."
+    },
+    {
+      "id": "lds-song-dictionary",
+      "title": "Song of Solomon · Bible Dictionary",
+      "url": "https://www.churchofjesuschrist.org/study/scriptures/bd/song-of-solomon?lang=eng",
+      "summary": "The entry questions Solomon’s authorship and reports the Joseph Smith Translation’s judgment.",
+      "category": "LDS Bible Dictionary",
+      "perspective": "lds",
+      "limits": "The entry quotes the JST: “the Songs of Solomon are not inspired writings.” This is Church guidance about the book, not chapter commentary. Questions in other chapters are original. No Come, Follow Me chapter lesson is claimed.",
+      "author": "The Church of Jesus Christ of Latter-day Saints",
+      "year": null,
+      "publisher": "The Church of Jesus Christ of Latter-day Saints",
+      "chapterCoverage": [
+        1
+      ],
+      "reviewed": {
+        "date": "2026-10-05",
+        "scope": "Complete two-paragraph Bible Dictionary entry reviewed. Its linked JST entry was not separately reviewed."
+      },
+      "type": "LDS Bible Dictionary",
+      "limitations": "The entry quotes the JST: “the Songs of Solomon are not inspired writings.” This is Church guidance about the book, not chapter commentary. Questions in other chapters are original. No Come, Follow Me chapter lesson is claimed.",
+      "license": "Linked source. Original guide summaries."
+    }
+  ],
+  "passages": [
+    {
+      "id": "song-of-solomon-1",
+      "chapter": 1,
+      "start": 1,
+      "end": 17,
+      "title": "The lovers speak and exchange praise",
+      "summary": "The woman asks to meet her lover. She describes vineyard work that her brothers forced upon her. She calls herself lovely despite the sun darkening her skin. She answers those who stare instead of accepting their judgment.",
+      "year": null,
+      "dateLabel": "Poem order",
+      "uncertainty": "The map locates named comparisons and groups. It does not trace the lovers’ movements.",
+      "placeIds": [
+        "jerusalem",
+        "en-gedi"
+      ],
+      "sourceIds": [
+        "web",
+        "fishbane-song-excerpt"
+      ],
+      "lds": {
+        "text": "The Church’s Bible Dictionary reports the JST: “the Songs of Solomon are not inspired writings.” How does the woman answer those who stare at her skin?",
+        "sourceIds": [
+          "lds-song-dictionary"
+        ]
+      }
+    },
+    {
+      "id": "song-of-solomon-2",
+      "chapter": 2,
+      "start": 1,
+      "end": 17,
+      "title": "Spring brings an invitation",
+      "summary": "The lover calls the woman outside as spring arrives. She warns against awakening love before it desires. Flowers and ripening fruit express the pleasure of their meeting. Her warning places a limit beside that desire.",
+      "year": null,
+      "dateLabel": "Poem order",
+      "uncertainty": "The map locates named comparisons and groups. It does not trace the lovers’ movements.",
+      "placeIds": [
+        "jerusalem",
+        "sharon"
+      ],
+      "sourceIds": [
+        "web",
+        "fishbane-song-excerpt"
+      ],
+      "lds": {
+        "text": "Why does the woman place a warning about love beside spring’s invitation?",
+        "sourceIds": []
+      }
+    },
+    {
+      "id": "song-of-solomon-3",
+      "chapter": 3,
+      "start": 1,
+      "end": 11,
+      "title": "A night search and a royal carriage",
+      "summary": "The woman searches the streets and finds her lover. Another scene shows Solomon’s guarded wedding carriage. His mother gives him a wedding crown. Holding her lover answers the fear of losing him. The royal scene adds public wealth and protection.",
+      "year": null,
+      "dateLabel": "Poem order",
+      "uncertainty": "The map locates named comparisons and groups. It does not trace the lovers’ movements.",
+      "placeIds": [
+        "jerusalem",
+        "lebanon"
+      ],
+      "sourceIds": [
+        "web",
+        "fishbane-song-excerpt"
+      ],
+      "lds": {
+        "text": "How does the woman’s night search differ from Solomon’s guarded procession?",
+        "sourceIds": []
+      }
+    },
+    {
+      "id": "song-of-solomon-4",
+      "chapter": 4,
+      "start": 1,
+      "end": 16,
+      "title": "Praise through animals, towers, and gardens",
+      "summary": "The lover praises the woman through many comparisons. She invites him into the garden. The garden describes the woman and their desire. These comparisons express praise rather than describe her literally.",
+      "year": null,
+      "dateLabel": "Poem order",
+      "uncertainty": "The map locates named comparisons and groups. It does not trace the lovers’ movements.",
+      "placeIds": [
+        "gilead",
+        "lebanon",
+        "hermon"
+      ],
+      "sourceIds": [
+        "web",
+        "fishbane-song-excerpt"
+      ],
+      "lds": {
+        "text": "What does the woman’s garden invitation add to the lover’s praise?",
+        "sourceIds": []
+      }
+    },
+    {
+      "id": "song-of-solomon-5",
+      "chapter": 5,
+      "start": 1,
+      "end": 16,
+      "title": "A missed visit and a harmful search",
+      "summary": "The woman opens too late for her lover. Watchmen beat her and take her cloak during her search. Her search brings harm rather than help from city guards. She still asks the women to find her friend.",
+      "year": null,
+      "dateLabel": "Poem order",
+      "uncertainty": "The map locates named comparisons and groups. It does not trace the lovers’ movements.",
+      "placeIds": [
+        "jerusalem",
+        "lebanon"
+      ],
+      "sourceIds": [
+        "web",
+        "fishbane-song-excerpt"
+      ],
+      "lds": {
+        "text": "How do the watchmen’s actions change the woman’s search from chapter 3?",
+        "sourceIds": []
+      }
+    },
+    {
+      "id": "song-of-solomon-6",
+      "chapter": 6,
+      "start": 1,
+      "end": 13,
+      "title": "The women offer help",
+      "summary": "The women offer to seek the lover. He praises the woman above queens and other women. The women’s help answers her earlier request. His praise presents her as someone who cannot be replaced.",
+      "year": null,
+      "dateLabel": "Poem order",
+      "uncertainty": "The map locates named comparisons and groups. It does not trace the lovers’ movements.",
+      "placeIds": [
+        "jerusalem",
+        "gilead",
+        "tirzah",
+        "mahanaim"
+      ],
+      "sourceIds": [
+        "web",
+        "fishbane-song-excerpt"
+      ],
+      "lds": {
+        "text": "How does the women’s offer answer the request she made in chapter 5?",
+        "sourceIds": []
+      }
+    },
+    {
+      "id": "song-of-solomon-7",
+      "chapter": 7,
+      "start": 1,
+      "end": 13,
+      "title": "The woman invites her lover outside",
+      "summary": "The lover praises the woman’s body through comparisons. She invites him to fields, villages, and vineyards. The woman states her desire and chooses a meeting place. Her voice directs their time together.",
+      "year": null,
+      "dateLabel": "Poem order",
+      "uncertainty": "The map locates named comparisons and groups. It does not trace the lovers’ movements.",
+      "placeIds": [
+        "damascus",
+        "lebanon",
+        "carmel",
+        "heshbon"
+      ],
+      "sourceIds": [
+        "web",
+        "fishbane-song-excerpt"
+      ],
+      "lds": {
+        "text": "How does the woman take action after hearing the lover’s praise?",
+        "sourceIds": []
+      }
+    },
+    {
+      "id": "song-of-solomon-8",
+      "chapter": 8,
+      "start": 1,
+      "end": 14,
+      "title": "Love, family control, and a woman’s answer",
+      "summary": "The poem compares love with death and fire. Brothers discuss their sister, and a woman answers for herself. Solomon rents out a vineyard. Wealth cannot buy the love described here. Her answer presents her own strength beside her brothers’ plans.",
+      "year": null,
+      "dateLabel": "Poem order",
+      "uncertainty": "The map locates named comparisons and groups. It does not trace the lovers’ movements.",
+      "placeIds": [
+        "jerusalem"
+      ],
+      "sourceIds": [
+        "web",
+        "fishbane-song-excerpt"
+      ],
+      "lds": {
+        "text": "How does the woman’s answer differ from her brothers’ plans for her?",
+        "sourceIds": []
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "song-of-solomon-1",
+      "chapter": 1,
+      "verse": 1,
+      "eventOrder": 1,
+      "title": "The lovers speak and exchange praise",
+      "summary": "The woman asks to meet her lover. She describes vineyard work that her brothers forced upon her.",
+      "detail": "She calls herself lovely despite the sun darkening her skin. She answers those who stare instead of accepting their judgment.",
+      "dateLabel": "Poem order",
+      "uncertainty": "The map locates named comparisons and groups. It does not trace the lovers’ movements.",
+      "sourceIds": [
+        "web",
+        "fishbane-song-excerpt"
+      ],
+      "placeIds": [
+        "jerusalem",
+        "en-gedi"
+      ],
+      "lds": {
+        "text": "The Church’s Bible Dictionary reports the JST: “the Songs of Solomon are not inspired writings.” How does the woman answer those who stare at her skin?",
+        "sourceIds": [
+          "lds-song-dictionary"
+        ]
+      }
+    },
+    {
+      "id": "song-of-solomon-2",
+      "chapter": 2,
+      "verse": 1,
+      "eventOrder": 2,
+      "title": "Spring brings an invitation",
+      "summary": "The lover calls the woman outside as spring arrives. She warns against awakening love before it desires.",
+      "detail": "Flowers and ripening fruit express the pleasure of their meeting. Her warning places a limit beside that desire.",
+      "dateLabel": "Poem order",
+      "uncertainty": "The map locates named comparisons and groups. It does not trace the lovers’ movements.",
+      "sourceIds": [
+        "web",
+        "fishbane-song-excerpt"
+      ],
+      "placeIds": [
+        "jerusalem",
+        "sharon"
+      ],
+      "lds": {
+        "text": "Why does the woman place a warning about love beside spring’s invitation?",
+        "sourceIds": []
+      }
+    },
+    {
+      "id": "song-of-solomon-3",
+      "chapter": 3,
+      "verse": 1,
+      "eventOrder": 3,
+      "title": "A night search and a royal carriage",
+      "summary": "The woman searches the streets and finds her lover. Another scene shows Solomon’s guarded wedding carriage. His mother gives him a wedding crown.",
+      "detail": "Holding her lover answers the fear of losing him. The royal scene adds public wealth and protection.",
+      "dateLabel": "Poem order",
+      "uncertainty": "The map locates named comparisons and groups. It does not trace the lovers’ movements.",
+      "sourceIds": [
+        "web",
+        "fishbane-song-excerpt"
+      ],
+      "placeIds": [
+        "jerusalem",
+        "lebanon"
+      ],
+      "lds": {
+        "text": "How does the woman’s night search differ from Solomon’s guarded procession?",
+        "sourceIds": []
+      }
+    },
+    {
+      "id": "song-of-solomon-4",
+      "chapter": 4,
+      "verse": 1,
+      "eventOrder": 4,
+      "title": "Praise through animals, towers, and gardens",
+      "summary": "The lover praises the woman through many comparisons. She invites him into the garden.",
+      "detail": "The garden describes the woman and their desire. These comparisons express praise rather than describe her literally.",
+      "dateLabel": "Poem order",
+      "uncertainty": "The map locates named comparisons and groups. It does not trace the lovers’ movements.",
+      "sourceIds": [
+        "web",
+        "fishbane-song-excerpt"
+      ],
+      "placeIds": [
+        "gilead",
+        "lebanon",
+        "hermon"
+      ],
+      "lds": {
+        "text": "What does the woman’s garden invitation add to the lover’s praise?",
+        "sourceIds": []
+      }
+    },
+    {
+      "id": "song-of-solomon-5",
+      "chapter": 5,
+      "verse": 1,
+      "eventOrder": 5,
+      "title": "A missed visit and a harmful search",
+      "summary": "The woman opens too late for her lover. Watchmen beat her and take her cloak during her search.",
+      "detail": "Her search brings harm rather than help from city guards. She still asks the women to find her friend.",
+      "dateLabel": "Poem order",
+      "uncertainty": "The map locates named comparisons and groups. It does not trace the lovers’ movements.",
+      "sourceIds": [
+        "web",
+        "fishbane-song-excerpt"
+      ],
+      "placeIds": [
+        "jerusalem",
+        "lebanon"
+      ],
+      "lds": {
+        "text": "How do the watchmen’s actions change the woman’s search from chapter 3?",
+        "sourceIds": []
+      }
+    },
+    {
+      "id": "song-of-solomon-6",
+      "chapter": 6,
+      "verse": 1,
+      "eventOrder": 6,
+      "title": "The women offer help",
+      "summary": "The women offer to seek the lover. He praises the woman above queens and other women.",
+      "detail": "The women’s help answers her earlier request. His praise presents her as someone who cannot be replaced.",
+      "dateLabel": "Poem order",
+      "uncertainty": "The map locates named comparisons and groups. It does not trace the lovers’ movements.",
+      "sourceIds": [
+        "web",
+        "fishbane-song-excerpt"
+      ],
+      "placeIds": [
+        "jerusalem",
+        "gilead",
+        "tirzah",
+        "mahanaim"
+      ],
+      "lds": {
+        "text": "How does the women’s offer answer the request she made in chapter 5?",
+        "sourceIds": []
+      }
+    },
+    {
+      "id": "song-of-solomon-7",
+      "chapter": 7,
+      "verse": 1,
+      "eventOrder": 7,
+      "title": "The woman invites her lover outside",
+      "summary": "The lover praises the woman’s body through comparisons. She invites him to fields, villages, and vineyards.",
+      "detail": "The woman states her desire and chooses a meeting place. Her voice directs their time together.",
+      "dateLabel": "Poem order",
+      "uncertainty": "The map locates named comparisons and groups. It does not trace the lovers’ movements.",
+      "sourceIds": [
+        "web",
+        "fishbane-song-excerpt"
+      ],
+      "placeIds": [
+        "damascus",
+        "lebanon",
+        "carmel",
+        "heshbon"
+      ],
+      "lds": {
+        "text": "How does the woman take action after hearing the lover’s praise?",
+        "sourceIds": []
+      }
+    },
+    {
+      "id": "song-of-solomon-8",
+      "chapter": 8,
+      "verse": 1,
+      "eventOrder": 8,
+      "title": "Love, family control, and a woman’s answer",
+      "summary": "The poem compares love with death and fire. Brothers discuss their sister, and a woman answers for herself. Solomon rents out a vineyard.",
+      "detail": "Wealth cannot buy the love described here. Her answer presents her own strength beside her brothers’ plans.",
+      "dateLabel": "Poem order",
+      "uncertainty": "The map locates named comparisons and groups. It does not trace the lovers’ movements.",
+      "sourceIds": [
+        "web",
+        "fishbane-song-excerpt"
+      ],
+      "placeIds": [
+        "jerusalem"
+      ],
+      "lds": {
+        "text": "How does the woman’s answer differ from her brothers’ plans for her?",
+        "sourceIds": []
+      }
+    }
+  ],
+  "places": [
+    {
+      "id": "jerusalem",
+      "name": "Jerusalem",
+      "lat": 31.778,
+      "lng": 35.235,
+      "summary": "The poems name Jerusalem’s women and compare beauty with the city.",
+      "limits": "This marker locates a named reference in the poem. It does not establish a visit by the lovers.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan"
+      ],
+      "detail": "The poems name Jerusalem’s women and compare beauty with the city.",
+      "uncertainty": "This marker locates a named reference in the poem. It does not establish a visit by the lovers.",
+      "chapterLocation": true
+    },
+    {
+      "id": "en-gedi",
+      "name": "En Gedi",
+      "lat": 31.462,
+      "lng": 35.389,
+      "summary": "The woman compares her lover with henna blossoms from En Gedi.",
+      "limits": "This marker locates a named reference in the poem. It does not establish a visit by the lovers.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan"
+      ],
+      "detail": "The woman compares her lover with henna blossoms from En Gedi.",
+      "uncertainty": "This marker locates a named reference in the poem. It does not establish a visit by the lovers.",
+      "chapterLocation": true
+    },
+    {
+      "id": "gilead",
+      "name": "Gilead",
+      "lat": 32.2,
+      "lng": 35.85,
+      "summary": "The lover compares the woman’s hair with goats on Gilead.",
+      "limits": "This marker locates a named reference in the poem. It does not establish a visit by the lovers.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan"
+      ],
+      "detail": "The lover compares the woman’s hair with goats on Gilead.",
+      "uncertainty": "This marker locates a named reference in the poem. It does not establish a visit by the lovers.",
+      "chapterLocation": true
+    },
+    {
+      "id": "damascus",
+      "name": "Damascus",
+      "lat": 33.513,
+      "lng": 36.292,
+      "summary": "A tower facing Damascus appears in praise of the woman.",
+      "limits": "This marker locates a named reference in the poem. It does not establish a visit by the lovers.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan"
+      ],
+      "detail": "A tower facing Damascus appears in praise of the woman.",
+      "uncertainty": "This marker locates a named reference in the poem. It does not establish a visit by the lovers.",
+      "chapterLocation": true
+    },
+    {
+      "id": "lebanon",
+      "name": "Lebanon",
+      "lat": 34.0,
+      "lng": 35.85,
+      "summary": "The poems use Lebanon’s wood, scent, and appearance in praise.",
+      "limits": "This approximate marker locates a poetic reference. The exact pool, dance setting, or lovers’ visit is not established.",
+      "sourceIds": [
+        "web",
+        "openbible-song-geo"
+      ],
+      "detail": "The poems use Lebanon’s wood, scent, and appearance in praise.",
+      "uncertainty": "This approximate marker locates a poetic reference. The exact pool, dance setting, or lovers’ visit is not established.",
+      "chapterLocation": true
+    },
+    {
+      "id": "tirzah",
+      "name": "Tirzah",
+      "lat": 32.287,
+      "lng": 35.342,
+      "summary": "The lover compares the woman’s beauty with Tirzah.",
+      "limits": "This approximate marker locates a poetic reference. The exact pool, dance setting, or lovers’ visit is not established.",
+      "sourceIds": [
+        "web",
+        "openbible-song-geo"
+      ],
+      "detail": "The lover compares the woman’s beauty with Tirzah.",
+      "uncertainty": "This approximate marker locates a poetic reference. The exact pool, dance setting, or lovers’ visit is not established.",
+      "chapterLocation": true
+    },
+    {
+      "id": "carmel",
+      "name": "Mount Carmel",
+      "lat": 32.73,
+      "lng": 35.04,
+      "summary": "The lover compares the woman’s head with Carmel.",
+      "limits": "This approximate marker locates a poetic reference. The exact pool, dance setting, or lovers’ visit is not established.",
+      "sourceIds": [
+        "web",
+        "openbible-song-geo"
+      ],
+      "detail": "The lover compares the woman’s head with Carmel.",
+      "uncertainty": "This approximate marker locates a poetic reference. The exact pool, dance setting, or lovers’ visit is not established.",
+      "chapterLocation": true
+    },
+    {
+      "id": "mahanaim",
+      "name": "Mahanaim",
+      "lat": 32.21,
+      "lng": 35.62,
+      "summary": "A question about watching the Shulammite names the dance of Mahanaim.",
+      "limits": "This approximate marker locates a poetic reference. The exact pool, dance setting, or lovers’ visit is not established.",
+      "sourceIds": [
+        "web",
+        "openbible-song-geo"
+      ],
+      "detail": "A question about watching the Shulammite names the dance of Mahanaim.",
+      "uncertainty": "This approximate marker locates a poetic reference. The exact pool, dance setting, or lovers’ visit is not established.",
+      "chapterLocation": true
+    },
+    {
+      "id": "heshbon",
+      "name": "Heshbon",
+      "lat": 31.8,
+      "lng": 35.81,
+      "summary": "The lover compares the woman’s eyes with pools in Heshbon.",
+      "limits": "This approximate marker locates a poetic reference. The exact pool, dance setting, or lovers’ visit is not established.",
+      "sourceIds": [
+        "web",
+        "openbible-song-geo"
+      ],
+      "detail": "The lover compares the woman’s eyes with pools in Heshbon.",
+      "uncertainty": "This approximate marker locates a poetic reference. The exact pool, dance setting, or lovers’ visit is not established.",
+      "chapterLocation": true
+    },
+    {
+      "id": "sharon",
+      "name": "Sharon",
+      "lat": 32.4,
+      "lng": 34.883,
+      "summary": "The woman calls herself a rose of Sharon.",
+      "limits": "A display point for the coastal plain. It does not locate the woman.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan"
+      ],
+      "detail": "The woman calls herself a rose of Sharon.",
+      "uncertainty": "A display point for the coastal plain. It does not locate the woman.",
+      "chapterLocation": true
+    },
+    {
+      "id": "hermon",
+      "name": "Mount Hermon",
+      "lat": 33.416,
+      "lng": 35.857,
+      "summary": "The lover names Hermon and Senir in his invitation.",
+      "limits": "An approximate mountain marker. The invitation does not establish a literal visit.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan"
+      ],
+      "detail": "The lover names Hermon and Senir in his invitation.",
+      "uncertainty": "An approximate mountain marker. The invitation does not establish a literal visit.",
+      "chapterLocation": true
+    }
+  ],
+  "campaigns": [],
+  "ancientRoads": [],
+  "regions": [],
+  "words": [],
+  "guides": [
+    {
+      "id": "song-of-solomon-overview",
+      "title": "Study Song of Solomon",
+      "description": "Follow selected chapters through the book.",
+      "steps": [
+        {
+          "title": "The lovers speak and exchange praise",
+          "text": "The woman asks to meet her lover. She describes vineyard work that her brothers forced upon her. She calls herself lovely despite the sun darkening her skin. She answers those who stare instead of accepting their judgment.",
+          "chapter": 1,
+          "verse": 1,
+          "sourceIds": [
+            "web",
+            "fishbane-song-excerpt"
+          ]
+        },
+        {
+          "title": "A missed visit and a harmful search",
+          "text": "The woman opens too late for her lover. Watchmen beat her and take her cloak during her search. Her search brings harm rather than help from city guards. She still asks the women to find her friend.",
+          "chapter": 5,
+          "verse": 1,
+          "sourceIds": [
+            "web",
+            "fishbane-song-excerpt"
+          ]
+        },
+        {
+          "title": "Love, family control, and a woman’s answer",
+          "text": "The poem compares love with death and fire. Brothers discuss their sister, and a woman answers for herself. Solomon rents out a vineyard. Wealth cannot buy the love described here. Her answer presents her own strength beside her brothers’ plans.",
+          "chapter": 8,
+          "verse": 1,
+          "sourceIds": [
+            "web",
+            "fishbane-song-excerpt"
+          ]
+        }
+      ]
+    }
+  ],
+  "periods": [
+    {
+      "id": "part-0",
+      "label": "Song of Solomon 1–2",
+      "start": 1,
+      "end": 2,
+      "description": "Chapter order"
+    },
+    {
+      "id": "part-1",
+      "label": "Song of Solomon 3–4",
+      "start": 3,
+      "end": 4,
+      "description": "Chapter order"
+    },
+    {
+      "id": "part-2",
+      "label": "Song of Solomon 5–8",
+      "start": 5,
+      "end": 8,
+      "description": "Chapter order"
+    }
+  ],
+  "chapterMaps": [
+    {
+      "chapter": 1,
+      "focusPlaceIds": [
+        "jerusalem",
+        "en-gedi"
+      ],
+      "placeIds": [
+        "jerusalem",
+        "en-gedi"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "The map locates named comparisons and groups. It does not trace the lovers’ movements.",
+      "narrative": "The woman asks to meet her lover. She describes vineyard work that her brothers forced upon her.",
+      "limits": "The map locates named comparisons and groups. It does not trace the lovers’ movements.",
+      "sourceIds": [
+        "web",
+        "fishbane-song-excerpt"
+      ]
+    },
+    {
+      "chapter": 2,
+      "focusPlaceIds": [
+        "jerusalem",
+        "sharon"
+      ],
+      "placeIds": [
+        "jerusalem",
+        "sharon"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "The map locates named comparisons and groups. It does not trace the lovers’ movements.",
+      "narrative": "The lover calls the woman outside as spring arrives. She warns against awakening love before it desires.",
+      "limits": "The map locates named comparisons and groups. It does not trace the lovers’ movements.",
+      "sourceIds": [
+        "web",
+        "fishbane-song-excerpt"
+      ]
+    },
+    {
+      "chapter": 3,
+      "focusPlaceIds": [
+        "jerusalem",
+        "lebanon"
+      ],
+      "placeIds": [
+        "jerusalem",
+        "lebanon"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "The map locates named comparisons and groups. It does not trace the lovers’ movements.",
+      "narrative": "The woman searches the streets and finds her lover. Another scene shows Solomon’s guarded wedding carriage. His mother gives him a wedding crown.",
+      "limits": "The map locates named comparisons and groups. It does not trace the lovers’ movements.",
+      "sourceIds": [
+        "web",
+        "fishbane-song-excerpt"
+      ]
+    },
+    {
+      "chapter": 4,
+      "focusPlaceIds": [
+        "gilead",
+        "lebanon",
+        "hermon"
+      ],
+      "placeIds": [
+        "gilead",
+        "lebanon",
+        "hermon"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "The map locates named comparisons and groups. It does not trace the lovers’ movements.",
+      "narrative": "The lover praises the woman through many comparisons. She invites him into the garden.",
+      "limits": "The map locates named comparisons and groups. It does not trace the lovers’ movements.",
+      "sourceIds": [
+        "web",
+        "fishbane-song-excerpt"
+      ]
+    },
+    {
+      "chapter": 5,
+      "focusPlaceIds": [
+        "jerusalem",
+        "lebanon"
+      ],
+      "placeIds": [
+        "jerusalem",
+        "lebanon"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "The map locates named comparisons and groups. It does not trace the lovers’ movements.",
+      "narrative": "The woman opens too late for her lover. Watchmen beat her and take her cloak during her search.",
+      "limits": "The map locates named comparisons and groups. It does not trace the lovers’ movements.",
+      "sourceIds": [
+        "web",
+        "fishbane-song-excerpt"
+      ]
+    },
+    {
+      "chapter": 6,
+      "focusPlaceIds": [
+        "jerusalem",
+        "gilead",
+        "tirzah",
+        "mahanaim"
+      ],
+      "placeIds": [
+        "jerusalem",
+        "gilead",
+        "tirzah",
+        "mahanaim"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "The map locates named comparisons and groups. It does not trace the lovers’ movements.",
+      "narrative": "The women offer to seek the lover. He praises the woman above queens and other women.",
+      "limits": "The map locates named comparisons and groups. It does not trace the lovers’ movements.",
+      "sourceIds": [
+        "web",
+        "fishbane-song-excerpt"
+      ]
+    },
+    {
+      "chapter": 7,
+      "focusPlaceIds": [
+        "damascus",
+        "lebanon",
+        "carmel",
+        "heshbon"
+      ],
+      "placeIds": [
+        "damascus",
+        "lebanon",
+        "carmel",
+        "heshbon"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "The map locates named comparisons and groups. It does not trace the lovers’ movements.",
+      "narrative": "The lover praises the woman’s body through comparisons. She invites him to fields, villages, and vineyards.",
+      "limits": "The map locates named comparisons and groups. It does not trace the lovers’ movements.",
+      "sourceIds": [
+        "web",
+        "fishbane-song-excerpt"
+      ]
+    },
+    {
+      "chapter": 8,
+      "focusPlaceIds": [
+        "jerusalem"
+      ],
+      "placeIds": [
+        "jerusalem"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "The map locates named comparisons and groups. It does not trace the lovers’ movements.",
+      "narrative": "The poem compares love with death and fire. Brothers discuss their sister, and a woman answers for herself. Solomon rents out a vineyard.",
+      "limits": "The map locates named comparisons and groups. It does not trace the lovers’ movements.",
+      "sourceIds": [
+        "web",
+        "fishbane-song-excerpt"
+      ]
+    }
+  ],
+  "textRoutes": [],
+  "narrativeRegions": [],
+  "chapterStudies": []
+}
