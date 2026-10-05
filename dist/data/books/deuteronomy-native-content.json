@@ -1,0 +1,3381 @@
+{
+  "sources": [
+    {
+      "id": "web",
+      "title": "Deuteronomy — World English Bible",
+      "url": "https://ebible.org/engwebp/DEU01.htm",
+      "summary": "The public-domain reading text supplies all 34 chapters.",
+      "category": "Scripture",
+      "perspective": "historical",
+      "limits": "The narrative, speeches, and laws are textual evidence. They do not independently verify each event.",
+      "type": "Scripture",
+      "limitations": "The narrative, speeches, and laws are textual evidence. They do not independently verify each event.",
+      "license": "Public domain"
+    },
+    {
+      "id": "atlas",
+      "title": "Bible Maps: The World of the Old Testament",
+      "perspective": "historical",
+      "category": "Geography",
+      "url": "https://www.churchofjesuschrist.org/study/scriptures/bible-maps/map-9?lang=eng",
+      "summary": "This Church-published atlas locates the wider setting and marks some disputed places.",
+      "limits": "Use the geographic labels as context. The linked atlas also includes LDS commentary.",
+      "type": "Geography",
+      "limitations": "Use the geographic labels as context. The linked atlas also includes LDS commentary.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "atlas-canaan",
+      "title": "Bible Maps: Canaan in Old Testament Times",
+      "perspective": "historical",
+      "category": "Geography",
+      "url": "https://www.churchofjesuschrist.org/study/scriptures/bible-maps/map-10?lang=eng",
+      "summary": "This Church-published atlas identifies towns and regions in Canaan.",
+      "limits": "Coordinates are display estimates. A town marker does not verify each Genesis event.",
+      "type": "Geography",
+      "limitations": "Coordinates are display estimates. A town marker does not verify each Genesis event.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "terrain",
+      "title": "Mapzen / Tilezen terrain and Natural Earth geography",
+      "perspective": "historical",
+      "category": "Geography",
+      "url": "https://registry.opendata.aws/terrain-tiles/",
+      "summary": "Cached terrain shows modern elevation. Natural Earth supplies the land and water outlines.",
+      "limits": "Modern terrain is a geographic aid. It does not reconstruct ancient shorelines or settlements.",
+      "type": "Geography",
+      "limitations": "Modern terrain is a geographic aid. It does not reconstruct ancient shorelines or settlements.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "atlas-exodus",
+      "title": "Bible Maps: Israel’s Exodus from Egypt and Entry into Canaan",
+      "url": "https://www.churchofjesuschrist.org/study/scriptures/bible-maps/map-2?lang=eng",
+      "summary": "The Church-published map marks a traditional route and several uncertain sites.",
+      "category": "Geography",
+      "perspective": "historical",
+      "limits": "The displayed route is a study tradition. It does not establish a verified sea crossing or Sinai site.",
+      "type": "Geography",
+      "limitations": "The displayed route is a study tradition. It does not establish a verified sea crossing or Sinai site.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "lds-deut-1",
+      "title": "Deuteronomy 1–16: An Exhortation to Obedience, Part 1",
+      "url": "https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/deuteronomy-1-16-an-exhortation-to-obedience-part-1?lang=eng",
+      "summary": "The manual studies Moses’s final addresses, remembrance, covenant loyalty, and community duties.",
+      "category": "LDS study manual",
+      "perspective": "lds",
+      "limits": "This is 1980 Institute commentary. Some proposals and quoted social explanations differ from current Church teaching. Its introduction’s race-related claims must be read beside Race and the Priesthood. It is not independent archaeological evidence.",
+      "author": "The Church of Jesus Christ of Latter-day Saints",
+      "year": 1980,
+      "reviewed": "2026-10-05: Relevant commentary sections, chapter coverage, and edition information reviewed.",
+      "chapterCoverage": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "type": "LDS study manual",
+      "limitations": "This is 1980 Institute commentary. Some proposals and quoted social explanations differ from current Church teaching. Its introduction’s race-related claims must be read beside Race and the Priesthood. It is not independent archaeological evidence.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "lds-deut-2",
+      "title": "Deuteronomy 17–33: An Exhortation to Obedience, Part 2",
+      "url": "https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/deuteronomy-17-33-an-exhortation-to-obedience-part-2?lang=eng",
+      "summary": "The manual studies leaders, laws, covenant consequences, tribal blessings, and Moses’s departure.",
+      "category": "LDS study manual",
+      "perspective": "lds",
+      "limits": "This is 1980 Institute commentary. Some proposals and quoted social explanations differ from current Church teaching. Its introduction’s race-related claims must be read beside Race and the Priesthood. It is not independent archaeological evidence.",
+      "author": "The Church of Jesus Christ of Latter-day Saints",
+      "year": 1980,
+      "reviewed": "2026-10-05: Relevant commentary sections, chapter coverage, and edition information reviewed.",
+      "chapterCoverage": [
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34
+      ],
+      "type": "LDS study manual",
+      "limitations": "This is 1980 Institute commentary. Some proposals and quoted social explanations differ from current Church teaching. Its introduction’s race-related claims must be read beside Race and the Priesthood. It is not independent archaeological evidence.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "yale-11",
+      "title": "On the Steps of Moab: Deuteronomy — Open Yale Courses",
+      "url": "https://oyc.yale.edu/religious-studies/rlst-145/lecture-11",
+      "summary": "Hayes studies the book’s speeches, adapted laws, central worship, care for outsiders, and transfer of leadership.",
+      "category": "Scholarly study",
+      "perspective": "historical",
+      "limits": "This is a university lecture interpretation. Proposed composition stages and dates are debated. They do not establish the historical dates of Moses’s speeches.",
+      "author": "Christine Hayes",
+      "year": "Fall 2006 course",
+      "reviewed": "2026-10-05: Published overview and relevant transcript sections on structure, legal changes, and leadership reviewed.",
+      "type": "Scholarly study",
+      "limitations": "This is a university lecture interpretation. Proposed composition stages and dates are debated. They do not establish the historical dates of Moses’s speeches.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "lds-prophet",
+      "title": "3 Nephi 20:23",
+      "url": "https://www.churchofjesuschrist.org/study/scriptures/bofm/3-ne/20?lang=eng&id=p23#p23",
+      "summary": "Jesus identifies himself with the promised prophet like Moses.",
+      "category": "LDS scripture",
+      "perspective": "lds",
+      "limits": "This Restoration scripture supplies a later interpretation or comparison. It remains distinct from Deuteronomy’s own wording.",
+      "author": "The Book of Mormon",
+      "reviewed": "2026-10-05: Referenced passage reviewed.",
+      "chapterCoverage": [
+        18
+      ],
+      "type": "LDS scripture",
+      "limitations": "This Restoration scripture supplies a later interpretation or comparison. It remains distinct from Deuteronomy’s own wording.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "lds-agency",
+      "title": "2 Nephi 2:26–29",
+      "url": "https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/2?lang=eng&id=p26-p29#p26",
+      "summary": "Lehi teaches agency and choice through redemption in Christ.",
+      "category": "LDS scripture",
+      "perspective": "lds",
+      "limits": "This Restoration scripture supplies a later interpretation or comparison. It remains distinct from Deuteronomy’s own wording.",
+      "author": "The Book of Mormon",
+      "reviewed": "2026-10-05: Referenced passage reviewed.",
+      "chapterCoverage": [
+        30
+      ],
+      "type": "LDS scripture",
+      "limitations": "This Restoration scripture supplies a later interpretation or comparison. It remains distinct from Deuteronomy’s own wording.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "lds-moses",
+      "title": "Alma 45:18–19",
+      "url": "https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/45?lang=eng&id=p18-p19#p18",
+      "summary": "The passage compares Alma’s departure with the tradition that the Lord took Moses to himself.",
+      "category": "LDS scripture",
+      "perspective": "lds",
+      "limits": "This Restoration scripture supplies a later interpretation or comparison. It remains distinct from Deuteronomy’s own wording.",
+      "author": "The Book of Mormon",
+      "reviewed": "2026-10-05: Referenced passage reviewed.",
+      "chapterCoverage": [
+        34
+      ],
+      "type": "LDS scripture",
+      "limitations": "This Restoration scripture supplies a later interpretation or comparison. It remains distinct from Deuteronomy’s own wording.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "lds-race",
+      "title": "Race and the Priesthood · current teaching",
+      "url": "https://www.churchofjesuschrist.org/study/manual/gospel-topics-essays/race-and-the-priesthood?lang=eng",
+      "summary": "The Church rejects theories that race reflects divine disfavor or unrighteous premortal conduct. It condemns racial inferiority theories.",
+      "category": "LDS Gospel Topics essay",
+      "perspective": "lds",
+      "limits": "This source clarifies current Church teaching when an older manual quotes race-related explanations. It is not a translation of Deuteronomy 32.",
+      "author": "The Church of Jesus Christ of Latter-day Saints",
+      "reviewed": "2026-10-05: The Church Today section reviewed.",
+      "chapterCoverage": [
+        32
+      ],
+      "type": "LDS Gospel Topics essay",
+      "limitations": "This source clarifies current Church teaching when an older manual quotes race-related explanations. It is not a translation of Deuteronomy 32.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "net-deut-32",
+      "title": "NET Bible · Deuteronomy 32:8–9 notes",
+      "url": "https://classic.net.bible.org/passage.php/xml/passage.php?mode=print&passage=Deu+32%3A8-9",
+      "summary": "The translation notes compare the Masoretic, Qumran, and Greek readings of Deuteronomy 32:8. The translators prefer a reading about divine beings.",
+      "category": "Scholarly study",
+      "perspective": "historical",
+      "limits": "These are scholarly translation notes. Their preference for an original reading is an editorial judgment, not a complete manuscript review by this guide.",
+      "author": "NET Bible translation team",
+      "reviewed": "2026-10-05: Published reading and textual note 3 reviewed.",
+      "chapterCoverage": [
+        32
+      ],
+      "type": "Scholarly study",
+      "limitations": "These are scholarly translation notes. Their preference for an original reading is an editorial judgment, not a complete manuscript review by this guide.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "cfm-2026-20",
+      "title": "Come, Follow Me 2026 · Deuteronomy 6–8; 15; 18; 29–30; 34",
+      "author": "The Church of Jesus Christ of Latter-day Saints",
+      "year": 2026,
+      "category": "LDS study manual",
+      "perspective": "lds",
+      "url": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/20?lang=eng",
+      "summary": "The lesson studies love for God, remembrance, generous care, and agency. It connects the prophet like Moses with Jesus Christ.",
+      "reviewed": "2026-10-05: Official lesson heading, selected chapter coverage, and relevant study sections reviewed.",
+      "limits": "This is Church teaching and application. It does not independently establish archaeological evidence or event dates.",
+      "license": "Linked official Church lesson. Original guide summary.",
+      "chapterCoverage": [
+        6,
+        7,
+        8,
+        15,
+        18,
+        29,
+        30,
+        34
+      ],
+      "type": "LDS study manual",
+      "limitations": "This is Church teaching and application. It does not independently establish archaeological evidence or event dates."
+    },
+    {
+      "id": "wiki-deuteronomy",
+      "title": "Book of Deuteronomy · Wikipedia",
+      "author": "Wikipedia contributors",
+      "category": "Encyclopedia background",
+      "perspective": "historical",
+      "url": "https://en.wikipedia.org/wiki/Book_of_Deuteronomy",
+      "revisionId": "1377516452",
+      "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1377516452",
+      "summary": "Deuteronomy presents Moses’s addresses before Israel’s entry into the land. Its ending includes poems, Joshua’s succession, and the account of Moses’s departure.",
+      "reviewed": "2026-10-05: Opening overview and book structure reviewed. These notes make no claim about exact composition dates.",
+      "limits": "Anyone can edit this source. Use it for background and source discovery. Its disputed historical claims require separate scholarly review.",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "chapterCoverage": [
+        1,
+        5,
+        31,
+        34
+      ],
+      "citedSourceIds": [
+        "scholar-weinfeld"
+      ],
+      "type": "Encyclopedia background",
+      "limitations": "Anyone can edit this source. Use it for background and source discovery. Its disputed historical claims require separate scholarly review."
+    },
+    {
+      "id": "scholar-weinfeld",
+      "title": "Deuteronomy 1–11",
+      "author": "Moshe Weinfeld and David R. Seely · publisher attribution",
+      "year": "Linked publisher edition 1995",
+      "url": "https://yalebooks.yale.edu/book/9780300139433/deuteronomy-1-11/",
+      "summary": "The publisher describes a translation and commentary on Deuteronomy’s opening chapters and its wider literary setting.",
+      "category": "Scholarly publication",
+      "perspective": "historical",
+      "reviewed": "2026-10-05: Publisher description and edition metadata reviewed. The full commentary was not read.",
+      "limits": "Publisher description and edition metadata reviewed. The full commentary was not read. This record verifies identity and scope. It does not independently verify every argument.",
+      "license": "Linked publication record. Original summary.",
+      "chapterCoverage": [],
+      "type": "Scholarly publication",
+      "limitations": "Publisher description and edition metadata reviewed. The full commentary was not read. This record verifies identity and scope. It does not independently verify every argument."
+    },
+    {
+      "id": "dm-deuteronomy",
+      "title": "Angels and Gods at Qumran · Deuteronomy 32 discussion",
+      "author": "Dan McClellan",
+      "year": "May 28, 2010",
+      "category": "Scholar commentary",
+      "perspective": "historical",
+      "group": "mcclellan",
+      "url": "https://danielomcclellan.wordpress.com/2010/05/28/angels-and-gods-at-qumran/",
+      "summary": "McClellan argues that Greek renderings of Deuteronomy 32 connect divine beings with angels. His discussion concerns textual interpretation and changes in religious categories.",
+      "reviewed": "2026-10-05: Original post reviewed, especially its discussion of Deuteronomy 32:8–9 and 43. Reader comments are not used as evidence.",
+      "limits": "This is an older scholarly interpretation, separate from Church teaching. The proposed historical sequence is not independently verified here. Hebrew and Greek text is not copied from the post.",
+      "license": "Linked original post. Original guide summary.",
+      "chapterCoverage": [
+        32
+      ],
+      "type": "Scholar commentary",
+      "limitations": "This is an older scholarly interpretation, separate from Church teaching. The proposed historical sequence is not independently verified here. Hebrew and Greek text is not copied from the post."
+    }
+  ],
+  "passages": [
+    {
+      "id": "deuteronomy-1",
+      "chapter": 1,
+      "start": 1,
+      "end": 46,
+      "title": "Moses recalls the failed entry",
+      "summary": "Moses addresses Israel east of the Jordan. He recalls appointed judges, the scouts’ report, and the refusal to enter Canaan. The speech selects earlier events to teach the present generation. A remembered journey is not a new movement by the listeners.",
+      "year": null,
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "placeIds": [
+        "moab",
+        "sinai",
+        "kadesh",
+        "canaan"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-11",
+        "atlas-exodus",
+        "atlas-canaan",
+        "wiki-deuteronomy"
+      ],
+      "lds": {
+        "text": "Consider how your account of a past decision shapes what others learn from it.",
+        "sourceIds": [
+          "lds-deut-1"
+        ]
+      }
+    },
+    {
+      "id": "deuteronomy-2",
+      "chapter": 2,
+      "start": 1,
+      "end": 37,
+      "title": "Neighboring lands and Sihon",
+      "summary": "Moses recalls travel near Edom, Moab, and Ammon. Israel must respect those territories. The speech then recounts war against Sihon. The account distinguishes lands that Israel must leave alone from a territory acquired through war. Its violence remains part of the story.",
+      "year": null,
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "placeIds": [
+        "moab",
+        "edom",
+        "heshbon"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-11",
+        "atlas-exodus"
+      ],
+      "lds": {
+        "text": "Consider the limits placed on territorial claims. Read the whole account rather than only its victory language.",
+        "sourceIds": [
+          "lds-deut-1"
+        ]
+      }
+    },
+    {
+      "id": "deuteronomy-3",
+      "chapter": 3,
+      "start": 1,
+      "end": 29,
+      "title": "Og, eastern settlements, and Joshua",
+      "summary": "Moses recalls the defeat of Og and the allocation of eastern land. He encourages Joshua but cannot enter the land himself. The account joins military success with a leadership limit. An eastern inheritance still carries duties toward the other tribes.",
+      "year": null,
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "placeIds": [
+        "moab",
+        "bashan",
+        "gilead",
+        "canaan"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-11",
+        "atlas-canaan",
+        "atlas-exodus",
+        "atlas"
+      ],
+      "lds": {
+        "text": "Consider how receiving a benefit can leave continuing obligations to others.",
+        "sourceIds": [
+          "lds-deut-1"
+        ]
+      }
+    },
+    {
+      "id": "deuteronomy-4",
+      "chapter": 4,
+      "start": 1,
+      "end": 49,
+      "title": "Remember the covenant",
+      "summary": "Moses urges obedience and warns against images. He recalls Horeb and sets apart three eastern refuge towns. The speech makes remembered experience a duty to future generations. The warnings concern covenant loyalty rather than a measured history of every event.",
+      "year": null,
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "placeIds": [
+        "moab",
+        "sinai",
+        "gilead",
+        "bashan"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-11",
+        "atlas-exodus",
+        "atlas"
+      ],
+      "lds": {
+        "text": "Consider how you can teach what you have learned without adding claims that the text does not make.",
+        "sourceIds": [
+          "lds-deut-1"
+        ]
+      }
+    },
+    {
+      "id": "deuteronomy-5",
+      "chapter": 5,
+      "start": 1,
+      "end": 33,
+      "title": "The commandments recalled",
+      "summary": "Moses repeats the commandments and recalls Israel’s request for him to act as mediator. The Sabbath instruction remembers slavery in Egypt. Compare this account with Exodus 20. The Sabbath reasons differ even though the command concerns the same weekly rest.",
+      "year": null,
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "placeIds": [
+        "moab",
+        "sinai",
+        "egypt"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-11",
+        "atlas",
+        "atlas-exodus",
+        "wiki-deuteronomy"
+      ],
+      "lds": {
+        "text": "Consider how the memory of slavery can shape rest and care for other people.",
+        "sourceIds": [
+          "lds-deut-1"
+        ]
+      }
+    },
+    {
+      "id": "deuteronomy-6",
+      "chapter": 6,
+      "start": 1,
+      "end": 25,
+      "title": "Love, teach, and remember",
+      "summary": "Moses calls Israel to love the Lord and teach these words in daily life. He warns against forgetting after receiving a good land. The commands connect memory with ordinary places and repeated actions. Prosperity can make dependence on others easier to forget.",
+      "year": null,
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "placeIds": [
+        "moab",
+        "canaan"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-11",
+        "atlas-canaan",
+        "atlas-exodus"
+      ],
+      "lds": {
+        "text": "Come, Follow Me studies love for God and teaching the next generation. Consider one daily practice that supports remembrance.",
+        "sourceIds": [
+          "lds-deut-1",
+          "cfm-2026-20"
+        ]
+      }
+    },
+    {
+      "id": "deuteronomy-7",
+      "chapter": 7,
+      "start": 1,
+      "end": 26,
+      "title": "A chosen people and severe commands",
+      "summary": "The speech commands separation from surrounding worship and the destruction of named peoples. It also recalls God’s covenant with the ancestors. The chapter combines divine love with commands for collective violence. Those commands must not become permission for violence against people today.",
+      "year": null,
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "placeIds": [
+        "moab",
+        "canaan"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-11",
+        "atlas-canaan",
+        "atlas-exodus"
+      ],
+      "lds": {
+        "text": "Read covenant responsibilities beside the harm described in the chapter. Keep ancient commands distinct from present Church conduct.",
+        "sourceIds": [
+          "lds-deut-1",
+          "cfm-2026-20"
+        ]
+      }
+    },
+    {
+      "id": "deuteronomy-8",
+      "chapter": 8,
+      "start": 1,
+      "end": 20,
+      "title": "Remember in prosperity",
+      "summary": "Moses recalls wilderness hunger and manna. He warns that a prosperous people must not claim that its own strength supplied everything. The chapter links material success with memory and humility. Its account of wilderness testing belongs to the text’s religious explanation.",
+      "year": null,
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "placeIds": [
+        "moab",
+        "canaan"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-11",
+        "atlas-canaan",
+        "atlas-exodus"
+      ],
+      "lds": {
+        "text": "The Church lesson asks readers to remember God in comfort as well as hardship. Consider what gratitude changes in your conduct.",
+        "sourceIds": [
+          "lds-deut-1",
+          "cfm-2026-20"
+        ]
+      }
+    },
+    {
+      "id": "deuteronomy-9",
+      "chapter": 9,
+      "start": 1,
+      "end": 29,
+      "title": "The calf and intercession recalled",
+      "summary": "Moses denies that Israel receives the land because of its own righteousness. He recalls the golden calf, broken tablets, and his intercession. The speech opposes self-congratulation with a record of failure. Moses’s remembered prayers stress the community’s dependence on mercy.",
+      "year": null,
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "placeIds": [
+        "moab",
+        "sinai",
+        "canaan"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-11",
+        "atlas-exodus",
+        "atlas-canaan"
+      ],
+      "lds": {
+        "text": "Consider how honest memory can resist claims of moral superiority.",
+        "sourceIds": [
+          "lds-deut-1"
+        ]
+      }
+    },
+    {
+      "id": "deuteronomy-10",
+      "chapter": 10,
+      "start": 1,
+      "end": 22,
+      "title": "New tablets and care for strangers",
+      "summary": "Moses recalls replacement tablets and the appointment of Levites. He calls Israel to love God and care for the stranger. The commands join worship with social responsibility. Love for the stranger draws on the memory of being strangers in Egypt.",
+      "year": null,
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "placeIds": [
+        "moab",
+        "sinai",
+        "egypt"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-11",
+        "atlas",
+        "atlas-exodus"
+      ],
+      "lds": {
+        "text": "Consider how memory of vulnerability can change your treatment of a newcomer.",
+        "sourceIds": [
+          "lds-deut-1"
+        ]
+      }
+    },
+    {
+      "id": "deuteronomy-11",
+      "chapter": 11,
+      "start": 1,
+      "end": 32,
+      "title": "Teach the words and choose a path",
+      "summary": "Moses recalls Egypt and the judgment on Dathan and Abiram. He urges daily teaching and names Gerizim and Ebal for future blessings and curses. The speech uses remembered events and an anticipated ceremony to press a choice. Naming the mountains does not place the present assembly there.",
+      "year": null,
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "placeIds": [
+        "moab",
+        "egypt",
+        "gerizim",
+        "ebal"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-11",
+        "atlas",
+        "atlas-exodus",
+        "atlas-canaan"
+      ],
+      "lds": {
+        "text": "Consider what habits help a family pass on its commitments.",
+        "sourceIds": [
+          "lds-deut-1"
+        ]
+      }
+    },
+    {
+      "id": "deuteronomy-12",
+      "chapter": 12,
+      "start": 1,
+      "end": 32,
+      "title": "The chosen place of worship",
+      "summary": "The law requires worship at a place God will choose. It distinguishes sacrifices from ordinary meat eaten at home and forbids consuming blood. The chapter describes a central place without naming Jerusalem. Do not put a Jerusalem marker on the map as if this chapter named it.",
+      "year": null,
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "placeIds": [
+        "moab",
+        "canaan"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-11",
+        "atlas-canaan",
+        "atlas-exodus"
+      ],
+      "lds": {
+        "text": "Consider how shared worship can shape community life. Keep the text’s unnamed sanctuary distinct from a later identification.",
+        "sourceIds": [
+          "lds-deut-1"
+        ]
+      }
+    },
+    {
+      "id": "deuteronomy-13",
+      "chapter": 13,
+      "start": 1,
+      "end": 18,
+      "title": "Tests of covenant loyalty",
+      "summary": "The law addresses a prophet, close relative, or town that urges worship of other gods. It prescribes severe punishments. The commands place loyalty above family and local ties. Their coercion belongs to an ancient legal setting and does not authorize present persecution.",
+      "year": null,
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "placeIds": [
+        "moab"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-11",
+        "atlas-exodus"
+      ],
+      "lds": {
+        "text": "Consider how to examine a religious claim carefully. Keep this ancient punishment system distinct from present conduct.",
+        "sourceIds": [
+          "lds-deut-1"
+        ]
+      }
+    },
+    {
+      "id": "deuteronomy-14",
+      "chapter": 14,
+      "start": 1,
+      "end": 29,
+      "title": "Food, tithes, and shared provision",
+      "summary": "The law distinguishes permitted foods and directs the use of tithes. A third-year provision supports Levites, strangers, orphans, and widows. The chapter connects sacred identity with material care. Food rules and provision for vulnerable people have different functions within that system.",
+      "year": null,
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "placeIds": [
+        "moab",
+        "canaan"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-11",
+        "atlas-canaan",
+        "atlas-exodus"
+      ],
+      "lds": {
+        "text": "Consider how your use of resources can include people who lack stable support.",
+        "sourceIds": [
+          "lds-deut-1"
+        ]
+      }
+    },
+    {
+      "id": "deuteronomy-15",
+      "chapter": 15,
+      "start": 1,
+      "end": 23,
+      "title": "Release and an open hand",
+      "summary": "The law provides for debt release and the release of Hebrew slaves. It requires generosity toward people in need and gifts to people released from slavery. The instructions address economic dependence within an unequal society. They require support as well as release from an obligation.",
+      "year": null,
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "placeIds": [
+        "moab"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-11",
+        "atlas-exodus"
+      ],
+      "lds": {
+        "text": "Come, Follow Me studies a willing heart in helping people in need. Consider whether your help preserves their dignity.",
+        "sourceIds": [
+          "lds-deut-1",
+          "cfm-2026-20"
+        ]
+      }
+    },
+    {
+      "id": "deuteronomy-16",
+      "chapter": 16,
+      "start": 1,
+      "end": 22,
+      "title": "Festivals and fair judgment",
+      "summary": "The law describes Passover, weeks, and booths. It also commands judges to avoid partiality and bribery. The festivals include people who might otherwise remain outside a household’s celebration. Fair judgment is a public duty.",
+      "year": null,
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "placeIds": [
+        "moab",
+        "canaan"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-11",
+        "atlas-canaan",
+        "atlas-exodus"
+      ],
+      "lds": {
+        "text": "Consider how celebrations and decisions can include people with less influence.",
+        "sourceIds": [
+          "lds-deut-1"
+        ]
+      }
+    },
+    {
+      "id": "deuteronomy-17",
+      "chapter": 17,
+      "start": 1,
+      "end": 20,
+      "title": "Judges and limits on kings",
+      "summary": "The law addresses prohibited worship, difficult cases, and a future king. The king must read the law and limit wealth, horses, and wives. Royal power remains subject to instruction. The king must not raise himself above his fellow Israelites.",
+      "year": null,
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "placeIds": [
+        "moab",
+        "canaan"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-11",
+        "atlas-canaan",
+        "atlas-exodus"
+      ],
+      "lds": {
+        "text": "Consider what prevents a leader from treating authority as personal privilege.",
+        "sourceIds": [
+          "lds-deut-2"
+        ]
+      }
+    },
+    {
+      "id": "deuteronomy-18",
+      "chapter": 18,
+      "start": 1,
+      "end": 22,
+      "title": "Priests and a prophet like Moses",
+      "summary": "The law provides support for priests, rejects certain divination practices, and promises a prophet like Moses. It gives a test for a prophetic claim. The chapter distinguishes authorized instruction from prohibited practices. Later Christian and LDS texts apply the promised prophet to Jesus Christ.",
+      "year": null,
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "placeIds": [
+        "moab"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-11",
+        "atlas-exodus"
+      ],
+      "lds": {
+        "text": "Come, Follow Me connects the prophet like Moses with Christ. Read that interpretation beside Acts 3 and 3 Nephi 20.",
+        "sourceIds": [
+          "lds-deut-2",
+          "lds-prophet",
+          "cfm-2026-20"
+        ]
+      }
+    },
+    {
+      "id": "deuteronomy-19",
+      "chapter": 19,
+      "start": 1,
+      "end": 21,
+      "title": "Refuge, boundaries, and witnesses",
+      "summary": "The law establishes refuge for accidental killers, protects boundary markers, and requires multiple witnesses. False testimony receives a stated penalty. The procedures distinguish an accident from deliberate murder. An accusation alone cannot establish guilt in the stated system.",
+      "year": null,
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "placeIds": [
+        "moab",
+        "canaan"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-11",
+        "atlas-canaan",
+        "atlas-exodus"
+      ],
+      "lds": {
+        "text": "Consider why judgment needs witnesses and attention to circumstances.",
+        "sourceIds": [
+          "lds-deut-2"
+        ]
+      }
+    },
+    {
+      "id": "deuteronomy-20",
+      "chapter": 20,
+      "start": 1,
+      "end": 20,
+      "title": "Rules for warfare",
+      "summary": "The law gives exemptions from military service and different instructions for distant and nearby cities. It limits destruction of fruit trees. The chapter contains both restraints and commands for collective killing. Those commands do not establish that each named conquest occurred.",
+      "year": null,
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "placeIds": [
+        "moab",
+        "canaan"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-11",
+        "atlas-canaan",
+        "atlas-exodus"
+      ],
+      "lds": {
+        "text": "Read the restraints and the violence together. Keep ancient war law distinct from present religious duty.",
+        "sourceIds": [
+          "lds-deut-2"
+        ]
+      }
+    },
+    {
+      "id": "deuteronomy-21",
+      "chapter": 21,
+      "start": 1,
+      "end": 23,
+      "title": "Unsolved killing and household laws",
+      "summary": "The law addresses an unidentified killer, a captive woman, inheritance, a rebellious son, and burial after execution. The chapter brings public responsibility beside unequal household power and severe penalties. Its captive-marriage rules do not establish free consent.",
+      "year": null,
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "placeIds": [
+        "moab"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-11",
+        "atlas-exodus"
+      ],
+      "lds": {
+        "text": "Consider whose voice is absent from these laws. Keep the ancient penalties distinct from present family conduct.",
+        "sourceIds": [
+          "lds-deut-2"
+        ]
+      }
+    },
+    {
+      "id": "deuteronomy-22",
+      "chapter": 22,
+      "start": 1,
+      "end": 30,
+      "title": "Neighborly care and sexual laws",
+      "summary": "The law requires help with lost animals and safe roofs. It also gives clothing rules and severe laws about marriage accusations and sexual acts. Practical care stands beside an unequal ancient sexual legal system. A failure to cry out must not become a modern test of consent.",
+      "year": null,
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "placeIds": [
+        "moab"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-11",
+        "atlas-exodus"
+      ],
+      "lds": {
+        "text": "Consider the duty to prevent foreseeable harm. Read the sexual laws within their ancient setting rather than using them to judge a survivor.",
+        "sourceIds": [
+          "lds-deut-2"
+        ]
+      }
+    },
+    {
+      "id": "deuteronomy-23",
+      "chapter": 23,
+      "start": 1,
+      "end": 25,
+      "title": "Assembly, camp, and promises",
+      "summary": "The law restricts assembly membership, regulates camp cleanliness, and protects a person who escapes slavery from forced return. It also concerns interest and vows. The chapter contains both exclusion and protection. Read each rule rather than treating all outsiders as one category.",
+      "year": null,
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "placeIds": [
+        "moab",
+        "egypt",
+        "edom"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-11",
+        "atlas",
+        "atlas-exodus"
+      ],
+      "lds": {
+        "text": "Consider the protection offered to a person escaping slavery. Keep ancient membership restrictions distinct from present human worth.",
+        "sourceIds": [
+          "lds-deut-2"
+        ]
+      }
+    },
+    {
+      "id": "deuteronomy-24",
+      "chapter": 24,
+      "start": 1,
+      "end": 22,
+      "title": "Household changes and protection of the poor",
+      "summary": "The law concerns divorce and remarriage, loans, wages, testimony, and gleaning. It protects certain essential belongings from seizure. Daily economic rules can reduce harm to people with less power. The chapter remembers slavery as a reason for fair treatment.",
+      "year": null,
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "placeIds": [
+        "moab",
+        "egypt"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-11",
+        "atlas",
+        "atlas-exodus"
+      ],
+      "lds": {
+        "text": "Consider how prompt payment and leaving resources for others can turn compassion into action.",
+        "sourceIds": [
+          "lds-deut-2"
+        ]
+      }
+    },
+    {
+      "id": "deuteronomy-25",
+      "chapter": 25,
+      "start": 1,
+      "end": 19,
+      "title": "Fair measures and family continuity",
+      "summary": "The law limits flogging, regulates marriage after a brother’s death, requires honest weights, and remembers Amalek’s attack. The chapter combines restraint, household continuity, commerce, and hostility. The marriage rule belongs to an ancient inheritance system.",
+      "year": null,
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "placeIds": [
+        "moab"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-11",
+        "atlas-exodus"
+      ],
+      "lds": {
+        "text": "Consider why a fair measure matters when another person cannot verify your claim.",
+        "sourceIds": [
+          "lds-deut-2"
+        ]
+      }
+    },
+    {
+      "id": "deuteronomy-26",
+      "chapter": 26,
+      "start": 1,
+      "end": 19,
+      "title": "First produce and covenant declaration",
+      "summary": "The worshiper brings first produce and recounts the ancestors’ hardship, Egypt, and deliverance. A declaration accompanies the third-year tithe. The ritual connects possession of land with remembered dependence and shared provision. It turns a gift into a spoken account of identity.",
+      "year": null,
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "placeIds": [
+        "moab",
+        "egypt",
+        "canaan"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-11",
+        "atlas",
+        "atlas-canaan",
+        "atlas-exodus"
+      ],
+      "lds": {
+        "text": "Consider how giving can include an honest account of what you received from others.",
+        "sourceIds": [
+          "lds-deut-2"
+        ]
+      }
+    },
+    {
+      "id": "deuteronomy-27",
+      "chapter": 27,
+      "start": 1,
+      "end": 26,
+      "title": "Instructions for Ebal and Gerizim",
+      "summary": "Moses and the elders give instructions for an altar, written law, and spoken curses after entry. Tribes receive roles on the two mountains. This chapter plans a future ceremony. Its curses name hidden wrongs and failures of justice as well as worship offenses.",
+      "year": null,
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "placeIds": [
+        "moab",
+        "ebal",
+        "gerizim"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-11",
+        "atlas-exodus",
+        "atlas-canaan"
+      ],
+      "lds": {
+        "text": "Consider what a public promise requires when wrongdoing can remain hidden.",
+        "sourceIds": [
+          "lds-deut-2"
+        ]
+      }
+    },
+    {
+      "id": "deuteronomy-28",
+      "chapter": 28,
+      "start": 1,
+      "end": 68,
+      "title": "Blessings and terrible curses",
+      "summary": "The speech lists blessings for obedience and curses for disobedience. It describes disease, military defeat, siege, hunger, and exile. The chapter expresses covenant consequences in severe terms. It cannot establish that a person’s present illness or suffering proves wrongdoing.",
+      "year": null,
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "placeIds": [
+        "moab",
+        "canaan",
+        "egypt"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-11",
+        "atlas",
+        "atlas-canaan",
+        "atlas-exodus"
+      ],
+      "lds": {
+        "text": "Read the whole warning with care. Avoid using its suffering language to assign blame to someone in distress.",
+        "sourceIds": [
+          "lds-deut-2"
+        ]
+      }
+    },
+    {
+      "id": "deuteronomy-29",
+      "chapter": 29,
+      "start": 1,
+      "end": 29,
+      "title": "The covenant assembly",
+      "summary": "Moses addresses leaders, families, and strangers at the covenant gathering. He warns against hidden disloyalty and describes a devastated land. The commitment includes people present and people not present. The speech makes continuity across generations part of the covenant.",
+      "year": null,
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "placeIds": [
+        "moab"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-11",
+        "atlas-exodus"
+      ],
+      "lds": {
+        "text": "Come, Follow Me studies inward loyalty and shared covenant identity. Consider the effect of your choices on people who will follow you.",
+        "sourceIds": [
+          "lds-deut-2",
+          "cfm-2026-20"
+        ]
+      }
+    },
+    {
+      "id": "deuteronomy-30",
+      "chapter": 30,
+      "start": 1,
+      "end": 20,
+      "title": "Return and choose life",
+      "summary": "Moses describes return after scattering and calls the people to love and obey God. He presents the instruction as near and calls them to choose life. The chapter offers restoration beside warning. Its choice concerns love and conduct rather than a remote secret that cannot be reached.",
+      "year": null,
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "placeIds": [
+        "moab",
+        "canaan"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-11",
+        "atlas-canaan",
+        "atlas-exodus"
+      ],
+      "lds": {
+        "text": "The Church lesson compares these words with Lehi’s teaching about agency. Consider what choosing life requires in a daily decision.",
+        "sourceIds": [
+          "lds-deut-2",
+          "lds-agency",
+          "cfm-2026-20"
+        ]
+      }
+    },
+    {
+      "id": "deuteronomy-31",
+      "chapter": 31,
+      "start": 1,
+      "end": 30,
+      "title": "Joshua, the written law, and the song",
+      "summary": "Moses encourages Joshua, gives the written law to priests, and commands public readings. A song will serve as a witness against future unfaithfulness. Leadership, written instruction, and communal memory support continuity. The account also anticipates failure after Moses’s departure.",
+      "year": null,
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "placeIds": [
+        "moab"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-11",
+        "atlas-exodus",
+        "wiki-deuteronomy"
+      ],
+      "lds": {
+        "text": "Consider how a community can preserve its commitments when a leader changes.",
+        "sourceIds": [
+          "lds-deut-2"
+        ]
+      }
+    },
+    {
+      "id": "deuteronomy-32",
+      "chapter": 32,
+      "start": 1,
+      "end": 52,
+      "title": "The Song of Moses",
+      "summary": "The poem recounts God’s care, Israel’s neglect, judgment, and vindication. Moses then receives instructions to go up Mount Nebo. Poetry uses images that require interpretation. Deuteronomy 32 also has differences among surviving textual traditions that deserve separate study.",
+      "year": null,
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "placeIds": [
+        "moab",
+        "nebo"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-11",
+        "net-deut-32",
+        "atlas-exodus",
+        "dm-deuteronomy"
+      ],
+      "lds": {
+        "text": "The older manual connects the rock image with Christ. Its race-related explanations require comparison with the Church’s current rejection of racial inferiority theories.",
+        "sourceIds": [
+          "lds-deut-2",
+          "lds-race"
+        ]
+      }
+    },
+    {
+      "id": "deuteronomy-33",
+      "chapter": 33,
+      "start": 1,
+      "end": 29,
+      "title": "Blessings for the tribes",
+      "summary": "Moses blesses the tribes before his departure. The poem names tribal identities and describes their hopes, duties, and regions. These ancestral names often designate communities, not the sons of Jacob standing before Moses. Simeon receives no separate blessing in this chapter.",
+      "year": null,
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "placeIds": [
+        "moab",
+        "canaan"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-11",
+        "atlas-canaan",
+        "atlas-exodus"
+      ],
+      "lds": {
+        "text": "Compare this poem with Genesis 49. Distinguish a tribal blessing from a secure date or a prediction independently verified by archaeology.",
+        "sourceIds": [
+          "lds-deut-2"
+        ]
+      }
+    },
+    {
+      "id": "deuteronomy-34",
+      "chapter": 34,
+      "start": 1,
+      "end": 12,
+      "title": "Moses’s departure and Joshua’s leadership",
+      "summary": "Moses views the land from Nebo. The chapter narrates his death and an unknown burial place. Joshua receives the people’s obedience. The closing tribute honors Moses and confirms Joshua’s succession. The text does not identify a recoverable burial location.",
+      "year": null,
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "placeIds": [
+        "moab",
+        "nebo",
+        "canaan"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-11",
+        "atlas-canaan",
+        "atlas-exodus",
+        "wiki-deuteronomy"
+      ],
+      "lds": {
+        "text": "LDS sources interpret Moses’s departure as translation, a change without ordinary death. Keep that interpretation distinct from this chapter’s stated account.",
+        "sourceIds": [
+          "lds-deut-2",
+          "lds-moses",
+          "cfm-2026-20"
+        ]
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "deuteronomy-1",
+      "chapter": 1,
+      "verse": 1,
+      "eventOrder": 1,
+      "title": "Moses recalls the failed entry",
+      "summary": "Moses addresses Israel east of the Jordan. He recalls appointed judges, the scouts’ report, and the refusal to enter Canaan.",
+      "detail": "The speech selects earlier events to teach the present generation. A remembered journey is not a new movement by the listeners.",
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "sourceIds": [
+        "web",
+        "yale-11",
+        "atlas-exodus",
+        "atlas-canaan",
+        "wiki-deuteronomy"
+      ],
+      "placeIds": [
+        "moab",
+        "sinai",
+        "kadesh",
+        "canaan"
+      ],
+      "lds": {
+        "text": "Consider how your account of a past decision shapes what others learn from it.",
+        "sourceIds": [
+          "lds-deut-1"
+        ]
+      }
+    },
+    {
+      "id": "deuteronomy-2",
+      "chapter": 2,
+      "verse": 1,
+      "eventOrder": 2,
+      "title": "Neighboring lands and Sihon",
+      "summary": "Moses recalls travel near Edom, Moab, and Ammon. Israel must respect those territories. The speech then recounts war against Sihon.",
+      "detail": "The account distinguishes lands that Israel must leave alone from a territory acquired through war. Its violence remains part of the story.",
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "sourceIds": [
+        "web",
+        "yale-11",
+        "atlas-exodus"
+      ],
+      "placeIds": [
+        "moab",
+        "edom",
+        "heshbon"
+      ],
+      "lds": {
+        "text": "Consider the limits placed on territorial claims. Read the whole account rather than only its victory language.",
+        "sourceIds": [
+          "lds-deut-1"
+        ]
+      }
+    },
+    {
+      "id": "deuteronomy-3",
+      "chapter": 3,
+      "verse": 1,
+      "eventOrder": 3,
+      "title": "Og, eastern settlements, and Joshua",
+      "summary": "Moses recalls the defeat of Og and the allocation of eastern land. He encourages Joshua but cannot enter the land himself.",
+      "detail": "The account joins military success with a leadership limit. An eastern inheritance still carries duties toward the other tribes.",
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "sourceIds": [
+        "web",
+        "yale-11",
+        "atlas-canaan",
+        "atlas-exodus",
+        "atlas"
+      ],
+      "placeIds": [
+        "moab",
+        "bashan",
+        "gilead",
+        "canaan"
+      ],
+      "lds": {
+        "text": "Consider how receiving a benefit can leave continuing obligations to others.",
+        "sourceIds": [
+          "lds-deut-1"
+        ]
+      }
+    },
+    {
+      "id": "deuteronomy-4",
+      "chapter": 4,
+      "verse": 1,
+      "eventOrder": 4,
+      "title": "Remember the covenant",
+      "summary": "Moses urges obedience and warns against images. He recalls Horeb and sets apart three eastern refuge towns.",
+      "detail": "The speech makes remembered experience a duty to future generations. The warnings concern covenant loyalty rather than a measured history of every event.",
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "sourceIds": [
+        "web",
+        "yale-11",
+        "atlas-exodus",
+        "atlas"
+      ],
+      "placeIds": [
+        "moab",
+        "sinai",
+        "gilead",
+        "bashan"
+      ],
+      "lds": {
+        "text": "Consider how you can teach what you have learned without adding claims that the text does not make.",
+        "sourceIds": [
+          "lds-deut-1"
+        ]
+      }
+    },
+    {
+      "id": "deuteronomy-5",
+      "chapter": 5,
+      "verse": 1,
+      "eventOrder": 5,
+      "title": "The commandments recalled",
+      "summary": "Moses repeats the commandments and recalls Israel’s request for him to act as mediator. The Sabbath instruction remembers slavery in Egypt.",
+      "detail": "Compare this account with Exodus 20. The Sabbath reasons differ even though the command concerns the same weekly rest.",
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "sourceIds": [
+        "web",
+        "yale-11",
+        "atlas",
+        "atlas-exodus",
+        "wiki-deuteronomy"
+      ],
+      "placeIds": [
+        "moab",
+        "sinai",
+        "egypt"
+      ],
+      "lds": {
+        "text": "Consider how the memory of slavery can shape rest and care for other people.",
+        "sourceIds": [
+          "lds-deut-1"
+        ]
+      }
+    },
+    {
+      "id": "deuteronomy-6",
+      "chapter": 6,
+      "verse": 1,
+      "eventOrder": 6,
+      "title": "Love, teach, and remember",
+      "summary": "Moses calls Israel to love the Lord and teach these words in daily life. He warns against forgetting after receiving a good land.",
+      "detail": "The commands connect memory with ordinary places and repeated actions. Prosperity can make dependence on others easier to forget.",
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "sourceIds": [
+        "web",
+        "yale-11",
+        "atlas-canaan",
+        "atlas-exodus"
+      ],
+      "placeIds": [
+        "moab",
+        "canaan"
+      ],
+      "lds": {
+        "text": "Come, Follow Me studies love for God and teaching the next generation. Consider one daily practice that supports remembrance.",
+        "sourceIds": [
+          "lds-deut-1",
+          "cfm-2026-20"
+        ]
+      }
+    },
+    {
+      "id": "deuteronomy-7",
+      "chapter": 7,
+      "verse": 1,
+      "eventOrder": 7,
+      "title": "A chosen people and severe commands",
+      "summary": "The speech commands separation from surrounding worship and the destruction of named peoples. It also recalls God’s covenant with the ancestors.",
+      "detail": "The chapter combines divine love with commands for collective violence. Those commands must not become permission for violence against people today.",
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "sourceIds": [
+        "web",
+        "yale-11",
+        "atlas-canaan",
+        "atlas-exodus"
+      ],
+      "placeIds": [
+        "moab",
+        "canaan"
+      ],
+      "lds": {
+        "text": "Read covenant responsibilities beside the harm described in the chapter. Keep ancient commands distinct from present Church conduct.",
+        "sourceIds": [
+          "lds-deut-1",
+          "cfm-2026-20"
+        ]
+      }
+    },
+    {
+      "id": "deuteronomy-8",
+      "chapter": 8,
+      "verse": 1,
+      "eventOrder": 8,
+      "title": "Remember in prosperity",
+      "summary": "Moses recalls wilderness hunger and manna. He warns that a prosperous people must not claim that its own strength supplied everything.",
+      "detail": "The chapter links material success with memory and humility. Its account of wilderness testing belongs to the text’s religious explanation.",
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "sourceIds": [
+        "web",
+        "yale-11",
+        "atlas-canaan",
+        "atlas-exodus"
+      ],
+      "placeIds": [
+        "moab",
+        "canaan"
+      ],
+      "lds": {
+        "text": "The Church lesson asks readers to remember God in comfort as well as hardship. Consider what gratitude changes in your conduct.",
+        "sourceIds": [
+          "lds-deut-1",
+          "cfm-2026-20"
+        ]
+      }
+    },
+    {
+      "id": "deuteronomy-9",
+      "chapter": 9,
+      "verse": 1,
+      "eventOrder": 9,
+      "title": "The calf and intercession recalled",
+      "summary": "Moses denies that Israel receives the land because of its own righteousness. He recalls the golden calf, broken tablets, and his intercession.",
+      "detail": "The speech opposes self-congratulation with a record of failure. Moses’s remembered prayers stress the community’s dependence on mercy.",
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "sourceIds": [
+        "web",
+        "yale-11",
+        "atlas-exodus",
+        "atlas-canaan"
+      ],
+      "placeIds": [
+        "moab",
+        "sinai",
+        "canaan"
+      ],
+      "lds": {
+        "text": "Consider how honest memory can resist claims of moral superiority.",
+        "sourceIds": [
+          "lds-deut-1"
+        ]
+      }
+    },
+    {
+      "id": "deuteronomy-10",
+      "chapter": 10,
+      "verse": 1,
+      "eventOrder": 10,
+      "title": "New tablets and care for strangers",
+      "summary": "Moses recalls replacement tablets and the appointment of Levites. He calls Israel to love God and care for the stranger.",
+      "detail": "The commands join worship with social responsibility. Love for the stranger draws on the memory of being strangers in Egypt.",
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "sourceIds": [
+        "web",
+        "yale-11",
+        "atlas",
+        "atlas-exodus"
+      ],
+      "placeIds": [
+        "moab",
+        "sinai",
+        "egypt"
+      ],
+      "lds": {
+        "text": "Consider how memory of vulnerability can change your treatment of a newcomer.",
+        "sourceIds": [
+          "lds-deut-1"
+        ]
+      }
+    },
+    {
+      "id": "deuteronomy-11",
+      "chapter": 11,
+      "verse": 1,
+      "eventOrder": 11,
+      "title": "Teach the words and choose a path",
+      "summary": "Moses recalls Egypt and the judgment on Dathan and Abiram. He urges daily teaching and names Gerizim and Ebal for future blessings and curses.",
+      "detail": "The speech uses remembered events and an anticipated ceremony to press a choice. Naming the mountains does not place the present assembly there.",
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "sourceIds": [
+        "web",
+        "yale-11",
+        "atlas",
+        "atlas-exodus",
+        "atlas-canaan"
+      ],
+      "placeIds": [
+        "moab",
+        "egypt",
+        "gerizim",
+        "ebal"
+      ],
+      "lds": {
+        "text": "Consider what habits help a family pass on its commitments.",
+        "sourceIds": [
+          "lds-deut-1"
+        ]
+      }
+    },
+    {
+      "id": "deuteronomy-12",
+      "chapter": 12,
+      "verse": 1,
+      "eventOrder": 12,
+      "title": "The chosen place of worship",
+      "summary": "The law requires worship at a place God will choose. It distinguishes sacrifices from ordinary meat eaten at home and forbids consuming blood.",
+      "detail": "The chapter describes a central place without naming Jerusalem. Do not put a Jerusalem marker on the map as if this chapter named it.",
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "sourceIds": [
+        "web",
+        "yale-11",
+        "atlas-canaan",
+        "atlas-exodus"
+      ],
+      "placeIds": [
+        "moab",
+        "canaan"
+      ],
+      "lds": {
+        "text": "Consider how shared worship can shape community life. Keep the text’s unnamed sanctuary distinct from a later identification.",
+        "sourceIds": [
+          "lds-deut-1"
+        ]
+      }
+    },
+    {
+      "id": "deuteronomy-13",
+      "chapter": 13,
+      "verse": 1,
+      "eventOrder": 13,
+      "title": "Tests of covenant loyalty",
+      "summary": "The law addresses a prophet, close relative, or town that urges worship of other gods. It prescribes severe punishments.",
+      "detail": "The commands place loyalty above family and local ties. Their coercion belongs to an ancient legal setting and does not authorize present persecution.",
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "sourceIds": [
+        "web",
+        "yale-11",
+        "atlas-exodus"
+      ],
+      "placeIds": [
+        "moab"
+      ],
+      "lds": {
+        "text": "Consider how to examine a religious claim carefully. Keep this ancient punishment system distinct from present conduct.",
+        "sourceIds": [
+          "lds-deut-1"
+        ]
+      }
+    },
+    {
+      "id": "deuteronomy-14",
+      "chapter": 14,
+      "verse": 1,
+      "eventOrder": 14,
+      "title": "Food, tithes, and shared provision",
+      "summary": "The law distinguishes permitted foods and directs the use of tithes. A third-year provision supports Levites, strangers, orphans, and widows.",
+      "detail": "The chapter connects sacred identity with material care. Food rules and provision for vulnerable people have different functions within that system.",
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "sourceIds": [
+        "web",
+        "yale-11",
+        "atlas-canaan",
+        "atlas-exodus"
+      ],
+      "placeIds": [
+        "moab",
+        "canaan"
+      ],
+      "lds": {
+        "text": "Consider how your use of resources can include people who lack stable support.",
+        "sourceIds": [
+          "lds-deut-1"
+        ]
+      }
+    },
+    {
+      "id": "deuteronomy-15",
+      "chapter": 15,
+      "verse": 1,
+      "eventOrder": 15,
+      "title": "Release and an open hand",
+      "summary": "The law provides for debt release and the release of Hebrew slaves. It requires generosity toward people in need and gifts to people released from slavery.",
+      "detail": "The instructions address economic dependence within an unequal society. They require support as well as release from an obligation.",
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "sourceIds": [
+        "web",
+        "yale-11",
+        "atlas-exodus"
+      ],
+      "placeIds": [
+        "moab"
+      ],
+      "lds": {
+        "text": "Come, Follow Me studies a willing heart in helping people in need. Consider whether your help preserves their dignity.",
+        "sourceIds": [
+          "lds-deut-1",
+          "cfm-2026-20"
+        ]
+      }
+    },
+    {
+      "id": "deuteronomy-16",
+      "chapter": 16,
+      "verse": 1,
+      "eventOrder": 16,
+      "title": "Festivals and fair judgment",
+      "summary": "The law describes Passover, weeks, and booths. It also commands judges to avoid partiality and bribery.",
+      "detail": "The festivals include people who might otherwise remain outside a household’s celebration. Fair judgment is a public duty.",
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "sourceIds": [
+        "web",
+        "yale-11",
+        "atlas-canaan",
+        "atlas-exodus"
+      ],
+      "placeIds": [
+        "moab",
+        "canaan"
+      ],
+      "lds": {
+        "text": "Consider how celebrations and decisions can include people with less influence.",
+        "sourceIds": [
+          "lds-deut-1"
+        ]
+      }
+    },
+    {
+      "id": "deuteronomy-17",
+      "chapter": 17,
+      "verse": 1,
+      "eventOrder": 17,
+      "title": "Judges and limits on kings",
+      "summary": "The law addresses prohibited worship, difficult cases, and a future king. The king must read the law and limit wealth, horses, and wives.",
+      "detail": "Royal power remains subject to instruction. The king must not raise himself above his fellow Israelites.",
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "sourceIds": [
+        "web",
+        "yale-11",
+        "atlas-canaan",
+        "atlas-exodus"
+      ],
+      "placeIds": [
+        "moab",
+        "canaan"
+      ],
+      "lds": {
+        "text": "Consider what prevents a leader from treating authority as personal privilege.",
+        "sourceIds": [
+          "lds-deut-2"
+        ]
+      }
+    },
+    {
+      "id": "deuteronomy-18",
+      "chapter": 18,
+      "verse": 1,
+      "eventOrder": 18,
+      "title": "Priests and a prophet like Moses",
+      "summary": "The law provides support for priests, rejects certain divination practices, and promises a prophet like Moses. It gives a test for a prophetic claim.",
+      "detail": "The chapter distinguishes authorized instruction from prohibited practices. Later Christian and LDS texts apply the promised prophet to Jesus Christ.",
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "sourceIds": [
+        "web",
+        "yale-11",
+        "atlas-exodus"
+      ],
+      "placeIds": [
+        "moab"
+      ],
+      "lds": {
+        "text": "Come, Follow Me connects the prophet like Moses with Christ. Read that interpretation beside Acts 3 and 3 Nephi 20.",
+        "sourceIds": [
+          "lds-deut-2",
+          "lds-prophet",
+          "cfm-2026-20"
+        ]
+      }
+    },
+    {
+      "id": "deuteronomy-19",
+      "chapter": 19,
+      "verse": 1,
+      "eventOrder": 19,
+      "title": "Refuge, boundaries, and witnesses",
+      "summary": "The law establishes refuge for accidental killers, protects boundary markers, and requires multiple witnesses. False testimony receives a stated penalty.",
+      "detail": "The procedures distinguish an accident from deliberate murder. An accusation alone cannot establish guilt in the stated system.",
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "sourceIds": [
+        "web",
+        "yale-11",
+        "atlas-canaan",
+        "atlas-exodus"
+      ],
+      "placeIds": [
+        "moab",
+        "canaan"
+      ],
+      "lds": {
+        "text": "Consider why judgment needs witnesses and attention to circumstances.",
+        "sourceIds": [
+          "lds-deut-2"
+        ]
+      }
+    },
+    {
+      "id": "deuteronomy-20",
+      "chapter": 20,
+      "verse": 1,
+      "eventOrder": 20,
+      "title": "Rules for warfare",
+      "summary": "The law gives exemptions from military service and different instructions for distant and nearby cities. It limits destruction of fruit trees.",
+      "detail": "The chapter contains both restraints and commands for collective killing. Those commands do not establish that each named conquest occurred.",
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "sourceIds": [
+        "web",
+        "yale-11",
+        "atlas-canaan",
+        "atlas-exodus"
+      ],
+      "placeIds": [
+        "moab",
+        "canaan"
+      ],
+      "lds": {
+        "text": "Read the restraints and the violence together. Keep ancient war law distinct from present religious duty.",
+        "sourceIds": [
+          "lds-deut-2"
+        ]
+      }
+    },
+    {
+      "id": "deuteronomy-21",
+      "chapter": 21,
+      "verse": 1,
+      "eventOrder": 21,
+      "title": "Unsolved killing and household laws",
+      "summary": "The law addresses an unidentified killer, a captive woman, inheritance, a rebellious son, and burial after execution.",
+      "detail": "The chapter brings public responsibility beside unequal household power and severe penalties. Its captive-marriage rules do not establish free consent.",
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "sourceIds": [
+        "web",
+        "yale-11",
+        "atlas-exodus"
+      ],
+      "placeIds": [
+        "moab"
+      ],
+      "lds": {
+        "text": "Consider whose voice is absent from these laws. Keep the ancient penalties distinct from present family conduct.",
+        "sourceIds": [
+          "lds-deut-2"
+        ]
+      }
+    },
+    {
+      "id": "deuteronomy-22",
+      "chapter": 22,
+      "verse": 1,
+      "eventOrder": 22,
+      "title": "Neighborly care and sexual laws",
+      "summary": "The law requires help with lost animals and safe roofs. It also gives clothing rules and severe laws about marriage accusations and sexual acts.",
+      "detail": "Practical care stands beside an unequal ancient sexual legal system. A failure to cry out must not become a modern test of consent.",
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "sourceIds": [
+        "web",
+        "yale-11",
+        "atlas-exodus"
+      ],
+      "placeIds": [
+        "moab"
+      ],
+      "lds": {
+        "text": "Consider the duty to prevent foreseeable harm. Read the sexual laws within their ancient setting rather than using them to judge a survivor.",
+        "sourceIds": [
+          "lds-deut-2"
+        ]
+      }
+    },
+    {
+      "id": "deuteronomy-23",
+      "chapter": 23,
+      "verse": 1,
+      "eventOrder": 23,
+      "title": "Assembly, camp, and promises",
+      "summary": "The law restricts assembly membership, regulates camp cleanliness, and protects a person who escapes slavery from forced return. It also concerns interest and vows.",
+      "detail": "The chapter contains both exclusion and protection. Read each rule rather than treating all outsiders as one category.",
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "sourceIds": [
+        "web",
+        "yale-11",
+        "atlas",
+        "atlas-exodus"
+      ],
+      "placeIds": [
+        "moab",
+        "egypt",
+        "edom"
+      ],
+      "lds": {
+        "text": "Consider the protection offered to a person escaping slavery. Keep ancient membership restrictions distinct from present human worth.",
+        "sourceIds": [
+          "lds-deut-2"
+        ]
+      }
+    },
+    {
+      "id": "deuteronomy-24",
+      "chapter": 24,
+      "verse": 1,
+      "eventOrder": 24,
+      "title": "Household changes and protection of the poor",
+      "summary": "The law concerns divorce and remarriage, loans, wages, testimony, and gleaning. It protects certain essential belongings from seizure.",
+      "detail": "Daily economic rules can reduce harm to people with less power. The chapter remembers slavery as a reason for fair treatment.",
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "sourceIds": [
+        "web",
+        "yale-11",
+        "atlas",
+        "atlas-exodus"
+      ],
+      "placeIds": [
+        "moab",
+        "egypt"
+      ],
+      "lds": {
+        "text": "Consider how prompt payment and leaving resources for others can turn compassion into action.",
+        "sourceIds": [
+          "lds-deut-2"
+        ]
+      }
+    },
+    {
+      "id": "deuteronomy-25",
+      "chapter": 25,
+      "verse": 1,
+      "eventOrder": 25,
+      "title": "Fair measures and family continuity",
+      "summary": "The law limits flogging, regulates marriage after a brother’s death, requires honest weights, and remembers Amalek’s attack.",
+      "detail": "The chapter combines restraint, household continuity, commerce, and hostility. The marriage rule belongs to an ancient inheritance system.",
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "sourceIds": [
+        "web",
+        "yale-11",
+        "atlas-exodus"
+      ],
+      "placeIds": [
+        "moab"
+      ],
+      "lds": {
+        "text": "Consider why a fair measure matters when another person cannot verify your claim.",
+        "sourceIds": [
+          "lds-deut-2"
+        ]
+      }
+    },
+    {
+      "id": "deuteronomy-26",
+      "chapter": 26,
+      "verse": 1,
+      "eventOrder": 26,
+      "title": "First produce and covenant declaration",
+      "summary": "The worshiper brings first produce and recounts the ancestors’ hardship, Egypt, and deliverance. A declaration accompanies the third-year tithe.",
+      "detail": "The ritual connects possession of land with remembered dependence and shared provision. It turns a gift into a spoken account of identity.",
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "sourceIds": [
+        "web",
+        "yale-11",
+        "atlas",
+        "atlas-canaan",
+        "atlas-exodus"
+      ],
+      "placeIds": [
+        "moab",
+        "egypt",
+        "canaan"
+      ],
+      "lds": {
+        "text": "Consider how giving can include an honest account of what you received from others.",
+        "sourceIds": [
+          "lds-deut-2"
+        ]
+      }
+    },
+    {
+      "id": "deuteronomy-27",
+      "chapter": 27,
+      "verse": 1,
+      "eventOrder": 27,
+      "title": "Instructions for Ebal and Gerizim",
+      "summary": "Moses and the elders give instructions for an altar, written law, and spoken curses after entry. Tribes receive roles on the two mountains.",
+      "detail": "This chapter plans a future ceremony. Its curses name hidden wrongs and failures of justice as well as worship offenses.",
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "sourceIds": [
+        "web",
+        "yale-11",
+        "atlas-exodus",
+        "atlas-canaan"
+      ],
+      "placeIds": [
+        "moab",
+        "ebal",
+        "gerizim"
+      ],
+      "lds": {
+        "text": "Consider what a public promise requires when wrongdoing can remain hidden.",
+        "sourceIds": [
+          "lds-deut-2"
+        ]
+      }
+    },
+    {
+      "id": "deuteronomy-28",
+      "chapter": 28,
+      "verse": 1,
+      "eventOrder": 28,
+      "title": "Blessings and terrible curses",
+      "summary": "The speech lists blessings for obedience and curses for disobedience. It describes disease, military defeat, siege, hunger, and exile.",
+      "detail": "The chapter expresses covenant consequences in severe terms. It cannot establish that a person’s present illness or suffering proves wrongdoing.",
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "sourceIds": [
+        "web",
+        "yale-11",
+        "atlas",
+        "atlas-canaan",
+        "atlas-exodus"
+      ],
+      "placeIds": [
+        "moab",
+        "canaan",
+        "egypt"
+      ],
+      "lds": {
+        "text": "Read the whole warning with care. Avoid using its suffering language to assign blame to someone in distress.",
+        "sourceIds": [
+          "lds-deut-2"
+        ]
+      }
+    },
+    {
+      "id": "deuteronomy-29",
+      "chapter": 29,
+      "verse": 1,
+      "eventOrder": 29,
+      "title": "The covenant assembly",
+      "summary": "Moses addresses leaders, families, and strangers at the covenant gathering. He warns against hidden disloyalty and describes a devastated land.",
+      "detail": "The commitment includes people present and people not present. The speech makes continuity across generations part of the covenant.",
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "sourceIds": [
+        "web",
+        "yale-11",
+        "atlas-exodus"
+      ],
+      "placeIds": [
+        "moab"
+      ],
+      "lds": {
+        "text": "Come, Follow Me studies inward loyalty and shared covenant identity. Consider the effect of your choices on people who will follow you.",
+        "sourceIds": [
+          "lds-deut-2",
+          "cfm-2026-20"
+        ]
+      }
+    },
+    {
+      "id": "deuteronomy-30",
+      "chapter": 30,
+      "verse": 1,
+      "eventOrder": 30,
+      "title": "Return and choose life",
+      "summary": "Moses describes return after scattering and calls the people to love and obey God. He presents the instruction as near and calls them to choose life.",
+      "detail": "The chapter offers restoration beside warning. Its choice concerns love and conduct rather than a remote secret that cannot be reached.",
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "sourceIds": [
+        "web",
+        "yale-11",
+        "atlas-canaan",
+        "atlas-exodus"
+      ],
+      "placeIds": [
+        "moab",
+        "canaan"
+      ],
+      "lds": {
+        "text": "The Church lesson compares these words with Lehi’s teaching about agency. Consider what choosing life requires in a daily decision.",
+        "sourceIds": [
+          "lds-deut-2",
+          "lds-agency",
+          "cfm-2026-20"
+        ]
+      }
+    },
+    {
+      "id": "deuteronomy-31",
+      "chapter": 31,
+      "verse": 1,
+      "eventOrder": 31,
+      "title": "Joshua, the written law, and the song",
+      "summary": "Moses encourages Joshua, gives the written law to priests, and commands public readings. A song will serve as a witness against future unfaithfulness.",
+      "detail": "Leadership, written instruction, and communal memory support continuity. The account also anticipates failure after Moses’s departure.",
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "sourceIds": [
+        "web",
+        "yale-11",
+        "atlas-exodus",
+        "wiki-deuteronomy"
+      ],
+      "placeIds": [
+        "moab"
+      ],
+      "lds": {
+        "text": "Consider how a community can preserve its commitments when a leader changes.",
+        "sourceIds": [
+          "lds-deut-2"
+        ]
+      }
+    },
+    {
+      "id": "deuteronomy-32",
+      "chapter": 32,
+      "verse": 1,
+      "eventOrder": 32,
+      "title": "The Song of Moses",
+      "summary": "The poem recounts God’s care, Israel’s neglect, judgment, and vindication. Moses then receives instructions to go up Mount Nebo.",
+      "detail": "Poetry uses images that require interpretation. Deuteronomy 32 also has differences among surviving textual traditions that deserve separate study.",
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "sourceIds": [
+        "web",
+        "yale-11",
+        "net-deut-32",
+        "atlas-exodus",
+        "dm-deuteronomy"
+      ],
+      "placeIds": [
+        "moab",
+        "nebo"
+      ],
+      "lds": {
+        "text": "The older manual connects the rock image with Christ. Its race-related explanations require comparison with the Church’s current rejection of racial inferiority theories.",
+        "sourceIds": [
+          "lds-deut-2",
+          "lds-race"
+        ]
+      }
+    },
+    {
+      "id": "deuteronomy-33",
+      "chapter": 33,
+      "verse": 1,
+      "eventOrder": 33,
+      "title": "Blessings for the tribes",
+      "summary": "Moses blesses the tribes before his departure. The poem names tribal identities and describes their hopes, duties, and regions.",
+      "detail": "These ancestral names often designate communities, not the sons of Jacob standing before Moses. Simeon receives no separate blessing in this chapter.",
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "sourceIds": [
+        "web",
+        "yale-11",
+        "atlas-canaan",
+        "atlas-exodus"
+      ],
+      "placeIds": [
+        "moab",
+        "canaan"
+      ],
+      "lds": {
+        "text": "Compare this poem with Genesis 49. Distinguish a tribal blessing from a secure date or a prediction independently verified by archaeology.",
+        "sourceIds": [
+          "lds-deut-2"
+        ]
+      }
+    },
+    {
+      "id": "deuteronomy-34",
+      "chapter": 34,
+      "verse": 1,
+      "eventOrder": 34,
+      "title": "Moses’s departure and Joshua’s leadership",
+      "summary": "Moses views the land from Nebo. The chapter narrates his death and an unknown burial place. Joshua receives the people’s obedience.",
+      "detail": "The closing tribute honors Moses and confirms Joshua’s succession. The text does not identify a recoverable burial location.",
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "sourceIds": [
+        "web",
+        "yale-11",
+        "atlas-canaan",
+        "atlas-exodus",
+        "wiki-deuteronomy"
+      ],
+      "placeIds": [
+        "moab",
+        "nebo",
+        "canaan"
+      ],
+      "lds": {
+        "text": "LDS sources interpret Moses’s departure as translation, a change without ordinary death. Keep that interpretation distinct from this chapter’s stated account.",
+        "sourceIds": [
+          "lds-deut-2",
+          "lds-moses",
+          "cfm-2026-20"
+        ]
+      }
+    }
+  ],
+  "places": [
+    {
+      "id": "egypt",
+      "name": "Egypt",
+      "lat": 30.1,
+      "lng": 31.2,
+      "summary": "Famine draws Abraham and later Jacob's family into Egypt. Joseph rises to royal service.",
+      "limits": "This regional marker does not identify Joseph's palace or Pharaoh.",
+      "sourceIds": [
+        "web",
+        "atlas"
+      ],
+      "detail": "This regional marker does not identify Joseph's palace or Pharaoh.",
+      "uncertainty": "This regional marker does not identify Joseph's palace or Pharaoh.",
+      "chapterLocation": true
+    },
+    {
+      "id": "sinai",
+      "name": "Sinai",
+      "lat": 28.54,
+      "lng": 33.97,
+      "summary": "Israel receives the covenant and builds the sanctuary near Sinai.",
+      "limits": "The mountain’s identity is disputed. This marker is not a verified site.",
+      "sourceIds": [
+        "web",
+        "atlas-exodus"
+      ],
+      "detail": "The mountain’s identity is disputed. This marker is not a verified site.",
+      "uncertainty": "The mountain’s identity is disputed. This marker is not a verified site.",
+      "chapterLocation": true
+    },
+    {
+      "id": "kadesh",
+      "name": "Kadesh-barnea · proposed region",
+      "lat": 30.65,
+      "lng": 34.43,
+      "summary": "The narrative uses Kadesh as a base near Canaan.",
+      "limits": "The marker indicates the traditional Ain el-Qudeirat region. It does not verify a wilderness camp.",
+      "sourceIds": [
+        "web",
+        "atlas-exodus"
+      ],
+      "detail": "The marker indicates the traditional Ain el-Qudeirat region. It does not verify a wilderness camp.",
+      "uncertainty": "The marker indicates the traditional Ain el-Qudeirat region. It does not verify a wilderness camp.",
+      "chapterLocation": true
+    },
+    {
+      "id": "canaan",
+      "name": "Canaan · broad region",
+      "lat": 31.7,
+      "lng": 35.1,
+      "summary": "The scouts inspect the land that Israel expects to enter.",
+      "limits": "This marker represents a broad region, not a precise border or campsite.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan"
+      ],
+      "detail": "This marker represents a broad region, not a precise border or campsite.",
+      "uncertainty": "This marker represents a broad region, not a precise border or campsite.",
+      "chapterLocation": true
+    },
+    {
+      "id": "hebron",
+      "name": "Hebron",
+      "lat": 31.53,
+      "lng": 35.1,
+      "summary": "The scouts reach Hebron in Numbers 13.",
+      "limits": "The modern city indicates the general locality. The marker does not verify the scouts’ visit.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan"
+      ],
+      "detail": "The modern city indicates the general locality. The marker does not verify the scouts’ visit.",
+      "uncertainty": "The modern city indicates the general locality. The marker does not verify the scouts’ visit.",
+      "chapterLocation": true
+    },
+    {
+      "id": "edom",
+      "name": "Edom · broad region",
+      "lat": 30.75,
+      "lng": 35.5,
+      "summary": "Edom refuses Israel permission to pass through its territory.",
+      "limits": "The marker represents a region. It does not identify a king’s residence or exact border.",
+      "sourceIds": [
+        "web",
+        "atlas-exodus"
+      ],
+      "detail": "The marker represents a region. It does not identify a king’s residence or exact border.",
+      "uncertainty": "The marker represents a region. It does not identify a king’s residence or exact border.",
+      "chapterLocation": true
+    },
+    {
+      "id": "moab",
+      "name": "Plains of Moab · approximate region",
+      "lat": 31.85,
+      "lng": 35.65,
+      "summary": "Israel camps east of the Jordan opposite Jericho.",
+      "limits": "This is a regional display point. The camp and Balaam’s vantage points are not securely located.",
+      "sourceIds": [
+        "web",
+        "atlas-exodus"
+      ],
+      "detail": "This is a regional display point. The camp and Balaam’s vantage points are not securely located.",
+      "uncertainty": "This is a regional display point. The camp and Balaam’s vantage points are not securely located.",
+      "chapterLocation": true
+    },
+    {
+      "id": "heshbon",
+      "name": "Heshbon · proposed locality",
+      "lat": 31.8,
+      "lng": 35.81,
+      "summary": "The text associates Heshbon with Sihon’s rule.",
+      "limits": "Tall Hisban is a traditional identification. Its remains do not independently establish Sihon’s reign.",
+      "sourceIds": [
+        "web",
+        "atlas-exodus"
+      ],
+      "detail": "Tall Hisban is a traditional identification. Its remains do not independently establish Sihon’s reign.",
+      "uncertainty": "Tall Hisban is a traditional identification. Its remains do not independently establish Sihon’s reign.",
+      "chapterLocation": true
+    },
+    {
+      "id": "bashan",
+      "name": "Bashan · broad region",
+      "lat": 32.65,
+      "lng": 36.1,
+      "summary": "The account describes conflict with Og in Bashan.",
+      "limits": "The marker indicates a broad region, not a verified battle site or capital.",
+      "sourceIds": [
+        "web",
+        "atlas"
+      ],
+      "detail": "The marker indicates a broad region, not a verified battle site or capital.",
+      "uncertainty": "The marker indicates a broad region, not a verified battle site or capital.",
+      "chapterLocation": true
+    },
+    {
+      "id": "gilead",
+      "name": "Gilead · broad region",
+      "lat": 32.1,
+      "lng": 35.8,
+      "summary": "Eastern tribes request settlements in this region.",
+      "limits": "The point represents a region. It does not establish ancient settlement boundaries.",
+      "sourceIds": [
+        "web",
+        "atlas"
+      ],
+      "detail": "The point represents a region. It does not establish ancient settlement boundaries.",
+      "uncertainty": "The point represents a region. It does not establish ancient settlement boundaries.",
+      "chapterLocation": true
+    },
+    {
+      "id": "nebo",
+      "name": "Mount Nebo · traditional identification",
+      "lat": 31.768,
+      "lng": 35.726,
+      "summary": "Deuteronomy 34 names Nebo as Moses’s viewing place.",
+      "limits": "The marker shows the traditional Nebo locality. It does not identify Moses’s grave or prove the narrated event.",
+      "sourceIds": [
+        "web",
+        "atlas-exodus"
+      ],
+      "detail": "The marker shows the traditional Nebo locality. It does not identify Moses’s grave or prove the narrated event.",
+      "uncertainty": "The marker shows the traditional Nebo locality. It does not identify Moses’s grave or prove the narrated event.",
+      "chapterLocation": true
+    },
+    {
+      "id": "gerizim",
+      "name": "Mount Gerizim",
+      "lat": 32.2,
+      "lng": 35.27,
+      "summary": "Deuteronomy 11 and 27 name Gerizim for a future ceremony.",
+      "limits": "This is a geographical reference. Deuteronomy plans the ceremony but does not narrate its completion.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan"
+      ],
+      "detail": "This is a geographical reference. Deuteronomy plans the ceremony but does not narrate its completion.",
+      "uncertainty": "This is a geographical reference. Deuteronomy plans the ceremony but does not narrate its completion.",
+      "chapterLocation": true
+    },
+    {
+      "id": "ebal",
+      "name": "Mount Ebal",
+      "lat": 32.24,
+      "lng": 35.28,
+      "summary": "Deuteronomy 27 names Ebal for an altar and covenant ceremony.",
+      "limits": "This is a geographical reference. It does not establish the date or archaeological identity of the commanded altar.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan"
+      ],
+      "detail": "This is a geographical reference. It does not establish the date or archaeological identity of the commanded altar.",
+      "uncertainty": "This is a geographical reference. It does not establish the date or archaeological identity of the commanded altar.",
+      "chapterLocation": true
+    }
+  ],
+  "campaigns": [],
+  "ancientRoads": [],
+  "regions": [],
+  "words": [],
+  "guides": [
+    {
+      "id": "deuteronomy-overview",
+      "title": "Study Deuteronomy",
+      "description": "Follow selected chapters through the book.",
+      "steps": [
+        {
+          "title": "Moses recalls the failed entry",
+          "text": "Moses addresses Israel east of the Jordan. He recalls appointed judges, the scouts’ report, and the refusal to enter Canaan. The speech selects earlier events to teach the present generation. A remembered journey is not a new movement by the listeners.",
+          "chapter": 1,
+          "verse": 1,
+          "sourceIds": [
+            "web",
+            "yale-11",
+            "atlas-exodus",
+            "atlas-canaan",
+            "wiki-deuteronomy"
+          ]
+        },
+        {
+          "title": "Priests and a prophet like Moses",
+          "text": "The law provides support for priests, rejects certain divination practices, and promises a prophet like Moses. It gives a test for a prophetic claim. The chapter distinguishes authorized instruction from prohibited practices. Later Christian and LDS texts apply the promised prophet to Jesus Christ.",
+          "chapter": 18,
+          "verse": 1,
+          "sourceIds": [
+            "web",
+            "yale-11",
+            "atlas-exodus"
+          ]
+        },
+        {
+          "title": "Moses’s departure and Joshua’s leadership",
+          "text": "Moses views the land from Nebo. The chapter narrates his death and an unknown burial place. Joshua receives the people’s obedience. The closing tribute honors Moses and confirms Joshua’s succession. The text does not identify a recoverable burial location.",
+          "chapter": 34,
+          "verse": 1,
+          "sourceIds": [
+            "web",
+            "yale-11",
+            "atlas-canaan",
+            "atlas-exodus",
+            "wiki-deuteronomy"
+          ]
+        }
+      ]
+    }
+  ],
+  "periods": [
+    {
+      "id": "part-0",
+      "label": "Deuteronomy 1–11",
+      "start": 1,
+      "end": 11,
+      "description": "Chapter order"
+    },
+    {
+      "id": "part-1",
+      "label": "Deuteronomy 12–22",
+      "start": 12,
+      "end": 22,
+      "description": "Chapter order"
+    },
+    {
+      "id": "part-2",
+      "label": "Deuteronomy 23–34",
+      "start": 23,
+      "end": 34,
+      "description": "Chapter order"
+    }
+  ],
+  "chapterMaps": [
+    {
+      "chapter": 1,
+      "focusPlaceIds": [
+        "moab",
+        "sinai",
+        "kadesh",
+        "canaan"
+      ],
+      "placeIds": [
+        "moab",
+        "sinai",
+        "kadesh",
+        "canaan"
+      ],
+      "routes": [
+        {
+          "id": "deuteronomy-1-journey",
+          "to": 1,
+          "reference": "Deuteronomy 1:1",
+          "from": 0
+        }
+      ],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "narrative": "Moses addresses Israel east of the Jordan. He recalls appointed judges, the scouts’ report, and the refusal to enter Canaan.",
+      "limits": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "sourceIds": [
+        "web",
+        "yale-11",
+        "atlas-exodus",
+        "atlas-canaan",
+        "wiki-deuteronomy"
+      ]
+    },
+    {
+      "chapter": 2,
+      "focusPlaceIds": [
+        "moab",
+        "edom",
+        "heshbon"
+      ],
+      "placeIds": [
+        "moab",
+        "edom",
+        "heshbon"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "narrative": "Moses recalls travel near Edom, Moab, and Ammon. Israel must respect those territories. The speech then recounts war against Sihon.",
+      "limits": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "sourceIds": [
+        "web",
+        "yale-11",
+        "atlas-exodus"
+      ]
+    },
+    {
+      "chapter": 3,
+      "focusPlaceIds": [
+        "moab",
+        "bashan",
+        "gilead",
+        "canaan"
+      ],
+      "placeIds": [
+        "moab",
+        "bashan",
+        "gilead",
+        "canaan"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "narrative": "Moses recalls the defeat of Og and the allocation of eastern land. He encourages Joshua but cannot enter the land himself.",
+      "limits": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "sourceIds": [
+        "web",
+        "yale-11",
+        "atlas-canaan",
+        "atlas-exodus",
+        "atlas"
+      ]
+    },
+    {
+      "chapter": 4,
+      "focusPlaceIds": [
+        "moab",
+        "sinai",
+        "gilead",
+        "bashan"
+      ],
+      "placeIds": [
+        "moab",
+        "sinai",
+        "gilead",
+        "bashan"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "narrative": "Moses urges obedience and warns against images. He recalls Horeb and sets apart three eastern refuge towns.",
+      "limits": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "sourceIds": [
+        "web",
+        "yale-11",
+        "atlas-exodus",
+        "atlas"
+      ]
+    },
+    {
+      "chapter": 5,
+      "focusPlaceIds": [
+        "moab",
+        "sinai",
+        "egypt"
+      ],
+      "placeIds": [
+        "moab",
+        "sinai",
+        "egypt"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "narrative": "Moses repeats the commandments and recalls Israel’s request for him to act as mediator. The Sabbath instruction remembers slavery in Egypt.",
+      "limits": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "sourceIds": [
+        "web",
+        "yale-11",
+        "atlas",
+        "atlas-exodus",
+        "wiki-deuteronomy"
+      ]
+    },
+    {
+      "chapter": 6,
+      "focusPlaceIds": [
+        "moab",
+        "canaan"
+      ],
+      "placeIds": [
+        "moab",
+        "canaan"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "narrative": "Moses calls Israel to love the Lord and teach these words in daily life. He warns against forgetting after receiving a good land.",
+      "limits": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "sourceIds": [
+        "web",
+        "yale-11",
+        "atlas-canaan",
+        "atlas-exodus"
+      ]
+    },
+    {
+      "chapter": 7,
+      "focusPlaceIds": [
+        "moab",
+        "canaan"
+      ],
+      "placeIds": [
+        "moab",
+        "canaan"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "narrative": "The speech commands separation from surrounding worship and the destruction of named peoples. It also recalls God’s covenant with the ancestors.",
+      "limits": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "sourceIds": [
+        "web",
+        "yale-11",
+        "atlas-canaan",
+        "atlas-exodus"
+      ]
+    },
+    {
+      "chapter": 8,
+      "focusPlaceIds": [
+        "moab",
+        "canaan"
+      ],
+      "placeIds": [
+        "moab",
+        "canaan"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "narrative": "Moses recalls wilderness hunger and manna. He warns that a prosperous people must not claim that its own strength supplied everything.",
+      "limits": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "sourceIds": [
+        "web",
+        "yale-11",
+        "atlas-canaan",
+        "atlas-exodus"
+      ]
+    },
+    {
+      "chapter": 9,
+      "focusPlaceIds": [
+        "moab",
+        "sinai",
+        "canaan"
+      ],
+      "placeIds": [
+        "moab",
+        "sinai",
+        "canaan"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "narrative": "Moses denies that Israel receives the land because of its own righteousness. He recalls the golden calf, broken tablets, and his intercession.",
+      "limits": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "sourceIds": [
+        "web",
+        "yale-11",
+        "atlas-exodus",
+        "atlas-canaan"
+      ]
+    },
+    {
+      "chapter": 10,
+      "focusPlaceIds": [
+        "moab",
+        "sinai",
+        "egypt"
+      ],
+      "placeIds": [
+        "moab",
+        "sinai",
+        "egypt"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "narrative": "Moses recalls replacement tablets and the appointment of Levites. He calls Israel to love God and care for the stranger.",
+      "limits": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "sourceIds": [
+        "web",
+        "yale-11",
+        "atlas",
+        "atlas-exodus"
+      ]
+    },
+    {
+      "chapter": 11,
+      "focusPlaceIds": [
+        "moab",
+        "egypt",
+        "gerizim",
+        "ebal"
+      ],
+      "placeIds": [
+        "moab",
+        "egypt",
+        "gerizim",
+        "ebal"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "narrative": "Moses recalls Egypt and the judgment on Dathan and Abiram. He urges daily teaching and names Gerizim and Ebal for future blessings and curses.",
+      "limits": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "sourceIds": [
+        "web",
+        "yale-11",
+        "atlas",
+        "atlas-exodus",
+        "atlas-canaan"
+      ]
+    },
+    {
+      "chapter": 12,
+      "focusPlaceIds": [
+        "moab",
+        "canaan"
+      ],
+      "placeIds": [
+        "moab",
+        "canaan"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "narrative": "The law requires worship at a place God will choose. It distinguishes sacrifices from ordinary meat eaten at home and forbids consuming blood.",
+      "limits": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "sourceIds": [
+        "web",
+        "yale-11",
+        "atlas-canaan",
+        "atlas-exodus"
+      ]
+    },
+    {
+      "chapter": 13,
+      "focusPlaceIds": [
+        "moab"
+      ],
+      "placeIds": [
+        "moab"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "narrative": "The law addresses a prophet, close relative, or town that urges worship of other gods. It prescribes severe punishments.",
+      "limits": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "sourceIds": [
+        "web",
+        "yale-11",
+        "atlas-exodus"
+      ]
+    },
+    {
+      "chapter": 14,
+      "focusPlaceIds": [
+        "moab",
+        "canaan"
+      ],
+      "placeIds": [
+        "moab",
+        "canaan"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "narrative": "The law distinguishes permitted foods and directs the use of tithes. A third-year provision supports Levites, strangers, orphans, and widows.",
+      "limits": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "sourceIds": [
+        "web",
+        "yale-11",
+        "atlas-canaan",
+        "atlas-exodus"
+      ]
+    },
+    {
+      "chapter": 15,
+      "focusPlaceIds": [
+        "moab"
+      ],
+      "placeIds": [
+        "moab"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "narrative": "The law provides for debt release and the release of Hebrew slaves. It requires generosity toward people in need and gifts to people released from slavery.",
+      "limits": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "sourceIds": [
+        "web",
+        "yale-11",
+        "atlas-exodus"
+      ]
+    },
+    {
+      "chapter": 16,
+      "focusPlaceIds": [
+        "moab",
+        "canaan"
+      ],
+      "placeIds": [
+        "moab",
+        "canaan"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "narrative": "The law describes Passover, weeks, and booths. It also commands judges to avoid partiality and bribery.",
+      "limits": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "sourceIds": [
+        "web",
+        "yale-11",
+        "atlas-canaan",
+        "atlas-exodus"
+      ]
+    },
+    {
+      "chapter": 17,
+      "focusPlaceIds": [
+        "moab",
+        "canaan"
+      ],
+      "placeIds": [
+        "moab",
+        "canaan"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "narrative": "The law addresses prohibited worship, difficult cases, and a future king. The king must read the law and limit wealth, horses, and wives.",
+      "limits": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "sourceIds": [
+        "web",
+        "yale-11",
+        "atlas-canaan",
+        "atlas-exodus"
+      ]
+    },
+    {
+      "chapter": 18,
+      "focusPlaceIds": [
+        "moab"
+      ],
+      "placeIds": [
+        "moab"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "narrative": "The law provides support for priests, rejects certain divination practices, and promises a prophet like Moses. It gives a test for a prophetic claim.",
+      "limits": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "sourceIds": [
+        "web",
+        "yale-11",
+        "atlas-exodus"
+      ]
+    },
+    {
+      "chapter": 19,
+      "focusPlaceIds": [
+        "moab",
+        "canaan"
+      ],
+      "placeIds": [
+        "moab",
+        "canaan"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "narrative": "The law establishes refuge for accidental killers, protects boundary markers, and requires multiple witnesses. False testimony receives a stated penalty.",
+      "limits": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "sourceIds": [
+        "web",
+        "yale-11",
+        "atlas-canaan",
+        "atlas-exodus"
+      ]
+    },
+    {
+      "chapter": 20,
+      "focusPlaceIds": [
+        "moab",
+        "canaan"
+      ],
+      "placeIds": [
+        "moab",
+        "canaan"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "narrative": "The law gives exemptions from military service and different instructions for distant and nearby cities. It limits destruction of fruit trees.",
+      "limits": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "sourceIds": [
+        "web",
+        "yale-11",
+        "atlas-canaan",
+        "atlas-exodus"
+      ]
+    },
+    {
+      "chapter": 21,
+      "focusPlaceIds": [
+        "moab"
+      ],
+      "placeIds": [
+        "moab"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "narrative": "The law addresses an unidentified killer, a captive woman, inheritance, a rebellious son, and burial after execution.",
+      "limits": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "sourceIds": [
+        "web",
+        "yale-11",
+        "atlas-exodus"
+      ]
+    },
+    {
+      "chapter": 22,
+      "focusPlaceIds": [
+        "moab"
+      ],
+      "placeIds": [
+        "moab"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "narrative": "The law requires help with lost animals and safe roofs. It also gives clothing rules and severe laws about marriage accusations and sexual acts.",
+      "limits": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "sourceIds": [
+        "web",
+        "yale-11",
+        "atlas-exodus"
+      ]
+    },
+    {
+      "chapter": 23,
+      "focusPlaceIds": [
+        "moab",
+        "egypt",
+        "edom"
+      ],
+      "placeIds": [
+        "moab",
+        "egypt",
+        "edom"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "narrative": "The law restricts assembly membership, regulates camp cleanliness, and protects a person who escapes slavery from forced return. It also concerns interest and vows.",
+      "limits": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "sourceIds": [
+        "web",
+        "yale-11",
+        "atlas",
+        "atlas-exodus"
+      ]
+    },
+    {
+      "chapter": 24,
+      "focusPlaceIds": [
+        "moab",
+        "egypt"
+      ],
+      "placeIds": [
+        "moab",
+        "egypt"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "narrative": "The law concerns divorce and remarriage, loans, wages, testimony, and gleaning. It protects certain essential belongings from seizure.",
+      "limits": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "sourceIds": [
+        "web",
+        "yale-11",
+        "atlas",
+        "atlas-exodus"
+      ]
+    },
+    {
+      "chapter": 25,
+      "focusPlaceIds": [
+        "moab"
+      ],
+      "placeIds": [
+        "moab"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "narrative": "The law limits flogging, regulates marriage after a brother’s death, requires honest weights, and remembers Amalek’s attack.",
+      "limits": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "sourceIds": [
+        "web",
+        "yale-11",
+        "atlas-exodus"
+      ]
+    },
+    {
+      "chapter": 26,
+      "focusPlaceIds": [
+        "moab",
+        "egypt",
+        "canaan"
+      ],
+      "placeIds": [
+        "moab",
+        "egypt",
+        "canaan"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "narrative": "The worshiper brings first produce and recounts the ancestors’ hardship, Egypt, and deliverance. A declaration accompanies the third-year tithe.",
+      "limits": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "sourceIds": [
+        "web",
+        "yale-11",
+        "atlas",
+        "atlas-canaan",
+        "atlas-exodus"
+      ]
+    },
+    {
+      "chapter": 27,
+      "focusPlaceIds": [
+        "moab",
+        "ebal",
+        "gerizim"
+      ],
+      "placeIds": [
+        "moab",
+        "ebal",
+        "gerizim"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "narrative": "Moses and the elders give instructions for an altar, written law, and spoken curses after entry. Tribes receive roles on the two mountains.",
+      "limits": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "sourceIds": [
+        "web",
+        "yale-11",
+        "atlas-exodus",
+        "atlas-canaan"
+      ]
+    },
+    {
+      "chapter": 28,
+      "focusPlaceIds": [
+        "moab",
+        "canaan",
+        "egypt"
+      ],
+      "placeIds": [
+        "moab",
+        "canaan",
+        "egypt"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "narrative": "The speech lists blessings for obedience and curses for disobedience. It describes disease, military defeat, siege, hunger, and exile.",
+      "limits": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "sourceIds": [
+        "web",
+        "yale-11",
+        "atlas",
+        "atlas-canaan",
+        "atlas-exodus"
+      ]
+    },
+    {
+      "chapter": 29,
+      "focusPlaceIds": [
+        "moab"
+      ],
+      "placeIds": [
+        "moab"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "narrative": "Moses addresses leaders, families, and strangers at the covenant gathering. He warns against hidden disloyalty and describes a devastated land.",
+      "limits": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "sourceIds": [
+        "web",
+        "yale-11",
+        "atlas-exodus"
+      ]
+    },
+    {
+      "chapter": 30,
+      "focusPlaceIds": [
+        "moab",
+        "canaan"
+      ],
+      "placeIds": [
+        "moab",
+        "canaan"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "narrative": "Moses describes return after scattering and calls the people to love and obey God. He presents the instruction as near and calls them to choose life.",
+      "limits": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "sourceIds": [
+        "web",
+        "yale-11",
+        "atlas-canaan",
+        "atlas-exodus"
+      ]
+    },
+    {
+      "chapter": 31,
+      "focusPlaceIds": [
+        "moab"
+      ],
+      "placeIds": [
+        "moab"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "narrative": "Moses encourages Joshua, gives the written law to priests, and commands public readings. A song will serve as a witness against future unfaithfulness.",
+      "limits": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "sourceIds": [
+        "web",
+        "yale-11",
+        "atlas-exodus",
+        "wiki-deuteronomy"
+      ]
+    },
+    {
+      "chapter": 32,
+      "focusPlaceIds": [
+        "moab",
+        "nebo"
+      ],
+      "placeIds": [
+        "moab",
+        "nebo"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "narrative": "The poem recounts God’s care, Israel’s neglect, judgment, and vindication. Moses then receives instructions to go up Mount Nebo.",
+      "limits": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "sourceIds": [
+        "web",
+        "yale-11",
+        "net-deut-32",
+        "atlas-exodus",
+        "dm-deuteronomy"
+      ]
+    },
+    {
+      "chapter": 33,
+      "focusPlaceIds": [
+        "moab",
+        "canaan"
+      ],
+      "placeIds": [
+        "moab",
+        "canaan"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "narrative": "Moses blesses the tribes before his departure. The poem names tribal identities and describes their hopes, duties, and regions.",
+      "limits": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "sourceIds": [
+        "web",
+        "yale-11",
+        "atlas-canaan",
+        "atlas-exodus"
+      ]
+    },
+    {
+      "chapter": 34,
+      "focusPlaceIds": [
+        "moab",
+        "nebo",
+        "canaan"
+      ],
+      "placeIds": [
+        "moab",
+        "nebo",
+        "canaan"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "narrative": "Moses views the land from Nebo. The chapter narrates his death and an unknown burial place. Joshua receives the people’s obedience.",
+      "limits": "Moab is the speech setting. Other markers show recalled places or future instructions. Regions and traditional locations are approximate.",
+      "sourceIds": [
+        "web",
+        "yale-11",
+        "atlas-canaan",
+        "atlas-exodus",
+        "wiki-deuteronomy"
+      ]
+    }
+  ],
+  "textRoutes": [
+    {
+      "id": "deuteronomy-1-journey",
+      "title": "Moses recalls the failed entry",
+      "points": [
+        [
+          28.54,
+          33.97
+        ],
+        [
+          30.65,
+          34.43
+        ]
+      ],
+      "chapter": 1,
+      "verse": 1,
+      "summary": "Moses addresses Israel east of the Jordan. He recalls appointed judges, the scouts’ report, and the refusal to enter Canaan.",
+      "detail": "The speech selects earlier events to teach the present generation. A remembered journey is not a new movement by the listeners.",
+      "uncertainty": "Moses recalls the Horeb-to-Kadesh journey in Deuteronomy 1. This is a retrospective, simplified line. It omits uncertain camps and does not show an excavated road.",
+      "evidence": "Moses recalls the Horeb-to-Kadesh journey in Deuteronomy 1. This is a retrospective, simplified line. It omits uncertain camps and does not show an excavated road.",
+      "kind": "journey",
+      "direction": true,
+      "textRoute": true,
+      "sourceIds": [
+        "web",
+        "yale-11",
+        "atlas-exodus",
+        "atlas-canaan",
+        "wiki-deuteronomy"
+      ]
+    }
+  ],
+  "narrativeRegions": [],
+  "chapterStudies": []
+}

@@ -12,11 +12,12 @@ Book pages use `/book.html?book=<slug>`.
 - Exodus: all 40 chapters, 1,213 verses, 40 chapter studies, and 20 person profiles with portraits.
 - Leviticus: all 27 chapters, 859 verses, 27 chapter studies, and seven person profiles with portraits.
 - Numbers: all 36 chapters, 1,288 verses, 36 chapter studies, and 25 person profiles with portraits.
-- Other 61 books: directory entries and clear planned pages. They have no study content yet.
+- Deuteronomy: all 34 chapters, 959 verses, 34 chapter studies, and 29 selected person or ancestral profiles with portraits.
+- Other 60 books: directory entries and clear planned pages. They have no study content yet.
 
 ## Next book
 
-Deuteronomy is next in canonical order. Complete and verify one book before starting another.
+Joshua is next in canonical order. Complete and verify one book before starting another.
 Do not label a book ready until its reading text, chapter studies, sources, portraits, and maps pass review.
 Use the existing Isaiah guide as the detail standard. Genesis currently has selected major people and chapter-level events.
 Future enrichment can add finer passage divisions, additional people, language notes, and more specific citations.
@@ -35,7 +36,7 @@ Further weeks can continue the backlog, but no recurring schedule has been creat
 
 Follow `BIBLE-SOURCE-POLICY.md` for every source category.
 The native build applies `scripts/bible_source_enrichment.py` after each book rebuild.
-Genesis, Exodus, Leviticus, and Numbers include reviewed 2026 Come, Follow Me lessons, Wikipedia revisions, and McClellan notes. Numbers uses his original commentary on Numbers 22.
+Genesis, Exodus, Leviticus, Numbers, and Deuteronomy include reviewed 2026 Come, Follow Me lessons, Wikipedia revisions, and McClellan notes. Numbers uses his original commentary on Numbers 22.
 The transcript is machine-generated and lightly edited. Audio was not checked. These limits appear in source details.
 Selected scholarly publication records support further study. Publisher descriptions do not count as full-text review.
 
@@ -77,6 +78,8 @@ Run `python scripts/build-bible.py` to rebuild the directory and Genesis text.
 Run `python scripts/build-exodus.py` to rebuild Exodus.
 Run `python scripts/build-leviticus.py` to rebuild Leviticus.
 Run `python scripts/build-numbers.py` to rebuild Numbers.
+Run `python scripts/build-deuteronomy.py` to rebuild Deuteronomy.
+Run `python scripts/finish-deuteronomy-art.py` to restore Deuteronomy art records.
 Run `python scripts/finish-numbers-art.py` to restore Numbers art records.
 Run `python scripts/fetch-bible-art.py --download` to fetch the selected historical art.
 Run `python scripts/finish-bible-art.py` after historical art downloads to preserve the generated Zilpah record.
@@ -88,3 +91,9 @@ Generated portraits vary pose, framing, expression, lighting, colors, and backgr
 The five inheritance claimants each have a distinct portrait and profile.
 Noah and Milcah use separate identifiers from people with those names in Genesis.
 Caleb’s historical illustration depicts the later Joshua 14 episode, as stated in its art record.
+
+Deuteronomy reuses 23 portraits and adds six reviewed public-domain Zurbarán paintings of tribal ancestors.
+Profiles explain that ancestral tribal names do not place those ancestors at Moses’s assembly.
+Its map distinguishes retrospective locations and planned ceremonies from the present Moab setting.
+Current Church teaching accompanies the older manual’s race-related statements in chapter 32.
+Moses’s departure retains the biblical death account and separately presents the LDS interpretation of translation.

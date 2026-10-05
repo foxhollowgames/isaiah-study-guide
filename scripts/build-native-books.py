@@ -39,6 +39,9 @@ for entry in json.loads((OUT/'directory.json').read_text(encoding='utf-8')):
     write(OUT/f'{slug}-native-scripture.json',dict(translation=b['translation'],copyright=b['copyright'],chapters=b['scripture']))
     profiles={p['id']:dict(name=p['name'],role=p['role'],life=p['life'],dateNote='Historical life dates remain uncertain.',locations=[next(q for q in b['places'] if q['id']==pid)['name'] for pid in p.get('placeIds',[])],passages=[p['passages']],importance=p['meaning'],connections=p['relations']) for p in b['people']}
     for p in b['people']:
+        labels=p['name'].split(' / ')
+        profiles[p['id']]['name']=labels[0]
+        profiles[p['id']]['linkNames']=p.get('linkNames',[label for label in labels[1:] if label not in ['Israel','Edom']])
         chapter_ids=set(c['chapter'] for c in b['chapters'] if p['id'] in c['people'])
         for m in re.finditer(r'(?:'+re.escape(name)+r'\s+|;\s*)(\d+)(?:[–-](\d+))?(?=:|;|$)',p['passages']):chapter_ids.update(range(int(m[1]),int(m[2] or m[1])+1))
         profiles[p['id']]['chapterIds']=sorted(chapter_ids)
