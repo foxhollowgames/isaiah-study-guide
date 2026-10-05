@@ -7,6 +7,7 @@ DATE='2026-10-05'
 CFM='https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/'
 def span(a,z):return list(range(a,z+1))
 LESSONS=[
+ ('judges',22,[2,3,4,6,7,8,13,14,15,16],'Judges 2–4; 6–8; 13–16','The lesson studies repeated repentance, Deborah’s influence, trust through Gideon’s experience, and Samson’s covenant conduct.'),
  ('joshua',21,span(1,8)+[23,24],'Joshua 1–8; 23–24','The lesson studies courage, scripture study, Rahab’s faith and actions, remembrance, and choosing to serve God.'),
  ('deuteronomy',20,[6,7,8,15,18,29,30,34],'Deuteronomy 6–8; 15; 18; 29–30; 34','The lesson studies love for God, remembrance, generous care, and agency. It connects the prophet like Moses with Jesus Christ.'),
  ('genesis',3,span(1,2),'Genesis 1–2; Moses 2–3; Abraham 4–5','The lesson connects creation with human worth, care for creation, marriage, and the Sabbath.'),
@@ -27,6 +28,7 @@ LESSONS=[
  ('numbers',19,[11,12,13,14,20,21,22,23,24,27],'Numbers 11–14; 20–24; 27','The lesson studies gratitude, meekness, trust, and resistance to pressure. It connects the bronze serpent with faith in Christ.'),
 ]
 WIKI={
+ 'judges':([1,2,17,21],'Judges combines local deliverance accounts with a repeated crisis pattern. Its closing episodes concern a shrine, migration, and conflict within Israel.'),
  'joshua':([1,13,24],'Joshua moves from crossing and campaigns to land distribution and final covenant addresses. This overview supplies the book’s broad structure.'),
  'deuteronomy':([1,5,31,34],'Deuteronomy presents Moses’s addresses before Israel’s entry into the land. Its ending includes poems, Joshua’s succession, and the account of Moses’s departure.'),
  'genesis':([1,12,50],'Genesis moves from creation and early humanity to the families of Abraham, Isaac, Jacob, and Joseph. This overview helps explain the book’s structure.'),
@@ -74,6 +76,8 @@ def enrich(data):
     data['review']['sourcePolicy']='BIBLE-SOURCE-POLICY.md'
     if slug=='numbers':
         add(data,dict(id='dm-numbers',title='Satan as a Fallen Angel · Numbers 22 note',author='Dan McClellan',year='September 13, 2009',category='Scholar commentary',perspective='historical',group='mcclellan',url='https://danielomcclellan.wordpress.com/2009/09/13/satan-as-a-fallen-angel/',summary='McClellan’s notes distinguish an adversary as a role from Satan as a personal name. In Numbers 22, the angel opposes Balaam. This does not identify the angel as the later figure of Satan.',reviewed=DATE+': The original post and footnotes 1–2 were reviewed. The broader history proposed in the post was not independently verified.',limits='This older scholarly post supplies a focused reading of Numbers 22. It is not Church teaching or a verified account of every stage in beliefs about Satan.',license='Linked original post. Original guide summary.'),[22])
+    if slug=='judges':
+        add(data,dict(id='dm-judges',title='The Song of Deborah and the Rise of Israel',author='Dan McClellan',year='January 7, 2013',category='Scholar commentary',perspective='historical',group='mcclellan',url='https://danielomcclellan.wordpress.com/2013/01/07/the-song-of-deborah-and-the-rise-of-israel/',summary='McClellan studies participating and absent tribes in Judges 5. He proposes that the song preserves an earlier pattern of cooperation among groups.',reviewed=DATE+': Original post reviewed. Its proposed dates and reconstruction of early Israel were not independently verified.',limits='This is one scholar’s older interpretation. The guide does not adopt its speculative link between Sisera’s name and Ramses II or treat it as a verified event date.',license='Linked original post. Original guide summary.'),[5])
     if slug=='deuteronomy':
         add(data,dict(id='dm-deuteronomy',title='Angels and Gods at Qumran · Deuteronomy 32 discussion',author='Dan McClellan',year='May 28, 2010',category='Scholar commentary',perspective='historical',group='mcclellan',url='https://danielomcclellan.wordpress.com/2010/05/28/angels-and-gods-at-qumran/',summary='McClellan argues that Greek renderings of Deuteronomy 32 connect divine beings with angels. His discussion concerns textual interpretation and changes in religious categories.',reviewed=DATE+': Original post reviewed, especially its discussion of Deuteronomy 32:8–9 and 43. Reader comments are not used as evidence.',limits='This is an older scholarly interpretation, separate from Church teaching. The proposed historical sequence is not independently verified here. Hebrew and Greek text is not copied from the post.',license='Linked original post. Original guide summary.'),[32])
     data['review']['sourceEnrichmentDate']=DATE

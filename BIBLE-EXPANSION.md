@@ -14,11 +14,12 @@ Book pages use `/book.html?book=<slug>`.
 - Numbers: all 36 chapters, 1,288 verses, 36 chapter studies, and 25 person profiles with portraits.
 - Deuteronomy: all 34 chapters, 959 verses, 34 chapter studies, and 29 selected person or ancestral profiles with portraits.
 - Joshua: all 24 chapters, 658 verses, 24 chapter studies, and 46 selected person or ancestral profiles with portraits.
-- Other 59 books: directory entries and clear planned pages. They have no study content yet.
+- Judges: all 21 chapters, 618 verses, 21 chapter studies, and 62 selected profiles with portraits.
+- Other 58 books: directory entries and clear planned pages. They have no study content yet.
 
 ## Next book
 
-Judges is next in canonical order. Complete and verify one book before starting another.
+Ruth is next in canonical order. Complete and verify one book before starting another.
 Do not label a book ready until its reading text, chapter studies, sources, portraits, and maps pass review.
 Use the existing Isaiah guide as the detail standard. Genesis currently has selected major people and chapter-level events.
 Future enrichment can add finer passage divisions, additional people, language notes, and more specific citations.
@@ -105,3 +106,10 @@ Fire deposits are not attributed to Joshua without evidence. Uncertain places an
 Joshua portraits reuse 33 established assets and add four historical illustrations and nine generated interpretations.
 The generated prompt set and saved asset paths are in scripts/joshua-generated-portraits.json.
 Build Joshua with scripts/build-joshua.py, scripts/finish-joshua-art.py, and scripts/build-native-books.py, in that order.
+
+Judges uses Yale lecture 13, SBL publisher context, a NET textual note, and reviewed McClellan commentary on Judges 5.
+Current Come, Follow Me coverage remains separate from the 1980 Institute manuals.
+The guide preserves differing readings of Jephthah’s vow and the Moses/Manasseh textual variation.
+Judges reuses 24 portraits, adds 21 historical art assets, shares two scene illustrations, and adds 15 generated portraits.
+The prompts and saved asset paths are in scripts/judges-generated-portraits.json.
+Build Judges with scripts/build-judges.py, scripts/finish-judges-art.py, and scripts/build-native-books.py, in that order.

@@ -1,0 +1,2774 @@
+{
+  "sources": [
+    {
+      "id": "web",
+      "title": "Judges — World English Bible",
+      "url": "https://ebible.org/engwebp/JDG01.htm",
+      "summary": "The public-domain reading text supplies all 21 chapters.",
+      "category": "Scripture",
+      "perspective": "historical",
+      "limits": "The text supplies the narrated events and named people. It does not independently verify dates or each historical claim.",
+      "type": "Scripture",
+      "limitations": "The text supplies the narrated events and named people. It does not independently verify dates or each historical claim.",
+      "license": "Public domain"
+    },
+    {
+      "id": "atlas",
+      "title": "Bible Maps: The World of the Old Testament",
+      "perspective": "historical",
+      "category": "Geography",
+      "url": "https://www.churchofjesuschrist.org/study/scriptures/bible-maps/map-9?lang=eng",
+      "summary": "This Church-published atlas locates the wider setting and marks some disputed places.",
+      "limits": "Use the geographic labels as context. The linked atlas also includes LDS commentary.",
+      "type": "Geography",
+      "limitations": "Use the geographic labels as context. The linked atlas also includes LDS commentary.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "atlas-canaan",
+      "title": "Bible Maps: Canaan in Old Testament Times",
+      "perspective": "historical",
+      "category": "Geography",
+      "url": "https://www.churchofjesuschrist.org/study/scriptures/bible-maps/map-10?lang=eng",
+      "summary": "This Church-published atlas identifies towns and regions in Canaan.",
+      "limits": "Coordinates are display estimates. A town marker does not verify each Genesis event.",
+      "type": "Geography",
+      "limitations": "Coordinates are display estimates. A town marker does not verify each Genesis event.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "terrain",
+      "title": "Mapzen / Tilezen terrain and Natural Earth geography",
+      "perspective": "historical",
+      "category": "Geography",
+      "url": "https://registry.opendata.aws/terrain-tiles/",
+      "summary": "Cached terrain shows modern elevation. Natural Earth supplies the land and water outlines.",
+      "limits": "Modern terrain is a geographic aid. It does not reconstruct ancient shorelines or settlements.",
+      "type": "Geography",
+      "limitations": "Modern terrain is a geographic aid. It does not reconstruct ancient shorelines or settlements.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "atlas-exodus",
+      "title": "Bible Maps: Israel’s Exodus from Egypt and Entry into Canaan",
+      "url": "https://www.churchofjesuschrist.org/study/scriptures/bible-maps/map-2?lang=eng",
+      "summary": "The Church-published map marks a traditional route and several uncertain sites.",
+      "category": "Geography",
+      "perspective": "historical",
+      "limits": "The displayed route is a study tradition. It does not establish a verified sea crossing or Sinai site.",
+      "type": "Geography",
+      "limitations": "The displayed route is a study tradition. It does not establish a verified sea crossing or Sinai site.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "yale-13",
+      "title": "The Deuteronomistic History: Prophets and Kings · Judges section",
+      "url": "https://oyc.yale.edu/religious-studies/rlst-145/lecture-13",
+      "summary": "Hayes studies local leaders, the repeated crisis pattern, competing views of kingship, and the violence of the closing chapters.",
+      "category": "Scholarly study",
+      "perspective": "historical",
+      "limits": "The reviewed section is a 2006 lecture interpretation. Proposed source layers and dates are not independently verified here.",
+      "author": "Christine Hayes",
+      "year": "Fall 2006 course",
+      "reviewed": "2026-10-05: Published transcript sections on the tribal setting and Judges, approximately 1:53–23:05, reviewed.",
+      "type": "Scholarly study",
+      "limitations": "The reviewed section is a 2006 lecture interpretation. Proposed source layers and dates are not independently verified here.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "sbl-gender",
+      "title": "Reading Gender in Judges: An Intertextual Approach",
+      "url": "https://cart.sbl-site.org/books/0603109C",
+      "summary": "The volume studies how gender, social position, and relationships with other biblical texts shape readings of Judges.",
+      "category": "Scholarly study",
+      "perspective": "historical",
+      "limits": "Publisher description, editor affiliations, and the indexed opening introduction excerpt were reviewed. The full volume and individual essays were not read.",
+      "author": "Shelley L. Birdsong, J. Cornelis de Vos, and Hyun Chul Paul Kim · editors",
+      "year": "April 2023 · SBL Press",
+      "reviewed": "2026-10-05: Publisher record and publicly indexed introduction excerpt reviewed.",
+      "chapterCoverage": [
+        1,
+        4,
+        11,
+        13,
+        19,
+        21
+      ],
+      "type": "Scholarly study",
+      "limitations": "Publisher description, editor affiliations, and the indexed opening introduction excerpt were reviewed. The full volume and individual essays were not read.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "net-judges-18",
+      "title": "NET Bible · Judges 18:30 textual note",
+      "url": "https://classic.net.bible.org/passage.php?mode=print&passage=Jdg+18%3A30",
+      "summary": "The translators compare Moses and Manasseh readings in Jonathan’s genealogy. They prefer Moses and discuss a suspended letter in Hebrew manuscripts.",
+      "category": "Scholarly study",
+      "perspective": "historical",
+      "limits": "The published textual note was reviewed. Its explanation of scribal intention is an editorial judgment, not a complete manuscript review by this guide.",
+      "author": "NET Bible translation team",
+      "reviewed": "2026-10-05: Published reading and textual note 3 reviewed.",
+      "chapterCoverage": [
+        18
+      ],
+      "type": "Scholarly study",
+      "limitations": "The published textual note was reviewed. Its explanation of scribal intention is an editorial judgment, not a complete manuscript review by this guide.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "lds-judges-1",
+      "title": "Judges 1–12: The Reign of the Judges, Part 1",
+      "url": "https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/judges-1-12-the-reign-of-the-judges-part-1?lang=eng",
+      "summary": "The manual studies local deliverers, Deborah, Gideon, kingship, and Jephthah’s vow.",
+      "category": "LDS study manual",
+      "perspective": "lds",
+      "limits": "This is 1980 Institute commentary. Its historical proposals are not independent archaeological evidence. The interpretation of Jephthah’s daughter remains disputed.",
+      "author": "The Church of Jesus Christ of Latter-day Saints",
+      "year": 1980,
+      "reviewed": "2026-10-05: Relevant commentary sections and chapter coverage reviewed.",
+      "chapterCoverage": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "type": "LDS study manual",
+      "limitations": "This is 1980 Institute commentary. Its historical proposals are not independent archaeological evidence. The interpretation of Jephthah’s daughter remains disputed.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "lds-judges-2",
+      "title": "Judges 13–21; Ruth 1–4: The Reign of the Judges, Part 2",
+      "url": "https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/judges-13-21-ruth-1-4-the-reign-of-the-judges-part-2?lang=eng",
+      "summary": "The manual studies Samson’s calling, covenant conduct, household worship, migration, and the closing moral decline.",
+      "category": "LDS study manual",
+      "perspective": "lds",
+      "limits": "This is 1980 Institute commentary. Its historical proposals are not independent archaeological evidence. The interpretation of Jephthah’s daughter remains disputed.",
+      "author": "The Church of Jesus Christ of Latter-day Saints",
+      "year": 1980,
+      "reviewed": "2026-10-05: Relevant commentary sections and chapter coverage reviewed.",
+      "chapterCoverage": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "type": "LDS study manual",
+      "limitations": "This is 1980 Institute commentary. Its historical proposals are not independent archaeological evidence. The interpretation of Jephthah’s daughter remains disputed.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "cfm-2026-22",
+      "title": "Come, Follow Me 2026 · Judges 2–4; 6–8; 13–16",
+      "author": "The Church of Jesus Christ of Latter-day Saints",
+      "year": 2026,
+      "category": "LDS study manual",
+      "perspective": "lds",
+      "url": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/22?lang=eng",
+      "summary": "The lesson studies repeated repentance, Deborah’s influence, trust through Gideon’s experience, and Samson’s covenant conduct.",
+      "reviewed": "2026-10-05: Official lesson heading, selected chapter coverage, and relevant study sections reviewed.",
+      "limits": "This is Church teaching and application. It does not independently establish archaeological evidence or event dates.",
+      "license": "Linked official Church lesson. Original guide summary.",
+      "chapterCoverage": [
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        13,
+        14,
+        15,
+        16
+      ],
+      "type": "LDS study manual",
+      "limitations": "This is Church teaching and application. It does not independently establish archaeological evidence or event dates."
+    },
+    {
+      "id": "wiki-judges",
+      "title": "Book of Judges · Wikipedia",
+      "author": "Wikipedia contributors",
+      "category": "Encyclopedia background",
+      "perspective": "historical",
+      "url": "https://en.wikipedia.org/wiki/Book_of_Judges",
+      "revisionId": "1376864244",
+      "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1376864244",
+      "summary": "Judges combines local deliverance accounts with a repeated crisis pattern. Its closing episodes concern a shrine, migration, and conflict within Israel.",
+      "reviewed": "2026-10-05: Opening overview and book structure reviewed. These notes make no claim about exact composition dates.",
+      "limits": "Anyone can edit this source. Use it for background and source discovery. Its disputed historical claims require separate scholarly review.",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "chapterCoverage": [
+        1,
+        2,
+        17,
+        21
+      ],
+      "type": "Encyclopedia background",
+      "limitations": "Anyone can edit this source. Use it for background and source discovery. Its disputed historical claims require separate scholarly review."
+    },
+    {
+      "id": "dm-judges",
+      "title": "The Song of Deborah and the Rise of Israel",
+      "author": "Dan McClellan",
+      "year": "January 7, 2013",
+      "category": "Scholar commentary",
+      "perspective": "historical",
+      "group": "mcclellan",
+      "url": "https://danielomcclellan.wordpress.com/2013/01/07/the-song-of-deborah-and-the-rise-of-israel/",
+      "summary": "McClellan studies participating and absent tribes in Judges 5. He proposes that the song preserves an earlier pattern of cooperation among groups.",
+      "reviewed": "2026-10-05: Original post reviewed. Its proposed dates and reconstruction of early Israel were not independently verified.",
+      "limits": "This is one scholar’s older interpretation. The guide does not adopt its speculative link between Sisera’s name and Ramses II or treat it as a verified event date.",
+      "license": "Linked original post. Original guide summary.",
+      "chapterCoverage": [
+        5
+      ],
+      "type": "Scholar commentary",
+      "limitations": "This is one scholar’s older interpretation. The guide does not adopt its speculative link between Sisera’s name and Ramses II or treat it as a verified event date."
+    }
+  ],
+  "passages": [
+    {
+      "id": "judges-1",
+      "chapter": 1,
+      "start": 1,
+      "end": 36,
+      "title": "Campaigns and remaining peoples",
+      "summary": "Judah and other tribes fight local campaigns. Caleb, Othniel, and Achsah reappear. Many Canaanite populations remain. The opening records incomplete occupation and forced labor. It qualifies a reading of Joshua as complete removal of earlier inhabitants.",
+      "year": null,
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "placeIds": [
+        "canaan",
+        "hebron",
+        "debir-town",
+        "jerusalem",
+        "bethel"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-13",
+        "atlas-canaan",
+        "sbl-gender",
+        "wiki-judges"
+      ],
+      "lds": {
+        "text": "The older manual introduces the period’s local leaders. Consider the difference between a narrative summary and each stated result.",
+        "sourceIds": [
+          "lds-judges-1"
+        ]
+      }
+    },
+    {
+      "id": "judges-2",
+      "chapter": 2,
+      "start": 1,
+      "end": 23,
+      "title": "The recurring cycle",
+      "summary": "An angel rebukes Israel. Joshua’s generation dies. Later generations serve other gods, face enemies, and receive deliverers. The chapter gives the book’s religious explanation for recurring crises. This explanation is distinct from independent historical causes.",
+      "year": null,
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "placeIds": [
+        "canaan",
+        "gilgal"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-13",
+        "atlas-canaan",
+        "wiki-judges"
+      ],
+      "lds": {
+        "text": "Come, Follow Me studies repentance and the Lord’s repeated willingness to receive people who return.",
+        "sourceIds": [
+          "lds-judges-1",
+          "cfm-2026-22"
+        ]
+      }
+    },
+    {
+      "id": "judges-3",
+      "chapter": 3,
+      "start": 1,
+      "end": 31,
+      "title": "Othniel, Ehud, and Shamgar",
+      "summary": "Othniel defeats Cushan-rishathaim. Ehud kills Eglon and leads a revolt against Moab. A short notice records Shamgar’s victory. The leaders differ in background and tactics. The title judge includes military leadership, not only hearing legal cases.",
+      "year": null,
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "placeIds": [
+        "canaan",
+        "moab",
+        "jericho",
+        "jordan"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-13",
+        "atlas-canaan"
+      ],
+      "lds": {
+        "text": "The Church lesson studies deliverance and repentance. Keep its present application distinct from ancient assassination and warfare.",
+        "sourceIds": [
+          "lds-judges-1",
+          "cfm-2026-22"
+        ]
+      }
+    },
+    {
+      "id": "judges-4",
+      "chapter": 4,
+      "start": 1,
+      "end": 24,
+      "title": "Deborah, Barak, and Jael",
+      "summary": "Deborah calls Barak against Sisera. The army defeats Sisera’s force near Kishon. Jael kills the fleeing commander. Women hold decisive roles in the narrative. The account’s praise does not make its violence a present instruction.",
+      "year": null,
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "placeIds": [
+        "hazor",
+        "tabor",
+        "kishon"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-13",
+        "atlas-canaan",
+        "sbl-gender"
+      ],
+      "lds": {
+        "text": "Come, Follow Me studies Deborah’s influence and asks how faith can help other people act.",
+        "sourceIds": [
+          "lds-judges-1",
+          "cfm-2026-22"
+        ]
+      }
+    },
+    {
+      "id": "judges-5",
+      "chapter": 5,
+      "start": 1,
+      "end": 31,
+      "title": "The song of Deborah",
+      "summary": "Deborah and Barak sing about the battle, participating tribes, Jael, and Sisera’s mother waiting for his return. Poetry and the previous prose account present the conflict differently. Proposed dates for the poem remain scholarly interpretations.",
+      "year": null,
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "placeIds": [
+        "tabor",
+        "kishon",
+        "megiddo"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-13",
+        "atlas-canaan",
+        "dm-judges"
+      ],
+      "lds": {
+        "text": "The older manual studies willing service and courage. Read the poem’s celebration beside its depiction of harm.",
+        "sourceIds": [
+          "lds-judges-1"
+        ]
+      }
+    },
+    {
+      "id": "judges-6",
+      "chapter": 6,
+      "start": 1,
+      "end": 40,
+      "title": "Gideon’s call",
+      "summary": "Gideon receives a call during Midianite raids. He destroys his father’s altar and asks for signs with a fleece. The account joins a reluctant leader with conflict in his own community. Gideon also receives the name Jerubbaal.",
+      "year": null,
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "placeIds": [
+        "ophrah",
+        "jezreel"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-13",
+        "atlas-canaan"
+      ],
+      "lds": {
+        "text": "Come, Follow Me studies trust when God’s instructions differ from what a person expects.",
+        "sourceIds": [
+          "lds-judges-1",
+          "cfm-2026-22"
+        ]
+      }
+    },
+    {
+      "id": "judges-7",
+      "chapter": 7,
+      "start": 1,
+      "end": 25,
+      "title": "Gideon’s reduced force",
+      "summary": "Gideon’s army is reduced to three hundred. A dream encourages him. Trumpets, jars, and torches precede the enemy’s flight. The story attributes victory to God rather than numbers. Its troop figures are narrative claims, not measured military records.",
+      "year": null,
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "placeIds": [
+        "jezreel",
+        "jordan"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-13",
+        "atlas-canaan"
+      ],
+      "lds": {
+        "text": "The Church lesson studies reliance on God. Consider how confidence changes when ordinary advantages are removed.",
+        "sourceIds": [
+          "lds-judges-1",
+          "cfm-2026-22"
+        ]
+      }
+    },
+    {
+      "id": "judges-8",
+      "chapter": 8,
+      "start": 1,
+      "end": 35,
+      "title": "Victory, revenge, and the ephod",
+      "summary": "Gideon pursues Zebah and Zalmunna, punishes towns that refused help, and kills the kings. He rejects kingship but makes an ephod. The closing account complicates a simple heroic portrait. The ephod becomes a snare, and Gideon’s household introduces the next conflict.",
+      "year": null,
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "placeIds": [
+        "succoth",
+        "penuel",
+        "ophrah"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-13",
+        "atlas-canaan"
+      ],
+      "lds": {
+        "text": "Come, Follow Me studies trust. The older manual also warns about the ephod and acknowledges the account’s change after victory.",
+        "sourceIds": [
+          "lds-judges-1",
+          "cfm-2026-22"
+        ]
+      }
+    },
+    {
+      "id": "judges-9",
+      "chapter": 9,
+      "start": 1,
+      "end": 57,
+      "title": "Abimelech and Jotham’s warning",
+      "summary": "Abimelech kills his brothers and becomes king at Shechem. Jotham warns through a tree fable. Civil conflict ends with Abimelech’s death. The fable questions destructive rule. The account links ambition, family killing, and retaliation against the community.",
+      "year": null,
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "placeIds": [
+        "shechem",
+        "gerizim",
+        "thebez"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-13",
+        "atlas-canaan"
+      ],
+      "lds": {
+        "text": "The manual studies Jotham’s warning. Consider what happens when people give authority to a leader who threatens them.",
+        "sourceIds": [
+          "lds-judges-1"
+        ]
+      }
+    },
+    {
+      "id": "judges-10",
+      "chapter": 10,
+      "start": 1,
+      "end": 18,
+      "title": "Tola, Jair, and renewed distress",
+      "summary": "Brief notices record Tola and Jair. Israel serves several gods and faces Philistine and Ammonite pressure. The people confess and remove foreign gods. The chapter combines short leadership records with the repeated crisis pattern. A stated term of service does not establish calendar dates.",
+      "year": null,
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "placeIds": [
+        "canaan",
+        "gilead",
+        "ammon"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-13",
+        "atlas-canaan"
+      ],
+      "lds": {
+        "text": "The manual studies the return to God. Consider the actions that make a stated change visible.",
+        "sourceIds": [
+          "lds-judges-1"
+        ]
+      }
+    },
+    {
+      "id": "judges-11",
+      "chapter": 11,
+      "start": 1,
+      "end": 40,
+      "title": "Jephthah and his daughter",
+      "summary": "Gilead’s elders recall the expelled Jephthah to fight Ammon. He makes a vow. His only daughter greets him after victory. The text says he fulfills his vow but does not narrate the act in detail. Its burnt-offering language produces a tragic reading.",
+      "year": null,
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "placeIds": [
+        "gilead",
+        "ammon",
+        "heshbon"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-13",
+        "atlas-canaan",
+        "sbl-gender"
+      ],
+      "lds": {
+        "text": "The older manual favors lifelong dedication over death. Hayes reads the story as sacrifice. The guide preserves this disagreement.",
+        "sourceIds": [
+          "lds-judges-1"
+        ]
+      }
+    },
+    {
+      "id": "judges-12",
+      "chapter": 12,
+      "start": 1,
+      "end": 15,
+      "title": "Conflict at the river",
+      "summary": "Jephthah’s men fight Ephraim and use pronunciation at Jordan crossings to identify fugitives. Short notices record Ibzan, Elon, and Abdon. Speech becomes a lethal test of group identity. The episode deepens the book’s pattern of violence between related communities.",
+      "year": null,
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "placeIds": [
+        "gilead",
+        "jordan"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-13",
+        "atlas-canaan"
+      ],
+      "lds": {
+        "text": "The manual compares the conflict with Gideon’s earlier response. Consider how an insult can become collective harm.",
+        "sourceIds": [
+          "lds-judges-1"
+        ]
+      }
+    },
+    {
+      "id": "judges-13",
+      "chapter": 13,
+      "start": 1,
+      "end": 25,
+      "title": "Samson’s birth announced",
+      "summary": "An angel visits Manoah’s wife and later Manoah. The child is to be a Nazirite. Samson is born and begins to receive the Spirit. The unnamed mother receives the first announcement and reasons calmly after the encounter. A Nazirite is distinct from a person from Nazareth.",
+      "year": null,
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "placeIds": [
+        "zorah",
+        "eshtaol"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-13",
+        "atlas-canaan",
+        "sbl-gender"
+      ],
+      "lds": {
+        "text": "Come, Follow Me studies covenant faithfulness. The manual treats the angel as God’s messenger rather than naming him as Christ.",
+        "sourceIds": [
+          "lds-judges-2",
+          "cfm-2026-22"
+        ]
+      }
+    },
+    {
+      "id": "judges-14",
+      "chapter": 14,
+      "start": 1,
+      "end": 20,
+      "title": "The wedding and the riddle",
+      "summary": "Samson seeks a woman from Timnah. He kills a lion and proposes a riddle. Threats force his wife to obtain its answer. The wife acts under a threat to burn her family. The episode’s coercion must remain visible rather than becoming a simple betrayal story.",
+      "year": null,
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "placeIds": [
+        "timnah",
+        "ashkelon"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-13",
+        "atlas-canaan"
+      ],
+      "lds": {
+        "text": "The Church lesson studies Samson’s covenant conduct. Read that application beside the threat directed at his wife.",
+        "sourceIds": [
+          "lds-judges-2",
+          "cfm-2026-22"
+        ]
+      }
+    },
+    {
+      "id": "judges-15",
+      "chapter": 15,
+      "start": 1,
+      "end": 20,
+      "title": "Retaliation at Lehi",
+      "summary": "Samson’s wife is given to another man. He burns crops. The Philistines burn her household. Samson’s retaliation continues at Lehi. Harm spreads through reprisals against people, property, and families. Strength does not make each action a moral example.",
+      "year": null,
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "placeIds": [
+        "timnah",
+        "lehi"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-13",
+        "atlas-canaan"
+      ],
+      "lds": {
+        "text": "The manual studies Samson’s strength and thirst. It states that linking this Lehi with the Book of Mormon figure lacks evidence.",
+        "sourceIds": [
+          "lds-judges-2",
+          "cfm-2026-22"
+        ]
+      }
+    },
+    {
+      "id": "judges-16",
+      "chapter": 16,
+      "start": 1,
+      "end": 31,
+      "title": "Delilah and Samson’s final act",
+      "summary": "Samson visits Gaza. Delilah receives payment to discover his weakness. He is captured and blinded, then destroys the temple during a gathering. The account joins deception, captivity, prayer, revenge, and many deaths. Delilah’s ethnicity is not explicitly stated in the chapter.",
+      "year": null,
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "placeIds": [
+        "gaza",
+        "sorek"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-13",
+        "atlas-canaan"
+      ],
+      "lds": {
+        "text": "Come, Follow Me studies covenant faithfulness. The older manual distinguishes Samson’s gift of strength from consistent moral conduct.",
+        "sourceIds": [
+          "lds-judges-2",
+          "cfm-2026-22"
+        ]
+      }
+    },
+    {
+      "id": "judges-17",
+      "chapter": 17,
+      "start": 1,
+      "end": 13,
+      "title": "Micah’s household shrine",
+      "summary": "Micah returns stolen silver to his mother. Images are made for a shrine. He hires a traveling Levite as priest. The household seeks religious security through possessions and a hired priest. This Micah is distinct from the later prophetic book’s speaker.",
+      "year": null,
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "placeIds": [
+        "ephraim-region",
+        "bethlehem"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-13",
+        "atlas-canaan",
+        "wiki-judges"
+      ],
+      "lds": {
+        "text": "The manual reads this episode as part of religious decline. Consider the difference between a sacred object and faithful conduct.",
+        "sourceIds": [
+          "lds-judges-2"
+        ]
+      }
+    },
+    {
+      "id": "judges-18",
+      "chapter": 18,
+      "start": 1,
+      "end": 31,
+      "title": "The Danite migration",
+      "summary": "Danite scouts consult Micah’s priest. Armed men take the shrine objects and priest, then attack Laish and rename it Dan. The narrative describes coercion and the destruction of a peaceful town. It does not present the migration as harmless settlement.",
+      "year": null,
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "placeIds": [
+        "zorah",
+        "eshtaol",
+        "ephraim-region",
+        "dan-city"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-13",
+        "atlas-canaan",
+        "net-judges-18"
+      ],
+      "lds": {
+        "text": "The older manual places the migration in the book’s closing decline. Read the inhabitants’ loss beside the migrants’ claim.",
+        "sourceIds": [
+          "lds-judges-2"
+        ]
+      }
+    },
+    {
+      "id": "judges-19",
+      "chapter": 19,
+      "start": 1,
+      "end": 30,
+      "title": "The woman at Gibeah",
+      "summary": "A Levite retrieves his concubine from Bethlehem. At Gibeah, men threaten the guest. The woman is handed over and violently abused. The woman is unnamed. Her suffering must remain central. Hospitality offered to a man does not excuse exposing a woman to violence.",
+      "year": null,
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "placeIds": [
+        "bethlehem",
+        "jerusalem",
+        "gibeah"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-13",
+        "atlas-canaan",
+        "sbl-gender"
+      ],
+      "lds": {
+        "text": "The manual treats the closing accounts as moral failure. The woman’s abuse is not an example for readers to follow.",
+        "sourceIds": [
+          "lds-judges-2"
+        ]
+      }
+    },
+    {
+      "id": "judges-20",
+      "chapter": 20,
+      "start": 1,
+      "end": 48,
+      "title": "War against Benjamin",
+      "summary": "The tribes gather at Mizpah after hearing the Levite’s report. Benjamin refuses their demand. Repeated battles bring mass death and destruction. The Levite’s speech omits his own surrender of the woman. The war turns an atrocity into further collective violence.",
+      "year": null,
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "placeIds": [
+        "mizpah",
+        "gibeah",
+        "bethel",
+        "rimmon-rock"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-13",
+        "atlas-canaan"
+      ],
+      "lds": {
+        "text": "The manual describes the near destruction of Benjamin. Consider how a partial account can influence a community’s judgment.",
+        "sourceIds": [
+          "lds-judges-2"
+        ]
+      }
+    },
+    {
+      "id": "judges-21",
+      "chapter": 21,
+      "start": 1,
+      "end": 25,
+      "title": "Women taken and the closing refrain",
+      "summary": "The assembly regrets Benjamin’s losses. It attacks Jabesh-gilead and arranges the seizure of women at Shiloh. The attempt to preserve a tribe creates further victims. The closing refrain leaves the book’s disorder unresolved.",
+      "year": null,
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "placeIds": [
+        "jabesh-gilead",
+        "shiloh",
+        "rimmon-rock"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-13",
+        "atlas-canaan",
+        "sbl-gender",
+        "wiki-judges"
+      ],
+      "lds": {
+        "text": "The older manual calls the arranged marriages unrighteous. Preserving a group does not excuse kidnapping or forced marriage.",
+        "sourceIds": [
+          "lds-judges-2"
+        ]
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "judges-1",
+      "chapter": 1,
+      "verse": 1,
+      "eventOrder": 1,
+      "title": "Campaigns and remaining peoples",
+      "summary": "Judah and other tribes fight local campaigns. Caleb, Othniel, and Achsah reappear. Many Canaanite populations remain.",
+      "detail": "The opening records incomplete occupation and forced labor. It qualifies a reading of Joshua as complete removal of earlier inhabitants.",
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "sourceIds": [
+        "web",
+        "yale-13",
+        "atlas-canaan",
+        "sbl-gender",
+        "wiki-judges"
+      ],
+      "placeIds": [
+        "canaan",
+        "hebron",
+        "debir-town",
+        "jerusalem",
+        "bethel"
+      ],
+      "lds": {
+        "text": "The older manual introduces the period’s local leaders. Consider the difference between a narrative summary and each stated result.",
+        "sourceIds": [
+          "lds-judges-1"
+        ]
+      }
+    },
+    {
+      "id": "judges-2",
+      "chapter": 2,
+      "verse": 1,
+      "eventOrder": 2,
+      "title": "The recurring cycle",
+      "summary": "An angel rebukes Israel. Joshua’s generation dies. Later generations serve other gods, face enemies, and receive deliverers.",
+      "detail": "The chapter gives the book’s religious explanation for recurring crises. This explanation is distinct from independent historical causes.",
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "sourceIds": [
+        "web",
+        "yale-13",
+        "atlas-canaan",
+        "wiki-judges"
+      ],
+      "placeIds": [
+        "canaan",
+        "gilgal"
+      ],
+      "lds": {
+        "text": "Come, Follow Me studies repentance and the Lord’s repeated willingness to receive people who return.",
+        "sourceIds": [
+          "lds-judges-1",
+          "cfm-2026-22"
+        ]
+      }
+    },
+    {
+      "id": "judges-3",
+      "chapter": 3,
+      "verse": 1,
+      "eventOrder": 3,
+      "title": "Othniel, Ehud, and Shamgar",
+      "summary": "Othniel defeats Cushan-rishathaim. Ehud kills Eglon and leads a revolt against Moab. A short notice records Shamgar’s victory.",
+      "detail": "The leaders differ in background and tactics. The title judge includes military leadership, not only hearing legal cases.",
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "sourceIds": [
+        "web",
+        "yale-13",
+        "atlas-canaan"
+      ],
+      "placeIds": [
+        "canaan",
+        "moab",
+        "jericho",
+        "jordan"
+      ],
+      "lds": {
+        "text": "The Church lesson studies deliverance and repentance. Keep its present application distinct from ancient assassination and warfare.",
+        "sourceIds": [
+          "lds-judges-1",
+          "cfm-2026-22"
+        ]
+      }
+    },
+    {
+      "id": "judges-4",
+      "chapter": 4,
+      "verse": 1,
+      "eventOrder": 4,
+      "title": "Deborah, Barak, and Jael",
+      "summary": "Deborah calls Barak against Sisera. The army defeats Sisera’s force near Kishon. Jael kills the fleeing commander.",
+      "detail": "Women hold decisive roles in the narrative. The account’s praise does not make its violence a present instruction.",
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "sourceIds": [
+        "web",
+        "yale-13",
+        "atlas-canaan",
+        "sbl-gender"
+      ],
+      "placeIds": [
+        "hazor",
+        "tabor",
+        "kishon"
+      ],
+      "lds": {
+        "text": "Come, Follow Me studies Deborah’s influence and asks how faith can help other people act.",
+        "sourceIds": [
+          "lds-judges-1",
+          "cfm-2026-22"
+        ]
+      }
+    },
+    {
+      "id": "judges-5",
+      "chapter": 5,
+      "verse": 1,
+      "eventOrder": 5,
+      "title": "The song of Deborah",
+      "summary": "Deborah and Barak sing about the battle, participating tribes, Jael, and Sisera’s mother waiting for his return.",
+      "detail": "Poetry and the previous prose account present the conflict differently. Proposed dates for the poem remain scholarly interpretations.",
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "sourceIds": [
+        "web",
+        "yale-13",
+        "atlas-canaan",
+        "dm-judges"
+      ],
+      "placeIds": [
+        "tabor",
+        "kishon",
+        "megiddo"
+      ],
+      "lds": {
+        "text": "The older manual studies willing service and courage. Read the poem’s celebration beside its depiction of harm.",
+        "sourceIds": [
+          "lds-judges-1"
+        ]
+      }
+    },
+    {
+      "id": "judges-6",
+      "chapter": 6,
+      "verse": 1,
+      "eventOrder": 6,
+      "title": "Gideon’s call",
+      "summary": "Gideon receives a call during Midianite raids. He destroys his father’s altar and asks for signs with a fleece.",
+      "detail": "The account joins a reluctant leader with conflict in his own community. Gideon also receives the name Jerubbaal.",
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "sourceIds": [
+        "web",
+        "yale-13",
+        "atlas-canaan"
+      ],
+      "placeIds": [
+        "ophrah",
+        "jezreel"
+      ],
+      "lds": {
+        "text": "Come, Follow Me studies trust when God’s instructions differ from what a person expects.",
+        "sourceIds": [
+          "lds-judges-1",
+          "cfm-2026-22"
+        ]
+      }
+    },
+    {
+      "id": "judges-7",
+      "chapter": 7,
+      "verse": 1,
+      "eventOrder": 7,
+      "title": "Gideon’s reduced force",
+      "summary": "Gideon’s army is reduced to three hundred. A dream encourages him. Trumpets, jars, and torches precede the enemy’s flight.",
+      "detail": "The story attributes victory to God rather than numbers. Its troop figures are narrative claims, not measured military records.",
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "sourceIds": [
+        "web",
+        "yale-13",
+        "atlas-canaan"
+      ],
+      "placeIds": [
+        "jezreel",
+        "jordan"
+      ],
+      "lds": {
+        "text": "The Church lesson studies reliance on God. Consider how confidence changes when ordinary advantages are removed.",
+        "sourceIds": [
+          "lds-judges-1",
+          "cfm-2026-22"
+        ]
+      }
+    },
+    {
+      "id": "judges-8",
+      "chapter": 8,
+      "verse": 1,
+      "eventOrder": 8,
+      "title": "Victory, revenge, and the ephod",
+      "summary": "Gideon pursues Zebah and Zalmunna, punishes towns that refused help, and kills the kings. He rejects kingship but makes an ephod.",
+      "detail": "The closing account complicates a simple heroic portrait. The ephod becomes a snare, and Gideon’s household introduces the next conflict.",
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "sourceIds": [
+        "web",
+        "yale-13",
+        "atlas-canaan"
+      ],
+      "placeIds": [
+        "succoth",
+        "penuel",
+        "ophrah"
+      ],
+      "lds": {
+        "text": "Come, Follow Me studies trust. The older manual also warns about the ephod and acknowledges the account’s change after victory.",
+        "sourceIds": [
+          "lds-judges-1",
+          "cfm-2026-22"
+        ]
+      }
+    },
+    {
+      "id": "judges-9",
+      "chapter": 9,
+      "verse": 1,
+      "eventOrder": 9,
+      "title": "Abimelech and Jotham’s warning",
+      "summary": "Abimelech kills his brothers and becomes king at Shechem. Jotham warns through a tree fable. Civil conflict ends with Abimelech’s death.",
+      "detail": "The fable questions destructive rule. The account links ambition, family killing, and retaliation against the community.",
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "sourceIds": [
+        "web",
+        "yale-13",
+        "atlas-canaan"
+      ],
+      "placeIds": [
+        "shechem",
+        "gerizim",
+        "thebez"
+      ],
+      "lds": {
+        "text": "The manual studies Jotham’s warning. Consider what happens when people give authority to a leader who threatens them.",
+        "sourceIds": [
+          "lds-judges-1"
+        ]
+      }
+    },
+    {
+      "id": "judges-10",
+      "chapter": 10,
+      "verse": 1,
+      "eventOrder": 10,
+      "title": "Tola, Jair, and renewed distress",
+      "summary": "Brief notices record Tola and Jair. Israel serves several gods and faces Philistine and Ammonite pressure. The people confess and remove foreign gods.",
+      "detail": "The chapter combines short leadership records with the repeated crisis pattern. A stated term of service does not establish calendar dates.",
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "sourceIds": [
+        "web",
+        "yale-13",
+        "atlas-canaan"
+      ],
+      "placeIds": [
+        "canaan",
+        "gilead",
+        "ammon"
+      ],
+      "lds": {
+        "text": "The manual studies the return to God. Consider the actions that make a stated change visible.",
+        "sourceIds": [
+          "lds-judges-1"
+        ]
+      }
+    },
+    {
+      "id": "judges-11",
+      "chapter": 11,
+      "verse": 1,
+      "eventOrder": 11,
+      "title": "Jephthah and his daughter",
+      "summary": "Gilead’s elders recall the expelled Jephthah to fight Ammon. He makes a vow. His only daughter greets him after victory.",
+      "detail": "The text says he fulfills his vow but does not narrate the act in detail. Its burnt-offering language produces a tragic reading.",
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "sourceIds": [
+        "web",
+        "yale-13",
+        "atlas-canaan",
+        "sbl-gender"
+      ],
+      "placeIds": [
+        "gilead",
+        "ammon",
+        "heshbon"
+      ],
+      "lds": {
+        "text": "The older manual favors lifelong dedication over death. Hayes reads the story as sacrifice. The guide preserves this disagreement.",
+        "sourceIds": [
+          "lds-judges-1"
+        ]
+      }
+    },
+    {
+      "id": "judges-12",
+      "chapter": 12,
+      "verse": 1,
+      "eventOrder": 12,
+      "title": "Conflict at the river",
+      "summary": "Jephthah’s men fight Ephraim and use pronunciation at Jordan crossings to identify fugitives. Short notices record Ibzan, Elon, and Abdon.",
+      "detail": "Speech becomes a lethal test of group identity. The episode deepens the book’s pattern of violence between related communities.",
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "sourceIds": [
+        "web",
+        "yale-13",
+        "atlas-canaan"
+      ],
+      "placeIds": [
+        "gilead",
+        "jordan"
+      ],
+      "lds": {
+        "text": "The manual compares the conflict with Gideon’s earlier response. Consider how an insult can become collective harm.",
+        "sourceIds": [
+          "lds-judges-1"
+        ]
+      }
+    },
+    {
+      "id": "judges-13",
+      "chapter": 13,
+      "verse": 1,
+      "eventOrder": 13,
+      "title": "Samson’s birth announced",
+      "summary": "An angel visits Manoah’s wife and later Manoah. The child is to be a Nazirite. Samson is born and begins to receive the Spirit.",
+      "detail": "The unnamed mother receives the first announcement and reasons calmly after the encounter. A Nazirite is distinct from a person from Nazareth.",
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "sourceIds": [
+        "web",
+        "yale-13",
+        "atlas-canaan",
+        "sbl-gender"
+      ],
+      "placeIds": [
+        "zorah",
+        "eshtaol"
+      ],
+      "lds": {
+        "text": "Come, Follow Me studies covenant faithfulness. The manual treats the angel as God’s messenger rather than naming him as Christ.",
+        "sourceIds": [
+          "lds-judges-2",
+          "cfm-2026-22"
+        ]
+      }
+    },
+    {
+      "id": "judges-14",
+      "chapter": 14,
+      "verse": 1,
+      "eventOrder": 14,
+      "title": "The wedding and the riddle",
+      "summary": "Samson seeks a woman from Timnah. He kills a lion and proposes a riddle. Threats force his wife to obtain its answer.",
+      "detail": "The wife acts under a threat to burn her family. The episode’s coercion must remain visible rather than becoming a simple betrayal story.",
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "sourceIds": [
+        "web",
+        "yale-13",
+        "atlas-canaan"
+      ],
+      "placeIds": [
+        "timnah",
+        "ashkelon"
+      ],
+      "lds": {
+        "text": "The Church lesson studies Samson’s covenant conduct. Read that application beside the threat directed at his wife.",
+        "sourceIds": [
+          "lds-judges-2",
+          "cfm-2026-22"
+        ]
+      }
+    },
+    {
+      "id": "judges-15",
+      "chapter": 15,
+      "verse": 1,
+      "eventOrder": 15,
+      "title": "Retaliation at Lehi",
+      "summary": "Samson’s wife is given to another man. He burns crops. The Philistines burn her household. Samson’s retaliation continues at Lehi.",
+      "detail": "Harm spreads through reprisals against people, property, and families. Strength does not make each action a moral example.",
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "sourceIds": [
+        "web",
+        "yale-13",
+        "atlas-canaan"
+      ],
+      "placeIds": [
+        "timnah",
+        "lehi"
+      ],
+      "lds": {
+        "text": "The manual studies Samson’s strength and thirst. It states that linking this Lehi with the Book of Mormon figure lacks evidence.",
+        "sourceIds": [
+          "lds-judges-2",
+          "cfm-2026-22"
+        ]
+      }
+    },
+    {
+      "id": "judges-16",
+      "chapter": 16,
+      "verse": 1,
+      "eventOrder": 16,
+      "title": "Delilah and Samson’s final act",
+      "summary": "Samson visits Gaza. Delilah receives payment to discover his weakness. He is captured and blinded, then destroys the temple during a gathering.",
+      "detail": "The account joins deception, captivity, prayer, revenge, and many deaths. Delilah’s ethnicity is not explicitly stated in the chapter.",
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "sourceIds": [
+        "web",
+        "yale-13",
+        "atlas-canaan"
+      ],
+      "placeIds": [
+        "gaza",
+        "sorek"
+      ],
+      "lds": {
+        "text": "Come, Follow Me studies covenant faithfulness. The older manual distinguishes Samson’s gift of strength from consistent moral conduct.",
+        "sourceIds": [
+          "lds-judges-2",
+          "cfm-2026-22"
+        ]
+      }
+    },
+    {
+      "id": "judges-17",
+      "chapter": 17,
+      "verse": 1,
+      "eventOrder": 17,
+      "title": "Micah’s household shrine",
+      "summary": "Micah returns stolen silver to his mother. Images are made for a shrine. He hires a traveling Levite as priest.",
+      "detail": "The household seeks religious security through possessions and a hired priest. This Micah is distinct from the later prophetic book’s speaker.",
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "sourceIds": [
+        "web",
+        "yale-13",
+        "atlas-canaan",
+        "wiki-judges"
+      ],
+      "placeIds": [
+        "ephraim-region",
+        "bethlehem"
+      ],
+      "lds": {
+        "text": "The manual reads this episode as part of religious decline. Consider the difference between a sacred object and faithful conduct.",
+        "sourceIds": [
+          "lds-judges-2"
+        ]
+      }
+    },
+    {
+      "id": "judges-18",
+      "chapter": 18,
+      "verse": 1,
+      "eventOrder": 18,
+      "title": "The Danite migration",
+      "summary": "Danite scouts consult Micah’s priest. Armed men take the shrine objects and priest, then attack Laish and rename it Dan.",
+      "detail": "The narrative describes coercion and the destruction of a peaceful town. It does not present the migration as harmless settlement.",
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "sourceIds": [
+        "web",
+        "yale-13",
+        "atlas-canaan",
+        "net-judges-18"
+      ],
+      "placeIds": [
+        "zorah",
+        "eshtaol",
+        "ephraim-region",
+        "dan-city"
+      ],
+      "lds": {
+        "text": "The older manual places the migration in the book’s closing decline. Read the inhabitants’ loss beside the migrants’ claim.",
+        "sourceIds": [
+          "lds-judges-2"
+        ]
+      }
+    },
+    {
+      "id": "judges-19",
+      "chapter": 19,
+      "verse": 1,
+      "eventOrder": 19,
+      "title": "The woman at Gibeah",
+      "summary": "A Levite retrieves his concubine from Bethlehem. At Gibeah, men threaten the guest. The woman is handed over and violently abused.",
+      "detail": "The woman is unnamed. Her suffering must remain central. Hospitality offered to a man does not excuse exposing a woman to violence.",
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "sourceIds": [
+        "web",
+        "yale-13",
+        "atlas-canaan",
+        "sbl-gender"
+      ],
+      "placeIds": [
+        "bethlehem",
+        "jerusalem",
+        "gibeah"
+      ],
+      "lds": {
+        "text": "The manual treats the closing accounts as moral failure. The woman’s abuse is not an example for readers to follow.",
+        "sourceIds": [
+          "lds-judges-2"
+        ]
+      }
+    },
+    {
+      "id": "judges-20",
+      "chapter": 20,
+      "verse": 1,
+      "eventOrder": 20,
+      "title": "War against Benjamin",
+      "summary": "The tribes gather at Mizpah after hearing the Levite’s report. Benjamin refuses their demand. Repeated battles bring mass death and destruction.",
+      "detail": "The Levite’s speech omits his own surrender of the woman. The war turns an atrocity into further collective violence.",
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "sourceIds": [
+        "web",
+        "yale-13",
+        "atlas-canaan"
+      ],
+      "placeIds": [
+        "mizpah",
+        "gibeah",
+        "bethel",
+        "rimmon-rock"
+      ],
+      "lds": {
+        "text": "The manual describes the near destruction of Benjamin. Consider how a partial account can influence a community’s judgment.",
+        "sourceIds": [
+          "lds-judges-2"
+        ]
+      }
+    },
+    {
+      "id": "judges-21",
+      "chapter": 21,
+      "verse": 1,
+      "eventOrder": 21,
+      "title": "Women taken and the closing refrain",
+      "summary": "The assembly regrets Benjamin’s losses. It attacks Jabesh-gilead and arranges the seizure of women at Shiloh.",
+      "detail": "The attempt to preserve a tribe creates further victims. The closing refrain leaves the book’s disorder unresolved.",
+      "dateLabel": "Chapter order · historical year uncertain",
+      "uncertainty": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "sourceIds": [
+        "web",
+        "yale-13",
+        "atlas-canaan",
+        "sbl-gender",
+        "wiki-judges"
+      ],
+      "placeIds": [
+        "jabesh-gilead",
+        "shiloh",
+        "rimmon-rock"
+      ],
+      "lds": {
+        "text": "The older manual calls the arranged marriages unrighteous. Preserving a group does not excuse kidnapping or forced marriage.",
+        "sourceIds": [
+          "lds-judges-2"
+        ]
+      }
+    }
+  ],
+  "places": [
+    {
+      "id": "canaan",
+      "name": "Canaan · broad region",
+      "lat": 31.7,
+      "lng": 35.1,
+      "summary": "Named place or region in Judges.",
+      "limits": "This is a broad locality or traditional identification. It does not verify the event’s date, exact route, or tribal boundary.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan"
+      ],
+      "detail": "This is a broad locality or traditional identification. It does not verify the event’s date, exact route, or tribal boundary.",
+      "uncertainty": "This is a broad locality or traditional identification. It does not verify the event’s date, exact route, or tribal boundary.",
+      "chapterLocation": true
+    },
+    {
+      "id": "hebron",
+      "name": "Hebron",
+      "lat": 31.53,
+      "lng": 35.1,
+      "summary": "Named place or region in Judges.",
+      "limits": "This is a broad locality or traditional identification. It does not verify the event’s date, exact route, or tribal boundary.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan"
+      ],
+      "detail": "This is a broad locality or traditional identification. It does not verify the event’s date, exact route, or tribal boundary.",
+      "uncertainty": "This is a broad locality or traditional identification. It does not verify the event’s date, exact route, or tribal boundary.",
+      "chapterLocation": true
+    },
+    {
+      "id": "heshbon",
+      "name": "Heshbon · proposed locality",
+      "lat": 31.8,
+      "lng": 35.81,
+      "summary": "Named place or region in Judges.",
+      "limits": "This is a broad locality or traditional identification. It does not verify the event’s date, exact route, or tribal boundary.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan"
+      ],
+      "detail": "This is a broad locality or traditional identification. It does not verify the event’s date, exact route, or tribal boundary.",
+      "uncertainty": "This is a broad locality or traditional identification. It does not verify the event’s date, exact route, or tribal boundary.",
+      "chapterLocation": true
+    },
+    {
+      "id": "gilead",
+      "name": "Gilead · broad region",
+      "lat": 32.1,
+      "lng": 35.8,
+      "summary": "Named place or region in Judges.",
+      "limits": "This is a broad locality or traditional identification. It does not verify the event’s date, exact route, or tribal boundary.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan"
+      ],
+      "detail": "This is a broad locality or traditional identification. It does not verify the event’s date, exact route, or tribal boundary.",
+      "uncertainty": "This is a broad locality or traditional identification. It does not verify the event’s date, exact route, or tribal boundary.",
+      "chapterLocation": true
+    },
+    {
+      "id": "gerizim",
+      "name": "Mount Gerizim",
+      "lat": 32.2,
+      "lng": 35.27,
+      "summary": "Named place or region in Judges.",
+      "limits": "This is a broad locality or traditional identification. It does not verify the event’s date, exact route, or tribal boundary.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan"
+      ],
+      "detail": "This is a broad locality or traditional identification. It does not verify the event’s date, exact route, or tribal boundary.",
+      "uncertainty": "This is a broad locality or traditional identification. It does not verify the event’s date, exact route, or tribal boundary.",
+      "chapterLocation": true
+    },
+    {
+      "id": "jordan",
+      "name": "Jordan · crossing region",
+      "lat": 31.86,
+      "lng": 35.55,
+      "summary": "Named place or region in Judges.",
+      "limits": "This is a broad locality or traditional identification. It does not verify the event’s date, exact route, or tribal boundary.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan"
+      ],
+      "detail": "This is a broad locality or traditional identification. It does not verify the event’s date, exact route, or tribal boundary.",
+      "uncertainty": "This is a broad locality or traditional identification. It does not verify the event’s date, exact route, or tribal boundary.",
+      "chapterLocation": true
+    },
+    {
+      "id": "gilgal",
+      "name": "Gilgal · approximate region",
+      "lat": 31.86,
+      "lng": 35.5,
+      "summary": "Named place or region in Judges.",
+      "limits": "This is a broad locality or traditional identification. It does not verify the event’s date, exact route, or tribal boundary.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan"
+      ],
+      "detail": "This is a broad locality or traditional identification. It does not verify the event’s date, exact route, or tribal boundary.",
+      "uncertainty": "This is a broad locality or traditional identification. It does not verify the event’s date, exact route, or tribal boundary.",
+      "chapterLocation": true
+    },
+    {
+      "id": "jericho",
+      "name": "Jericho · Tell es-Sultan",
+      "lat": 31.871,
+      "lng": 35.444,
+      "summary": "Named place or region in Judges.",
+      "limits": "This is a broad locality or traditional identification. It does not verify the event’s date, exact route, or tribal boundary.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan"
+      ],
+      "detail": "This is a broad locality or traditional identification. It does not verify the event’s date, exact route, or tribal boundary.",
+      "uncertainty": "This is a broad locality or traditional identification. It does not verify the event’s date, exact route, or tribal boundary.",
+      "chapterLocation": true
+    },
+    {
+      "id": "bethel",
+      "name": "Bethel · traditional Beitin locality",
+      "lat": 31.93,
+      "lng": 35.22,
+      "summary": "Named place or region in Judges.",
+      "limits": "This is a broad locality or traditional identification. It does not verify the event’s date, exact route, or tribal boundary.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan"
+      ],
+      "detail": "This is a broad locality or traditional identification. It does not verify the event’s date, exact route, or tribal boundary.",
+      "uncertainty": "This is a broad locality or traditional identification. It does not verify the event’s date, exact route, or tribal boundary.",
+      "chapterLocation": true
+    },
+    {
+      "id": "jerusalem",
+      "name": "Jerusalem",
+      "lat": 31.777,
+      "lng": 35.235,
+      "summary": "Named place or region in Judges.",
+      "limits": "This is a broad locality or traditional identification. It does not verify the event’s date, exact route, or tribal boundary.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan"
+      ],
+      "detail": "This is a broad locality or traditional identification. It does not verify the event’s date, exact route, or tribal boundary.",
+      "uncertainty": "This is a broad locality or traditional identification. It does not verify the event’s date, exact route, or tribal boundary.",
+      "chapterLocation": true
+    },
+    {
+      "id": "hazor",
+      "name": "Hazor · excavated site",
+      "lat": 33.017,
+      "lng": 35.569,
+      "summary": "Named place or region in Judges.",
+      "limits": "This is a broad locality or traditional identification. It does not verify the event’s date, exact route, or tribal boundary.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan"
+      ],
+      "detail": "This is a broad locality or traditional identification. It does not verify the event’s date, exact route, or tribal boundary.",
+      "uncertainty": "This is a broad locality or traditional identification. It does not verify the event’s date, exact route, or tribal boundary.",
+      "chapterLocation": true
+    },
+    {
+      "id": "debir-town",
+      "name": "Debir · approximate southern region",
+      "lat": 31.42,
+      "lng": 35.02,
+      "summary": "Named place or region in Judges.",
+      "limits": "This is a broad locality or traditional identification. It does not verify the event’s date, exact route, or tribal boundary.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan"
+      ],
+      "detail": "This is a broad locality or traditional identification. It does not verify the event’s date, exact route, or tribal boundary.",
+      "uncertainty": "This is a broad locality or traditional identification. It does not verify the event’s date, exact route, or tribal boundary.",
+      "chapterLocation": true
+    },
+    {
+      "id": "shiloh",
+      "name": "Shiloh · traditional locality",
+      "lat": 32.055,
+      "lng": 35.289,
+      "summary": "Named place or region in Judges.",
+      "limits": "This is a broad locality or traditional identification. It does not verify the event’s date, exact route, or tribal boundary.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan"
+      ],
+      "detail": "This is a broad locality or traditional identification. It does not verify the event’s date, exact route, or tribal boundary.",
+      "uncertainty": "This is a broad locality or traditional identification. It does not verify the event’s date, exact route, or tribal boundary.",
+      "chapterLocation": true
+    },
+    {
+      "id": "shechem",
+      "name": "Shechem · Tell Balata locality",
+      "lat": 32.214,
+      "lng": 35.282,
+      "summary": "Named place or region in Judges.",
+      "limits": "This is a broad locality or traditional identification. It does not verify the event’s date, exact route, or tribal boundary.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan"
+      ],
+      "detail": "This is a broad locality or traditional identification. It does not verify the event’s date, exact route, or tribal boundary.",
+      "uncertainty": "This is a broad locality or traditional identification. It does not verify the event’s date, exact route, or tribal boundary.",
+      "chapterLocation": true
+    },
+    {
+      "id": "moab",
+      "name": "Moab · broad region",
+      "lat": 31.5,
+      "lng": 35.75,
+      "summary": "Named place or region in Judges.",
+      "limits": "Regional marker only.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan"
+      ],
+      "detail": "Regional marker only.",
+      "uncertainty": "Regional marker only.",
+      "chapterLocation": true
+    },
+    {
+      "id": "ammon",
+      "name": "Ammon · broad region",
+      "lat": 31.95,
+      "lng": 35.94,
+      "summary": "Named place or region in Judges.",
+      "limits": "The named territory has no precise boundary polygon here.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan"
+      ],
+      "detail": "The named territory has no precise boundary polygon here.",
+      "uncertainty": "The named territory has no precise boundary polygon here.",
+      "chapterLocation": true
+    },
+    {
+      "id": "tabor",
+      "name": "Mount Tabor",
+      "lat": 32.687,
+      "lng": 35.391,
+      "summary": "Named place or region in Judges.",
+      "limits": "The mountain locality does not prove the battle account.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan"
+      ],
+      "detail": "The mountain locality does not prove the battle account.",
+      "uncertainty": "The mountain locality does not prove the battle account.",
+      "chapterLocation": true
+    },
+    {
+      "id": "kishon",
+      "name": "Kishon · river region",
+      "lat": 32.72,
+      "lng": 35.1,
+      "summary": "Named place or region in Judges.",
+      "limits": "The ancient battlefield and watercourse are not precisely traced.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan"
+      ],
+      "detail": "The ancient battlefield and watercourse are not precisely traced.",
+      "uncertainty": "The ancient battlefield and watercourse are not precisely traced.",
+      "chapterLocation": true
+    },
+    {
+      "id": "megiddo",
+      "name": "Megiddo · Tel Megiddo",
+      "lat": 32.585,
+      "lng": 35.184,
+      "summary": "Named place or region in Judges.",
+      "limits": "The site marker does not date the song or verify its battle.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan"
+      ],
+      "detail": "The site marker does not date the song or verify its battle.",
+      "uncertainty": "The site marker does not date the song or verify its battle.",
+      "chapterLocation": true
+    },
+    {
+      "id": "ophrah",
+      "name": "Ophrah · proposed region",
+      "lat": 32.15,
+      "lng": 35.25,
+      "summary": "Named place or region in Judges.",
+      "limits": "Gideon’s Ophrah is uncertain. This is a regional reference, not an identified house or altar.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan"
+      ],
+      "detail": "Gideon’s Ophrah is uncertain. This is a regional reference, not an identified house or altar.",
+      "uncertainty": "Gideon’s Ophrah is uncertain. This is a regional reference, not an identified house or altar.",
+      "chapterLocation": true
+    },
+    {
+      "id": "jezreel",
+      "name": "Jezreel · valley region",
+      "lat": 32.6,
+      "lng": 35.25,
+      "summary": "Named place or region in Judges.",
+      "limits": "The marker does not identify Gideon’s precise camp.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan"
+      ],
+      "detail": "The marker does not identify Gideon’s precise camp.",
+      "uncertainty": "The marker does not identify Gideon’s precise camp.",
+      "chapterLocation": true
+    },
+    {
+      "id": "succoth",
+      "name": "Succoth · proposed locality",
+      "lat": 32.2,
+      "lng": 35.62,
+      "summary": "Named place or region in Judges.",
+      "limits": "Identification and ancient routes remain uncertain.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan"
+      ],
+      "detail": "Identification and ancient routes remain uncertain.",
+      "uncertainty": "Identification and ancient routes remain uncertain.",
+      "chapterLocation": true
+    },
+    {
+      "id": "penuel",
+      "name": "Penuel · proposed region",
+      "lat": 32.19,
+      "lng": 35.72,
+      "summary": "Named place or region in Judges.",
+      "limits": "The regional marker does not verify the tower or encounter.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan"
+      ],
+      "detail": "The regional marker does not verify the tower or encounter.",
+      "uncertainty": "The regional marker does not verify the tower or encounter.",
+      "chapterLocation": true
+    },
+    {
+      "id": "thebez",
+      "name": "Thebez · traditional Tubas locality",
+      "lat": 32.32,
+      "lng": 35.37,
+      "summary": "Named place or region in Judges.",
+      "limits": "The marker does not identify Abimelech’s siege tower.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan"
+      ],
+      "detail": "The marker does not identify Abimelech’s siege tower.",
+      "uncertainty": "The marker does not identify Abimelech’s siege tower.",
+      "chapterLocation": true
+    },
+    {
+      "id": "zorah",
+      "name": "Zorah · traditional locality",
+      "lat": 31.78,
+      "lng": 34.96,
+      "summary": "Named place or region in Judges.",
+      "limits": "The marker does not identify Samson’s family home.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan"
+      ],
+      "detail": "The marker does not identify Samson’s family home.",
+      "uncertainty": "The marker does not identify Samson’s family home.",
+      "chapterLocation": true
+    },
+    {
+      "id": "eshtaol",
+      "name": "Eshtaol · traditional region",
+      "lat": 31.78,
+      "lng": 35.01,
+      "summary": "Named place or region in Judges.",
+      "limits": "The location is approximate.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan"
+      ],
+      "detail": "The location is approximate.",
+      "uncertainty": "The location is approximate.",
+      "chapterLocation": true
+    },
+    {
+      "id": "timnah",
+      "name": "Timnah · traditional Tel Batash",
+      "lat": 31.78,
+      "lng": 34.91,
+      "summary": "Named place or region in Judges.",
+      "limits": "The marker shows the proposed locality, not an identified wedding house.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan"
+      ],
+      "detail": "The marker shows the proposed locality, not an identified wedding house.",
+      "uncertainty": "The marker shows the proposed locality, not an identified wedding house.",
+      "chapterLocation": true
+    },
+    {
+      "id": "ashkelon",
+      "name": "Ashkelon · ancient site locality",
+      "lat": 31.67,
+      "lng": 34.55,
+      "summary": "Named place or region in Judges.",
+      "limits": "The site does not verify Samson’s narrated attack.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan"
+      ],
+      "detail": "The site does not verify Samson’s narrated attack.",
+      "uncertainty": "The site does not verify Samson’s narrated attack.",
+      "chapterLocation": true
+    },
+    {
+      "id": "lehi",
+      "name": "Lehi · uncertain foothill region",
+      "lat": 31.73,
+      "lng": 35.05,
+      "summary": "Named place or region in Judges.",
+      "limits": "The precise locality is uncertain. No link to the Book of Mormon Lehi is established.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan"
+      ],
+      "detail": "The precise locality is uncertain. No link to the Book of Mormon Lehi is established.",
+      "uncertainty": "The precise locality is uncertain. No link to the Book of Mormon Lehi is established.",
+      "chapterLocation": true
+    },
+    {
+      "id": "gaza",
+      "name": "Gaza · ancient locality",
+      "lat": 31.5,
+      "lng": 34.46,
+      "summary": "Named place or region in Judges.",
+      "limits": "This locality does not identify Samson’s prison or temple.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan"
+      ],
+      "detail": "This locality does not identify Samson’s prison or temple.",
+      "uncertainty": "This locality does not identify Samson’s prison or temple.",
+      "chapterLocation": true
+    },
+    {
+      "id": "sorek",
+      "name": "Sorek · valley region",
+      "lat": 31.8,
+      "lng": 34.98,
+      "summary": "Named place or region in Judges.",
+      "limits": "The marker does not identify Delilah’s house.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan"
+      ],
+      "detail": "The marker does not identify Delilah’s house.",
+      "uncertainty": "The marker does not identify Delilah’s house.",
+      "chapterLocation": true
+    },
+    {
+      "id": "ephraim-region",
+      "name": "Ephraim · hill-country region",
+      "lat": 32.0,
+      "lng": 35.2,
+      "summary": "Named place or region in Judges.",
+      "limits": "Micah’s house and the Levite’s home are not securely identified.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan"
+      ],
+      "detail": "Micah’s house and the Levite’s home are not securely identified.",
+      "uncertainty": "Micah’s house and the Levite’s home are not securely identified.",
+      "chapterLocation": true
+    },
+    {
+      "id": "bethlehem",
+      "name": "Bethlehem",
+      "lat": 31.705,
+      "lng": 35.202,
+      "summary": "Named place or region in Judges.",
+      "limits": "The town marker does not identify a particular ancient household.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan"
+      ],
+      "detail": "The town marker does not identify a particular ancient household.",
+      "uncertainty": "The town marker does not identify a particular ancient household.",
+      "chapterLocation": true
+    },
+    {
+      "id": "dan-city",
+      "name": "Laish",
+      "lat": 33.25,
+      "lng": 35.65,
+      "summary": "Named place or region in Judges.",
+      "limits": "The marker does not prove the Danite attack or identify a shrine’s exact date.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan"
+      ],
+      "detail": "The marker does not prove the Danite attack or identify a shrine’s exact date.",
+      "uncertainty": "The marker does not prove the Danite attack or identify a shrine’s exact date.",
+      "chapterLocation": true
+    },
+    {
+      "id": "gibeah",
+      "name": "Gibeah · traditional Tell el-Ful",
+      "lat": 31.823,
+      "lng": 35.231,
+      "summary": "Named place or region in Judges.",
+      "limits": "The identification is traditional. No specific house or crime scene is identified.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan"
+      ],
+      "detail": "The identification is traditional. No specific house or crime scene is identified.",
+      "uncertainty": "The identification is traditional. No specific house or crime scene is identified.",
+      "chapterLocation": true
+    },
+    {
+      "id": "mizpah",
+      "name": "Mizpah · traditional Tell en-Nasbeh",
+      "lat": 31.884,
+      "lng": 35.214,
+      "summary": "Named place or region in Judges.",
+      "limits": "The marker does not verify the assembly’s date.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan"
+      ],
+      "detail": "The marker does not verify the assembly’s date.",
+      "uncertainty": "The marker does not verify the assembly’s date.",
+      "chapterLocation": true
+    },
+    {
+      "id": "rimmon-rock",
+      "name": "Rock of Rimmon · traditional region",
+      "lat": 31.946,
+      "lng": 35.3,
+      "summary": "Named place or region in Judges.",
+      "limits": "The precise refuge is uncertain.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan"
+      ],
+      "detail": "The precise refuge is uncertain.",
+      "uncertainty": "The precise refuge is uncertain.",
+      "chapterLocation": true
+    },
+    {
+      "id": "jabesh-gilead",
+      "name": "Jabesh-gilead · proposed region",
+      "lat": 32.4,
+      "lng": 35.65,
+      "summary": "Named place or region in Judges.",
+      "limits": "Competing site proposals remain. This is a regional reference.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan"
+      ],
+      "detail": "Competing site proposals remain. This is a regional reference.",
+      "uncertainty": "Competing site proposals remain. This is a regional reference.",
+      "chapterLocation": true
+    }
+  ],
+  "campaigns": [],
+  "ancientRoads": [],
+  "regions": [],
+  "words": [],
+  "guides": [
+    {
+      "id": "judges-overview",
+      "title": "Study Judges",
+      "description": "Follow selected chapters through the book.",
+      "steps": [
+        {
+          "title": "Campaigns and remaining peoples",
+          "text": "Judah and other tribes fight local campaigns. Caleb, Othniel, and Achsah reappear. Many Canaanite populations remain. The opening records incomplete occupation and forced labor. It qualifies a reading of Joshua as complete removal of earlier inhabitants.",
+          "chapter": 1,
+          "verse": 1,
+          "sourceIds": [
+            "web",
+            "yale-13",
+            "atlas-canaan",
+            "sbl-gender",
+            "wiki-judges"
+          ]
+        },
+        {
+          "title": "Jephthah and his daughter",
+          "text": "Gilead’s elders recall the expelled Jephthah to fight Ammon. He makes a vow. His only daughter greets him after victory. The text says he fulfills his vow but does not narrate the act in detail. Its burnt-offering language produces a tragic reading.",
+          "chapter": 11,
+          "verse": 1,
+          "sourceIds": [
+            "web",
+            "yale-13",
+            "atlas-canaan",
+            "sbl-gender"
+          ]
+        },
+        {
+          "title": "Women taken and the closing refrain",
+          "text": "The assembly regrets Benjamin’s losses. It attacks Jabesh-gilead and arranges the seizure of women at Shiloh. The attempt to preserve a tribe creates further victims. The closing refrain leaves the book’s disorder unresolved.",
+          "chapter": 21,
+          "verse": 1,
+          "sourceIds": [
+            "web",
+            "yale-13",
+            "atlas-canaan",
+            "sbl-gender",
+            "wiki-judges"
+          ]
+        }
+      ]
+    }
+  ],
+  "periods": [
+    {
+      "id": "part-0",
+      "label": "Judges 1–7",
+      "start": 1,
+      "end": 7,
+      "description": "Chapter order"
+    },
+    {
+      "id": "part-1",
+      "label": "Judges 8–14",
+      "start": 8,
+      "end": 14,
+      "description": "Chapter order"
+    },
+    {
+      "id": "part-2",
+      "label": "Judges 15–21",
+      "start": 15,
+      "end": 21,
+      "description": "Chapter order"
+    }
+  ],
+  "chapterMaps": [
+    {
+      "chapter": 1,
+      "focusPlaceIds": [
+        "canaan",
+        "hebron",
+        "debir-town",
+        "jerusalem",
+        "bethel"
+      ],
+      "placeIds": [
+        "canaan",
+        "hebron",
+        "debir-town",
+        "jerusalem",
+        "bethel"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "narrative": "Judah and other tribes fight local campaigns. Caleb, Othniel, and Achsah reappear. Many Canaanite populations remain.",
+      "limits": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "sourceIds": [
+        "web",
+        "yale-13",
+        "atlas-canaan",
+        "sbl-gender",
+        "wiki-judges"
+      ]
+    },
+    {
+      "chapter": 2,
+      "focusPlaceIds": [
+        "canaan",
+        "gilgal"
+      ],
+      "placeIds": [
+        "canaan",
+        "gilgal"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "narrative": "An angel rebukes Israel. Joshua’s generation dies. Later generations serve other gods, face enemies, and receive deliverers.",
+      "limits": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "sourceIds": [
+        "web",
+        "yale-13",
+        "atlas-canaan",
+        "wiki-judges"
+      ]
+    },
+    {
+      "chapter": 3,
+      "focusPlaceIds": [
+        "canaan",
+        "moab",
+        "jericho",
+        "jordan"
+      ],
+      "placeIds": [
+        "canaan",
+        "moab",
+        "jericho",
+        "jordan"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "narrative": "Othniel defeats Cushan-rishathaim. Ehud kills Eglon and leads a revolt against Moab. A short notice records Shamgar’s victory.",
+      "limits": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "sourceIds": [
+        "web",
+        "yale-13",
+        "atlas-canaan"
+      ]
+    },
+    {
+      "chapter": 4,
+      "focusPlaceIds": [
+        "hazor",
+        "tabor",
+        "kishon"
+      ],
+      "placeIds": [
+        "hazor",
+        "tabor",
+        "kishon"
+      ],
+      "routes": [
+        {
+          "id": "judges-4-journey",
+          "to": 1,
+          "reference": "Judges 4:1",
+          "from": 0
+        }
+      ],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "narrative": "Deborah calls Barak against Sisera. The army defeats Sisera’s force near Kishon. Jael kills the fleeing commander.",
+      "limits": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "sourceIds": [
+        "web",
+        "yale-13",
+        "atlas-canaan",
+        "sbl-gender"
+      ]
+    },
+    {
+      "chapter": 5,
+      "focusPlaceIds": [
+        "tabor",
+        "kishon",
+        "megiddo"
+      ],
+      "placeIds": [
+        "tabor",
+        "kishon",
+        "megiddo"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "narrative": "Deborah and Barak sing about the battle, participating tribes, Jael, and Sisera’s mother waiting for his return.",
+      "limits": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "sourceIds": [
+        "web",
+        "yale-13",
+        "atlas-canaan",
+        "dm-judges"
+      ]
+    },
+    {
+      "chapter": 6,
+      "focusPlaceIds": [
+        "ophrah",
+        "jezreel"
+      ],
+      "placeIds": [
+        "ophrah",
+        "jezreel"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "narrative": "Gideon receives a call during Midianite raids. He destroys his father’s altar and asks for signs with a fleece.",
+      "limits": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "sourceIds": [
+        "web",
+        "yale-13",
+        "atlas-canaan"
+      ]
+    },
+    {
+      "chapter": 7,
+      "focusPlaceIds": [
+        "jezreel",
+        "jordan"
+      ],
+      "placeIds": [
+        "jezreel",
+        "jordan"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "narrative": "Gideon’s army is reduced to three hundred. A dream encourages him. Trumpets, jars, and torches precede the enemy’s flight.",
+      "limits": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "sourceIds": [
+        "web",
+        "yale-13",
+        "atlas-canaan"
+      ]
+    },
+    {
+      "chapter": 8,
+      "focusPlaceIds": [
+        "succoth",
+        "penuel",
+        "ophrah"
+      ],
+      "placeIds": [
+        "succoth",
+        "penuel",
+        "ophrah"
+      ],
+      "routes": [
+        {
+          "id": "judges-8-journey",
+          "to": 2,
+          "reference": "Judges 8:1",
+          "from": 0
+        }
+      ],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "narrative": "Gideon pursues Zebah and Zalmunna, punishes towns that refused help, and kills the kings. He rejects kingship but makes an ephod.",
+      "limits": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "sourceIds": [
+        "web",
+        "yale-13",
+        "atlas-canaan"
+      ]
+    },
+    {
+      "chapter": 9,
+      "focusPlaceIds": [
+        "shechem",
+        "gerizim",
+        "thebez"
+      ],
+      "placeIds": [
+        "shechem",
+        "gerizim",
+        "thebez"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "narrative": "Abimelech kills his brothers and becomes king at Shechem. Jotham warns through a tree fable. Civil conflict ends with Abimelech’s death.",
+      "limits": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "sourceIds": [
+        "web",
+        "yale-13",
+        "atlas-canaan"
+      ]
+    },
+    {
+      "chapter": 10,
+      "focusPlaceIds": [
+        "canaan",
+        "gilead",
+        "ammon"
+      ],
+      "placeIds": [
+        "canaan",
+        "gilead",
+        "ammon"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "narrative": "Brief notices record Tola and Jair. Israel serves several gods and faces Philistine and Ammonite pressure. The people confess and remove foreign gods.",
+      "limits": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "sourceIds": [
+        "web",
+        "yale-13",
+        "atlas-canaan"
+      ]
+    },
+    {
+      "chapter": 11,
+      "focusPlaceIds": [
+        "gilead",
+        "ammon",
+        "heshbon"
+      ],
+      "placeIds": [
+        "gilead",
+        "ammon",
+        "heshbon"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "narrative": "Gilead’s elders recall the expelled Jephthah to fight Ammon. He makes a vow. His only daughter greets him after victory.",
+      "limits": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "sourceIds": [
+        "web",
+        "yale-13",
+        "atlas-canaan",
+        "sbl-gender"
+      ]
+    },
+    {
+      "chapter": 12,
+      "focusPlaceIds": [
+        "gilead",
+        "jordan"
+      ],
+      "placeIds": [
+        "gilead",
+        "jordan"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "narrative": "Jephthah’s men fight Ephraim and use pronunciation at Jordan crossings to identify fugitives. Short notices record Ibzan, Elon, and Abdon.",
+      "limits": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "sourceIds": [
+        "web",
+        "yale-13",
+        "atlas-canaan"
+      ]
+    },
+    {
+      "chapter": 13,
+      "focusPlaceIds": [
+        "zorah",
+        "eshtaol"
+      ],
+      "placeIds": [
+        "zorah",
+        "eshtaol"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "narrative": "An angel visits Manoah’s wife and later Manoah. The child is to be a Nazirite. Samson is born and begins to receive the Spirit.",
+      "limits": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "sourceIds": [
+        "web",
+        "yale-13",
+        "atlas-canaan",
+        "sbl-gender"
+      ]
+    },
+    {
+      "chapter": 14,
+      "focusPlaceIds": [
+        "timnah",
+        "ashkelon"
+      ],
+      "placeIds": [
+        "timnah",
+        "ashkelon"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "narrative": "Samson seeks a woman from Timnah. He kills a lion and proposes a riddle. Threats force his wife to obtain its answer.",
+      "limits": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "sourceIds": [
+        "web",
+        "yale-13",
+        "atlas-canaan"
+      ]
+    },
+    {
+      "chapter": 15,
+      "focusPlaceIds": [
+        "timnah",
+        "lehi"
+      ],
+      "placeIds": [
+        "timnah",
+        "lehi"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "narrative": "Samson’s wife is given to another man. He burns crops. The Philistines burn her household. Samson’s retaliation continues at Lehi.",
+      "limits": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "sourceIds": [
+        "web",
+        "yale-13",
+        "atlas-canaan"
+      ]
+    },
+    {
+      "chapter": 16,
+      "focusPlaceIds": [
+        "gaza",
+        "sorek"
+      ],
+      "placeIds": [
+        "gaza",
+        "sorek"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "narrative": "Samson visits Gaza. Delilah receives payment to discover his weakness. He is captured and blinded, then destroys the temple during a gathering.",
+      "limits": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "sourceIds": [
+        "web",
+        "yale-13",
+        "atlas-canaan"
+      ]
+    },
+    {
+      "chapter": 17,
+      "focusPlaceIds": [
+        "ephraim-region",
+        "bethlehem"
+      ],
+      "placeIds": [
+        "ephraim-region",
+        "bethlehem"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "narrative": "Micah returns stolen silver to his mother. Images are made for a shrine. He hires a traveling Levite as priest.",
+      "limits": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "sourceIds": [
+        "web",
+        "yale-13",
+        "atlas-canaan",
+        "wiki-judges"
+      ]
+    },
+    {
+      "chapter": 18,
+      "focusPlaceIds": [
+        "zorah",
+        "eshtaol",
+        "ephraim-region",
+        "dan-city"
+      ],
+      "placeIds": [
+        "zorah",
+        "eshtaol",
+        "ephraim-region",
+        "dan-city"
+      ],
+      "routes": [
+        {
+          "id": "judges-18-journey",
+          "to": 2,
+          "reference": "Judges 18:1",
+          "from": 0
+        }
+      ],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "narrative": "Danite scouts consult Micah’s priest. Armed men take the shrine objects and priest, then attack Laish and rename it Dan.",
+      "limits": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "sourceIds": [
+        "web",
+        "yale-13",
+        "atlas-canaan",
+        "net-judges-18"
+      ]
+    },
+    {
+      "chapter": 19,
+      "focusPlaceIds": [
+        "bethlehem",
+        "jerusalem",
+        "gibeah"
+      ],
+      "placeIds": [
+        "bethlehem",
+        "jerusalem",
+        "gibeah"
+      ],
+      "routes": [
+        {
+          "id": "judges-19-journey",
+          "to": 2,
+          "reference": "Judges 19:1",
+          "from": 0
+        }
+      ],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "narrative": "A Levite retrieves his concubine from Bethlehem. At Gibeah, men threaten the guest. The woman is handed over and violently abused.",
+      "limits": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "sourceIds": [
+        "web",
+        "yale-13",
+        "atlas-canaan",
+        "sbl-gender"
+      ]
+    },
+    {
+      "chapter": 20,
+      "focusPlaceIds": [
+        "mizpah",
+        "gibeah",
+        "bethel",
+        "rimmon-rock"
+      ],
+      "placeIds": [
+        "mizpah",
+        "gibeah",
+        "bethel",
+        "rimmon-rock"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "narrative": "The tribes gather at Mizpah after hearing the Levite’s report. Benjamin refuses their demand. Repeated battles bring mass death and destruction.",
+      "limits": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "sourceIds": [
+        "web",
+        "yale-13",
+        "atlas-canaan"
+      ]
+    },
+    {
+      "chapter": 21,
+      "focusPlaceIds": [
+        "jabesh-gilead",
+        "shiloh",
+        "rimmon-rock"
+      ],
+      "placeIds": [
+        "jabesh-gilead",
+        "shiloh",
+        "rimmon-rock"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "narrative": "The assembly regrets Benjamin’s losses. It attacks Jabesh-gilead and arranges the seizure of women at Shiloh.",
+      "limits": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "sourceIds": [
+        "web",
+        "yale-13",
+        "atlas-canaan",
+        "sbl-gender",
+        "wiki-judges"
+      ]
+    }
+  ],
+  "textRoutes": [
+    {
+      "id": "judges-4-journey",
+      "title": "Deborah, Barak, and Jael",
+      "points": [
+        [
+          32.687,
+          35.391
+        ],
+        [
+          32.72,
+          35.1
+        ]
+      ],
+      "chapter": 4,
+      "verse": 1,
+      "summary": "Deborah calls Barak against Sisera. The army defeats Sisera’s force near Kishon. Jael kills the fleeing commander.",
+      "detail": "Women hold decisive roles in the narrative. The account’s praise does not make its violence a present instruction.",
+      "uncertainty": "The simplified line follows the chapter’s named movement. It omits uncertain intermediate points and is not an excavated road.",
+      "evidence": "The simplified line follows the chapter’s named movement. It omits uncertain intermediate points and is not an excavated road.",
+      "kind": "flight",
+      "direction": true,
+      "textRoute": true,
+      "sourceIds": [
+        "web",
+        "yale-13",
+        "atlas-canaan",
+        "sbl-gender"
+      ]
+    },
+    {
+      "id": "judges-8-journey",
+      "title": "Victory, revenge, and the ephod",
+      "points": [
+        [
+          31.86,
+          35.55
+        ],
+        [
+          32.2,
+          35.62
+        ],
+        [
+          32.19,
+          35.72
+        ]
+      ],
+      "chapter": 8,
+      "verse": 1,
+      "summary": "Gideon pursues Zebah and Zalmunna, punishes towns that refused help, and kills the kings. He rejects kingship but makes an ephod.",
+      "detail": "The closing account complicates a simple heroic portrait. The ephod becomes a snare, and Gideon’s household introduces the next conflict.",
+      "uncertainty": "The simplified line follows the chapter’s named movement. It omits uncertain intermediate points and is not an excavated road.",
+      "evidence": "The simplified line follows the chapter’s named movement. It omits uncertain intermediate points and is not an excavated road.",
+      "kind": "journey",
+      "direction": true,
+      "textRoute": true,
+      "sourceIds": [
+        "web",
+        "yale-13",
+        "atlas-canaan"
+      ]
+    },
+    {
+      "id": "judges-18-journey",
+      "title": "The Danite migration",
+      "points": [
+        [
+          31.78,
+          34.96
+        ],
+        [
+          32.0,
+          35.2
+        ],
+        [
+          33.25,
+          35.65
+        ]
+      ],
+      "chapter": 18,
+      "verse": 1,
+      "summary": "Danite scouts consult Micah’s priest. Armed men take the shrine objects and priest, then attack Laish and rename it Dan.",
+      "detail": "The narrative describes coercion and the destruction of a peaceful town. It does not present the migration as harmless settlement.",
+      "uncertainty": "The simplified line follows the chapter’s named movement. It omits uncertain intermediate points and is not an excavated road.",
+      "evidence": "The simplified line follows the chapter’s named movement. It omits uncertain intermediate points and is not an excavated road.",
+      "kind": "journey",
+      "direction": true,
+      "textRoute": true,
+      "sourceIds": [
+        "web",
+        "yale-13",
+        "atlas-canaan",
+        "net-judges-18"
+      ]
+    },
+    {
+      "id": "judges-19-journey",
+      "title": "The woman at Gibeah",
+      "points": [
+        [
+          31.705,
+          35.202
+        ],
+        [
+          31.777,
+          35.235
+        ],
+        [
+          31.823,
+          35.231
+        ]
+      ],
+      "chapter": 19,
+      "verse": 1,
+      "summary": "A Levite retrieves his concubine from Bethlehem. At Gibeah, men threaten the guest. The woman is handed over and violently abused.",
+      "detail": "The woman is unnamed. Her suffering must remain central. Hospitality offered to a man does not excuse exposing a woman to violence.",
+      "uncertainty": "The simplified line follows the chapter’s named movement. It omits uncertain intermediate points and is not an excavated road.",
+      "evidence": "The simplified line follows the chapter’s named movement. It omits uncertain intermediate points and is not an excavated road.",
+      "kind": "journey",
+      "direction": true,
+      "textRoute": true,
+      "sourceIds": [
+        "web",
+        "yale-13",
+        "atlas-canaan",
+        "sbl-gender"
+      ]
+    }
+  ],
+  "narrativeRegions": [],
+  "chapterStudies": []
+}
