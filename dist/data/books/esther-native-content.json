@@ -1,0 +1,1165 @@
+{
+  "sources": [
+    {
+      "id": "web",
+      "title": "Esther · World English Bible",
+      "url": "https://ebible.org/engwebp/EST01.htm",
+      "summary": "Complete public-domain reading text for ten chapters.",
+      "category": "Scripture",
+      "perspective": "historical",
+      "limits": "The text supplies the story and its speakers’ claims. It does not independently verify events.",
+      "type": "Scripture",
+      "limitations": "The text supplies the story and its speakers’ claims. It does not independently verify events.",
+      "license": "Public domain"
+    },
+    {
+      "id": "atlas",
+      "title": "Bible Maps: The World of the Old Testament",
+      "perspective": "historical",
+      "category": "Geography",
+      "url": "https://www.churchofjesuschrist.org/study/scriptures/bible-maps/map-9?lang=eng",
+      "summary": "This Church-published atlas locates the wider setting and marks some disputed places.",
+      "limits": "Use the geographic labels as context. The linked atlas also includes LDS commentary.",
+      "type": "Geography",
+      "limitations": "Use the geographic labels as context. The linked atlas also includes LDS commentary.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "atlas-canaan",
+      "title": "Bible Maps: Canaan in Old Testament Times",
+      "perspective": "historical",
+      "category": "Geography",
+      "url": "https://www.churchofjesuschrist.org/study/scriptures/bible-maps/map-10?lang=eng",
+      "summary": "This Church-published atlas identifies towns and regions in Canaan.",
+      "limits": "Coordinates are display estimates. A town marker does not verify each Genesis event.",
+      "limitations": "Coordinates are display estimates. A town marker does not verify each Genesis event.",
+      "type": "Geography",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "terrain",
+      "title": "Mapzen / Tilezen terrain and Natural Earth geography",
+      "perspective": "historical",
+      "category": "Geography",
+      "url": "https://registry.opendata.aws/terrain-tiles/",
+      "summary": "Cached terrain shows modern elevation. Natural Earth supplies the land and water outlines.",
+      "limits": "Modern terrain is a geographic aid. It does not reconstruct ancient shorelines or settlements.",
+      "type": "Geography",
+      "limitations": "Modern terrain is a geographic aid. It does not reconstruct ancient shorelines or settlements.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "luther-esther",
+      "title": "Summary of Esther · Luther Seminary",
+      "url": "https://enterthebible.org/courses/esther/lessons/summary-of-esther/",
+      "summary": "Jacobson and Schifferdecker read Esther as a story about courage and life under foreign rulers.",
+      "category": "Scholarly study",
+      "perspective": "historical",
+      "limits": "A literary teaching overview. The story’s court setting does not verify its events.",
+      "author": "Diane Jacobson · revised Kathryn Schifferdecker",
+      "year": 2023,
+      "chapterCoverage": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "reviewed": "2026-10-05: Complete main Summary, So What, Where, Who, When, What, and How sections reviewed.",
+      "type": "Scholarly study",
+      "limitations": "A literary teaching overview. The story’s court setting does not verify its events.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "luther-esther-6",
+      "title": "Esther 6:1–14: The Great Reversal · Luther Seminary",
+      "url": "https://enterthebible.org/passage/esther-61-14-the-great-reversal/",
+      "summary": "The study follows how Haman’s planned reward becomes honor for Mordecai.",
+      "category": "Scholarly study",
+      "perspective": "historical",
+      "limits": "The linked Levenson quotation is indirect. His full commentary was not read.",
+      "author": "Enter the Bible · Luther Seminary",
+      "year": "Date not displayed",
+      "chapterCoverage": [
+        6
+      ],
+      "reviewed": "2026-10-05: Complete main Summary and Analysis reviewed. Author not displayed in retrieved passage.",
+      "type": "Scholarly study",
+      "limitations": "The linked Levenson quotation is indirect. His full commentary was not read.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "luther-esther-9",
+      "title": "Esther 9:1–17: The Jews Destroy their Enemies · Luther Seminary",
+      "url": "https://enterthebible.org/passage/esther-91-17-the-jews-destroy-their-enemies/",
+      "summary": "The study asks how readers should understand the violent ending and repeated refusal of goods.",
+      "category": "Scholarly study",
+      "perspective": "historical",
+      "limits": "This is a literary interpretation. It does not verify the reported death totals.",
+      "author": "Enter the Bible · Luther Seminary",
+      "year": "Date not displayed",
+      "chapterCoverage": [
+        9
+      ],
+      "reviewed": "2026-10-05: Complete main Summary and Analysis retrieved through indexed primary-page text. Direct fetch timed out.",
+      "type": "Scholarly study",
+      "limitations": "This is a literary interpretation. It does not verify the reported death totals.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "mcclellan-esther",
+      "title": "Esther and women’s use of power · McClellan interview",
+      "url": "https://www.mormonstories.org/10-things-bible-dan-mcclellan/",
+      "summary": "McClellan discusses Esther’s use of the resources available to her under Persian rule.",
+      "category": "McClellan commentary",
+      "perspective": "historical",
+      "limits": "Automatic transcript includes an awkward phrase at 03:55:13. Only the clear preceding argument is paraphrased. This is scholarly commentary, not Church teaching.",
+      "author": "Dan McClellan · interview with John Dehlin",
+      "year": 2023,
+      "chapterCoverage": [
+        2,
+        4,
+        5,
+        7,
+        8
+      ],
+      "reviewed": "2026-10-05: Original publisher transcript at 03:54:13–03:55:13 reviewed. Full interview and audio not reviewed.",
+      "type": "McClellan commentary",
+      "limitations": "Automatic transcript includes an awkward phrase at 03:55:13. Only the clear preceding argument is paraphrased. This is scholarly commentary, not Church teaching.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "berlin-record",
+      "title": "The Book of Esther and Ancient Storytelling · verified article record",
+      "url": "https://scholarlypublishingcollective.org/sblpress/jbl/article/120/1/3/181629/The-Book-of-Esther-and-Ancient-Storytelling",
+      "summary": "The publisher record identifies Berlin’s article, journal, date, pages, and DOI.",
+      "category": "Verified bibliography",
+      "perspective": "historical",
+      "limits": "Indexed publisher record and first-page search excerpt reviewed. Direct publisher and society PDF access failed. The full article was not read.",
+      "author": "Adele Berlin",
+      "year": 2001,
+      "doi": "10.2307/3268590",
+      "reviewed": "2026-10-05: Publisher-supplied bibliographic record verified.",
+      "type": "Verified bibliography",
+      "limitations": "Indexed publisher record and first-page search excerpt reviewed. Direct publisher and society PDF access failed. The full article was not read.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "wiki-esther",
+      "title": "Book of Esther · Wikipedia",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1376976389&title=Book_of_Esther",
+      "summary": "The opening describes the book and provides scholarly references.",
+      "category": "Encyclopedia background",
+      "perspective": "historical",
+      "limits": "Opening paragraphs and cited Berlin article record reviewed. Disputed historical claims are not adopted from this page alone.",
+      "author": "Wikipedia contributors",
+      "revisionId": "1376976389",
+      "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1376976389&title=Book_of_Esther",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "citedSourceIds": [
+        "berlin-record"
+      ],
+      "reviewed": "2026-10-05: Opening paragraphs and Berlin bibliography reviewed.",
+      "type": "Encyclopedia background",
+      "limitations": "Opening paragraphs and cited Berlin article record reviewed. Disputed historical claims are not adopted from this page alone."
+    },
+    {
+      "id": "cfm-esther-2026",
+      "title": "Come, Follow Me 2026 · Esther",
+      "url": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/32?lang=eng",
+      "summary": "The lesson studies family service, courage, fasting, and the harm caused by pride.",
+      "category": "Come, Follow Me",
+      "perspective": "lds",
+      "limits": "The whole book is assigned, but detailed prompts focus on selected passages. Linked talks and videos were not reviewed.",
+      "author": "The Church of Jesus Christ of Latter-day Saints",
+      "year": 2026,
+      "chapterCoverage": [
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9
+      ],
+      "reviewed": "2026-10-05: Complete main and children’s lesson sections reviewed. Detailed cited passages support these chapters.",
+      "type": "Come, Follow Me",
+      "limitations": "The whole book is assigned, but detailed prompts focus on selected passages. Linked talks and videos were not reviewed.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "lds-esther-109",
+      "title": "Lesson 109: Esther · Seminary teacher material",
+      "url": "https://www.churchofjesuschrist.org/study/manual/old-testament-seminary-teacher-material-2018/esther/lesson-109?lang=eng",
+      "summary": "The lesson teaches using one’s circumstances to help others and seeking strength through fasting.",
+      "category": "LDS study manual",
+      "perspective": "lds",
+      "limits": "Chapters 1 and 6–10 have brief summaries. Detailed questions focus on Esther’s choices in chapters 2–5 and 7.",
+      "author": "The Church of Jesus Christ of Latter-day Saints",
+      "year": 2018,
+      "chapterCoverage": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "reviewed": "2026-10-05: Introduction and main teaching lesson through its conclusion reviewed. Commentary, supplements, and linked talks were not reviewed.",
+      "type": "LDS study manual",
+      "limitations": "Chapters 1 and 6–10 have brief summaries. Detailed questions focus on Esther’s choices in chapters 2–5 and 7.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "atlas-persia",
+      "title": "Bible Maps: The Persian Empire",
+      "url": "https://www.churchofjesuschrist.org/study/scriptures/bible-maps/map-7?lang=eng",
+      "summary": "The Seminary lesson recommends this map for the Persian setting.",
+      "category": "Geography",
+      "perspective": "historical",
+      "limits": "Library reference only. Unreviewed map labels are not used to place events.",
+      "author": "The Church of Jesus Christ of Latter-day Saints",
+      "year": "Current map",
+      "chapterCoverage": [],
+      "reviewed": "2026-10-05: Map page title and Seminary lesson reference reviewed. Map image was not reviewed.",
+      "type": "Geography",
+      "limitations": "Library reference only. Unreviewed map labels are not used to place events.",
+      "license": "Linked source. Original guide summaries."
+    }
+  ],
+  "passages": [
+    {
+      "id": "esther-1",
+      "chapter": 1,
+      "start": 1,
+      "end": 22,
+      "title": "Vashti refuses the king",
+      "summary": "Ahasuerus holds large feasts. Vashti refuses his order to appear. Memucan urges him to replace her. One refusal becomes a rule for every household. The king’s advisers fear women following Vashti’s example.",
+      "year": null,
+      "dateLabel": "Chapter order",
+      "uncertainty": "Susa marks the story’s setting. Individual rooms and courier roads are not mapped.",
+      "placeIds": [
+        "susa"
+      ],
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan",
+        "luther-esther"
+      ],
+      "lds": {
+        "text": "The Seminary lesson starts with the king’s decision to replace Vashti.",
+        "sourceIds": [
+          "lds-esther-109"
+        ]
+      }
+    },
+    {
+      "id": "esther-2",
+      "chapter": 2,
+      "start": 1,
+      "end": 23,
+      "title": "Esther becomes queen",
+      "summary": "Hegai helps Esther in the women’s house. Ahasuerus chooses her as queen. Mordecai reports a plot against him. Esther keeps her people and family secret. The report of Mordecai’s help enters the king’s records.",
+      "year": null,
+      "dateLabel": "Chapter order",
+      "uncertainty": "Jerusalem and Babylon belong to the earlier family account. The palace story takes place in Susa.",
+      "placeIds": [
+        "susa",
+        "jerusalem",
+        "babylon"
+      ],
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan",
+        "luther-esther",
+        "mcclellan-esther"
+      ],
+      "lds": {
+        "text": "Come, Follow Me studies Mordecai’s care for Esther after her parents die.",
+        "sourceIds": [
+          "cfm-esther-2026",
+          "lds-esther-109"
+        ]
+      }
+    },
+    {
+      "id": "esther-3",
+      "chapter": 3,
+      "start": 1,
+      "end": 15,
+      "title": "Haman orders the Jews’ deaths",
+      "summary": "Mordecai refuses to bow to Haman. Haman obtains the king’s ring and sends orders to kill all the Jews. Haman turns anger at one man against a whole people. Written orders spread the danger.",
+      "year": null,
+      "dateLabel": "Chapter order",
+      "uncertainty": "Susa marks the story’s setting. Individual rooms and courier roads are not mapped.",
+      "placeIds": [
+        "susa"
+      ],
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan",
+        "luther-esther"
+      ],
+      "lds": {
+        "text": "Come, Follow Me asks how Haman’s anger turns into danger for other people.",
+        "sourceIds": [
+          "cfm-esther-2026",
+          "lds-esther-109"
+        ]
+      }
+    },
+    {
+      "id": "esther-4",
+      "chapter": 4,
+      "start": 1,
+      "end": 17,
+      "title": "Esther decides to approach the king",
+      "summary": "Hathach carries messages between Mordecai and Esther. Esther asks the Jews to fast before she risks approaching the king. The palace does not protect Esther from danger to her people. She asks others to share her preparation.",
+      "year": null,
+      "dateLabel": "Chapter order",
+      "uncertainty": "Susa marks the story’s setting. Individual rooms and courier roads are not mapped.",
+      "placeIds": [
+        "susa"
+      ],
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan",
+        "luther-esther",
+        "mcclellan-esther"
+      ],
+      "lds": {
+        "text": "Come, Follow Me connects Esther’s decision with courage and fasting before difficult choices.",
+        "sourceIds": [
+          "cfm-esther-2026",
+          "lds-esther-109"
+        ]
+      }
+    },
+    {
+      "id": "esther-5",
+      "chapter": 5,
+      "start": 1,
+      "end": 14,
+      "title": "Two invitations and Haman’s anger",
+      "summary": "The king receives Esther. She invites him and Haman to two meals. Zeresh suggests preparing a gallows for Mordecai. Haman’s honors cannot satisfy him while Mordecai refuses to bow. His friends strengthen his plan.",
+      "year": null,
+      "dateLabel": "Chapter order",
+      "uncertainty": "Susa marks the story’s setting. Individual rooms and courier roads are not mapped.",
+      "placeIds": [
+        "susa"
+      ],
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan",
+        "luther-esther",
+        "mcclellan-esther"
+      ],
+      "lds": {
+        "text": "Come, Follow Me compares Esther’s risk with Haman’s pride and anger.",
+        "sourceIds": [
+          "cfm-esther-2026",
+          "lds-esther-109"
+        ]
+      }
+    },
+    {
+      "id": "esther-6",
+      "chapter": 6,
+      "start": 1,
+      "end": 14,
+      "title": "Haman must honor Mordecai",
+      "summary": "The king hears how Mordecai saved him. Haman must lead Mordecai through the city with royal clothing and a horse. Haman expects honor for himself. Instead, he must praise the man he wants to kill.",
+      "year": null,
+      "dateLabel": "Chapter order",
+      "uncertainty": "Susa marks the story’s setting. Individual rooms and courier roads are not mapped.",
+      "placeIds": [
+        "susa"
+      ],
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan",
+        "luther-esther",
+        "luther-esther-6"
+      ],
+      "lds": {
+        "text": "The Seminary lesson recalls how the king’s records bring Mordecai’s service back into view.",
+        "sourceIds": [
+          "lds-esther-109"
+        ]
+      }
+    },
+    {
+      "id": "esther-7",
+      "chapter": 7,
+      "start": 1,
+      "end": 10,
+      "title": "Esther names Haman as the enemy",
+      "summary": "Esther asks for her life and her people’s lives. She names Haman. Harbonah points out the gallows, and Haman dies. Esther connects the threat to herself before naming its author. The king turns against Haman.",
+      "year": null,
+      "dateLabel": "Chapter order",
+      "uncertainty": "Susa marks the story’s setting. Individual rooms and courier roads are not mapped.",
+      "placeIds": [
+        "susa"
+      ],
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan",
+        "luther-esther",
+        "mcclellan-esther"
+      ],
+      "lds": {
+        "text": "Come, Follow Me asks what Haman’s choices reveal about his motives and their results.",
+        "sourceIds": [
+          "cfm-esther-2026",
+          "lds-esther-109"
+        ]
+      }
+    },
+    {
+      "id": "esther-8",
+      "chapter": 8,
+      "start": 1,
+      "end": 17,
+      "title": "New orders allow the Jews to fight",
+      "summary": "Esther asks again for her people. Mordecai receives the king’s ring. New letters permit the Jews to gather and fight attackers. Haman’s death does not cancel his letters. Esther keeps asking until new orders address the remaining danger.",
+      "year": null,
+      "dateLabel": "Chapter order",
+      "uncertainty": "Susa marks the story’s setting. Individual rooms and courier roads are not mapped.",
+      "placeIds": [
+        "susa"
+      ],
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan",
+        "luther-esther",
+        "mcclellan-esther"
+      ],
+      "lds": {
+        "text": "Come, Follow Me links the new letters with its study of fasting during danger.",
+        "sourceIds": [
+          "cfm-esther-2026",
+          "lds-esther-109"
+        ]
+      }
+    },
+    {
+      "id": "esther-9",
+      "chapter": 9,
+      "start": 1,
+      "end": 32,
+      "title": "Victory, violence, and Purim",
+      "summary": "The Jews kill their enemies without taking goods. Esther requests another day in Susa. Letters establish Purim with feasts and gifts. The days of fear become days of joy. Gifts to people in need become part of remembering.",
+      "year": null,
+      "dateLabel": "Chapter order",
+      "uncertainty": "Susa marks the story’s setting. Individual rooms and courier roads are not mapped.",
+      "placeIds": [
+        "susa"
+      ],
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan",
+        "luther-esther",
+        "luther-esther-9"
+      ],
+      "lds": {
+        "text": "Come, Follow Me connects Esther’s courage with the later days of gladness.",
+        "sourceIds": [
+          "cfm-esther-2026",
+          "lds-esther-109"
+        ]
+      }
+    },
+    {
+      "id": "esther-10",
+      "chapter": 10,
+      "start": 1,
+      "end": 3,
+      "title": "Mordecai serves his people",
+      "summary": "Ahasuerus collects payment from his lands. Mordecai holds high office and works for his people’s good. Mordecai’s lasting importance comes from helping his people, beyond the honor he receives.",
+      "year": null,
+      "dateLabel": "Chapter order",
+      "uncertainty": "Susa marks the story’s setting. Individual rooms and courier roads are not mapped.",
+      "placeIds": [
+        "susa"
+      ],
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan",
+        "luther-esther"
+      ],
+      "lds": {
+        "text": "Mordecai works for his people’s good. Who benefits from the authority he receives?",
+        "sourceIds": [
+          "lds-esther-109"
+        ]
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "esther-1",
+      "chapter": 1,
+      "verse": 1,
+      "eventOrder": 1,
+      "title": "Vashti refuses the king",
+      "summary": "Ahasuerus holds large feasts. Vashti refuses his order to appear. Memucan urges him to replace her.",
+      "detail": "One refusal becomes a rule for every household. The king’s advisers fear women following Vashti’s example.",
+      "dateLabel": "Chapter order",
+      "uncertainty": "Susa marks the story’s setting. Individual rooms and courier roads are not mapped.",
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan",
+        "luther-esther"
+      ],
+      "placeIds": [
+        "susa"
+      ],
+      "lds": {
+        "text": "The Seminary lesson starts with the king’s decision to replace Vashti.",
+        "sourceIds": [
+          "lds-esther-109"
+        ]
+      }
+    },
+    {
+      "id": "esther-2",
+      "chapter": 2,
+      "verse": 1,
+      "eventOrder": 2,
+      "title": "Esther becomes queen",
+      "summary": "Hegai helps Esther in the women’s house. Ahasuerus chooses her as queen. Mordecai reports a plot against him.",
+      "detail": "Esther keeps her people and family secret. The report of Mordecai’s help enters the king’s records.",
+      "dateLabel": "Chapter order",
+      "uncertainty": "Jerusalem and Babylon belong to the earlier family account. The palace story takes place in Susa.",
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan",
+        "luther-esther",
+        "mcclellan-esther"
+      ],
+      "placeIds": [
+        "susa",
+        "jerusalem",
+        "babylon"
+      ],
+      "lds": {
+        "text": "Come, Follow Me studies Mordecai’s care for Esther after her parents die.",
+        "sourceIds": [
+          "cfm-esther-2026",
+          "lds-esther-109"
+        ]
+      }
+    },
+    {
+      "id": "esther-3",
+      "chapter": 3,
+      "verse": 1,
+      "eventOrder": 3,
+      "title": "Haman orders the Jews’ deaths",
+      "summary": "Mordecai refuses to bow to Haman. Haman obtains the king’s ring and sends orders to kill all the Jews.",
+      "detail": "Haman turns anger at one man against a whole people. Written orders spread the danger.",
+      "dateLabel": "Chapter order",
+      "uncertainty": "Susa marks the story’s setting. Individual rooms and courier roads are not mapped.",
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan",
+        "luther-esther"
+      ],
+      "placeIds": [
+        "susa"
+      ],
+      "lds": {
+        "text": "Come, Follow Me asks how Haman’s anger turns into danger for other people.",
+        "sourceIds": [
+          "cfm-esther-2026",
+          "lds-esther-109"
+        ]
+      }
+    },
+    {
+      "id": "esther-4",
+      "chapter": 4,
+      "verse": 1,
+      "eventOrder": 4,
+      "title": "Esther decides to approach the king",
+      "summary": "Hathach carries messages between Mordecai and Esther. Esther asks the Jews to fast before she risks approaching the king.",
+      "detail": "The palace does not protect Esther from danger to her people. She asks others to share her preparation.",
+      "dateLabel": "Chapter order",
+      "uncertainty": "Susa marks the story’s setting. Individual rooms and courier roads are not mapped.",
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan",
+        "luther-esther",
+        "mcclellan-esther"
+      ],
+      "placeIds": [
+        "susa"
+      ],
+      "lds": {
+        "text": "Come, Follow Me connects Esther’s decision with courage and fasting before difficult choices.",
+        "sourceIds": [
+          "cfm-esther-2026",
+          "lds-esther-109"
+        ]
+      }
+    },
+    {
+      "id": "esther-5",
+      "chapter": 5,
+      "verse": 1,
+      "eventOrder": 5,
+      "title": "Two invitations and Haman’s anger",
+      "summary": "The king receives Esther. She invites him and Haman to two meals. Zeresh suggests preparing a gallows for Mordecai.",
+      "detail": "Haman’s honors cannot satisfy him while Mordecai refuses to bow. His friends strengthen his plan.",
+      "dateLabel": "Chapter order",
+      "uncertainty": "Susa marks the story’s setting. Individual rooms and courier roads are not mapped.",
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan",
+        "luther-esther",
+        "mcclellan-esther"
+      ],
+      "placeIds": [
+        "susa"
+      ],
+      "lds": {
+        "text": "Come, Follow Me compares Esther’s risk with Haman’s pride and anger.",
+        "sourceIds": [
+          "cfm-esther-2026",
+          "lds-esther-109"
+        ]
+      }
+    },
+    {
+      "id": "esther-6",
+      "chapter": 6,
+      "verse": 1,
+      "eventOrder": 6,
+      "title": "Haman must honor Mordecai",
+      "summary": "The king hears how Mordecai saved him. Haman must lead Mordecai through the city with royal clothing and a horse.",
+      "detail": "Haman expects honor for himself. Instead, he must praise the man he wants to kill.",
+      "dateLabel": "Chapter order",
+      "uncertainty": "Susa marks the story’s setting. Individual rooms and courier roads are not mapped.",
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan",
+        "luther-esther",
+        "luther-esther-6"
+      ],
+      "placeIds": [
+        "susa"
+      ],
+      "lds": {
+        "text": "The Seminary lesson recalls how the king’s records bring Mordecai’s service back into view.",
+        "sourceIds": [
+          "lds-esther-109"
+        ]
+      }
+    },
+    {
+      "id": "esther-7",
+      "chapter": 7,
+      "verse": 1,
+      "eventOrder": 7,
+      "title": "Esther names Haman as the enemy",
+      "summary": "Esther asks for her life and her people’s lives. She names Haman. Harbonah points out the gallows, and Haman dies.",
+      "detail": "Esther connects the threat to herself before naming its author. The king turns against Haman.",
+      "dateLabel": "Chapter order",
+      "uncertainty": "Susa marks the story’s setting. Individual rooms and courier roads are not mapped.",
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan",
+        "luther-esther",
+        "mcclellan-esther"
+      ],
+      "placeIds": [
+        "susa"
+      ],
+      "lds": {
+        "text": "Come, Follow Me asks what Haman’s choices reveal about his motives and their results.",
+        "sourceIds": [
+          "cfm-esther-2026",
+          "lds-esther-109"
+        ]
+      }
+    },
+    {
+      "id": "esther-8",
+      "chapter": 8,
+      "verse": 1,
+      "eventOrder": 8,
+      "title": "New orders allow the Jews to fight",
+      "summary": "Esther asks again for her people. Mordecai receives the king’s ring. New letters permit the Jews to gather and fight attackers.",
+      "detail": "Haman’s death does not cancel his letters. Esther keeps asking until new orders address the remaining danger.",
+      "dateLabel": "Chapter order",
+      "uncertainty": "Susa marks the story’s setting. Individual rooms and courier roads are not mapped.",
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan",
+        "luther-esther",
+        "mcclellan-esther"
+      ],
+      "placeIds": [
+        "susa"
+      ],
+      "lds": {
+        "text": "Come, Follow Me links the new letters with its study of fasting during danger.",
+        "sourceIds": [
+          "cfm-esther-2026",
+          "lds-esther-109"
+        ]
+      }
+    },
+    {
+      "id": "esther-9",
+      "chapter": 9,
+      "verse": 1,
+      "eventOrder": 9,
+      "title": "Victory, violence, and Purim",
+      "summary": "The Jews kill their enemies without taking goods. Esther requests another day in Susa. Letters establish Purim with feasts and gifts.",
+      "detail": "The days of fear become days of joy. Gifts to people in need become part of remembering.",
+      "dateLabel": "Chapter order",
+      "uncertainty": "Susa marks the story’s setting. Individual rooms and courier roads are not mapped.",
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan",
+        "luther-esther",
+        "luther-esther-9"
+      ],
+      "placeIds": [
+        "susa"
+      ],
+      "lds": {
+        "text": "Come, Follow Me connects Esther’s courage with the later days of gladness.",
+        "sourceIds": [
+          "cfm-esther-2026",
+          "lds-esther-109"
+        ]
+      }
+    },
+    {
+      "id": "esther-10",
+      "chapter": 10,
+      "verse": 1,
+      "eventOrder": 10,
+      "title": "Mordecai serves his people",
+      "summary": "Ahasuerus collects payment from his lands. Mordecai holds high office and works for his people’s good.",
+      "detail": "Mordecai’s lasting importance comes from helping his people, beyond the honor he receives.",
+      "dateLabel": "Chapter order",
+      "uncertainty": "Susa marks the story’s setting. Individual rooms and courier roads are not mapped.",
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan",
+        "luther-esther"
+      ],
+      "placeIds": [
+        "susa"
+      ],
+      "lds": {
+        "text": "Mordecai works for his people’s good. Who benefits from the authority he receives?",
+        "sourceIds": [
+          "lds-esther-109"
+        ]
+      }
+    }
+  ],
+  "places": [
+    {
+      "id": "susa",
+      "name": "Susa",
+      "lat": 32.189,
+      "lng": 48.257,
+      "summary": "The palace, gate, and city square form the setting for Esther’s choices.",
+      "limits": "Ancient city location. No precise palace room or journey road is reconstructed.",
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan"
+      ],
+      "detail": "The palace, gate, and city square form the setting for Esther’s choices.",
+      "uncertainty": "Ancient city location. No precise palace room or journey road is reconstructed.",
+      "chapterLocation": true
+    },
+    {
+      "id": "jerusalem",
+      "name": "Jerusalem",
+      "lat": 31.778,
+      "lng": 35.235,
+      "summary": "The family account recalls people carried away from Jerusalem before the palace story.",
+      "limits": "Reference marker only. Exact houses, camps, battle lines, property boundaries, and ancient roads remain uncertain.",
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan"
+      ],
+      "detail": "The family account recalls people carried away from Jerusalem before the palace story.",
+      "uncertainty": "Reference marker only. Exact houses, camps, battle lines, property boundaries, and ancient roads remain uncertain.",
+      "chapterLocation": true
+    },
+    {
+      "id": "babylon",
+      "name": "Babylon",
+      "lat": 32.54,
+      "lng": 44.42,
+      "summary": "Nebuchadnezzar’s earlier capture of people forms part of the family account.",
+      "limits": "Approximate reference marker. It does not establish an exact ascent, house, camp, deportation settlement, ancient road, or battle position.",
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan"
+      ],
+      "detail": "Nebuchadnezzar’s earlier capture of people forms part of the family account.",
+      "uncertainty": "Approximate reference marker. It does not establish an exact ascent, house, camp, deportation settlement, ancient road, or battle position.",
+      "chapterLocation": true
+    }
+  ],
+  "campaigns": [],
+  "ancientRoads": [],
+  "regions": [],
+  "words": [],
+  "guides": [
+    {
+      "id": "esther-overview",
+      "title": "Study Esther",
+      "description": "Follow selected chapters through the book.",
+      "steps": [
+        {
+          "title": "Vashti refuses the king",
+          "text": "Ahasuerus holds large feasts. Vashti refuses his order to appear. Memucan urges him to replace her. One refusal becomes a rule for every household. The king’s advisers fear women following Vashti’s example.",
+          "chapter": 1,
+          "verse": 1,
+          "sourceIds": [
+            "web",
+            "atlas",
+            "atlas-canaan",
+            "luther-esther"
+          ]
+        },
+        {
+          "title": "Haman must honor Mordecai",
+          "text": "The king hears how Mordecai saved him. Haman must lead Mordecai through the city with royal clothing and a horse. Haman expects honor for himself. Instead, he must praise the man he wants to kill.",
+          "chapter": 6,
+          "verse": 1,
+          "sourceIds": [
+            "web",
+            "atlas",
+            "atlas-canaan",
+            "luther-esther",
+            "luther-esther-6"
+          ]
+        },
+        {
+          "title": "Mordecai serves his people",
+          "text": "Ahasuerus collects payment from his lands. Mordecai holds high office and works for his people’s good. Mordecai’s lasting importance comes from helping his people, beyond the honor he receives.",
+          "chapter": 10,
+          "verse": 1,
+          "sourceIds": [
+            "web",
+            "atlas",
+            "atlas-canaan",
+            "luther-esther"
+          ]
+        }
+      ]
+    }
+  ],
+  "periods": [
+    {
+      "id": "part-0",
+      "label": "Esther 1–3",
+      "start": 1,
+      "end": 3,
+      "description": "Chapter order"
+    },
+    {
+      "id": "part-1",
+      "label": "Esther 4–6",
+      "start": 4,
+      "end": 6,
+      "description": "Chapter order"
+    },
+    {
+      "id": "part-2",
+      "label": "Esther 7–10",
+      "start": 7,
+      "end": 10,
+      "description": "Chapter order"
+    }
+  ],
+  "chapterMaps": [
+    {
+      "chapter": 1,
+      "focusPlaceIds": [
+        "susa"
+      ],
+      "placeIds": [
+        "susa"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Susa marks the story’s setting. Individual rooms and courier roads are not mapped.",
+      "narrative": "Ahasuerus holds large feasts. Vashti refuses his order to appear. Memucan urges him to replace her.",
+      "limits": "Susa marks the story’s setting. Individual rooms and courier roads are not mapped.",
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan",
+        "luther-esther"
+      ]
+    },
+    {
+      "chapter": 2,
+      "focusPlaceIds": [
+        "susa",
+        "jerusalem",
+        "babylon"
+      ],
+      "placeIds": [
+        "susa",
+        "jerusalem",
+        "babylon"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Jerusalem and Babylon belong to the earlier family account. The palace story takes place in Susa.",
+      "narrative": "Hegai helps Esther in the women’s house. Ahasuerus chooses her as queen. Mordecai reports a plot against him.",
+      "limits": "Jerusalem and Babylon belong to the earlier family account. The palace story takes place in Susa.",
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan",
+        "luther-esther",
+        "mcclellan-esther"
+      ]
+    },
+    {
+      "chapter": 3,
+      "focusPlaceIds": [
+        "susa"
+      ],
+      "placeIds": [
+        "susa"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Susa marks the story’s setting. Individual rooms and courier roads are not mapped.",
+      "narrative": "Mordecai refuses to bow to Haman. Haman obtains the king’s ring and sends orders to kill all the Jews.",
+      "limits": "Susa marks the story’s setting. Individual rooms and courier roads are not mapped.",
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan",
+        "luther-esther"
+      ]
+    },
+    {
+      "chapter": 4,
+      "focusPlaceIds": [
+        "susa"
+      ],
+      "placeIds": [
+        "susa"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Susa marks the story’s setting. Individual rooms and courier roads are not mapped.",
+      "narrative": "Hathach carries messages between Mordecai and Esther. Esther asks the Jews to fast before she risks approaching the king.",
+      "limits": "Susa marks the story’s setting. Individual rooms and courier roads are not mapped.",
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan",
+        "luther-esther",
+        "mcclellan-esther"
+      ]
+    },
+    {
+      "chapter": 5,
+      "focusPlaceIds": [
+        "susa"
+      ],
+      "placeIds": [
+        "susa"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Susa marks the story’s setting. Individual rooms and courier roads are not mapped.",
+      "narrative": "The king receives Esther. She invites him and Haman to two meals. Zeresh suggests preparing a gallows for Mordecai.",
+      "limits": "Susa marks the story’s setting. Individual rooms and courier roads are not mapped.",
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan",
+        "luther-esther",
+        "mcclellan-esther"
+      ]
+    },
+    {
+      "chapter": 6,
+      "focusPlaceIds": [
+        "susa"
+      ],
+      "placeIds": [
+        "susa"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Susa marks the story’s setting. Individual rooms and courier roads are not mapped.",
+      "narrative": "The king hears how Mordecai saved him. Haman must lead Mordecai through the city with royal clothing and a horse.",
+      "limits": "Susa marks the story’s setting. Individual rooms and courier roads are not mapped.",
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan",
+        "luther-esther",
+        "luther-esther-6"
+      ]
+    },
+    {
+      "chapter": 7,
+      "focusPlaceIds": [
+        "susa"
+      ],
+      "placeIds": [
+        "susa"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Susa marks the story’s setting. Individual rooms and courier roads are not mapped.",
+      "narrative": "Esther asks for her life and her people’s lives. She names Haman. Harbonah points out the gallows, and Haman dies.",
+      "limits": "Susa marks the story’s setting. Individual rooms and courier roads are not mapped.",
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan",
+        "luther-esther",
+        "mcclellan-esther"
+      ]
+    },
+    {
+      "chapter": 8,
+      "focusPlaceIds": [
+        "susa"
+      ],
+      "placeIds": [
+        "susa"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Susa marks the story’s setting. Individual rooms and courier roads are not mapped.",
+      "narrative": "Esther asks again for her people. Mordecai receives the king’s ring. New letters permit the Jews to gather and fight attackers.",
+      "limits": "Susa marks the story’s setting. Individual rooms and courier roads are not mapped.",
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan",
+        "luther-esther",
+        "mcclellan-esther"
+      ]
+    },
+    {
+      "chapter": 9,
+      "focusPlaceIds": [
+        "susa"
+      ],
+      "placeIds": [
+        "susa"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Susa marks the story’s setting. Individual rooms and courier roads are not mapped.",
+      "narrative": "The Jews kill their enemies without taking goods. Esther requests another day in Susa. Letters establish Purim with feasts and gifts.",
+      "limits": "Susa marks the story’s setting. Individual rooms and courier roads are not mapped.",
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan",
+        "luther-esther",
+        "luther-esther-9"
+      ]
+    },
+    {
+      "chapter": 10,
+      "focusPlaceIds": [
+        "susa"
+      ],
+      "placeIds": [
+        "susa"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Susa marks the story’s setting. Individual rooms and courier roads are not mapped.",
+      "narrative": "Ahasuerus collects payment from his lands. Mordecai holds high office and works for his people’s good.",
+      "limits": "Susa marks the story’s setting. Individual rooms and courier roads are not mapped.",
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan",
+        "luther-esther"
+      ]
+    }
+  ],
+  "textRoutes": [],
+  "narrativeRegions": [],
+  "chapterStudies": []
+}

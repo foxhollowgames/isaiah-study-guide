@@ -1,0 +1,32 @@
+import assert from 'node:assert/strict';
+import {readFile} from 'node:fs/promises';
+import vm from 'node:vm';
+const root=new URL('../dist/',import.meta.url);
+const app=await readFile(new URL('book-esther-app.js',root),'utf8');
+const portraits=await readFile(new URL('book-esther-portraits.js',root),'utf8');
+const people=JSON.parse(portraits.match(/export const people = (.*);/)[1]);
+const book=JSON.parse(await readFile(new URL('data/books/esther.json',root),'utf8'));
+const functions=app.slice(app.indexOf('function entityLinkTerms('),app.indexOf('function linkedPersonProfileHtml('));
+const places=JSON.parse(await readFile(new URL('data/books/esther-native-content.json',root),'utf8')).places;
+const context=vm.createContext({people,state:{chapter:1},entityLinkCache:{chapter:null,terms:[]},data:{places,regions:[],campaigns:[],events:[],ancientRoads:[],words:[]},mapDisplayName:s=>s,esc:s=>String(s).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('"','&quot;')});
+vm.runInContext(functions,context);
+const html=(chapter,n)=>{context.state.chapter=chapter;return context.linkedEntityHtml(book.scripture[chapter].find(v=>v.verse===n).text,{verse:n});};
+const linked=(chapter,n,id)=>html(chapter,n).includes(`data-person-id="${id}"`);
+for(const [c,v,id] of [[1,10,'royal-servants-esther'],[1,14,'royal-princes-esther'],[2,5,'mordecai-ancestors'],[2,6,'jehoiachin'],[2,7,'esther'],[2,15,'abihail-esther'],[2,21,'bigthan-teresh'],[6,2,'bigthan-teresh'],[4,16,'esther-maidens'],[7,9,'harbonah'],[9,7,'haman-sons'],[9,13,'haman-sons']])assert(linked(c,v,id),`${c}:${v} must link ${id}`);
+assert(!linked(1,10,'harbonah'),'Chapter 1 Harbona stays with the named servant group');
+const reachable=new Set();
+for(const chapter of book.chapters){
+ context.state.chapter=chapter.chapter;
+ const text=context.linkedEntityHtml(chapter.summary)+book.scripture[chapter.chapter].map(v=>html(chapter.chapter,v.verse)).join('');
+ for(const m of text.matchAll(/data-person-id="([^"]+)"/g))reachable.add(m[1]);
+}
+for(const p of book.people)assert(reachable.has(p.id),`No reader link for ${p.id}`);
+assert.equal(book.people.length,23);
+assert.equal(Object.values(book.scripture).flat().length,167);
+assert.equal(book.places.length,3);
+assert(book.chapters.every(c=>c.route.length===0&&!('year' in c)));
+assert.deepEqual(book.chapters.filter(c=>c.lds.sourceIds.includes('cfm-esther-2026')).map(c=>c.chapter),[2,3,4,5,7,8,9]);
+const manifest=JSON.parse(await readFile(new URL('../scripts/esther-generated-portraits.json',root),'utf8'));
+assert.equal(Object.keys(manifest).length,21);
+for(const p of Object.values(manifest))assert(p.originalPath,'Generated portrait lacks its original saved path');
+console.log('Esther checks passed: 23 reachable profiles, identity links, 167 verses, source coverage, and map limits.');

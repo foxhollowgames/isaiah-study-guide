@@ -130,8 +130,9 @@
     "id": "esther",
     "name": "Esther",
     "testament": "Old Testament",
-    "status": "planned",
-    "url": "book.html?book=esther"
+    "status": "ready",
+    "url": "book.html?book=esther",
+    "description": "Palace choices · danger · courage · Purim"
   },
   {
     "id": "job",
