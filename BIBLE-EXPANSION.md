@@ -13,11 +13,12 @@ Book pages use `/book.html?book=<slug>`.
 - Leviticus: all 27 chapters, 859 verses, 27 chapter studies, and seven person profiles with portraits.
 - Numbers: all 36 chapters, 1,288 verses, 36 chapter studies, and 25 person profiles with portraits.
 - Deuteronomy: all 34 chapters, 959 verses, 34 chapter studies, and 29 selected person or ancestral profiles with portraits.
-- Other 60 books: directory entries and clear planned pages. They have no study content yet.
+- Joshua: all 24 chapters, 658 verses, 24 chapter studies, and 46 selected person or ancestral profiles with portraits.
+- Other 59 books: directory entries and clear planned pages. They have no study content yet.
 
 ## Next book
 
-Joshua is next in canonical order. Complete and verify one book before starting another.
+Judges is next in canonical order. Complete and verify one book before starting another.
 Do not label a book ready until its reading text, chapter studies, sources, portraits, and maps pass review.
 Use the existing Isaiah guide as the detail standard. Genesis currently has selected major people and chapter-level events.
 Future enrichment can add finer passage divisions, additional people, language notes, and more specific citations.
@@ -36,7 +37,7 @@ Further weeks can continue the backlog, but no recurring schedule has been creat
 
 Follow `BIBLE-SOURCE-POLICY.md` for every source category.
 The native build applies `scripts/bible_source_enrichment.py` after each book rebuild.
-Genesis, Exodus, Leviticus, Numbers, and Deuteronomy include reviewed 2026 Come, Follow Me lessons, Wikipedia revisions, and McClellan notes. Numbers uses his original commentary on Numbers 22.
+Genesis through Joshua include reviewed 2026 Come, Follow Me lessons, Wikipedia revisions, and McClellan notes. Numbers uses his original commentary on Numbers 22.
 The transcript is machine-generated and lightly edited. Audio was not checked. These limits appear in source details.
 Selected scholarly publication records support further study. Publisher descriptions do not count as full-text review.
 
@@ -97,3 +98,10 @@ Profiles explain that ancestral tribal names do not place those ancestors at Mos
 Its map distinguishes retrospective locations and planned ceremonies from the present Moab setting.
 Current Church teaching accompanies the older manual’s race-related statements in chapter 32.
 Moses’s departure retains the biblical death account and separately presents the LDS interpretation of translation.
+
+Joshua uses the native Isaiah controls and chapter-order timeline.
+Its historical sources include Yale lecture 12, Hazor excavation context, and a 2023 peer-reviewed Hazor study abstract.
+Fire deposits are not attributed to Joshua without evidence. Uncertain places and roads retain explicit limits.
+Joshua portraits reuse 33 established assets and add four historical illustrations and nine generated interpretations.
+The generated prompt set and saved asset paths are in scripts/joshua-generated-portraits.json.
+Build Joshua with scripts/build-joshua.py, scripts/finish-joshua-art.py, and scripts/build-native-books.py, in that order.

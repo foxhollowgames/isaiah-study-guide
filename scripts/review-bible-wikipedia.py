@@ -4,7 +4,7 @@ from pathlib import Path
 ROOT=Path(__file__).resolve().parent.parent
 sys.stdout.reconfigure(encoding='utf-8')
 rows=[]
-books=[('genesis','Book_of_Genesis'),('exodus','Book_of_Exodus'),('leviticus','Book_of_Leviticus'),('numbers','Book_of_Numbers'),('deuteronomy','Book_of_Deuteronomy')]
+books=[('genesis','Book_of_Genesis'),('exodus','Book_of_Exodus'),('leviticus','Book_of_Leviticus'),('numbers','Book_of_Numbers'),('deuteronomy','Book_of_Deuteronomy'),('joshua','Book_of_Joshua')]
 for slug,title in books:
     if len(sys.argv)>1 and slug not in sys.argv[1:]:continue
     url='https://en.wikipedia.org/wiki/'+title

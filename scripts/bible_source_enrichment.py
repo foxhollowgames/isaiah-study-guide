@@ -7,6 +7,7 @@ DATE='2026-10-05'
 CFM='https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/'
 def span(a,z):return list(range(a,z+1))
 LESSONS=[
+ ('joshua',21,span(1,8)+[23,24],'Joshua 1–8; 23–24','The lesson studies courage, scripture study, Rahab’s faith and actions, remembrance, and choosing to serve God.'),
  ('deuteronomy',20,[6,7,8,15,18,29,30,34],'Deuteronomy 6–8; 15; 18; 29–30; 34','The lesson studies love for God, remembrance, generous care, and agency. It connects the prophet like Moses with Jesus Christ.'),
  ('genesis',3,span(1,2),'Genesis 1–2; Moses 2–3; Abraham 4–5','The lesson connects creation with human worth, care for creation, marriage, and the Sabbath.'),
  ('genesis',4,span(3,4),'Genesis 3–4; Moses 4–5','The lesson reads the Fall through Restoration scripture. It connects agency, opposition, redemption, and willing sacrifice.'),
@@ -26,6 +27,7 @@ LESSONS=[
  ('numbers',19,[11,12,13,14,20,21,22,23,24,27],'Numbers 11–14; 20–24; 27','The lesson studies gratitude, meekness, trust, and resistance to pressure. It connects the bronze serpent with faith in Christ.'),
 ]
 WIKI={
+ 'joshua':([1,13,24],'Joshua moves from crossing and campaigns to land distribution and final covenant addresses. This overview supplies the book’s broad structure.'),
  'deuteronomy':([1,5,31,34],'Deuteronomy presents Moses’s addresses before Israel’s entry into the land. Its ending includes poems, Joshua’s succession, and the account of Moses’s departure.'),
  'genesis':([1,12,50],'Genesis moves from creation and early humanity to the families of Abraham, Isaac, Jacob, and Joseph. This overview helps explain the book’s structure.'),
  'exodus':([1,19,40],'Exodus connects escape from slavery with a covenant at Sinai and the construction of the tabernacle. This overview supplies book structure.'),
@@ -40,6 +42,7 @@ SCHOLARLY={
 }
 INTERVIEW='https://www.mormonstories.org/10-things-bible-dan-mcclellan/'
 DM={
+ 'joshua':([2,6,10,11,13,15,16,17],'McClellan argues that total conquest claims are literary presentations rather than complete historical reports. He also discusses Rahab’s protection of the spies and the account’s recognition of her actions.',[(7171,'1:59:31 · Conquest claims'),(13642,'3:47:22 · Rahab')]),
  'genesis':([1,2,3,6,7,8,9,11,49],'McClellan discusses different creation accounts and older flood traditions. He states uncertainty about Babel’s possible sources. He also describes Genesis 49 as poetry preserved within a larger narrative.',[(1409,'23:29 · Poetry and Genesis 49'),(3347,'55:47 · Creation accounts'),(3463,'57:43 · Flood and Babel')]),
  'exodus':([15],'McClellan identifies the Song of the Sea as poetry preserved within a larger narrative. He discusses possible earlier oral transmission.',[(1409,'23:29 · Song of the Sea')]),
  'leviticus':([18,20],'McClellan studies the sexual prohibitions through ancient social roles and ideas about pollution of the land. He distinguishes the prohibitions in chapter 18 from penalties in chapter 20.',[(11495,'3:11:35 · Scope of the prohibitions'),(11567,'3:12:47 · Chapters 18 and 20'),(11635,'3:13:55 · Pollution of the land')]),
