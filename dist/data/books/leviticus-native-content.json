@@ -1,0 +1,2107 @@
+{
+  "sources": [
+    {
+      "id": "web",
+      "title": "Leviticus — World English Bible",
+      "url": "https://ebible.org/engwebp/LEV01.htm",
+      "summary": "The public-domain text supplies all 27 chapters.",
+      "category": "Scripture",
+      "perspective": "historical",
+      "limits": "This reading text preserves the narrative and laws. It does not establish their historical dates.",
+      "type": "Scripture",
+      "limitations": "This reading text preserves the narrative and laws. It does not establish their historical dates.",
+      "license": "Public domain"
+    },
+    {
+      "id": "terrain",
+      "title": "Mapzen / Tilezen terrain and Natural Earth geography",
+      "perspective": "historical",
+      "category": "Geography",
+      "url": "https://registry.opendata.aws/terrain-tiles/",
+      "summary": "Cached terrain shows modern elevation. Natural Earth supplies the land and water outlines.",
+      "limits": "Modern terrain is a geographic aid. It does not reconstruct ancient shorelines or settlements.",
+      "type": "Geography",
+      "limitations": "Modern terrain is a geographic aid. It does not reconstruct ancient shorelines or settlements.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "atlas-exodus",
+      "title": "Bible Maps: Israel’s Exodus from Egypt and Entry into Canaan",
+      "url": "https://www.churchofjesuschrist.org/study/scriptures/bible-maps/map-2?lang=eng",
+      "summary": "The Church-published map marks a traditional route and several uncertain sites.",
+      "category": "Geography",
+      "perspective": "historical",
+      "limits": "The displayed route is a study tradition. It does not establish a verified sea crossing or Sinai site.",
+      "type": "Geography",
+      "limitations": "The displayed route is a study tradition. It does not establish a verified sea crossing or Sinai site.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "yale-9",
+      "title": "The Priestly Legacy — Open Yale Courses",
+      "url": "https://oyc.yale.edu/religious-studies/rlst-145/lecture-9",
+      "summary": "Christine Hayes examines priestly worship, sacrifice, purity, and sacred space.",
+      "category": "Scholarly study",
+      "perspective": "historical",
+      "limits": "Academic interpretation remains separate from LDS teaching. Scholars debate dating and composition.",
+      "type": "Scholarly study",
+      "limitations": "Academic interpretation remains separate from LDS teaching. Scholars debate dating and composition.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "yale-10",
+      "title": "Biblical Law — Open Yale Courses",
+      "url": "https://oyc.yale.edu/religious-studies/rlst-145/lecture-10",
+      "summary": "Christine Hayes compares biblical law with ancient legal traditions.",
+      "category": "Scholarly study",
+      "perspective": "historical",
+      "limits": "Academic interpretation remains separate from LDS teaching. Scholars debate dating and composition.",
+      "type": "Scholarly study",
+      "limitations": "Academic interpretation remains separate from LDS teaching. Scholars debate dating and composition.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "lds-offerings",
+      "title": "Leviticus 1–10: Sacrifices and Offerings",
+      "url": "https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/leviticus-1-10-a-law-of-performances-and-ordinances-part-1-sacrifices-and-offerings?lang=eng",
+      "summary": "Church commentary studies this passage range through LDS teachings.",
+      "category": "LDS study manual",
+      "perspective": "lds",
+      "limits": "This older manual includes interpretive commentary. It does not supply independent archaeological confirmation.",
+      "type": "LDS study",
+      "limitations": "This older manual includes interpretive commentary. It does not supply independent archaeological confirmation.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "lds-purity",
+      "title": "Leviticus 11–18: The Clean and the Unclean",
+      "url": "https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/leviticus-11-18-a-law-of-performances-and-ordinances-part-2-the-clean-and-the-unclean?lang=eng",
+      "summary": "Church commentary studies this passage range through LDS teachings.",
+      "category": "LDS study manual",
+      "perspective": "lds",
+      "limits": "This older manual includes interpretive commentary. It does not supply independent archaeological confirmation.",
+      "type": "LDS study",
+      "limitations": "This older manual includes interpretive commentary. It does not supply independent archaeological confirmation.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "lds-holiness",
+      "title": "Leviticus 19–27: Laws of Mercy and Righteousness",
+      "url": "https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/leviticus-19-27-a-law-of-performances-and-ordinances-part-3-laws-of-mercy-and-righteousness?lang=eng",
+      "summary": "Church commentary studies this passage range through LDS teachings.",
+      "category": "LDS study manual",
+      "perspective": "lds",
+      "limits": "This older manual includes interpretive commentary. It does not supply independent archaeological confirmation.",
+      "type": "LDS study",
+      "limitations": "This older manual includes interpretive commentary. It does not supply independent archaeological confirmation.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "mosiah-13",
+      "title": "Mosiah 13:27–35",
+      "url": "https://www.churchofjesuschrist.org/study/scriptures/bofm/mosiah/13?lang=eng&id=p27-p35#p27",
+      "summary": "Abinadi teaches about the law of Moses and salvation through Christ.",
+      "category": "LDS scripture",
+      "perspective": "lds",
+      "limits": "This Restoration scripture is a related reading. Keep it distinct from Leviticus’s own text.",
+      "type": "LDS study",
+      "limitations": "This Restoration scripture is a related reading. Keep it distinct from Leviticus’s own text.",
+      "license": "Linked source. Original guide summaries."
+    }
+  ],
+  "passages": [
+    {
+      "id": "leviticus-1",
+      "chapter": 1,
+      "start": 1,
+      "end": 17,
+      "title": "Burnt offerings",
+      "summary": "God calls Moses from the meeting tent. He gives instructions for offerings from livestock and birds. The offering includes careful preparation. The different animals allow more than one kind of household to participate.",
+      "year": null,
+      "dateLabel": "Chapter order · historical dating debated",
+      "uncertainty": "The marker represents the traditional Sinai region. Leviticus gives no chapter-by-chapter travel route.",
+      "placeIds": [
+        "sinai"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-9"
+      ],
+      "lds": {
+        "text": "Consider what an offering expresses about devotion and willing service.",
+        "sourceIds": [
+          "lds-offerings",
+          "mosiah-13"
+        ]
+      }
+    },
+    {
+      "id": "leviticus-2",
+      "chapter": 2,
+      "start": 1,
+      "end": 16,
+      "title": "Grain offerings",
+      "summary": "God gives instructions for grain, oil, incense, and first produce. Salt accompanies the offerings. The chapter includes gifts from ordinary food. Worship involves the products of daily work.",
+      "year": null,
+      "dateLabel": "Chapter order · historical dating debated",
+      "uncertainty": "The marker represents the traditional Sinai region. Leviticus gives no chapter-by-chapter travel route.",
+      "placeIds": [
+        "sinai"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-9"
+      ],
+      "lds": {
+        "text": "Consider how daily work and gratitude can become part of your worship.",
+        "sourceIds": [
+          "lds-offerings"
+        ]
+      }
+    },
+    {
+      "id": "leviticus-3",
+      "chapter": 3,
+      "start": 1,
+      "end": 17,
+      "title": "Fellowship offerings",
+      "summary": "God gives instructions for offerings from cattle, sheep, and goats. Blood and fat receive special treatment. The offering marks a relationship with God. The text places limits on what people may consume.",
+      "year": null,
+      "dateLabel": "Chapter order · historical dating debated",
+      "uncertainty": "The marker represents the traditional Sinai region. Leviticus gives no chapter-by-chapter travel route.",
+      "placeIds": [
+        "sinai"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-9"
+      ],
+      "lds": {
+        "text": "Consider how gratitude can strengthen your relationship with God and other people.",
+        "sourceIds": [
+          "lds-offerings"
+        ]
+      }
+    },
+    {
+      "id": "leviticus-4",
+      "chapter": 4,
+      "start": 1,
+      "end": 35,
+      "title": "Offerings for unintentional sin",
+      "summary": "Instructions address errors by a priest, the congregation, a leader, and an ordinary person. Responsibility reaches every level of society. A leader's error can affect more than the leader.",
+      "year": null,
+      "dateLabel": "Chapter order · historical dating debated",
+      "uncertainty": "The marker represents the traditional Sinai region. Leviticus gives no chapter-by-chapter travel route.",
+      "placeIds": [
+        "sinai"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-9"
+      ],
+      "lds": {
+        "text": "Consider how your responsibilities change the effects of your mistakes.",
+        "sourceIds": [
+          "lds-offerings",
+          "mosiah-13"
+        ]
+      }
+    },
+    {
+      "id": "leviticus-5",
+      "chapter": 5,
+      "start": 1,
+      "end": 19,
+      "title": "Confession and repair",
+      "summary": "The laws address withheld testimony, impurity, rash oaths, and misuse of sacred things. Confession joins practical repair. The offering depends partly on the person's available resources.",
+      "year": null,
+      "dateLabel": "Chapter order · historical dating debated",
+      "uncertainty": "The marker represents the traditional Sinai region. Leviticus gives no chapter-by-chapter travel route.",
+      "placeIds": [
+        "sinai"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-9"
+      ],
+      "lds": {
+        "text": "Consider how confession, restitution, and changed conduct belong together in repentance.",
+        "sourceIds": [
+          "lds-offerings"
+        ]
+      }
+    },
+    {
+      "id": "leviticus-6",
+      "chapter": 6,
+      "start": 1,
+      "end": 30,
+      "title": "Restitution and priestly duties",
+      "summary": "Wrongdoers must return stolen or withheld property. Priests receive instructions for continuing offerings. Worship does not replace repair of harm. Daily priestly work also requires sustained care.",
+      "year": null,
+      "dateLabel": "Chapter order · historical dating debated",
+      "uncertainty": "The marker represents the traditional Sinai region. Leviticus gives no chapter-by-chapter travel route.",
+      "placeIds": [
+        "sinai"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-9"
+      ],
+      "lds": {
+        "text": "Consider what practical repair follows an apology or a confession.",
+        "sourceIds": [
+          "lds-offerings"
+        ]
+      }
+    },
+    {
+      "id": "leviticus-7",
+      "chapter": 7,
+      "start": 1,
+      "end": 38,
+      "title": "Rules for shared offerings",
+      "summary": "The laws explain priestly portions, thanksgiving offerings, vows, and limits on eating. The community shares food through defined rules. Gratitude and promises require care rather than casual handling.",
+      "year": null,
+      "dateLabel": "Chapter order · historical dating debated",
+      "uncertainty": "The marker represents the traditional Sinai region. Leviticus gives no chapter-by-chapter travel route.",
+      "placeIds": [
+        "sinai"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-9"
+      ],
+      "lds": {
+        "text": "Consider how gratitude and promises shape the way you use what you receive.",
+        "sourceIds": [
+          "lds-offerings"
+        ]
+      }
+    },
+    {
+      "id": "leviticus-8",
+      "chapter": 8,
+      "start": 1,
+      "end": 36,
+      "title": "Priests appointed",
+      "summary": "Moses washes and clothes Aaron and his sons. He performs the appointed offerings before the congregation. Priestly appointment includes public preparation. The priests receive duties within a community, not only personal honor.",
+      "year": null,
+      "dateLabel": "Chapter order · historical dating debated",
+      "uncertainty": "The marker represents the traditional Sinai region. Leviticus gives no chapter-by-chapter travel route.",
+      "placeIds": [
+        "sinai"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-9"
+      ],
+      "lds": {
+        "text": "The Church manual connects priestly service with sacred preparation. Consider the duties that follow an appointment.",
+        "sourceIds": [
+          "lds-offerings"
+        ]
+      }
+    },
+    {
+      "id": "leviticus-9",
+      "chapter": 9,
+      "start": 1,
+      "end": 24,
+      "title": "The first priestly service",
+      "summary": "Aaron and his sons make offerings. Moses and Aaron bless the people. Fire consumes the altar offering. The new service reaches its public beginning. The people's response recognizes the sacred presence described in the narrative.",
+      "year": null,
+      "dateLabel": "Chapter order · historical dating debated",
+      "uncertainty": "The marker represents the traditional Sinai region. Leviticus gives no chapter-by-chapter travel route.",
+      "placeIds": [
+        "sinai"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-9"
+      ],
+      "lds": {
+        "text": "Consider how preparation leads toward service for the benefit of other people.",
+        "sourceIds": [
+          "lds-offerings"
+        ]
+      }
+    },
+    {
+      "id": "leviticus-10",
+      "chapter": 10,
+      "start": 1,
+      "end": 20,
+      "title": "Nadab and Abihu die",
+      "summary": "Nadab and Abihu offer unauthorized fire and die. Moses gives further instructions. Aaron explains his response to grief. The chapter places sacred limits beside a bereaved father's judgment. Aaron's silence and later explanation deserve careful reading.",
+      "year": null,
+      "dateLabel": "Chapter order · historical dating debated",
+      "uncertainty": "The marker represents the traditional Sinai region. Leviticus gives no chapter-by-chapter travel route.",
+      "placeIds": [
+        "sinai"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-9"
+      ],
+      "lds": {
+        "text": "The Church manual discusses responsibility in sacred service. Read that theme alongside Aaron's grief.",
+        "sourceIds": [
+          "lds-offerings"
+        ]
+      }
+    },
+    {
+      "id": "leviticus-11",
+      "chapter": 11,
+      "start": 1,
+      "end": 47,
+      "title": "Animals and food",
+      "summary": "God identifies clean and unclean animals. Contact with certain carcasses brings temporary impurity. The food rules distinguish Israel's daily practices. Ritual impurity does not by itself establish moral guilt.",
+      "year": null,
+      "dateLabel": "Chapter order · historical dating debated",
+      "uncertainty": "The marker represents the traditional Sinai region. Leviticus gives no chapter-by-chapter travel route.",
+      "placeIds": [
+        "sinai"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-9"
+      ],
+      "lds": {
+        "text": "The Church manual studies these rules within Israel's covenant. Avoid treating impurity as a person's worth.",
+        "sourceIds": [
+          "lds-purity"
+        ]
+      }
+    },
+    {
+      "id": "leviticus-12",
+      "chapter": 12,
+      "start": 1,
+      "end": 8,
+      "title": "After childbirth",
+      "summary": "The law gives periods and offerings after childbirth. A less costly offering is available. The chapter addresses a bodily event through ritual rules. Childbirth is not presented as a moral offense.",
+      "year": null,
+      "dateLabel": "Chapter order · historical dating debated",
+      "uncertainty": "The marker represents the traditional Sinai region. Leviticus gives no chapter-by-chapter travel route.",
+      "placeIds": [
+        "sinai"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-9"
+      ],
+      "lds": {
+        "text": "Consider the distinction between a ritual status and a person's moral conduct.",
+        "sourceIds": [
+          "lds-purity"
+        ]
+      }
+    },
+    {
+      "id": "leviticus-13",
+      "chapter": 13,
+      "start": 1,
+      "end": 59,
+      "title": "Inspection of skin and cloth",
+      "summary": "Priests inspect skin conditions and damaged clothing. The law specifies observation periods and separation. The ancient categories do not match one modern medical diagnosis. Inspection concerns the community's ritual boundaries.",
+      "year": null,
+      "dateLabel": "Chapter order · historical dating debated",
+      "uncertainty": "The marker represents the traditional Sinai region. Leviticus gives no chapter-by-chapter travel route.",
+      "placeIds": [
+        "sinai"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-9"
+      ],
+      "lds": {
+        "text": "Read these conditions within their ancient setting. Do not use them to judge a sick person's faith.",
+        "sourceIds": [
+          "lds-purity"
+        ]
+      }
+    },
+    {
+      "id": "leviticus-14",
+      "chapter": 14,
+      "start": 1,
+      "end": 57,
+      "title": "Return after cleansing",
+      "summary": "The law gives rites for a cleansed person. It also addresses affected houses and less costly offerings. The rules include return after separation. The process involves both the person and the place where people live.",
+      "year": null,
+      "dateLabel": "Chapter order · historical dating debated",
+      "uncertainty": "The marker represents the traditional Sinai region. Leviticus gives no chapter-by-chapter travel route.",
+      "placeIds": [
+        "sinai"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-9"
+      ],
+      "lds": {
+        "text": "Consider the importance of helping people return to community after a period of separation.",
+        "sourceIds": [
+          "lds-purity"
+        ]
+      }
+    },
+    {
+      "id": "leviticus-15",
+      "chapter": 15,
+      "start": 1,
+      "end": 33,
+      "title": "Bodily discharges",
+      "summary": "The laws address discharges, washing, waiting periods, and offerings. Ordinary bodily processes can change ritual status. This status must remain distinct from moral wrongdoing.",
+      "year": null,
+      "dateLabel": "Chapter order · historical dating debated",
+      "uncertainty": "The marker represents the traditional Sinai region. Leviticus gives no chapter-by-chapter travel route.",
+      "placeIds": [
+        "sinai"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-9"
+      ],
+      "lds": {
+        "text": "Consider how careful distinctions can prevent shame about ordinary bodily experiences.",
+        "sourceIds": [
+          "lds-purity"
+        ]
+      }
+    },
+    {
+      "id": "leviticus-16",
+      "chapter": 16,
+      "start": 1,
+      "end": 34,
+      "title": "The Day of Atonement",
+      "summary": "Aaron receives instructions for entry into the inner sanctuary. Two goats have different roles in the rite. The annual rite addresses the sanctuary and the people together. Access to the inner space has strict limits.",
+      "year": null,
+      "dateLabel": "Chapter order · historical dating debated",
+      "uncertainty": "The marker represents the traditional Sinai region. Leviticus gives no chapter-by-chapter travel route.",
+      "placeIds": [
+        "sinai"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-9"
+      ],
+      "lds": {
+        "text": "The Church manual reads these signs through Jesus Christ's Atonement. Keep that reading separately labeled.",
+        "sourceIds": [
+          "lds-purity",
+          "mosiah-13"
+        ]
+      }
+    },
+    {
+      "id": "leviticus-17",
+      "chapter": 17,
+      "start": 1,
+      "end": 16,
+      "title": "Blood and the place of offering",
+      "summary": "The law regulates slaughter and offerings. It prohibits eating blood and explains blood's relation to life. Life receives special protection within the ritual system. Worship is directed toward a shared sacred center.",
+      "year": null,
+      "dateLabel": "Chapter order · historical dating debated",
+      "uncertainty": "The marker represents the traditional Sinai region. Leviticus gives no chapter-by-chapter travel route.",
+      "placeIds": [
+        "sinai"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-9",
+        "yale-10"
+      ],
+      "lds": {
+        "text": "Consider how reverence for life affects both worship and ordinary conduct.",
+        "sourceIds": [
+          "lds-purity"
+        ]
+      }
+    },
+    {
+      "id": "leviticus-18",
+      "chapter": 18,
+      "start": 1,
+      "end": 30,
+      "title": "Limits on sexual conduct",
+      "summary": "God gives laws about prohibited relationships and acts. The chapter connects conduct with the land's condition. The laws address family and community boundaries. Read each command within its ancient legal setting.",
+      "year": null,
+      "dateLabel": "Chapter order · historical dating debated",
+      "uncertainty": "The marker represents the traditional Sinai region. Leviticus gives no chapter-by-chapter travel route.",
+      "placeIds": [
+        "sinai"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-9",
+        "yale-10"
+      ],
+      "lds": {
+        "text": "Consider the duties that protect trust and prevent harm within relationships.",
+        "sourceIds": [
+          "lds-purity"
+        ]
+      }
+    },
+    {
+      "id": "leviticus-19",
+      "chapter": 19,
+      "start": 1,
+      "end": 37,
+      "title": "Holiness in daily life",
+      "summary": "God commands reverence, honest measures, care for the poor, and love for the neighbor and stranger. Holiness includes economic fairness and care for others. Worship and daily justice appear in the same chapter.",
+      "year": null,
+      "dateLabel": "Chapter order · historical dating debated",
+      "uncertainty": "The marker represents the traditional Sinai region. Leviticus gives no chapter-by-chapter travel route.",
+      "placeIds": [
+        "sinai"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-9",
+        "yale-10"
+      ],
+      "lds": {
+        "text": "Consider how love for the neighbor changes your treatment of workers, strangers, and people in need.",
+        "sourceIds": [
+          "lds-holiness"
+        ]
+      }
+    },
+    {
+      "id": "leviticus-20",
+      "chapter": 20,
+      "start": 1,
+      "end": 27,
+      "title": "Penalties and distinction",
+      "summary": "The chapter assigns severe penalties for specified offenses. It calls Israel to remain distinct. These are ancient penalties within Israel's law. They require historical study rather than direct transfer into present practice.",
+      "year": null,
+      "dateLabel": "Chapter order · historical dating debated",
+      "uncertainty": "The marker represents the traditional Sinai region. Leviticus gives no chapter-by-chapter travel route.",
+      "placeIds": [
+        "sinai"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-9",
+        "yale-10"
+      ],
+      "lds": {
+        "text": "Consider moral responsibility while keeping ancient civil penalties distinct from present Church practice.",
+        "sourceIds": [
+          "lds-holiness"
+        ]
+      }
+    },
+    {
+      "id": "leviticus-21",
+      "chapter": 21,
+      "start": 1,
+      "end": 24,
+      "title": "Rules for priests",
+      "summary": "The laws address priestly mourning, marriage, and access to sacred service. Priests have special restrictions. The text's bodily rules do not justify denying a person's human worth.",
+      "year": null,
+      "dateLabel": "Chapter order · historical dating debated",
+      "uncertainty": "The marker represents the traditional Sinai region. Leviticus gives no chapter-by-chapter travel route.",
+      "placeIds": [
+        "sinai"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-9",
+        "yale-10"
+      ],
+      "lds": {
+        "text": "Consider the responsibilities of sacred service without judging a person's worth by bodily appearance.",
+        "sourceIds": [
+          "lds-holiness"
+        ]
+      }
+    },
+    {
+      "id": "leviticus-22",
+      "chapter": 22,
+      "start": 1,
+      "end": 33,
+      "title": "Holy gifts and acceptable offerings",
+      "summary": "The laws regulate priestly access to food and the condition of offered animals. The chapter protects what the community dedicates. Care for sacred gifts includes how they are handled.",
+      "year": null,
+      "dateLabel": "Chapter order · historical dating debated",
+      "uncertainty": "The marker represents the traditional Sinai region. Leviticus gives no chapter-by-chapter travel route.",
+      "placeIds": [
+        "sinai"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-9",
+        "yale-10"
+      ],
+      "lds": {
+        "text": "Consider how careful use of dedicated resources can show respect for those who provide them.",
+        "sourceIds": [
+          "lds-holiness"
+        ]
+      }
+    },
+    {
+      "id": "leviticus-23",
+      "chapter": 23,
+      "start": 1,
+      "end": 44,
+      "title": "The sacred calendar",
+      "summary": "God names the Sabbath and appointed festivals. The harvest rules leave produce for the poor and stranger. Time becomes part of worship. The calendar joins remembered deliverance, rest, harvest, and care for those in need.",
+      "year": null,
+      "dateLabel": "Chapter order · historical dating debated",
+      "uncertainty": "The marker represents the traditional Sinai region. Leviticus gives no chapter-by-chapter travel route.",
+      "placeIds": [
+        "sinai"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-9",
+        "yale-10"
+      ],
+      "lds": {
+        "text": "Consider how worship, rest, and care for others can shape your calendar.",
+        "sourceIds": [
+          "lds-holiness"
+        ]
+      }
+    },
+    {
+      "id": "leviticus-24",
+      "chapter": 24,
+      "start": 1,
+      "end": 23,
+      "title": "Lamps, bread, and a judgment",
+      "summary": "The law maintains lamps and bread. An unnamed man curses the Name and is executed after judgment. The account names his mother, Shelomith. It connects the case with laws about injury and equal standards.",
+      "year": null,
+      "dateLabel": "Chapter order · historical dating debated",
+      "uncertainty": "The marker represents the traditional Sinai region. Leviticus gives no chapter-by-chapter travel route.",
+      "placeIds": [
+        "sinai"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-9",
+        "yale-10"
+      ],
+      "lds": {
+        "text": "Consider the seriousness of sacred speech. Keep the ancient punishment distinct from present religious practice.",
+        "sourceIds": [
+          "lds-holiness"
+        ]
+      }
+    },
+    {
+      "id": "leviticus-25",
+      "chapter": 25,
+      "start": 1,
+      "end": 55,
+      "title": "Sabbath years and Jubilee",
+      "summary": "God commands rest for the land and restoration in the Jubilee. The laws address land, debt, and servitude. The land belongs to God in this account. The rules limit permanent loss while preserving unequal ancient social categories.",
+      "year": null,
+      "dateLabel": "Chapter order · historical dating debated",
+      "uncertainty": "The marker represents the traditional Sinai region. Leviticus gives no chapter-by-chapter travel route.",
+      "placeIds": [
+        "sinai"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-9",
+        "yale-10"
+      ],
+      "lds": {
+        "text": "Consider how care for land and relief of hardship can accompany faithful stewardship.",
+        "sourceIds": [
+          "lds-holiness"
+        ]
+      }
+    },
+    {
+      "id": "leviticus-26",
+      "chapter": 26,
+      "start": 1,
+      "end": 46,
+      "title": "Covenant promises and warnings",
+      "summary": "The chapter describes blessings, escalating disaster, exile, and possible return after confession. The covenant account connects conduct and communal outcomes. Do not use it to assign guilt for every present disaster.",
+      "year": null,
+      "dateLabel": "Chapter order · historical dating debated",
+      "uncertainty": "The marker represents the traditional Sinai region. Leviticus gives no chapter-by-chapter travel route.",
+      "placeIds": [
+        "sinai"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-9",
+        "yale-10"
+      ],
+      "lds": {
+        "text": "Consider repentance and hope without blaming all suffering on the people who experience it.",
+        "sourceIds": [
+          "lds-holiness"
+        ]
+      }
+    },
+    {
+      "id": "leviticus-27",
+      "chapter": 27,
+      "start": 1,
+      "end": 34,
+      "title": "Vows and dedicated property",
+      "summary": "The laws assign values for vowed persons, animals, land, and other dedicated things. The final chapter regulates commitments made to God. Its valuation rules belong to a specific ancient legal system.",
+      "year": null,
+      "dateLabel": "Chapter order · historical dating debated",
+      "uncertainty": "The marker represents the traditional Sinai region. Leviticus gives no chapter-by-chapter travel route.",
+      "placeIds": [
+        "sinai"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-9",
+        "yale-10"
+      ],
+      "lds": {
+        "text": "Consider whether your promises are informed, careful, and matched by responsible action.",
+        "sourceIds": [
+          "lds-holiness"
+        ]
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "leviticus-1",
+      "chapter": 1,
+      "verse": 1,
+      "eventOrder": 1,
+      "title": "Burnt offerings",
+      "summary": "God calls Moses from the meeting tent. He gives instructions for offerings from livestock and birds.",
+      "detail": "The offering includes careful preparation. The different animals allow more than one kind of household to participate.",
+      "dateLabel": "Chapter order · historical dating debated",
+      "uncertainty": "The marker represents the traditional Sinai region. Leviticus gives no chapter-by-chapter travel route.",
+      "sourceIds": [
+        "web",
+        "yale-9"
+      ],
+      "placeIds": [
+        "sinai"
+      ],
+      "lds": {
+        "text": "Consider what an offering expresses about devotion and willing service.",
+        "sourceIds": [
+          "lds-offerings",
+          "mosiah-13"
+        ]
+      }
+    },
+    {
+      "id": "leviticus-2",
+      "chapter": 2,
+      "verse": 1,
+      "eventOrder": 2,
+      "title": "Grain offerings",
+      "summary": "God gives instructions for grain, oil, incense, and first produce. Salt accompanies the offerings.",
+      "detail": "The chapter includes gifts from ordinary food. Worship involves the products of daily work.",
+      "dateLabel": "Chapter order · historical dating debated",
+      "uncertainty": "The marker represents the traditional Sinai region. Leviticus gives no chapter-by-chapter travel route.",
+      "sourceIds": [
+        "web",
+        "yale-9"
+      ],
+      "placeIds": [
+        "sinai"
+      ],
+      "lds": {
+        "text": "Consider how daily work and gratitude can become part of your worship.",
+        "sourceIds": [
+          "lds-offerings"
+        ]
+      }
+    },
+    {
+      "id": "leviticus-3",
+      "chapter": 3,
+      "verse": 1,
+      "eventOrder": 3,
+      "title": "Fellowship offerings",
+      "summary": "God gives instructions for offerings from cattle, sheep, and goats. Blood and fat receive special treatment.",
+      "detail": "The offering marks a relationship with God. The text places limits on what people may consume.",
+      "dateLabel": "Chapter order · historical dating debated",
+      "uncertainty": "The marker represents the traditional Sinai region. Leviticus gives no chapter-by-chapter travel route.",
+      "sourceIds": [
+        "web",
+        "yale-9"
+      ],
+      "placeIds": [
+        "sinai"
+      ],
+      "lds": {
+        "text": "Consider how gratitude can strengthen your relationship with God and other people.",
+        "sourceIds": [
+          "lds-offerings"
+        ]
+      }
+    },
+    {
+      "id": "leviticus-4",
+      "chapter": 4,
+      "verse": 1,
+      "eventOrder": 4,
+      "title": "Offerings for unintentional sin",
+      "summary": "Instructions address errors by a priest, the congregation, a leader, and an ordinary person.",
+      "detail": "Responsibility reaches every level of society. A leader's error can affect more than the leader.",
+      "dateLabel": "Chapter order · historical dating debated",
+      "uncertainty": "The marker represents the traditional Sinai region. Leviticus gives no chapter-by-chapter travel route.",
+      "sourceIds": [
+        "web",
+        "yale-9"
+      ],
+      "placeIds": [
+        "sinai"
+      ],
+      "lds": {
+        "text": "Consider how your responsibilities change the effects of your mistakes.",
+        "sourceIds": [
+          "lds-offerings",
+          "mosiah-13"
+        ]
+      }
+    },
+    {
+      "id": "leviticus-5",
+      "chapter": 5,
+      "verse": 1,
+      "eventOrder": 5,
+      "title": "Confession and repair",
+      "summary": "The laws address withheld testimony, impurity, rash oaths, and misuse of sacred things.",
+      "detail": "Confession joins practical repair. The offering depends partly on the person's available resources.",
+      "dateLabel": "Chapter order · historical dating debated",
+      "uncertainty": "The marker represents the traditional Sinai region. Leviticus gives no chapter-by-chapter travel route.",
+      "sourceIds": [
+        "web",
+        "yale-9"
+      ],
+      "placeIds": [
+        "sinai"
+      ],
+      "lds": {
+        "text": "Consider how confession, restitution, and changed conduct belong together in repentance.",
+        "sourceIds": [
+          "lds-offerings"
+        ]
+      }
+    },
+    {
+      "id": "leviticus-6",
+      "chapter": 6,
+      "verse": 1,
+      "eventOrder": 6,
+      "title": "Restitution and priestly duties",
+      "summary": "Wrongdoers must return stolen or withheld property. Priests receive instructions for continuing offerings.",
+      "detail": "Worship does not replace repair of harm. Daily priestly work also requires sustained care.",
+      "dateLabel": "Chapter order · historical dating debated",
+      "uncertainty": "The marker represents the traditional Sinai region. Leviticus gives no chapter-by-chapter travel route.",
+      "sourceIds": [
+        "web",
+        "yale-9"
+      ],
+      "placeIds": [
+        "sinai"
+      ],
+      "lds": {
+        "text": "Consider what practical repair follows an apology or a confession.",
+        "sourceIds": [
+          "lds-offerings"
+        ]
+      }
+    },
+    {
+      "id": "leviticus-7",
+      "chapter": 7,
+      "verse": 1,
+      "eventOrder": 7,
+      "title": "Rules for shared offerings",
+      "summary": "The laws explain priestly portions, thanksgiving offerings, vows, and limits on eating.",
+      "detail": "The community shares food through defined rules. Gratitude and promises require care rather than casual handling.",
+      "dateLabel": "Chapter order · historical dating debated",
+      "uncertainty": "The marker represents the traditional Sinai region. Leviticus gives no chapter-by-chapter travel route.",
+      "sourceIds": [
+        "web",
+        "yale-9"
+      ],
+      "placeIds": [
+        "sinai"
+      ],
+      "lds": {
+        "text": "Consider how gratitude and promises shape the way you use what you receive.",
+        "sourceIds": [
+          "lds-offerings"
+        ]
+      }
+    },
+    {
+      "id": "leviticus-8",
+      "chapter": 8,
+      "verse": 1,
+      "eventOrder": 8,
+      "title": "Priests appointed",
+      "summary": "Moses washes and clothes Aaron and his sons. He performs the appointed offerings before the congregation.",
+      "detail": "Priestly appointment includes public preparation. The priests receive duties within a community, not only personal honor.",
+      "dateLabel": "Chapter order · historical dating debated",
+      "uncertainty": "The marker represents the traditional Sinai region. Leviticus gives no chapter-by-chapter travel route.",
+      "sourceIds": [
+        "web",
+        "yale-9"
+      ],
+      "placeIds": [
+        "sinai"
+      ],
+      "lds": {
+        "text": "The Church manual connects priestly service with sacred preparation. Consider the duties that follow an appointment.",
+        "sourceIds": [
+          "lds-offerings"
+        ]
+      }
+    },
+    {
+      "id": "leviticus-9",
+      "chapter": 9,
+      "verse": 1,
+      "eventOrder": 9,
+      "title": "The first priestly service",
+      "summary": "Aaron and his sons make offerings. Moses and Aaron bless the people. Fire consumes the altar offering.",
+      "detail": "The new service reaches its public beginning. The people's response recognizes the sacred presence described in the narrative.",
+      "dateLabel": "Chapter order · historical dating debated",
+      "uncertainty": "The marker represents the traditional Sinai region. Leviticus gives no chapter-by-chapter travel route.",
+      "sourceIds": [
+        "web",
+        "yale-9"
+      ],
+      "placeIds": [
+        "sinai"
+      ],
+      "lds": {
+        "text": "Consider how preparation leads toward service for the benefit of other people.",
+        "sourceIds": [
+          "lds-offerings"
+        ]
+      }
+    },
+    {
+      "id": "leviticus-10",
+      "chapter": 10,
+      "verse": 1,
+      "eventOrder": 10,
+      "title": "Nadab and Abihu die",
+      "summary": "Nadab and Abihu offer unauthorized fire and die. Moses gives further instructions. Aaron explains his response to grief.",
+      "detail": "The chapter places sacred limits beside a bereaved father's judgment. Aaron's silence and later explanation deserve careful reading.",
+      "dateLabel": "Chapter order · historical dating debated",
+      "uncertainty": "The marker represents the traditional Sinai region. Leviticus gives no chapter-by-chapter travel route.",
+      "sourceIds": [
+        "web",
+        "yale-9"
+      ],
+      "placeIds": [
+        "sinai"
+      ],
+      "lds": {
+        "text": "The Church manual discusses responsibility in sacred service. Read that theme alongside Aaron's grief.",
+        "sourceIds": [
+          "lds-offerings"
+        ]
+      }
+    },
+    {
+      "id": "leviticus-11",
+      "chapter": 11,
+      "verse": 1,
+      "eventOrder": 11,
+      "title": "Animals and food",
+      "summary": "God identifies clean and unclean animals. Contact with certain carcasses brings temporary impurity.",
+      "detail": "The food rules distinguish Israel's daily practices. Ritual impurity does not by itself establish moral guilt.",
+      "dateLabel": "Chapter order · historical dating debated",
+      "uncertainty": "The marker represents the traditional Sinai region. Leviticus gives no chapter-by-chapter travel route.",
+      "sourceIds": [
+        "web",
+        "yale-9"
+      ],
+      "placeIds": [
+        "sinai"
+      ],
+      "lds": {
+        "text": "The Church manual studies these rules within Israel's covenant. Avoid treating impurity as a person's worth.",
+        "sourceIds": [
+          "lds-purity"
+        ]
+      }
+    },
+    {
+      "id": "leviticus-12",
+      "chapter": 12,
+      "verse": 1,
+      "eventOrder": 12,
+      "title": "After childbirth",
+      "summary": "The law gives periods and offerings after childbirth. A less costly offering is available.",
+      "detail": "The chapter addresses a bodily event through ritual rules. Childbirth is not presented as a moral offense.",
+      "dateLabel": "Chapter order · historical dating debated",
+      "uncertainty": "The marker represents the traditional Sinai region. Leviticus gives no chapter-by-chapter travel route.",
+      "sourceIds": [
+        "web",
+        "yale-9"
+      ],
+      "placeIds": [
+        "sinai"
+      ],
+      "lds": {
+        "text": "Consider the distinction between a ritual status and a person's moral conduct.",
+        "sourceIds": [
+          "lds-purity"
+        ]
+      }
+    },
+    {
+      "id": "leviticus-13",
+      "chapter": 13,
+      "verse": 1,
+      "eventOrder": 13,
+      "title": "Inspection of skin and cloth",
+      "summary": "Priests inspect skin conditions and damaged clothing. The law specifies observation periods and separation.",
+      "detail": "The ancient categories do not match one modern medical diagnosis. Inspection concerns the community's ritual boundaries.",
+      "dateLabel": "Chapter order · historical dating debated",
+      "uncertainty": "The marker represents the traditional Sinai region. Leviticus gives no chapter-by-chapter travel route.",
+      "sourceIds": [
+        "web",
+        "yale-9"
+      ],
+      "placeIds": [
+        "sinai"
+      ],
+      "lds": {
+        "text": "Read these conditions within their ancient setting. Do not use them to judge a sick person's faith.",
+        "sourceIds": [
+          "lds-purity"
+        ]
+      }
+    },
+    {
+      "id": "leviticus-14",
+      "chapter": 14,
+      "verse": 1,
+      "eventOrder": 14,
+      "title": "Return after cleansing",
+      "summary": "The law gives rites for a cleansed person. It also addresses affected houses and less costly offerings.",
+      "detail": "The rules include return after separation. The process involves both the person and the place where people live.",
+      "dateLabel": "Chapter order · historical dating debated",
+      "uncertainty": "The marker represents the traditional Sinai region. Leviticus gives no chapter-by-chapter travel route.",
+      "sourceIds": [
+        "web",
+        "yale-9"
+      ],
+      "placeIds": [
+        "sinai"
+      ],
+      "lds": {
+        "text": "Consider the importance of helping people return to community after a period of separation.",
+        "sourceIds": [
+          "lds-purity"
+        ]
+      }
+    },
+    {
+      "id": "leviticus-15",
+      "chapter": 15,
+      "verse": 1,
+      "eventOrder": 15,
+      "title": "Bodily discharges",
+      "summary": "The laws address discharges, washing, waiting periods, and offerings.",
+      "detail": "Ordinary bodily processes can change ritual status. This status must remain distinct from moral wrongdoing.",
+      "dateLabel": "Chapter order · historical dating debated",
+      "uncertainty": "The marker represents the traditional Sinai region. Leviticus gives no chapter-by-chapter travel route.",
+      "sourceIds": [
+        "web",
+        "yale-9"
+      ],
+      "placeIds": [
+        "sinai"
+      ],
+      "lds": {
+        "text": "Consider how careful distinctions can prevent shame about ordinary bodily experiences.",
+        "sourceIds": [
+          "lds-purity"
+        ]
+      }
+    },
+    {
+      "id": "leviticus-16",
+      "chapter": 16,
+      "verse": 1,
+      "eventOrder": 16,
+      "title": "The Day of Atonement",
+      "summary": "Aaron receives instructions for entry into the inner sanctuary. Two goats have different roles in the rite.",
+      "detail": "The annual rite addresses the sanctuary and the people together. Access to the inner space has strict limits.",
+      "dateLabel": "Chapter order · historical dating debated",
+      "uncertainty": "The marker represents the traditional Sinai region. Leviticus gives no chapter-by-chapter travel route.",
+      "sourceIds": [
+        "web",
+        "yale-9"
+      ],
+      "placeIds": [
+        "sinai"
+      ],
+      "lds": {
+        "text": "The Church manual reads these signs through Jesus Christ's Atonement. Keep that reading separately labeled.",
+        "sourceIds": [
+          "lds-purity",
+          "mosiah-13"
+        ]
+      }
+    },
+    {
+      "id": "leviticus-17",
+      "chapter": 17,
+      "verse": 1,
+      "eventOrder": 17,
+      "title": "Blood and the place of offering",
+      "summary": "The law regulates slaughter and offerings. It prohibits eating blood and explains blood's relation to life.",
+      "detail": "Life receives special protection within the ritual system. Worship is directed toward a shared sacred center.",
+      "dateLabel": "Chapter order · historical dating debated",
+      "uncertainty": "The marker represents the traditional Sinai region. Leviticus gives no chapter-by-chapter travel route.",
+      "sourceIds": [
+        "web",
+        "yale-9",
+        "yale-10"
+      ],
+      "placeIds": [
+        "sinai"
+      ],
+      "lds": {
+        "text": "Consider how reverence for life affects both worship and ordinary conduct.",
+        "sourceIds": [
+          "lds-purity"
+        ]
+      }
+    },
+    {
+      "id": "leviticus-18",
+      "chapter": 18,
+      "verse": 1,
+      "eventOrder": 18,
+      "title": "Limits on sexual conduct",
+      "summary": "God gives laws about prohibited relationships and acts. The chapter connects conduct with the land's condition.",
+      "detail": "The laws address family and community boundaries. Read each command within its ancient legal setting.",
+      "dateLabel": "Chapter order · historical dating debated",
+      "uncertainty": "The marker represents the traditional Sinai region. Leviticus gives no chapter-by-chapter travel route.",
+      "sourceIds": [
+        "web",
+        "yale-9",
+        "yale-10"
+      ],
+      "placeIds": [
+        "sinai"
+      ],
+      "lds": {
+        "text": "Consider the duties that protect trust and prevent harm within relationships.",
+        "sourceIds": [
+          "lds-purity"
+        ]
+      }
+    },
+    {
+      "id": "leviticus-19",
+      "chapter": 19,
+      "verse": 1,
+      "eventOrder": 19,
+      "title": "Holiness in daily life",
+      "summary": "God commands reverence, honest measures, care for the poor, and love for the neighbor and stranger.",
+      "detail": "Holiness includes economic fairness and care for others. Worship and daily justice appear in the same chapter.",
+      "dateLabel": "Chapter order · historical dating debated",
+      "uncertainty": "The marker represents the traditional Sinai region. Leviticus gives no chapter-by-chapter travel route.",
+      "sourceIds": [
+        "web",
+        "yale-9",
+        "yale-10"
+      ],
+      "placeIds": [
+        "sinai"
+      ],
+      "lds": {
+        "text": "Consider how love for the neighbor changes your treatment of workers, strangers, and people in need.",
+        "sourceIds": [
+          "lds-holiness"
+        ]
+      }
+    },
+    {
+      "id": "leviticus-20",
+      "chapter": 20,
+      "verse": 1,
+      "eventOrder": 20,
+      "title": "Penalties and distinction",
+      "summary": "The chapter assigns severe penalties for specified offenses. It calls Israel to remain distinct.",
+      "detail": "These are ancient penalties within Israel's law. They require historical study rather than direct transfer into present practice.",
+      "dateLabel": "Chapter order · historical dating debated",
+      "uncertainty": "The marker represents the traditional Sinai region. Leviticus gives no chapter-by-chapter travel route.",
+      "sourceIds": [
+        "web",
+        "yale-9",
+        "yale-10"
+      ],
+      "placeIds": [
+        "sinai"
+      ],
+      "lds": {
+        "text": "Consider moral responsibility while keeping ancient civil penalties distinct from present Church practice.",
+        "sourceIds": [
+          "lds-holiness"
+        ]
+      }
+    },
+    {
+      "id": "leviticus-21",
+      "chapter": 21,
+      "verse": 1,
+      "eventOrder": 21,
+      "title": "Rules for priests",
+      "summary": "The laws address priestly mourning, marriage, and access to sacred service.",
+      "detail": "Priests have special restrictions. The text's bodily rules do not justify denying a person's human worth.",
+      "dateLabel": "Chapter order · historical dating debated",
+      "uncertainty": "The marker represents the traditional Sinai region. Leviticus gives no chapter-by-chapter travel route.",
+      "sourceIds": [
+        "web",
+        "yale-9",
+        "yale-10"
+      ],
+      "placeIds": [
+        "sinai"
+      ],
+      "lds": {
+        "text": "Consider the responsibilities of sacred service without judging a person's worth by bodily appearance.",
+        "sourceIds": [
+          "lds-holiness"
+        ]
+      }
+    },
+    {
+      "id": "leviticus-22",
+      "chapter": 22,
+      "verse": 1,
+      "eventOrder": 22,
+      "title": "Holy gifts and acceptable offerings",
+      "summary": "The laws regulate priestly access to food and the condition of offered animals.",
+      "detail": "The chapter protects what the community dedicates. Care for sacred gifts includes how they are handled.",
+      "dateLabel": "Chapter order · historical dating debated",
+      "uncertainty": "The marker represents the traditional Sinai region. Leviticus gives no chapter-by-chapter travel route.",
+      "sourceIds": [
+        "web",
+        "yale-9",
+        "yale-10"
+      ],
+      "placeIds": [
+        "sinai"
+      ],
+      "lds": {
+        "text": "Consider how careful use of dedicated resources can show respect for those who provide them.",
+        "sourceIds": [
+          "lds-holiness"
+        ]
+      }
+    },
+    {
+      "id": "leviticus-23",
+      "chapter": 23,
+      "verse": 1,
+      "eventOrder": 23,
+      "title": "The sacred calendar",
+      "summary": "God names the Sabbath and appointed festivals. The harvest rules leave produce for the poor and stranger.",
+      "detail": "Time becomes part of worship. The calendar joins remembered deliverance, rest, harvest, and care for those in need.",
+      "dateLabel": "Chapter order · historical dating debated",
+      "uncertainty": "The marker represents the traditional Sinai region. Leviticus gives no chapter-by-chapter travel route.",
+      "sourceIds": [
+        "web",
+        "yale-9",
+        "yale-10"
+      ],
+      "placeIds": [
+        "sinai"
+      ],
+      "lds": {
+        "text": "Consider how worship, rest, and care for others can shape your calendar.",
+        "sourceIds": [
+          "lds-holiness"
+        ]
+      }
+    },
+    {
+      "id": "leviticus-24",
+      "chapter": 24,
+      "verse": 1,
+      "eventOrder": 24,
+      "title": "Lamps, bread, and a judgment",
+      "summary": "The law maintains lamps and bread. An unnamed man curses the Name and is executed after judgment.",
+      "detail": "The account names his mother, Shelomith. It connects the case with laws about injury and equal standards.",
+      "dateLabel": "Chapter order · historical dating debated",
+      "uncertainty": "The marker represents the traditional Sinai region. Leviticus gives no chapter-by-chapter travel route.",
+      "sourceIds": [
+        "web",
+        "yale-9",
+        "yale-10"
+      ],
+      "placeIds": [
+        "sinai"
+      ],
+      "lds": {
+        "text": "Consider the seriousness of sacred speech. Keep the ancient punishment distinct from present religious practice.",
+        "sourceIds": [
+          "lds-holiness"
+        ]
+      }
+    },
+    {
+      "id": "leviticus-25",
+      "chapter": 25,
+      "verse": 1,
+      "eventOrder": 25,
+      "title": "Sabbath years and Jubilee",
+      "summary": "God commands rest for the land and restoration in the Jubilee. The laws address land, debt, and servitude.",
+      "detail": "The land belongs to God in this account. The rules limit permanent loss while preserving unequal ancient social categories.",
+      "dateLabel": "Chapter order · historical dating debated",
+      "uncertainty": "The marker represents the traditional Sinai region. Leviticus gives no chapter-by-chapter travel route.",
+      "sourceIds": [
+        "web",
+        "yale-9",
+        "yale-10"
+      ],
+      "placeIds": [
+        "sinai"
+      ],
+      "lds": {
+        "text": "Consider how care for land and relief of hardship can accompany faithful stewardship.",
+        "sourceIds": [
+          "lds-holiness"
+        ]
+      }
+    },
+    {
+      "id": "leviticus-26",
+      "chapter": 26,
+      "verse": 1,
+      "eventOrder": 26,
+      "title": "Covenant promises and warnings",
+      "summary": "The chapter describes blessings, escalating disaster, exile, and possible return after confession.",
+      "detail": "The covenant account connects conduct and communal outcomes. Do not use it to assign guilt for every present disaster.",
+      "dateLabel": "Chapter order · historical dating debated",
+      "uncertainty": "The marker represents the traditional Sinai region. Leviticus gives no chapter-by-chapter travel route.",
+      "sourceIds": [
+        "web",
+        "yale-9",
+        "yale-10"
+      ],
+      "placeIds": [
+        "sinai"
+      ],
+      "lds": {
+        "text": "Consider repentance and hope without blaming all suffering on the people who experience it.",
+        "sourceIds": [
+          "lds-holiness"
+        ]
+      }
+    },
+    {
+      "id": "leviticus-27",
+      "chapter": 27,
+      "verse": 1,
+      "eventOrder": 27,
+      "title": "Vows and dedicated property",
+      "summary": "The laws assign values for vowed persons, animals, land, and other dedicated things.",
+      "detail": "The final chapter regulates commitments made to God. Its valuation rules belong to a specific ancient legal system.",
+      "dateLabel": "Chapter order · historical dating debated",
+      "uncertainty": "The marker represents the traditional Sinai region. Leviticus gives no chapter-by-chapter travel route.",
+      "sourceIds": [
+        "web",
+        "yale-9",
+        "yale-10"
+      ],
+      "placeIds": [
+        "sinai"
+      ],
+      "lds": {
+        "text": "Consider whether your promises are informed, careful, and matched by responsible action.",
+        "sourceIds": [
+          "lds-holiness"
+        ]
+      }
+    }
+  ],
+  "places": [
+    {
+      "id": "sinai",
+      "name": "Sinai",
+      "lat": 28.54,
+      "lng": 33.97,
+      "summary": "Leviticus places the laws within Israel’s Sinai setting. Many instructions concern the meeting tent and camp.",
+      "limits": "The mountain’s identity is disputed. This marker is not a verified site.",
+      "sourceIds": [
+        "web",
+        "atlas-exodus"
+      ],
+      "detail": "The mountain’s identity is disputed. This marker is not a verified site.",
+      "uncertainty": "The mountain’s identity is disputed. This marker is not a verified site.",
+      "chapterLocation": true
+    }
+  ],
+  "campaigns": [],
+  "ancientRoads": [],
+  "regions": [],
+  "words": [],
+  "guides": [
+    {
+      "id": "leviticus-overview",
+      "title": "Study Leviticus",
+      "description": "Follow selected chapters through the book.",
+      "steps": [
+        {
+          "title": "Burnt offerings",
+          "text": "God calls Moses from the meeting tent. He gives instructions for offerings from livestock and birds. The offering includes careful preparation. The different animals allow more than one kind of household to participate.",
+          "chapter": 1,
+          "verse": 1,
+          "sourceIds": [
+            "web",
+            "yale-9"
+          ]
+        },
+        {
+          "title": "Return after cleansing",
+          "text": "The law gives rites for a cleansed person. It also addresses affected houses and less costly offerings. The rules include return after separation. The process involves both the person and the place where people live.",
+          "chapter": 14,
+          "verse": 1,
+          "sourceIds": [
+            "web",
+            "yale-9"
+          ]
+        },
+        {
+          "title": "Vows and dedicated property",
+          "text": "The laws assign values for vowed persons, animals, land, and other dedicated things. The final chapter regulates commitments made to God. Its valuation rules belong to a specific ancient legal system.",
+          "chapter": 27,
+          "verse": 1,
+          "sourceIds": [
+            "web",
+            "yale-9",
+            "yale-10"
+          ]
+        }
+      ]
+    }
+  ],
+  "periods": [
+    {
+      "id": "part-0",
+      "label": "Leviticus 1–9",
+      "start": 1,
+      "end": 9,
+      "description": "Chapter order"
+    },
+    {
+      "id": "part-1",
+      "label": "Leviticus 10–18",
+      "start": 10,
+      "end": 18,
+      "description": "Chapter order"
+    },
+    {
+      "id": "part-2",
+      "label": "Leviticus 19–27",
+      "start": 19,
+      "end": 27,
+      "description": "Chapter order"
+    }
+  ],
+  "chapterMaps": [
+    {
+      "chapter": 1,
+      "focusPlaceIds": [
+        "sinai"
+      ],
+      "placeIds": [
+        "sinai"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "The marker represents the traditional Sinai region. Leviticus gives no chapter-by-chapter travel route.",
+      "narrative": "God calls Moses from the meeting tent. He gives instructions for offerings from livestock and birds.",
+      "limits": "The marker represents the traditional Sinai region. Leviticus gives no chapter-by-chapter travel route.",
+      "sourceIds": [
+        "web",
+        "yale-9"
+      ]
+    },
+    {
+      "chapter": 2,
+      "focusPlaceIds": [
+        "sinai"
+      ],
+      "placeIds": [
+        "sinai"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "The marker represents the traditional Sinai region. Leviticus gives no chapter-by-chapter travel route.",
+      "narrative": "God gives instructions for grain, oil, incense, and first produce. Salt accompanies the offerings.",
+      "limits": "The marker represents the traditional Sinai region. Leviticus gives no chapter-by-chapter travel route.",
+      "sourceIds": [
+        "web",
+        "yale-9"
+      ]
+    },
+    {
+      "chapter": 3,
+      "focusPlaceIds": [
+        "sinai"
+      ],
+      "placeIds": [
+        "sinai"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "The marker represents the traditional Sinai region. Leviticus gives no chapter-by-chapter travel route.",
+      "narrative": "God gives instructions for offerings from cattle, sheep, and goats. Blood and fat receive special treatment.",
+      "limits": "The marker represents the traditional Sinai region. Leviticus gives no chapter-by-chapter travel route.",
+      "sourceIds": [
+        "web",
+        "yale-9"
+      ]
+    },
+    {
+      "chapter": 4,
+      "focusPlaceIds": [
+        "sinai"
+      ],
+      "placeIds": [
+        "sinai"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "The marker represents the traditional Sinai region. Leviticus gives no chapter-by-chapter travel route.",
+      "narrative": "Instructions address errors by a priest, the congregation, a leader, and an ordinary person.",
+      "limits": "The marker represents the traditional Sinai region. Leviticus gives no chapter-by-chapter travel route.",
+      "sourceIds": [
+        "web",
+        "yale-9"
+      ]
+    },
+    {
+      "chapter": 5,
+      "focusPlaceIds": [
+        "sinai"
+      ],
+      "placeIds": [
+        "sinai"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "The marker represents the traditional Sinai region. Leviticus gives no chapter-by-chapter travel route.",
+      "narrative": "The laws address withheld testimony, impurity, rash oaths, and misuse of sacred things.",
+      "limits": "The marker represents the traditional Sinai region. Leviticus gives no chapter-by-chapter travel route.",
+      "sourceIds": [
+        "web",
+        "yale-9"
+      ]
+    },
+    {
+      "chapter": 6,
+      "focusPlaceIds": [
+        "sinai"
+      ],
+      "placeIds": [
+        "sinai"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "The marker represents the traditional Sinai region. Leviticus gives no chapter-by-chapter travel route.",
+      "narrative": "Wrongdoers must return stolen or withheld property. Priests receive instructions for continuing offerings.",
+      "limits": "The marker represents the traditional Sinai region. Leviticus gives no chapter-by-chapter travel route.",
+      "sourceIds": [
+        "web",
+        "yale-9"
+      ]
+    },
+    {
+      "chapter": 7,
+      "focusPlaceIds": [
+        "sinai"
+      ],
+      "placeIds": [
+        "sinai"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "The marker represents the traditional Sinai region. Leviticus gives no chapter-by-chapter travel route.",
+      "narrative": "The laws explain priestly portions, thanksgiving offerings, vows, and limits on eating.",
+      "limits": "The marker represents the traditional Sinai region. Leviticus gives no chapter-by-chapter travel route.",
+      "sourceIds": [
+        "web",
+        "yale-9"
+      ]
+    },
+    {
+      "chapter": 8,
+      "focusPlaceIds": [
+        "sinai"
+      ],
+      "placeIds": [
+        "sinai"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "The marker represents the traditional Sinai region. Leviticus gives no chapter-by-chapter travel route.",
+      "narrative": "Moses washes and clothes Aaron and his sons. He performs the appointed offerings before the congregation.",
+      "limits": "The marker represents the traditional Sinai region. Leviticus gives no chapter-by-chapter travel route.",
+      "sourceIds": [
+        "web",
+        "yale-9"
+      ]
+    },
+    {
+      "chapter": 9,
+      "focusPlaceIds": [
+        "sinai"
+      ],
+      "placeIds": [
+        "sinai"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "The marker represents the traditional Sinai region. Leviticus gives no chapter-by-chapter travel route.",
+      "narrative": "Aaron and his sons make offerings. Moses and Aaron bless the people. Fire consumes the altar offering.",
+      "limits": "The marker represents the traditional Sinai region. Leviticus gives no chapter-by-chapter travel route.",
+      "sourceIds": [
+        "web",
+        "yale-9"
+      ]
+    },
+    {
+      "chapter": 10,
+      "focusPlaceIds": [
+        "sinai"
+      ],
+      "placeIds": [
+        "sinai"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "The marker represents the traditional Sinai region. Leviticus gives no chapter-by-chapter travel route.",
+      "narrative": "Nadab and Abihu offer unauthorized fire and die. Moses gives further instructions. Aaron explains his response to grief.",
+      "limits": "The marker represents the traditional Sinai region. Leviticus gives no chapter-by-chapter travel route.",
+      "sourceIds": [
+        "web",
+        "yale-9"
+      ]
+    },
+    {
+      "chapter": 11,
+      "focusPlaceIds": [
+        "sinai"
+      ],
+      "placeIds": [
+        "sinai"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "The marker represents the traditional Sinai region. Leviticus gives no chapter-by-chapter travel route.",
+      "narrative": "God identifies clean and unclean animals. Contact with certain carcasses brings temporary impurity.",
+      "limits": "The marker represents the traditional Sinai region. Leviticus gives no chapter-by-chapter travel route.",
+      "sourceIds": [
+        "web",
+        "yale-9"
+      ]
+    },
+    {
+      "chapter": 12,
+      "focusPlaceIds": [
+        "sinai"
+      ],
+      "placeIds": [
+        "sinai"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "The marker represents the traditional Sinai region. Leviticus gives no chapter-by-chapter travel route.",
+      "narrative": "The law gives periods and offerings after childbirth. A less costly offering is available.",
+      "limits": "The marker represents the traditional Sinai region. Leviticus gives no chapter-by-chapter travel route.",
+      "sourceIds": [
+        "web",
+        "yale-9"
+      ]
+    },
+    {
+      "chapter": 13,
+      "focusPlaceIds": [
+        "sinai"
+      ],
+      "placeIds": [
+        "sinai"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "The marker represents the traditional Sinai region. Leviticus gives no chapter-by-chapter travel route.",
+      "narrative": "Priests inspect skin conditions and damaged clothing. The law specifies observation periods and separation.",
+      "limits": "The marker represents the traditional Sinai region. Leviticus gives no chapter-by-chapter travel route.",
+      "sourceIds": [
+        "web",
+        "yale-9"
+      ]
+    },
+    {
+      "chapter": 14,
+      "focusPlaceIds": [
+        "sinai"
+      ],
+      "placeIds": [
+        "sinai"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "The marker represents the traditional Sinai region. Leviticus gives no chapter-by-chapter travel route.",
+      "narrative": "The law gives rites for a cleansed person. It also addresses affected houses and less costly offerings.",
+      "limits": "The marker represents the traditional Sinai region. Leviticus gives no chapter-by-chapter travel route.",
+      "sourceIds": [
+        "web",
+        "yale-9"
+      ]
+    },
+    {
+      "chapter": 15,
+      "focusPlaceIds": [
+        "sinai"
+      ],
+      "placeIds": [
+        "sinai"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "The marker represents the traditional Sinai region. Leviticus gives no chapter-by-chapter travel route.",
+      "narrative": "The laws address discharges, washing, waiting periods, and offerings.",
+      "limits": "The marker represents the traditional Sinai region. Leviticus gives no chapter-by-chapter travel route.",
+      "sourceIds": [
+        "web",
+        "yale-9"
+      ]
+    },
+    {
+      "chapter": 16,
+      "focusPlaceIds": [
+        "sinai"
+      ],
+      "placeIds": [
+        "sinai"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "The marker represents the traditional Sinai region. Leviticus gives no chapter-by-chapter travel route.",
+      "narrative": "Aaron receives instructions for entry into the inner sanctuary. Two goats have different roles in the rite.",
+      "limits": "The marker represents the traditional Sinai region. Leviticus gives no chapter-by-chapter travel route.",
+      "sourceIds": [
+        "web",
+        "yale-9"
+      ]
+    },
+    {
+      "chapter": 17,
+      "focusPlaceIds": [
+        "sinai"
+      ],
+      "placeIds": [
+        "sinai"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "The marker represents the traditional Sinai region. Leviticus gives no chapter-by-chapter travel route.",
+      "narrative": "The law regulates slaughter and offerings. It prohibits eating blood and explains blood's relation to life.",
+      "limits": "The marker represents the traditional Sinai region. Leviticus gives no chapter-by-chapter travel route.",
+      "sourceIds": [
+        "web",
+        "yale-9",
+        "yale-10"
+      ]
+    },
+    {
+      "chapter": 18,
+      "focusPlaceIds": [
+        "sinai"
+      ],
+      "placeIds": [
+        "sinai"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "The marker represents the traditional Sinai region. Leviticus gives no chapter-by-chapter travel route.",
+      "narrative": "God gives laws about prohibited relationships and acts. The chapter connects conduct with the land's condition.",
+      "limits": "The marker represents the traditional Sinai region. Leviticus gives no chapter-by-chapter travel route.",
+      "sourceIds": [
+        "web",
+        "yale-9",
+        "yale-10"
+      ]
+    },
+    {
+      "chapter": 19,
+      "focusPlaceIds": [
+        "sinai"
+      ],
+      "placeIds": [
+        "sinai"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "The marker represents the traditional Sinai region. Leviticus gives no chapter-by-chapter travel route.",
+      "narrative": "God commands reverence, honest measures, care for the poor, and love for the neighbor and stranger.",
+      "limits": "The marker represents the traditional Sinai region. Leviticus gives no chapter-by-chapter travel route.",
+      "sourceIds": [
+        "web",
+        "yale-9",
+        "yale-10"
+      ]
+    },
+    {
+      "chapter": 20,
+      "focusPlaceIds": [
+        "sinai"
+      ],
+      "placeIds": [
+        "sinai"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "The marker represents the traditional Sinai region. Leviticus gives no chapter-by-chapter travel route.",
+      "narrative": "The chapter assigns severe penalties for specified offenses. It calls Israel to remain distinct.",
+      "limits": "The marker represents the traditional Sinai region. Leviticus gives no chapter-by-chapter travel route.",
+      "sourceIds": [
+        "web",
+        "yale-9",
+        "yale-10"
+      ]
+    },
+    {
+      "chapter": 21,
+      "focusPlaceIds": [
+        "sinai"
+      ],
+      "placeIds": [
+        "sinai"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "The marker represents the traditional Sinai region. Leviticus gives no chapter-by-chapter travel route.",
+      "narrative": "The laws address priestly mourning, marriage, and access to sacred service.",
+      "limits": "The marker represents the traditional Sinai region. Leviticus gives no chapter-by-chapter travel route.",
+      "sourceIds": [
+        "web",
+        "yale-9",
+        "yale-10"
+      ]
+    },
+    {
+      "chapter": 22,
+      "focusPlaceIds": [
+        "sinai"
+      ],
+      "placeIds": [
+        "sinai"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "The marker represents the traditional Sinai region. Leviticus gives no chapter-by-chapter travel route.",
+      "narrative": "The laws regulate priestly access to food and the condition of offered animals.",
+      "limits": "The marker represents the traditional Sinai region. Leviticus gives no chapter-by-chapter travel route.",
+      "sourceIds": [
+        "web",
+        "yale-9",
+        "yale-10"
+      ]
+    },
+    {
+      "chapter": 23,
+      "focusPlaceIds": [
+        "sinai"
+      ],
+      "placeIds": [
+        "sinai"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "The marker represents the traditional Sinai region. Leviticus gives no chapter-by-chapter travel route.",
+      "narrative": "God names the Sabbath and appointed festivals. The harvest rules leave produce for the poor and stranger.",
+      "limits": "The marker represents the traditional Sinai region. Leviticus gives no chapter-by-chapter travel route.",
+      "sourceIds": [
+        "web",
+        "yale-9",
+        "yale-10"
+      ]
+    },
+    {
+      "chapter": 24,
+      "focusPlaceIds": [
+        "sinai"
+      ],
+      "placeIds": [
+        "sinai"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "The marker represents the traditional Sinai region. Leviticus gives no chapter-by-chapter travel route.",
+      "narrative": "The law maintains lamps and bread. An unnamed man curses the Name and is executed after judgment.",
+      "limits": "The marker represents the traditional Sinai region. Leviticus gives no chapter-by-chapter travel route.",
+      "sourceIds": [
+        "web",
+        "yale-9",
+        "yale-10"
+      ]
+    },
+    {
+      "chapter": 25,
+      "focusPlaceIds": [
+        "sinai"
+      ],
+      "placeIds": [
+        "sinai"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "The marker represents the traditional Sinai region. Leviticus gives no chapter-by-chapter travel route.",
+      "narrative": "God commands rest for the land and restoration in the Jubilee. The laws address land, debt, and servitude.",
+      "limits": "The marker represents the traditional Sinai region. Leviticus gives no chapter-by-chapter travel route.",
+      "sourceIds": [
+        "web",
+        "yale-9",
+        "yale-10"
+      ]
+    },
+    {
+      "chapter": 26,
+      "focusPlaceIds": [
+        "sinai"
+      ],
+      "placeIds": [
+        "sinai"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "The marker represents the traditional Sinai region. Leviticus gives no chapter-by-chapter travel route.",
+      "narrative": "The chapter describes blessings, escalating disaster, exile, and possible return after confession.",
+      "limits": "The marker represents the traditional Sinai region. Leviticus gives no chapter-by-chapter travel route.",
+      "sourceIds": [
+        "web",
+        "yale-9",
+        "yale-10"
+      ]
+    },
+    {
+      "chapter": 27,
+      "focusPlaceIds": [
+        "sinai"
+      ],
+      "placeIds": [
+        "sinai"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "The marker represents the traditional Sinai region. Leviticus gives no chapter-by-chapter travel route.",
+      "narrative": "The laws assign values for vowed persons, animals, land, and other dedicated things.",
+      "limits": "The marker represents the traditional Sinai region. Leviticus gives no chapter-by-chapter travel route.",
+      "sourceIds": [
+        "web",
+        "yale-9",
+        "yale-10"
+      ]
+    }
+  ],
+  "textRoutes": [],
+  "narrativeRegions": [],
+  "chapterStudies": []
+}

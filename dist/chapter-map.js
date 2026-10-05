@@ -30,6 +30,7 @@ export function chapterPoints(data, chapter, scope = 'overview') {
 }
 
 export const movementStyles = {
+  journey:{label:'Journey',color:'#128879',dash:'8 5'},
   military:{label:'Army path',color:'#c43c32',dash:'9 5'},
   flight:{label:'Escape path',color:'#db8410',dash:'3 6'},
   exile:{label:'Path into exile',color:'#904fac',dash:'10 4 2 4'},

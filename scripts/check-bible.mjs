@@ -29,10 +29,14 @@ assert.equal(total,1533);
 for(const p of data.people){assert(p.role&&p.relations&&p.life&&p.meaning&&p.passages);assert(art[p.id],`Missing portrait for ${p.id}`);await access(new URL(art[p.id].src,root));if(!art[p.id].generated){assert(art[p.id].sourceUrl.startsWith('https://commons.wikimedia.org/'));assert(art[p.id].license&&art[p.id].credit);assert(!/\.pdf\b/i.test(art[p.id].title),`A document is not a portrait: ${p.id}`);}}
 for(const p of data.places){assert(Number.isFinite(p.lat)&&Math.abs(p.lat)<=90);assert(Number.isFinite(p.lng)&&Math.abs(p.lng)<=180);assert(p.limits);}
 for(const s of data.sources){assert.equal(new URL(s.url).protocol,'https:');assert(s.summary&&s.limits);}
-const app=await readFile(new URL('book.js',root),'utf8'),index=await readFile(new URL('index.html',root),'utf8');
+const app=await readFile(new URL('book-genesis-app.js',root),'utf8'),index=await readFile(new URL('index.html',root),'utf8');
 assert(index.includes('href="books.html"'));
-assert(app.includes("$('#reading').hidden=state.view==='map'"));
-assert(app.includes("$('#narrativeTimeline').hidden=state.view!=='map'"));
+assert(app.includes("$('#scriptureSidebar').hidden = mapMode"));
+assert(app.includes("$('.timeline').hidden = !mapMode"));
+const shell=await readFile(new URL('book.html',root),'utf8');
+assert(shell.includes('styles.css?'));assert(!shell.includes('bible.css'));
+for(const id of ['sidebarContent','chapterPickerMenu','map','contextCard','tourDrawer','timelineRange','settingsPanel','sourceDialog'])assert(shell.includes(id)||app.includes(id));
+assert(!shell.includes('readingContent'),'Do not restore the separate book renderer');
 console.log(`Bible checks passed: ${directory.length} books, ${data.chapters.length} chapters, ${total} verses, ${data.people.length} portraits, ${data.sources.length} sources.`);
 const exodusCounts=[22,25,22,31,23,30,25,32,35,29,10,51,22,31,27,36,16,27,25,26,36,31,33,18,40,37,21,43,46,38,18,35,23,35,35,38,29,31,43,38];
 const leviticusCounts=[17,16,17,35,19,30,38,36,24,20,47,8,59,57,33,34,16,30,37,27,24,33,44,23,55,46,34];

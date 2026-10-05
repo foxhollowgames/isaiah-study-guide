@@ -59,6 +59,13 @@ Her prompt uses watercolor and ink, a green shawl, an open desert camp, and morn
 
 ## Rebuild and checks
 
+All ready book guides use Isaiah's HTML shell, stylesheet, chapter picker, modal controls, and navigation.
+Run `python scripts/build-native-books.py` after editing book data or the Isaiah interface.
+This creates book-specific adaptations from `app.js` and `portraits.js`.
+Do not restore the separate book renderer or its Events and Meanings sections.
+Original meanings belong in the chapter introduction. Sources use Isaiah's inline footnotes and source details.
+Books without secure event years use chapter order in the existing timeline controls.
+
 Run `python scripts/build-bible.py` to rebuild the directory and Genesis text.
 Run `python scripts/build-exodus.py` to rebuild Exodus.
 Run `python scripts/build-leviticus.py` to rebuild Leviticus.

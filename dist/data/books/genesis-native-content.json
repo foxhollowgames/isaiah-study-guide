@@ -1,0 +1,5170 @@
+{
+  "sources": [
+    {
+      "id": "web",
+      "title": "Genesis — World English Bible",
+      "perspective": "historical",
+      "category": "Scripture",
+      "url": "https://ebible.org/engwebp/GEN01.htm",
+      "summary": "The public-domain reading text supplies all 50 chapters.",
+      "limits": "Chapter notes describe the narrative. They do not prove every narrated event.",
+      "type": "Scripture",
+      "limitations": "Chapter notes describe the narrative. They do not prove every narrated event.",
+      "license": "Public domain"
+    },
+    {
+      "id": "flood-tablet",
+      "title": "The Flood Tablet — British Museum",
+      "perspective": "historical",
+      "category": "Historical evidence",
+      "url": "https://www.britishmuseum.org/collection/object/W_K-3375",
+      "summary": "This tablet preserves a Mesopotamian flood account in the Epic of Gilgamesh.",
+      "limits": "A related flood account does not verify Noah's flood or date Genesis.",
+      "type": "Historical evidence",
+      "limitations": "A related flood account does not verify Noah's flood or date Genesis.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "egypt",
+      "title": "Egypt in the Middle Kingdom — Metropolitan Museum of Art",
+      "perspective": "historical",
+      "category": "Historical context",
+      "url": "https://www.metmuseum.org/essays/egypt-in-the-middle-kingdom-2030-1640-b-c",
+      "summary": "Museum evidence explains one period of Egyptian society, government, and art.",
+      "limits": "This context does not identify Joseph's Pharaoh or establish Joseph's dates.",
+      "type": "Historical context",
+      "limitations": "This context does not identify Joseph's Pharaoh or establish Joseph's dates.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "trade",
+      "title": "Beyond Babylon: Art, Trade, and Diplomacy in the Second Millennium B.C.",
+      "perspective": "historical",
+      "category": "Historical context",
+      "url": "https://www.metmuseum.org/met-publications/beyond-babylon-art-trade-and-diplomacy-in-the-second-millenium-bc",
+      "summary": "Museum research examines trade and diplomacy across the ancient Near East.",
+      "limits": "Regional evidence does not prove the journeys of named Genesis ancestors.",
+      "type": "Historical context",
+      "limitations": "Regional evidence does not prove the journeys of named Genesis ancestors.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "yale-creation",
+      "title": "Genesis 1–4 in Context — Open Yale Courses",
+      "perspective": "historical",
+      "category": "Scholarly study",
+      "url": "https://oyc.yale.edu/religious-studies/rlst-145/lecture-3",
+      "summary": "Christine Hayes compares the creation stories with their ancient Near Eastern setting.",
+      "limits": "This academic interpretation remains separate from LDS teaching. Scholars disagree about composition and historicity.",
+      "type": "Scholarly study",
+      "limitations": "This academic interpretation remains separate from LDS teaching. Scholars disagree about composition and historicity.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "yale-flood",
+      "title": "Genesis 5–11 and the Historical-Critical Method — Open Yale Courses",
+      "perspective": "historical",
+      "category": "Scholarly study",
+      "url": "https://oyc.yale.edu/religious-studies/rlst-145/lecture-4",
+      "summary": "Christine Hayes examines repeated accounts and literary sources in Genesis.",
+      "limits": "This academic interpretation remains separate from LDS teaching. Scholars disagree about composition and historicity.",
+      "type": "Scholarly study",
+      "limitations": "This academic interpretation remains separate from LDS teaching. Scholars disagree about composition and historicity.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "yale-ancestors",
+      "title": "Introduction to Genesis 12–50 — Open Yale Courses",
+      "perspective": "historical",
+      "category": "Scholarly study",
+      "url": "https://oyc.yale.edu/religious-studies/rlst-145/lecture-5",
+      "summary": "Christine Hayes introduces methods for reading the ancestral narratives.",
+      "limits": "This academic interpretation remains separate from LDS teaching. Scholars disagree about composition and historicity.",
+      "type": "Scholarly study",
+      "limitations": "This academic interpretation remains separate from LDS teaching. Scholars disagree about composition and historicity.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "yale-patriarchs",
+      "title": "The Stories of the Patriarchs — Open Yale Courses",
+      "perspective": "historical",
+      "category": "Scholarly study",
+      "url": "https://oyc.yale.edu/religious-studies/rlst-145/lecture-6",
+      "summary": "Christine Hayes studies covenant, family conflict, and the limits of historical evidence.",
+      "limits": "This academic interpretation remains separate from LDS teaching. Scholars disagree about composition and historicity.",
+      "type": "Scholarly study",
+      "limitations": "This academic interpretation remains separate from LDS teaching. Scholars disagree about composition and historicity.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "creation",
+      "title": "Genesis 1–2: The Creation",
+      "perspective": "lds",
+      "category": "LDS study manual",
+      "url": "https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/genesis-1-2-the-creation?lang=eng",
+      "summary": "Church study notes discuss this chapter range through LDS teachings.",
+      "limits": "This older manual includes commentary. Its explanations are not independent archaeological evidence.",
+      "type": "LDS study",
+      "limitations": "This older manual includes commentary. Its explanations are not independent archaeological evidence.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "fall",
+      "title": "Genesis 3: The Fall",
+      "perspective": "lds",
+      "category": "LDS study manual",
+      "url": "https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/genesis-3-the-fall?lang=eng",
+      "summary": "Church study notes discuss this chapter range through LDS teachings.",
+      "limits": "This older manual includes commentary. Its explanations are not independent archaeological evidence.",
+      "type": "LDS study",
+      "limitations": "This older manual includes commentary. Its explanations are not independent archaeological evidence.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "early",
+      "title": "Genesis 4–11: The Patriarchs",
+      "perspective": "lds",
+      "category": "LDS study manual",
+      "url": "https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/genesis-4-11-the-patriarchs?lang=eng",
+      "summary": "Church study notes discuss this chapter range through LDS teachings.",
+      "limits": "This older manual includes commentary. Its explanations are not independent archaeological evidence.",
+      "type": "LDS study",
+      "limitations": "This older manual includes commentary. Its explanations are not independent archaeological evidence.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "abraham",
+      "title": "Genesis 12–17: Abraham—Father of the Faithful",
+      "perspective": "lds",
+      "category": "LDS study manual",
+      "url": "https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/genesis-12-17-abraham-father-of-the-faithful?lang=eng",
+      "summary": "Church study notes discuss this chapter range through LDS teachings.",
+      "limits": "This older manual includes commentary. Its explanations are not independent archaeological evidence.",
+      "type": "LDS study",
+      "limitations": "This older manual includes commentary. Its explanations are not independent archaeological evidence.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "abraham-later",
+      "title": "Genesis 18–23: Abraham—A Model of Faith and Righteousness",
+      "perspective": "lds",
+      "category": "LDS study manual",
+      "url": "https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/genesis-18-23-abraham-a-model-of-faith-and-righteousness?lang=eng",
+      "summary": "Church study notes discuss this chapter range through LDS teachings.",
+      "limits": "This older manual includes commentary. Its explanations are not independent archaeological evidence.",
+      "type": "LDS study",
+      "limitations": "This older manual includes commentary. Its explanations are not independent archaeological evidence.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "jacob",
+      "title": "Genesis 24–36: The Covenant Line Continues with Isaac and Jacob",
+      "perspective": "lds",
+      "category": "LDS study manual",
+      "url": "https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/genesis-24-36-the-covenant-line-continues-with-isaac-and-jacob?lang=eng",
+      "summary": "Church study notes discuss this chapter range through LDS teachings.",
+      "limits": "This older manual includes commentary. Its explanations are not independent archaeological evidence.",
+      "type": "LDS study",
+      "limitations": "This older manual includes commentary. Its explanations are not independent archaeological evidence.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "joseph",
+      "title": "Genesis 37–50: Joseph: The Power of Preparation",
+      "perspective": "lds",
+      "category": "LDS study manual",
+      "url": "https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/genesis-37-50-joseph-the-power-of-preparation?lang=eng",
+      "summary": "Church study notes discuss this chapter range through LDS teachings.",
+      "limits": "This older manual includes commentary. Its explanations are not independent archaeological evidence.",
+      "type": "LDS study",
+      "limitations": "This older manual includes commentary. Its explanations are not independent archaeological evidence.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "moses-2",
+      "title": "Moses 2",
+      "perspective": "lds",
+      "category": "LDS scripture",
+      "url": "https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/2?lang=eng",
+      "summary": "This LDS scripture offers a related reading for the Genesis passage.",
+      "limits": "Read this as a Restoration-scripture connection, distinct from Genesis's own words.",
+      "type": "LDS study",
+      "limitations": "Read this as a Restoration-scripture connection, distinct from Genesis's own words.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "moses-3",
+      "title": "Moses 3",
+      "perspective": "lds",
+      "category": "LDS scripture",
+      "url": "https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/3?lang=eng",
+      "summary": "This LDS scripture offers a related reading for the Genesis passage.",
+      "limits": "Read this as a Restoration-scripture connection, distinct from Genesis's own words.",
+      "type": "LDS study",
+      "limitations": "Read this as a Restoration-scripture connection, distinct from Genesis's own words.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "moses-4",
+      "title": "Moses 4",
+      "perspective": "lds",
+      "category": "LDS scripture",
+      "url": "https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/4?lang=eng",
+      "summary": "This LDS scripture offers a related reading for the Genesis passage.",
+      "limits": "Read this as a Restoration-scripture connection, distinct from Genesis's own words.",
+      "type": "LDS study",
+      "limitations": "Read this as a Restoration-scripture connection, distinct from Genesis's own words.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "moses-5",
+      "title": "Moses 5",
+      "perspective": "lds",
+      "category": "LDS scripture",
+      "url": "https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/5?lang=eng",
+      "summary": "This LDS scripture offers a related reading for the Genesis passage.",
+      "limits": "Read this as a Restoration-scripture connection, distinct from Genesis's own words.",
+      "type": "LDS study",
+      "limitations": "Read this as a Restoration-scripture connection, distinct from Genesis's own words.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "moses-6",
+      "title": "Moses 6",
+      "perspective": "lds",
+      "category": "LDS scripture",
+      "url": "https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/6?lang=eng",
+      "summary": "This LDS scripture offers a related reading for the Genesis passage.",
+      "limits": "Read this as a Restoration-scripture connection, distinct from Genesis's own words.",
+      "type": "LDS study",
+      "limitations": "Read this as a Restoration-scripture connection, distinct from Genesis's own words.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "moses-7",
+      "title": "Moses 7",
+      "perspective": "lds",
+      "category": "LDS scripture",
+      "url": "https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/7?lang=eng",
+      "summary": "This LDS scripture offers a related reading for the Genesis passage.",
+      "limits": "Read this as a Restoration-scripture connection, distinct from Genesis's own words.",
+      "type": "LDS study",
+      "limitations": "Read this as a Restoration-scripture connection, distinct from Genesis's own words.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "moses-8",
+      "title": "Moses 8",
+      "perspective": "lds",
+      "category": "LDS scripture",
+      "url": "https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/8?lang=eng",
+      "summary": "This LDS scripture offers a related reading for the Genesis passage.",
+      "limits": "Read this as a Restoration-scripture connection, distinct from Genesis's own words.",
+      "type": "LDS study",
+      "limitations": "Read this as a Restoration-scripture connection, distinct from Genesis's own words.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "abraham-2",
+      "title": "Abraham 2",
+      "perspective": "lds",
+      "category": "LDS scripture",
+      "url": "https://www.churchofjesuschrist.org/study/scriptures/pgp/abr/2?lang=eng",
+      "summary": "This LDS scripture offers a related reading for the Genesis passage.",
+      "limits": "Read this as a Restoration-scripture connection, distinct from Genesis's own words.",
+      "type": "LDS study",
+      "limitations": "Read this as a Restoration-scripture connection, distinct from Genesis's own words.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "alma-13",
+      "title": "Alma 13",
+      "perspective": "lds",
+      "category": "LDS scripture",
+      "url": "https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/13?lang=eng",
+      "summary": "This LDS scripture offers a related reading for the Genesis passage.",
+      "limits": "Read this as a Restoration-scripture connection, distinct from Genesis's own words.",
+      "type": "LDS study",
+      "limitations": "Read this as a Restoration-scripture connection, distinct from Genesis's own words.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "jacob-4",
+      "title": "Jacob 4",
+      "perspective": "lds",
+      "category": "LDS scripture",
+      "url": "https://www.churchofjesuschrist.org/study/scriptures/bofm/jacob/4?lang=eng",
+      "summary": "This LDS scripture offers a related reading for the Genesis passage.",
+      "limits": "Read this as a Restoration-scripture connection, distinct from Genesis's own words.",
+      "type": "LDS study",
+      "limitations": "Read this as a Restoration-scripture connection, distinct from Genesis's own words.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "nephi-3",
+      "title": "2 Nephi 3",
+      "perspective": "lds",
+      "category": "LDS scripture",
+      "url": "https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/3?lang=eng",
+      "summary": "This LDS scripture offers a related reading for the Genesis passage.",
+      "limits": "Read this as a Restoration-scripture connection, distinct from Genesis's own words.",
+      "type": "LDS study",
+      "limitations": "Read this as a Restoration-scripture connection, distinct from Genesis's own words.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "nephi-2",
+      "title": "2 Nephi 2",
+      "perspective": "lds",
+      "category": "LDS scripture",
+      "url": "https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/2?lang=eng",
+      "summary": "This LDS scripture offers a related reading for the Genesis passage.",
+      "limits": "Read this as a Restoration-scripture connection, distinct from Genesis's own words.",
+      "type": "LDS study",
+      "limitations": "Read this as a Restoration-scripture connection, distinct from Genesis's own words.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "atlas",
+      "title": "Bible Maps: The World of the Old Testament",
+      "perspective": "historical",
+      "category": "Geography",
+      "url": "https://www.churchofjesuschrist.org/study/scriptures/bible-maps/map-9?lang=eng",
+      "summary": "This Church-published atlas locates the wider setting and marks some disputed places.",
+      "limits": "Use the geographic labels as context. The linked atlas also includes LDS commentary.",
+      "type": "Geography",
+      "limitations": "Use the geographic labels as context. The linked atlas also includes LDS commentary.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "atlas-canaan",
+      "title": "Bible Maps: Canaan in Old Testament Times",
+      "perspective": "historical",
+      "category": "Geography",
+      "url": "https://www.churchofjesuschrist.org/study/scriptures/bible-maps/map-10?lang=eng",
+      "summary": "This Church-published atlas identifies towns and regions in Canaan.",
+      "limits": "Coordinates are display estimates. A town marker does not verify each Genesis event.",
+      "type": "Geography",
+      "limitations": "Coordinates are display estimates. A town marker does not verify each Genesis event.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "terrain",
+      "title": "Mapzen / Tilezen terrain and Natural Earth geography",
+      "perspective": "historical",
+      "category": "Geography",
+      "url": "https://registry.opendata.aws/terrain-tiles/",
+      "summary": "Cached terrain shows modern elevation. Natural Earth supplies the land and water outlines.",
+      "limits": "Modern terrain is a geographic aid. It does not reconstruct ancient shorelines or settlements.",
+      "type": "Geography",
+      "limitations": "Modern terrain is a geographic aid. It does not reconstruct ancient shorelines or settlements.",
+      "license": "Linked source. Original guide summaries."
+    }
+  ],
+  "passages": [
+    {
+      "id": "genesis-1",
+      "chapter": 1,
+      "start": 1,
+      "end": 31,
+      "title": "Creation",
+      "summary": "God creates the world and gives humans care of its life. God calls creation good. Human life has worth. Care for the earth follows from God's gift.",
+      "year": null,
+      "dateLabel": "Narrative order · historical year unknown",
+      "uncertainty": "No verified location is supplied for this chapter.",
+      "placeIds": [],
+      "sourceIds": [
+        "web",
+        "yale-creation"
+      ],
+      "lds": {
+        "text": "Moses 2 places human creation within God's work. Human dignity shapes how we treat others.",
+        "sourceIds": [
+          "creation",
+          "moses-2"
+        ]
+      }
+    },
+    {
+      "id": "genesis-2",
+      "chapter": 2,
+      "start": 1,
+      "end": 25,
+      "title": "Life in the garden",
+      "summary": "God rests. God places the man in Eden and forms the woman. Rest, work, and partnership belong to human life. The garden also includes a command.",
+      "year": null,
+      "dateLabel": "Narrative order · historical year unknown",
+      "uncertainty": "No verified location is supplied for this chapter.",
+      "placeIds": [],
+      "sourceIds": [
+        "web",
+        "yale-creation"
+      ],
+      "lds": {
+        "text": "Moses 3 connects the garden with God's commands. Study work, rest, and partnership together.",
+        "sourceIds": [
+          "creation",
+          "moses-3"
+        ]
+      }
+    },
+    {
+      "id": "genesis-3",
+      "chapter": 3,
+      "start": 1,
+      "end": 24,
+      "title": "The Fall",
+      "summary": "The man and woman eat the forbidden fruit. They leave the garden. Their choice brings loss and responsibility. God still clothes them.",
+      "year": null,
+      "dateLabel": "Narrative order · historical year unknown",
+      "uncertainty": "No verified location is supplied for this chapter.",
+      "placeIds": [],
+      "sourceIds": [
+        "web",
+        "yale-creation"
+      ],
+      "lds": {
+        "text": "Moses 4 expands the garden account. Second Nephi 2 connects the Fall with choice and redemption.",
+        "sourceIds": [
+          "fall",
+          "moses-4",
+          "nephi-2"
+        ]
+      }
+    },
+    {
+      "id": "genesis-4",
+      "chapter": 4,
+      "start": 1,
+      "end": 26,
+      "title": "Cain and Abel",
+      "summary": "Cain kills Abel. The chapter follows Cain's family and the birth of Seth. Anger can destroy family bonds. Cain's question tests our care for other people.",
+      "year": null,
+      "dateLabel": "Narrative order · historical year unknown",
+      "uncertainty": "No verified location is supplied for this chapter.",
+      "placeIds": [],
+      "sourceIds": [
+        "web",
+        "yale-creation"
+      ],
+      "lds": {
+        "text": "Moses 5 adds gospel teaching after the Fall. Compare Cain's choices with Adam and Eve's worship.",
+        "sourceIds": [
+          "early",
+          "moses-5"
+        ]
+      }
+    },
+    {
+      "id": "genesis-5",
+      "chapter": 5,
+      "start": 1,
+      "end": 32,
+      "title": "Generations to Noah",
+      "summary": "The family record traces Adam's line to Noah. Enoch walks with God. Death repeats through the record. Enoch's account introduces hope within that pattern.",
+      "year": null,
+      "dateLabel": "Narrative order · historical year unknown",
+      "uncertainty": "No verified location is supplied for this chapter.",
+      "placeIds": [],
+      "sourceIds": [
+        "web",
+        "yale-flood"
+      ],
+      "lds": {
+        "text": "Moses 6–7 expands Enoch's account. Zion means a people united in righteousness and care.",
+        "sourceIds": [
+          "early",
+          "moses-6",
+          "moses-7"
+        ]
+      }
+    },
+    {
+      "id": "genesis-6",
+      "chapter": 6,
+      "start": 1,
+      "end": 22,
+      "title": "Noah builds the ark",
+      "summary": "Violence fills the earth. God tells Noah to build an ark. Noah responds to God's warning with action. The story connects judgment with preservation.",
+      "year": null,
+      "dateLabel": "Narrative order · historical year unknown",
+      "uncertainty": "No verified location is supplied for this chapter.",
+      "placeIds": [],
+      "sourceIds": [
+        "web",
+        "yale-flood",
+        "flood-tablet"
+      ],
+      "lds": {
+        "text": "Moses 8 describes Noah's preaching before the flood. Read preparation alongside the call to repent.",
+        "sourceIds": [
+          "early",
+          "moses-8"
+        ]
+      }
+    },
+    {
+      "id": "genesis-7",
+      "chapter": 7,
+      "start": 1,
+      "end": 24,
+      "title": "The flood",
+      "summary": "Noah's household and the animals enter the ark. The flood covers the land. The narrative depicts loss on a great scale. Preservation remains part of the story.",
+      "year": null,
+      "dateLabel": "Narrative order · historical year unknown",
+      "uncertainty": "No verified location is supplied for this chapter.",
+      "placeIds": [],
+      "sourceIds": [
+        "web",
+        "yale-flood",
+        "flood-tablet"
+      ],
+      "lds": {
+        "text": "The Church manual reads Noah's deliverance within God's dealings with humanity. Consider faithful action under warning.",
+        "sourceIds": [
+          "early"
+        ]
+      }
+    },
+    {
+      "id": "genesis-8",
+      "chapter": 8,
+      "start": 1,
+      "end": 22,
+      "title": "The waters recede",
+      "summary": "The ark rests in the mountains of Ararat. Noah leaves and builds an altar. Noah responds to deliverance with worship. The promise concerns the world's continuing seasons.",
+      "year": null,
+      "dateLabel": "Narrative order · historical year unknown",
+      "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "placeIds": [
+        "ararat"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-flood",
+        "flood-tablet"
+      ],
+      "lds": {
+        "text": "Noah worships after deliverance. Consider how gratitude can follow a period of waiting.",
+        "sourceIds": [
+          "early"
+        ]
+      }
+    },
+    {
+      "id": "genesis-9",
+      "chapter": 9,
+      "start": 1,
+      "end": 29,
+      "title": "A covenant with Noah",
+      "summary": "God gives the rainbow as a covenant sign. Noah's sons receive different blessings. The covenant includes living creatures. The chapter also warns against bloodshed.",
+      "year": null,
+      "dateLabel": "Narrative order · historical year unknown",
+      "uncertainty": "No verified location is supplied for this chapter.",
+      "placeIds": [],
+      "sourceIds": [
+        "web",
+        "yale-flood",
+        "flood-tablet"
+      ],
+      "lds": {
+        "text": "A covenant is a sacred agreement. God's sign joins a promise with duties toward life.",
+        "sourceIds": [
+          "early"
+        ]
+      }
+    },
+    {
+      "id": "genesis-10",
+      "chapter": 10,
+      "start": 1,
+      "end": 32,
+      "title": "Families and nations",
+      "summary": "The chapter lists peoples descended from Noah's sons. The list links Israel's story to many peoples. It expresses kinship through family lines.",
+      "year": null,
+      "dateLabel": "Narrative order · historical year unknown",
+      "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "placeIds": [
+        "babel"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-flood"
+      ],
+      "lds": {
+        "text": "The family record joins many peoples to common ancestors. Consider the duties that shared humanity creates.",
+        "sourceIds": [
+          "early"
+        ]
+      }
+    },
+    {
+      "id": "genesis-11",
+      "chapter": 11,
+      "start": 1,
+      "end": 32,
+      "title": "Babel and Terah's family",
+      "summary": "People build Babel. God confuses their speech. Terah's family travels from Ur toward Canaan. Babel questions human attempts to secure greatness. Terah's family prepares the next story.",
+      "year": null,
+      "dateLabel": "Narrative order · historical year unknown",
+      "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "placeIds": [
+        "babel",
+        "ur",
+        "haran"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-flood",
+        "trade"
+      ],
+      "lds": {
+        "text": "The Church manual contrasts Babel with the covenant family story. Consider how pride differs from trust.",
+        "sourceIds": [
+          "early"
+        ]
+      }
+    },
+    {
+      "id": "genesis-12",
+      "chapter": 12,
+      "start": 1,
+      "end": 20,
+      "title": "Abram's call",
+      "summary": "Abram travels from Haran to Canaan. Famine leads him into Egypt. The promise extends blessing beyond one household. Abram's fear also exposes others to danger.",
+      "year": null,
+      "dateLabel": "Narrative order · historical year unknown",
+      "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "placeIds": [
+        "haran",
+        "shechem",
+        "bethel",
+        "egypt"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-patriarchs",
+        "trade",
+        "egypt"
+      ],
+      "lds": {
+        "text": "Abraham 2 links the covenant with blessing all families. Study the promise as a duty to serve.",
+        "sourceIds": [
+          "abraham",
+          "abraham-2"
+        ]
+      }
+    },
+    {
+      "id": "genesis-13",
+      "chapter": 13,
+      "start": 1,
+      "end": 18,
+      "title": "Abram and Lot separate",
+      "summary": "Abram lets Lot choose land. Lot settles near Sodom. God renews Abram's promise. Abram chooses peace over a dispute. Land and descendants remain central to the promise.",
+      "year": null,
+      "dateLabel": "Narrative order · historical year unknown",
+      "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "placeIds": [
+        "bethel",
+        "hebron",
+        "sodom"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-patriarchs",
+        "trade"
+      ],
+      "lds": {
+        "text": "Abraham gives Lot the first choice. Consider how covenant living can support peace over advantage.",
+        "sourceIds": [
+          "abraham"
+        ]
+      }
+    },
+    {
+      "id": "genesis-14",
+      "chapter": 14,
+      "start": 1,
+      "end": 24,
+      "title": "Lot rescued",
+      "summary": "Abram rescues Lot after a battle. Melchizedek blesses Abram. Abram rejects wealth from Sodom. Melchizedek connects blessing with worship of God.",
+      "year": null,
+      "dateLabel": "Narrative order · historical year unknown",
+      "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "placeIds": [
+        "dan",
+        "damascus",
+        "salem"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-patriarchs",
+        "trade"
+      ],
+      "lds": {
+        "text": "Alma 13 expands Melchizedek's role as a priest. Keep that teaching distinct from Genesis's brief account.",
+        "sourceIds": [
+          "abraham",
+          "alma-13"
+        ]
+      }
+    },
+    {
+      "id": "genesis-15",
+      "chapter": 15,
+      "start": 1,
+      "end": 21,
+      "title": "God's covenant with Abram",
+      "summary": "God promises descendants to Abram. A covenant ceremony follows. Abram trusts despite his lack of an heir. The promise includes future suffering and return.",
+      "year": null,
+      "dateLabel": "Narrative order · historical year unknown",
+      "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "placeIds": [
+        "hebron"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-patriarchs",
+        "trade"
+      ],
+      "lds": {
+        "text": "God's promise meets Abraham's fear about an heir. Consider how faith can coexist with unanswered questions.",
+        "sourceIds": [
+          "abraham"
+        ]
+      }
+    },
+    {
+      "id": "genesis-16",
+      "chapter": 16,
+      "start": 1,
+      "end": 16,
+      "title": "Hagar and Ishmael",
+      "summary": "Hagar flees harsh treatment from Sarai. God's messenger meets her. Ishmael is born. God sees a woman in distress. Her story challenges indifference toward vulnerable people.",
+      "year": null,
+      "dateLabel": "Narrative order · historical year unknown",
+      "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "placeIds": [
+        "beer-lahai-roi"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-patriarchs",
+        "trade"
+      ],
+      "lds": {
+        "text": "God sees Hagar in distress. Consider whose need you can recognize within unequal relationships.",
+        "sourceIds": [
+          "abraham"
+        ]
+      }
+    },
+    {
+      "id": "genesis-17",
+      "chapter": 17,
+      "start": 1,
+      "end": 27,
+      "title": "New names and covenant",
+      "summary": "God names Abraham and Sarah. Circumcision becomes a covenant sign. God promises Isaac. The covenant sets duties for the household. God also promises to bless Ishmael.",
+      "year": null,
+      "dateLabel": "Narrative order · historical year unknown",
+      "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "placeIds": [
+        "hebron"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-patriarchs",
+        "trade"
+      ],
+      "lds": {
+        "text": "Abraham 2 links covenant blessings with the gospel. Study both the promised blessing and its responsibility.",
+        "sourceIds": [
+          "abraham",
+          "abraham-2"
+        ]
+      }
+    },
+    {
+      "id": "genesis-18",
+      "chapter": 18,
+      "start": 1,
+      "end": 33,
+      "title": "Visitors and Abraham's plea",
+      "summary": "Visitors promise Sarah a son. Abraham pleads for Sodom. Hospitality opens the story. Abraham's questions explore justice and mercy.",
+      "year": null,
+      "dateLabel": "Narrative order · historical year unknown",
+      "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "placeIds": [
+        "hebron",
+        "sodom"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-patriarchs",
+        "trade"
+      ],
+      "lds": {
+        "text": "Abraham pleads for other people's lives. Consider how prayer can express care beyond your household.",
+        "sourceIds": [
+          "abraham-later"
+        ]
+      }
+    },
+    {
+      "id": "genesis-19",
+      "chapter": 19,
+      "start": 1,
+      "end": 38,
+      "title": "Sodom and Lot's escape",
+      "summary": "Lot hosts visitors. A violent crowd threatens them. Lot's household escapes Sodom. The account condemns violence and abuse of guests. Escape does not end the household's troubles.",
+      "year": null,
+      "dateLabel": "Narrative order · historical year unknown",
+      "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "placeIds": [
+        "sodom",
+        "zoar"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-patriarchs",
+        "trade"
+      ],
+      "lds": {
+        "text": "Lot's escape includes grief and later family harm. Deliverance does not remove the need for moral care.",
+        "sourceIds": [
+          "abraham-later"
+        ]
+      }
+    },
+    {
+      "id": "genesis-20",
+      "chapter": 20,
+      "start": 1,
+      "end": 18,
+      "title": "Abraham and Abimelech",
+      "summary": "Abraham calls Sarah his sister. God warns Abimelech in a dream. Fear leads to deception. The account shows how that deception harms other people.",
+      "year": null,
+      "dateLabel": "Narrative order · historical year unknown",
+      "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "placeIds": [
+        "gerar"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-patriarchs",
+        "trade"
+      ],
+      "lds": {
+        "text": "Abraham's fear puts Sarah at risk. Consider the effects of choices made to protect yourself.",
+        "sourceIds": [
+          "abraham-later"
+        ]
+      }
+    },
+    {
+      "id": "genesis-21",
+      "chapter": 21,
+      "start": 1,
+      "end": 34,
+      "title": "Isaac and Ishmael",
+      "summary": "Isaac is born. Hagar and Ishmael leave. God provides water. Abraham makes a treaty. Both sons receive God's care. Family conflict does not erase Hagar's need or Ishmael's promise.",
+      "year": null,
+      "dateLabel": "Narrative order · historical year unknown",
+      "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "placeIds": [
+        "beersheba"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-patriarchs",
+        "trade"
+      ],
+      "lds": {
+        "text": "God hears Hagar and Ishmael. Family conflict must not erase another person's need.",
+        "sourceIds": [
+          "abraham-later"
+        ]
+      }
+    },
+    {
+      "id": "genesis-22",
+      "chapter": 22,
+      "start": 1,
+      "end": 24,
+      "title": "The binding of Isaac",
+      "summary": "God tests Abraham. A messenger stops the sacrifice. A ram takes Isaac's place. The narrative presents trust under severe strain. God stops the killing of Isaac.",
+      "year": null,
+      "dateLabel": "Narrative order · historical year unknown",
+      "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "placeIds": [
+        "moriah",
+        "beersheba"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-patriarchs",
+        "trade"
+      ],
+      "lds": {
+        "text": "Jacob 4:5 links Abraham's offering with the Father's gift of Christ. Genesis itself stops Isaac's sacrifice.",
+        "sourceIds": [
+          "abraham-later",
+          "jacob-4"
+        ]
+      }
+    },
+    {
+      "id": "genesis-23",
+      "chapter": 23,
+      "start": 1,
+      "end": 20,
+      "title": "Sarah's burial",
+      "summary": "Sarah dies. Abraham buys the field and cave of Machpelah. The purchase gives Abraham a burial place. The promised land first becomes a family grave.",
+      "year": null,
+      "dateLabel": "Narrative order · historical year unknown",
+      "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "placeIds": [
+        "hebron"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-patriarchs",
+        "trade"
+      ],
+      "lds": {
+        "text": "Abraham secures a burial place for Sarah. Consider how covenant hope can accompany mourning.",
+        "sourceIds": [
+          "abraham-later"
+        ]
+      }
+    },
+    {
+      "id": "genesis-24",
+      "chapter": 24,
+      "start": 1,
+      "end": 67,
+      "title": "Rebekah meets Isaac",
+      "summary": "Abraham's servant seeks a wife for Isaac. Rebekah agrees to travel. Rebekah shows care through action. Her consent matters in the journey to Isaac.",
+      "year": null,
+      "dateLabel": "Narrative order · historical year unknown",
+      "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "placeIds": [
+        "haran",
+        "beer-lahai-roi"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-patriarchs",
+        "trade"
+      ],
+      "lds": {
+        "text": "Rebekah agrees to the journey. Consider the place of willingness within family and covenant choices.",
+        "sourceIds": [
+          "jacob"
+        ]
+      }
+    },
+    {
+      "id": "genesis-25",
+      "chapter": 25,
+      "start": 1,
+      "end": 34,
+      "title": "Abraham's death and the twins",
+      "summary": "Abraham dies. Rebekah bears Esau and Jacob. Esau sells his birthright. Family promises pass to another generation. Immediate hunger and lasting inheritance come into conflict.",
+      "year": null,
+      "dateLabel": "Narrative order · historical year unknown",
+      "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "placeIds": [
+        "hebron"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-patriarchs",
+        "trade"
+      ],
+      "lds": {
+        "text": "The birthright concerns a lasting family responsibility. Consider what you value beyond an immediate need.",
+        "sourceIds": [
+          "jacob"
+        ]
+      }
+    },
+    {
+      "id": "genesis-26",
+      "chapter": 26,
+      "start": 1,
+      "end": 35,
+      "title": "Isaac's wells",
+      "summary": "Isaac lives near Gerar. Disputes arise over wells. God renews the promise. Water supports life and creates conflict. Isaac moves rather than continuing each dispute.",
+      "year": null,
+      "dateLabel": "Narrative order · historical year unknown",
+      "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "placeIds": [
+        "gerar",
+        "beersheba"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-patriarchs",
+        "trade"
+      ],
+      "lds": {
+        "text": "God renews the promise to Isaac. Consider how patient action can reduce a dispute.",
+        "sourceIds": [
+          "jacob"
+        ]
+      }
+    },
+    {
+      "id": "genesis-27",
+      "chapter": 27,
+      "start": 1,
+      "end": 46,
+      "title": "Jacob receives the blessing",
+      "summary": "Rebekah and Jacob deceive Isaac. Esau loses the blessing and threatens Jacob. A family promise unfolds through deception and grief. The chapter does not hide their harmful choices.",
+      "year": null,
+      "dateLabel": "Narrative order · historical year unknown",
+      "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "placeIds": [
+        "beersheba"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-patriarchs",
+        "trade"
+      ],
+      "lds": {
+        "text": "Jacob receives a blessing through deception. A promised purpose does not make every family choice harmless.",
+        "sourceIds": [
+          "jacob"
+        ]
+      }
+    },
+    {
+      "id": "genesis-28",
+      "chapter": 28,
+      "start": 1,
+      "end": 22,
+      "title": "Jacob's dream at Bethel",
+      "summary": "Jacob leaves for Haran. At Bethel he dreams of a stairway reaching heaven. God meets Jacob during his flight. Jacob responds with a vow.",
+      "year": null,
+      "dateLabel": "Narrative order · historical year unknown",
+      "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "placeIds": [
+        "beersheba",
+        "bethel",
+        "haran"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-patriarchs",
+        "trade"
+      ],
+      "lds": {
+        "text": "God meets Jacob while he travels away from home. Consider your response to God's promised presence.",
+        "sourceIds": [
+          "jacob"
+        ]
+      }
+    },
+    {
+      "id": "genesis-29",
+      "chapter": 29,
+      "start": 1,
+      "end": 35,
+      "title": "Leah and Rachel",
+      "summary": "Jacob meets Rachel. Laban substitutes Leah at the wedding. Jacob also marries Rachel. Deception returns within Jacob's life. God sees Leah's distress and gives her children.",
+      "year": null,
+      "dateLabel": "Narrative order · historical year unknown",
+      "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "placeIds": [
+        "haran"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-patriarchs",
+        "trade"
+      ],
+      "lds": {
+        "text": "God sees Leah's pain. Consider how unequal affection can affect people within a family.",
+        "sourceIds": [
+          "jacob"
+        ]
+      }
+    },
+    {
+      "id": "genesis-30",
+      "chapter": 30,
+      "start": 1,
+      "end": 43,
+      "title": "Jacob's growing household",
+      "summary": "Rachel, Leah, Bilhah, and Zilpah bear children. Jacob's flocks increase. The account includes rivalry and unequal power. The mothers' words reveal their hopes and pain.",
+      "year": null,
+      "dateLabel": "Narrative order · historical year unknown",
+      "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "placeIds": [
+        "haran"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-patriarchs",
+        "trade"
+      ],
+      "lds": {
+        "text": "The children's names reveal hope and distress. Consider each mother's experience rather than only the family totals.",
+        "sourceIds": [
+          "jacob"
+        ]
+      }
+    },
+    {
+      "id": "genesis-31",
+      "chapter": 31,
+      "start": 1,
+      "end": 55,
+      "title": "Jacob leaves Laban",
+      "summary": "Jacob's household leaves Haran. Laban pursues them. They make an agreement. The household seeks freedom from Laban's control. A boundary helps end their dispute.",
+      "year": null,
+      "dateLabel": "Narrative order · historical year unknown",
+      "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "placeIds": [
+        "haran",
+        "gilead"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-patriarchs",
+        "trade"
+      ],
+      "lds": {
+        "text": "Jacob and Laban set a boundary. Consider how clear agreements can help end harmful disputes.",
+        "sourceIds": [
+          "jacob"
+        ]
+      }
+    },
+    {
+      "id": "genesis-32",
+      "chapter": 32,
+      "start": 1,
+      "end": 32,
+      "title": "Jacob wrestles",
+      "summary": "Jacob prepares to meet Esau. He wrestles through the night and receives the name Israel. Jacob faces fear and dependence. His new name marks a lasting change.",
+      "year": null,
+      "dateLabel": "Narrative order · historical year unknown",
+      "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "placeIds": [
+        "mahanaim",
+        "penuel"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-patriarchs",
+        "trade"
+      ],
+      "lds": {
+        "text": "Jacob receives the name Israel after a struggle. Consider how dependence on God can accompany fear.",
+        "sourceIds": [
+          "jacob"
+        ]
+      }
+    },
+    {
+      "id": "genesis-33",
+      "chapter": 33,
+      "start": 1,
+      "end": 20,
+      "title": "Jacob and Esau meet",
+      "summary": "Esau embraces Jacob. Jacob settles near Shechem. The meeting interrupts expected revenge. Gifts and humility support renewed peace.",
+      "year": null,
+      "dateLabel": "Narrative order · historical year unknown",
+      "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "placeIds": [
+        "penuel",
+        "shechem",
+        "succoth"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-patriarchs",
+        "trade"
+      ],
+      "lds": {
+        "text": "Esau welcomes Jacob. Consider what reconciliation requires after years of injury.",
+        "sourceIds": [
+          "jacob"
+        ]
+      }
+    },
+    {
+      "id": "genesis-34",
+      "chapter": 34,
+      "start": 1,
+      "end": 31,
+      "title": "Dinah and Shechem",
+      "summary": "Shechem violates Dinah. Her brothers kill the town's men after a deceptive agreement. The narrative exposes sexual violence and violent revenge. Neither harm should disappear from the reading.",
+      "year": null,
+      "dateLabel": "Narrative order · historical year unknown",
+      "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "placeIds": [
+        "shechem"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-patriarchs",
+        "trade"
+      ],
+      "lds": {
+        "text": "Dinah suffers violence and her brothers take revenge. Consider how to protect people without adding further harm.",
+        "sourceIds": [
+          "jacob"
+        ]
+      }
+    },
+    {
+      "id": "genesis-35",
+      "chapter": 35,
+      "start": 1,
+      "end": 29,
+      "title": "Return to Bethel",
+      "summary": "Jacob returns to Bethel. Rachel dies near Bethlehem. Isaac dies. Worship, birth, and death shape the family's return. The promise continues through grief.",
+      "year": null,
+      "dateLabel": "Narrative order · historical year unknown",
+      "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "placeIds": [
+        "bethel",
+        "bethlehem",
+        "hebron"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-patriarchs",
+        "trade"
+      ],
+      "lds": {
+        "text": "Jacob returns to worship amid family loss. Consider how faith and grief can remain present together.",
+        "sourceIds": [
+          "jacob"
+        ]
+      }
+    },
+    {
+      "id": "genesis-36",
+      "chapter": 36,
+      "start": 1,
+      "end": 43,
+      "title": "Esau's descendants",
+      "summary": "The chapter records Esau's family and rulers in Edom. Esau's line receives space in the story. Israel's neighbors also have a history.",
+      "year": null,
+      "dateLabel": "Narrative order · historical year unknown",
+      "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "placeIds": [
+        "edom"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-patriarchs",
+        "trade"
+      ],
+      "lds": {
+        "text": "Esau's descendants have their own place in Genesis. Consider how to read neighbors without dismissing them.",
+        "sourceIds": [
+          "jacob"
+        ]
+      }
+    },
+    {
+      "id": "genesis-37",
+      "chapter": 37,
+      "start": 1,
+      "end": 36,
+      "title": "Joseph sold",
+      "summary": "Joseph's brothers sell him. Traders take him to Egypt. Jacob mourns. Favoritism and jealousy fracture the family. Joseph's loss begins the journey toward Egypt.",
+      "year": null,
+      "dateLabel": "Narrative order · historical year unknown",
+      "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "placeIds": [
+        "hebron",
+        "shechem",
+        "dothan",
+        "egypt"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-ancestors",
+        "trade",
+        "egypt"
+      ],
+      "lds": {
+        "text": "Joseph loses home through his brothers' choices. Consider the damage caused by favoritism and envy.",
+        "sourceIds": [
+          "joseph"
+        ]
+      }
+    },
+    {
+      "id": "genesis-38",
+      "chapter": 38,
+      "start": 1,
+      "end": 30,
+      "title": "Judah and Tamar",
+      "summary": "Judah fails to provide for Tamar. Tamar acts to preserve her family claim. Judah admits his failure. The story exposes his unequal judgment of Tamar.",
+      "year": null,
+      "dateLabel": "Narrative order · historical year unknown",
+      "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "placeIds": [
+        "adullam",
+        "timnah"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-ancestors",
+        "trade",
+        "egypt"
+      ],
+      "lds": {
+        "text": "Judah admits that Tamar has a stronger claim. Consider whether your judgment uses unequal standards.",
+        "sourceIds": [
+          "joseph"
+        ]
+      }
+    },
+    {
+      "id": "genesis-39",
+      "chapter": 39,
+      "start": 1,
+      "end": 23,
+      "title": "Joseph in Potiphar's house",
+      "summary": "Joseph serves Potiphar. Potiphar's wife falsely accuses Joseph. He enters prison. Joseph keeps his integrity despite pressure. His imprisonment is not evidence of guilt.",
+      "year": null,
+      "dateLabel": "Narrative order · historical year unknown",
+      "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "placeIds": [
+        "egypt"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-ancestors",
+        "trade",
+        "egypt"
+      ],
+      "lds": {
+        "text": "Joseph refuses sexual wrongdoing and suffers false accusation. Consider integrity when it brings no immediate reward.",
+        "sourceIds": [
+          "joseph"
+        ]
+      }
+    },
+    {
+      "id": "genesis-40",
+      "chapter": 40,
+      "start": 1,
+      "end": 23,
+      "title": "Dreams in prison",
+      "summary": "Joseph explains the cupbearer's and baker's dreams. The cupbearer forgets Joseph. Joseph serves others while confined. Help given does not guarantee quick relief.",
+      "year": null,
+      "dateLabel": "Narrative order · historical year unknown",
+      "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "placeIds": [
+        "egypt"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-ancestors",
+        "trade",
+        "egypt"
+      ],
+      "lds": {
+        "text": "Joseph serves others while he waits in prison. Consider how service can continue during uncertainty.",
+        "sourceIds": [
+          "joseph"
+        ]
+      }
+    },
+    {
+      "id": "genesis-41",
+      "chapter": 41,
+      "start": 1,
+      "end": 57,
+      "title": "Joseph before Pharaoh",
+      "summary": "Joseph explains Pharaoh's dreams. Pharaoh appoints him to prepare for famine. Preparation turns knowledge into care for others. Joseph gains authority after years of loss.",
+      "year": null,
+      "dateLabel": "Narrative order · historical year unknown",
+      "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "placeIds": [
+        "egypt"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-ancestors",
+        "trade",
+        "egypt"
+      ],
+      "lds": {
+        "text": "Joseph prepares for famine after explaining the dreams. Consider how knowledge can become practical care.",
+        "sourceIds": [
+          "joseph"
+        ]
+      }
+    },
+    {
+      "id": "genesis-42",
+      "chapter": 42,
+      "start": 1,
+      "end": 38,
+      "title": "The brothers seek grain",
+      "summary": "Joseph's brothers arrive in Egypt. Joseph holds Simeon and asks for Benjamin. The brothers remember their guilt. Joseph's tests begin to reveal their changed relationships.",
+      "year": null,
+      "dateLabel": "Narrative order · historical year unknown",
+      "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "placeIds": [
+        "egypt",
+        "canaan"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-ancestors",
+        "trade",
+        "egypt"
+      ],
+      "lds": {
+        "text": "The brothers begin to acknowledge their earlier harm. Consider the place of truthful memory in repentance.",
+        "sourceIds": [
+          "joseph"
+        ]
+      }
+    },
+    {
+      "id": "genesis-43",
+      "chapter": 43,
+      "start": 1,
+      "end": 34,
+      "title": "Benjamin goes to Egypt",
+      "summary": "Judah pledges Benjamin's safety. The brothers return. Joseph hosts a meal. Judah accepts responsibility for another brother. Joseph's hidden identity creates hope and fear.",
+      "year": null,
+      "dateLabel": "Narrative order · historical year unknown",
+      "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "placeIds": [
+        "canaan",
+        "egypt"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-ancestors",
+        "trade",
+        "egypt"
+      ],
+      "lds": {
+        "text": "Judah accepts responsibility for Benjamin. Consider how changed conduct can make a promise credible.",
+        "sourceIds": [
+          "joseph"
+        ]
+      }
+    },
+    {
+      "id": "genesis-44",
+      "chapter": 44,
+      "start": 1,
+      "end": 34,
+      "title": "Judah offers himself",
+      "summary": "Joseph's cup is found in Benjamin's sack. Judah offers to remain instead. Judah's offer reverses his earlier sale of Joseph. He protects a brother and his father.",
+      "year": null,
+      "dateLabel": "Narrative order · historical year unknown",
+      "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "placeIds": [
+        "egypt"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-ancestors",
+        "trade",
+        "egypt"
+      ],
+      "lds": {
+        "text": "Judah offers his own freedom for Benjamin. Compare this choice with his earlier treatment of Joseph.",
+        "sourceIds": [
+          "joseph"
+        ]
+      }
+    },
+    {
+      "id": "genesis-45",
+      "chapter": 45,
+      "start": 1,
+      "end": 28,
+      "title": "Joseph reveals himself",
+      "summary": "Joseph names himself. He sends his brothers to bring Jacob to Egypt. Reconciliation includes truthful recognition of harm. Joseph interprets survival as God's preserving work.",
+      "year": null,
+      "dateLabel": "Narrative order · historical year unknown",
+      "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "placeIds": [
+        "egypt",
+        "canaan"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-ancestors",
+        "trade",
+        "egypt"
+      ],
+      "lds": {
+        "text": "Joseph speaks truth about the sale while preserving the family. Consider forgiveness without denial of harm.",
+        "sourceIds": [
+          "joseph"
+        ]
+      }
+    },
+    {
+      "id": "genesis-46",
+      "chapter": 46,
+      "start": 1,
+      "end": 34,
+      "title": "Jacob goes to Egypt",
+      "summary": "God reassures Jacob at Beersheba. Jacob's family enters Egypt. Joseph meets his father. Migration preserves the family during famine. God's promise accompanies them beyond Canaan.",
+      "year": null,
+      "dateLabel": "Narrative order · historical year unknown",
+      "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "placeIds": [
+        "beersheba",
+        "goshen",
+        "egypt"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-ancestors",
+        "trade",
+        "egypt"
+      ],
+      "lds": {
+        "text": "God reassures Jacob before the move to Egypt. Consider how covenant trust can accompany a difficult change.",
+        "sourceIds": [
+          "joseph"
+        ]
+      }
+    },
+    {
+      "id": "genesis-47",
+      "chapter": 47,
+      "start": 1,
+      "end": 31,
+      "title": "The famine continues",
+      "summary": "Jacob meets Pharaoh. Joseph manages famine relief. Egyptians surrender property for food. The account includes survival and concentrated royal power. Food policy changes people's dependence on Pharaoh.",
+      "year": null,
+      "dateLabel": "Narrative order · historical year unknown",
+      "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "placeIds": [
+        "goshen",
+        "egypt"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-ancestors",
+        "trade",
+        "egypt"
+      ],
+      "lds": {
+        "text": "Famine relief also increases royal control. Consider both the aid given and its cost to vulnerable people.",
+        "sourceIds": [
+          "joseph"
+        ]
+      }
+    },
+    {
+      "id": "genesis-48",
+      "chapter": 48,
+      "start": 1,
+      "end": 22,
+      "title": "Ephraim and Manasseh",
+      "summary": "Jacob blesses Joseph's sons. He places Ephraim before Manasseh. The younger son receives the leading blessing. The act repeats Genesis's reversals of expected rank.",
+      "year": null,
+      "dateLabel": "Narrative order · historical year unknown",
+      "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "placeIds": [
+        "goshen"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-ancestors",
+        "trade",
+        "egypt"
+      ],
+      "lds": {
+        "text": "Jacob blesses both sons and gives Ephraim the leading place. Consider duties as well as inherited blessing.",
+        "sourceIds": [
+          "joseph"
+        ]
+      }
+    },
+    {
+      "id": "genesis-49",
+      "chapter": 49,
+      "start": 1,
+      "end": 33,
+      "title": "Jacob's final words",
+      "summary": "Jacob speaks over his sons. He asks for burial with his ancestors and dies. The speeches address different tribal futures. The burial request holds the family to Canaan.",
+      "year": null,
+      "dateLabel": "Narrative order · historical year unknown",
+      "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "placeIds": [
+        "goshen",
+        "hebron"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-ancestors",
+        "trade",
+        "egypt"
+      ],
+      "lds": {
+        "text": "Jacob's words join blessing with consequences. Consider how family choices can affect later generations.",
+        "sourceIds": [
+          "joseph"
+        ]
+      }
+    },
+    {
+      "id": "genesis-50",
+      "chapter": 50,
+      "start": 1,
+      "end": 26,
+      "title": "Burial and forgiveness",
+      "summary": "Joseph buries Jacob in Canaan. He reassures his brothers. Joseph later dies in Egypt. Forgiveness does not deny the brothers' evil. Joseph's burial request points toward a future return.",
+      "year": null,
+      "dateLabel": "Narrative order · historical year unknown",
+      "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "placeIds": [
+        "egypt",
+        "hebron"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-ancestors",
+        "trade",
+        "egypt"
+      ],
+      "lds": {
+        "text": "Second Nephi 3 adds a prophecy attributed to Joseph. Keep that Restoration account distinct from Genesis 50.",
+        "sourceIds": [
+          "joseph",
+          "nephi-3"
+        ]
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "genesis-1",
+      "chapter": 1,
+      "verse": 1,
+      "eventOrder": 1,
+      "title": "Creation",
+      "summary": "God creates the world and gives humans care of its life. God calls creation good.",
+      "detail": "Human life has worth. Care for the earth follows from God's gift.",
+      "dateLabel": "Narrative order · historical year unknown",
+      "uncertainty": "No verified location is supplied for this chapter.",
+      "sourceIds": [
+        "web",
+        "yale-creation"
+      ],
+      "placeIds": [],
+      "lds": {
+        "text": "Moses 2 places human creation within God's work. Human dignity shapes how we treat others.",
+        "sourceIds": [
+          "creation",
+          "moses-2"
+        ]
+      }
+    },
+    {
+      "id": "genesis-2",
+      "chapter": 2,
+      "verse": 1,
+      "eventOrder": 2,
+      "title": "Life in the garden",
+      "summary": "God rests. God places the man in Eden and forms the woman.",
+      "detail": "Rest, work, and partnership belong to human life. The garden also includes a command.",
+      "dateLabel": "Narrative order · historical year unknown",
+      "uncertainty": "No verified location is supplied for this chapter.",
+      "sourceIds": [
+        "web",
+        "yale-creation"
+      ],
+      "placeIds": [],
+      "lds": {
+        "text": "Moses 3 connects the garden with God's commands. Study work, rest, and partnership together.",
+        "sourceIds": [
+          "creation",
+          "moses-3"
+        ]
+      }
+    },
+    {
+      "id": "genesis-3",
+      "chapter": 3,
+      "verse": 1,
+      "eventOrder": 3,
+      "title": "The Fall",
+      "summary": "The man and woman eat the forbidden fruit. They leave the garden.",
+      "detail": "Their choice brings loss and responsibility. God still clothes them.",
+      "dateLabel": "Narrative order · historical year unknown",
+      "uncertainty": "No verified location is supplied for this chapter.",
+      "sourceIds": [
+        "web",
+        "yale-creation"
+      ],
+      "placeIds": [],
+      "lds": {
+        "text": "Moses 4 expands the garden account. Second Nephi 2 connects the Fall with choice and redemption.",
+        "sourceIds": [
+          "fall",
+          "moses-4",
+          "nephi-2"
+        ]
+      }
+    },
+    {
+      "id": "genesis-4",
+      "chapter": 4,
+      "verse": 1,
+      "eventOrder": 4,
+      "title": "Cain and Abel",
+      "summary": "Cain kills Abel. The chapter follows Cain's family and the birth of Seth.",
+      "detail": "Anger can destroy family bonds. Cain's question tests our care for other people.",
+      "dateLabel": "Narrative order · historical year unknown",
+      "uncertainty": "No verified location is supplied for this chapter.",
+      "sourceIds": [
+        "web",
+        "yale-creation"
+      ],
+      "placeIds": [],
+      "lds": {
+        "text": "Moses 5 adds gospel teaching after the Fall. Compare Cain's choices with Adam and Eve's worship.",
+        "sourceIds": [
+          "early",
+          "moses-5"
+        ]
+      }
+    },
+    {
+      "id": "genesis-5",
+      "chapter": 5,
+      "verse": 1,
+      "eventOrder": 5,
+      "title": "Generations to Noah",
+      "summary": "The family record traces Adam's line to Noah. Enoch walks with God.",
+      "detail": "Death repeats through the record. Enoch's account introduces hope within that pattern.",
+      "dateLabel": "Narrative order · historical year unknown",
+      "uncertainty": "No verified location is supplied for this chapter.",
+      "sourceIds": [
+        "web",
+        "yale-flood"
+      ],
+      "placeIds": [],
+      "lds": {
+        "text": "Moses 6–7 expands Enoch's account. Zion means a people united in righteousness and care.",
+        "sourceIds": [
+          "early",
+          "moses-6",
+          "moses-7"
+        ]
+      }
+    },
+    {
+      "id": "genesis-6",
+      "chapter": 6,
+      "verse": 1,
+      "eventOrder": 6,
+      "title": "Noah builds the ark",
+      "summary": "Violence fills the earth. God tells Noah to build an ark.",
+      "detail": "Noah responds to God's warning with action. The story connects judgment with preservation.",
+      "dateLabel": "Narrative order · historical year unknown",
+      "uncertainty": "No verified location is supplied for this chapter.",
+      "sourceIds": [
+        "web",
+        "yale-flood",
+        "flood-tablet"
+      ],
+      "placeIds": [],
+      "lds": {
+        "text": "Moses 8 describes Noah's preaching before the flood. Read preparation alongside the call to repent.",
+        "sourceIds": [
+          "early",
+          "moses-8"
+        ]
+      }
+    },
+    {
+      "id": "genesis-7",
+      "chapter": 7,
+      "verse": 1,
+      "eventOrder": 7,
+      "title": "The flood",
+      "summary": "Noah's household and the animals enter the ark. The flood covers the land.",
+      "detail": "The narrative depicts loss on a great scale. Preservation remains part of the story.",
+      "dateLabel": "Narrative order · historical year unknown",
+      "uncertainty": "No verified location is supplied for this chapter.",
+      "sourceIds": [
+        "web",
+        "yale-flood",
+        "flood-tablet"
+      ],
+      "placeIds": [],
+      "lds": {
+        "text": "The Church manual reads Noah's deliverance within God's dealings with humanity. Consider faithful action under warning.",
+        "sourceIds": [
+          "early"
+        ]
+      }
+    },
+    {
+      "id": "genesis-8",
+      "chapter": 8,
+      "verse": 1,
+      "eventOrder": 8,
+      "title": "The waters recede",
+      "summary": "The ark rests in the mountains of Ararat. Noah leaves and builds an altar.",
+      "detail": "Noah responds to deliverance with worship. The promise concerns the world's continuing seasons.",
+      "dateLabel": "Narrative order · historical year unknown",
+      "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "sourceIds": [
+        "web",
+        "yale-flood",
+        "flood-tablet"
+      ],
+      "placeIds": [
+        "ararat"
+      ],
+      "lds": {
+        "text": "Noah worships after deliverance. Consider how gratitude can follow a period of waiting.",
+        "sourceIds": [
+          "early"
+        ]
+      }
+    },
+    {
+      "id": "genesis-9",
+      "chapter": 9,
+      "verse": 1,
+      "eventOrder": 9,
+      "title": "A covenant with Noah",
+      "summary": "God gives the rainbow as a covenant sign. Noah's sons receive different blessings.",
+      "detail": "The covenant includes living creatures. The chapter also warns against bloodshed.",
+      "dateLabel": "Narrative order · historical year unknown",
+      "uncertainty": "No verified location is supplied for this chapter.",
+      "sourceIds": [
+        "web",
+        "yale-flood",
+        "flood-tablet"
+      ],
+      "placeIds": [],
+      "lds": {
+        "text": "A covenant is a sacred agreement. God's sign joins a promise with duties toward life.",
+        "sourceIds": [
+          "early"
+        ]
+      }
+    },
+    {
+      "id": "genesis-10",
+      "chapter": 10,
+      "verse": 1,
+      "eventOrder": 10,
+      "title": "Families and nations",
+      "summary": "The chapter lists peoples descended from Noah's sons.",
+      "detail": "The list links Israel's story to many peoples. It expresses kinship through family lines.",
+      "dateLabel": "Narrative order · historical year unknown",
+      "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "sourceIds": [
+        "web",
+        "yale-flood"
+      ],
+      "placeIds": [
+        "babel"
+      ],
+      "lds": {
+        "text": "The family record joins many peoples to common ancestors. Consider the duties that shared humanity creates.",
+        "sourceIds": [
+          "early"
+        ]
+      }
+    },
+    {
+      "id": "genesis-11",
+      "chapter": 11,
+      "verse": 1,
+      "eventOrder": 11,
+      "title": "Babel and Terah's family",
+      "summary": "People build Babel. God confuses their speech. Terah's family travels from Ur toward Canaan.",
+      "detail": "Babel questions human attempts to secure greatness. Terah's family prepares the next story.",
+      "dateLabel": "Narrative order · historical year unknown",
+      "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "sourceIds": [
+        "web",
+        "yale-flood",
+        "trade"
+      ],
+      "placeIds": [
+        "babel",
+        "ur",
+        "haran"
+      ],
+      "lds": {
+        "text": "The Church manual contrasts Babel with the covenant family story. Consider how pride differs from trust.",
+        "sourceIds": [
+          "early"
+        ]
+      }
+    },
+    {
+      "id": "genesis-12",
+      "chapter": 12,
+      "verse": 1,
+      "eventOrder": 12,
+      "title": "Abram's call",
+      "summary": "Abram travels from Haran to Canaan. Famine leads him into Egypt.",
+      "detail": "The promise extends blessing beyond one household. Abram's fear also exposes others to danger.",
+      "dateLabel": "Narrative order · historical year unknown",
+      "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "sourceIds": [
+        "web",
+        "yale-patriarchs",
+        "trade",
+        "egypt"
+      ],
+      "placeIds": [
+        "haran",
+        "shechem",
+        "bethel",
+        "egypt"
+      ],
+      "lds": {
+        "text": "Abraham 2 links the covenant with blessing all families. Study the promise as a duty to serve.",
+        "sourceIds": [
+          "abraham",
+          "abraham-2"
+        ]
+      }
+    },
+    {
+      "id": "genesis-13",
+      "chapter": 13,
+      "verse": 1,
+      "eventOrder": 13,
+      "title": "Abram and Lot separate",
+      "summary": "Abram lets Lot choose land. Lot settles near Sodom. God renews Abram's promise.",
+      "detail": "Abram chooses peace over a dispute. Land and descendants remain central to the promise.",
+      "dateLabel": "Narrative order · historical year unknown",
+      "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "sourceIds": [
+        "web",
+        "yale-patriarchs",
+        "trade"
+      ],
+      "placeIds": [
+        "bethel",
+        "hebron",
+        "sodom"
+      ],
+      "lds": {
+        "text": "Abraham gives Lot the first choice. Consider how covenant living can support peace over advantage.",
+        "sourceIds": [
+          "abraham"
+        ]
+      }
+    },
+    {
+      "id": "genesis-14",
+      "chapter": 14,
+      "verse": 1,
+      "eventOrder": 14,
+      "title": "Lot rescued",
+      "summary": "Abram rescues Lot after a battle. Melchizedek blesses Abram.",
+      "detail": "Abram rejects wealth from Sodom. Melchizedek connects blessing with worship of God.",
+      "dateLabel": "Narrative order · historical year unknown",
+      "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "sourceIds": [
+        "web",
+        "yale-patriarchs",
+        "trade"
+      ],
+      "placeIds": [
+        "dan",
+        "damascus",
+        "salem"
+      ],
+      "lds": {
+        "text": "Alma 13 expands Melchizedek's role as a priest. Keep that teaching distinct from Genesis's brief account.",
+        "sourceIds": [
+          "abraham",
+          "alma-13"
+        ]
+      }
+    },
+    {
+      "id": "genesis-15",
+      "chapter": 15,
+      "verse": 1,
+      "eventOrder": 15,
+      "title": "God's covenant with Abram",
+      "summary": "God promises descendants to Abram. A covenant ceremony follows.",
+      "detail": "Abram trusts despite his lack of an heir. The promise includes future suffering and return.",
+      "dateLabel": "Narrative order · historical year unknown",
+      "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "sourceIds": [
+        "web",
+        "yale-patriarchs",
+        "trade"
+      ],
+      "placeIds": [
+        "hebron"
+      ],
+      "lds": {
+        "text": "God's promise meets Abraham's fear about an heir. Consider how faith can coexist with unanswered questions.",
+        "sourceIds": [
+          "abraham"
+        ]
+      }
+    },
+    {
+      "id": "genesis-16",
+      "chapter": 16,
+      "verse": 1,
+      "eventOrder": 16,
+      "title": "Hagar and Ishmael",
+      "summary": "Hagar flees harsh treatment from Sarai. God's messenger meets her. Ishmael is born.",
+      "detail": "God sees a woman in distress. Her story challenges indifference toward vulnerable people.",
+      "dateLabel": "Narrative order · historical year unknown",
+      "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "sourceIds": [
+        "web",
+        "yale-patriarchs",
+        "trade"
+      ],
+      "placeIds": [
+        "beer-lahai-roi"
+      ],
+      "lds": {
+        "text": "God sees Hagar in distress. Consider whose need you can recognize within unequal relationships.",
+        "sourceIds": [
+          "abraham"
+        ]
+      }
+    },
+    {
+      "id": "genesis-17",
+      "chapter": 17,
+      "verse": 1,
+      "eventOrder": 17,
+      "title": "New names and covenant",
+      "summary": "God names Abraham and Sarah. Circumcision becomes a covenant sign. God promises Isaac.",
+      "detail": "The covenant sets duties for the household. God also promises to bless Ishmael.",
+      "dateLabel": "Narrative order · historical year unknown",
+      "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "sourceIds": [
+        "web",
+        "yale-patriarchs",
+        "trade"
+      ],
+      "placeIds": [
+        "hebron"
+      ],
+      "lds": {
+        "text": "Abraham 2 links covenant blessings with the gospel. Study both the promised blessing and its responsibility.",
+        "sourceIds": [
+          "abraham",
+          "abraham-2"
+        ]
+      }
+    },
+    {
+      "id": "genesis-18",
+      "chapter": 18,
+      "verse": 1,
+      "eventOrder": 18,
+      "title": "Visitors and Abraham's plea",
+      "summary": "Visitors promise Sarah a son. Abraham pleads for Sodom.",
+      "detail": "Hospitality opens the story. Abraham's questions explore justice and mercy.",
+      "dateLabel": "Narrative order · historical year unknown",
+      "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "sourceIds": [
+        "web",
+        "yale-patriarchs",
+        "trade"
+      ],
+      "placeIds": [
+        "hebron",
+        "sodom"
+      ],
+      "lds": {
+        "text": "Abraham pleads for other people's lives. Consider how prayer can express care beyond your household.",
+        "sourceIds": [
+          "abraham-later"
+        ]
+      }
+    },
+    {
+      "id": "genesis-19",
+      "chapter": 19,
+      "verse": 1,
+      "eventOrder": 19,
+      "title": "Sodom and Lot's escape",
+      "summary": "Lot hosts visitors. A violent crowd threatens them. Lot's household escapes Sodom.",
+      "detail": "The account condemns violence and abuse of guests. Escape does not end the household's troubles.",
+      "dateLabel": "Narrative order · historical year unknown",
+      "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "sourceIds": [
+        "web",
+        "yale-patriarchs",
+        "trade"
+      ],
+      "placeIds": [
+        "sodom",
+        "zoar"
+      ],
+      "lds": {
+        "text": "Lot's escape includes grief and later family harm. Deliverance does not remove the need for moral care.",
+        "sourceIds": [
+          "abraham-later"
+        ]
+      }
+    },
+    {
+      "id": "genesis-20",
+      "chapter": 20,
+      "verse": 1,
+      "eventOrder": 20,
+      "title": "Abraham and Abimelech",
+      "summary": "Abraham calls Sarah his sister. God warns Abimelech in a dream.",
+      "detail": "Fear leads to deception. The account shows how that deception harms other people.",
+      "dateLabel": "Narrative order · historical year unknown",
+      "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "sourceIds": [
+        "web",
+        "yale-patriarchs",
+        "trade"
+      ],
+      "placeIds": [
+        "gerar"
+      ],
+      "lds": {
+        "text": "Abraham's fear puts Sarah at risk. Consider the effects of choices made to protect yourself.",
+        "sourceIds": [
+          "abraham-later"
+        ]
+      }
+    },
+    {
+      "id": "genesis-21",
+      "chapter": 21,
+      "verse": 1,
+      "eventOrder": 21,
+      "title": "Isaac and Ishmael",
+      "summary": "Isaac is born. Hagar and Ishmael leave. God provides water. Abraham makes a treaty.",
+      "detail": "Both sons receive God's care. Family conflict does not erase Hagar's need or Ishmael's promise.",
+      "dateLabel": "Narrative order · historical year unknown",
+      "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "sourceIds": [
+        "web",
+        "yale-patriarchs",
+        "trade"
+      ],
+      "placeIds": [
+        "beersheba"
+      ],
+      "lds": {
+        "text": "God hears Hagar and Ishmael. Family conflict must not erase another person's need.",
+        "sourceIds": [
+          "abraham-later"
+        ]
+      }
+    },
+    {
+      "id": "genesis-22",
+      "chapter": 22,
+      "verse": 1,
+      "eventOrder": 22,
+      "title": "The binding of Isaac",
+      "summary": "God tests Abraham. A messenger stops the sacrifice. A ram takes Isaac's place.",
+      "detail": "The narrative presents trust under severe strain. God stops the killing of Isaac.",
+      "dateLabel": "Narrative order · historical year unknown",
+      "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "sourceIds": [
+        "web",
+        "yale-patriarchs",
+        "trade"
+      ],
+      "placeIds": [
+        "moriah",
+        "beersheba"
+      ],
+      "lds": {
+        "text": "Jacob 4:5 links Abraham's offering with the Father's gift of Christ. Genesis itself stops Isaac's sacrifice.",
+        "sourceIds": [
+          "abraham-later",
+          "jacob-4"
+        ]
+      }
+    },
+    {
+      "id": "genesis-23",
+      "chapter": 23,
+      "verse": 1,
+      "eventOrder": 23,
+      "title": "Sarah's burial",
+      "summary": "Sarah dies. Abraham buys the field and cave of Machpelah.",
+      "detail": "The purchase gives Abraham a burial place. The promised land first becomes a family grave.",
+      "dateLabel": "Narrative order · historical year unknown",
+      "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "sourceIds": [
+        "web",
+        "yale-patriarchs",
+        "trade"
+      ],
+      "placeIds": [
+        "hebron"
+      ],
+      "lds": {
+        "text": "Abraham secures a burial place for Sarah. Consider how covenant hope can accompany mourning.",
+        "sourceIds": [
+          "abraham-later"
+        ]
+      }
+    },
+    {
+      "id": "genesis-24",
+      "chapter": 24,
+      "verse": 1,
+      "eventOrder": 24,
+      "title": "Rebekah meets Isaac",
+      "summary": "Abraham's servant seeks a wife for Isaac. Rebekah agrees to travel.",
+      "detail": "Rebekah shows care through action. Her consent matters in the journey to Isaac.",
+      "dateLabel": "Narrative order · historical year unknown",
+      "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "sourceIds": [
+        "web",
+        "yale-patriarchs",
+        "trade"
+      ],
+      "placeIds": [
+        "haran",
+        "beer-lahai-roi"
+      ],
+      "lds": {
+        "text": "Rebekah agrees to the journey. Consider the place of willingness within family and covenant choices.",
+        "sourceIds": [
+          "jacob"
+        ]
+      }
+    },
+    {
+      "id": "genesis-25",
+      "chapter": 25,
+      "verse": 1,
+      "eventOrder": 25,
+      "title": "Abraham's death and the twins",
+      "summary": "Abraham dies. Rebekah bears Esau and Jacob. Esau sells his birthright.",
+      "detail": "Family promises pass to another generation. Immediate hunger and lasting inheritance come into conflict.",
+      "dateLabel": "Narrative order · historical year unknown",
+      "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "sourceIds": [
+        "web",
+        "yale-patriarchs",
+        "trade"
+      ],
+      "placeIds": [
+        "hebron"
+      ],
+      "lds": {
+        "text": "The birthright concerns a lasting family responsibility. Consider what you value beyond an immediate need.",
+        "sourceIds": [
+          "jacob"
+        ]
+      }
+    },
+    {
+      "id": "genesis-26",
+      "chapter": 26,
+      "verse": 1,
+      "eventOrder": 26,
+      "title": "Isaac's wells",
+      "summary": "Isaac lives near Gerar. Disputes arise over wells. God renews the promise.",
+      "detail": "Water supports life and creates conflict. Isaac moves rather than continuing each dispute.",
+      "dateLabel": "Narrative order · historical year unknown",
+      "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "sourceIds": [
+        "web",
+        "yale-patriarchs",
+        "trade"
+      ],
+      "placeIds": [
+        "gerar",
+        "beersheba"
+      ],
+      "lds": {
+        "text": "God renews the promise to Isaac. Consider how patient action can reduce a dispute.",
+        "sourceIds": [
+          "jacob"
+        ]
+      }
+    },
+    {
+      "id": "genesis-27",
+      "chapter": 27,
+      "verse": 1,
+      "eventOrder": 27,
+      "title": "Jacob receives the blessing",
+      "summary": "Rebekah and Jacob deceive Isaac. Esau loses the blessing and threatens Jacob.",
+      "detail": "A family promise unfolds through deception and grief. The chapter does not hide their harmful choices.",
+      "dateLabel": "Narrative order · historical year unknown",
+      "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "sourceIds": [
+        "web",
+        "yale-patriarchs",
+        "trade"
+      ],
+      "placeIds": [
+        "beersheba"
+      ],
+      "lds": {
+        "text": "Jacob receives a blessing through deception. A promised purpose does not make every family choice harmless.",
+        "sourceIds": [
+          "jacob"
+        ]
+      }
+    },
+    {
+      "id": "genesis-28",
+      "chapter": 28,
+      "verse": 1,
+      "eventOrder": 28,
+      "title": "Jacob's dream at Bethel",
+      "summary": "Jacob leaves for Haran. At Bethel he dreams of a stairway reaching heaven.",
+      "detail": "God meets Jacob during his flight. Jacob responds with a vow.",
+      "dateLabel": "Narrative order · historical year unknown",
+      "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "sourceIds": [
+        "web",
+        "yale-patriarchs",
+        "trade"
+      ],
+      "placeIds": [
+        "beersheba",
+        "bethel",
+        "haran"
+      ],
+      "lds": {
+        "text": "God meets Jacob while he travels away from home. Consider your response to God's promised presence.",
+        "sourceIds": [
+          "jacob"
+        ]
+      }
+    },
+    {
+      "id": "genesis-29",
+      "chapter": 29,
+      "verse": 1,
+      "eventOrder": 29,
+      "title": "Leah and Rachel",
+      "summary": "Jacob meets Rachel. Laban substitutes Leah at the wedding. Jacob also marries Rachel.",
+      "detail": "Deception returns within Jacob's life. God sees Leah's distress and gives her children.",
+      "dateLabel": "Narrative order · historical year unknown",
+      "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "sourceIds": [
+        "web",
+        "yale-patriarchs",
+        "trade"
+      ],
+      "placeIds": [
+        "haran"
+      ],
+      "lds": {
+        "text": "God sees Leah's pain. Consider how unequal affection can affect people within a family.",
+        "sourceIds": [
+          "jacob"
+        ]
+      }
+    },
+    {
+      "id": "genesis-30",
+      "chapter": 30,
+      "verse": 1,
+      "eventOrder": 30,
+      "title": "Jacob's growing household",
+      "summary": "Rachel, Leah, Bilhah, and Zilpah bear children. Jacob's flocks increase.",
+      "detail": "The account includes rivalry and unequal power. The mothers' words reveal their hopes and pain.",
+      "dateLabel": "Narrative order · historical year unknown",
+      "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "sourceIds": [
+        "web",
+        "yale-patriarchs",
+        "trade"
+      ],
+      "placeIds": [
+        "haran"
+      ],
+      "lds": {
+        "text": "The children's names reveal hope and distress. Consider each mother's experience rather than only the family totals.",
+        "sourceIds": [
+          "jacob"
+        ]
+      }
+    },
+    {
+      "id": "genesis-31",
+      "chapter": 31,
+      "verse": 1,
+      "eventOrder": 31,
+      "title": "Jacob leaves Laban",
+      "summary": "Jacob's household leaves Haran. Laban pursues them. They make an agreement.",
+      "detail": "The household seeks freedom from Laban's control. A boundary helps end their dispute.",
+      "dateLabel": "Narrative order · historical year unknown",
+      "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "sourceIds": [
+        "web",
+        "yale-patriarchs",
+        "trade"
+      ],
+      "placeIds": [
+        "haran",
+        "gilead"
+      ],
+      "lds": {
+        "text": "Jacob and Laban set a boundary. Consider how clear agreements can help end harmful disputes.",
+        "sourceIds": [
+          "jacob"
+        ]
+      }
+    },
+    {
+      "id": "genesis-32",
+      "chapter": 32,
+      "verse": 1,
+      "eventOrder": 32,
+      "title": "Jacob wrestles",
+      "summary": "Jacob prepares to meet Esau. He wrestles through the night and receives the name Israel.",
+      "detail": "Jacob faces fear and dependence. His new name marks a lasting change.",
+      "dateLabel": "Narrative order · historical year unknown",
+      "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "sourceIds": [
+        "web",
+        "yale-patriarchs",
+        "trade"
+      ],
+      "placeIds": [
+        "mahanaim",
+        "penuel"
+      ],
+      "lds": {
+        "text": "Jacob receives the name Israel after a struggle. Consider how dependence on God can accompany fear.",
+        "sourceIds": [
+          "jacob"
+        ]
+      }
+    },
+    {
+      "id": "genesis-33",
+      "chapter": 33,
+      "verse": 1,
+      "eventOrder": 33,
+      "title": "Jacob and Esau meet",
+      "summary": "Esau embraces Jacob. Jacob settles near Shechem.",
+      "detail": "The meeting interrupts expected revenge. Gifts and humility support renewed peace.",
+      "dateLabel": "Narrative order · historical year unknown",
+      "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "sourceIds": [
+        "web",
+        "yale-patriarchs",
+        "trade"
+      ],
+      "placeIds": [
+        "penuel",
+        "shechem",
+        "succoth"
+      ],
+      "lds": {
+        "text": "Esau welcomes Jacob. Consider what reconciliation requires after years of injury.",
+        "sourceIds": [
+          "jacob"
+        ]
+      }
+    },
+    {
+      "id": "genesis-34",
+      "chapter": 34,
+      "verse": 1,
+      "eventOrder": 34,
+      "title": "Dinah and Shechem",
+      "summary": "Shechem violates Dinah. Her brothers kill the town's men after a deceptive agreement.",
+      "detail": "The narrative exposes sexual violence and violent revenge. Neither harm should disappear from the reading.",
+      "dateLabel": "Narrative order · historical year unknown",
+      "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "sourceIds": [
+        "web",
+        "yale-patriarchs",
+        "trade"
+      ],
+      "placeIds": [
+        "shechem"
+      ],
+      "lds": {
+        "text": "Dinah suffers violence and her brothers take revenge. Consider how to protect people without adding further harm.",
+        "sourceIds": [
+          "jacob"
+        ]
+      }
+    },
+    {
+      "id": "genesis-35",
+      "chapter": 35,
+      "verse": 1,
+      "eventOrder": 35,
+      "title": "Return to Bethel",
+      "summary": "Jacob returns to Bethel. Rachel dies near Bethlehem. Isaac dies.",
+      "detail": "Worship, birth, and death shape the family's return. The promise continues through grief.",
+      "dateLabel": "Narrative order · historical year unknown",
+      "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "sourceIds": [
+        "web",
+        "yale-patriarchs",
+        "trade"
+      ],
+      "placeIds": [
+        "bethel",
+        "bethlehem",
+        "hebron"
+      ],
+      "lds": {
+        "text": "Jacob returns to worship amid family loss. Consider how faith and grief can remain present together.",
+        "sourceIds": [
+          "jacob"
+        ]
+      }
+    },
+    {
+      "id": "genesis-36",
+      "chapter": 36,
+      "verse": 1,
+      "eventOrder": 36,
+      "title": "Esau's descendants",
+      "summary": "The chapter records Esau's family and rulers in Edom.",
+      "detail": "Esau's line receives space in the story. Israel's neighbors also have a history.",
+      "dateLabel": "Narrative order · historical year unknown",
+      "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "sourceIds": [
+        "web",
+        "yale-patriarchs",
+        "trade"
+      ],
+      "placeIds": [
+        "edom"
+      ],
+      "lds": {
+        "text": "Esau's descendants have their own place in Genesis. Consider how to read neighbors without dismissing them.",
+        "sourceIds": [
+          "jacob"
+        ]
+      }
+    },
+    {
+      "id": "genesis-37",
+      "chapter": 37,
+      "verse": 1,
+      "eventOrder": 37,
+      "title": "Joseph sold",
+      "summary": "Joseph's brothers sell him. Traders take him to Egypt. Jacob mourns.",
+      "detail": "Favoritism and jealousy fracture the family. Joseph's loss begins the journey toward Egypt.",
+      "dateLabel": "Narrative order · historical year unknown",
+      "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "sourceIds": [
+        "web",
+        "yale-ancestors",
+        "trade",
+        "egypt"
+      ],
+      "placeIds": [
+        "hebron",
+        "shechem",
+        "dothan",
+        "egypt"
+      ],
+      "lds": {
+        "text": "Joseph loses home through his brothers' choices. Consider the damage caused by favoritism and envy.",
+        "sourceIds": [
+          "joseph"
+        ]
+      }
+    },
+    {
+      "id": "genesis-38",
+      "chapter": 38,
+      "verse": 1,
+      "eventOrder": 38,
+      "title": "Judah and Tamar",
+      "summary": "Judah fails to provide for Tamar. Tamar acts to preserve her family claim.",
+      "detail": "Judah admits his failure. The story exposes his unequal judgment of Tamar.",
+      "dateLabel": "Narrative order · historical year unknown",
+      "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "sourceIds": [
+        "web",
+        "yale-ancestors",
+        "trade",
+        "egypt"
+      ],
+      "placeIds": [
+        "adullam",
+        "timnah"
+      ],
+      "lds": {
+        "text": "Judah admits that Tamar has a stronger claim. Consider whether your judgment uses unequal standards.",
+        "sourceIds": [
+          "joseph"
+        ]
+      }
+    },
+    {
+      "id": "genesis-39",
+      "chapter": 39,
+      "verse": 1,
+      "eventOrder": 39,
+      "title": "Joseph in Potiphar's house",
+      "summary": "Joseph serves Potiphar. Potiphar's wife falsely accuses Joseph. He enters prison.",
+      "detail": "Joseph keeps his integrity despite pressure. His imprisonment is not evidence of guilt.",
+      "dateLabel": "Narrative order · historical year unknown",
+      "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "sourceIds": [
+        "web",
+        "yale-ancestors",
+        "trade",
+        "egypt"
+      ],
+      "placeIds": [
+        "egypt"
+      ],
+      "lds": {
+        "text": "Joseph refuses sexual wrongdoing and suffers false accusation. Consider integrity when it brings no immediate reward.",
+        "sourceIds": [
+          "joseph"
+        ]
+      }
+    },
+    {
+      "id": "genesis-40",
+      "chapter": 40,
+      "verse": 1,
+      "eventOrder": 40,
+      "title": "Dreams in prison",
+      "summary": "Joseph explains the cupbearer's and baker's dreams. The cupbearer forgets Joseph.",
+      "detail": "Joseph serves others while confined. Help given does not guarantee quick relief.",
+      "dateLabel": "Narrative order · historical year unknown",
+      "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "sourceIds": [
+        "web",
+        "yale-ancestors",
+        "trade",
+        "egypt"
+      ],
+      "placeIds": [
+        "egypt"
+      ],
+      "lds": {
+        "text": "Joseph serves others while he waits in prison. Consider how service can continue during uncertainty.",
+        "sourceIds": [
+          "joseph"
+        ]
+      }
+    },
+    {
+      "id": "genesis-41",
+      "chapter": 41,
+      "verse": 1,
+      "eventOrder": 41,
+      "title": "Joseph before Pharaoh",
+      "summary": "Joseph explains Pharaoh's dreams. Pharaoh appoints him to prepare for famine.",
+      "detail": "Preparation turns knowledge into care for others. Joseph gains authority after years of loss.",
+      "dateLabel": "Narrative order · historical year unknown",
+      "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "sourceIds": [
+        "web",
+        "yale-ancestors",
+        "trade",
+        "egypt"
+      ],
+      "placeIds": [
+        "egypt"
+      ],
+      "lds": {
+        "text": "Joseph prepares for famine after explaining the dreams. Consider how knowledge can become practical care.",
+        "sourceIds": [
+          "joseph"
+        ]
+      }
+    },
+    {
+      "id": "genesis-42",
+      "chapter": 42,
+      "verse": 1,
+      "eventOrder": 42,
+      "title": "The brothers seek grain",
+      "summary": "Joseph's brothers arrive in Egypt. Joseph holds Simeon and asks for Benjamin.",
+      "detail": "The brothers remember their guilt. Joseph's tests begin to reveal their changed relationships.",
+      "dateLabel": "Narrative order · historical year unknown",
+      "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "sourceIds": [
+        "web",
+        "yale-ancestors",
+        "trade",
+        "egypt"
+      ],
+      "placeIds": [
+        "egypt",
+        "canaan"
+      ],
+      "lds": {
+        "text": "The brothers begin to acknowledge their earlier harm. Consider the place of truthful memory in repentance.",
+        "sourceIds": [
+          "joseph"
+        ]
+      }
+    },
+    {
+      "id": "genesis-43",
+      "chapter": 43,
+      "verse": 1,
+      "eventOrder": 43,
+      "title": "Benjamin goes to Egypt",
+      "summary": "Judah pledges Benjamin's safety. The brothers return. Joseph hosts a meal.",
+      "detail": "Judah accepts responsibility for another brother. Joseph's hidden identity creates hope and fear.",
+      "dateLabel": "Narrative order · historical year unknown",
+      "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "sourceIds": [
+        "web",
+        "yale-ancestors",
+        "trade",
+        "egypt"
+      ],
+      "placeIds": [
+        "canaan",
+        "egypt"
+      ],
+      "lds": {
+        "text": "Judah accepts responsibility for Benjamin. Consider how changed conduct can make a promise credible.",
+        "sourceIds": [
+          "joseph"
+        ]
+      }
+    },
+    {
+      "id": "genesis-44",
+      "chapter": 44,
+      "verse": 1,
+      "eventOrder": 44,
+      "title": "Judah offers himself",
+      "summary": "Joseph's cup is found in Benjamin's sack. Judah offers to remain instead.",
+      "detail": "Judah's offer reverses his earlier sale of Joseph. He protects a brother and his father.",
+      "dateLabel": "Narrative order · historical year unknown",
+      "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "sourceIds": [
+        "web",
+        "yale-ancestors",
+        "trade",
+        "egypt"
+      ],
+      "placeIds": [
+        "egypt"
+      ],
+      "lds": {
+        "text": "Judah offers his own freedom for Benjamin. Compare this choice with his earlier treatment of Joseph.",
+        "sourceIds": [
+          "joseph"
+        ]
+      }
+    },
+    {
+      "id": "genesis-45",
+      "chapter": 45,
+      "verse": 1,
+      "eventOrder": 45,
+      "title": "Joseph reveals himself",
+      "summary": "Joseph names himself. He sends his brothers to bring Jacob to Egypt.",
+      "detail": "Reconciliation includes truthful recognition of harm. Joseph interprets survival as God's preserving work.",
+      "dateLabel": "Narrative order · historical year unknown",
+      "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "sourceIds": [
+        "web",
+        "yale-ancestors",
+        "trade",
+        "egypt"
+      ],
+      "placeIds": [
+        "egypt",
+        "canaan"
+      ],
+      "lds": {
+        "text": "Joseph speaks truth about the sale while preserving the family. Consider forgiveness without denial of harm.",
+        "sourceIds": [
+          "joseph"
+        ]
+      }
+    },
+    {
+      "id": "genesis-46",
+      "chapter": 46,
+      "verse": 1,
+      "eventOrder": 46,
+      "title": "Jacob goes to Egypt",
+      "summary": "God reassures Jacob at Beersheba. Jacob's family enters Egypt. Joseph meets his father.",
+      "detail": "Migration preserves the family during famine. God's promise accompanies them beyond Canaan.",
+      "dateLabel": "Narrative order · historical year unknown",
+      "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "sourceIds": [
+        "web",
+        "yale-ancestors",
+        "trade",
+        "egypt"
+      ],
+      "placeIds": [
+        "beersheba",
+        "goshen",
+        "egypt"
+      ],
+      "lds": {
+        "text": "God reassures Jacob before the move to Egypt. Consider how covenant trust can accompany a difficult change.",
+        "sourceIds": [
+          "joseph"
+        ]
+      }
+    },
+    {
+      "id": "genesis-47",
+      "chapter": 47,
+      "verse": 1,
+      "eventOrder": 47,
+      "title": "The famine continues",
+      "summary": "Jacob meets Pharaoh. Joseph manages famine relief. Egyptians surrender property for food.",
+      "detail": "The account includes survival and concentrated royal power. Food policy changes people's dependence on Pharaoh.",
+      "dateLabel": "Narrative order · historical year unknown",
+      "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "sourceIds": [
+        "web",
+        "yale-ancestors",
+        "trade",
+        "egypt"
+      ],
+      "placeIds": [
+        "goshen",
+        "egypt"
+      ],
+      "lds": {
+        "text": "Famine relief also increases royal control. Consider both the aid given and its cost to vulnerable people.",
+        "sourceIds": [
+          "joseph"
+        ]
+      }
+    },
+    {
+      "id": "genesis-48",
+      "chapter": 48,
+      "verse": 1,
+      "eventOrder": 48,
+      "title": "Ephraim and Manasseh",
+      "summary": "Jacob blesses Joseph's sons. He places Ephraim before Manasseh.",
+      "detail": "The younger son receives the leading blessing. The act repeats Genesis's reversals of expected rank.",
+      "dateLabel": "Narrative order · historical year unknown",
+      "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "sourceIds": [
+        "web",
+        "yale-ancestors",
+        "trade",
+        "egypt"
+      ],
+      "placeIds": [
+        "goshen"
+      ],
+      "lds": {
+        "text": "Jacob blesses both sons and gives Ephraim the leading place. Consider duties as well as inherited blessing.",
+        "sourceIds": [
+          "joseph"
+        ]
+      }
+    },
+    {
+      "id": "genesis-49",
+      "chapter": 49,
+      "verse": 1,
+      "eventOrder": 49,
+      "title": "Jacob's final words",
+      "summary": "Jacob speaks over his sons. He asks for burial with his ancestors and dies.",
+      "detail": "The speeches address different tribal futures. The burial request holds the family to Canaan.",
+      "dateLabel": "Narrative order · historical year unknown",
+      "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "sourceIds": [
+        "web",
+        "yale-ancestors",
+        "trade",
+        "egypt"
+      ],
+      "placeIds": [
+        "goshen",
+        "hebron"
+      ],
+      "lds": {
+        "text": "Jacob's words join blessing with consequences. Consider how family choices can affect later generations.",
+        "sourceIds": [
+          "joseph"
+        ]
+      }
+    },
+    {
+      "id": "genesis-50",
+      "chapter": 50,
+      "verse": 1,
+      "eventOrder": 50,
+      "title": "Burial and forgiveness",
+      "summary": "Joseph buries Jacob in Canaan. He reassures his brothers. Joseph later dies in Egypt.",
+      "detail": "Forgiveness does not deny the brothers' evil. Joseph's burial request points toward a future return.",
+      "dateLabel": "Narrative order · historical year unknown",
+      "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "sourceIds": [
+        "web",
+        "yale-ancestors",
+        "trade",
+        "egypt"
+      ],
+      "placeIds": [
+        "egypt",
+        "hebron"
+      ],
+      "lds": {
+        "text": "Second Nephi 3 adds a prophecy attributed to Joseph. Keep that Restoration account distinct from Genesis 50.",
+        "sourceIds": [
+          "joseph",
+          "nephi-3"
+        ]
+      }
+    }
+  ],
+  "places": [
+    {
+      "id": "ur",
+      "name": "Ur",
+      "lat": 30.962,
+      "lng": 46.103,
+      "summary": "Genesis 11 names Ur of the Chaldeans. Southern Ur is a common identification.",
+      "limits": "The identification remains debated. This marker does not settle Abraham's origin.",
+      "sourceIds": [
+        "web",
+        "atlas"
+      ],
+      "detail": "The identification remains debated. This marker does not settle Abraham's origin.",
+      "uncertainty": "The identification remains debated. This marker does not settle Abraham's origin.",
+      "chapterLocation": true
+    },
+    {
+      "id": "haran",
+      "name": "Haran",
+      "lat": 36.865,
+      "lng": 39.032,
+      "summary": "Terah's household settles here. Abraham later leaves for Canaan.",
+      "limits": "The ancient city is near modern Harran.",
+      "sourceIds": [
+        "web",
+        "atlas"
+      ],
+      "detail": "The ancient city is near modern Harran.",
+      "uncertainty": "The ancient city is near modern Harran.",
+      "chapterLocation": true
+    },
+    {
+      "id": "babel",
+      "name": "Babel",
+      "lat": 32.543,
+      "lng": 44.421,
+      "summary": "Genesis 11 places Babel in Shinar. The story links its name with confused speech.",
+      "limits": "Babylon is the usual city identification. The tower itself is not identified.",
+      "sourceIds": [
+        "web",
+        "atlas"
+      ],
+      "detail": "Babylon is the usual city identification. The tower itself is not identified.",
+      "uncertainty": "Babylon is the usual city identification. The tower itself is not identified.",
+      "chapterLocation": true
+    },
+    {
+      "id": "ararat",
+      "name": "Mountains of Ararat",
+      "lat": 38.7,
+      "lng": 43.3,
+      "summary": "Genesis 8 names a mountain region where the ark rests.",
+      "limits": "This marker represents a broad region. It does not locate the ark or one mountain.",
+      "sourceIds": [
+        "web",
+        "atlas"
+      ],
+      "detail": "This marker represents a broad region. It does not locate the ark or one mountain.",
+      "uncertainty": "This marker represents a broad region. It does not locate the ark or one mountain.",
+      "chapterLocation": true
+    },
+    {
+      "id": "shechem",
+      "name": "Shechem",
+      "lat": 32.213,
+      "lng": 35.282,
+      "summary": "Abraham builds an altar nearby. Jacob later buys land here.",
+      "limits": "Tell Balata is the usual ancient city site.",
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan"
+      ],
+      "detail": "Tell Balata is the usual ancient city site.",
+      "uncertainty": "Tell Balata is the usual ancient city site.",
+      "chapterLocation": true
+    },
+    {
+      "id": "bethel",
+      "name": "Bethel",
+      "lat": 31.929,
+      "lng": 35.238,
+      "summary": "Abraham camps nearby. Jacob names the site after his dream.",
+      "limits": "Beitin is a common identification. Exact ancient boundaries remain uncertain.",
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan"
+      ],
+      "detail": "Beitin is a common identification. Exact ancient boundaries remain uncertain.",
+      "uncertainty": "Beitin is a common identification. Exact ancient boundaries remain uncertain.",
+      "chapterLocation": true
+    },
+    {
+      "id": "hebron",
+      "name": "Hebron",
+      "lat": 31.532,
+      "lng": 35.1,
+      "summary": "Abraham lives near Hebron. Sarah's burial establishes a family grave.",
+      "limits": "The marker shows Hebron. It does not verify the burial chamber.",
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan"
+      ],
+      "detail": "The marker shows Hebron. It does not verify the burial chamber.",
+      "uncertainty": "The marker shows Hebron. It does not verify the burial chamber.",
+      "chapterLocation": true
+    },
+    {
+      "id": "beersheba",
+      "name": "Beersheba",
+      "lat": 31.245,
+      "lng": 34.84,
+      "summary": "Abraham and Isaac make agreements here. Jacob stops before entering Egypt.",
+      "limits": "The marker shows the ancient settlement area.",
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan"
+      ],
+      "detail": "The marker shows the ancient settlement area.",
+      "uncertainty": "The marker shows the ancient settlement area.",
+      "chapterLocation": true
+    },
+    {
+      "id": "egypt",
+      "name": "Egypt",
+      "lat": 30.1,
+      "lng": 31.2,
+      "summary": "Famine draws Abraham and later Jacob's family into Egypt. Joseph rises to royal service.",
+      "limits": "This regional marker does not identify Joseph's palace or Pharaoh.",
+      "sourceIds": [
+        "web",
+        "atlas"
+      ],
+      "detail": "This regional marker does not identify Joseph's palace or Pharaoh.",
+      "uncertainty": "This regional marker does not identify Joseph's palace or Pharaoh.",
+      "chapterLocation": true
+    },
+    {
+      "id": "goshen",
+      "name": "Goshen",
+      "lat": 30.7,
+      "lng": 31.8,
+      "summary": "Genesis places Jacob's household in Goshen, within Egypt.",
+      "limits": "The broad delta placement is approximate. Its exact limits are unknown.",
+      "sourceIds": [
+        "web",
+        "atlas"
+      ],
+      "detail": "The broad delta placement is approximate. Its exact limits are unknown.",
+      "uncertainty": "The broad delta placement is approximate. Its exact limits are unknown.",
+      "chapterLocation": true
+    },
+    {
+      "id": "sodom",
+      "name": "Sodom",
+      "lat": 31.2,
+      "lng": 35.5,
+      "summary": "Lot settles near Sodom. Genesis 19 narrates its destruction.",
+      "limits": "The site is disputed. This marker shows a region rather than a confirmed city.",
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan"
+      ],
+      "detail": "The site is disputed. This marker shows a region rather than a confirmed city.",
+      "uncertainty": "The site is disputed. This marker shows a region rather than a confirmed city.",
+      "chapterLocation": true
+    },
+    {
+      "id": "zoar",
+      "name": "Zoar",
+      "lat": 31.0,
+      "lng": 35.5,
+      "summary": "Lot seeks refuge in Zoar when he leaves Sodom.",
+      "limits": "The exact Genesis site is uncertain.",
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan"
+      ],
+      "detail": "The exact Genesis site is uncertain.",
+      "uncertainty": "The exact Genesis site is uncertain.",
+      "chapterLocation": true
+    },
+    {
+      "id": "gerar",
+      "name": "Gerar",
+      "lat": 31.39,
+      "lng": 34.61,
+      "summary": "Abraham and Isaac deal with Abimelech near Gerar.",
+      "limits": "Tell Haror is a proposed identification. The marker is approximate.",
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan"
+      ],
+      "detail": "Tell Haror is a proposed identification. The marker is approximate.",
+      "uncertainty": "Tell Haror is a proposed identification. The marker is approximate.",
+      "chapterLocation": true
+    },
+    {
+      "id": "beer-lahai-roi",
+      "name": "Beer Lahai Roi",
+      "lat": 30.8,
+      "lng": 34.8,
+      "summary": "Hagar names the well after her encounter. Isaac later lives nearby.",
+      "limits": "Its location is unknown. The marker represents the Negev region only.",
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan"
+      ],
+      "detail": "Its location is unknown. The marker represents the Negev region only.",
+      "uncertainty": "Its location is unknown. The marker represents the Negev region only.",
+      "chapterLocation": true
+    },
+    {
+      "id": "moriah",
+      "name": "Land of Moriah",
+      "lat": 31.778,
+      "lng": 35.235,
+      "summary": "Genesis 22 places Abraham's test in the land of Moriah.",
+      "limits": "Jerusalem reflects a later biblical association. Genesis does not give a verified site.",
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan"
+      ],
+      "detail": "Jerusalem reflects a later biblical association. Genesis does not give a verified site.",
+      "uncertainty": "Jerusalem reflects a later biblical association. Genesis does not give a verified site.",
+      "chapterLocation": true
+    },
+    {
+      "id": "salem",
+      "name": "Salem",
+      "lat": 31.778,
+      "lng": 35.235,
+      "summary": "Melchizedek is king of Salem and priest of God Most High.",
+      "limits": "Jerusalem is a traditional identification. Genesis alone does not establish it.",
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan"
+      ],
+      "detail": "Jerusalem is a traditional identification. Genesis alone does not establish it.",
+      "uncertainty": "Jerusalem is a traditional identification. Genesis alone does not establish it.",
+      "chapterLocation": true
+    },
+    {
+      "id": "dan",
+      "name": "Dan",
+      "lat": 33.249,
+      "lng": 35.652,
+      "summary": "Abram pursues Lot's captors as far as Dan.",
+      "limits": "The name may reflect the narrator's later geography.",
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan"
+      ],
+      "detail": "The name may reflect the narrator's later geography.",
+      "uncertainty": "The name may reflect the narrator's later geography.",
+      "chapterLocation": true
+    },
+    {
+      "id": "damascus",
+      "name": "Damascus region",
+      "lat": 33.514,
+      "lng": 36.277,
+      "summary": "Genesis 14 places Hobah north of Damascus.",
+      "limits": "This marker shows Damascus. Hobah's exact site is unknown.",
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan"
+      ],
+      "detail": "This marker shows Damascus. Hobah's exact site is unknown.",
+      "uncertainty": "This marker shows Damascus. Hobah's exact site is unknown.",
+      "chapterLocation": true
+    },
+    {
+      "id": "gilead",
+      "name": "Gilead",
+      "lat": 32.2,
+      "lng": 35.85,
+      "summary": "Jacob and Laban make their agreement in this hill region.",
+      "limits": "This is a regional marker.",
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan"
+      ],
+      "detail": "This is a regional marker.",
+      "uncertainty": "This is a regional marker.",
+      "chapterLocation": true
+    },
+    {
+      "id": "mahanaim",
+      "name": "Mahanaim",
+      "lat": 32.21,
+      "lng": 35.62,
+      "summary": "Jacob names the place after meeting God's messengers.",
+      "limits": "The site is uncertain. The marker shows the broader region.",
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan"
+      ],
+      "detail": "The site is uncertain. The marker shows the broader region.",
+      "uncertainty": "The site is uncertain. The marker shows the broader region.",
+      "chapterLocation": true
+    },
+    {
+      "id": "penuel",
+      "name": "Penuel",
+      "lat": 32.184,
+      "lng": 35.702,
+      "summary": "Jacob wrestles near the Jabbok before meeting Esau.",
+      "limits": "The marker follows a proposed site near the river.",
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan"
+      ],
+      "detail": "The marker follows a proposed site near the river.",
+      "uncertainty": "The marker follows a proposed site near the river.",
+      "chapterLocation": true
+    },
+    {
+      "id": "succoth",
+      "name": "Succoth",
+      "lat": 32.18,
+      "lng": 35.62,
+      "summary": "Jacob builds shelters here after meeting Esau.",
+      "limits": "The marker follows a proposed Jordan valley site.",
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan"
+      ],
+      "detail": "The marker follows a proposed Jordan valley site.",
+      "uncertainty": "The marker follows a proposed Jordan valley site.",
+      "chapterLocation": true
+    },
+    {
+      "id": "bethlehem",
+      "name": "Bethlehem",
+      "lat": 31.705,
+      "lng": 35.202,
+      "summary": "Rachel dies on the journey toward Ephrath, identified in the text as Bethlehem.",
+      "limits": "The marker shows the town. Rachel's burial site has competing traditions.",
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan"
+      ],
+      "detail": "The marker shows the town. Rachel's burial site has competing traditions.",
+      "uncertainty": "The marker shows the town. Rachel's burial site has competing traditions.",
+      "chapterLocation": true
+    },
+    {
+      "id": "edom",
+      "name": "Edom",
+      "lat": 30.7,
+      "lng": 35.5,
+      "summary": "Genesis 36 associates Esau's descendants with Seir and Edom.",
+      "limits": "This is a regional marker, not a political boundary.",
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan"
+      ],
+      "detail": "This is a regional marker, not a political boundary.",
+      "uncertainty": "This is a regional marker, not a political boundary.",
+      "chapterLocation": true
+    },
+    {
+      "id": "dothan",
+      "name": "Dothan",
+      "lat": 32.413,
+      "lng": 35.238,
+      "summary": "Joseph finds his brothers near Dothan before they sell him.",
+      "limits": "Tell Dothan is the usual identification.",
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan"
+      ],
+      "detail": "Tell Dothan is the usual identification.",
+      "uncertainty": "Tell Dothan is the usual identification.",
+      "chapterLocation": true
+    },
+    {
+      "id": "adullam",
+      "name": "Adullam",
+      "lat": 31.65,
+      "lng": 35.0,
+      "summary": "Judah goes down to Adullam in Genesis 38.",
+      "limits": "The marker follows the usual hill-country identification.",
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan"
+      ],
+      "detail": "The marker follows the usual hill-country identification.",
+      "uncertainty": "The marker follows the usual hill-country identification.",
+      "chapterLocation": true
+    },
+    {
+      "id": "timnah",
+      "name": "Timnah region",
+      "lat": 31.75,
+      "lng": 34.94,
+      "summary": "Judah travels to Timnah for sheep shearing.",
+      "limits": "More than one ancient site has this name. The identification is uncertain.",
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan"
+      ],
+      "detail": "More than one ancient site has this name. The identification is uncertain.",
+      "uncertainty": "More than one ancient site has this name. The identification is uncertain.",
+      "chapterLocation": true
+    },
+    {
+      "id": "canaan",
+      "name": "Canaan",
+      "lat": 32.0,
+      "lng": 35.15,
+      "summary": "The promised land forms the main setting of the ancestral stories.",
+      "limits": "This is a regional marker, not a surveyed border.",
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan"
+      ],
+      "detail": "This is a regional marker, not a surveyed border.",
+      "uncertainty": "This is a regional marker, not a surveyed border.",
+      "chapterLocation": true
+    }
+  ],
+  "campaigns": [],
+  "ancientRoads": [],
+  "regions": [],
+  "words": [],
+  "guides": [
+    {
+      "id": "genesis-overview",
+      "title": "Study Genesis",
+      "description": "Follow selected chapters through the book.",
+      "steps": [
+        {
+          "title": "Creation",
+          "text": "God creates the world and gives humans care of its life. God calls creation good. Human life has worth. Care for the earth follows from God's gift.",
+          "chapter": 1,
+          "verse": 1,
+          "sourceIds": [
+            "web",
+            "yale-creation"
+          ]
+        },
+        {
+          "title": "Isaac's wells",
+          "text": "Isaac lives near Gerar. Disputes arise over wells. God renews the promise. Water supports life and creates conflict. Isaac moves rather than continuing each dispute.",
+          "chapter": 26,
+          "verse": 1,
+          "sourceIds": [
+            "web",
+            "yale-patriarchs",
+            "trade"
+          ]
+        },
+        {
+          "title": "Burial and forgiveness",
+          "text": "Joseph buries Jacob in Canaan. He reassures his brothers. Joseph later dies in Egypt. Forgiveness does not deny the brothers' evil. Joseph's burial request points toward a future return.",
+          "chapter": 50,
+          "verse": 1,
+          "sourceIds": [
+            "web",
+            "yale-ancestors",
+            "trade",
+            "egypt"
+          ]
+        }
+      ]
+    }
+  ],
+  "periods": [
+    {
+      "id": "part-0",
+      "label": "Genesis 1–16",
+      "start": 1,
+      "end": 16,
+      "description": "Chapter order"
+    },
+    {
+      "id": "part-1",
+      "label": "Genesis 17–32",
+      "start": 17,
+      "end": 32,
+      "description": "Chapter order"
+    },
+    {
+      "id": "part-2",
+      "label": "Genesis 33–50",
+      "start": 33,
+      "end": 50,
+      "description": "Chapter order"
+    }
+  ],
+  "chapterMaps": [
+    {
+      "chapter": 1,
+      "focusPlaceIds": [],
+      "placeIds": [],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "No verified location is supplied for this chapter.",
+      "narrative": "God creates the world and gives humans care of its life. God calls creation good.",
+      "limits": "No verified location is supplied for this chapter.",
+      "sourceIds": [
+        "web",
+        "yale-creation"
+      ]
+    },
+    {
+      "chapter": 2,
+      "focusPlaceIds": [],
+      "placeIds": [],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "No verified location is supplied for this chapter.",
+      "narrative": "God rests. God places the man in Eden and forms the woman.",
+      "limits": "No verified location is supplied for this chapter.",
+      "sourceIds": [
+        "web",
+        "yale-creation"
+      ]
+    },
+    {
+      "chapter": 3,
+      "focusPlaceIds": [],
+      "placeIds": [],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "No verified location is supplied for this chapter.",
+      "narrative": "The man and woman eat the forbidden fruit. They leave the garden.",
+      "limits": "No verified location is supplied for this chapter.",
+      "sourceIds": [
+        "web",
+        "yale-creation"
+      ]
+    },
+    {
+      "chapter": 4,
+      "focusPlaceIds": [],
+      "placeIds": [],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "No verified location is supplied for this chapter.",
+      "narrative": "Cain kills Abel. The chapter follows Cain's family and the birth of Seth.",
+      "limits": "No verified location is supplied for this chapter.",
+      "sourceIds": [
+        "web",
+        "yale-creation"
+      ]
+    },
+    {
+      "chapter": 5,
+      "focusPlaceIds": [],
+      "placeIds": [],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "No verified location is supplied for this chapter.",
+      "narrative": "The family record traces Adam's line to Noah. Enoch walks with God.",
+      "limits": "No verified location is supplied for this chapter.",
+      "sourceIds": [
+        "web",
+        "yale-flood"
+      ]
+    },
+    {
+      "chapter": 6,
+      "focusPlaceIds": [],
+      "placeIds": [],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "No verified location is supplied for this chapter.",
+      "narrative": "Violence fills the earth. God tells Noah to build an ark.",
+      "limits": "No verified location is supplied for this chapter.",
+      "sourceIds": [
+        "web",
+        "yale-flood",
+        "flood-tablet"
+      ]
+    },
+    {
+      "chapter": 7,
+      "focusPlaceIds": [],
+      "placeIds": [],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "No verified location is supplied for this chapter.",
+      "narrative": "Noah's household and the animals enter the ark. The flood covers the land.",
+      "limits": "No verified location is supplied for this chapter.",
+      "sourceIds": [
+        "web",
+        "yale-flood",
+        "flood-tablet"
+      ]
+    },
+    {
+      "chapter": 8,
+      "focusPlaceIds": [
+        "ararat"
+      ],
+      "placeIds": [
+        "ararat"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "narrative": "The ark rests in the mountains of Ararat. Noah leaves and builds an altar.",
+      "limits": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "sourceIds": [
+        "web",
+        "yale-flood",
+        "flood-tablet"
+      ]
+    },
+    {
+      "chapter": 9,
+      "focusPlaceIds": [],
+      "placeIds": [],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "No verified location is supplied for this chapter.",
+      "narrative": "God gives the rainbow as a covenant sign. Noah's sons receive different blessings.",
+      "limits": "No verified location is supplied for this chapter.",
+      "sourceIds": [
+        "web",
+        "yale-flood",
+        "flood-tablet"
+      ]
+    },
+    {
+      "chapter": 10,
+      "focusPlaceIds": [
+        "babel"
+      ],
+      "placeIds": [
+        "babel"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "narrative": "The chapter lists peoples descended from Noah's sons.",
+      "limits": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "sourceIds": [
+        "web",
+        "yale-flood"
+      ]
+    },
+    {
+      "chapter": 11,
+      "focusPlaceIds": [
+        "babel",
+        "ur",
+        "haran"
+      ],
+      "placeIds": [
+        "babel",
+        "ur",
+        "haran"
+      ],
+      "routes": [
+        {
+          "id": "genesis-11-journey",
+          "to": 1,
+          "reference": "Genesis 11:1",
+          "from": 0
+        }
+      ],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "narrative": "People build Babel. God confuses their speech. Terah's family travels from Ur toward Canaan.",
+      "limits": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "sourceIds": [
+        "web",
+        "yale-flood",
+        "trade"
+      ]
+    },
+    {
+      "chapter": 12,
+      "focusPlaceIds": [
+        "haran",
+        "shechem",
+        "bethel",
+        "egypt"
+      ],
+      "placeIds": [
+        "haran",
+        "shechem",
+        "bethel",
+        "egypt"
+      ],
+      "routes": [
+        {
+          "id": "genesis-12-journey",
+          "to": 3,
+          "reference": "Genesis 12:1",
+          "from": 0
+        }
+      ],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "narrative": "Abram travels from Haran to Canaan. Famine leads him into Egypt.",
+      "limits": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "sourceIds": [
+        "web",
+        "yale-patriarchs",
+        "trade",
+        "egypt"
+      ]
+    },
+    {
+      "chapter": 13,
+      "focusPlaceIds": [
+        "bethel",
+        "hebron",
+        "sodom"
+      ],
+      "placeIds": [
+        "bethel",
+        "hebron",
+        "sodom"
+      ],
+      "routes": [
+        {
+          "id": "genesis-13-journey",
+          "to": 1,
+          "reference": "Genesis 13:1",
+          "from": 0
+        }
+      ],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "narrative": "Abram lets Lot choose land. Lot settles near Sodom. God renews Abram's promise.",
+      "limits": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "sourceIds": [
+        "web",
+        "yale-patriarchs",
+        "trade"
+      ]
+    },
+    {
+      "chapter": 14,
+      "focusPlaceIds": [
+        "dan",
+        "damascus",
+        "salem"
+      ],
+      "placeIds": [
+        "dan",
+        "damascus",
+        "salem"
+      ],
+      "routes": [
+        {
+          "id": "genesis-14-journey",
+          "to": 1,
+          "reference": "Genesis 14:1",
+          "from": 0
+        }
+      ],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "narrative": "Abram rescues Lot after a battle. Melchizedek blesses Abram.",
+      "limits": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "sourceIds": [
+        "web",
+        "yale-patriarchs",
+        "trade"
+      ]
+    },
+    {
+      "chapter": 15,
+      "focusPlaceIds": [
+        "hebron"
+      ],
+      "placeIds": [
+        "hebron"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "narrative": "God promises descendants to Abram. A covenant ceremony follows.",
+      "limits": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "sourceIds": [
+        "web",
+        "yale-patriarchs",
+        "trade"
+      ]
+    },
+    {
+      "chapter": 16,
+      "focusPlaceIds": [
+        "beer-lahai-roi"
+      ],
+      "placeIds": [
+        "beer-lahai-roi"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "narrative": "Hagar flees harsh treatment from Sarai. God's messenger meets her. Ishmael is born.",
+      "limits": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "sourceIds": [
+        "web",
+        "yale-patriarchs",
+        "trade"
+      ]
+    },
+    {
+      "chapter": 17,
+      "focusPlaceIds": [
+        "hebron"
+      ],
+      "placeIds": [
+        "hebron"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "narrative": "God names Abraham and Sarah. Circumcision becomes a covenant sign. God promises Isaac.",
+      "limits": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "sourceIds": [
+        "web",
+        "yale-patriarchs",
+        "trade"
+      ]
+    },
+    {
+      "chapter": 18,
+      "focusPlaceIds": [
+        "hebron",
+        "sodom"
+      ],
+      "placeIds": [
+        "hebron",
+        "sodom"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "narrative": "Visitors promise Sarah a son. Abraham pleads for Sodom.",
+      "limits": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "sourceIds": [
+        "web",
+        "yale-patriarchs",
+        "trade"
+      ]
+    },
+    {
+      "chapter": 19,
+      "focusPlaceIds": [
+        "sodom",
+        "zoar"
+      ],
+      "placeIds": [
+        "sodom",
+        "zoar"
+      ],
+      "routes": [
+        {
+          "id": "genesis-19-journey",
+          "to": 1,
+          "reference": "Genesis 19:1",
+          "from": 0
+        }
+      ],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "narrative": "Lot hosts visitors. A violent crowd threatens them. Lot's household escapes Sodom.",
+      "limits": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "sourceIds": [
+        "web",
+        "yale-patriarchs",
+        "trade"
+      ]
+    },
+    {
+      "chapter": 20,
+      "focusPlaceIds": [
+        "gerar"
+      ],
+      "placeIds": [
+        "gerar"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "narrative": "Abraham calls Sarah his sister. God warns Abimelech in a dream.",
+      "limits": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "sourceIds": [
+        "web",
+        "yale-patriarchs",
+        "trade"
+      ]
+    },
+    {
+      "chapter": 21,
+      "focusPlaceIds": [
+        "beersheba"
+      ],
+      "placeIds": [
+        "beersheba"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "narrative": "Isaac is born. Hagar and Ishmael leave. God provides water. Abraham makes a treaty.",
+      "limits": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "sourceIds": [
+        "web",
+        "yale-patriarchs",
+        "trade"
+      ]
+    },
+    {
+      "chapter": 22,
+      "focusPlaceIds": [
+        "moriah",
+        "beersheba"
+      ],
+      "placeIds": [
+        "moriah",
+        "beersheba"
+      ],
+      "routes": [
+        {
+          "id": "genesis-22-journey",
+          "to": 1,
+          "reference": "Genesis 22:1",
+          "from": 0
+        }
+      ],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "narrative": "God tests Abraham. A messenger stops the sacrifice. A ram takes Isaac's place.",
+      "limits": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "sourceIds": [
+        "web",
+        "yale-patriarchs",
+        "trade"
+      ]
+    },
+    {
+      "chapter": 23,
+      "focusPlaceIds": [
+        "hebron"
+      ],
+      "placeIds": [
+        "hebron"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "narrative": "Sarah dies. Abraham buys the field and cave of Machpelah.",
+      "limits": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "sourceIds": [
+        "web",
+        "yale-patriarchs",
+        "trade"
+      ]
+    },
+    {
+      "chapter": 24,
+      "focusPlaceIds": [
+        "haran",
+        "beer-lahai-roi"
+      ],
+      "placeIds": [
+        "haran",
+        "beer-lahai-roi"
+      ],
+      "routes": [
+        {
+          "id": "genesis-24-journey",
+          "to": 1,
+          "reference": "Genesis 24:1",
+          "from": 0
+        }
+      ],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "narrative": "Abraham's servant seeks a wife for Isaac. Rebekah agrees to travel.",
+      "limits": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "sourceIds": [
+        "web",
+        "yale-patriarchs",
+        "trade"
+      ]
+    },
+    {
+      "chapter": 25,
+      "focusPlaceIds": [
+        "hebron"
+      ],
+      "placeIds": [
+        "hebron"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "narrative": "Abraham dies. Rebekah bears Esau and Jacob. Esau sells his birthright.",
+      "limits": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "sourceIds": [
+        "web",
+        "yale-patriarchs",
+        "trade"
+      ]
+    },
+    {
+      "chapter": 26,
+      "focusPlaceIds": [
+        "gerar",
+        "beersheba"
+      ],
+      "placeIds": [
+        "gerar",
+        "beersheba"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "narrative": "Isaac lives near Gerar. Disputes arise over wells. God renews the promise.",
+      "limits": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "sourceIds": [
+        "web",
+        "yale-patriarchs",
+        "trade"
+      ]
+    },
+    {
+      "chapter": 27,
+      "focusPlaceIds": [
+        "beersheba"
+      ],
+      "placeIds": [
+        "beersheba"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "narrative": "Rebekah and Jacob deceive Isaac. Esau loses the blessing and threatens Jacob.",
+      "limits": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "sourceIds": [
+        "web",
+        "yale-patriarchs",
+        "trade"
+      ]
+    },
+    {
+      "chapter": 28,
+      "focusPlaceIds": [
+        "beersheba",
+        "bethel",
+        "haran"
+      ],
+      "placeIds": [
+        "beersheba",
+        "bethel",
+        "haran"
+      ],
+      "routes": [
+        {
+          "id": "genesis-28-journey",
+          "to": 2,
+          "reference": "Genesis 28:1",
+          "from": 0
+        }
+      ],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "narrative": "Jacob leaves for Haran. At Bethel he dreams of a stairway reaching heaven.",
+      "limits": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "sourceIds": [
+        "web",
+        "yale-patriarchs",
+        "trade"
+      ]
+    },
+    {
+      "chapter": 29,
+      "focusPlaceIds": [
+        "haran"
+      ],
+      "placeIds": [
+        "haran"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "narrative": "Jacob meets Rachel. Laban substitutes Leah at the wedding. Jacob also marries Rachel.",
+      "limits": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "sourceIds": [
+        "web",
+        "yale-patriarchs",
+        "trade"
+      ]
+    },
+    {
+      "chapter": 30,
+      "focusPlaceIds": [
+        "haran"
+      ],
+      "placeIds": [
+        "haran"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "narrative": "Rachel, Leah, Bilhah, and Zilpah bear children. Jacob's flocks increase.",
+      "limits": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "sourceIds": [
+        "web",
+        "yale-patriarchs",
+        "trade"
+      ]
+    },
+    {
+      "chapter": 31,
+      "focusPlaceIds": [
+        "haran",
+        "gilead"
+      ],
+      "placeIds": [
+        "haran",
+        "gilead"
+      ],
+      "routes": [
+        {
+          "id": "genesis-31-journey",
+          "to": 1,
+          "reference": "Genesis 31:1",
+          "from": 0
+        }
+      ],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "narrative": "Jacob's household leaves Haran. Laban pursues them. They make an agreement.",
+      "limits": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "sourceIds": [
+        "web",
+        "yale-patriarchs",
+        "trade"
+      ]
+    },
+    {
+      "chapter": 32,
+      "focusPlaceIds": [
+        "mahanaim",
+        "penuel"
+      ],
+      "placeIds": [
+        "mahanaim",
+        "penuel"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "narrative": "Jacob prepares to meet Esau. He wrestles through the night and receives the name Israel.",
+      "limits": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "sourceIds": [
+        "web",
+        "yale-patriarchs",
+        "trade"
+      ]
+    },
+    {
+      "chapter": 33,
+      "focusPlaceIds": [
+        "penuel",
+        "shechem",
+        "succoth"
+      ],
+      "placeIds": [
+        "penuel",
+        "shechem",
+        "succoth"
+      ],
+      "routes": [
+        {
+          "id": "genesis-33-journey",
+          "to": 2,
+          "reference": "Genesis 33:1",
+          "from": 0
+        }
+      ],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "narrative": "Esau embraces Jacob. Jacob settles near Shechem.",
+      "limits": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "sourceIds": [
+        "web",
+        "yale-patriarchs",
+        "trade"
+      ]
+    },
+    {
+      "chapter": 34,
+      "focusPlaceIds": [
+        "shechem"
+      ],
+      "placeIds": [
+        "shechem"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "narrative": "Shechem violates Dinah. Her brothers kill the town's men after a deceptive agreement.",
+      "limits": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "sourceIds": [
+        "web",
+        "yale-patriarchs",
+        "trade"
+      ]
+    },
+    {
+      "chapter": 35,
+      "focusPlaceIds": [
+        "bethel",
+        "bethlehem",
+        "hebron"
+      ],
+      "placeIds": [
+        "bethel",
+        "bethlehem",
+        "hebron"
+      ],
+      "routes": [
+        {
+          "id": "genesis-35-journey",
+          "to": 2,
+          "reference": "Genesis 35:1",
+          "from": 0
+        }
+      ],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "narrative": "Jacob returns to Bethel. Rachel dies near Bethlehem. Isaac dies.",
+      "limits": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "sourceIds": [
+        "web",
+        "yale-patriarchs",
+        "trade"
+      ]
+    },
+    {
+      "chapter": 36,
+      "focusPlaceIds": [
+        "edom"
+      ],
+      "placeIds": [
+        "edom"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "narrative": "The chapter records Esau's family and rulers in Edom.",
+      "limits": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "sourceIds": [
+        "web",
+        "yale-patriarchs",
+        "trade"
+      ]
+    },
+    {
+      "chapter": 37,
+      "focusPlaceIds": [
+        "hebron",
+        "shechem",
+        "dothan",
+        "egypt"
+      ],
+      "placeIds": [
+        "hebron",
+        "shechem",
+        "dothan",
+        "egypt"
+      ],
+      "routes": [
+        {
+          "id": "genesis-37-journey",
+          "to": 3,
+          "reference": "Genesis 37:1",
+          "from": 0
+        }
+      ],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "narrative": "Joseph's brothers sell him. Traders take him to Egypt. Jacob mourns.",
+      "limits": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "sourceIds": [
+        "web",
+        "yale-ancestors",
+        "trade",
+        "egypt"
+      ]
+    },
+    {
+      "chapter": 38,
+      "focusPlaceIds": [
+        "adullam",
+        "timnah"
+      ],
+      "placeIds": [
+        "adullam",
+        "timnah"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "narrative": "Judah fails to provide for Tamar. Tamar acts to preserve her family claim.",
+      "limits": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "sourceIds": [
+        "web",
+        "yale-ancestors",
+        "trade",
+        "egypt"
+      ]
+    },
+    {
+      "chapter": 39,
+      "focusPlaceIds": [
+        "egypt"
+      ],
+      "placeIds": [
+        "egypt"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "narrative": "Joseph serves Potiphar. Potiphar's wife falsely accuses Joseph. He enters prison.",
+      "limits": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "sourceIds": [
+        "web",
+        "yale-ancestors",
+        "trade",
+        "egypt"
+      ]
+    },
+    {
+      "chapter": 40,
+      "focusPlaceIds": [
+        "egypt"
+      ],
+      "placeIds": [
+        "egypt"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "narrative": "Joseph explains the cupbearer's and baker's dreams. The cupbearer forgets Joseph.",
+      "limits": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "sourceIds": [
+        "web",
+        "yale-ancestors",
+        "trade",
+        "egypt"
+      ]
+    },
+    {
+      "chapter": 41,
+      "focusPlaceIds": [
+        "egypt"
+      ],
+      "placeIds": [
+        "egypt"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "narrative": "Joseph explains Pharaoh's dreams. Pharaoh appoints him to prepare for famine.",
+      "limits": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "sourceIds": [
+        "web",
+        "yale-ancestors",
+        "trade",
+        "egypt"
+      ]
+    },
+    {
+      "chapter": 42,
+      "focusPlaceIds": [
+        "egypt",
+        "canaan"
+      ],
+      "placeIds": [
+        "egypt",
+        "canaan"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "narrative": "Joseph's brothers arrive in Egypt. Joseph holds Simeon and asks for Benjamin.",
+      "limits": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "sourceIds": [
+        "web",
+        "yale-ancestors",
+        "trade",
+        "egypt"
+      ]
+    },
+    {
+      "chapter": 43,
+      "focusPlaceIds": [
+        "canaan",
+        "egypt"
+      ],
+      "placeIds": [
+        "canaan",
+        "egypt"
+      ],
+      "routes": [
+        {
+          "id": "genesis-43-journey",
+          "to": 1,
+          "reference": "Genesis 43:1",
+          "from": 0
+        }
+      ],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "narrative": "Judah pledges Benjamin's safety. The brothers return. Joseph hosts a meal.",
+      "limits": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "sourceIds": [
+        "web",
+        "yale-ancestors",
+        "trade",
+        "egypt"
+      ]
+    },
+    {
+      "chapter": 44,
+      "focusPlaceIds": [
+        "egypt"
+      ],
+      "placeIds": [
+        "egypt"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "narrative": "Joseph's cup is found in Benjamin's sack. Judah offers to remain instead.",
+      "limits": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "sourceIds": [
+        "web",
+        "yale-ancestors",
+        "trade",
+        "egypt"
+      ]
+    },
+    {
+      "chapter": 45,
+      "focusPlaceIds": [
+        "egypt",
+        "canaan"
+      ],
+      "placeIds": [
+        "egypt",
+        "canaan"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "narrative": "Joseph names himself. He sends his brothers to bring Jacob to Egypt.",
+      "limits": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "sourceIds": [
+        "web",
+        "yale-ancestors",
+        "trade",
+        "egypt"
+      ]
+    },
+    {
+      "chapter": 46,
+      "focusPlaceIds": [
+        "beersheba",
+        "goshen",
+        "egypt"
+      ],
+      "placeIds": [
+        "beersheba",
+        "goshen",
+        "egypt"
+      ],
+      "routes": [
+        {
+          "id": "genesis-46-journey",
+          "to": 1,
+          "reference": "Genesis 46:1",
+          "from": 0
+        }
+      ],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "narrative": "God reassures Jacob at Beersheba. Jacob's family enters Egypt. Joseph meets his father.",
+      "limits": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "sourceIds": [
+        "web",
+        "yale-ancestors",
+        "trade",
+        "egypt"
+      ]
+    },
+    {
+      "chapter": 47,
+      "focusPlaceIds": [
+        "goshen",
+        "egypt"
+      ],
+      "placeIds": [
+        "goshen",
+        "egypt"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "narrative": "Jacob meets Pharaoh. Joseph manages famine relief. Egyptians surrender property for food.",
+      "limits": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "sourceIds": [
+        "web",
+        "yale-ancestors",
+        "trade",
+        "egypt"
+      ]
+    },
+    {
+      "chapter": 48,
+      "focusPlaceIds": [
+        "goshen"
+      ],
+      "placeIds": [
+        "goshen"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "narrative": "Jacob blesses Joseph's sons. He places Ephraim before Manasseh.",
+      "limits": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "sourceIds": [
+        "web",
+        "yale-ancestors",
+        "trade",
+        "egypt"
+      ]
+    },
+    {
+      "chapter": 49,
+      "focusPlaceIds": [
+        "goshen",
+        "hebron"
+      ],
+      "placeIds": [
+        "goshen",
+        "hebron"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "narrative": "Jacob speaks over his sons. He asks for burial with his ancestors and dies.",
+      "limits": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "sourceIds": [
+        "web",
+        "yale-ancestors",
+        "trade",
+        "egypt"
+      ]
+    },
+    {
+      "chapter": 50,
+      "focusPlaceIds": [
+        "egypt",
+        "hebron"
+      ],
+      "placeIds": [
+        "egypt",
+        "hebron"
+      ],
+      "routes": [
+        {
+          "id": "genesis-50-journey",
+          "to": 1,
+          "reference": "Genesis 50:1",
+          "from": 0
+        }
+      ],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "narrative": "Joseph buries Jacob in Canaan. He reassures his brothers. Joseph later dies in Egypt.",
+      "limits": "Lines connect named places. They do not trace a surveyed ancient road.",
+      "sourceIds": [
+        "web",
+        "yale-ancestors",
+        "trade",
+        "egypt"
+      ]
+    }
+  ],
+  "textRoutes": [
+    {
+      "id": "genesis-11-journey",
+      "title": "Babel and Terah's family",
+      "points": [
+        [
+          30.962,
+          46.103
+        ],
+        [
+          36.865,
+          39.032
+        ]
+      ],
+      "chapter": 11,
+      "verse": 1,
+      "summary": "People build Babel. God confuses their speech. Terah's family travels from Ur toward Canaan.",
+      "detail": "Babel questions human attempts to secure greatness. Terah's family prepares the next story.",
+      "uncertainty": "Text names these locations in the journey. Connecting lines are approximate.",
+      "evidence": "Text names these locations in the journey. Connecting lines are approximate.",
+      "kind": "journey",
+      "direction": true,
+      "textRoute": true,
+      "sourceIds": [
+        "web",
+        "yale-flood",
+        "trade"
+      ]
+    },
+    {
+      "id": "genesis-12-journey",
+      "title": "Abram's call",
+      "points": [
+        [
+          36.865,
+          39.032
+        ],
+        [
+          32.213,
+          35.282
+        ],
+        [
+          31.929,
+          35.238
+        ],
+        [
+          30.1,
+          31.2
+        ]
+      ],
+      "chapter": 12,
+      "verse": 1,
+      "summary": "Abram travels from Haran to Canaan. Famine leads him into Egypt.",
+      "detail": "The promise extends blessing beyond one household. Abram's fear also exposes others to danger.",
+      "uncertainty": "Text names these locations in the journey. Connecting lines are approximate.",
+      "evidence": "Text names these locations in the journey. Connecting lines are approximate.",
+      "kind": "journey",
+      "direction": true,
+      "textRoute": true,
+      "sourceIds": [
+        "web",
+        "yale-patriarchs",
+        "trade",
+        "egypt"
+      ]
+    },
+    {
+      "id": "genesis-13-journey",
+      "title": "Abram and Lot separate",
+      "points": [
+        [
+          31.929,
+          35.238
+        ],
+        [
+          31.532,
+          35.1
+        ]
+      ],
+      "chapter": 13,
+      "verse": 1,
+      "summary": "Abram lets Lot choose land. Lot settles near Sodom. God renews Abram's promise.",
+      "detail": "Abram chooses peace over a dispute. Land and descendants remain central to the promise.",
+      "uncertainty": "Text names these locations in the journey. Connecting lines are approximate.",
+      "evidence": "Text names these locations in the journey. Connecting lines are approximate.",
+      "kind": "journey",
+      "direction": true,
+      "textRoute": true,
+      "sourceIds": [
+        "web",
+        "yale-patriarchs",
+        "trade"
+      ]
+    },
+    {
+      "id": "genesis-14-journey",
+      "title": "Lot rescued",
+      "points": [
+        [
+          33.249,
+          35.652
+        ],
+        [
+          33.514,
+          36.277
+        ]
+      ],
+      "chapter": 14,
+      "verse": 1,
+      "summary": "Abram rescues Lot after a battle. Melchizedek blesses Abram.",
+      "detail": "Abram rejects wealth from Sodom. Melchizedek connects blessing with worship of God.",
+      "uncertainty": "Text names these locations in the journey. Connecting lines are approximate.",
+      "evidence": "Text names these locations in the journey. Connecting lines are approximate.",
+      "kind": "journey",
+      "direction": true,
+      "textRoute": true,
+      "sourceIds": [
+        "web",
+        "yale-patriarchs",
+        "trade"
+      ]
+    },
+    {
+      "id": "genesis-19-journey",
+      "title": "Sodom and Lot's escape",
+      "points": [
+        [
+          31.2,
+          35.5
+        ],
+        [
+          31.0,
+          35.5
+        ]
+      ],
+      "chapter": 19,
+      "verse": 1,
+      "summary": "Lot hosts visitors. A violent crowd threatens them. Lot's household escapes Sodom.",
+      "detail": "The account condemns violence and abuse of guests. Escape does not end the household's troubles.",
+      "uncertainty": "Text names these locations in the journey. Connecting lines are approximate.",
+      "evidence": "Text names these locations in the journey. Connecting lines are approximate.",
+      "kind": "journey",
+      "direction": true,
+      "textRoute": true,
+      "sourceIds": [
+        "web",
+        "yale-patriarchs",
+        "trade"
+      ]
+    },
+    {
+      "id": "genesis-22-journey",
+      "title": "The binding of Isaac",
+      "points": [
+        [
+          31.245,
+          34.84
+        ],
+        [
+          31.778,
+          35.235
+        ]
+      ],
+      "chapter": 22,
+      "verse": 1,
+      "summary": "God tests Abraham. A messenger stops the sacrifice. A ram takes Isaac's place.",
+      "detail": "The narrative presents trust under severe strain. God stops the killing of Isaac.",
+      "uncertainty": "Text names these locations in the journey. Connecting lines are approximate.",
+      "evidence": "Text names these locations in the journey. Connecting lines are approximate.",
+      "kind": "journey",
+      "direction": true,
+      "textRoute": true,
+      "sourceIds": [
+        "web",
+        "yale-patriarchs",
+        "trade"
+      ]
+    },
+    {
+      "id": "genesis-24-journey",
+      "title": "Rebekah meets Isaac",
+      "points": [
+        [
+          36.865,
+          39.032
+        ],
+        [
+          30.8,
+          34.8
+        ]
+      ],
+      "chapter": 24,
+      "verse": 1,
+      "summary": "Abraham's servant seeks a wife for Isaac. Rebekah agrees to travel.",
+      "detail": "Rebekah shows care through action. Her consent matters in the journey to Isaac.",
+      "uncertainty": "Text names these locations in the journey. Connecting lines are approximate.",
+      "evidence": "Text names these locations in the journey. Connecting lines are approximate.",
+      "kind": "journey",
+      "direction": true,
+      "textRoute": true,
+      "sourceIds": [
+        "web",
+        "yale-patriarchs",
+        "trade"
+      ]
+    },
+    {
+      "id": "genesis-28-journey",
+      "title": "Jacob's dream at Bethel",
+      "points": [
+        [
+          31.245,
+          34.84
+        ],
+        [
+          31.929,
+          35.238
+        ],
+        [
+          36.865,
+          39.032
+        ]
+      ],
+      "chapter": 28,
+      "verse": 1,
+      "summary": "Jacob leaves for Haran. At Bethel he dreams of a stairway reaching heaven.",
+      "detail": "God meets Jacob during his flight. Jacob responds with a vow.",
+      "uncertainty": "Text names these locations in the journey. Connecting lines are approximate.",
+      "evidence": "Text names these locations in the journey. Connecting lines are approximate.",
+      "kind": "journey",
+      "direction": true,
+      "textRoute": true,
+      "sourceIds": [
+        "web",
+        "yale-patriarchs",
+        "trade"
+      ]
+    },
+    {
+      "id": "genesis-31-journey",
+      "title": "Jacob leaves Laban",
+      "points": [
+        [
+          36.865,
+          39.032
+        ],
+        [
+          32.2,
+          35.85
+        ]
+      ],
+      "chapter": 31,
+      "verse": 1,
+      "summary": "Jacob's household leaves Haran. Laban pursues them. They make an agreement.",
+      "detail": "The household seeks freedom from Laban's control. A boundary helps end their dispute.",
+      "uncertainty": "Text names these locations in the journey. Connecting lines are approximate.",
+      "evidence": "Text names these locations in the journey. Connecting lines are approximate.",
+      "kind": "journey",
+      "direction": true,
+      "textRoute": true,
+      "sourceIds": [
+        "web",
+        "yale-patriarchs",
+        "trade"
+      ]
+    },
+    {
+      "id": "genesis-33-journey",
+      "title": "Jacob and Esau meet",
+      "points": [
+        [
+          32.184,
+          35.702
+        ],
+        [
+          32.18,
+          35.62
+        ],
+        [
+          32.213,
+          35.282
+        ]
+      ],
+      "chapter": 33,
+      "verse": 1,
+      "summary": "Esau embraces Jacob. Jacob settles near Shechem.",
+      "detail": "The meeting interrupts expected revenge. Gifts and humility support renewed peace.",
+      "uncertainty": "Text names these locations in the journey. Connecting lines are approximate.",
+      "evidence": "Text names these locations in the journey. Connecting lines are approximate.",
+      "kind": "journey",
+      "direction": true,
+      "textRoute": true,
+      "sourceIds": [
+        "web",
+        "yale-patriarchs",
+        "trade"
+      ]
+    },
+    {
+      "id": "genesis-35-journey",
+      "title": "Return to Bethel",
+      "points": [
+        [
+          31.929,
+          35.238
+        ],
+        [
+          31.705,
+          35.202
+        ],
+        [
+          31.532,
+          35.1
+        ]
+      ],
+      "chapter": 35,
+      "verse": 1,
+      "summary": "Jacob returns to Bethel. Rachel dies near Bethlehem. Isaac dies.",
+      "detail": "Worship, birth, and death shape the family's return. The promise continues through grief.",
+      "uncertainty": "Text names these locations in the journey. Connecting lines are approximate.",
+      "evidence": "Text names these locations in the journey. Connecting lines are approximate.",
+      "kind": "journey",
+      "direction": true,
+      "textRoute": true,
+      "sourceIds": [
+        "web",
+        "yale-patriarchs",
+        "trade"
+      ]
+    },
+    {
+      "id": "genesis-37-journey",
+      "title": "Joseph sold",
+      "points": [
+        [
+          31.532,
+          35.1
+        ],
+        [
+          32.213,
+          35.282
+        ],
+        [
+          32.413,
+          35.238
+        ],
+        [
+          30.1,
+          31.2
+        ]
+      ],
+      "chapter": 37,
+      "verse": 1,
+      "summary": "Joseph's brothers sell him. Traders take him to Egypt. Jacob mourns.",
+      "detail": "Favoritism and jealousy fracture the family. Joseph's loss begins the journey toward Egypt.",
+      "uncertainty": "Text names these locations in the journey. Connecting lines are approximate.",
+      "evidence": "Text names these locations in the journey. Connecting lines are approximate.",
+      "kind": "journey",
+      "direction": true,
+      "textRoute": true,
+      "sourceIds": [
+        "web",
+        "yale-ancestors",
+        "trade",
+        "egypt"
+      ]
+    },
+    {
+      "id": "genesis-43-journey",
+      "title": "Benjamin goes to Egypt",
+      "points": [
+        [
+          32.0,
+          35.15
+        ],
+        [
+          30.1,
+          31.2
+        ]
+      ],
+      "chapter": 43,
+      "verse": 1,
+      "summary": "Judah pledges Benjamin's safety. The brothers return. Joseph hosts a meal.",
+      "detail": "Judah accepts responsibility for another brother. Joseph's hidden identity creates hope and fear.",
+      "uncertainty": "Text names these locations in the journey. Connecting lines are approximate.",
+      "evidence": "Text names these locations in the journey. Connecting lines are approximate.",
+      "kind": "journey",
+      "direction": true,
+      "textRoute": true,
+      "sourceIds": [
+        "web",
+        "yale-ancestors",
+        "trade",
+        "egypt"
+      ]
+    },
+    {
+      "id": "genesis-46-journey",
+      "title": "Jacob goes to Egypt",
+      "points": [
+        [
+          31.245,
+          34.84
+        ],
+        [
+          30.7,
+          31.8
+        ]
+      ],
+      "chapter": 46,
+      "verse": 1,
+      "summary": "God reassures Jacob at Beersheba. Jacob's family enters Egypt. Joseph meets his father.",
+      "detail": "Migration preserves the family during famine. God's promise accompanies them beyond Canaan.",
+      "uncertainty": "Text names these locations in the journey. Connecting lines are approximate.",
+      "evidence": "Text names these locations in the journey. Connecting lines are approximate.",
+      "kind": "journey",
+      "direction": true,
+      "textRoute": true,
+      "sourceIds": [
+        "web",
+        "yale-ancestors",
+        "trade",
+        "egypt"
+      ]
+    },
+    {
+      "id": "genesis-50-journey",
+      "title": "Burial and forgiveness",
+      "points": [
+        [
+          30.1,
+          31.2
+        ],
+        [
+          31.532,
+          35.1
+        ]
+      ],
+      "chapter": 50,
+      "verse": 1,
+      "summary": "Joseph buries Jacob in Canaan. He reassures his brothers. Joseph later dies in Egypt.",
+      "detail": "Forgiveness does not deny the brothers' evil. Joseph's burial request points toward a future return.",
+      "uncertainty": "Text names these locations in the journey. Connecting lines are approximate.",
+      "evidence": "Text names these locations in the journey. Connecting lines are approximate.",
+      "kind": "journey",
+      "direction": true,
+      "textRoute": true,
+      "sourceIds": [
+        "web",
+        "yale-ancestors",
+        "trade",
+        "egypt"
+      ]
+    }
+  ],
+  "narrativeRegions": [],
+  "chapterStudies": []
+}

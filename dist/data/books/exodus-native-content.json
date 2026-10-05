@@ -1,0 +1,3551 @@
+{
+  "sources": [
+    {
+      "id": "web",
+      "title": "Exodus — World English Bible",
+      "url": "https://ebible.org/engwebp/EXO01.htm",
+      "summary": "The public-domain reading text supplies all 40 chapters.",
+      "category": "Scripture",
+      "perspective": "historical",
+      "limits": "The reading text narrates events. It does not independently confirm their historical dates.",
+      "type": "Scripture",
+      "limitations": "The reading text narrates events. It does not independently confirm their historical dates.",
+      "license": "Public domain"
+    },
+    {
+      "id": "atlas",
+      "title": "Bible Maps: The World of the Old Testament",
+      "perspective": "historical",
+      "category": "Geography",
+      "url": "https://www.churchofjesuschrist.org/study/scriptures/bible-maps/map-9?lang=eng",
+      "summary": "This Church-published atlas locates the wider setting and marks some disputed places.",
+      "limits": "Use the geographic labels as context. The linked atlas also includes LDS commentary.",
+      "type": "Geography",
+      "limitations": "Use the geographic labels as context. The linked atlas also includes LDS commentary.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "atlas-canaan",
+      "title": "Bible Maps: Canaan in Old Testament Times",
+      "perspective": "historical",
+      "category": "Geography",
+      "url": "https://www.churchofjesuschrist.org/study/scriptures/bible-maps/map-10?lang=eng",
+      "summary": "This Church-published atlas identifies towns and regions in Canaan.",
+      "limits": "Coordinates are display estimates. A town marker does not verify each Genesis event.",
+      "type": "Geography",
+      "limitations": "Coordinates are display estimates. A town marker does not verify each Genesis event.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "terrain",
+      "title": "Mapzen / Tilezen terrain and Natural Earth geography",
+      "perspective": "historical",
+      "category": "Geography",
+      "url": "https://registry.opendata.aws/terrain-tiles/",
+      "summary": "Cached terrain shows modern elevation. Natural Earth supplies the land and water outlines.",
+      "limits": "Modern terrain is a geographic aid. It does not reconstruct ancient shorelines or settlements.",
+      "type": "Geography",
+      "limitations": "Modern terrain is a geographic aid. It does not reconstruct ancient shorelines or settlements.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "atlas-exodus",
+      "title": "Bible Maps: Israel’s Exodus from Egypt and Entry into Canaan",
+      "url": "https://www.churchofjesuschrist.org/study/scriptures/bible-maps/map-2?lang=eng",
+      "summary": "The Church-published map marks a traditional route and several uncertain sites.",
+      "category": "Geography",
+      "perspective": "historical",
+      "limits": "The displayed route is a study tradition. It does not establish a verified sea crossing or Sinai site.",
+      "type": "Geography",
+      "limitations": "The displayed route is a study tradition. It does not establish a verified sea crossing or Sinai site.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "yale-7",
+      "title": "Israel in Egypt: Moses and the Beginning of Yahwism — Open Yale Courses",
+      "url": "https://oyc.yale.edu/religious-studies/rlst-145/lecture-7",
+      "summary": "Christine Hayes studies the transition from Joseph to Moses and the limits of external evidence.",
+      "category": "Scholarly study",
+      "perspective": "historical",
+      "limits": "Academic interpretation remains separate from LDS teaching. Scholars debate dating and composition.",
+      "type": "Scholarly study",
+      "limitations": "Academic interpretation remains separate from LDS teaching. Scholars debate dating and composition.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "yale-8",
+      "title": "Exodus: From Egypt to Sinai — Open Yale Courses",
+      "url": "https://oyc.yale.edu/religious-studies/rlst-145/lecture-8",
+      "summary": "Christine Hayes studies deliverance, covenant, and the literary shape of Exodus.",
+      "category": "Scholarly study",
+      "perspective": "historical",
+      "limits": "Academic interpretation remains separate from LDS teaching. Scholars debate dating and composition.",
+      "type": "Scholarly study",
+      "limitations": "Academic interpretation remains separate from LDS teaching. Scholars debate dating and composition.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "yale-9",
+      "title": "The Priestly Legacy — Open Yale Courses",
+      "url": "https://oyc.yale.edu/religious-studies/rlst-145/lecture-9",
+      "summary": "Christine Hayes examines priestly worship, sacrifice, purity, and sacred space.",
+      "category": "Scholarly study",
+      "perspective": "historical",
+      "limits": "Academic interpretation remains separate from LDS teaching. Scholars debate dating and composition.",
+      "type": "Scholarly study",
+      "limitations": "Academic interpretation remains separate from LDS teaching. Scholars debate dating and composition.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "yale-10",
+      "title": "Biblical Law — Open Yale Courses",
+      "url": "https://oyc.yale.edu/religious-studies/rlst-145/lecture-10",
+      "summary": "Christine Hayes compares biblical law with ancient legal traditions.",
+      "category": "Scholarly study",
+      "perspective": "historical",
+      "limits": "Academic interpretation remains separate from LDS teaching. Scholars debate dating and composition.",
+      "type": "Scholarly study",
+      "limitations": "Academic interpretation remains separate from LDS teaching. Scholars debate dating and composition.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "lds-call",
+      "title": "Exodus 1–10: Let My People Go",
+      "url": "https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/exodus-1-10-let-my-people-go?lang=eng",
+      "summary": "Church study notes discuss this passage range through LDS teachings.",
+      "category": "LDS study manual",
+      "perspective": "lds",
+      "limits": "This older manual includes commentary. Its explanations are not independent archaeological evidence.",
+      "type": "LDS study",
+      "limitations": "This older manual includes commentary. Its explanations are not independent archaeological evidence.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "lds-deliverance",
+      "title": "Exodus 11–19: The Passover and the Exodus",
+      "url": "https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/exodus-11-19-the-passover-and-the-exodus?lang=eng",
+      "summary": "Church study notes discuss this passage range through LDS teachings.",
+      "category": "LDS study manual",
+      "perspective": "lds",
+      "limits": "This older manual includes commentary. Its explanations are not independent archaeological evidence.",
+      "type": "LDS study",
+      "limitations": "This older manual includes commentary. Its explanations are not independent archaeological evidence.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "lds-commandments",
+      "title": "Exodus 20: The Ten Commandments",
+      "url": "https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/exodus-20-the-ten-commandments?lang=eng",
+      "summary": "Church study notes discuss this passage range through LDS teachings.",
+      "category": "LDS study manual",
+      "perspective": "lds",
+      "limits": "This older manual includes commentary. Its explanations are not independent archaeological evidence.",
+      "type": "LDS study",
+      "limitations": "This older manual includes commentary. Its explanations are not independent archaeological evidence.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "lds-law",
+      "title": "Exodus 21–24; 31–35: The Mosaic Law: A Preparatory Gospel",
+      "url": "https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/exodus-21-24-31-35-the-mosaic-law-a-preparatory-gospel?lang=eng",
+      "summary": "Church study notes discuss this passage range through LDS teachings.",
+      "category": "LDS study manual",
+      "perspective": "lds",
+      "limits": "This older manual includes commentary. Its explanations are not independent archaeological evidence.",
+      "type": "LDS study",
+      "limitations": "This older manual includes commentary. Its explanations are not independent archaeological evidence.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "lds-sanctuary",
+      "title": "Exodus 25–30; 35–40: The House of the Lord in the Wilderness",
+      "url": "https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/exodus-25-30-35-40-the-house-of-the-lord-in-the-wilderness?lang=eng",
+      "summary": "Church study notes discuss this passage range through LDS teachings.",
+      "category": "LDS study manual",
+      "perspective": "lds",
+      "limits": "This older manual includes commentary. Its explanations are not independent archaeological evidence.",
+      "type": "LDS study",
+      "limitations": "This older manual includes commentary. Its explanations are not independent archaeological evidence.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "moses-1",
+      "title": "Moses 1",
+      "url": "https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/1?lang=eng",
+      "summary": "This LDS scripture provides a related Restoration reading.",
+      "category": "LDS scripture",
+      "perspective": "lds",
+      "limits": "Keep this later scripture distinct from Exodus’s own words.",
+      "type": "LDS study",
+      "limitations": "Keep this later scripture distinct from Exodus’s own words.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "nephi-17",
+      "title": "1 Nephi 17",
+      "url": "https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/17?lang=eng",
+      "summary": "This LDS scripture provides a related Restoration reading.",
+      "category": "LDS scripture",
+      "perspective": "lds",
+      "limits": "Keep this later scripture distinct from Exodus’s own words.",
+      "type": "LDS study",
+      "limitations": "Keep this later scripture distinct from Exodus’s own words.",
+      "license": "Linked source. Original guide summaries."
+    }
+  ],
+  "passages": [
+    {
+      "id": "exodus-1",
+      "chapter": 1,
+      "start": 1,
+      "end": 22,
+      "title": "Oppression and the midwives",
+      "summary": "A new king enslaves Israel. Shiphrah and Puah refuse his order to kill boys. The ruler fears a growing people. The midwives protect life against his command.",
+      "year": null,
+      "dateLabel": "Narrative order · historical year debated",
+      "uncertainty": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "placeIds": [
+        "egypt",
+        "rameses",
+        "pithom"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-7",
+        "atlas-exodus"
+      ],
+      "lds": {
+        "text": "Consider how reverence for God can require resistance to cruelty.",
+        "sourceIds": [
+          "lds-call"
+        ]
+      }
+    },
+    {
+      "id": "exodus-2",
+      "chapter": 2,
+      "start": 1,
+      "end": 25,
+      "title": "Moses preserved and exiled",
+      "summary": "Moses's mother hides him. Pharaoh's daughter adopts him. He later kills an Egyptian and flees. Several women preserve a vulnerable child. Moses's later violence leads to exile.",
+      "year": null,
+      "dateLabel": "Narrative order · historical year debated",
+      "uncertainty": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "placeIds": [
+        "egypt",
+        "midian"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-7",
+        "atlas-exodus"
+      ],
+      "lds": {
+        "text": "Moses 1 expands Moses's later encounter with God. Keep that account distinct from his childhood.",
+        "sourceIds": [
+          "lds-call",
+          "moses-1"
+        ]
+      }
+    },
+    {
+      "id": "exodus-3",
+      "chapter": 3,
+      "start": 1,
+      "end": 22,
+      "title": "The burning bush",
+      "summary": "God calls Moses at Horeb. Moses must confront Pharaoh and lead Israel out. God hears the people's suffering. Moses questions his ability to carry the task.",
+      "year": null,
+      "dateLabel": "Narrative order · historical year debated",
+      "uncertainty": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "placeIds": [
+        "horeb",
+        "midian"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-7",
+        "atlas-exodus"
+      ],
+      "lds": {
+        "text": "The Church manual reads Moses's call as preparation for prophetic service.",
+        "sourceIds": [
+          "lds-call"
+        ]
+      }
+    },
+    {
+      "id": "exodus-4",
+      "chapter": 4,
+      "start": 1,
+      "end": 31,
+      "title": "Moses returns",
+      "summary": "God gives Moses signs. Aaron joins him. Zipporah acts during a dangerous encounter. Moses voices his limits. Shared service and action carry the mission forward.",
+      "year": null,
+      "dateLabel": "Narrative order · historical year debated",
+      "uncertainty": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "placeIds": [
+        "midian",
+        "egypt"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-7",
+        "atlas-exodus"
+      ],
+      "lds": {
+        "text": "Consider how help from others can accompany an assignment from God.",
+        "sourceIds": [
+          "lds-call"
+        ]
+      }
+    },
+    {
+      "id": "exodus-5",
+      "chapter": 5,
+      "start": 1,
+      "end": 23,
+      "title": "Pharaoh increases the burden",
+      "summary": "Moses and Aaron ask for release. Pharaoh withholds straw but demands the same brick count. The first appeal brings worse conditions. The people question Moses's promise of deliverance.",
+      "year": null,
+      "dateLabel": "Narrative order · historical year debated",
+      "uncertainty": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "placeIds": [
+        "egypt"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-8",
+        "atlas-exodus"
+      ],
+      "lds": {
+        "text": "Consider the strain of trusting a promise when conditions first become worse.",
+        "sourceIds": [
+          "lds-call"
+        ]
+      }
+    },
+    {
+      "id": "exodus-6",
+      "chapter": 6,
+      "start": 1,
+      "end": 30,
+      "title": "God renews the promise",
+      "summary": "God promises deliverance and covenant belonging. A family record identifies Moses and Aaron. Oppression makes the people unable to hear hope. God still names their promised future.",
+      "year": null,
+      "dateLabel": "Narrative order · historical year debated",
+      "uncertainty": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "placeIds": [
+        "egypt"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-8",
+        "atlas-exodus"
+      ],
+      "lds": {
+        "text": "The covenant promise includes belonging to God. Consider hope without blaming those exhausted by suffering.",
+        "sourceIds": [
+          "lds-call"
+        ]
+      }
+    },
+    {
+      "id": "exodus-7",
+      "chapter": 7,
+      "start": 1,
+      "end": 25,
+      "title": "Staff and river",
+      "summary": "Aaron's staff becomes a serpent. The Nile's water turns to blood. The struggle reaches Egypt's source of life. Pharaoh continues to refuse release.",
+      "year": null,
+      "dateLabel": "Narrative order · historical year debated",
+      "uncertainty": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "placeIds": [
+        "egypt"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-8",
+        "atlas-exodus"
+      ],
+      "lds": {
+        "text": "Consider the effects of a ruler's refusal on the people under his power.",
+        "sourceIds": [
+          "lds-call"
+        ]
+      }
+    },
+    {
+      "id": "exodus-8",
+      "chapter": 8,
+      "start": 1,
+      "end": 32,
+      "title": "Frogs, lice, and flies",
+      "summary": "Three plagues strike Egypt. Pharaoh promises relief and then changes his decision. Words given under pressure do not become lasting action. The conflict continues.",
+      "year": null,
+      "dateLabel": "Narrative order · historical year debated",
+      "uncertainty": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "placeIds": [
+        "egypt",
+        "goshen"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-8",
+        "atlas-exodus"
+      ],
+      "lds": {
+        "text": "Consider whether your promises remain firm when immediate pressure ends.",
+        "sourceIds": [
+          "lds-call"
+        ]
+      }
+    },
+    {
+      "id": "exodus-9",
+      "chapter": 9,
+      "start": 1,
+      "end": 35,
+      "title": "Livestock, boils, and hail",
+      "summary": "Further plagues affect animals and people. Some Egyptians heed the warning about hail. The warnings leave room for response. Pharaoh's admission of guilt does not produce lasting change.",
+      "year": null,
+      "dateLabel": "Narrative order · historical year debated",
+      "uncertainty": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "placeIds": [
+        "egypt",
+        "goshen"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-8",
+        "atlas-exodus"
+      ],
+      "lds": {
+        "text": "Consider how repentance differs from a statement made only to end pain.",
+        "sourceIds": [
+          "lds-call"
+        ]
+      }
+    },
+    {
+      "id": "exodus-10",
+      "chapter": 10,
+      "start": 1,
+      "end": 29,
+      "title": "Locusts and darkness",
+      "summary": "Pharaoh rejects full release. Locusts consume crops. Darkness covers Egypt. Partial offers keep the people under Pharaoh's control. The dispute concerns genuine freedom to worship.",
+      "year": null,
+      "dateLabel": "Narrative order · historical year debated",
+      "uncertainty": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "placeIds": [
+        "egypt"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-8",
+        "atlas-exodus"
+      ],
+      "lds": {
+        "text": "Consider how worship can require more than a restricted permission from a ruler.",
+        "sourceIds": [
+          "lds-call"
+        ]
+      }
+    },
+    {
+      "id": "exodus-11",
+      "chapter": 11,
+      "start": 1,
+      "end": 10,
+      "title": "The final plague announced",
+      "summary": "Moses announces the death of the firstborn. Pharaoh still refuses release. The warning brings the conflict to a terrible cost. The account includes suffering beyond the ruler.",
+      "year": null,
+      "dateLabel": "Narrative order · historical year debated",
+      "uncertainty": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "placeIds": [
+        "egypt"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-8",
+        "atlas-exodus"
+      ],
+      "lds": {
+        "text": "Read the promised deliverance alongside the human cost within the narrative.",
+        "sourceIds": [
+          "lds-deliverance"
+        ]
+      }
+    },
+    {
+      "id": "exodus-12",
+      "chapter": 12,
+      "start": 1,
+      "end": 51,
+      "title": "Passover and departure",
+      "summary": "Israel keeps Passover. The firstborn die. Pharaoh releases the people. They leave Rameses. The meal becomes a lasting act of memory. Deliverance also carries grief through Egypt.",
+      "year": null,
+      "dateLabel": "Narrative order · historical year debated",
+      "uncertainty": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "placeIds": [
+        "rameses",
+        "succoth"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-8",
+        "atlas-exodus"
+      ],
+      "lds": {
+        "text": "The Church manual connects the Passover lamb with Jesus Christ. Study the sign and the remembered deliverance.",
+        "sourceIds": [
+          "lds-deliverance"
+        ]
+      }
+    },
+    {
+      "id": "exodus-13",
+      "chapter": 13,
+      "start": 1,
+      "end": 22,
+      "title": "Remembering and the pillars",
+      "summary": "God commands remembrance of the firstborn and unleavened bread. Cloud and fire lead the people. Memory takes the form of household teaching. The chosen route avoids an immediate return through fear.",
+      "year": null,
+      "dateLabel": "Narrative order · historical year debated",
+      "uncertainty": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "placeIds": [
+        "succoth",
+        "etham"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-8",
+        "atlas-exodus"
+      ],
+      "lds": {
+        "text": "Consider how repeated worship can teach children about God's deliverance.",
+        "sourceIds": [
+          "lds-deliverance"
+        ]
+      }
+    },
+    {
+      "id": "exodus-14",
+      "chapter": 14,
+      "start": 1,
+      "end": 31,
+      "title": "The sea crossing",
+      "summary": "Pharaoh pursues Israel. Moses stretches out his hand. Israel crosses and the army is overwhelmed. The narrative places fear beside deliverance. The precise crossing site remains unknown.",
+      "year": null,
+      "dateLabel": "Narrative order · historical year debated",
+      "uncertainty": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "placeIds": [
+        "sea-region"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-8",
+        "atlas-exodus"
+      ],
+      "lds": {
+        "text": "First Nephi 17 recalls this deliverance. Keep that later teaching distinct from the crossing narrative.",
+        "sourceIds": [
+          "lds-deliverance",
+          "nephi-17"
+        ]
+      }
+    },
+    {
+      "id": "exodus-15",
+      "chapter": 15,
+      "start": 1,
+      "end": 27,
+      "title": "Songs and bitter water",
+      "summary": "Moses and Miriam lead songs. The people reach bitter water and then Elim. Praise and need follow each other. The journey still requires water after a great deliverance.",
+      "year": null,
+      "dateLabel": "Narrative order · historical year debated",
+      "uncertainty": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "placeIds": [
+        "marah",
+        "elim"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-8",
+        "atlas-exodus"
+      ],
+      "lds": {
+        "text": "Consider how gratitude and present needs can both appear in a life of faith.",
+        "sourceIds": [
+          "lds-deliverance"
+        ]
+      }
+    },
+    {
+      "id": "exodus-16",
+      "chapter": 16,
+      "start": 1,
+      "end": 36,
+      "title": "Manna and Sabbath",
+      "summary": "God provides manna and quail. The people gather food daily and rest on the Sabbath. Daily provision tests trust. Limits on gathering restrain hoarding and support rest.",
+      "year": null,
+      "dateLabel": "Narrative order · historical year debated",
+      "uncertainty": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "placeIds": [
+        "wilderness-sin"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-8",
+        "atlas-exodus"
+      ],
+      "lds": {
+        "text": "The Church manual connects manna with reliance on God. Consider daily preparation and Sabbath rest.",
+        "sourceIds": [
+          "lds-deliverance"
+        ]
+      }
+    },
+    {
+      "id": "exodus-17",
+      "chapter": 17,
+      "start": 1,
+      "end": 16,
+      "title": "Water and Amalek",
+      "summary": "God provides water at Rephidim. Joshua leads the fight against Amalek while others support Moses. The people need both water and protection. Shared action supports leadership during danger.",
+      "year": null,
+      "dateLabel": "Narrative order · historical year debated",
+      "uncertainty": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "placeIds": [
+        "rephidim"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-8",
+        "atlas-exodus"
+      ],
+      "lds": {
+        "text": "Consider why support for others belongs alongside individual faith.",
+        "sourceIds": [
+          "lds-deliverance"
+        ]
+      }
+    },
+    {
+      "id": "exodus-18",
+      "chapter": 18,
+      "start": 1,
+      "end": 27,
+      "title": "Jethro's counsel",
+      "summary": "Jethro visits Moses. He advises shared responsibility for judging the people's disputes. One leader cannot carry every need alone. Delegation makes judgment more accessible.",
+      "year": null,
+      "dateLabel": "Narrative order · historical year debated",
+      "uncertainty": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "placeIds": [
+        "sinai"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-8",
+        "atlas-exodus"
+      ],
+      "lds": {
+        "text": "Consider how wise counsel can improve service and reduce an unfair burden.",
+        "sourceIds": [
+          "lds-deliverance"
+        ]
+      }
+    },
+    {
+      "id": "exodus-19",
+      "chapter": 19,
+      "start": 1,
+      "end": 25,
+      "title": "At Sinai",
+      "summary": "Israel reaches Sinai. God offers a covenant. The people prepare for God's presence. The covenant joins privilege with responsibility. Preparation marks the encounter as sacred.",
+      "year": null,
+      "dateLabel": "Narrative order · historical year debated",
+      "uncertainty": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "placeIds": [
+        "sinai"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-8",
+        "atlas-exodus"
+      ],
+      "lds": {
+        "text": "The Church manual connects covenant belonging with duties of holiness and service.",
+        "sourceIds": [
+          "lds-deliverance"
+        ]
+      }
+    },
+    {
+      "id": "exodus-20",
+      "chapter": 20,
+      "start": 1,
+      "end": 26,
+      "title": "The Ten Commandments",
+      "summary": "God gives commands about worship and relationships. The people fear the encounter. Freedom receives a moral structure. The commands protect worship, life, family, and trust.",
+      "year": null,
+      "dateLabel": "Narrative order · historical year debated",
+      "uncertainty": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "placeIds": [
+        "sinai"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-8",
+        "atlas-exodus"
+      ],
+      "lds": {
+        "text": "The Church manual studies each command as a continuing guide to faithful conduct.",
+        "sourceIds": [
+          "lds-commandments"
+        ]
+      }
+    },
+    {
+      "id": "exodus-21",
+      "chapter": 21,
+      "start": 1,
+      "end": 36,
+      "title": "Laws about servants and injury",
+      "summary": "The laws address servitude, violence, and responsibility for injury. The laws regulate an unequal ancient society. Regulation does not remove the harm of slavery.",
+      "year": null,
+      "dateLabel": "Narrative order · historical year debated",
+      "uncertainty": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "placeIds": [
+        "sinai"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-10",
+        "atlas-exodus"
+      ],
+      "lds": {
+        "text": "Consider the difference between an ancient legal setting and present moral duties toward people.",
+        "sourceIds": [
+          "lds-law"
+        ]
+      }
+    },
+    {
+      "id": "exodus-22",
+      "chapter": 22,
+      "start": 1,
+      "end": 31,
+      "title": "Property and vulnerable people",
+      "summary": "The laws address theft, damaged property, loans, and care for strangers, widows, and orphans. Justice concerns both property and people with little power. Israel must remember its own experience in Egypt.",
+      "year": null,
+      "dateLabel": "Narrative order · historical year debated",
+      "uncertainty": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "placeIds": [
+        "sinai"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-10",
+        "atlas-exodus"
+      ],
+      "lds": {
+        "text": "Consider how remembering past need can shape care for vulnerable people now.",
+        "sourceIds": [
+          "lds-law"
+        ]
+      }
+    },
+    {
+      "id": "exodus-23",
+      "chapter": 23,
+      "start": 1,
+      "end": 33,
+      "title": "Justice, rest, and festivals",
+      "summary": "God commands honest judgment, rest, and annual feasts. An angel will lead Israel. Worship and justice belong together. The law includes care even toward an enemy's animal.",
+      "year": null,
+      "dateLabel": "Narrative order · historical year debated",
+      "uncertainty": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "placeIds": [
+        "sinai"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-10",
+        "atlas-exodus"
+      ],
+      "lds": {
+        "text": "Consider whether your worship also changes your judgment and treatment of others.",
+        "sourceIds": [
+          "lds-law"
+        ]
+      }
+    },
+    {
+      "id": "exodus-24",
+      "chapter": 24,
+      "start": 1,
+      "end": 18,
+      "title": "The covenant confirmed",
+      "summary": "Moses reads the covenant terms. Israel accepts them. Moses ascends the mountain. The people hear before they commit. A shared meal and sacred signs mark belonging.",
+      "year": null,
+      "dateLabel": "Narrative order · historical year debated",
+      "uncertainty": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "placeIds": [
+        "sinai"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-10",
+        "atlas-exodus"
+      ],
+      "lds": {
+        "text": "A covenant includes an informed promise. Consider the duties that follow your agreement with God.",
+        "sourceIds": [
+          "lds-law"
+        ]
+      }
+    },
+    {
+      "id": "exodus-25",
+      "chapter": 25,
+      "start": 1,
+      "end": 40,
+      "title": "The ark, table, and lampstand",
+      "summary": "God gives plans for a sanctuary and its furnishings. The sanctuary centers on God's presence among the people. Material gifts support a sacred purpose.",
+      "year": null,
+      "dateLabel": "Narrative order · historical year debated",
+      "uncertainty": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "placeIds": [
+        "sinai"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-9",
+        "atlas-exodus"
+      ],
+      "lds": {
+        "text": "The Church manual connects the tabernacle with worship and God's presence among His people.",
+        "sourceIds": [
+          "lds-sanctuary"
+        ]
+      }
+    },
+    {
+      "id": "exodus-26",
+      "chapter": 26,
+      "start": 1,
+      "end": 37,
+      "title": "The tabernacle structure",
+      "summary": "God specifies curtains, frames, coverings, and the inner veil. The design marks distinct sacred spaces. Careful construction gives form to the worship setting.",
+      "year": null,
+      "dateLabel": "Narrative order · historical year debated",
+      "uncertainty": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "placeIds": [
+        "sinai"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-9",
+        "atlas-exodus"
+      ],
+      "lds": {
+        "text": "Consider how a prepared space can support reverence without replacing faithful conduct.",
+        "sourceIds": [
+          "lds-sanctuary"
+        ]
+      }
+    },
+    {
+      "id": "exodus-27",
+      "chapter": 27,
+      "start": 1,
+      "end": 21,
+      "title": "Altar, court, and light",
+      "summary": "God gives plans for the altar, courtyard, and daily lamp oil. The outer space supports offerings and access. Continuing light requires repeated care.",
+      "year": null,
+      "dateLabel": "Narrative order · historical year debated",
+      "uncertainty": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "placeIds": [
+        "sinai"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-9",
+        "atlas-exodus"
+      ],
+      "lds": {
+        "text": "Consider the repeated work that sustains a place of worship.",
+        "sourceIds": [
+          "lds-sanctuary"
+        ]
+      }
+    },
+    {
+      "id": "exodus-28",
+      "chapter": 28,
+      "start": 1,
+      "end": 43,
+      "title": "The priests' clothing",
+      "summary": "God directs the making of Aaron's garments and the breastpiece bearing Israel's names. The priest represents the people in worship. Sacred service carries names rather than only status.",
+      "year": null,
+      "dateLabel": "Narrative order · historical year debated",
+      "uncertainty": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "placeIds": [
+        "sinai"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-9",
+        "atlas-exodus"
+      ],
+      "lds": {
+        "text": "Consider what it means to carry other people's needs within sacred service.",
+        "sourceIds": [
+          "lds-sanctuary"
+        ]
+      }
+    },
+    {
+      "id": "exodus-29",
+      "chapter": 29,
+      "start": 1,
+      "end": 46,
+      "title": "Consecrating the priests",
+      "summary": "God gives instructions to appoint priests and make daily offerings. Consecration sets people apart for service. The chapter's purpose is God's dwelling among Israel.",
+      "year": null,
+      "dateLabel": "Narrative order · historical year debated",
+      "uncertainty": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "placeIds": [
+        "sinai"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-9",
+        "atlas-exodus"
+      ],
+      "lds": {
+        "text": "The Church manual studies preparation for sacred service. Consider the duties beyond a title.",
+        "sourceIds": [
+          "lds-sanctuary"
+        ]
+      }
+    },
+    {
+      "id": "exodus-30",
+      "chapter": 30,
+      "start": 1,
+      "end": 38,
+      "title": "Incense, washing, and sacred oil",
+      "summary": "God gives instructions for incense, washing, the census payment, and sacred oil. These repeated acts order worship and preparation. Sacred materials have a defined purpose.",
+      "year": null,
+      "dateLabel": "Narrative order · historical year debated",
+      "uncertainty": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "placeIds": [
+        "sinai"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-9",
+        "atlas-exodus"
+      ],
+      "lds": {
+        "text": "Consider how preparation can support worship without becoming only an outward routine.",
+        "sourceIds": [
+          "lds-sanctuary"
+        ]
+      }
+    },
+    {
+      "id": "exodus-31",
+      "chapter": 31,
+      "start": 1,
+      "end": 18,
+      "title": "Skilled workers and Sabbath",
+      "summary": "God appoints Bezalel and Oholiab. The Sabbath remains a covenant sign. Moses receives tablets. Skilled labor serves worship. Even sacred construction does not erase the command to rest.",
+      "year": null,
+      "dateLabel": "Narrative order · historical year debated",
+      "uncertainty": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "placeIds": [
+        "sinai"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-9",
+        "atlas-exodus"
+      ],
+      "lds": {
+        "text": "Consider how creative skill and Sabbath observance can both serve God.",
+        "sourceIds": [
+          "lds-law"
+        ]
+      }
+    },
+    {
+      "id": "exodus-32",
+      "chapter": 32,
+      "start": 1,
+      "end": 35,
+      "title": "The golden calf",
+      "summary": "Aaron makes the calf. Moses intercedes, breaks the tablets, and confronts the camp. The covenant breaks almost immediately. The account includes both intercession and severe judgment.",
+      "year": null,
+      "dateLabel": "Narrative order · historical year debated",
+      "uncertainty": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "placeIds": [
+        "sinai"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-8",
+        "atlas-exodus"
+      ],
+      "lds": {
+        "text": "Consider how quick substitutes for trust can damage a covenant relationship.",
+        "sourceIds": [
+          "lds-law"
+        ]
+      }
+    },
+    {
+      "id": "exodus-33",
+      "chapter": 33,
+      "start": 1,
+      "end": 23,
+      "title": "Moses seeks God's presence",
+      "summary": "Moses meets with God outside the camp. He asks for guidance and God's continuing presence. Restoration concerns more than reaching a destination. Moses seeks the presence that gives the journey meaning.",
+      "year": null,
+      "dateLabel": "Narrative order · historical year debated",
+      "uncertainty": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "placeIds": [
+        "sinai"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-9",
+        "atlas-exodus"
+      ],
+      "lds": {
+        "text": "Consider whether your requests seek God's companionship as well as a desired outcome.",
+        "sourceIds": [
+          "lds-law"
+        ]
+      }
+    },
+    {
+      "id": "exodus-34",
+      "chapter": 34,
+      "start": 1,
+      "end": 35,
+      "title": "The covenant renewed",
+      "summary": "God declares mercy and justice. New tablets are given. Moses returns with a shining face. Renewal follows covenant failure. Mercy does not make responsibility disappear.",
+      "year": null,
+      "dateLabel": "Narrative order · historical year debated",
+      "uncertainty": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "placeIds": [
+        "sinai"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-9",
+        "atlas-exodus"
+      ],
+      "lds": {
+        "text": "The Church manual reads renewal alongside repentance. Consider mercy with continuing responsibility.",
+        "sourceIds": [
+          "lds-law"
+        ]
+      }
+    },
+    {
+      "id": "exodus-35",
+      "chapter": 35,
+      "start": 1,
+      "end": 35,
+      "title": "Gifts and willing work",
+      "summary": "Moses teaches Sabbath rest. The people bring materials. Skilled workers begin their tasks. The work uses willing gifts and different skills. Participation reaches beyond a single leader.",
+      "year": null,
+      "dateLabel": "Narrative order · historical year debated",
+      "uncertainty": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "placeIds": [
+        "sinai"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-9",
+        "atlas-exodus"
+      ],
+      "lds": {
+        "text": "Consider how willingness and varied skills can build a worshiping community.",
+        "sourceIds": [
+          "lds-sanctuary"
+        ]
+      }
+    },
+    {
+      "id": "exodus-36",
+      "chapter": 36,
+      "start": 1,
+      "end": 38,
+      "title": "More than enough",
+      "summary": "The gifts exceed the need. The workers build the tabernacle's curtains, frames, and veil. Generosity serves a defined purpose. Leaders stop the collection when enough has been given.",
+      "year": null,
+      "dateLabel": "Narrative order · historical year debated",
+      "uncertainty": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "placeIds": [
+        "sinai"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-9",
+        "atlas-exodus"
+      ],
+      "lds": {
+        "text": "Consider how wise stewardship includes knowing when a collection has met its need.",
+        "sourceIds": [
+          "lds-sanctuary"
+        ]
+      }
+    },
+    {
+      "id": "exodus-37",
+      "chapter": 37,
+      "start": 1,
+      "end": 29,
+      "title": "The furnishings made",
+      "summary": "Bezalel makes the ark, table, lampstand, and incense altar. The workers carry the earlier instructions into action. Repeated detail emphasizes faithful completion.",
+      "year": null,
+      "dateLabel": "Narrative order · historical year debated",
+      "uncertainty": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "placeIds": [
+        "sinai"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-9",
+        "atlas-exodus"
+      ],
+      "lds": {
+        "text": "Consider the place of careful work in fulfilling a sacred responsibility.",
+        "sourceIds": [
+          "lds-sanctuary"
+        ]
+      }
+    },
+    {
+      "id": "exodus-38",
+      "chapter": 38,
+      "start": 1,
+      "end": 31,
+      "title": "Altar, court, and accounts",
+      "summary": "The workers build the outer furnishings. The chapter records the materials used. Sacred work includes public accounting. The record names skilled workers and their responsibilities.",
+      "year": null,
+      "dateLabel": "Narrative order · historical year debated",
+      "uncertainty": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "placeIds": [
+        "sinai"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-9",
+        "atlas-exodus"
+      ],
+      "lds": {
+        "text": "Consider how clear records and accountable service can support trust.",
+        "sourceIds": [
+          "lds-sanctuary"
+        ]
+      }
+    },
+    {
+      "id": "exodus-39",
+      "chapter": 39,
+      "start": 1,
+      "end": 43,
+      "title": "Garments and inspection",
+      "summary": "The workers finish the priests' clothing. Moses inspects the completed work and blesses them. Completion receives review rather than assumption. The blessing follows work done according to the instructions.",
+      "year": null,
+      "dateLabel": "Narrative order · historical year debated",
+      "uncertainty": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "placeIds": [
+        "sinai"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-9",
+        "atlas-exodus"
+      ],
+      "lds": {
+        "text": "Consider how careful review can honor the work of those who serve.",
+        "sourceIds": [
+          "lds-sanctuary"
+        ]
+      }
+    },
+    {
+      "id": "exodus-40",
+      "chapter": 40,
+      "start": 1,
+      "end": 38,
+      "title": "The tabernacle raised",
+      "summary": "Moses sets up the sanctuary. God's glory fills it. Cloud and fire guide later journeys. The book ends with God's presence among a traveling people. Deliverance leads toward worship and continuing guidance.",
+      "year": null,
+      "dateLabel": "Narrative order · historical year debated",
+      "uncertainty": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "placeIds": [
+        "sinai"
+      ],
+      "sourceIds": [
+        "web",
+        "yale-9",
+        "atlas-exodus"
+      ],
+      "lds": {
+        "text": "The Church manual connects the sanctuary with God's presence. Consider worship as part of the journey after deliverance.",
+        "sourceIds": [
+          "lds-sanctuary"
+        ]
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "exodus-1",
+      "chapter": 1,
+      "verse": 1,
+      "eventOrder": 1,
+      "title": "Oppression and the midwives",
+      "summary": "A new king enslaves Israel. Shiphrah and Puah refuse his order to kill boys.",
+      "detail": "The ruler fears a growing people. The midwives protect life against his command.",
+      "dateLabel": "Narrative order · historical year debated",
+      "uncertainty": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "sourceIds": [
+        "web",
+        "yale-7",
+        "atlas-exodus"
+      ],
+      "placeIds": [
+        "egypt",
+        "rameses",
+        "pithom"
+      ],
+      "lds": {
+        "text": "Consider how reverence for God can require resistance to cruelty.",
+        "sourceIds": [
+          "lds-call"
+        ]
+      }
+    },
+    {
+      "id": "exodus-2",
+      "chapter": 2,
+      "verse": 1,
+      "eventOrder": 2,
+      "title": "Moses preserved and exiled",
+      "summary": "Moses's mother hides him. Pharaoh's daughter adopts him. He later kills an Egyptian and flees.",
+      "detail": "Several women preserve a vulnerable child. Moses's later violence leads to exile.",
+      "dateLabel": "Narrative order · historical year debated",
+      "uncertainty": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "sourceIds": [
+        "web",
+        "yale-7",
+        "atlas-exodus"
+      ],
+      "placeIds": [
+        "egypt",
+        "midian"
+      ],
+      "lds": {
+        "text": "Moses 1 expands Moses's later encounter with God. Keep that account distinct from his childhood.",
+        "sourceIds": [
+          "lds-call",
+          "moses-1"
+        ]
+      }
+    },
+    {
+      "id": "exodus-3",
+      "chapter": 3,
+      "verse": 1,
+      "eventOrder": 3,
+      "title": "The burning bush",
+      "summary": "God calls Moses at Horeb. Moses must confront Pharaoh and lead Israel out.",
+      "detail": "God hears the people's suffering. Moses questions his ability to carry the task.",
+      "dateLabel": "Narrative order · historical year debated",
+      "uncertainty": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "sourceIds": [
+        "web",
+        "yale-7",
+        "atlas-exodus"
+      ],
+      "placeIds": [
+        "horeb",
+        "midian"
+      ],
+      "lds": {
+        "text": "The Church manual reads Moses's call as preparation for prophetic service.",
+        "sourceIds": [
+          "lds-call"
+        ]
+      }
+    },
+    {
+      "id": "exodus-4",
+      "chapter": 4,
+      "verse": 1,
+      "eventOrder": 4,
+      "title": "Moses returns",
+      "summary": "God gives Moses signs. Aaron joins him. Zipporah acts during a dangerous encounter.",
+      "detail": "Moses voices his limits. Shared service and action carry the mission forward.",
+      "dateLabel": "Narrative order · historical year debated",
+      "uncertainty": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "sourceIds": [
+        "web",
+        "yale-7",
+        "atlas-exodus"
+      ],
+      "placeIds": [
+        "midian",
+        "egypt"
+      ],
+      "lds": {
+        "text": "Consider how help from others can accompany an assignment from God.",
+        "sourceIds": [
+          "lds-call"
+        ]
+      }
+    },
+    {
+      "id": "exodus-5",
+      "chapter": 5,
+      "verse": 1,
+      "eventOrder": 5,
+      "title": "Pharaoh increases the burden",
+      "summary": "Moses and Aaron ask for release. Pharaoh withholds straw but demands the same brick count.",
+      "detail": "The first appeal brings worse conditions. The people question Moses's promise of deliverance.",
+      "dateLabel": "Narrative order · historical year debated",
+      "uncertainty": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "sourceIds": [
+        "web",
+        "yale-8",
+        "atlas-exodus"
+      ],
+      "placeIds": [
+        "egypt"
+      ],
+      "lds": {
+        "text": "Consider the strain of trusting a promise when conditions first become worse.",
+        "sourceIds": [
+          "lds-call"
+        ]
+      }
+    },
+    {
+      "id": "exodus-6",
+      "chapter": 6,
+      "verse": 1,
+      "eventOrder": 6,
+      "title": "God renews the promise",
+      "summary": "God promises deliverance and covenant belonging. A family record identifies Moses and Aaron.",
+      "detail": "Oppression makes the people unable to hear hope. God still names their promised future.",
+      "dateLabel": "Narrative order · historical year debated",
+      "uncertainty": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "sourceIds": [
+        "web",
+        "yale-8",
+        "atlas-exodus"
+      ],
+      "placeIds": [
+        "egypt"
+      ],
+      "lds": {
+        "text": "The covenant promise includes belonging to God. Consider hope without blaming those exhausted by suffering.",
+        "sourceIds": [
+          "lds-call"
+        ]
+      }
+    },
+    {
+      "id": "exodus-7",
+      "chapter": 7,
+      "verse": 1,
+      "eventOrder": 7,
+      "title": "Staff and river",
+      "summary": "Aaron's staff becomes a serpent. The Nile's water turns to blood.",
+      "detail": "The struggle reaches Egypt's source of life. Pharaoh continues to refuse release.",
+      "dateLabel": "Narrative order · historical year debated",
+      "uncertainty": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "sourceIds": [
+        "web",
+        "yale-8",
+        "atlas-exodus"
+      ],
+      "placeIds": [
+        "egypt"
+      ],
+      "lds": {
+        "text": "Consider the effects of a ruler's refusal on the people under his power.",
+        "sourceIds": [
+          "lds-call"
+        ]
+      }
+    },
+    {
+      "id": "exodus-8",
+      "chapter": 8,
+      "verse": 1,
+      "eventOrder": 8,
+      "title": "Frogs, lice, and flies",
+      "summary": "Three plagues strike Egypt. Pharaoh promises relief and then changes his decision.",
+      "detail": "Words given under pressure do not become lasting action. The conflict continues.",
+      "dateLabel": "Narrative order · historical year debated",
+      "uncertainty": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "sourceIds": [
+        "web",
+        "yale-8",
+        "atlas-exodus"
+      ],
+      "placeIds": [
+        "egypt",
+        "goshen"
+      ],
+      "lds": {
+        "text": "Consider whether your promises remain firm when immediate pressure ends.",
+        "sourceIds": [
+          "lds-call"
+        ]
+      }
+    },
+    {
+      "id": "exodus-9",
+      "chapter": 9,
+      "verse": 1,
+      "eventOrder": 9,
+      "title": "Livestock, boils, and hail",
+      "summary": "Further plagues affect animals and people. Some Egyptians heed the warning about hail.",
+      "detail": "The warnings leave room for response. Pharaoh's admission of guilt does not produce lasting change.",
+      "dateLabel": "Narrative order · historical year debated",
+      "uncertainty": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "sourceIds": [
+        "web",
+        "yale-8",
+        "atlas-exodus"
+      ],
+      "placeIds": [
+        "egypt",
+        "goshen"
+      ],
+      "lds": {
+        "text": "Consider how repentance differs from a statement made only to end pain.",
+        "sourceIds": [
+          "lds-call"
+        ]
+      }
+    },
+    {
+      "id": "exodus-10",
+      "chapter": 10,
+      "verse": 1,
+      "eventOrder": 10,
+      "title": "Locusts and darkness",
+      "summary": "Pharaoh rejects full release. Locusts consume crops. Darkness covers Egypt.",
+      "detail": "Partial offers keep the people under Pharaoh's control. The dispute concerns genuine freedom to worship.",
+      "dateLabel": "Narrative order · historical year debated",
+      "uncertainty": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "sourceIds": [
+        "web",
+        "yale-8",
+        "atlas-exodus"
+      ],
+      "placeIds": [
+        "egypt"
+      ],
+      "lds": {
+        "text": "Consider how worship can require more than a restricted permission from a ruler.",
+        "sourceIds": [
+          "lds-call"
+        ]
+      }
+    },
+    {
+      "id": "exodus-11",
+      "chapter": 11,
+      "verse": 1,
+      "eventOrder": 11,
+      "title": "The final plague announced",
+      "summary": "Moses announces the death of the firstborn. Pharaoh still refuses release.",
+      "detail": "The warning brings the conflict to a terrible cost. The account includes suffering beyond the ruler.",
+      "dateLabel": "Narrative order · historical year debated",
+      "uncertainty": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "sourceIds": [
+        "web",
+        "yale-8",
+        "atlas-exodus"
+      ],
+      "placeIds": [
+        "egypt"
+      ],
+      "lds": {
+        "text": "Read the promised deliverance alongside the human cost within the narrative.",
+        "sourceIds": [
+          "lds-deliverance"
+        ]
+      }
+    },
+    {
+      "id": "exodus-12",
+      "chapter": 12,
+      "verse": 1,
+      "eventOrder": 12,
+      "title": "Passover and departure",
+      "summary": "Israel keeps Passover. The firstborn die. Pharaoh releases the people. They leave Rameses.",
+      "detail": "The meal becomes a lasting act of memory. Deliverance also carries grief through Egypt.",
+      "dateLabel": "Narrative order · historical year debated",
+      "uncertainty": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "sourceIds": [
+        "web",
+        "yale-8",
+        "atlas-exodus"
+      ],
+      "placeIds": [
+        "rameses",
+        "succoth"
+      ],
+      "lds": {
+        "text": "The Church manual connects the Passover lamb with Jesus Christ. Study the sign and the remembered deliverance.",
+        "sourceIds": [
+          "lds-deliverance"
+        ]
+      }
+    },
+    {
+      "id": "exodus-13",
+      "chapter": 13,
+      "verse": 1,
+      "eventOrder": 13,
+      "title": "Remembering and the pillars",
+      "summary": "God commands remembrance of the firstborn and unleavened bread. Cloud and fire lead the people.",
+      "detail": "Memory takes the form of household teaching. The chosen route avoids an immediate return through fear.",
+      "dateLabel": "Narrative order · historical year debated",
+      "uncertainty": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "sourceIds": [
+        "web",
+        "yale-8",
+        "atlas-exodus"
+      ],
+      "placeIds": [
+        "succoth",
+        "etham"
+      ],
+      "lds": {
+        "text": "Consider how repeated worship can teach children about God's deliverance.",
+        "sourceIds": [
+          "lds-deliverance"
+        ]
+      }
+    },
+    {
+      "id": "exodus-14",
+      "chapter": 14,
+      "verse": 1,
+      "eventOrder": 14,
+      "title": "The sea crossing",
+      "summary": "Pharaoh pursues Israel. Moses stretches out his hand. Israel crosses and the army is overwhelmed.",
+      "detail": "The narrative places fear beside deliverance. The precise crossing site remains unknown.",
+      "dateLabel": "Narrative order · historical year debated",
+      "uncertainty": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "sourceIds": [
+        "web",
+        "yale-8",
+        "atlas-exodus"
+      ],
+      "placeIds": [
+        "sea-region"
+      ],
+      "lds": {
+        "text": "First Nephi 17 recalls this deliverance. Keep that later teaching distinct from the crossing narrative.",
+        "sourceIds": [
+          "lds-deliverance",
+          "nephi-17"
+        ]
+      }
+    },
+    {
+      "id": "exodus-15",
+      "chapter": 15,
+      "verse": 1,
+      "eventOrder": 15,
+      "title": "Songs and bitter water",
+      "summary": "Moses and Miriam lead songs. The people reach bitter water and then Elim.",
+      "detail": "Praise and need follow each other. The journey still requires water after a great deliverance.",
+      "dateLabel": "Narrative order · historical year debated",
+      "uncertainty": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "sourceIds": [
+        "web",
+        "yale-8",
+        "atlas-exodus"
+      ],
+      "placeIds": [
+        "marah",
+        "elim"
+      ],
+      "lds": {
+        "text": "Consider how gratitude and present needs can both appear in a life of faith.",
+        "sourceIds": [
+          "lds-deliverance"
+        ]
+      }
+    },
+    {
+      "id": "exodus-16",
+      "chapter": 16,
+      "verse": 1,
+      "eventOrder": 16,
+      "title": "Manna and Sabbath",
+      "summary": "God provides manna and quail. The people gather food daily and rest on the Sabbath.",
+      "detail": "Daily provision tests trust. Limits on gathering restrain hoarding and support rest.",
+      "dateLabel": "Narrative order · historical year debated",
+      "uncertainty": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "sourceIds": [
+        "web",
+        "yale-8",
+        "atlas-exodus"
+      ],
+      "placeIds": [
+        "wilderness-sin"
+      ],
+      "lds": {
+        "text": "The Church manual connects manna with reliance on God. Consider daily preparation and Sabbath rest.",
+        "sourceIds": [
+          "lds-deliverance"
+        ]
+      }
+    },
+    {
+      "id": "exodus-17",
+      "chapter": 17,
+      "verse": 1,
+      "eventOrder": 17,
+      "title": "Water and Amalek",
+      "summary": "God provides water at Rephidim. Joshua leads the fight against Amalek while others support Moses.",
+      "detail": "The people need both water and protection. Shared action supports leadership during danger.",
+      "dateLabel": "Narrative order · historical year debated",
+      "uncertainty": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "sourceIds": [
+        "web",
+        "yale-8",
+        "atlas-exodus"
+      ],
+      "placeIds": [
+        "rephidim"
+      ],
+      "lds": {
+        "text": "Consider why support for others belongs alongside individual faith.",
+        "sourceIds": [
+          "lds-deliverance"
+        ]
+      }
+    },
+    {
+      "id": "exodus-18",
+      "chapter": 18,
+      "verse": 1,
+      "eventOrder": 18,
+      "title": "Jethro's counsel",
+      "summary": "Jethro visits Moses. He advises shared responsibility for judging the people's disputes.",
+      "detail": "One leader cannot carry every need alone. Delegation makes judgment more accessible.",
+      "dateLabel": "Narrative order · historical year debated",
+      "uncertainty": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "sourceIds": [
+        "web",
+        "yale-8",
+        "atlas-exodus"
+      ],
+      "placeIds": [
+        "sinai"
+      ],
+      "lds": {
+        "text": "Consider how wise counsel can improve service and reduce an unfair burden.",
+        "sourceIds": [
+          "lds-deliverance"
+        ]
+      }
+    },
+    {
+      "id": "exodus-19",
+      "chapter": 19,
+      "verse": 1,
+      "eventOrder": 19,
+      "title": "At Sinai",
+      "summary": "Israel reaches Sinai. God offers a covenant. The people prepare for God's presence.",
+      "detail": "The covenant joins privilege with responsibility. Preparation marks the encounter as sacred.",
+      "dateLabel": "Narrative order · historical year debated",
+      "uncertainty": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "sourceIds": [
+        "web",
+        "yale-8",
+        "atlas-exodus"
+      ],
+      "placeIds": [
+        "sinai"
+      ],
+      "lds": {
+        "text": "The Church manual connects covenant belonging with duties of holiness and service.",
+        "sourceIds": [
+          "lds-deliverance"
+        ]
+      }
+    },
+    {
+      "id": "exodus-20",
+      "chapter": 20,
+      "verse": 1,
+      "eventOrder": 20,
+      "title": "The Ten Commandments",
+      "summary": "God gives commands about worship and relationships. The people fear the encounter.",
+      "detail": "Freedom receives a moral structure. The commands protect worship, life, family, and trust.",
+      "dateLabel": "Narrative order · historical year debated",
+      "uncertainty": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "sourceIds": [
+        "web",
+        "yale-8",
+        "atlas-exodus"
+      ],
+      "placeIds": [
+        "sinai"
+      ],
+      "lds": {
+        "text": "The Church manual studies each command as a continuing guide to faithful conduct.",
+        "sourceIds": [
+          "lds-commandments"
+        ]
+      }
+    },
+    {
+      "id": "exodus-21",
+      "chapter": 21,
+      "verse": 1,
+      "eventOrder": 21,
+      "title": "Laws about servants and injury",
+      "summary": "The laws address servitude, violence, and responsibility for injury.",
+      "detail": "The laws regulate an unequal ancient society. Regulation does not remove the harm of slavery.",
+      "dateLabel": "Narrative order · historical year debated",
+      "uncertainty": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "sourceIds": [
+        "web",
+        "yale-10",
+        "atlas-exodus"
+      ],
+      "placeIds": [
+        "sinai"
+      ],
+      "lds": {
+        "text": "Consider the difference between an ancient legal setting and present moral duties toward people.",
+        "sourceIds": [
+          "lds-law"
+        ]
+      }
+    },
+    {
+      "id": "exodus-22",
+      "chapter": 22,
+      "verse": 1,
+      "eventOrder": 22,
+      "title": "Property and vulnerable people",
+      "summary": "The laws address theft, damaged property, loans, and care for strangers, widows, and orphans.",
+      "detail": "Justice concerns both property and people with little power. Israel must remember its own experience in Egypt.",
+      "dateLabel": "Narrative order · historical year debated",
+      "uncertainty": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "sourceIds": [
+        "web",
+        "yale-10",
+        "atlas-exodus"
+      ],
+      "placeIds": [
+        "sinai"
+      ],
+      "lds": {
+        "text": "Consider how remembering past need can shape care for vulnerable people now.",
+        "sourceIds": [
+          "lds-law"
+        ]
+      }
+    },
+    {
+      "id": "exodus-23",
+      "chapter": 23,
+      "verse": 1,
+      "eventOrder": 23,
+      "title": "Justice, rest, and festivals",
+      "summary": "God commands honest judgment, rest, and annual feasts. An angel will lead Israel.",
+      "detail": "Worship and justice belong together. The law includes care even toward an enemy's animal.",
+      "dateLabel": "Narrative order · historical year debated",
+      "uncertainty": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "sourceIds": [
+        "web",
+        "yale-10",
+        "atlas-exodus"
+      ],
+      "placeIds": [
+        "sinai"
+      ],
+      "lds": {
+        "text": "Consider whether your worship also changes your judgment and treatment of others.",
+        "sourceIds": [
+          "lds-law"
+        ]
+      }
+    },
+    {
+      "id": "exodus-24",
+      "chapter": 24,
+      "verse": 1,
+      "eventOrder": 24,
+      "title": "The covenant confirmed",
+      "summary": "Moses reads the covenant terms. Israel accepts them. Moses ascends the mountain.",
+      "detail": "The people hear before they commit. A shared meal and sacred signs mark belonging.",
+      "dateLabel": "Narrative order · historical year debated",
+      "uncertainty": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "sourceIds": [
+        "web",
+        "yale-10",
+        "atlas-exodus"
+      ],
+      "placeIds": [
+        "sinai"
+      ],
+      "lds": {
+        "text": "A covenant includes an informed promise. Consider the duties that follow your agreement with God.",
+        "sourceIds": [
+          "lds-law"
+        ]
+      }
+    },
+    {
+      "id": "exodus-25",
+      "chapter": 25,
+      "verse": 1,
+      "eventOrder": 25,
+      "title": "The ark, table, and lampstand",
+      "summary": "God gives plans for a sanctuary and its furnishings.",
+      "detail": "The sanctuary centers on God's presence among the people. Material gifts support a sacred purpose.",
+      "dateLabel": "Narrative order · historical year debated",
+      "uncertainty": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "sourceIds": [
+        "web",
+        "yale-9",
+        "atlas-exodus"
+      ],
+      "placeIds": [
+        "sinai"
+      ],
+      "lds": {
+        "text": "The Church manual connects the tabernacle with worship and God's presence among His people.",
+        "sourceIds": [
+          "lds-sanctuary"
+        ]
+      }
+    },
+    {
+      "id": "exodus-26",
+      "chapter": 26,
+      "verse": 1,
+      "eventOrder": 26,
+      "title": "The tabernacle structure",
+      "summary": "God specifies curtains, frames, coverings, and the inner veil.",
+      "detail": "The design marks distinct sacred spaces. Careful construction gives form to the worship setting.",
+      "dateLabel": "Narrative order · historical year debated",
+      "uncertainty": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "sourceIds": [
+        "web",
+        "yale-9",
+        "atlas-exodus"
+      ],
+      "placeIds": [
+        "sinai"
+      ],
+      "lds": {
+        "text": "Consider how a prepared space can support reverence without replacing faithful conduct.",
+        "sourceIds": [
+          "lds-sanctuary"
+        ]
+      }
+    },
+    {
+      "id": "exodus-27",
+      "chapter": 27,
+      "verse": 1,
+      "eventOrder": 27,
+      "title": "Altar, court, and light",
+      "summary": "God gives plans for the altar, courtyard, and daily lamp oil.",
+      "detail": "The outer space supports offerings and access. Continuing light requires repeated care.",
+      "dateLabel": "Narrative order · historical year debated",
+      "uncertainty": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "sourceIds": [
+        "web",
+        "yale-9",
+        "atlas-exodus"
+      ],
+      "placeIds": [
+        "sinai"
+      ],
+      "lds": {
+        "text": "Consider the repeated work that sustains a place of worship.",
+        "sourceIds": [
+          "lds-sanctuary"
+        ]
+      }
+    },
+    {
+      "id": "exodus-28",
+      "chapter": 28,
+      "verse": 1,
+      "eventOrder": 28,
+      "title": "The priests' clothing",
+      "summary": "God directs the making of Aaron's garments and the breastpiece bearing Israel's names.",
+      "detail": "The priest represents the people in worship. Sacred service carries names rather than only status.",
+      "dateLabel": "Narrative order · historical year debated",
+      "uncertainty": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "sourceIds": [
+        "web",
+        "yale-9",
+        "atlas-exodus"
+      ],
+      "placeIds": [
+        "sinai"
+      ],
+      "lds": {
+        "text": "Consider what it means to carry other people's needs within sacred service.",
+        "sourceIds": [
+          "lds-sanctuary"
+        ]
+      }
+    },
+    {
+      "id": "exodus-29",
+      "chapter": 29,
+      "verse": 1,
+      "eventOrder": 29,
+      "title": "Consecrating the priests",
+      "summary": "God gives instructions to appoint priests and make daily offerings.",
+      "detail": "Consecration sets people apart for service. The chapter's purpose is God's dwelling among Israel.",
+      "dateLabel": "Narrative order · historical year debated",
+      "uncertainty": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "sourceIds": [
+        "web",
+        "yale-9",
+        "atlas-exodus"
+      ],
+      "placeIds": [
+        "sinai"
+      ],
+      "lds": {
+        "text": "The Church manual studies preparation for sacred service. Consider the duties beyond a title.",
+        "sourceIds": [
+          "lds-sanctuary"
+        ]
+      }
+    },
+    {
+      "id": "exodus-30",
+      "chapter": 30,
+      "verse": 1,
+      "eventOrder": 30,
+      "title": "Incense, washing, and sacred oil",
+      "summary": "God gives instructions for incense, washing, the census payment, and sacred oil.",
+      "detail": "These repeated acts order worship and preparation. Sacred materials have a defined purpose.",
+      "dateLabel": "Narrative order · historical year debated",
+      "uncertainty": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "sourceIds": [
+        "web",
+        "yale-9",
+        "atlas-exodus"
+      ],
+      "placeIds": [
+        "sinai"
+      ],
+      "lds": {
+        "text": "Consider how preparation can support worship without becoming only an outward routine.",
+        "sourceIds": [
+          "lds-sanctuary"
+        ]
+      }
+    },
+    {
+      "id": "exodus-31",
+      "chapter": 31,
+      "verse": 1,
+      "eventOrder": 31,
+      "title": "Skilled workers and Sabbath",
+      "summary": "God appoints Bezalel and Oholiab. The Sabbath remains a covenant sign. Moses receives tablets.",
+      "detail": "Skilled labor serves worship. Even sacred construction does not erase the command to rest.",
+      "dateLabel": "Narrative order · historical year debated",
+      "uncertainty": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "sourceIds": [
+        "web",
+        "yale-9",
+        "atlas-exodus"
+      ],
+      "placeIds": [
+        "sinai"
+      ],
+      "lds": {
+        "text": "Consider how creative skill and Sabbath observance can both serve God.",
+        "sourceIds": [
+          "lds-law"
+        ]
+      }
+    },
+    {
+      "id": "exodus-32",
+      "chapter": 32,
+      "verse": 1,
+      "eventOrder": 32,
+      "title": "The golden calf",
+      "summary": "Aaron makes the calf. Moses intercedes, breaks the tablets, and confronts the camp.",
+      "detail": "The covenant breaks almost immediately. The account includes both intercession and severe judgment.",
+      "dateLabel": "Narrative order · historical year debated",
+      "uncertainty": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "sourceIds": [
+        "web",
+        "yale-8",
+        "atlas-exodus"
+      ],
+      "placeIds": [
+        "sinai"
+      ],
+      "lds": {
+        "text": "Consider how quick substitutes for trust can damage a covenant relationship.",
+        "sourceIds": [
+          "lds-law"
+        ]
+      }
+    },
+    {
+      "id": "exodus-33",
+      "chapter": 33,
+      "verse": 1,
+      "eventOrder": 33,
+      "title": "Moses seeks God's presence",
+      "summary": "Moses meets with God outside the camp. He asks for guidance and God's continuing presence.",
+      "detail": "Restoration concerns more than reaching a destination. Moses seeks the presence that gives the journey meaning.",
+      "dateLabel": "Narrative order · historical year debated",
+      "uncertainty": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "sourceIds": [
+        "web",
+        "yale-9",
+        "atlas-exodus"
+      ],
+      "placeIds": [
+        "sinai"
+      ],
+      "lds": {
+        "text": "Consider whether your requests seek God's companionship as well as a desired outcome.",
+        "sourceIds": [
+          "lds-law"
+        ]
+      }
+    },
+    {
+      "id": "exodus-34",
+      "chapter": 34,
+      "verse": 1,
+      "eventOrder": 34,
+      "title": "The covenant renewed",
+      "summary": "God declares mercy and justice. New tablets are given. Moses returns with a shining face.",
+      "detail": "Renewal follows covenant failure. Mercy does not make responsibility disappear.",
+      "dateLabel": "Narrative order · historical year debated",
+      "uncertainty": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "sourceIds": [
+        "web",
+        "yale-9",
+        "atlas-exodus"
+      ],
+      "placeIds": [
+        "sinai"
+      ],
+      "lds": {
+        "text": "The Church manual reads renewal alongside repentance. Consider mercy with continuing responsibility.",
+        "sourceIds": [
+          "lds-law"
+        ]
+      }
+    },
+    {
+      "id": "exodus-35",
+      "chapter": 35,
+      "verse": 1,
+      "eventOrder": 35,
+      "title": "Gifts and willing work",
+      "summary": "Moses teaches Sabbath rest. The people bring materials. Skilled workers begin their tasks.",
+      "detail": "The work uses willing gifts and different skills. Participation reaches beyond a single leader.",
+      "dateLabel": "Narrative order · historical year debated",
+      "uncertainty": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "sourceIds": [
+        "web",
+        "yale-9",
+        "atlas-exodus"
+      ],
+      "placeIds": [
+        "sinai"
+      ],
+      "lds": {
+        "text": "Consider how willingness and varied skills can build a worshiping community.",
+        "sourceIds": [
+          "lds-sanctuary"
+        ]
+      }
+    },
+    {
+      "id": "exodus-36",
+      "chapter": 36,
+      "verse": 1,
+      "eventOrder": 36,
+      "title": "More than enough",
+      "summary": "The gifts exceed the need. The workers build the tabernacle's curtains, frames, and veil.",
+      "detail": "Generosity serves a defined purpose. Leaders stop the collection when enough has been given.",
+      "dateLabel": "Narrative order · historical year debated",
+      "uncertainty": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "sourceIds": [
+        "web",
+        "yale-9",
+        "atlas-exodus"
+      ],
+      "placeIds": [
+        "sinai"
+      ],
+      "lds": {
+        "text": "Consider how wise stewardship includes knowing when a collection has met its need.",
+        "sourceIds": [
+          "lds-sanctuary"
+        ]
+      }
+    },
+    {
+      "id": "exodus-37",
+      "chapter": 37,
+      "verse": 1,
+      "eventOrder": 37,
+      "title": "The furnishings made",
+      "summary": "Bezalel makes the ark, table, lampstand, and incense altar.",
+      "detail": "The workers carry the earlier instructions into action. Repeated detail emphasizes faithful completion.",
+      "dateLabel": "Narrative order · historical year debated",
+      "uncertainty": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "sourceIds": [
+        "web",
+        "yale-9",
+        "atlas-exodus"
+      ],
+      "placeIds": [
+        "sinai"
+      ],
+      "lds": {
+        "text": "Consider the place of careful work in fulfilling a sacred responsibility.",
+        "sourceIds": [
+          "lds-sanctuary"
+        ]
+      }
+    },
+    {
+      "id": "exodus-38",
+      "chapter": 38,
+      "verse": 1,
+      "eventOrder": 38,
+      "title": "Altar, court, and accounts",
+      "summary": "The workers build the outer furnishings. The chapter records the materials used.",
+      "detail": "Sacred work includes public accounting. The record names skilled workers and their responsibilities.",
+      "dateLabel": "Narrative order · historical year debated",
+      "uncertainty": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "sourceIds": [
+        "web",
+        "yale-9",
+        "atlas-exodus"
+      ],
+      "placeIds": [
+        "sinai"
+      ],
+      "lds": {
+        "text": "Consider how clear records and accountable service can support trust.",
+        "sourceIds": [
+          "lds-sanctuary"
+        ]
+      }
+    },
+    {
+      "id": "exodus-39",
+      "chapter": 39,
+      "verse": 1,
+      "eventOrder": 39,
+      "title": "Garments and inspection",
+      "summary": "The workers finish the priests' clothing. Moses inspects the completed work and blesses them.",
+      "detail": "Completion receives review rather than assumption. The blessing follows work done according to the instructions.",
+      "dateLabel": "Narrative order · historical year debated",
+      "uncertainty": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "sourceIds": [
+        "web",
+        "yale-9",
+        "atlas-exodus"
+      ],
+      "placeIds": [
+        "sinai"
+      ],
+      "lds": {
+        "text": "Consider how careful review can honor the work of those who serve.",
+        "sourceIds": [
+          "lds-sanctuary"
+        ]
+      }
+    },
+    {
+      "id": "exodus-40",
+      "chapter": 40,
+      "verse": 1,
+      "eventOrder": 40,
+      "title": "The tabernacle raised",
+      "summary": "Moses sets up the sanctuary. God's glory fills it. Cloud and fire guide later journeys.",
+      "detail": "The book ends with God's presence among a traveling people. Deliverance leads toward worship and continuing guidance.",
+      "dateLabel": "Narrative order · historical year debated",
+      "uncertainty": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "sourceIds": [
+        "web",
+        "yale-9",
+        "atlas-exodus"
+      ],
+      "placeIds": [
+        "sinai"
+      ],
+      "lds": {
+        "text": "The Church manual connects the sanctuary with God's presence. Consider worship as part of the journey after deliverance.",
+        "sourceIds": [
+          "lds-sanctuary"
+        ]
+      }
+    }
+  ],
+  "places": [
+    {
+      "id": "egypt",
+      "name": "Egypt",
+      "lat": 30.1,
+      "lng": 31.2,
+      "summary": "Famine draws Abraham and later Jacob's family into Egypt. Joseph rises to royal service.",
+      "limits": "This regional marker does not identify Joseph's palace or Pharaoh.",
+      "sourceIds": [
+        "web",
+        "atlas"
+      ],
+      "detail": "This regional marker does not identify Joseph's palace or Pharaoh.",
+      "uncertainty": "This regional marker does not identify Joseph's palace or Pharaoh.",
+      "chapterLocation": true
+    },
+    {
+      "id": "goshen",
+      "name": "Goshen",
+      "lat": 30.7,
+      "lng": 31.8,
+      "summary": "Genesis places Jacob's household in Goshen, within Egypt.",
+      "limits": "The broad delta placement is approximate. Its exact limits are unknown.",
+      "sourceIds": [
+        "web",
+        "atlas"
+      ],
+      "detail": "The broad delta placement is approximate. Its exact limits are unknown.",
+      "uncertainty": "The broad delta placement is approximate. Its exact limits are unknown.",
+      "chapterLocation": true
+    },
+    {
+      "id": "rameses",
+      "name": "Rameses",
+      "lat": 30.8,
+      "lng": 31.84,
+      "summary": "Israel builds storage cities and later departs from Rameses.",
+      "limits": "The marker represents a proposed eastern delta setting. The chronology remains debated.",
+      "sourceIds": [
+        "web",
+        "atlas-exodus"
+      ],
+      "detail": "The marker represents a proposed eastern delta setting. The chronology remains debated.",
+      "uncertainty": "The marker represents a proposed eastern delta setting. The chronology remains debated.",
+      "chapterLocation": true
+    },
+    {
+      "id": "pithom",
+      "name": "Pithom",
+      "lat": 30.55,
+      "lng": 32.07,
+      "summary": "Exodus names Pithom as a storage city built under forced labor.",
+      "limits": "The identification is debated. This is an approximate regional marker.",
+      "sourceIds": [
+        "web",
+        "atlas-exodus"
+      ],
+      "detail": "The identification is debated. This is an approximate regional marker.",
+      "uncertainty": "The identification is debated. This is an approximate regional marker.",
+      "chapterLocation": true
+    },
+    {
+      "id": "midian",
+      "name": "Midian",
+      "lat": 28.4,
+      "lng": 35.3,
+      "summary": "Moses seeks refuge among Jethro’s household in Midian.",
+      "limits": "This marker shows a broad region. It does not identify Moses’s home.",
+      "sourceIds": [
+        "web",
+        "atlas-exodus"
+      ],
+      "detail": "This marker shows a broad region. It does not identify Moses’s home.",
+      "uncertainty": "This marker shows a broad region. It does not identify Moses’s home.",
+      "chapterLocation": true
+    },
+    {
+      "id": "horeb",
+      "name": "Horeb",
+      "lat": 28.54,
+      "lng": 33.97,
+      "summary": "God calls Moses at Horeb, the mountain of God.",
+      "limits": "The southern Sinai placement reflects a tradition. Other proposed locations exist.",
+      "sourceIds": [
+        "web",
+        "atlas-exodus"
+      ],
+      "detail": "The southern Sinai placement reflects a tradition. Other proposed locations exist.",
+      "uncertainty": "The southern Sinai placement reflects a tradition. Other proposed locations exist.",
+      "chapterLocation": true
+    },
+    {
+      "id": "sinai",
+      "name": "Sinai",
+      "lat": 28.54,
+      "lng": 33.97,
+      "summary": "Israel receives the covenant and builds the sanctuary near Sinai.",
+      "limits": "The mountain’s identity is disputed. This marker is not a verified site.",
+      "sourceIds": [
+        "web",
+        "atlas-exodus"
+      ],
+      "detail": "The mountain’s identity is disputed. This marker is not a verified site.",
+      "uncertainty": "The mountain’s identity is disputed. This marker is not a verified site.",
+      "chapterLocation": true
+    },
+    {
+      "id": "succoth",
+      "name": "Succoth",
+      "lat": 30.55,
+      "lng": 32.08,
+      "summary": "Exodus names Succoth after the departure from Rameses.",
+      "limits": "The exact campsite is unknown. This is an approximate regional placement.",
+      "sourceIds": [
+        "web",
+        "atlas-exodus"
+      ],
+      "detail": "The exact campsite is unknown. This is an approximate regional placement.",
+      "uncertainty": "The exact campsite is unknown. This is an approximate regional placement.",
+      "chapterLocation": true
+    },
+    {
+      "id": "etham",
+      "name": "Etham",
+      "lat": 30.5,
+      "lng": 32.3,
+      "summary": "Israel reaches Etham at the wilderness edge.",
+      "limits": "The exact place is unknown. The marker follows a broad eastern delta setting.",
+      "sourceIds": [
+        "web",
+        "atlas-exodus"
+      ],
+      "detail": "The exact place is unknown. The marker follows a broad eastern delta setting.",
+      "uncertainty": "The exact place is unknown. The marker follows a broad eastern delta setting.",
+      "chapterLocation": true
+    },
+    {
+      "id": "sea-region",
+      "name": "Sea crossing",
+      "lat": 30.3,
+      "lng": 32.4,
+      "summary": "Exodus 14 narrates a crossing through the sea.",
+      "limits": "This marker shows a broad possible region. It does not choose a verified crossing point.",
+      "sourceIds": [
+        "web",
+        "atlas-exodus"
+      ],
+      "detail": "This marker shows a broad possible region. It does not choose a verified crossing point.",
+      "uncertainty": "This marker shows a broad possible region. It does not choose a verified crossing point.",
+      "chapterLocation": true
+    },
+    {
+      "id": "marah",
+      "name": "Marah",
+      "lat": 29.4,
+      "lng": 32.7,
+      "summary": "Israel reaches bitter water after leaving the sea.",
+      "limits": "The site is uncertain. This placement follows a traditional Sinai-region reading.",
+      "sourceIds": [
+        "web",
+        "atlas-exodus"
+      ],
+      "detail": "The site is uncertain. This placement follows a traditional Sinai-region reading.",
+      "uncertainty": "The site is uncertain. This placement follows a traditional Sinai-region reading.",
+      "chapterLocation": true
+    },
+    {
+      "id": "elim",
+      "name": "Elim",
+      "lat": 29.2,
+      "lng": 32.9,
+      "summary": "Exodus describes twelve springs and seventy palms at Elim.",
+      "limits": "The exact oasis is uncertain. The marker is a regional reference.",
+      "sourceIds": [
+        "web",
+        "atlas-exodus"
+      ],
+      "detail": "The exact oasis is uncertain. The marker is a regional reference.",
+      "uncertainty": "The exact oasis is uncertain. The marker is a regional reference.",
+      "chapterLocation": true
+    },
+    {
+      "id": "wilderness-sin",
+      "name": "Wilderness of Sin",
+      "lat": 28.9,
+      "lng": 33.3,
+      "summary": "Israel receives manna in the wilderness between Elim and Sinai.",
+      "limits": "Its boundaries are unknown. The marker follows a traditional southern route.",
+      "sourceIds": [
+        "web",
+        "atlas-exodus"
+      ],
+      "detail": "Its boundaries are unknown. The marker follows a traditional southern route.",
+      "uncertainty": "Its boundaries are unknown. The marker follows a traditional southern route.",
+      "chapterLocation": true
+    },
+    {
+      "id": "rephidim",
+      "name": "Rephidim",
+      "lat": 28.73,
+      "lng": 33.65,
+      "summary": "Israel needs water and fights Amalek near Rephidim.",
+      "limits": "The site is uncertain. The marker does not identify the rock or battlefield.",
+      "sourceIds": [
+        "web",
+        "atlas-exodus"
+      ],
+      "detail": "The site is uncertain. The marker does not identify the rock or battlefield.",
+      "uncertainty": "The site is uncertain. The marker does not identify the rock or battlefield.",
+      "chapterLocation": true
+    }
+  ],
+  "campaigns": [],
+  "ancientRoads": [],
+  "regions": [],
+  "words": [],
+  "guides": [
+    {
+      "id": "exodus-overview",
+      "title": "Study Exodus",
+      "description": "Follow selected chapters through the book.",
+      "steps": [
+        {
+          "title": "Oppression and the midwives",
+          "text": "A new king enslaves Israel. Shiphrah and Puah refuse his order to kill boys. The ruler fears a growing people. The midwives protect life against his command.",
+          "chapter": 1,
+          "verse": 1,
+          "sourceIds": [
+            "web",
+            "yale-7",
+            "atlas-exodus"
+          ]
+        },
+        {
+          "title": "Laws about servants and injury",
+          "text": "The laws address servitude, violence, and responsibility for injury. The laws regulate an unequal ancient society. Regulation does not remove the harm of slavery.",
+          "chapter": 21,
+          "verse": 1,
+          "sourceIds": [
+            "web",
+            "yale-10",
+            "atlas-exodus"
+          ]
+        },
+        {
+          "title": "The tabernacle raised",
+          "text": "Moses sets up the sanctuary. God's glory fills it. Cloud and fire guide later journeys. The book ends with God's presence among a traveling people. Deliverance leads toward worship and continuing guidance.",
+          "chapter": 40,
+          "verse": 1,
+          "sourceIds": [
+            "web",
+            "yale-9",
+            "atlas-exodus"
+          ]
+        }
+      ]
+    }
+  ],
+  "periods": [
+    {
+      "id": "part-0",
+      "label": "Exodus 1–13",
+      "start": 1,
+      "end": 13,
+      "description": "Chapter order"
+    },
+    {
+      "id": "part-1",
+      "label": "Exodus 14–26",
+      "start": 14,
+      "end": 26,
+      "description": "Chapter order"
+    },
+    {
+      "id": "part-2",
+      "label": "Exodus 27–40",
+      "start": 27,
+      "end": 40,
+      "description": "Chapter order"
+    }
+  ],
+  "chapterMaps": [
+    {
+      "chapter": 1,
+      "focusPlaceIds": [
+        "egypt",
+        "rameses",
+        "pithom"
+      ],
+      "placeIds": [
+        "egypt",
+        "rameses",
+        "pithom"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "narrative": "A new king enslaves Israel. Shiphrah and Puah refuse his order to kill boys.",
+      "limits": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "sourceIds": [
+        "web",
+        "yale-7",
+        "atlas-exodus"
+      ]
+    },
+    {
+      "chapter": 2,
+      "focusPlaceIds": [
+        "egypt",
+        "midian"
+      ],
+      "placeIds": [
+        "egypt",
+        "midian"
+      ],
+      "routes": [
+        {
+          "id": "exodus-2-journey",
+          "to": 1,
+          "reference": "Exodus 2:1",
+          "from": 0
+        }
+      ],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "narrative": "Moses's mother hides him. Pharaoh's daughter adopts him. He later kills an Egyptian and flees.",
+      "limits": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "sourceIds": [
+        "web",
+        "yale-7",
+        "atlas-exodus"
+      ]
+    },
+    {
+      "chapter": 3,
+      "focusPlaceIds": [
+        "horeb",
+        "midian"
+      ],
+      "placeIds": [
+        "horeb",
+        "midian"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "narrative": "God calls Moses at Horeb. Moses must confront Pharaoh and lead Israel out.",
+      "limits": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "sourceIds": [
+        "web",
+        "yale-7",
+        "atlas-exodus"
+      ]
+    },
+    {
+      "chapter": 4,
+      "focusPlaceIds": [
+        "midian",
+        "egypt"
+      ],
+      "placeIds": [
+        "midian",
+        "egypt"
+      ],
+      "routes": [
+        {
+          "id": "exodus-4-journey",
+          "to": 1,
+          "reference": "Exodus 4:1",
+          "from": 0
+        }
+      ],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "narrative": "God gives Moses signs. Aaron joins him. Zipporah acts during a dangerous encounter.",
+      "limits": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "sourceIds": [
+        "web",
+        "yale-7",
+        "atlas-exodus"
+      ]
+    },
+    {
+      "chapter": 5,
+      "focusPlaceIds": [
+        "egypt"
+      ],
+      "placeIds": [
+        "egypt"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "narrative": "Moses and Aaron ask for release. Pharaoh withholds straw but demands the same brick count.",
+      "limits": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "sourceIds": [
+        "web",
+        "yale-8",
+        "atlas-exodus"
+      ]
+    },
+    {
+      "chapter": 6,
+      "focusPlaceIds": [
+        "egypt"
+      ],
+      "placeIds": [
+        "egypt"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "narrative": "God promises deliverance and covenant belonging. A family record identifies Moses and Aaron.",
+      "limits": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "sourceIds": [
+        "web",
+        "yale-8",
+        "atlas-exodus"
+      ]
+    },
+    {
+      "chapter": 7,
+      "focusPlaceIds": [
+        "egypt"
+      ],
+      "placeIds": [
+        "egypt"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "narrative": "Aaron's staff becomes a serpent. The Nile's water turns to blood.",
+      "limits": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "sourceIds": [
+        "web",
+        "yale-8",
+        "atlas-exodus"
+      ]
+    },
+    {
+      "chapter": 8,
+      "focusPlaceIds": [
+        "egypt",
+        "goshen"
+      ],
+      "placeIds": [
+        "egypt",
+        "goshen"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "narrative": "Three plagues strike Egypt. Pharaoh promises relief and then changes his decision.",
+      "limits": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "sourceIds": [
+        "web",
+        "yale-8",
+        "atlas-exodus"
+      ]
+    },
+    {
+      "chapter": 9,
+      "focusPlaceIds": [
+        "egypt",
+        "goshen"
+      ],
+      "placeIds": [
+        "egypt",
+        "goshen"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "narrative": "Further plagues affect animals and people. Some Egyptians heed the warning about hail.",
+      "limits": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "sourceIds": [
+        "web",
+        "yale-8",
+        "atlas-exodus"
+      ]
+    },
+    {
+      "chapter": 10,
+      "focusPlaceIds": [
+        "egypt"
+      ],
+      "placeIds": [
+        "egypt"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "narrative": "Pharaoh rejects full release. Locusts consume crops. Darkness covers Egypt.",
+      "limits": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "sourceIds": [
+        "web",
+        "yale-8",
+        "atlas-exodus"
+      ]
+    },
+    {
+      "chapter": 11,
+      "focusPlaceIds": [
+        "egypt"
+      ],
+      "placeIds": [
+        "egypt"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "narrative": "Moses announces the death of the firstborn. Pharaoh still refuses release.",
+      "limits": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "sourceIds": [
+        "web",
+        "yale-8",
+        "atlas-exodus"
+      ]
+    },
+    {
+      "chapter": 12,
+      "focusPlaceIds": [
+        "rameses",
+        "succoth"
+      ],
+      "placeIds": [
+        "rameses",
+        "succoth"
+      ],
+      "routes": [
+        {
+          "id": "exodus-12-journey",
+          "to": 1,
+          "reference": "Exodus 12:1",
+          "from": 0
+        }
+      ],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "narrative": "Israel keeps Passover. The firstborn die. Pharaoh releases the people. They leave Rameses.",
+      "limits": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "sourceIds": [
+        "web",
+        "yale-8",
+        "atlas-exodus"
+      ]
+    },
+    {
+      "chapter": 13,
+      "focusPlaceIds": [
+        "succoth",
+        "etham"
+      ],
+      "placeIds": [
+        "succoth",
+        "etham"
+      ],
+      "routes": [
+        {
+          "id": "exodus-13-journey",
+          "to": 1,
+          "reference": "Exodus 13:1",
+          "from": 0
+        }
+      ],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "narrative": "God commands remembrance of the firstborn and unleavened bread. Cloud and fire lead the people.",
+      "limits": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "sourceIds": [
+        "web",
+        "yale-8",
+        "atlas-exodus"
+      ]
+    },
+    {
+      "chapter": 14,
+      "focusPlaceIds": [
+        "sea-region"
+      ],
+      "placeIds": [
+        "sea-region"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "narrative": "Pharaoh pursues Israel. Moses stretches out his hand. Israel crosses and the army is overwhelmed.",
+      "limits": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "sourceIds": [
+        "web",
+        "yale-8",
+        "atlas-exodus"
+      ]
+    },
+    {
+      "chapter": 15,
+      "focusPlaceIds": [
+        "marah",
+        "elim"
+      ],
+      "placeIds": [
+        "marah",
+        "elim"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "narrative": "Moses and Miriam lead songs. The people reach bitter water and then Elim.",
+      "limits": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "sourceIds": [
+        "web",
+        "yale-8",
+        "atlas-exodus"
+      ]
+    },
+    {
+      "chapter": 16,
+      "focusPlaceIds": [
+        "wilderness-sin"
+      ],
+      "placeIds": [
+        "wilderness-sin"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "narrative": "God provides manna and quail. The people gather food daily and rest on the Sabbath.",
+      "limits": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "sourceIds": [
+        "web",
+        "yale-8",
+        "atlas-exodus"
+      ]
+    },
+    {
+      "chapter": 17,
+      "focusPlaceIds": [
+        "rephidim"
+      ],
+      "placeIds": [
+        "rephidim"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "narrative": "God provides water at Rephidim. Joshua leads the fight against Amalek while others support Moses.",
+      "limits": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "sourceIds": [
+        "web",
+        "yale-8",
+        "atlas-exodus"
+      ]
+    },
+    {
+      "chapter": 18,
+      "focusPlaceIds": [
+        "sinai"
+      ],
+      "placeIds": [
+        "sinai"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "narrative": "Jethro visits Moses. He advises shared responsibility for judging the people's disputes.",
+      "limits": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "sourceIds": [
+        "web",
+        "yale-8",
+        "atlas-exodus"
+      ]
+    },
+    {
+      "chapter": 19,
+      "focusPlaceIds": [
+        "sinai"
+      ],
+      "placeIds": [
+        "sinai"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "narrative": "Israel reaches Sinai. God offers a covenant. The people prepare for God's presence.",
+      "limits": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "sourceIds": [
+        "web",
+        "yale-8",
+        "atlas-exodus"
+      ]
+    },
+    {
+      "chapter": 20,
+      "focusPlaceIds": [
+        "sinai"
+      ],
+      "placeIds": [
+        "sinai"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "narrative": "God gives commands about worship and relationships. The people fear the encounter.",
+      "limits": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "sourceIds": [
+        "web",
+        "yale-8",
+        "atlas-exodus"
+      ]
+    },
+    {
+      "chapter": 21,
+      "focusPlaceIds": [
+        "sinai"
+      ],
+      "placeIds": [
+        "sinai"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "narrative": "The laws address servitude, violence, and responsibility for injury.",
+      "limits": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "sourceIds": [
+        "web",
+        "yale-10",
+        "atlas-exodus"
+      ]
+    },
+    {
+      "chapter": 22,
+      "focusPlaceIds": [
+        "sinai"
+      ],
+      "placeIds": [
+        "sinai"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "narrative": "The laws address theft, damaged property, loans, and care for strangers, widows, and orphans.",
+      "limits": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "sourceIds": [
+        "web",
+        "yale-10",
+        "atlas-exodus"
+      ]
+    },
+    {
+      "chapter": 23,
+      "focusPlaceIds": [
+        "sinai"
+      ],
+      "placeIds": [
+        "sinai"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "narrative": "God commands honest judgment, rest, and annual feasts. An angel will lead Israel.",
+      "limits": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "sourceIds": [
+        "web",
+        "yale-10",
+        "atlas-exodus"
+      ]
+    },
+    {
+      "chapter": 24,
+      "focusPlaceIds": [
+        "sinai"
+      ],
+      "placeIds": [
+        "sinai"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "narrative": "Moses reads the covenant terms. Israel accepts them. Moses ascends the mountain.",
+      "limits": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "sourceIds": [
+        "web",
+        "yale-10",
+        "atlas-exodus"
+      ]
+    },
+    {
+      "chapter": 25,
+      "focusPlaceIds": [
+        "sinai"
+      ],
+      "placeIds": [
+        "sinai"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "narrative": "God gives plans for a sanctuary and its furnishings.",
+      "limits": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "sourceIds": [
+        "web",
+        "yale-9",
+        "atlas-exodus"
+      ]
+    },
+    {
+      "chapter": 26,
+      "focusPlaceIds": [
+        "sinai"
+      ],
+      "placeIds": [
+        "sinai"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "narrative": "God specifies curtains, frames, coverings, and the inner veil.",
+      "limits": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "sourceIds": [
+        "web",
+        "yale-9",
+        "atlas-exodus"
+      ]
+    },
+    {
+      "chapter": 27,
+      "focusPlaceIds": [
+        "sinai"
+      ],
+      "placeIds": [
+        "sinai"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "narrative": "God gives plans for the altar, courtyard, and daily lamp oil.",
+      "limits": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "sourceIds": [
+        "web",
+        "yale-9",
+        "atlas-exodus"
+      ]
+    },
+    {
+      "chapter": 28,
+      "focusPlaceIds": [
+        "sinai"
+      ],
+      "placeIds": [
+        "sinai"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "narrative": "God directs the making of Aaron's garments and the breastpiece bearing Israel's names.",
+      "limits": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "sourceIds": [
+        "web",
+        "yale-9",
+        "atlas-exodus"
+      ]
+    },
+    {
+      "chapter": 29,
+      "focusPlaceIds": [
+        "sinai"
+      ],
+      "placeIds": [
+        "sinai"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "narrative": "God gives instructions to appoint priests and make daily offerings.",
+      "limits": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "sourceIds": [
+        "web",
+        "yale-9",
+        "atlas-exodus"
+      ]
+    },
+    {
+      "chapter": 30,
+      "focusPlaceIds": [
+        "sinai"
+      ],
+      "placeIds": [
+        "sinai"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "narrative": "God gives instructions for incense, washing, the census payment, and sacred oil.",
+      "limits": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "sourceIds": [
+        "web",
+        "yale-9",
+        "atlas-exodus"
+      ]
+    },
+    {
+      "chapter": 31,
+      "focusPlaceIds": [
+        "sinai"
+      ],
+      "placeIds": [
+        "sinai"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "narrative": "God appoints Bezalel and Oholiab. The Sabbath remains a covenant sign. Moses receives tablets.",
+      "limits": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "sourceIds": [
+        "web",
+        "yale-9",
+        "atlas-exodus"
+      ]
+    },
+    {
+      "chapter": 32,
+      "focusPlaceIds": [
+        "sinai"
+      ],
+      "placeIds": [
+        "sinai"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "narrative": "Aaron makes the calf. Moses intercedes, breaks the tablets, and confronts the camp.",
+      "limits": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "sourceIds": [
+        "web",
+        "yale-8",
+        "atlas-exodus"
+      ]
+    },
+    {
+      "chapter": 33,
+      "focusPlaceIds": [
+        "sinai"
+      ],
+      "placeIds": [
+        "sinai"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "narrative": "Moses meets with God outside the camp. He asks for guidance and God's continuing presence.",
+      "limits": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "sourceIds": [
+        "web",
+        "yale-9",
+        "atlas-exodus"
+      ]
+    },
+    {
+      "chapter": 34,
+      "focusPlaceIds": [
+        "sinai"
+      ],
+      "placeIds": [
+        "sinai"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "narrative": "God declares mercy and justice. New tablets are given. Moses returns with a shining face.",
+      "limits": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "sourceIds": [
+        "web",
+        "yale-9",
+        "atlas-exodus"
+      ]
+    },
+    {
+      "chapter": 35,
+      "focusPlaceIds": [
+        "sinai"
+      ],
+      "placeIds": [
+        "sinai"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "narrative": "Moses teaches Sabbath rest. The people bring materials. Skilled workers begin their tasks.",
+      "limits": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "sourceIds": [
+        "web",
+        "yale-9",
+        "atlas-exodus"
+      ]
+    },
+    {
+      "chapter": 36,
+      "focusPlaceIds": [
+        "sinai"
+      ],
+      "placeIds": [
+        "sinai"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "narrative": "The gifts exceed the need. The workers build the tabernacle's curtains, frames, and veil.",
+      "limits": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "sourceIds": [
+        "web",
+        "yale-9",
+        "atlas-exodus"
+      ]
+    },
+    {
+      "chapter": 37,
+      "focusPlaceIds": [
+        "sinai"
+      ],
+      "placeIds": [
+        "sinai"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "narrative": "Bezalel makes the ark, table, lampstand, and incense altar.",
+      "limits": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "sourceIds": [
+        "web",
+        "yale-9",
+        "atlas-exodus"
+      ]
+    },
+    {
+      "chapter": 38,
+      "focusPlaceIds": [
+        "sinai"
+      ],
+      "placeIds": [
+        "sinai"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "narrative": "The workers build the outer furnishings. The chapter records the materials used.",
+      "limits": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "sourceIds": [
+        "web",
+        "yale-9",
+        "atlas-exodus"
+      ]
+    },
+    {
+      "chapter": 39,
+      "focusPlaceIds": [
+        "sinai"
+      ],
+      "placeIds": [
+        "sinai"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "narrative": "The workers finish the priests' clothing. Moses inspects the completed work and blesses them.",
+      "limits": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "sourceIds": [
+        "web",
+        "yale-9",
+        "atlas-exodus"
+      ]
+    },
+    {
+      "chapter": 40,
+      "focusPlaceIds": [
+        "sinai"
+      ],
+      "placeIds": [
+        "sinai"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "narrative": "Moses sets up the sanctuary. God's glory fills it. Cloud and fire guide later journeys.",
+      "limits": "Site markers follow a traditional regional reading. Many campsites and the sea crossing remain uncertain.",
+      "sourceIds": [
+        "web",
+        "yale-9",
+        "atlas-exodus"
+      ]
+    }
+  ],
+  "textRoutes": [
+    {
+      "id": "exodus-2-journey",
+      "title": "Moses preserved and exiled",
+      "points": [
+        [
+          30.1,
+          31.2
+        ],
+        [
+          28.4,
+          35.3
+        ]
+      ],
+      "chapter": 2,
+      "verse": 1,
+      "summary": "Moses's mother hides him. Pharaoh's daughter adopts him. He later kills an Egyptian and flees.",
+      "detail": "Several women preserve a vulnerable child. Moses's later violence leads to exile.",
+      "uncertainty": "The narrative connects these named regions. Lines do not establish the precise travel path.",
+      "evidence": "The narrative connects these named regions. Lines do not establish the precise travel path.",
+      "kind": "flight",
+      "direction": true,
+      "textRoute": true,
+      "sourceIds": [
+        "web",
+        "yale-7",
+        "atlas-exodus"
+      ]
+    },
+    {
+      "id": "exodus-4-journey",
+      "title": "Moses returns",
+      "points": [
+        [
+          28.4,
+          35.3
+        ],
+        [
+          30.1,
+          31.2
+        ]
+      ],
+      "chapter": 4,
+      "verse": 1,
+      "summary": "God gives Moses signs. Aaron joins him. Zipporah acts during a dangerous encounter.",
+      "detail": "Moses voices his limits. Shared service and action carry the mission forward.",
+      "uncertainty": "The narrative connects these named regions. Lines do not establish the precise travel path.",
+      "evidence": "The narrative connects these named regions. Lines do not establish the precise travel path.",
+      "kind": "journey",
+      "direction": true,
+      "textRoute": true,
+      "sourceIds": [
+        "web",
+        "yale-7",
+        "atlas-exodus"
+      ]
+    },
+    {
+      "id": "exodus-12-journey",
+      "title": "Passover and departure",
+      "points": [
+        [
+          30.8,
+          31.84
+        ],
+        [
+          30.55,
+          32.08
+        ]
+      ],
+      "chapter": 12,
+      "verse": 1,
+      "summary": "Israel keeps Passover. The firstborn die. Pharaoh releases the people. They leave Rameses.",
+      "detail": "The meal becomes a lasting act of memory. Deliverance also carries grief through Egypt.",
+      "uncertainty": "The narrative connects these named regions. Lines do not establish the precise travel path.",
+      "evidence": "The narrative connects these named regions. Lines do not establish the precise travel path.",
+      "kind": "journey",
+      "direction": true,
+      "textRoute": true,
+      "sourceIds": [
+        "web",
+        "yale-8",
+        "atlas-exodus"
+      ]
+    },
+    {
+      "id": "exodus-13-journey",
+      "title": "Remembering and the pillars",
+      "points": [
+        [
+          30.55,
+          32.08
+        ],
+        [
+          30.5,
+          32.3
+        ]
+      ],
+      "chapter": 13,
+      "verse": 1,
+      "summary": "God commands remembrance of the firstborn and unleavened bread. Cloud and fire lead the people.",
+      "detail": "Memory takes the form of household teaching. The chosen route avoids an immediate return through fear.",
+      "uncertainty": "The narrative connects these named regions. Lines do not establish the precise travel path.",
+      "evidence": "The narrative connects these named regions. Lines do not establish the precise travel path.",
+      "kind": "journey",
+      "direction": true,
+      "textRoute": true,
+      "sourceIds": [
+        "web",
+        "yale-8",
+        "atlas-exodus"
+      ]
+    }
+  ],
+  "narrativeRegions": [],
+  "chapterStudies": []
+}
