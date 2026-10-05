@@ -26,11 +26,12 @@ Book pages use `/book.html?book=<slug>`.
 - Nehemiah: all 13 chapters, 406 verses, 41 selected profiles, and 15 town markers.
 - Esther: all 10 chapters, 167 verses, 23 selected profiles, and three town markers.
 - Job: all 42 chapters, 1,070 verses, 18 selected profiles, and one river reference marker.
-- Other 47 books: directory entries and clear planned pages. They have no study content yet.
+- Psalms: all 150 psalms, 2,461 verses, 39 selected profiles, and 15 reference places.
+- Other 46 books: directory entries and clear planned pages. They have no study content yet.
 
 ## Next book
 
-Psalms is next in canonical order. Complete and verify one book before starting another.
+Proverbs is next in canonical order. Complete and verify one book before starting another.
 Do not label a book ready until its reading text, chapter studies, sources, portraits, and maps pass review.
 Use the existing Isaiah guide as the detail standard. Genesis currently has selected major people and chapter-level events.
 Future enrichment can add finer passage divisions, additional people, language notes, and more specific citations.

@@ -8,11 +8,14 @@ def scripture(slug,code,count):
     def chapter(n):
         cache=ROOT/f'scripts/{slug}{n}-source.html'
         if not cache.exists():
-            url=f'https://ebible.org/engwebp/{code}{n:02}.htm'
+            width=3 if code=='PSA' else 2
+            url=f'https://ebible.org/engwebp/{code}{n:0{width}d}.htm'
             with urllib.request.urlopen(urllib.request.Request(url,headers={'User-Agent':'BibleStudyGuide/1.0 educational source cache'}),timeout=45) as r:raw=r.read().decode('utf-8')
             cache.write_text(raw,encoding='utf-8')
         raw=cache.read_text(encoding='utf-8').split('<div class="footnote">')[0].split('<div class="copyright">')[0]
         raw=re.sub(r'<ul class=[\'"]tnav[\'"]>.*?</ul>','',raw,flags=re.S)
+        if code=='PSA':
+            raw=re.sub(r"<div class=['\"]d['\"][^>]*>.*?</div>",'',raw,flags=re.S)
         matches=list(re.finditer(r'<span class="verse" id="V(\d+)">.*?</span>',raw,re.S));verses=[]
         for i,m in enumerate(matches):
             text=raw[m.end():matches[i+1].start() if i+1<len(matches) else len(raw)]

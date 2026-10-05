@@ -74,6 +74,7 @@ for p in people:
  if p['id'] in aliases:p['linkNames']=aliases[p['id']]
  if p['id'] in scopes:p['verseScope']={str(k):v for k,v in scopes[p['id']].items()}
 sources=[dict(next(s for s in g['sources'] if s['id']==i)) for i in ['web','atlas','atlas-canaan']]
+sources[0].update(title='Job · World English Bible',url='https://ebible.org/engwebp/JOB01.htm',summary='The public-domain reading text supplies all 42 chapters.',limits='The text preserves each speaker’s claims. Their speeches do not all receive the Lord’s approval.')
 def reviewed(i,title,url,summary,author,year,coverage,scope,limits,category='Scholarly study',perspective='historical'):
  publisher='Luther Seminary' if 'enterthebible.org' in url else 'Eerdmans' if 'eerdword.com' in url else 'Bible.org' if 'net.bible.org' in url else 'Mormon Stories' if 'mormonstories.org' in url else 'Wikipedia' if 'wikipedia.org' in url else 'The Church of Jesus Christ of Latter-day Saints'
  s=source(i,title,url,summary,category,perspective,limits);s.update(author=author,publisher=publisher,year=year,chapterCoverage=coverage,reviewed=dict(date='2026-10-05',scope=scope));sources.append(s);return s

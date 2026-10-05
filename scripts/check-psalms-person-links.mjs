@@ -1,0 +1,36 @@
+import assert from 'node:assert/strict';
+import {readFile} from 'node:fs/promises';
+import vm from 'node:vm';
+const root=new URL('../dist/',import.meta.url);
+const app=await readFile(new URL('book-psalms-app.js',root),'utf8');
+const profiles=await readFile(new URL('book-psalms-portraits.js',root),'utf8');
+const people=JSON.parse(profiles.match(/export const people = (.*);/)[1]);
+const book=JSON.parse(await readFile(new URL('data/books/psalms.json',root),'utf8'));
+const content=JSON.parse(await readFile(new URL('data/books/psalms-native-content.json',root),'utf8'));
+const context=vm.createContext({people,state:{chapter:1},entityLinkCache:{chapter:null,terms:[]},data:{places:content.places,regions:[],campaigns:[],events:[],ancientRoads:[],words:[]},mapDisplayName:s=>s,esc:s=>String(s).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('"','&quot;')});
+vm.runInContext(app.slice(app.indexOf('function entityLinkTerms('),app.indexOf('function linkedPersonProfileHtml(')),context);
+const reachable=new Set();
+const verseHtml=(c,v)=>{context.state.chapter=c;return context.linkedEntityHtml(book.scripture[c].find(x=>x.verse===v).text,{verse:v});};
+for(const c of book.chapters){
+ context.state.chapter=c.chapter;
+ const text=context.linkedEntityHtml(c.summary+' '+c.meaning)+book.scripture[c.chapter].map(v=>verseHtml(c.chapter,v.verse)).join('');
+ for(const m of text.matchAll(/data-person-id="([^"]+)"/g))reachable.add(m[1]);
+}
+const missing=book.people.filter(p=>!reachable.has(p.id)).map(p=>p.id);
+assert.deepEqual(missing,[],'Every profile needs a reader link');
+assert.equal(Object.values(book.scripture).flat().length,2461);
+assert.equal(book.scripture[119].length,176);
+assert(!book.scripture[119].some(v=>/ALEPH|BETH|GIMEL|TAW/.test(v.text)),'Alphabet headings must not enter verse text');
+assert(book.chapters.every(c=>c.route.length===0&&!('year' in c)));
+assert.equal(book.sources.find(s=>s.id==='web').url,'https://ebible.org/engwebp/PSA001.htm');
+assert.deepEqual(book.chapters.filter(c=>c.sourceIds.includes('dm-psalm82')).map(c=>c.chapter),[82]);
+assert(!people.rahab,'Do not link poetic Rahab to the woman in Joshua');
+assert(verseHtml(105,17).includes('data-person-id="joseph"'));
+assert(verseHtml(105,23).includes('data-person-id="jacob"'),'Link the named ancestor in verse 23');
+assert(!/data-person-id="jacob"[^>]*>Israel</.test(verseHtml(105,23)),'Do not link the whole people to their ancestor');
+assert(verseHtml(106,17).includes('data-person-id="dathan"'));
+assert(verseHtml(110,4).includes('data-person-id="melchizedek"'));
+const art=JSON.parse(await readFile(new URL('../scripts/psalms-generated-portraits.json',root),'utf8'));
+assert.equal(Object.keys(art).length,8);
+for(const record of Object.values(art))assert(record.originalPath&&record.reviewed);
+console.log('Psalms passed: 39 reachable profiles, 2,461 clean verses, reviewed source coverage, and reference maps.');

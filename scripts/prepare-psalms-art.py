@@ -1,0 +1,26 @@
+"""Reuse reviewed people and give new Psalm figures distinct compositions."""
+import json
+from pathlib import Path
+ROOT=Path(__file__).resolve().parent.parent;OUT=ROOT/'dist/data/books'
+book=json.loads((ROOT/'review/psalms-draft.json').read_text(encoding='utf8'))
+reuse=json.loads((ROOT/'scripts/psalms-art-reuse.json').read_text(encoding='utf8'))
+records={i:dict(json.loads((OUT/(slug+'-art.json')).read_text(encoding='utf8'))[pid]) for i,(slug,pid) in reuse.items()}
+scenes={
+'sons-korah-psalms':'Exactly four distinct adult ancient Near Eastern male singers as a representative group. One broad-faced silver-bearded elder seated in profile, one young narrow-faced clean-shaven man standing, one round-faced black-bearded man angled left, one curly-haired middle-aged man looking forward. Waist-up framing, modest sage, copper, cream and indigo clothes. Quiet attentive expressions, pale temple courtyard and cool lavender shadows. No instruments covering faces.',
+'heman-ezrahite-psalms':'One older ancient Near Eastern man, broad forehead, short black-and-gray beard, deep brown eyes, coarse dark curls. Close chest-up three-quarter left framing, modest charcoal tunic and faded ochre shawl. Weary questioning expression, shaded clay doorway, pale blue-gray dawn light. No depiction of wounds or death.',
+'ethan-ezrahite-psalms':'One mature ancient Near Eastern man, long oval face, strong nose, clean-shaven cheeks, straight dark hair with silver at temples. Seated waist-up side view facing right, modest plum robe and soft teal outer cloth. Thoughtful attentive expression, stone terrace with green trees and warm cream afternoon sky. Hands resting separately.',
+'cush-benjamite-psalms':'One adult ancient Near Eastern man representing the otherwise undescribed Cush the Benjamite in Psalm 7. Round face, short tightly curled black hair, broad nose, slight dark stubble, brown eyes. Standing waist-up front view turned slightly left, modest rust tunic and pale olive cloak. Restrained serious expression, muted rose hills and dusty blue morning sky. No crown or weapon.',
+'abimelech-psalms':'One older ancient Near Eastern male ruler representing the Abimelech named in Psalm 34 heading. Angular face, salt-and-pepper short beard, wavy dark-gray hair. Chest-up near profile facing left, modest woven navy robe with narrow muted gold trim. Reserved questioning expression, cool turquoise plaster room and pale side light. Simple fabric headband, no extravagant crown.',
+'royal-king-psalm45':'One young adult ancient Near Eastern royal bridegroom representing the unnamed king in Psalm 45. Wide cheekbones, dark almond eyes, short neat black beard, thick curls. Standing half-body three-quarter right framing, cream woven tunic and dark blue robe with restrained copper trim, simple gold headband. Calm warm expression, pale stone palace doorway and green garden with soft sunlight. No weapon or modern objects.',
+'royal-bride-psalm45':'One adult ancient Near Eastern royal bride representing the unnamed woman in Psalm 45. Long oval face, expressive brown eyes, dark loosely braided hair. Seated waist-up turned left, modest high-necked plum gown with fine muted gold embroidery and pale sage draped shawl. Gentle composed smile, cream stone arch, soft rose textiles and pale blue garden light. Fully clothed, natural adult anatomy, no veil hiding her face.',
+'exiles-psalm137':'Exactly five distinct ancient Near Eastern adult exiles as a representative group, three women and two men, all visible waist-up. An elderly silver-haired woman seated beside a broad-faced dark-bearded man, a younger woman in sage angled sideways, a clean-shaven man in rust behind, and a middle-aged woman in indigo looking across the river. Modest woven cream, sage, rust, indigo and plum garments. Sad reflective expressions, quiet willow-lined riverbank with pale golden reeds and lavender dusk sky. No captor, weapons, violence or graphic harm.'}
+path=ROOT/'scripts/psalms-generated-portraits.json'
+manifest=json.loads(path.read_text(encoding='utf8')) if path.exists() else {}
+for p in book['people']:
+ if p['id'] in records:continue
+ manifest.setdefault(p['id'],dict(name=p['name'],prompt='Create a finished Bible study portrait. '+scenes[p['id']]+' Painterly realistic illustration with visible brush texture, natural anatomy and modest ancient clothing. Keep all faces high enough for a square top-centered crop. One composition, no grid, visible writing, modern objects, medieval armor or halos. Artistic interpretation, no claim of known likeness.',src='assets/portraits/psalms/'+p['id']+'.png',mode='built-in image generation'))
+for pid,item in manifest.items():
+ if (ROOT/'dist'/item['src']).exists():records[pid]=dict(src=item['src'],generated=True,title=item['name']+' · interpretive portrait',credit='AI-generated illustration',license='Generated artwork',note='Artistic interpretation. Appearance, age, and setting are not verified historical evidence.')
+path.write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n',encoding='utf8')
+(OUT/'psalms-art.json').write_text(json.dumps(records,ensure_ascii=False,indent=2)+'\n',encoding='utf8')
+print('Portraits available:',len(records),'Remaining:',[p['id'] for p in book['people'] if p['id'] not in records])
