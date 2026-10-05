@@ -47,6 +47,7 @@ const samuelCounts=[28,36,21,22,12,21,17,22,27,27,15,25,23,52,35,23,58,30,24,42,
 const secondSamuelCounts=[27,32,39,12,25,23,29,18,13,19,27,31,39,33,37,23,29,33,43,26,22,51,39,25];
 const firstKingsCounts=[53,46,28,34,18,38,51,66,28,29,43,33,34,31,34,34,24,46,21,43,29,53];
 const secondKingsCounts=[18,25,27,44,27,33,20,29,37,36,21,21,25,29,38,20,41,37,37,21,26,20,37,20,30];
+const firstChroniclesCounts=[54,55,24,43,26,81,40,40,44,14,47,40,14,17,29,43,27,17,19,8,30,19,32,31,31,32,34,21,30];
 const numbersCounts=[54,34,51,49,31,27,89,26,23,36,35,16,33,45,41,50,13,32,22,29,35,41,30,25,18,65,23,31,40,16,54,42,56,29,34,13];
 const leviticusCounts=[17,16,17,35,19,30,38,36,24,20,47,8,59,57,33,34,16,30,37,27,24,33,44,23,55,46,34];
 for(const book of directory.filter(b=>b.status==='ready'&&!['genesis','isaiah'].includes(b.id))){
@@ -66,6 +67,7 @@ for(const book of directory.filter(b=>b.status==='ready'&&!['genesis','isaiah'].
     if(book.id==='2-samuel')assert.equal(text.length,secondSamuelCounts[c.chapter-1]);
     if(book.id==='1-kings')assert.equal(text.length,firstKingsCounts[c.chapter-1]);
     if(book.id==='2-kings')assert.equal(text.length,secondKingsCounts[c.chapter-1]);
+    if(book.id==='1-chronicles')assert.equal(text.length,firstChroniclesCounts[c.chapter-1]);
     text.forEach((v,i)=>{assert.equal(v.verse,i+1);assert(v.text&&!/\ufffd|\bundefined\b|\b(?:Exodus|Genesis)\s*</.test(v.text));});verses+=text.length;
     assert(c.summary&&c.meaning&&c.lds?.text&&c.historicalNote);
     for(const id of c.sourceIds)assert.equal(sources.get(id)?.perspective,'historical');
@@ -85,6 +87,7 @@ for(const book of directory.filter(b=>b.status==='ready'&&!['genesis','isaiah'].
   if(book.id==='2-samuel')assert.equal(verses,695);
   if(book.id==='1-kings')assert.equal(verses,816);
   if(book.id==='2-kings')assert.equal(verses,719);
+  if(book.id==='1-chronicles')assert.equal(verses,942);
   console.log(`${content.name} checks passed: ${content.chapterCount} chapters, ${verses} verses, ${people.size} portraits.`);
 }
 

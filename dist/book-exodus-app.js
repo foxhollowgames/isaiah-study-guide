@@ -96,6 +96,8 @@ function entityLinkTerms(verse = null) {
     for (const label of [person.name, ...aliases]) add(label, 'person', id, person.name);
   }
   for (const feature of [...data.places, ...data.regions, ...data.campaigns, ...data.events, ...data.ancientRoads]) {
+    const scope = feature.verseScope?.[state.chapter];
+    if (verse != null && scope && !scope.includes(verse)) continue;
     const name = mapDisplayName(feature.name || feature.title || '');
     add(name, 'feature', feature.id, name);
   }
@@ -115,7 +117,7 @@ function linkedEntityHtml(text = '', options = {}) {
   let html = '', cursor = 0;
   for (const match of String(text).matchAll(pattern)) {
     const start = match.index, end = start + match[0].length;
-    if (/Tubal[ -]$/i.test(text.slice(0,start))) continue;
+    if (/(?:Tubal|Uzzen|Obed)[ -]$/i.test(text.slice(0,start))) continue;
     if (/\p{L}|\p{N}/u.test(text[start - 1] || '') || /\p{L}|\p{N}/u.test(text[end] || '')) continue;
     const term = byLabel.get(match[0].toLowerCase());
     if (!term) continue;

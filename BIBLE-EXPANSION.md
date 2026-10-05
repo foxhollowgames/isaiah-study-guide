@@ -20,11 +20,12 @@ Book pages use `/book.html?book=<slug>`.
 - 2 Samuel: all 24 chapters, 695 verses, 24 chapter studies, and 75 selected profiles with portraits.
 - 1 Kings: all 22 chapters, 816 verses, 22 chapter studies, and 68 selected profiles with portraits.
 - 2 Kings: all 25 chapters, 719 verses, 25 chapter studies, and 116 selected profiles with portraits.
-- Other 53 books: directory entries and clear planned pages. They have no study content yet.
+- 1 Chronicles: all 29 chapters, 942 verses, 29 chapter studies, and 139 selected profiles with portraits.
+- Other 52 books: directory entries and clear planned pages. They have no study content yet.
 
 ## Next book
 
-1 Chronicles is next in canonical order. Complete and verify one book before starting another.
+2 Chronicles is next in canonical order. Complete and verify one book before starting another.
 Do not label a book ready until its reading text, chapter studies, sources, portraits, and maps pass review.
 Use the existing Isaiah guide as the detail standard. Genesis currently has selected major people and chapter-level events.
 Future enrichment can add finer passage divisions, additional people, language notes, and more specific citations.
@@ -145,3 +146,7 @@ Build with scripts/build-1-samuel.py, scripts/finish-samuel-art.py, and scripts/
 2 Kings uses reviewed Yale lecture sections, Millard’s scholarly comparison of Sennacherib’s campaign accounts, and the British Museum’s indexed prism catalog. Original McClellan thesis sections address 2 Kings 3:27 and Naaman’s soil request. Records state the exact reviewed scope and access limits. Official Institute sections and 2026 Come, Follow Me remain in the LDS layer.
 
 2 Kings adds 85 generated portraits and reuses 31 same-person portraits. Exact prompts and original paths are in `scripts/2-kings-generated-portraits.json`. Identity checks cover the two Joashes, Jehorams, Jehoahazes, Ben Hadads, Shallums, and Seraiahs. Ambiguous same-verse short names remain unlinked.
+
+1 Chronicles uses reviewed Oxford and Luther Seminary context, original McClellan interview passages, and official Church teaching. Wikipedia revision and license remain attached. The Japhet record verifies publication details only. Source records state access limits.
+
+1 Chronicles adds 41 generated portraits and reuses 98 same-person portraits. Exact prompts and original paths are in `scripts/1-chronicles-generated-portraits.json`. Identity checks separate ancestral names, royal namesakes, musicians, and Obed-Edom profiles. Family names do not become place links.
