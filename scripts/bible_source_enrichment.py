@@ -22,11 +22,13 @@ LESSONS=[
  ('exodus',17,[19,20,24,31,32,33,34],'Exodus 19–20; 24; 31–34','The lesson studies covenant commitments, commandments, repentance, and the Sabbath. It connects the golden calf account with mercy and forgiveness.'),
  ('exodus',18,span(35,40),'Exodus 35–40; Leviticus 1; 4; 16; 19','The lesson connects tabernacle objects, willing gifts, and sacred ordinances with holiness and Jesus Christ.'),
  ('leviticus',18,[1,4,16,19],'Exodus 35–40; Leviticus 1; 4; 16; 19','The lesson interprets sacrifice through Christ’s Atonement. It connects holiness with worship and conduct toward other people.'),
+ ('numbers',19,[11,12,13,14,20,21,22,23,24,27],'Numbers 11–14; 20–24; 27','The lesson studies gratitude, meekness, trust, and resistance to pressure. It connects the bronze serpent with faith in Christ.'),
 ]
 WIKI={
  'genesis':([1,12,50],'Genesis moves from creation and early humanity to the families of Abraham, Isaac, Jacob, and Joseph. This overview helps explain the book’s structure.'),
  'exodus':([1,19,40],'Exodus connects escape from slavery with a covenant at Sinai and the construction of the tabernacle. This overview supplies book structure.'),
  'leviticus':([1,11,19],'Leviticus concerns offerings, priestly service, ritual purity, and conduct within the community. This overview supplies book structure.'),
+ 'numbers':([1,10,26],'Numbers moves from camp preparation at Sinai through wilderness journeys to the plains of Moab. The book combines census lists, laws, and narrative accounts.'),
 }
 SCHOLARLY={
  'genesis':('scholar-baden','The Book of Exodus: A Biography','Joel S. Baden',2019,'https://assets.press.princeton.edu/catalogs/S19Seasonal.pdf','The publisher describes Baden’s study of the Exodus story, its written forms, and its later use.','Publisher catalogue entry reviewed. The full book was not read.'),
@@ -55,13 +57,16 @@ def enrich(data):
         review=next(r for r in json.loads((ROOT/'scripts/bible-wikipedia-reviews.json').read_text(encoding='utf-8')) if r['book']==slug)
         chapters,summary=WIKI[slug]
         add(data,dict(id='wiki-'+slug,title=review['title']+' · Wikipedia',author='Wikipedia contributors',category='Encyclopedia background',perspective='historical',url=review['url'],revisionId=review['revisionId'],revisionUrl='https://en.wikipedia.org/w/index.php?oldid='+review['revisionId'],summary=summary,reviewed=DATE+': Opening overview and book structure reviewed. These notes make no claim about exact composition dates.',limits='Anyone can edit this source. Use it for background and source discovery. Its disputed historical claims require separate scholarly review.',license='CC BY-SA 4.0',licenseUrl='https://creativecommons.org/licenses/by-sa/4.0/'),chapters)
-        sid,title,author,year,url,summary,access=SCHOLARLY[slug]
-        add(data,dict(id=sid,title=title,author=author,year=year,url=url,summary=summary,category='Scholarly publication',perspective='historical',reviewed=DATE+': '+access,limits=access+' This record verifies identity and scope. It does not independently verify every argument.',license='Linked publication record. Original summary.'),[])
-        next(s for s in data['sources'] if s['id']=='wiki-'+slug)['citedSourceIds']=[sid]
+        if slug in SCHOLARLY:
+            sid,title,author,year,url,summary,access=SCHOLARLY[slug]
+            add(data,dict(id=sid,title=title,author=author,year=year,url=url,summary=summary,category='Scholarly publication',perspective='historical',reviewed=DATE+': '+access,limits=access+' This record verifies identity and scope. It does not independently verify every argument.',license='Linked publication record. Original summary.'),[])
+            next(s for s in data['sources'] if s['id']=='wiki-'+slug)['citedSourceIds']=[sid]
     if slug in DM:
         chapters,summary,moments=DM[slug]
         timestamps=[dict(seconds=n,label=label,url=INTERVIEW+'#:~:text='+quote(f'[{n//3600:02}:{n%3600//60:02}:{n%60:02}]')) for n,label in moments]
         add(data,dict(id='dm-'+slug,title='10 Things You Should Know About the Bible · Episode 1802 · '+data['name'],author='Dan McClellan · interview with John Dehlin',year='August 23, 2023 · interview recorded August 14',category='Scholar interview',perspective='historical',group='mcclellan',url=INTERVIEW,summary=summary,timestamps=timestamps,reviewed=DATE+': Relevant sections of the publisher’s machine-generated, lightly edited transcript reviewed. Audio and video were not independently checked. Transcript errors remain possible.',limits='This is one scholar’s interpretation, separate from Church teaching. Proposed dates and claims about scholarly agreement were not independently verified.',license='Linked interview. Original summary. Transcript text is not reproduced.'),chapters)
     data['review']['sourcePolicy']='BIBLE-SOURCE-POLICY.md'
+    if slug=='numbers':
+        add(data,dict(id='dm-numbers',title='Satan as a Fallen Angel · Numbers 22 note',author='Dan McClellan',year='September 13, 2009',category='Scholar commentary',perspective='historical',group='mcclellan',url='https://danielomcclellan.wordpress.com/2009/09/13/satan-as-a-fallen-angel/',summary='McClellan’s notes distinguish an adversary as a role from Satan as a personal name. In Numbers 22, the angel opposes Balaam. This does not identify the angel as the later figure of Satan.',reviewed=DATE+': The original post and footnotes 1–2 were reviewed. The broader history proposed in the post was not independently verified.',limits='This older scholarly post supplies a focused reading of Numbers 22. It is not Church teaching or a verified account of every stage in beliefs about Satan.',license='Linked original post. Original guide summary.'),[22])
     data['review']['sourceEnrichmentDate']=DATE
     return data

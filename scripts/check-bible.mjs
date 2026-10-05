@@ -39,6 +39,7 @@ for(const id of ['sidebarContent','chapterPickerMenu','map','contextCard','tourD
 assert(!shell.includes('readingContent'),'Do not restore the separate book renderer');
 console.log(`Bible checks passed: ${directory.length} books, ${data.chapters.length} chapters, ${total} verses, ${data.people.length} portraits, ${data.sources.length} sources.`);
 const exodusCounts=[22,25,22,31,23,30,25,32,35,29,10,51,22,31,27,36,16,27,25,26,36,31,33,18,40,37,21,43,46,38,18,35,23,35,35,38,29,31,43,38];
+const numbersCounts=[54,34,51,49,31,27,89,26,23,36,35,16,33,45,41,50,13,32,22,29,35,41,30,25,18,65,23,31,40,16,54,42,56,29,34,13];
 const leviticusCounts=[17,16,17,35,19,30,38,36,24,20,47,8,59,57,33,34,16,30,37,27,24,33,44,23,55,46,34];
 for(const book of directory.filter(b=>b.status==='ready'&&!['genesis','isaiah'].includes(b.id))){
   const content=await read(`data/books/${book.id}.json`),images=await read(`data/books/${book.id}-art.json`);
@@ -48,6 +49,7 @@ for(const book of directory.filter(b=>b.status==='ready'&&!['genesis','isaiah'].
     assert.equal(c.chapter,content.chapters.indexOf(c)+1);const text=content.scripture[c.chapter];
     if(book.id==='exodus')assert.equal(text.length,exodusCounts[c.chapter-1]);
     if(book.id==='leviticus')assert.equal(text.length,leviticusCounts[c.chapter-1]);
+    if(book.id==='numbers')assert.equal(text.length,numbersCounts[c.chapter-1]);
     text.forEach((v,i)=>{assert.equal(v.verse,i+1);assert(v.text&&!/\ufffd|\bundefined\b|\b(?:Exodus|Genesis)\s*</.test(v.text));});verses+=text.length;
     assert(c.summary&&c.meaning&&c.lds?.text&&c.historicalNote);
     for(const id of c.sourceIds)assert.equal(sources.get(id)?.perspective,'historical');
@@ -58,5 +60,22 @@ for(const book of directory.filter(b=>b.status==='ready'&&!['genesis','isaiah'].
   for(const p of content.places){assert(p.limits);assert(Number.isFinite(p.lat)&&Number.isFinite(p.lng));p.sourceIds.forEach(id=>assert(sources.has(id)));}
   if(book.id==='exodus')assert.equal(verses,1213);
   if(book.id==='leviticus')assert.equal(verses,859);
+  if(book.id==='numbers')assert.equal(verses,1288);
   console.log(`${content.name} checks passed: ${content.chapterCount} chapters, ${verses} verses, ${people.size} portraits.`);
 }
+
+// Reviewed chapter coverage must match the actual perspective associations.
+for(const book of directory.filter(b=>b.status==='ready'&&b.id!=='isaiah')){
+  const content=await read(`data/books/${book.id}.json`);
+  for(const s of content.sources){
+    assert(s.summary&&s.limits&&new URL(s.url).protocol==='https:');
+    if(s.chapterCoverage){
+      const actual=content.chapters.filter(c=>(s.perspective==='lds'?c.lds.sourceIds:c.sourceIds).includes(s.id)).map(c=>c.chapter);
+      assert.deepEqual(actual,s.chapterCoverage,`${book.id}: source scope ${s.id}`);
+      assert(s.author&&s.reviewed,`${book.id}: missing review record ${s.id}`);
+    }
+    if(s.id.startsWith('wiki-'))assert(s.revisionId&&s.licenseUrl&&s.revisionUrl);
+    for(const id of s.citedSourceIds||[])assert(content.sources.some(other=>other.id===id));
+  }
+}
+console.log('Reviewed source coverage and attribution checks passed.');

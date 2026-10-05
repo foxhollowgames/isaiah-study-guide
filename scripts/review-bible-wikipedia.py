@@ -4,7 +4,7 @@ from pathlib import Path
 ROOT=Path(__file__).resolve().parent.parent
 sys.stdout.reconfigure(encoding='utf-8')
 rows=[]
-for slug,title in [('genesis','Book_of_Genesis'),('exodus','Book_of_Exodus'),('leviticus','Book_of_Leviticus')]:
+for slug,title in [('genesis','Book_of_Genesis'),('exodus','Book_of_Exodus'),('leviticus','Book_of_Leviticus'),('numbers','Book_of_Numbers')]:
     url='https://en.wikipedia.org/wiki/'+title
     raw=urllib.request.urlopen(urllib.request.Request(url,headers={'User-Agent':'BibleStudyGuide educational source review'}),timeout=40).read().decode()
     match=re.search(r'"wgRevisionId":(\d+)',raw) or re.search(r'oldid=(\d+)',raw)
