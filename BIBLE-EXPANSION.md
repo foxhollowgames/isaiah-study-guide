@@ -19,11 +19,12 @@ Book pages use `/book.html?book=<slug>`.
 - 1 Samuel: all 31 chapters, 810 verses, 31 chapter studies, and 56 selected profiles with portraits.
 - 2 Samuel: all 24 chapters, 695 verses, 24 chapter studies, and 75 selected profiles with portraits.
 - 1 Kings: all 22 chapters, 816 verses, 22 chapter studies, and 68 selected profiles with portraits.
-- Other 54 books: directory entries and clear planned pages. They have no study content yet.
+- 2 Kings: all 25 chapters, 719 verses, 25 chapter studies, and 116 selected profiles with portraits.
+- Other 53 books: directory entries and clear planned pages. They have no study content yet.
 
 ## Next book
 
-2 Kings is next in canonical order. Complete and verify one book before starting another.
+1 Chronicles is next in canonical order. Complete and verify one book before starting another.
 Do not label a book ready until its reading text, chapter studies, sources, portraits, and maps pass review.
 Use the existing Isaiah guide as the detail standard. Genesis currently has selected major people and chapter-level events.
 Future enrichment can add finer passage divisions, additional people, language notes, and more specific citations.
@@ -140,3 +141,7 @@ Build with scripts/build-1-samuel.py, scripts/finish-samuel-art.py, and scripts/
 1 Kings uses reviewed Yale study text, original McClellan commentary on the heavenly council, official Church manuals, and 2026 Come, Follow Me. Wikipedia revision and license records remain attached. Publisher and thesis records state access limits.
 
 1 Kings adds 55 built-in generated portraits and reuses 13 same-person portraits. Adult Solomon has a new portrait. Prompts and original paths are in `scripts/1-kings-generated-portraits.json`. Same-name checks separate two Hirams, two Jehus, and two Ben Hadads.
+
+2 Kings uses reviewed Yale lecture sections, Millard’s scholarly comparison of Sennacherib’s campaign accounts, and the British Museum’s indexed prism catalog. Original McClellan thesis sections address 2 Kings 3:27 and Naaman’s soil request. Records state the exact reviewed scope and access limits. Official Institute sections and 2026 Come, Follow Me remain in the LDS layer.
+
+2 Kings adds 85 generated portraits and reuses 31 same-person portraits. Exact prompts and original paths are in `scripts/2-kings-generated-portraits.json`. Identity checks cover the two Joashes, Jehorams, Jehoahazes, Ben Hadads, Shallums, and Seraiahs. Ambiguous same-verse short names remain unlinked.

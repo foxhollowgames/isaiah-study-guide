@@ -8,6 +8,7 @@ books=[('genesis','Book_of_Genesis'),('exodus','Book_of_Exodus'),('leviticus','B
 books.append(('1-samuel','Books_of_Samuel'))
 books.append(('2-samuel','Books_of_Samuel'))
 books.append(('1-kings','Books_of_Kings'))
+books.append(('2-kings','Books_of_Kings'))
 for slug,title in books:
     if len(sys.argv)>1 and slug not in sys.argv[1:]:continue
     url='https://en.wikipedia.org/wiki/'+title
