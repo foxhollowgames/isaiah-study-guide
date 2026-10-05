@@ -1,0 +1,1335 @@
+{
+  "sources": [
+    {
+      "id": "web",
+      "title": "Ezra · World English Bible",
+      "url": "https://ebible.org/engwebp/EZR01.htm",
+      "summary": "Complete public-domain reading text for ten chapters.",
+      "category": "Scripture",
+      "perspective": "historical",
+      "limits": "Narration does not independently verify every event, identity, appearance, or private belief.",
+      "type": "Scripture",
+      "limitations": "Narration does not independently verify every event, identity, appearance, or private belief.",
+      "license": "Public domain"
+    },
+    {
+      "id": "atlas",
+      "title": "Bible Maps: The World of the Old Testament",
+      "perspective": "historical",
+      "category": "Geography",
+      "url": "https://www.churchofjesuschrist.org/study/scriptures/bible-maps/map-9?lang=eng",
+      "summary": "This Church-published atlas locates the wider setting and marks some disputed places.",
+      "limits": "Use the geographic labels as context. The linked atlas also includes LDS commentary.",
+      "type": "Geography",
+      "limitations": "Use the geographic labels as context. The linked atlas also includes LDS commentary.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "atlas-canaan",
+      "title": "Bible Maps: Canaan in Old Testament Times",
+      "perspective": "historical",
+      "category": "Geography",
+      "url": "https://www.churchofjesuschrist.org/study/scriptures/bible-maps/map-10?lang=eng",
+      "summary": "This Church-published atlas identifies towns and regions in Canaan.",
+      "limits": "Coordinates are display estimates. A town marker does not verify each Genesis event.",
+      "limitations": "Coordinates are display estimates. A town marker does not verify each Genesis event.",
+      "type": "Geography",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "terrain",
+      "title": "Mapzen / Tilezen terrain and Natural Earth geography",
+      "perspective": "historical",
+      "category": "Geography",
+      "url": "https://registry.opendata.aws/terrain-tiles/",
+      "summary": "Cached terrain shows modern elevation. Natural Earth supplies the land and water outlines.",
+      "limits": "Modern terrain is a geographic aid. It does not reconstruct ancient shorelines or settlements.",
+      "type": "Geography",
+      "limitations": "Modern terrain is a geographic aid. It does not reconstruct ancient shorelines or settlements.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "luther-ezra",
+      "title": "Summary of Ezra · Luther Seminary",
+      "url": "https://enterthebible.org/courses/ezra/lessons/summary-of-ezra/",
+      "summary": "The overview studies temple rebuilding, communal identity, and the book’s literary structure.",
+      "category": "Scholarly study",
+      "perspective": "historical",
+      "limits": "Scholarly teaching context. Editing dates, authorship, and interpretation remain debated.",
+      "author": "Mark Throntveit · revised Jione Havea",
+      "year": 2023,
+      "chapterCoverage": [
+        1,
+        2,
+        4,
+        6,
+        7,
+        9,
+        10
+      ],
+      "reviewed": "2026-10-05: Complete main Summary, So What, Where, Who, When, What, and How sections reviewed.",
+      "type": "Scholarly study",
+      "limitations": "Scholarly teaching context. Editing dates, authorship, and interpretation remain debated.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "havea-ezra",
+      "title": "Bible in the World: Ezra · Luther Seminary",
+      "url": "https://enterthebible.org/courses/ezra/lessons/bible-in-the-world-ezra/",
+      "summary": "Havea considers return migration, people who remained, and exclusion through community boundaries.",
+      "category": "Scholarly study",
+      "perspective": "historical",
+      "limits": "A named interpretive reading and modern comparison. It does not recover each ancient person’s beliefs.",
+      "author": "Jione Havea",
+      "year": "Date not displayed",
+      "chapterCoverage": [
+        2,
+        4,
+        9,
+        10
+      ],
+      "reviewed": "2026-10-05: Complete main Remigrants, Natives, and Polyculturalism sections reviewed.",
+      "type": "Scholarly study",
+      "limitations": "A named interpretive reading and modern comparison. It does not recover each ancient person’s beliefs.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "eskenazi-excerpt",
+      "title": "A Resistant Model of Peoplehood · Yale University Press",
+      "url": "https://yalebooks.yale.edu/2023/07/20/ezra-a-new-translation-with-introduction-and-commentary-by-tamara-cohn-eskenazi/",
+      "summary": "Eskenazi studies community survival, scripture, literary structure, and rebuilding under Persian rule.",
+      "category": "Scholarly study",
+      "perspective": "historical",
+      "limits": "This publisher excerpt supplies literary context. It does not establish consensus or verify every narrated event.",
+      "author": "Tamara Cohn Eskenazi",
+      "year": 2023,
+      "chapterCoverage": [
+        1,
+        2,
+        3,
+        6,
+        7,
+        9,
+        10
+      ],
+      "reviewed": "2026-10-05: Complete authorized preface and introduction excerpt reviewed. The full commentary was not read.",
+      "type": "Scholarly study",
+      "limitations": "This publisher excerpt supplies literary context. It does not establish consensus or verify every narrated event.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "eskenazi-record",
+      "title": "Ezra: A New Translation with Introduction and Commentary · publisher record",
+      "url": "https://yalebooks.yale.edu/book/9780300149692/ezra/",
+      "summary": "Yale verifies Eskenazi’s commentary, publication date, and ISBN.",
+      "category": "Verified bibliography",
+      "perspective": "historical",
+      "limits": "Publisher description and publication metadata reviewed. The full 504-page commentary was not read.",
+      "author": "Tamara Cohn Eskenazi",
+      "year": 2023,
+      "reviewed": "2026-10-05: Publisher description and metadata reviewed.",
+      "isbn": "9780300149692",
+      "type": "Verified bibliography",
+      "limitations": "Publisher description and publication metadata reviewed. The full 504-page commentary was not read.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "mcclellan-ezra",
+      "title": "Ezra–Nehemiah and foreign marriages · McClellan interview",
+      "url": "https://www.relationscapes.org/p/mcclellan-transcript/",
+      "summary": "McClellan interprets the foreign-marriage policy as protecting a post-exilic community boundary.",
+      "category": "McClellan commentary",
+      "perspective": "historical",
+      "limits": "The timestamp locates the section, not the exact utterance. This interpretation does not prove the wives’ beliefs or supply Church teaching.",
+      "author": "Dan McClellan · interview with Blair Hodges",
+      "year": "Publisher transcript; date not displayed",
+      "chapterCoverage": [
+        9,
+        10
+      ],
+      "reviewed": "2026-10-05: Relevant publisher transcript passage in the section beginning 01:08:49 reviewed. The complete interview and audio were not reviewed.",
+      "group": "mcclellan",
+      "type": "McClellan commentary",
+      "limitations": "The timestamp locates the section, not the exact utterance. This interpretation does not prove the wives’ beliefs or supply Church teaching.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "wiki-ezra",
+      "title": "Book of Ezra · Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Book_of_Ezra",
+      "summary": "The opening supplies book structure and leads to bibliography.",
+      "category": "Encyclopedia background",
+      "perspective": "historical",
+      "limits": "Opening four paragraphs reviewed. Broad historical claims require comparison with scholarly sources.",
+      "author": "Wikipedia contributors",
+      "year": "Reviewed revision",
+      "chapterCoverage": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "reviewed": "2026-10-05: Opening four paragraphs of revision 1368563443 reviewed.",
+      "revisionId": "1368563443",
+      "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1368563443",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "citedSourceIds": [
+        "eskenazi-record"
+      ],
+      "type": "Encyclopedia background",
+      "limitations": "Opening four paragraphs reviewed. Broad historical claims require comparison with scholarly sources."
+    },
+    {
+      "id": "cfm-ezra-2026",
+      "title": "Come, Follow Me 2026 · Ezra 1; 3–7; Nehemiah selections",
+      "url": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/31?lang=eng",
+      "summary": "The lesson studies temple rebuilding, help from others, opposition, joy, and God’s guidance.",
+      "category": "Come, Follow Me",
+      "perspective": "lds",
+      "limits": "Faith teaching and application. Its Nehemiah 8 material does not constitute coverage of Ezra 8.",
+      "author": "The Church of Jesus Christ of Latter-day Saints",
+      "year": 2026,
+      "chapterCoverage": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "reviewed": "2026-10-05: Complete main lesson, home and Church sections, and children’s sections reviewed. Linked supplements were not reviewed.",
+      "type": "Come, Follow Me",
+      "limitations": "Faith teaching and application. Its Nehemiah 8 material does not constitute coverage of Ezra 8.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "lds-ezra-intro",
+      "title": "Introduction to Ezra · Seminary teacher manual",
+      "url": "https://www.churchofjesuschrist.org/study/manual/old-testament-seminary-teacher-manual/introduction-to-the-book-of-ezra?lang=eng",
+      "summary": "The introduction supplies Church teaching context for restoration and Ezra’s two main narrative divisions.",
+      "category": "LDS study manual",
+      "perspective": "lds",
+      "limits": "General book introduction, not verse-by-verse commentary. Approximate dates and possible Sheshbazzar identification remain uncertain.",
+      "author": "The Church of Jesus Christ of Latter-day Saints",
+      "year": 2014,
+      "chapterCoverage": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "reviewed": "2026-10-05: Complete main introduction reviewed.",
+      "type": "LDS study manual",
+      "limitations": "General book introduction, not verse-by-verse commentary. Approximate dates and possible Sheshbazzar identification remain uncertain.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "lds-ezra-104",
+      "title": "Lesson 104: Ezra 7–10 · Seminary teacher manual",
+      "url": "https://www.churchofjesuschrist.org/study/manual/old-testament-seminary-teacher-manual/introduction-to-the-book-of-ezra/lesson-104-ezra-7-10?lang=eng",
+      "summary": "The lesson connects study, practice, teaching, prayer, and repentance. It interprets the marriages through idolatry concerns.",
+      "category": "LDS study manual",
+      "perspective": "lds",
+      "limits": "LDS interpretation does not independently establish every wife’s beliefs. The route uses Ezra’s Babylon origin rather than the lesson’s Shushan description.",
+      "author": "The Church of Jesus Christ of Latter-day Saints",
+      "year": 2014,
+      "chapterCoverage": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "reviewed": "2026-10-05: Introduction and Suggestions for Teaching reviewed. The complete background tail and linked talks were not reviewed.",
+      "type": "LDS study manual",
+      "limitations": "LDS interpretation does not independently establish every wife’s beliefs. The route uses Ezra’s Babylon origin rather than the lesson’s Shushan description.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "ezra-kjv-10",
+      "title": "Ezra 10:15 · King James translation and footnote",
+      "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/ezra/10?lang=eng",
+      "summary": "The main text describes work on the case. Its footnote gives a likely reading of opposition.",
+      "category": "Translation notes",
+      "perspective": "historical",
+      "limits": "The editions describe the men’s role differently. This comparison does not settle the Hebrew wording.",
+      "author": "The Church of Jesus Christ of Latter-day Saints · Bible study edition",
+      "year": "Edition date not checked",
+      "chapterCoverage": [
+        10
+      ],
+      "reviewed": "2026-10-05: Verse 15 and its Hebrew translation footnote compared with the World English Bible.",
+      "type": "Translation notes",
+      "limitations": "The editions describe the men’s role differently. This comparison does not settle the Hebrew wording.",
+      "license": "Linked source. Original guide summaries."
+    }
+  ],
+  "passages": [
+    {
+      "id": "ezra-1",
+      "chapter": 1,
+      "start": 1,
+      "end": 11,
+      "title": "Cyrus permits return",
+      "summary": "Cyrus announces temple rebuilding. Families prepare to return, and Sheshbazzar receives the temple vessels. Neighbors give gold, animals, and supplies. Their gifts help families prepare for the return.",
+      "year": null,
+      "dateLabel": "Chapter order · Persian reign sequence requires comparison",
+      "uncertainty": "Selected known places and broad regions. Ahava, Casiphia, and the archive destination are not assigned unsupported coordinates.",
+      "placeIds": [
+        "jerusalem",
+        "babylon"
+      ],
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan",
+        "luther-ezra",
+        "eskenazi-excerpt",
+        "wiki-ezra"
+      ],
+      "lds": {
+        "text": "Come, Follow Me studies how people outside the community can help God’s work.",
+        "sourceIds": [
+          "cfm-ezra-2026",
+          "lds-ezra-intro"
+        ]
+      }
+    },
+    {
+      "id": "ezra-2",
+      "chapter": 2,
+      "start": 1,
+      "end": 70,
+      "title": "The returning community",
+      "summary": "A list names returning families and temple workers. Some priests must prove their family line. Families name their earlier homes. Priests without proof must wait before eating the most holy food.",
+      "year": null,
+      "dateLabel": "Chapter order · Persian reign sequence requires comparison",
+      "uncertainty": "Selected known places and broad regions. Ahava, Casiphia, and the archive destination are not assigned unsupported coordinates.",
+      "placeIds": [
+        "jerusalem",
+        "babylon"
+      ],
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan",
+        "luther-ezra",
+        "havea-ezra",
+        "eskenazi-excerpt"
+      ],
+      "lds": {
+        "text": "The Seminary introduction places the returning families within the restoration account.",
+        "sourceIds": [
+          "lds-ezra-intro"
+        ]
+      }
+    },
+    {
+      "id": "ezra-3",
+      "chapter": 3,
+      "start": 1,
+      "end": 13,
+      "title": "Altar, foundations, joy, and grief",
+      "summary": "Jeshua and Zerubbabel lead renewed offerings and temple work. The foundation ceremony brings both celebration and grief. Older people remember the earlier temple and weep. Others cheer as the new foundation is laid.",
+      "year": null,
+      "dateLabel": "Chapter order · Persian reign sequence requires comparison",
+      "uncertainty": "Selected known places and broad regions. Ahava, Casiphia, and the archive destination are not assigned unsupported coordinates.",
+      "placeIds": [
+        "jerusalem",
+        "sidon",
+        "tyre",
+        "lebanon",
+        "joppa"
+      ],
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan",
+        "eskenazi-excerpt"
+      ],
+      "lds": {
+        "text": "Come, Follow Me considers the joy and grief accompanying temple rebuilding.",
+        "sourceIds": [
+          "cfm-ezra-2026",
+          "lds-ezra-intro"
+        ]
+      }
+    },
+    {
+      "id": "ezra-4",
+      "chapter": 4,
+      "start": 1,
+      "end": 24,
+      "title": "Opposition and royal letters",
+      "summary": "An offer of help is rejected. Opposition and letters to Persian rulers interrupt rebuilding before work resumes under Darius. The chapter moves between different kings. Some later letters concern the city's walls instead of temple work.",
+      "year": null,
+      "dateLabel": "Chapter order · Persian reign sequence requires comparison",
+      "uncertainty": "Selected known places and broad regions. Ahava, Casiphia, and the archive destination are not assigned unsupported coordinates.",
+      "placeIds": [
+        "jerusalem",
+        "samaria"
+      ],
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan",
+        "luther-ezra",
+        "havea-ezra",
+        "wiki-ezra"
+      ],
+      "lds": {
+        "text": "Come, Follow Me studies responses to opposition.",
+        "sourceIds": [
+          "cfm-ezra-2026",
+          "lds-ezra-intro"
+        ]
+      }
+    },
+    {
+      "id": "ezra-5",
+      "chapter": 5,
+      "start": 1,
+      "end": 17,
+      "title": "Prophets encourage work as officials ask questions",
+      "summary": "Haggai and Zechariah encourage rebuilding. Tattenai asks for proof of Cyrus's order, and the leaders explain their work. The builders recall Sheshbazzar's earlier foundation work. Officials seek written proof of the king's permission.",
+      "year": null,
+      "dateLabel": "Chapter order · Persian reign sequence requires comparison",
+      "uncertainty": "Selected known places and broad regions. Ahava, Casiphia, and the archive destination are not assigned unsupported coordinates.",
+      "placeIds": [
+        "jerusalem",
+        "babylon"
+      ],
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan"
+      ],
+      "lds": {
+        "text": "Come, Follow Me asks how the people continue God’s work despite opposition.",
+        "sourceIds": [
+          "cfm-ezra-2026",
+          "lds-ezra-intro"
+        ]
+      }
+    },
+    {
+      "id": "ezra-6",
+      "chapter": 6,
+      "start": 1,
+      "end": 22,
+      "title": "The king's order, the temple, and Passover",
+      "summary": "The archive search supports rebuilding. Darius supplies protection and resources. The community dedicates the temple and celebrates Passover. The king pays for work and offerings from taxes. The feast includes people who leave other gods.",
+      "year": null,
+      "dateLabel": "Chapter order · Persian reign sequence requires comparison",
+      "uncertainty": "Selected known places and broad regions. Ahava, Casiphia, and the archive destination are not assigned unsupported coordinates.",
+      "placeIds": [
+        "jerusalem",
+        "babylon"
+      ],
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan",
+        "luther-ezra",
+        "eskenazi-excerpt"
+      ],
+      "lds": {
+        "text": "Come, Follow Me studies the temple's opening and the people's joy.",
+        "sourceIds": [
+          "cfm-ezra-2026",
+          "lds-ezra-intro"
+        ]
+      }
+    },
+    {
+      "id": "ezra-7",
+      "chapter": 7,
+      "start": 1,
+      "end": 28,
+      "title": "Ezra studies the law and receives royal support",
+      "summary": "Ezra is a priest who studies God’s law. Artaxerxes supports his journey and gives him duties to teach and judge. Ezra studies the law before living and teaching it. His journey connects these duties with the returning community.",
+      "year": null,
+      "dateLabel": "Chapter order · Persian reign sequence requires comparison",
+      "uncertainty": "Selected known places and broad regions. Ahava, Casiphia, and the archive destination are not assigned unsupported coordinates.",
+      "placeIds": [
+        "babylon",
+        "jerusalem"
+      ],
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan",
+        "luther-ezra",
+        "eskenazi-excerpt",
+        "wiki-ezra"
+      ],
+      "lds": {
+        "text": "The Church lesson joins scripture study with practice and teaching.",
+        "sourceIds": [
+          "cfm-ezra-2026",
+          "lds-ezra-intro",
+          "lds-ezra-104"
+        ]
+      }
+    },
+    {
+      "id": "ezra-8",
+      "chapter": 8,
+      "start": 1,
+      "end": 36,
+      "title": "Prayer, travel, and the care of temple gifts",
+      "summary": "Ezra gathers travelers and asks Iddo to send temple workers. They pray before leaving and count the gifts when they arrive. Ezra chooses people to guard the gifts. They must hand over the same weight they received.",
+      "year": null,
+      "dateLabel": "Chapter order · Persian reign sequence requires comparison",
+      "uncertainty": "Selected known places and broad regions. Ahava, Casiphia, and the archive destination are not assigned unsupported coordinates.",
+      "placeIds": [
+        "babylon",
+        "jerusalem"
+      ],
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan"
+      ],
+      "lds": {
+        "text": "The Seminary lesson studies fasting, prayer, and trust before the journey.",
+        "sourceIds": [
+          "lds-ezra-intro",
+          "lds-ezra-104"
+        ]
+      }
+    },
+    {
+      "id": "ezra-9",
+      "chapter": 9,
+      "start": 1,
+      "end": 15,
+      "title": "Ezra prays about the mixed marriages",
+      "summary": "Leaders report marriages with women from other nations. Ezra tears his robe and begins a prayer. Ezra recalls earlier sins that sent Israel into exile. He fears losing the small group that survived.",
+      "year": null,
+      "dateLabel": "Chapter order · Persian reign sequence requires comparison",
+      "uncertainty": "Selected known places and broad regions. Ahava, Casiphia, and the archive destination are not assigned unsupported coordinates.",
+      "placeIds": [
+        "jerusalem"
+      ],
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan",
+        "luther-ezra",
+        "havea-ezra",
+        "eskenazi-excerpt",
+        "mcclellan-ezra"
+      ],
+      "lds": {
+        "text": "The Seminary lesson connects these marriages with worship of other gods. Ezra gives no personal testimony from the wives.",
+        "sourceIds": [
+          "lds-ezra-intro",
+          "lds-ezra-104"
+        ]
+      }
+    },
+    {
+      "id": "ezra-10",
+      "chapter": 10,
+      "start": 1,
+      "end": 44,
+      "title": "The marriage investigation",
+      "summary": "Shecaniah proposes separation from foreign wives and children. Ezra summons an assembly, and an investigation names households involved. Rain and the many cases delay the work. Leaders set times to examine each household.",
+      "year": null,
+      "dateLabel": "Chapter order · Persian reign sequence requires comparison",
+      "uncertainty": "Selected known places and broad regions. Ahava, Casiphia, and the archive destination are not assigned unsupported coordinates.",
+      "placeIds": [
+        "jerusalem"
+      ],
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan",
+        "luther-ezra",
+        "havea-ezra",
+        "eskenazi-excerpt",
+        "mcclellan-ezra",
+        "wiki-ezra",
+        "ezra-kjv-10"
+      ],
+      "lds": {
+        "text": "The Seminary lesson studies confession and repentance. What voices are missing from the account of separated families?",
+        "sourceIds": [
+          "lds-ezra-intro",
+          "lds-ezra-104"
+        ]
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "ezra-1",
+      "chapter": 1,
+      "verse": 1,
+      "eventOrder": 1,
+      "title": "Cyrus permits return",
+      "summary": "Cyrus announces temple rebuilding. Families prepare to return, and Sheshbazzar receives the temple vessels.",
+      "detail": "Neighbors give gold, animals, and supplies. Their gifts help families prepare for the return.",
+      "dateLabel": "Chapter order · Persian reign sequence requires comparison",
+      "uncertainty": "Selected known places and broad regions. Ahava, Casiphia, and the archive destination are not assigned unsupported coordinates.",
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan",
+        "luther-ezra",
+        "eskenazi-excerpt",
+        "wiki-ezra"
+      ],
+      "placeIds": [
+        "jerusalem",
+        "babylon"
+      ],
+      "lds": {
+        "text": "Come, Follow Me studies how people outside the community can help God’s work.",
+        "sourceIds": [
+          "cfm-ezra-2026",
+          "lds-ezra-intro"
+        ]
+      }
+    },
+    {
+      "id": "ezra-2",
+      "chapter": 2,
+      "verse": 1,
+      "eventOrder": 2,
+      "title": "The returning community",
+      "summary": "A list names returning families and temple workers. Some priests must prove their family line.",
+      "detail": "Families name their earlier homes. Priests without proof must wait before eating the most holy food.",
+      "dateLabel": "Chapter order · Persian reign sequence requires comparison",
+      "uncertainty": "Selected known places and broad regions. Ahava, Casiphia, and the archive destination are not assigned unsupported coordinates.",
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan",
+        "luther-ezra",
+        "havea-ezra",
+        "eskenazi-excerpt"
+      ],
+      "placeIds": [
+        "jerusalem",
+        "babylon"
+      ],
+      "lds": {
+        "text": "The Seminary introduction places the returning families within the restoration account.",
+        "sourceIds": [
+          "lds-ezra-intro"
+        ]
+      }
+    },
+    {
+      "id": "ezra-3",
+      "chapter": 3,
+      "verse": 1,
+      "eventOrder": 3,
+      "title": "Altar, foundations, joy, and grief",
+      "summary": "Jeshua and Zerubbabel lead renewed offerings and temple work. The foundation ceremony brings both celebration and grief.",
+      "detail": "Older people remember the earlier temple and weep. Others cheer as the new foundation is laid.",
+      "dateLabel": "Chapter order · Persian reign sequence requires comparison",
+      "uncertainty": "Selected known places and broad regions. Ahava, Casiphia, and the archive destination are not assigned unsupported coordinates.",
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan",
+        "eskenazi-excerpt"
+      ],
+      "placeIds": [
+        "jerusalem",
+        "sidon",
+        "tyre",
+        "lebanon",
+        "joppa"
+      ],
+      "lds": {
+        "text": "Come, Follow Me considers the joy and grief accompanying temple rebuilding.",
+        "sourceIds": [
+          "cfm-ezra-2026",
+          "lds-ezra-intro"
+        ]
+      }
+    },
+    {
+      "id": "ezra-4",
+      "chapter": 4,
+      "verse": 1,
+      "eventOrder": 4,
+      "title": "Opposition and royal letters",
+      "summary": "An offer of help is rejected. Opposition and letters to Persian rulers interrupt rebuilding before work resumes under Darius.",
+      "detail": "The chapter moves between different kings. Some later letters concern the city's walls instead of temple work.",
+      "dateLabel": "Chapter order · Persian reign sequence requires comparison",
+      "uncertainty": "Selected known places and broad regions. Ahava, Casiphia, and the archive destination are not assigned unsupported coordinates.",
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan",
+        "luther-ezra",
+        "havea-ezra",
+        "wiki-ezra"
+      ],
+      "placeIds": [
+        "jerusalem",
+        "samaria"
+      ],
+      "lds": {
+        "text": "Come, Follow Me studies responses to opposition.",
+        "sourceIds": [
+          "cfm-ezra-2026",
+          "lds-ezra-intro"
+        ]
+      }
+    },
+    {
+      "id": "ezra-5",
+      "chapter": 5,
+      "verse": 1,
+      "eventOrder": 5,
+      "title": "Prophets encourage work as officials ask questions",
+      "summary": "Haggai and Zechariah encourage rebuilding. Tattenai asks for proof of Cyrus's order, and the leaders explain their work.",
+      "detail": "The builders recall Sheshbazzar's earlier foundation work. Officials seek written proof of the king's permission.",
+      "dateLabel": "Chapter order · Persian reign sequence requires comparison",
+      "uncertainty": "Selected known places and broad regions. Ahava, Casiphia, and the archive destination are not assigned unsupported coordinates.",
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan"
+      ],
+      "placeIds": [
+        "jerusalem",
+        "babylon"
+      ],
+      "lds": {
+        "text": "Come, Follow Me asks how the people continue God’s work despite opposition.",
+        "sourceIds": [
+          "cfm-ezra-2026",
+          "lds-ezra-intro"
+        ]
+      }
+    },
+    {
+      "id": "ezra-6",
+      "chapter": 6,
+      "verse": 1,
+      "eventOrder": 6,
+      "title": "The king's order, the temple, and Passover",
+      "summary": "The archive search supports rebuilding. Darius supplies protection and resources. The community dedicates the temple and celebrates Passover.",
+      "detail": "The king pays for work and offerings from taxes. The feast includes people who leave other gods.",
+      "dateLabel": "Chapter order · Persian reign sequence requires comparison",
+      "uncertainty": "Selected known places and broad regions. Ahava, Casiphia, and the archive destination are not assigned unsupported coordinates.",
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan",
+        "luther-ezra",
+        "eskenazi-excerpt"
+      ],
+      "placeIds": [
+        "jerusalem",
+        "babylon"
+      ],
+      "lds": {
+        "text": "Come, Follow Me studies the temple's opening and the people's joy.",
+        "sourceIds": [
+          "cfm-ezra-2026",
+          "lds-ezra-intro"
+        ]
+      }
+    },
+    {
+      "id": "ezra-7",
+      "chapter": 7,
+      "verse": 1,
+      "eventOrder": 7,
+      "title": "Ezra studies the law and receives royal support",
+      "summary": "Ezra is a priest who studies God’s law. Artaxerxes supports his journey and gives him duties to teach and judge.",
+      "detail": "Ezra studies the law before living and teaching it. His journey connects these duties with the returning community.",
+      "dateLabel": "Chapter order · Persian reign sequence requires comparison",
+      "uncertainty": "Selected known places and broad regions. Ahava, Casiphia, and the archive destination are not assigned unsupported coordinates.",
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan",
+        "luther-ezra",
+        "eskenazi-excerpt",
+        "wiki-ezra"
+      ],
+      "placeIds": [
+        "babylon",
+        "jerusalem"
+      ],
+      "lds": {
+        "text": "The Church lesson joins scripture study with practice and teaching.",
+        "sourceIds": [
+          "cfm-ezra-2026",
+          "lds-ezra-intro",
+          "lds-ezra-104"
+        ]
+      }
+    },
+    {
+      "id": "ezra-8",
+      "chapter": 8,
+      "verse": 1,
+      "eventOrder": 8,
+      "title": "Prayer, travel, and the care of temple gifts",
+      "summary": "Ezra gathers travelers and asks Iddo to send temple workers. They pray before leaving and count the gifts when they arrive.",
+      "detail": "Ezra chooses people to guard the gifts. They must hand over the same weight they received.",
+      "dateLabel": "Chapter order · Persian reign sequence requires comparison",
+      "uncertainty": "Selected known places and broad regions. Ahava, Casiphia, and the archive destination are not assigned unsupported coordinates.",
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan"
+      ],
+      "placeIds": [
+        "babylon",
+        "jerusalem"
+      ],
+      "lds": {
+        "text": "The Seminary lesson studies fasting, prayer, and trust before the journey.",
+        "sourceIds": [
+          "lds-ezra-intro",
+          "lds-ezra-104"
+        ]
+      }
+    },
+    {
+      "id": "ezra-9",
+      "chapter": 9,
+      "verse": 1,
+      "eventOrder": 9,
+      "title": "Ezra prays about the mixed marriages",
+      "summary": "Leaders report marriages with women from other nations. Ezra tears his robe and begins a prayer.",
+      "detail": "Ezra recalls earlier sins that sent Israel into exile. He fears losing the small group that survived.",
+      "dateLabel": "Chapter order · Persian reign sequence requires comparison",
+      "uncertainty": "Selected known places and broad regions. Ahava, Casiphia, and the archive destination are not assigned unsupported coordinates.",
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan",
+        "luther-ezra",
+        "havea-ezra",
+        "eskenazi-excerpt",
+        "mcclellan-ezra"
+      ],
+      "placeIds": [
+        "jerusalem"
+      ],
+      "lds": {
+        "text": "The Seminary lesson connects these marriages with worship of other gods. Ezra gives no personal testimony from the wives.",
+        "sourceIds": [
+          "lds-ezra-intro",
+          "lds-ezra-104"
+        ]
+      }
+    },
+    {
+      "id": "ezra-10",
+      "chapter": 10,
+      "verse": 1,
+      "eventOrder": 10,
+      "title": "The marriage investigation",
+      "summary": "Shecaniah proposes separation from foreign wives and children. Ezra summons an assembly, and an investigation names households involved.",
+      "detail": "Rain and the many cases delay the work. Leaders set times to examine each household.",
+      "dateLabel": "Chapter order · Persian reign sequence requires comparison",
+      "uncertainty": "Selected known places and broad regions. Ahava, Casiphia, and the archive destination are not assigned unsupported coordinates.",
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan",
+        "luther-ezra",
+        "havea-ezra",
+        "eskenazi-excerpt",
+        "mcclellan-ezra",
+        "wiki-ezra",
+        "ezra-kjv-10"
+      ],
+      "placeIds": [
+        "jerusalem"
+      ],
+      "lds": {
+        "text": "The Seminary lesson studies confession and repentance. What voices are missing from the account of separated families?",
+        "sourceIds": [
+          "lds-ezra-intro",
+          "lds-ezra-104"
+        ]
+      }
+    }
+  ],
+  "places": [
+    {
+      "id": "jerusalem",
+      "name": "Jerusalem",
+      "lat": 31.778,
+      "lng": 35.235,
+      "summary": "The returning community rebuilds the temple in Jerusalem. Ezra later brings gifts and teaches here.",
+      "limits": "Reference marker only. Exact houses, camps, battle lines, property boundaries, and ancient roads remain uncertain.",
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan"
+      ],
+      "detail": "The returning community rebuilds the temple in Jerusalem. Ezra later brings gifts and teaches here.",
+      "uncertainty": "Reference marker only. Exact houses, camps, battle lines, property boundaries, and ancient roads remain uncertain.",
+      "chapterLocation": true
+    },
+    {
+      "id": "babylon",
+      "name": "Babylon",
+      "lat": 32.54,
+      "lng": 44.42,
+      "summary": "Named setting or broad reference region.",
+      "limits": "Approximate reference marker. It does not establish an exact ascent, house, camp, deportation settlement, ancient road, or battle position.",
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan"
+      ],
+      "detail": "Named setting or broad reference region.",
+      "uncertainty": "Approximate reference marker. It does not establish an exact ascent, house, camp, deportation settlement, ancient road, or battle position.",
+      "chapterLocation": true
+    },
+    {
+      "id": "sidon",
+      "name": "Sidon",
+      "lat": 33.56,
+      "lng": 35.37,
+      "summary": "Workers from Sidon help supply cedar for the temple.",
+      "limits": "Reference marker only. Exact houses, camps, battle lines, property boundaries, and ancient roads remain uncertain.",
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan"
+      ],
+      "detail": "Workers from Sidon help supply cedar for the temple.",
+      "uncertainty": "Reference marker only. Exact houses, camps, battle lines, property boundaries, and ancient roads remain uncertain.",
+      "chapterLocation": true
+    },
+    {
+      "id": "tyre",
+      "name": "Tyre",
+      "lat": 33.27,
+      "lng": 35.2,
+      "summary": "Workers from Tyre help bring cedar from Lebanon to Joppa.",
+      "limits": "Reference marker only. Exact houses, camps, battle lines, property boundaries, and ancient roads remain uncertain.",
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan"
+      ],
+      "detail": "Workers from Tyre help bring cedar from Lebanon to Joppa.",
+      "uncertainty": "Reference marker only. Exact houses, camps, battle lines, property boundaries, and ancient roads remain uncertain.",
+      "chapterLocation": true
+    },
+    {
+      "id": "lebanon",
+      "name": "Lebanon",
+      "lat": 34.0,
+      "lng": 35.85,
+      "summary": "Named town or broad setting in the chapter.",
+      "limits": "Reference marker only. Proposed or broad locations do not establish an exact house, shrine, brook, mountain, battle position, or ancient road.",
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan"
+      ],
+      "detail": "Named town or broad setting in the chapter.",
+      "uncertainty": "Reference marker only. Proposed or broad locations do not establish an exact house, shrine, brook, mountain, battle position, or ancient road.",
+      "chapterLocation": true
+    },
+    {
+      "id": "joppa",
+      "name": "Joppa",
+      "lat": 32.054,
+      "lng": 34.751,
+      "summary": "Mediterranean port receiving timber rafts.",
+      "limits": "Broad reference marker. Ancient boundaries and exact narrative movements are not established.",
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan"
+      ],
+      "detail": "Mediterranean port receiving timber rafts.",
+      "uncertainty": "Broad reference marker. Ancient boundaries and exact narrative movements are not established.",
+      "chapterLocation": true
+    },
+    {
+      "id": "samaria",
+      "name": "Samaria",
+      "lat": 32.276,
+      "lng": 35.194,
+      "summary": "Named town or broad setting in the chapter.",
+      "limits": "Reference marker only. Proposed or broad locations do not establish an exact house, shrine, brook, mountain, battle position, or ancient road.",
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan"
+      ],
+      "detail": "Named town or broad setting in the chapter.",
+      "uncertainty": "Reference marker only. Proposed or broad locations do not establish an exact house, shrine, brook, mountain, battle position, or ancient road.",
+      "chapterLocation": true
+    }
+  ],
+  "campaigns": [],
+  "ancientRoads": [],
+  "regions": [],
+  "words": [],
+  "guides": [
+    {
+      "id": "ezra-overview",
+      "title": "Study Ezra",
+      "description": "Follow selected chapters through the book.",
+      "steps": [
+        {
+          "title": "Cyrus permits return",
+          "text": "Cyrus announces temple rebuilding. Families prepare to return, and Sheshbazzar receives the temple vessels. Neighbors give gold, animals, and supplies. Their gifts help families prepare for the return.",
+          "chapter": 1,
+          "verse": 1,
+          "sourceIds": [
+            "web",
+            "atlas",
+            "atlas-canaan",
+            "luther-ezra",
+            "eskenazi-excerpt",
+            "wiki-ezra"
+          ]
+        },
+        {
+          "title": "The king's order, the temple, and Passover",
+          "text": "The archive search supports rebuilding. Darius supplies protection and resources. The community dedicates the temple and celebrates Passover. The king pays for work and offerings from taxes. The feast includes people who leave other gods.",
+          "chapter": 6,
+          "verse": 1,
+          "sourceIds": [
+            "web",
+            "atlas",
+            "atlas-canaan",
+            "luther-ezra",
+            "eskenazi-excerpt"
+          ]
+        },
+        {
+          "title": "The marriage investigation",
+          "text": "Shecaniah proposes separation from foreign wives and children. Ezra summons an assembly, and an investigation names households involved. Rain and the many cases delay the work. Leaders set times to examine each household.",
+          "chapter": 10,
+          "verse": 1,
+          "sourceIds": [
+            "web",
+            "atlas",
+            "atlas-canaan",
+            "luther-ezra",
+            "havea-ezra",
+            "eskenazi-excerpt",
+            "mcclellan-ezra",
+            "wiki-ezra",
+            "ezra-kjv-10"
+          ]
+        }
+      ]
+    }
+  ],
+  "periods": [
+    {
+      "id": "part-0",
+      "label": "Ezra 1–3",
+      "start": 1,
+      "end": 3,
+      "description": "Chapter order"
+    },
+    {
+      "id": "part-1",
+      "label": "Ezra 4–6",
+      "start": 4,
+      "end": 6,
+      "description": "Chapter order"
+    },
+    {
+      "id": "part-2",
+      "label": "Ezra 7–10",
+      "start": 7,
+      "end": 10,
+      "description": "Chapter order"
+    }
+  ],
+  "chapterMaps": [
+    {
+      "chapter": 1,
+      "focusPlaceIds": [
+        "jerusalem",
+        "babylon"
+      ],
+      "placeIds": [
+        "jerusalem",
+        "babylon"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Selected known places and broad regions. Ahava, Casiphia, and the archive destination are not assigned unsupported coordinates.",
+      "narrative": "Cyrus announces temple rebuilding. Families prepare to return, and Sheshbazzar receives the temple vessels.",
+      "limits": "Selected known places and broad regions. Ahava, Casiphia, and the archive destination are not assigned unsupported coordinates.",
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan",
+        "luther-ezra",
+        "eskenazi-excerpt",
+        "wiki-ezra"
+      ]
+    },
+    {
+      "chapter": 2,
+      "focusPlaceIds": [
+        "jerusalem",
+        "babylon"
+      ],
+      "placeIds": [
+        "jerusalem",
+        "babylon"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Selected known places and broad regions. Ahava, Casiphia, and the archive destination are not assigned unsupported coordinates.",
+      "narrative": "A list names returning families and temple workers. Some priests must prove their family line.",
+      "limits": "Selected known places and broad regions. Ahava, Casiphia, and the archive destination are not assigned unsupported coordinates.",
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan",
+        "luther-ezra",
+        "havea-ezra",
+        "eskenazi-excerpt"
+      ]
+    },
+    {
+      "chapter": 3,
+      "focusPlaceIds": [
+        "jerusalem",
+        "sidon",
+        "tyre",
+        "lebanon",
+        "joppa"
+      ],
+      "placeIds": [
+        "jerusalem",
+        "sidon",
+        "tyre",
+        "lebanon",
+        "joppa"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Selected known places and broad regions. Ahava, Casiphia, and the archive destination are not assigned unsupported coordinates.",
+      "narrative": "Jeshua and Zerubbabel lead renewed offerings and temple work. The foundation ceremony brings both celebration and grief.",
+      "limits": "Selected known places and broad regions. Ahava, Casiphia, and the archive destination are not assigned unsupported coordinates.",
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan",
+        "eskenazi-excerpt"
+      ]
+    },
+    {
+      "chapter": 4,
+      "focusPlaceIds": [
+        "jerusalem",
+        "samaria"
+      ],
+      "placeIds": [
+        "jerusalem",
+        "samaria"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Selected known places and broad regions. Ahava, Casiphia, and the archive destination are not assigned unsupported coordinates.",
+      "narrative": "An offer of help is rejected. Opposition and letters to Persian rulers interrupt rebuilding before work resumes under Darius.",
+      "limits": "Selected known places and broad regions. Ahava, Casiphia, and the archive destination are not assigned unsupported coordinates.",
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan",
+        "luther-ezra",
+        "havea-ezra",
+        "wiki-ezra"
+      ]
+    },
+    {
+      "chapter": 5,
+      "focusPlaceIds": [
+        "jerusalem",
+        "babylon"
+      ],
+      "placeIds": [
+        "jerusalem",
+        "babylon"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Selected known places and broad regions. Ahava, Casiphia, and the archive destination are not assigned unsupported coordinates.",
+      "narrative": "Haggai and Zechariah encourage rebuilding. Tattenai asks for proof of Cyrus's order, and the leaders explain their work.",
+      "limits": "Selected known places and broad regions. Ahava, Casiphia, and the archive destination are not assigned unsupported coordinates.",
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan"
+      ]
+    },
+    {
+      "chapter": 6,
+      "focusPlaceIds": [
+        "jerusalem",
+        "babylon"
+      ],
+      "placeIds": [
+        "jerusalem",
+        "babylon"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Selected known places and broad regions. Ahava, Casiphia, and the archive destination are not assigned unsupported coordinates.",
+      "narrative": "The archive search supports rebuilding. Darius supplies protection and resources. The community dedicates the temple and celebrates Passover.",
+      "limits": "Selected known places and broad regions. Ahava, Casiphia, and the archive destination are not assigned unsupported coordinates.",
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan",
+        "luther-ezra",
+        "eskenazi-excerpt"
+      ]
+    },
+    {
+      "chapter": 7,
+      "focusPlaceIds": [
+        "babylon",
+        "jerusalem"
+      ],
+      "placeIds": [
+        "babylon",
+        "jerusalem"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Selected known places and broad regions. Ahava, Casiphia, and the archive destination are not assigned unsupported coordinates.",
+      "narrative": "Ezra is a priest who studies God’s law. Artaxerxes supports his journey and gives him duties to teach and judge.",
+      "limits": "Selected known places and broad regions. Ahava, Casiphia, and the archive destination are not assigned unsupported coordinates.",
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan",
+        "luther-ezra",
+        "eskenazi-excerpt",
+        "wiki-ezra"
+      ]
+    },
+    {
+      "chapter": 8,
+      "focusPlaceIds": [
+        "babylon",
+        "jerusalem"
+      ],
+      "placeIds": [
+        "babylon",
+        "jerusalem"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Selected known places and broad regions. Ahava, Casiphia, and the archive destination are not assigned unsupported coordinates.",
+      "narrative": "Ezra gathers travelers and asks Iddo to send temple workers. They pray before leaving and count the gifts when they arrive.",
+      "limits": "Selected known places and broad regions. Ahava, Casiphia, and the archive destination are not assigned unsupported coordinates.",
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan"
+      ]
+    },
+    {
+      "chapter": 9,
+      "focusPlaceIds": [
+        "jerusalem"
+      ],
+      "placeIds": [
+        "jerusalem"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Selected known places and broad regions. Ahava, Casiphia, and the archive destination are not assigned unsupported coordinates.",
+      "narrative": "Leaders report marriages with women from other nations. Ezra tears his robe and begins a prayer.",
+      "limits": "Selected known places and broad regions. Ahava, Casiphia, and the archive destination are not assigned unsupported coordinates.",
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan",
+        "luther-ezra",
+        "havea-ezra",
+        "eskenazi-excerpt",
+        "mcclellan-ezra"
+      ]
+    },
+    {
+      "chapter": 10,
+      "focusPlaceIds": [
+        "jerusalem"
+      ],
+      "placeIds": [
+        "jerusalem"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Selected known places and broad regions. Ahava, Casiphia, and the archive destination are not assigned unsupported coordinates.",
+      "narrative": "Shecaniah proposes separation from foreign wives and children. Ezra summons an assembly, and an investigation names households involved.",
+      "limits": "Selected known places and broad regions. Ahava, Casiphia, and the archive destination are not assigned unsupported coordinates.",
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan",
+        "luther-ezra",
+        "havea-ezra",
+        "eskenazi-excerpt",
+        "mcclellan-ezra",
+        "wiki-ezra",
+        "ezra-kjv-10"
+      ]
+    }
+  ],
+  "textRoutes": [],
+  "narrativeRegions": [],
+  "chapterStudies": []
+}

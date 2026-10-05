@@ -3,7 +3,7 @@ import json,re
 from pathlib import Path
 ROOT=Path(__file__).resolve().parent.parent
 D=ROOT/'dist/data/books'
-technical=re.compile(r'\b(?:chronolog\w*|theolog\w*|narrat\w*|textual|dynast\w*|genealog\w*|monarch\w*|polity|cultic|regnal|incitement|coercion|succession|deportation|interpretive|independently|audited|reconstruction|territorial|legitimacy|administrative|displacement|vulnerable|explicitly|inaccessible|artwork|portrait)\b',re.I)
+technical=re.compile(r'\b(?:chronolog\w*|theolog\w*|narrat\w*|textual|dynast\w*|genealog\w*|monarch\w*|polity|cultic|regnal|incitement|coercion|succession|deportation|interpretive|independently|audited|reconstruction|territorial|legitimacy|administrati\w*|displacement|vulnerable|explicitly|inaccessible|artwork|portrait|communal|imperial|contested|exilic|kinship|proclamation|allocation|allegiance|assessment|recrui\w*|precedes|commission)\b',re.I)
 def flags(text):
  found=[]
  if technical.search(text):found.append('terms')

@@ -7,7 +7,7 @@ BASE='ddc06081b1cefb3a868ba2038e467f1fd2ea21ff'
 def previous(path):
  return subprocess.check_output(['git','show',f'{BASE}:{path}'],cwd=ROOT)
 count=0
-for item in json.loads((D/'directory.json').read_text(encoding='utf8')):
+for item in json.loads(previous('dist/data/books/directory.json')):
  if item['status']!='ready' or item['id']=='isaiah':continue
  path=f'dist/data/books/{item["id"]}.json'
  old=json.loads(previous(path));new=json.loads((ROOT/path).read_text(encoding='utf8'))

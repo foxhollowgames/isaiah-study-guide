@@ -22,11 +22,12 @@ Book pages use `/book.html?book=<slug>`.
 - 2 Kings: all 25 chapters, 719 verses, 25 chapter studies, and 116 selected profiles with portraits.
 - 1 Chronicles: all 29 chapters, 942 verses, 29 chapter studies, and 139 selected profiles with portraits.
 - 2 Chronicles: all 36 chapters, 822 verses, 36 chapter studies, and 116 selected profiles with portraits.
-- Other 51 books: directory entries and clear planned pages. They have no study content yet.
+- Ezra: all 10 chapters, 280 verses, 10 chapter studies, and 35 selected profiles with portraits.
+- Other 50 books: directory entries and clear planned pages. They have no study content yet.
 
 ## Next book
 
-Ezra is next in canonical order. Complete and verify one book before starting another.
+Nehemiah is next in canonical order. Complete and verify one book before starting another.
 Do not label a book ready until its reading text, chapter studies, sources, portraits, and maps pass review.
 Use the existing Isaiah guide as the detail standard. Genesis currently has selected major people and chapter-level events.
 Future enrichment can add finer passage divisions, additional people, language notes, and more specific citations.
@@ -151,3 +152,11 @@ Build with scripts/build-1-samuel.py, scripts/finish-samuel-art.py, and scripts/
 1 Chronicles uses reviewed Oxford and Luther Seminary context, original McClellan interview passages, and official Church teaching. Wikipedia revision and license remain attached. The Japhet record verifies publication details only. Source records state access limits.
 
 1 Chronicles adds 41 generated portraits and reuses 98 same-person portraits. Exact prompts and original paths are in `scripts/1-chronicles-generated-portraits.json`. Identity checks separate ancestral names, royal namesakes, musicians, and Obed-Edom profiles. Family names do not become place links.
+
+Ezra uses reviewed Luther Seminary teaching, an authorized Eskenazi excerpt, and an original McClellan publisher transcript passage.
+Official Come, Follow Me and Seminary sources remain in the LDS layer. Wikipedia review and license records remain attached.
+The publisher record verifies Eskenazi's book details. It does not represent a review of the full commentary.
+
+Ezra adds 27 generated portraits and reuses eight portraits of the same people. Exact prompts and original paths are in `scripts/ezra-generated-portraits.json`.
+Checks distinguish priests, names in family lists, Persian officials, and the two Mithredaths. Uncertain journey sites have no invented markers.
+Build with `scripts/build-ezra.py`, `scripts/prepare-ezra-art.py`, and `scripts/build-native-books.py`, in that order.
