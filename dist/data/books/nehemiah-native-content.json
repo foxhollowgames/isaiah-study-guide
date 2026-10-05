@@ -1,0 +1,1639 @@
+{
+  "sources": [
+    {
+      "id": "web",
+      "title": "Nehemiah · World English Bible",
+      "url": "https://ebible.org/engwebp/NEH01.htm",
+      "summary": "Complete public-domain reading text for thirteen chapters.",
+      "category": "Scripture",
+      "perspective": "historical",
+      "limits": "The text presents the account and its speakers’ claims. It does not independently verify every event.",
+      "type": "Scripture",
+      "limitations": "The text presents the account and its speakers’ claims. It does not independently verify every event.",
+      "license": "Public domain"
+    },
+    {
+      "id": "atlas",
+      "title": "Bible Maps: The World of the Old Testament",
+      "perspective": "historical",
+      "category": "Geography",
+      "url": "https://www.churchofjesuschrist.org/study/scriptures/bible-maps/map-9?lang=eng",
+      "summary": "This Church-published atlas locates the wider setting and marks some disputed places.",
+      "limits": "Use the geographic labels as context. The linked atlas also includes LDS commentary.",
+      "type": "Geography",
+      "limitations": "Use the geographic labels as context. The linked atlas also includes LDS commentary.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "atlas-canaan",
+      "title": "Bible Maps: Canaan in Old Testament Times",
+      "perspective": "historical",
+      "category": "Geography",
+      "url": "https://www.churchofjesuschrist.org/study/scriptures/bible-maps/map-10?lang=eng",
+      "summary": "This Church-published atlas identifies towns and regions in Canaan.",
+      "limits": "Coordinates are display estimates. A town marker does not verify each Genesis event.",
+      "limitations": "Coordinates are display estimates. A town marker does not verify each Genesis event.",
+      "type": "Geography",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "terrain",
+      "title": "Mapzen / Tilezen terrain and Natural Earth geography",
+      "perspective": "historical",
+      "category": "Geography",
+      "url": "https://registry.opendata.aws/terrain-tiles/",
+      "summary": "Cached terrain shows modern elevation. Natural Earth supplies the land and water outlines.",
+      "limits": "Modern terrain is a geographic aid. It does not reconstruct ancient shorelines or settlements.",
+      "type": "Geography",
+      "limitations": "Modern terrain is a geographic aid. It does not reconstruct ancient shorelines or settlements.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "luther-nehemiah",
+      "title": "Summary of Nehemiah · Luther Seminary",
+      "url": "https://enterthebible.org/courses/nehemiah/lessons/summary-of-nehemiah/",
+      "summary": "The overview connects the walls, public law reading, settlement, and later changes.",
+      "category": "Scholarly study",
+      "perspective": "historical",
+      "limits": "A scholarly teaching overview. Precise editing dates and authorship remain uncertain.",
+      "author": "Mark Throntveit · revised Jione Havea",
+      "year": 2023,
+      "chapterCoverage": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "reviewed": "2026-10-05: Complete main summary and introductory sections reviewed.",
+      "type": "Scholarly study",
+      "limitations": "A scholarly teaching overview. Precise editing dates and authorship remain uncertain.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "luther-nehemiah-background",
+      "title": "Background of Nehemiah · Luther Seminary",
+      "url": "https://enterthebible.org/courses/nehemiah/lessons/background-of-nehemiah/",
+      "summary": "The discussion studies how returning families understand their losses and shared past.",
+      "category": "Scholarly study",
+      "perspective": "historical",
+      "limits": "A named reading of community identity. Its historical outline does not verify every scene.",
+      "author": "Mark Throntveit · revised Jione Havea",
+      "year": 2023,
+      "chapterCoverage": [
+        1,
+        7,
+        9,
+        10
+      ],
+      "reviewed": "2026-10-05: Complete main Background section reviewed.",
+      "type": "Scholarly study",
+      "limitations": "A named reading of community identity. Its historical outline does not verify every scene.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "havea-nehemiah",
+      "title": "Bible in the World: Nehemiah · Luther Seminary",
+      "url": "https://enterthebible.org/courses/nehemiah/lessons/bible-in-the-world-nehemiah/",
+      "summary": "Havea emphasizes the workers’ choices and questions the harsh rules about foreign wives.",
+      "category": "Scholarly study",
+      "perspective": "historical",
+      "limits": "A scholarly interpretation and modern comparison. It does not recover the wives’ individual beliefs.",
+      "author": "Jione Havea",
+      "year": "Date not displayed",
+      "chapterCoverage": [
+        3,
+        5,
+        13
+      ],
+      "reviewed": "2026-10-05: Complete main sections reviewed.",
+      "type": "Scholarly study",
+      "limitations": "A scholarly interpretation and modern comparison. It does not recover the wives’ individual beliefs.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "mcclellan-nehemiah",
+      "title": "Ezra–Nehemiah and foreign marriages · McClellan interview",
+      "url": "https://www.relationscapes.org/p/mcclellan-transcript/",
+      "summary": "McClellan interprets the foreign-marriage policy as protecting a post-exilic community boundary.",
+      "category": "McClellan commentary",
+      "perspective": "historical",
+      "limits": "The timestamp locates the section, not the exact utterance. This interpretation does not prove the wives’ beliefs or supply Church teaching.",
+      "author": "Dan McClellan · interview with Blair Hodges",
+      "year": "Publisher transcript; date not displayed",
+      "chapterCoverage": [
+        13
+      ],
+      "reviewed": "2026-10-05: Publisher transcript paragraphs on Ezra–Nehemiah marriages reviewed again. Section begins 01:08:49. Audio and the complete interview were not reviewed.",
+      "group": "mcclellan",
+      "type": "McClellan commentary",
+      "limitations": "The timestamp locates the section, not the exact utterance. This interpretation does not prove the wives’ beliefs or supply Church teaching.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "throntveit-record",
+      "title": "Ezra–Nehemiah · verified bibliography",
+      "url": "https://books.google.com/books/about/Ezra_Nehemiah.html?id=VI1bMiMXLs0C",
+      "summary": "The record identifies Throntveit’s commentary, publisher, year, and ISBN.",
+      "category": "Verified bibliography",
+      "perspective": "historical",
+      "limits": "Bibliographic record reviewed. The full commentary was not read.",
+      "author": "Mark A. Throntveit",
+      "year": 1992,
+      "reviewed": "2026-10-05: Publisher-supplied bibliographic metadata reviewed.",
+      "isbn": "9780664237448",
+      "type": "Verified bibliography",
+      "limitations": "Bibliographic record reviewed. The full commentary was not read.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "wiki-nehemiah",
+      "title": "Book of Nehemiah · Wikipedia",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1377330731&title=Book_of_Nehemiah",
+      "summary": "The opening describes the book and supplies bibliography.",
+      "category": "Encyclopedia background",
+      "perspective": "historical",
+      "limits": "Opening four paragraphs reviewed. Disputed historical claims are not adopted from this page alone.",
+      "author": "Wikipedia contributors",
+      "year": "Reviewed revision",
+      "revisionId": "1377330731",
+      "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1377330731&title=Book_of_Nehemiah",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "citedSourceIds": [
+        "throntveit-record"
+      ],
+      "reviewed": "2026-10-05: Opening four paragraphs and cited Throntveit bibliography record reviewed.",
+      "type": "Encyclopedia background",
+      "limitations": "Opening four paragraphs reviewed. Disputed historical claims are not adopted from this page alone."
+    },
+    {
+      "id": "cfm-nehemiah-2026",
+      "title": "Come, Follow Me 2026 · Nehemiah 2; 4–6; 8",
+      "url": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/31?lang=eng",
+      "summary": "The lesson studies work despite opposition and help in understanding scripture.",
+      "category": "Come, Follow Me",
+      "perspective": "lds",
+      "limits": "Selected chapters only. The lesson’s detailed opposition questions concern chapters 2, 4, and 6.",
+      "author": "The Church of Jesus Christ of Latter-day Saints",
+      "year": 2026,
+      "chapterCoverage": [
+        2,
+        4,
+        5,
+        6,
+        8
+      ],
+      "reviewed": "2026-10-05: Complete main and children’s lesson sections reviewed. Linked supplements were not reviewed.",
+      "type": "Come, Follow Me",
+      "limitations": "Selected chapters only. The lesson’s detailed opposition questions concern chapters 2, 4, and 6.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "lds-nehemiah-108",
+      "title": "Lesson 108: Nehemiah · Seminary student material",
+      "url": "https://www.churchofjesuschrist.org/study/manual/old-testament-seminary-student-material-2018/nehemiah/lesson-108?lang=eng",
+      "summary": "The lesson teaches shared work, focus, scripture study, and keeping covenants.",
+      "category": "LDS study manual",
+      "perspective": "lds",
+      "limits": "Chapters 7–13 receive a brief overview rather than detailed treatment. Church application remains separate from historical evidence.",
+      "author": "The Church of Jesus Christ of Latter-day Saints",
+      "year": 2018,
+      "chapterCoverage": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "reviewed": "2026-10-05: Main lesson through The Lord’s Work reviewed. Linked talks and the separate doctrinal mastery quiz were not reviewed.",
+      "type": "LDS study manual",
+      "limitations": "Chapters 7–13 receive a brief overview rather than detailed treatment. Church application remains separate from historical evidence.",
+      "license": "Linked source. Original guide summaries."
+    }
+  ],
+  "passages": [
+    {
+      "id": "nehemiah-1",
+      "chapter": 1,
+      "start": 1,
+      "end": 11,
+      "title": "News of broken walls",
+      "summary": "Hanani reports that Jerusalem has broken walls and burned gates. Nehemiah weeps, fasts, and prays. Nehemiah includes his own family when he confesses sin. He asks for help before approaching the king.",
+      "year": null,
+      "dateLabel": "Chapter order",
+      "uncertainty": "Town markers show named places. The city’s gates and individual wall sections are not mapped.",
+      "placeIds": [
+        "susa",
+        "jerusalem"
+      ],
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan",
+        "luther-nehemiah",
+        "luther-nehemiah-background"
+      ],
+      "lds": {
+        "text": "The Seminary lesson studies Nehemiah’s prayer after he hears about Jerusalem’s danger.",
+        "sourceIds": [
+          "lds-nehemiah-108"
+        ]
+      }
+    },
+    {
+      "id": "nehemiah-2",
+      "chapter": 2,
+      "start": 1,
+      "end": 20,
+      "title": "Permission to rebuild",
+      "summary": "Artaxerxes grants Nehemiah letters and wood. Nehemiah checks the walls at night before asking people to build. Nehemiah asks for specific help. His quiet inspection lets him see the damage before sharing his plan.",
+      "year": null,
+      "dateLabel": "Chapter order",
+      "uncertainty": "Town markers show named places. The city’s gates and individual wall sections are not mapped.",
+      "placeIds": [
+        "susa",
+        "jerusalem"
+      ],
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan",
+        "luther-nehemiah"
+      ],
+      "lds": {
+        "text": "Come, Follow Me asks how Nehemiah answers those who mock the work.",
+        "sourceIds": [
+          "cfm-nehemiah-2026",
+          "lds-nehemiah-108"
+        ]
+      }
+    },
+    {
+      "id": "nehemiah-3",
+      "chapter": 3,
+      "start": 1,
+      "end": 32,
+      "title": "Neighbors repair the walls",
+      "summary": "Priests, families, and workers repair different sections. Shallum and his daughters join the work. Some nobles refuse. The list names work beside homes as well as gates. Many people share the task.",
+      "year": null,
+      "dateLabel": "Chapter order",
+      "uncertainty": "Town markers show named places. The city’s gates and individual wall sections are not mapped.",
+      "placeIds": [
+        "jerusalem",
+        "jericho",
+        "gibeon",
+        "mizpah"
+      ],
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan",
+        "luther-nehemiah",
+        "havea-nehemiah"
+      ],
+      "lds": {
+        "text": "The Seminary lesson connects each small repair with doing a part in God’s work.",
+        "sourceIds": [
+          "lds-nehemiah-108"
+        ]
+      }
+    },
+    {
+      "id": "nehemiah-4",
+      "chapter": 4,
+      "start": 1,
+      "end": 23,
+      "title": "Builders keep watch",
+      "summary": "Sanballat and Tobiah mock the builders. Threats bring guards, weapons, and a trumpet signal to the work. The builders pray and set guards. The trumpet lets people gather when danger reaches a distant section.",
+      "year": null,
+      "dateLabel": "Chapter order",
+      "uncertainty": "Town markers show named places. The city’s gates and individual wall sections are not mapped.",
+      "placeIds": [
+        "jerusalem",
+        "samaria",
+        "ashdod"
+      ],
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan",
+        "luther-nehemiah"
+      ],
+      "lds": {
+        "text": "Come, Follow Me studies prayer and steady work during threats.",
+        "sourceIds": [
+          "cfm-nehemiah-2026",
+          "lds-nehemiah-108"
+        ]
+      }
+    },
+    {
+      "id": "nehemiah-5",
+      "chapter": 5,
+      "start": 1,
+      "end": 19,
+      "title": "Families lose land and freedom",
+      "summary": "Families lack food and borrow money. Some children become servants. Nehemiah orders lenders to return land and stop charges. Danger also comes from neighbors who demand payment. Nehemiah gives up the governor’s food allowance to ease the burden.",
+      "year": null,
+      "dateLabel": "Chapter order",
+      "uncertainty": "Town markers show named places. The city’s gates and individual wall sections are not mapped.",
+      "placeIds": [
+        "jerusalem"
+      ],
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan",
+        "luther-nehemiah",
+        "havea-nehemiah"
+      ],
+      "lds": {
+        "text": "What would stopping these charges change for the families?",
+        "sourceIds": [
+          "cfm-nehemiah-2026",
+          "lds-nehemiah-108"
+        ]
+      }
+    },
+    {
+      "id": "nehemiah-6",
+      "chapter": 6,
+      "start": 1,
+      "end": 19,
+      "title": "Letters, threats, and a finished wall",
+      "summary": "Nehemiah rejects meetings and a false warning. The wall is finished in fifty-two days. Tobiah still sends threats. Tobiah has family ties with people inside Judah. Letters carry news between them despite the finished wall.",
+      "year": null,
+      "dateLabel": "Chapter order",
+      "uncertainty": "Town markers show named places. The city’s gates and individual wall sections are not mapped.",
+      "placeIds": [
+        "jerusalem"
+      ],
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan",
+        "luther-nehemiah"
+      ],
+      "lds": {
+        "text": "Come, Follow Me asks how Nehemiah stays focused when others try to stop him.",
+        "sourceIds": [
+          "cfm-nehemiah-2026",
+          "lds-nehemiah-108"
+        ]
+      }
+    },
+    {
+      "id": "nehemiah-7",
+      "chapter": 7,
+      "start": 1,
+      "end": 73,
+      "title": "Guards and the return register",
+      "summary": "Nehemiah puts Hanani and Hananiah in charge. An earlier list names returning families and their gifts. The city has walls but few people and houses. Family records decide who can serve as priests.",
+      "year": null,
+      "dateLabel": "Chapter order",
+      "uncertainty": "Town markers show named places. The city’s gates and individual wall sections are not mapped.",
+      "placeIds": [
+        "jerusalem",
+        "babylon",
+        "bethlehem",
+        "jericho",
+        "bethel"
+      ],
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan",
+        "luther-nehemiah",
+        "luther-nehemiah-background"
+      ],
+      "lds": {
+        "text": "Why do the guards need clear instructions after the wall is built?",
+        "sourceIds": [
+          "lds-nehemiah-108"
+        ]
+      }
+    },
+    {
+      "id": "nehemiah-8",
+      "chapter": 8,
+      "start": 1,
+      "end": 18,
+      "title": "Ezra reads and teachers explain",
+      "summary": "Ezra reads God’s law to men and women. Teachers explain it. The people share food and make shelters for a feast. The leaders turn weeping toward joy. People send food to those who have none prepared.",
+      "year": null,
+      "dateLabel": "Chapter order",
+      "uncertainty": "Town markers show named places. The city’s gates and individual wall sections are not mapped.",
+      "placeIds": [
+        "jerusalem"
+      ],
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan",
+        "luther-nehemiah"
+      ],
+      "lds": {
+        "text": "Come, Follow Me asks what helps people understand scripture, as the teachers do here.",
+        "sourceIds": [
+          "cfm-nehemiah-2026",
+          "lds-nehemiah-108"
+        ]
+      }
+    },
+    {
+      "id": "nehemiah-9",
+      "chapter": 9,
+      "start": 1,
+      "end": 38,
+      "title": "A prayer remembers mercy and failure",
+      "summary": "The people fast and confess. Their prayer recalls Abraham, Egypt, the wilderness, and repeated rescue after sin. The prayer ends with a present need. Foreign kings take the land’s crops and control people and livestock.",
+      "year": null,
+      "dateLabel": "Chapter order",
+      "uncertainty": "Town markers show named places. The city’s gates and individual wall sections are not mapped.",
+      "placeIds": [
+        "jerusalem",
+        "egypt"
+      ],
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan",
+        "luther-nehemiah",
+        "luther-nehemiah-background"
+      ],
+      "lds": {
+        "text": "The people recall mercy during repeated failure. How does this shape their new promises?",
+        "sourceIds": [
+          "lds-nehemiah-108"
+        ]
+      }
+    },
+    {
+      "id": "nehemiah-10",
+      "chapter": 10,
+      "start": 1,
+      "end": 39,
+      "title": "Promises to support worship",
+      "summary": "Leaders seal a written promise. Families agree to keep God’s law, rest on the Sabbath, and supply the temple. The promises name food, wood, money, and workers. Worship requires regular gifts rather than one celebration.",
+      "year": null,
+      "dateLabel": "Chapter order",
+      "uncertainty": "Town markers show named places. The city’s gates and individual wall sections are not mapped.",
+      "placeIds": [
+        "jerusalem"
+      ],
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan",
+        "luther-nehemiah",
+        "luther-nehemiah-background"
+      ],
+      "lds": {
+        "text": "The Seminary overview studies promises about marriage and Sabbath rest.",
+        "sourceIds": [
+          "lds-nehemiah-108"
+        ]
+      }
+    },
+    {
+      "id": "nehemiah-11",
+      "chapter": 11,
+      "start": 1,
+      "end": 36,
+      "title": "Families move into Jerusalem",
+      "summary": "One family in ten is chosen to live in Jerusalem. Volunteers also move there. The list names workers and nearby towns. Living in the city changes where families farm and work. Singers, guards, and temple workers need daily support.",
+      "year": null,
+      "dateLabel": "Chapter order",
+      "uncertainty": "Town markers show named places. The city’s gates and individual wall sections are not mapped.",
+      "placeIds": [
+        "jerusalem",
+        "beersheba",
+        "lachish",
+        "bethel",
+        "anathoth"
+      ],
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan",
+        "luther-nehemiah"
+      ],
+      "lds": {
+        "text": "Who keeps daily temple service possible while families settle in different towns?",
+        "sourceIds": [
+          "lds-nehemiah-108"
+        ]
+      }
+    },
+    {
+      "id": "nehemiah-12",
+      "chapter": 12,
+      "start": 1,
+      "end": 47,
+      "title": "Singers celebrate the rebuilt walls",
+      "summary": "Priests and Levites gather for the wall’s dedication. Two groups sing along the walls. Women and children join the joy. The celebration ends with plans to supply the workers. Food gifts help singers and priests continue their service.",
+      "year": null,
+      "dateLabel": "Chapter order",
+      "uncertainty": "Town markers show named places. The city’s gates and individual wall sections are not mapped.",
+      "placeIds": [
+        "jerusalem"
+      ],
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan",
+        "luther-nehemiah"
+      ],
+      "lds": {
+        "text": "How do the women and children join the public thanks?",
+        "sourceIds": [
+          "lds-nehemiah-108"
+        ]
+      }
+    },
+    {
+      "id": "nehemiah-13",
+      "chapter": 13,
+      "start": 1,
+      "end": 31,
+      "title": "Nehemiah returns and changes the rules",
+      "summary": "Nehemiah removes Tobiah’s goods, restores temple gifts, and closes the gates on the Sabbath. He confronts marriages with foreign women. He also strikes some men and pulls out their hair. His marriage rules cause conflict within families.",
+      "year": null,
+      "dateLabel": "Chapter order",
+      "uncertainty": "Town markers show named places. The city’s gates and individual wall sections are not mapped.",
+      "placeIds": [
+        "jerusalem",
+        "tyre",
+        "ashdod"
+      ],
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan",
+        "luther-nehemiah",
+        "havea-nehemiah",
+        "mcclellan-nehemiah"
+      ],
+      "lds": {
+        "text": "The Seminary overview emphasizes Sabbath rest and keeping covenants.",
+        "sourceIds": [
+          "lds-nehemiah-108"
+        ]
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "nehemiah-1",
+      "chapter": 1,
+      "verse": 1,
+      "eventOrder": 1,
+      "title": "News of broken walls",
+      "summary": "Hanani reports that Jerusalem has broken walls and burned gates. Nehemiah weeps, fasts, and prays.",
+      "detail": "Nehemiah includes his own family when he confesses sin. He asks for help before approaching the king.",
+      "dateLabel": "Chapter order",
+      "uncertainty": "Town markers show named places. The city’s gates and individual wall sections are not mapped.",
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan",
+        "luther-nehemiah",
+        "luther-nehemiah-background"
+      ],
+      "placeIds": [
+        "susa",
+        "jerusalem"
+      ],
+      "lds": {
+        "text": "The Seminary lesson studies Nehemiah’s prayer after he hears about Jerusalem’s danger.",
+        "sourceIds": [
+          "lds-nehemiah-108"
+        ]
+      }
+    },
+    {
+      "id": "nehemiah-2",
+      "chapter": 2,
+      "verse": 1,
+      "eventOrder": 2,
+      "title": "Permission to rebuild",
+      "summary": "Artaxerxes grants Nehemiah letters and wood. Nehemiah checks the walls at night before asking people to build.",
+      "detail": "Nehemiah asks for specific help. His quiet inspection lets him see the damage before sharing his plan.",
+      "dateLabel": "Chapter order",
+      "uncertainty": "Town markers show named places. The city’s gates and individual wall sections are not mapped.",
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan",
+        "luther-nehemiah"
+      ],
+      "placeIds": [
+        "susa",
+        "jerusalem"
+      ],
+      "lds": {
+        "text": "Come, Follow Me asks how Nehemiah answers those who mock the work.",
+        "sourceIds": [
+          "cfm-nehemiah-2026",
+          "lds-nehemiah-108"
+        ]
+      }
+    },
+    {
+      "id": "nehemiah-3",
+      "chapter": 3,
+      "verse": 1,
+      "eventOrder": 3,
+      "title": "Neighbors repair the walls",
+      "summary": "Priests, families, and workers repair different sections. Shallum and his daughters join the work. Some nobles refuse.",
+      "detail": "The list names work beside homes as well as gates. Many people share the task.",
+      "dateLabel": "Chapter order",
+      "uncertainty": "Town markers show named places. The city’s gates and individual wall sections are not mapped.",
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan",
+        "luther-nehemiah",
+        "havea-nehemiah"
+      ],
+      "placeIds": [
+        "jerusalem",
+        "jericho",
+        "gibeon",
+        "mizpah"
+      ],
+      "lds": {
+        "text": "The Seminary lesson connects each small repair with doing a part in God’s work.",
+        "sourceIds": [
+          "lds-nehemiah-108"
+        ]
+      }
+    },
+    {
+      "id": "nehemiah-4",
+      "chapter": 4,
+      "verse": 1,
+      "eventOrder": 4,
+      "title": "Builders keep watch",
+      "summary": "Sanballat and Tobiah mock the builders. Threats bring guards, weapons, and a trumpet signal to the work.",
+      "detail": "The builders pray and set guards. The trumpet lets people gather when danger reaches a distant section.",
+      "dateLabel": "Chapter order",
+      "uncertainty": "Town markers show named places. The city’s gates and individual wall sections are not mapped.",
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan",
+        "luther-nehemiah"
+      ],
+      "placeIds": [
+        "jerusalem",
+        "samaria",
+        "ashdod"
+      ],
+      "lds": {
+        "text": "Come, Follow Me studies prayer and steady work during threats.",
+        "sourceIds": [
+          "cfm-nehemiah-2026",
+          "lds-nehemiah-108"
+        ]
+      }
+    },
+    {
+      "id": "nehemiah-5",
+      "chapter": 5,
+      "verse": 1,
+      "eventOrder": 5,
+      "title": "Families lose land and freedom",
+      "summary": "Families lack food and borrow money. Some children become servants. Nehemiah orders lenders to return land and stop charges.",
+      "detail": "Danger also comes from neighbors who demand payment. Nehemiah gives up the governor’s food allowance to ease the burden.",
+      "dateLabel": "Chapter order",
+      "uncertainty": "Town markers show named places. The city’s gates and individual wall sections are not mapped.",
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan",
+        "luther-nehemiah",
+        "havea-nehemiah"
+      ],
+      "placeIds": [
+        "jerusalem"
+      ],
+      "lds": {
+        "text": "What would stopping these charges change for the families?",
+        "sourceIds": [
+          "cfm-nehemiah-2026",
+          "lds-nehemiah-108"
+        ]
+      }
+    },
+    {
+      "id": "nehemiah-6",
+      "chapter": 6,
+      "verse": 1,
+      "eventOrder": 6,
+      "title": "Letters, threats, and a finished wall",
+      "summary": "Nehemiah rejects meetings and a false warning. The wall is finished in fifty-two days. Tobiah still sends threats.",
+      "detail": "Tobiah has family ties with people inside Judah. Letters carry news between them despite the finished wall.",
+      "dateLabel": "Chapter order",
+      "uncertainty": "Town markers show named places. The city’s gates and individual wall sections are not mapped.",
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan",
+        "luther-nehemiah"
+      ],
+      "placeIds": [
+        "jerusalem"
+      ],
+      "lds": {
+        "text": "Come, Follow Me asks how Nehemiah stays focused when others try to stop him.",
+        "sourceIds": [
+          "cfm-nehemiah-2026",
+          "lds-nehemiah-108"
+        ]
+      }
+    },
+    {
+      "id": "nehemiah-7",
+      "chapter": 7,
+      "verse": 1,
+      "eventOrder": 7,
+      "title": "Guards and the return register",
+      "summary": "Nehemiah puts Hanani and Hananiah in charge. An earlier list names returning families and their gifts.",
+      "detail": "The city has walls but few people and houses. Family records decide who can serve as priests.",
+      "dateLabel": "Chapter order",
+      "uncertainty": "Town markers show named places. The city’s gates and individual wall sections are not mapped.",
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan",
+        "luther-nehemiah",
+        "luther-nehemiah-background"
+      ],
+      "placeIds": [
+        "jerusalem",
+        "babylon",
+        "bethlehem",
+        "jericho",
+        "bethel"
+      ],
+      "lds": {
+        "text": "Why do the guards need clear instructions after the wall is built?",
+        "sourceIds": [
+          "lds-nehemiah-108"
+        ]
+      }
+    },
+    {
+      "id": "nehemiah-8",
+      "chapter": 8,
+      "verse": 1,
+      "eventOrder": 8,
+      "title": "Ezra reads and teachers explain",
+      "summary": "Ezra reads God’s law to men and women. Teachers explain it. The people share food and make shelters for a feast.",
+      "detail": "The leaders turn weeping toward joy. People send food to those who have none prepared.",
+      "dateLabel": "Chapter order",
+      "uncertainty": "Town markers show named places. The city’s gates and individual wall sections are not mapped.",
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan",
+        "luther-nehemiah"
+      ],
+      "placeIds": [
+        "jerusalem"
+      ],
+      "lds": {
+        "text": "Come, Follow Me asks what helps people understand scripture, as the teachers do here.",
+        "sourceIds": [
+          "cfm-nehemiah-2026",
+          "lds-nehemiah-108"
+        ]
+      }
+    },
+    {
+      "id": "nehemiah-9",
+      "chapter": 9,
+      "verse": 1,
+      "eventOrder": 9,
+      "title": "A prayer remembers mercy and failure",
+      "summary": "The people fast and confess. Their prayer recalls Abraham, Egypt, the wilderness, and repeated rescue after sin.",
+      "detail": "The prayer ends with a present need. Foreign kings take the land’s crops and control people and livestock.",
+      "dateLabel": "Chapter order",
+      "uncertainty": "Town markers show named places. The city’s gates and individual wall sections are not mapped.",
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan",
+        "luther-nehemiah",
+        "luther-nehemiah-background"
+      ],
+      "placeIds": [
+        "jerusalem",
+        "egypt"
+      ],
+      "lds": {
+        "text": "The people recall mercy during repeated failure. How does this shape their new promises?",
+        "sourceIds": [
+          "lds-nehemiah-108"
+        ]
+      }
+    },
+    {
+      "id": "nehemiah-10",
+      "chapter": 10,
+      "verse": 1,
+      "eventOrder": 10,
+      "title": "Promises to support worship",
+      "summary": "Leaders seal a written promise. Families agree to keep God’s law, rest on the Sabbath, and supply the temple.",
+      "detail": "The promises name food, wood, money, and workers. Worship requires regular gifts rather than one celebration.",
+      "dateLabel": "Chapter order",
+      "uncertainty": "Town markers show named places. The city’s gates and individual wall sections are not mapped.",
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan",
+        "luther-nehemiah",
+        "luther-nehemiah-background"
+      ],
+      "placeIds": [
+        "jerusalem"
+      ],
+      "lds": {
+        "text": "The Seminary overview studies promises about marriage and Sabbath rest.",
+        "sourceIds": [
+          "lds-nehemiah-108"
+        ]
+      }
+    },
+    {
+      "id": "nehemiah-11",
+      "chapter": 11,
+      "verse": 1,
+      "eventOrder": 11,
+      "title": "Families move into Jerusalem",
+      "summary": "One family in ten is chosen to live in Jerusalem. Volunteers also move there. The list names workers and nearby towns.",
+      "detail": "Living in the city changes where families farm and work. Singers, guards, and temple workers need daily support.",
+      "dateLabel": "Chapter order",
+      "uncertainty": "Town markers show named places. The city’s gates and individual wall sections are not mapped.",
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan",
+        "luther-nehemiah"
+      ],
+      "placeIds": [
+        "jerusalem",
+        "beersheba",
+        "lachish",
+        "bethel",
+        "anathoth"
+      ],
+      "lds": {
+        "text": "Who keeps daily temple service possible while families settle in different towns?",
+        "sourceIds": [
+          "lds-nehemiah-108"
+        ]
+      }
+    },
+    {
+      "id": "nehemiah-12",
+      "chapter": 12,
+      "verse": 1,
+      "eventOrder": 12,
+      "title": "Singers celebrate the rebuilt walls",
+      "summary": "Priests and Levites gather for the wall’s dedication. Two groups sing along the walls. Women and children join the joy.",
+      "detail": "The celebration ends with plans to supply the workers. Food gifts help singers and priests continue their service.",
+      "dateLabel": "Chapter order",
+      "uncertainty": "Town markers show named places. The city’s gates and individual wall sections are not mapped.",
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan",
+        "luther-nehemiah"
+      ],
+      "placeIds": [
+        "jerusalem"
+      ],
+      "lds": {
+        "text": "How do the women and children join the public thanks?",
+        "sourceIds": [
+          "lds-nehemiah-108"
+        ]
+      }
+    },
+    {
+      "id": "nehemiah-13",
+      "chapter": 13,
+      "verse": 1,
+      "eventOrder": 13,
+      "title": "Nehemiah returns and changes the rules",
+      "summary": "Nehemiah removes Tobiah’s goods, restores temple gifts, and closes the gates on the Sabbath. He confronts marriages with foreign women.",
+      "detail": "He also strikes some men and pulls out their hair. His marriage rules cause conflict within families.",
+      "dateLabel": "Chapter order",
+      "uncertainty": "Town markers show named places. The city’s gates and individual wall sections are not mapped.",
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan",
+        "luther-nehemiah",
+        "havea-nehemiah",
+        "mcclellan-nehemiah"
+      ],
+      "placeIds": [
+        "jerusalem",
+        "tyre",
+        "ashdod"
+      ],
+      "lds": {
+        "text": "The Seminary overview emphasizes Sabbath rest and keeping covenants.",
+        "sourceIds": [
+          "lds-nehemiah-108"
+        ]
+      }
+    }
+  ],
+  "places": [
+    {
+      "id": "susa",
+      "name": "Susa",
+      "lat": 32.189,
+      "lng": 48.257,
+      "summary": "Nehemiah serves the king here before asking to go to Jerusalem.",
+      "limits": "Ancient city location. No precise palace room or journey road is reconstructed.",
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan"
+      ],
+      "detail": "Nehemiah serves the king here before asking to go to Jerusalem.",
+      "uncertainty": "Ancient city location. No precise palace room or journey road is reconstructed.",
+      "chapterLocation": true
+    },
+    {
+      "id": "jerusalem",
+      "name": "Jerusalem",
+      "lat": 31.778,
+      "lng": 35.235,
+      "summary": "Families repair the walls, gather for the law reading, and plan daily temple service.",
+      "limits": "Reference marker only. Exact houses, camps, battle lines, property boundaries, and ancient roads remain uncertain.",
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan"
+      ],
+      "detail": "Families repair the walls, gather for the law reading, and plan daily temple service.",
+      "uncertainty": "Reference marker only. Exact houses, camps, battle lines, property boundaries, and ancient roads remain uncertain.",
+      "chapterLocation": true
+    },
+    {
+      "id": "jericho",
+      "name": "Jericho",
+      "lat": 31.87,
+      "lng": 35.45,
+      "summary": "Men from Jericho repair a section of Jerusalem’s wall.",
+      "limits": "Reference marker only. Exact houses, camps, battle lines, property boundaries, and ancient roads remain uncertain.",
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan"
+      ],
+      "detail": "Men from Jericho repair a section of Jerusalem’s wall.",
+      "uncertainty": "Reference marker only. Exact houses, camps, battle lines, property boundaries, and ancient roads remain uncertain.",
+      "chapterLocation": true
+    },
+    {
+      "id": "gibeon",
+      "name": "Gibeon",
+      "lat": 31.85,
+      "lng": 35.18,
+      "summary": "Workers from Gibeon join the wall repairs.",
+      "limits": "Reference marker only. Exact houses, camps, battle lines, property boundaries, and ancient roads remain uncertain.",
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan"
+      ],
+      "detail": "Workers from Gibeon join the wall repairs.",
+      "uncertainty": "Reference marker only. Exact houses, camps, battle lines, property boundaries, and ancient roads remain uncertain.",
+      "chapterLocation": true
+    },
+    {
+      "id": "mizpah",
+      "name": "Mizpah",
+      "lat": 31.886,
+      "lng": 35.215,
+      "summary": "The repair list names people and district leaders from Mizpah.",
+      "limits": "Reference marker only. Proposed or broad locations do not establish an exact house, shrine, brook, mountain, battle position, or ancient road.",
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan"
+      ],
+      "detail": "The repair list names people and district leaders from Mizpah.",
+      "uncertainty": "Reference marker only. Proposed or broad locations do not establish an exact house, shrine, brook, mountain, battle position, or ancient road.",
+      "chapterLocation": true
+    },
+    {
+      "id": "samaria",
+      "name": "Samaria",
+      "lat": 32.276,
+      "lng": 35.194,
+      "summary": "Sanballat speaks about the builders before the army of Samaria.",
+      "limits": "Reference marker only. Proposed or broad locations do not establish an exact house, shrine, brook, mountain, battle position, or ancient road.",
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan"
+      ],
+      "detail": "Sanballat speaks about the builders before the army of Samaria.",
+      "uncertainty": "Reference marker only. Proposed or broad locations do not establish an exact house, shrine, brook, mountain, battle position, or ancient road.",
+      "chapterLocation": true
+    },
+    {
+      "id": "ashdod",
+      "name": "Ashdod",
+      "lat": 31.75,
+      "lng": 34.66,
+      "summary": "Ashdodites oppose the work. Later, Nehemiah speaks about wives and children from Ashdod.",
+      "limits": "Reference marker only. The guide does not identify a private house, exact camp, cave, field, shrine room, or ancient road. Proposed localities remain uncertain.",
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan"
+      ],
+      "detail": "Ashdodites oppose the work. Later, Nehemiah speaks about wives and children from Ashdod.",
+      "uncertainty": "Reference marker only. The guide does not identify a private house, exact camp, cave, field, shrine room, or ancient road. Proposed localities remain uncertain.",
+      "chapterLocation": true
+    },
+    {
+      "id": "babylon",
+      "name": "Babylon",
+      "lat": 32.54,
+      "lng": 44.42,
+      "summary": "The earlier return list recalls families carried away under Nebuchadnezzar.",
+      "limits": "Approximate reference marker. It does not establish an exact ascent, house, camp, deportation settlement, ancient road, or battle position.",
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan"
+      ],
+      "detail": "The earlier return list recalls families carried away under Nebuchadnezzar.",
+      "uncertainty": "Approximate reference marker. It does not establish an exact ascent, house, camp, deportation settlement, ancient road, or battle position.",
+      "chapterLocation": true
+    },
+    {
+      "id": "bethlehem",
+      "name": "Bethlehem",
+      "lat": 31.705,
+      "lng": 35.202,
+      "summary": "The return list includes people from Bethlehem and Netophah.",
+      "limits": "Reference marker only. The guide does not identify a private house, exact camp, cave, field, shrine room, or ancient road. Proposed localities remain uncertain.",
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan"
+      ],
+      "detail": "The return list includes people from Bethlehem and Netophah.",
+      "uncertainty": "Reference marker only. The guide does not identify a private house, exact camp, cave, field, shrine room, or ancient road. Proposed localities remain uncertain.",
+      "chapterLocation": true
+    },
+    {
+      "id": "bethel",
+      "name": "Bethel",
+      "lat": 31.93,
+      "lng": 35.22,
+      "summary": "Bethel appears in the return list and the later list of towns.",
+      "limits": "Reference marker only. Proposed or broad locations do not establish an exact house, shrine, brook, mountain, battle position, or ancient road.",
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan"
+      ],
+      "detail": "Bethel appears in the return list and the later list of towns.",
+      "uncertainty": "Reference marker only. Proposed or broad locations do not establish an exact house, shrine, brook, mountain, battle position, or ancient road.",
+      "chapterLocation": true
+    },
+    {
+      "id": "egypt",
+      "name": "Egypt",
+      "lat": 30.05,
+      "lng": 31.23,
+      "summary": "The public prayer recalls rescue from Egypt. The praying people gather in Jerusalem.",
+      "limits": "Reference marker only. Proposed or broad locations do not establish an exact house, shrine, brook, mountain, battle position, or ancient road.",
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan"
+      ],
+      "detail": "The public prayer recalls rescue from Egypt. The praying people gather in Jerusalem.",
+      "uncertainty": "Reference marker only. Proposed or broad locations do not establish an exact house, shrine, brook, mountain, battle position, or ancient road.",
+      "chapterLocation": true
+    },
+    {
+      "id": "beersheba",
+      "name": "Beersheba",
+      "lat": 31.245,
+      "lng": 34.842,
+      "summary": "The settlement list names villages extending south to Beersheba.",
+      "limits": "Reference marker only. The guide does not identify a private house, exact camp, cave, field, shrine room, or ancient road. Proposed localities remain uncertain.",
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan"
+      ],
+      "detail": "The settlement list names villages extending south to Beersheba.",
+      "uncertainty": "Reference marker only. The guide does not identify a private house, exact camp, cave, field, shrine room, or ancient road. Proposed localities remain uncertain.",
+      "chapterLocation": true
+    },
+    {
+      "id": "lachish",
+      "name": "Lachish",
+      "lat": 31.565,
+      "lng": 34.849,
+      "summary": "Families live near Lachish and its fields after the return.",
+      "limits": "Approximate reference marker. It does not establish an exact ascent, house, camp, deportation settlement, ancient road, or battle position.",
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan"
+      ],
+      "detail": "Families live near Lachish and its fields after the return.",
+      "uncertainty": "Approximate reference marker. It does not establish an exact ascent, house, camp, deportation settlement, ancient road, or battle position.",
+      "chapterLocation": true
+    },
+    {
+      "id": "anathoth",
+      "name": "Anathoth",
+      "lat": 31.815,
+      "lng": 35.261,
+      "summary": "The town appears among the places where families settle.",
+      "limits": "Reference marker only. Proposed or broad locations do not establish an exact house, shrine, brook, mountain, battle position, or ancient road.",
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan"
+      ],
+      "detail": "The town appears among the places where families settle.",
+      "uncertainty": "Reference marker only. Proposed or broad locations do not establish an exact house, shrine, brook, mountain, battle position, or ancient road.",
+      "chapterLocation": true
+    },
+    {
+      "id": "tyre",
+      "name": "Tyre",
+      "lat": 33.27,
+      "lng": 35.2,
+      "summary": "Merchants from Tyre bring fish and goods to Jerusalem on the Sabbath.",
+      "limits": "Reference marker only. Exact houses, camps, battle lines, property boundaries, and ancient roads remain uncertain.",
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan"
+      ],
+      "detail": "Merchants from Tyre bring fish and goods to Jerusalem on the Sabbath.",
+      "uncertainty": "Reference marker only. Exact houses, camps, battle lines, property boundaries, and ancient roads remain uncertain.",
+      "chapterLocation": true
+    }
+  ],
+  "campaigns": [],
+  "ancientRoads": [],
+  "regions": [],
+  "words": [],
+  "guides": [
+    {
+      "id": "nehemiah-overview",
+      "title": "Study Nehemiah",
+      "description": "Follow selected chapters through the book.",
+      "steps": [
+        {
+          "title": "News of broken walls",
+          "text": "Hanani reports that Jerusalem has broken walls and burned gates. Nehemiah weeps, fasts, and prays. Nehemiah includes his own family when he confesses sin. He asks for help before approaching the king.",
+          "chapter": 1,
+          "verse": 1,
+          "sourceIds": [
+            "web",
+            "atlas",
+            "atlas-canaan",
+            "luther-nehemiah",
+            "luther-nehemiah-background"
+          ]
+        },
+        {
+          "title": "Guards and the return register",
+          "text": "Nehemiah puts Hanani and Hananiah in charge. An earlier list names returning families and their gifts. The city has walls but few people and houses. Family records decide who can serve as priests.",
+          "chapter": 7,
+          "verse": 1,
+          "sourceIds": [
+            "web",
+            "atlas",
+            "atlas-canaan",
+            "luther-nehemiah",
+            "luther-nehemiah-background"
+          ]
+        },
+        {
+          "title": "Nehemiah returns and changes the rules",
+          "text": "Nehemiah removes Tobiah’s goods, restores temple gifts, and closes the gates on the Sabbath. He confronts marriages with foreign women. He also strikes some men and pulls out their hair. His marriage rules cause conflict within families.",
+          "chapter": 13,
+          "verse": 1,
+          "sourceIds": [
+            "web",
+            "atlas",
+            "atlas-canaan",
+            "luther-nehemiah",
+            "havea-nehemiah",
+            "mcclellan-nehemiah"
+          ]
+        }
+      ]
+    }
+  ],
+  "periods": [
+    {
+      "id": "part-0",
+      "label": "Nehemiah 1–4",
+      "start": 1,
+      "end": 4,
+      "description": "Chapter order"
+    },
+    {
+      "id": "part-1",
+      "label": "Nehemiah 5–8",
+      "start": 5,
+      "end": 8,
+      "description": "Chapter order"
+    },
+    {
+      "id": "part-2",
+      "label": "Nehemiah 9–13",
+      "start": 9,
+      "end": 13,
+      "description": "Chapter order"
+    }
+  ],
+  "chapterMaps": [
+    {
+      "chapter": 1,
+      "focusPlaceIds": [
+        "susa",
+        "jerusalem"
+      ],
+      "placeIds": [
+        "susa",
+        "jerusalem"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Town markers show named places. The city’s gates and individual wall sections are not mapped.",
+      "narrative": "Hanani reports that Jerusalem has broken walls and burned gates. Nehemiah weeps, fasts, and prays.",
+      "limits": "Town markers show named places. The city’s gates and individual wall sections are not mapped.",
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan",
+        "luther-nehemiah",
+        "luther-nehemiah-background"
+      ]
+    },
+    {
+      "chapter": 2,
+      "focusPlaceIds": [
+        "susa",
+        "jerusalem"
+      ],
+      "placeIds": [
+        "susa",
+        "jerusalem"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Town markers show named places. The city’s gates and individual wall sections are not mapped.",
+      "narrative": "Artaxerxes grants Nehemiah letters and wood. Nehemiah checks the walls at night before asking people to build.",
+      "limits": "Town markers show named places. The city’s gates and individual wall sections are not mapped.",
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan",
+        "luther-nehemiah"
+      ]
+    },
+    {
+      "chapter": 3,
+      "focusPlaceIds": [
+        "jerusalem",
+        "jericho",
+        "gibeon",
+        "mizpah"
+      ],
+      "placeIds": [
+        "jerusalem",
+        "jericho",
+        "gibeon",
+        "mizpah"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Town markers show named places. The city’s gates and individual wall sections are not mapped.",
+      "narrative": "Priests, families, and workers repair different sections. Shallum and his daughters join the work. Some nobles refuse.",
+      "limits": "Town markers show named places. The city’s gates and individual wall sections are not mapped.",
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan",
+        "luther-nehemiah",
+        "havea-nehemiah"
+      ]
+    },
+    {
+      "chapter": 4,
+      "focusPlaceIds": [
+        "jerusalem",
+        "samaria",
+        "ashdod"
+      ],
+      "placeIds": [
+        "jerusalem",
+        "samaria",
+        "ashdod"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Town markers show named places. The city’s gates and individual wall sections are not mapped.",
+      "narrative": "Sanballat and Tobiah mock the builders. Threats bring guards, weapons, and a trumpet signal to the work.",
+      "limits": "Town markers show named places. The city’s gates and individual wall sections are not mapped.",
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan",
+        "luther-nehemiah"
+      ]
+    },
+    {
+      "chapter": 5,
+      "focusPlaceIds": [
+        "jerusalem"
+      ],
+      "placeIds": [
+        "jerusalem"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Town markers show named places. The city’s gates and individual wall sections are not mapped.",
+      "narrative": "Families lack food and borrow money. Some children become servants. Nehemiah orders lenders to return land and stop charges.",
+      "limits": "Town markers show named places. The city’s gates and individual wall sections are not mapped.",
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan",
+        "luther-nehemiah",
+        "havea-nehemiah"
+      ]
+    },
+    {
+      "chapter": 6,
+      "focusPlaceIds": [
+        "jerusalem"
+      ],
+      "placeIds": [
+        "jerusalem"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Town markers show named places. The city’s gates and individual wall sections are not mapped.",
+      "narrative": "Nehemiah rejects meetings and a false warning. The wall is finished in fifty-two days. Tobiah still sends threats.",
+      "limits": "Town markers show named places. The city’s gates and individual wall sections are not mapped.",
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan",
+        "luther-nehemiah"
+      ]
+    },
+    {
+      "chapter": 7,
+      "focusPlaceIds": [
+        "jerusalem",
+        "babylon",
+        "bethlehem",
+        "jericho",
+        "bethel"
+      ],
+      "placeIds": [
+        "jerusalem",
+        "babylon",
+        "bethlehem",
+        "jericho",
+        "bethel"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Town markers show named places. The city’s gates and individual wall sections are not mapped.",
+      "narrative": "Nehemiah puts Hanani and Hananiah in charge. An earlier list names returning families and their gifts.",
+      "limits": "Town markers show named places. The city’s gates and individual wall sections are not mapped.",
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan",
+        "luther-nehemiah",
+        "luther-nehemiah-background"
+      ]
+    },
+    {
+      "chapter": 8,
+      "focusPlaceIds": [
+        "jerusalem"
+      ],
+      "placeIds": [
+        "jerusalem"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Town markers show named places. The city’s gates and individual wall sections are not mapped.",
+      "narrative": "Ezra reads God’s law to men and women. Teachers explain it. The people share food and make shelters for a feast.",
+      "limits": "Town markers show named places. The city’s gates and individual wall sections are not mapped.",
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan",
+        "luther-nehemiah"
+      ]
+    },
+    {
+      "chapter": 9,
+      "focusPlaceIds": [
+        "jerusalem",
+        "egypt"
+      ],
+      "placeIds": [
+        "jerusalem",
+        "egypt"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Town markers show named places. The city’s gates and individual wall sections are not mapped.",
+      "narrative": "The people fast and confess. Their prayer recalls Abraham, Egypt, the wilderness, and repeated rescue after sin.",
+      "limits": "Town markers show named places. The city’s gates and individual wall sections are not mapped.",
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan",
+        "luther-nehemiah",
+        "luther-nehemiah-background"
+      ]
+    },
+    {
+      "chapter": 10,
+      "focusPlaceIds": [
+        "jerusalem"
+      ],
+      "placeIds": [
+        "jerusalem"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Town markers show named places. The city’s gates and individual wall sections are not mapped.",
+      "narrative": "Leaders seal a written promise. Families agree to keep God’s law, rest on the Sabbath, and supply the temple.",
+      "limits": "Town markers show named places. The city’s gates and individual wall sections are not mapped.",
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan",
+        "luther-nehemiah",
+        "luther-nehemiah-background"
+      ]
+    },
+    {
+      "chapter": 11,
+      "focusPlaceIds": [
+        "jerusalem",
+        "beersheba",
+        "lachish",
+        "bethel",
+        "anathoth"
+      ],
+      "placeIds": [
+        "jerusalem",
+        "beersheba",
+        "lachish",
+        "bethel",
+        "anathoth"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Town markers show named places. The city’s gates and individual wall sections are not mapped.",
+      "narrative": "One family in ten is chosen to live in Jerusalem. Volunteers also move there. The list names workers and nearby towns.",
+      "limits": "Town markers show named places. The city’s gates and individual wall sections are not mapped.",
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan",
+        "luther-nehemiah"
+      ]
+    },
+    {
+      "chapter": 12,
+      "focusPlaceIds": [
+        "jerusalem"
+      ],
+      "placeIds": [
+        "jerusalem"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Town markers show named places. The city’s gates and individual wall sections are not mapped.",
+      "narrative": "Priests and Levites gather for the wall’s dedication. Two groups sing along the walls. Women and children join the joy.",
+      "limits": "Town markers show named places. The city’s gates and individual wall sections are not mapped.",
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan",
+        "luther-nehemiah"
+      ]
+    },
+    {
+      "chapter": 13,
+      "focusPlaceIds": [
+        "jerusalem",
+        "tyre",
+        "ashdod"
+      ],
+      "placeIds": [
+        "jerusalem",
+        "tyre",
+        "ashdod"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Town markers show named places. The city’s gates and individual wall sections are not mapped.",
+      "narrative": "Nehemiah removes Tobiah’s goods, restores temple gifts, and closes the gates on the Sabbath. He confronts marriages with foreign women.",
+      "limits": "Town markers show named places. The city’s gates and individual wall sections are not mapped.",
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan",
+        "luther-nehemiah",
+        "havea-nehemiah",
+        "mcclellan-nehemiah"
+      ]
+    }
+  ],
+  "textRoutes": [],
+  "narrativeRegions": [],
+  "chapterStudies": []
+}

@@ -23,11 +23,12 @@ Book pages use `/book.html?book=<slug>`.
 - 1 Chronicles: all 29 chapters, 942 verses, 29 chapter studies, and 139 selected profiles with portraits.
 - 2 Chronicles: all 36 chapters, 822 verses, 36 chapter studies, and 116 selected profiles with portraits.
 - Ezra: all 10 chapters, 280 verses, 10 chapter studies, and 35 selected profiles with portraits.
-- Other 50 books: directory entries and clear planned pages. They have no study content yet.
+- Nehemiah: all 13 chapters, 406 verses, 41 selected profiles, and 15 town markers.
+- Other 49 books: directory entries and clear planned pages. They have no study content yet.
 
 ## Next book
 
-Nehemiah is next in canonical order. Complete and verify one book before starting another.
+Esther is next in canonical order. Complete and verify one book before starting another.
 Do not label a book ready until its reading text, chapter studies, sources, portraits, and maps pass review.
 Use the existing Isaiah guide as the detail standard. Genesis currently has selected major people and chapter-level events.
 Future enrichment can add finer passage divisions, additional people, language notes, and more specific citations.

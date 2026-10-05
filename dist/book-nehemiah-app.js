@@ -1,19 +1,19 @@
 import { initChapterPicker } from './chapter-picker.js';
-import { people, featurePortraits, wordPortraits, personProfileHtml, personIdForLabel, setPortraitMode } from './book-ruth-portraits.js?v=20261005.10';
+import { people, featurePortraits, wordPortraits, personProfileHtml, personIdForLabel, setPortraitMode } from './book-nehemiah-portraits.js?v=20261005.10';
 import { initModalDragging } from './modal-drag.js';
 import { chapterFocus, chapterRoutes, chapterPoints, movementStyle } from './chapter-map.js';
 const $ = (s, root = document) => root.querySelector(s);
 const $$ = (s, root = document) => [...root.querySelectorAll(s)];
 const releaseVersion = '20261005.10';
-const chapters = Array.from({ length: 4 }, (_, i) => i + 1);
+const chapters = Array.from({ length: 13 }, (_, i) => i + 1);
 const defaults = { chapter: 1, verse: 1, studyMode: 'read', view: 'map', perspective: 'historical', portraitMode: 'generated', date: 1, layers: { places: true, regions: true, campaigns: true, roads: false, history: false }, sidebar: 'scripture', map: { center: [32.1, 35.0], zoom: 7 } };
 let state = { ...defaults, ...readSaved(), layers: { ...defaults.layers, ...(readSaved().layers || {}) } };
 let data = { sources: [], passages: [], events: [], places: [], campaigns: [], ancientRoads: [], regions: [], words: [], guides: [], periods: [] };
 let scripture = { translation: 'World English Bible', chapters: {} };
 let map, savedScroll = 0, selectedWordButton, toastTimer, guideState = null, sidebarPersonHistory = [], entityLinkCache = {chapter:null, terms:[]};
 
-function readSaved() { try { return JSON.parse(localStorage.getItem('ruth-native-study-state') || null) || {}; } catch { return {}; } }
-function persist() { try { localStorage.setItem('ruth-native-study-state', JSON.stringify({ ...state, map: map ? { center: [map.getCenter().lat, map.getCenter().lng], zoom: map.getZoom() } : state.map })); } catch {} updateUrl(); }
+function readSaved() { try { return JSON.parse(localStorage.getItem('nehemiah-native-study-state') || null) || {}; } catch { return {}; } }
+function persist() { try { localStorage.setItem('nehemiah-native-study-state', JSON.stringify({ ...state, map: map ? { center: [map.getCenter().lat, map.getCenter().lng], zoom: map.getZoom() } : state.map })); } catch {} updateUrl(); }
 function updateUrl() { const p = new URLSearchParams({ chapter: state.chapter, verse: state.verse, view: state.view, study: state.studyMode, mode: state.perspective }); history.replaceState(null, '', `#${p}`); }
 function parseUrl() { const p = new URLSearchParams(location.hash.slice(1)); if (['read','map'].includes(p.get('study'))) state.studyMode = p.get('study'); for (const key of ['chapter', 'verse']) if (p.has(key) && Number(p.get(key))) state[key] = Number(p.get(key)); if (['historical','lds'].includes(p.get('mode'))) state.perspective = p.get('mode'); }
 function esc(s='') { const d = document.createElement('div'); d.textContent = s; return d.innerHTML; }
@@ -135,7 +135,7 @@ function linkedPersonProfileHtml(id, options = {}) {
 
 async function load() {
   parseUrl();
-  const results = await Promise.allSettled(['data/books/ruth-native-content.json', 'data/books/ruth-native-scripture.json', 'data/books/ruth-art.json'].map(p => fetch(`${p}?v=${releaseVersion}`).then(r => { if (!r.ok) throw Error(`${p} (${r.status})`); return r.json(); })));
+  const results = await Promise.allSettled(['data/books/nehemiah-native-content.json', 'data/books/nehemiah-native-scripture.json', 'data/books/nehemiah-art.json'].map(p => fetch(`${p}?v=${releaseVersion}`).then(r => { if (!r.ok) throw Error(`${p} (${r.status})`); return r.json(); })));
   if (results[0].status === 'fulfilled') data = { ...data, ...results[0].value };
   if (results[1].status === 'fulfilled') scripture = results[1].value;
   if (!chapters.includes(state.chapter)) state.chapter = 1;
@@ -170,7 +170,7 @@ function buildStaticUi() {
   const layerOptions = ensureLayerOptions();
   if (!layerOptions) throw new Error('Map layer controls are unavailable.');
   layerOptions.innerHTML = [['places','Places','place'],['regions','Areas','region'],['campaigns','Paths','route'],['roads','Ancient roads','road'],['history','Nations','region']].map(([key,label,kind]) => `<label class="layer-option"><input type="checkbox" data-layer="${key}"><span class="layer-swatch ${kind}"></span>${label}</label>`).join('');
-  $('#periods').innerHTML = (data.periods.length ? data.periods : [{id:'pre',label:'Before Ruth',description:'Earlier eighth-century setting'},{id:'isaiah',label:'Ruth',description:'Assyria, Judah, and Ruth’s ministry'},{id:'post',label:'After Ruth',description:'Later events in Babylon and Persia'}]).slice(0,3).map(p => `<button data-period="${esc(p.id)}">${esc(p.label)}<small>${esc(p.description || '')}</small></button>`).join('');
+  $('#periods').innerHTML = (data.periods.length ? data.periods : [{id:'pre',label:'Before Nehemiah',description:'Earlier eighth-century setting'},{id:'isaiah',label:'Nehemiah',description:'Assyria, Judah, and Nehemiah’s ministry'},{id:'post',label:'After Nehemiah',description:'Later events in Babylon and Persia'}]).slice(0,3).map(p => `<button data-period="${esc(p.id)}">${esc(p.label)}<small>${esc(p.description || '')}</small></button>`).join('');
   document.addEventListener('click', onClick);
   document.addEventListener('change', onChange);
   $('#timelineRange').min=1; $('#timelineRange').max=chapters.length; $('#timelineRange').setAttribute('aria-label','Chapter in narrative order');
@@ -361,7 +361,7 @@ function renderView() {
 }
 function activePassage() { return data.passages.find(p => Number(p.chapter) === state.chapter && state.verse >= p.start && state.verse <= p.end) || data.passages.find(p => Number(p.chapter) === state.chapter); }
 function selectChapter(chapter, verse = 1) { state.chapter = chapter; state.verse = verse; state.sidebar = 'scripture'; const p = activePassage(); if (p?.year) state.date = p.year; renderAll(); persist(); $('#sidebarContent').scrollTop=0; }
-function selectPassage(id) { const p = data.passages.find(x => x.id === id); if (!p) return; state.chapter = Number(p.chapter); state.verse = Number(p.start); state.sidebar = 'scripture'; if (p.year != null) state.date = Number(p.year); renderAll(); persist(); showToast(`Following ${p.title || `Ruth ${p.chapter}:${p.start}–${p.end}`}.`); }
+function selectPassage(id) { const p = data.passages.find(x => x.id === id); if (!p) return; state.chapter = Number(p.chapter); state.verse = Number(p.start); state.sidebar = 'scripture'; if (p.year != null) state.date = Number(p.year); renderAll(); persist(); showToast(`Following ${p.title || `Nehemiah ${p.chapter}:${p.start}–${p.end}`}.`); }
 const chapterDateBands = [
   {from:1, to:5, label:'~740 - 680 BCE'},
   {from:6, to:6, label:'~742 - 734 BCE'},
@@ -389,8 +389,8 @@ function renderScripture() {
   sidebarPersonHistory = [];
   if (state.sidebar === 'word') return renderWord();
   const verses = scripture.chapters?.[state.chapter] || [];
-  const body = verses.length ? verses.map(v => renderVerse(v)).join('') : `<div class="word-view"><h2>Ruth ${state.chapter}</h2><p>The text for this chapter is not available.</p></div>`;
-  $('#sidebarContent').innerHTML = `<div class="scripture-heading"><button class="sidebar-next" data-action="chapter-prev" aria-label="Previous chapter" ${state.chapter === 1 ? 'disabled' : ''}>‹</button><div class="chapter-picker-block"><h1 class="chapter-picker"><button type="button" class="chapter-picker-trigger" aria-label="Choose Ruth chapter, current chapter ${state.chapter}" aria-haspopup="listbox" aria-expanded="false" aria-controls="chapterPickerMenu">Ruth ${state.chapter}<svg aria-hidden="true" width="16" height="16" viewBox="0 0 16 16"><path d="m4 6 4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/></svg></button></h1>${chapterDateHtml()}</div><div id="chapterPickerMenu" class="chapter-picker-menu" popover="auto" role="listbox" aria-label="Choose Ruth chapter">${chapters.map(c => `<button type="button" role="option" aria-label="Ruth chapter ${c}" aria-selected="${c === state.chapter}" tabindex="-1" data-value="${c}"><span>${c}</span><span class="chapter-picker-check" aria-hidden="true">${c === state.chapter ? '✓' : ''}</span></button>`).join('')}</div><button class="sidebar-next" data-action="chapter-next" aria-label="Next chapter" ${state.chapter === 4 ? 'disabled' : ''}>›</button></div>${body}`;
+  const body = verses.length ? verses.map(v => renderVerse(v)).join('') : `<div class="word-view"><h2>Nehemiah ${state.chapter}</h2><p>The text for this chapter is not available.</p></div>`;
+  $('#sidebarContent').innerHTML = `<div class="scripture-heading"><button class="sidebar-next" data-action="chapter-prev" aria-label="Previous chapter" ${state.chapter === 1 ? 'disabled' : ''}>‹</button><div class="chapter-picker-block"><h1 class="chapter-picker"><button type="button" class="chapter-picker-trigger" aria-label="Choose Nehemiah chapter, current chapter ${state.chapter}" aria-haspopup="listbox" aria-expanded="false" aria-controls="chapterPickerMenu">Nehemiah ${state.chapter}<svg aria-hidden="true" width="16" height="16" viewBox="0 0 16 16"><path d="m4 6 4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/></svg></button></h1>${chapterDateHtml()}</div><div id="chapterPickerMenu" class="chapter-picker-menu" popover="auto" role="listbox" aria-label="Choose Nehemiah chapter">${chapters.map(c => `<button type="button" role="option" aria-label="Nehemiah chapter ${c}" aria-selected="${c === state.chapter}" tabindex="-1" data-value="${c}"><span>${c}</span><span class="chapter-picker-check" aria-hidden="true">${c === state.chapter ? '✓' : ''}</span></button>`).join('')}</div><button class="sidebar-next" data-action="chapter-next" aria-label="Next chapter" ${state.chapter === 13 ? 'disabled' : ''}>›</button></div>${body}`;
   initChapterPicker(document.querySelector('#sidebarContent'), state.chapter, chapters, selectChapter);
   $('#sidebarContent .verse')?.insertAdjacentHTML('beforebegin', passageContextHtml());
 }
@@ -411,7 +411,7 @@ function openSource(id) {
   const s = source(id); if (!s) return;
   hideSourceTooltip();
   const chapter = /^web(?:\d+)?$/.test(id) ? (id === 'web' ? state.chapter : Number(id.slice(3))) : null;
-  const reading = chapter && scripture.chapters[chapter] ? `<details><summary>Read Ruth ${chapter} here · World English Bible</summary>${scripture.chapters[chapter].map(v => `<p><b>${v.verse}</b> ${esc(v.text)}</p>`).join('')}</details>` : '';
+  const reading = chapter && scripture.chapters[chapter] ? `<details><summary>Read Nehemiah ${chapter} here · World English Bible</summary>${scripture.chapters[chapter].map(v => `<p><b>${v.verse}</b> ${esc(v.text)}</p>`).join('')}</details>` : '';
   $('#sourceContent').innerHTML = `<h2 id="sourceDialogTitle">Source details</h2>${librarySourceHtml(s).replace(`id="library-${esc(s.id)}"`, `id="detail-${esc(s.id)}"`)}${reading}<p class="source-rights">${esc(s.license || '')}</p>`;
   const dialog = $('#sourceDialog');
   // Keep the reader or guide underneath this dialog so closing returns to it.
@@ -432,7 +432,7 @@ function passageContextHtml() {
 function passageInterpretationHtml() {
   if (state.perspective !== 'lds') return '';
   const p = activePassage(), cite = passageFootnotes(p);
-  return `<section class="passage-interpretation"><h3>LDS reading</h3><p class="translation">${p ? `Ruth ${esc(String(p.chapter))}:${esc(String(p.start))}–${esc(String(p.end))} · ${esc(p.title || '')}` : `Ruth ${state.chapter}`}</p><div class="passage-prose"><p>${esc(p?.lds?.text || 'This passage has no LDS study note yet.')}${cite(p?.lds?.sourceIds)}</p>${sourceInsightsHtml(p?.lds?.sourceIds)}</div></section>`;
+  return `<section class="passage-interpretation"><h3>LDS reading</h3><p class="translation">${p ? `Nehemiah ${esc(String(p.chapter))}:${esc(String(p.start))}–${esc(String(p.end))} · ${esc(p.title || '')}` : `Nehemiah ${state.chapter}`}</p><div class="passage-prose"><p>${esc(p?.lds?.text || 'This passage has no LDS study note yet.')}${cite(p?.lds?.sourceIds)}</p>${sourceInsightsHtml(p?.lds?.sourceIds)}</div></section>`;
 }
 function renderVerse(v, prefix = 'side') {
   const text = linkedEntityHtml(v.text, {verse:v.verse});
@@ -490,13 +490,13 @@ function scrollVerse(verse, focus = true) {
 }
 function isPassageDate() { const p = activePassage(); return !p?.year || state.date === p.year; }
 function renderTimeline() {
-  $('#timelineRange').value=state.chapter; $('#timelineRange').setAttribute('aria-valuetext',`Ruth ${state.chapter}`); $('#timelineChapter').textContent='Chapter order'; $('#dateLabel').value=`Ruth ${state.chapter} · ${activePassage()?.title || ''}`; $('#returnPassage').classList.add('hidden'); $('#timelineTooltip').textContent=`Ruth ${state.chapter}`;
+  $('#timelineRange').value=state.chapter; $('#timelineRange').setAttribute('aria-valuetext',`Nehemiah ${state.chapter}`); $('#timelineChapter').textContent='Chapter order'; $('#dateLabel').value=`Nehemiah ${state.chapter} · ${activePassage()?.title || ''}`; $('#returnPassage').classList.add('hidden'); $('#timelineTooltip').textContent=`Nehemiah ${state.chapter}`;
 }
 function initTimelineTooltip() {
   const range = $('#timelineRange'), tooltip = $('#timelineTooltip');
   let pointerId = null;
   function position(event) {
-    tooltip.textContent = `Ruth ${range.value}`;
+    tooltip.textContent = `Nehemiah ${range.value}`;
     tooltip.hidden = false;
     tooltip.style.left = `${Math.max(8, Math.min(event.clientX - tooltip.offsetWidth / 2, innerWidth - tooltip.offsetWidth - 8))}px`;
     tooltip.style.top = `${Math.max(8, event.clientY - tooltip.offsetHeight - 16)}px`;
@@ -593,8 +593,8 @@ function sourceInsightsHtml(ids = [], chapter = state.chapter) { return sourceMe
 function scriptureExcerptHtml(chapter, verse, context = '') {
   const reading = scripture.chapters[chapter]?.find(item => item.verse === Number(verse));
   if (!reading) return '';
-  const url = `https://ebible.org/engwebp/RUT${String(chapter).padStart(2, '0')}.htm#V${Number(verse)}`;
-  return `<figure class="study-quotation scripture-excerpt"><blockquote cite="${esc(url)}">${esc(reading.text)}</blockquote><figcaption><a href="${esc(url)}" target="_blank" rel="noopener">Ruth ${Number(chapter)}:${Number(verse)} ↗</a> · World English Bible · Public domain</figcaption>${context ? `<p>${esc(context)}</p>` : ''}</figure>`;
+  const url = `https://ebible.org/engwebp/NEH${String(chapter).padStart(2, '0')}.htm#V${Number(verse)}`;
+  return `<figure class="study-quotation scripture-excerpt"><blockquote cite="${esc(url)}">${esc(reading.text)}</blockquote><figcaption><a href="${esc(url)}" target="_blank" rel="noopener">Nehemiah ${Number(chapter)}:${Number(verse)} ↗</a> · World English Bible · Public domain</figcaption>${context ? `<p>${esc(context)}</p>` : ''}</figure>`;
 }
 function chapterEvidenceHtml(chapter = state.chapter) {
   const study = data.chapterStudies?.find(item => item.chapter === Number(chapter));
@@ -617,11 +617,11 @@ function sourceChapters(id) {
 }
 function genericPlaceDescription(feature) {
   const name = mapDisplayName(feature.name || feature.title);
-  const chapterSpecific = /\b(?:Ruth|chapter|passage|prophecy|speaker|speech|account|narrative)\b/i;
+  const chapterSpecific = /\b(?:Nehemiah|chapter|passage|prophecy|speaker|speech|account|narrative)\b/i;
   const mapSpecific = /\b(?:marker|map|route|line|pin|coordinate)\b/i;
   const clauses = (feature.summary || '').split(/(?<=[.!?])\s+|;\s+/)
     .map(text => text.trim()).filter(text => text && !chapterSpecific.test(text) && !mapSpecific.test(text));
-  if (!clauses.length) return `${name} is a place in the geographic setting of Ruth.`;
+  if (!clauses.length) return `${name} is a place in the geographic setting of Nehemiah.`;
   return clauses.map((text, index) => {
     if (index || !/^It(?:s)?\b/.test(text)) return text;
     return text.replace(/^Its\b/, `${name}’s`).replace(/^It\b/, name);
@@ -634,7 +634,7 @@ function featureChapterContext(feature) {
   }
   const verse = placeVerseInChapter(feature);
   const name = mapDisplayName(feature.name || feature.title);
-  const paragraphs = [verse ? `Ruth ${state.chapter}:${verse.verse} names ${name}.` : genericPlaceDescription(feature), mapDisplayText(feature.detail)].filter(Boolean);
+  const paragraphs = [verse ? `Nehemiah ${state.chapter}:${verse.verse} names ${name}.` : genericPlaceDescription(feature), mapDisplayText(feature.detail)].filter(Boolean);
   const sourceIds = (feature.sourceIds || []).filter(id => {
     const chapters = sourceChapters(id);
     return !chapters.length || chapters.includes(state.chapter);
@@ -644,7 +644,7 @@ function featureChapterContext(feature) {
   return { paragraphs, sourceIds:[...new Set(sourceIds)] };
 }
 function featureScriptureHtml(feature) {
-  const reference = feature.reference?.match(/^Ruth (\d+):(\d+)/);
+  const reference = feature.reference?.match(/^Nehemiah (\d+):(\d+)/);
   if (reference) return scriptureExcerptHtml(Number(reference[1]), Number(reference[2]));
   if (feature.textRoute || data.campaigns?.some(item => item.id === (feature.originalId || feature.id))) {
     return scriptureExcerptHtml(feature.chapter, feature.verse);
@@ -692,7 +692,7 @@ function openSidebarLinkedDetail(type, id, trigger) {
   const detail = linkedDetail(type, id);
   if (!detail) return;
   const content = $('#sidebarContent');
-  const backLabel = $('h2', content)?.textContent?.trim() || state.wordLabel || `Ruth ${state.chapter}`;
+  const backLabel = $('h2', content)?.textContent?.trim() || state.wordLabel || `Nehemiah ${state.chapter}`;
   sidebarPersonHistory.push({html:content.innerHTML, scrollTop:content.scrollTop, returnSelector:detailReturnSelector(type, id)});
   content.innerHTML = linkedDetailBodyHtml(detail, backLabel);
   content.scrollTop = 0;
@@ -984,7 +984,7 @@ function drawOverlays() {
   const focus = chapterFocus(data, state.chapter);
   const kinds = [...new Set(campaigns.filter(c=>c.chapterRoute).map(c=>c.kind))];
   const roadKey = roads.length ? '<div class="road-key"><span><i></i>Well-supported route</span><span><i class="probable"></i>Probable route</span></div>' : '';
-  $('.map-note').innerHTML = `<button data-action="focus-chapter" class="chapter-focus-button">Focus Ruth ${state.chapter}</button><div class="movement-legend">${kinds.map(kind=>{const s=movementStyle({kind});return `<span><i style="background:${s.color}"></i>${s.label}</span>`;}).join('')}${focus?.impacts?.length && state.layers.places ? '<span><i class="impact-key"></i>Destruction / distress</span>' : ''}</div>${roadKey}${focus?.narrative ? `<details><summary>Map context</summary>${esc(focus.narrative)}</details>` : ''}`;
+  $('.map-note').innerHTML = `<button data-action="focus-chapter" class="chapter-focus-button">Focus Nehemiah ${state.chapter}</button><div class="movement-legend">${kinds.map(kind=>{const s=movementStyle({kind});return `<span><i style="background:${s.color}"></i>${s.label}</span>`;}).join('')}${focus?.impacts?.length && state.layers.places ? '<span><i class="impact-key"></i>Destruction / distress</span>' : ''}</div>${roadKey}${focus?.narrative ? `<details><summary>Map context</summary>${esc(focus.narrative)}</details>` : ''}`;
   refreshMapDetails();
 }
 function refreshMapDetails() {
@@ -1150,22 +1150,22 @@ function librarySourceHtml(s) {
   }).join('');
   const cited = (s.citedSourceIds || []).map(id => source(id)).filter(Boolean);
   const scriptureRefs = (s.scriptureReferences || []).map(ref => `<p><a target="_blank" rel="noopener" href="${esc(ref.url)}">${esc(ref.label)} ↗</a> · <a target="_blank" rel="noopener" href="${esc(ref.contextUrl)}">${esc(ref.location)} in talk ↗</a></p>`).join('');
-  return `<article class="library-source" id="library-${esc(s.id)}"><a target="_blank" rel="noopener" href="${esc(s.url)}">${esc(s.title)} ↗</a><p>${esc(s.author || '')}${s.year ? ` · ${esc(s.year)}` : ''} · ${esc(s.type || 'Source')}</p>${sourceImageHtml(s.image)}${sourceMediaHtml([s.id], {images:false, allExcerpts:true})}<p><span class="badge">About this source</span> ${esc(s.summary || '')}</p>${scriptureRefs ? `<details><summary>Ruth links</summary>${scriptureRefs}</details>` : ''}${moments ? `<details><summary>Video parts</summary>${moments}</details>` : ''}${cited.length ? `<details><summary>Sources used</summary>${cited.map(item => `<a class="source-link" href="${esc(item.url)}" data-source-id="${esc(item.id)}">${esc(item.title)} · Read source note</a>`).join('')}</details>` : ''}${s.revisionUrl ? `<p><a href="${esc(s.revisionUrl)}" target="_blank" rel="noopener">Wikipedia page we checked ↗</a> · <a href="${esc(s.licenseUrl)}" target="_blank" rel="noopener">${esc(s.license)}</a> · We made the notes shorter.</p>` : ''}${s.reviewed ? `<p><span class="badge">What we checked</span> ${esc(s.reviewed)}</p>` : ''}${s.limitations ? `<p><span class="badge">What this cannot show</span> ${esc(s.limitations)}</p>` : ''}</article>`;
+  return `<article class="library-source" id="library-${esc(s.id)}"><a target="_blank" rel="noopener" href="${esc(s.url)}">${esc(s.title)} ↗</a><p>${esc(s.author || '')}${s.year ? ` · ${esc(s.year)}` : ''} · ${esc(s.type || 'Source')}</p>${sourceImageHtml(s.image)}${sourceMediaHtml([s.id], {images:false, allExcerpts:true})}<p><span class="badge">About this source</span> ${esc(s.summary || '')}</p>${scriptureRefs ? `<details><summary>Nehemiah links</summary>${scriptureRefs}</details>` : ''}${moments ? `<details><summary>Video parts</summary>${moments}</details>` : ''}${cited.length ? `<details><summary>Sources used</summary>${cited.map(item => `<a class="source-link" href="${esc(item.url)}" data-source-id="${esc(item.id)}">${esc(item.title)} · Read source note</a>`).join('')}</details>` : ''}${s.revisionUrl ? `<p><a href="${esc(s.revisionUrl)}" target="_blank" rel="noopener">Wikipedia page we checked ↗</a> · <a href="${esc(s.licenseUrl)}" target="_blank" rel="noopener">${esc(s.license)}</a> · We made the notes shorter.</p>` : ''}${s.reviewed ? `<p><span class="badge">What we checked</span> ${esc(s.reviewed)}</p>` : ''}${s.limitations ? `<p><span class="badge">What this cannot show</span> ${esc(s.limitations)}</p>` : ''}</article>`;
 }
 function openLibrary() {
   const list = state.perspective === 'historical' ? data.sources.filter(s => !isLdsSource(s)) : data.sources;
   const additions = list.filter(s => s.group === 'mcclellan');
   const conference = list.filter(s => s.group === 'conference-year');
   const publicGroups = [
-    ['sennacherib-prism', 'Sennacherib’s Prism', 'Museum records, a free scholarly edition, and a public-domain photograph. Compare the royal account with Ruth 36–37.'],
-    ['opening-isaiah', 'Opening Ruth: A Harmony', 'Public sample, publisher information, and author interviews. Ann N. Madsen and Shon D. Hopkin’s study aid is separate from official Church teaching.']
+    ['sennacherib-prism', 'Sennacherib’s Prism', 'Museum records, a free scholarly edition, and a public-domain photograph. Compare the royal account with Nehemiah 36–37.'],
+    ['opening-isaiah', 'Opening Nehemiah: A Harmony', 'Public sample, publisher information, and author interviews. Ann N. Madsen and Shon D. Hopkin’s study aid is separate from official Church teaching.']
   ];
   const publicHtml = publicGroups.map(([group, title, description]) => {
     const entries = list.filter(s => s.group === group);
     return entries.length ? `<section aria-label="${esc(title)}"><h3>${esc(title)}</h3><p>${esc(description)}</p>${entries.map(librarySourceHtml).join('')}</section>` : '';
   }).join('');
   const other = list.filter(s => !['mcclellan', 'conference-year', ...publicGroups.map(([group]) => group)].includes(s.group));
-  const conferenceHtml = conference.length ? `<section aria-label="Recent general conference"><h3>General conference · past year</h3><p>We checked 72 talks from October 2025 and April 2026. We found ${conference.length} talks that name Ruth or cite his words. We may not have found hints that do not name him.</p><p>Each talk links to the chapter it uses. The questions are original study prompts.</p>${['April 2026','October 2025'].map(month => { const talks = conference.filter(s => s.conference === month); return `<details><summary>${month} · ${talks.length} talks</summary>${talks.map(librarySourceHtml).join('')}</details>`; }).join('')}</section>` : '';
+  const conferenceHtml = conference.length ? `<section aria-label="Recent general conference"><h3>General conference · past year</h3><p>We checked 72 talks from October 2025 and April 2026. We found ${conference.length} talks that name Nehemiah or cite his words. We may not have found hints that do not name him.</p><p>Each talk links to the chapter it uses. The questions are original study prompts.</p>${['April 2026','October 2025'].map(month => { const talks = conference.filter(s => s.conference === month); return `<details><summary>${month} · ${talks.length} talks</summary>${talks.map(librarySourceHtml).join('')}</details>`; }).join('')}</section>` : '';
   const modeNotice = state.perspective === 'historical' ? 'This mode shows history sources. Select LDS to add Church sources.' : 'This mode shows history sources and Church sources.';
   $('#libraryContent').innerHTML = `<h2>Source library</h2><p class="translation">${modeNotice}</p>${publicHtml}${conferenceHtml}${additions.length ? `<section aria-label="Dan McClellan and cited scholarship"><h3>Dan McClellan and his sources</h3><p>These notes link to relevant McClellan material. Each note states what we reviewed and what remains unverified.</p>${additions.map(librarySourceHtml).join('')}</section><h3>Other study sources</h3>` : ''}${other.map(librarySourceHtml).join('') || (additions.length || conference.length ? '' : '<p>No sources are available for this study mode.</p>')}`;
   // Scroll inside the dialog without replacing the app's chapter/verse URL state.
@@ -1187,7 +1187,7 @@ function sourceImageHtml(image) {
 }
 function guideReadingHtml(step) {
   const verses = (scripture.chapters[step.chapter] || []).filter(v => v.verse === Number(step.verse));
-  const reading = verses.length ? `<section class="guide-reading"><h3>Ruth ${Number(step.chapter)}:${Number(step.verse)}</h3><blockquote>${verses.map(v => esc(v.text)).join(' ')}</blockquote><a class="source-link" href="https://ebible.org/engwebp/RUT${String(step.chapter).padStart(2, '0')}.htm" target="_blank" rel="noopener">Read full chapter ↗</a><small>World English Bible · Public domain</small></section>` : '';
+  const reading = verses.length ? `<section class="guide-reading"><h3>Nehemiah ${Number(step.chapter)}:${Number(step.verse)}</h3><blockquote>${verses.map(v => esc(v.text)).join(' ')}</blockquote><a class="source-link" href="https://ebible.org/engwebp/NEH${String(step.chapter).padStart(2, '0')}.htm" target="_blank" rel="noopener">Read full chapter ↗</a><small>World English Bible · Public domain</small></section>` : '';
   const words = (step.wordIds || []).map(id => data.words.find(w => w.id === id)).filter(Boolean);
   return reading + words.map(w => `<section class="guide-reading"><h3>${esc(w.label)}</h3><p>${esc(w.meaning)}</p><p>${esc(w.discussion)}</p>${sourcesHtml(w.sourceIds)}</section>`).join('');
 }
