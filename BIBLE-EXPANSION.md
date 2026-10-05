@@ -32,6 +32,12 @@ Further weeks can continue the backlog, but no recurring schedule has been creat
 
 ## Sources and maps
 
+Follow `BIBLE-SOURCE-POLICY.md` for every source category.
+The native build applies `scripts/bible_source_enrichment.py` after each book rebuild.
+Genesis, Exodus, and Leviticus include reviewed 2026 Come, Follow Me lessons, Wikipedia revisions, and McClellan interview transcript notes.
+The transcript is machine-generated and lightly edited. Audio was not checked. These limits appear in source details.
+Selected scholarly publication records support further study. Publisher descriptions do not count as full-text review.
+
 Publisher HTML stays in `scripts/<book><N>-source.html` for reproducible verse extraction.
 Original study notes describe the text. Academic interpretation and museum context remain distinct from Church teaching.
 Genesis does not supply verified historical event years. Its timeline uses narrative chapter order.

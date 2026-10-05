@@ -68,7 +68,7 @@
       "category": "LDS study manual",
       "perspective": "lds",
       "limits": "This older manual includes interpretive commentary. It does not supply independent archaeological confirmation.",
-      "type": "LDS study",
+      "type": "LDS study manual",
       "limitations": "This older manual includes interpretive commentary. It does not supply independent archaeological confirmation.",
       "license": "Linked source. Original guide summaries."
     },
@@ -80,7 +80,7 @@
       "category": "LDS study manual",
       "perspective": "lds",
       "limits": "This older manual includes interpretive commentary. It does not supply independent archaeological confirmation.",
-      "type": "LDS study",
+      "type": "LDS study manual",
       "limitations": "This older manual includes interpretive commentary. It does not supply independent archaeological confirmation.",
       "license": "Linked source. Original guide summaries."
     },
@@ -92,7 +92,7 @@
       "category": "LDS study manual",
       "perspective": "lds",
       "limits": "This older manual includes interpretive commentary. It does not supply independent archaeological confirmation.",
-      "type": "LDS study",
+      "type": "LDS study manual",
       "limitations": "This older manual includes interpretive commentary. It does not supply independent archaeological confirmation.",
       "license": "Linked source. Original guide summaries."
     },
@@ -104,9 +104,108 @@
       "category": "LDS scripture",
       "perspective": "lds",
       "limits": "This Restoration scripture is a related reading. Keep it distinct from Leviticus’s own text.",
-      "type": "LDS study",
+      "type": "LDS scripture",
       "limitations": "This Restoration scripture is a related reading. Keep it distinct from Leviticus’s own text.",
       "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "cfm-2026-18",
+      "title": "Come, Follow Me 2026 · Exodus 35–40; Leviticus 1; 4; 16; 19",
+      "author": "The Church of Jesus Christ of Latter-day Saints",
+      "year": 2026,
+      "category": "LDS study manual",
+      "perspective": "lds",
+      "url": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/18?lang=eng",
+      "summary": "The lesson interprets sacrifice through Christ’s Atonement. It connects holiness with worship and conduct toward other people.",
+      "reviewed": "2026-10-05: Official lesson heading, selected chapter coverage, and relevant study sections reviewed.",
+      "limits": "This is Church teaching and application. It does not independently establish archaeological evidence or event dates.",
+      "license": "Linked official Church lesson. Original guide summary.",
+      "chapterCoverage": [
+        1,
+        4,
+        16,
+        19
+      ],
+      "type": "LDS study manual",
+      "limitations": "This is Church teaching and application. It does not independently establish archaeological evidence or event dates."
+    },
+    {
+      "id": "wiki-leviticus",
+      "title": "Book of Leviticus · Wikipedia",
+      "author": "Wikipedia contributors",
+      "category": "Encyclopedia background",
+      "perspective": "historical",
+      "url": "https://en.wikipedia.org/wiki/Book_of_Leviticus",
+      "revisionId": "1363722211",
+      "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1363722211",
+      "summary": "Leviticus concerns offerings, priestly service, ritual purity, and conduct within the community. This overview supplies book structure.",
+      "reviewed": "2026-10-05: Opening overview and book structure reviewed. These notes make no claim about exact composition dates.",
+      "limits": "Anyone can edit this source. Use it for background and source discovery. Its disputed historical claims require separate scholarly review.",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "chapterCoverage": [
+        1,
+        11,
+        19
+      ],
+      "citedSourceIds": [
+        "scholar-milgrom"
+      ],
+      "type": "Encyclopedia background",
+      "limitations": "Anyone can edit this source. Use it for background and source discovery. Its disputed historical claims require separate scholarly review."
+    },
+    {
+      "id": "scholar-milgrom",
+      "title": "Leviticus 1–16",
+      "author": "Jacob Milgrom",
+      "year": "1991 original; linked publisher edition 1998",
+      "url": "https://yalebooks.yale.edu/book/9780300139402/leviticus-1-16/",
+      "summary": "The publisher describes Milgrom’s study of sanctuary worship, sacrifice, and purity.",
+      "category": "Scholarly publication",
+      "perspective": "historical",
+      "reviewed": "2026-10-05: Publisher description and edition record reviewed. The full commentary was not read.",
+      "limits": "Publisher description and edition record reviewed. The full commentary was not read. This record verifies identity and scope. It does not independently verify every argument.",
+      "license": "Linked publication record. Original summary.",
+      "chapterCoverage": [],
+      "type": "Scholarly publication",
+      "limitations": "Publisher description and edition record reviewed. The full commentary was not read. This record verifies identity and scope. It does not independently verify every argument."
+    },
+    {
+      "id": "dm-leviticus",
+      "title": "10 Things You Should Know About the Bible · Episode 1802 · Leviticus",
+      "author": "Dan McClellan · interview with John Dehlin",
+      "year": "August 23, 2023 · interview recorded August 14",
+      "category": "Scholar interview",
+      "perspective": "historical",
+      "group": "mcclellan",
+      "url": "https://www.mormonstories.org/10-things-bible-dan-mcclellan/",
+      "summary": "McClellan studies the sexual prohibitions through ancient social roles and ideas about pollution of the land. He distinguishes the prohibitions in chapter 18 from penalties in chapter 20.",
+      "timestamps": [
+        {
+          "seconds": 11495,
+          "label": "3:11:35 · Scope of the prohibitions",
+          "url": "https://www.mormonstories.org/10-things-bible-dan-mcclellan/#:~:text=%5B03%3A11%3A35%5D"
+        },
+        {
+          "seconds": 11567,
+          "label": "3:12:47 · Chapters 18 and 20",
+          "url": "https://www.mormonstories.org/10-things-bible-dan-mcclellan/#:~:text=%5B03%3A12%3A47%5D"
+        },
+        {
+          "seconds": 11635,
+          "label": "3:13:55 · Pollution of the land",
+          "url": "https://www.mormonstories.org/10-things-bible-dan-mcclellan/#:~:text=%5B03%3A13%3A55%5D"
+        }
+      ],
+      "reviewed": "2026-10-05: Relevant sections of the publisher’s machine-generated, lightly edited transcript reviewed. Audio and video were not independently checked. Transcript errors remain possible.",
+      "limits": "This is one scholar’s interpretation, separate from Church teaching. Proposed dates and claims about scholarly agreement were not independently verified.",
+      "license": "Linked interview. Original summary. Transcript text is not reproduced.",
+      "chapterCoverage": [
+        18,
+        20
+      ],
+      "type": "Scholar interview",
+      "limitations": "This is one scholar’s interpretation, separate from Church teaching. Proposed dates and claims about scholarly agreement were not independently verified."
     }
   ],
   "passages": [
@@ -125,13 +224,15 @@
       ],
       "sourceIds": [
         "web",
-        "yale-9"
+        "yale-9",
+        "wiki-leviticus"
       ],
       "lds": {
         "text": "Consider what an offering expresses about devotion and willing service.",
         "sourceIds": [
           "lds-offerings",
-          "mosiah-13"
+          "mosiah-13",
+          "cfm-2026-18"
         ]
       }
     },
@@ -204,7 +305,8 @@
         "text": "Consider how your responsibilities change the effects of your mistakes.",
         "sourceIds": [
           "lds-offerings",
-          "mosiah-13"
+          "mosiah-13",
+          "cfm-2026-18"
         ]
       }
     },
@@ -367,7 +469,8 @@
       ],
       "sourceIds": [
         "web",
-        "yale-9"
+        "yale-9",
+        "wiki-leviticus"
       ],
       "lds": {
         "text": "The Church manual studies these rules within Israel's covenant. Avoid treating impurity as a person's worth.",
@@ -493,7 +596,8 @@
         "text": "The Church manual reads these signs through Jesus Christ's Atonement. Keep that reading separately labeled.",
         "sourceIds": [
           "lds-purity",
-          "mosiah-13"
+          "mosiah-13",
+          "cfm-2026-18"
         ]
       }
     },
@@ -538,7 +642,8 @@
       "sourceIds": [
         "web",
         "yale-9",
-        "yale-10"
+        "yale-10",
+        "dm-leviticus"
       ],
       "lds": {
         "text": "Consider the duties that protect trust and prevent harm within relationships.",
@@ -563,12 +668,14 @@
       "sourceIds": [
         "web",
         "yale-9",
-        "yale-10"
+        "yale-10",
+        "wiki-leviticus"
       ],
       "lds": {
         "text": "Consider how love for the neighbor changes your treatment of workers, strangers, and people in need.",
         "sourceIds": [
-          "lds-holiness"
+          "lds-holiness",
+          "cfm-2026-18"
         ]
       }
     },
@@ -588,7 +695,8 @@
       "sourceIds": [
         "web",
         "yale-9",
-        "yale-10"
+        "yale-10",
+        "dm-leviticus"
       ],
       "lds": {
         "text": "Consider moral responsibility while keeping ancient civil penalties distinct from present Church practice.",
@@ -786,7 +894,8 @@
       "uncertainty": "The marker represents the traditional Sinai region. Leviticus gives no chapter-by-chapter travel route.",
       "sourceIds": [
         "web",
-        "yale-9"
+        "yale-9",
+        "wiki-leviticus"
       ],
       "placeIds": [
         "sinai"
@@ -795,7 +904,8 @@
         "text": "Consider what an offering expresses about devotion and willing service.",
         "sourceIds": [
           "lds-offerings",
-          "mosiah-13"
+          "mosiah-13",
+          "cfm-2026-18"
         ]
       }
     },
@@ -868,7 +978,8 @@
         "text": "Consider how your responsibilities change the effects of your mistakes.",
         "sourceIds": [
           "lds-offerings",
-          "mosiah-13"
+          "mosiah-13",
+          "cfm-2026-18"
         ]
       }
     },
@@ -1028,7 +1139,8 @@
       "uncertainty": "The marker represents the traditional Sinai region. Leviticus gives no chapter-by-chapter travel route.",
       "sourceIds": [
         "web",
-        "yale-9"
+        "yale-9",
+        "wiki-leviticus"
       ],
       "placeIds": [
         "sinai"
@@ -1157,7 +1269,8 @@
         "text": "The Church manual reads these signs through Jesus Christ's Atonement. Keep that reading separately labeled.",
         "sourceIds": [
           "lds-purity",
-          "mosiah-13"
+          "mosiah-13",
+          "cfm-2026-18"
         ]
       }
     },
@@ -1199,7 +1312,8 @@
       "sourceIds": [
         "web",
         "yale-9",
-        "yale-10"
+        "yale-10",
+        "dm-leviticus"
       ],
       "placeIds": [
         "sinai"
@@ -1224,7 +1338,8 @@
       "sourceIds": [
         "web",
         "yale-9",
-        "yale-10"
+        "yale-10",
+        "wiki-leviticus"
       ],
       "placeIds": [
         "sinai"
@@ -1232,7 +1347,8 @@
       "lds": {
         "text": "Consider how love for the neighbor changes your treatment of workers, strangers, and people in need.",
         "sourceIds": [
-          "lds-holiness"
+          "lds-holiness",
+          "cfm-2026-18"
         ]
       }
     },
@@ -1249,7 +1365,8 @@
       "sourceIds": [
         "web",
         "yale-9",
-        "yale-10"
+        "yale-10",
+        "dm-leviticus"
       ],
       "placeIds": [
         "sinai"
@@ -1471,7 +1588,8 @@
           "verse": 1,
           "sourceIds": [
             "web",
-            "yale-9"
+            "yale-9",
+            "wiki-leviticus"
           ]
         },
         {
@@ -1540,7 +1658,8 @@
       "limits": "The marker represents the traditional Sinai region. Leviticus gives no chapter-by-chapter travel route.",
       "sourceIds": [
         "web",
-        "yale-9"
+        "yale-9",
+        "wiki-leviticus"
       ]
     },
     {
@@ -1750,7 +1869,8 @@
       "limits": "The marker represents the traditional Sinai region. Leviticus gives no chapter-by-chapter travel route.",
       "sourceIds": [
         "web",
-        "yale-9"
+        "yale-9",
+        "wiki-leviticus"
       ]
     },
     {
@@ -1899,7 +2019,8 @@
       "sourceIds": [
         "web",
         "yale-9",
-        "yale-10"
+        "yale-10",
+        "dm-leviticus"
       ]
     },
     {
@@ -1921,7 +2042,8 @@
       "sourceIds": [
         "web",
         "yale-9",
-        "yale-10"
+        "yale-10",
+        "wiki-leviticus"
       ]
     },
     {
@@ -1943,7 +2065,8 @@
       "sourceIds": [
         "web",
         "yale-9",
-        "yale-10"
+        "yale-10",
+        "dm-leviticus"
       ]
     },
     {

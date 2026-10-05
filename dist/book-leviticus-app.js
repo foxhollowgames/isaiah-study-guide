@@ -1161,8 +1161,8 @@ function bindFeature(layer, feature) {
 function isLdsSource(s) { const ldsIds = new Set(data.passages.flatMap(p => p.lds?.sourceIds || [])); return ldsIds.has(s.id) || /faith|lds|church|devotional/i.test(s.type || ''); }
 function librarySourceHtml(s) {
   const moments = (s.timestamps || []).map(moment => {
-    const url = new URL(s.url);
-    url.searchParams.set('t', `${moment.seconds}s`);
+    const url = new URL(moment.url || s.url);
+    if (!moment.url) url.searchParams.set('t', `${moment.seconds}s`);
     return `<a class="source-link" target="_blank" rel="noopener" href="${esc(url.href)}">${esc(moment.label)} ↗</a>`;
   }).join('');
   const cited = (s.citedSourceIds || []).map(id => source(id)).filter(Boolean);
@@ -1184,7 +1184,7 @@ function openLibrary() {
   const other = list.filter(s => !['mcclellan', 'conference-year', ...publicGroups.map(([group]) => group)].includes(s.group));
   const conferenceHtml = conference.length ? `<section aria-label="Recent general conference"><h3>General conference · past year</h3><p>We checked 72 talks from October 2025 and April 2026. We found ${conference.length} talks that name Leviticus or cite his words. We may not have found hints that do not name him.</p><p>Each talk links to the chapter it uses. The questions are original study prompts.</p>${['April 2026','October 2025'].map(month => { const talks = conference.filter(s => s.conference === month); return `<details><summary>${month} · ${talks.length} talks</summary>${talks.map(librarySourceHtml).join('')}</details>`; }).join('')}</section>` : '';
   const modeNotice = state.perspective === 'historical' ? 'This mode shows history sources. Select LDS to add Church sources.' : 'This mode shows history sources and Church sources.';
-  $('#libraryContent').innerHTML = `<h2>Source library</h2><p class="translation">${modeNotice}</p>${publicHtml}${conferenceHtml}${additions.length ? `<section aria-label="Dan McClellan and cited scholarship"><h3>Dan McClellan and his sources</h3><p>This group has four videos and five works used in them. Each note says what we checked. It also says what the source cannot prove. The video about who wrote Leviticus links to chapter 39. The other videos help with the whole book.</p>${additions.map(librarySourceHtml).join('')}</section><h3>Other study sources</h3>` : ''}${other.map(librarySourceHtml).join('') || (additions.length || conference.length ? '' : '<p>No sources are available for this study mode.</p>')}`;
+  $('#libraryContent').innerHTML = `<h2>Source library</h2><p class="translation">${modeNotice}</p>${publicHtml}${conferenceHtml}${additions.length ? `<section aria-label="Dan McClellan and cited scholarship"><h3>Dan McClellan and his sources</h3><p>These notes link to relevant McClellan material. Each note states what we reviewed and what remains unverified.</p>${additions.map(librarySourceHtml).join('')}</section><h3>Other study sources</h3>` : ''}${other.map(librarySourceHtml).join('') || (additions.length || conference.length ? '' : '<p>No sources are available for this study mode.</p>')}`;
   // Scroll inside the dialog without replacing the app's chapter/verse URL state.
   $('#libraryContent').querySelectorAll('a[href^="#library-"]').forEach(link => link.addEventListener('click', event => {
     event.preventDefault();

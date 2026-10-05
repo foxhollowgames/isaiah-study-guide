@@ -1,5 +1,6 @@
 """Adapt book data to the existing Isaiah reader. Do not create a second UI."""
 import json,re
+from bible_source_enrichment import enrich
 from pathlib import Path
 ROOT=Path(__file__).resolve().parent.parent
 D=ROOT/'dist';OUT=D/'data/books'
@@ -9,11 +10,12 @@ portraits=(D/'portraits.js').read_text(encoding='utf-8')
 for entry in json.loads((OUT/'directory.json').read_text(encoding='utf-8')):
     slug=entry['id']
     if entry['status']!='ready' or slug=='isaiah':continue
-    b=json.loads((OUT/f'{slug}.json').read_text(encoding='utf-8'));name=b['name'];count=b['chapterCount'];code=b.get('bibleCode','GEN')
+    b=enrich(json.loads((OUT/f'{slug}.json').read_text(encoding='utf-8')));write(OUT/f'{slug}.json',b)
+    name=b['name'];count=b['chapterCount'];code=b.get('bibleCode','GEN')
     art=json.loads((OUT/f'{slug}-art.json').read_text(encoding='utf-8'))
     content=dict(sources=[],passages=[],events=[],places=[],campaigns=[],ancientRoads=[],regions=[],words=[],guides=[],periods=[],chapterMaps=[],textRoutes=[],narrativeRegions=[],chapterStudies=[])
     for s in b['sources']:
-        content['sources'].append(dict(s,type='LDS study' if s['perspective']=='lds' else s['category'],limitations=s['limits'],license='Public domain' if s['id']=='web' else 'Linked source. Original guide summaries.'))
+        content['sources'].append(dict(s,type=s.get('type',s['category']),limitations=s['limits'],license=s.get('license','Public domain' if s['id']=='web' else 'Linked source. Original guide summaries.')))
     for p in b['places']:
         content['places'].append(dict(p,name=p['name'].split(' / ')[0],detail=p['limits'],uncertainty=p['limits'],chapterLocation=True))
     feature_people={}
@@ -53,6 +55,8 @@ for entry in json.loads((OUT/'directory.json').read_text(encoding='utf-8')):
     pm=pm.replace(" : '';\n    const imageKind", " : image.generated && image.src ? '<small class=\"portrait-credit\">AI-generated illustration</small>' : '';\n    const imageKind")
     (D/f'book-{slug}-portraits.js').write_text(pm,encoding='utf-8')
     app=native.replace("'./portraits.js'",f"'./book-{slug}-portraits.js'").replace('Isaiah',name).replace('ISA${',code+'${')
+    app=app.replace('const url = new URL(s.url);\n    url.searchParams.set(\'t\', `${moment.seconds}s`);', 'const url = new URL(moment.url || s.url);\n    if (!moment.url) url.searchParams.set(\'t\', `${moment.seconds}s`);')
+    app=app.replace('This group has four videos and five works used in them. Each note says what we checked. It also says what the source cannot prove. The video about who wrote '+name+' links to chapter 39. The other videos help with the whole book.','These notes link to relevant McClellan material. Each note states what we reviewed and what remains unverified.')
     app=app.replace('length: 66',f'length: {count}').replace('state.chapter === 66',f'state.chapter === {count}')
     app=app.replace("'isaiah-study-guide-state'",f"'{slug}-native-study-state'").replace("localStorage.getItem('meridian-state')", "null")
     app=app.replace("'data/content.json'",f"'data/books/{slug}-native-content.json'").replace("'data/scripture.json'",f"'data/books/{slug}-native-scripture.json'").replace("'data/portrait-images.json'",f"'data/books/{slug}-art.json'")
