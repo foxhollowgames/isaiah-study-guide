@@ -1,0 +1,34 @@
+import assert from 'node:assert/strict';
+import {readFile} from 'node:fs/promises';
+import vm from 'node:vm';
+const root=new URL('../dist/',import.meta.url);
+const app=await readFile(new URL('book-proverbs-app.js',root),'utf8');
+const profiles=await readFile(new URL('book-proverbs-portraits.js',root),'utf8');
+const people=JSON.parse(profiles.match(/export const people = (.*);/)[1]);
+const book=JSON.parse(await readFile(new URL('data/books/proverbs.json',root),'utf8'));
+const content=JSON.parse(await readFile(new URL('data/books/proverbs-native-content.json',root),'utf8'));
+const context=vm.createContext({people,state:{chapter:1},entityLinkCache:{chapter:null,terms:[]},data:{places:content.places,regions:[],campaigns:[],events:[],ancientRoads:[],words:[]},mapDisplayName:s=>s,esc:s=>String(s).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('"','&quot;')});
+vm.runInContext(app.slice(app.indexOf('function entityLinkTerms('),app.indexOf('function linkedPersonProfileHtml(')),context);
+const reachable=new Set();
+const verseHtml=(c,v)=>{context.state.chapter=c;return context.linkedEntityHtml(book.scripture[c].find(x=>x.verse===v).text,{verse:v});};
+for(const c of book.chapters){
+ context.state.chapter=c.chapter;
+ const text=context.linkedEntityHtml(c.summary+' '+c.meaning)+book.scripture[c.chapter].map(v=>verseHtml(c.chapter,v.verse)).join('');
+ for(const m of text.matchAll(/data-person-id="([^"]+)"/g))reachable.add(m[1]);
+}
+assert.deepEqual(book.people.filter(p=>!reachable.has(p.id)).map(p=>p.id),[],'Each profile needs a reader link');
+assert.equal(Object.values(book.scripture).flat().length,915);
+assert(book.chapters.every(c=>!('year' in c)&&c.route.length===0));
+assert.deepEqual(book.chapters.filter(c=>c.places.length).map(c=>c.chapter),[7]);
+assert.deepEqual(book.chapters.filter(c=>c.sourceIds.includes('dm-proverbs-rod')).map(c=>c.chapter),[23]);
+assert(verseHtml(8,1).includes('data-person-id="wisdom-proverbs"'));
+assert(!verseHtml(30,3).includes('data-person-id="wisdom-proverbs"'),'Do not link every wisdom reference to the poetic woman');
+assert(verseHtml(30,1).includes('data-person-id="agur"'));
+assert(verseHtml(31,1).includes('data-person-id="lemuel-mother"'));
+assert(!verseHtml(31,1).includes('data-person-id="parents-proverbs"'),'Do not confuse Lemuel’s mother with the earlier parents');
+const original=JSON.parse(await readFile(new URL('../scripts/proverbs-scripture-review.json',root),'utf8'));
+assert.deepEqual(book.scripture,original,'Preserve all publisher verses');
+const art=JSON.parse(await readFile(new URL('../scripts/proverbs-generated-portraits.json',root),'utf8'));
+assert.equal(Object.keys(art).length,10);
+for(const a of Object.values(art))assert(a.originalPath&&a.reviewed);
+console.log('Proverbs passed: 13 reachable profiles, 915 preserved verses, source scopes, and one cloth-origin reference.');

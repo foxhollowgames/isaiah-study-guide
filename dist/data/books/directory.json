@@ -154,8 +154,9 @@
     "id": "proverbs",
     "name": "Proverbs",
     "testament": "Old Testament",
-    "status": "planned",
-    "url": "book.html?book=proverbs"
+    "status": "ready",
+    "url": "book.html?book=proverbs",
+    "description": "Wisdom · honest work · careful speech · fair conduct"
   },
   {
     "id": "ecclesiastes",
