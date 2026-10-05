@@ -30,11 +30,12 @@ Book pages use `/book.html?book=<slug>`.
 - Proverbs: all 31 chapters, 915 verses, 13 profiles, and one cloth-origin map reference.
 - Ecclesiastes: all 12 chapters, 222 verses, nine profiles, and Jerusalem as the opening royal setting.
 - Song of Solomon: all 8 chapters, 117 verses, eleven profiles, and eleven map references.
-- Other 43 books: directory entries and clear planned pages. They have no study content yet.
+- Jeremiah: all 52 chapters, 1,364 verses, 66 profiles, 28 places, and four stated movements.
+- Other 42 books: directory entries and clear planned pages. They have no published study content yet.
 
 ## Next book
 
-Jeremiah is next in canonical order. Complete and verify one book before starting another.
+Lamentations is next in canonical order. Complete and verify one book before starting another.
 Do not label a book ready until its reading text, chapter studies, sources, portraits, and maps pass review.
 Use the existing Isaiah guide as the detail standard. Genesis currently has selected major people and chapter-level events.
 Future enrichment can add finer passage divisions, additional people, language notes, and more specific citations.
@@ -167,3 +168,13 @@ The publisher record verifies Eskenazi's book details. It does not represent a r
 Ezra adds 27 generated portraits and reuses eight portraits of the same people. Exact prompts and original paths are in `scripts/ezra-generated-portraits.json`.
 Checks distinguish priests, names in family lists, Persian officials, and the two Mithredaths. Uncertain journey sites have no invented markers.
 Build with `scripts/build-ezra.py`, `scripts/prepare-ezra-art.py`, and `scripts/build-native-books.py`, in that order.
+
+Jeremiah uses reviewed Luther Seminary pages, original Data Over Dogma captions,
+official Come, Follow Me, and Scripture Helps. Source details state review limits.
+Wikipedia revision and license are recorded. Publisher records verify cited books.
+The guide adds 37 inspected portraits and reuses 29 portraits of the same people.
+Exact prompts and paths are in `scripts/jeremiah-generated-portraits.json`.
+Its checks separate shared names and preserve all 1,364 scripture verses.
+Build with `scripts/build-jeremiah.py`, `scripts/finish-jeremiah-art.py`,
+`scripts/build-jeremiah.py --ready`, and `scripts/build-native-books.py`.
+Run `node scripts/check-jeremiah-person-links.mjs` before publishing.

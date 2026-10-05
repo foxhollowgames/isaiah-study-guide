@@ -1,0 +1,536 @@
+{
+  "jeremiah": {
+    "src": "assets/portraits/2-chronicles/jeremiah.png",
+    "generated": true,
+    "title": "Jeremiah · interpretive portrait",
+    "credit": "AI-generated illustration",
+    "license": "Generated artwork",
+    "note": "Artistic interpretation. Appearance, age, and setting are not verified historical evidence."
+  },
+  "josiah": {
+    "src": "assets/portraits/2-kings/josiah.png",
+    "generated": true,
+    "title": "Josiah · interpretive portrait",
+    "credit": "AI-generated illustration",
+    "license": "Generated artwork",
+    "note": "Artistic interpretation. Appearance, age, and setting are not verified historical evidence."
+  },
+  "amon-king": {
+    "src": "assets/portraits/2-kings/amon-king.png",
+    "generated": true,
+    "title": "Amon, king of Judah · interpretive portrait",
+    "credit": "AI-generated illustration",
+    "license": "Generated artwork",
+    "note": "Artistic interpretation. Appearance, age, and setting are not verified historical evidence."
+  },
+  "jehoiakim": {
+    "src": "assets/portraits/2-kings/jehoiakim.png",
+    "generated": true,
+    "title": "Jehoiakim · interpretive portrait",
+    "credit": "AI-generated illustration",
+    "license": "Generated artwork",
+    "note": "Artistic interpretation. Appearance, age, and setting are not verified historical evidence."
+  },
+  "zedekiah": {
+    "src": "assets/portraits/2-kings/zedekiah.png",
+    "generated": true,
+    "title": "Zedekiah · interpretive portrait",
+    "credit": "AI-generated illustration",
+    "license": "Generated artwork",
+    "note": "Artistic interpretation. Appearance, age, and setting are not verified historical evidence."
+  },
+  "nebuchadnezzar": {
+    "src": "assets/portraits/nebuchadnezzar-v2.png",
+    "generated": true,
+    "title": "nebuchadnezzar · interpretive portrait",
+    "credit": "AI-generated illustration",
+    "license": "Generated artwork",
+    "note": "Reused for the same person depicted in Isaiah. Appearance and setting remain artistic interpretations."
+  },
+  "jehoiachin": {
+    "src": "assets/portraits/2-kings/jehoiachin.png",
+    "generated": true,
+    "title": "Jehoiachin · interpretive portrait",
+    "credit": "AI-generated illustration",
+    "license": "Generated artwork",
+    "note": "Artistic interpretation. Appearance, age, and setting are not verified historical evidence."
+  },
+  "jehoahaz-judah": {
+    "src": "assets/portraits/2-kings/jehoahaz-judah.png",
+    "generated": true,
+    "title": "Jehoahaz, king of Judah · interpretive portrait",
+    "credit": "AI-generated illustration",
+    "license": "Generated artwork",
+    "note": "Artistic interpretation. Appearance, age, and setting are not verified historical evidence."
+  },
+  "david": {
+    "src": "assets/portraits/ruth/david.png",
+    "generated": true,
+    "title": "David · interpretive portrait",
+    "credit": "AI-generated illustration",
+    "license": "Generated artwork",
+    "note": "Interpretive art. Appearance and setting are artistic choices, not verified biographical evidence."
+  },
+  "manasseh-king": {
+    "src": "assets/portraits/2-kings/manasseh-king.png",
+    "generated": true,
+    "title": "Manasseh, king of Judah · interpretive portrait",
+    "credit": "AI-generated illustration",
+    "license": "Generated artwork",
+    "note": "Artistic interpretation. Appearance, age, and setting are not verified historical evidence."
+  },
+  "moses": {
+    "title": "File:Rembrandt - Moses Smashing the Tablets of the Law - WGA19132.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Rembrandt_-_Moses_Smashing_the_Tablets_of_the_Law_-_WGA19132.jpg/500px-Rembrandt_-_Moses_Smashing_the_Tablets_of_the_Law_-_WGA19132.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rembrandt_-_Moses_Smashing_the_Tablets_of_the_Law_-_WGA19132.jpg",
+    "credit": "Rembrandt",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "description": "",
+    "src": "assets/portraits/exodus/moses.jpg",
+    "note": "Historical art illustrates the person or story. It does not establish actual appearance."
+  },
+  "samuel": {
+    "src": "assets/portraits/1-samuel/samuel-generated.png",
+    "generated": true,
+    "title": "Samuel · interpretive portrait",
+    "credit": "AI-generated illustration",
+    "license": "Generated artwork",
+    "note": "Interpretive art. Appearance and setting are artistic choices, not verified biographical evidence."
+  },
+  "rachel": {
+    "title": "File:Rachel, from Mothers of the Bible, by Henry Ossawa Tanner.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Rachel%2C_from_Mothers_of_the_Bible%2C_by_Henry_Ossawa_Tanner.jpg/500px-Rachel%2C_from_Mothers_of_the_Bible%2C_by_Henry_Ossawa_Tanner.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rachel,_from_Mothers_of_the_Bible,_by_Henry_Ossawa_Tanner.jpg",
+    "credit": "Henry Ossawa Tanner",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "description": "Rachel, from Mothers of the Bible, by Henry Ossawa Tanner",
+    "src": "assets/portraits/genesis/rachel.jpg",
+    "note": "Historical art illustrates the story. It does not establish actual appearance."
+  },
+  "zephaniah-priest": {
+    "src": "assets/portraits/2-kings/zephaniah-priest.png",
+    "generated": true,
+    "title": "Zephaniah, the second priest · interpretive portrait",
+    "credit": "AI-generated illustration",
+    "license": "Generated artwork",
+    "note": "Artistic interpretation. Appearance, age, and setting are not verified historical evidence."
+  },
+  "hezekiah": {
+    "src": "assets/portraits/hezekiah-v2.png",
+    "generated": true,
+    "title": "hezekiah · interpretive portrait",
+    "credit": "AI-generated illustration",
+    "license": "Generated artwork",
+    "note": "Reused for the same person depicted in Isaiah. Appearance and setting remain artistic interpretations."
+  },
+  "ahikam": {
+    "src": "assets/portraits/2-kings/ahikam.png",
+    "generated": true,
+    "title": "Ahikam · interpretive portrait",
+    "credit": "AI-generated illustration",
+    "license": "Generated artwork",
+    "note": "Artistic interpretation. Appearance, age, and setting are not verified historical evidence."
+  },
+  "shaphan": {
+    "src": "assets/portraits/2-kings/shaphan.png",
+    "generated": true,
+    "title": "Shaphan · interpretive portrait",
+    "credit": "AI-generated illustration",
+    "license": "Generated artwork",
+    "note": "Artistic interpretation. Appearance, age, and setting are not verified historical evidence."
+  },
+  "jehonadab": {
+    "src": "assets/portraits/2-kings/jehonadab.png",
+    "generated": true,
+    "title": "Jehonadab · interpretive portrait",
+    "credit": "AI-generated illustration",
+    "license": "Generated artwork",
+    "note": "Artistic interpretation. Appearance, age, and setting are not verified historical evidence."
+  },
+  "nebuzaradan": {
+    "src": "assets/portraits/2-kings/nebuzaradan.png",
+    "generated": true,
+    "title": "Nebuzaradan · interpretive portrait",
+    "credit": "AI-generated illustration",
+    "license": "Generated artwork",
+    "note": "Artistic interpretation. Appearance, age, and setting are not verified historical evidence."
+  },
+  "gedaliah": {
+    "src": "assets/portraits/2-kings/gedaliah.png",
+    "generated": true,
+    "title": "Gedaliah · interpretive portrait",
+    "credit": "AI-generated illustration",
+    "license": "Generated artwork",
+    "note": "Artistic interpretation. Appearance, age, and setting are not verified historical evidence."
+  },
+  "ishmael-nethaniah": {
+    "src": "assets/portraits/2-kings/ishmael-nethaniah.png",
+    "generated": true,
+    "title": "Ishmael, son of Nethaniah · interpretive portrait",
+    "credit": "AI-generated illustration",
+    "license": "Generated artwork",
+    "note": "Artistic interpretation. Appearance, age, and setting are not verified historical evidence."
+  },
+  "johanan-kareah": {
+    "src": "assets/portraits/2-kings/johanan-kareah.png",
+    "generated": true,
+    "title": "Johanan, son of Kareah · interpretive portrait",
+    "credit": "AI-generated illustration",
+    "license": "Generated artwork",
+    "note": "Artistic interpretation. Appearance, age, and setting are not verified historical evidence."
+  },
+  "seraiah-captain": {
+    "src": "assets/portraits/2-kings/seraiah-captain.png",
+    "generated": true,
+    "title": "Seraiah, the Netophathite captain · interpretive portrait",
+    "credit": "AI-generated illustration",
+    "license": "Generated artwork",
+    "note": "Artistic interpretation. Appearance, age, and setting are not verified historical evidence."
+  },
+  "jezaniah-maacathite": {
+    "src": "assets/portraits/2-kings/jaazaniah.png",
+    "generated": true,
+    "title": "Jaazaniah · interpretive portrait",
+    "credit": "AI-generated illustration",
+    "license": "Generated artwork",
+    "note": "Artistic interpretation. Appearance, age, and setting are not verified historical evidence."
+  },
+  "necho": {
+    "src": "assets/portraits/2-kings/necho.png",
+    "generated": true,
+    "title": "Pharaoh Neco · interpretive portrait",
+    "credit": "AI-generated illustration",
+    "license": "Generated artwork",
+    "note": "Artistic interpretation. Appearance, age, and setting are not verified historical evidence."
+  },
+  "hamutal": {
+    "src": "assets/portraits/2-kings/hamutal.png",
+    "generated": true,
+    "title": "Hamutal · interpretive portrait",
+    "credit": "AI-generated illustration",
+    "license": "Generated artwork",
+    "note": "Artistic interpretation. Appearance, age, and setting are not verified historical evidence."
+  },
+  "seraiah-priest": {
+    "src": "assets/portraits/2-kings/seraiah-priest.png",
+    "generated": true,
+    "title": "Seraiah, the chief priest · interpretive portrait",
+    "credit": "AI-generated illustration",
+    "license": "Generated artwork",
+    "note": "Artistic interpretation. Appearance, age, and setting are not verified historical evidence."
+  },
+  "solomon": {
+    "src": "assets/portraits/1-kings/solomon.png",
+    "generated": true,
+    "title": "Solomon · interpretive portrait",
+    "credit": "AI-generated illustration",
+    "license": "Generated artwork",
+    "note": "Artistic interpretation. Appearance, age, and setting are not verified historical evidence."
+  },
+  "evil-merodach": {
+    "src": "assets/portraits/2-kings/evil-merodach.png",
+    "generated": true,
+    "title": "Evil Merodach · interpretive portrait",
+    "credit": "AI-generated illustration",
+    "license": "Generated artwork",
+    "note": "Artistic interpretation. Appearance, age, and setting are not verified historical evidence."
+  },
+  "baruch": {
+    "src": "assets/portraits/jeremiah/baruch.png",
+    "generated": true,
+    "title": "Baruch · interpretive portrait",
+    "credit": "AI-generated illustration",
+    "license": "Generated artwork",
+    "note": "Artistic interpretation. Appearance, age, and setting are not verified historical evidence."
+  },
+  "ebedmelech": {
+    "src": "assets/portraits/jeremiah/ebedmelech.png",
+    "generated": true,
+    "title": "Ebedmelech / Ebed-melech · interpretive portrait",
+    "credit": "AI-generated illustration",
+    "license": "Generated artwork",
+    "note": "Artistic interpretation. Appearance, age, and setting are not verified historical evidence."
+  },
+  "pashhur-immer": {
+    "src": "assets/portraits/jeremiah/pashhur-immer.png",
+    "generated": true,
+    "title": "Pashhur, son of Immer · interpretive portrait",
+    "credit": "AI-generated illustration",
+    "license": "Generated artwork",
+    "note": "Artistic interpretation. Appearance, age, and setting are not verified historical evidence."
+  },
+  "pashhur-malchijah": {
+    "src": "assets/portraits/jeremiah/pashhur-malchijah.png",
+    "generated": true,
+    "title": "Pashhur, son of Malchijah · interpretive portrait",
+    "credit": "AI-generated illustration",
+    "license": "Generated artwork",
+    "note": "Artistic interpretation. Appearance, age, and setting are not verified historical evidence."
+  },
+  "hananiah-azzur": {
+    "src": "assets/portraits/jeremiah/hananiah-azzur.png",
+    "generated": true,
+    "title": "Hananiah, son of Azzur · interpretive portrait",
+    "credit": "AI-generated illustration",
+    "license": "Generated artwork",
+    "note": "Artistic interpretation. Appearance, age, and setting are not verified historical evidence."
+  },
+  "hilkiah-father": {
+    "src": "assets/portraits/jeremiah/hilkiah-father.png",
+    "generated": true,
+    "title": "Hilkiah, Jeremiah’s father · interpretive portrait",
+    "credit": "AI-generated illustration",
+    "license": "Generated artwork",
+    "note": "Artistic interpretation. Appearance, age, and setting are not verified historical evidence."
+  },
+  "uriah-shemaiah": {
+    "src": "assets/portraits/jeremiah/uriah-shemaiah.png",
+    "generated": true,
+    "title": "Uriah, son of Shemaiah · interpretive portrait",
+    "credit": "AI-generated illustration",
+    "license": "Generated artwork",
+    "note": "Artistic interpretation. Appearance, age, and setting are not verified historical evidence."
+  },
+  "micah-prophet": {
+    "src": "assets/portraits/jeremiah/micah-prophet.png",
+    "generated": true,
+    "title": "Micah, the Morashtite · interpretive portrait",
+    "credit": "AI-generated illustration",
+    "license": "Generated artwork",
+    "note": "Artistic interpretation. Appearance, age, and setting are not verified historical evidence."
+  },
+  "elnathan-achbor": {
+    "src": "assets/portraits/jeremiah/elnathan-achbor.png",
+    "generated": true,
+    "title": "Elnathan, son of Achbor · interpretive portrait",
+    "credit": "AI-generated illustration",
+    "license": "Generated artwork",
+    "note": "Artistic interpretation. Appearance, age, and setting are not verified historical evidence."
+  },
+  "elasah-shaphan": {
+    "src": "assets/portraits/jeremiah/elasah-shaphan.png",
+    "generated": true,
+    "title": "Elasah, son of Shaphan · interpretive portrait",
+    "credit": "AI-generated illustration",
+    "license": "Generated artwork",
+    "note": "Artistic interpretation. Appearance, age, and setting are not verified historical evidence."
+  },
+  "gemariah-hilkiah": {
+    "src": "assets/portraits/jeremiah/gemariah-hilkiah.png",
+    "generated": true,
+    "title": "Gemariah, son of Hilkiah · interpretive portrait",
+    "credit": "AI-generated illustration",
+    "license": "Generated artwork",
+    "note": "Artistic interpretation. Appearance, age, and setting are not verified historical evidence."
+  },
+  "ahab-kolaiah": {
+    "src": "assets/portraits/jeremiah/ahab-kolaiah.png",
+    "generated": true,
+    "title": "Ahab, son of Kolaiah · interpretive portrait",
+    "credit": "AI-generated illustration",
+    "license": "Generated artwork",
+    "note": "Artistic interpretation. Appearance, age, and setting are not verified historical evidence."
+  },
+  "zedekiah-maaseiah": {
+    "src": "assets/portraits/jeremiah/zedekiah-maaseiah.png",
+    "generated": true,
+    "title": "Zedekiah, son of Maaseiah · interpretive portrait",
+    "credit": "AI-generated illustration",
+    "license": "Generated artwork",
+    "note": "Artistic interpretation. Appearance, age, and setting are not verified historical evidence."
+  },
+  "shemaiah-nehelamite": {
+    "src": "assets/portraits/jeremiah/shemaiah-nehelamite.png",
+    "generated": true,
+    "title": "Shemaiah, the Nehelamite · interpretive portrait",
+    "credit": "AI-generated illustration",
+    "license": "Generated artwork",
+    "note": "Artistic interpretation. Appearance, age, and setting are not verified historical evidence."
+  },
+  "hanamel": {
+    "src": "assets/portraits/jeremiah/hanamel.png",
+    "generated": true,
+    "title": "Hanamel · interpretive portrait",
+    "credit": "AI-generated illustration",
+    "license": "Generated artwork",
+    "note": "Artistic interpretation. Appearance, age, and setting are not verified historical evidence."
+  },
+  "rechabites": {
+    "src": "assets/portraits/jeremiah/rechabites.png",
+    "generated": true,
+    "title": "The Rechabites · interpretive portrait",
+    "credit": "AI-generated illustration",
+    "license": "Generated artwork",
+    "note": "Artistic interpretation. Appearance, age, and setting are not verified historical evidence."
+  },
+  "jaazaniah-rechabite": {
+    "src": "assets/portraits/jeremiah/jaazaniah-rechabite.png",
+    "generated": true,
+    "title": "Jaazaniah, the Rechabite · interpretive portrait",
+    "credit": "AI-generated illustration",
+    "license": "Generated artwork",
+    "note": "Artistic interpretation. Appearance, age, and setting are not verified historical evidence."
+  },
+  "gemariah-shaphan": {
+    "src": "assets/portraits/jeremiah/gemariah-shaphan.png",
+    "generated": true,
+    "title": "Gemariah, son of Shaphan · interpretive portrait",
+    "credit": "AI-generated illustration",
+    "license": "Generated artwork",
+    "note": "Artistic interpretation. Appearance, age, and setting are not verified historical evidence."
+  },
+  "micaiah-gemariah": {
+    "src": "assets/portraits/jeremiah/micaiah-gemariah.png",
+    "generated": true,
+    "title": "Micaiah, son of Gemariah · interpretive portrait",
+    "credit": "AI-generated illustration",
+    "license": "Generated artwork",
+    "note": "Artistic interpretation. Appearance, age, and setting are not verified historical evidence."
+  },
+  "elishama-scribe": {
+    "src": "assets/portraits/jeremiah/elishama-scribe.png",
+    "generated": true,
+    "title": "Elishama, the scribe · interpretive portrait",
+    "credit": "AI-generated illustration",
+    "license": "Generated artwork",
+    "note": "Artistic interpretation. Appearance, age, and setting are not verified historical evidence."
+  },
+  "delaiah-shemaiah": {
+    "src": "assets/portraits/jeremiah/delaiah-shemaiah.png",
+    "generated": true,
+    "title": "Delaiah, son of Shemaiah · interpretive portrait",
+    "credit": "AI-generated illustration",
+    "license": "Generated artwork",
+    "note": "Artistic interpretation. Appearance, age, and setting are not verified historical evidence."
+  },
+  "zedekiah-hananiah": {
+    "src": "assets/portraits/jeremiah/zedekiah-hananiah.png",
+    "generated": true,
+    "title": "Zedekiah, son of Hananiah · interpretive portrait",
+    "credit": "AI-generated illustration",
+    "license": "Generated artwork",
+    "note": "Artistic interpretation. Appearance, age, and setting are not verified historical evidence."
+  },
+  "jehudi": {
+    "src": "assets/portraits/jeremiah/jehudi.png",
+    "generated": true,
+    "title": "Jehudi · interpretive portrait",
+    "credit": "AI-generated illustration",
+    "license": "Generated artwork",
+    "note": "Artistic interpretation. Appearance, age, and setting are not verified historical evidence."
+  },
+  "arrest-officers": {
+    "src": "assets/portraits/jeremiah/arrest-officers.png",
+    "generated": true,
+    "title": "The officers sent to arrest Jeremiah and Baruch · interpretive portrait",
+    "credit": "AI-generated illustration",
+    "license": "Generated artwork",
+    "note": "Artistic interpretation. Appearance, age, and setting are not verified historical evidence."
+  },
+  "jehucal-shelemiah": {
+    "src": "assets/portraits/jeremiah/jehucal-shelemiah.png",
+    "generated": true,
+    "title": "Jehucal / Jucal, son of Shelemiah · interpretive portrait",
+    "credit": "AI-generated illustration",
+    "license": "Generated artwork",
+    "note": "Artistic interpretation. Appearance, age, and setting are not verified historical evidence."
+  },
+  "irijah": {
+    "src": "assets/portraits/jeremiah/irijah.png",
+    "generated": true,
+    "title": "Irijah · interpretive portrait",
+    "credit": "AI-generated illustration",
+    "license": "Generated artwork",
+    "note": "Artistic interpretation. Appearance, age, and setting are not verified historical evidence."
+  },
+  "jonathan-scribe": {
+    "src": "assets/portraits/jeremiah/jonathan-scribe.png",
+    "generated": true,
+    "title": "Jonathan, the scribe · interpretive portrait",
+    "credit": "AI-generated illustration",
+    "license": "Generated artwork",
+    "note": "Artistic interpretation. Appearance, age, and setting are not verified historical evidence."
+  },
+  "hostile-officials": {
+    "src": "assets/portraits/jeremiah/hostile-officials.png",
+    "generated": true,
+    "title": "Shephatiah and Gedaliah, the officials opposing Jeremiah · interpretive portrait",
+    "credit": "AI-generated illustration",
+    "license": "Generated artwork",
+    "note": "Artistic interpretation. Appearance, age, and setting are not verified historical evidence."
+  },
+  "malchijah-royal": {
+    "src": "assets/portraits/jeremiah/malchijah-royal.png",
+    "generated": true,
+    "title": "Malchijah, the king’s son · interpretive portrait",
+    "credit": "AI-generated illustration",
+    "license": "Generated artwork",
+    "note": "Artistic interpretation. Appearance, age, and setting are not verified historical evidence."
+  },
+  "babylonian-officers": {
+    "src": "assets/portraits/jeremiah/babylonian-officers.png",
+    "generated": true,
+    "title": "The Babylonian officers at Jerusalem · interpretive portrait",
+    "credit": "AI-generated illustration",
+    "license": "Generated artwork",
+    "note": "Artistic interpretation. Appearance, age, and setting are not verified historical evidence."
+  },
+  "jonathan-kareah": {
+    "src": "assets/portraits/jeremiah/jonathan-kareah.png",
+    "generated": true,
+    "title": "Jonathan, son of Kareah · interpretive portrait",
+    "credit": "AI-generated illustration",
+    "license": "Generated artwork",
+    "note": "Artistic interpretation. Appearance, age, and setting are not verified historical evidence."
+  },
+  "baalis": {
+    "src": "assets/portraits/jeremiah/baalis.png",
+    "generated": true,
+    "title": "Baalis · interpretive portrait",
+    "credit": "AI-generated illustration",
+    "license": "Generated artwork",
+    "note": "Artistic interpretation. Appearance, age, and setting are not verified historical evidence."
+  },
+  "jezaniah-hoshaiah": {
+    "src": "assets/portraits/jeremiah/jezaniah-hoshaiah.png",
+    "generated": true,
+    "title": "Jezaniah, son of Hoshaiah · interpretive portrait",
+    "credit": "AI-generated illustration",
+    "license": "Generated artwork",
+    "note": "Artistic interpretation. Appearance, age, and setting are not verified historical evidence."
+  },
+  "azariah-hoshaiah": {
+    "src": "assets/portraits/jeremiah/azariah-hoshaiah.png",
+    "generated": true,
+    "title": "Azariah, son of Hoshaiah · interpretive portrait",
+    "credit": "AI-generated illustration",
+    "license": "Generated artwork",
+    "note": "Artistic interpretation. Appearance, age, and setting are not verified historical evidence."
+  },
+  "women-queen": {
+    "src": "assets/portraits/jeremiah/women-queen.png",
+    "generated": true,
+    "title": "The women defending offerings to the queen · interpretive portrait",
+    "credit": "AI-generated illustration",
+    "license": "Generated artwork",
+    "note": "Artistic interpretation. Appearance, age, and setting are not verified historical evidence."
+  },
+  "hophra": {
+    "src": "assets/portraits/jeremiah/hophra.png",
+    "generated": true,
+    "title": "Pharaoh Hophra · interpretive portrait",
+    "credit": "AI-generated illustration",
+    "license": "Generated artwork",
+    "note": "Artistic interpretation. Appearance, age, and setting are not verified historical evidence."
+  },
+  "seraiah-neriah": {
+    "src": "assets/portraits/jeremiah/seraiah-neriah.png",
+    "generated": true,
+    "title": "Seraiah, son of Neriah · interpretive portrait",
+    "credit": "AI-generated illustration",
+    "license": "Generated artwork",
+    "note": "Artistic interpretation. Appearance, age, and setting are not verified historical evidence."
+  }
+}
