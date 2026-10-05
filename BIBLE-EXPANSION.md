@@ -10,11 +10,12 @@ Book pages use `/book.html?book=<slug>`.
 - Genesis: 50 original chapter studies, 39 selected person profiles, and 28 place records.
 - Genesis: historical and LDS sources use separate source categories and perspective controls.
 - Exodus: all 40 chapters, 1,213 verses, 40 chapter studies, and 20 person profiles with portraits.
-- Other 63 books: directory entries and clear planned pages. They have no study content yet.
+- Leviticus: all 27 chapters, 859 verses, 27 chapter studies, and seven person profiles with portraits.
+- Other 62 books: directory entries and clear planned pages. They have no study content yet.
 
 ## Next book
 
-Leviticus is next in canonical order. Complete and verify one book before starting another.
+Numbers is next in canonical order. Complete and verify one book before starting another.
 Do not label a book ready until its reading text, chapter studies, sources, portraits, and maps pass review.
 Use the existing Isaiah guide as the detail standard. Genesis currently has selected major people and chapter-level events.
 Future enrichment can add finer passage divisions, additional people, language notes, and more specific citations.
@@ -53,11 +54,14 @@ Exodus artwork records live in `dist/data/books/exodus-art.json`.
 Six generated illustrations cover Shiphrah, Puah, Amram, Oholiab, Ithamar, and Jethro.
 Their prompts vary age, framing, pose, expression, clothing, light, background, and color.
 The other Exodus profiles use reviewed historical art, including Joseph's existing Genesis portrait.
+Leviticus reuses six reviewed Exodus portraits and adds a generated Shelomith illustration.
+Her prompt uses watercolor and ink, a green shawl, an open desert camp, and morning light.
 
 ## Rebuild and checks
 
 Run `python scripts/build-bible.py` to rebuild the directory and Genesis text.
 Run `python scripts/build-exodus.py` to rebuild Exodus.
+Run `python scripts/build-leviticus.py` to rebuild Leviticus.
 Run `python scripts/fetch-bible-art.py --download` to fetch the selected historical art.
 Run `python scripts/finish-bible-art.py` after historical art downloads to preserve the generated Zilpah record.
 Run `node scripts/check-bible.mjs` and `npm run check` before publishing.
