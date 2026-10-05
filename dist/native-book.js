@@ -1,5 +1,5 @@
 const slug=new URLSearchParams(location.search).get('book')||'genesis';
-const directory=await fetch('data/books/directory.json').then(r=>r.json());
+const directory=await fetch('data/books/directory.json',{cache:'no-store'}).then(r=>r.json());
 const book=directory.find(b=>b.id===slug);
 if(slug==='isaiah')location.replace('./'+location.hash);
 else if(book?.status==='ready'){

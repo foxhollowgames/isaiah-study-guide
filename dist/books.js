@@ -1,6 +1,6 @@
 const search=document.querySelector('#bookSearch'),filter=document.querySelector('#testament'),groups=document.querySelector('#bookGroups'),status=document.querySelector('#directoryStatus');
 try {
-  const response=await fetch('data/books/directory.json');
+  const response=await fetch('data/books/directory.json',{cache:'no-store'});
   if(!response.ok)throw new Error('directory');
   const books=await response.json();
   function render(){
