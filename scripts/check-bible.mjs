@@ -34,3 +34,22 @@ assert(index.includes('href="books.html"'));
 assert(app.includes("$('#reading').hidden=state.view==='map'"));
 assert(app.includes("$('#narrativeTimeline').hidden=state.view!=='map'"));
 console.log(`Bible checks passed: ${directory.length} books, ${data.chapters.length} chapters, ${total} verses, ${data.people.length} portraits, ${data.sources.length} sources.`);
+const exodusCounts=[22,25,22,31,23,30,25,32,35,29,10,51,22,31,27,36,16,27,25,26,36,31,33,18,40,37,21,43,46,38,18,35,23,35,35,38,29,31,43,38];
+for(const book of directory.filter(b=>b.status==='ready'&&!['genesis','isaiah'].includes(b.id))){
+  const content=await read(`data/books/${book.id}.json`),images=await read(`data/books/${book.id}-art.json`);
+  assert.equal(content.chapters.length,content.chapterCount);assert.equal(Object.keys(content.scripture).length,content.chapterCount);
+  const sources=new Map(content.sources.map(s=>[s.id,s])),people=new Set(content.people.map(p=>p.id)),places=new Set(content.places.map(p=>p.id));let verses=0;
+  for(const c of content.chapters){
+    assert.equal(c.chapter,content.chapters.indexOf(c)+1);const text=content.scripture[c.chapter];
+    if(book.id==='exodus')assert.equal(text.length,exodusCounts[c.chapter-1]);
+    text.forEach((v,i)=>{assert.equal(v.verse,i+1);assert(v.text&&!/\ufffd|\bundefined\b|\b(?:Exodus|Genesis)\s*</.test(v.text));});verses+=text.length;
+    assert(c.summary&&c.meaning&&c.lds?.text&&c.historicalNote);
+    for(const id of c.sourceIds)assert.equal(sources.get(id)?.perspective,'historical');
+    for(const id of c.lds.sourceIds)assert.equal(sources.get(id)?.perspective,'lds');
+    c.people.forEach(id=>assert(people.has(id)));[...c.places,...c.route].forEach(id=>assert(places.has(id)));
+  }
+  for(const p of content.people){assert(p.role&&p.relations&&p.meaning&&p.passages);assert(images[p.id],`Missing ${book.id} portrait ${p.id}`);await access(new URL(images[p.id].src,root));if(!images[p.id].generated)assert(images[p.id].credit&&images[p.id].license&&images[p.id].sourceUrl.startsWith('https://commons.wikimedia.org/'));}
+  for(const p of content.places){assert(p.limits);assert(Number.isFinite(p.lat)&&Number.isFinite(p.lng));p.sourceIds.forEach(id=>assert(sources.has(id)));}
+  if(book.id==='exodus')assert.equal(verses,1213);
+  console.log(`${content.name} checks passed: ${content.chapterCount} chapters, ${verses} verses, ${people.size} portraits.`);
+}

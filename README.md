@@ -92,7 +92,8 @@ Maintain chapter selections and source scope in `scripts/chapter-enrichment.mjs`
 ## Bible study directory
 
 The Bible directory is [Bible Study Guides](https://isaiah.josephnewelldesign.com/books.html).
-The original Isaiah URL remains unchanged. Genesis is the first additional guide.
-It includes all 50 chapters, 1,533 verses, selected events and people, map journeys, meanings, and separate historical and LDS sources.
-Run `npm run check:bible` to check the new directory and Genesis data.
+The original Isaiah URL remains unchanged. Genesis and Exodus are ready.
+Genesis includes all 50 chapters and 1,533 verses. Exodus includes all 40 chapters and 1,213 verses.
+Each has selected events and people, portraits, map journeys, meanings, and separate historical and LDS sources.
+Run `npm run check:bible` to check the directory and ready book data.
 The remaining books have planned pages. See `BIBLE-EXPANSION.md` for the next book and weekly usage constraint.
