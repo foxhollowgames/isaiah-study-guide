@@ -1,6 +1,7 @@
 """Adapt book data to the existing Isaiah reader. Do not create a second UI."""
 import json,re
 from bible_source_enrichment import enrich
+from book_copy import revise
 from pathlib import Path
 ROOT=Path(__file__).resolve().parent.parent
 D=ROOT/'dist';OUT=D/'data/books'
@@ -10,14 +11,14 @@ portraits=(D/'portraits.js').read_text(encoding='utf-8')
 for entry in json.loads((OUT/'directory.json').read_text(encoding='utf-8')):
     slug=entry['id']
     if entry['status']!='ready' or slug=='isaiah':continue
-    b=enrich(json.loads((OUT/f'{slug}.json').read_text(encoding='utf-8')));write(OUT/f'{slug}.json',b)
+    b=revise(enrich(json.loads((OUT/f'{slug}.json').read_text(encoding='utf-8'))));write(OUT/f'{slug}.json',b)
     name=b['name'];count=b['chapterCount'];code=b.get('bibleCode','GEN')
     art=json.loads((OUT/f'{slug}-art.json').read_text(encoding='utf-8'))
     content=dict(sources=[],passages=[],events=[],places=[],campaigns=[],ancientRoads=[],regions=[],words=[],guides=[],periods=[],chapterMaps=[],textRoutes=[],narrativeRegions=[],chapterStudies=[])
     for s in b['sources']:
         content['sources'].append(dict(s,type=s.get('type',s['category']),limitations=s['limits'],license=s.get('license','Public domain' if s['id']=='web' else 'Linked source. Original guide summaries.')))
     for p in b['places']:
-        content['places'].append(dict(p,name=p['name'].split(' / ')[0].split(' · ')[0],detail=p['name']+'. '+p['limits'],uncertainty=p['name']+'. '+p['limits'],chapterLocation=True))
+        content['places'].append(dict(p,name=p['name'].split(' / ')[0].split(' · ')[0],detail=p['summary'],uncertainty=p['limits'],chapterLocation=True))
     feature_people={}
     for c in b['chapters']:
         n=c['chapter'];eid=f'{slug}-{n}';refs=c['sourceIds'];total=len(b['scripture'][str(n)])
@@ -45,7 +46,6 @@ for entry in json.loads((OUT/'directory.json').read_text(encoding='utf-8')):
         chapter_ids=set(c['chapter'] for c in b['chapters'] if p['id'] in c['people'])
         for m in re.finditer(r'(?:'+re.escape(name)+r'\s+|;\s*)(\d+)(?:[–-](\d+))?(?=:|;|$)',p['passages']):chapter_ids.update(range(int(m[1]),int(m[2] or m[1])+1))
         profiles[p['id']]['chapterIds']=sorted(chapter_ids)
-        if not profiles[p['id']]['locations']:profiles[p['id']]['locations']=['Location not securely known.']
     pm=portraits
     pm=re.sub(r'export const people = \{.*?\n\};',lambda _: 'export const people = '+json.dumps(profiles,ensure_ascii=False)+';',pm,count=1,flags=re.S)
     pm=re.sub(r'const featurePeople = \{.*?\n\};',lambda _: 'const featurePeople = '+json.dumps(feature_people,ensure_ascii=False)+';',pm,count=1,flags=re.S)
@@ -57,7 +57,8 @@ for entry in json.loads((OUT/'directory.json').read_text(encoding='utf-8')):
     pm=pm.replace('aria-hidden="true">${name[0]}','aria-hidden="${!!image.src}">${name[0]}')
     pm=pm.replace(" : '';\n    const imageKind", " : image.generated && image.src ? '<small class=\"portrait-credit\">AI-generated illustration</small>' : '';\n    const imageKind")
     (D/f'book-{slug}-portraits.js').write_text(pm,encoding='utf-8')
-    app=native.replace("'./portraits.js'",f"'./book-{slug}-portraits.js'").replace('Isaiah',name).replace('ISA${',code+'${')
+    app=native.replace("'./portraits.js'",f"'./book-{slug}-portraits.js?v=20261005.8'").replace('Isaiah',name).replace('ISA${',code+'${')
+    app=app.replace("const releaseVersion = '20261004.1';", "const releaseVersion = '20261005.8';")
     app=app.replace('const url = new URL(s.url);\n    url.searchParams.set(\'t\', `${moment.seconds}s`);', 'const url = new URL(moment.url || s.url);\n    if (!moment.url) url.searchParams.set(\'t\', `${moment.seconds}s`);')
     app=app.replace('This group has four videos and five works used in them. Each note says what we checked. It also says what the source cannot prove. The video about who wrote '+name+' links to chapter 39. The other videos help with the whole book.','These notes link to relevant McClellan material. Each note states what we reviewed and what remains unverified.')
     app=app.replace('length: 66',f'length: {count}').replace('state.chapter === 66',f'state.chapter === {count}')
@@ -65,6 +66,19 @@ for entry in json.loads((OUT/'directory.json').read_text(encoding='utf-8')):
     app=app.replace("'data/content.json'",f"'data/books/{slug}-native-content.json'").replace("'data/scripture.json'",f"'data/books/{slug}-native-scripture.json'").replace("'data/portrait-images.json'",f"'data/books/{slug}-art.json'")
     app=app.replace('date: -701','date: 1').replace("const label = chapterDateLabel();", "const label = data.passages.find(p => p.chapter === state.chapter)?.dateLabel || 'Historical dating uncertain';")
     app=app.replace('Generated portraits are illustrations. They do not establish actual appearance.','Portraits are illustrations or later historical art. We do not know how these people looked.')
+    # General source summaries belong in the source dialog, not below each chapter.
+    a=app.index('function sourceInsightsHtml(');z=app.index('function scriptureExcerptHtml(',a)
+    app=app[:a]+"function sourceInsightsHtml(ids = [], chapter = state.chapter) { return sourceMediaHtml(ids, {chapter}); }\n"+app[z:]
+    a=app.index('function chapterDateHtml()');z=app.index('function renderScripture()',a)
+    app=app[:a]+"function chapterDateHtml() { return ''; }\n"+app[z:]
+    # Keep the footer's shared art note; avoid repeated date and art warnings in profiles.
+    pm=(D/f'book-{slug}-portraits.js').read_text(encoding='utf8')
+    pm=pm.replace('<div><dt>Estimated lifespan</dt><dd>${escapeHtml(person.life)}</dd></div>','')
+    pm=pm.replace('<div><dt>Known for</dt><dd>${linkHtml(person.role)}</dd></div>','')
+    pm=pm.replace('<div><dt>Key locations</dt><dd>${person.locations.map(linkHtml).join(\' · \')}</dd></div>', '${person.locations.length ? `<div><dt>Key locations</dt><dd>${person.locations.map(linkHtml).join(\' · \')}</dd></div>` : ""}')
+    pm=pm.replace('<p class="profile-date-note"><strong>Date note.</strong> ${linkHtml(person.dateNote)}</p>','')
+    pm=pm.replace('<p class="profile-portrait-note">Portraits are illustrations or later historical depictions. They do not show the person’s known appearance.</p>','')
+    (D/f'book-{slug}-portraits.js').write_text(pm,encoding='utf8')
     app=app.replace('Natural Earth · Terrain: Mapzen / USGS / NOAA · Places: <a href="https://www.openbible.info/geo/">OpenBible.info</a> / <a href="https://www.openstreetmap.org/copyright">OSM contributors</a>','Natural Earth · Terrain: Mapzen / USGS / NOAA · Place sources: see study notes')
     app=app.replace("$('#timelineRange').addEventListener('input', e => { state.date = Number(e.target.value); renderTimeline(); drawOverlays(); persist(); });", "$('#timelineRange').min=1; $('#timelineRange').max=chapters.length; $('#timelineRange').setAttribute('aria-label','Chapter in narrative order');\n  $('#timelineRange').addEventListener('input', e => { selectChapter(Number(e.target.value)); focusChapterMap(); });")
     app=app.replace("state.date = Math.round((p.start + p.end) / 2); renderTimeline(); drawOverlays(); persist();", "selectChapter(Math.round((p.start + p.end) / 2)); focusChapterMap();")
@@ -91,6 +105,6 @@ html=(D/'index.html').read_text(encoding='utf-8')
 html=re.sub(r'  <meta (?:property="og:[^\n]+|name="twitter:[^\n]+)\n','',html)
 html=re.sub(r'  <link rel="canonical"[^\n]+\n','',html)
 html=html.replace('<title>Isaiah Study Guide</title>','<title>Bible Study Guide</title>').replace('<b>ISAIAH<small>STUDY GUIDE</small></b>','<b id="bookBrand">BIBLE<small>STUDY GUIDE</small></b>')
-html=html.replace('app.js?v=20261004.1','native-book.js?v=20261005.7').replace('styles.css?v=20261004.1','styles.css?v=20261005.1')
+html=html.replace('app.js?v=20261004.1','native-book.js?v=20261005.8').replace('styles.css?v=20261004.1','styles.css?v=20261005.1')
 html=html.replace('<span class="map-label label-assyria">ASSYRIA</span><span class="map-label label-judah">JUDAH</span>','')
 (D/'book.html').write_text(html,encoding='utf-8')

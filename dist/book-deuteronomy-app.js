@@ -1,10 +1,10 @@
 import { initChapterPicker } from './chapter-picker.js';
-import { people, featurePortraits, wordPortraits, personProfileHtml, personIdForLabel, setPortraitMode } from './book-deuteronomy-portraits.js';
+import { people, featurePortraits, wordPortraits, personProfileHtml, personIdForLabel, setPortraitMode } from './book-deuteronomy-portraits.js?v=20261005.8';
 import { initModalDragging } from './modal-drag.js';
 import { chapterFocus, chapterRoutes, chapterPoints, movementStyle } from './chapter-map.js';
 const $ = (s, root = document) => root.querySelector(s);
 const $$ = (s, root = document) => [...root.querySelectorAll(s)];
-const releaseVersion = '20261004.1';
+const releaseVersion = '20261005.8';
 const chapters = Array.from({ length: 34 }, (_, i) => i + 1);
 const defaults = { chapter: 1, verse: 1, studyMode: 'read', view: 'map', perspective: 'historical', portraitMode: 'generated', date: 1, layers: { places: true, regions: true, campaigns: true, roads: false, history: false }, sidebar: 'scripture', map: { center: [32.1, 35.0], zoom: 7 } };
 let state = { ...defaults, ...readSaved(), layers: { ...defaults.layers, ...(readSaved().layers || {}) } };
@@ -384,10 +384,7 @@ const chapterDateBands = [
 function chapterDateLabel(chapter = state.chapter) {
   return chapterDateBands.find(band => chapter >= band.from && chapter <= band.to)?.label || '~740 - 680 BCE';
 }
-function chapterDateHtml() {
-  const label = data.passages.find(p => p.chapter === state.chapter)?.dateLabel || 'Historical dating uncertain';
-  return `<p class="chapter-date" aria-label="Approximate historical or composition period: ${esc(label)}">${esc(label)}</p>`;
-}
+function chapterDateHtml() { return ''; }
 function renderScripture() {
   sidebarPersonHistory = [];
   if (state.sidebar === 'word') return renderWord();
@@ -592,26 +589,7 @@ function sourceMediaHtml(ids = [], options = {}) {
     return `${showImage ? `<div class="study-evidence">${previewText ? `<p>${esc(previewText)}</p>` : ''}${sourceImageHtml(item.image)}</div>` : ''}${showExcerpt ? `<figure class="study-quotation"><blockquote cite="${esc(excerpt.url || item.url)}">${esc(excerpt.text)}</blockquote><figcaption>${esc(excerpt.attribution)}<br><a href="${esc(excerpt.url || item.url)}" target="_blank" rel="noopener">${esc(excerpt.location)} ↗</a></figcaption>${excerpt.context ? `<p>${esc(excerpt.context)}</p>` : ''}</figure>` : ''}`;
   }).join('');
 }
-function sourceInsightsHtml(ids = [], chapter = state.chapter) {
-  const seen = new Set();
-  return [...new Set(ids)].map(id => {
-    const item = source(id);
-    if (!item || /^(web\d*|geo|earth|strong|oshb|lxx\d+)$/.test(id)) return '';
-    if (seen.has(id)) return '';
-    seen.add(id);
-    if (item.group === 'conference-year' && !item.scriptureReferences?.some(ref => {
-      const match = ref.label.match(/Deuteronomy\s+(\d+)(?=\D|$)/i);
-      return match ? Number(match[1]) === Number(chapter) : Number(chapter) === 61 && /Luke 4:18/.test(ref.label);
-    })) return '';
-    const related = item.chapterCoverage && !item.chapterCoverage.includes(Number(chapter));
-    const context = mapDisplayText((related ? `This lesson covers nearby chapters, not Deuteronomy ${chapter}. ` : '') + (item.studyText || item.summary || ''));
-    const note = context && !item.image ? `<p class="source-insight">${esc(context)} <a class="source-inline-citation" href="${esc(item.url)}" data-source-id="${esc(id)}" aria-haspopup="dialog">${esc(item.author || item.title)}</a></p>` : '';
-    const cited = (item.citedSourceIds || []).filter(id => !ids.includes(id) && !seen.has(id)).map(source).filter(Boolean);
-    cited.forEach(work => seen.add(work.id));
-    const supporting = cited.map(work => `<p class="source-insight">${esc(mapDisplayText(work.summary))} <a class="source-inline-citation" href="${esc(work.url)}" data-source-id="${esc(work.id)}" aria-haspopup="dialog">${esc(work.author || work.title)}</a></p>`).join('');
-    return note + sourceMediaHtml([id], {chapter}) + supporting;
-  }).join('');
-}
+function sourceInsightsHtml(ids = [], chapter = state.chapter) { return sourceMediaHtml(ids, {chapter}); }
 function scriptureExcerptHtml(chapter, verse, context = '') {
   const reading = scripture.chapters[chapter]?.find(item => item.verse === Number(verse));
   if (!reading) return '';

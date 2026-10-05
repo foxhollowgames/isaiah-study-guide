@@ -20,6 +20,12 @@ Use plain English based on ASD-STE100 principles for app labels, instructions, m
 - State what the app knows and what remains uncertain. Simplification must not increase a claim’s certainty.
 - Distinguish the biblical account, historical evidence, Church teaching, and original study questions. Keep each claim attached to its sources.
 - An empty state must describe what is missing. Do not say information is loading unless loading is actually in progress.
+- Explain the passage before describing the work done to build the guide.
+- Remove sentences that repeat the title, nearby text, or another note.
+- Keep general source-review limits in Source details. Show a limit in the reading only when it changes that passage's meaning.
+- Do not repeat atlas descriptions, publication records, or general source summaries under every chapter.
+- Use a specific study question. Do not add a repeated “Original study reflection” label.
+- Describe what people do and why it matters. Keep image instructions and research-process notes out of their profiles.
 
 ## Preserve source text
 

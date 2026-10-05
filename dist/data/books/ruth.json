@@ -359,7 +359,7 @@
       "chapter": 1,
       "title": "Loss and the return to Bethlehem",
       "summary": "Famine takes Elimelech’s household to Moab. After three deaths, Naomi returns. Ruth stays with her, while Orpah returns home.",
-      "meaning": "Grief and chosen loyalty shape the opening. Orpah receives Naomi’s blessing. Her departure does not make her an enemy.",
+      "meaning": "Naomi and her daughters-in-law face grief and hard choices. Naomi blesses both women before Ruth stays.",
       "people": [
         "elimelech",
         "naomi",
@@ -380,7 +380,7 @@
         "wiki-ruth"
       ],
       "lds": {
-        "text": "The Church lesson studies faith through loss. Its application does not promise that every bereaved person will remarry.",
+        "text": "Come, Follow Me studies Ruth's loyalty and faith during loss.",
         "sourceIds": [
           "lds-ruth",
           "cfm-2026-23"
@@ -436,7 +436,7 @@
       "chapter": 3,
       "title": "The request at the threshing floor",
       "summary": "Naomi proposes a plan. Ruth approaches Boaz at night and asks for his protection. He promises action after consulting a nearer relative.",
-      "meaning": "Ruth speaks directly about family redemption. Readers debate the scene’s implications. The text does not explicitly describe a sexual act.",
+      "meaning": "Ruth asks Boaz to act as a family protector. He promises to settle the matter with the closer relative.",
       "people": [
         "ruth",
         "naomi",
@@ -453,7 +453,7 @@
         "atlas-canaan"
       ],
       "lds": {
-        "text": "The older manual reads Ruth’s request as a marriage proposal. Keep that interpretation distinct from unstated details.",
+        "text": "The older Church manual reads Ruth's action as a request for marriage.",
         "sourceIds": [
           "lds-ruth",
           "cfm-2026-23"
@@ -469,8 +469,8 @@
     {
       "chapter": 4,
       "title": "The gate agreement and Obed’s birth",
-      "summary": "Boaz consults the nearer relative and witnesses at the gate. He marries Ruth. Obed is born, and the closing genealogy reaches David.",
-      "meaning": "Public witnesses connect household care with recognized responsibility. The genealogy is the book’s claim about ancestry, not an independently verified record.",
+      "summary": "Boaz meets the nearer relative and witnesses at the town gate. He marries Ruth. Their son Obed becomes David’s grandfather.",
+      "meaning": "The witnesses confirm Boaz’s duty toward Ruth and the family’s land. Naomi’s household gains a future.",
       "people": [
         "ruth",
         "naomi",
@@ -504,7 +504,7 @@
         "wiki-ruth"
       ],
       "lds": {
-        "text": "Come, Follow Me compares Ruth and Boaz with Jesus Christ. This Christian reading is separate from the ancient narrated transaction.",
+        "text": "Come, Follow Me compares Boaz’s care with Jesus Christ’s power to redeem.",
         "sourceIds": [
           "lds-ruth",
           "cfm-2026-23"
@@ -609,7 +609,7 @@
       "role": "Widowed daughter-in-law who returns home",
       "relations": "Related by marriage to Naomi’s household.",
       "passages": "Ruth 1",
-      "meaning": "She weeps and initially accompanies Naomi. Naomi blesses her before she returns. The guide does not invent later descendants.",
+      "meaning": "Orpah weeps when leaving Naomi. She returns home with Naomi’s blessing.",
       "life": "Birth and death years are not securely known.",
       "sourceIds": [
         "web"
@@ -625,7 +625,7 @@
       "role": "Relative who provides protection and family redemption",
       "relations": "From Elimelech’s family. Husband of Ruth and father of Obed.",
       "passages": "Ruth 2–4",
-      "meaning": "He makes concrete provision in the field and accepts responsibility before witnesses. He is not identified as Mahlon’s brother.",
+      "meaning": "He gives Ruth food and protection. Later, he accepts family duties before witnesses.",
       "life": "Birth and death years are not securely known.",
       "sourceIds": [
         "web"
@@ -641,7 +641,7 @@
       "role": "Unnamed servant responsible for Boaz’s reapers",
       "relations": "Reports Ruth’s work to Boaz.",
       "passages": "Ruth 2:5–7",
-      "meaning": "His report introduces Ruth to Boaz. His name and personal background are not supplied.",
+      "meaning": "His report tells Boaz who Ruth is and how she has worked.",
       "life": "Birth and death years are not securely known.",
       "sourceIds": [
         "web"
@@ -657,9 +657,9 @@
       "id": "nearer-redeemer",
       "name": "The nearer relative",
       "role": "Unnamed relative consulted before Boaz’s agreement",
-      "relations": "Has a prior family claim in the narrated transaction.",
+      "relations": "A closer relative of Elimelech than Boaz.",
       "passages": "Ruth 3:12–13; 4:1–8",
-      "meaning": "He first agrees to redeem land, then declines the combined responsibility. The text does not supply his name.",
+      "meaning": "He offers to buy the land but withdraws when the duty also includes Ruth.",
       "life": "Birth and death years are not securely known.",
       "sourceIds": [
         "web"
@@ -677,7 +677,7 @@
       "role": "Child born to Ruth and Boaz",
       "relations": "Grandfather of David through Jesse. Naomi cares for him.",
       "passages": "Ruth 4:13–22",
-      "meaning": "His birth changes the household’s future. He is not described as Naomi’s biological son.",
+      "meaning": "His birth brings joy to Naomi's household. He later becomes David's grandfather.",
       "life": "Birth and death years are not securely known.",
       "sourceIds": [
         "web"
@@ -690,10 +690,10 @@
     {
       "id": "jesse",
       "name": "Jesse",
-      "role": "Father of David in the genealogy",
+      "role": "Father of David",
       "relations": "Son of Obed.",
       "passages": "Ruth 4:17,22",
-      "meaning": "He connects Obed with David in the narrated family line. The book gives no further life story.",
+      "meaning": "The closing family list connects Jesse with Obed and David.",
       "life": "Birth and death years are not securely known.",
       "sourceIds": [
         "web"
@@ -704,10 +704,10 @@
     {
       "id": "david",
       "name": "David",
-      "role": "King named at the end of the genealogy",
+      "role": "Later king descended from Ruth and Boaz",
       "relations": "Son of Jesse.",
       "passages": "Ruth 4:17,22",
-      "meaning": "His name gives the family account a royal connection. He does not participate in Ruth’s earlier scenes.",
+      "meaning": "The final family list connects Ruth and Boaz with Israel's future king.",
       "life": "Birth and death years are not securely known.",
       "sourceIds": [
         "web"
@@ -718,10 +718,10 @@
     {
       "id": "perez",
       "name": "Perez",
-      "role": "Ancestor named in the blessing and genealogy",
+      "role": "Ancestor of Boaz",
       "relations": "Son of Judah and Tamar.",
       "passages": "Ruth 4:12,18",
-      "meaning": "The witnesses recall his family, and the genealogy begins with him. His portrait represents an ancestor, not a gate attendee.",
+      "meaning": "The witnesses ask that Ruth’s household grow like Perez’s family.",
       "life": "Birth and death years are not securely known.",
       "sourceIds": [
         "web"
@@ -732,10 +732,10 @@
     {
       "id": "hezron",
       "name": "Hezron",
-      "role": "Ancestor in the closing genealogy",
+      "role": "Son of Perez and ancestor of Boaz",
       "relations": "Named between Perez and Ram.",
       "passages": "Ruth 4:18–19",
-      "meaning": "His name links generations in the narrated genealogy. He does not attend the story’s earlier events.",
+      "meaning": "Hezron’s name connects Perez with Ram in the closing family list.",
       "life": "Birth and death years are not securely known.",
       "sourceIds": [
         "web"
@@ -746,10 +746,10 @@
     {
       "id": "ram",
       "name": "Ram",
-      "role": "Ancestor in the closing genealogy",
+      "role": "Son of Hezron and ancestor of Boaz",
       "relations": "Named between Hezron and Amminadab.",
       "passages": "Ruth 4:19",
-      "meaning": "The book supplies his genealogical place without an extended biography.",
+      "meaning": "Ram appears between Hezron and Amminadab in the family list.",
       "life": "Birth and death years are not securely known.",
       "sourceIds": [
         "web"
@@ -760,10 +760,10 @@
     {
       "id": "amminadab",
       "name": "Amminadab",
-      "role": "Ancestor in the closing genealogy",
-      "relations": "Father of Nahshon in the genealogy.",
+      "role": "Father of Nahshon and ancestor of Boaz",
+      "relations": "Son of Ram. Father of Nahshon.",
       "passages": "Ruth 4:19–20",
-      "meaning": "His place in the family line does not put him at Boaz’s agreement.",
+      "meaning": "His place in the family list connects earlier generations with Boaz and David.",
       "life": "Birth and death years are not securely known.",
       "sourceIds": [
         "web"
@@ -774,10 +774,10 @@
     {
       "id": "salmon",
       "name": "Salmon",
-      "role": "Ancestor in the closing genealogy",
+      "role": "Father of Boaz",
       "relations": "Named as father of Boaz.",
       "passages": "Ruth 4:20–21",
-      "meaning": "The book supplies a family link, not a scene involving his life.",
+      "meaning": "The family list names him as Boaz's father.",
       "life": "Birth and death years are not securely known.",
       "sourceIds": [
         "web"
@@ -788,10 +788,10 @@
     {
       "id": "nahshon",
       "name": "Nahshon",
-      "role": "Ancestor in the closing genealogy",
+      "role": "Father of Salmon and ancestor of Boaz",
       "relations": "Named between Amminadab and Salmon.",
       "passages": "Ruth 4:20",
-      "meaning": "The genealogy recalls an ancestral name. It does not place him in Ruth’s earlier scenes.",
+      "meaning": "Nahshon’s son Salmon becomes the father of Boaz.",
       "life": "Birth and death years are not securely known.",
       "sourceIds": [
         "web"
@@ -805,7 +805,7 @@
       "role": "Mother of six sons and Dinah",
       "relations": "Daughter of Laban. Wife of Jacob. Sister of Rachel.",
       "passages": "Ruth 4",
-      "meaning": "The account recalls this ancestral name in a blessing or genealogy. The portrait does not place the ancestor at the gate agreement.",
+      "meaning": "The witnesses recall Leah when blessing Ruth. They honor her part in building Israel’s family.",
       "life": "Birth and death years are not securely known.",
       "sourceIds": [
         "web"
@@ -819,7 +819,7 @@
       "role": "Mother of Joseph and Benjamin",
       "relations": "Daughter of Laban. Wife of Jacob. Sister of Leah.",
       "passages": "Ruth 4",
-      "meaning": "The account recalls this ancestral name in a blessing or genealogy. The portrait does not place the ancestor at the gate agreement.",
+      "meaning": "The witnesses recall Rachel alongside Leah when blessing Ruth’s future household.",
       "life": "Birth and death years are not securely known.",
       "sourceIds": [
         "web"
@@ -833,7 +833,7 @@
       "role": "Brother who later protects Benjamin",
       "relations": "Son of Jacob and Leah. Father of Perez and Zerah through Tamar.",
       "passages": "Ruth 4",
-      "meaning": "The account recalls this ancestral name in a blessing or genealogy. The portrait does not place the ancestor at the gate agreement.",
+      "meaning": "The witnesses remember Judah’s family through Tamar and Perez.",
       "life": "Birth and death years are not securely known.",
       "sourceIds": [
         "web"
@@ -847,7 +847,7 @@
       "role": "Woman who claims Judah's family duty",
       "relations": "Widow of Er and Onan. Mother of Perez and Zerah.",
       "passages": "Ruth 4",
-      "meaning": "The account recalls this ancestral name in a blessing or genealogy. The portrait does not place the ancestor at the gate agreement.",
+      "meaning": "The witnesses recall Tamar as Perez’s mother. Her family gives them a pattern for blessing Ruth.",
       "life": "Birth and death years are not securely known.",
       "sourceIds": [
         "web"
@@ -1032,7 +1032,8 @@
     "scope": "All four chapters, named people, two unnamed roles, and narrative geography. Genealogy and religious interpretation remain distinct from independent evidence.",
     "nextBook": "1-samuel",
     "sourcePolicy": "BIBLE-SOURCE-POLICY.md",
-    "sourceEnrichmentDate": "2026-10-05"
+    "sourceEnrichmentDate": "2026-10-05",
+    "copyReview": "2026-10-05: Reader copy reviewed against WRITING-GUIDE.md. Scripture and source titles preserved."
   },
   "translation": "World English Bible",
   "copyright": "Public domain"

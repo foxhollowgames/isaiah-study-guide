@@ -29,6 +29,8 @@ def person(id,name,role,relations,passages,meaning):
     return dict(id=id,name=name,role=role,relations=relations,passages=passages,meaning=meaning,life='Birth and death years are not securely known.',sourceIds=['web'])
 def place(id,name,lat,lng,summary,limits,sourceIds):return dict(id=id,name=name,lat=lat,lng=lng,summary=summary,limits=limits,sourceIds=sourceIds)
 def finish(data):
+    from book_copy import revise
+    data=revise(data)
     for p in data['people']:p.setdefault('placeIds',list(dict.fromkeys(pid for c in data['chapters'] if p['id'] in c['people'] for pid in c['places'])))
     data['translation']='World English Bible';data['copyright']='Public domain'
     (OUT/f"{data['id']}.json").write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
