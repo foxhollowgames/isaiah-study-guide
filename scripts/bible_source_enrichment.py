@@ -7,6 +7,8 @@ DATE='2026-10-05'
 CFM='https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/'
 def span(a,z):return list(range(a,z+1))
 LESSONS=[
+ ('2-samuel',25,[5,6,7],'1 Samuel 17–18; 24–26; 2 Samuel 5–7 · Second Samuel coverage','The lesson studies seeking guidance and reads David’s promised house through Jesus Christ.'),
+ ('2-samuel',26,[11,12],'2 Samuel 11–12; 1 Kings 3; 6–9; 11 · Second Samuel coverage','The lesson studies David’s harmful choices and Nathan’s correction.'),
  ('1-samuel',23,span(1,7),'Ruth; 1 Samuel 1–7 · Samuel coverage','The lesson studies prayer in hardship, Samuel’s call, and faithful conduct beyond possession of the ark.'),
  ('1-samuel',24,[8,9,10,13,15,16],'1 Samuel 8–10; 13; 15–16','The lesson studies Christ as King, calls to service, obedience, and judging character beyond appearance.'),
  ('1-samuel',25,[17,18,24,25,26],'1 Samuel 17–18; 24–26 · Samuel coverage','The lesson studies courage, friendship, self-control, and forgiveness. It compares Abigail’s intervention with Jesus Christ.'),

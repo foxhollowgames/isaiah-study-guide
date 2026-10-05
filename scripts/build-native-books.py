@@ -17,7 +17,7 @@ for entry in json.loads((OUT/'directory.json').read_text(encoding='utf-8')):
     for s in b['sources']:
         content['sources'].append(dict(s,type=s.get('type',s['category']),limitations=s['limits'],license=s.get('license','Public domain' if s['id']=='web' else 'Linked source. Original guide summaries.')))
     for p in b['places']:
-        content['places'].append(dict(p,name=p['name'].split(' / ')[0],detail=p['limits'],uncertainty=p['limits'],chapterLocation=True))
+        content['places'].append(dict(p,name=p['name'].split(' / ')[0].split(' · ')[0],detail=p['name']+'. '+p['limits'],uncertainty=p['name']+'. '+p['limits'],chapterLocation=True))
     feature_people={}
     for c in b['chapters']:
         n=c['chapter'];eid=f'{slug}-{n}';refs=c['sourceIds'];total=len(b['scripture'][str(n)])
@@ -37,7 +37,7 @@ for entry in json.loads((OUT/'directory.json').read_text(encoding='utf-8')):
     content['guides']=[dict(id=f'{slug}-overview',title=f'Study {name}',description='Follow selected chapters through the book.',steps=[dict(title=c['title'],text=c['summary']+' '+c['meaning'],chapter=c['chapter'],verse=1,sourceIds=c['sourceIds']) for c in [b['chapters'][0],b['chapters'][count//2],b['chapters'][-1]]])]
     write(OUT/f'{slug}-native-content.json',content)
     write(OUT/f'{slug}-native-scripture.json',dict(translation=b['translation'],copyright=b['copyright'],chapters=b['scripture']))
-    profiles={p['id']:dict(name=p['name'],role=p['role'],life=p['life'],dateNote='Historical life dates remain uncertain.',locations=[next(q for q in b['places'] if q['id']==pid)['name'] for pid in p.get('placeIds',[])],passages=[p['passages']],importance=p['meaning'],connections=p['relations']) for p in b['people']}
+    profiles={p['id']:dict(name=p['name'],role=p['role'],life=p['life'],dateNote='Historical life dates remain uncertain.',locations=[next(q for q in b['places'] if q['id']==pid)['name'] for pid in p.get('placeIds',[])],passages=[p['passages']],importance=p['meaning'],connections=p['relations'],verseScope=p.get('verseScope',{})) for p in b['people']}
     for p in b['people']:
         labels=p['name'].split(' / ')
         profiles[p['id']]['name']=labels[0]
@@ -75,9 +75,14 @@ for entry in json.loads((OUT/'directory.json').read_text(encoding='utf-8')):
     app=app.replace("state.studyMode === 'map' ? visibleAt(p) : chapterPlaceVisible(p)",'chapterPlaceVisible(p)')
     # Use Isaiah's existing inline entity controls and return navigation for the new profiles.
     start=app.index('  const candidates = eligibleWords(v);',app.index('function renderVerse'))
-    end=app.index('\n',start);app=app[:start]+'  const text = linkedEntityHtml(v.text);'+app[end:]
+    end=app.index('\n',start);app=app[:start]+'  const text = linkedEntityHtml(v.text, {verse:v.verse});'+app[end:]
     app=app.replace("${esc(p.summary)}${cite(ids)}", "${linkedEntityHtml(p.summary)}${cite(ids)}")
     app=app.replace('for (const [id, person] of Object.entries(people)) {','for (const [id, person] of Object.entries(people)) {\n    if (!person.chapterIds.includes(state.chapter)) continue;')
+    app=app.replace('function entityLinkTerms() {','function entityLinkTerms(verse = null) {')
+    app=app.replace('entityLinkCache.chapter === state.chapter && entityLinkCache.terms.length','entityLinkCache.chapter === state.chapter && entityLinkCache.verse === verse && entityLinkCache.terms.length')
+    app=app.replace('entityLinkCache = {chapter:state.chapter, terms:','entityLinkCache = {chapter:state.chapter, verse, terms:')
+    app=app.replace('const terms = entityLinkTerms().filter(', 'const terms = entityLinkTerms(options.verse ?? null).filter(')
+    app=app.replace("for (const label of [person.name, ...(person.linkNames || [])]) add(label, 'person', id, person.name);", "const scope = person.verseScope?.[state.chapter];\n    if (verse != null && scope && !scope.includes(verse)) continue;\n    const aliases = verse == null && scope ? [] : (person.linkNames || []);\n    for (const label of [person.name, ...aliases]) add(label, 'person', id, person.name);")
     app=app.replace('const start = match.index, end = start + match[0].length;',"const start = match.index, end = start + match[0].length;\n    if (/Tubal[ -]$/i.test(text.slice(0,start))) continue;")
     (D/f'book-{slug}-app.js').write_text(app,encoding='utf-8')
     print(f'Adapted {name} to Isaiah UI.')
@@ -85,6 +90,6 @@ html=(D/'index.html').read_text(encoding='utf-8')
 html=re.sub(r'  <meta (?:property="og:[^\n]+|name="twitter:[^\n]+)\n','',html)
 html=re.sub(r'  <link rel="canonical"[^\n]+\n','',html)
 html=html.replace('<title>Isaiah Study Guide</title>','<title>Bible Study Guide</title>').replace('<b>ISAIAH<small>STUDY GUIDE</small></b>','<b id="bookBrand">BIBLE<small>STUDY GUIDE</small></b>')
-html=html.replace('app.js?v=20261004.1','native-book.js?v=20261005.2').replace('styles.css?v=20261004.1','styles.css?v=20261005.1')
+html=html.replace('app.js?v=20261004.1','native-book.js?v=20261005.3').replace('styles.css?v=20261004.1','styles.css?v=20261005.1')
 html=html.replace('<span class="map-label label-assyria">ASSYRIA</span><span class="map-label label-judah">JUDAH</span>','')
 (D/'book.html').write_text(html,encoding='utf-8')

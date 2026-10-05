@@ -1590,13 +1590,13 @@
         "web",
         "atlas"
       ],
-      "detail": "The marker shows a broad locality or traditional identification. It does not verify occupation dates, an event, or precise tribal boundaries.",
-      "uncertainty": "The marker shows a broad locality or traditional identification. It does not verify occupation dates, an event, or precise tribal boundaries.",
+      "detail": "Egypt / Nile valley. The marker shows a broad locality or traditional identification. It does not verify occupation dates, an event, or precise tribal boundaries.",
+      "uncertainty": "Egypt / Nile valley. The marker shows a broad locality or traditional identification. It does not verify occupation dates, an event, or precise tribal boundaries.",
       "chapterLocation": true
     },
     {
       "id": "canaan",
-      "name": "Canaan · broad region",
+      "name": "Canaan",
       "lat": 31.7,
       "lng": 35.1,
       "summary": "Named geographical reference in Joshua.",
@@ -1605,8 +1605,8 @@
         "web",
         "atlas-canaan"
       ],
-      "detail": "The marker shows a broad locality or traditional identification. It does not verify occupation dates, an event, or precise tribal boundaries.",
-      "uncertainty": "The marker shows a broad locality or traditional identification. It does not verify occupation dates, an event, or precise tribal boundaries.",
+      "detail": "Canaan · broad region. The marker shows a broad locality or traditional identification. It does not verify occupation dates, an event, or precise tribal boundaries.",
+      "uncertainty": "Canaan · broad region. The marker shows a broad locality or traditional identification. It does not verify occupation dates, an event, or precise tribal boundaries.",
       "chapterLocation": true
     },
     {
@@ -1620,13 +1620,13 @@
         "web",
         "atlas-canaan"
       ],
-      "detail": "The marker shows a broad locality or traditional identification. It does not verify occupation dates, an event, or precise tribal boundaries.",
-      "uncertainty": "The marker shows a broad locality or traditional identification. It does not verify occupation dates, an event, or precise tribal boundaries.",
+      "detail": "Hebron. The marker shows a broad locality or traditional identification. It does not verify occupation dates, an event, or precise tribal boundaries.",
+      "uncertainty": "Hebron. The marker shows a broad locality or traditional identification. It does not verify occupation dates, an event, or precise tribal boundaries.",
       "chapterLocation": true
     },
     {
       "id": "heshbon",
-      "name": "Heshbon · proposed locality",
+      "name": "Heshbon",
       "lat": 31.8,
       "lng": 35.81,
       "summary": "Named geographical reference in Joshua.",
@@ -1635,13 +1635,13 @@
         "web",
         "atlas-exodus"
       ],
-      "detail": "The marker shows a broad locality or traditional identification. It does not verify occupation dates, an event, or precise tribal boundaries.",
-      "uncertainty": "The marker shows a broad locality or traditional identification. It does not verify occupation dates, an event, or precise tribal boundaries.",
+      "detail": "Heshbon · proposed locality. The marker shows a broad locality or traditional identification. It does not verify occupation dates, an event, or precise tribal boundaries.",
+      "uncertainty": "Heshbon · proposed locality. The marker shows a broad locality or traditional identification. It does not verify occupation dates, an event, or precise tribal boundaries.",
       "chapterLocation": true
     },
     {
       "id": "bashan",
-      "name": "Bashan · broad region",
+      "name": "Bashan",
       "lat": 32.65,
       "lng": 36.1,
       "summary": "Named geographical reference in Joshua.",
@@ -1650,13 +1650,13 @@
         "web",
         "atlas"
       ],
-      "detail": "The marker shows a broad locality or traditional identification. It does not verify occupation dates, an event, or precise tribal boundaries.",
-      "uncertainty": "The marker shows a broad locality or traditional identification. It does not verify occupation dates, an event, or precise tribal boundaries.",
+      "detail": "Bashan · broad region. The marker shows a broad locality or traditional identification. It does not verify occupation dates, an event, or precise tribal boundaries.",
+      "uncertainty": "Bashan · broad region. The marker shows a broad locality or traditional identification. It does not verify occupation dates, an event, or precise tribal boundaries.",
       "chapterLocation": true
     },
     {
       "id": "gilead",
-      "name": "Gilead · broad region",
+      "name": "Gilead",
       "lat": 32.1,
       "lng": 35.8,
       "summary": "Named geographical reference in Joshua.",
@@ -1665,8 +1665,8 @@
         "web",
         "atlas"
       ],
-      "detail": "The marker shows a broad locality or traditional identification. It does not verify occupation dates, an event, or precise tribal boundaries.",
-      "uncertainty": "The marker shows a broad locality or traditional identification. It does not verify occupation dates, an event, or precise tribal boundaries.",
+      "detail": "Gilead · broad region. The marker shows a broad locality or traditional identification. It does not verify occupation dates, an event, or precise tribal boundaries.",
+      "uncertainty": "Gilead · broad region. The marker shows a broad locality or traditional identification. It does not verify occupation dates, an event, or precise tribal boundaries.",
       "chapterLocation": true
     },
     {
@@ -1680,8 +1680,8 @@
         "web",
         "atlas-canaan"
       ],
-      "detail": "The marker shows a broad locality or traditional identification. It does not verify occupation dates, an event, or precise tribal boundaries.",
-      "uncertainty": "The marker shows a broad locality or traditional identification. It does not verify occupation dates, an event, or precise tribal boundaries.",
+      "detail": "Mount Gerizim. The marker shows a broad locality or traditional identification. It does not verify occupation dates, an event, or precise tribal boundaries.",
+      "uncertainty": "Mount Gerizim. The marker shows a broad locality or traditional identification. It does not verify occupation dates, an event, or precise tribal boundaries.",
       "chapterLocation": true
     },
     {
@@ -1695,13 +1695,13 @@
         "web",
         "atlas-canaan"
       ],
-      "detail": "The marker shows a broad locality or traditional identification. It does not verify occupation dates, an event, or precise tribal boundaries.",
-      "uncertainty": "The marker shows a broad locality or traditional identification. It does not verify occupation dates, an event, or precise tribal boundaries.",
+      "detail": "Mount Ebal. The marker shows a broad locality or traditional identification. It does not verify occupation dates, an event, or precise tribal boundaries.",
+      "uncertainty": "Mount Ebal. The marker shows a broad locality or traditional identification. It does not verify occupation dates, an event, or precise tribal boundaries.",
       "chapterLocation": true
     },
     {
       "id": "shittim",
-      "name": "Shittim · proposed region",
+      "name": "Shittim",
       "lat": 31.86,
       "lng": 35.7,
       "summary": "Named locality or region in Joshua.",
@@ -1710,13 +1710,13 @@
         "web",
         "atlas-canaan"
       ],
-      "detail": "The precise camp location is uncertain.",
-      "uncertainty": "The precise camp location is uncertain.",
+      "detail": "Shittim · proposed region. The precise camp location is uncertain.",
+      "uncertainty": "Shittim · proposed region. The precise camp location is uncertain.",
       "chapterLocation": true
     },
     {
       "id": "jordan",
-      "name": "Jordan · crossing region",
+      "name": "Jordan",
       "lat": 31.86,
       "lng": 35.55,
       "summary": "Named locality or region in Joshua.",
@@ -1725,13 +1725,13 @@
         "web",
         "atlas-canaan"
       ],
-      "detail": "This shows a river region, not an identified ancient ford.",
-      "uncertainty": "This shows a river region, not an identified ancient ford.",
+      "detail": "Jordan · crossing region. This shows a river region, not an identified ancient ford.",
+      "uncertainty": "Jordan · crossing region. This shows a river region, not an identified ancient ford.",
       "chapterLocation": true
     },
     {
       "id": "gilgal",
-      "name": "Gilgal · approximate region",
+      "name": "Gilgal",
       "lat": 31.86,
       "lng": 35.5,
       "summary": "Named locality or region in Joshua.",
@@ -1740,13 +1740,13 @@
         "web",
         "atlas-canaan"
       ],
-      "detail": "The camp’s precise identification is uncertain.",
-      "uncertainty": "The camp’s precise identification is uncertain.",
+      "detail": "Gilgal · approximate region. The camp’s precise identification is uncertain.",
+      "uncertainty": "Gilgal · approximate region. The camp’s precise identification is uncertain.",
       "chapterLocation": true
     },
     {
       "id": "jericho",
-      "name": "Jericho · Tell es-Sultan",
+      "name": "Jericho",
       "lat": 31.871,
       "lng": 35.444,
       "summary": "Named locality or region in Joshua.",
@@ -1755,13 +1755,13 @@
         "web",
         "atlas-canaan"
       ],
-      "detail": "The site marker does not establish the date or cause of the narrated destruction.",
-      "uncertainty": "The site marker does not establish the date or cause of the narrated destruction.",
+      "detail": "Jericho · Tell es-Sultan. The site marker does not establish the date or cause of the narrated destruction.",
+      "uncertainty": "Jericho · Tell es-Sultan. The site marker does not establish the date or cause of the narrated destruction.",
       "chapterLocation": true
     },
     {
       "id": "ai",
-      "name": "Ai · traditional et-Tell identification",
+      "name": "Ai",
       "lat": 31.916,
       "lng": 35.26,
       "summary": "Named locality or region in Joshua.",
@@ -1770,13 +1770,13 @@
         "web",
         "atlas-canaan"
       ],
-      "detail": "The identification and conquest chronology are disputed.",
-      "uncertainty": "The identification and conquest chronology are disputed.",
+      "detail": "Ai · traditional et-Tell identification. The identification and conquest chronology are disputed.",
+      "uncertainty": "Ai · traditional et-Tell identification. The identification and conquest chronology are disputed.",
       "chapterLocation": true
     },
     {
       "id": "bethel",
-      "name": "Bethel · traditional Beitin locality",
+      "name": "Bethel",
       "lat": 31.93,
       "lng": 35.22,
       "summary": "Named locality or region in Joshua.",
@@ -1785,13 +1785,13 @@
         "web",
         "atlas-canaan"
       ],
-      "detail": "The marker is a traditional locality, not an event verification.",
-      "uncertainty": "The marker is a traditional locality, not an event verification.",
+      "detail": "Bethel · traditional Beitin locality. The marker is a traditional locality, not an event verification.",
+      "uncertainty": "Bethel · traditional Beitin locality. The marker is a traditional locality, not an event verification.",
       "chapterLocation": true
     },
     {
       "id": "gibeon",
-      "name": "Gibeon · el-Jib locality",
+      "name": "Gibeon",
       "lat": 31.847,
       "lng": 35.183,
       "summary": "Named locality or region in Joshua.",
@@ -1800,8 +1800,8 @@
         "web",
         "atlas-canaan"
       ],
-      "detail": "The location does not identify a precise battle site.",
-      "uncertainty": "The location does not identify a precise battle site.",
+      "detail": "Gibeon · el-Jib locality. The location does not identify a precise battle site.",
+      "uncertainty": "Gibeon · el-Jib locality. The location does not identify a precise battle site.",
       "chapterLocation": true
     },
     {
@@ -1815,13 +1815,13 @@
         "web",
         "atlas-canaan"
       ],
-      "detail": "The marker does not identify a particular king or campaign.",
-      "uncertainty": "The marker does not identify a particular king or campaign.",
+      "detail": "Jerusalem. The marker does not identify a particular king or campaign.",
+      "uncertainty": "Jerusalem. The marker does not identify a particular king or campaign.",
       "chapterLocation": true
     },
     {
       "id": "jarmuth",
-      "name": "Jarmuth · Tel Yarmut locality",
+      "name": "Jarmuth",
       "lat": 31.708,
       "lng": 34.975,
       "summary": "Named locality or region in Joshua.",
@@ -1830,13 +1830,13 @@
         "web",
         "atlas-canaan"
       ],
-      "detail": "The marker shows the traditional site, not a verified king’s residence.",
-      "uncertainty": "The marker shows the traditional site, not a verified king’s residence.",
+      "detail": "Jarmuth · Tel Yarmut locality. The marker shows the traditional site, not a verified king’s residence.",
+      "uncertainty": "Jarmuth · Tel Yarmut locality. The marker shows the traditional site, not a verified king’s residence.",
       "chapterLocation": true
     },
     {
       "id": "lachish",
-      "name": "Lachish · Tel Lachish",
+      "name": "Lachish",
       "lat": 31.565,
       "lng": 34.849,
       "summary": "Named locality or region in Joshua.",
@@ -1845,13 +1845,13 @@
         "web",
         "atlas-canaan"
       ],
-      "detail": "The site has a long history. Its presence does not verify Joshua’s campaign.",
-      "uncertainty": "The site has a long history. Its presence does not verify Joshua’s campaign.",
+      "detail": "Lachish · Tel Lachish. The site has a long history. Its presence does not verify Joshua’s campaign.",
+      "uncertainty": "Lachish · Tel Lachish. The site has a long history. Its presence does not verify Joshua’s campaign.",
       "chapterLocation": true
     },
     {
       "id": "beth-horon",
-      "name": "Beth-horon · pass region",
+      "name": "Beth-horon",
       "lat": 31.89,
       "lng": 35.125,
       "summary": "Named locality or region in Joshua.",
@@ -1860,13 +1860,13 @@
         "web",
         "atlas-canaan"
       ],
-      "detail": "This shows the pass region, not an excavated campaign road.",
-      "uncertainty": "This shows the pass region, not an excavated campaign road.",
+      "detail": "Beth-horon · pass region. This shows the pass region, not an excavated campaign road.",
+      "uncertainty": "Beth-horon · pass region. This shows the pass region, not an excavated campaign road.",
       "chapterLocation": true
     },
     {
       "id": "azekah",
-      "name": "Azekah · traditional locality",
+      "name": "Azekah",
       "lat": 31.699,
       "lng": 34.936,
       "summary": "Named locality or region in Joshua.",
@@ -1875,13 +1875,13 @@
         "web",
         "atlas-canaan"
       ],
-      "detail": "The marker does not identify the described pursuit route.",
-      "uncertainty": "The marker does not identify the described pursuit route.",
+      "detail": "Azekah · traditional locality. The marker does not identify the described pursuit route.",
+      "uncertainty": "Azekah · traditional locality. The marker does not identify the described pursuit route.",
       "chapterLocation": true
     },
     {
       "id": "hazor",
-      "name": "Hazor · excavated site",
+      "name": "Hazor",
       "lat": 33.017,
       "lng": 35.569,
       "summary": "Named locality or region in Joshua.",
@@ -1891,13 +1891,13 @@
         "atlas-canaan",
         "hazor-project"
       ],
-      "detail": "Excavated fire deposits do not identify Joshua as their cause.",
-      "uncertainty": "Excavated fire deposits do not identify Joshua as their cause.",
+      "detail": "Hazor · excavated site. Excavated fire deposits do not identify Joshua as their cause.",
+      "uncertainty": "Hazor · excavated site. Excavated fire deposits do not identify Joshua as their cause.",
       "chapterLocation": true
     },
     {
       "id": "debir-town",
-      "name": "Debir · approximate southern region",
+      "name": "Debir",
       "lat": 31.42,
       "lng": 35.02,
       "summary": "Named locality or region in Joshua.",
@@ -1906,13 +1906,13 @@
         "web",
         "atlas-canaan"
       ],
-      "detail": "Competing site identifications remain. This regional marker is not a certain town location.",
-      "uncertainty": "Competing site identifications remain. This regional marker is not a certain town location.",
+      "detail": "Debir · approximate southern region. Competing site identifications remain. This regional marker is not a certain town location.",
+      "uncertainty": "Debir · approximate southern region. Competing site identifications remain. This regional marker is not a certain town location.",
       "chapterLocation": true
     },
     {
       "id": "gezer",
-      "name": "Gezer · traditional Tel Gezer",
+      "name": "Gezer",
       "lat": 31.86,
       "lng": 34.919,
       "summary": "Named locality or region in Joshua.",
@@ -1921,13 +1921,13 @@
         "web",
         "atlas-canaan"
       ],
-      "detail": "The marker does not establish the chronology of forced labor described in the chapter.",
-      "uncertainty": "The marker does not establish the chronology of forced labor described in the chapter.",
+      "detail": "Gezer · traditional Tel Gezer. The marker does not establish the chronology of forced labor described in the chapter.",
+      "uncertainty": "Gezer · traditional Tel Gezer. The marker does not establish the chronology of forced labor described in the chapter.",
       "chapterLocation": true
     },
     {
       "id": "shiloh",
-      "name": "Shiloh · traditional locality",
+      "name": "Shiloh",
       "lat": 32.055,
       "lng": 35.289,
       "summary": "Named locality or region in Joshua.",
@@ -1936,13 +1936,13 @@
         "web",
         "atlas-canaan"
       ],
-      "detail": "The marker does not independently date the assembly or sanctuary.",
-      "uncertainty": "The marker does not independently date the assembly or sanctuary.",
+      "detail": "Shiloh · traditional locality. The marker does not independently date the assembly or sanctuary.",
+      "uncertainty": "Shiloh · traditional locality. The marker does not independently date the assembly or sanctuary.",
       "chapterLocation": true
     },
     {
       "id": "shechem",
-      "name": "Shechem · Tell Balata locality",
+      "name": "Shechem",
       "lat": 32.214,
       "lng": 35.282,
       "summary": "Named locality or region in Joshua.",
@@ -1951,13 +1951,13 @@
         "web",
         "atlas-canaan"
       ],
-      "detail": "The locality does not verify the covenant ceremony or Joseph’s burial.",
-      "uncertainty": "The locality does not verify the covenant ceremony or Joseph’s burial.",
+      "detail": "Shechem · Tell Balata locality. The locality does not verify the covenant ceremony or Joseph’s burial.",
+      "uncertainty": "Shechem · Tell Balata locality. The locality does not verify the covenant ceremony or Joseph’s burial.",
       "chapterLocation": true
     },
     {
       "id": "timnath-serah",
-      "name": "Timnath-serah · traditional region",
+      "name": "Timnath-serah",
       "lat": 32.117,
       "lng": 35.157,
       "summary": "Named locality or region in Joshua.",
@@ -1966,8 +1966,8 @@
         "web",
         "atlas-canaan"
       ],
-      "detail": "The identification is debated. The marker does not identify Joshua’s grave.",
-      "uncertainty": "The identification is debated. The marker does not identify Joshua’s grave.",
+      "detail": "Timnath-serah · traditional region. The identification is debated. The marker does not identify Joshua’s grave.",
+      "uncertainty": "Timnath-serah · traditional region. The identification is debated. The marker does not identify Joshua’s grave.",
       "chapterLocation": true
     }
   ],

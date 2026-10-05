@@ -80,8 +80,8 @@ document.addEventListener('scroll', hideSourceTooltip, true);
 window.addEventListener('resize', hideSourceTooltip);
 function eligibleWords(verse) { return data.words.filter(w => (w.chapter == null || Number(w.chapter) === state.chapter) && (!w.verses?.length || w.verses.includes(verse.verse))); }
 function matchWord(token, candidates) { const plain = token.replace(/^[^\p{L}\p{N}]+|[^\p{L}\p{N}]+$/gu, ''); return candidates.find(w => (w.matches || [w.label]).some(m => m.toLowerCase() === plain.toLowerCase())) || null; }
-function entityLinkTerms() {
-  if (entityLinkCache.chapter === state.chapter && entityLinkCache.terms.length) return entityLinkCache.terms;
+function entityLinkTerms(verse = null) {
+  if (entityLinkCache.chapter === state.chapter && entityLinkCache.verse === verse && entityLinkCache.terms.length) return entityLinkCache.terms;
   const terms = new Map();
   const add = (label, type, id, name = label) => {
     const clean = String(label || '').trim();
@@ -90,7 +90,10 @@ function entityLinkTerms() {
   };
   for (const [id, person] of Object.entries(people)) {
     if (!person.chapterIds.includes(state.chapter)) continue;
-    for (const label of [person.name, ...(person.linkNames || [])]) add(label, 'person', id, person.name);
+    const scope = person.verseScope?.[state.chapter];
+    if (verse != null && scope && !scope.includes(verse)) continue;
+    const aliases = verse == null && scope ? [] : (person.linkNames || []);
+    for (const label of [person.name, ...aliases]) add(label, 'person', id, person.name);
   }
   for (const feature of [...data.places, ...data.regions, ...data.campaigns, ...data.events, ...data.ancientRoads]) {
     const name = mapDisplayName(feature.name || feature.title || '');
@@ -98,14 +101,14 @@ function entityLinkTerms() {
   }
   const words = data.words.filter(word => Number(word.chapter) === state.chapter);
   for (const word of words) for (const label of [word.label, ...(word.matches || [])]) add(label, 'word', word.id, word.label);
-  entityLinkCache = {chapter:state.chapter, terms:[...terms.values()].sort((a, b) => b.label.length - a.label.length)};
+  entityLinkCache = {chapter:state.chapter, verse, terms:[...terms.values()].sort((a, b) => b.label.length - a.label.length)};
   return entityLinkCache.terms;
 }
 function linkedEntityHtml(text = '', options = {}) {
   const excluded = new Set();
   const person = people[options.excludePersonId];
   if (person) for (const label of [person.name, ...(person.linkNames || [])]) excluded.add(label.toLowerCase());
-  const terms = entityLinkTerms().filter(term => !excluded.has(term.label.toLowerCase()) && !(term.type === options.excludeType && term.id === options.excludeId));
+  const terms = entityLinkTerms(options.verse ?? null).filter(term => !excluded.has(term.label.toLowerCase()) && !(term.type === options.excludeType && term.id === options.excludeId));
   if (!terms.length) return esc(text);
   const byLabel = new Map(terms.map(term => [term.label.toLowerCase(), term]));
   const pattern = new RegExp(terms.map(term => term.label.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|'), 'giu');
@@ -433,7 +436,7 @@ function passageInterpretationHtml() {
   return `<section class="passage-interpretation"><h3>LDS reading</h3><p class="translation">${p ? `Exodus ${esc(String(p.chapter))}:${esc(String(p.start))}–${esc(String(p.end))} · ${esc(p.title || '')}` : `Exodus ${state.chapter}`}</p><div class="passage-prose"><p>${esc(p?.lds?.text || 'This passage has no LDS study note yet.')}${cite(p?.lds?.sourceIds)}</p>${sourceInsightsHtml(p?.lds?.sourceIds)}</div></section>`;
 }
 function renderVerse(v, prefix = 'side') {
-  const text = linkedEntityHtml(v.text);
+  const text = linkedEntityHtml(v.text, {verse:v.verse});
   const passage = data.passages.find(p => p.chapter === state.chapter && p.start === v.verse);
   const refs = passage ? [...(passage.sourceIds || []), ...(state.perspective === 'lds' ? passage.lds?.sourceIds || [] : [])] : [];
   const citations = passage ? passageFootnotes(passage)(refs) : '';

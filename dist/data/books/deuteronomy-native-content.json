@@ -2209,8 +2209,8 @@
         "web",
         "atlas"
       ],
-      "detail": "This regional marker does not identify Joseph's palace or Pharaoh.",
-      "uncertainty": "This regional marker does not identify Joseph's palace or Pharaoh.",
+      "detail": "Egypt / Nile valley. This regional marker does not identify Joseph's palace or Pharaoh.",
+      "uncertainty": "Egypt / Nile valley. This regional marker does not identify Joseph's palace or Pharaoh.",
       "chapterLocation": true
     },
     {
@@ -2224,13 +2224,13 @@
         "web",
         "atlas-exodus"
       ],
-      "detail": "The mountain’s identity is disputed. This marker is not a verified site.",
-      "uncertainty": "The mountain’s identity is disputed. This marker is not a verified site.",
+      "detail": "Sinai / traditional region. The mountain’s identity is disputed. This marker is not a verified site.",
+      "uncertainty": "Sinai / traditional region. The mountain’s identity is disputed. This marker is not a verified site.",
       "chapterLocation": true
     },
     {
       "id": "kadesh",
-      "name": "Kadesh-barnea · proposed region",
+      "name": "Kadesh-barnea",
       "lat": 30.65,
       "lng": 34.43,
       "summary": "The narrative uses Kadesh as a base near Canaan.",
@@ -2239,13 +2239,13 @@
         "web",
         "atlas-exodus"
       ],
-      "detail": "The marker indicates the traditional Ain el-Qudeirat region. It does not verify a wilderness camp.",
-      "uncertainty": "The marker indicates the traditional Ain el-Qudeirat region. It does not verify a wilderness camp.",
+      "detail": "Kadesh-barnea · proposed region. The marker indicates the traditional Ain el-Qudeirat region. It does not verify a wilderness camp.",
+      "uncertainty": "Kadesh-barnea · proposed region. The marker indicates the traditional Ain el-Qudeirat region. It does not verify a wilderness camp.",
       "chapterLocation": true
     },
     {
       "id": "canaan",
-      "name": "Canaan · broad region",
+      "name": "Canaan",
       "lat": 31.7,
       "lng": 35.1,
       "summary": "The scouts inspect the land that Israel expects to enter.",
@@ -2254,8 +2254,8 @@
         "web",
         "atlas-canaan"
       ],
-      "detail": "This marker represents a broad region, not a precise border or campsite.",
-      "uncertainty": "This marker represents a broad region, not a precise border or campsite.",
+      "detail": "Canaan · broad region. This marker represents a broad region, not a precise border or campsite.",
+      "uncertainty": "Canaan · broad region. This marker represents a broad region, not a precise border or campsite.",
       "chapterLocation": true
     },
     {
@@ -2269,13 +2269,13 @@
         "web",
         "atlas-canaan"
       ],
-      "detail": "The modern city indicates the general locality. The marker does not verify the scouts’ visit.",
-      "uncertainty": "The modern city indicates the general locality. The marker does not verify the scouts’ visit.",
+      "detail": "Hebron. The modern city indicates the general locality. The marker does not verify the scouts’ visit.",
+      "uncertainty": "Hebron. The modern city indicates the general locality. The marker does not verify the scouts’ visit.",
       "chapterLocation": true
     },
     {
       "id": "edom",
-      "name": "Edom · broad region",
+      "name": "Edom",
       "lat": 30.75,
       "lng": 35.5,
       "summary": "Edom refuses Israel permission to pass through its territory.",
@@ -2284,13 +2284,13 @@
         "web",
         "atlas-exodus"
       ],
-      "detail": "The marker represents a region. It does not identify a king’s residence or exact border.",
-      "uncertainty": "The marker represents a region. It does not identify a king’s residence or exact border.",
+      "detail": "Edom · broad region. The marker represents a region. It does not identify a king’s residence or exact border.",
+      "uncertainty": "Edom · broad region. The marker represents a region. It does not identify a king’s residence or exact border.",
       "chapterLocation": true
     },
     {
       "id": "moab",
-      "name": "Plains of Moab · approximate region",
+      "name": "Plains of Moab",
       "lat": 31.85,
       "lng": 35.65,
       "summary": "Israel camps east of the Jordan opposite Jericho.",
@@ -2299,13 +2299,13 @@
         "web",
         "atlas-exodus"
       ],
-      "detail": "This is a regional display point. The camp and Balaam’s vantage points are not securely located.",
-      "uncertainty": "This is a regional display point. The camp and Balaam’s vantage points are not securely located.",
+      "detail": "Plains of Moab · approximate region. This is a regional display point. The camp and Balaam’s vantage points are not securely located.",
+      "uncertainty": "Plains of Moab · approximate region. This is a regional display point. The camp and Balaam’s vantage points are not securely located.",
       "chapterLocation": true
     },
     {
       "id": "heshbon",
-      "name": "Heshbon · proposed locality",
+      "name": "Heshbon",
       "lat": 31.8,
       "lng": 35.81,
       "summary": "The text associates Heshbon with Sihon’s rule.",
@@ -2314,13 +2314,13 @@
         "web",
         "atlas-exodus"
       ],
-      "detail": "Tall Hisban is a traditional identification. Its remains do not independently establish Sihon’s reign.",
-      "uncertainty": "Tall Hisban is a traditional identification. Its remains do not independently establish Sihon’s reign.",
+      "detail": "Heshbon · proposed locality. Tall Hisban is a traditional identification. Its remains do not independently establish Sihon’s reign.",
+      "uncertainty": "Heshbon · proposed locality. Tall Hisban is a traditional identification. Its remains do not independently establish Sihon’s reign.",
       "chapterLocation": true
     },
     {
       "id": "bashan",
-      "name": "Bashan · broad region",
+      "name": "Bashan",
       "lat": 32.65,
       "lng": 36.1,
       "summary": "The account describes conflict with Og in Bashan.",
@@ -2329,13 +2329,13 @@
         "web",
         "atlas"
       ],
-      "detail": "The marker indicates a broad region, not a verified battle site or capital.",
-      "uncertainty": "The marker indicates a broad region, not a verified battle site or capital.",
+      "detail": "Bashan · broad region. The marker indicates a broad region, not a verified battle site or capital.",
+      "uncertainty": "Bashan · broad region. The marker indicates a broad region, not a verified battle site or capital.",
       "chapterLocation": true
     },
     {
       "id": "gilead",
-      "name": "Gilead · broad region",
+      "name": "Gilead",
       "lat": 32.1,
       "lng": 35.8,
       "summary": "Eastern tribes request settlements in this region.",
@@ -2344,13 +2344,13 @@
         "web",
         "atlas"
       ],
-      "detail": "The point represents a region. It does not establish ancient settlement boundaries.",
-      "uncertainty": "The point represents a region. It does not establish ancient settlement boundaries.",
+      "detail": "Gilead · broad region. The point represents a region. It does not establish ancient settlement boundaries.",
+      "uncertainty": "Gilead · broad region. The point represents a region. It does not establish ancient settlement boundaries.",
       "chapterLocation": true
     },
     {
       "id": "nebo",
-      "name": "Mount Nebo · traditional identification",
+      "name": "Mount Nebo",
       "lat": 31.768,
       "lng": 35.726,
       "summary": "Deuteronomy 34 names Nebo as Moses’s viewing place.",
@@ -2359,8 +2359,8 @@
         "web",
         "atlas-exodus"
       ],
-      "detail": "The marker shows the traditional Nebo locality. It does not identify Moses’s grave or prove the narrated event.",
-      "uncertainty": "The marker shows the traditional Nebo locality. It does not identify Moses’s grave or prove the narrated event.",
+      "detail": "Mount Nebo · traditional identification. The marker shows the traditional Nebo locality. It does not identify Moses’s grave or prove the narrated event.",
+      "uncertainty": "Mount Nebo · traditional identification. The marker shows the traditional Nebo locality. It does not identify Moses’s grave or prove the narrated event.",
       "chapterLocation": true
     },
     {
@@ -2374,8 +2374,8 @@
         "web",
         "atlas-canaan"
       ],
-      "detail": "This is a geographical reference. Deuteronomy plans the ceremony but does not narrate its completion.",
-      "uncertainty": "This is a geographical reference. Deuteronomy plans the ceremony but does not narrate its completion.",
+      "detail": "Mount Gerizim. This is a geographical reference. Deuteronomy plans the ceremony but does not narrate its completion.",
+      "uncertainty": "Mount Gerizim. This is a geographical reference. Deuteronomy plans the ceremony but does not narrate its completion.",
       "chapterLocation": true
     },
     {
@@ -2389,8 +2389,8 @@
         "web",
         "atlas-canaan"
       ],
-      "detail": "This is a geographical reference. It does not establish the date or archaeological identity of the commanded altar.",
-      "uncertainty": "This is a geographical reference. It does not establish the date or archaeological identity of the commanded altar.",
+      "detail": "Mount Ebal. This is a geographical reference. It does not establish the date or archaeological identity of the commanded altar.",
+      "uncertainty": "Mount Ebal. This is a geographical reference. It does not establish the date or archaeological identity of the commanded altar.",
       "chapterLocation": true
     }
   ],

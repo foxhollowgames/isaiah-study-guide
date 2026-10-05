@@ -403,7 +403,7 @@
   "places": [
     {
       "id": "moab",
-      "name": "Moab · broad region",
+      "name": "Moab",
       "lat": 31.5,
       "lng": 35.75,
       "summary": "The household’s destination during famine. Naomi and Ruth later leave this region.",
@@ -412,8 +412,8 @@
         "web",
         "atlas-canaan"
       ],
-      "detail": "Regional marker only. The family’s home and the journey’s exact path are unknown.",
-      "uncertainty": "Regional marker only. The family’s home and the journey’s exact path are unknown.",
+      "detail": "Moab · broad region. Regional marker only. The family’s home and the journey’s exact path are unknown.",
+      "uncertainty": "Moab · broad region. Regional marker only. The family’s home and the journey’s exact path are unknown.",
       "chapterLocation": true
     },
     {
@@ -427,8 +427,8 @@
         "web",
         "atlas-canaan"
       ],
-      "detail": "Town locality only. Boaz’s field, threshing floor, and gate are not securely identified.",
-      "uncertainty": "Town locality only. Boaz’s field, threshing floor, and gate are not securely identified.",
+      "detail": "Bethlehem. Town locality only. Boaz’s field, threshing floor, and gate are not securely identified.",
+      "uncertainty": "Bethlehem. Town locality only. Boaz’s field, threshing floor, and gate are not securely identified.",
       "chapterLocation": true
     }
   ],
