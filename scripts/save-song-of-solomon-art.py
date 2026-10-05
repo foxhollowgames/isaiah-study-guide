@@ -11,4 +11,3 @@ for pid,original in paths.items():
  item['originalPath']=original;item['reviewed']='2026-10-05: Generated composition inspected. Faces, anatomy, setting, and varied framing reviewed.'
 path.write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n',encoding='utf8')
 print('Saved',len(paths),'reviewed portraits.')
-

@@ -495,7 +495,7 @@
       "chapter": 1,
       "title": "The lovers speak and exchange praise",
       "summary": "The woman asks to meet her lover. She describes vineyard work that her brothers forced upon her.",
-      "meaning": "She calls herself lovely despite the sun darkening her skin. She answers those who stare instead of accepting their judgment.",
+      "meaning": "The woman calls herself lovely and answers those who stare. Data Over Dogma reads her sun-darkened skin as a sign of hard outdoor work.",
       "people": [
         "woman-song",
         "lover-song",
@@ -510,7 +510,8 @@
       ],
       "sourceIds": [
         "web",
-        "fishbane-song-excerpt"
+        "fishbane-song-excerpt",
+        "mcclellan-song"
       ],
       "lds": {
         "text": "The Church’s Bible Dictionary reports the JST: “the Songs of Solomon are not inspired writings.” How does the woman answer those who stare at her skin?",
@@ -520,7 +521,7 @@
       },
       "eventOrder": 1,
       "dateLabel": "Poem order",
-      "historicalNote": "She calls herself lovely despite the sun darkening her skin. She answers those who stare instead of accepting their judgment.",
+      "historicalNote": "The woman calls herself lovely and answers those who stare. Data Over Dogma reads her sun-darkened skin as a sign of hard outdoor work.",
       "mapNote": "The map locates named comparisons and groups. It does not trace the lovers’ movements.",
       "route": [],
       "routeEvidence": "No continuous journey or event date is reconstructed."
@@ -623,7 +624,7 @@
       "chapter": 5,
       "title": "A missed visit and a harmful search",
       "summary": "The woman opens too late for her lover. Watchmen beat her and take her cloak during her search.",
-      "meaning": "Her search brings harm rather than help from city guards. She still asks the women to find her friend.",
+      "meaning": "Her search brings harm rather than help from city guards. She still asks the women to find her friend. Data Over Dogma explains that lovers can call each other siblings. These words do not establish a brother-sister relationship.",
       "people": [
         "woman-song",
         "lover-song",
@@ -636,7 +637,8 @@
       ],
       "sourceIds": [
         "web",
-        "fishbane-song-excerpt"
+        "fishbane-song-excerpt",
+        "mcclellan-song"
       ],
       "lds": {
         "text": "How do the watchmen’s actions change the woman’s search from chapter 3?",
@@ -644,7 +646,7 @@
       },
       "eventOrder": 5,
       "dateLabel": "Poem order",
-      "historicalNote": "Her search brings harm rather than help from city guards. She still asks the women to find her friend.",
+      "historicalNote": "Her search brings harm rather than help from city guards. She still asks the women to find her friend. Data Over Dogma explains that lovers can call each other siblings. These words do not establish a brother-sister relationship.",
       "mapNote": "The map locates named comparisons and groups. It does not trace the lovers’ movements.",
       "route": [],
       "routeEvidence": "No continuous journey or event date is reconstructed."
@@ -1208,6 +1210,26 @@
       "reviewed": {
         "date": "2026-10-05",
         "scope": "Complete publisher-posted introductory excerpt reviewed. Its discussion supplies general context, not verse-by-verse commentary."
+      }
+    },
+    {
+      "id": "mcclellan-song",
+      "title": "We're Finally Talking About the Song of Songs · Data Over Dogma",
+      "url": "https://www.youtube.com/watch?v=cpjN3nRKE4s",
+      "summary": "The hosts discuss the woman’s outdoor work and lovers’ use of sibling terms.",
+      "category": "McClellan commentary",
+      "perspective": "historical",
+      "limits": "Captions lack reliable speaker labels and may contain errors. Audio and the rest of the episode were not reviewed. Notes attribute the discussion to Data Over Dogma. No caption wording is quoted. The outdoor-work reading is an interpretation, not proof of the woman’s identity. The Egyptian poem’s edition was not independently verified.",
+      "author": "Dan McClellan · Dan Beecher",
+      "year": null,
+      "publisher": "Data Over Dogma",
+      "chapterCoverage": [
+        1,
+        5
+      ],
+      "reviewed": {
+        "date": "2026-10-05",
+        "scope": "Original YouTube auto-generated captions reviewed from 2:00 through 19:43. The opening names both hosts. Relevant discussion concerns authorship, chapter 1:5–6, and sibling terms in chapter 5."
       }
     },
     {

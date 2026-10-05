@@ -6,7 +6,7 @@ Eight original summaries explain the scenes. Meaning notes explain specific choi
 
 The full publisher-posted Michael Fishbane introductory excerpt was reviewed. Its account concerns love poetry and later religious readings. No unread verse commentary is claimed. The full Church Bible Dictionary entry was reviewed. Wikipedia opening, structure, bibliography, revision 1374761180, and license were reviewed. The Eerdmans record verifies the cited Kugler and Hartin book. Its text was not read.
 
-No relevant original McClellan source was verified. No quotation or claim was invented to fill that category. Come, Follow Me is not claimed for these chapters.
+The original Data Over Dogma episode “We're Finally Talking About the Song of Songs” was verified through its YouTube captions. Captions from 2:00–19:43 were read. Chapter 1 uses its outdoor-work reading. Chapter 5 explains the lovers’ sibling terms. Captions have no reliable speaker labels, so notes name the program rather than assign individual speech. Audio, the rest of the episode, and the Egyptian poem’s edition were not reviewed. No caption quotation is used. Come, Follow Me is not claimed for these chapters.
 
 The Church atlas and OpenBible.info book geography index were reviewed. Eleven markers locate references and comparisons. They do not reconstruct travel. Ancient sites with competing identifications retain source limits. Amana, Bether, Baal Hamon, and Bathrabbim have no separate secure markers. Kedar names a people rather than a fixed settlement in this comparison.
 

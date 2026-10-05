@@ -54,6 +54,29 @@
       "license": "Linked source. Original guide summaries."
     },
     {
+      "id": "mcclellan-song",
+      "title": "We're Finally Talking About the Song of Songs · Data Over Dogma",
+      "url": "https://www.youtube.com/watch?v=cpjN3nRKE4s",
+      "summary": "The hosts discuss the woman’s outdoor work and lovers’ use of sibling terms.",
+      "category": "McClellan commentary",
+      "perspective": "historical",
+      "limits": "Captions lack reliable speaker labels and may contain errors. Audio and the rest of the episode were not reviewed. Notes attribute the discussion to Data Over Dogma. No caption wording is quoted. The outdoor-work reading is an interpretation, not proof of the woman’s identity. The Egyptian poem’s edition was not independently verified.",
+      "author": "Dan McClellan · Dan Beecher",
+      "year": null,
+      "publisher": "Data Over Dogma",
+      "chapterCoverage": [
+        1,
+        5
+      ],
+      "reviewed": {
+        "date": "2026-10-05",
+        "scope": "Original YouTube auto-generated captions reviewed from 2:00 through 19:43. The opening names both hosts. Relevant discussion concerns authorship, chapter 1:5–6, and sibling terms in chapter 5."
+      },
+      "type": "McClellan commentary",
+      "limitations": "Captions lack reliable speaker labels and may contain errors. Audio and the rest of the episode were not reviewed. Notes attribute the discussion to Data Over Dogma. No caption wording is quoted. The outdoor-work reading is an interpretation, not proof of the woman’s identity. The Egyptian poem’s edition was not independently verified.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
       "id": "openbible-song-geo",
       "title": "Places in Song of Solomon · OpenBible.info",
       "url": "https://www.openbible.info/geo/preview/song",
@@ -149,7 +172,7 @@
       "start": 1,
       "end": 17,
       "title": "The lovers speak and exchange praise",
-      "summary": "The woman asks to meet her lover. She describes vineyard work that her brothers forced upon her. She calls herself lovely despite the sun darkening her skin. She answers those who stare instead of accepting their judgment.",
+      "summary": "The woman asks to meet her lover. She describes vineyard work that her brothers forced upon her. The woman calls herself lovely and answers those who stare. Data Over Dogma reads her sun-darkened skin as a sign of hard outdoor work.",
       "year": null,
       "dateLabel": "Poem order",
       "uncertainty": "The map locates named comparisons and groups. It does not trace the lovers’ movements.",
@@ -159,7 +182,8 @@
       ],
       "sourceIds": [
         "web",
-        "fishbane-song-excerpt"
+        "fishbane-song-excerpt",
+        "mcclellan-song"
       ],
       "lds": {
         "text": "The Church’s Bible Dictionary reports the JST: “the Songs of Solomon are not inspired writings.” How does the woman answer those who stare at her skin?",
@@ -244,7 +268,7 @@
       "start": 1,
       "end": 16,
       "title": "A missed visit and a harmful search",
-      "summary": "The woman opens too late for her lover. Watchmen beat her and take her cloak during her search. Her search brings harm rather than help from city guards. She still asks the women to find her friend.",
+      "summary": "The woman opens too late for her lover. Watchmen beat her and take her cloak during her search. Her search brings harm rather than help from city guards. She still asks the women to find her friend. Data Over Dogma explains that lovers can call each other siblings. These words do not establish a brother-sister relationship.",
       "year": null,
       "dateLabel": "Poem order",
       "uncertainty": "The map locates named comparisons and groups. It does not trace the lovers’ movements.",
@@ -254,7 +278,8 @@
       ],
       "sourceIds": [
         "web",
-        "fishbane-song-excerpt"
+        "fishbane-song-excerpt",
+        "mcclellan-song"
       ],
       "lds": {
         "text": "How do the watchmen’s actions change the woman’s search from chapter 3?",
@@ -342,12 +367,13 @@
       "eventOrder": 1,
       "title": "The lovers speak and exchange praise",
       "summary": "The woman asks to meet her lover. She describes vineyard work that her brothers forced upon her.",
-      "detail": "She calls herself lovely despite the sun darkening her skin. She answers those who stare instead of accepting their judgment.",
+      "detail": "The woman calls herself lovely and answers those who stare. Data Over Dogma reads her sun-darkened skin as a sign of hard outdoor work.",
       "dateLabel": "Poem order",
       "uncertainty": "The map locates named comparisons and groups. It does not trace the lovers’ movements.",
       "sourceIds": [
         "web",
-        "fishbane-song-excerpt"
+        "fishbane-song-excerpt",
+        "mcclellan-song"
       ],
       "placeIds": [
         "jerusalem",
@@ -437,12 +463,13 @@
       "eventOrder": 5,
       "title": "A missed visit and a harmful search",
       "summary": "The woman opens too late for her lover. Watchmen beat her and take her cloak during her search.",
-      "detail": "Her search brings harm rather than help from city guards. She still asks the women to find her friend.",
+      "detail": "Her search brings harm rather than help from city guards. She still asks the women to find her friend. Data Over Dogma explains that lovers can call each other siblings. These words do not establish a brother-sister relationship.",
       "dateLabel": "Poem order",
       "uncertainty": "The map locates named comparisons and groups. It does not trace the lovers’ movements.",
       "sourceIds": [
         "web",
-        "fishbane-song-excerpt"
+        "fishbane-song-excerpt",
+        "mcclellan-song"
       ],
       "placeIds": [
         "jerusalem",
@@ -705,22 +732,24 @@
       "steps": [
         {
           "title": "The lovers speak and exchange praise",
-          "text": "The woman asks to meet her lover. She describes vineyard work that her brothers forced upon her. She calls herself lovely despite the sun darkening her skin. She answers those who stare instead of accepting their judgment.",
+          "text": "The woman asks to meet her lover. She describes vineyard work that her brothers forced upon her. The woman calls herself lovely and answers those who stare. Data Over Dogma reads her sun-darkened skin as a sign of hard outdoor work.",
           "chapter": 1,
           "verse": 1,
           "sourceIds": [
             "web",
-            "fishbane-song-excerpt"
+            "fishbane-song-excerpt",
+            "mcclellan-song"
           ]
         },
         {
           "title": "A missed visit and a harmful search",
-          "text": "The woman opens too late for her lover. Watchmen beat her and take her cloak during her search. Her search brings harm rather than help from city guards. She still asks the women to find her friend.",
+          "text": "The woman opens too late for her lover. Watchmen beat her and take her cloak during her search. Her search brings harm rather than help from city guards. She still asks the women to find her friend. Data Over Dogma explains that lovers can call each other siblings. These words do not establish a brother-sister relationship.",
           "chapter": 5,
           "verse": 1,
           "sourceIds": [
             "web",
-            "fishbane-song-excerpt"
+            "fishbane-song-excerpt",
+            "mcclellan-song"
           ]
         },
         {
@@ -780,7 +809,8 @@
       "limits": "The map locates named comparisons and groups. It does not trace the lovers’ movements.",
       "sourceIds": [
         "web",
-        "fishbane-song-excerpt"
+        "fishbane-song-excerpt",
+        "mcclellan-song"
       ]
     },
     {
@@ -874,7 +904,8 @@
       "limits": "The map locates named comparisons and groups. It does not trace the lovers’ movements.",
       "sourceIds": [
         "web",
-        "fishbane-song-excerpt"
+        "fishbane-song-excerpt",
+        "mcclellan-song"
       ]
     },
     {
