@@ -4,9 +4,9 @@ import { initModalDragging } from './modal-drag.js';
 import { chapterFocus, chapterRoutes, chapterPoints, movementStyle } from './chapter-map.js';
 const $ = (s, root = document) => root.querySelector(s);
 const $$ = (s, root = document) => [...root.querySelectorAll(s)];
-const releaseVersion = '20261003.1';
+const releaseVersion = '20261004.1';
 const chapters = Array.from({ length: 66 }, (_, i) => i + 1);
-const defaults = { chapter: 1, verse: 1, view: 'map', perspective: 'historical', portraitMode: 'generated', date: -701, layers: { places: true, regions: true, campaigns: true, roads: false, history: false }, sidebar: 'scripture', map: { center: [32.1, 35.0], zoom: 7 } };
+const defaults = { chapter: 1, verse: 1, studyMode: 'read', view: 'map', perspective: 'historical', portraitMode: 'generated', date: -701, layers: { places: true, regions: true, campaigns: true, roads: false, history: false }, sidebar: 'scripture', map: { center: [32.1, 35.0], zoom: 7 } };
 let state = { ...defaults, ...readSaved(), layers: { ...defaults.layers, ...(readSaved().layers || {}) } };
 let data = { sources: [], passages: [], events: [], places: [], campaigns: [], ancientRoads: [], regions: [], words: [], guides: [], periods: [] };
 let scripture = { translation: 'World English Bible', chapters: {} };
@@ -14,8 +14,8 @@ let map, savedScroll = 0, selectedWordButton, toastTimer, guideState = null, sid
 
 function readSaved() { try { return JSON.parse(localStorage.getItem('isaiah-study-guide-state') || localStorage.getItem('meridian-state')) || {}; } catch { return {}; } }
 function persist() { try { localStorage.setItem('isaiah-study-guide-state', JSON.stringify({ ...state, map: map ? { center: [map.getCenter().lat, map.getCenter().lng], zoom: map.getZoom() } : state.map })); } catch {} updateUrl(); }
-function updateUrl() { const p = new URLSearchParams({ chapter: state.chapter, verse: state.verse, view: state.view, mode: state.perspective }); history.replaceState(null, '', `#${p}`); }
-function parseUrl() { const p = new URLSearchParams(location.hash.slice(1)); for (const key of ['chapter', 'verse']) if (p.has(key) && Number(p.get(key))) state[key] = Number(p.get(key)); if (['historical','lds'].includes(p.get('mode'))) state.perspective = p.get('mode'); }
+function updateUrl() { const p = new URLSearchParams({ chapter: state.chapter, verse: state.verse, view: state.view, study: state.studyMode, mode: state.perspective }); history.replaceState(null, '', `#${p}`); }
+function parseUrl() { const p = new URLSearchParams(location.hash.slice(1)); if (['read','map'].includes(p.get('study'))) state.studyMode = p.get('study'); for (const key of ['chapter', 'verse']) if (p.has(key) && Number(p.get(key))) state[key] = Number(p.get(key)); if (['historical','lds'].includes(p.get('mode'))) state.perspective = p.get('mode'); }
 function esc(s='') { const d = document.createElement('div'); d.textContent = s; return d.innerHTML; }
 function richText(s='') { return esc(s).replace(/\n/g, '<br>'); }
 function showToast(message) { const el = $('#toast'); el.textContent = message; el.classList.remove('hidden'); clearTimeout(toastTimer); toastTimer = setTimeout(() => el.classList.add('hidden'), 4200); }
@@ -137,8 +137,8 @@ async function load() {
   if (!['historical','lds'].includes(state.perspective)) state.perspective = 'historical';
   if (!['generated', 'non-generated'].includes(state.portraitMode)) state.portraitMode = 'generated';
   setPortraitMode(state.portraitMode, results[2].status === 'fulfilled' ? results[2].value : {});
-  // Ignore dates left by the retired timeline when opening the scripture view.
-  state.date = activePassage()?.year ?? defaults.date;
+  if (!['read', 'map'].includes(state.studyMode)) state.studyMode = 'read';
+  if (state.studyMode === 'read' || !Number.isFinite(state.date)) state.date = activePassage()?.year ?? defaults.date;
   state.sidebar = 'scripture';
   buildStaticUi(); initMap(); renderAll();
   if (results.some(r => r.status === 'rejected')) showToast('Some study notes did not load. Reload the page and try again.');
@@ -280,6 +280,7 @@ function onClick(e) {
     if (e.ctrlKey || e.metaKey || e.shiftKey || e.altKey) return;
     e.preventDefault(); openSource(citation.dataset.sourceId); return;
   }
+  const mode = e.target.closest('[data-study-mode]'); if (mode) { selectStudyMode(mode.dataset.studyMode); return; }
   const chapter = e.target.closest('[data-chapter]'); if (chapter) { selectChapter(Number(chapter.dataset.chapter)); return; }
   const perspective = e.target.closest('[data-perspective]'); if (perspective) { state.perspective = perspective.dataset.perspective; renderAll(); persist(); return; }
   const layer = e.target.closest('[data-layer]'); if (layer) { state.layers[layer.dataset.layer] = e.target.checked; drawOverlays(); persist(); return; }
@@ -326,7 +327,30 @@ function renderTop() {
     ? 'These old pictures are free to use. We do not know how these people looked.'
     : 'Generated portraits are illustrations. They do not establish actual appearance.';
 }
-function renderView() { $('#timelineTooltip').hidden = true; setTimeout(() => map?.invalidateSize(), 80); }
+function selectStudyMode(mode) {
+  if (!['read', 'map'].includes(mode) || mode === state.studyMode) return;
+  if (mode === 'read') {
+    state.mapDate = state.date;
+    state.date = activePassage()?.year ?? defaults.date;
+  } else if (Number.isFinite(state.mapDate)) state.date = state.mapDate;
+  state.studyMode = mode;
+  hideSourceTooltip();
+  closeCard();
+  renderTop(); renderView(); renderTimeline(); drawOverlays(); persist();
+}
+function renderView() {
+  const mapMode = state.studyMode === 'map';
+  $('#mapView').classList.toggle('map-mode', mapMode);
+  $('#scriptureSidebar').hidden = mapMode;
+  $('.timeline').hidden = !mapMode;
+  $$('[data-study-mode]').forEach(button => {
+    const active = button.dataset.studyMode === state.studyMode;
+    button.classList.toggle('active', active);
+    button.setAttribute('aria-pressed', String(active));
+  });
+  $('#timelineTooltip').hidden = true;
+  requestAnimationFrame(() => map?.invalidateSize({ pan: false }));
+}
 function activePassage() { return data.passages.find(p => Number(p.chapter) === state.chapter && state.verse >= p.start && state.verse <= p.end) || data.passages.find(p => Number(p.chapter) === state.chapter); }
 function selectChapter(chapter, verse = 1) { state.chapter = chapter; state.verse = verse; state.sidebar = 'scripture'; const p = activePassage(); if (p?.year) state.date = p.year; renderAll(); persist(); $('#sidebarContent').scrollTop=0; }
 function selectPassage(id) { const p = data.passages.find(x => x.id === id); if (!p) return; state.chapter = Number(p.chapter); state.verse = Number(p.start); state.sidebar = 'scripture'; if (p.year != null) state.date = Number(p.year); renderAll(); persist(); showToast(`Following ${p.title || `Isaiah ${p.chapter}:${p.start}–${p.end}`}.`); }
@@ -464,8 +488,8 @@ function renderTimeline() {
   const p = activePassage(), follow = isPassageDate();
   $('#timelineRange').value = state.date;
   $('#timelineRange').setAttribute('aria-valuetext', `${Math.abs(state.date)} BCE`);
-  $('#timelineChapter').textContent = `Isaiah ${state.chapter}`;
-  $('#dateLabel').value = p?.year == null ? 'Date not known' : follow && p?.dateLabel ? p.dateLabel : `${Math.abs(state.date)} BCE`;
+  $('#timelineChapter').textContent = state.studyMode === 'map' ? 'Historical map' : `Isaiah ${state.chapter}`;
+  $('#dateLabel').value = state.studyMode === 'map' ? `${Math.abs(state.date)} BCE` : p?.year == null ? 'Date not known' : follow && p?.dateLabel ? p.dateLabel : `${Math.abs(state.date)} BCE`;
   $('#returnPassage').classList.toggle('hidden', follow || !p?.year);
   $('#timelineTooltip').textContent = `${Math.abs(state.date)} BCE`;
 }
@@ -907,7 +931,7 @@ function mapStoryHtml() {
   return `<details class="chapter-movements"><summary>Paths and facts · ${routes.length}</summary>${routes.map(r=>{const evidence=mapDisplayText(r.evidence);return `<button class="story-route" data-action="story-route" data-id="${esc(r.id)}"><i style="background:${movementStyle(r).color}"></i><span>${esc(r.title)}<small>${esc(movementStyle(r).label)}${evidence ? ` · ${esc(evidence)}` : ''}</small></span></button>`;}).join('')}</details>`;
 }
 function displayedCampaigns() {
-  return focusedRoutes();
+  return state.studyMode === 'map' ? data.campaigns.filter(visibleAt) : focusedRoutes();
 }
 function chapterPlaceVisible(p) { return !p.chapterLocation || chapterFocus(data, state.chapter)?.placeIds.includes(p.id); }
 function placeMentionedInChapter(place) { return !!placeVerseInChapter(place, state.chapter); }
@@ -938,8 +962,8 @@ function drawOverlays() {
   };
   const current = findFeature($('#contextCard').dataset.feature);
   if (current && !visibleAt(current)) hideModalPanel($('#contextCard'));
-  const regions = state.layers.history ? data.regions.filter(region => visibleAt(region) && (!region.chapterCoverage || region.chapterCoverage.includes(state.chapter))) : [];
-  if (state.layers.regions) chapterAreas().forEach(r => {
+  const regions = state.layers.history ? data.regions.filter(region => visibleAt(region) && (state.studyMode === 'map' || (!region.chapterCoverage || region.chapterCoverage.includes(state.chapter)))) : [];
+  if (state.layers.regions && state.studyMode === 'read') chapterAreas().forEach(r => {
     feature(r.id,()=>L.polygon(r.points,{pane:'areas',color:'#79501b',weight:2.5,dashArray:'6 4',fillColor:'#d39a48',fillOpacity:.32,className:'chapter-area'}),r);
   });
   const campaigns = state.layers.campaigns ? displayedCampaigns() : [];
@@ -962,14 +986,14 @@ function drawOverlays() {
     feature(`campaign:${c.id}`, () => L.polyline(c.points, { pane:'routes', color, weight: c.chapterRoute && !c.contextRoute ? 5 : 3.5, opacity: 1, dashArray: c.chapterRoute ? style.dash : '10 7', interactive: false, className: 'campaign-overlay' }));
     feature(`hit:${c.id}`, () => L.polyline(c.points, {pane:'routes', color, weight:22, opacity:0, className:'campaign-hit'}), c);
   });
-  if (state.layers.places) data.places.filter(chapterPlaceVisible).forEach(p => {
+  if (state.layers.places) data.places.filter(p => state.studyMode === 'map' ? visibleAt(p) : chapterPlaceVisible(p)).forEach(p => {
     const mentioned = placeMentionedInChapter(p);
     const layer = feature(`place:${p.id}`, () => L.circleMarker([p.lat,p.lng], {pane:'places',radius:mentioned ? 6 : 4, color:mentioned ? '#fff4dc' : '#9bb2b7', weight:mentioned ? 2.5 : 1.25, fillColor:mentioned ? '#594530' : '#304c55', fillOpacity:mentioned ? 1 : .72}), p);
     layer.setRadius(mentioned ? 6 : 4);
     layer.setStyle({color:mentioned ? '#fff4dc' : '#9bb2b7',weight:mentioned ? 2.5 : 1.25,fillColor:mentioned ? '#594530' : '#304c55',fillOpacity:mentioned ? 1 : .72});
     layer.getElement()?.classList.toggle('chapter-relevant-place', mentioned);
   });
-  if (state.layers.places) chapterImpacts().forEach(p => {
+  if (state.layers.places && state.studyMode === 'read') chapterImpacts().forEach(p => {
     feature(p.id,()=>L.circleMarker([p.lat,p.lng],{pane:'impacts',radius:11,color:'#b52e26',weight:2.5,fillColor:'#c43c32',fillOpacity:.16,className:'chapter-impact'}),p);
   });
   retireMapFeatures(mapFeatures, wanted);
@@ -1042,7 +1066,7 @@ function layoutPlaceLabels() {
     const r = el.getBoundingClientRect();
     if (r.width && r.height) occupied.push({x:r.left-mapRect.left-5,y:r.top-mapRect.top-5,w:r.width+10,h:r.height+10});
   });
-  const places = data.places.filter(chapterPlaceVisible).map(p => ({p, point:map.latLngToContainerPoint([p.lat,p.lng]), priority:placePriority(p)}));
+  const places = data.places.filter(p => state.studyMode === 'map' ? visibleAt(p) : chapterPlaceVisible(p)).map(p => ({p, point:map.latLngToContainerPoint([p.lat,p.lng]), priority:placePriority(p)}));
   places.forEach(({p,point}) => occupied.push({id:p.id,x:point.x-6,y:point.y-6,w:12,h:12}));
   const collides = (r, id) => occupied.some(b => b.id !== id && r.x < b.x+b.w && r.x+r.w > b.x && r.y < b.y+b.h && r.y+r.h > b.y);
   places.sort((a,b) => b.priority-a.priority || a.p.name.localeCompare(b.p.name)).forEach(({p,point,priority}) => {

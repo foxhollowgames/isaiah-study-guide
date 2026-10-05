@@ -313,3 +313,11 @@ dialog[open]::backdrop{opacity:1}
 .road-key i{display:inline-block;width:18px;height:2px;background:#e1d6b8}
 .road-key i.probable{background:repeating-linear-gradient(90deg,#e1d6b8 0 5px,transparent 5px 8px)}
 .ancient-road-hit:hover,path.ancient-road-hit:focus-visible{stroke:#e1d6b8;stroke-width:18;stroke-opacity:.08}
+
+/* Read and Map modes occupy the same study workspace. */
+.scripture-sidebar[hidden]{display:none!important}
+#main>.map-view.active.map-mode{display:flex!important;min-height:0;grid-template-rows:minmax(0,1fr)}
+.map-mode .map-workspace{width:100%;height:100%;min-height:0}
+.map-mode .timeline{flex-shrink:0}
+.study-mode button:focus-visible{outline:2px solid #7feaff;outline-offset:3px}
+@media(max-width:400px){.topbar{gap:4px}.topbar .brand{gap:6px}.topbar .compass{width:30px;height:30px}.topbar .segmented button{padding:7px 8px}.topbar .study-mode{margin-left:0}.topbar .settings-button{width:32px}}

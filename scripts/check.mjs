@@ -49,12 +49,12 @@ async function main() {
     readFile(resolve(dist, 'index.html'), 'utf8'),
   ]);
   assert(!/feature-uncertainty|<strong>Map limit\./.test(appSource), 'Map features must use the shared footer disclaimer instead of dedicated disclaimer panels');
-  assert(appSource.includes('visibleAt(region) && (!region.chapterCoverage || region.chapterCoverage.includes(state.chapter))'), 'The Nations toggle must show added regional powers only in relevant chapters');
+  assert(appSource.includes("visibleAt(region) && (state.studyMode === 'map' || (!region.chapterCoverage || region.chapterCoverage.includes(state.chapter)))"), 'The Nations toggle must show added regional powers only in relevant chapters');
   assert(appSource.includes("color:'#e1d6b8',weight:active ? 4 : 2.25"), 'Road selection must thicken the parchment road color without changing its hue');
   assert(styleSource.includes('path.ancient-road-hit:focus-visible{stroke:#e1d6b8;stroke-width:18;stroke-opacity:.08}'), 'Keyboard focus must not restore the blue road style');
   assert(appSource.includes("weight:f.properties.rank <= 5 ? 3.2 : 2.2, opacity:1"), 'Rivers must remain visible beneath political overlays');
   assert(appSource.includes('function ensureLayerOptions()') && appSource.includes("fetch(`${p}?v=${releaseVersion}`)"), 'Startup must recover the layer controls and version its data requests');
-  assert(indexSource.includes('styles.css?v=20261003.1') && indexSource.includes("app.js?v=20261003.1"), 'The page must request one version of its release assets');
+  assert(indexSource.includes('styles.css?v=20261004.1') && indexSource.includes("app.js?v=20261004.1"), 'The page must request one version of its release assets');
   assert(indexSource.includes('<title>Isaiah Study Guide</title>') && indexSource.includes('<b>ISAIAH<small>STUDY GUIDE</small></b>'), 'The app must use the Isaiah Study Guide brand');
   assert(!indexSource.includes('Meridian') && !appSource.includes('Meridian application'), 'The retired brand must not appear in the user interface');
   assert(appSource.includes('aria-label="Isaiah chapter ${c}"') && appSource.includes('<span>${c}</span><span class="chapter-picker-check"'), 'Chapter-picker options must show numbers only while retaining descriptive labels');
