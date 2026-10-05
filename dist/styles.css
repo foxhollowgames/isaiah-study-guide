@@ -23,6 +23,7 @@
 .scripture-reference{color:var(--cyan);text-decoration:underline;text-underline-offset:3px}.scripture-reference:hover{color:#fff}.scripture-reference:focus-visible{outline:2px solid var(--cyan);outline-offset:3px;border-radius:2px}
 
 /* Shared navigation and map disclaimer. */
+.bible-directory-link{color:var(--cyan);font:12px var(--sans);white-space:nowrap;text-decoration:none;border:1px solid #176a9d;border-radius:6px;padding:8px 10px}.bible-directory-link:hover{background:#073153}.bible-directory-link:focus-visible{outline:2px solid var(--cyan);outline-offset:3px}
 .segmented button:only-child{border-radius:6px}
 .compass{flex-shrink:0}
 .compass svg{display:block}

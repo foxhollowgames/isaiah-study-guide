@@ -1,0 +1,464 @@
+[
+  {
+    "id": "genesis",
+    "name": "Genesis",
+    "testament": "Old Testament",
+    "status": "ready",
+    "url": "book.html?book=genesis"
+  },
+  {
+    "id": "exodus",
+    "name": "Exodus",
+    "testament": "Old Testament",
+    "status": "planned",
+    "url": "book.html?book=exodus"
+  },
+  {
+    "id": "leviticus",
+    "name": "Leviticus",
+    "testament": "Old Testament",
+    "status": "planned",
+    "url": "book.html?book=leviticus"
+  },
+  {
+    "id": "numbers",
+    "name": "Numbers",
+    "testament": "Old Testament",
+    "status": "planned",
+    "url": "book.html?book=numbers"
+  },
+  {
+    "id": "deuteronomy",
+    "name": "Deuteronomy",
+    "testament": "Old Testament",
+    "status": "planned",
+    "url": "book.html?book=deuteronomy"
+  },
+  {
+    "id": "joshua",
+    "name": "Joshua",
+    "testament": "Old Testament",
+    "status": "planned",
+    "url": "book.html?book=joshua"
+  },
+  {
+    "id": "judges",
+    "name": "Judges",
+    "testament": "Old Testament",
+    "status": "planned",
+    "url": "book.html?book=judges"
+  },
+  {
+    "id": "ruth",
+    "name": "Ruth",
+    "testament": "Old Testament",
+    "status": "planned",
+    "url": "book.html?book=ruth"
+  },
+  {
+    "id": "1-samuel",
+    "name": "1 Samuel",
+    "testament": "Old Testament",
+    "status": "planned",
+    "url": "book.html?book=1-samuel"
+  },
+  {
+    "id": "2-samuel",
+    "name": "2 Samuel",
+    "testament": "Old Testament",
+    "status": "planned",
+    "url": "book.html?book=2-samuel"
+  },
+  {
+    "id": "1-kings",
+    "name": "1 Kings",
+    "testament": "Old Testament",
+    "status": "planned",
+    "url": "book.html?book=1-kings"
+  },
+  {
+    "id": "2-kings",
+    "name": "2 Kings",
+    "testament": "Old Testament",
+    "status": "planned",
+    "url": "book.html?book=2-kings"
+  },
+  {
+    "id": "1-chronicles",
+    "name": "1 Chronicles",
+    "testament": "Old Testament",
+    "status": "planned",
+    "url": "book.html?book=1-chronicles"
+  },
+  {
+    "id": "2-chronicles",
+    "name": "2 Chronicles",
+    "testament": "Old Testament",
+    "status": "planned",
+    "url": "book.html?book=2-chronicles"
+  },
+  {
+    "id": "ezra",
+    "name": "Ezra",
+    "testament": "Old Testament",
+    "status": "planned",
+    "url": "book.html?book=ezra"
+  },
+  {
+    "id": "nehemiah",
+    "name": "Nehemiah",
+    "testament": "Old Testament",
+    "status": "planned",
+    "url": "book.html?book=nehemiah"
+  },
+  {
+    "id": "esther",
+    "name": "Esther",
+    "testament": "Old Testament",
+    "status": "planned",
+    "url": "book.html?book=esther"
+  },
+  {
+    "id": "job",
+    "name": "Job",
+    "testament": "Old Testament",
+    "status": "planned",
+    "url": "book.html?book=job"
+  },
+  {
+    "id": "psalms",
+    "name": "Psalms",
+    "testament": "Old Testament",
+    "status": "planned",
+    "url": "book.html?book=psalms"
+  },
+  {
+    "id": "proverbs",
+    "name": "Proverbs",
+    "testament": "Old Testament",
+    "status": "planned",
+    "url": "book.html?book=proverbs"
+  },
+  {
+    "id": "ecclesiastes",
+    "name": "Ecclesiastes",
+    "testament": "Old Testament",
+    "status": "planned",
+    "url": "book.html?book=ecclesiastes"
+  },
+  {
+    "id": "song-of-solomon",
+    "name": "Song of Solomon",
+    "testament": "Old Testament",
+    "status": "planned",
+    "url": "book.html?book=song-of-solomon"
+  },
+  {
+    "id": "isaiah",
+    "name": "Isaiah",
+    "testament": "Old Testament",
+    "status": "ready",
+    "url": "./"
+  },
+  {
+    "id": "jeremiah",
+    "name": "Jeremiah",
+    "testament": "Old Testament",
+    "status": "planned",
+    "url": "book.html?book=jeremiah"
+  },
+  {
+    "id": "lamentations",
+    "name": "Lamentations",
+    "testament": "Old Testament",
+    "status": "planned",
+    "url": "book.html?book=lamentations"
+  },
+  {
+    "id": "ezekiel",
+    "name": "Ezekiel",
+    "testament": "Old Testament",
+    "status": "planned",
+    "url": "book.html?book=ezekiel"
+  },
+  {
+    "id": "daniel",
+    "name": "Daniel",
+    "testament": "Old Testament",
+    "status": "planned",
+    "url": "book.html?book=daniel"
+  },
+  {
+    "id": "hosea",
+    "name": "Hosea",
+    "testament": "Old Testament",
+    "status": "planned",
+    "url": "book.html?book=hosea"
+  },
+  {
+    "id": "joel",
+    "name": "Joel",
+    "testament": "Old Testament",
+    "status": "planned",
+    "url": "book.html?book=joel"
+  },
+  {
+    "id": "amos",
+    "name": "Amos",
+    "testament": "Old Testament",
+    "status": "planned",
+    "url": "book.html?book=amos"
+  },
+  {
+    "id": "obadiah",
+    "name": "Obadiah",
+    "testament": "Old Testament",
+    "status": "planned",
+    "url": "book.html?book=obadiah"
+  },
+  {
+    "id": "jonah",
+    "name": "Jonah",
+    "testament": "Old Testament",
+    "status": "planned",
+    "url": "book.html?book=jonah"
+  },
+  {
+    "id": "micah",
+    "name": "Micah",
+    "testament": "Old Testament",
+    "status": "planned",
+    "url": "book.html?book=micah"
+  },
+  {
+    "id": "nahum",
+    "name": "Nahum",
+    "testament": "Old Testament",
+    "status": "planned",
+    "url": "book.html?book=nahum"
+  },
+  {
+    "id": "habakkuk",
+    "name": "Habakkuk",
+    "testament": "Old Testament",
+    "status": "planned",
+    "url": "book.html?book=habakkuk"
+  },
+  {
+    "id": "zephaniah",
+    "name": "Zephaniah",
+    "testament": "Old Testament",
+    "status": "planned",
+    "url": "book.html?book=zephaniah"
+  },
+  {
+    "id": "haggai",
+    "name": "Haggai",
+    "testament": "Old Testament",
+    "status": "planned",
+    "url": "book.html?book=haggai"
+  },
+  {
+    "id": "zechariah",
+    "name": "Zechariah",
+    "testament": "Old Testament",
+    "status": "planned",
+    "url": "book.html?book=zechariah"
+  },
+  {
+    "id": "malachi",
+    "name": "Malachi",
+    "testament": "Old Testament",
+    "status": "planned",
+    "url": "book.html?book=malachi"
+  },
+  {
+    "id": "matthew",
+    "name": "Matthew",
+    "testament": "New Testament",
+    "status": "planned",
+    "url": "book.html?book=matthew"
+  },
+  {
+    "id": "mark",
+    "name": "Mark",
+    "testament": "New Testament",
+    "status": "planned",
+    "url": "book.html?book=mark"
+  },
+  {
+    "id": "luke",
+    "name": "Luke",
+    "testament": "New Testament",
+    "status": "planned",
+    "url": "book.html?book=luke"
+  },
+  {
+    "id": "john",
+    "name": "John",
+    "testament": "New Testament",
+    "status": "planned",
+    "url": "book.html?book=john"
+  },
+  {
+    "id": "acts",
+    "name": "Acts",
+    "testament": "New Testament",
+    "status": "planned",
+    "url": "book.html?book=acts"
+  },
+  {
+    "id": "romans",
+    "name": "Romans",
+    "testament": "New Testament",
+    "status": "planned",
+    "url": "book.html?book=romans"
+  },
+  {
+    "id": "1-corinthians",
+    "name": "1 Corinthians",
+    "testament": "New Testament",
+    "status": "planned",
+    "url": "book.html?book=1-corinthians"
+  },
+  {
+    "id": "2-corinthians",
+    "name": "2 Corinthians",
+    "testament": "New Testament",
+    "status": "planned",
+    "url": "book.html?book=2-corinthians"
+  },
+  {
+    "id": "galatians",
+    "name": "Galatians",
+    "testament": "New Testament",
+    "status": "planned",
+    "url": "book.html?book=galatians"
+  },
+  {
+    "id": "ephesians",
+    "name": "Ephesians",
+    "testament": "New Testament",
+    "status": "planned",
+    "url": "book.html?book=ephesians"
+  },
+  {
+    "id": "philippians",
+    "name": "Philippians",
+    "testament": "New Testament",
+    "status": "planned",
+    "url": "book.html?book=philippians"
+  },
+  {
+    "id": "colossians",
+    "name": "Colossians",
+    "testament": "New Testament",
+    "status": "planned",
+    "url": "book.html?book=colossians"
+  },
+  {
+    "id": "1-thessalonians",
+    "name": "1 Thessalonians",
+    "testament": "New Testament",
+    "status": "planned",
+    "url": "book.html?book=1-thessalonians"
+  },
+  {
+    "id": "2-thessalonians",
+    "name": "2 Thessalonians",
+    "testament": "New Testament",
+    "status": "planned",
+    "url": "book.html?book=2-thessalonians"
+  },
+  {
+    "id": "1-timothy",
+    "name": "1 Timothy",
+    "testament": "New Testament",
+    "status": "planned",
+    "url": "book.html?book=1-timothy"
+  },
+  {
+    "id": "2-timothy",
+    "name": "2 Timothy",
+    "testament": "New Testament",
+    "status": "planned",
+    "url": "book.html?book=2-timothy"
+  },
+  {
+    "id": "titus",
+    "name": "Titus",
+    "testament": "New Testament",
+    "status": "planned",
+    "url": "book.html?book=titus"
+  },
+  {
+    "id": "philemon",
+    "name": "Philemon",
+    "testament": "New Testament",
+    "status": "planned",
+    "url": "book.html?book=philemon"
+  },
+  {
+    "id": "hebrews",
+    "name": "Hebrews",
+    "testament": "New Testament",
+    "status": "planned",
+    "url": "book.html?book=hebrews"
+  },
+  {
+    "id": "james",
+    "name": "James",
+    "testament": "New Testament",
+    "status": "planned",
+    "url": "book.html?book=james"
+  },
+  {
+    "id": "1-peter",
+    "name": "1 Peter",
+    "testament": "New Testament",
+    "status": "planned",
+    "url": "book.html?book=1-peter"
+  },
+  {
+    "id": "2-peter",
+    "name": "2 Peter",
+    "testament": "New Testament",
+    "status": "planned",
+    "url": "book.html?book=2-peter"
+  },
+  {
+    "id": "1-john",
+    "name": "1 John",
+    "testament": "New Testament",
+    "status": "planned",
+    "url": "book.html?book=1-john"
+  },
+  {
+    "id": "2-john",
+    "name": "2 John",
+    "testament": "New Testament",
+    "status": "planned",
+    "url": "book.html?book=2-john"
+  },
+  {
+    "id": "3-john",
+    "name": "3 John",
+    "testament": "New Testament",
+    "status": "planned",
+    "url": "book.html?book=3-john"
+  },
+  {
+    "id": "jude",
+    "name": "Jude",
+    "testament": "New Testament",
+    "status": "planned",
+    "url": "book.html?book=jude"
+  },
+  {
+    "id": "revelation",
+    "name": "Revelation",
+    "testament": "New Testament",
+    "status": "planned",
+    "url": "book.html?book=revelation"
+  }
+]

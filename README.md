@@ -88,3 +88,11 @@ Chapter openings use the same introduction component. It combines the chapter su
 Every chapter now includes a selected World English Bible passage and an original close-reading note. Main summaries also show relevant source insights, available object photographs, and short verified quotations. Historical and LDS material retain separate labels. The Cyrus Cylinder appears with Isaiah 44–45, which name Cyrus. It is not evidence for every restoration vision. Chapter 53 includes the existing manuscript discussion and its cited scholarship.
 
 Maintain chapter selections and source scope in `scripts/chapter-enrichment.mjs`. Maintain the 18 added source quotations in `scripts/study-source-excerpts.json`; the earlier Luckenbill quotation remains in `scripts/source-previews.mjs`. All quotations include attribution and a source location. The chapter checks cover all 66 chapters in both modes. See [the coverage report](STUDY-ENRICHMENT.md) for the chapter and source inventory. The inventory does not claim a complete new review of every linked work.
+
+## Bible study directory
+
+The Bible directory is [Bible Study Guides](https://isaiah.josephnewelldesign.com/books.html).
+The original Isaiah URL remains unchanged. Genesis is the first additional guide.
+It includes all 50 chapters, 1,533 verses, selected events and people, map journeys, meanings, and separate historical and LDS sources.
+Run `npm run check:bible` to check the new directory and Genesis data.
+The remaining books have planned pages. See `BIBLE-EXPANSION.md` for the next book and weekly usage constraint.
