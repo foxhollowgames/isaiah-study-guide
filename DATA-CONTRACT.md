@@ -47,6 +47,16 @@ Passages can include `studyNotes: [{title, text, perspective, sourceIds}]`. `per
 
 ## Chapter study material
 
+### Added Bible books
+
+The added-book records retain complete Scripture in `dist/data/books/<id>.json`. Each chapter has `contextNote: {title, text, sourceIds, evidenceSourceIds}`. The same original explanation supplies `meaning`. `sourceIds` supports the close reading. `evidenceSourceIds` identifies the objects displayed beside it. Museum evidence does not become the author of the interpretation.
+
+Persistent rows live in `scripts/book-context-complete/<id>.json`: `[chapter, verse, title, text, ...evidenceSourceIds]`. Every ready chapter requires exactly one row. `scripts/book_context.py` validates coverage before `scripts/build-native-books.py` emits the native reader data. `chapterStudies` contains one meaningful selected verse per chapter. The reader obtains its exact text from the local complete Scripture dataset.
+
+An added-book image source has `imageChapters`, separate from `chapterCoverage`. The former controls photograph display. The latter records broader source relevance. Images retain `src`, `fullUrl`, `sourceUrl`, `credit`, `creditUrl`, `license`, `licenseUrl`, `caption`, `alt`, `width`, and `height`. `contextReview` records the date, chapter count, and the actual review scope. Curated guides remain selected routes through the book.
+
+### Isaiah
+
 `chapterStudies` contains exactly one selected verse and original explanation for each chapter, 1–66. Fields are `chapter`, `verse`, `text`, `context`, `sourceId`, `attribution`, and `url`. Quoted text must equal the cached World English Bible verse. This selection does not replace the complete chapter or claim that one verse represents every theme.
 
 Sources may have `studyText` for prose in the main summary, `chapterCoverage` for lesson scope, and `excerpt` for a verified quotation. An excerpt has `text`, `attribution`, `location`, `url`, `checked`, optional `chapters`, and optional `context`. A quotation outside its assigned chapters is shown only in that source's own details or library entry. Source images retain their shared license and credit metadata.

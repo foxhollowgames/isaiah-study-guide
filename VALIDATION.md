@@ -132,3 +132,21 @@ All six check suites pass. Automated checks cover the selected chapter citations
 - `npm run check` passed, including complete tile coverage, PNG headers, geographic bounds, and named-place coverage. Pillow also decoded all 7,580 new tiles.
 - Browser checks reached the maximum zoom with level-14 tiles loaded and no console errors. Panning beyond the close-up area showed the broader terrain without empty areas. The chapter focus control still returned to the overview.
 - River and shoreline geometry remains at its previous resolution. Terrain outside the close-up areas is enlarged at zoom levels 13 and 14.
+
+## Complete added-book context
+
+Run `python scripts/build-native-books.py` after editing `scripts/book-context-complete/*.json`.
+Run `npm run check:bible` after the build.
+Run `npm run check` before publishing shared-reader changes.
+
+The complete context check requires one authored row, explanation, and selected exact Scripture verse per ready chapter.
+It checks all 731 added chapters in Historical and LDS perspectives.
+It compares generated explanations with their persistent source rows.
+It also checks artifact assets, rights metadata, image chapter scope, source-dialog display, and short guide selections.
+
+Review contextual accuracy against the actual selected passages and their surroundings.
+Check difficult cases for speaker attribution, violence, disputed identities, and comparison objects from different places or periods.
+Use browser checks to verify representative reading views, source dialogs, guides, and loaded photographs.
+Automated coverage and sentence checks do not establish historical truth or full STE100 compliance.
+
+GitHub Pages now runs `npm run check` and `npm run check:bible` before uploading the release.

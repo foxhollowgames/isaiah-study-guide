@@ -2525,7 +2525,7 @@
       "chapter": 1,
       "title": "Campaigns and remaining peoples",
       "summary": "Judah and other tribes fight local campaigns. Caleb, Othniel, and Achsah reappear. Many Canaanite populations remain.",
-      "meaning": "Several tribes leave Canaanites in their towns. Some make them perform forced labor.",
+      "meaning": "The notices repeatedly distinguish possession from complete removal. Some tribes impose forced labor instead. These details prepare the book's conflicts within a land already called Israel's inheritance.",
       "people": [
         "caleb",
         "othniel",
@@ -2569,13 +2569,21 @@
       "historicalNote": "The book’s religious explanation and literary presentation remain distinct from independently verified historical evidence.",
       "mapNote": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
       "route": [],
-      "routeEvidence": "The simplified line follows the chapter’s named movement. It omits uncertain intermediate points and is not an excavated road."
+      "routeEvidence": "The simplified line follows the chapter’s named movement. It omits uncertain intermediate points and is not an excavated road.",
+      "contextNote": {
+        "title": "Remaining peoples complicate the conquest account",
+        "text": "The notices repeatedly distinguish possession from complete removal. Some tribes impose forced labor instead. These details prepare the book's conflicts within a land already called Israel's inheritance.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
     },
     {
       "chapter": 2,
       "title": "The recurring cycle",
       "summary": "An angel rebukes Israel. Joshua’s generation dies. Later generations serve other gods, face enemies, and receive deliverers.",
-      "meaning": "The people repeatedly leave God, suffer, and seek help. Judges rise to rescue them.",
+      "meaning": "The new generation lacks the earlier generation's knowledge. The book then presents repeated rescue without lasting change. Deliverance can interrupt suffering while failing to produce continued faithfulness.",
       "people": [
         "joshua",
         "ephraim"
@@ -2602,13 +2610,21 @@
       "historicalNote": "The book’s religious explanation and literary presentation remain distinct from independently verified historical evidence.",
       "mapNote": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
       "route": [],
-      "routeEvidence": "The simplified line follows the chapter’s named movement. It omits uncertain intermediate points and is not an excavated road."
+      "routeEvidence": "The simplified line follows the chapter’s named movement. It omits uncertain intermediate points and is not an excavated road.",
+      "contextNote": {
+        "title": "A generation change becomes a problem of memory",
+        "text": "The new generation lacks the earlier generation's knowledge. The book then presents repeated rescue without lasting change. Deliverance can interrupt suffering while failing to produce continued faithfulness.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
     },
     {
       "chapter": 3,
       "title": "Othniel, Ehud, and Shamgar",
       "summary": "Othniel defeats Cushan-rishathaim. Ehud kills Eglon and leads a revolt against Moab. A short notice records Shamgar’s victory.",
-      "meaning": "The judges lead Israel through trouble. Here, judging includes leading soldiers as well as settling disputes.",
+      "meaning": "Ehud conceals his weapon and later draws it with his left hand. The account links bodily difference with access to the ruler. Its violent reversal challenges the assumption that power rests only with the stronger army.",
       "people": [
         "othniel",
         "cushan-rishathaim",
@@ -2642,13 +2658,21 @@
       "historicalNote": "The book’s religious explanation and literary presentation remain distinct from independently verified historical evidence.",
       "mapNote": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
       "route": [],
-      "routeEvidence": "The simplified line follows the chapter’s named movement. It omits uncertain intermediate points and is not an excavated road."
+      "routeEvidence": "The simplified line follows the chapter’s named movement. It omits uncertain intermediate points and is not an excavated road.",
+      "contextNote": {
+        "title": "Deliverance uses an unexpected advantage",
+        "text": "Ehud conceals his weapon and later draws it with his left hand. The account links bodily difference with access to the ruler. Its violent reversal challenges the assumption that power rests only with the stronger army.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
     },
     {
       "chapter": 4,
       "title": "Deborah, Barak, and Jael",
       "summary": "Deborah calls Barak against Sisera. The army defeats Sisera’s force near Kishon. Jael kills the fleeing commander.",
-      "meaning": "Deborah directs Barak, and Jael kills Sisera. Both women shape the battle’s outcome.",
+      "meaning": "Barak asks Deborah to go with him. The promised victory then gives its final honor to another woman. Jael acts outside the formal army. Read chapter 5’s song beside chapter 4’s prose account. Their different forms show how a community tells and celebrates the same victory.",
       "people": [
         "deborah",
         "barak",
@@ -2687,13 +2711,21 @@
         "tabor",
         "kishon"
       ],
-      "routeEvidence": "The simplified line follows the chapter’s named movement. It omits uncertain intermediate points and is not an excavated road."
+      "routeEvidence": "The simplified line follows the chapter’s named movement. It omits uncertain intermediate points and is not an excavated road.",
+      "contextNote": {
+        "title": "Victory disrupts expected roles",
+        "text": "Barak asks Deborah to go with him. The promised victory then gives its final honor to another woman. Jael acts outside the formal army. Read chapter 5’s song beside chapter 4’s prose account. Their different forms show how a community tells and celebrates the same victory.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
     },
     {
       "chapter": 5,
       "title": "The song of Deborah",
       "summary": "Deborah and Barak sing about the battle. They praise willing tribes and Jael. Sisera’s mother waits for him to return.",
-      "meaning": "The song praises people who joined the battle. It also questions tribes that stayed away.",
+      "meaning": "The song names tribes that joined and those that stayed away. Praise therefore becomes a public account of shared duty. Its final household scene connects battlefield victory with another family's waiting and loss.",
       "people": [
         "deborah",
         "barak",
@@ -2731,13 +2763,21 @@
       "historicalNote": "The book’s religious explanation and literary presentation remain distinct from independently verified historical evidence.",
       "mapNote": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
       "route": [],
-      "routeEvidence": "The simplified line follows the chapter’s named movement. It omits uncertain intermediate points and is not an excavated road."
+      "routeEvidence": "The simplified line follows the chapter’s named movement. It omits uncertain intermediate points and is not an excavated road.",
+      "contextNote": {
+        "title": "A victory song also judges participation",
+        "text": "The song names tribes that joined and those that stayed away. Praise therefore becomes a public account of shared duty. Its final household scene connects battlefield victory with another family's waiting and loss.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
     },
     {
       "chapter": 6,
       "title": "Gideon’s call",
       "summary": "Gideon receives a call during Midianite raids. He destroys his father’s altar and asks for signs with a fleece.",
-      "meaning": "The account joins a reluctant leader with conflict in his own community. Gideon also receives the name Jerubbaal.",
+      "meaning": "Destroying the altar brings threats from Gideon's own town. His father answers those threats rather than defending the shrine. The rescue story first tests inherited worship before confronting the outside raiders.",
       "people": [
         "gideon",
         "joash-gideon",
@@ -2767,13 +2807,21 @@
       "historicalNote": "The book’s religious explanation and literary presentation remain distinct from independently verified historical evidence.",
       "mapNote": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
       "route": [],
-      "routeEvidence": "The simplified line follows the chapter’s named movement. It omits uncertain intermediate points and is not an excavated road."
+      "routeEvidence": "The simplified line follows the chapter’s named movement. It omits uncertain intermediate points and is not an excavated road.",
+      "contextNote": {
+        "title": "The first conflict occurs inside Gideon's household",
+        "text": "Destroying the altar brings threats from Gideon's own town. His father answers those threats rather than defending the shrine. The rescue story first tests inherited worship before confronting the outside raiders.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
     },
     {
       "chapter": 7,
       "title": "Gideon’s reduced force",
       "summary": "Gideon’s army is reduced to three hundred. A dream encourages him. Trumpets, jars, and torches precede the enemy’s flight.",
-      "meaning": "God reduces Gideon’s army before the battle. Israel must not claim that its own strength won.",
+      "meaning": "The army's reduction prevents the people from claiming independent success. The remaining men's noise and light create confusion rather than a conventional attack. The form of victory matters to the account's stated purpose.",
       "people": [
         "gideon",
         "oreb",
@@ -2804,13 +2852,21 @@
       "historicalNote": "The book’s religious explanation and literary presentation remain distinct from independently verified historical evidence.",
       "mapNote": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
       "route": [],
-      "routeEvidence": "The simplified line follows the chapter’s named movement. It omits uncertain intermediate points and is not an excavated road."
+      "routeEvidence": "The simplified line follows the chapter’s named movement. It omits uncertain intermediate points and is not an excavated road.",
+      "contextNote": {
+        "title": "Reduced numbers change the explanation of victory",
+        "text": "The army's reduction prevents the people from claiming independent success. The remaining men's noise and light create confusion rather than a conventional attack. The form of victory matters to the account's stated purpose.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
     },
     {
       "chapter": 8,
       "title": "Victory, revenge, and the ephod",
       "summary": "Gideon pursues Zebah and Zalmunna, punishes towns that refused help, and kills the kings. He rejects kingship but makes an ephod.",
-      "meaning": "Gideon refuses to become king. Yet the gold ephod he makes leads the people away from God.",
+      "meaning": "Gideon rejects the title of king but collects gold from victory. The resulting worship object becomes a trap for his household. His words and his lasting influence point in different directions.",
       "people": [
         "gideon",
         "zebah",
@@ -2845,13 +2901,21 @@
         "succoth",
         "penuel"
       ],
-      "routeEvidence": "The simplified line follows the chapter’s named movement. It omits uncertain intermediate points and is not an excavated road."
+      "routeEvidence": "The simplified line follows the chapter’s named movement. It omits uncertain intermediate points and is not an excavated road.",
+      "contextNote": {
+        "title": "A deliverer's achievement can produce another danger",
+        "text": "Gideon rejects the title of king but collects gold from victory. The resulting worship object becomes a trap for his household. His words and his lasting influence point in different directions.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
     },
     {
       "chapter": 9,
       "title": "Abimelech and Jotham’s warning",
       "summary": "Abimelech kills his brothers and becomes king at Shechem. Jotham warns through a tree fable. Civil conflict ends with Abimelech’s death.",
-      "meaning": "Jotham's story warns against Abimelech's rule. His warning of fire later reaches both king and city.",
+      "meaning": "Jotham's fable gives the least useful plant the royal position. Its promised shelter comes with a threat of fire. The later conflict makes that warning part of the account's political judgment.",
       "people": [
         "abimelech-judges",
         "jotham-gideon",
@@ -2880,13 +2944,21 @@
       "historicalNote": "The book’s religious explanation and literary presentation remain distinct from independently verified historical evidence.",
       "mapNote": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
       "route": [],
-      "routeEvidence": "The simplified line follows the chapter’s named movement. It omits uncertain intermediate points and is not an excavated road."
+      "routeEvidence": "The simplified line follows the chapter’s named movement. It omits uncertain intermediate points and is not an excavated road.",
+      "contextNote": {
+        "title": "The tree story examines consent to dangerous rule",
+        "text": "Jotham's fable gives the least useful plant the royal position. Its promised shelter comes with a threat of fire. The later conflict makes that warning part of the account's political judgment.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
     },
     {
       "chapter": 10,
       "title": "Tola, Jair, and renewed distress",
       "summary": "Brief notices record Tola and Jair. Israel serves several gods and faces Philistine and Ammonite pressure. The people confess and remove foreign gods.",
-      "meaning": "Israel again worships other gods and suffers attack. Its plea for help leads into Jephthah’s story.",
+      "meaning": "The first appeal receives a refusal rather than immediate rescue. The people then remove their foreign gods. The sequence distinguishes words of distress from changed shared practice.",
       "people": [
         "tola",
         "jair",
@@ -2916,13 +2988,21 @@
       "historicalNote": "The book’s religious explanation and literary presentation remain distinct from independently verified historical evidence.",
       "mapNote": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
       "route": [],
-      "routeEvidence": "The simplified line follows the chapter’s named movement. It omits uncertain intermediate points and is not an excavated road."
+      "routeEvidence": "The simplified line follows the chapter’s named movement. It omits uncertain intermediate points and is not an excavated road.",
+      "contextNote": {
+        "title": "Confession cannot function as a quick transaction",
+        "text": "The first appeal receives a refusal rather than immediate rescue. The people then remove their foreign gods. The sequence distinguishes words of distress from changed shared practice.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
     },
     {
       "chapter": 11,
       "title": "Jephthah and his daughter",
       "summary": "Gilead’s elders recall the expelled Jephthah to fight Ammon. He makes a vow. His only daughter greets him after victory.",
-      "meaning": "Jephthah promises a burnt offering before battle. His daughter meets him first when he returns.",
+      "meaning": "Jephthah’s vow makes his daughter bear the cost of his success. The story gives her grief and her companions space. No command from God requires this vow. The account does not make every action of a deliverer a model. Deliverance in war can exist beside failure within a household.",
       "people": [
         "jephthah",
         "jephthah-daughter",
@@ -2953,13 +3033,21 @@
       "historicalNote": "The book’s religious explanation and literary presentation remain distinct from independently verified historical evidence.",
       "mapNote": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
       "route": [],
-      "routeEvidence": "The simplified line follows the chapter’s named movement. It omits uncertain intermediate points and is not an excavated road."
+      "routeEvidence": "The simplified line follows the chapter’s named movement. It omits uncertain intermediate points and is not an excavated road.",
+      "contextNote": {
+        "title": "A vow can expose failed judgment",
+        "text": "Jephthah’s vow makes his daughter bear the cost of his success. The story gives her grief and her companions space. No command from God requires this vow. The account does not make every action of a deliverer a model. Deliverance in war can exist beside failure within a household.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
     },
     {
       "chapter": 12,
       "title": "Conflict at the river",
       "summary": "Jephthah’s men fight Ephraim and use pronunciation at Jordan crossings to identify fugitives. Short notices record Ibzan, Elon, and Abdon.",
-      "meaning": "Speech becomes a lethal test of group identity. The episode deepens the book’s pattern of violence between related communities.",
+      "meaning": "The crossing guards use pronunciation to identify people seeking escape. An ordinary difference in speech becomes grounds for killing. The rescue cycle now includes deadly division between Israel's own groups.",
       "people": [
         "jephthah",
         "ibzan",
@@ -2989,13 +3077,21 @@
       "historicalNote": "The book’s religious explanation and literary presentation remain distinct from independently verified historical evidence.",
       "mapNote": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
       "route": [],
-      "routeEvidence": "The simplified line follows the chapter’s named movement. It omits uncertain intermediate points and is not an excavated road."
+      "routeEvidence": "The simplified line follows the chapter’s named movement. It omits uncertain intermediate points and is not an excavated road.",
+      "contextNote": {
+        "title": "A speech difference becomes a weapon",
+        "text": "The crossing guards use pronunciation to identify people seeking escape. An ordinary difference in speech becomes grounds for killing. The rescue cycle now includes deadly division between Israel's own groups.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
     },
     {
       "chapter": 13,
       "title": "Samson’s birth announced",
       "summary": "An angel visits Manoah’s wife and later Manoah. The child is to be a Nazirite. Samson is born and begins to receive the Spirit.",
-      "meaning": "The unnamed mother receives the first announcement and reasons calmly after the encounter. A Nazirite is distinct from a person from Nazareth.",
+      "meaning": "Manoah fears death after the encounter. His wife reasons from the gifts and promise they received. Before Samson's birth, the account gives her judgment a leading place.",
       "people": [
         "samson",
         "manoah",
@@ -3024,13 +3120,21 @@
       "historicalNote": "The book’s religious explanation and literary presentation remain distinct from independently verified historical evidence.",
       "mapNote": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
       "route": [],
-      "routeEvidence": "The simplified line follows the chapter’s named movement. It omits uncertain intermediate points and is not an excavated road."
+      "routeEvidence": "The simplified line follows the chapter’s named movement. It omits uncertain intermediate points and is not an excavated road.",
+      "contextNote": {
+        "title": "The mother interprets the encounter more clearly",
+        "text": "Manoah fears death after the encounter. His wife reasons from the gifts and promise they received. Before Samson's birth, the account gives her judgment a leading place.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
     },
     {
       "chapter": 14,
       "title": "The wedding and the riddle",
       "summary": "Samson seeks a woman from Timnah. He kills a lion and proposes a riddle. Threats force his wife to obtain its answer.",
-      "meaning": "Men threaten to burn Samson’s wife and her family. Fear leads her to reveal his riddle.",
+      "meaning": "The wedding guests threaten Samson's wife to obtain the answer. Samson treats the answer as a stolen advantage. Her danger shows the human cost hidden beneath the competition.",
       "people": [
         "samson",
         "manoah",
@@ -3058,13 +3162,21 @@
       "historicalNote": "The book’s religious explanation and literary presentation remain distinct from independently verified historical evidence.",
       "mapNote": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
       "route": [],
-      "routeEvidence": "The simplified line follows the chapter’s named movement. It omits uncertain intermediate points and is not an excavated road."
+      "routeEvidence": "The simplified line follows the chapter’s named movement. It omits uncertain intermediate points and is not an excavated road.",
+      "contextNote": {
+        "title": "A contest exposes someone with less power",
+        "text": "The wedding guests threaten Samson's wife to obtain the answer. Samson treats the answer as a stolen advantage. Her danger shows the human cost hidden beneath the competition.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
     },
     {
       "chapter": 15,
       "title": "Retaliation at Lehi",
       "summary": "Samson’s wife is given to another man. He burns crops. The Philistines burn her household. Samson’s retaliation continues at Lehi.",
-      "meaning": "Samson's revenge damages fields and provokes more killing. Families suffer as the conflict grows.",
+      "meaning": "The conflict begins with a marriage grievance and reaches crops and households. Each attack produces another response. The chapter makes victory inseparable from widening damage.",
       "people": [
         "samson",
         "samson-wife",
@@ -3091,13 +3203,21 @@
       "historicalNote": "The book’s religious explanation and literary presentation remain distinct from independently verified historical evidence.",
       "mapNote": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
       "route": [],
-      "routeEvidence": "The simplified line follows the chapter’s named movement. It omits uncertain intermediate points and is not an excavated road."
+      "routeEvidence": "The simplified line follows the chapter’s named movement. It omits uncertain intermediate points and is not an excavated road.",
+      "contextNote": {
+        "title": "Retaliation spreads beyond its original dispute",
+        "text": "The conflict begins with a marriage grievance and reaches crops and households. Each attack produces another response. The chapter makes victory inseparable from widening damage.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
     },
     {
       "chapter": 16,
       "title": "Delilah and Samson’s final act",
       "summary": "Samson visits Gaza. Delilah receives payment to discover his weakness. He is captured and blinded, then destroys the temple during a gathering.",
-      "meaning": "Delilah learns Samson’s secret and helps his enemies capture him. Samson’s final act kills himself and many others.",
+      "meaning": "Samson's earlier strength contrasts with blindness, captivity, and forced work. His final prayer acknowledges dependence rather than unlimited personal power. The closing death toll preserves the violence within that deliverance.",
       "people": [
         "samson",
         "delilah"
@@ -3123,13 +3243,21 @@
       "historicalNote": "The book’s religious explanation and literary presentation remain distinct from independently verified historical evidence.",
       "mapNote": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
       "route": [],
-      "routeEvidence": "The simplified line follows the chapter’s named movement. It omits uncertain intermediate points and is not an excavated road."
+      "routeEvidence": "The simplified line follows the chapter’s named movement. It omits uncertain intermediate points and is not an excavated road.",
+      "contextNote": {
+        "title": "The final victory comes after loss of control",
+        "text": "Samson's earlier strength contrasts with blindness, captivity, and forced work. His final prayer acknowledges dependence rather than unlimited personal power. The closing death toll preserves the violence within that deliverance.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
     },
     {
       "chapter": 17,
       "title": "Micah’s household shrine",
       "summary": "Micah returns stolen silver to his mother. Images are made for a shrine. He hires a traveling Levite as priest.",
-      "meaning": "The household seeks religious security through possessions and a hired priest. This Micah is distinct from the later prophetic book’s speaker.",
+      "meaning": "Micah believes employing a Levite will ensure divine favor. His conclusion treats sacred service as something his household can acquire. The next chapter tests how secure that purchased arrangement really is.",
       "people": [
         "micah-judges",
         "jonathan-priest",
@@ -3157,13 +3285,21 @@
       "historicalNote": "The book’s religious explanation and literary presentation remain distinct from independently verified historical evidence.",
       "mapNote": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
       "route": [],
-      "routeEvidence": "The simplified line follows the chapter’s named movement. It omits uncertain intermediate points and is not an excavated road."
+      "routeEvidence": "The simplified line follows the chapter’s named movement. It omits uncertain intermediate points and is not an excavated road.",
+      "contextNote": {
+        "title": "Religious hiring becomes a claim to security",
+        "text": "Micah believes employing a Levite will ensure divine favor. His conclusion treats sacred service as something his household can acquire. The next chapter tests how secure that purchased arrangement really is.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
     },
     {
       "chapter": 18,
       "title": "The Danite migration",
       "summary": "Danite scouts consult Micah’s priest. Armed men take the shrine objects and priest, then attack Laish and rename it Dan.",
-      "meaning": "Dan’s armed men take Micah’s priest and worship objects. They destroy the peaceful town of Laish.",
+      "meaning": "The armed group takes objects and a priest from Micah. Its new worship center rests on that seizure. The account places sacred claims beside the force used to establish them.",
       "people": [
         "micah-judges",
         "jonathan-priest",
@@ -3199,13 +3335,21 @@
         "ephraim-region",
         "dan-city"
       ],
-      "routeEvidence": "The simplified line follows the chapter’s named movement. It omits uncertain intermediate points and is not an excavated road."
+      "routeEvidence": "The simplified line follows the chapter’s named movement. It omits uncertain intermediate points and is not an excavated road.",
+      "contextNote": {
+        "title": "Migration carries theft into a new sanctuary",
+        "text": "The armed group takes objects and a priest from Micah. Its new worship center rests on that seizure. The account places sacred claims beside the force used to establish them.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
     },
     {
       "chapter": 19,
       "title": "The woman at Gibeah",
       "summary": "A Levite retrieves his concubine from Bethlehem. At Gibeah, men threaten the guest. The woman is handed over and violently abused.",
-      "meaning": "The host offers women to protect his guest. The woman's death reveals the cost of their choices.",
+      "meaning": "The closing chapters move from foreign enemies to harm within Israel. A woman’s body becomes part of a public call to action. The resulting war brings more loss and further abuse. Repeated statements about Israel having no king frame this breakdown. The book makes readers face the cost of failed public order.",
       "people": [
         "levite-traveler",
         "levite-concubine",
@@ -3239,13 +3383,21 @@
         "jerusalem",
         "gibeah"
       ],
-      "routeEvidence": "The simplified line follows the chapter’s named movement. It omits uncertain intermediate points and is not an excavated road."
+      "routeEvidence": "The simplified line follows the chapter’s named movement. It omits uncertain intermediate points and is not an excavated road.",
+      "contextNote": {
+        "title": "The final violence reaches inside Israel",
+        "text": "The closing chapters move from foreign enemies to harm within Israel. A woman’s body becomes part of a public call to action. The resulting war brings more loss and further abuse. Repeated statements about Israel having no king frame this breakdown. The book makes readers face the cost of failed public order.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
     },
     {
       "chapter": 20,
       "title": "War against Benjamin",
       "summary": "The tribes gather at Mizpah after hearing the Levite’s report. Benjamin refuses their demand. Repeated battles bring mass death and destruction.",
-      "meaning": "The Levite’s speech omits his own surrender of the woman. The war turns an atrocity into further collective violence.",
+      "meaning": "The Levite's speech does not describe his own role in handing over the woman. His report still drives the assembly's decision. Read his account beside chapter 19 before accepting it as the whole event.",
       "people": [
         "levite-traveler",
         "phinehas",
@@ -3277,13 +3429,21 @@
       "historicalNote": "The book’s religious explanation and literary presentation remain distinct from independently verified historical evidence.",
       "mapNote": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
       "route": [],
-      "routeEvidence": "The simplified line follows the chapter’s named movement. It omits uncertain intermediate points and is not an excavated road."
+      "routeEvidence": "The simplified line follows the chapter’s named movement. It omits uncertain intermediate points and is not an excavated road.",
+      "contextNote": {
+        "title": "The assembly acts on a selective report",
+        "text": "The Levite's speech does not describe his own role in handing over the woman. His report still drives the assembly's decision. Read his account beside chapter 19 before accepting it as the whole event.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
     },
     {
       "chapter": 21,
       "title": "Women taken and the closing refrain",
       "summary": "The assembly regrets Benjamin’s losses. It attacks Jabesh-gilead and arranges the seizure of women at Shiloh.",
-      "meaning": "The attempt to preserve a tribe creates further victims. The closing refrain leaves the book’s disorder unresolved.",
+      "meaning": "The assembly seeks wives after almost destroying Benjamin. Its solutions take women from other communities without their consent. The ending makes failed public judgment extend beyond the battlefield.",
       "people": [
         "benjamin"
       ],
@@ -3310,7 +3470,15 @@
       "historicalNote": "The book’s religious explanation and literary presentation remain distinct from independently verified historical evidence.",
       "mapNote": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
       "route": [],
-      "routeEvidence": "The simplified line follows the chapter’s named movement. It omits uncertain intermediate points and is not an excavated road."
+      "routeEvidence": "The simplified line follows the chapter’s named movement. It omits uncertain intermediate points and is not an excavated road.",
+      "contextNote": {
+        "title": "A proposed repair repeats harm against women",
+        "text": "The assembly seeks wives after almost destroying Benjamin. Its solutions take women from other communities without their consent. The ending makes failed public judgment extend beyond the battlefield.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
     }
   ],
   "people": [
@@ -4900,8 +5068,154 @@
     "nextBook": "ruth",
     "sourcePolicy": "BIBLE-SOURCE-POLICY.md",
     "sourceEnrichmentDate": "2026-10-05",
-    "copyReview": "2026-10-05: Reader copy reviewed against WRITING-GUIDE.md. Scripture and source titles preserved."
+    "copyReview": "2026-10-05: Reader copy reviewed against WRITING-GUIDE.md. Scripture and source titles preserved.",
+    "contextReview": {
+      "date": "2026-10-05",
+      "chapters": 21,
+      "scope": "Original close readings grounded in local World English Bible passages. Existing external source reviews remain separate."
+    }
   },
   "translation": "World English Bible",
-  "copyright": "Public domain"
+  "copyright": "Public domain",
+  "chapterStudies": [
+    {
+      "chapter": 1,
+      "verse": 28,
+      "context": ""
+    },
+    {
+      "chapter": 2,
+      "verse": 10,
+      "context": ""
+    },
+    {
+      "chapter": 3,
+      "verse": 15,
+      "context": ""
+    },
+    {
+      "chapter": 4,
+      "verse": 9,
+      "context": ""
+    },
+    {
+      "chapter": 5,
+      "verse": 17,
+      "context": ""
+    },
+    {
+      "chapter": 6,
+      "verse": 31,
+      "context": ""
+    },
+    {
+      "chapter": 7,
+      "verse": 2,
+      "context": ""
+    },
+    {
+      "chapter": 8,
+      "verse": 27,
+      "context": ""
+    },
+    {
+      "chapter": 9,
+      "verse": 15,
+      "context": ""
+    },
+    {
+      "chapter": 10,
+      "verse": 14,
+      "context": ""
+    },
+    {
+      "chapter": 11,
+      "verse": 35,
+      "context": ""
+    },
+    {
+      "chapter": 12,
+      "verse": 6,
+      "context": ""
+    },
+    {
+      "chapter": 13,
+      "verse": 23,
+      "context": ""
+    },
+    {
+      "chapter": 14,
+      "verse": 15,
+      "context": ""
+    },
+    {
+      "chapter": 15,
+      "verse": 6,
+      "context": ""
+    },
+    {
+      "chapter": 16,
+      "verse": 28,
+      "context": ""
+    },
+    {
+      "chapter": 17,
+      "verse": 13,
+      "context": ""
+    },
+    {
+      "chapter": 18,
+      "verse": 24,
+      "context": ""
+    },
+    {
+      "chapter": 19,
+      "verse": 30,
+      "context": ""
+    },
+    {
+      "chapter": 20,
+      "verse": 7,
+      "context": ""
+    },
+    {
+      "chapter": 21,
+      "verse": 22,
+      "context": ""
+    }
+  ],
+  "contextGuide": {
+    "id": "judges-context",
+    "title": "Judges: context and evidence",
+    "description": "Explore the book’s larger concerns through selected passages and relevant evidence.",
+    "steps": [
+      {
+        "title": "Victory disrupts expected roles",
+        "text": "Barak asks Deborah to go with him. The promised victory then gives its final honor to another woman. Jael acts outside the formal army. Read chapter 5’s song beside chapter 4’s prose account. Their different forms show how a community tells and celebrates the same victory.",
+        "chapter": 4,
+        "verse": 9,
+        "sourceIds": [
+          "web"
+        ]
+      },
+      {
+        "title": "A vow can expose failed judgment",
+        "text": "Jephthah’s vow makes his daughter bear the cost of his success. The story gives her grief and her companions space. No command from God requires this vow. The account does not make every action of a deliverer a model. Deliverance in war can exist beside failure within a household.",
+        "chapter": 11,
+        "verse": 35,
+        "sourceIds": [
+          "web"
+        ]
+      },
+      {
+        "title": "The final violence reaches inside Israel",
+        "text": "The closing chapters move from foreign enemies to harm within Israel. A woman’s body becomes part of a public call to action. The resulting war brings more loss and further abuse. Repeated statements about Israel having no king frame this breakdown. The book makes readers face the cost of failed public order.",
+        "chapter": 19,
+        "verse": 30,
+        "sourceIds": [
+          "web"
+        ]
+      }
+    ]
+  }
 }

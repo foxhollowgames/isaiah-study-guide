@@ -298,6 +298,88 @@
       "type": "Come, Follow Me",
       "limitations": "The lesson selects passages rather than commenting on every verse in chapters 12–22.",
       "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "met-244562",
+      "title": "Bronze rod tripod",
+      "url": "https://www.metmuseum.org/art/collection/search/244562",
+      "author": "The Metropolitan Museum of Art",
+      "category": "museum",
+      "perspective": "historical",
+      "summary": "This Cypriot bronze stand supported a vessel. It shows skilled metalwork in the eastern Mediterranean.",
+      "limits": "Its form differs from the temple stands described in Kings. It is a comparison, not a temple reconstruction.",
+      "previewText": "This Cypriot bronze stand supported a vessel. It shows skilled metalwork in the eastern Mediterranean. Its form differs from the temple stands described in Kings. It is a comparison, not a temple reconstruction.",
+      "image": {
+        "src": "assets/study-objects/met-244562.jpg",
+        "fullUrl": "https://images.metmuseum.org/CRDImages/gr/original/DP257900.jpg",
+        "sourceUrl": "https://www.metmuseum.org/art/collection/search/244562",
+        "creditUrl": "https://www.metmuseum.org/art/collection/search/244562",
+        "credit": "The Metropolitan Museum of Art",
+        "license": "CC0 / Public domain",
+        "licenseUrl": "https://www.metmuseum.org/policies/image-resources",
+        "alt": "Bronze rod tripod",
+        "caption": "Bronze rod tripod · ca. 1250–1050 BCE · The Met",
+        "width": 457,
+        "height": 624
+      },
+      "date": "ca. 1250–1050 BCE",
+      "objectNumber": "74.51.5684",
+      "creditLine": "The Cesnola Collection, Purchased by subscription, 1874–76",
+      "reviewed": {
+        "date": "2026-10-05",
+        "scope": "Museum object description, identity, date, and public-domain image metadata."
+      },
+      "access": "Public museum collection record and Open Access API",
+      "license": "CC0 / Public domain",
+      "chapterCoverage": [
+        7
+      ],
+      "imageChapters": [
+        7
+      ],
+      "type": "museum",
+      "limitations": "Its form differs from the temple stands described in Kings. It is a comparison, not a temple reconstruction."
+    },
+    {
+      "id": "met-321953",
+      "title": "Cuneiform tablet: field sale",
+      "url": "https://www.metmuseum.org/art/collection/search/321953",
+      "author": "The Metropolitan Museum of Art",
+      "category": "museum",
+      "perspective": "historical",
+      "summary": "This Babylonian clay tablet records a field sale.",
+      "limits": "It shows that land sales could have written records. It is earlier regional evidence, not the biblical deed.",
+      "previewText": "This Babylonian clay tablet records a field sale. It shows that land sales could have written records. It is earlier regional evidence, not the biblical deed.",
+      "image": {
+        "src": "assets/study-objects/met-321953.jpg",
+        "fullUrl": "https://images.metmuseum.org/CRDImages/an/original/ME86_11_329.jpg",
+        "sourceUrl": "https://www.metmuseum.org/art/collection/search/321953",
+        "creditUrl": "https://www.metmuseum.org/art/collection/search/321953",
+        "credit": "The Metropolitan Museum of Art",
+        "license": "CC0 / Public domain",
+        "licenseUrl": "https://www.metmuseum.org/policies/image-resources",
+        "alt": "Cuneiform tablet: field sale",
+        "caption": "Cuneiform tablet: field sale · ca. 20th–16th century BCE · The Met",
+        "width": 554,
+        "height": 624
+      },
+      "date": "ca. 20th–16th century BCE",
+      "objectNumber": "86.11.329",
+      "creditLine": "Purchase, 1886",
+      "reviewed": {
+        "date": "2026-10-05",
+        "scope": "Museum object description, identity, date, and public-domain image metadata."
+      },
+      "access": "Public museum collection record and Open Access API",
+      "license": "CC0 / Public domain",
+      "chapterCoverage": [
+        21
+      ],
+      "imageChapters": [
+        21
+      ],
+      "type": "museum",
+      "limitations": "It shows that land sales could have written records. It is earlier regional evidence, not the biblical deed."
     }
   ],
   "passages": [
@@ -307,7 +389,7 @@
       "start": 1,
       "end": 53,
       "title": "Two sons seek David's throne",
-      "summary": "Adonijah gathers supporters at En Rogel. Bathsheba and Nathan approach David, who orders Solomon’s anointing at Gihon. Bathsheba and Nathan act before Adonijah can secure the throne. David publicly names Solomon as the next king.",
+      "summary": "Adonijah gathers supporters at En Rogel. Bathsheba and Nathan approach David, who orders Solomon’s anointing at Gihon.",
       "year": null,
       "dateLabel": "Chapter order · historical year uncertain",
       "uncertainty": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
@@ -325,6 +407,14 @@
       "lds": {
         "text": "Who speaks for Solomon when David must choose the next king?",
         "sourceIds": []
+      },
+      "contextNote": {
+        "title": "Succession requires a decision before the king dies",
+        "text": "Bathsheba names the uncertainty facing the royal household. Rival gatherings turn that uncertainty into competing public claims. Nathan's intervention brings David's authority into a process already moving without him.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -333,7 +423,7 @@
       "start": 1,
       "end": 46,
       "title": "David dies and Solomon consolidates power",
-      "summary": "David gives final instructions. Solomon removes Abiathar and orders the deaths of Adonijah, Joab, and Shimei. Solomon secures his rule by removing rivals. His orders include deaths and the loss of Abiathar’s priestly office.",
+      "summary": "David gives final instructions. Solomon removes Abiathar and orders the deaths of Adonijah, Joab, and Shimei.",
       "year": null,
       "dateLabel": "Chapter order · historical year uncertain",
       "uncertainty": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
@@ -350,6 +440,14 @@
       "lds": {
         "text": "How does Solomon explain his orders against each rival?",
         "sourceIds": []
+      },
+      "contextNote": {
+        "title": "The new throne is secured through removals",
+        "text": "Solomon judges several figures through past acts and present threats. Mercy toward Abiathar still removes him from office. The chapter presents established power as a result of deliberate and sometimes deadly decisions.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -358,7 +456,7 @@
       "start": 1,
       "end": 28,
       "title": "Solomon asks for wisdom and judges a dispute",
-      "summary": "At Gibeon, Solomon asks for an understanding heart. In Jerusalem, two women dispute the identity of a living infant. One woman would rather lose the child than see him killed. Solomon recognizes her care.",
+      "summary": "At Gibeon, Solomon asks for an understanding heart. In Jerusalem, two women dispute the identity of a living infant.",
       "year": null,
       "dateLabel": "Chapter order · historical year uncertain",
       "uncertainty": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
@@ -376,6 +474,14 @@
         "sourceIds": [
           "cfm-kings-solomon"
         ]
+      },
+      "contextNote": {
+        "title": "Wisdom begins as a request to hear people well",
+        "text": "Solomon asks for understanding needed to judge a large people. The women's dispute then tests that request in a concrete case. Royal wisdom must serve people whose household conflict reaches the court.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -384,7 +490,7 @@
       "start": 1,
       "end": 34,
       "title": "Officials, provisions, and wisdom",
-      "summary": "The chapter lists officials, regional suppliers, royal provisions, and Solomon’s reputation for wisdom. Solomon’s court needs food from across the kingdom. Local officers supply the king and his household.",
+      "summary": "The chapter lists officials, regional suppliers, royal provisions, and Solomon’s reputation for wisdom.",
       "year": null,
       "dateLabel": "Chapter order · historical year uncertain",
       "uncertainty": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
@@ -399,6 +505,14 @@
       "lds": {
         "text": "Who provides the food that supports Solomon’s court?",
         "sourceIds": []
+      },
+      "contextNote": {
+        "title": "Royal abundance requires a system of supply",
+        "text": "Named districts provide food for the court in monthly turns. The description of plentiful life stands beside these required contributions. The later complaint about burdens invites another view of the same royal system.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -407,7 +521,7 @@
       "start": 1,
       "end": 18,
       "title": "Hiram supplies timber for the temple",
-      "summary": "Solomon and Hiram arrange timber and food exchanges. Adoniram supervises a labor levy, while builders prepare stone and wood. Hiram supplies wood and skilled help. Solomon also forces men to work on the building project.",
+      "summary": "Solomon and Hiram arrange timber and food exchanges. Adoniram supervises a labor levy, while builders prepare stone and wood.",
       "year": null,
       "dateLabel": "Chapter order · historical year uncertain",
       "uncertainty": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
@@ -425,6 +539,14 @@
       "lds": {
         "text": "What does temple building require from the workers and their families?",
         "sourceIds": []
+      },
+      "contextNote": {
+        "title": "The building's beauty depends on counted labor",
+        "text": "Timber agreements alone cannot produce the temple. The chapter assigns thousands to carrying, cutting, and supervision. Read the finished building beside these workers rather than crediting its construction to Solomon alone.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -433,7 +555,7 @@
       "start": 1,
       "end": 38,
       "title": "The temple is built",
-      "summary": "The account describes the temple’s rooms, wooden carvings, gold covering, and cherubim. God’s promise also requires faithful conduct. Cedar walls, carved flowers, and separate rooms mark the temple. Its design sets worship apart.",
+      "summary": "The account describes the temple’s rooms, wooden carvings, gold covering, and cherubim. God’s promise also requires faithful conduct.",
       "year": null,
       "dateLabel": "Chapter order · historical year uncertain",
       "uncertainty": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
@@ -451,6 +573,14 @@
         "sourceIds": [
           "cfm-kings-solomon"
         ]
+      },
+      "contextNote": {
+        "title": "A building cannot replace the duties attached to it",
+        "text": "God's speech interrupts the description of rooms and decoration. It makes continued obedience central to the promise of presence. The temple's completion does not make conduct irrelevant.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -459,7 +589,7 @@
       "start": 1,
       "end": 51,
       "title": "Royal buildings and bronze furnishings",
-      "summary": "Solomon’s palace buildings are described. Hiram the bronze worker makes pillars, the sea, movable stands, and other vessels. Hiram the artisan is distinct from the king of Tyre. The chapter describes craft knowledge and materials alongside royal buildings.",
+      "summary": "Solomon’s palace buildings are described. Hiram the bronze worker makes pillars, the sea, movable stands, and other vessels.",
       "year": null,
       "dateLabel": "Chapter order · historical year uncertain",
       "uncertainty": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
@@ -473,12 +603,23 @@
         "web",
         "atlas-canaan",
         "yale-solomon",
-        "yale-division"
+        "yale-division",
+        "met-244562"
       ],
       "lds": {
         "text": "The older Church manual compares the bronze sea with baptism.",
         "sourceIds": [
           "lds-kings-solomon"
+        ]
+      },
+      "contextNote": {
+        "title": "A temple depends on skilled workers",
+        "text": "The account names Huram’s skill before describing the bronze works. Large basins and stands require knowledge of metal and construction. Temple worship depends on labor as well as royal plans. The long description gives crafted objects a place in the story. Read that achievement beside the costs of building in chapter 5.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": [
+          "met-244562"
         ]
       }
     },
@@ -488,7 +629,7 @@
       "start": 1,
       "end": 66,
       "title": "The ark enters the temple and Solomon prays",
-      "summary": "The ark is brought into the sanctuary. Solomon prays about justice, forgiveness, drought, foreigners, war, and exile. The prayer says heaven cannot contain God. It joins a particular sacred house with concern for people beyond Israel.",
+      "summary": "The ark is brought into the sanctuary. Solomon prays about justice, forgiveness, drought, foreigners, war, and exile.",
       "year": null,
       "dateLabel": "Chapter order · historical year uncertain",
       "uncertainty": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
@@ -506,6 +647,14 @@
         "sourceIds": [
           "cfm-kings-solomon"
         ]
+      },
+      "contextNote": {
+        "title": "The dedication imagines listeners beyond Israel",
+        "text": "Solomon includes a foreigner who comes to pray toward the house. He also imagines drought, defeat, and exile. The prayer assigns the temple a role beyond royal celebration and present prosperity.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -514,7 +663,7 @@
       "start": 1,
       "end": 28,
       "title": "Promises, warnings, labor, and trade",
-      "summary": "God answers Solomon with a promise and warning. The chapter describes towns, building projects, labor, and ships sailing toward Ophir. God’s promise calls for continued faithfulness. Solomon’s buildings and trade also depend on workers and foreign help.",
+      "summary": "God answers Solomon with a promise and warning. The chapter describes towns, building projects, labor, and ships sailing toward Ophir.",
       "year": null,
       "dateLabel": "Chapter order · historical year uncertain",
       "uncertainty": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
@@ -538,6 +687,14 @@
         "sourceIds": [
           "cfm-kings-solomon"
         ]
+      },
+      "contextNote": {
+        "title": "The warning imagines the temple as a future ruin",
+        "text": "God's answer permits the possibility that the celebrated house will become a warning. The surrounding work and trade do not cancel that danger. Visible achievement remains separate from lasting faithfulness.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -546,7 +703,7 @@
       "start": 1,
       "end": 29,
       "title": "The queen of Sheba visits",
-      "summary": "The queen tests Solomon with questions and sees the court. Gifts, trade, gold, horses, and royal wealth follow. The queen tests Solomon’s wisdom with questions. His answers and wealth impress her.",
+      "summary": "The queen tests Solomon with questions and sees the court. Gifts, trade, gold, horses, and royal wealth follow.",
       "year": null,
       "dateLabel": "Chapter order · historical year uncertain",
       "uncertainty": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
@@ -561,6 +718,14 @@
       "lds": {
         "text": "What impresses the queen besides Solomon’s wealth?",
         "sourceIds": []
+      },
+      "contextNote": {
+        "title": "A visitor's praise presents one view of courtly success",
+        "text": "The queen sees wisdom through the court's arrangements and attendants. The chapter then counts wealth, horses, and goods. Read this admired display beside the later account of subjects seeking relief.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -569,7 +734,7 @@
       "start": 1,
       "end": 43,
       "title": "Solomon turns away and adversaries rise",
-      "summary": "Solomon supports other gods. Hadad and Rezon become adversaries. Ahijah promises Jeroboam a kingdom, and Solomon later dies. Solomon's choices weaken his kingdom. God promises most tribes to Jeroboam.",
+      "summary": "Solomon supports other gods. Hadad and Rezon become adversaries. Ahijah promises Jeroboam a kingdom, and Solomon later dies.",
       "year": null,
       "dateLabel": "Chapter order · historical year uncertain",
       "uncertainty": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
@@ -593,6 +758,14 @@
         "sourceIds": [
           "cfm-kings-solomon"
         ]
+      },
+      "contextNote": {
+        "title": "A divided garment makes a political warning visible",
+        "text": "Ahijah's torn garment presents the kingdom as separable portions. Solomon's worship choices now have public consequences in the account. The closing adversaries prepare the division before his son's accession.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -601,7 +774,7 @@
       "start": 1,
       "end": 33,
       "title": "Rehoboam rejects the petition and the kingdom divides",
-      "summary": "Rehoboam rejects advice to ease the people’s burden. The northern tribes follow Jeroboam, who establishes worship at Bethel and Dan. Rehoboam's threats divide the kingdom. Jeroboam then builds places of worship to keep people from Jerusalem.",
+      "summary": "Rehoboam rejects advice to ease the people’s burden. The northern tribes follow Jeroboam, who establishes worship at Bethel and Dan.",
       "year": null,
       "dateLabel": "Chapter order · historical year uncertain",
       "uncertainty": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
@@ -623,6 +796,14 @@
         "sourceIds": [
           "cfm-kings-elijah"
         ]
+      },
+      "contextNote": {
+        "title": "The divided kingdom begins with a labor complaint",
+        "text": "The people ask for relief from a heavy burden. Rehoboam treats that request as a challenge to his power. His answer breaks the kingdom he hoped to control. The split involves work, advice, and trust, not only rival leaders. Solomon’s glory has left costs that his son must answer.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -631,7 +812,7 @@
       "start": 1,
       "end": 34,
       "title": "A man of God confronts Bethel",
-      "summary": "A man of God announces judgment at Bethel. An older prophet deceives him into eating, and a lion later kills him. An older prophet lies about God’s command. The visiting prophet trusts him and dies on his way home.",
+      "summary": "A man of God announces judgment at Bethel. An older prophet deceives him into eating, and a lion later kills him.",
       "year": null,
       "dateLabel": "Chapter order · historical year uncertain",
       "uncertainty": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
@@ -645,6 +826,14 @@
       "lds": {
         "text": "Why does the visiting prophet accept a claim that changes his earlier command?",
         "sourceIds": []
+      },
+      "contextNote": {
+        "title": "An authoritative claim can still deceive",
+        "text": "The older prophet claims an angel changed the earlier command. The account identifies that claim as a lie. Readers must distinguish what a character says from what the account establishes.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -653,7 +842,7 @@
       "start": 1,
       "end": 31,
       "title": "Ahijah speaks and Shishak attacks Jerusalem",
-      "summary": "Jeroboam’s disguised wife visits Ahijah about their son Abijah. The child dies. The account then describes Rehoboam’s rule and Shishak’s attack. Jeroboam's wife seeks help for their sick child. Ahijah's warning reaches the whole royal family.",
+      "summary": "Jeroboam’s disguised wife visits Ahijah about their son Abijah. The child dies. The account then describes Rehoboam’s rule and Shishak’s attack.",
       "year": null,
       "dateLabel": "Chapter order · historical year uncertain",
       "uncertainty": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
@@ -670,6 +859,14 @@
       "lds": {
         "text": "How does Ahijah’s message affect Jeroboam’s wife and child?",
         "sourceIds": []
+      },
+      "contextNote": {
+        "title": "Disguise cannot control the answer sought",
+        "text": "Jeroboam's wife arrives under a hidden identity, but Ahijah addresses her directly. The family request becomes a judgment on royal conduct. Private anxiety and public kingship meet in the same visit.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -678,7 +875,7 @@
       "start": 1,
       "end": 34,
       "title": "Judah’s rulers and a new northern dynasty",
-      "summary": "Abijam and Asa rule Judah. Asa seeks Ben Hadad’s help against Baasha. Baasha kills Nadab and destroys Jeroboam’s household. The kings make different choices about worship. Their wars also shape life in both kingdoms.",
+      "summary": "Abijam and Asa rule Judah. Asa seeks Ben Hadad’s help against Baasha. Baasha kills Nadab and destroys Jeroboam’s household.",
       "year": null,
       "dateLabel": "Chapter order · historical year uncertain",
       "uncertainty": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
@@ -698,6 +895,14 @@
       "lds": {
         "text": "What does Asa give away to gain help against Baasha?",
         "sourceIds": []
+      },
+      "contextNote": {
+        "title": "An alliance purchases relief by changing another ruler's loyalties",
+        "text": "Asa sends temple and palace treasure to Ben Hadad. The agreement answers Baasha's pressure through a neighboring king. Local security comes through resources removed from the kingdom's own stores.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -706,7 +911,7 @@
       "start": 1,
       "end": 34,
       "title": "Kings fall before Omri and Ahab rise",
-      "summary": "Jehu condemns Baasha’s house. Zimri kills Elah and is defeated. Omri prevails over Tibni, builds Samaria, and is succeeded by Ahab. Plots and battles bring rapid changes of kings. Ahab’s marriage to Jezebel leads into Elijah’s story.",
+      "summary": "Jehu condemns Baasha’s house. Zimri kills Elah and is defeated. Omri prevails over Tibni, builds Samaria, and is succeeded by Ahab.",
       "year": null,
       "dateLabel": "Chapter order · historical year uncertain",
       "uncertainty": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
@@ -725,6 +930,14 @@
       "lds": {
         "text": "How do the changes of kings affect their families and towns?",
         "sourceIds": []
+      },
+      "contextNote": {
+        "title": "A new capital survives rapid changes of rulers",
+        "text": "The account compresses assassinations, rival claims, and destruction of royal families. Omri's purchase and building give that unstable succession a lasting center. Ahab inherits both the city and the religious judgments surrounding his father's rule.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -733,7 +946,7 @@
       "start": 1,
       "end": 24,
       "title": "Elijah and the widow at Zarephath",
-      "summary": "Elijah announces drought, receives food at Cherith, and stays with a widow at Zarephath. Her food endures, and her son returns to life. The widow shares food despite her fear of hunger. Her later grief leads her to question Elijah.",
+      "summary": "Elijah announces drought, receives food at Cherith, and stays with a widow at Zarephath. Her food endures, and her son returns to life.",
       "year": null,
       "dateLabel": "Chapter order · historical year uncertain",
       "uncertainty": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
@@ -752,6 +965,14 @@
         "sourceIds": [
           "cfm-kings-elijah"
         ]
+      },
+      "contextNote": {
+        "title": "A prophet depends on a household already facing hunger",
+        "text": "The widow describes food sufficient only for a final meal. Elijah's request places shared provision inside that scarcity. The later restoration of her son deepens the relationship beyond hospitality alone.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -760,7 +981,7 @@
       "start": 1,
       "end": 46,
       "title": "Elijah confronts Ahab at Carmel",
-      "summary": "Obadiah meets Elijah. Elijah asks Israel to choose between God and Baal. Fire answers his prayer. Baal's prophets are killed, and rain returns. The people must choose whom to worship. Fire answers Elijah’s prayer. The victory also ends in killing Baal’s prophets.",
+      "summary": "Obadiah meets Elijah. Elijah asks Israel to choose between God and Baal. Fire answers his prayer. Baal's prophets are killed, and rain returns.",
       "year": null,
       "dateLabel": "Chapter order · historical year uncertain",
       "uncertainty": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
@@ -780,6 +1001,14 @@
         "sourceIds": [
           "cfm-kings-elijah"
         ]
+      },
+      "contextNote": {
+        "title": "A public question frames the contest as a choice",
+        "text": "Elijah challenges divided loyalty before the altar contest begins. The displayed answer therefore serves an argument already spoken. The chapter combines rain, worship, and violence rather than a harmless competition.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -788,7 +1017,7 @@
       "start": 1,
       "end": 21,
       "title": "Elijah receives care and calls Elisha",
-      "summary": "Threatened by Jezebel, Elijah flees, asks to die, receives food, and travels to Horeb. He receives renewed work and places his mantle on Elisha. Elijah needs food and rest before his next task. God gives him help and new work.",
+      "summary": "Threatened by Jezebel, Elijah flees, asks to die, receives food, and travels to Horeb. He receives renewed work and places his mantle on Elisha.",
       "year": null,
       "dateLabel": "Chapter order · historical year uncertain",
       "uncertainty": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
@@ -808,6 +1037,14 @@
         "sourceIds": [
           "cfm-kings-elijah"
         ]
+      },
+      "contextNote": {
+        "title": "Elijah's isolation differs from the larger situation described",
+        "text": "Elijah speaks as though he alone remains faithful. God's answer names others and assigns future workers. Food and rest precede correction of both his exhaustion and his understanding.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -816,7 +1053,7 @@
       "start": 1,
       "end": 43,
       "title": "Ahab defeats Ben Hadad and releases him",
-      "summary": "Ben Hadad attacks Samaria. Prophets advise Ahab, and Israel wins two battles. Ahab releases his opponent and receives a prophetic rebuke. Ahab wins two battles but spares Ben Hadad. A prophet warns him about that choice.",
+      "summary": "Ben Hadad attacks Samaria. Prophets advise Ahab, and Israel wins two battles. Ahab releases his opponent and receives a prophetic rebuke.",
       "year": null,
       "dateLabel": "Chapter order · historical year uncertain",
       "uncertainty": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
@@ -831,6 +1068,14 @@
       "lds": {
         "text": "Why does the prophet challenge Ahab after his victory?",
         "sourceIds": []
+      },
+      "contextNote": {
+        "title": "A victorious treaty receives a different prophetic judgment",
+        "text": "Ahab treats release and trade rights as a successful agreement. The prophet judges that settlement through a duty Ahab did not fulfill. Military success does not settle the account's evaluation of kingship.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -839,7 +1084,7 @@
       "start": 1,
       "end": 29,
       "title": "Naboth is killed and Elijah confronts Ahab",
-      "summary": "Naboth refuses to give up his vineyard. Jezebel arranges false accusations and his killing. Ahab takes possession, and Elijah announces judgment. Officials use false witnesses to kill Naboth. Ahab takes the inherited vineyard Naboth refused to sell.",
+      "summary": "Naboth refuses to give up his vineyard. Jezebel arranges false accusations and his killing. Ahab takes possession, and Elijah announces judgment.",
       "year": null,
       "dateLabel": "Chapter order · historical year uncertain",
       "uncertainty": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
@@ -851,11 +1096,22 @@
         "web",
         "atlas-canaan",
         "yale-division",
-        "yale-prophets"
+        "yale-prophets",
+        "met-321953"
       ],
       "lds": {
         "text": "How do Ahab and Jezebel use their power against Naboth? What does Elijah say about their actions?",
         "sourceIds": []
+      },
+      "contextNote": {
+        "title": "An inherited field is more than a commodity",
+        "text": "Naboth refuses because the vineyard belongs to his family’s inheritance. Ahab sees useful land beside his palace. Jezebel uses public charges and witnesses to remove the owner. The court turns law into a means of theft. Elijah’s judgment connects the royal household with that misuse of power.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": [
+          "met-321953"
+        ]
       }
     },
     {
@@ -864,7 +1120,7 @@
       "start": 1,
       "end": 53,
       "title": "Micaiah warns Ahab before the final battle",
-      "summary": "Ahab and Jehoshaphat seek counsel about Ramoth Gilead. Micaiah describes a heavenly council and predicts defeat. Ahab dies in battle. Most prophets promise Ahab victory. Micaiah describes a heavenly meeting that reveals their deception.",
+      "summary": "Ahab and Jehoshaphat seek counsel about Ramoth Gilead. Micaiah describes a heavenly council and predicts defeat. Ahab dies in battle.",
       "year": null,
       "dateLabel": "Chapter order · historical year uncertain",
       "uncertainty": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
@@ -885,6 +1141,14 @@
         "sourceIds": [
           "lds-kings-elijah"
         ]
+      },
+      "contextNote": {
+        "title": "The court pressures a speaker to match an approved answer",
+        "text": "The messenger urges Micaiah to agree with the favorable predictions. Micaiah refuses to make agreement his measure of truth. The council scene exposes the risks of asking questions while controlling acceptable answers.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     }
   ],
@@ -896,7 +1160,7 @@
       "eventOrder": 1,
       "title": "Two sons seek David's throne",
       "summary": "Adonijah gathers supporters at En Rogel. Bathsheba and Nathan approach David, who orders Solomon’s anointing at Gihon.",
-      "detail": "Bathsheba and Nathan act before Adonijah can secure the throne. David publicly names Solomon as the next king.",
+      "detail": "Bathsheba names the uncertainty facing the royal household. Rival gatherings turn that uncertainty into competing public claims. Nathan's intervention brings David's authority into a process already moving without him.",
       "dateLabel": "Chapter order · historical year uncertain",
       "uncertainty": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
       "sourceIds": [
@@ -922,7 +1186,7 @@
       "eventOrder": 2,
       "title": "David dies and Solomon consolidates power",
       "summary": "David gives final instructions. Solomon removes Abiathar and orders the deaths of Adonijah, Joab, and Shimei.",
-      "detail": "Solomon secures his rule by removing rivals. His orders include deaths and the loss of Abiathar’s priestly office.",
+      "detail": "Solomon judges several figures through past acts and present threats. Mercy toward Abiathar still removes him from office. The chapter presents established power as a result of deliberate and sometimes deadly decisions.",
       "dateLabel": "Chapter order · historical year uncertain",
       "uncertainty": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
       "sourceIds": [
@@ -947,7 +1211,7 @@
       "eventOrder": 3,
       "title": "Solomon asks for wisdom and judges a dispute",
       "summary": "At Gibeon, Solomon asks for an understanding heart. In Jerusalem, two women dispute the identity of a living infant.",
-      "detail": "One woman would rather lose the child than see him killed. Solomon recognizes her care.",
+      "detail": "Solomon asks for understanding needed to judge a large people. The women's dispute then tests that request in a concrete case. Royal wisdom must serve people whose household conflict reaches the court.",
       "dateLabel": "Chapter order · historical year uncertain",
       "uncertainty": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
       "sourceIds": [
@@ -973,7 +1237,7 @@
       "eventOrder": 4,
       "title": "Officials, provisions, and wisdom",
       "summary": "The chapter lists officials, regional suppliers, royal provisions, and Solomon’s reputation for wisdom.",
-      "detail": "Solomon’s court needs food from across the kingdom. Local officers supply the king and his household.",
+      "detail": "Named districts provide food for the court in monthly turns. The description of plentiful life stands beside these required contributions. The later complaint about burdens invites another view of the same royal system.",
       "dateLabel": "Chapter order · historical year uncertain",
       "uncertainty": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
       "sourceIds": [
@@ -996,7 +1260,7 @@
       "eventOrder": 5,
       "title": "Hiram supplies timber for the temple",
       "summary": "Solomon and Hiram arrange timber and food exchanges. Adoniram supervises a labor levy, while builders prepare stone and wood.",
-      "detail": "Hiram supplies wood and skilled help. Solomon also forces men to work on the building project.",
+      "detail": "Timber agreements alone cannot produce the temple. The chapter assigns thousands to carrying, cutting, and supervision. Read the finished building beside these workers rather than crediting its construction to Solomon alone.",
       "dateLabel": "Chapter order · historical year uncertain",
       "uncertainty": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
       "sourceIds": [
@@ -1022,7 +1286,7 @@
       "eventOrder": 6,
       "title": "The temple is built",
       "summary": "The account describes the temple’s rooms, wooden carvings, gold covering, and cherubim. God’s promise also requires faithful conduct.",
-      "detail": "Cedar walls, carved flowers, and separate rooms mark the temple. Its design sets worship apart.",
+      "detail": "God's speech interrupts the description of rooms and decoration. It makes continued obedience central to the promise of presence. The temple's completion does not make conduct irrelevant.",
       "dateLabel": "Chapter order · historical year uncertain",
       "uncertainty": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
       "sourceIds": [
@@ -1048,14 +1312,15 @@
       "eventOrder": 7,
       "title": "Royal buildings and bronze furnishings",
       "summary": "Solomon’s palace buildings are described. Hiram the bronze worker makes pillars, the sea, movable stands, and other vessels.",
-      "detail": "Hiram the artisan is distinct from the king of Tyre. The chapter describes craft knowledge and materials alongside royal buildings.",
+      "detail": "The account names Huram’s skill before describing the bronze works. Large basins and stands require knowledge of metal and construction. Temple worship depends on labor as well as royal plans. The long description gives crafted objects a place in the story. Read that achievement beside the costs of building in chapter 5.",
       "dateLabel": "Chapter order · historical year uncertain",
       "uncertainty": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
       "sourceIds": [
         "web",
         "atlas-canaan",
         "yale-solomon",
-        "yale-division"
+        "yale-division",
+        "met-244562"
       ],
       "placeIds": [
         "jerusalem",
@@ -1077,7 +1342,7 @@
       "eventOrder": 8,
       "title": "The ark enters the temple and Solomon prays",
       "summary": "The ark is brought into the sanctuary. Solomon prays about justice, forgiveness, drought, foreigners, war, and exile.",
-      "detail": "The prayer says heaven cannot contain God. It joins a particular sacred house with concern for people beyond Israel.",
+      "detail": "Solomon includes a foreigner who comes to pray toward the house. He also imagines drought, defeat, and exile. The prayer assigns the temple a role beyond royal celebration and present prosperity.",
       "dateLabel": "Chapter order · historical year uncertain",
       "uncertainty": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
       "sourceIds": [
@@ -1103,7 +1368,7 @@
       "eventOrder": 9,
       "title": "Promises, warnings, labor, and trade",
       "summary": "God answers Solomon with a promise and warning. The chapter describes towns, building projects, labor, and ships sailing toward Ophir.",
-      "detail": "God’s promise calls for continued faithfulness. Solomon’s buildings and trade also depend on workers and foreign help.",
+      "detail": "God's answer permits the possibility that the celebrated house will become a warning. The surrounding work and trade do not cancel that danger. Visible achievement remains separate from lasting faithfulness.",
       "dateLabel": "Chapter order · historical year uncertain",
       "uncertainty": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
       "sourceIds": [
@@ -1135,7 +1400,7 @@
       "eventOrder": 10,
       "title": "The queen of Sheba visits",
       "summary": "The queen tests Solomon with questions and sees the court. Gifts, trade, gold, horses, and royal wealth follow.",
-      "detail": "The queen tests Solomon’s wisdom with questions. His answers and wealth impress her.",
+      "detail": "The queen sees wisdom through the court's arrangements and attendants. The chapter then counts wealth, horses, and goods. Read this admired display beside the later account of subjects seeking relief.",
       "dateLabel": "Chapter order · historical year uncertain",
       "uncertainty": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
       "sourceIds": [
@@ -1158,7 +1423,7 @@
       "eventOrder": 11,
       "title": "Solomon turns away and adversaries rise",
       "summary": "Solomon supports other gods. Hadad and Rezon become adversaries. Ahijah promises Jeroboam a kingdom, and Solomon later dies.",
-      "detail": "Solomon's choices weaken his kingdom. God promises most tribes to Jeroboam.",
+      "detail": "Ahijah's torn garment presents the kingdom as separable portions. Solomon's worship choices now have public consequences in the account. The closing adversaries prepare the division before his son's accession.",
       "dateLabel": "Chapter order · historical year uncertain",
       "uncertainty": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
       "sourceIds": [
@@ -1190,7 +1455,7 @@
       "eventOrder": 12,
       "title": "Rehoboam rejects the petition and the kingdom divides",
       "summary": "Rehoboam rejects advice to ease the people’s burden. The northern tribes follow Jeroboam, who establishes worship at Bethel and Dan.",
-      "detail": "Rehoboam's threats divide the kingdom. Jeroboam then builds places of worship to keep people from Jerusalem.",
+      "detail": "The people ask for relief from a heavy burden. Rehoboam treats that request as a challenge to his power. His answer breaks the kingdom he hoped to control. The split involves work, advice, and trust, not only rival leaders. Solomon’s glory has left costs that his son must answer.",
       "dateLabel": "Chapter order · historical year uncertain",
       "uncertainty": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
       "sourceIds": [
@@ -1220,7 +1485,7 @@
       "eventOrder": 13,
       "title": "A man of God confronts Bethel",
       "summary": "A man of God announces judgment at Bethel. An older prophet deceives him into eating, and a lion later kills him.",
-      "detail": "An older prophet lies about God’s command. The visiting prophet trusts him and dies on his way home.",
+      "detail": "The older prophet claims an angel changed the earlier command. The account identifies that claim as a lie. Readers must distinguish what a character says from what the account establishes.",
       "dateLabel": "Chapter order · historical year uncertain",
       "uncertainty": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
       "sourceIds": [
@@ -1242,7 +1507,7 @@
       "eventOrder": 14,
       "title": "Ahijah speaks and Shishak attacks Jerusalem",
       "summary": "Jeroboam’s disguised wife visits Ahijah about their son Abijah. The child dies. The account then describes Rehoboam’s rule and Shishak’s attack.",
-      "detail": "Jeroboam's wife seeks help for their sick child. Ahijah's warning reaches the whole royal family.",
+      "detail": "Jeroboam's wife arrives under a hidden identity, but Ahijah addresses her directly. The family request becomes a judgment on royal conduct. Private anxiety and public kingship meet in the same visit.",
       "dateLabel": "Chapter order · historical year uncertain",
       "uncertainty": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
       "sourceIds": [
@@ -1267,7 +1532,7 @@
       "eventOrder": 15,
       "title": "Judah’s rulers and a new northern dynasty",
       "summary": "Abijam and Asa rule Judah. Asa seeks Ben Hadad’s help against Baasha. Baasha kills Nadab and destroys Jeroboam’s household.",
-      "detail": "The kings make different choices about worship. Their wars also shape life in both kingdoms.",
+      "detail": "Asa sends temple and palace treasure to Ben Hadad. The agreement answers Baasha's pressure through a neighboring king. Local security comes through resources removed from the kingdom's own stores.",
       "dateLabel": "Chapter order · historical year uncertain",
       "uncertainty": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
       "sourceIds": [
@@ -1295,7 +1560,7 @@
       "eventOrder": 16,
       "title": "Kings fall before Omri and Ahab rise",
       "summary": "Jehu condemns Baasha’s house. Zimri kills Elah and is defeated. Omri prevails over Tibni, builds Samaria, and is succeeded by Ahab.",
-      "detail": "Plots and battles bring rapid changes of kings. Ahab’s marriage to Jezebel leads into Elijah’s story.",
+      "detail": "The account compresses assassinations, rival claims, and destruction of royal families. Omri's purchase and building give that unstable succession a lasting center. Ahab inherits both the city and the religious judgments surrounding his father's rule.",
       "dateLabel": "Chapter order · historical year uncertain",
       "uncertainty": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
       "sourceIds": [
@@ -1322,7 +1587,7 @@
       "eventOrder": 17,
       "title": "Elijah and the widow at Zarephath",
       "summary": "Elijah announces drought, receives food at Cherith, and stays with a widow at Zarephath. Her food endures, and her son returns to life.",
-      "detail": "The widow shares food despite her fear of hunger. Her later grief leads her to question Elijah.",
+      "detail": "The widow describes food sufficient only for a final meal. Elijah's request places shared provision inside that scarcity. The later restoration of her son deepens the relationship beyond hospitality alone.",
       "dateLabel": "Chapter order · historical year uncertain",
       "uncertainty": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
       "sourceIds": [
@@ -1349,7 +1614,7 @@
       "eventOrder": 18,
       "title": "Elijah confronts Ahab at Carmel",
       "summary": "Obadiah meets Elijah. Elijah asks Israel to choose between God and Baal. Fire answers his prayer. Baal's prophets are killed, and rain returns.",
-      "detail": "The people must choose whom to worship. Fire answers Elijah’s prayer. The victory also ends in killing Baal’s prophets.",
+      "detail": "Elijah challenges divided loyalty before the altar contest begins. The displayed answer therefore serves an argument already spoken. The chapter combines rain, worship, and violence rather than a harmless competition.",
       "dateLabel": "Chapter order · historical year uncertain",
       "uncertainty": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
       "sourceIds": [
@@ -1377,7 +1642,7 @@
       "eventOrder": 19,
       "title": "Elijah receives care and calls Elisha",
       "summary": "Threatened by Jezebel, Elijah flees, asks to die, receives food, and travels to Horeb. He receives renewed work and places his mantle on Elisha.",
-      "detail": "Elijah needs food and rest before his next task. God gives him help and new work.",
+      "detail": "Elijah speaks as though he alone remains faithful. God's answer names others and assigns future workers. Food and rest precede correction of both his exhaustion and his understanding.",
       "dateLabel": "Chapter order · historical year uncertain",
       "uncertainty": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
       "sourceIds": [
@@ -1405,7 +1670,7 @@
       "eventOrder": 20,
       "title": "Ahab defeats Ben Hadad and releases him",
       "summary": "Ben Hadad attacks Samaria. Prophets advise Ahab, and Israel wins two battles. Ahab releases his opponent and receives a prophetic rebuke.",
-      "detail": "Ahab wins two battles but spares Ben Hadad. A prophet warns him about that choice.",
+      "detail": "Ahab treats release and trade rights as a successful agreement. The prophet judges that settlement through a duty Ahab did not fulfill. Military success does not settle the account's evaluation of kingship.",
       "dateLabel": "Chapter order · historical year uncertain",
       "uncertainty": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
       "sourceIds": [
@@ -1428,14 +1693,15 @@
       "eventOrder": 21,
       "title": "Naboth is killed and Elijah confronts Ahab",
       "summary": "Naboth refuses to give up his vineyard. Jezebel arranges false accusations and his killing. Ahab takes possession, and Elijah announces judgment.",
-      "detail": "Officials use false witnesses to kill Naboth. Ahab takes the inherited vineyard Naboth refused to sell.",
+      "detail": "Naboth refuses because the vineyard belongs to his family’s inheritance. Ahab sees useful land beside his palace. Jezebel uses public charges and witnesses to remove the owner. The court turns law into a means of theft. Elijah’s judgment connects the royal household with that misuse of power.",
       "dateLabel": "Chapter order · historical year uncertain",
       "uncertainty": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
       "sourceIds": [
         "web",
         "atlas-canaan",
         "yale-division",
-        "yale-prophets"
+        "yale-prophets",
+        "met-321953"
       ],
       "placeIds": [
         "jezreel",
@@ -1453,7 +1719,7 @@
       "eventOrder": 22,
       "title": "Micaiah warns Ahab before the final battle",
       "summary": "Ahab and Jehoshaphat seek counsel about Ramoth Gilead. Micaiah describes a heavenly council and predicts defeat. Ahab dies in battle.",
-      "detail": "Most prophets promise Ahab victory. Micaiah describes a heavenly meeting that reveals their deception.",
+      "detail": "The messenger urges Micaiah to agree with the favorable predictions. Micaiah refuses to make agreement his measure of truth. The council scene exposes the risks of asking questions while controlling acceptable answers.",
       "dateLabel": "Chapter order · historical year uncertain",
       "uncertainty": "Named towns and approximate regions. Disputed sites and exact buildings remain uncertain.",
       "sourceIds": [
@@ -2129,44 +2395,37 @@
   "words": [],
   "guides": [
     {
-      "id": "1-kings-overview",
-      "title": "Study 1 Kings",
-      "description": "Follow selected chapters through the book.",
+      "id": "1-kings-context",
+      "title": "1 Kings: context and evidence",
+      "description": "Explore the book’s larger concerns through selected passages and relevant evidence.",
       "steps": [
         {
-          "title": "Two sons seek David's throne",
-          "text": "Adonijah gathers supporters at En Rogel. Bathsheba and Nathan approach David, who orders Solomon’s anointing at Gihon. Bathsheba and Nathan act before Adonijah can secure the throne. David publicly names Solomon as the next king.",
-          "chapter": 1,
-          "verse": 1,
+          "title": "A temple depends on skilled workers",
+          "text": "The account names Huram’s skill before describing the bronze works. Large basins and stands require knowledge of metal and construction. Temple worship depends on labor as well as royal plans. The long description gives crafted objects a place in the story. Read that achievement beside the costs of building in chapter 5.",
+          "chapter": 7,
+          "verse": 14,
           "sourceIds": [
             "web",
-            "atlas-canaan",
-            "yale-solomon",
-            "wiki-1-kings"
+            "met-244562"
           ]
         },
         {
-          "title": "Rehoboam rejects the petition and the kingdom divides",
-          "text": "Rehoboam rejects advice to ease the people’s burden. The northern tribes follow Jeroboam, who establishes worship at Bethel and Dan. Rehoboam's threats divide the kingdom. Jeroboam then builds places of worship to keep people from Jerusalem.",
+          "title": "The divided kingdom begins with a labor complaint",
+          "text": "The people ask for relief from a heavy burden. Rehoboam treats that request as a challenge to his power. His answer breaks the kingdom he hoped to control. The split involves work, advice, and trust, not only rival leaders. Solomon’s glory has left costs that his son must answer.",
           "chapter": 12,
-          "verse": 1,
+          "verse": 4,
           "sourceIds": [
-            "web",
-            "atlas-canaan",
-            "yale-division",
-            "wiki-1-kings"
+            "web"
           ]
         },
         {
-          "title": "Micaiah warns Ahab before the final battle",
-          "text": "Ahab and Jehoshaphat seek counsel about Ramoth Gilead. Micaiah describes a heavenly council and predicts defeat. Ahab dies in battle. Most prophets promise Ahab victory. Micaiah describes a heavenly meeting that reveals their deception.",
-          "chapter": 22,
-          "verse": 1,
+          "title": "An inherited field is more than a commodity",
+          "text": "Naboth refuses because the vineyard belongs to his family’s inheritance. Ahab sees useful land beside his palace. Jezebel uses public charges and witnesses to remove the owner. The court turns law into a means of theft. Elijah’s judgment connects the royal household with that misuse of power.",
+          "chapter": 21,
+          "verse": 3,
           "sourceIds": [
             "web",
-            "atlas-canaan",
-            "wiki-1-kings",
-            "dm-kings-council"
+            "met-321953"
           ]
         }
       ]
@@ -2392,7 +2651,8 @@
         "web",
         "atlas-canaan",
         "yale-solomon",
-        "yale-division"
+        "yale-division",
+        "met-244562"
       ]
     },
     {
@@ -2820,7 +3080,8 @@
         "web",
         "atlas-canaan",
         "yale-division",
-        "yale-prophets"
+        "yale-prophets",
+        "met-321953"
       ]
     },
     {
@@ -2877,7 +3138,7 @@
       "chapter": 1,
       "verse": 1,
       "summary": "Adonijah gathers supporters at En Rogel. Bathsheba and Nathan approach David, who orders Solomon’s anointing at Gihon.",
-      "detail": "Bathsheba and Nathan act before Adonijah can secure the throne. David publicly names Solomon as the next king.",
+      "detail": "Bathsheba names the uncertainty facing the royal household. Rival gatherings turn that uncertainty into competing public claims. Nathan's intervention brings David's authority into a process already moving without him.",
       "uncertainty": "Connects named settings in narrative order. Approximate lines do not reconstruct ancient roads, sea voyages, or exact battle movements.",
       "evidence": "Connects named settings in narrative order. Approximate lines do not reconstruct ancient roads, sea voyages, or exact battle movements.",
       "kind": "journey",
@@ -2910,7 +3171,7 @@
       "chapter": 2,
       "verse": 1,
       "summary": "David gives final instructions. Solomon removes Abiathar and orders the deaths of Adonijah, Joab, and Shimei.",
-      "detail": "Solomon secures his rule by removing rivals. His orders include deaths and the loss of Abiathar’s priestly office.",
+      "detail": "Solomon judges several figures through past acts and present threats. Mercy toward Abiathar still removes him from office. The chapter presents established power as a result of deliberate and sometimes deadly decisions.",
       "uncertainty": "Connects named settings in narrative order. Approximate lines do not reconstruct ancient roads, sea voyages, or exact battle movements.",
       "evidence": "Connects named settings in narrative order. Approximate lines do not reconstruct ancient roads, sea voyages, or exact battle movements.",
       "kind": "journey",
@@ -2942,7 +3203,7 @@
       "chapter": 5,
       "verse": 1,
       "summary": "Solomon and Hiram arrange timber and food exchanges. Adoniram supervises a labor levy, while builders prepare stone and wood.",
-      "detail": "Hiram supplies wood and skilled help. Solomon also forces men to work on the building project.",
+      "detail": "Timber agreements alone cannot produce the temple. The chapter assigns thousands to carrying, cutting, and supervision. Read the finished building beside these workers rather than crediting its construction to Solomon alone.",
       "uncertainty": "Connects named settings in narrative order. Approximate lines do not reconstruct ancient roads, sea voyages, or exact battle movements.",
       "evidence": "Connects named settings in narrative order. Approximate lines do not reconstruct ancient roads, sea voyages, or exact battle movements.",
       "kind": "journey",
@@ -2971,7 +3232,7 @@
       "chapter": 11,
       "verse": 1,
       "summary": "Solomon supports other gods. Hadad and Rezon become adversaries. Ahijah promises Jeroboam a kingdom, and Solomon later dies.",
-      "detail": "Solomon's choices weaken his kingdom. God promises most tribes to Jeroboam.",
+      "detail": "Ahijah's torn garment presents the kingdom as separable portions. Solomon's worship choices now have public consequences in the account. The closing adversaries prepare the division before his son's accession.",
       "uncertainty": "Connects named settings in narrative order. Approximate lines do not reconstruct ancient roads, sea voyages, or exact battle movements.",
       "evidence": "Connects named settings in narrative order. Approximate lines do not reconstruct ancient roads, sea voyages, or exact battle movements.",
       "kind": "journey",
@@ -3001,7 +3262,7 @@
       "chapter": 12,
       "verse": 1,
       "summary": "Rehoboam rejects advice to ease the people’s burden. The northern tribes follow Jeroboam, who establishes worship at Bethel and Dan.",
-      "detail": "Rehoboam's threats divide the kingdom. Jeroboam then builds places of worship to keep people from Jerusalem.",
+      "detail": "The people ask for relief from a heavy burden. Rehoboam treats that request as a challenge to his power. His answer breaks the kingdom he hoped to control. The split involves work, advice, and trust, not only rival leaders. Solomon’s glory has left costs that his son must answer.",
       "uncertainty": "Connects named settings in narrative order. Approximate lines do not reconstruct ancient roads, sea voyages, or exact battle movements.",
       "evidence": "Connects named settings in narrative order. Approximate lines do not reconstruct ancient roads, sea voyages, or exact battle movements.",
       "kind": "journey",
@@ -3030,7 +3291,7 @@
       "chapter": 14,
       "verse": 1,
       "summary": "Jeroboam’s disguised wife visits Ahijah about their son Abijah. The child dies. The account then describes Rehoboam’s rule and Shishak’s attack.",
-      "detail": "Jeroboam's wife seeks help for their sick child. Ahijah's warning reaches the whole royal family.",
+      "detail": "Jeroboam's wife arrives under a hidden identity, but Ahijah addresses her directly. The family request becomes a judgment on royal conduct. Private anxiety and public kingship meet in the same visit.",
       "uncertainty": "Connects named settings in narrative order. Approximate lines do not reconstruct ancient roads, sea voyages, or exact battle movements.",
       "evidence": "Connects named settings in narrative order. Approximate lines do not reconstruct ancient roads, sea voyages, or exact battle movements.",
       "kind": "journey",
@@ -3057,7 +3318,7 @@
       "chapter": 17,
       "verse": 1,
       "summary": "Elijah announces drought, receives food at Cherith, and stays with a widow at Zarephath. Her food endures, and her son returns to life.",
-      "detail": "The widow shares food despite her fear of hunger. Her later grief leads her to question Elijah.",
+      "detail": "The widow describes food sufficient only for a final meal. Elijah's request places shared provision inside that scarcity. The later restoration of her son deepens the relationship beyond hospitality alone.",
       "uncertainty": "Connects named settings in narrative order. Approximate lines do not reconstruct ancient roads, sea voyages, or exact battle movements.",
       "evidence": "Connects named settings in narrative order. Approximate lines do not reconstruct ancient roads, sea voyages, or exact battle movements.",
       "kind": "journey",
@@ -3085,7 +3346,7 @@
       "chapter": 18,
       "verse": 1,
       "summary": "Obadiah meets Elijah. Elijah asks Israel to choose between God and Baal. Fire answers his prayer. Baal's prophets are killed, and rain returns.",
-      "detail": "The people must choose whom to worship. Fire answers Elijah’s prayer. The victory also ends in killing Baal’s prophets.",
+      "detail": "Elijah challenges divided loyalty before the altar contest begins. The displayed answer therefore serves an argument already spoken. The chapter combines rain, worship, and violence rather than a harmless competition.",
       "uncertainty": "Connects named settings in narrative order. Approximate lines do not reconstruct ancient roads, sea voyages, or exact battle movements.",
       "evidence": "Connects named settings in narrative order. Approximate lines do not reconstruct ancient roads, sea voyages, or exact battle movements.",
       "kind": "journey",
@@ -3117,7 +3378,7 @@
       "chapter": 19,
       "verse": 1,
       "summary": "Threatened by Jezebel, Elijah flees, asks to die, receives food, and travels to Horeb. He receives renewed work and places his mantle on Elisha.",
-      "detail": "Elijah needs food and rest before his next task. God gives him help and new work.",
+      "detail": "Elijah speaks as though he alone remains faithful. God's answer names others and assigns future workers. Food and rest precede correction of both his exhaustion and his understanding.",
       "uncertainty": "Connects named settings in narrative order. Approximate lines do not reconstruct ancient roads, sea voyages, or exact battle movements.",
       "evidence": "Connects named settings in narrative order. Approximate lines do not reconstruct ancient roads, sea voyages, or exact battle movements.",
       "kind": "flight",
@@ -3145,7 +3406,7 @@
       "chapter": 22,
       "verse": 1,
       "summary": "Ahab and Jehoshaphat seek counsel about Ramoth Gilead. Micaiah describes a heavenly council and predicts defeat. Ahab dies in battle.",
-      "detail": "Most prophets promise Ahab victory. Micaiah describes a heavenly meeting that reveals their deception.",
+      "detail": "The messenger urges Micaiah to agree with the favorable predictions. Micaiah refuses to make agreement his measure of truth. The council scene exposes the risks of asking questions while controlling acceptable answers.",
       "uncertainty": "Connects named settings in narrative order. Approximate lines do not reconstruct ancient roads, sea voyages, or exact battle movements.",
       "evidence": "Connects named settings in narrative order. Approximate lines do not reconstruct ancient roads, sea voyages, or exact battle movements.",
       "kind": "journey",
@@ -3160,5 +3421,116 @@
     }
   ],
   "narrativeRegions": [],
-  "chapterStudies": []
+  "chapterStudies": [
+    {
+      "chapter": 1,
+      "verse": 20,
+      "context": ""
+    },
+    {
+      "chapter": 2,
+      "verse": 26,
+      "context": ""
+    },
+    {
+      "chapter": 3,
+      "verse": 9,
+      "context": ""
+    },
+    {
+      "chapter": 4,
+      "verse": 27,
+      "context": ""
+    },
+    {
+      "chapter": 5,
+      "verse": 13,
+      "context": ""
+    },
+    {
+      "chapter": 6,
+      "verse": 12,
+      "context": ""
+    },
+    {
+      "chapter": 7,
+      "verse": 14,
+      "context": ""
+    },
+    {
+      "chapter": 8,
+      "verse": 41,
+      "context": ""
+    },
+    {
+      "chapter": 9,
+      "verse": 7,
+      "context": ""
+    },
+    {
+      "chapter": 10,
+      "verse": 8,
+      "context": ""
+    },
+    {
+      "chapter": 11,
+      "verse": 30,
+      "context": ""
+    },
+    {
+      "chapter": 12,
+      "verse": 4,
+      "context": ""
+    },
+    {
+      "chapter": 13,
+      "verse": 18,
+      "context": ""
+    },
+    {
+      "chapter": 14,
+      "verse": 6,
+      "context": ""
+    },
+    {
+      "chapter": 15,
+      "verse": 19,
+      "context": ""
+    },
+    {
+      "chapter": 16,
+      "verse": 24,
+      "context": ""
+    },
+    {
+      "chapter": 17,
+      "verse": 12,
+      "context": ""
+    },
+    {
+      "chapter": 18,
+      "verse": 21,
+      "context": ""
+    },
+    {
+      "chapter": 19,
+      "verse": 18,
+      "context": ""
+    },
+    {
+      "chapter": 20,
+      "verse": 34,
+      "context": ""
+    },
+    {
+      "chapter": 21,
+      "verse": 3,
+      "context": ""
+    },
+    {
+      "chapter": 22,
+      "verse": 13,
+      "context": ""
+    }
+  ]
 }

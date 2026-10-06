@@ -2691,7 +2691,7 @@
       "chapter": 1,
       "title": "Joshua receives the charge",
       "summary": "Joshua succeeds Moses. Israel prepares to cross the Jordan, and the eastern tribes promise to help.",
-      "meaning": "Joshua must follow God’s law while leading the people. The eastern tribes must help their neighbors.",
+      "meaning": "Joshua receives command, but the law directs his use of power. Reading and action belong together. Military success does not replace this duty.",
       "people": [
         "joshua",
         "moses",
@@ -2722,13 +2722,21 @@
       "historicalNote": "Read the biblical account beside independent evidence. A named place does not prove an event or date.",
       "mapNote": "Markers show named places and approximate regions. They do not establish exact campaign roads, tribal boundaries, or the date of a conquest.",
       "route": [],
-      "routeEvidence": "A simplified line connects the named sequence in this chapter. It omits uncertain intermediate places and does not trace an excavated road."
+      "routeEvidence": "A simplified line connects the named sequence in this chapter. It omits uncertain intermediate places and does not trace an excavated road.",
+      "contextNote": {
+        "title": "Leadership remains under the law",
+        "text": "Joshua receives command, but the law directs his use of power. Reading and action belong together. Military success does not replace this duty.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
     },
     {
       "chapter": 2,
       "title": "Rahab protects the spies",
       "summary": "Two spies enter Jericho. Rahab hides them and obtains a promise to protect her household.",
-      "meaning": "A woman described as a prostitute acts decisively for her household. Later biblical writers recognize both her faith and her actions.",
+      "meaning": "Rahab explains events before Israel enters the land. Her speech gives a foreign woman a key role in the story. Her household’s rescue also complicates a simple division between peoples. Read her action beside Achan’s failure in chapter 7. Family identity alone does not decide who acts faithfully.",
       "people": [
         "rahab",
         "joshua",
@@ -2757,13 +2765,21 @@
       "historicalNote": "Read the biblical account beside independent evidence. A named place does not prove an event or date.",
       "mapNote": "Markers show named places and approximate regions. They do not establish exact campaign roads, tribal boundaries, or the date of a conquest.",
       "route": [],
-      "routeEvidence": "A simplified line connects the named sequence in this chapter. It omits uncertain intermediate places and does not trace an excavated road."
+      "routeEvidence": "A simplified line connects the named sequence in this chapter. It omits uncertain intermediate places and does not trace an excavated road.",
+      "contextNote": {
+        "title": "The first witness comes from outside",
+        "text": "Rahab explains events before Israel enters the land. Her speech gives a foreign woman a key role in the story. Her household’s rescue also complicates a simple division between peoples. Read her action beside Achan’s failure in chapter 7. Family identity alone does not decide who acts faithfully.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
     },
     {
       "chapter": 3,
       "title": "Crossing the Jordan",
       "summary": "The priests carry the ark into the Jordan. The account describes the waters stopping while Israel crosses.",
-      "meaning": "The crossing helps the people trust Joshua as they trusted Moses. The exact crossing place remains uncertain.",
+      "meaning": "The ark goes before the people rather than following an army. Priests must enter the water before the crossing opens. The scene presents entry as received help, not independent conquest.",
       "people": [
         "joshua",
         "moses"
@@ -2792,13 +2808,21 @@
         "shittim",
         "jordan"
       ],
-      "routeEvidence": "A simplified line connects the named sequence in this chapter. It omits uncertain intermediate places and does not trace an excavated road."
+      "routeEvidence": "A simplified line connects the named sequence in this chapter. It omits uncertain intermediate places and does not trace an excavated road.",
+      "contextNote": {
+        "title": "The crossing gives the priests a public task",
+        "text": "The ark goes before the people rather than following an army. Priests must enter the water before the crossing opens. The scene presents entry as received help, not independent conquest.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
     },
     {
       "chapter": 4,
       "title": "Stones for remembrance",
       "summary": "Twelve representatives take stones from the Jordan. Israel camps at Gilgal and prepares to explain the memorial to children.",
-      "meaning": "The stones help children ask about the crossing. Parents must tell them what happened.",
+      "meaning": "The stones cannot tell their own story. Children must ask, and adults must explain. Memory here needs both a visible object and spoken teaching.",
       "people": [
         "joshua",
         "reuben",
@@ -2830,13 +2854,21 @@
         "jordan",
         "gilgal"
       ],
-      "routeEvidence": "A simplified line connects the named sequence in this chapter. It omits uncertain intermediate places and does not trace an excavated road."
+      "routeEvidence": "A simplified line connects the named sequence in this chapter. It omits uncertain intermediate places and does not trace an excavated road.",
+      "contextNote": {
+        "title": "A memorial requires an explanation",
+        "text": "The stones cannot tell their own story. Children must ask, and adults must explain. Memory here needs both a visible object and spoken teaching.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
     },
     {
       "chapter": 5,
       "title": "Passover and the commander",
       "summary": "Israel renews circumcision and observes Passover. Manna ends. Joshua encounters the commander of the Lord’s army near Jericho.",
-      "meaning": "Israel keeps Passover and eats food from the land. The manna ends as life changes.",
+      "meaning": "Joshua asks which side the stranger supports. The answer redirects him toward the commander's authority. Before taking a city, Joshua must receive instruction himself.",
       "people": [
         "joshua"
       ],
@@ -2861,13 +2893,21 @@
       "historicalNote": "Read the biblical account beside independent evidence. A named place does not prove an event or date.",
       "mapNote": "Markers show named places and approximate regions. They do not establish exact campaign roads, tribal boundaries, or the date of a conquest.",
       "route": [],
-      "routeEvidence": "A simplified line connects the named sequence in this chapter. It omits uncertain intermediate places and does not trace an excavated road."
+      "routeEvidence": "A simplified line connects the named sequence in this chapter. It omits uncertain intermediate places and does not trace an excavated road.",
+      "contextNote": {
+        "title": "The commander changes Joshua's question",
+        "text": "Joshua asks which side the stranger supports. The answer redirects him toward the commander's authority. Before taking a city, Joshua must receive instruction himself.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
     },
     {
       "chapter": 6,
       "title": "Jericho and Rahab’s rescue",
       "summary": "The account describes Jericho’s walls falling after a ritual march. Israel destroys the city but preserves Rahab and her household.",
-      "meaning": "Israel destroys Jericho but keeps its promise to Rahab. Her household survives.",
+      "meaning": "The city's destruction frames Rahab's rescue as an exception. Her earlier protection of the spies now protects her household. The violent account requires attention to both the losses and the spared family.",
       "people": [
         "joshua",
         "rahab"
@@ -2893,13 +2933,21 @@
       "historicalNote": "Read the biblical account beside independent evidence. A named place does not prove an event or date.",
       "mapNote": "Markers show named places and approximate regions. They do not establish exact campaign roads, tribal boundaries, or the date of a conquest.",
       "route": [],
-      "routeEvidence": "A simplified line connects the named sequence in this chapter. It omits uncertain intermediate places and does not trace an excavated road."
+      "routeEvidence": "A simplified line connects the named sequence in this chapter. It omits uncertain intermediate places and does not trace an excavated road.",
+      "contextNote": {
+        "title": "Destruction and rescue occupy the same account",
+        "text": "The city's destruction frames Rahab's rescue as an exception. Her earlier protection of the spies now protects her household. The violent account requires attention to both the losses and the spared family.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
     },
     {
       "chapter": 7,
       "title": "Achan and defeat at Ai",
       "summary": "Israel loses at Ai. Achan admits taking forbidden goods. The account ends with the destruction of his household and possessions.",
-      "meaning": "The story connects individual wrongdoing with collective disaster. The severe punishment is part of its ancient setting.",
+      "meaning": "Achan describes seeing, wanting, and taking in that order. His buried goods connect private desire with the people’s defeat. The household's destruction makes the judgment's reach especially difficult.",
       "people": [
         "joshua",
         "achan",
@@ -2926,13 +2974,21 @@
       "historicalNote": "Read the biblical account beside independent evidence. A named place does not prove an event or date.",
       "mapNote": "Markers show named places and approximate regions. They do not establish exact campaign roads, tribal boundaries, or the date of a conquest.",
       "route": [],
-      "routeEvidence": "A simplified line connects the named sequence in this chapter. It omits uncertain intermediate places and does not trace an excavated road."
+      "routeEvidence": "A simplified line connects the named sequence in this chapter. It omits uncertain intermediate places and does not trace an excavated road.",
+      "contextNote": {
+        "title": "Hidden goods create a public crisis",
+        "text": "Achan describes seeing, wanting, and taking in that order. His buried goods connect private desire with the people’s defeat. The household's destruction makes the judgment's reach especially difficult.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
     },
     {
       "chapter": 8,
       "title": "Ai and the law at Ebal",
       "summary": "Joshua captures Ai through an ambush. He then builds an altar on Ebal and reads the law before the assembly.",
-      "meaning": "Victory at Ai leads to a public reading of the law. Both children and strangers hear it.",
+      "meaning": "The public reading includes women, children, and resident foreigners. These listeners have a place beyond their role in battle. Conquest gives way to a community hearing shared obligations.",
       "people": [
         "joshua",
         "moses"
@@ -2960,13 +3016,21 @@
       "historicalNote": "Read the biblical account beside independent evidence. A named place does not prove an event or date.",
       "mapNote": "Markers show named places and approximate regions. They do not establish exact campaign roads, tribal boundaries, or the date of a conquest.",
       "route": [],
-      "routeEvidence": "A simplified line connects the named sequence in this chapter. It omits uncertain intermediate places and does not trace an excavated road."
+      "routeEvidence": "A simplified line connects the named sequence in this chapter. It omits uncertain intermediate places and does not trace an excavated road.",
+      "contextNote": {
+        "title": "The law is heard beyond the fighting force",
+        "text": "The public reading includes women, children, and resident foreigners. These listeners have a place beyond their role in battle. Conquest gives way to a community hearing shared obligations.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
     },
     {
       "chapter": 9,
       "title": "The Gibeonite agreement",
       "summary": "Gibeonite envoys disguise their nearby origin. Israel swears an oath, then assigns them forced labor after discovering the deception.",
-      "meaning": "Israel's leaders keep their oath to spare Gibeon. They assign its people work carrying water and wood.",
+      "meaning": "The leaders agree to peace without asking God. Discovery of the deception does not cancel their oath. The account holds mistaken judgment and binding speech together. It also explains the Gibeonites’ later service within Israel. The settlement story includes dependence and negotiated survival, as well as battles.",
       "people": [
         "joshua",
         "moses",
@@ -2993,13 +3057,21 @@
       "historicalNote": "Read the biblical account beside independent evidence. A named place does not prove an event or date.",
       "mapNote": "Markers show named places and approximate regions. They do not establish exact campaign roads, tribal boundaries, or the date of a conquest.",
       "route": [],
-      "routeEvidence": "A simplified line connects the named sequence in this chapter. It omits uncertain intermediate places and does not trace an excavated road."
+      "routeEvidence": "A simplified line connects the named sequence in this chapter. It omits uncertain intermediate places and does not trace an excavated road.",
+      "contextNote": {
+        "title": "An oath survives a failed decision",
+        "text": "The leaders agree to peace without asking God. Discovery of the deception does not cancel their oath. The account holds mistaken judgment and binding speech together. It also explains the Gibeonites’ later service within Israel. The settlement story includes dependence and negotiated survival, as well as battles.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
     },
     {
       "chapter": 10,
       "title": "The southern coalition",
       "summary": "Five kings attack Gibeon. Joshua comes to its aid. The account describes hail, an extended day, and southern campaigns.",
-      "meaning": "Joshua answers Gibeon’s call for help. The chapter includes a poem about the sun and moon.",
+      "meaning": "Gibeon's request tests the peace agreement from the previous chapter. Joshua now defends people who deceived him. The oath changes Israel's duties toward a neighboring community.",
       "people": [
         "joshua",
         "adoni-zedek",
@@ -3040,13 +3112,21 @@
         "beth-horon",
         "azekah"
       ],
-      "routeEvidence": "A simplified line connects the named sequence in this chapter. It omits uncertain intermediate places and does not trace an excavated road."
+      "routeEvidence": "A simplified line connects the named sequence in this chapter. It omits uncertain intermediate places and does not trace an excavated road.",
+      "contextNote": {
+        "title": "An agreement creates a duty in war",
+        "text": "Gibeon's request tests the peace agreement from the previous chapter. Joshua now defends people who deceived him. The oath changes Israel's duties toward a neighboring community.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
     },
     {
       "chapter": 11,
       "title": "Hazor and northern war",
       "summary": "Jabin gathers northern allies. Joshua defeats them and burns Hazor. The chapter describes long warfare and broad conquest.",
-      "meaning": "Joshua orders the burning of Hazor. He follows the command to disable enemy horses and chariots.",
+      "meaning": "The chapter's broad victory language stands beside a notice of prolonged war. These different scales describe the campaign differently. Read the closing claims beside the remaining land in chapter 13.",
       "people": [
         "joshua",
         "jabin-joshua",
@@ -3078,13 +3158,21 @@
       "historicalNote": "Read the biblical account beside independent evidence. A named place does not prove an event or date.",
       "mapNote": "Markers show named places and approximate regions. They do not establish exact campaign roads, tribal boundaries, or the date of a conquest.",
       "route": [],
-      "routeEvidence": "A simplified line connects the named sequence in this chapter. It omits uncertain intermediate places and does not trace an excavated road."
+      "routeEvidence": "A simplified line connects the named sequence in this chapter. It omits uncertain intermediate places and does not trace an excavated road.",
+      "contextNote": {
+        "title": "The account preserves a long campaign",
+        "text": "The chapter's broad victory language stands beside a notice of prolonged war. These different scales describe the campaign differently. Read the closing claims beside the remaining land in chapter 13.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
     },
     {
       "chapter": 12,
       "title": "The defeated kings listed",
       "summary": "The chapter lists eastern victories under Moses and western kings defeated under Joshua.",
-      "meaning": "The list gathers the book’s victories into one record. It names kings east and west of the Jordan.",
+      "meaning": "The named kings turn separate battles into a collected account. The list joins Moses' eastern campaigns with Joshua's western ones. It organizes remembered victories rather than supplying dates for each battle.",
       "people": [
         "joshua",
         "moses",
@@ -3115,13 +3203,21 @@
       "historicalNote": "Read the biblical account beside independent evidence. A named place does not prove an event or date.",
       "mapNote": "Markers show named places and approximate regions. They do not establish exact campaign roads, tribal boundaries, or the date of a conquest.",
       "route": [],
-      "routeEvidence": "A simplified line connects the named sequence in this chapter. It omits uncertain intermediate places and does not trace an excavated road."
+      "routeEvidence": "A simplified line connects the named sequence in this chapter. It omits uncertain intermediate places and does not trace an excavated road.",
+      "contextNote": {
+        "title": "A list gives conquest a remembered shape",
+        "text": "The named kings turn separate battles into a collected account. The list joins Moses' eastern campaigns with Joshua's western ones. It organizes remembered victories rather than supplying dates for each battle.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
     },
     {
       "chapter": 13,
       "title": "Remaining land and eastern inheritance",
       "summary": "Joshua is old, and land remains to be possessed. The chapter records eastern inheritances and recalls Balaam’s death.",
-      "meaning": "Joshua grows old while much land remains unclaimed. The tribes still have work ahead.",
+      "meaning": "The opening names Joshua's age and land still unpossessed. This qualification follows the earlier broad victory statements. The book distinguishes a campaign's outcome from each tribe's later settlement.",
       "people": [
         "joshua",
         "moses",
@@ -3157,13 +3253,21 @@
       "historicalNote": "Read the biblical account beside independent evidence. A named place does not prove an event or date.",
       "mapNote": "Markers show named places and approximate regions. They do not establish exact campaign roads, tribal boundaries, or the date of a conquest.",
       "route": [],
-      "routeEvidence": "A simplified line connects the named sequence in this chapter. It omits uncertain intermediate places and does not trace an excavated road."
+      "routeEvidence": "A simplified line connects the named sequence in this chapter. It omits uncertain intermediate places and does not trace an excavated road.",
+      "contextNote": {
+        "title": "A completed campaign is not complete possession",
+        "text": "The opening names Joshua's age and land still unpossessed. This qualification follows the earlier broad victory statements. The book distinguishes a campaign's outcome from each tribe's later settlement.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
     },
     {
       "chapter": 14,
       "title": "Caleb requests Hebron",
       "summary": "Joshua and Eleazar oversee allotments. Caleb recalls the scouting mission and requests Hebron.",
-      "meaning": "Caleb asks for the land promised to him. He recalls remaining faithful when the other scouts feared Canaan.",
+      "meaning": "Caleb links his request to the scouting journey under Moses. His remembered conduct supports his present claim. The allotment connects the new settlement with promises made before the wilderness years.",
       "people": [
         "joshua",
         "eleazar",
@@ -3194,13 +3298,21 @@
       "historicalNote": "Read the biblical account beside independent evidence. A named place does not prove an event or date.",
       "mapNote": "Markers show named places and approximate regions. They do not establish exact campaign roads, tribal boundaries, or the date of a conquest.",
       "route": [],
-      "routeEvidence": "A simplified line connects the named sequence in this chapter. It omits uncertain intermediate places and does not trace an excavated road."
+      "routeEvidence": "A simplified line connects the named sequence in this chapter. It omits uncertain intermediate places and does not trace an excavated road.",
+      "contextNote": {
+        "title": "An earlier witness becomes a land claim",
+        "text": "Caleb links his request to the scouting journey under Moses. His remembered conduct supports his present claim. The allotment connects the new settlement with promises made before the wilderness years.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
     },
     {
       "chapter": 15,
       "title": "Judah’s land and Achsah’s request",
       "summary": "The chapter lists Judah’s boundaries and towns. Othniel takes Debir. Achsah asks Caleb for springs. Jebusites remain in Jerusalem.",
-      "meaning": "Achsah asks for springs as well as land. Water makes her family's gift more useful.",
+      "meaning": "Achsah asks for springs after receiving land. Her request identifies what makes that gift usable. The boundary lists therefore include a woman's practical claim about household resources.",
       "people": [
         "caleb",
         "othniel",
@@ -3233,13 +3345,21 @@
       "historicalNote": "Read the biblical account beside independent evidence. A named place does not prove an event or date.",
       "mapNote": "Markers show named places and approximate regions. They do not establish exact campaign roads, tribal boundaries, or the date of a conquest.",
       "route": [],
-      "routeEvidence": "A simplified line connects the named sequence in this chapter. It omits uncertain intermediate places and does not trace an excavated road."
+      "routeEvidence": "A simplified line connects the named sequence in this chapter. It omits uncertain intermediate places and does not trace an excavated road.",
+      "contextNote": {
+        "title": "A land gift still needs water",
+        "text": "Achsah asks for springs after receiving land. Her request identifies what makes that gift usable. The boundary lists therefore include a woman's practical claim about household resources.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
     },
     {
       "chapter": 16,
       "title": "Ephraim’s allotment",
       "summary": "The chapter describes Joseph’s descendants and Ephraim’s territory. Canaanites remain at Gezer under forced labor.",
-      "meaning": "Ephraim receives land but leaves Canaanites at Gezer. The people there become forced workers.",
+      "meaning": "The closing notice describes Canaanites remaining under forced labor. This differs from an account of every resident being removed. Territory, population, and control do not mean the same thing.",
       "people": [
         "joseph",
         "ephraim",
@@ -3267,13 +3387,21 @@
       "historicalNote": "Read the biblical account beside independent evidence. A named place does not prove an event or date.",
       "mapNote": "Markers show named places and approximate regions. They do not establish exact campaign roads, tribal boundaries, or the date of a conquest.",
       "route": [],
-      "routeEvidence": "A simplified line connects the named sequence in this chapter. It omits uncertain intermediate places and does not trace an excavated road."
+      "routeEvidence": "A simplified line connects the named sequence in this chapter. It omits uncertain intermediate places and does not trace an excavated road.",
+      "contextNote": {
+        "title": "Settlement includes dependence within shared towns",
+        "text": "The closing notice describes Canaanites remaining under forced labor. This differs from an account of every resident being removed. Territory, population, and control do not mean the same thing.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
     },
     {
       "chapter": 17,
       "title": "Manasseh and the daughters’ inheritance",
       "summary": "Zelophehad’s daughters receive land under the earlier ruling. Joseph’s descendants request more territory. Canaanite towns remain.",
-      "meaning": "Zelophehad’s daughters receive their promised land. Joseph’s tribes must clear forests instead of seeking an easier share.",
+      "meaning": "The daughters ask the leaders to apply Moses' earlier ruling. Their request turns a law into a share of land. The surrounding lists show how inheritance determines a household's continuing place.",
       "people": [
         "joshua",
         "eleazar",
@@ -3310,13 +3438,21 @@
       "historicalNote": "Read the biblical account beside independent evidence. A named place does not prove an event or date.",
       "mapNote": "Markers show named places and approximate regions. They do not establish exact campaign roads, tribal boundaries, or the date of a conquest.",
       "route": [],
-      "routeEvidence": "A simplified line connects the named sequence in this chapter. It omits uncertain intermediate places and does not trace an excavated road."
+      "routeEvidence": "A simplified line connects the named sequence in this chapter. It omits uncertain intermediate places and does not trace an excavated road.",
+      "contextNote": {
+        "title": "A promised rule must reach actual families",
+        "text": "The daughters ask the leaders to apply Moses' earlier ruling. Their request turns a law into a share of land. The surrounding lists show how inheritance determines a household's continuing place.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
     },
     {
       "chapter": 18,
       "title": "Shiloh and Benjamin’s portion",
       "summary": "Israel assembles at Shiloh. Surveyors describe the remaining land. Joshua assigns Benjamin’s allotment by lot.",
-      "meaning": "The people gather at Shiloh. Joshua sends men to survey land for seven tribes.",
+      "meaning": "Surveyors describe the land before the remaining portions are assigned. Their writing makes local places available for a common decision. The account combines investigation with assignment by lot.",
       "people": [
         "joshua",
         "benjamin",
@@ -3350,13 +3486,21 @@
       "historicalNote": "Read the biblical account beside independent evidence. A named place does not prove an event or date.",
       "mapNote": "Markers show named places and approximate regions. They do not establish exact campaign roads, tribal boundaries, or the date of a conquest.",
       "route": [],
-      "routeEvidence": "A simplified line connects the named sequence in this chapter. It omits uncertain intermediate places and does not trace an excavated road."
+      "routeEvidence": "A simplified line connects the named sequence in this chapter. It omits uncertain intermediate places and does not trace an excavated road.",
+      "contextNote": {
+        "title": "An allotment requires shared knowledge of land",
+        "text": "Surveyors describe the land before the remaining portions are assigned. Their writing makes local places available for a common decision. The account combines investigation with assignment by lot.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
     },
     {
       "chapter": 19,
       "title": "Remaining allotments and Joshua’s town",
       "summary": "The chapter lists portions for Simeon, Zebulun, Issachar, Asher, Naphtali, and Dan. Joshua receives Timnath-serah.",
-      "meaning": "Lots assign land to the remaining tribes. Joshua receives his own town after their shares.",
+      "meaning": "Joshua's town appears after the other allotments. This placement gives his claim a different position from theirs. Leadership does not place his own inheritance first in the account.",
       "people": [
         "joshua",
         "eleazar",
@@ -3390,13 +3534,21 @@
       "historicalNote": "Read the biblical account beside independent evidence. A named place does not prove an event or date.",
       "mapNote": "Markers show named places and approximate regions. They do not establish exact campaign roads, tribal boundaries, or the date of a conquest.",
       "route": [],
-      "routeEvidence": "A simplified line connects the named sequence in this chapter. It omits uncertain intermediate places and does not trace an excavated road."
+      "routeEvidence": "A simplified line connects the named sequence in this chapter. It omits uncertain intermediate places and does not trace an excavated road.",
+      "contextNote": {
+        "title": "The leader receives his portion last",
+        "text": "Joshua's town appears after the other allotments. This placement gives his claim a different position from theirs. Leadership does not place his own inheritance first in the account.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
     },
     {
       "chapter": 20,
       "title": "Cities of refuge",
       "summary": "Six towns provide refuge for a person accused of accidental killing until a hearing.",
-      "meaning": "An accused person can flee to a safe city. A hearing must decide what happened.",
+      "meaning": "The refuge city separates accusation from immediate revenge. Its elders hear the fugitive's account before granting entry. Protection does not end the case but allows judgment before further killing.",
       "people": [
         "joshua",
         "moses",
@@ -3429,13 +3581,21 @@
       "historicalNote": "Read the biblical account beside independent evidence. A named place does not prove an event or date.",
       "mapNote": "Markers show named places and approximate regions. They do not establish exact campaign roads, tribal boundaries, or the date of a conquest.",
       "route": [],
-      "routeEvidence": "A simplified line connects the named sequence in this chapter. It omits uncertain intermediate places and does not trace an excavated road."
+      "routeEvidence": "A simplified line connects the named sequence in this chapter. It omits uncertain intermediate places and does not trace an excavated road.",
+      "contextNote": {
+        "title": "Protection leaves room for a hearing",
+        "text": "The refuge city separates accusation from immediate revenge. Its elders hear the fugitive's account before granting entry. Protection does not end the case but allows judgment before further killing.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
     },
     {
       "chapter": 21,
       "title": "Levitical towns and fulfillment",
       "summary": "Levite leaders request the towns promised through Moses. The chapter lists towns and ends with a statement of fulfilled promises.",
-      "meaning": "Levites receive towns among the other tribes. The closing words praise God for keeping his promises.",
+      "meaning": "The Levites receive towns within the other tribes' portions. Their service therefore depends on shared land and pasture. The closing promise statement follows this practical distribution of resources.",
       "people": [
         "joshua",
         "eleazar",
@@ -3476,13 +3636,21 @@
       "historicalNote": "Read the biblical account beside independent evidence. A named place does not prove an event or date.",
       "mapNote": "Markers show named places and approximate regions. They do not establish exact campaign roads, tribal boundaries, or the date of a conquest.",
       "route": [],
-      "routeEvidence": "A simplified line connects the named sequence in this chapter. It omits uncertain intermediate places and does not trace an excavated road."
+      "routeEvidence": "A simplified line connects the named sequence in this chapter. It omits uncertain intermediate places and does not trace an excavated road.",
+      "contextNote": {
+        "title": "Sacred service depends on other households",
+        "text": "The Levites receive towns within the other tribes' portions. Their service therefore depends on shared land and pasture. The closing promise statement follows this practical distribution of resources.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
     },
     {
       "chapter": 22,
       "title": "An altar and a dispute",
       "summary": "Eastern tribes return home and build an altar. Phinehas leads a delegation. An explanation prevents war between the tribes.",
-      "meaning": "The tribes ask about the altar before they fight. An explanation prevents war between relatives.",
+      "meaning": "The western tribes read the altar as a rival worship site. Its builders explain it as testimony of shared belonging. Dialogue prevents a war caused by conflicting readings of the same object.",
       "people": [
         "joshua",
         "phinehas",
@@ -3517,13 +3685,21 @@
         "shiloh",
         "gilead"
       ],
-      "routeEvidence": "A simplified line connects the named sequence in this chapter. It omits uncertain intermediate places and does not trace an excavated road."
+      "routeEvidence": "A simplified line connects the named sequence in this chapter. It omits uncertain intermediate places and does not trace an excavated road.",
+      "contextNote": {
+        "title": "A visible object can carry different meanings",
+        "text": "The western tribes read the altar as a rival worship site. Its builders explain it as testimony of shared belonging. Dialogue prevents a war caused by conflicting readings of the same object.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
     },
     {
       "chapter": 23,
       "title": "Joshua’s farewell warning",
       "summary": "Joshua warns Israel’s leaders about worshiping other gods. He urges them to keep God’s covenant.",
-      "meaning": "The farewell acknowledges neighboring peoples still present. Its separation commands belong to this ancient covenant setting.",
+      "meaning": "Joshua's warning follows the descriptions of allotted land. Possession does not remove the possibility of later loss. The ending ties continued life together to obligations beyond military victory.",
       "people": [
         "joshua",
         "moses"
@@ -3548,13 +3724,21 @@
       "historicalNote": "Read the biblical account beside independent evidence. A named place does not prove an event or date.",
       "mapNote": "Markers show named places and approximate regions. They do not establish exact campaign roads, tribal boundaries, or the date of a conquest.",
       "route": [],
-      "routeEvidence": "A simplified line connects the named sequence in this chapter. It omits uncertain intermediate places and does not trace an excavated road."
+      "routeEvidence": "A simplified line connects the named sequence in this chapter. It omits uncertain intermediate places and does not trace an excavated road.",
+      "contextNote": {
+        "title": "The farewell names limits to future security",
+        "text": "Joshua's warning follows the descriptions of allotted land. Possession does not remove the possibility of later loss. The ending ties continued life together to obligations beyond military victory.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
     },
     {
       "chapter": 24,
       "title": "The covenant at Shechem",
       "summary": "Joshua recalls the ancestors and Israel’s journey. The people renew the covenant. The book records Joshua’s death and the burials of Joseph and Eleazar.",
-      "meaning": "Joshua recalls God's help and asks the people to choose. Their promise becomes part of shared memory.",
+      "meaning": "Joshua’s final speech turns from battles to choices about worship. He names the gods connected with the people’s past and present. Living in the land does not make loyalty automatic. The people must answer in public. The book ends with obligations that military victory cannot complete.",
       "people": [
         "joshua",
         "terah",
@@ -3596,7 +3780,15 @@
       "historicalNote": "Read the biblical account beside independent evidence. A named place does not prove an event or date.",
       "mapNote": "Markers show named places and approximate regions. They do not establish exact campaign roads, tribal boundaries, or the date of a conquest.",
       "route": [],
-      "routeEvidence": "A simplified line connects the named sequence in this chapter. It omits uncertain intermediate places and does not trace an excavated road."
+      "routeEvidence": "A simplified line connects the named sequence in this chapter. It omits uncertain intermediate places and does not trace an excavated road.",
+      "contextNote": {
+        "title": "Land possession does not finish the story",
+        "text": "Joshua’s final speech turns from battles to choices about worship. He names the gods connected with the people’s past and present. Living in the land does not make loyalty automatic. The people must answer in public. The book ends with obligations that military victory cannot complete.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
     }
   ],
   "people": [
@@ -4801,8 +4993,169 @@
     "nextBook": "judges",
     "sourcePolicy": "BIBLE-SOURCE-POLICY.md",
     "sourceEnrichmentDate": "2026-10-05",
-    "copyReview": "2026-10-05: Reader copy reviewed against WRITING-GUIDE.md. Scripture and source titles preserved."
+    "copyReview": "2026-10-05: Reader copy reviewed against WRITING-GUIDE.md. Scripture and source titles preserved.",
+    "contextReview": {
+      "date": "2026-10-05",
+      "chapters": 24,
+      "scope": "Original close readings grounded in local World English Bible passages. Existing external source reviews remain separate."
+    }
   },
   "translation": "World English Bible",
-  "copyright": "Public domain"
+  "copyright": "Public domain",
+  "chapterStudies": [
+    {
+      "chapter": 1,
+      "verse": 8,
+      "context": ""
+    },
+    {
+      "chapter": 2,
+      "verse": 11,
+      "context": ""
+    },
+    {
+      "chapter": 3,
+      "verse": 13,
+      "context": ""
+    },
+    {
+      "chapter": 4,
+      "verse": 6,
+      "context": ""
+    },
+    {
+      "chapter": 5,
+      "verse": 14,
+      "context": ""
+    },
+    {
+      "chapter": 6,
+      "verse": 25,
+      "context": ""
+    },
+    {
+      "chapter": 7,
+      "verse": 21,
+      "context": ""
+    },
+    {
+      "chapter": 8,
+      "verse": 35,
+      "context": ""
+    },
+    {
+      "chapter": 9,
+      "verse": 15,
+      "context": ""
+    },
+    {
+      "chapter": 10,
+      "verse": 6,
+      "context": ""
+    },
+    {
+      "chapter": 11,
+      "verse": 18,
+      "context": ""
+    },
+    {
+      "chapter": 12,
+      "verse": 24,
+      "context": ""
+    },
+    {
+      "chapter": 13,
+      "verse": 1,
+      "context": ""
+    },
+    {
+      "chapter": 14,
+      "verse": 12,
+      "context": ""
+    },
+    {
+      "chapter": 15,
+      "verse": 19,
+      "context": ""
+    },
+    {
+      "chapter": 16,
+      "verse": 10,
+      "context": ""
+    },
+    {
+      "chapter": 17,
+      "verse": 4,
+      "context": ""
+    },
+    {
+      "chapter": 18,
+      "verse": 8,
+      "context": ""
+    },
+    {
+      "chapter": 19,
+      "verse": 49,
+      "context": ""
+    },
+    {
+      "chapter": 20,
+      "verse": 5,
+      "context": ""
+    },
+    {
+      "chapter": 21,
+      "verse": 3,
+      "context": ""
+    },
+    {
+      "chapter": 22,
+      "verse": 27,
+      "context": ""
+    },
+    {
+      "chapter": 23,
+      "verse": 13,
+      "context": ""
+    },
+    {
+      "chapter": 24,
+      "verse": 15,
+      "context": ""
+    }
+  ],
+  "contextGuide": {
+    "id": "joshua-context",
+    "title": "Joshua: context and evidence",
+    "description": "Explore the book’s larger concerns through selected passages and relevant evidence.",
+    "steps": [
+      {
+        "title": "The first witness comes from outside",
+        "text": "Rahab explains events before Israel enters the land. Her speech gives a foreign woman a key role in the story. Her household’s rescue also complicates a simple division between peoples. Read her action beside Achan’s failure in chapter 7. Family identity alone does not decide who acts faithfully.",
+        "chapter": 2,
+        "verse": 11,
+        "sourceIds": [
+          "web"
+        ]
+      },
+      {
+        "title": "An oath survives a failed decision",
+        "text": "The leaders agree to peace without asking God. Discovery of the deception does not cancel their oath. The account holds mistaken judgment and binding speech together. It also explains the Gibeonites’ later service within Israel. The settlement story includes dependence and negotiated survival, as well as battles.",
+        "chapter": 9,
+        "verse": 15,
+        "sourceIds": [
+          "web"
+        ]
+      },
+      {
+        "title": "Land possession does not finish the story",
+        "text": "Joshua’s final speech turns from battles to choices about worship. He names the gods connected with the people’s past and present. Living in the land does not make loyalty automatic. The people must answer in public. The book ends with obligations that military victory cannot complete.",
+        "chapter": 24,
+        "verse": 15,
+        "sourceIds": [
+          "web"
+        ]
+      }
+    ]
+  }
 }

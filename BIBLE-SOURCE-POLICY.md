@@ -26,4 +26,10 @@ Prefer original papers, academic books, university lectures, museum catalogues, 
 
 ## Release review
 
+Every ready chapter must include an original close reading of a selected local Scripture passage. Review the surrounding verses before choosing its anchor. Explain the chapter's form, social situation, or consequences rather than repeating its events. Record coverage separately from the review of external scholarship.
+
+Original close readings use the local World English Bible as their primary text. A complete chapter inventory does not mean every external linked work received a new review. Preserve each existing source's actual access and review limits. New archaeological or historical assertions require reviewed primary evidence.
+
+Use real artifact photographs only where their identity and passage connection are clear. State whether an object directly relates to the account or supplies a regional comparison. Preserve collection identity, object date, dimensions, credits, and reuse rights. Use `imageChapters` to limit image display independently of broader source associations. Do not require an image where no relevant verified object is available.
+
 Review narrative notes, person descriptors, dates, relationships, location claims, route claims, and image credits. Sources must support the specific claim. Do not add irrelevant material to fill a category. Leave inaccessible or unreviewed material out of the published guide. Document remaining review work rather than marking it verified.

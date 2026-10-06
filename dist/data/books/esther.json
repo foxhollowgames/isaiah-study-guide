@@ -699,7 +699,7 @@
       "chapter": 1,
       "title": "Vashti refuses the king",
       "summary": "Ahasuerus holds large feasts. Vashti refuses his order to appear. Memucan urges him to replace her.",
-      "meaning": "One refusal becomes a rule for every household. The king’s advisers fear women following Vashti’s example.",
+      "meaning": "The advisers treat Vashti's refusal as a threat beyond the palace. Their proposed response extends royal authority into every household. The many languages of the letters enlarge one court conflict into a royal order. That pattern prepares readers for the later letters against the Jews.",
       "people": [
         "ahasuerus-esther",
         "vashti",
@@ -727,13 +727,21 @@
       "historicalNote": "Luther Seminary reads the palace story through its changing fortunes.",
       "mapNote": "Susa marks the story’s setting. Individual rooms and courier roads are not mapped.",
       "route": [],
-      "routeEvidence": "No exact travel route is reconstructed."
+      "routeEvidence": "No exact travel route is reconstructed.",
+      "contextNote": {
+        "title": "A court turns one refusal into a household rule",
+        "text": "The advisers treat Vashti's refusal as a threat beyond the palace. Their proposed response extends royal authority into every household. The many languages of the letters enlarge one court conflict into a royal order. That pattern prepares readers for the later letters against the Jews.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
     },
     {
       "chapter": 2,
       "title": "Esther becomes queen",
       "summary": "Hegai helps Esther in the women’s house. Ahasuerus chooses her as queen. Mordecai reports a plot against him.",
-      "meaning": "Esther keeps her people and family secret. The report of Mordecai’s help enters the king’s records.",
+      "meaning": "Esther gains favor while keeping her family identity concealed. The account follows preparation, selection, and commands within the women's house. Royal preference shapes the choices available to its residents. Mordecai's recorded service adds a second hidden fact that will later change the court.",
       "people": [
         "ahasuerus-esther",
         "vashti",
@@ -758,7 +766,8 @@
         "atlas",
         "atlas-canaan",
         "luther-esther",
-        "mcclellan-esther"
+        "mcclellan-esther",
+        "met-544042"
       ],
       "lds": {
         "text": "Come, Follow Me studies Mordecai’s care for Esther. How does he help her after she becomes queen?",
@@ -772,13 +781,23 @@
       "historicalNote": "Luther Seminary reads the palace story through its changing fortunes.",
       "mapNote": "Jerusalem and Babylon belong to the earlier family account. The palace story takes place in Susa.",
       "route": [],
-      "routeEvidence": "No exact travel route is reconstructed."
+      "routeEvidence": "No exact travel route is reconstructed.",
+      "contextNote": {
+        "title": "Access to the court does not equal freedom",
+        "text": "Esther gains favor while keeping her family identity concealed. The account follows preparation, selection, and commands within the women's house. Royal preference shapes the choices available to its residents. Mordecai's recorded service adds a second hidden fact that will later change the court.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": [
+          "met-544042"
+        ]
+      }
     },
     {
       "chapter": 3,
       "title": "Haman orders the Jews’ deaths",
       "summary": "Mordecai refuses to bow to Haman. Haman obtains the king’s ring and sends orders to kill all the Jews.",
-      "meaning": "Haman turns anger at one man against a whole people. Written orders spread the danger.",
+      "meaning": "The threat travels through officials, languages, letters, and the royal seal. A court decision can reach households far from the palace. Haman turns local hatred into an order for mass killing. The story makes the machinery of rule part of the danger. Authority must be answered at that same public level.",
       "people": [
         "ahasuerus-esther",
         "mordecai",
@@ -794,7 +813,8 @@
         "web",
         "atlas",
         "atlas-canaan",
-        "luther-esther"
+        "luther-esther",
+        "met-326387"
       ],
       "lds": {
         "text": "Come, Follow Me studies Haman’s anger. How does his anger at Mordecai threaten all the Jews?",
@@ -808,13 +828,23 @@
       "historicalNote": "Luther Seminary reads the palace story through its changing fortunes.",
       "mapNote": "Susa marks the story’s setting. Individual rooms and courier roads are not mapped.",
       "route": [],
-      "routeEvidence": "No exact travel route is reconstructed."
+      "routeEvidence": "No exact travel route is reconstructed.",
+      "contextNote": {
+        "title": "A written order carries danger across distance",
+        "text": "The threat travels through officials, languages, letters, and the royal seal. A court decision can reach households far from the palace. Haman turns local hatred into an order for mass killing. The story makes the machinery of rule part of the danger. Authority must be answered at that same public level.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": [
+          "met-326387"
+        ]
+      }
     },
     {
       "chapter": 4,
       "title": "Esther decides to approach the king",
       "summary": "Hathach carries messages between Mordecai and Esther. Esther asks the Jews to fast before she risks approaching the king.",
-      "meaning": "The palace does not protect Esther from danger to her people. She asks others to share her preparation.",
+      "meaning": "Mordecai warns that the royal house cannot guarantee Esther's safety. Her hidden identity now becomes a claim on her action. She answers with a shared fast before taking a personal risk. The exchange changes her from a selected queen into a public advocate.",
       "people": [
         "esther",
         "mordecai",
@@ -844,13 +874,21 @@
       "historicalNote": "Luther Seminary reads the palace story through its changing fortunes.",
       "mapNote": "Susa marks the story’s setting. Individual rooms and courier roads are not mapped.",
       "route": [],
-      "routeEvidence": "No exact travel route is reconstructed."
+      "routeEvidence": "No exact travel route is reconstructed.",
+      "contextNote": {
+        "title": "The palace cannot separate one person from a threatened people",
+        "text": "Mordecai warns that the royal house cannot guarantee Esther's safety. Her hidden identity now becomes a claim on her action. She answers with a shared fast before taking a personal risk. The exchange changes her from a selected queen into a public advocate.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
     },
     {
       "chapter": 5,
       "title": "Two invitations and Haman’s anger",
       "summary": "The king receives Esther. She invites him and Haman to two meals. Zeresh suggests preparing a gallows for Mordecai.",
-      "meaning": "Haman’s honors cannot satisfy him while Mordecai refuses to bow. His friends strengthen his plan.",
+      "meaning": "Haman lists wealth, family, and royal favor before dismissing them as insufficient. One man's refusal to bow outweighs all those honors for him. Esther's delayed request builds tension while he prepares violence. The chapter exposes how status can increase rather than settle resentment.",
       "people": [
         "ahasuerus-esther",
         "esther",
@@ -880,13 +918,21 @@
       "historicalNote": "Luther Seminary reads the palace story through its changing fortunes.",
       "mapNote": "Susa marks the story’s setting. Individual rooms and courier roads are not mapped.",
       "route": [],
-      "routeEvidence": "No exact travel route is reconstructed."
+      "routeEvidence": "No exact travel route is reconstructed.",
+      "contextNote": {
+        "title": "Honor does not satisfy a demand for submission",
+        "text": "Haman lists wealth, family, and royal favor before dismissing them as insufficient. One man's refusal to bow outweighs all those honors for him. Esther's delayed request builds tension while he prepares violence. The chapter exposes how status can increase rather than settle resentment.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
     },
     {
       "chapter": 6,
       "title": "Haman must honor Mordecai",
       "summary": "The king hears how Mordecai saved him. Haman must lead Mordecai through the city with royal clothing and a horse.",
-      "meaning": "Haman expects honor for himself. Instead, he must praise the man he wants to kill.",
+      "meaning": "A sleepless king asks for records of earlier service. Mordecai’s forgotten act suddenly gains value at court. Haman arrives with a different purpose and loses control of the scene. The reversal grows from timing, memory, and mistaken expectation. The book lets ordinary court routines carry extraordinary consequences.",
       "people": [
         "ahasuerus-esther",
         "haman",
@@ -915,13 +961,21 @@
       "historicalNote": "Luther Seminary reads the palace story through its changing fortunes.",
       "mapNote": "Susa marks the story’s setting. Individual rooms and courier roads are not mapped.",
       "route": [],
-      "routeEvidence": "No exact travel route is reconstructed."
+      "routeEvidence": "No exact travel route is reconstructed.",
+      "contextNote": {
+        "title": "An unread reward becomes the turning point",
+        "text": "A sleepless king asks for records of earlier service. Mordecai’s forgotten act suddenly gains value at court. Haman arrives with a different purpose and loses control of the scene. The reversal grows from timing, memory, and mistaken expectation. The book lets ordinary court routines carry extraordinary consequences.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
     },
     {
       "chapter": 7,
       "title": "Esther names Haman as the enemy",
       "summary": "Esther asks for her life and her people’s lives. She names Haman. Harbonah points out the gallows, and Haman dies.",
-      "meaning": "Esther connects the threat to herself before naming its author. The king turns against Haman.",
+      "meaning": "Her appeal begins with her own life before naming the danger to her people. The king must confront the consequence of an order bearing his authority. Haman's collapse comes through the court's sudden change of favor. That reversal does not yet remove the written threat.",
       "people": [
         "ahasuerus-esther",
         "esther",
@@ -950,13 +1004,21 @@
       "historicalNote": "Luther Seminary reads the palace story through its changing fortunes.",
       "mapNote": "Susa marks the story’s setting. Individual rooms and courier roads are not mapped.",
       "route": [],
-      "routeEvidence": "No exact travel route is reconstructed."
+      "routeEvidence": "No exact travel route is reconstructed.",
+      "contextNote": {
+        "title": "Esther gives the policy a face the king recognizes",
+        "text": "Her appeal begins with her own life before naming the danger to her people. The king must confront the consequence of an order bearing his authority. Haman's collapse comes through the court's sudden change of favor. That reversal does not yet remove the written threat.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
     },
     {
       "chapter": 8,
       "title": "New orders allow the Jews to fight",
       "summary": "Esther asks again for her people. Mordecai receives the king’s ring. New letters permit the Jews to gather and fight attackers.",
-      "meaning": "Haman’s death does not cancel his letters. Esther keeps asking until new orders address the remaining danger.",
+      "meaning": "The king's explanation limits what can happen to a sealed decree. Esther's success therefore requires further writing, messengers, and permission to gather. Killing Haman has not removed the machinery he used. The threatened people need protection that reaches beyond the palace.",
       "people": [
         "ahasuerus-esther",
         "esther",
@@ -974,7 +1036,8 @@
         "atlas",
         "atlas-canaan",
         "luther-esther",
-        "mcclellan-esther"
+        "mcclellan-esther",
+        "met-326387"
       ],
       "lds": {
         "text": "Come, Follow Me studies fasting during danger. Why must Esther keep asking for help after Haman dies?",
@@ -988,13 +1051,23 @@
       "historicalNote": "Luther Seminary reads the palace story through its changing fortunes.",
       "mapNote": "Susa marks the story’s setting. Individual rooms and courier roads are not mapped.",
       "route": [],
-      "routeEvidence": "No exact travel route is reconstructed."
+      "routeEvidence": "No exact travel route is reconstructed.",
+      "contextNote": {
+        "title": "A new letter must answer an existing order",
+        "text": "The king's explanation limits what can happen to a sealed decree. Esther's success therefore requires further writing, messengers, and permission to gather. Killing Haman has not removed the machinery he used. The threatened people need protection that reaches beyond the palace.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": [
+          "met-326387"
+        ]
+      }
     },
     {
       "chapter": 9,
       "title": "Victory, violence, and Purim",
       "summary": "The Jews kill their enemies without taking goods. Esther requests another day in Susa. Letters establish Purim with feasts and gifts.",
-      "meaning": "The days of fear become days of joy. Gifts to people in need become part of remembering.",
+      "meaning": "The festival marks a change from mourning to joy. Gifts to poor people make relief a shared practice. The preceding violence remains part of the account. The ending explains how later readers can remember deliverance together. Celebration here includes food, records, and duties toward others.",
       "people": [
         "ahasuerus-esther",
         "esther",
@@ -1026,13 +1099,21 @@
       "historicalNote": "Luther Seminary asks how readers should understand the violent ending.",
       "mapNote": "Susa marks the story’s setting. Individual rooms and courier roads are not mapped.",
       "route": [],
-      "routeEvidence": "No exact travel route is reconstructed."
+      "routeEvidence": "No exact travel route is reconstructed.",
+      "contextNote": {
+        "title": "A festival keeps both grief and survival in memory",
+        "text": "The festival marks a change from mourning to joy. Gifts to poor people make relief a shared practice. The preceding violence remains part of the account. The ending explains how later readers can remember deliverance together. Celebration here includes food, records, and duties toward others.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
     },
     {
       "chapter": 10,
       "title": "Mordecai serves his people",
       "summary": "Ahasuerus collects payment from his lands. Mordecai holds high office and works for his people’s good.",
-      "meaning": "Mordecai’s lasting importance comes from helping his people, beyond the honor he receives.",
+      "meaning": "The ending places Mordecai's rank beside his work for his people. His importance depends on seeking their welfare and speaking for them. The brief return to royal taxes also preserves the setting of foreign rule. Survival has changed access to power without ending the empire.",
       "people": [
         "ahasuerus-esther",
         "mordecai"
@@ -1057,7 +1138,15 @@
       "historicalNote": "Luther Seminary reads the palace story through its changing fortunes.",
       "mapNote": "Susa marks the story’s setting. Individual rooms and courier roads are not mapped.",
       "route": [],
-      "routeEvidence": "No exact travel route is reconstructed."
+      "routeEvidence": "No exact travel route is reconstructed.",
+      "contextNote": {
+        "title": "High office receives a measure beyond personal honor",
+        "text": "The ending places Mordecai's rank beside his work for his people. His importance depends on seeking their welfare and speaking for them. The brief return to royal taxes also preserves the setting of foreign rule. Survival has changed access to power without ending the empire.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
     }
   ],
   "people": [
@@ -1765,6 +1854,86 @@
       "year": "Current map",
       "chapterCoverage": [],
       "reviewed": "2026-10-05: Map page title and Seminary lesson reference reviewed. Map image was not reviewed."
+    },
+    {
+      "id": "met-544042",
+      "title": "Perfume Vessel in the Shape of Two Trussed Ducks",
+      "url": "https://www.metmuseum.org/art/collection/search/544042",
+      "author": "The Metropolitan Museum of Art",
+      "category": "museum",
+      "perspective": "historical",
+      "summary": "This Egyptian perfume vessel has the form of two tied ducks.",
+      "limits": "The vessel offers a comparison for the use of scent. It is not an object named in this passage.",
+      "previewText": "This Egyptian perfume vessel has the form of two tied ducks. The vessel offers a comparison for the use of scent. It is not an object named in this passage.",
+      "image": {
+        "src": "assets/study-objects/met-544042.jpg",
+        "fullUrl": "https://images.metmuseum.org/CRDImages/eg/original/DT226129.jpg",
+        "sourceUrl": "https://www.metmuseum.org/art/collection/search/544042",
+        "creditUrl": "https://www.metmuseum.org/art/collection/search/544042",
+        "credit": "The Metropolitan Museum of Art",
+        "license": "CC0 / Public domain",
+        "licenseUrl": "https://www.metmuseum.org/policies/image-resources",
+        "alt": "Perfume Vessel in the Shape of Two Trussed Ducks",
+        "caption": "Perfume Vessel in the Shape of Two Trussed Ducks · ca. 1580–1550 B.C. · The Met",
+        "width": 500,
+        "height": 625
+      },
+      "date": "ca. 1580–1550 B.C.",
+      "objectNumber": "27.9.1",
+      "creditLine": "Gift of Edward S. Harkness, 1927",
+      "reviewed": {
+        "date": "2026-10-05",
+        "scope": "Museum object description, identity, date, and public-domain image metadata."
+      },
+      "access": "Public museum collection record and Open Access API",
+      "license": "CC0 / Public domain",
+      "chapterCoverage": [
+        2
+      ],
+      "imageChapters": [
+        2
+      ]
+    },
+    {
+      "id": "met-326387",
+      "title": "Bulla",
+      "url": "https://www.metmuseum.org/art/collection/search/326387",
+      "author": "The Metropolitan Museum of Art",
+      "category": "museum",
+      "perspective": "historical",
+      "summary": "This Persian clay object bears a seal impression. The museum links it with Persian record keeping.",
+      "limits": "It comes from Pasargadae, not the biblical court scene. Its exact original use remains uncertain.",
+      "previewText": "This Persian clay object bears a seal impression. The museum links it with Persian record keeping. It comes from Pasargadae, not the biblical court scene. Its exact original use remains uncertain.",
+      "image": {
+        "src": "assets/study-objects/met-326387.jpg",
+        "fullUrl": "https://images.metmuseum.org/CRDImages/an/original/DP-40305-001.jpg",
+        "sourceUrl": "https://www.metmuseum.org/art/collection/search/326387",
+        "creditUrl": "https://www.metmuseum.org/art/collection/search/326387",
+        "credit": "The Metropolitan Museum of Art",
+        "license": "CC0 / Public domain",
+        "licenseUrl": "https://www.metmuseum.org/policies/image-resources",
+        "alt": "Bulla",
+        "caption": "Bulla · mid 6th–late 4th century BCE · The Met",
+        "width": 599,
+        "height": 449
+      },
+      "date": "mid 6th–late 4th century BCE",
+      "objectNumber": "1978.93.13",
+      "creditLine": "Purchase, H. Dunscombe Colt Gift, 1978",
+      "reviewed": {
+        "date": "2026-10-05",
+        "scope": "Museum object description, identity, date, and public-domain image metadata."
+      },
+      "access": "Public museum collection record and Open Access API",
+      "license": "CC0 / Public domain",
+      "chapterCoverage": [
+        3,
+        8
+      ],
+      "imageChapters": [
+        3,
+        8
+      ]
     }
   ],
   "review": {
@@ -1773,8 +1942,100 @@
     "nextBook": "job",
     "copyReview": "2026-10-05: Reader copy reviewed against WRITING-GUIDE.md. Scripture and source titles preserved.",
     "sourcePolicy": "BIBLE-SOURCE-POLICY.md",
-    "sourceEnrichmentDate": "2026-10-05"
+    "sourceEnrichmentDate": "2026-10-05",
+    "contextReview": {
+      "date": "2026-10-05",
+      "chapters": 10,
+      "scope": "Original close readings grounded in local World English Bible passages. Existing external source reviews remain separate."
+    }
   },
   "translation": "World English Bible",
-  "copyright": "Public domain"
+  "copyright": "Public domain",
+  "chapterStudies": [
+    {
+      "chapter": 1,
+      "verse": 20,
+      "context": ""
+    },
+    {
+      "chapter": 2,
+      "verse": 20,
+      "context": ""
+    },
+    {
+      "chapter": 3,
+      "verse": 12,
+      "context": ""
+    },
+    {
+      "chapter": 4,
+      "verse": 14,
+      "context": ""
+    },
+    {
+      "chapter": 5,
+      "verse": 13,
+      "context": ""
+    },
+    {
+      "chapter": 6,
+      "verse": 1,
+      "context": ""
+    },
+    {
+      "chapter": 7,
+      "verse": 4,
+      "context": ""
+    },
+    {
+      "chapter": 8,
+      "verse": 8,
+      "context": ""
+    },
+    {
+      "chapter": 9,
+      "verse": 22,
+      "context": ""
+    },
+    {
+      "chapter": 10,
+      "verse": 3,
+      "context": ""
+    }
+  ],
+  "contextGuide": {
+    "id": "esther-context",
+    "title": "Esther: context and evidence",
+    "description": "Explore the book’s larger concerns through selected passages and relevant evidence.",
+    "steps": [
+      {
+        "title": "A written order carries danger across distance",
+        "text": "The threat travels through officials, languages, letters, and the royal seal. A court decision can reach households far from the palace. Haman turns local hatred into an order for mass killing. The story makes the machinery of rule part of the danger. Authority must be answered at that same public level.",
+        "chapter": 3,
+        "verse": 12,
+        "sourceIds": [
+          "web",
+          "met-326387"
+        ]
+      },
+      {
+        "title": "An unread reward becomes the turning point",
+        "text": "A sleepless king asks for records of earlier service. Mordecai’s forgotten act suddenly gains value at court. Haman arrives with a different purpose and loses control of the scene. The reversal grows from timing, memory, and mistaken expectation. The book lets ordinary court routines carry extraordinary consequences.",
+        "chapter": 6,
+        "verse": 1,
+        "sourceIds": [
+          "web"
+        ]
+      },
+      {
+        "title": "A festival keeps both grief and survival in memory",
+        "text": "The festival marks a change from mourning to joy. Gifts to poor people make relief a shared practice. The preceding violence remains part of the account. The ending explains how later readers can remember deliverance together. Celebration here includes food, records, and duties toward others.",
+        "chapter": 9,
+        "verse": 22,
+        "sourceIds": [
+          "web"
+        ]
+      }
+    ]
+  }
 }

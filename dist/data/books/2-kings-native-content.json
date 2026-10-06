@@ -341,6 +341,82 @@
       "type": "Come, Follow Me",
       "limitations": "The lesson selects passages. It does not provide a verse commentary on all chapters 16–25.",
       "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "prism-taylor",
+      "group": "sennacherib-prism",
+      "title": "Sennacherib’s Prism — the Taylor Prism",
+      "author": "British Museum · museum number 91032",
+      "year": "691 BCE",
+      "type": "Primary evidence · museum record",
+      "url": "https://www.britishmuseum.org/collection/object/W_1855-1003-1",
+      "summary": "The Taylor Prism preserves an Assyrian royal account. The museum dates this object to 691 BCE. The campaign against Judah occurred in 701 BCE. The photograph shows two views of one object.",
+      "limitations": "The Taylor, Chicago, and Jerusalem prisms are separate objects. Their dates must not be used as the date of the campaign. The royal account promotes Sennacherib’s rule.",
+      "reviewed": "Checked September 29, 2026. Object identity and date checked in the museum’s indexed collection record. Direct access to the object page returned HTTP 403. Photograph and public-domain release checked on Wikimedia Commons.",
+      "license": "Museum record linked only. Photograph by David Castor, released into the public domain by its creator.",
+      "image": {
+        "src": "assets/taylor-prism.jpg",
+        "fullUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Taylor_Prism-3.jpg",
+        "alt": "Two views of the Taylor Prism with columns of cuneiform writing on clay.",
+        "caption": "Taylor Prism · two views of the same object, British Museum",
+        "credit": "Photographs and montage by David Castor",
+        "creditUrl": "https://commons.wikimedia.org/wiki/User:Dcastor",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Taylor_Prism-3.jpg",
+        "license": "Public domain · creator’s release",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Taylor_Prism-3.jpg#Licensing",
+        "width": 2670,
+        "height": 2208,
+        "linkLabel": "View full-size prism"
+      },
+      "previewText": "This clay prism presents Sennacherib’s account of his campaigns. Royal claims reflect the ruler’s viewpoint.",
+      "category": "Primary evidence · museum record",
+      "limits": "The Taylor, Chicago, and Jerusalem prisms are separate objects. Their dates must not be used as the date of the campaign. The royal account promotes Sennacherib’s rule.",
+      "perspective": "historical",
+      "chapterCoverage": [
+        18
+      ],
+      "imageChapters": [
+        18
+      ]
+    },
+    {
+      "id": "lachish",
+      "title": "Sennacherib receives the spoils of Lachish",
+      "author": "British Museum · collection 1856,0909.14",
+      "year": "Relief dated 700–692 BCE",
+      "type": "Primary evidence",
+      "url": "https://www.britishmuseum.org/collection/object/W_1856-0909-14_7",
+      "summary": "The relief shows Sennacherib receiving the spoils of Lachish. It presents the conquest from the Assyrian king’s viewpoint.",
+      "limitations": "The relief celebrates royal conquest. It does not document every event described in Kings.",
+      "license": "Linked reading; original study guide summary, no article reproduction",
+      "image": {
+        "src": "assets/lachish-relief.jpg",
+        "fullUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Lachish_Relief%2C_British_Museum_7.jpg",
+        "alt": "Lachish relief showing Sennacherib seated on his throne with attendants.",
+        "caption": "Sennacherib on his throne · Lachish relief, British Museum",
+        "credit": "Photograph by Mike Peel",
+        "creditUrl": "https://www.mikepeel.net",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lachish_Relief,_British_Museum_7.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "width": 2592,
+        "height": 3888,
+        "linkLabel": "View full-size relief"
+      },
+      "previewText": "The relief shows Sennacherib receiving the spoils of Lachish. It presents the conquest from the Assyrian king’s viewpoint.",
+      "category": "Primary evidence",
+      "limits": "The relief celebrates royal conquest. It does not document every event described in Kings.",
+      "perspective": "historical",
+      "reviewed": {
+        "date": "2026-09-29",
+        "scope": "Existing Isaiah object and licensed photograph review. No new direct museum-page review claimed."
+      },
+      "chapterCoverage": [
+        19
+      ],
+      "imageChapters": [
+        19
+      ]
     }
   ],
   "passages": [
@@ -350,7 +426,7 @@
       "start": 1,
       "end": 18,
       "title": "Ahaziah seeks an oracle and Elijah answers",
-      "summary": "Injured Ahaziah sends messengers toward Ekron. Elijah announces his death. Two armed groups die, while the third captain pleads for life. The first two captains demand that Elijah come down. The third asks for mercy and survives.",
+      "summary": "Injured Ahaziah sends messengers toward Ekron. Elijah announces his death. Two armed groups die, while the third captain pleads for life.",
       "year": null,
       "dateLabel": "Chapter order · historical year uncertain",
       "uncertainty": "Named towns and approximate reference regions. Exact buildings, camps, and disputed sites remain uncertain.",
@@ -366,6 +442,14 @@
       "lds": {
         "text": "How does the third captain’s request differ from the first two orders?",
         "sourceIds": []
+      },
+      "contextNote": {
+        "title": "A changed approach interrupts repeated violence",
+        "text": "The third captain kneels and asks for his men's lives. His appeal differs from the earlier commands to Elijah. The account makes the manner of approaching authority part of the outcome.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -374,7 +458,7 @@
       "start": 1,
       "end": 25,
       "title": "Elijah departs and Elisha takes up the mantle",
-      "summary": "Elijah and Elisha travel through Bethel and Jericho to the Jordan. Elisha receives the mantle, heals water, and encounters mocking youths. Elisha picks up Elijah’s cloak and takes up his work. His first acts show both help and judgment.",
+      "summary": "Elijah and Elisha travel through Bethel and Jericho to the Jordan. Elisha receives the mantle, heals water, and encounters mocking youths.",
       "year": null,
       "dateLabel": "Chapter order · historical year uncertain",
       "uncertainty": "Named towns and approximate reference regions. Exact buildings, camps, and disputed sites remain uncertain.",
@@ -396,6 +480,14 @@
         "sourceIds": [
           "lds-elijah-transition"
         ]
+      },
+      "contextNote": {
+        "title": "A repeated crossing makes succession visible",
+        "text": "Elisha returns to the river with Elijah's mantle. The crossing answers the question of whether the earlier help continues. The observing prophets recognize succession through an act rather than a title alone.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -404,7 +496,7 @@
       "start": 1,
       "end": 27,
       "title": "An alliance fights Moab",
-      "summary": "Joram, Jehoshaphat, and Edom’s king seek Elisha during a water crisis. They attack Moab. Mesha sacrifices his firstborn, and Israel withdraws. The alliance wins battles but withdraws after Mesha sacrifices his son. The ending raises questions about wrath.",
+      "summary": "Joram, Jehoshaphat, and Edom’s king seek Elisha during a water crisis. They attack Moab. Mesha sacrifices his firstborn, and Israel withdraws.",
       "year": null,
       "dateLabel": "Chapter order · historical year uncertain",
       "uncertainty": "Named towns and approximate reference regions. Exact buildings, camps, and disputed sites remain uncertain.",
@@ -424,6 +516,14 @@
         "sourceIds": [
           "lds-elisha"
         ]
+      },
+      "contextNote": {
+        "title": "An alliance does not remove differences among its members",
+        "text": "Elisha challenges Israel's king while responding because of Jehoshaphat. Shared military need does not make their standing identical. The ending preserves a disturbing sacrifice rather than a simple triumph.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -432,7 +532,7 @@
       "start": 1,
       "end": 44,
       "title": "Oil, hospitality, a restored child, and food",
-      "summary": "A widow receives oil to pay debt. A Shunammite woman hosts Elisha, receives a son, and seeks help when he dies. Other food miracles follow. The women ask for help and act on Elisha’s words. The Shunammite refuses to leave him when her child dies.",
+      "summary": "A widow receives oil to pay debt. A Shunammite woman hosts Elisha, receives a son, and seeks help when he dies. Other food miracles follow.",
       "year": null,
       "dateLabel": "Chapter order · historical year uncertain",
       "uncertainty": "Named towns and approximate reference regions. Exact buildings, camps, and disputed sites remain uncertain.",
@@ -450,6 +550,14 @@
         "sourceIds": [
           "cfm-elisha"
         ]
+      },
+      "contextNote": {
+        "title": "Household need gives prophetic work a practical setting",
+        "text": "The widow's crisis concerns debt and the loss of her children. Oil must become income before it answers that need. Other scenes likewise connect prophetic power with food, shelter, and family survival.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -458,7 +566,7 @@
       "start": 1,
       "end": 27,
       "title": "Naaman accepts help and Gehazi pursues payment",
-      "summary": "A captive girl directs Naaman toward Israel’s prophet. Elisha sends him to wash in the Jordan. Gehazi secretly obtains gifts and receives judgment. Naaman receives help from people with less power. A captive girl and servants guide his choices.",
+      "summary": "A captive girl directs Naaman toward Israel’s prophet. Elisha sends him to wash in the Jordan. Gehazi secretly obtains gifts and receives judgment.",
       "year": null,
       "dateLabel": "Chapter order · historical year uncertain",
       "uncertainty": "Named towns and approximate reference regions. Exact buildings, camps, and disputed sites remain uncertain.",
@@ -478,6 +586,14 @@
         "sourceIds": [
           "cfm-elisha"
         ]
+      },
+      "contextNote": {
+        "title": "People below the commander help him receive healing",
+        "text": "A captive girl points toward help, and servants challenge Naaman's offended response. Rank repeatedly obstructs what their advice makes possible. Gehazi's later demand for payment changes the gift's meaning.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -486,7 +602,7 @@
       "start": 1,
       "end": 33,
       "title": "An axe floats, enemies receive food, and Samaria suffers",
-      "summary": "Elisha recovers an axe head and protects his servant at Dothan. Captured soldiers receive a meal. Later, Samaria’s siege brings famine and a desperate complaint. Elisha feeds captured enemies and sends them home. A later siege brings hunger to Samaria.",
+      "summary": "Elisha recovers an axe head and protects his servant at Dothan. Captured soldiers receive a meal. Later, Samaria’s siege brings famine and a desperate complaint.",
       "year": null,
       "dateLabel": "Chapter order · historical year uncertain",
       "uncertainty": "Named towns and approximate reference regions. Exact buildings, camps, and disputed sites remain uncertain.",
@@ -505,6 +621,14 @@
         "sourceIds": [
           "cfm-elisha"
         ]
+      },
+      "contextNote": {
+        "title": "Capturing enemies need not end in killing them",
+        "text": "Elisha refuses the king's proposal to strike the captured men. A meal allows them to return instead. The following siege shows that this local restraint does not end every conflict.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -513,7 +637,7 @@
       "start": 1,
       "end": 20,
       "title": "Four excluded men find an abandoned camp",
-      "summary": "Four men with a skin condition leave the gate and discover the Syrian camp abandoned. They bring news, and Samaria’s food prices fall. Four men find food outside the city. They decide the hungry people must hear the news.",
+      "summary": "Four men with a skin condition leave the gate and discover the Syrian camp abandoned. They bring news, and Samaria’s food prices fall.",
       "year": null,
       "dateLabel": "Chapter order · historical year uncertain",
       "uncertainty": "Named towns and approximate reference regions. Exact buildings, camps, and disputed sites remain uncertain.",
@@ -529,6 +653,14 @@
         "sourceIds": [
           "cfm-elisha"
         ]
+      },
+      "contextNote": {
+        "title": "People kept outside become bearers of saving news",
+        "text": "The men first hide goods from the abandoned camp. They then recognize a duty to tell the city. Samaria's recovery begins through people excluded from its ordinary shared life.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -537,7 +669,7 @@
       "start": 1,
       "end": 29,
       "title": "The Shunammite returns and Hazael takes power",
-      "summary": "The Shunammite returns and asks for her land. Elisha meets Hazael in Damascus. The chapter also records Judah’s next kings. The Shunammite’s return shows how famine can cost a family its home. The king orders her property restored.",
+      "summary": "The Shunammite returns and asks for her land. Elisha meets Hazael in Damascus. The chapter also records Judah’s next kings.",
       "year": null,
       "dateLabel": "Chapter order · historical year uncertain",
       "uncertainty": "Named towns and approximate reference regions. Exact buildings, camps, and disputed sites remain uncertain.",
@@ -557,6 +689,14 @@
       "lds": {
         "text": "What help does the Shunammite need after returning from famine?",
         "sourceIds": []
+      },
+      "contextNote": {
+        "title": "A household's lost land reaches the royal hearing",
+        "text": "The woman's return coincides with Gehazi's account of her restored son. The king orders property and proceeds returned to her. Recovery requires an official decision as well as survival through famine.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -565,7 +705,7 @@
       "start": 1,
       "end": 37,
       "title": "Jehu is anointed and kills the rulers",
-      "summary": "An unnamed prophetic messenger anoints Jehu. Jehu kills Joram and Ahaziah, then orders Jezebel’s death at Jezreel. Jehu uses earlier warnings to explain his killings. The change of king destroys two royal households.",
+      "summary": "An unnamed prophetic messenger anoints Jehu. Jehu kills Joram and Ahaziah, then orders Jezebel’s death at Jezreel.",
       "year": null,
       "dateLabel": "Chapter order · historical year uncertain",
       "uncertainty": "Named towns and approximate reference regions. Exact buildings, camps, and disputed sites remain uncertain.",
@@ -586,6 +726,14 @@
         "sourceIds": [
           "lds-elisha"
         ]
+      },
+      "contextNote": {
+        "title": "A political killing receives meaning from an earlier theft",
+        "text": "Jehu places Joram's body in Naboth's field. That location links the royal family’s overthrow with the vineyard seizure. The chapter describes violence through remembered judgment rather than a change of rulers alone.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -594,7 +742,7 @@
       "start": 1,
       "end": 36,
       "title": "Jehu destroys households and Baal’s sanctuary",
-      "summary": "Jehu kills Ahab’s descendants and Ahaziah’s relatives. He traps Baal’s worshipers and kills them. Yet he keeps Jeroboam’s golden calves. Jehu ends Ahab’s royal line and Baal’s temple worship. His own worship still draws criticism.",
+      "summary": "Jehu kills Ahab’s descendants and Ahaziah’s relatives. He traps Baal’s worshipers and kills them. Yet he keeps Jeroboam’s golden calves.",
       "year": null,
       "dateLabel": "Chapter order · historical year uncertain",
       "uncertainty": "Named towns and approximate reference regions. Exact buildings, camps, and disputed sites remain uncertain.",
@@ -613,6 +761,14 @@
         "sourceIds": [
           "lds-elisha"
         ]
+      },
+      "contextNote": {
+        "title": "Removing one worship system does not complete reform",
+        "text": "Jehu destroys Baal's sanctuary but retains the golden calves. The account therefore limits the meaning of his zeal. Dramatic public action does not establish consistent obedience.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -621,7 +777,7 @@
       "start": 1,
       "end": 21,
       "title": "Joash is hidden and crowned",
-      "summary": "Athaliah seizes power. Jehosheba hides Joash and his nurse. Jehoiada arranges the child’s coronation, covenant renewal, and Athaliah’s execution. Jehosheba and a nurse save Joash before he becomes king. Their hidden care protects his life.",
+      "summary": "Athaliah seizes power. Jehosheba hides Joash and his nurse. Jehoiada arranges the child’s coronation, covenant renewal, and Athaliah’s execution.",
       "year": null,
       "dateLabel": "Chapter order · historical year uncertain",
       "uncertainty": "Named towns and approximate reference regions. Exact buildings, camps, and disputed sites remain uncertain.",
@@ -637,6 +793,14 @@
         "sourceIds": [
           "lds-elisha"
         ]
+      },
+      "contextNote": {
+        "title": "A threatened royal line survives through concealed care",
+        "text": "Jehosheba and the nurse protect Joash before his public coronation. Their hidden work makes the later royal ceremony possible. The throne's continuity depends on people outside the visible center of power.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -645,7 +809,7 @@
       "start": 1,
       "end": 21,
       "title": "Joash changes the temple repair system",
-      "summary": "Joash and Jehoiada direct repairs through a collection chest and workers. Joash sends treasure to Hazael, and conspirators later kill him. Temple repairs stall until the payment system changes. Trusted workers then use the money for repairs.",
+      "summary": "Joash and Jehoiada direct repairs through a collection chest and workers. Joash sends treasure to Hazael, and conspirators later kill him.",
       "year": null,
       "dateLabel": "Chapter order · historical year uncertain",
       "uncertainty": "Named towns and approximate reference regions. Exact buildings, camps, and disputed sites remain uncertain.",
@@ -662,6 +826,14 @@
         "sourceIds": [
           "lds-elisha"
         ]
+      },
+      "contextNote": {
+        "title": "Repair requires a system that reaches the workers",
+        "text": "Earlier collections fail to produce the needed work. The revised system directs funds to those doing repairs. The account joins trust in workers with a change in handling contributions.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -670,7 +842,7 @@
       "start": 1,
       "end": 25,
       "title": "Northern kings and Elisha’s death",
-      "summary": "Jehoahaz faces Syrian pressure. His son Joash visits dying Elisha. The arrow signs precede victories, and a burial story reports restored life. Jehoahaz asks God for relief from Syria. Elisha’s last signs promise Joash victories over Syria.",
+      "summary": "Jehoahaz faces Syrian pressure. His son Joash visits dying Elisha. The arrow signs precede victories, and a burial story reports restored life.",
       "year": null,
       "dateLabel": "Chapter order · historical year uncertain",
       "uncertainty": "Named towns and approximate reference regions. Exact buildings, camps, and disputed sites remain uncertain.",
@@ -687,6 +859,14 @@
         "sourceIds": [
           "lds-elisha"
         ]
+      },
+      "contextNote": {
+        "title": "An acted sign becomes a dispute about expectations",
+        "text": "The arrow and striking actions connect Joash's response with future victories. Elisha's rebuke explains the difference between limited and greater success. The deathbed scene passes judgment through gestures as well as speech.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -695,7 +875,7 @@
       "start": 1,
       "end": 29,
       "title": "Amaziah loses a war and Jeroboam restores territory",
-      "summary": "Amaziah spares his enemies’ children. He wins in Edom but loses to Israel’s Joash. Jeroboam later restores Israel’s border. Amaziah follows the law by sparing the children. His pride after victory leads to another costly war.",
+      "summary": "Amaziah spares his enemies’ children. He wins in Edom but loses to Israel’s Joash. Jeroboam later restores Israel’s border.",
       "year": null,
       "dateLabel": "Chapter order · historical year uncertain",
       "uncertainty": "Named towns and approximate reference regions. Exact buildings, camps, and disputed sites remain uncertain.",
@@ -717,6 +897,14 @@
         "sourceIds": [
           "lds-northern-fall"
         ]
+      },
+      "contextNote": {
+        "title": "Restraint and ambition receive different judgments",
+        "text": "Amaziah spares his opponents' children under the written law. His later challenge to Israel's king still brings defeat. One just decision does not guarantee wise judgment in another situation.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -725,7 +913,7 @@
       "start": 1,
       "end": 38,
       "title": "Kings rise and fall as Assyria gains power",
-      "summary": "Azariah and Jotham rule Judah. Israel’s throne changes through repeated conspiracies. Menahem pays Pul, and Tiglath Pileser deports northern communities. Repeated plots bring new kings to Israel. Assyrian demands then place heavy costs on the people.",
+      "summary": "Azariah and Jotham rule Judah. Israel’s throne changes through repeated conspiracies. Menahem pays Pul, and Tiglath Pileser deports northern communities.",
       "year": null,
       "dateLabel": "Chapter order · historical year uncertain",
       "uncertainty": "Named towns and approximate reference regions. Exact buildings, camps, and disputed sites remain uncertain.",
@@ -745,6 +933,14 @@
         "sourceIds": [
           "lds-northern-fall"
         ]
+      },
+      "contextNote": {
+        "title": "A king's payment shifts an empire's demand onto households",
+        "text": "Menahem collects silver from wealthy men to pay the Assyrian ruler. His throne gains support through that transfer. The succession notices place local rivalries within expanding foreign power.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -753,7 +949,7 @@
       "start": 1,
       "end": 20,
       "title": "Ahaz seeks Assyrian help and changes the altar",
-      "summary": "Rezin and Pekah attack Judah. Ahaz sends treasure to Tiglath Pileser. Urijah constructs an altar based on one Ahaz sees in Damascus. Ahaz seeks Assyria’s help and copies an altar from Damascus. His alliance changes both Judah’s finances and worship.",
+      "summary": "Rezin and Pekah attack Judah. Ahaz sends treasure to Tiglath Pileser. Urijah constructs an altar based on one Ahaz sees in Damascus.",
       "year": null,
       "dateLabel": "Chapter order · historical year uncertain",
       "uncertainty": "Named towns and approximate reference regions. Exact buildings, camps, and disputed sites remain uncertain.",
@@ -769,6 +965,14 @@
       "lds": {
         "text": "How does Ahaz’s need for foreign help change temple worship?",
         "sourceIds": []
+      },
+      "contextNote": {
+        "title": "Foreign dependence changes the center of royal worship",
+        "text": "Ahaz copies an altar seen during his meeting in Damascus. The priest follows the king's instructions for its use. Political reliance and changes to worship develop together in the account.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -777,7 +981,7 @@
       "start": 1,
       "end": 41,
       "title": "Samaria falls and the narrator explains exile",
-      "summary": "Hoshea seeks Egypt’s help against Assyria. Assyria captures Samaria and removes its people. New settlers bring their own gods. The book explains Israel’s fall through broken commitments to God. It then describes the mixed worship of new settlers.",
+      "summary": "Hoshea seeks Egypt’s help against Assyria. Assyria captures Samaria and removes its people. New settlers bring their own gods.",
       "year": null,
       "dateLabel": "Chapter order · historical year uncertain",
       "uncertainty": "Named towns and approximate reference regions. Exact buildings, camps, and disputed sites remain uncertain.",
@@ -796,6 +1000,14 @@
         "sourceIds": [
           "lds-northern-fall"
         ]
+      },
+      "contextNote": {
+        "title": "Conquest changes both population and the account of belonging",
+        "text": "The account describes deported Israelites and new settlers in the same territory. It then explains worship through their different origins. Read that interpretation as the account's argument, not the newcomers' own testimony.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -804,7 +1016,7 @@
       "start": 1,
       "end": 37,
       "title": "Hezekiah changes worship and faces Assyria",
-      "summary": "Hezekiah removes shrines and the bronze serpent. Sennacherib captures towns, demands payment, and sends men to threaten Jerusalem. Assyria attacks Judah and demands payment. Its spokesman tries to break the people’s trust in Hezekiah.",
+      "summary": "Hezekiah removes shrines and the bronze serpent. Sennacherib captures towns, demands payment, and sends men to threaten Jerusalem.",
       "year": null,
       "dateLabel": "Chapter order · historical year uncertain",
       "uncertainty": "Named towns and approximate reference regions. Exact buildings, camps, and disputed sites remain uncertain.",
@@ -819,12 +1031,23 @@
         "atlas-canaan",
         "hayes-kings",
         "millard-hezekiah",
-        "taylor-prism"
+        "taylor-prism",
+        "prism-taylor"
       ],
       "lds": {
         "text": "Come, Follow Me studies Hezekiah’s trust during threats.",
         "sourceIds": [
           "cfm-hezekiah-josiah"
+        ]
+      },
+      "contextNote": {
+        "title": "Two records describe royal power differently",
+        "text": "Hezekiah’s payment follows the loss of fortified cities. The account does not describe a simple victory without cost. Assyrian royal records also present this campaign from the conqueror’s side. Compare their claims with the danger described in Kings. The records help establish the war’s setting without making their viewpoints identical.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": [
+          "prism-taylor"
         ]
       }
     },
@@ -834,7 +1057,7 @@
       "start": 1,
       "end": 37,
       "title": "Hezekiah prays and Isaiah answers",
-      "summary": "Hezekiah seeks Isaiah and prays over the threat. Isaiah announces deliverance. The army suffers a great loss, and Sennacherib later dies in his own land. Hezekiah brings the threat to God. Isaiah promises relief, and Jerusalem survives the attack.",
+      "summary": "Hezekiah seeks Isaiah and prays over the threat. Isaiah announces deliverance. The army suffers a great loss, and Sennacherib later dies in his own land.",
       "year": null,
       "dateLabel": "Chapter order · historical year uncertain",
       "uncertainty": "Named towns and approximate reference regions. Exact buildings, camps, and disputed sites remain uncertain.",
@@ -849,12 +1072,23 @@
         "atlas-canaan",
         "hayes-kings",
         "millard-hezekiah",
-        "taylor-prism"
+        "taylor-prism",
+        "lachish"
       ],
       "lds": {
         "text": "Come, Follow Me encourages prayer and trust when facing severe difficulties.",
         "sourceIds": [
           "cfm-hezekiah-josiah"
+        ]
+      },
+      "contextNote": {
+        "title": "Lachish connects the speech with an actual campaign",
+        "text": "The Assyrian commander returns while the king moves from Lachish to Libnah. That detail places the threat to Jerusalem within a wider war. The Lachish relief presents conquest through Assyria’s royal viewpoint. Kings instead follows Judah’s crisis and appeal for help. Different evidence can share a setting while telling different parts of it.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": [
+          "lachish"
         ]
       }
     },
@@ -864,7 +1098,7 @@
       "start": 1,
       "end": 21,
       "title": "Hezekiah recovers and welcomes Babylon’s envoys",
-      "summary": "Isaiah announces Hezekiah’s recovery and a sign. Hezekiah shows his treasures to Babylonian visitors. Isaiah warns that later generations will face exile. Hezekiah recovers and receives visitors from Babylon. Showing them his treasures leads to Isaiah’s warning.",
+      "summary": "Isaiah announces Hezekiah’s recovery and a sign. Hezekiah shows his treasures to Babylonian visitors. Isaiah warns that later generations will face exile.",
       "year": null,
       "dateLabel": "Chapter order · historical year uncertain",
       "uncertainty": "Named towns and approximate reference regions. Exact buildings, camps, and disputed sites remain uncertain.",
@@ -881,6 +1115,14 @@
         "sourceIds": [
           "lds-northern-fall"
         ]
+      },
+      "contextNote": {
+        "title": "Displayed wealth becomes an image of future loss",
+        "text": "Hezekiah shows the visitors what his household possesses. Isaiah answers by describing those same goods and descendants taken away. The scene places present royal pride beside the next generation's vulnerability.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -889,7 +1131,7 @@
       "start": 1,
       "end": 26,
       "title": "Manasseh and Amon restore forbidden worship",
-      "summary": "Manasseh restores shrines, practices forbidden rites, and sheds innocent blood. Amon continues his father’s ways and is killed by servants. Josiah succeeds. Manasseh restores worship that Hezekiah removed. Unlike Chronicles, Kings gives no account of his repentance.",
+      "summary": "Manasseh restores shrines, practices forbidden rites, and sheds innocent blood. Amon continues his father’s ways and is killed by servants. Josiah succeeds.",
       "year": null,
       "dateLabel": "Chapter order · historical year uncertain",
       "uncertainty": "Named towns and approximate reference regions. Exact buildings, camps, and disputed sites remain uncertain.",
@@ -907,6 +1149,14 @@
         "sourceIds": [
           "cfm-hezekiah-josiah"
         ]
+      },
+      "contextNote": {
+        "title": "Worship criticism stands beside violence against people",
+        "text": "The account condemns Manasseh's sacred practices and the shedding of innocent blood. These are related judgments, not interchangeable charges. The chapter's explanation of later disaster includes harm within Jerusalem.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -915,7 +1165,7 @@
       "start": 1,
       "end": 20,
       "title": "The law scroll is found and Huldah responds",
-      "summary": "Hilkiah finds the law scroll during temple work. Shaphan reads it to Josiah. A delegation seeks Huldah, who announces judgment and mercy toward Josiah. The king's men seek Huldah's answer about the book. Her warning leads Josiah to change worship.",
+      "summary": "Hilkiah finds the law scroll during temple work. Shaphan reads it to Josiah. A delegation seeks Huldah, who announces judgment and mercy toward Josiah.",
       "year": null,
       "dateLabel": "Chapter order · historical year uncertain",
       "uncertainty": "Named towns and approximate reference regions. Exact buildings, camps, and disputed sites remain uncertain.",
@@ -933,6 +1183,14 @@
         "sourceIds": [
           "cfm-hezekiah-josiah"
         ]
+      },
+      "contextNote": {
+        "title": "A discovered text requires interpretation before action",
+        "text": "Officials bring the found book's claims to Huldah. Her answer gives the king's distress a wider setting. Possessing and reading the scroll do not by themselves settle its meaning for the community.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -941,7 +1199,7 @@
       "start": 1,
       "end": 37,
       "title": "Josiah renews the covenant and removes shrines",
-      "summary": "Josiah reads the covenant, removes worship objects and shrines, and celebrates Passover. He dies at Megiddo. Jehoahaz is deposed, and Jehoiakim rules. Josiah removes worship objects and renews Passover. Judah's later kings return to the practices he opposed.",
+      "summary": "Josiah reads the covenant, removes worship objects and shrines, and celebrates Passover. He dies at Megiddo. Jehoahaz is deposed, and Jehoiakim rules.",
       "year": null,
       "dateLabel": "Chapter order · historical year uncertain",
       "uncertainty": "Named towns and approximate reference regions. Exact buildings, camps, and disputed sites remain uncertain.",
@@ -964,6 +1222,14 @@
         "sourceIds": [
           "cfm-hezekiah-josiah"
         ]
+      },
+      "contextNote": {
+        "title": "Reform does not erase the account's accumulated judgment",
+        "text": "Josiah's changes receive unusually strong praise. The account still says the earlier judgment remains. The sequence prevents readers from treating reform as an automatic reversal of every past harm.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -972,7 +1238,7 @@
       "start": 1,
       "end": 20,
       "title": "Babylon takes treasure and deports Jehoiachin",
-      "summary": "Jehoiakim rebels against Babylon. Jehoiachin surrenders Jerusalem and is deported with his household and other residents. Nebuchadnezzar appoints Zedekiah. Babylon removes the king, workers, soldiers, and many families. The city loses people as well as treasures.",
+      "summary": "Jehoiakim rebels against Babylon. Jehoiachin surrenders Jerusalem and is deported with his household and other residents. Nebuchadnezzar appoints Zedekiah.",
       "year": null,
       "dateLabel": "Chapter order · historical year uncertain",
       "uncertainty": "Named towns and approximate reference regions. Exact buildings, camps, and disputed sites remain uncertain.",
@@ -991,6 +1257,14 @@
         "sourceIds": [
           "lds-judah-fall"
         ]
+      },
+      "contextNote": {
+        "title": "Deportation removes the skills needed by a city",
+        "text": "The account names officials, fighters, and craftspeople among those taken away. Conquest therefore changes daily capacity as well as rulers. The remaining population inherits a city stripped of many resources.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -999,7 +1273,7 @@
       "start": 1,
       "end": 30,
       "title": "Jerusalem is destroyed and a prisoner receives favor",
-      "summary": "Jerusalem falls. Zedekiah is captured, the temple burns, and captives are taken away. Gedaliah is killed. Jehoiachin later receives favor in Babylon. Babylon destroys the temple and takes people away. Later kindness gives the captive king some relief.",
+      "summary": "Jerusalem falls. Zedekiah is captured, the temple burns, and captives are taken away. Gedaliah is killed. Jehoiachin later receives favor in Babylon.",
       "year": null,
       "dateLabel": "Chapter order · historical year uncertain",
       "uncertainty": "Named towns and approximate reference regions. Exact buildings, camps, and disputed sites remain uncertain.",
@@ -1020,6 +1294,14 @@
       "lds": {
         "text": "What changes when Jehoiachin receives kindness at the end of the book?",
         "sourceIds": []
+      },
+      "contextNote": {
+        "title": "The ending preserves a narrow form of hope",
+        "text": "Jerusalem falls, its temple burns, and its people lose royal rule. The last scene still names a living king from David’s line. His release offers survival, not a restored kingdom. The ending refuses both an easy recovery and total closure. Read this small change against the scale of the preceding loss.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     }
   ],
@@ -1031,7 +1313,7 @@
       "eventOrder": 1,
       "title": "Ahaziah seeks an oracle and Elijah answers",
       "summary": "Injured Ahaziah sends messengers toward Ekron. Elijah announces his death. Two armed groups die, while the third captain pleads for life.",
-      "detail": "The first two captains demand that Elijah come down. The third asks for mercy and survives.",
+      "detail": "The third captain kneels and asks for his men's lives. His appeal differs from the earlier commands to Elijah. The account makes the manner of approaching authority part of the outcome.",
       "dateLabel": "Chapter order · historical year uncertain",
       "uncertainty": "Named towns and approximate reference regions. Exact buildings, camps, and disputed sites remain uncertain.",
       "sourceIds": [
@@ -1055,7 +1337,7 @@
       "eventOrder": 2,
       "title": "Elijah departs and Elisha takes up the mantle",
       "summary": "Elijah and Elisha travel through Bethel and Jericho to the Jordan. Elisha receives the mantle, heals water, and encounters mocking youths.",
-      "detail": "Elisha picks up Elijah’s cloak and takes up his work. His first acts show both help and judgment.",
+      "detail": "Elisha returns to the river with Elijah's mantle. The crossing answers the question of whether the earlier help continues. The observing prophets recognize succession through an act rather than a title alone.",
       "dateLabel": "Chapter order · historical year uncertain",
       "uncertainty": "Named towns and approximate reference regions. Exact buildings, camps, and disputed sites remain uncertain.",
       "sourceIds": [
@@ -1085,7 +1367,7 @@
       "eventOrder": 3,
       "title": "An alliance fights Moab",
       "summary": "Joram, Jehoshaphat, and Edom’s king seek Elisha during a water crisis. They attack Moab. Mesha sacrifices his firstborn, and Israel withdraws.",
-      "detail": "The alliance wins battles but withdraws after Mesha sacrifices his son. The ending raises questions about wrath.",
+      "detail": "Elisha challenges Israel's king while responding because of Jehoshaphat. Shared military need does not make their standing identical. The ending preserves a disturbing sacrifice rather than a simple triumph.",
       "dateLabel": "Chapter order · historical year uncertain",
       "uncertainty": "Named towns and approximate reference regions. Exact buildings, camps, and disputed sites remain uncertain.",
       "sourceIds": [
@@ -1113,7 +1395,7 @@
       "eventOrder": 4,
       "title": "Oil, hospitality, a restored child, and food",
       "summary": "A widow receives oil to pay debt. A Shunammite woman hosts Elisha, receives a son, and seeks help when he dies. Other food miracles follow.",
-      "detail": "The women ask for help and act on Elisha’s words. The Shunammite refuses to leave him when her child dies.",
+      "detail": "The widow's crisis concerns debt and the loss of her children. Oil must become income before it answers that need. Other scenes likewise connect prophetic power with food, shelter, and family survival.",
       "dateLabel": "Chapter order · historical year uncertain",
       "uncertainty": "Named towns and approximate reference regions. Exact buildings, camps, and disputed sites remain uncertain.",
       "sourceIds": [
@@ -1139,7 +1421,7 @@
       "eventOrder": 5,
       "title": "Naaman accepts help and Gehazi pursues payment",
       "summary": "A captive girl directs Naaman toward Israel’s prophet. Elisha sends him to wash in the Jordan. Gehazi secretly obtains gifts and receives judgment.",
-      "detail": "Naaman receives help from people with less power. A captive girl and servants guide his choices.",
+      "detail": "A captive girl points toward help, and servants challenge Naaman's offended response. Rank repeatedly obstructs what their advice makes possible. Gehazi's later demand for payment changes the gift's meaning.",
       "dateLabel": "Chapter order · historical year uncertain",
       "uncertainty": "Named towns and approximate reference regions. Exact buildings, camps, and disputed sites remain uncertain.",
       "sourceIds": [
@@ -1167,7 +1449,7 @@
       "eventOrder": 6,
       "title": "An axe floats, enemies receive food, and Samaria suffers",
       "summary": "Elisha recovers an axe head and protects his servant at Dothan. Captured soldiers receive a meal. Later, Samaria’s siege brings famine and a desperate complaint.",
-      "detail": "Elisha feeds captured enemies and sends them home. A later siege brings hunger to Samaria.",
+      "detail": "Elisha refuses the king's proposal to strike the captured men. A meal allows them to return instead. The following siege shows that this local restraint does not end every conflict.",
       "dateLabel": "Chapter order · historical year uncertain",
       "uncertainty": "Named towns and approximate reference regions. Exact buildings, camps, and disputed sites remain uncertain.",
       "sourceIds": [
@@ -1194,7 +1476,7 @@
       "eventOrder": 7,
       "title": "Four excluded men find an abandoned camp",
       "summary": "Four men with a skin condition leave the gate and discover the Syrian camp abandoned. They bring news, and Samaria’s food prices fall.",
-      "detail": "Four men find food outside the city. They decide the hungry people must hear the news.",
+      "detail": "The men first hide goods from the abandoned camp. They then recognize a duty to tell the city. Samaria's recovery begins through people excluded from its ordinary shared life.",
       "dateLabel": "Chapter order · historical year uncertain",
       "uncertainty": "Named towns and approximate reference regions. Exact buildings, camps, and disputed sites remain uncertain.",
       "sourceIds": [
@@ -1218,7 +1500,7 @@
       "eventOrder": 8,
       "title": "The Shunammite returns and Hazael takes power",
       "summary": "The Shunammite returns and asks for her land. Elisha meets Hazael in Damascus. The chapter also records Judah’s next kings.",
-      "detail": "The Shunammite’s return shows how famine can cost a family its home. The king orders her property restored.",
+      "detail": "The woman's return coincides with Gehazi's account of her restored son. The king orders property and proceeds returned to her. Recovery requires an official decision as well as survival through famine.",
       "dateLabel": "Chapter order · historical year uncertain",
       "uncertainty": "Named towns and approximate reference regions. Exact buildings, camps, and disputed sites remain uncertain.",
       "sourceIds": [
@@ -1246,7 +1528,7 @@
       "eventOrder": 9,
       "title": "Jehu is anointed and kills the rulers",
       "summary": "An unnamed prophetic messenger anoints Jehu. Jehu kills Joram and Ahaziah, then orders Jezebel’s death at Jezreel.",
-      "detail": "Jehu uses earlier warnings to explain his killings. The change of king destroys two royal households.",
+      "detail": "Jehu places Joram's body in Naboth's field. That location links the royal family’s overthrow with the vineyard seizure. The chapter describes violence through remembered judgment rather than a change of rulers alone.",
       "dateLabel": "Chapter order · historical year uncertain",
       "uncertainty": "Named towns and approximate reference regions. Exact buildings, camps, and disputed sites remain uncertain.",
       "sourceIds": [
@@ -1275,7 +1557,7 @@
       "eventOrder": 10,
       "title": "Jehu destroys households and Baal’s sanctuary",
       "summary": "Jehu kills Ahab’s descendants and Ahaziah’s relatives. He traps Baal’s worshipers and kills them. Yet he keeps Jeroboam’s golden calves.",
-      "detail": "Jehu ends Ahab’s royal line and Baal’s temple worship. His own worship still draws criticism.",
+      "detail": "Jehu destroys Baal's sanctuary but retains the golden calves. The account therefore limits the meaning of his zeal. Dramatic public action does not establish consistent obedience.",
       "dateLabel": "Chapter order · historical year uncertain",
       "uncertainty": "Named towns and approximate reference regions. Exact buildings, camps, and disputed sites remain uncertain.",
       "sourceIds": [
@@ -1302,7 +1584,7 @@
       "eventOrder": 11,
       "title": "Joash is hidden and crowned",
       "summary": "Athaliah seizes power. Jehosheba hides Joash and his nurse. Jehoiada arranges the child’s coronation, covenant renewal, and Athaliah’s execution.",
-      "detail": "Jehosheba and a nurse save Joash before he becomes king. Their hidden care protects his life.",
+      "detail": "Jehosheba and the nurse protect Joash before his public coronation. Their hidden work makes the later royal ceremony possible. The throne's continuity depends on people outside the visible center of power.",
       "dateLabel": "Chapter order · historical year uncertain",
       "uncertainty": "Named towns and approximate reference regions. Exact buildings, camps, and disputed sites remain uncertain.",
       "sourceIds": [
@@ -1326,7 +1608,7 @@
       "eventOrder": 12,
       "title": "Joash changes the temple repair system",
       "summary": "Joash and Jehoiada direct repairs through a collection chest and workers. Joash sends treasure to Hazael, and conspirators later kill him.",
-      "detail": "Temple repairs stall until the payment system changes. Trusted workers then use the money for repairs.",
+      "detail": "Earlier collections fail to produce the needed work. The revised system directs funds to those doing repairs. The account joins trust in workers with a change in handling contributions.",
       "dateLabel": "Chapter order · historical year uncertain",
       "uncertainty": "Named towns and approximate reference regions. Exact buildings, camps, and disputed sites remain uncertain.",
       "sourceIds": [
@@ -1351,7 +1633,7 @@
       "eventOrder": 13,
       "title": "Northern kings and Elisha’s death",
       "summary": "Jehoahaz faces Syrian pressure. His son Joash visits dying Elisha. The arrow signs precede victories, and a burial story reports restored life.",
-      "detail": "Jehoahaz asks God for relief from Syria. Elisha’s last signs promise Joash victories over Syria.",
+      "detail": "The arrow and striking actions connect Joash's response with future victories. Elisha's rebuke explains the difference between limited and greater success. The deathbed scene passes judgment through gestures as well as speech.",
       "dateLabel": "Chapter order · historical year uncertain",
       "uncertainty": "Named towns and approximate reference regions. Exact buildings, camps, and disputed sites remain uncertain.",
       "sourceIds": [
@@ -1376,7 +1658,7 @@
       "eventOrder": 14,
       "title": "Amaziah loses a war and Jeroboam restores territory",
       "summary": "Amaziah spares his enemies’ children. He wins in Edom but loses to Israel’s Joash. Jeroboam later restores Israel’s border.",
-      "detail": "Amaziah follows the law by sparing the children. His pride after victory leads to another costly war.",
+      "detail": "Amaziah spares his opponents' children under the written law. His later challenge to Israel's king still brings defeat. One just decision does not guarantee wise judgment in another situation.",
       "dateLabel": "Chapter order · historical year uncertain",
       "uncertainty": "Named towns and approximate reference regions. Exact buildings, camps, and disputed sites remain uncertain.",
       "sourceIds": [
@@ -1406,7 +1688,7 @@
       "eventOrder": 15,
       "title": "Kings rise and fall as Assyria gains power",
       "summary": "Azariah and Jotham rule Judah. Israel’s throne changes through repeated conspiracies. Menahem pays Pul, and Tiglath Pileser deports northern communities.",
-      "detail": "Repeated plots bring new kings to Israel. Assyrian demands then place heavy costs on the people.",
+      "detail": "Menahem collects silver from wealthy men to pay the Assyrian ruler. His throne gains support through that transfer. The succession notices place local rivalries within expanding foreign power.",
       "dateLabel": "Chapter order · historical year uncertain",
       "uncertainty": "Named towns and approximate reference regions. Exact buildings, camps, and disputed sites remain uncertain.",
       "sourceIds": [
@@ -1434,7 +1716,7 @@
       "eventOrder": 16,
       "title": "Ahaz seeks Assyrian help and changes the altar",
       "summary": "Rezin and Pekah attack Judah. Ahaz sends treasure to Tiglath Pileser. Urijah constructs an altar based on one Ahaz sees in Damascus.",
-      "detail": "Ahaz seeks Assyria’s help and copies an altar from Damascus. His alliance changes both Judah’s finances and worship.",
+      "detail": "Ahaz copies an altar seen during his meeting in Damascus. The priest follows the king's instructions for its use. Political reliance and changes to worship develop together in the account.",
       "dateLabel": "Chapter order · historical year uncertain",
       "uncertainty": "Named towns and approximate reference regions. Exact buildings, camps, and disputed sites remain uncertain.",
       "sourceIds": [
@@ -1458,7 +1740,7 @@
       "eventOrder": 17,
       "title": "Samaria falls and the narrator explains exile",
       "summary": "Hoshea seeks Egypt’s help against Assyria. Assyria captures Samaria and removes its people. New settlers bring their own gods.",
-      "detail": "The book explains Israel’s fall through broken commitments to God. It then describes the mixed worship of new settlers.",
+      "detail": "The account describes deported Israelites and new settlers in the same territory. It then explains worship through their different origins. Read that interpretation as the account's argument, not the newcomers' own testimony.",
       "dateLabel": "Chapter order · historical year uncertain",
       "uncertainty": "Named towns and approximate reference regions. Exact buildings, camps, and disputed sites remain uncertain.",
       "sourceIds": [
@@ -1485,7 +1767,7 @@
       "eventOrder": 18,
       "title": "Hezekiah changes worship and faces Assyria",
       "summary": "Hezekiah removes shrines and the bronze serpent. Sennacherib captures towns, demands payment, and sends men to threaten Jerusalem.",
-      "detail": "Assyria attacks Judah and demands payment. Its spokesman tries to break the people’s trust in Hezekiah.",
+      "detail": "Hezekiah’s payment follows the loss of fortified cities. The account does not describe a simple victory without cost. Assyrian royal records also present this campaign from the conqueror’s side. Compare their claims with the danger described in Kings. The records help establish the war’s setting without making their viewpoints identical.",
       "dateLabel": "Chapter order · historical year uncertain",
       "uncertainty": "Named towns and approximate reference regions. Exact buildings, camps, and disputed sites remain uncertain.",
       "sourceIds": [
@@ -1493,7 +1775,8 @@
         "atlas-canaan",
         "hayes-kings",
         "millard-hezekiah",
-        "taylor-prism"
+        "taylor-prism",
+        "prism-taylor"
       ],
       "placeIds": [
         "jerusalem",
@@ -1515,7 +1798,7 @@
       "eventOrder": 19,
       "title": "Hezekiah prays and Isaiah answers",
       "summary": "Hezekiah seeks Isaiah and prays over the threat. Isaiah announces deliverance. The army suffers a great loss, and Sennacherib later dies in his own land.",
-      "detail": "Hezekiah brings the threat to God. Isaiah promises relief, and Jerusalem survives the attack.",
+      "detail": "The Assyrian commander returns while the king moves from Lachish to Libnah. That detail places the threat to Jerusalem within a wider war. The Lachish relief presents conquest through Assyria’s royal viewpoint. Kings instead follows Judah’s crisis and appeal for help. Different evidence can share a setting while telling different parts of it.",
       "dateLabel": "Chapter order · historical year uncertain",
       "uncertainty": "Named towns and approximate reference regions. Exact buildings, camps, and disputed sites remain uncertain.",
       "sourceIds": [
@@ -1523,7 +1806,8 @@
         "atlas-canaan",
         "hayes-kings",
         "millard-hezekiah",
-        "taylor-prism"
+        "taylor-prism",
+        "lachish"
       ],
       "placeIds": [
         "jerusalem",
@@ -1545,7 +1829,7 @@
       "eventOrder": 20,
       "title": "Hezekiah recovers and welcomes Babylon’s envoys",
       "summary": "Isaiah announces Hezekiah’s recovery and a sign. Hezekiah shows his treasures to Babylonian visitors. Isaiah warns that later generations will face exile.",
-      "detail": "Hezekiah recovers and receives visitors from Babylon. Showing them his treasures leads to Isaiah’s warning.",
+      "detail": "Hezekiah shows the visitors what his household possesses. Isaiah answers by describing those same goods and descendants taken away. The scene places present royal pride beside the next generation's vulnerability.",
       "dateLabel": "Chapter order · historical year uncertain",
       "uncertainty": "Named towns and approximate reference regions. Exact buildings, camps, and disputed sites remain uncertain.",
       "sourceIds": [
@@ -1570,7 +1854,7 @@
       "eventOrder": 21,
       "title": "Manasseh and Amon restore forbidden worship",
       "summary": "Manasseh restores shrines, practices forbidden rites, and sheds innocent blood. Amon continues his father’s ways and is killed by servants. Josiah succeeds.",
-      "detail": "Manasseh restores worship that Hezekiah removed. Unlike Chronicles, Kings gives no account of his repentance.",
+      "detail": "The account condemns Manasseh's sacred practices and the shedding of innocent blood. These are related judgments, not interchangeable charges. The chapter's explanation of later disaster includes harm within Jerusalem.",
       "dateLabel": "Chapter order · historical year uncertain",
       "uncertainty": "Named towns and approximate reference regions. Exact buildings, camps, and disputed sites remain uncertain.",
       "sourceIds": [
@@ -1596,7 +1880,7 @@
       "eventOrder": 22,
       "title": "The law scroll is found and Huldah responds",
       "summary": "Hilkiah finds the law scroll during temple work. Shaphan reads it to Josiah. A delegation seeks Huldah, who announces judgment and mercy toward Josiah.",
-      "detail": "The king's men seek Huldah's answer about the book. Her warning leads Josiah to change worship.",
+      "detail": "Officials bring the found book's claims to Huldah. Her answer gives the king's distress a wider setting. Possessing and reading the scroll do not by themselves settle its meaning for the community.",
       "dateLabel": "Chapter order · historical year uncertain",
       "uncertainty": "Named towns and approximate reference regions. Exact buildings, camps, and disputed sites remain uncertain.",
       "sourceIds": [
@@ -1622,7 +1906,7 @@
       "eventOrder": 23,
       "title": "Josiah renews the covenant and removes shrines",
       "summary": "Josiah reads the covenant, removes worship objects and shrines, and celebrates Passover. He dies at Megiddo. Jehoahaz is deposed, and Jehoiakim rules.",
-      "detail": "Josiah removes worship objects and renews Passover. Judah's later kings return to the practices he opposed.",
+      "detail": "Josiah's changes receive unusually strong praise. The account still says the earlier judgment remains. The sequence prevents readers from treating reform as an automatic reversal of every past harm.",
       "dateLabel": "Chapter order · historical year uncertain",
       "uncertainty": "Named towns and approximate reference regions. Exact buildings, camps, and disputed sites remain uncertain.",
       "sourceIds": [
@@ -1653,7 +1937,7 @@
       "eventOrder": 24,
       "title": "Babylon takes treasure and deports Jehoiachin",
       "summary": "Jehoiakim rebels against Babylon. Jehoiachin surrenders Jerusalem and is deported with his household and other residents. Nebuchadnezzar appoints Zedekiah.",
-      "detail": "Babylon removes the king, workers, soldiers, and many families. The city loses people as well as treasures.",
+      "detail": "The account names officials, fighters, and craftspeople among those taken away. Conquest therefore changes daily capacity as well as rulers. The remaining population inherits a city stripped of many resources.",
       "dateLabel": "Chapter order · historical year uncertain",
       "uncertainty": "Named towns and approximate reference regions. Exact buildings, camps, and disputed sites remain uncertain.",
       "sourceIds": [
@@ -1680,7 +1964,7 @@
       "eventOrder": 25,
       "title": "Jerusalem is destroyed and a prisoner receives favor",
       "summary": "Jerusalem falls. Zedekiah is captured, the temple burns, and captives are taken away. Gedaliah is killed. Jehoiachin later receives favor in Babylon.",
-      "detail": "Babylon destroys the temple and takes people away. Later kindness gives the captive king some relief.",
+      "detail": "Jerusalem falls, its temple burns, and its people lose royal rule. The last scene still names a living king from David’s line. His release offers survival, not a restored kingdom. The ending refuses both an easy recovery and total closure. Read this small change against the scale of the preceding loss.",
       "dateLabel": "Chapter order · historical year uncertain",
       "uncertainty": "Named towns and approximate reference regions. Exact buildings, camps, and disputed sites remain uncertain.",
       "sourceIds": [
@@ -2206,41 +2490,37 @@
   "words": [],
   "guides": [
     {
-      "id": "2-kings-overview",
-      "title": "Study 2 Kings",
-      "description": "Follow selected chapters through the book.",
+      "id": "2-kings-context",
+      "title": "2 Kings: context and evidence",
+      "description": "Explore the book’s larger concerns through selected passages and relevant evidence.",
       "steps": [
         {
-          "title": "Ahaziah seeks an oracle and Elijah answers",
-          "text": "Injured Ahaziah sends messengers toward Ekron. Elijah announces his death. Two armed groups die, while the third captain pleads for life. The first two captains demand that Elijah come down. The third asks for mercy and survives.",
-          "chapter": 1,
-          "verse": 1,
+          "title": "Two records describe royal power differently",
+          "text": "Hezekiah’s payment follows the loss of fortified cities. The account does not describe a simple victory without cost. Assyrian royal records also present this campaign from the conqueror’s side. Compare their claims with the danger described in Kings. The records help establish the war’s setting without making their viewpoints identical.",
+          "chapter": 18,
+          "verse": 14,
           "sourceIds": [
             "web",
-            "atlas-canaan",
-            "wiki-2-kings"
+            "prism-taylor"
           ]
         },
         {
-          "title": "Northern kings and Elisha’s death",
-          "text": "Jehoahaz faces Syrian pressure. His son Joash visits dying Elisha. The arrow signs precede victories, and a burial story reports restored life. Jehoahaz asks God for relief from Syria. Elisha’s last signs promise Joash victories over Syria.",
-          "chapter": 13,
-          "verse": 1,
+          "title": "Lachish connects the speech with an actual campaign",
+          "text": "The Assyrian commander returns while the king moves from Lachish to Libnah. That detail places the threat to Jerusalem within a wider war. The Lachish relief presents conquest through Assyria’s royal viewpoint. Kings instead follows Judah’s crisis and appeal for help. Different evidence can share a setting while telling different parts of it.",
+          "chapter": 19,
+          "verse": 8,
           "sourceIds": [
             "web",
-            "atlas-canaan"
+            "lachish"
           ]
         },
         {
-          "title": "Jerusalem is destroyed and a prisoner receives favor",
-          "text": "Jerusalem falls. Zedekiah is captured, the temple burns, and captives are taken away. Gedaliah is killed. Jehoiachin later receives favor in Babylon. Babylon destroys the temple and takes people away. Later kindness gives the captive king some relief.",
+          "title": "The ending preserves a narrow form of hope",
+          "text": "Jerusalem falls, its temple burns, and its people lose royal rule. The last scene still names a living king from David’s line. His release offers survival, not a restored kingdom. The ending refuses both an easy recovery and total closure. Read this small change against the scale of the preceding loss.",
           "chapter": 25,
-          "verse": 1,
+          "verse": 27,
           "sourceIds": [
-            "web",
-            "atlas-canaan",
-            "hayes-kings",
-            "wiki-2-kings"
+            "web"
           ]
         }
       ]
@@ -2796,7 +3076,8 @@
         "atlas-canaan",
         "hayes-kings",
         "millard-hezekiah",
-        "taylor-prism"
+        "taylor-prism",
+        "prism-taylor"
       ]
     },
     {
@@ -2833,7 +3114,8 @@
         "atlas-canaan",
         "hayes-kings",
         "millard-hezekiah",
-        "taylor-prism"
+        "taylor-prism",
+        "lachish"
       ]
     },
     {
@@ -3032,7 +3314,7 @@
       "chapter": 2,
       "verse": 1,
       "summary": "Elijah and Elisha travel through Bethel and Jericho to the Jordan. Elisha receives the mantle, heals water, and encounters mocking youths.",
-      "detail": "Elisha picks up Elijah’s cloak and takes up his work. His first acts show both help and judgment.",
+      "detail": "Elisha returns to the river with Elijah's mantle. The crossing answers the question of whether the earlier help continues. The observing prophets recognize succession through an act rather than a title alone.",
       "uncertainty": "Connects named settings in narrative order. Approximate lines do not reconstruct roads or exact military movements.",
       "evidence": "Connects named settings in narrative order. Approximate lines do not reconstruct roads or exact military movements.",
       "kind": "journey",
@@ -3065,7 +3347,7 @@
       "chapter": 3,
       "verse": 1,
       "summary": "Joram, Jehoshaphat, and Edom’s king seek Elisha during a water crisis. They attack Moab. Mesha sacrifices his firstborn, and Israel withdraws.",
-      "detail": "The alliance wins battles but withdraws after Mesha sacrifices his son. The ending raises questions about wrath.",
+      "detail": "Elisha challenges Israel's king while responding because of Jehoshaphat. Shared military need does not make their standing identical. The ending preserves a disturbing sacrifice rather than a simple triumph.",
       "uncertainty": "Connects named settings in narrative order. Approximate lines do not reconstruct roads or exact military movements.",
       "evidence": "Connects named settings in narrative order. Approximate lines do not reconstruct roads or exact military movements.",
       "kind": "journey",
@@ -3097,7 +3379,7 @@
       "chapter": 5,
       "verse": 1,
       "summary": "A captive girl directs Naaman toward Israel’s prophet. Elisha sends him to wash in the Jordan. Gehazi secretly obtains gifts and receives judgment.",
-      "detail": "Naaman receives help from people with less power. A captive girl and servants guide his choices.",
+      "detail": "A captive girl points toward help, and servants challenge Naaman's offended response. Rank repeatedly obstructs what their advice makes possible. Gehazi's later demand for payment changes the gift's meaning.",
       "uncertainty": "Connects named settings in narrative order. Approximate lines do not reconstruct roads or exact military movements.",
       "evidence": "Connects named settings in narrative order. Approximate lines do not reconstruct roads or exact military movements.",
       "kind": "journey",
@@ -3126,7 +3408,7 @@
       "chapter": 8,
       "verse": 1,
       "summary": "The Shunammite returns and asks for her land. Elisha meets Hazael in Damascus. The chapter also records Judah’s next kings.",
-      "detail": "The Shunammite’s return shows how famine can cost a family its home. The king orders her property restored.",
+      "detail": "The woman's return coincides with Gehazi's account of her restored son. The king orders property and proceeds returned to her. Recovery requires an official decision as well as survival through famine.",
       "uncertainty": "Connects named settings in narrative order. Approximate lines do not reconstruct roads or exact military movements.",
       "evidence": "Connects named settings in narrative order. Approximate lines do not reconstruct roads or exact military movements.",
       "kind": "journey",
@@ -3153,7 +3435,7 @@
       "chapter": 9,
       "verse": 1,
       "summary": "An unnamed prophetic messenger anoints Jehu. Jehu kills Joram and Ahaziah, then orders Jezebel’s death at Jezreel.",
-      "detail": "Jehu uses earlier warnings to explain his killings. The change of king destroys two royal households.",
+      "detail": "Jehu places Joram's body in Naboth's field. That location links the royal family’s overthrow with the vineyard seizure. The chapter describes violence through remembered judgment rather than a change of rulers alone.",
       "uncertainty": "Connects named settings in narrative order. Approximate lines do not reconstruct roads or exact military movements.",
       "evidence": "Connects named settings in narrative order. Approximate lines do not reconstruct roads or exact military movements.",
       "kind": "journey",
@@ -3181,7 +3463,7 @@
       "chapter": 14,
       "verse": 1,
       "summary": "Amaziah spares his enemies’ children. He wins in Edom but loses to Israel’s Joash. Jeroboam later restores Israel’s border.",
-      "detail": "Amaziah follows the law by sparing the children. His pride after victory leads to another costly war.",
+      "detail": "Amaziah spares his opponents' children under the written law. His later challenge to Israel's king still brings defeat. One just decision does not guarantee wise judgment in another situation.",
       "uncertainty": "Connects named settings in narrative order. Approximate lines do not reconstruct roads or exact military movements.",
       "evidence": "Connects named settings in narrative order. Approximate lines do not reconstruct roads or exact military movements.",
       "kind": "journey",
@@ -3208,7 +3490,7 @@
       "chapter": 16,
       "verse": 1,
       "summary": "Rezin and Pekah attack Judah. Ahaz sends treasure to Tiglath Pileser. Urijah constructs an altar based on one Ahaz sees in Damascus.",
-      "detail": "Ahaz seeks Assyria’s help and copies an altar from Damascus. His alliance changes both Judah’s finances and worship.",
+      "detail": "Ahaz copies an altar seen during his meeting in Damascus. The priest follows the king's instructions for its use. Political reliance and changes to worship develop together in the account.",
       "uncertainty": "Connects named settings in narrative order. Approximate lines do not reconstruct roads or exact military movements.",
       "evidence": "Connects named settings in narrative order. Approximate lines do not reconstruct roads or exact military movements.",
       "kind": "journey",
@@ -3235,7 +3517,7 @@
       "chapter": 19,
       "verse": 1,
       "summary": "Hezekiah seeks Isaiah and prays over the threat. Isaiah announces deliverance. The army suffers a great loss, and Sennacherib later dies in his own land.",
-      "detail": "Hezekiah brings the threat to God. Isaiah promises relief, and Jerusalem survives the attack.",
+      "detail": "The Assyrian commander returns while the king moves from Lachish to Libnah. That detail places the threat to Jerusalem within a wider war. The Lachish relief presents conquest through Assyria’s royal viewpoint. Kings instead follows Judah’s crisis and appeal for help. Different evidence can share a setting while telling different parts of it.",
       "uncertainty": "Connects named settings in narrative order. Approximate lines do not reconstruct roads or exact military movements.",
       "evidence": "Connects named settings in narrative order. Approximate lines do not reconstruct roads or exact military movements.",
       "kind": "journey",
@@ -3246,7 +3528,8 @@
         "atlas-canaan",
         "hayes-kings",
         "millard-hezekiah",
-        "taylor-prism"
+        "taylor-prism",
+        "lachish"
       ]
     },
     {
@@ -3265,7 +3548,7 @@
       "chapter": 24,
       "verse": 1,
       "summary": "Jehoiakim rebels against Babylon. Jehoiachin surrenders Jerusalem and is deported with his household and other residents. Nebuchadnezzar appoints Zedekiah.",
-      "detail": "Babylon removes the king, workers, soldiers, and many families. The city loses people as well as treasures.",
+      "detail": "The account names officials, fighters, and craftspeople among those taken away. Conquest therefore changes daily capacity as well as rulers. The remaining population inherits a city stripped of many resources.",
       "uncertainty": "Connects named settings in narrative order. Approximate lines do not reconstruct roads or exact military movements.",
       "evidence": "Connects named settings in narrative order. Approximate lines do not reconstruct roads or exact military movements.",
       "kind": "journey",
@@ -3298,7 +3581,7 @@
       "chapter": 25,
       "verse": 1,
       "summary": "Jerusalem falls. Zedekiah is captured, the temple burns, and captives are taken away. Gedaliah is killed. Jehoiachin later receives favor in Babylon.",
-      "detail": "Babylon destroys the temple and takes people away. Later kindness gives the captive king some relief.",
+      "detail": "Jerusalem falls, its temple burns, and its people lose royal rule. The last scene still names a living king from David’s line. His release offers survival, not a restored kingdom. The ending refuses both an easy recovery and total closure. Read this small change against the scale of the preceding loss.",
       "uncertainty": "Connects named settings in narrative order. Approximate lines do not reconstruct roads or exact military movements.",
       "evidence": "Connects named settings in narrative order. Approximate lines do not reconstruct roads or exact military movements.",
       "kind": "journey",
@@ -3313,5 +3596,131 @@
     }
   ],
   "narrativeRegions": [],
-  "chapterStudies": []
+  "chapterStudies": [
+    {
+      "chapter": 1,
+      "verse": 13,
+      "context": ""
+    },
+    {
+      "chapter": 2,
+      "verse": 14,
+      "context": ""
+    },
+    {
+      "chapter": 3,
+      "verse": 13,
+      "context": ""
+    },
+    {
+      "chapter": 4,
+      "verse": 7,
+      "context": ""
+    },
+    {
+      "chapter": 5,
+      "verse": 13,
+      "context": ""
+    },
+    {
+      "chapter": 6,
+      "verse": 22,
+      "context": ""
+    },
+    {
+      "chapter": 7,
+      "verse": 9,
+      "context": ""
+    },
+    {
+      "chapter": 8,
+      "verse": 5,
+      "context": ""
+    },
+    {
+      "chapter": 9,
+      "verse": 26,
+      "context": ""
+    },
+    {
+      "chapter": 10,
+      "verse": 31,
+      "context": ""
+    },
+    {
+      "chapter": 11,
+      "verse": 3,
+      "context": ""
+    },
+    {
+      "chapter": 12,
+      "verse": 15,
+      "context": ""
+    },
+    {
+      "chapter": 13,
+      "verse": 19,
+      "context": ""
+    },
+    {
+      "chapter": 14,
+      "verse": 6,
+      "context": ""
+    },
+    {
+      "chapter": 15,
+      "verse": 20,
+      "context": ""
+    },
+    {
+      "chapter": 16,
+      "verse": 10,
+      "context": ""
+    },
+    {
+      "chapter": 17,
+      "verse": 24,
+      "context": ""
+    },
+    {
+      "chapter": 18,
+      "verse": 14,
+      "context": ""
+    },
+    {
+      "chapter": 19,
+      "verse": 8,
+      "context": ""
+    },
+    {
+      "chapter": 20,
+      "verse": 17,
+      "context": ""
+    },
+    {
+      "chapter": 21,
+      "verse": 16,
+      "context": ""
+    },
+    {
+      "chapter": 22,
+      "verse": 14,
+      "context": ""
+    },
+    {
+      "chapter": 23,
+      "verse": 26,
+      "context": ""
+    },
+    {
+      "chapter": 24,
+      "verse": 14,
+      "context": ""
+    },
+    {
+      "chapter": 25,
+      "verse": 27,
+      "context": ""
+    }
+  ]
 }

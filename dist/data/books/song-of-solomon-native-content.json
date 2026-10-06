@@ -163,6 +163,47 @@
       "type": "LDS Bible Dictionary",
       "limitations": "The entry quotes the JST: “the Songs of Solomon are not inspired writings.” This is Church guidance about the book, not chapter commentary. Questions in other chapters are original. No Come, Follow Me chapter lesson is claimed.",
       "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "met-544042",
+      "title": "Perfume Vessel in the Shape of Two Trussed Ducks",
+      "url": "https://www.metmuseum.org/art/collection/search/544042",
+      "author": "The Metropolitan Museum of Art",
+      "category": "museum",
+      "perspective": "historical",
+      "summary": "This Egyptian perfume vessel has the form of two tied ducks.",
+      "limits": "The vessel offers a comparison for the use of scent. It is not an object named in this passage.",
+      "previewText": "This Egyptian perfume vessel has the form of two tied ducks. The vessel offers a comparison for the use of scent. It is not an object named in this passage.",
+      "image": {
+        "src": "assets/study-objects/met-544042.jpg",
+        "fullUrl": "https://images.metmuseum.org/CRDImages/eg/original/DT226129.jpg",
+        "sourceUrl": "https://www.metmuseum.org/art/collection/search/544042",
+        "creditUrl": "https://www.metmuseum.org/art/collection/search/544042",
+        "credit": "The Metropolitan Museum of Art",
+        "license": "CC0 / Public domain",
+        "licenseUrl": "https://www.metmuseum.org/policies/image-resources",
+        "alt": "Perfume Vessel in the Shape of Two Trussed Ducks",
+        "caption": "Perfume Vessel in the Shape of Two Trussed Ducks · ca. 1580–1550 B.C. · The Met",
+        "width": 500,
+        "height": 625
+      },
+      "date": "ca. 1580–1550 B.C.",
+      "objectNumber": "27.9.1",
+      "creditLine": "Gift of Edward S. Harkness, 1927",
+      "reviewed": {
+        "date": "2026-10-05",
+        "scope": "Museum object description, identity, date, and public-domain image metadata."
+      },
+      "access": "Public museum collection record and Open Access API",
+      "license": "CC0 / Public domain",
+      "chapterCoverage": [
+        1
+      ],
+      "imageChapters": [
+        1
+      ],
+      "type": "museum",
+      "limitations": "The vessel offers a comparison for the use of scent. It is not an object named in this passage."
     }
   ],
   "passages": [
@@ -172,7 +213,7 @@
       "start": 1,
       "end": 17,
       "title": "The lovers speak and exchange praise",
-      "summary": "The woman asks to meet her lover. She describes vineyard work that her brothers forced upon her. The woman calls herself lovely and answers those who stare. Data Over Dogma reads her sun-darkened skin as a sign of hard outdoor work.",
+      "summary": "The woman asks to meet her lover. She describes vineyard work that her brothers forced upon her.",
       "year": null,
       "dateLabel": "Poem order",
       "uncertainty": "The map locates named comparisons and groups. It does not trace the lovers’ movements.",
@@ -183,12 +224,23 @@
       "sourceIds": [
         "web",
         "fishbane-song-excerpt",
-        "mcclellan-song"
+        "mcclellan-song",
+        "met-544042"
       ],
       "lds": {
         "text": "The Church’s Bible Dictionary reports the JST: “the Songs of Solomon are not inspired writings.” How does the woman answer those who stare at her skin?",
         "sourceIds": [
           "lds-song-dictionary"
+        ]
+      },
+      "contextNote": {
+        "title": "Scent brings the lover into the poem",
+        "text": "The opening joins a name with the smell of fine oils. The comparison makes attraction felt through the senses. Wine, scent, and touch belong to the poem’s language of desire. Read these images as poetic comparisons, not a list of objects owned by the lovers. Ancient perfume vessels help make that sensory world concrete.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": [
+          "met-544042"
         ]
       }
     },
@@ -198,7 +250,7 @@
       "start": 1,
       "end": 17,
       "title": "Spring brings an invitation",
-      "summary": "The lover calls the woman outside as spring arrives. She warns against awakening love before it desires. Flowers and ripening fruit express the pleasure of their meeting. Her warning places a limit beside that desire.",
+      "summary": "The lover calls the woman outside as spring arrives. She warns against awakening love before it desires.",
       "year": null,
       "dateLabel": "Poem order",
       "uncertainty": "The map locates named comparisons and groups. It does not trace the lovers’ movements.",
@@ -213,6 +265,14 @@
       "lds": {
         "text": "Why does the woman place a warning about love beside spring’s invitation?",
         "sourceIds": []
+      },
+      "contextNote": {
+        "title": "Seasonal change becomes an invitation",
+        "text": "The return of flowers and birds accompanies the lover’s call to come outside. Nature gives desire a shared rhythm and setting. The repeated warning about awakening love places timing beside the invitation.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -221,7 +281,7 @@
       "start": 1,
       "end": 11,
       "title": "A night search and a royal carriage",
-      "summary": "The woman searches the streets and finds her lover. Another scene shows Solomon’s guarded wedding carriage. His mother gives him a wedding crown. Holding her lover answers the fear of losing him. The royal scene adds public wealth and protection.",
+      "summary": "The woman searches the streets and finds her lover. Another scene shows Solomon’s guarded wedding carriage. His mother gives him a wedding crown.",
       "year": null,
       "dateLabel": "Poem order",
       "uncertainty": "The map locates named comparisons and groups. It does not trace the lovers’ movements.",
@@ -236,6 +296,14 @@
       "lds": {
         "text": "How does the woman’s night search differ from Solomon’s guarded procession?",
         "sourceIds": []
+      },
+      "contextNote": {
+        "title": "Searching gives desire movement",
+        "text": "The night scene turns longing into movement through streets and questions to guards. Finding the beloved changes absence into physical closeness. The later royal procession widens the poem’s scale without explaining every connection between its scenes.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -244,7 +312,7 @@
       "start": 1,
       "end": 16,
       "title": "Praise through animals, towers, and gardens",
-      "summary": "The lover praises the woman through many comparisons. She invites him into the garden. The garden describes the woman and their desire. These comparisons express praise rather than describe her literally.",
+      "summary": "The lover praises the woman through many comparisons. She invites him into the garden.",
       "year": null,
       "dateLabel": "Poem order",
       "uncertainty": "The map locates named comparisons and groups. It does not trace the lovers’ movements.",
@@ -260,6 +328,14 @@
       "lds": {
         "text": "What does the woman’s garden invitation add to the lover’s praise?",
         "sourceIds": []
+      },
+      "contextNote": {
+        "title": "The garden describes desire through a place",
+        "text": "An enclosed garden joins beauty with protected access. The following lines name fruit, spices, and flowing water. These images describe the beloved through abundance and invitation. They do not give a route to a garden we can locate. Notice how the woman’s response develops the image rather than merely receiving it.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -268,7 +344,7 @@
       "start": 1,
       "end": 16,
       "title": "A missed visit and a harmful search",
-      "summary": "The woman opens too late for her lover. Watchmen beat her and take her cloak during her search. Her search brings harm rather than help from city guards. She still asks the women to find her friend. Data Over Dogma explains that lovers can call each other siblings. These words do not establish a brother-sister relationship.",
+      "summary": "The woman opens too late for her lover. Watchmen beat her and take her cloak during her search.",
       "year": null,
       "dateLabel": "Poem order",
       "uncertainty": "The map locates named comparisons and groups. It does not trace the lovers’ movements.",
@@ -284,6 +360,14 @@
       "lds": {
         "text": "How do the watchmen’s actions change the woman’s search from chapter 3?",
         "sourceIds": []
+      },
+      "contextNote": {
+        "title": "A missed opening changes the scene",
+        "text": "The beloved’s departure turns an expected meeting into searching. The guards now injure the woman instead of merely receiving her questions. Her later praise preserves desire while the encounter remains unresolved.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -292,7 +376,7 @@
       "start": 1,
       "end": 13,
       "title": "The women offer help",
-      "summary": "The women offer to seek the lover. He praises the woman above queens and other women. The women’s help answers her earlier request. His praise presents her as someone who cannot be replaced.",
+      "summary": "The women offer to seek the lover. He praises the woman above queens and other women.",
       "year": null,
       "dateLabel": "Poem order",
       "uncertainty": "The map locates named comparisons and groups. It does not trace the lovers’ movements.",
@@ -309,6 +393,14 @@
       "lds": {
         "text": "How does the women’s offer answer the request she made in chapter 5?",
         "sourceIds": []
+      },
+      "contextNote": {
+        "title": "Belonging follows a question about absence",
+        "text": "Other voices ask where the beloved has gone. The woman answers through garden imagery and mutual belonging. The scene gives her knowledge and speech a central role in restoring the relation.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -317,7 +409,7 @@
       "start": 1,
       "end": 13,
       "title": "The woman invites her lover outside",
-      "summary": "The lover praises the woman’s body through comparisons. She invites him to fields, villages, and vineyards. The woman states her desire and chooses a meeting place. Her voice directs their time together.",
+      "summary": "The lover praises the woman’s body through comparisons. She invites him to fields, villages, and vineyards.",
       "year": null,
       "dateLabel": "Poem order",
       "uncertainty": "The map locates named comparisons and groups. It does not trace the lovers’ movements.",
@@ -334,6 +426,14 @@
       "lds": {
         "text": "How does the woman take action after hearing the lover’s praise?",
         "sourceIds": []
+      },
+      "contextNote": {
+        "title": "Praise leads into the woman’s invitation",
+        "text": "Descriptions of the body fill much of the chapter. The woman then proposes travel and meeting among growing plants. Her voice gives desire its own direction rather than only receiving another speaker’s praise.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -342,7 +442,7 @@
       "start": 1,
       "end": 14,
       "title": "Love, family control, and a woman’s answer",
-      "summary": "The poem compares love with death and fire. Brothers discuss their sister, and a woman answers for herself. Solomon rents out a vineyard. Wealth cannot buy the love described here. Her answer presents her own strength beside her brothers’ plans.",
+      "summary": "The poem compares love with death and fire. Brothers discuss their sister, and a woman answers for herself. Solomon rents out a vineyard.",
       "year": null,
       "dateLabel": "Poem order",
       "uncertainty": "The map locates named comparisons and groups. It does not trace the lovers’ movements.",
@@ -356,6 +456,14 @@
       "lds": {
         "text": "How does the woman’s answer differ from her brothers’ plans for her?",
         "sourceIds": []
+      },
+      "contextNote": {
+        "title": "The ending places love beyond purchase",
+        "text": "The poem measures love against floodwaters and wealth. The comparisons give desire a force money cannot command. This claim follows scenes of searching, meeting, and separation. Read it as the collection’s final statement about love’s value. A gift of wealth cannot replace the relation the speakers seek.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     }
   ],
@@ -367,13 +475,14 @@
       "eventOrder": 1,
       "title": "The lovers speak and exchange praise",
       "summary": "The woman asks to meet her lover. She describes vineyard work that her brothers forced upon her.",
-      "detail": "The woman calls herself lovely and answers those who stare. Data Over Dogma reads her sun-darkened skin as a sign of hard outdoor work.",
+      "detail": "The opening joins a name with the smell of fine oils. The comparison makes attraction felt through the senses. Wine, scent, and touch belong to the poem’s language of desire. Read these images as poetic comparisons, not a list of objects owned by the lovers. Ancient perfume vessels help make that sensory world concrete.",
       "dateLabel": "Poem order",
       "uncertainty": "The map locates named comparisons and groups. It does not trace the lovers’ movements.",
       "sourceIds": [
         "web",
         "fishbane-song-excerpt",
-        "mcclellan-song"
+        "mcclellan-song",
+        "met-544042"
       ],
       "placeIds": [
         "jerusalem",
@@ -393,7 +502,7 @@
       "eventOrder": 2,
       "title": "Spring brings an invitation",
       "summary": "The lover calls the woman outside as spring arrives. She warns against awakening love before it desires.",
-      "detail": "Flowers and ripening fruit express the pleasure of their meeting. Her warning places a limit beside that desire.",
+      "detail": "The return of flowers and birds accompanies the lover’s call to come outside. Nature gives desire a shared rhythm and setting. The repeated warning about awakening love places timing beside the invitation.",
       "dateLabel": "Poem order",
       "uncertainty": "The map locates named comparisons and groups. It does not trace the lovers’ movements.",
       "sourceIds": [
@@ -416,7 +525,7 @@
       "eventOrder": 3,
       "title": "A night search and a royal carriage",
       "summary": "The woman searches the streets and finds her lover. Another scene shows Solomon’s guarded wedding carriage. His mother gives him a wedding crown.",
-      "detail": "Holding her lover answers the fear of losing him. The royal scene adds public wealth and protection.",
+      "detail": "The night scene turns longing into movement through streets and questions to guards. Finding the beloved changes absence into physical closeness. The later royal procession widens the poem’s scale without explaining every connection between its scenes.",
       "dateLabel": "Poem order",
       "uncertainty": "The map locates named comparisons and groups. It does not trace the lovers’ movements.",
       "sourceIds": [
@@ -439,7 +548,7 @@
       "eventOrder": 4,
       "title": "Praise through animals, towers, and gardens",
       "summary": "The lover praises the woman through many comparisons. She invites him into the garden.",
-      "detail": "The garden describes the woman and their desire. These comparisons express praise rather than describe her literally.",
+      "detail": "An enclosed garden joins beauty with protected access. The following lines name fruit, spices, and flowing water. These images describe the beloved through abundance and invitation. They do not give a route to a garden we can locate. Notice how the woman’s response develops the image rather than merely receiving it.",
       "dateLabel": "Poem order",
       "uncertainty": "The map locates named comparisons and groups. It does not trace the lovers’ movements.",
       "sourceIds": [
@@ -463,7 +572,7 @@
       "eventOrder": 5,
       "title": "A missed visit and a harmful search",
       "summary": "The woman opens too late for her lover. Watchmen beat her and take her cloak during her search.",
-      "detail": "Her search brings harm rather than help from city guards. She still asks the women to find her friend. Data Over Dogma explains that lovers can call each other siblings. These words do not establish a brother-sister relationship.",
+      "detail": "The beloved’s departure turns an expected meeting into searching. The guards now injure the woman instead of merely receiving her questions. Her later praise preserves desire while the encounter remains unresolved.",
       "dateLabel": "Poem order",
       "uncertainty": "The map locates named comparisons and groups. It does not trace the lovers’ movements.",
       "sourceIds": [
@@ -487,7 +596,7 @@
       "eventOrder": 6,
       "title": "The women offer help",
       "summary": "The women offer to seek the lover. He praises the woman above queens and other women.",
-      "detail": "The women’s help answers her earlier request. His praise presents her as someone who cannot be replaced.",
+      "detail": "Other voices ask where the beloved has gone. The woman answers through garden imagery and mutual belonging. The scene gives her knowledge and speech a central role in restoring the relation.",
       "dateLabel": "Poem order",
       "uncertainty": "The map locates named comparisons and groups. It does not trace the lovers’ movements.",
       "sourceIds": [
@@ -512,7 +621,7 @@
       "eventOrder": 7,
       "title": "The woman invites her lover outside",
       "summary": "The lover praises the woman’s body through comparisons. She invites him to fields, villages, and vineyards.",
-      "detail": "The woman states her desire and chooses a meeting place. Her voice directs their time together.",
+      "detail": "Descriptions of the body fill much of the chapter. The woman then proposes travel and meeting among growing plants. Her voice gives desire its own direction rather than only receiving another speaker’s praise.",
       "dateLabel": "Poem order",
       "uncertainty": "The map locates named comparisons and groups. It does not trace the lovers’ movements.",
       "sourceIds": [
@@ -537,7 +646,7 @@
       "eventOrder": 8,
       "title": "Love, family control, and a woman’s answer",
       "summary": "The poem compares love with death and fire. Brothers discuss their sister, and a woman answers for herself. Solomon rents out a vineyard.",
-      "detail": "Wealth cannot buy the love described here. Her answer presents her own strength beside her brothers’ plans.",
+      "detail": "The poem measures love against floodwaters and wealth. The comparisons give desire a force money cannot command. This claim follows scenes of searching, meeting, and separation. Read it as the collection’s final statement about love’s value. A gift of wealth cannot replace the relation the speakers seek.",
       "dateLabel": "Poem order",
       "uncertainty": "The map locates named comparisons and groups. It does not trace the lovers’ movements.",
       "sourceIds": [
@@ -726,40 +835,36 @@
   "words": [],
   "guides": [
     {
-      "id": "song-of-solomon-overview",
-      "title": "Study Song of Solomon",
-      "description": "Follow selected chapters through the book.",
+      "id": "song-of-solomon-context",
+      "title": "Song of Solomon: context and evidence",
+      "description": "Explore the book’s larger concerns through selected passages and relevant evidence.",
       "steps": [
         {
-          "title": "The lovers speak and exchange praise",
-          "text": "The woman asks to meet her lover. She describes vineyard work that her brothers forced upon her. The woman calls herself lovely and answers those who stare. Data Over Dogma reads her sun-darkened skin as a sign of hard outdoor work.",
+          "title": "Scent brings the lover into the poem",
+          "text": "The opening joins a name with the smell of fine oils. The comparison makes attraction felt through the senses. Wine, scent, and touch belong to the poem’s language of desire. Read these images as poetic comparisons, not a list of objects owned by the lovers. Ancient perfume vessels help make that sensory world concrete.",
           "chapter": 1,
-          "verse": 1,
+          "verse": 3,
           "sourceIds": [
             "web",
-            "fishbane-song-excerpt",
-            "mcclellan-song"
+            "met-544042"
           ]
         },
         {
-          "title": "A missed visit and a harmful search",
-          "text": "The woman opens too late for her lover. Watchmen beat her and take her cloak during her search. Her search brings harm rather than help from city guards. She still asks the women to find her friend. Data Over Dogma explains that lovers can call each other siblings. These words do not establish a brother-sister relationship.",
-          "chapter": 5,
-          "verse": 1,
+          "title": "The garden describes desire through a place",
+          "text": "An enclosed garden joins beauty with protected access. The following lines name fruit, spices, and flowing water. These images describe the beloved through abundance and invitation. They do not give a route to a garden we can locate. Notice how the woman’s response develops the image rather than merely receiving it.",
+          "chapter": 4,
+          "verse": 12,
           "sourceIds": [
-            "web",
-            "fishbane-song-excerpt",
-            "mcclellan-song"
+            "web"
           ]
         },
         {
-          "title": "Love, family control, and a woman’s answer",
-          "text": "The poem compares love with death and fire. Brothers discuss their sister, and a woman answers for herself. Solomon rents out a vineyard. Wealth cannot buy the love described here. Her answer presents her own strength beside her brothers’ plans.",
+          "title": "The ending places love beyond purchase",
+          "text": "The poem measures love against floodwaters and wealth. The comparisons give desire a force money cannot command. This claim follows scenes of searching, meeting, and separation. Read it as the collection’s final statement about love’s value. A gift of wealth cannot replace the relation the speakers seek.",
           "chapter": 8,
-          "verse": 1,
+          "verse": 7,
           "sourceIds": [
-            "web",
-            "fishbane-song-excerpt"
+            "web"
           ]
         }
       ]
@@ -810,7 +915,8 @@
       "sourceIds": [
         "web",
         "fishbane-song-excerpt",
-        "mcclellan-song"
+        "mcclellan-song",
+        "met-544042"
       ]
     },
     {
@@ -986,5 +1092,46 @@
   ],
   "textRoutes": [],
   "narrativeRegions": [],
-  "chapterStudies": []
+  "chapterStudies": [
+    {
+      "chapter": 1,
+      "verse": 3,
+      "context": ""
+    },
+    {
+      "chapter": 2,
+      "verse": 11,
+      "context": ""
+    },
+    {
+      "chapter": 3,
+      "verse": 2,
+      "context": ""
+    },
+    {
+      "chapter": 4,
+      "verse": 12,
+      "context": ""
+    },
+    {
+      "chapter": 5,
+      "verse": 6,
+      "context": ""
+    },
+    {
+      "chapter": 6,
+      "verse": 3,
+      "context": ""
+    },
+    {
+      "chapter": 7,
+      "verse": 11,
+      "context": ""
+    },
+    {
+      "chapter": 8,
+      "verse": 7,
+      "context": ""
+    }
+  ]
 }

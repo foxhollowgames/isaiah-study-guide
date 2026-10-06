@@ -359,7 +359,7 @@
       "chapter": 1,
       "title": "Loss and the return to Bethlehem",
       "summary": "Famine takes Elimelech’s household to Moab. After three deaths, Naomi returns. Ruth stays with her, while Orpah returns home.",
-      "meaning": "Naomi and her daughters-in-law face grief and hard choices. Naomi blesses both women before Ruth stays.",
+      "meaning": "Naomi asks the town to hear bitterness in her name. The account also names Ruth beside her return. Naomi's sense of emptiness stands beside a relationship she does not yet recognize as provision.",
       "people": [
         "elimelech",
         "naomi",
@@ -394,13 +394,21 @@
         "moab",
         "bethlehem"
       ],
-      "routeEvidence": "The text names departure from Moab and arrival at Bethlehem. The line omits an unknown path around the Dead Sea."
+      "routeEvidence": "The text names departure from Moab and arrival at Bethlehem. The line omits an unknown path around the Dead Sea.",
+      "contextNote": {
+        "title": "A changed name expresses an argument about loss",
+        "text": "Naomi asks the town to hear bitterness in her name. The account also names Ruth beside her return. Naomi's sense of emptiness stands beside a relationship she does not yet recognize as provision.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
     },
     {
       "chapter": 2,
       "title": "Ruth gleans in Boaz’s field",
       "summary": "Ruth gathers leftover grain. Boaz provides protection, food, and additional grain. Naomi recognizes his connection with their family.",
-      "meaning": "Gleaning means collecting grain left after harvest. Boaz protects Ruth at work and helps her feed Naomi.",
+      "meaning": "Ruth’s access to leftover grain keeps two widows alive. Permission, safety, and extra food matter as much as the field itself. Boaz’s actions show how a rule depends on those with power. Ruth remains a worker with needs and choices. The harvest scenes make loyalty concrete through food and protection.",
       "people": [
         "ruth",
         "naomi",
@@ -430,13 +438,21 @@
       "historicalNote": "The story is set in the time of the judges. Its composition date and event dates are not established here.",
       "mapNote": "The map shows the named town and broad region. It does not identify private buildings or an ancient road.",
       "route": [],
-      "routeEvidence": "The text names departure from Moab and arrival at Bethlehem. The line omits an unknown path around the Dead Sea."
+      "routeEvidence": "The text names departure from Moab and arrival at Bethlehem. The line omits an unknown path around the Dead Sea.",
+      "contextNote": {
+        "title": "A harvest rule becomes a means of survival",
+        "text": "Ruth’s access to leftover grain keeps two widows alive. Permission, safety, and extra food matter as much as the field itself. Boaz’s actions show how a rule depends on those with power. Ruth remains a worker with needs and choices. The harvest scenes make loyalty concrete through food and protection.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
     },
     {
       "chapter": 3,
       "title": "The request at the threshing floor",
       "summary": "Naomi proposes a plan. Ruth approaches Boaz at night and asks for his protection. He promises action after consulting a nearer relative.",
-      "meaning": "Ruth asks Boaz to act as a family protector. He promises to settle the matter with the closer relative.",
+      "meaning": "Naomi prepares the visit, but Ruth states the request herself. She asks Boaz to accept a family duty rather than only give food. The night scene leads toward a public decision at the gate.",
       "people": [
         "ruth",
         "naomi",
@@ -464,13 +480,21 @@
       "historicalNote": "The story is set in the time of the judges. Its composition date and event dates are not established here.",
       "mapNote": "The map shows the named town and broad region. It does not identify private buildings or an ancient road.",
       "route": [],
-      "routeEvidence": "The text names departure from Moab and arrival at Bethlehem. The line omits an unknown path around the Dead Sea."
+      "routeEvidence": "The text names departure from Moab and arrival at Bethlehem. The line omits an unknown path around the Dead Sea.",
+      "contextNote": {
+        "title": "Ruth gives the plan her own words",
+        "text": "Naomi prepares the visit, but Ruth states the request herself. She asks Boaz to accept a family duty rather than only give food. The night scene leads toward a public decision at the gate.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
     },
     {
       "chapter": 4,
       "title": "The gate agreement and Obed’s birth",
       "summary": "Boaz meets the nearer relative and witnesses at the town gate. He marries Ruth. Their son Obed becomes David’s grandfather.",
-      "meaning": "The witnesses confirm Boaz’s duty toward Ruth and the family’s land. Naomi’s household gains a future.",
+      "meaning": "The gate scene places a family’s future before witnesses. Land, marriage, and the dead man’s name belong to one decision. Boaz accepts duties that the other relative declines. The story moves private loyalty into public responsibility. The final family line connects this small household with David.",
       "people": [
         "ruth",
         "naomi",
@@ -501,7 +525,8 @@
         "yale-ruth",
         "scholar-schipper",
         "atlas-canaan",
-        "wiki-ruth"
+        "wiki-ruth",
+        "met-321953"
       ],
       "lds": {
         "text": "Come, Follow Me compares Boaz’s care with Jesus Christ’s power to redeem, or save. How does Boaz help Ruth and Naomi?",
@@ -515,7 +540,17 @@
       "historicalNote": "The story is set in the time of the judges. Its composition date and event dates are not established here.",
       "mapNote": "The map shows the named town and broad region. It does not identify private buildings or an ancient road.",
       "route": [],
-      "routeEvidence": "The text names departure from Moab and arrival at Bethlehem. The line omits an unknown path around the Dead Sea."
+      "routeEvidence": "The text names departure from Moab and arrival at Bethlehem. The line omits an unknown path around the Dead Sea.",
+      "contextNote": {
+        "title": "Care requires a public commitment",
+        "text": "The gate scene places a family’s future before witnesses. Land, marriage, and the dead man’s name belong to one decision. Boaz accepts duties that the other relative declines. The story moves private loyalty into public responsibility. The final family line connects this small household with David.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": [
+          "met-321953"
+        ]
+      }
     }
   ],
   "people": [
@@ -1025,6 +1060,45 @@
         1,
         4
       ]
+    },
+    {
+      "id": "met-321953",
+      "title": "Cuneiform tablet: field sale",
+      "url": "https://www.metmuseum.org/art/collection/search/321953",
+      "author": "The Metropolitan Museum of Art",
+      "category": "museum",
+      "perspective": "historical",
+      "summary": "This Babylonian clay tablet records a field sale.",
+      "limits": "It shows that land sales could have written records. It is earlier regional evidence, not the biblical deed.",
+      "previewText": "This Babylonian clay tablet records a field sale. It shows that land sales could have written records. It is earlier regional evidence, not the biblical deed.",
+      "image": {
+        "src": "assets/study-objects/met-321953.jpg",
+        "fullUrl": "https://images.metmuseum.org/CRDImages/an/original/ME86_11_329.jpg",
+        "sourceUrl": "https://www.metmuseum.org/art/collection/search/321953",
+        "creditUrl": "https://www.metmuseum.org/art/collection/search/321953",
+        "credit": "The Metropolitan Museum of Art",
+        "license": "CC0 / Public domain",
+        "licenseUrl": "https://www.metmuseum.org/policies/image-resources",
+        "alt": "Cuneiform tablet: field sale",
+        "caption": "Cuneiform tablet: field sale · ca. 20th–16th century BCE · The Met",
+        "width": 554,
+        "height": 624
+      },
+      "date": "ca. 20th–16th century BCE",
+      "objectNumber": "86.11.329",
+      "creditLine": "Purchase, 1886",
+      "reviewed": {
+        "date": "2026-10-05",
+        "scope": "Museum object description, identity, date, and public-domain image metadata."
+      },
+      "access": "Public museum collection record and Open Access API",
+      "license": "CC0 / Public domain",
+      "chapterCoverage": [
+        4
+      ],
+      "imageChapters": [
+        4
+      ]
     }
   ],
   "review": {
@@ -1033,8 +1107,61 @@
     "nextBook": "1-samuel",
     "sourcePolicy": "BIBLE-SOURCE-POLICY.md",
     "sourceEnrichmentDate": "2026-10-05",
-    "copyReview": "2026-10-05: Reader copy reviewed against WRITING-GUIDE.md. Scripture and source titles preserved."
+    "copyReview": "2026-10-05: Reader copy reviewed against WRITING-GUIDE.md. Scripture and source titles preserved.",
+    "contextReview": {
+      "date": "2026-10-05",
+      "chapters": 4,
+      "scope": "Original close readings grounded in local World English Bible passages. Existing external source reviews remain separate."
+    }
   },
   "translation": "World English Bible",
-  "copyright": "Public domain"
+  "copyright": "Public domain",
+  "chapterStudies": [
+    {
+      "chapter": 1,
+      "verse": 20,
+      "context": ""
+    },
+    {
+      "chapter": 2,
+      "verse": 7,
+      "context": ""
+    },
+    {
+      "chapter": 3,
+      "verse": 9,
+      "context": ""
+    },
+    {
+      "chapter": 4,
+      "verse": 9,
+      "context": ""
+    }
+  ],
+  "contextGuide": {
+    "id": "ruth-context",
+    "title": "Ruth: context and evidence",
+    "description": "Explore the book’s larger concerns through selected passages and relevant evidence.",
+    "steps": [
+      {
+        "title": "A harvest rule becomes a means of survival",
+        "text": "Ruth’s access to leftover grain keeps two widows alive. Permission, safety, and extra food matter as much as the field itself. Boaz’s actions show how a rule depends on those with power. Ruth remains a worker with needs and choices. The harvest scenes make loyalty concrete through food and protection.",
+        "chapter": 2,
+        "verse": 7,
+        "sourceIds": [
+          "web"
+        ]
+      },
+      {
+        "title": "Care requires a public commitment",
+        "text": "The gate scene places a family’s future before witnesses. Land, marriage, and the dead man’s name belong to one decision. Boaz accepts duties that the other relative declines. The story moves private loyalty into public responsibility. The final family line connects this small household with David.",
+        "chapter": 4,
+        "verse": 9,
+        "sourceIds": [
+          "web",
+          "met-321953"
+        ]
+      }
+    ]
+  }
 }

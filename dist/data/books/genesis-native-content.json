@@ -644,6 +644,90 @@
       ],
       "type": "Scholar interview",
       "limitations": "This is one scholar’s interpretation, separate from Church teaching. Proposed dates and claims about scholarly agreement were not independently verified."
+    },
+    {
+      "id": "met-321953",
+      "title": "Cuneiform tablet: field sale",
+      "url": "https://www.metmuseum.org/art/collection/search/321953",
+      "author": "The Metropolitan Museum of Art",
+      "category": "museum",
+      "perspective": "historical",
+      "summary": "This Babylonian clay tablet records a field sale.",
+      "limits": "It shows that land sales could have written records. It is earlier regional evidence, not the biblical deed.",
+      "previewText": "This Babylonian clay tablet records a field sale. It shows that land sales could have written records. It is earlier regional evidence, not the biblical deed.",
+      "image": {
+        "src": "assets/study-objects/met-321953.jpg",
+        "fullUrl": "https://images.metmuseum.org/CRDImages/an/original/ME86_11_329.jpg",
+        "sourceUrl": "https://www.metmuseum.org/art/collection/search/321953",
+        "creditUrl": "https://www.metmuseum.org/art/collection/search/321953",
+        "credit": "The Metropolitan Museum of Art",
+        "license": "CC0 / Public domain",
+        "licenseUrl": "https://www.metmuseum.org/policies/image-resources",
+        "alt": "Cuneiform tablet: field sale",
+        "caption": "Cuneiform tablet: field sale · ca. 20th–16th century BCE · The Met",
+        "width": 554,
+        "height": 624
+      },
+      "date": "ca. 20th–16th century BCE",
+      "objectNumber": "86.11.329",
+      "creditLine": "Purchase, 1886",
+      "reviewed": {
+        "date": "2026-10-05",
+        "scope": "Museum object description, identity, date, and public-domain image metadata."
+      },
+      "access": "Public museum collection record and Open Access API",
+      "license": "CC0 / Public domain",
+      "chapterCoverage": [
+        23
+      ],
+      "imageChapters": [
+        23
+      ],
+      "type": "museum",
+      "limitations": "It shows that land sales could have written records. It is earlier regional evidence, not the biblical deed."
+    },
+    {
+      "id": "met-545281",
+      "title": "Model of a Granary with Scribes",
+      "url": "https://www.metmuseum.org/art/collection/search/545281",
+      "author": "The Metropolitan Museum of Art",
+      "category": "museum",
+      "perspective": "historical",
+      "summary": "The model shows grain storage beside measuring and record keeping.",
+      "limits": "This Egyptian tomb model is not Joseph’s storehouse. It illustrates related work, not the event in Genesis.",
+      "previewText": "The model shows grain storage beside measuring and record keeping. This Egyptian tomb model is not Joseph’s storehouse. It illustrates related work, not the event in Genesis.",
+      "image": {
+        "src": "assets/study-objects/met-545281.jpg",
+        "fullUrl": "https://images.metmuseum.org/CRDImages/eg/original/DP351557.jpg",
+        "sourceUrl": "https://www.metmuseum.org/art/collection/search/545281",
+        "creditUrl": "https://www.metmuseum.org/art/collection/search/545281",
+        "credit": "The Metropolitan Museum of Art",
+        "license": "CC0 / Public domain",
+        "licenseUrl": "https://www.metmuseum.org/policies/image-resources",
+        "alt": "Model of a Granary with Scribes",
+        "caption": "Model of a Granary with Scribes · ca. 1981–1975 B.C. · The Met",
+        "width": 600,
+        "height": 516
+      },
+      "date": "ca. 1981–1975 B.C.",
+      "objectNumber": "20.3.11",
+      "creditLine": "Rogers Fund and Edward S. Harkness Gift, 1920",
+      "reviewed": {
+        "date": "2026-10-05",
+        "scope": "Museum object description, identity, date, and public-domain image metadata."
+      },
+      "access": "Public museum collection record and Open Access API",
+      "license": "CC0 / Public domain",
+      "chapterCoverage": [
+        41,
+        47
+      ],
+      "imageChapters": [
+        41,
+        47
+      ],
+      "type": "museum",
+      "limitations": "This Egyptian tomb model is not Joseph’s storehouse. It illustrates related work, not the event in Genesis."
     }
   ],
   "passages": [
@@ -653,7 +737,7 @@
       "start": 1,
       "end": 31,
       "title": "Creation",
-      "summary": "God creates the world and gives humans care of its life. God calls creation good. Human life has worth. Care for the earth follows from God's gift.",
+      "summary": "God creates the world and gives humans care of its life. God calls creation good.",
       "year": null,
       "dateLabel": "Narrative order · historical year unknown",
       "uncertainty": "No verified location is supplied for this chapter.",
@@ -671,6 +755,14 @@
           "moses-2",
           "cfm-2026-03"
         ]
+      },
+      "contextNote": {
+        "title": "Creation gives people a shared worth",
+        "text": "The chapter gives people worth before it gives them work. Both women and men bear God’s image. No king receives that status alone. The command to rule follows this shared identity. Read dominion beside the blessing of life, not as permission for abuse.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -679,7 +771,7 @@
       "start": 1,
       "end": 25,
       "title": "Life in the garden",
-      "summary": "God rests. God places the man in Eden and forms the woman. Rest, work, and partnership belong to human life. The garden also includes a command.",
+      "summary": "God rests. God places the man in Eden and forms the woman.",
       "year": null,
       "dateLabel": "Narrative order · historical year unknown",
       "uncertainty": "No verified location is supplied for this chapter.",
@@ -696,6 +788,14 @@
           "moses-3",
           "cfm-2026-03"
         ]
+      },
+      "contextNote": {
+        "title": "Work does not answer every human need",
+        "text": "The garden provides food and meaningful work, yet the man remains alone. That lack interrupts the repeated goodness of creation. Naming animals does not produce a partner who shares his life. The woman's arrival answers a need that possessions and duties cannot meet.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -704,7 +804,7 @@
       "start": 1,
       "end": 24,
       "title": "The Fall",
-      "summary": "The man and woman eat the forbidden fruit. They leave the garden. Their choice brings loss and responsibility. God still clothes them.",
+      "summary": "The man and woman eat the forbidden fruit. They leave the garden.",
       "year": null,
       "dateLabel": "Narrative order · historical year unknown",
       "uncertainty": "No verified location is supplied for this chapter.",
@@ -722,6 +822,14 @@
           "nephi-2",
           "cfm-2026-04"
         ]
+      },
+      "contextNote": {
+        "title": "Blame changes the relationships in the garden",
+        "text": "The man answers a question about his action by naming the woman. He also reminds God who gave her to him. The woman then names the serpent. These replies show damaged trust before the account describes life outside the garden.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -730,7 +838,7 @@
       "start": 1,
       "end": 26,
       "title": "Cain and Abel",
-      "summary": "Cain kills Abel. The chapter follows Cain's family and the birth of Seth. Anger can destroy family bonds. Cain's question tests our care for other people.",
+      "summary": "Cain kills Abel. The chapter follows Cain's family and the birth of Seth.",
       "year": null,
       "dateLabel": "Narrative order · historical year unknown",
       "uncertainty": "No verified location is supplied for this chapter.",
@@ -746,6 +854,14 @@
           "moses-5",
           "cfm-2026-04"
         ]
+      },
+      "contextNote": {
+        "title": "Protection becomes a claim to unlimited revenge",
+        "text": "God's protection keeps Cain from becoming another victim of killing. Lamech later uses that protection to boast about greater revenge. His speech changes a limit on violence into a threat. Growing skills and towns therefore do not guarantee growing restraint.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -754,7 +870,7 @@
       "start": 1,
       "end": 32,
       "title": "Generations to Noah",
-      "summary": "The family record traces Adam's line to Noah. Enoch walks with God. Death repeats through the record. Enoch's account introduces hope within that pattern.",
+      "summary": "The family record traces Adam's line to Noah. Enoch walks with God.",
       "year": null,
       "dateLabel": "Narrative order · historical year unknown",
       "uncertainty": "No verified location is supplied for this chapter.",
@@ -771,6 +887,14 @@
           "moses-7",
           "cfm-2026-05"
         ]
+      },
+      "contextNote": {
+        "title": "One life breaks the repeated ending",
+        "text": "The family list repeatedly ends each long life with death. Enoch's departure interrupts that pattern rather than extending his years. Noah's name then introduces hope for relief from hard work. The list carries both continuity and the unresolved burden of the cursed ground.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -779,7 +903,7 @@
       "start": 1,
       "end": 22,
       "title": "Noah builds the ark",
-      "summary": "Violence fills the earth. God tells Noah to build an ark. Noah responds to God's warning with action. The story connects judgment with preservation.",
+      "summary": "Violence fills the earth. God tells Noah to build an ark.",
       "year": null,
       "dateLabel": "Narrative order · historical year unknown",
       "uncertainty": "No verified location is supplied for this chapter.",
@@ -797,6 +921,14 @@
           "moses-8",
           "cfm-2026-07"
         ]
+      },
+      "contextNote": {
+        "title": "The flood account begins with violence",
+        "text": "The explanation for destruction concerns a world filled with violence. This description reaches beyond one person's hidden wrongdoing. Noah's work preserves creatures threatened by that human disorder. The account joins judgment on violence with costly preparation to keep life.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -805,7 +937,7 @@
       "start": 1,
       "end": 24,
       "title": "The flood",
-      "summary": "Noah's household and the animals enter the ark. The flood covers the land. The flood destroys life across the earth. Noah’s household survives inside the ark.",
+      "summary": "Noah's household and the animals enter the ark. The flood covers the land.",
       "year": null,
       "dateLabel": "Narrative order · historical year unknown",
       "uncertainty": "No verified location is supplied for this chapter.",
@@ -822,6 +954,14 @@
           "early",
           "cfm-2026-07"
         ]
+      },
+      "contextNote": {
+        "title": "The closed door marks the limit of safety",
+        "text": "Noah follows the instructions, but God closes the ark's door. That detail separates preparation from control over the coming disaster. The repeated lists of creatures emphasize how much life remains at risk. Survival inside the ark stands beside extensive loss outside it.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -830,7 +970,7 @@
       "start": 1,
       "end": 22,
       "title": "The waters recede",
-      "summary": "The ark rests in the mountains of Ararat. Noah leaves and builds an altar. Noah responds to deliverance with worship. The promise concerns the world's continuing seasons.",
+      "summary": "The ark rests in the mountains of Ararat. Noah leaves and builds an altar.",
       "year": null,
       "dateLabel": "Narrative order · historical year unknown",
       "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
@@ -849,6 +989,14 @@
           "early",
           "cfm-2026-07"
         ]
+      },
+      "contextNote": {
+        "title": "The promise concerns ordinary seasons",
+        "text": "The ending names farming, weather, day, and night rather than another rescue. These repeated conditions make future life possible. God's promise follows an admission that human wrongdoing continues. The restored world therefore depends on divine patience, not a newly perfect human community.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -857,7 +1005,7 @@
       "start": 1,
       "end": 29,
       "title": "A covenant with Noah",
-      "summary": "God gives the rainbow as a covenant sign. Noah's sons receive different blessings. The covenant includes living creatures. The chapter also warns against bloodshed.",
+      "summary": "God gives the rainbow as a covenant sign. Noah's sons receive different blessings.",
       "year": null,
       "dateLabel": "Narrative order · historical year unknown",
       "uncertainty": "No verified location is supplied for this chapter.",
@@ -874,6 +1022,14 @@
           "early",
           "cfm-2026-07"
         ]
+      },
+      "contextNote": {
+        "title": "Shared worth sets a limit on killing",
+        "text": "The account grounds its warning against bloodshed in God's image. This recalls the shared human identity stated at creation. The covenant also includes creatures that cannot make promises themselves. Its reach exceeds Noah's household even as the following family scene introduces division.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -882,7 +1038,7 @@
       "start": 1,
       "end": 32,
       "title": "Families and nations",
-      "summary": "The chapter lists peoples descended from Noah's sons. The list connects many peoples with Noah's family. It names towns and nations that later appear in Israel's story.",
+      "summary": "The chapter lists peoples descended from Noah's sons.",
       "year": null,
       "dateLabel": "Narrative order · historical year unknown",
       "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
@@ -899,6 +1055,14 @@
           "early",
           "cfm-2026-07"
         ]
+      },
+      "contextNote": {
+        "title": "Family language places nations within one world",
+        "text": "The list groups peoples by families, languages, lands, and nations. Differences remain visible within a common descent from Noah. Israel's later neighbors therefore enter the story before Israel itself. The family structure invites readers to see relationships across political boundaries.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -907,7 +1071,7 @@
       "start": 1,
       "end": 32,
       "title": "Babel and Terah's family",
-      "summary": "People build Babel. God confuses their speech. Terah's family travels from Ur toward Canaan. Babel questions human attempts to secure greatness. Terah's family prepares the next story.",
+      "summary": "People build Babel. God confuses their speech. Terah's family travels from Ur toward Canaan.",
       "year": null,
       "dateLabel": "Narrative order · historical year unknown",
       "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
@@ -928,6 +1092,14 @@
           "early",
           "cfm-2026-07"
         ]
+      },
+      "contextNote": {
+        "title": "A great name competes with spreading across the earth",
+        "text": "The builders want a lasting name and protection against scattering. Their shared speech makes that plan possible. The scattering answers their stated aim rather than simply destroying a building. Abram's story next begins with departure and a promised name he cannot secure himself.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -936,7 +1108,7 @@
       "start": 1,
       "end": 20,
       "title": "Abram's call",
-      "summary": "Abram travels from Haran to Canaan. Famine leads him into Egypt. The promise extends blessing beyond one household. Abram's fear also exposes others to danger.",
+      "summary": "Abram travels from Haran to Canaan. Famine leads him into Egypt.",
       "year": null,
       "dateLabel": "Narrative order · historical year unknown",
       "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
@@ -960,6 +1132,14 @@
           "abraham-2",
           "cfm-2026-08"
         ]
+      },
+      "contextNote": {
+        "title": "A promise reaches beyond the chosen household",
+        "text": "Abram receives a blessing whose stated reach includes other families. That outward purpose matters when famine takes him into Egypt. His attempt to protect himself then places Sarai and Pharaoh's household at risk. The chapter sets promised blessing beside conduct that brings trouble to others.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -968,7 +1148,7 @@
       "start": 1,
       "end": 18,
       "title": "Abram and Lot separate",
-      "summary": "Abram lets Lot choose land. Lot settles near Sodom. God renews Abram's promise. Abram chooses peace over a dispute. Land and descendants remain central to the promise.",
+      "summary": "Abram lets Lot choose land. Lot settles near Sodom. God renews Abram's promise.",
       "year": null,
       "dateLabel": "Narrative order · historical year unknown",
       "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
@@ -988,6 +1168,14 @@
           "abraham",
           "cfm-2026-08"
         ]
+      },
+      "contextNote": {
+        "title": "Giving the first choice limits a family conflict",
+        "text": "The dispute begins with livestock and insufficient space for both households. Abram gives Lot the first choice rather than enforcing his senior position. Lot judges the land by its visible water supply. The account also names Sodom's wrongdoing, which the attractive landscape does not reveal.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -996,7 +1184,7 @@
       "start": 1,
       "end": 24,
       "title": "Lot rescued",
-      "summary": "Abram rescues Lot after a battle. Melchizedek blesses Abram. Abram rejects wealth from Sodom. Melchizedek connects blessing with worship of God.",
+      "summary": "Abram rescues Lot after a battle. Melchizedek blesses Abram.",
       "year": null,
       "dateLabel": "Narrative order · historical year unknown",
       "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
@@ -1017,6 +1205,14 @@
           "alma-13",
           "cfm-2026-08"
         ]
+      },
+      "contextNote": {
+        "title": "Rescue need not create dependence on a ruler",
+        "text": "Abram separates the rescue of Lot from accepting the king's wealth. His refusal prevents the king from claiming credit for Abram's prosperity. Yet he preserves the shares owed to his allies. Personal restraint does not cancel the claims of others who joined the work.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -1025,7 +1221,7 @@
       "start": 1,
       "end": 21,
       "title": "God's covenant with Abram",
-      "summary": "God promises descendants to Abram. A covenant ceremony follows. Abram trusts despite his lack of an heir. The promise includes future suffering and return.",
+      "summary": "God promises descendants to Abram. A covenant ceremony follows.",
       "year": null,
       "dateLabel": "Narrative order · historical year unknown",
       "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
@@ -1043,6 +1239,14 @@
           "abraham",
           "cfm-2026-08"
         ]
+      },
+      "contextNote": {
+        "title": "The land promise includes a delay marked by suffering",
+        "text": "Abram asks about an heir and assurance concerning the land. The response includes generations of oppression before return. Promise and possession therefore do not occur within the same lifetime. The ceremony places Abram's immediate uncertainty inside a much longer family future.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -1051,7 +1255,7 @@
       "start": 1,
       "end": 16,
       "title": "Hagar and Ishmael",
-      "summary": "Hagar flees harsh treatment from Sarai. God's messenger meets her. Ishmael is born. God hears Hagar when she has fled from harsh treatment. He speaks to her about her child.",
+      "summary": "Hagar flees harsh treatment from Sarai. God's messenger meets her. Ishmael is born.",
       "year": null,
       "dateLabel": "Narrative order · historical year unknown",
       "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
@@ -1069,6 +1273,14 @@
           "abraham",
           "cfm-2026-08"
         ]
+      },
+      "contextNote": {
+        "title": "Seeing Hagar does not erase her unequal position",
+        "text": "Hagar speaks directly with God's messenger outside the household that harmed her. That encounter gives the enslaved woman a voice and a promise. The command to return nevertheless leaves a difficult tension in the account. Divine attention does not mean Sarai's harsh treatment becomes acceptable.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -1077,7 +1289,7 @@
       "start": 1,
       "end": 27,
       "title": "New names and covenant",
-      "summary": "God names Abraham and Sarah. Circumcision becomes a covenant sign. God promises Isaac. The covenant sets duties for the household. God also promises to bless Ishmael.",
+      "summary": "God names Abraham and Sarah. Circumcision becomes a covenant sign. God promises Isaac.",
       "year": null,
       "dateLabel": "Narrative order · historical year unknown",
       "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
@@ -1096,6 +1308,14 @@
           "abraham-2",
           "cfm-2026-08"
         ]
+      },
+      "contextNote": {
+        "title": "The covenant sign includes people without equal household power",
+        "text": "Abraham applies the sign to sons and purchased servants alike. The household's shared duty reaches people with very different status. The promise concerning Isaac does not cancel the separate blessing of Ishmael. Read the covenant's common sign beside the account's unequal rights and different futures.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -1104,7 +1324,7 @@
       "start": 1,
       "end": 33,
       "title": "Visitors and Abraham's plea",
-      "summary": "Visitors promise Sarah a son. Abraham pleads for Sodom. Hospitality opens the story. Abraham's questions explore justice and mercy.",
+      "summary": "Visitors promise Sarah a son. Abraham pleads for Sodom.",
       "year": null,
       "dateLabel": "Narrative order · historical year unknown",
       "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
@@ -1123,6 +1343,14 @@
           "abraham-later",
           "cfm-2026-09"
         ]
+      },
+      "contextNote": {
+        "title": "Abraham questions judgment through its effect on others",
+        "text": "Abraham asks whether innocent people will die with guilty people. His repeated questions reduce the number needed to spare the city. The exchange concerns collective punishment rather than only personal safety. A promised father of nations speaks about responsibility beyond his own household.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -1131,7 +1359,7 @@
       "start": 1,
       "end": 38,
       "title": "Sodom and Lot's escape",
-      "summary": "Lot hosts visitors. A violent crowd threatens them. Lot's household escapes Sodom. The guests face violence, and Lot's family must flee. Leaving Sodom brings further grief.",
+      "summary": "Lot hosts visitors. A violent crowd threatens them. Lot's household escapes Sodom.",
       "year": null,
       "dateLabel": "Narrative order · historical year unknown",
       "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
@@ -1150,6 +1378,14 @@
           "abraham-later",
           "cfm-2026-09"
         ]
+      },
+      "contextNote": {
+        "title": "Hospitality exposes a grave conflict over protection",
+        "text": "Lot tries to protect his guests by offering his daughters to the crowd. That choice endangers family members while claiming a duty toward visitors. The account's violence cannot be reduced to one breach of hospitality. Flight from the city also leaves the surviving family vulnerable and isolated.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -1158,7 +1394,7 @@
       "start": 1,
       "end": 18,
       "title": "Abraham and Abimelech",
-      "summary": "Abraham calls Sarah his sister. God warns Abimelech in a dream. Fear leads to deception. The account shows how that deception harms other people.",
+      "summary": "Abraham calls Sarah his sister. God warns Abimelech in a dream.",
       "year": null,
       "dateLabel": "Narrative order · historical year unknown",
       "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
@@ -1176,6 +1412,14 @@
           "abraham-later",
           "cfm-2026-09"
         ]
+      },
+      "contextNote": {
+        "title": "Abraham's fear misjudges the people around him",
+        "text": "Abraham assumes that fear of God is absent in this place. Abimelech's protest and response complicate that assumption. The deception threatens a household that did not know Sarah's marriage. The outsider's conduct exposes a failure within the household carrying the promise.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -1184,7 +1428,7 @@
       "start": 1,
       "end": 34,
       "title": "Isaac and Ishmael",
-      "summary": "Isaac is born. Hagar and Ishmael leave. God provides water. Abraham makes a treaty. God hears Hagar's child in the wilderness. Both sons receive promises despite the family conflict.",
+      "summary": "Isaac is born. Hagar and Ishmael leave. God provides water. Abraham makes a treaty.",
       "year": null,
       "dateLabel": "Narrative order · historical year unknown",
       "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
@@ -1202,6 +1446,14 @@
           "abraham-later",
           "cfm-2026-09"
         ]
+      },
+      "contextNote": {
+        "title": "Water answers exclusion with a means to survive",
+        "text": "The family celebration leads into the removal of Hagar and Ishmael. Their danger reveals a cost hidden behind the household's secure future. God's response supplies water and a future for the excluded son. The account preserves two promises without pretending the separation causes no suffering.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -1210,7 +1462,7 @@
       "start": 1,
       "end": 24,
       "title": "The binding of Isaac",
-      "summary": "God tests Abraham. A messenger stops the sacrifice. A ram takes Isaac's place. Abraham prepares to offer Isaac. God stops him and provides a ram.",
+      "summary": "God tests Abraham. A messenger stops the sacrifice. A ram takes Isaac's place.",
       "year": null,
       "dateLabel": "Narrative order · historical year unknown",
       "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
@@ -1230,6 +1482,14 @@
           "jacob-4",
           "cfm-2026-09"
         ]
+      },
+      "contextNote": {
+        "title": "The reader knows something Isaac does not",
+        "text": "The opening calls the command a test before Isaac learns about the sacrifice. His question about the lamb increases the distance between their knowledge. Abraham's answer postpones the explanation rather than resolving his son's danger. The provided ram finally changes what the father's obedience requires him to do.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -1238,7 +1498,7 @@
       "start": 1,
       "end": 20,
       "title": "Sarah's burial",
-      "summary": "Sarah dies. Abraham buys the field and cave of Machpelah. The purchase gives Abraham a burial place. The promised land first becomes a family grave.",
+      "summary": "Sarah dies. Abraham buys the field and cave of Machpelah.",
       "year": null,
       "dateLabel": "Narrative order · historical year unknown",
       "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
@@ -1248,13 +1508,24 @@
       "sourceIds": [
         "web",
         "yale-patriarchs",
-        "trade"
+        "trade",
+        "met-321953"
       ],
       "lds": {
         "text": "Abraham secures a burial place for Sarah. Consider how covenant hope can accompany mourning.",
         "sourceIds": [
           "abraham-later",
           "cfm-2026-09"
+        ]
+      },
+      "contextNote": {
+        "title": "A grave becomes a claim to land",
+        "text": "Abraham has a promise of land but must buy a burial place. The account names the field, trees, witnesses, and payment. Those details make a public claim, not a private favor. Sarah’s grave ties the family’s future to a place. The promised land first becomes theirs through a death.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": [
+          "met-321953"
         ]
       }
     },
@@ -1264,7 +1535,7 @@
       "start": 1,
       "end": 67,
       "title": "Rebekah meets Isaac",
-      "summary": "Abraham's servant seeks a wife for Isaac. Rebekah agrees to travel. Rebekah shows care through action. Her consent matters in the journey to Isaac.",
+      "summary": "Abraham's servant seeks a wife for Isaac. Rebekah agrees to travel.",
       "year": null,
       "dateLabel": "Narrative order · historical year unknown",
       "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
@@ -1283,6 +1554,14 @@
           "jacob",
           "cfm-2026-10"
         ]
+      },
+      "contextNote": {
+        "title": "Rebekah's answer matters within a family arrangement",
+        "text": "Servants and relatives discuss gifts, family ties, and the proposed marriage. Rebekah then answers the question about leaving. Her brief response gives her a place in a decision discussed largely by others. The journey joins household arrangements with her own willingness to enter an unfamiliar future.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -1291,7 +1570,7 @@
       "start": 1,
       "end": 34,
       "title": "Abraham's death and the twins",
-      "summary": "Abraham dies. Rebekah bears Esau and Jacob. Esau sells his birthright. Family promises pass to another generation. Immediate hunger and lasting inheritance come into conflict.",
+      "summary": "Abraham dies. Rebekah bears Esau and Jacob. Esau sells his birthright.",
       "year": null,
       "dateLabel": "Narrative order · historical year unknown",
       "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
@@ -1309,6 +1588,14 @@
           "jacob",
           "cfm-2026-10"
         ]
+      },
+      "contextNote": {
+        "title": "Immediate need changes how Esau values inheritance",
+        "text": "The brothers negotiate while one holds food the other wants. Esau describes death as near and dismisses the birthright's value. Jacob uses that moment to seek a lasting advantage. The exchange introduces rivalry through unequal need before the later struggle over a father's blessing.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -1317,7 +1604,7 @@
       "start": 1,
       "end": 35,
       "title": "Isaac's wells",
-      "summary": "Isaac lives near Gerar. Disputes arise over wells. God renews the promise. Water supports life and creates conflict. Isaac moves rather than continuing each dispute.",
+      "summary": "Isaac lives near Gerar. Disputes arise over wells. God renews the promise.",
       "year": null,
       "dateLabel": "Narrative order · historical year unknown",
       "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
@@ -1336,6 +1623,14 @@
           "jacob",
           "cfm-2026-10"
         ]
+      },
+      "contextNote": {
+        "title": "Moving away changes the struggle over water",
+        "text": "The repeated wells connect a promised future with the need for daily water. Isaac names conflict but does not remain at every disputed site. A well without dispute allows him to speak of room to grow. The later agreement addresses fear between neighbors, not merely ownership of a resource.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -1344,7 +1639,7 @@
       "start": 1,
       "end": 46,
       "title": "Jacob receives the blessing",
-      "summary": "Rebekah and Jacob deceive Isaac. Esau loses the blessing and threatens Jacob. Rebekah and Jacob deceive Isaac. The blessing brings anger and separates the brothers.",
+      "summary": "Rebekah and Jacob deceive Isaac. Esau loses the blessing and threatens Jacob.",
       "year": null,
       "dateLabel": "Narrative order · historical year unknown",
       "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
@@ -1362,6 +1657,14 @@
           "jacob",
           "cfm-2026-10"
         ]
+      },
+      "contextNote": {
+        "title": "A spoken blessing creates competing claims",
+        "text": "Isaac treats the blessing already given as an act with lasting force. Esau cannot solve the deception by asking for the same words again. Food, touch, clothing, and speech all shape the failed recognition. The family secures Jacob's advantage at the cost of trust and shared life.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -1370,7 +1673,7 @@
       "start": 1,
       "end": 22,
       "title": "Jacob's dream at Bethel",
-      "summary": "Jacob leaves for Haran. At Bethel he dreams of a stairway reaching heaven. God meets Jacob during his flight. Jacob responds with a vow.",
+      "summary": "Jacob leaves for Haran. At Bethel he dreams of a stairway reaching heaven.",
       "year": null,
       "dateLabel": "Narrative order · historical year unknown",
       "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
@@ -1390,6 +1693,14 @@
           "jacob",
           "cfm-2026-10"
         ]
+      },
+      "contextNote": {
+        "title": "A place becomes sacred during a flight",
+        "text": "Jacob reaches Bethel while leaving a family conflict behind. He recognizes God's presence where he expected only a night's rest. The promised return answers his immediate loss of home. His vow also reveals that assurance and his own response develop during the journey.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -1398,7 +1709,7 @@
       "start": 1,
       "end": 35,
       "title": "Leah and Rachel",
-      "summary": "Jacob meets Rachel. Laban substitutes Leah at the wedding. Jacob also marries Rachel. Deception returns within Jacob's life. God sees Leah's distress and gives her children.",
+      "summary": "Jacob meets Rachel. Laban substitutes Leah at the wedding. Jacob also marries Rachel.",
       "year": null,
       "dateLabel": "Narrative order · historical year unknown",
       "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
@@ -1416,6 +1727,14 @@
           "jacob",
           "cfm-2026-10"
         ]
+      },
+      "contextNote": {
+        "title": "Deception returns through marriage and labor",
+        "text": "Jacob objects when another person changes an agreement through deception. His complaint follows his own deception of Isaac. Laban's control over daughters and work makes Jacob's dependence visible. Leah's suffering shows that this reversal also harms someone outside the men's dispute.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -1424,7 +1743,7 @@
       "start": 1,
       "end": 43,
       "title": "Jacob's growing household",
-      "summary": "Rachel, Leah, Bilhah, and Zilpah bear children. Jacob's flocks increase. The account includes rivalry and unequal power. The mothers' words reveal their hopes and pain.",
+      "summary": "Rachel, Leah, Bilhah, and Zilpah bear children. Jacob's flocks increase.",
       "year": null,
       "dateLabel": "Narrative order · historical year unknown",
       "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
@@ -1442,6 +1761,14 @@
           "jacob",
           "cfm-2026-10"
         ]
+      },
+      "contextNote": {
+        "title": "Competition turns intimate relationships into bargaining",
+        "text": "The sisters negotiate access to Jacob through the exchange of mandrakes. Children, servants, and affection enter the struggle for household standing. Their naming speeches record different hopes within the growing family. Increased descendants do not mean the household has gained equal care or peace.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -1450,7 +1777,7 @@
       "start": 1,
       "end": 55,
       "title": "Jacob leaves Laban",
-      "summary": "Jacob's household leaves Haran. Laban pursues them. They make an agreement. The household seeks freedom from Laban's control. A boundary helps end their dispute.",
+      "summary": "Jacob's household leaves Haran. Laban pursues them. They make an agreement.",
       "year": null,
       "dateLabel": "Narrative order · historical year unknown",
       "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
@@ -1469,6 +1796,14 @@
           "jacob",
           "cfm-2026-10"
         ]
+      },
+      "contextNote": {
+        "title": "The daughters explain the cost of their father's control",
+        "text": "Rachel and Leah describe their father as treating them like outsiders. Their words connect marriage payments with the loss of a family share. Jacob's complaint about wages is therefore not the household's only grievance. Departure answers several kinds of dependence, while the final agreement limits further interference.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -1477,7 +1812,7 @@
       "start": 1,
       "end": 32,
       "title": "Jacob wrestles",
-      "summary": "Jacob prepares to meet Esau. He wrestles through the night and receives the name Israel. Jacob fears meeting Esau and asks God for help. His new name marks a lasting change.",
+      "summary": "Jacob prepares to meet Esau. He wrestles through the night and receives the name Israel.",
       "year": null,
       "dateLabel": "Narrative order · historical year unknown",
       "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
@@ -1496,6 +1831,14 @@
           "jacob",
           "cfm-2026-10"
         ]
+      },
+      "contextNote": {
+        "title": "Prayer names a fear that preparation cannot remove",
+        "text": "Jacob divides his company and sends gifts before meeting Esau. His prayer names the danger to women and children as well as himself. The night struggle then leaves him both blessed and injured. The new name does not mean he enters the meeting without vulnerability.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -1504,7 +1847,7 @@
       "start": 1,
       "end": 20,
       "title": "Jacob and Esau meet",
-      "summary": "Esau embraces Jacob. Jacob settles near Shechem. The meeting interrupts expected revenge. Gifts and humility support renewed peace.",
+      "summary": "Esau embraces Jacob. Jacob settles near Shechem.",
       "year": null,
       "dateLabel": "Narrative order · historical year unknown",
       "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
@@ -1524,6 +1867,14 @@
           "jacob",
           "cfm-2026-10"
         ]
+      },
+      "contextNote": {
+        "title": "An embrace interrupts the expected account of revenge",
+        "text": "Jacob has prepared for attack, but Esau runs to embrace him. Jacob compares this welcome with seeing God's face. That comparison gives the reconciliation meaning beyond accepting a gift. Their later separate journeys also show that peace need not require identical plans.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -1532,7 +1883,7 @@
       "start": 1,
       "end": 31,
       "title": "Dinah and Shechem",
-      "summary": "Shechem violates Dinah. Her brothers kill the town's men after a deceptive agreement. Shechem harms Dinah. Her brothers’ revenge kills the town’s men and takes its families captive.",
+      "summary": "Shechem violates Dinah. Her brothers kill the town's men after a deceptive agreement.",
       "year": null,
       "dateLabel": "Narrative order · historical year unknown",
       "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
@@ -1549,6 +1900,14 @@
         "sourceIds": [
           "jacob"
         ]
+      },
+      "contextNote": {
+        "title": "The final question leaves responsibility unresolved",
+        "text": "The brothers defend their violence by naming the harm done to Dinah. Jacob answers through fear for the household's survival among neighboring peoples. Neither speech restores Dinah's voice to the discussion. The ending preserves a conflict between protecting honor, protecting life, and answering wrongdoing.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -1557,7 +1916,7 @@
       "start": 1,
       "end": 29,
       "title": "Return to Bethel",
-      "summary": "Jacob returns to Bethel. Rachel dies near Bethlehem. Isaac dies. Worship, birth, and death shape the family's return. The promise continues through grief.",
+      "summary": "Jacob returns to Bethel. Rachel dies near Bethlehem. Isaac dies.",
       "year": null,
       "dateLabel": "Narrative order · historical year unknown",
       "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
@@ -1576,6 +1935,14 @@
         "sourceIds": [
           "jacob"
         ]
+      },
+      "contextNote": {
+        "title": "Returning to worship requires a household decision",
+        "text": "Jacob asks the whole household to remove foreign gods before returning to Bethel. Worship therefore includes objects and loyalties carried through the journey. The return also contains deaths rather than uninterrupted recovery. Renewed commitment does not remove grief from the family carrying the promise.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -1584,7 +1951,7 @@
       "start": 1,
       "end": 43,
       "title": "Esau's descendants",
-      "summary": "The chapter records Esau's family and rulers in Edom. Esau's line receives space in the story. Israel's neighbors also have a history.",
+      "summary": "The chapter records Esau's family and rulers in Edom.",
       "year": null,
       "dateLabel": "Narrative order · historical year unknown",
       "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
@@ -1601,6 +1968,14 @@
         "sourceIds": [
           "jacob"
         ]
+      },
+      "contextNote": {
+        "title": "Israel's neighbor has a history beyond its role as a rival",
+        "text": "The chapter records families, chiefs, and kings connected with Esau. Its account names Edomite kings before Israel has kings. That wider view interrupts the focus on Jacob's household. Esau's descendants remain part of the book's world rather than disappearing after the brothers separate.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -1609,7 +1984,7 @@
       "start": 1,
       "end": 36,
       "title": "Joseph sold",
-      "summary": "Joseph's brothers sell him. Traders take him to Egypt. Jacob mourns. Favoritism and jealousy fracture the family. Joseph's loss begins the journey toward Egypt.",
+      "summary": "Joseph's brothers sell him. Traders take him to Egypt. Jacob mourns.",
       "year": null,
       "dateLabel": "Narrative order · historical year unknown",
       "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
@@ -1631,6 +2006,14 @@
           "joseph",
           "cfm-2026-11"
         ]
+      },
+      "contextNote": {
+        "title": "A garment becomes false evidence for a grieving father",
+        "text": "The brothers use Joseph's coat to make Jacob reach their desired conclusion. They avoid directly describing what they have done. This deception recalls clothing used in the earlier deception of Isaac. Family favoritism and manipulated evidence now combine to hide the sale of a brother.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -1639,7 +2022,7 @@
       "start": 1,
       "end": 30,
       "title": "Judah and Tamar",
-      "summary": "Judah fails to provide for Tamar. Tamar acts to preserve her family claim. Judah admits his failure. The story exposes his unequal judgment of Tamar.",
+      "summary": "Judah fails to provide for Tamar. Tamar acts to preserve her family claim.",
       "year": null,
       "dateLabel": "Narrative order · historical year unknown",
       "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
@@ -1659,6 +2042,14 @@
           "joseph",
           "cfm-2026-11"
         ]
+      },
+      "contextNote": {
+        "title": "Judah's admission reverses his judgment of Tamar",
+        "text": "Judah first judges Tamar while concealing his own part in her pregnancy. The pledged objects expose both his identity and his failed household duty. His admission redirects blame toward the person who withheld the promised marriage. The scene prepares readers to notice later changes in Judah's responsibility.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -1667,7 +2058,7 @@
       "start": 1,
       "end": 23,
       "title": "Joseph in Potiphar's house",
-      "summary": "Joseph serves Potiphar. Potiphar's wife falsely accuses Joseph. He enters prison. Joseph refuses pressure from his master's wife. Her false accusation sends him to prison.",
+      "summary": "Joseph serves Potiphar. Potiphar's wife falsely accuses Joseph. He enters prison.",
       "year": null,
       "dateLabel": "Narrative order · historical year unknown",
       "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
@@ -1686,6 +2077,14 @@
           "joseph",
           "cfm-2026-11"
         ]
+      },
+      "contextNote": {
+        "title": "A master's household controls whose account gains force",
+        "text": "Joseph refuses the demand of a person who holds power over him. His abandoned garment then supports her false account. The account supplies facts that Potiphar's household does not acknowledge. The prison scene again contrasts Joseph's conduct with his loss of control.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -1694,7 +2093,7 @@
       "start": 1,
       "end": 23,
       "title": "Dreams in prison",
-      "summary": "Joseph explains the cupbearer's and baker's dreams. The cupbearer forgets Joseph. Joseph helps two prisoners understand their dreams. The cupbearer then forgets him.",
+      "summary": "Joseph explains the cupbearer's and baker's dreams. The cupbearer forgets Joseph.",
       "year": null,
       "dateLabel": "Narrative order · historical year unknown",
       "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
@@ -1713,6 +2112,14 @@
           "joseph",
           "cfm-2026-11"
         ]
+      },
+      "contextNote": {
+        "title": "Help depends on being remembered by someone with access",
+        "text": "Joseph can interpret the dreams but cannot secure his own release. He asks the cupbearer to speak where a prisoner cannot. The final sentence separates the successful interpretation from the requested help. Forgotten service explains why recognition later requires another crisis at Pharaoh's court.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -1721,7 +2128,7 @@
       "start": 1,
       "end": 57,
       "title": "Joseph before Pharaoh",
-      "summary": "Joseph explains Pharaoh's dreams. Pharaoh appoints him to prepare for famine. Preparation turns knowledge into care for others. Joseph gains authority after years of loss.",
+      "summary": "Joseph explains Pharaoh's dreams. Pharaoh appoints him to prepare for famine.",
       "year": null,
       "dateLabel": "Narrative order · historical year unknown",
       "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
@@ -1732,13 +2139,24 @@
         "web",
         "yale-ancestors",
         "trade",
-        "egypt"
+        "egypt",
+        "met-545281"
       ],
       "lds": {
         "text": "Joseph prepares for famine after explaining the dreams. Consider how knowledge can become practical care.",
         "sourceIds": [
           "joseph",
           "cfm-2026-11"
+        ]
+      },
+      "contextNote": {
+        "title": "Food storage creates political power",
+        "text": "Joseph’s dream reading becomes a plan for food storage. The plan needs officials, storehouses, and control of grain. That work changes who holds power during a famine. Chapter 47 later describes people giving property for food. Follow both rescue and dependence through this larger story.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": [
+          "met-545281"
         ]
       }
     },
@@ -1748,7 +2166,7 @@
       "start": 1,
       "end": 38,
       "title": "The brothers seek grain",
-      "summary": "Joseph's brothers arrive in Egypt. Joseph holds Simeon and asks for Benjamin. The brothers remember their guilt. Joseph's tests begin to reveal their changed relationships.",
+      "summary": "Joseph's brothers arrive in Egypt. Joseph holds Simeon and asks for Benjamin.",
       "year": null,
       "dateLabel": "Narrative order · historical year unknown",
       "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
@@ -1768,6 +2186,14 @@
           "joseph",
           "cfm-2026-12"
         ]
+      },
+      "contextNote": {
+        "title": "The brothers supply a past explanation for a present threat",
+        "text": "Joseph's identity remains hidden while the brothers discuss their guilt. They connect current trouble with a plea they ignored years earlier. Their words let Joseph hear how they now describe his suffering. The tests concern the family's memory and responsibility as well as their need for grain.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -1776,7 +2202,7 @@
       "start": 1,
       "end": 34,
       "title": "Benjamin goes to Egypt",
-      "summary": "Judah pledges Benjamin's safety. The brothers return. Joseph hosts a meal. Judah accepts responsibility for another brother. Joseph's hidden identity creates hope and fear.",
+      "summary": "Judah pledges Benjamin's safety. The brothers return. Joseph hosts a meal.",
       "year": null,
       "dateLabel": "Narrative order · historical year unknown",
       "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
@@ -1796,6 +2222,14 @@
           "joseph",
           "cfm-2026-12"
         ]
+      },
+      "contextNote": {
+        "title": "Judah makes another person's safety his own responsibility",
+        "text": "Jacob fears losing Benjamin after the earlier loss of Joseph. Judah answers with a pledge that makes him accountable for the return. This promise differs from using a brother for personal gain. The shared meal still preserves unequal knowledge, since only Joseph knows the full family relationship.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -1804,7 +2238,7 @@
       "start": 1,
       "end": 34,
       "title": "Judah offers himself",
-      "summary": "Joseph's cup is found in Benjamin's sack. Judah offers to remain instead. Judah's offer reverses his earlier sale of Joseph. He protects a brother and his father.",
+      "summary": "Joseph's cup is found in Benjamin's sack. Judah offers to remain instead.",
       "year": null,
       "dateLabel": "Narrative order · historical year unknown",
       "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
@@ -1823,6 +2257,14 @@
           "joseph",
           "cfm-2026-12"
         ]
+      },
+      "contextNote": {
+        "title": "Judah answers the test by accepting another person's loss",
+        "text": "The cup creates an apparent reason to leave Benjamin in Egypt. Judah refuses the chance to return without him. His offer places his own freedom below his father's survival. The scene reverses the brothers' earlier willingness to lose Joseph while keeping themselves free.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -1831,7 +2273,7 @@
       "start": 1,
       "end": 28,
       "title": "Joseph reveals himself",
-      "summary": "Joseph names himself. He sends his brothers to bring Jacob to Egypt. Joseph reveals who he is and forgives his brothers. He sees God's help in their survival.",
+      "summary": "Joseph names himself. He sends his brothers to bring Jacob to Egypt.",
       "year": null,
       "dateLabel": "Narrative order · historical year unknown",
       "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
@@ -1851,6 +2293,14 @@
           "joseph",
           "cfm-2026-12"
         ]
+      },
+      "contextNote": {
+        "title": "Joseph separates the wrong from its later outcome",
+        "text": "Joseph describes survival as God's work without denying that his brothers sold him. The same action can have a harmful intention and an unexpected outcome. His speech directs attention toward keeping the family alive now. Forgiveness takes practical form through food, travel, and a place to live.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -1859,7 +2309,7 @@
       "start": 1,
       "end": 34,
       "title": "Jacob goes to Egypt",
-      "summary": "God reassures Jacob at Beersheba. Jacob's family enters Egypt. Joseph meets his father. Migration preserves the family during famine. God's promise accompanies them beyond Canaan.",
+      "summary": "God reassures Jacob at Beersheba. Jacob's family enters Egypt. Joseph meets his father.",
       "year": null,
       "dateLabel": "Narrative order · historical year unknown",
       "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
@@ -1880,6 +2330,14 @@
           "joseph",
           "cfm-2026-12"
         ]
+      },
+      "contextNote": {
+        "title": "An outsider identity shapes where the family can settle",
+        "text": "Joseph tells his relatives to describe their work as keeping livestock. The account links that occupation with Egyptian dislike of shepherds. Difference becomes part of the arrangement for settling in Goshen. The family gains safety within Egypt while retaining a distinct household identity.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -1888,7 +2346,7 @@
       "start": 1,
       "end": 31,
       "title": "The famine continues",
-      "summary": "Jacob meets Pharaoh. Joseph manages famine relief. Egyptians surrender property for food. The account includes survival and concentrated royal power. Food policy changes people's dependence on Pharaoh.",
+      "summary": "Jacob meets Pharaoh. Joseph manages famine relief. Egyptians surrender property for food.",
       "year": null,
       "dateLabel": "Narrative order · historical year unknown",
       "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
@@ -1900,13 +2358,24 @@
         "web",
         "yale-ancestors",
         "trade",
-        "egypt"
+        "egypt",
+        "met-545281"
       ],
       "lds": {
         "text": "Joseph gives people food, but they lose land and freedom. How can help protect both?",
         "sourceIds": [
           "joseph",
           "cfm-2026-12"
+        ]
+      },
+      "contextNote": {
+        "title": "Relief brings survival and a new claim on labor",
+        "text": "The famine reduces people's options until they offer land and themselves for food. Joseph's provision keeps them alive but strengthens Pharaoh's lasting control. The account records gratitude alongside this transfer of power. Compare the family's favorable settlement with the dependence created for other households.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": [
+          "met-545281"
         ]
       }
     },
@@ -1916,7 +2385,7 @@
       "start": 1,
       "end": 22,
       "title": "Ephraim and Manasseh",
-      "summary": "Jacob blesses Joseph's sons. He places Ephraim before Manasseh. The younger son receives the leading blessing. The act repeats Genesis's reversals of expected rank.",
+      "summary": "Jacob blesses Joseph's sons. He places Ephraim before Manasseh.",
       "year": null,
       "dateLabel": "Narrative order · historical year unknown",
       "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
@@ -1935,6 +2404,14 @@
           "joseph",
           "cfm-2026-12"
         ]
+      },
+      "contextNote": {
+        "title": "An expected order becomes a deliberate choice",
+        "text": "Joseph arranges his sons according to birth order before the blessing. Jacob crosses his hands and refuses Joseph's correction. The account makes the change intentional despite Jacob's failing sight. Another younger son's precedence connects this family moment with earlier reversals in Genesis.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -1943,7 +2420,7 @@
       "start": 1,
       "end": 33,
       "title": "Jacob's final words",
-      "summary": "Jacob speaks over his sons. He asks for burial with his ancestors and dies. The speeches address different tribal futures. The burial request holds the family to Canaan.",
+      "summary": "Jacob speaks over his sons. He asks for burial with his ancestors and dies.",
       "year": null,
       "dateLabel": "Narrative order · historical year unknown",
       "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
@@ -1964,6 +2441,14 @@
           "joseph",
           "cfm-2026-12"
         ]
+      },
+      "contextNote": {
+        "title": "Blessing can include criticism of the family's past",
+        "text": "Jacob's words do more than predict prosperity for his sons. He names violence and misconduct when describing their futures. The poem links remembered acts with the shape of later tribes. Calling these speeches blessings therefore does not mean every son receives simple approval.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -1972,7 +2457,7 @@
       "start": 1,
       "end": 26,
       "title": "Burial and forgiveness",
-      "summary": "Joseph buries Jacob in Canaan. He reassures his brothers. Joseph later dies in Egypt. Joseph forgives his brothers while naming the wrong they did. He asks for burial in Canaan.",
+      "summary": "Joseph buries Jacob in Canaan. He reassures his brothers. Joseph later dies in Egypt.",
       "year": null,
       "dateLabel": "Narrative order · historical year unknown",
       "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
@@ -1994,6 +2479,14 @@
           "nephi-3",
           "cfm-2026-12"
         ]
+      },
+      "contextNote": {
+        "title": "Reconciliation must continue after the father's death",
+        "text": "The brothers fear that Jacob's death has removed their protection from Joseph. Their renewed request shows that an earlier welcome did not end their fear. Joseph refuses to claim God's place in judging them. His promise to feed their children turns reassurance into continuing material support.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     }
   ],
@@ -2005,7 +2498,7 @@
       "eventOrder": 1,
       "title": "Creation",
       "summary": "God creates the world and gives humans care of its life. God calls creation good.",
-      "detail": "Human life has worth. Care for the earth follows from God's gift.",
+      "detail": "The chapter gives people worth before it gives them work. Both women and men bear God’s image. No king receives that status alone. The command to rule follows this shared identity. Read dominion beside the blessing of life, not as permission for abuse.",
       "dateLabel": "Narrative order · historical year unknown",
       "uncertainty": "No verified location is supplied for this chapter.",
       "sourceIds": [
@@ -2031,7 +2524,7 @@
       "eventOrder": 2,
       "title": "Life in the garden",
       "summary": "God rests. God places the man in Eden and forms the woman.",
-      "detail": "Rest, work, and partnership belong to human life. The garden also includes a command.",
+      "detail": "The garden provides food and meaningful work, yet the man remains alone. That lack interrupts the repeated goodness of creation. Naming animals does not produce a partner who shares his life. The woman's arrival answers a need that possessions and duties cannot meet.",
       "dateLabel": "Narrative order · historical year unknown",
       "uncertainty": "No verified location is supplied for this chapter.",
       "sourceIds": [
@@ -2056,7 +2549,7 @@
       "eventOrder": 3,
       "title": "The Fall",
       "summary": "The man and woman eat the forbidden fruit. They leave the garden.",
-      "detail": "Their choice brings loss and responsibility. God still clothes them.",
+      "detail": "The man answers a question about his action by naming the woman. He also reminds God who gave her to him. The woman then names the serpent. These replies show damaged trust before the account describes life outside the garden.",
       "dateLabel": "Narrative order · historical year unknown",
       "uncertainty": "No verified location is supplied for this chapter.",
       "sourceIds": [
@@ -2082,7 +2575,7 @@
       "eventOrder": 4,
       "title": "Cain and Abel",
       "summary": "Cain kills Abel. The chapter follows Cain's family and the birth of Seth.",
-      "detail": "Anger can destroy family bonds. Cain's question tests our care for other people.",
+      "detail": "God's protection keeps Cain from becoming another victim of killing. Lamech later uses that protection to boast about greater revenge. His speech changes a limit on violence into a threat. Growing skills and towns therefore do not guarantee growing restraint.",
       "dateLabel": "Narrative order · historical year unknown",
       "uncertainty": "No verified location is supplied for this chapter.",
       "sourceIds": [
@@ -2106,7 +2599,7 @@
       "eventOrder": 5,
       "title": "Generations to Noah",
       "summary": "The family record traces Adam's line to Noah. Enoch walks with God.",
-      "detail": "Death repeats through the record. Enoch's account introduces hope within that pattern.",
+      "detail": "The family list repeatedly ends each long life with death. Enoch's departure interrupts that pattern rather than extending his years. Noah's name then introduces hope for relief from hard work. The list carries both continuity and the unresolved burden of the cursed ground.",
       "dateLabel": "Narrative order · historical year unknown",
       "uncertainty": "No verified location is supplied for this chapter.",
       "sourceIds": [
@@ -2131,7 +2624,7 @@
       "eventOrder": 6,
       "title": "Noah builds the ark",
       "summary": "Violence fills the earth. God tells Noah to build an ark.",
-      "detail": "Noah responds to God's warning with action. The story connects judgment with preservation.",
+      "detail": "The explanation for destruction concerns a world filled with violence. This description reaches beyond one person's hidden wrongdoing. Noah's work preserves creatures threatened by that human disorder. The account joins judgment on violence with costly preparation to keep life.",
       "dateLabel": "Narrative order · historical year unknown",
       "uncertainty": "No verified location is supplied for this chapter.",
       "sourceIds": [
@@ -2157,7 +2650,7 @@
       "eventOrder": 7,
       "title": "The flood",
       "summary": "Noah's household and the animals enter the ark. The flood covers the land.",
-      "detail": "The flood destroys life across the earth. Noah’s household survives inside the ark.",
+      "detail": "Noah follows the instructions, but God closes the ark's door. That detail separates preparation from control over the coming disaster. The repeated lists of creatures emphasize how much life remains at risk. Survival inside the ark stands beside extensive loss outside it.",
       "dateLabel": "Narrative order · historical year unknown",
       "uncertainty": "No verified location is supplied for this chapter.",
       "sourceIds": [
@@ -2182,7 +2675,7 @@
       "eventOrder": 8,
       "title": "The waters recede",
       "summary": "The ark rests in the mountains of Ararat. Noah leaves and builds an altar.",
-      "detail": "Noah responds to deliverance with worship. The promise concerns the world's continuing seasons.",
+      "detail": "The ending names farming, weather, day, and night rather than another rescue. These repeated conditions make future life possible. God's promise follows an admission that human wrongdoing continues. The restored world therefore depends on divine patience, not a newly perfect human community.",
       "dateLabel": "Narrative order · historical year unknown",
       "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
       "sourceIds": [
@@ -2209,7 +2702,7 @@
       "eventOrder": 9,
       "title": "A covenant with Noah",
       "summary": "God gives the rainbow as a covenant sign. Noah's sons receive different blessings.",
-      "detail": "The covenant includes living creatures. The chapter also warns against bloodshed.",
+      "detail": "The account grounds its warning against bloodshed in God's image. This recalls the shared human identity stated at creation. The covenant also includes creatures that cannot make promises themselves. Its reach exceeds Noah's household even as the following family scene introduces division.",
       "dateLabel": "Narrative order · historical year unknown",
       "uncertainty": "No verified location is supplied for this chapter.",
       "sourceIds": [
@@ -2234,7 +2727,7 @@
       "eventOrder": 10,
       "title": "Families and nations",
       "summary": "The chapter lists peoples descended from Noah's sons.",
-      "detail": "The list connects many peoples with Noah's family. It names towns and nations that later appear in Israel's story.",
+      "detail": "The list groups peoples by families, languages, lands, and nations. Differences remain visible within a common descent from Noah. Israel's later neighbors therefore enter the story before Israel itself. The family structure invites readers to see relationships across political boundaries.",
       "dateLabel": "Narrative order · historical year unknown",
       "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
       "sourceIds": [
@@ -2259,7 +2752,7 @@
       "eventOrder": 11,
       "title": "Babel and Terah's family",
       "summary": "People build Babel. God confuses their speech. Terah's family travels from Ur toward Canaan.",
-      "detail": "Babel questions human attempts to secure greatness. Terah's family prepares the next story.",
+      "detail": "The builders want a lasting name and protection against scattering. Their shared speech makes that plan possible. The scattering answers their stated aim rather than simply destroying a building. Abram's story next begins with departure and a promised name he cannot secure himself.",
       "dateLabel": "Narrative order · historical year unknown",
       "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
       "sourceIds": [
@@ -2288,7 +2781,7 @@
       "eventOrder": 12,
       "title": "Abram's call",
       "summary": "Abram travels from Haran to Canaan. Famine leads him into Egypt.",
-      "detail": "The promise extends blessing beyond one household. Abram's fear also exposes others to danger.",
+      "detail": "Abram receives a blessing whose stated reach includes other families. That outward purpose matters when famine takes him into Egypt. His attempt to protect himself then places Sarai and Pharaoh's household at risk. The chapter sets promised blessing beside conduct that brings trouble to others.",
       "dateLabel": "Narrative order · historical year unknown",
       "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
       "sourceIds": [
@@ -2320,7 +2813,7 @@
       "eventOrder": 13,
       "title": "Abram and Lot separate",
       "summary": "Abram lets Lot choose land. Lot settles near Sodom. God renews Abram's promise.",
-      "detail": "Abram chooses peace over a dispute. Land and descendants remain central to the promise.",
+      "detail": "The dispute begins with livestock and insufficient space for both households. Abram gives Lot the first choice rather than enforcing his senior position. Lot judges the land by its visible water supply. The account also names Sodom's wrongdoing, which the attractive landscape does not reveal.",
       "dateLabel": "Narrative order · historical year unknown",
       "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
       "sourceIds": [
@@ -2348,7 +2841,7 @@
       "eventOrder": 14,
       "title": "Lot rescued",
       "summary": "Abram rescues Lot after a battle. Melchizedek blesses Abram.",
-      "detail": "Abram rejects wealth from Sodom. Melchizedek connects blessing with worship of God.",
+      "detail": "Abram separates the rescue of Lot from accepting the king's wealth. His refusal prevents the king from claiming credit for Abram's prosperity. Yet he preserves the shares owed to his allies. Personal restraint does not cancel the claims of others who joined the work.",
       "dateLabel": "Narrative order · historical year unknown",
       "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
       "sourceIds": [
@@ -2377,7 +2870,7 @@
       "eventOrder": 15,
       "title": "God's covenant with Abram",
       "summary": "God promises descendants to Abram. A covenant ceremony follows.",
-      "detail": "Abram trusts despite his lack of an heir. The promise includes future suffering and return.",
+      "detail": "Abram asks about an heir and assurance concerning the land. The response includes generations of oppression before return. Promise and possession therefore do not occur within the same lifetime. The ceremony places Abram's immediate uncertainty inside a much longer family future.",
       "dateLabel": "Narrative order · historical year unknown",
       "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
       "sourceIds": [
@@ -2403,7 +2896,7 @@
       "eventOrder": 16,
       "title": "Hagar and Ishmael",
       "summary": "Hagar flees harsh treatment from Sarai. God's messenger meets her. Ishmael is born.",
-      "detail": "God hears Hagar when she has fled from harsh treatment. He speaks to her about her child.",
+      "detail": "Hagar speaks directly with God's messenger outside the household that harmed her. That encounter gives the enslaved woman a voice and a promise. The command to return nevertheless leaves a difficult tension in the account. Divine attention does not mean Sarai's harsh treatment becomes acceptable.",
       "dateLabel": "Narrative order · historical year unknown",
       "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
       "sourceIds": [
@@ -2429,7 +2922,7 @@
       "eventOrder": 17,
       "title": "New names and covenant",
       "summary": "God names Abraham and Sarah. Circumcision becomes a covenant sign. God promises Isaac.",
-      "detail": "The covenant sets duties for the household. God also promises to bless Ishmael.",
+      "detail": "Abraham applies the sign to sons and purchased servants alike. The household's shared duty reaches people with very different status. The promise concerning Isaac does not cancel the separate blessing of Ishmael. Read the covenant's common sign beside the account's unequal rights and different futures.",
       "dateLabel": "Narrative order · historical year unknown",
       "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
       "sourceIds": [
@@ -2456,7 +2949,7 @@
       "eventOrder": 18,
       "title": "Visitors and Abraham's plea",
       "summary": "Visitors promise Sarah a son. Abraham pleads for Sodom.",
-      "detail": "Hospitality opens the story. Abraham's questions explore justice and mercy.",
+      "detail": "Abraham asks whether innocent people will die with guilty people. His repeated questions reduce the number needed to spare the city. The exchange concerns collective punishment rather than only personal safety. A promised father of nations speaks about responsibility beyond his own household.",
       "dateLabel": "Narrative order · historical year unknown",
       "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
       "sourceIds": [
@@ -2483,7 +2976,7 @@
       "eventOrder": 19,
       "title": "Sodom and Lot's escape",
       "summary": "Lot hosts visitors. A violent crowd threatens them. Lot's household escapes Sodom.",
-      "detail": "The guests face violence, and Lot's family must flee. Leaving Sodom brings further grief.",
+      "detail": "Lot tries to protect his guests by offering his daughters to the crowd. That choice endangers family members while claiming a duty toward visitors. The account's violence cannot be reduced to one breach of hospitality. Flight from the city also leaves the surviving family vulnerable and isolated.",
       "dateLabel": "Narrative order · historical year unknown",
       "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
       "sourceIds": [
@@ -2510,7 +3003,7 @@
       "eventOrder": 20,
       "title": "Abraham and Abimelech",
       "summary": "Abraham calls Sarah his sister. God warns Abimelech in a dream.",
-      "detail": "Fear leads to deception. The account shows how that deception harms other people.",
+      "detail": "Abraham assumes that fear of God is absent in this place. Abimelech's protest and response complicate that assumption. The deception threatens a household that did not know Sarah's marriage. The outsider's conduct exposes a failure within the household carrying the promise.",
       "dateLabel": "Narrative order · historical year unknown",
       "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
       "sourceIds": [
@@ -2536,7 +3029,7 @@
       "eventOrder": 21,
       "title": "Isaac and Ishmael",
       "summary": "Isaac is born. Hagar and Ishmael leave. God provides water. Abraham makes a treaty.",
-      "detail": "God hears Hagar's child in the wilderness. Both sons receive promises despite the family conflict.",
+      "detail": "The family celebration leads into the removal of Hagar and Ishmael. Their danger reveals a cost hidden behind the household's secure future. God's response supplies water and a future for the excluded son. The account preserves two promises without pretending the separation causes no suffering.",
       "dateLabel": "Narrative order · historical year unknown",
       "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
       "sourceIds": [
@@ -2562,7 +3055,7 @@
       "eventOrder": 22,
       "title": "The binding of Isaac",
       "summary": "God tests Abraham. A messenger stops the sacrifice. A ram takes Isaac's place.",
-      "detail": "Abraham prepares to offer Isaac. God stops him and provides a ram.",
+      "detail": "The opening calls the command a test before Isaac learns about the sacrifice. His question about the lamb increases the distance between their knowledge. Abraham's answer postpones the explanation rather than resolving his son's danger. The provided ram finally changes what the father's obedience requires him to do.",
       "dateLabel": "Narrative order · historical year unknown",
       "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
       "sourceIds": [
@@ -2590,13 +3083,14 @@
       "eventOrder": 23,
       "title": "Sarah's burial",
       "summary": "Sarah dies. Abraham buys the field and cave of Machpelah.",
-      "detail": "The purchase gives Abraham a burial place. The promised land first becomes a family grave.",
+      "detail": "Abraham has a promise of land but must buy a burial place. The account names the field, trees, witnesses, and payment. Those details make a public claim, not a private favor. Sarah’s grave ties the family’s future to a place. The promised land first becomes theirs through a death.",
       "dateLabel": "Narrative order · historical year unknown",
       "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
       "sourceIds": [
         "web",
         "yale-patriarchs",
-        "trade"
+        "trade",
+        "met-321953"
       ],
       "placeIds": [
         "hebron"
@@ -2616,7 +3110,7 @@
       "eventOrder": 24,
       "title": "Rebekah meets Isaac",
       "summary": "Abraham's servant seeks a wife for Isaac. Rebekah agrees to travel.",
-      "detail": "Rebekah shows care through action. Her consent matters in the journey to Isaac.",
+      "detail": "Servants and relatives discuss gifts, family ties, and the proposed marriage. Rebekah then answers the question about leaving. Her brief response gives her a place in a decision discussed largely by others. The journey joins household arrangements with her own willingness to enter an unfamiliar future.",
       "dateLabel": "Narrative order · historical year unknown",
       "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
       "sourceIds": [
@@ -2643,7 +3137,7 @@
       "eventOrder": 25,
       "title": "Abraham's death and the twins",
       "summary": "Abraham dies. Rebekah bears Esau and Jacob. Esau sells his birthright.",
-      "detail": "Family promises pass to another generation. Immediate hunger and lasting inheritance come into conflict.",
+      "detail": "The brothers negotiate while one holds food the other wants. Esau describes death as near and dismisses the birthright's value. Jacob uses that moment to seek a lasting advantage. The exchange introduces rivalry through unequal need before the later struggle over a father's blessing.",
       "dateLabel": "Narrative order · historical year unknown",
       "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
       "sourceIds": [
@@ -2669,7 +3163,7 @@
       "eventOrder": 26,
       "title": "Isaac's wells",
       "summary": "Isaac lives near Gerar. Disputes arise over wells. God renews the promise.",
-      "detail": "Water supports life and creates conflict. Isaac moves rather than continuing each dispute.",
+      "detail": "The repeated wells connect a promised future with the need for daily water. Isaac names conflict but does not remain at every disputed site. A well without dispute allows him to speak of room to grow. The later agreement addresses fear between neighbors, not merely ownership of a resource.",
       "dateLabel": "Narrative order · historical year unknown",
       "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
       "sourceIds": [
@@ -2696,7 +3190,7 @@
       "eventOrder": 27,
       "title": "Jacob receives the blessing",
       "summary": "Rebekah and Jacob deceive Isaac. Esau loses the blessing and threatens Jacob.",
-      "detail": "Rebekah and Jacob deceive Isaac. The blessing brings anger and separates the brothers.",
+      "detail": "Isaac treats the blessing already given as an act with lasting force. Esau cannot solve the deception by asking for the same words again. Food, touch, clothing, and speech all shape the failed recognition. The family secures Jacob's advantage at the cost of trust and shared life.",
       "dateLabel": "Narrative order · historical year unknown",
       "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
       "sourceIds": [
@@ -2722,7 +3216,7 @@
       "eventOrder": 28,
       "title": "Jacob's dream at Bethel",
       "summary": "Jacob leaves for Haran. At Bethel he dreams of a stairway reaching heaven.",
-      "detail": "God meets Jacob during his flight. Jacob responds with a vow.",
+      "detail": "Jacob reaches Bethel while leaving a family conflict behind. He recognizes God's presence where he expected only a night's rest. The promised return answers his immediate loss of home. His vow also reveals that assurance and his own response develop during the journey.",
       "dateLabel": "Narrative order · historical year unknown",
       "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
       "sourceIds": [
@@ -2750,7 +3244,7 @@
       "eventOrder": 29,
       "title": "Leah and Rachel",
       "summary": "Jacob meets Rachel. Laban substitutes Leah at the wedding. Jacob also marries Rachel.",
-      "detail": "Deception returns within Jacob's life. God sees Leah's distress and gives her children.",
+      "detail": "Jacob objects when another person changes an agreement through deception. His complaint follows his own deception of Isaac. Laban's control over daughters and work makes Jacob's dependence visible. Leah's suffering shows that this reversal also harms someone outside the men's dispute.",
       "dateLabel": "Narrative order · historical year unknown",
       "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
       "sourceIds": [
@@ -2776,7 +3270,7 @@
       "eventOrder": 30,
       "title": "Jacob's growing household",
       "summary": "Rachel, Leah, Bilhah, and Zilpah bear children. Jacob's flocks increase.",
-      "detail": "The account includes rivalry and unequal power. The mothers' words reveal their hopes and pain.",
+      "detail": "The sisters negotiate access to Jacob through the exchange of mandrakes. Children, servants, and affection enter the struggle for household standing. Their naming speeches record different hopes within the growing family. Increased descendants do not mean the household has gained equal care or peace.",
       "dateLabel": "Narrative order · historical year unknown",
       "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
       "sourceIds": [
@@ -2802,7 +3296,7 @@
       "eventOrder": 31,
       "title": "Jacob leaves Laban",
       "summary": "Jacob's household leaves Haran. Laban pursues them. They make an agreement.",
-      "detail": "The household seeks freedom from Laban's control. A boundary helps end their dispute.",
+      "detail": "Rachel and Leah describe their father as treating them like outsiders. Their words connect marriage payments with the loss of a family share. Jacob's complaint about wages is therefore not the household's only grievance. Departure answers several kinds of dependence, while the final agreement limits further interference.",
       "dateLabel": "Narrative order · historical year unknown",
       "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
       "sourceIds": [
@@ -2829,7 +3323,7 @@
       "eventOrder": 32,
       "title": "Jacob wrestles",
       "summary": "Jacob prepares to meet Esau. He wrestles through the night and receives the name Israel.",
-      "detail": "Jacob fears meeting Esau and asks God for help. His new name marks a lasting change.",
+      "detail": "Jacob divides his company and sends gifts before meeting Esau. His prayer names the danger to women and children as well as himself. The night struggle then leaves him both blessed and injured. The new name does not mean he enters the meeting without vulnerability.",
       "dateLabel": "Narrative order · historical year unknown",
       "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
       "sourceIds": [
@@ -2856,7 +3350,7 @@
       "eventOrder": 33,
       "title": "Jacob and Esau meet",
       "summary": "Esau embraces Jacob. Jacob settles near Shechem.",
-      "detail": "The meeting interrupts expected revenge. Gifts and humility support renewed peace.",
+      "detail": "Jacob has prepared for attack, but Esau runs to embrace him. Jacob compares this welcome with seeing God's face. That comparison gives the reconciliation meaning beyond accepting a gift. Their later separate journeys also show that peace need not require identical plans.",
       "dateLabel": "Narrative order · historical year unknown",
       "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
       "sourceIds": [
@@ -2884,7 +3378,7 @@
       "eventOrder": 34,
       "title": "Dinah and Shechem",
       "summary": "Shechem violates Dinah. Her brothers kill the town's men after a deceptive agreement.",
-      "detail": "Shechem harms Dinah. Her brothers’ revenge kills the town’s men and takes its families captive.",
+      "detail": "The brothers defend their violence by naming the harm done to Dinah. Jacob answers through fear for the household's survival among neighboring peoples. Neither speech restores Dinah's voice to the discussion. The ending preserves a conflict between protecting honor, protecting life, and answering wrongdoing.",
       "dateLabel": "Narrative order · historical year unknown",
       "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
       "sourceIds": [
@@ -2909,7 +3403,7 @@
       "eventOrder": 35,
       "title": "Return to Bethel",
       "summary": "Jacob returns to Bethel. Rachel dies near Bethlehem. Isaac dies.",
-      "detail": "Worship, birth, and death shape the family's return. The promise continues through grief.",
+      "detail": "Jacob asks the whole household to remove foreign gods before returning to Bethel. Worship therefore includes objects and loyalties carried through the journey. The return also contains deaths rather than uninterrupted recovery. Renewed commitment does not remove grief from the family carrying the promise.",
       "dateLabel": "Narrative order · historical year unknown",
       "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
       "sourceIds": [
@@ -2936,7 +3430,7 @@
       "eventOrder": 36,
       "title": "Esau's descendants",
       "summary": "The chapter records Esau's family and rulers in Edom.",
-      "detail": "Esau's line receives space in the story. Israel's neighbors also have a history.",
+      "detail": "The chapter records families, chiefs, and kings connected with Esau. Its account names Edomite kings before Israel has kings. That wider view interrupts the focus on Jacob's household. Esau's descendants remain part of the book's world rather than disappearing after the brothers separate.",
       "dateLabel": "Narrative order · historical year unknown",
       "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
       "sourceIds": [
@@ -2961,7 +3455,7 @@
       "eventOrder": 37,
       "title": "Joseph sold",
       "summary": "Joseph's brothers sell him. Traders take him to Egypt. Jacob mourns.",
-      "detail": "Favoritism and jealousy fracture the family. Joseph's loss begins the journey toward Egypt.",
+      "detail": "The brothers use Joseph's coat to make Jacob reach their desired conclusion. They avoid directly describing what they have done. This deception recalls clothing used in the earlier deception of Isaac. Family favoritism and manipulated evidence now combine to hide the sale of a brother.",
       "dateLabel": "Narrative order · historical year unknown",
       "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
       "sourceIds": [
@@ -2991,7 +3485,7 @@
       "eventOrder": 38,
       "title": "Judah and Tamar",
       "summary": "Judah fails to provide for Tamar. Tamar acts to preserve her family claim.",
-      "detail": "Judah admits his failure. The story exposes his unequal judgment of Tamar.",
+      "detail": "Judah first judges Tamar while concealing his own part in her pregnancy. The pledged objects expose both his identity and his failed household duty. His admission redirects blame toward the person who withheld the promised marriage. The scene prepares readers to notice later changes in Judah's responsibility.",
       "dateLabel": "Narrative order · historical year unknown",
       "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
       "sourceIds": [
@@ -3019,7 +3513,7 @@
       "eventOrder": 39,
       "title": "Joseph in Potiphar's house",
       "summary": "Joseph serves Potiphar. Potiphar's wife falsely accuses Joseph. He enters prison.",
-      "detail": "Joseph refuses pressure from his master's wife. Her false accusation sends him to prison.",
+      "detail": "Joseph refuses the demand of a person who holds power over him. His abandoned garment then supports her false account. The account supplies facts that Potiphar's household does not acknowledge. The prison scene again contrasts Joseph's conduct with his loss of control.",
       "dateLabel": "Narrative order · historical year unknown",
       "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
       "sourceIds": [
@@ -3046,7 +3540,7 @@
       "eventOrder": 40,
       "title": "Dreams in prison",
       "summary": "Joseph explains the cupbearer's and baker's dreams. The cupbearer forgets Joseph.",
-      "detail": "Joseph helps two prisoners understand their dreams. The cupbearer then forgets him.",
+      "detail": "Joseph can interpret the dreams but cannot secure his own release. He asks the cupbearer to speak where a prisoner cannot. The final sentence separates the successful interpretation from the requested help. Forgotten service explains why recognition later requires another crisis at Pharaoh's court.",
       "dateLabel": "Narrative order · historical year unknown",
       "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
       "sourceIds": [
@@ -3073,14 +3567,15 @@
       "eventOrder": 41,
       "title": "Joseph before Pharaoh",
       "summary": "Joseph explains Pharaoh's dreams. Pharaoh appoints him to prepare for famine.",
-      "detail": "Preparation turns knowledge into care for others. Joseph gains authority after years of loss.",
+      "detail": "Joseph’s dream reading becomes a plan for food storage. The plan needs officials, storehouses, and control of grain. That work changes who holds power during a famine. Chapter 47 later describes people giving property for food. Follow both rescue and dependence through this larger story.",
       "dateLabel": "Narrative order · historical year unknown",
       "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
       "sourceIds": [
         "web",
         "yale-ancestors",
         "trade",
-        "egypt"
+        "egypt",
+        "met-545281"
       ],
       "placeIds": [
         "egypt"
@@ -3100,7 +3595,7 @@
       "eventOrder": 42,
       "title": "The brothers seek grain",
       "summary": "Joseph's brothers arrive in Egypt. Joseph holds Simeon and asks for Benjamin.",
-      "detail": "The brothers remember their guilt. Joseph's tests begin to reveal their changed relationships.",
+      "detail": "Joseph's identity remains hidden while the brothers discuss their guilt. They connect current trouble with a plea they ignored years earlier. Their words let Joseph hear how they now describe his suffering. The tests concern the family's memory and responsibility as well as their need for grain.",
       "dateLabel": "Narrative order · historical year unknown",
       "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
       "sourceIds": [
@@ -3128,7 +3623,7 @@
       "eventOrder": 43,
       "title": "Benjamin goes to Egypt",
       "summary": "Judah pledges Benjamin's safety. The brothers return. Joseph hosts a meal.",
-      "detail": "Judah accepts responsibility for another brother. Joseph's hidden identity creates hope and fear.",
+      "detail": "Jacob fears losing Benjamin after the earlier loss of Joseph. Judah answers with a pledge that makes him accountable for the return. This promise differs from using a brother for personal gain. The shared meal still preserves unequal knowledge, since only Joseph knows the full family relationship.",
       "dateLabel": "Narrative order · historical year unknown",
       "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
       "sourceIds": [
@@ -3156,7 +3651,7 @@
       "eventOrder": 44,
       "title": "Judah offers himself",
       "summary": "Joseph's cup is found in Benjamin's sack. Judah offers to remain instead.",
-      "detail": "Judah's offer reverses his earlier sale of Joseph. He protects a brother and his father.",
+      "detail": "The cup creates an apparent reason to leave Benjamin in Egypt. Judah refuses the chance to return without him. His offer places his own freedom below his father's survival. The scene reverses the brothers' earlier willingness to lose Joseph while keeping themselves free.",
       "dateLabel": "Narrative order · historical year unknown",
       "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
       "sourceIds": [
@@ -3183,7 +3678,7 @@
       "eventOrder": 45,
       "title": "Joseph reveals himself",
       "summary": "Joseph names himself. He sends his brothers to bring Jacob to Egypt.",
-      "detail": "Joseph reveals who he is and forgives his brothers. He sees God's help in their survival.",
+      "detail": "Joseph describes survival as God's work without denying that his brothers sold him. The same action can have a harmful intention and an unexpected outcome. His speech directs attention toward keeping the family alive now. Forgiveness takes practical form through food, travel, and a place to live.",
       "dateLabel": "Narrative order · historical year unknown",
       "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
       "sourceIds": [
@@ -3211,7 +3706,7 @@
       "eventOrder": 46,
       "title": "Jacob goes to Egypt",
       "summary": "God reassures Jacob at Beersheba. Jacob's family enters Egypt. Joseph meets his father.",
-      "detail": "Migration preserves the family during famine. God's promise accompanies them beyond Canaan.",
+      "detail": "Joseph tells his relatives to describe their work as keeping livestock. The account links that occupation with Egyptian dislike of shepherds. Difference becomes part of the arrangement for settling in Goshen. The family gains safety within Egypt while retaining a distinct household identity.",
       "dateLabel": "Narrative order · historical year unknown",
       "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
       "sourceIds": [
@@ -3240,14 +3735,15 @@
       "eventOrder": 47,
       "title": "The famine continues",
       "summary": "Jacob meets Pharaoh. Joseph manages famine relief. Egyptians surrender property for food.",
-      "detail": "The account includes survival and concentrated royal power. Food policy changes people's dependence on Pharaoh.",
+      "detail": "The famine reduces people's options until they offer land and themselves for food. Joseph's provision keeps them alive but strengthens Pharaoh's lasting control. The account records gratitude alongside this transfer of power. Compare the family's favorable settlement with the dependence created for other households.",
       "dateLabel": "Narrative order · historical year unknown",
       "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
       "sourceIds": [
         "web",
         "yale-ancestors",
         "trade",
-        "egypt"
+        "egypt",
+        "met-545281"
       ],
       "placeIds": [
         "goshen",
@@ -3268,7 +3764,7 @@
       "eventOrder": 48,
       "title": "Ephraim and Manasseh",
       "summary": "Jacob blesses Joseph's sons. He places Ephraim before Manasseh.",
-      "detail": "The younger son receives the leading blessing. The act repeats Genesis's reversals of expected rank.",
+      "detail": "Joseph arranges his sons according to birth order before the blessing. Jacob crosses his hands and refuses Joseph's correction. The account makes the change intentional despite Jacob's failing sight. Another younger son's precedence connects this family moment with earlier reversals in Genesis.",
       "dateLabel": "Narrative order · historical year unknown",
       "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
       "sourceIds": [
@@ -3295,7 +3791,7 @@
       "eventOrder": 49,
       "title": "Jacob's final words",
       "summary": "Jacob speaks over his sons. He asks for burial with his ancestors and dies.",
-      "detail": "The speeches address different tribal futures. The burial request holds the family to Canaan.",
+      "detail": "Jacob's words do more than predict prosperity for his sons. He names violence and misconduct when describing their futures. The poem links remembered acts with the shape of later tribes. Calling these speeches blessings therefore does not mean every son receives simple approval.",
       "dateLabel": "Narrative order · historical year unknown",
       "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
       "sourceIds": [
@@ -3324,7 +3820,7 @@
       "eventOrder": 50,
       "title": "Burial and forgiveness",
       "summary": "Joseph buries Jacob in Canaan. He reassures his brothers. Joseph later dies in Egypt.",
-      "detail": "Joseph forgives his brothers while naming the wrong they did. He asks for burial in Canaan.",
+      "detail": "The brothers fear that Jacob's death has removed their protection from Joseph. Their renewed request shows that an earlier welcome did not end their fear. Joseph refuses to claim God's place in judging them. His promise to feed their children turns reassurance into continuing material support.",
       "dateLabel": "Narrative order · historical year unknown",
       "uncertainty": "Lines connect named places. They do not trace a surveyed ancient road.",
       "sourceIds": [
@@ -3798,44 +4294,37 @@
   "words": [],
   "guides": [
     {
-      "id": "genesis-overview",
-      "title": "Study Genesis",
-      "description": "Follow selected chapters through the book.",
+      "id": "genesis-context",
+      "title": "Genesis: context and evidence",
+      "description": "Explore the book’s larger concerns through selected passages and relevant evidence.",
       "steps": [
         {
-          "title": "Creation",
-          "text": "God creates the world and gives humans care of its life. God calls creation good. Human life has worth. Care for the earth follows from God's gift.",
+          "title": "Creation gives people a shared worth",
+          "text": "The chapter gives people worth before it gives them work. Both women and men bear God’s image. No king receives that status alone. The command to rule follows this shared identity. Read dominion beside the blessing of life, not as permission for abuse.",
           "chapter": 1,
-          "verse": 1,
+          "verse": 27,
           "sourceIds": [
-            "web",
-            "yale-creation",
-            "wiki-genesis",
-            "dm-genesis"
+            "web"
           ]
         },
         {
-          "title": "Isaac's wells",
-          "text": "Isaac lives near Gerar. Disputes arise over wells. God renews the promise. Water supports life and creates conflict. Isaac moves rather than continuing each dispute.",
-          "chapter": 26,
-          "verse": 1,
+          "title": "A grave becomes a claim to land",
+          "text": "Abraham has a promise of land but must buy a burial place. The account names the field, trees, witnesses, and payment. Those details make a public claim, not a private favor. Sarah’s grave ties the family’s future to a place. The promised land first becomes theirs through a death.",
+          "chapter": 23,
+          "verse": 18,
           "sourceIds": [
             "web",
-            "yale-patriarchs",
-            "trade"
+            "met-321953"
           ]
         },
         {
-          "title": "Burial and forgiveness",
-          "text": "Joseph buries Jacob in Canaan. He reassures his brothers. Joseph later dies in Egypt. Joseph forgives his brothers while naming the wrong they did. He asks for burial in Canaan.",
-          "chapter": 50,
-          "verse": 1,
+          "title": "Food storage creates political power",
+          "text": "Joseph’s dream reading becomes a plan for food storage. The plan needs officials, storehouses, and control of grain. That work changes who holds power during a famine. Chapter 47 later describes people giving property for food. Follow both rescue and dependence through this larger story.",
+          "chapter": 41,
+          "verse": 36,
           "sourceIds": [
             "web",
-            "yale-ancestors",
-            "trade",
-            "egypt",
-            "wiki-genesis"
+            "met-545281"
           ]
         }
       ]
@@ -4407,7 +4896,8 @@
       "sourceIds": [
         "web",
         "yale-patriarchs",
-        "trade"
+        "trade",
+        "met-321953"
       ]
     },
     {
@@ -4878,7 +5368,8 @@
         "web",
         "yale-ancestors",
         "trade",
-        "egypt"
+        "egypt",
+        "met-545281"
       ]
     },
     {
@@ -5042,7 +5533,8 @@
         "web",
         "yale-ancestors",
         "trade",
-        "egypt"
+        "egypt",
+        "met-545281"
       ]
     },
     {
@@ -5145,7 +5637,7 @@
       "chapter": 11,
       "verse": 1,
       "summary": "People build Babel. God confuses their speech. Terah's family travels from Ur toward Canaan.",
-      "detail": "Babel questions human attempts to secure greatness. Terah's family prepares the next story.",
+      "detail": "The builders want a lasting name and protection against scattering. Their shared speech makes that plan possible. The scattering answers their stated aim rather than simply destroying a building. Abram's story next begins with departure and a promised name he cannot secure himself.",
       "uncertainty": "Text names these locations in the journey. Connecting lines are approximate.",
       "evidence": "Text names these locations in the journey. Connecting lines are approximate.",
       "kind": "journey",
@@ -5182,7 +5674,7 @@
       "chapter": 12,
       "verse": 1,
       "summary": "Abram travels from Haran to Canaan. Famine leads him into Egypt.",
-      "detail": "The promise extends blessing beyond one household. Abram's fear also exposes others to danger.",
+      "detail": "Abram receives a blessing whose stated reach includes other families. That outward purpose matters when famine takes him into Egypt. His attempt to protect himself then places Sarai and Pharaoh's household at risk. The chapter sets promised blessing beside conduct that brings trouble to others.",
       "uncertainty": "Text names these locations in the journey. Connecting lines are approximate.",
       "evidence": "Text names these locations in the journey. Connecting lines are approximate.",
       "kind": "journey",
@@ -5212,7 +5704,7 @@
       "chapter": 13,
       "verse": 1,
       "summary": "Abram lets Lot choose land. Lot settles near Sodom. God renews Abram's promise.",
-      "detail": "Abram chooses peace over a dispute. Land and descendants remain central to the promise.",
+      "detail": "The dispute begins with livestock and insufficient space for both households. Abram gives Lot the first choice rather than enforcing his senior position. Lot judges the land by its visible water supply. The account also names Sodom's wrongdoing, which the attractive landscape does not reveal.",
       "uncertainty": "Text names these locations in the journey. Connecting lines are approximate.",
       "evidence": "Text names these locations in the journey. Connecting lines are approximate.",
       "kind": "journey",
@@ -5240,7 +5732,7 @@
       "chapter": 14,
       "verse": 1,
       "summary": "Abram rescues Lot after a battle. Melchizedek blesses Abram.",
-      "detail": "Abram rejects wealth from Sodom. Melchizedek connects blessing with worship of God.",
+      "detail": "Abram separates the rescue of Lot from accepting the king's wealth. His refusal prevents the king from claiming credit for Abram's prosperity. Yet he preserves the shares owed to his allies. Personal restraint does not cancel the claims of others who joined the work.",
       "uncertainty": "Text names these locations in the journey. Connecting lines are approximate.",
       "evidence": "Text names these locations in the journey. Connecting lines are approximate.",
       "kind": "journey",
@@ -5268,7 +5760,7 @@
       "chapter": 19,
       "verse": 1,
       "summary": "Lot hosts visitors. A violent crowd threatens them. Lot's household escapes Sodom.",
-      "detail": "The guests face violence, and Lot's family must flee. Leaving Sodom brings further grief.",
+      "detail": "Lot tries to protect his guests by offering his daughters to the crowd. That choice endangers family members while claiming a duty toward visitors. The account's violence cannot be reduced to one breach of hospitality. Flight from the city also leaves the surviving family vulnerable and isolated.",
       "uncertainty": "Text names these locations in the journey. Connecting lines are approximate.",
       "evidence": "Text names these locations in the journey. Connecting lines are approximate.",
       "kind": "journey",
@@ -5296,7 +5788,7 @@
       "chapter": 22,
       "verse": 1,
       "summary": "God tests Abraham. A messenger stops the sacrifice. A ram takes Isaac's place.",
-      "detail": "Abraham prepares to offer Isaac. God stops him and provides a ram.",
+      "detail": "The opening calls the command a test before Isaac learns about the sacrifice. His question about the lamb increases the distance between their knowledge. Abraham's answer postpones the explanation rather than resolving his son's danger. The provided ram finally changes what the father's obedience requires him to do.",
       "uncertainty": "Text names these locations in the journey. Connecting lines are approximate.",
       "evidence": "Text names these locations in the journey. Connecting lines are approximate.",
       "kind": "journey",
@@ -5324,7 +5816,7 @@
       "chapter": 24,
       "verse": 1,
       "summary": "Abraham's servant seeks a wife for Isaac. Rebekah agrees to travel.",
-      "detail": "Rebekah shows care through action. Her consent matters in the journey to Isaac.",
+      "detail": "Servants and relatives discuss gifts, family ties, and the proposed marriage. Rebekah then answers the question about leaving. Her brief response gives her a place in a decision discussed largely by others. The journey joins household arrangements with her own willingness to enter an unfamiliar future.",
       "uncertainty": "Text names these locations in the journey. Connecting lines are approximate.",
       "evidence": "Text names these locations in the journey. Connecting lines are approximate.",
       "kind": "journey",
@@ -5356,7 +5848,7 @@
       "chapter": 28,
       "verse": 1,
       "summary": "Jacob leaves for Haran. At Bethel he dreams of a stairway reaching heaven.",
-      "detail": "God meets Jacob during his flight. Jacob responds with a vow.",
+      "detail": "Jacob reaches Bethel while leaving a family conflict behind. He recognizes God's presence where he expected only a night's rest. The promised return answers his immediate loss of home. His vow also reveals that assurance and his own response develop during the journey.",
       "uncertainty": "Text names these locations in the journey. Connecting lines are approximate.",
       "evidence": "Text names these locations in the journey. Connecting lines are approximate.",
       "kind": "journey",
@@ -5384,7 +5876,7 @@
       "chapter": 31,
       "verse": 1,
       "summary": "Jacob's household leaves Haran. Laban pursues them. They make an agreement.",
-      "detail": "The household seeks freedom from Laban's control. A boundary helps end their dispute.",
+      "detail": "Rachel and Leah describe their father as treating them like outsiders. Their words connect marriage payments with the loss of a family share. Jacob's complaint about wages is therefore not the household's only grievance. Departure answers several kinds of dependence, while the final agreement limits further interference.",
       "uncertainty": "Text names these locations in the journey. Connecting lines are approximate.",
       "evidence": "Text names these locations in the journey. Connecting lines are approximate.",
       "kind": "journey",
@@ -5416,7 +5908,7 @@
       "chapter": 33,
       "verse": 1,
       "summary": "Esau embraces Jacob. Jacob settles near Shechem.",
-      "detail": "The meeting interrupts expected revenge. Gifts and humility support renewed peace.",
+      "detail": "Jacob has prepared for attack, but Esau runs to embrace him. Jacob compares this welcome with seeing God's face. That comparison gives the reconciliation meaning beyond accepting a gift. Their later separate journeys also show that peace need not require identical plans.",
       "uncertainty": "Text names these locations in the journey. Connecting lines are approximate.",
       "evidence": "Text names these locations in the journey. Connecting lines are approximate.",
       "kind": "journey",
@@ -5448,7 +5940,7 @@
       "chapter": 35,
       "verse": 1,
       "summary": "Jacob returns to Bethel. Rachel dies near Bethlehem. Isaac dies.",
-      "detail": "Worship, birth, and death shape the family's return. The promise continues through grief.",
+      "detail": "Jacob asks the whole household to remove foreign gods before returning to Bethel. Worship therefore includes objects and loyalties carried through the journey. The return also contains deaths rather than uninterrupted recovery. Renewed commitment does not remove grief from the family carrying the promise.",
       "uncertainty": "Text names these locations in the journey. Connecting lines are approximate.",
       "evidence": "Text names these locations in the journey. Connecting lines are approximate.",
       "kind": "journey",
@@ -5484,7 +5976,7 @@
       "chapter": 37,
       "verse": 1,
       "summary": "Joseph's brothers sell him. Traders take him to Egypt. Jacob mourns.",
-      "detail": "Favoritism and jealousy fracture the family. Joseph's loss begins the journey toward Egypt.",
+      "detail": "The brothers use Joseph's coat to make Jacob reach their desired conclusion. They avoid directly describing what they have done. This deception recalls clothing used in the earlier deception of Isaac. Family favoritism and manipulated evidence now combine to hide the sale of a brother.",
       "uncertainty": "Text names these locations in the journey. Connecting lines are approximate.",
       "evidence": "Text names these locations in the journey. Connecting lines are approximate.",
       "kind": "journey",
@@ -5513,7 +6005,7 @@
       "chapter": 43,
       "verse": 1,
       "summary": "Judah pledges Benjamin's safety. The brothers return. Joseph hosts a meal.",
-      "detail": "Judah accepts responsibility for another brother. Joseph's hidden identity creates hope and fear.",
+      "detail": "Jacob fears losing Benjamin after the earlier loss of Joseph. Judah answers with a pledge that makes him accountable for the return. This promise differs from using a brother for personal gain. The shared meal still preserves unequal knowledge, since only Joseph knows the full family relationship.",
       "uncertainty": "Text names these locations in the journey. Connecting lines are approximate.",
       "evidence": "Text names these locations in the journey. Connecting lines are approximate.",
       "kind": "journey",
@@ -5542,7 +6034,7 @@
       "chapter": 46,
       "verse": 1,
       "summary": "God reassures Jacob at Beersheba. Jacob's family enters Egypt. Joseph meets his father.",
-      "detail": "Migration preserves the family during famine. God's promise accompanies them beyond Canaan.",
+      "detail": "Joseph tells his relatives to describe their work as keeping livestock. The account links that occupation with Egyptian dislike of shepherds. Difference becomes part of the arrangement for settling in Goshen. The family gains safety within Egypt while retaining a distinct household identity.",
       "uncertainty": "Text names these locations in the journey. Connecting lines are approximate.",
       "evidence": "Text names these locations in the journey. Connecting lines are approximate.",
       "kind": "journey",
@@ -5571,7 +6063,7 @@
       "chapter": 50,
       "verse": 1,
       "summary": "Joseph buries Jacob in Canaan. He reassures his brothers. Joseph later dies in Egypt.",
-      "detail": "Joseph forgives his brothers while naming the wrong they did. He asks for burial in Canaan.",
+      "detail": "The brothers fear that Jacob's death has removed their protection from Joseph. Their renewed request shows that an earlier welcome did not end their fear. Joseph refuses to claim God's place in judging them. His promise to feed their children turns reassurance into continuing material support.",
       "uncertainty": "Text names these locations in the journey. Connecting lines are approximate.",
       "evidence": "Text names these locations in the journey. Connecting lines are approximate.",
       "kind": "journey",
@@ -5587,5 +6079,256 @@
     }
   ],
   "narrativeRegions": [],
-  "chapterStudies": []
+  "chapterStudies": [
+    {
+      "chapter": 1,
+      "verse": 27,
+      "context": ""
+    },
+    {
+      "chapter": 2,
+      "verse": 18,
+      "context": ""
+    },
+    {
+      "chapter": 3,
+      "verse": 12,
+      "context": ""
+    },
+    {
+      "chapter": 4,
+      "verse": 24,
+      "context": ""
+    },
+    {
+      "chapter": 5,
+      "verse": 24,
+      "context": ""
+    },
+    {
+      "chapter": 6,
+      "verse": 11,
+      "context": ""
+    },
+    {
+      "chapter": 7,
+      "verse": 16,
+      "context": ""
+    },
+    {
+      "chapter": 8,
+      "verse": 22,
+      "context": ""
+    },
+    {
+      "chapter": 9,
+      "verse": 6,
+      "context": ""
+    },
+    {
+      "chapter": 10,
+      "verse": 32,
+      "context": ""
+    },
+    {
+      "chapter": 11,
+      "verse": 4,
+      "context": ""
+    },
+    {
+      "chapter": 12,
+      "verse": 3,
+      "context": ""
+    },
+    {
+      "chapter": 13,
+      "verse": 9,
+      "context": ""
+    },
+    {
+      "chapter": 14,
+      "verse": 23,
+      "context": ""
+    },
+    {
+      "chapter": 15,
+      "verse": 13,
+      "context": ""
+    },
+    {
+      "chapter": 16,
+      "verse": 9,
+      "context": ""
+    },
+    {
+      "chapter": 17,
+      "verse": 23,
+      "context": ""
+    },
+    {
+      "chapter": 18,
+      "verse": 25,
+      "context": ""
+    },
+    {
+      "chapter": 19,
+      "verse": 8,
+      "context": ""
+    },
+    {
+      "chapter": 20,
+      "verse": 11,
+      "context": ""
+    },
+    {
+      "chapter": 21,
+      "verse": 19,
+      "context": ""
+    },
+    {
+      "chapter": 22,
+      "verse": 8,
+      "context": ""
+    },
+    {
+      "chapter": 23,
+      "verse": 18,
+      "context": ""
+    },
+    {
+      "chapter": 24,
+      "verse": 58,
+      "context": ""
+    },
+    {
+      "chapter": 25,
+      "verse": 32,
+      "context": ""
+    },
+    {
+      "chapter": 26,
+      "verse": 22,
+      "context": ""
+    },
+    {
+      "chapter": 27,
+      "verse": 37,
+      "context": ""
+    },
+    {
+      "chapter": 28,
+      "verse": 16,
+      "context": ""
+    },
+    {
+      "chapter": 29,
+      "verse": 25,
+      "context": ""
+    },
+    {
+      "chapter": 30,
+      "verse": 15,
+      "context": ""
+    },
+    {
+      "chapter": 31,
+      "verse": 15,
+      "context": ""
+    },
+    {
+      "chapter": 32,
+      "verse": 11,
+      "context": ""
+    },
+    {
+      "chapter": 33,
+      "verse": 10,
+      "context": ""
+    },
+    {
+      "chapter": 34,
+      "verse": 31,
+      "context": ""
+    },
+    {
+      "chapter": 35,
+      "verse": 2,
+      "context": ""
+    },
+    {
+      "chapter": 36,
+      "verse": 31,
+      "context": ""
+    },
+    {
+      "chapter": 37,
+      "verse": 32,
+      "context": ""
+    },
+    {
+      "chapter": 38,
+      "verse": 26,
+      "context": ""
+    },
+    {
+      "chapter": 39,
+      "verse": 17,
+      "context": ""
+    },
+    {
+      "chapter": 40,
+      "verse": 14,
+      "context": ""
+    },
+    {
+      "chapter": 41,
+      "verse": 36,
+      "context": ""
+    },
+    {
+      "chapter": 42,
+      "verse": 21,
+      "context": ""
+    },
+    {
+      "chapter": 43,
+      "verse": 9,
+      "context": ""
+    },
+    {
+      "chapter": 44,
+      "verse": 33,
+      "context": ""
+    },
+    {
+      "chapter": 45,
+      "verse": 5,
+      "context": ""
+    },
+    {
+      "chapter": 46,
+      "verse": 34,
+      "context": ""
+    },
+    {
+      "chapter": 47,
+      "verse": 23,
+      "context": ""
+    },
+    {
+      "chapter": 48,
+      "verse": 19,
+      "context": ""
+    },
+    {
+      "chapter": 49,
+      "verse": 7,
+      "context": ""
+    },
+    {
+      "chapter": 50,
+      "verse": 19,
+      "context": ""
+    }
+  ]
 }

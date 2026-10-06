@@ -3313,7 +3313,7 @@
       "chapter": 1,
       "title": "Hannah prays and dedicates Samuel",
       "summary": "Hannah endures Peninnah’s provocation, prays at Shiloh, and later brings Samuel to serve there.",
-      "meaning": "Hannah speaks from deep grief. She brings that grief to God in prayer.",
+      "meaning": "Eli first mistakes Hannah's silent prayer for drunkenness. Her explanation requires him to change his judgment. The book begins by exposing the limits of an established religious leader's perception.",
       "people": [
         "hannah",
         "peninnah",
@@ -3347,13 +3347,21 @@
         "ramah",
         "shiloh"
       ],
-      "routeEvidence": "The line connects named places in narrative order. It does not reconstruct an ancient road or every intervening movement."
+      "routeEvidence": "The line connects named places in narrative order. It does not reconstruct an ancient road or every intervening movement.",
+      "contextNote": {
+        "title": "A suffering woman's voice corrects a priest",
+        "text": "Eli first mistakes Hannah's silent prayer for drunkenness. Her explanation requires him to change his judgment. The book begins by exposing the limits of an established religious leader's perception.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
     },
     {
       "chapter": 2,
       "title": "Hannah’s song and the failure of Eli’s sons",
       "summary": "Hannah praises God. Hophni and Phinehas abuse their office. An unnamed messenger announces judgment against Eli’s household.",
-      "meaning": "Hannah sings about God helping poor and weak people. Eli's sons instead use power for themselves.",
+      "meaning": "Hannah's song celebrates reversals of status. Eli's sons use their position to take from worshipers. Their conduct gives the song's claims about power a concrete setting.",
       "people": [
         "hannah",
         "elkanah",
@@ -3384,13 +3392,21 @@
       "historicalNote": "The account concerns the rise of kingship. Exact event years and a complete sequence cannot be independently established here.",
       "mapNote": "Named localities and broad regions only. Camp, cave, household, and road positions remain uncertain.",
       "route": [],
-      "routeEvidence": "The line connects named places in narrative order. It does not reconstruct an ancient road or every intervening movement."
+      "routeEvidence": "The line connects named places in narrative order. It does not reconstruct an ancient road or every intervening movement.",
+      "contextNote": {
+        "title": "The household tests the meaning of sacred office",
+        "text": "Hannah's song celebrates reversals of status. Eli's sons use their position to take from worshipers. Their conduct gives the song's claims about power a concrete setting.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
     },
     {
       "chapter": 3,
       "title": "Samuel hears the call",
       "summary": "Samuel repeatedly mistakes the call for Eli’s voice. Eli guides his response, and Samuel receives a difficult message.",
-      "meaning": "Samuel learns to listen and speak a hard message. Eli must hear judgment against his family.",
+      "meaning": "Eli helps Samuel recognize the voice but must also hear its judgment. Samuel's first message threatens the household that raised him. The relationship joins dependence, teaching, and the duty to speak plainly.",
       "people": [
         "samuel",
         "eli"
@@ -3415,13 +3431,21 @@
       "historicalNote": "The account concerns the rise of kingship. Exact event years and a complete sequence cannot be independently established here.",
       "mapNote": "Named localities and broad regions only. Camp, cave, household, and road positions remain uncertain.",
       "route": [],
-      "routeEvidence": "The line connects named places in narrative order. It does not reconstruct an ancient road or every intervening movement."
+      "routeEvidence": "The line connects named places in narrative order. It does not reconstruct an ancient road or every intervening movement.",
+      "contextNote": {
+        "title": "Receiving a call includes speaking difficult words",
+        "text": "Eli helps Samuel recognize the voice but must also hear its judgment. Samuel's first message threatens the household that raised him. The relationship joins dependence, teaching, and the duty to speak plainly.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
     },
     {
       "chapter": 4,
       "title": "The ark is captured and Eli’s household suffers loss",
       "summary": "Israel brings the ark from Shiloh into battle. The Philistines capture it. Eli and his sons die, and Ichabod is born.",
-      "meaning": "The losses affect a whole household. Ichabod’s unnamed mother expresses the catastrophe while dying after childbirth.",
+      "meaning": "The leaders bring the ark after defeat, hoping it will save them. Its capture interrupts that expectation. The account separates God's presence from the people's ability to control a battle.",
       "people": [
         "eli",
         "hophni",
@@ -3454,13 +3478,21 @@
         "shiloh",
         "ebenezer-battle"
       ],
-      "routeEvidence": "The line connects named places in narrative order. It does not reconstruct an ancient road or every intervening movement."
+      "routeEvidence": "The line connects named places in narrative order. It does not reconstruct an ancient road or every intervening movement.",
+      "contextNote": {
+        "title": "A sacred object cannot secure a chosen outcome",
+        "text": "The leaders bring the ark after defeat, hoping it will save them. Its capture interrupts that expectation. The account separates God's presence from the people's ability to control a battle.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
     },
     {
       "chapter": 5,
       "title": "The ark among the Philistine towns",
       "summary": "The ark is placed beside Dagon at Ashdod. Distress follows its movement to Gath and Ekron.",
-      "meaning": "The Philistines capture the ark but cannot control God. Their idol falls, and their towns suffer.",
+      "meaning": "The captured ark appears to be a trophy at first. Dagon's collapse reverses the apparent relationship between conqueror and captive. The Philistine towns must interpret events they cannot control.",
       "people": [],
       "places": [
         "ashdod",
@@ -3487,13 +3519,21 @@
         "gath",
         "ekron"
       ],
-      "routeEvidence": "The line connects named places in narrative order. It does not reconstruct an ancient road or every intervening movement."
+      "routeEvidence": "The line connects named places in narrative order. It does not reconstruct an ancient road or every intervening movement.",
+      "contextNote": {
+        "title": "Power is questioned outside Israel's territory",
+        "text": "The captured ark appears to be a trophy at first. Dagon's collapse reverses the apparent relationship between conqueror and captive. The Philistine towns must interpret events they cannot control.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
     },
     {
       "chapter": 6,
       "title": "The ark returns to Beth Shemesh",
       "summary": "The Philistines send offerings with the ark on a cart. It reaches Beth Shemesh, where rejoicing gives way to mourning.",
-      "meaning": "The people of Beth Shemesh welcome the ark. Joy turns to fear after people die.",
+      "meaning": "The Philistines describe how the cart's direction will distinguish possible explanations. Their uncertainty belongs inside the account. Sending the ark away is both an offering and an attempt to understand the distress.",
       "people": [
         "joshua-beth-shemesh"
       ],
@@ -3521,13 +3561,21 @@
         "ekron",
         "beth-shemesh"
       ],
-      "routeEvidence": "The line connects named places in narrative order. It does not reconstruct an ancient road or every intervening movement."
+      "routeEvidence": "The line connects named places in narrative order. It does not reconstruct an ancient road or every intervening movement.",
+      "contextNote": {
+        "title": "The return includes a stated test of cause",
+        "text": "The Philistines describe how the cart's direction will distinguish possible explanations. Their uncertainty belongs inside the account. Sending the ark away is both an offering and an attempt to understand the distress.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
     },
     {
       "chapter": 7,
       "title": "Samuel leads the gathering at Mizpah",
       "summary": "The ark stays with Abinadab’s household. Samuel calls Israel to renewed worship and leads the gathering at Mizpah.",
-      "meaning": "The memorial stone marks received help. Samuel’s circuit combines worship, leadership, and judgment.",
+      "meaning": "Samuel places a stone and explains its name through received help. The object points backward to an event and forward to continued memory. This scene contrasts with treating the ark as a guarantee of victory.",
       "people": [
         "samuel",
         "abinadab-ark",
@@ -3562,13 +3610,21 @@
         "mizpah",
         "ramah"
       ],
-      "routeEvidence": "The line connects named places in narrative order. It does not reconstruct an ancient road or every intervening movement."
+      "routeEvidence": "The line connects named places in narrative order. It does not reconstruct an ancient road or every intervening movement.",
+      "contextNote": {
+        "title": "A victory becomes a named act of remembrance",
+        "text": "Samuel places a stone and explains its name through received help. The object points backward to an event and forward to continued memory. This scene contrasts with treating the ark as a guarantee of victory.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
     },
     {
       "chapter": 8,
       "title": "The people request a king",
       "summary": "Samuel’s sons take bribes. Israel’s elders ask for a king. Samuel warns that kings take people, land, and goods.",
-      "meaning": "The demand responds to real leadership failures. The warning asks readers to consider the costs of concentrated power.",
+      "meaning": "Samuel repeats what the king will take from households. Sons, daughters, fields, and animals all enter royal service. The people seek security through an institution that can also burden them. The warning does not disappear when a king is chosen. Read later royal success beside these costs.",
       "people": [
         "samuel",
         "joel-samuel",
@@ -3596,13 +3652,21 @@
       "historicalNote": "The account concerns the rise of kingship. Exact event years and a complete sequence cannot be independently established here.",
       "mapNote": "Named localities and broad regions only. Camp, cave, household, and road positions remain uncertain.",
       "route": [],
-      "routeEvidence": "The line connects named places in narrative order. It does not reconstruct an ancient road or every intervening movement."
+      "routeEvidence": "The line connects named places in narrative order. It does not reconstruct an ancient road or every intervening movement.",
+      "contextNote": {
+        "title": "A king can take what a people needs",
+        "text": "Samuel repeats what the king will take from households. Sons, daughters, fields, and animals all enter royal service. The people seek security through an institution that can also burden them. The warning does not disappear when a king is chosen. Read later royal success beside these costs.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
     },
     {
       "chapter": 9,
       "title": "Saul searches for donkeys and meets Samuel",
       "summary": "Kish sends Saul with a servant to find missing donkeys. Their search brings them to Samuel.",
-      "meaning": "Saul sets out to find lost donkeys. The search brings him to Samuel and a new task.",
+      "meaning": "Saul's search appears to concern lost animals. The servant's advice takes him toward Samuel and a larger role. A person of lower household rank supplies the decisive practical suggestion.",
       "people": [
         "saul",
         "kish",
@@ -3629,13 +3693,21 @@
       "historicalNote": "The account concerns the rise of kingship. Exact event years and a complete sequence cannot be independently established here.",
       "mapNote": "Named localities and broad regions only. Camp, cave, household, and road positions remain uncertain.",
       "route": [],
-      "routeEvidence": "The line connects named places in narrative order. It does not reconstruct an ancient road or every intervening movement."
+      "routeEvidence": "The line connects named places in narrative order. It does not reconstruct an ancient road or every intervening movement.",
+      "contextNote": {
+        "title": "A servant opens the way to royal appointment",
+        "text": "Saul's search appears to concern lost animals. The servant's advice takes him toward Samuel and a larger role. A person of lower household rank supplies the decisive practical suggestion.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
     },
     {
       "chapter": 10,
       "title": "Saul is anointed and presented publicly",
       "summary": "Samuel anoints Saul privately. Later, Saul is selected before the gathering at Mizpah and found among the baggage.",
-      "meaning": "Private anointing and public selection are distinct scenes. Hayes studies their place among differing presentations of kingship.",
+      "meaning": "Saul hides among the baggage when the assembly seeks him. His appointment also meets open criticism. The account gives the new king both recognition and a difficult beginning.",
       "people": [
         "samuel",
         "saul",
@@ -3663,13 +3735,21 @@
       "historicalNote": "The account concerns the rise of kingship. Exact event years and a complete sequence cannot be independently established here.",
       "mapNote": "Named localities and broad regions only. Camp, cave, household, and road positions remain uncertain.",
       "route": [],
-      "routeEvidence": "The line connects named places in narrative order. It does not reconstruct an ancient road or every intervening movement."
+      "routeEvidence": "The line connects named places in narrative order. It does not reconstruct an ancient road or every intervening movement.",
+      "contextNote": {
+        "title": "Public selection does not erase uncertainty",
+        "text": "Saul hides among the baggage when the assembly seeks him. His appointment also meets open criticism. The account gives the new king both recognition and a difficult beginning.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
     },
     {
       "chapter": 11,
       "title": "Saul relieves Jabesh Gilead",
       "summary": "Nahash threatens the people of Jabesh Gilead. Saul gathers help, wins the battle, and refuses to execute earlier opponents.",
-      "meaning": "Saul rescues Jabesh Gilead. He then stops supporters from killing people who had opposed him.",
+      "meaning": "Some supporters want earlier opponents killed after the rescue. Saul refuses that demand. His first public success includes a limit on violence within the people he now leads.",
       "people": [
         "saul",
         "samuel",
@@ -3700,13 +3780,21 @@
         "jabesh-gilead",
         "gilgal"
       ],
-      "routeEvidence": "The line connects named places in narrative order. It does not reconstruct an ancient road or every intervening movement."
+      "routeEvidence": "The line connects named places in narrative order. It does not reconstruct an ancient road or every intervening movement.",
+      "contextNote": {
+        "title": "Victory gives Saul a chance to restrain revenge",
+        "text": "Some supporters want earlier opponents killed after the rescue. Saul refuses that demand. His first public success includes a limit on violence within the people he now leads.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
     },
     {
       "chapter": 12,
       "title": "Samuel reviews leadership and covenant responsibility",
       "summary": "Samuel asks the people to assess his conduct. He recalls earlier deliverers and warns both people and king to remain faithful.",
-      "meaning": "Israel now has a king. Both king and people must still listen to God.",
+      "meaning": "Samuel asks whether he has taken property or accepted bribes. This review contrasts with his earlier warning about royal taking. Both the new king and the people remain subject to covenant duties.",
       "people": [
         "samuel",
         "saul",
@@ -3735,13 +3823,21 @@
       "historicalNote": "The account concerns the rise of kingship. Exact event years and a complete sequence cannot be independently established here.",
       "mapNote": "Named localities and broad regions only. Camp, cave, household, and road positions remain uncertain.",
       "route": [],
-      "routeEvidence": "The line connects named places in narrative order. It does not reconstruct an ancient road or every intervening movement."
+      "routeEvidence": "The line connects named places in narrative order. It does not reconstruct an ancient road or every intervening movement.",
+      "contextNote": {
+        "title": "The outgoing leader invites public examination",
+        "text": "Samuel asks whether he has taken property or accepted bribes. This review contrasts with his earlier warning about royal taking. Both the new king and the people remain subject to covenant duties.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
     },
     {
       "chapter": 13,
       "title": "Pressure at Michmash and Saul’s offering",
       "summary": "Jonathan attacks a Philistine post. Saul’s men begin to leave. Saul offers a sacrifice before Samuel arrives. Samuel rejects his family’s lasting rule.",
-      "meaning": "Saul acts because he fears losing his army. Samuel says he has not kept God’s command.",
+      "meaning": "Saul explains his act through departing soldiers and Samuel's delay. Samuel judges it through the command Saul received. The dispute concerns who may decide that circumstances permit a changed duty.",
       "people": [
         "saul",
         "samuel",
@@ -3771,13 +3867,21 @@
       "historicalNote": "The account concerns the rise of kingship. Exact event years and a complete sequence cannot be independently established here.",
       "mapNote": "Named localities and broad regions only. Camp, cave, household, and road positions remain uncertain.",
       "route": [],
-      "routeEvidence": "The line connects named places in narrative order. It does not reconstruct an ancient road or every intervening movement."
+      "routeEvidence": "The line connects named places in narrative order. It does not reconstruct an ancient road or every intervening movement.",
+      "contextNote": {
+        "title": "Pressure reveals competing accounts of responsibility",
+        "text": "Saul explains his act through departing soldiers and Samuel's delay. Samuel judges it through the command Saul received. The dispute concerns who may decide that circumstances permit a changed duty.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
     },
     {
       "chapter": 14,
       "title": "Jonathan’s attack and Saul’s dangerous oath",
       "summary": "Jonathan and his armor bearer attack a garrison. Saul’s food prohibition places Jonathan under sentence of death, but the people rescue him.",
-      "meaning": "Saul's oath nearly costs Jonathan his life. The soldiers protect the man who helped them win.",
+      "meaning": "Saul's oath places Jonathan at risk despite his military service. The people refuse to let him die. Their intervention distinguishes the king's declared rule from a judgment the community will accept.",
       "people": [
         "saul",
         "jonathan-saul",
@@ -3809,13 +3913,21 @@
       "historicalNote": "The account concerns the rise of kingship. Exact event years and a complete sequence cannot be independently established here.",
       "mapNote": "Named localities and broad regions only. Camp, cave, household, and road positions remain uncertain.",
       "route": [],
-      "routeEvidence": "The line connects named places in narrative order. It does not reconstruct an ancient road or every intervening movement."
+      "routeEvidence": "The line connects named places in narrative order. It does not reconstruct an ancient road or every intervening movement.",
+      "contextNote": {
+        "title": "The people challenge a royal sentence",
+        "text": "Saul's oath places Jonathan at risk despite his military service. The people refuse to let him die. Their intervention distinguishes the king's declared rule from a judgment the community will accept.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
     },
     {
       "chapter": 15,
       "title": "Amalek, Agag, and Saul’s rejection",
       "summary": "Saul attacks Amalek but spares Agag and selected livestock. Samuel rejects Saul’s defense and later kills Agag.",
-      "meaning": "Saul spares Agag and valuable animals. Samuel challenges his claim of obedience. The order also calls for killing children.",
+      "meaning": "Saul explains the preserved animals as intended offerings. Samuel challenges obedience expressed through a changed command. Read their disagreement beside the chapter's disturbing demand for destruction.",
       "people": [
         "saul",
         "samuel",
@@ -3842,13 +3954,21 @@
       "historicalNote": "The account concerns the rise of kingship. Exact event years and a complete sequence cannot be independently established here.",
       "mapNote": "Named localities and broad regions only. Camp, cave, household, and road positions remain uncertain.",
       "route": [],
-      "routeEvidence": "The line connects named places in narrative order. It does not reconstruct an ancient road or every intervening movement."
+      "routeEvidence": "The line connects named places in narrative order. It does not reconstruct an ancient road or every intervening movement.",
+      "contextNote": {
+        "title": "Claiming a sacred purpose does not end the dispute",
+        "text": "Saul explains the preserved animals as intended offerings. Samuel challenges obedience expressed through a changed command. Read their disagreement beside the chapter's disturbing demand for destruction.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
     },
     {
       "chapter": 16,
       "title": "David is anointed and enters Saul’s service",
       "summary": "Samuel anoints Jesse’s youngest son David. David later plays music for Saul and serves in his household.",
-      "meaning": "God tells Samuel to look beyond a person's size. David later helps Saul through music.",
+      "meaning": "David enters Saul’s service through skill with music. His first task concerns the king’s distress, not public battle. That role brings him close to royal power before Goliath’s defeat. Music here is work, care, and a route into the household. Later conflict changes what that closeness means.",
       "people": [
         "samuel",
         "jesse",
@@ -3867,7 +3987,8 @@
         "web",
         "atlas-canaan",
         "yale-samuel",
-        "wiki-1-samuel"
+        "wiki-1-samuel",
+        "met-555866"
       ],
       "lds": {
         "text": "The Church lesson asks readers to consider a person's heart instead of outward appearance.",
@@ -3884,13 +4005,23 @@
         "ramah",
         "bethlehem"
       ],
-      "routeEvidence": "The line connects named places in narrative order. It does not reconstruct an ancient road or every intervening movement."
+      "routeEvidence": "The line connects named places in narrative order. It does not reconstruct an ancient road or every intervening movement.",
+      "contextNote": {
+        "title": "Music belongs inside the court",
+        "text": "David enters Saul’s service through skill with music. His first task concerns the king’s distress, not public battle. That role brings him close to royal power before Goliath’s defeat. Music here is work, care, and a route into the household. Later conflict changes what that closeness means.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": [
+          "met-555866"
+        ]
+      }
     },
     {
       "chapter": 17,
       "title": "David faces Goliath in the Valley of Elah",
       "summary": "David brings food to his brothers. He accepts Goliath’s challenge and strikes him with a sling. He then uses Goliath’s sword.",
-      "meaning": "David trusts God and uses skills learned as a shepherd. He faces a soldier others fear.",
+      "meaning": "David declines Saul's armor because he has not tested it. His account of tending sheep supplies another kind of experience. The confrontation contrasts royal equipment with skill formed outside the court.",
       "people": [
         "david",
         "goliath",
@@ -3927,13 +4058,21 @@
         "bethlehem",
         "elah"
       ],
-      "routeEvidence": "The line connects named places in narrative order. It does not reconstruct an ancient road or every intervening movement."
+      "routeEvidence": "The line connects named places in narrative order. It does not reconstruct an ancient road or every intervening movement.",
+      "contextNote": {
+        "title": "The chosen tools change the contest",
+        "text": "David declines Saul's armor because he has not tested it. His account of tending sheep supplies another kind of experience. The confrontation contrasts royal equipment with skill formed outside the court.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
     },
     {
       "chapter": 18,
       "title": "Friendship, jealousy, and royal marriage plans",
       "summary": "Jonathan forms a bond with David. Saul grows jealous, offers Merab, then arranges David’s marriage to Michal through a deadly demand.",
-      "meaning": "Friendship contrasts with treating a person as a threat. The women’s marriages also serve Saul’s political plans.",
+      "meaning": "The victory song compares Saul and David in numbered successes. Saul hears that comparison as a danger to his throne. Praise becomes part of the conflict rather than simple celebration.",
       "people": [
         "david",
         "jonathan-saul",
@@ -3962,13 +4101,21 @@
       "historicalNote": "The account concerns the rise of kingship. Exact event years and a complete sequence cannot be independently established here.",
       "mapNote": "Named localities and broad regions only. Camp, cave, household, and road positions remain uncertain.",
       "route": [],
-      "routeEvidence": "The line connects named places in narrative order. It does not reconstruct an ancient road or every intervening movement."
+      "routeEvidence": "The line connects named places in narrative order. It does not reconstruct an ancient road or every intervening movement.",
+      "contextNote": {
+        "title": "Public praise turns achievement into a royal threat",
+        "text": "The victory song compares Saul and David in numbered successes. Saul hears that comparison as a danger to his throne. Praise becomes part of the conflict rather than simple celebration.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
     },
     {
       "chapter": 19,
       "title": "Michal helps David escape",
       "summary": "Saul resumes attempts to kill David. Michal helps David through a window. David joins Samuel at Ramah, where pursuit is interrupted.",
-      "meaning": "Michal takes action in danger. A household idol appears in her deception, complicating a simple picture of household religion.",
+      "meaning": "Michal's aid places household loyalty in conflict with royal demands. Saul's question exposes his expectation that she should assist him. David's safety depends on someone inside the king's own family.",
       "people": [
         "saul",
         "david",
@@ -3998,13 +4145,21 @@
         "gibeah",
         "ramah"
       ],
-      "routeEvidence": "The line connects named places in narrative order. It does not reconstruct an ancient road or every intervening movement."
+      "routeEvidence": "The line connects named places in narrative order. It does not reconstruct an ancient road or every intervening movement.",
+      "contextNote": {
+        "title": "A daughter acts against her father's violence",
+        "text": "Michal's aid places household loyalty in conflict with royal demands. Saul's question exposes his expectation that she should assist him. David's safety depends on someone inside the king's own family.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
     },
     {
       "chapter": 20,
       "title": "Jonathan warns David and renews their covenant",
       "summary": "Jonathan tests Saul’s intent at the new-moon meal. He signals danger with arrows and parts from David in grief.",
-      "meaning": "Their promise extends beyond immediate friendship to their households. Saul’s attack also puts Jonathan at risk.",
+      "meaning": "Saul tells Jonathan that David threatens his future kingship. Jonathan still asks what wrong David has done. His question puts justice and friendship against his father's claim about family advantage.",
       "people": [
         "david",
         "jonathan-saul",
@@ -4029,13 +4184,21 @@
       "historicalNote": "The account concerns the rise of kingship. Exact event years and a complete sequence cannot be independently established here.",
       "mapNote": "Named localities and broad regions only. Camp, cave, household, and road positions remain uncertain.",
       "route": [],
-      "routeEvidence": "The line connects named places in narrative order. It does not reconstruct an ancient road or every intervening movement."
+      "routeEvidence": "The line connects named places in narrative order. It does not reconstruct an ancient road or every intervening movement.",
+      "contextNote": {
+        "title": "Succession makes friendship politically costly",
+        "text": "Saul tells Jonathan that David threatens his future kingship. Jonathan still asks what wrong David has done. His question puts justice and friendship against his father's claim about family advantage.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
     },
     {
       "chapter": 21,
       "title": "David seeks food at Nob and refuge at Gath",
       "summary": "Ahimelech gives David consecrated bread and Goliath’s sword. Doeg observes him. David then escapes danger at Achish’s court.",
-      "meaning": "David’s misleading claim about a royal mission places others in danger. Need, survival, and responsibility all matter.",
+      "meaning": "Ahimelech gives bread normally kept for sacred use. His questions still attach conditions to that decision. The scene places immediate hunger beside established religious practice.",
       "people": [
         "david",
         "ahimelech-priest",
@@ -4066,13 +4229,21 @@
         "nob",
         "gath"
       ],
-      "routeEvidence": "The line connects named places in narrative order. It does not reconstruct an ancient road or every intervening movement."
+      "routeEvidence": "The line connects named places in narrative order. It does not reconstruct an ancient road or every intervening movement.",
+      "contextNote": {
+        "title": "Need tests the use of sacred food",
+        "text": "Ahimelech gives bread normally kept for sacred use. His questions still attach conditions to that decision. The scene places immediate hunger beside established religious practice.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
     },
     {
       "chapter": 22,
       "title": "David gathers followers and Saul orders the Nob massacre",
       "summary": "David gathers distressed followers and seeks safety for his parents. Saul orders the priests’ deaths. Doeg carries out the killing, and Abiathar escapes.",
-      "meaning": "The guards refuse the order, but Doeg acts. The massacre includes children. David acknowledges responsibility for danger to Abiathar’s family.",
+      "meaning": "Saul's servants refuse to kill the priests. Doeg then performs the act they rejected. The account separates receiving an order from accepting responsibility for the act.",
       "people": [
         "david",
         "jesse",
@@ -4106,13 +4277,21 @@
         "adullam",
         "moab"
       ],
-      "routeEvidence": "The line connects named places in narrative order. It does not reconstruct an ancient road or every intervening movement."
+      "routeEvidence": "The line connects named places in narrative order. It does not reconstruct an ancient road or every intervening movement.",
+      "contextNote": {
+        "title": "Royal command does not make every action acceptable",
+        "text": "Saul's servants refuse to kill the priests. Doeg then performs the act they rejected. The account separates receiving an order from accepting responsibility for the act.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
     },
     {
       "chapter": 23,
       "title": "Keilah, wilderness pursuit, and Jonathan’s support",
       "summary": "David rescues Keilah, leaves after consulting God, and meets Jonathan during Saul’s pursuit. A Philistine attack interrupts the chase.",
-      "meaning": "David seeks God's guidance as danger changes. Jonathan visits him and strengthens his trust.",
+      "meaning": "David saves Keilah but learns its leaders may surrender him. The city's vulnerability complicates repayment through loyalty. Military service and secure refuge remain different things.",
       "people": [
         "david",
         "abiathar",
@@ -4143,13 +4322,21 @@
         "ziph",
         "maon"
       ],
-      "routeEvidence": "The line connects named places in narrative order. It does not reconstruct an ancient road or every intervening movement."
+      "routeEvidence": "The line connects named places in narrative order. It does not reconstruct an ancient road or every intervening movement.",
+      "contextNote": {
+        "title": "Rescue does not guarantee political loyalty",
+        "text": "David saves Keilah but learns its leaders may surrender him. The city's vulnerability complicates repayment through loyalty. Military service and secure refuge remain different things.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
     },
     {
       "chapter": 24,
       "title": "David spares Saul in the cave",
       "summary": "David cuts part of Saul’s robe but refuses to kill him. Afterward he speaks openly, and Saul acknowledges David’s future.",
-      "meaning": "David spares Saul but keeps his distance. His restraint does not end Saul's pursuit.",
+      "meaning": "David uses the cut robe to show he could have killed Saul. The object supports his words more directly than a claim alone. His appeal asks Saul to judge conduct rather than fear.",
       "people": [
         "david",
         "saul"
@@ -4174,13 +4361,21 @@
       "historicalNote": "The account concerns the rise of kingship. Exact event years and a complete sequence cannot be independently established here.",
       "mapNote": "Named localities and broad regions only. Camp, cave, household, and road positions remain uncertain.",
       "route": [],
-      "routeEvidence": "The line connects named places in narrative order. It does not reconstruct an ancient road or every intervening movement."
+      "routeEvidence": "The line connects named places in narrative order. It does not reconstruct an ancient road or every intervening movement.",
+      "contextNote": {
+        "title": "Restraint supplies evidence against an accusation",
+        "text": "David uses the cut robe to show he could have killed Saul. The object supports his words more directly than a claim alone. His appeal asks Saul to judge conduct rather than fear.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
     },
     {
       "chapter": 25,
       "title": "Abigail prevents David’s revenge",
       "summary": "After Nabal refuses assistance, David prepares an attack. Abigail brings provisions and persuades him to stop. After Nabal dies, she marries David.",
-      "meaning": "Abigail stops David from killing Nabal’s household. David accepts her correction and thanks God for her help.",
+      "meaning": "Abigail intervenes while David prepares to kill the household's men. She speaks about his future and the burden of bloodshed. Her judgment protects people from a leader’s anger. David’s thanks does not make the original threat harmless. The account tests leadership through restraint, not only victory.",
       "people": [
         "david",
         "samuel",
@@ -4211,13 +4406,21 @@
       "historicalNote": "The account concerns the rise of kingship. Exact event years and a complete sequence cannot be independently established here.",
       "mapNote": "Named localities and broad regions only. Camp, cave, household, and road positions remain uncertain.",
       "route": [],
-      "routeEvidence": "The line connects named places in narrative order. It does not reconstruct an ancient road or every intervening movement."
+      "routeEvidence": "The line connects named places in narrative order. It does not reconstruct an ancient road or every intervening movement.",
+      "contextNote": {
+        "title": "Wisdom stops violence before it gains praise",
+        "text": "Abigail intervenes while David prepares to kill the household's men. She speaks about his future and the burden of bloodshed. Her judgment protects people from a leader’s anger. David’s thanks does not make the original threat harmless. The account tests leadership through restraint, not only victory.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
     },
     {
       "chapter": 26,
       "title": "David takes the spear and water jar",
       "summary": "David and Abishai enter Saul’s camp. David again refuses to kill Saul, then confronts Abner about the failure to protect him.",
-      "meaning": "David again has a chance to kill Saul. He takes Saul’s spear and water jug instead.",
+      "meaning": "David again rejects killing Saul, then exposes the guards' failure. The spear and jar make his access visible. His restraint stands beside the court's inability to protect its own king.",
       "people": [
         "david",
         "saul",
@@ -4245,13 +4448,21 @@
       "historicalNote": "The account concerns the rise of kingship. Exact event years and a complete sequence cannot be independently established here.",
       "mapNote": "Named localities and broad regions only. Camp, cave, household, and road positions remain uncertain.",
       "route": [],
-      "routeEvidence": "The line connects named places in narrative order. It does not reconstruct an ancient road or every intervening movement."
+      "routeEvidence": "The line connects named places in narrative order. It does not reconstruct an ancient road or every intervening movement.",
+      "contextNote": {
+        "title": "A second refusal also questions royal protection",
+        "text": "David again rejects killing Saul, then exposes the guards' failure. The spear and jar make his access visible. His restraint stands beside the court's inability to protect its own king.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
     },
     {
       "chapter": 27,
       "title": "David lives under Achish and conceals his raids",
       "summary": "David moves with his household and followers into Philistine territory. Achish grants Ziklag. David raids other populations and misleads Achish.",
-      "meaning": "Achish trusts David's false reports. People in the raided towns pay for David's secret.",
+      "meaning": "David preserves Achish's trust through misleading reports of his raids. Killing potential witnesses protects that deception. The account complicates the fugitive's survival by showing who bears its cost.",
       "people": [
         "david",
         "achish",
@@ -4280,13 +4491,21 @@
         "gath",
         "ziklag"
       ],
-      "routeEvidence": "The line connects named places in narrative order. It does not reconstruct an ancient road or every intervening movement."
+      "routeEvidence": "The line connects named places in narrative order. It does not reconstruct an ancient road or every intervening movement.",
+      "contextNote": {
+        "title": "Safety under a patron depends on concealed violence",
+        "text": "David preserves Achish's trust through misleading reports of his raids. Killing potential witnesses protects that deception. The account complicates the fugitive's survival by showing who bears its cost.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
     },
     {
       "chapter": 28,
       "title": "Saul consults the woman at Endor",
       "summary": "Saul seeks help from a woman who calls on the dead. The chapter names Samuel as the speaker who warns him of defeat.",
-      "meaning": "Fear drives Saul to a practice he had suppressed. The woman also gives food and care to the distressed king.",
+      "meaning": "The woman fears the ban Saul himself imposed. His request requires secrecy and an assurance of safety. The king's desperation makes him depend on a practice he publicly rejected.",
       "people": [
         "saul",
         "samuel",
@@ -4314,13 +4533,21 @@
       "historicalNote": "The account concerns the rise of kingship. Exact event years and a complete sequence cannot be independently established here.",
       "mapNote": "Named localities and broad regions only. Camp, cave, household, and road positions remain uncertain.",
       "route": [],
-      "routeEvidence": "The line connects named places in narrative order. It does not reconstruct an ancient road or every intervening movement."
+      "routeEvidence": "The line connects named places in narrative order. It does not reconstruct an ancient road or every intervening movement.",
+      "contextNote": {
+        "title": "Saul seeks help from someone his policy endangered",
+        "text": "The woman fears the ban Saul himself imposed. His request requires secrecy and an assurance of safety. The king's desperation makes him depend on a practice he publicly rejected.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
     },
     {
       "chapter": 29,
       "title": "Philistine leaders send David away",
       "summary": "Achish defends David, but the other leaders distrust him in battle against Israel. David and his men are sent back.",
-      "meaning": "Achish’s confidence conflicts with the other leaders’ concern. Readers also know about David’s earlier deception.",
+      "meaning": "Achish trusts David, but the other commanders fear a change of sides. Their objection removes David from fighting against Israel. The account resolves his conflicting loyalties through others' decision.",
       "people": [
         "david",
         "achish"
@@ -4348,13 +4575,21 @@
         "aphek",
         "ziklag"
       ],
-      "routeEvidence": "The line connects named places in narrative order. It does not reconstruct an ancient road or every intervening movement."
+      "routeEvidence": "The line connects named places in narrative order. It does not reconstruct an ancient road or every intervening movement.",
+      "contextNote": {
+        "title": "Suspicion prevents divided service in battle",
+        "text": "Achish trusts David, but the other commanders fear a change of sides. Their objection removes David from fighting against Israel. The account resolves his conflicting loyalties through others' decision.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
     },
     {
       "chapter": 30,
       "title": "David recovers the captives and shares the spoil",
       "summary": "David returns to burned Ziklag. An abandoned Egyptian servant guides the pursuit. David recovers the captives and gives equal shares to those guarding baggage.",
-      "meaning": "Care for a sick outsider makes the pursuit possible. David refuses to treat exhausted companions as worthless.",
+      "meaning": "Some fighters exclude men who remained with the supplies. David treats their different work as part of the same effort. The resulting rule changes victory from a private reward into shared provision.",
       "people": [
         "david",
         "abigail",
@@ -4382,13 +4617,21 @@
         "ziklag",
         "besor"
       ],
-      "routeEvidence": "The line connects named places in narrative order. It does not reconstruct an ancient road or every intervening movement."
+      "routeEvidence": "The line connects named places in narrative order. It does not reconstruct an ancient road or every intervening movement.",
+      "contextNote": {
+        "title": "Recovery creates a dispute about who deserves a share",
+        "text": "Some fighters exclude men who remained with the supplies. David treats their different work as part of the same effort. The resulting rule changes victory from a private reward into shared provision.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
     },
     {
       "chapter": 31,
       "title": "Saul and his sons die at Gilboa",
       "summary": "The Philistines defeat Israel. Jonathan and two brothers die. Saul falls on his sword, and the people of Jabesh Gilead recover the bodies.",
-      "meaning": "The ending records loss and dignity after defeat. The people who once received Saul’s help now honor his household.",
+      "meaning": "Jabesh Gilead retrieves the bodies after Saul's defeat. Its action recalls Saul's rescue of that town in chapter 11. The ending preserves gratitude after royal power and military success have ended.",
       "people": [
         "saul",
         "jonathan-saul",
@@ -4420,7 +4663,15 @@
         "beth-shan",
         "jabesh-gilead"
       ],
-      "routeEvidence": "The line connects named places in narrative order. It does not reconstruct an ancient road or every intervening movement."
+      "routeEvidence": "The line connects named places in narrative order. It does not reconstruct an ancient road or every intervening movement.",
+      "contextNote": {
+        "title": "An earlier rescue returns as care for the dead",
+        "text": "Jabesh Gilead retrieves the bodies after Saul's defeat. Its action recalls Saul's rescue of that town in chapter 11. The ending preserves gratitude after royal power and military success have ended.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
     }
   ],
   "people": [
@@ -6067,6 +6318,45 @@
         16,
         31
       ]
+    },
+    {
+      "id": "met-555866",
+      "title": "Harp",
+      "url": "https://www.metmuseum.org/art/collection/search/555866",
+      "author": "The Metropolitan Museum of Art",
+      "category": "museum",
+      "perspective": "historical",
+      "summary": "This Egyptian harp preserves the wooden body of an ancient string instrument.",
+      "limits": "It is an Egyptian comparison, not David’s harp. Its surviving parts cannot establish the sound of biblical songs.",
+      "previewText": "This Egyptian harp preserves the wooden body of an ancient string instrument. It is an Egyptian comparison, not David’s harp. Its surviving parts cannot establish the sound of biblical songs.",
+      "image": {
+        "src": "assets/study-objects/met-555866.jpg",
+        "fullUrl": "https://images.metmuseum.org/CRDImages/eg/original/LC-25_3_306_EGDP026451.jpg",
+        "sourceUrl": "https://www.metmuseum.org/art/collection/search/555866",
+        "creditUrl": "https://www.metmuseum.org/art/collection/search/555866",
+        "credit": "The Metropolitan Museum of Art",
+        "license": "CC0 / Public domain",
+        "licenseUrl": "https://www.metmuseum.org/policies/image-resources",
+        "alt": "Harp",
+        "caption": "Harp · ca. 1580–1295 B.C. · The Met",
+        "width": 600,
+        "height": 480
+      },
+      "date": "ca. 1580–1295 B.C.",
+      "objectNumber": "25.3.306a, b",
+      "creditLine": "Rogers Fund, 1925",
+      "reviewed": {
+        "date": "2026-10-05",
+        "scope": "Museum object description, identity, date, and public-domain image metadata."
+      },
+      "access": "Public museum collection record and Open Access API",
+      "license": "CC0 / Public domain",
+      "chapterCoverage": [
+        16
+      ],
+      "imageChapters": [
+        16
+      ]
     }
   ],
   "review": {
@@ -6075,8 +6365,205 @@
     "nextBook": "2-samuel",
     "sourcePolicy": "BIBLE-SOURCE-POLICY.md",
     "sourceEnrichmentDate": "2026-10-05",
-    "copyReview": "2026-10-05: Reader copy reviewed against WRITING-GUIDE.md. Scripture and source titles preserved."
+    "copyReview": "2026-10-05: Reader copy reviewed against WRITING-GUIDE.md. Scripture and source titles preserved.",
+    "contextReview": {
+      "date": "2026-10-05",
+      "chapters": 31,
+      "scope": "Original close readings grounded in local World English Bible passages. Existing external source reviews remain separate."
+    }
   },
   "translation": "World English Bible",
-  "copyright": "Public domain"
+  "copyright": "Public domain",
+  "chapterStudies": [
+    {
+      "chapter": 1,
+      "verse": 16,
+      "context": ""
+    },
+    {
+      "chapter": 2,
+      "verse": 29,
+      "context": ""
+    },
+    {
+      "chapter": 3,
+      "verse": 18,
+      "context": ""
+    },
+    {
+      "chapter": 4,
+      "verse": 3,
+      "context": ""
+    },
+    {
+      "chapter": 5,
+      "verse": 7,
+      "context": ""
+    },
+    {
+      "chapter": 6,
+      "verse": 9,
+      "context": ""
+    },
+    {
+      "chapter": 7,
+      "verse": 12,
+      "context": ""
+    },
+    {
+      "chapter": 8,
+      "verse": 17,
+      "context": ""
+    },
+    {
+      "chapter": 9,
+      "verse": 6,
+      "context": ""
+    },
+    {
+      "chapter": 10,
+      "verse": 22,
+      "context": ""
+    },
+    {
+      "chapter": 11,
+      "verse": 13,
+      "context": ""
+    },
+    {
+      "chapter": 12,
+      "verse": 3,
+      "context": ""
+    },
+    {
+      "chapter": 13,
+      "verse": 11,
+      "context": ""
+    },
+    {
+      "chapter": 14,
+      "verse": 45,
+      "context": ""
+    },
+    {
+      "chapter": 15,
+      "verse": 21,
+      "context": ""
+    },
+    {
+      "chapter": 16,
+      "verse": 23,
+      "context": ""
+    },
+    {
+      "chapter": 17,
+      "verse": 38,
+      "context": ""
+    },
+    {
+      "chapter": 18,
+      "verse": 8,
+      "context": ""
+    },
+    {
+      "chapter": 19,
+      "verse": 17,
+      "context": ""
+    },
+    {
+      "chapter": 20,
+      "verse": 31,
+      "context": ""
+    },
+    {
+      "chapter": 21,
+      "verse": 6,
+      "context": ""
+    },
+    {
+      "chapter": 22,
+      "verse": 17,
+      "context": ""
+    },
+    {
+      "chapter": 23,
+      "verse": 12,
+      "context": ""
+    },
+    {
+      "chapter": 24,
+      "verse": 11,
+      "context": ""
+    },
+    {
+      "chapter": 25,
+      "verse": 33,
+      "context": ""
+    },
+    {
+      "chapter": 26,
+      "verse": 16,
+      "context": ""
+    },
+    {
+      "chapter": 27,
+      "verse": 11,
+      "context": ""
+    },
+    {
+      "chapter": 28,
+      "verse": 9,
+      "context": ""
+    },
+    {
+      "chapter": 29,
+      "verse": 4,
+      "context": ""
+    },
+    {
+      "chapter": 30,
+      "verse": 24,
+      "context": ""
+    },
+    {
+      "chapter": 31,
+      "verse": 12,
+      "context": ""
+    }
+  ],
+  "contextGuide": {
+    "id": "1-samuel-context",
+    "title": "1 Samuel: context and evidence",
+    "description": "Explore the book’s larger concerns through selected passages and relevant evidence.",
+    "steps": [
+      {
+        "title": "A king can take what a people needs",
+        "text": "Samuel repeats what the king will take from households. Sons, daughters, fields, and animals all enter royal service. The people seek security through an institution that can also burden them. The warning does not disappear when a king is chosen. Read later royal success beside these costs.",
+        "chapter": 8,
+        "verse": 17,
+        "sourceIds": [
+          "web"
+        ]
+      },
+      {
+        "title": "Music belongs inside the court",
+        "text": "David enters Saul’s service through skill with music. His first task concerns the king’s distress, not public battle. That role brings him close to royal power before Goliath’s defeat. Music here is work, care, and a route into the household. Later conflict changes what that closeness means.",
+        "chapter": 16,
+        "verse": 23,
+        "sourceIds": [
+          "web",
+          "met-555866"
+        ]
+      },
+      {
+        "title": "Wisdom stops violence before it gains praise",
+        "text": "Abigail intervenes while David prepares to kill the household's men. She speaks about his future and the burden of bloodshed. Her judgment protects people from a leader’s anger. David’s thanks does not make the original threat harmless. The account tests leadership through restraint, not only victory.",
+        "chapter": 25,
+        "verse": 33,
+        "sourceIds": [
+          "web"
+        ]
+      }
+    ]
+  }
 }

@@ -350,6 +350,123 @@
       "type": "LDS study manual",
       "limitations": "LDS teaching, not an archaeological reconstruction. Named place associations do not establish every construction detail.",
       "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "met-244562",
+      "title": "Bronze rod tripod",
+      "url": "https://www.metmuseum.org/art/collection/search/244562",
+      "author": "The Metropolitan Museum of Art",
+      "category": "museum",
+      "perspective": "historical",
+      "summary": "This Cypriot bronze stand supported a vessel. It shows skilled metalwork in the eastern Mediterranean.",
+      "limits": "Its form differs from the temple stands described in Kings. It is a comparison, not a temple reconstruction.",
+      "previewText": "This Cypriot bronze stand supported a vessel. It shows skilled metalwork in the eastern Mediterranean. Its form differs from the temple stands described in Kings. It is a comparison, not a temple reconstruction.",
+      "image": {
+        "src": "assets/study-objects/met-244562.jpg",
+        "fullUrl": "https://images.metmuseum.org/CRDImages/gr/original/DP257900.jpg",
+        "sourceUrl": "https://www.metmuseum.org/art/collection/search/244562",
+        "creditUrl": "https://www.metmuseum.org/art/collection/search/244562",
+        "credit": "The Metropolitan Museum of Art",
+        "license": "CC0 / Public domain",
+        "licenseUrl": "https://www.metmuseum.org/policies/image-resources",
+        "alt": "Bronze rod tripod",
+        "caption": "Bronze rod tripod · ca. 1250–1050 BCE · The Met",
+        "width": 457,
+        "height": 624
+      },
+      "date": "ca. 1250–1050 BCE",
+      "objectNumber": "74.51.5684",
+      "creditLine": "The Cesnola Collection, Purchased by subscription, 1874–76",
+      "reviewed": {
+        "date": "2026-10-05",
+        "scope": "Museum object description, identity, date, and public-domain image metadata."
+      },
+      "access": "Public museum collection record and Open Access API",
+      "license": "CC0 / Public domain",
+      "chapterCoverage": [
+        4
+      ],
+      "imageChapters": [
+        4
+      ],
+      "type": "museum",
+      "limitations": "Its form differs from the temple stands described in Kings. It is a comparison, not a temple reconstruction."
+    },
+    {
+      "id": "prism-taylor",
+      "group": "sennacherib-prism",
+      "title": "Sennacherib’s Prism — the Taylor Prism",
+      "author": "British Museum · museum number 91032",
+      "year": "691 BCE",
+      "type": "Primary evidence · museum record",
+      "url": "https://www.britishmuseum.org/collection/object/W_1855-1003-1",
+      "summary": "The Taylor Prism preserves an Assyrian royal account. The museum dates this object to 691 BCE. The campaign against Judah occurred in 701 BCE. The photograph shows two views of one object.",
+      "limitations": "The Taylor, Chicago, and Jerusalem prisms are separate objects. Their dates must not be used as the date of the campaign. The royal account promotes Sennacherib’s rule.",
+      "reviewed": "Checked September 29, 2026. Object identity and date checked in the museum’s indexed collection record. Direct access to the object page returned HTTP 403. Photograph and public-domain release checked on Wikimedia Commons.",
+      "license": "Museum record linked only. Photograph by David Castor, released into the public domain by its creator.",
+      "image": {
+        "src": "assets/taylor-prism.jpg",
+        "fullUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Taylor_Prism-3.jpg",
+        "alt": "Two views of the Taylor Prism with columns of cuneiform writing on clay.",
+        "caption": "Taylor Prism · two views of the same object, British Museum",
+        "credit": "Photographs and montage by David Castor",
+        "creditUrl": "https://commons.wikimedia.org/wiki/User:Dcastor",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Taylor_Prism-3.jpg",
+        "license": "Public domain · creator’s release",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Taylor_Prism-3.jpg#Licensing",
+        "width": 2670,
+        "height": 2208,
+        "linkLabel": "View full-size prism"
+      },
+      "previewText": "This clay prism presents Sennacherib’s account of his campaigns. Royal claims reflect the ruler’s viewpoint.",
+      "category": "Primary evidence · museum record",
+      "limits": "The Taylor, Chicago, and Jerusalem prisms are separate objects. Their dates must not be used as the date of the campaign. The royal account promotes Sennacherib’s rule.",
+      "perspective": "historical",
+      "chapterCoverage": [
+        32
+      ],
+      "imageChapters": [
+        32
+      ]
+    },
+    {
+      "id": "cyrus",
+      "title": "The Cyrus Cylinder",
+      "author": "British Museum · collection 1880,0617.1941",
+      "year": "539 BCE setting",
+      "type": "Primary evidence",
+      "url": "https://www.britishmuseum.org/collection/object/W_1880-0617-1941",
+      "summary": "Cyrus had this royal message written on clay. It tells how he took Babylon. It also says he gave holy places back to some people.",
+      "limitations": "The message does not name Judah. It does not say that people from Judah went home.",
+      "license": "Linked reading; original study guide summary, no article reproduction",
+      "image": {
+        "src": "assets/cyrus-cylinder.jpg",
+        "fullUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Cyrus_Cylinder_BM_ME90920.jpg",
+        "alt": "The clay Cyrus Cylinder covered with cuneiform writing.",
+        "caption": "Cyrus Cylinder · British Museum",
+        "width": 3300,
+        "height": 1650,
+        "linkLabel": "View full-size image",
+        "credit": "Photograph by Marie-Lan Nguyen / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/User:Jastrow",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cyrus_Cylinder_BM_ME90920.jpg",
+        "license": "CC BY 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.5/"
+      },
+      "previewText": "The cylinder presents Cyrus restoring worship after taking Babylon. It does not name Judah’s returning families.",
+      "category": "Primary evidence",
+      "limits": "The message does not name Judah. It does not say that people from Judah went home.",
+      "perspective": "historical",
+      "reviewed": {
+        "date": "2026-09-29",
+        "scope": "Existing Isaiah object and licensed photograph review. No new direct museum-page review claimed."
+      },
+      "chapterCoverage": [
+        36
+      ],
+      "imageChapters": [
+        36
+      ]
     }
   ],
   "passages": [
@@ -359,7 +476,7 @@
       "start": 1,
       "end": 17,
       "title": "Solomon seeks wisdom",
-      "summary": "Solomon seeks wisdom at Gibeon. The chapter also describes royal wealth, horses, and trade. Solomon asks for wisdom to lead the people. God grants wisdom and also gives him wealth.",
+      "summary": "Solomon seeks wisdom at Gibeon. The chapter also describes royal wealth, horses, and trade.",
       "year": null,
       "dateLabel": "Chapter order · reign and composition dates require comparison",
       "uncertainty": "Selected named towns and broad reference regions. Markers do not establish exact ancient roads or political boundaries.",
@@ -381,6 +498,14 @@
         "sourceIds": [
           "cfm-chronicles-context"
         ]
+      },
+      "contextNote": {
+        "title": "The opening connects rule with a need for judgment",
+        "text": "Solomon asks for wisdom to govern people rather than simply acquire goods. The following wealth description stands beside that request. Readers can assess abundance through the responsibility named first.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -389,7 +514,7 @@
       "start": 1,
       "end": 18,
       "title": "Temple workers and Tyrian cooperation",
-      "summary": "Solomon requests timber and skilled work from Huram. Foreign residents supply the labor force. Tyre sends wood and a skilled worker. Solomon also orders foreign residents into forced labor.",
+      "summary": "Solomon requests timber and skilled work from Huram. Foreign residents supply the labor force.",
       "year": null,
       "dateLabel": "Chapter order · reign and composition dates require comparison",
       "uncertainty": "Selected named towns and broad reference regions. Markers do not establish exact ancient roads or political boundaries.",
@@ -409,6 +534,14 @@
       "lds": {
         "text": "Whose skills and labor make the temple possible?",
         "sourceIds": []
+      },
+      "contextNote": {
+        "title": "A sacred building depends on workers outside the ruling household",
+        "text": "Solomon counts foreign residents and assigns them carrying, cutting, and supervision. Huram also supplies specialized skill. The temple account includes imposed labor as well as international cooperation.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -417,7 +550,7 @@
       "start": 1,
       "end": 17,
       "title": "The temple building",
-      "summary": "Solomon builds the temple at the site associated with David and Ornan. Rooms, decoration, and pillars receive detailed descriptions. The temple’s rooms and decorations set apart a place for worship. Gold and carved figures mark its inner spaces.",
+      "summary": "Solomon builds the temple at the site associated with David and Ornan. Rooms, decoration, and pillars receive detailed descriptions.",
       "year": null,
       "dateLabel": "Chapter order · reign and composition dates require comparison",
       "uncertainty": "Selected named towns and broad reference regions. Markers do not establish exact ancient roads or political boundaries.",
@@ -434,6 +567,14 @@
         "sourceIds": [
           "lds-2-chronicles"
         ]
+      },
+      "contextNote": {
+        "title": "The site connects the new building with an earlier crisis",
+        "text": "The temple stands where David prepared an altar after the plague. Its location therefore carries memory beyond architectural beauty. Solomon's work develops a place already marked by judgment and response.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -442,7 +583,7 @@
       "start": 1,
       "end": 22,
       "title": "Temple vessels and bronze work",
-      "summary": "Huram makes bronze vessels. Solomon provides the temple’s gold objects and furnishings. Skilled labor supports worship. The craft worker is distinct from Tyre’s king, despite their shared name.",
+      "summary": "Huram makes bronze vessels. Solomon provides the temple’s gold objects and furnishings.",
       "year": null,
       "dateLabel": "Chapter order · reign and composition dates require comparison",
       "uncertainty": "Selected named towns and broad reference regions. Markers do not establish exact ancient roads or political boundaries.",
@@ -453,11 +594,22 @@
       "sourceIds": [
         "web",
         "atlas-canaan",
-        "tuell-chronicles"
+        "tuell-chronicles",
+        "met-244562"
       ],
       "lds": {
         "text": "What different tasks do the temple’s vessels serve?",
         "sourceIds": []
+      },
+      "contextNote": {
+        "title": "Water and metal serve different tasks",
+        "text": "The account distinguishes water for priests from water for washing offerings. The crafted basins serve repeated work around the temple. Their size and placement make worship depend on planned spaces. Read the objects through their tasks, not only their beauty. Regional metalwork offers comparison without reconstructing these exact vessels.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": [
+          "met-244562"
+        ]
       }
     },
     {
@@ -466,7 +618,7 @@
       "start": 1,
       "end": 14,
       "title": "The ark enters the temple",
-      "summary": "Priests bring the ark into the inner sanctuary. Singers and trumpeters praise together, and a cloud fills the house. The ark holds the tablets of God’s agreement with Israel. Music and a cloud mark its arrival in the temple.",
+      "summary": "Priests bring the ark into the inner sanctuary. Singers and trumpeters praise together, and a cloud fills the house.",
       "year": null,
       "dateLabel": "Chapter order · reign and composition dates require comparison",
       "uncertainty": "Selected named towns and broad reference regions. Markers do not establish exact ancient roads or political boundaries.",
@@ -486,6 +638,14 @@
         "sourceIds": [
           "lds-2-chronicles"
         ]
+      },
+      "contextNote": {
+        "title": "Coordinated sound prepares the scene of shared worship",
+        "text": "Singers and trumpeters praise together rather than as separate displays. The cloud then prevents priests from continuing their normal service. Ordered human work leads into an encounter they cannot direct.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -494,7 +654,7 @@
       "start": 1,
       "end": 42,
       "title": "Solomon’s dedication prayer",
-      "summary": "Solomon blesses the assembly and prays for justice, forgiveness, foreigners, and people taken captive. The prayer says even heaven cannot contain God. It includes outsiders and anticipates responsibility beyond the building.",
+      "summary": "Solomon blesses the assembly and prays for justice, forgiveness, foreigners, and people taken captive.",
       "year": null,
       "dateLabel": "Chapter order · reign and composition dates require comparison",
       "uncertainty": "Selected named towns and broad reference regions. Markers do not establish exact ancient roads or political boundaries.",
@@ -510,6 +670,14 @@
       "lds": {
         "text": "Why does Solomon include foreigners in his prayer?",
         "sourceIds": []
+      },
+      "contextNote": {
+        "title": "The dedication includes people outside the covenant community",
+        "text": "Solomon asks that a foreigner's prayer be heard. He also imagines people praying from captivity. The temple's role reaches beyond those present at its first celebration.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -518,7 +686,7 @@
       "start": 1,
       "end": 22,
       "title": "Dedication and a conditional promise",
-      "summary": "The assembly celebrates the dedication. God’s response calls for humility and repentance and warns against abandoned commitments. God calls the people to humble themselves, pray, and turn from wrong. The promise also warns against abandoning him.",
+      "summary": "The assembly celebrates the dedication. God’s response calls for humility and repentance and warns against abandoned commitments.",
       "year": null,
       "dateLabel": "Chapter order · reign and composition dates require comparison",
       "uncertainty": "Selected named towns and broad reference regions. Markers do not establish exact ancient roads or political boundaries.",
@@ -537,6 +705,14 @@
         "sourceIds": [
           "lds-2-chronicles"
         ]
+      },
+      "contextNote": {
+        "title": "The promise leaves open the possibility of rejection",
+        "text": "God's response includes both restored hearing and future loss. The celebrated building can become a warning to others. Its physical presence does not guarantee that the community will remain faithful.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -545,7 +721,7 @@
       "start": 1,
       "end": 18,
       "title": "Construction, labor, and sea trade",
-      "summary": "Solomon develops towns, assigns forced labor, organizes worship, and works with Huram’s sailors. Pharaoh’s daughter receives a separate residence. Solomon assigns different work to different groups. Some people face forced labor while others become officers.",
+      "summary": "Solomon develops towns, assigns forced labor, organizes worship, and works with Huram’s sailors. Pharaoh’s daughter receives a separate residence.",
       "year": null,
       "dateLabel": "Chapter order · reign and composition dates require comparison",
       "uncertainty": "Selected named towns and broad reference regions. Markers do not establish exact ancient roads or political boundaries.",
@@ -568,6 +744,14 @@
         "sourceIds": [
           "cfm-chronicles-context"
         ]
+      },
+      "contextNote": {
+        "title": "Building achievement requires repeated service afterward",
+        "text": "The account moves from construction into offerings and assigned divisions. Festivals and daily duties make the structures places of continuing use. Completion of buildings is only one stage of temple life.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -576,7 +760,7 @@
       "start": 1,
       "end": 31,
       "title": "Sheba’s queen and Solomon’s reputation",
-      "summary": "The queen of Sheba tests Solomon with questions. Gifts and trade bring him wealth. Rehoboam becomes king after his death. The queen tests Solomon with her own questions. She praises the wisdom she finds.",
+      "summary": "The queen of Sheba tests Solomon with questions. Gifts and trade bring him wealth. Rehoboam becomes king after his death.",
       "year": null,
       "dateLabel": "Chapter order · reign and composition dates require comparison",
       "uncertainty": "Selected named towns and broad reference regions. Markers do not establish exact ancient roads or political boundaries.",
@@ -597,6 +781,14 @@
         "sourceIds": [
           "cfm-chronicles-context"
         ]
+      },
+      "contextNote": {
+        "title": "Admiration describes the court from a visitor's position",
+        "text": "The queen praises the attendants who hear Solomon's wisdom. The account also names wealth and imported horses. The next chapter supplies the subjects' different perspective on the burden inherited from this reign.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -605,7 +797,7 @@
       "start": 1,
       "end": 19,
       "title": "Rehoboam refuses relief",
-      "summary": "The people ask Rehoboam to reduce their burden. He chooses harsh advice, and the northern tribes reject his rule. The people ask for less work. Rehoboam threatens more, and most tribes reject him.",
+      "summary": "The people ask Rehoboam to reduce their burden. He chooses harsh advice, and the northern tribes reject his rule.",
       "year": null,
       "dateLabel": "Chapter order · reign and composition dates require comparison",
       "uncertainty": "Selected named towns and broad reference regions. Markers do not establish exact ancient roads or political boundaries.",
@@ -624,6 +816,14 @@
       "lds": {
         "text": "Why does Rehoboam reject the advice to ease the people’s burden?",
         "sourceIds": []
+      },
+      "contextNote": {
+        "title": "Advice differs over how authority is secured",
+        "text": "The elders recommend kindness as a way to gain continued service. The younger advisers recommend a stronger threat. Rehoboam's choice treats relief as weakness and produces the division he feared.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -632,7 +832,7 @@
       "start": 1,
       "end": 23,
       "title": "Defense, migration, and royal families",
-      "summary": "Shemaiah stops Rehoboam’s attack on the northern tribes. Rehoboam strengthens towns and welcomes priests and Levites. He also plans which son will rule. Priests and Levites leave Jeroboam's kingdom. Their move helps strengthen Judah.",
+      "summary": "Shemaiah stops Rehoboam’s attack on the northern tribes. Rehoboam strengthens towns and welcomes priests and Levites. He also plans which son will rule.",
       "year": null,
       "dateLabel": "Chapter order · reign and composition dates require comparison",
       "uncertainty": "Selected named towns and broad reference regions. Markers do not establish exact ancient roads or political boundaries.",
@@ -653,6 +853,14 @@
       "lds": {
         "text": "Why do priests and Levites leave the northern kingdom?",
         "sourceIds": []
+      },
+      "contextNote": {
+        "title": "A prophetic refusal limits the new king's military response",
+        "text": "Rehoboam gathers forces to recover the northern tribes. Shemaiah's message stops the campaign against their relatives. The remaining preparations turn toward defense rather than forced reunion.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -661,7 +869,7 @@
       "start": 1,
       "end": 16,
       "title": "Shishak and a reduced kingdom",
-      "summary": "Shishak takes Judah's defended towns and Jerusalem's treasures. Rehoboam humbles himself but later leaves God. Rehoboam humbles himself after the warning. Judah survives the attack but loses its treasures.",
+      "summary": "Shishak takes Judah's defended towns and Jerusalem's treasures. Rehoboam humbles himself but later leaves God.",
       "year": null,
       "dateLabel": "Chapter order · reign and composition dates require comparison",
       "uncertainty": "Selected named towns and broad reference regions. Markers do not establish exact ancient roads or political boundaries.",
@@ -677,6 +885,14 @@
       "lds": {
         "text": "How does Rehoboam respond when Shemaiah explains Judah’s defeat?",
         "sourceIds": []
+      },
+      "contextNote": {
+        "title": "Reduced independence receives an explicit explanation",
+        "text": "The people will serve Shishak instead of retaining full freedom. The message presents this as learning the difference between forms of service. Lost treasure makes the change in power visible.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -685,7 +901,7 @@
       "start": 1,
       "end": 22,
       "title": "Abijah’s speech and war",
-      "summary": "Abijah appeals to David’s covenant and temple worship while confronting Jeroboam. Judah wins the battle. Abijah argues that Judah still keeps God’s temple service. In battle, Judah’s people call on God.",
+      "summary": "Abijah appeals to David’s covenant and temple worship while confronting Jeroboam. Judah wins the battle.",
       "year": null,
       "dateLabel": "Chapter order · reign and composition dates require comparison",
       "uncertainty": "Selected named towns and broad reference regions. Markers do not establish exact ancient roads or political boundaries.",
@@ -703,6 +919,14 @@
       "lds": {
         "text": "What reasons does Abijah give for Judah’s trust in God?",
         "sourceIds": []
+      },
+      "contextNote": {
+        "title": "A battle speech argues through the institutions of worship",
+        "text": "Abijah contrasts Judah's priests and temple service with Jeroboam's arrangements. His speech frames the conflict through competing religious claims. The account gives this argument a central place before describing victory.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -711,7 +935,7 @@
       "start": 1,
       "end": 15,
       "title": "Asa changes worship and asks for help",
-      "summary": "Asa removes worship objects and strengthens towns. He calls for divine help against Zerah’s forces. Asa prays when a larger army approaches. He asks God to help those with little strength.",
+      "summary": "Asa removes worship objects and strengthens towns. He calls for divine help against Zerah’s forces.",
       "year": null,
       "dateLabel": "Chapter order · reign and composition dates require comparison",
       "uncertainty": "Selected named towns and broad reference regions. Markers do not establish exact ancient roads or political boundaries.",
@@ -730,6 +954,14 @@
         "sourceIds": [
           "cfm-2026-30"
         ]
+      },
+      "contextNote": {
+        "title": "Preparation and petition share the account of defense",
+        "text": "Asa strengthens towns during rest and asks for help during invasion. His prayer does not erase the earlier practical work. The chapter places both efforts within its explanation of survival.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -738,7 +970,7 @@
       "start": 1,
       "end": 19,
       "title": "Azariah’s warning and covenant",
-      "summary": "Azariah addresses Asa. The assembly renews its covenant, and Asa removes Maacah’s royal status. Asa renews the agreement with God and removes his grandmother as queen. The agreement threatens death for refusing to seek God.",
+      "summary": "Azariah addresses Asa. The assembly renews its covenant, and Asa removes Maacah’s royal status.",
       "year": null,
       "dateLabel": "Chapter order · reign and composition dates require comparison",
       "uncertainty": "Selected named towns and broad reference regions. Markers do not establish exact ancient roads or political boundaries.",
@@ -758,6 +990,14 @@
           "cfm-2026-30",
           "lds-2-chronicles"
         ]
+      },
+      "contextNote": {
+        "title": "A spoken warning becomes a public commitment",
+        "text": "Azariah's message prompts repair and a gathered covenant. The renewed agreement includes people who came from northern tribes. Religious boundaries and political boundaries do not perfectly coincide.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -766,7 +1006,7 @@
       "start": 1,
       "end": 14,
       "title": "Asa’s alliance and anger",
-      "summary": "Asa pays Ben Hadad to break his treaty with Baasha. Hanani rebukes Asa, who imprisons him and oppresses others. Asa rejects correction and imprisons the seer. His anger also harms other people.",
+      "summary": "Asa pays Ben Hadad to break his treaty with Baasha. Hanani rebukes Asa, who imprisons him and oppresses others.",
       "year": null,
       "dateLabel": "Chapter order · reign and composition dates require comparison",
       "uncertainty": "Selected named towns and broad reference regions. Markers do not establish exact ancient roads or political boundaries.",
@@ -787,6 +1027,14 @@
         "sourceIds": [
           "cfm-2026-30"
         ]
+      },
+      "contextNote": {
+        "title": "A ruler's response to criticism changes his judgment",
+        "text": "Asa gains military relief through the foreign agreement. Hanani challenges how he obtained it. Imprisonment and oppression then show the danger of protecting a decision from correction.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -795,7 +1043,7 @@
       "start": 1,
       "end": 19,
       "title": "Jehoshaphat teaches and strengthens Judah",
-      "summary": "Jehoshaphat sends teachers through Judah with God's law. He also builds defenses and gathers soldiers. Teachers travel through Judah with God's law. The king supports learning as well as defense.",
+      "summary": "Jehoshaphat sends teachers through Judah with God's law. He also builds defenses and gathers soldiers.",
       "year": null,
       "dateLabel": "Chapter order · reign and composition dates require comparison",
       "uncertainty": "Selected named towns and broad reference regions. Markers do not establish exact ancient roads or political boundaries.",
@@ -810,6 +1058,14 @@
       "lds": {
         "text": "How does Jehoshaphat use teachers to help his people learn God’s law?",
         "sourceIds": []
+      },
+      "contextNote": {
+        "title": "Instruction carries the law beyond the capital",
+        "text": "The teachers travel through the towns with the written law. Their work makes royal policy include shared learning. Soldiers and defenses are therefore not the chapter's only means of strengthening Judah.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -818,7 +1074,7 @@
       "start": 1,
       "end": 34,
       "title": "Micaiah and the war with Ahab",
-      "summary": "Jehoshaphat joins Ahab. Micaiah challenges favorable predictions and reports a heavenly council before Ahab dies in battle. The vision raises questions about divine agency and deception. Micaiah’s first answer must be read with the king’s demand for truth.",
+      "summary": "Jehoshaphat joins Ahab. Micaiah challenges favorable predictions and reports a heavenly council before Ahab dies in battle.",
       "year": null,
       "dateLabel": "Chapter order · reign and composition dates require comparison",
       "uncertainty": "Selected named towns and broad reference regions. Markers do not establish exact ancient roads or political boundaries.",
@@ -836,6 +1092,14 @@
         "sourceIds": [
           "cfm-2026-30"
         ]
+      },
+      "contextNote": {
+        "title": "Approved predictions place pressure on an independent speaker",
+        "text": "The messenger asks Micaiah to agree with the others. Micaiah's answer separates speaking faithfully from pleasing the court. The account exposes a consultation that already has a preferred result.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -844,7 +1108,7 @@
       "start": 1,
       "end": 11,
       "title": "Correction and impartial judgment",
-      "summary": "Jehu rebukes Jehoshaphat’s alliance. The king appoints judges and distinguishes religious and royal responsibilities. Jehoshaphat appoints judges and warns them against bribes. Their decisions must serve justice.",
+      "summary": "Jehu rebukes Jehoshaphat’s alliance. The king appoints judges and distinguishes religious and royal responsibilities.",
       "year": null,
       "dateLabel": "Chapter order · reign and composition dates require comparison",
       "uncertainty": "Selected named towns and broad reference regions. Markers do not establish exact ancient roads or political boundaries.",
@@ -862,6 +1126,14 @@
         "sourceIds": [
           "lds-2-chronicles"
         ]
+      },
+      "contextNote": {
+        "title": "Judicial work requires limits on personal advantage",
+        "text": "Jehoshaphat warns judges against partiality and accepting gifts. Authority to decide disputes comes with duties toward those appearing before them. The king's reform addresses daily justice after correction of his own conduct.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -870,7 +1142,7 @@
       "start": 1,
       "end": 37,
       "title": "Prayer, Jahaziel, and deliverance",
-      "summary": "Jehoshaphat gathers the people for prayer. Jahaziel speaks encouragement. The opposing forces destroy one another, and Judah returns with plunder. Judah gathers to pray before battle. Jehoshaphat's later shipping plan fails after another warning.",
+      "summary": "Jehoshaphat gathers the people for prayer. Jahaziel speaks encouragement. The opposing forces destroy one another, and Judah returns with plunder.",
       "year": null,
       "dateLabel": "Chapter order · reign and composition dates require comparison",
       "uncertainty": "Selected named towns and broad reference regions. Markers do not establish exact ancient roads or political boundaries.",
@@ -893,6 +1165,14 @@
         "sourceIds": [
           "cfm-2026-30"
         ]
+      },
+      "contextNote": {
+        "title": "Public prayer names the limits of royal knowledge",
+        "text": "Jehoshaphat admits that the assembly does not know what to do. Jahaziel's reply gives direction within that shared uncertainty. The king's leadership begins with acknowledgment rather than a claim of complete control.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -901,7 +1181,7 @@
       "start": 1,
       "end": 20,
       "title": "Jehoram’s violence and decline",
-      "summary": "Jehoram kills his brothers and adopts Ahab’s family practices. Revolts, invasion, Elijah’s letter, and illness mark his reign. Jehoram kills his brothers to secure his throne. Revolts, invasion, and illness follow his harmful rule.",
+      "summary": "Jehoram kills his brothers and adopts Ahab’s family practices. Revolts, invasion, Elijah’s letter, and illness mark his reign.",
       "year": null,
       "dateLabel": "Chapter order · reign and composition dates require comparison",
       "uncertainty": "Selected named towns and broad reference regions. Markers do not establish exact ancient roads or political boundaries.",
@@ -918,6 +1198,14 @@
       "lds": {
         "text": "How do Jehoram’s choices affect his brothers and the people he rules?",
         "sourceIds": []
+      },
+      "contextNote": {
+        "title": "Securing a throne can destroy the household that supports it",
+        "text": "Jehoram kills his brothers after gaining power. Their gifts and positions do not protect them from his suspicion. The later decline makes this early violence part of the reign's moral account.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -926,7 +1214,7 @@
       "start": 1,
       "end": 12,
       "title": "Ahaziah dies and Joash is hidden",
-      "summary": "Ahaziah follows Ahab’s family and dies during Jehu’s overthrow. Jehoshabeath and a nurse protect Joash from Athaliah. Athaliah attacks the royal children. Jehoshabeath saves Joash, keeping a future king alive.",
+      "summary": "Ahaziah follows Ahab’s family and dies during Jehu’s overthrow. Jehoshabeath and a nurse protect Joash from Athaliah.",
       "year": null,
       "dateLabel": "Chapter order · reign and composition dates require comparison",
       "uncertainty": "Selected named towns and broad reference regions. Markers do not establish exact ancient roads or political boundaries.",
@@ -944,6 +1232,14 @@
       "lds": {
         "text": "What do Jehoshabeath and the nurse risk by hiding Joash?",
         "sourceIds": []
+      },
+      "contextNote": {
+        "title": "Protection makes a later coronation possible",
+        "text": "Jehoshabeath and the nurse hide Joash during the royal killings. Their care keeps the family line alive before any public recognition. The later coronation depends on years of work in concealment.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -952,7 +1248,7 @@
       "start": 1,
       "end": 21,
       "title": "Jehoiada installs Joash",
-      "summary": "Jehoiada organizes guards and worship workers. Joash receives the crown, Athaliah dies, and a covenant follows. Jehoiada gathers support for the hidden king. Crowning Joash ends Athaliah’s rule and leads to renewed worship.",
+      "summary": "Jehoiada organizes guards and worship workers. Joash receives the crown, Athaliah dies, and a covenant follows.",
       "year": null,
       "dateLabel": "Chapter order · reign and composition dates require comparison",
       "uncertainty": "Selected named towns and broad reference regions. Markers do not establish exact ancient roads or political boundaries.",
@@ -969,6 +1265,14 @@
       "lds": {
         "text": "Why does Jehoiada ask the people to promise loyalty to God when Joash becomes king?",
         "sourceIds": []
+      },
+      "contextNote": {
+        "title": "A coronation restores obligations as well as a ruler",
+        "text": "Jehoiada makes a covenant linking king and people with God. The subsequent changes organize temple access and service. The new reign begins through shared duties rather than a crown alone.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -977,7 +1281,7 @@
       "start": 1,
       "end": 27,
       "title": "Temple repair and Zechariah’s death",
-      "summary": "Joash repairs the temple during Jehoiada’s life. Afterward he rejects correction and orders Zechariah’s death. His own servants later kill him. Joash benefits from Jehoiada's care. He later orders the death of Jehoiada's son.",
+      "summary": "Joash repairs the temple during Jehoiada’s life. Afterward he rejects correction and orders Zechariah’s death. His own servants later kill him.",
       "year": null,
       "dateLabel": "Chapter order · reign and composition dates require comparison",
       "uncertainty": "Selected named towns and broad reference regions. Markers do not establish exact ancient roads or political boundaries.",
@@ -995,6 +1299,14 @@
       "lds": {
         "text": "Why does Joash reject correction after Jehoiada’s death?",
         "sourceIds": []
+      },
+      "contextNote": {
+        "title": "The king forgets the care that preserved his position",
+        "text": "Joash kills the son of Jehoiada after receiving that family's protection. Temple repair earlier marked his reign as restoration. The account contrasts preserving a building with refusing the correction spoken within it.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -1003,7 +1315,7 @@
       "start": 1,
       "end": 28,
       "title": "Amaziah’s victories and defeat",
-      "summary": "Amaziah dismisses hired troops, defeats Edom, adopts its gods, and refuses a prophet. Joash of Israel defeats him. Amaziah brings home the defeated people's gods. He rejects a warning and later loses a war.",
+      "summary": "Amaziah dismisses hired troops, defeats Edom, adopts its gods, and refuses a prophet. Joash of Israel defeats him.",
       "year": null,
       "dateLabel": "Chapter order · reign and composition dates require comparison",
       "uncertainty": "Selected named towns and broad reference regions. Markers do not establish exact ancient roads or political boundaries.",
@@ -1024,6 +1336,14 @@
       "lds": {
         "text": "How does Amaziah respond differently to his two warnings?",
         "sourceIds": []
+      },
+      "contextNote": {
+        "title": "A successful king tries to silence the judgment of success",
+        "text": "Amaziah threatens the prophet who questions his adopted gods. His later challenge to Israel likewise rejects warning. Victory becomes dangerous when it makes correction seem unnecessary.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -1032,7 +1352,7 @@
       "start": 1,
       "end": 23,
       "title": "Uzziah’s strength and forbidden incense",
-      "summary": "Uzziah builds towns, farms, and defenses. The priest Azariah stops his attempt to burn incense. Uzziah becomes ill. Success makes Uzziah proud. His illness keeps him from temple worship. Jotham takes over daily rule.",
+      "summary": "Uzziah builds towns, farms, and defenses. The priest Azariah stops his attempt to burn incense. Uzziah becomes ill.",
       "year": null,
       "dateLabel": "Chapter order · reign and composition dates require comparison",
       "uncertainty": "Selected named towns and broad reference regions. Markers do not establish exact ancient roads or political boundaries.",
@@ -1054,6 +1374,14 @@
         "sourceIds": [
           "cfm-2026-30"
         ]
+      },
+      "contextNote": {
+        "title": "Royal success does not confer every sacred role",
+        "text": "Uzziah's achievements precede his attempt to burn incense. The priests identify a duty reserved for another office. The account sets a boundary on the king's authority inside the temple.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -1062,7 +1390,7 @@
       "start": 1,
       "end": 9,
       "title": "Jotham builds and governs",
-      "summary": "Jotham strengthens Jerusalem and other towns. Ammon pays him tribute. He follows God, but the people continue doing wrong. Jotham follows his father’s good example without entering the temple. His people still make different choices.",
+      "summary": "Jotham strengthens Jerusalem and other towns. Ammon pays him tribute. He follows God, but the people continue doing wrong.",
       "year": null,
       "dateLabel": "Chapter order · reign and composition dates require comparison",
       "uncertainty": "Selected named towns and broad reference regions. Markers do not establish exact ancient roads or political boundaries.",
@@ -1077,6 +1405,14 @@
       "lds": {
         "text": "What can a faithful leader do when others continue doing wrong?",
         "sourceIds": []
+      },
+      "contextNote": {
+        "title": "A ruler's conduct does not automatically change the people",
+        "text": "Jotham receives praise while the people continue doing wrong. The account distinguishes the king's course from theirs. Public strength does not establish a shared moral outcome.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -1085,7 +1421,7 @@
       "start": 1,
       "end": 27,
       "title": "Ahaz, captives, and Oded’s intervention",
-      "summary": "Ahaz suffers defeats and seeks Assyrian help. Oded and northern leaders secure humane care and return for Judah’s captives. Those who win a battle still answer for mistreatment. The account names people who resist enslavement and provide practical care.",
+      "summary": "Ahaz suffers defeats and seeks Assyrian help. Oded and northern leaders secure humane care and return for Judah’s captives.",
       "year": null,
       "dateLabel": "Chapter order · reign and composition dates require comparison",
       "uncertainty": "Selected named towns and broad reference regions. Markers do not establish exact ancient roads or political boundaries.",
@@ -1106,6 +1442,14 @@
       "lds": {
         "text": "How do the northern leaders turn a victory into care for their captives?",
         "sourceIds": []
+      },
+      "contextNote": {
+        "title": "A prophetic appeal changes the treatment of defeated enemies",
+        "text": "Oded warns Israel against enslaving captives from Judah. Northern leaders provide clothing, food, and transport instead. The episode interrupts a reign's violence with care across the divided kingdom.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -1114,7 +1458,7 @@
       "start": 1,
       "end": 36,
       "title": "Hezekiah restores temple service",
-      "summary": "Hezekiah opens the temple and calls workers to cleanse it. Sacrifice and music resume with public thanksgiving. Priests and Levites clean the temple before worship returns. Repair requires shared work.",
+      "summary": "Hezekiah opens the temple and calls workers to cleanse it. Sacrifice and music resume with public thanksgiving.",
       "year": null,
       "dateLabel": "Chapter order · reign and composition dates require comparison",
       "uncertainty": "Selected named towns and broad reference regions. Markers do not establish exact ancient roads or political boundaries.",
@@ -1133,6 +1477,14 @@
       "lds": {
         "text": "What work must the priests and Levites finish before temple worship can begin again?",
         "sourceIds": []
+      },
+      "contextNote": {
+        "title": "Restoration joins specialized duties with broad participation",
+        "text": "Priests and Levites perform different parts of the cleansing and offerings. The assembly also responds through worship and gifts. Renewed service requires organized work rather than the king's order alone.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -1141,7 +1493,7 @@
       "start": 1,
       "end": 27,
       "title": "Passover invitations and pardon",
-      "summary": "Hezekiah invites northern communities to Jerusalem. Some mock the couriers, but others attend. He prays for participants who lack ritual preparation. Hezekiah welcomes people who have not kept every preparation rule. He prays for their pardon and healing.",
+      "summary": "Hezekiah invites northern communities to Jerusalem. Some mock the couriers, but others attend. He prays for participants who lack ritual preparation.",
       "year": null,
       "dateLabel": "Chapter order · reign and composition dates require comparison",
       "uncertainty": "Selected named towns and broad reference regions. Markers do not establish exact ancient roads or political boundaries.",
@@ -1163,6 +1515,14 @@
           "cfm-2026-30",
           "lds-2-chronicles"
         ]
+      },
+      "contextNote": {
+        "title": "The invitation reaches beyond perfect ritual preparation",
+        "text": "Some participants arrive without meeting the normal preparation rules. Hezekiah prays that their intention will be accepted. The celebration joins prescribed practice with a stated concern for those seeking God.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -1171,7 +1531,7 @@
       "start": 1,
       "end": 21,
       "title": "Offerings and faithful distribution",
-      "summary": "Hezekiah supports service divisions and the people bring offerings. Azariah, Conaniah, Shimei, and Kore help organize supplies. The people bring food for temple workers. The gifts also support the workers' families.",
+      "summary": "Hezekiah supports service divisions and the people bring offerings. Azariah, Conaniah, Shimei, and Kore help organize supplies.",
       "year": null,
       "dateLabel": "Chapter order · reign and composition dates require comparison",
       "uncertainty": "Selected named towns and broad reference regions. Markers do not establish exact ancient roads or political boundaries.",
@@ -1187,6 +1547,14 @@
       "lds": {
         "text": "How do careful storage and fair sharing support the temple workers’ families?",
         "sourceIds": []
+      },
+      "contextNote": {
+        "title": "Distribution makes continued worship possible for households",
+        "text": "The account records gifts and assignments beyond the visible offerings. Families need access to supplies while members perform their duties. Faithful management becomes part of the temple's continuing life.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -1195,7 +1563,7 @@
       "start": 1,
       "end": 33,
       "title": "Sennacherib’s challenge and Hezekiah’s response",
-      "summary": "Hezekiah prepares defenses and water supplies. Sennacherib challenges trust in God. Hezekiah and Isaiah pray, and the invader withdraws. Hezekiah prepares defenses and encourages the people. He and Isaiah pray as Assyria threatens Jerusalem.",
+      "summary": "Hezekiah prepares defenses and water supplies. Sennacherib challenges trust in God. Hezekiah and Isaiah pray, and the invader withdraws.",
       "year": null,
       "dateLabel": "Chapter order · reign and composition dates require comparison",
       "uncertainty": "Selected named towns and broad reference regions. Markers do not establish exact ancient roads or political boundaries.",
@@ -1211,13 +1579,24 @@
         "tuell-chronicles",
         "millard-hezekiah",
         "taylor-prism",
-        "schaser-2-chronicles"
+        "schaser-2-chronicles",
+        "prism-taylor"
       ],
       "lds": {
         "text": "The Seminary manual highlights Hezekiah’s humility.",
         "sourceIds": [
           "cfm-chronicles-context",
           "lds-2-chronicles"
+        ]
+      },
+      "contextNote": {
+        "title": "Defense combines work and trust",
+        "text": "Hezekiah repairs walls and prepares weapons while facing Assyria. His speech asks the people to trust God. The account presents practical defense and prayer together. Assyrian records describe the campaign from the attacking king’s side. Compare the accounts without treating royal claims as neutral reports.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": [
+          "prism-taylor"
         ]
       }
     },
@@ -1227,7 +1606,7 @@
       "start": 1,
       "end": 25,
       "title": "Manasseh’s repentance and Amon’s refusal",
-      "summary": "Manasseh promotes forbidden worship, suffers captivity, then humbles himself and returns. Amon refuses humility and dies in a conspiracy. Manasseh humbles himself and returns to Jerusalem. He removes worship objects he had earlier introduced.",
+      "summary": "Manasseh promotes forbidden worship, suffers captivity, then humbles himself and returns. Amon refuses humility and dies in a conspiracy.",
       "year": null,
       "dateLabel": "Chapter order · reign and composition dates require comparison",
       "uncertainty": "Selected named towns and broad reference regions. Markers do not establish exact ancient roads or political boundaries.",
@@ -1248,6 +1627,14 @@
           "cfm-chronicles-context",
           "lds-2-chronicles"
         ]
+      },
+      "contextNote": {
+        "title": "This account gives Manasseh a change absent from Kings",
+        "text": "Captivity leads Manasseh to humble himself and return. Second Kings 21 emphasizes his wrongs without this repentance scene. Reading both reveals different emphases in the remembered account of one ruler.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -1256,7 +1643,7 @@
       "start": 1,
       "end": 33,
       "title": "Josiah changes worship and seeks Huldah's answer",
-      "summary": "Josiah removes worship objects and repairs the temple. Hilkiah finds a law book, and Huldah explains its judgment and promise. Huldah warns the king after the book is found. Josiah renews the people's promise to God.",
+      "summary": "Josiah removes worship objects and repairs the temple. Hilkiah finds a law book, and Huldah explains its judgment and promise.",
       "year": null,
       "dateLabel": "Chapter order · reign and composition dates require comparison",
       "uncertainty": "Selected named towns and broad reference regions. Markers do not establish exact ancient roads or political boundaries.",
@@ -1274,6 +1661,14 @@
         "sourceIds": [
           "lds-2-chronicles"
         ]
+      },
+      "contextNote": {
+        "title": "A restored building brings a disruptive text to light",
+        "text": "The law book appears while workers repair the temple. Huldah's answer makes its words a challenge to the community's conduct. Physical repair becomes an occasion for judgment rather than proof that everything is settled.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -1282,7 +1677,7 @@
       "start": 1,
       "end": 27,
       "title": "Josiah’s Passover and death",
-      "summary": "Josiah organizes a large Passover. Later he refuses Neco’s warning, suffers a battle wound, and dies after return to Jerusalem. Neco warns Josiah against joining the battle. Josiah refuses the warning and dies from his wounds.",
+      "summary": "Josiah organizes a large Passover. Later he refuses Neco’s warning, suffers a battle wound, and dies after return to Jerusalem.",
       "year": null,
       "dateLabel": "Chapter order · reign and composition dates require comparison",
       "uncertainty": "Selected named towns and broad reference regions. Markers do not establish exact ancient roads or political boundaries.",
@@ -1304,6 +1699,14 @@
         "sourceIds": [
           "cfm-chronicles-context"
         ]
+      },
+      "contextNote": {
+        "title": "A praised ruler still makes a fatal decision",
+        "text": "The Passover account strongly praises Josiah's organized worship. His later refusal to heed Neco leads to death. The chapter keeps faithful achievement beside a final failure to respond.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -1312,7 +1715,7 @@
       "start": 1,
       "end": 23,
       "title": "Exile and Cyrus’s proclamation",
-      "summary": "The final kings face Egypt and Babylon. Jerusalem and the temple fall. Cyrus allows a return to rebuild the temple. Jerusalem falls, and people go into exile. Cyrus later permits a return to rebuild the temple.",
+      "summary": "The final kings face Egypt and Babylon. Jerusalem and the temple fall. Cyrus allows a return to rebuild the temple.",
       "year": null,
       "dateLabel": "Chapter order · reign and composition dates require comparison",
       "uncertainty": "Selected named towns and broad reference regions. Markers do not establish exact ancient roads or political boundaries.",
@@ -1327,13 +1730,24 @@
         "tuell-chronicles",
         "luther-2-chronicles",
         "schaser-2-chronicles",
-        "wiki-2-chronicles"
+        "wiki-2-chronicles",
+        "cyrus"
       ],
       "lds": {
         "text": "The Seminary manual reads captivity alongside God’s continuing care.",
         "sourceIds": [
           "cfm-chronicles-context",
           "lds-2-chronicles"
+        ]
+      },
+      "contextNote": {
+        "title": "The last royal speech opens a road beyond exile",
+        "text": "The final speech comes from Cyrus, a foreign ruler. It allows a return and the rebuilding of a temple. The book ends with movement ahead rather than another Judahite king. The Cyrus Cylinder gives wider context for Persian restoration claims. It does not name this return or prove every detail of the speech.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": [
+          "cyrus"
         ]
       }
     }
@@ -1346,7 +1760,7 @@
       "eventOrder": 1,
       "title": "Solomon seeks wisdom",
       "summary": "Solomon seeks wisdom at Gibeon. The chapter also describes royal wealth, horses, and trade.",
-      "detail": "Solomon asks for wisdom to lead the people. God grants wisdom and also gives him wealth.",
+      "detail": "Solomon asks for wisdom to govern people rather than simply acquire goods. The following wealth description stands beside that request. Readers can assess abundance through the responsibility named first.",
       "dateLabel": "Chapter order · reign and composition dates require comparison",
       "uncertainty": "Selected named towns and broad reference regions. Markers do not establish exact ancient roads or political boundaries.",
       "sourceIds": [
@@ -1376,7 +1790,7 @@
       "eventOrder": 2,
       "title": "Temple workers and Tyrian cooperation",
       "summary": "Solomon requests timber and skilled work from Huram. Foreign residents supply the labor force.",
-      "detail": "Tyre sends wood and a skilled worker. Solomon also orders foreign residents into forced labor.",
+      "detail": "Solomon counts foreign residents and assigns them carrying, cutting, and supervision. Huram also supplies specialized skill. The temple account includes imposed labor as well as international cooperation.",
       "dateLabel": "Chapter order · reign and composition dates require comparison",
       "uncertainty": "Selected named towns and broad reference regions. Markers do not establish exact ancient roads or political boundaries.",
       "sourceIds": [
@@ -1404,7 +1818,7 @@
       "eventOrder": 3,
       "title": "The temple building",
       "summary": "Solomon builds the temple at the site associated with David and Ornan. Rooms, decoration, and pillars receive detailed descriptions.",
-      "detail": "The temple’s rooms and decorations set apart a place for worship. Gold and carved figures mark its inner spaces.",
+      "detail": "The temple stands where David prepared an altar after the plague. Its location therefore carries memory beyond architectural beauty. Solomon's work develops a place already marked by judgment and response.",
       "dateLabel": "Chapter order · reign and composition dates require comparison",
       "uncertainty": "Selected named towns and broad reference regions. Markers do not establish exact ancient roads or political boundaries.",
       "sourceIds": [
@@ -1429,13 +1843,14 @@
       "eventOrder": 4,
       "title": "Temple vessels and bronze work",
       "summary": "Huram makes bronze vessels. Solomon provides the temple’s gold objects and furnishings.",
-      "detail": "Skilled labor supports worship. The craft worker is distinct from Tyre’s king, despite their shared name.",
+      "detail": "The account distinguishes water for priests from water for washing offerings. The crafted basins serve repeated work around the temple. Their size and placement make worship depend on planned spaces. Read the objects through their tasks, not only their beauty. Regional metalwork offers comparison without reconstructing these exact vessels.",
       "dateLabel": "Chapter order · reign and composition dates require comparison",
       "uncertainty": "Selected named towns and broad reference regions. Markers do not establish exact ancient roads or political boundaries.",
       "sourceIds": [
         "web",
         "atlas-canaan",
-        "tuell-chronicles"
+        "tuell-chronicles",
+        "met-244562"
       ],
       "placeIds": [
         "jerusalem",
@@ -1453,7 +1868,7 @@
       "eventOrder": 5,
       "title": "The ark enters the temple",
       "summary": "Priests bring the ark into the inner sanctuary. Singers and trumpeters praise together, and a cloud fills the house.",
-      "detail": "The ark holds the tablets of God’s agreement with Israel. Music and a cloud mark its arrival in the temple.",
+      "detail": "Singers and trumpeters praise together rather than as separate displays. The cloud then prevents priests from continuing their normal service. Ordered human work leads into an encounter they cannot direct.",
       "dateLabel": "Chapter order · reign and composition dates require comparison",
       "uncertainty": "Selected named towns and broad reference regions. Markers do not establish exact ancient roads or political boundaries.",
       "sourceIds": [
@@ -1481,7 +1896,7 @@
       "eventOrder": 6,
       "title": "Solomon’s dedication prayer",
       "summary": "Solomon blesses the assembly and prays for justice, forgiveness, foreigners, and people taken captive.",
-      "detail": "The prayer says even heaven cannot contain God. It includes outsiders and anticipates responsibility beyond the building.",
+      "detail": "Solomon asks that a foreigner's prayer be heard. He also imagines people praying from captivity. The temple's role reaches beyond those present at its first celebration.",
       "dateLabel": "Chapter order · reign and composition dates require comparison",
       "uncertainty": "Selected named towns and broad reference regions. Markers do not establish exact ancient roads or political boundaries.",
       "sourceIds": [
@@ -1505,7 +1920,7 @@
       "eventOrder": 7,
       "title": "Dedication and a conditional promise",
       "summary": "The assembly celebrates the dedication. God’s response calls for humility and repentance and warns against abandoned commitments.",
-      "detail": "God calls the people to humble themselves, pray, and turn from wrong. The promise also warns against abandoning him.",
+      "detail": "God's response includes both restored hearing and future loss. The celebrated building can become a warning to others. Its physical presence does not guarantee that the community will remain faithful.",
       "dateLabel": "Chapter order · reign and composition dates require comparison",
       "uncertainty": "Selected named towns and broad reference regions. Markers do not establish exact ancient roads or political boundaries.",
       "sourceIds": [
@@ -1532,7 +1947,7 @@
       "eventOrder": 8,
       "title": "Construction, labor, and sea trade",
       "summary": "Solomon develops towns, assigns forced labor, organizes worship, and works with Huram’s sailors. Pharaoh’s daughter receives a separate residence.",
-      "detail": "Solomon assigns different work to different groups. Some people face forced labor while others become officers.",
+      "detail": "The account moves from construction into offerings and assigned divisions. Festivals and daily duties make the structures places of continuing use. Completion of buildings is only one stage of temple life.",
       "dateLabel": "Chapter order · reign and composition dates require comparison",
       "uncertainty": "Selected named towns and broad reference regions. Markers do not establish exact ancient roads or political boundaries.",
       "sourceIds": [
@@ -1563,7 +1978,7 @@
       "eventOrder": 9,
       "title": "Sheba’s queen and Solomon’s reputation",
       "summary": "The queen of Sheba tests Solomon with questions. Gifts and trade bring him wealth. Rehoboam becomes king after his death.",
-      "detail": "The queen tests Solomon with her own questions. She praises the wisdom she finds.",
+      "detail": "The queen praises the attendants who hear Solomon's wisdom. The account also names wealth and imported horses. The next chapter supplies the subjects' different perspective on the burden inherited from this reign.",
       "dateLabel": "Chapter order · reign and composition dates require comparison",
       "uncertainty": "Selected named towns and broad reference regions. Markers do not establish exact ancient roads or political boundaries.",
       "sourceIds": [
@@ -1592,7 +2007,7 @@
       "eventOrder": 10,
       "title": "Rehoboam refuses relief",
       "summary": "The people ask Rehoboam to reduce their burden. He chooses harsh advice, and the northern tribes reject his rule.",
-      "detail": "The people ask for less work. Rehoboam threatens more, and most tribes reject him.",
+      "detail": "The elders recommend kindness as a way to gain continued service. The younger advisers recommend a stronger threat. Rehoboam's choice treats relief as weakness and produces the division he feared.",
       "dateLabel": "Chapter order · reign and composition dates require comparison",
       "uncertainty": "Selected named towns and broad reference regions. Markers do not establish exact ancient roads or political boundaries.",
       "sourceIds": [
@@ -1619,7 +2034,7 @@
       "eventOrder": 11,
       "title": "Defense, migration, and royal families",
       "summary": "Shemaiah stops Rehoboam’s attack on the northern tribes. Rehoboam strengthens towns and welcomes priests and Levites. He also plans which son will rule.",
-      "detail": "Priests and Levites leave Jeroboam's kingdom. Their move helps strengthen Judah.",
+      "detail": "Rehoboam gathers forces to recover the northern tribes. Shemaiah's message stops the campaign against their relatives. The remaining preparations turn toward defense rather than forced reunion.",
       "dateLabel": "Chapter order · reign and composition dates require comparison",
       "uncertainty": "Selected named towns and broad reference regions. Markers do not establish exact ancient roads or political boundaries.",
       "sourceIds": [
@@ -1648,7 +2063,7 @@
       "eventOrder": 12,
       "title": "Shishak and a reduced kingdom",
       "summary": "Shishak takes Judah's defended towns and Jerusalem's treasures. Rehoboam humbles himself but later leaves God.",
-      "detail": "Rehoboam humbles himself after the warning. Judah survives the attack but loses its treasures.",
+      "detail": "The people will serve Shishak instead of retaining full freedom. The message presents this as learning the difference between forms of service. Lost treasure makes the change in power visible.",
       "dateLabel": "Chapter order · reign and composition dates require comparison",
       "uncertainty": "Selected named towns and broad reference regions. Markers do not establish exact ancient roads or political boundaries.",
       "sourceIds": [
@@ -1672,7 +2087,7 @@
       "eventOrder": 13,
       "title": "Abijah’s speech and war",
       "summary": "Abijah appeals to David’s covenant and temple worship while confronting Jeroboam. Judah wins the battle.",
-      "detail": "Abijah argues that Judah still keeps God’s temple service. In battle, Judah’s people call on God.",
+      "detail": "Abijah contrasts Judah's priests and temple service with Jeroboam's arrangements. His speech frames the conflict through competing religious claims. The account gives this argument a central place before describing victory.",
       "dateLabel": "Chapter order · reign and composition dates require comparison",
       "uncertainty": "Selected named towns and broad reference regions. Markers do not establish exact ancient roads or political boundaries.",
       "sourceIds": [
@@ -1698,7 +2113,7 @@
       "eventOrder": 14,
       "title": "Asa changes worship and asks for help",
       "summary": "Asa removes worship objects and strengthens towns. He calls for divine help against Zerah’s forces.",
-      "detail": "Asa prays when a larger army approaches. He asks God to help those with little strength.",
+      "detail": "Asa strengthens towns during rest and asks for help during invasion. His prayer does not erase the earlier practical work. The chapter places both efforts within its explanation of survival.",
       "dateLabel": "Chapter order · reign and composition dates require comparison",
       "uncertainty": "Selected named towns and broad reference regions. Markers do not establish exact ancient roads or political boundaries.",
       "sourceIds": [
@@ -1725,7 +2140,7 @@
       "eventOrder": 15,
       "title": "Azariah’s warning and covenant",
       "summary": "Azariah addresses Asa. The assembly renews its covenant, and Asa removes Maacah’s royal status.",
-      "detail": "Asa renews the agreement with God and removes his grandmother as queen. The agreement threatens death for refusing to seek God.",
+      "detail": "Azariah's message prompts repair and a gathered covenant. The renewed agreement includes people who came from northern tribes. Religious boundaries and political boundaries do not perfectly coincide.",
       "dateLabel": "Chapter order · reign and composition dates require comparison",
       "uncertainty": "Selected named towns and broad reference regions. Markers do not establish exact ancient roads or political boundaries.",
       "sourceIds": [
@@ -1753,7 +2168,7 @@
       "eventOrder": 16,
       "title": "Asa’s alliance and anger",
       "summary": "Asa pays Ben Hadad to break his treaty with Baasha. Hanani rebukes Asa, who imprisons him and oppresses others.",
-      "detail": "Asa rejects correction and imprisons the seer. His anger also harms other people.",
+      "detail": "Asa gains military relief through the foreign agreement. Hanani challenges how he obtained it. Imprisonment and oppression then show the danger of protecting a decision from correction.",
       "dateLabel": "Chapter order · reign and composition dates require comparison",
       "uncertainty": "Selected named towns and broad reference regions. Markers do not establish exact ancient roads or political boundaries.",
       "sourceIds": [
@@ -1782,7 +2197,7 @@
       "eventOrder": 17,
       "title": "Jehoshaphat teaches and strengthens Judah",
       "summary": "Jehoshaphat sends teachers through Judah with God's law. He also builds defenses and gathers soldiers.",
-      "detail": "Teachers travel through Judah with God's law. The king supports learning as well as defense.",
+      "detail": "The teachers travel through the towns with the written law. Their work makes royal policy include shared learning. Soldiers and defenses are therefore not the chapter's only means of strengthening Judah.",
       "dateLabel": "Chapter order · reign and composition dates require comparison",
       "uncertainty": "Selected named towns and broad reference regions. Markers do not establish exact ancient roads or political boundaries.",
       "sourceIds": [
@@ -1805,7 +2220,7 @@
       "eventOrder": 18,
       "title": "Micaiah and the war with Ahab",
       "summary": "Jehoshaphat joins Ahab. Micaiah challenges favorable predictions and reports a heavenly council before Ahab dies in battle.",
-      "detail": "The vision raises questions about divine agency and deception. Micaiah’s first answer must be read with the king’s demand for truth.",
+      "detail": "The messenger asks Micaiah to agree with the others. Micaiah's answer separates speaking faithfully from pleasing the court. The account exposes a consultation that already has a preferred result.",
       "dateLabel": "Chapter order · reign and composition dates require comparison",
       "uncertainty": "Selected named towns and broad reference regions. Markers do not establish exact ancient roads or political boundaries.",
       "sourceIds": [
@@ -1831,7 +2246,7 @@
       "eventOrder": 19,
       "title": "Correction and impartial judgment",
       "summary": "Jehu rebukes Jehoshaphat’s alliance. The king appoints judges and distinguishes religious and royal responsibilities.",
-      "detail": "Jehoshaphat appoints judges and warns them against bribes. Their decisions must serve justice.",
+      "detail": "Jehoshaphat warns judges against partiality and accepting gifts. Authority to decide disputes comes with duties toward those appearing before them. The king's reform addresses daily justice after correction of his own conduct.",
       "dateLabel": "Chapter order · reign and composition dates require comparison",
       "uncertainty": "Selected named towns and broad reference regions. Markers do not establish exact ancient roads or political boundaries.",
       "sourceIds": [
@@ -1857,7 +2272,7 @@
       "eventOrder": 20,
       "title": "Prayer, Jahaziel, and deliverance",
       "summary": "Jehoshaphat gathers the people for prayer. Jahaziel speaks encouragement. The opposing forces destroy one another, and Judah returns with plunder.",
-      "detail": "Judah gathers to pray before battle. Jehoshaphat's later shipping plan fails after another warning.",
+      "detail": "Jehoshaphat admits that the assembly does not know what to do. Jahaziel's reply gives direction within that shared uncertainty. The king's leadership begins with acknowledgment rather than a claim of complete control.",
       "dateLabel": "Chapter order · reign and composition dates require comparison",
       "uncertainty": "Selected named towns and broad reference regions. Markers do not establish exact ancient roads or political boundaries.",
       "sourceIds": [
@@ -1888,7 +2303,7 @@
       "eventOrder": 21,
       "title": "Jehoram’s violence and decline",
       "summary": "Jehoram kills his brothers and adopts Ahab’s family practices. Revolts, invasion, Elijah’s letter, and illness mark his reign.",
-      "detail": "Jehoram kills his brothers to secure his throne. Revolts, invasion, and illness follow his harmful rule.",
+      "detail": "Jehoram kills his brothers after gaining power. Their gifts and positions do not protect them from his suspicion. The later decline makes this early violence part of the reign's moral account.",
       "dateLabel": "Chapter order · reign and composition dates require comparison",
       "uncertainty": "Selected named towns and broad reference regions. Markers do not establish exact ancient roads or political boundaries.",
       "sourceIds": [
@@ -1913,7 +2328,7 @@
       "eventOrder": 22,
       "title": "Ahaziah dies and Joash is hidden",
       "summary": "Ahaziah follows Ahab’s family and dies during Jehu’s overthrow. Jehoshabeath and a nurse protect Joash from Athaliah.",
-      "detail": "Athaliah attacks the royal children. Jehoshabeath saves Joash, keeping a future king alive.",
+      "detail": "Jehoshabeath and the nurse hide Joash during the royal killings. Their care keeps the family line alive before any public recognition. The later coronation depends on years of work in concealment.",
       "dateLabel": "Chapter order · reign and composition dates require comparison",
       "uncertainty": "Selected named towns and broad reference regions. Markers do not establish exact ancient roads or political boundaries.",
       "sourceIds": [
@@ -1939,7 +2354,7 @@
       "eventOrder": 23,
       "title": "Jehoiada installs Joash",
       "summary": "Jehoiada organizes guards and worship workers. Joash receives the crown, Athaliah dies, and a covenant follows.",
-      "detail": "Jehoiada gathers support for the hidden king. Crowning Joash ends Athaliah’s rule and leads to renewed worship.",
+      "detail": "Jehoiada makes a covenant linking king and people with God. The subsequent changes organize temple access and service. The new reign begins through shared duties rather than a crown alone.",
       "dateLabel": "Chapter order · reign and composition dates require comparison",
       "uncertainty": "Selected named towns and broad reference regions. Markers do not establish exact ancient roads or political boundaries.",
       "sourceIds": [
@@ -1964,7 +2379,7 @@
       "eventOrder": 24,
       "title": "Temple repair and Zechariah’s death",
       "summary": "Joash repairs the temple during Jehoiada’s life. Afterward he rejects correction and orders Zechariah’s death. His own servants later kill him.",
-      "detail": "Joash benefits from Jehoiada's care. He later orders the death of Jehoiada's son.",
+      "detail": "Joash kills the son of Jehoiada after receiving that family's protection. Temple repair earlier marked his reign as restoration. The account contrasts preserving a building with refusing the correction spoken within it.",
       "dateLabel": "Chapter order · reign and composition dates require comparison",
       "uncertainty": "Selected named towns and broad reference regions. Markers do not establish exact ancient roads or political boundaries.",
       "sourceIds": [
@@ -1990,7 +2405,7 @@
       "eventOrder": 25,
       "title": "Amaziah’s victories and defeat",
       "summary": "Amaziah dismisses hired troops, defeats Edom, adopts its gods, and refuses a prophet. Joash of Israel defeats him.",
-      "detail": "Amaziah brings home the defeated people's gods. He rejects a warning and later loses a war.",
+      "detail": "Amaziah threatens the prophet who questions his adopted gods. His later challenge to Israel likewise rejects warning. Victory becomes dangerous when it makes correction seem unnecessary.",
       "dateLabel": "Chapter order · reign and composition dates require comparison",
       "uncertainty": "Selected named towns and broad reference regions. Markers do not establish exact ancient roads or political boundaries.",
       "sourceIds": [
@@ -2019,7 +2434,7 @@
       "eventOrder": 26,
       "title": "Uzziah’s strength and forbidden incense",
       "summary": "Uzziah builds towns, farms, and defenses. The priest Azariah stops his attempt to burn incense. Uzziah becomes ill.",
-      "detail": "Success makes Uzziah proud. His illness keeps him from temple worship. Jotham takes over daily rule.",
+      "detail": "Uzziah's achievements precede his attempt to burn incense. The priests identify a duty reserved for another office. The account sets a boundary on the king's authority inside the temple.",
       "dateLabel": "Chapter order · reign and composition dates require comparison",
       "uncertainty": "Selected named towns and broad reference regions. Markers do not establish exact ancient roads or political boundaries.",
       "sourceIds": [
@@ -2049,7 +2464,7 @@
       "eventOrder": 27,
       "title": "Jotham builds and governs",
       "summary": "Jotham strengthens Jerusalem and other towns. Ammon pays him tribute. He follows God, but the people continue doing wrong.",
-      "detail": "Jotham follows his father’s good example without entering the temple. His people still make different choices.",
+      "detail": "Jotham receives praise while the people continue doing wrong. The account distinguishes the king's course from theirs. Public strength does not establish a shared moral outcome.",
       "dateLabel": "Chapter order · reign and composition dates require comparison",
       "uncertainty": "Selected named towns and broad reference regions. Markers do not establish exact ancient roads or political boundaries.",
       "sourceIds": [
@@ -2072,7 +2487,7 @@
       "eventOrder": 28,
       "title": "Ahaz, captives, and Oded’s intervention",
       "summary": "Ahaz suffers defeats and seeks Assyrian help. Oded and northern leaders secure humane care and return for Judah’s captives.",
-      "detail": "Those who win a battle still answer for mistreatment. The account names people who resist enslavement and provide practical care.",
+      "detail": "Oded warns Israel against enslaving captives from Judah. Northern leaders provide clothing, food, and transport instead. The episode interrupts a reign's violence with care across the divided kingdom.",
       "dateLabel": "Chapter order · reign and composition dates require comparison",
       "uncertainty": "Selected named towns and broad reference regions. Markers do not establish exact ancient roads or political boundaries.",
       "sourceIds": [
@@ -2101,7 +2516,7 @@
       "eventOrder": 29,
       "title": "Hezekiah restores temple service",
       "summary": "Hezekiah opens the temple and calls workers to cleanse it. Sacrifice and music resume with public thanksgiving.",
-      "detail": "Priests and Levites clean the temple before worship returns. Repair requires shared work.",
+      "detail": "Priests and Levites perform different parts of the cleansing and offerings. The assembly also responds through worship and gifts. Renewed service requires organized work rather than the king's order alone.",
       "dateLabel": "Chapter order · reign and composition dates require comparison",
       "uncertainty": "Selected named towns and broad reference regions. Markers do not establish exact ancient roads or political boundaries.",
       "sourceIds": [
@@ -2128,7 +2543,7 @@
       "eventOrder": 30,
       "title": "Passover invitations and pardon",
       "summary": "Hezekiah invites northern communities to Jerusalem. Some mock the couriers, but others attend. He prays for participants who lack ritual preparation.",
-      "detail": "Hezekiah welcomes people who have not kept every preparation rule. He prays for their pardon and healing.",
+      "detail": "Some participants arrive without meeting the normal preparation rules. Hezekiah prays that their intention will be accepted. The celebration joins prescribed practice with a stated concern for those seeking God.",
       "dateLabel": "Chapter order · reign and composition dates require comparison",
       "uncertainty": "Selected named towns and broad reference regions. Markers do not establish exact ancient roads or political boundaries.",
       "sourceIds": [
@@ -2158,7 +2573,7 @@
       "eventOrder": 31,
       "title": "Offerings and faithful distribution",
       "summary": "Hezekiah supports service divisions and the people bring offerings. Azariah, Conaniah, Shimei, and Kore help organize supplies.",
-      "detail": "The people bring food for temple workers. The gifts also support the workers' families.",
+      "detail": "The account records gifts and assignments beyond the visible offerings. Families need access to supplies while members perform their duties. Faithful management becomes part of the temple's continuing life.",
       "dateLabel": "Chapter order · reign and composition dates require comparison",
       "uncertainty": "Selected named towns and broad reference regions. Markers do not establish exact ancient roads or political boundaries.",
       "sourceIds": [
@@ -2182,7 +2597,7 @@
       "eventOrder": 32,
       "title": "Sennacherib’s challenge and Hezekiah’s response",
       "summary": "Hezekiah prepares defenses and water supplies. Sennacherib challenges trust in God. Hezekiah and Isaiah pray, and the invader withdraws.",
-      "detail": "Hezekiah prepares defenses and encourages the people. He and Isaiah pray as Assyria threatens Jerusalem.",
+      "detail": "Hezekiah repairs walls and prepares weapons while facing Assyria. His speech asks the people to trust God. The account presents practical defense and prayer together. Assyrian records describe the campaign from the attacking king’s side. Compare the accounts without treating royal claims as neutral reports.",
       "dateLabel": "Chapter order · reign and composition dates require comparison",
       "uncertainty": "Selected named towns and broad reference regions. Markers do not establish exact ancient roads or political boundaries.",
       "sourceIds": [
@@ -2191,7 +2606,8 @@
         "tuell-chronicles",
         "millard-hezekiah",
         "taylor-prism",
-        "schaser-2-chronicles"
+        "schaser-2-chronicles",
+        "prism-taylor"
       ],
       "placeIds": [
         "jerusalem",
@@ -2214,7 +2630,7 @@
       "eventOrder": 33,
       "title": "Manasseh’s repentance and Amon’s refusal",
       "summary": "Manasseh promotes forbidden worship, suffers captivity, then humbles himself and returns. Amon refuses humility and dies in a conspiracy.",
-      "detail": "Manasseh humbles himself and returns to Jerusalem. He removes worship objects he had earlier introduced.",
+      "detail": "Captivity leads Manasseh to humble himself and return. Second Kings 21 emphasizes his wrongs without this repentance scene. Reading both reveals different emphases in the remembered account of one ruler.",
       "dateLabel": "Chapter order · reign and composition dates require comparison",
       "uncertainty": "Selected named towns and broad reference regions. Markers do not establish exact ancient roads or political boundaries.",
       "sourceIds": [
@@ -2243,7 +2659,7 @@
       "eventOrder": 34,
       "title": "Josiah changes worship and seeks Huldah's answer",
       "summary": "Josiah removes worship objects and repairs the temple. Hilkiah finds a law book, and Huldah explains its judgment and promise.",
-      "detail": "Huldah warns the king after the book is found. Josiah renews the people's promise to God.",
+      "detail": "The law book appears while workers repair the temple. Huldah's answer makes its words a challenge to the community's conduct. Physical repair becomes an occasion for judgment rather than proof that everything is settled.",
       "dateLabel": "Chapter order · reign and composition dates require comparison",
       "uncertainty": "Selected named towns and broad reference regions. Markers do not establish exact ancient roads or political boundaries.",
       "sourceIds": [
@@ -2269,7 +2685,7 @@
       "eventOrder": 35,
       "title": "Josiah’s Passover and death",
       "summary": "Josiah organizes a large Passover. Later he refuses Neco’s warning, suffers a battle wound, and dies after return to Jerusalem.",
-      "detail": "Neco warns Josiah against joining the battle. Josiah refuses the warning and dies from his wounds.",
+      "detail": "The Passover account strongly praises Josiah's organized worship. His later refusal to heed Neco leads to death. The chapter keeps faithful achievement beside a final failure to respond.",
       "dateLabel": "Chapter order · reign and composition dates require comparison",
       "uncertainty": "Selected named towns and broad reference regions. Markers do not establish exact ancient roads or political boundaries.",
       "sourceIds": [
@@ -2299,7 +2715,7 @@
       "eventOrder": 36,
       "title": "Exile and Cyrus’s proclamation",
       "summary": "The final kings face Egypt and Babylon. Jerusalem and the temple fall. Cyrus allows a return to rebuild the temple.",
-      "detail": "Jerusalem falls, and people go into exile. Cyrus later permits a return to rebuild the temple.",
+      "detail": "The final speech comes from Cyrus, a foreign ruler. It allows a return and the rebuilding of a temple. The book ends with movement ahead rather than another Judahite king. The Cyrus Cylinder gives wider context for Persian restoration claims. It does not name this return or prove every detail of the speech.",
       "dateLabel": "Chapter order · reign and composition dates require comparison",
       "uncertainty": "Selected named towns and broad reference regions. Markers do not establish exact ancient roads or political boundaries.",
       "sourceIds": [
@@ -2308,7 +2724,8 @@
         "tuell-chronicles",
         "luther-2-chronicles",
         "schaser-2-chronicles",
-        "wiki-2-chronicles"
+        "wiki-2-chronicles",
+        "cyrus"
       ],
       "placeIds": [
         "jerusalem",
@@ -2981,46 +3398,38 @@
   "words": [],
   "guides": [
     {
-      "id": "2-chronicles-overview",
-      "title": "Study 2 Chronicles",
-      "description": "Follow selected chapters through the book.",
+      "id": "2-chronicles-context",
+      "title": "2 Chronicles: context and evidence",
+      "description": "Explore the book’s larger concerns through selected passages and relevant evidence.",
       "steps": [
         {
-          "title": "Solomon seeks wisdom",
-          "text": "Solomon seeks wisdom at Gibeon. The chapter also describes royal wealth, horses, and trade. Solomon asks for wisdom to lead the people. God grants wisdom and also gives him wealth.",
-          "chapter": 1,
-          "verse": 1,
+          "title": "Water and metal serve different tasks",
+          "text": "The account distinguishes water for priests from water for washing offerings. The crafted basins serve repeated work around the temple. Their size and placement make worship depend on planned spaces. Read the objects through their tasks, not only their beauty. Regional metalwork offers comparison without reconstructing these exact vessels.",
+          "chapter": 4,
+          "verse": 6,
           "sourceIds": [
             "web",
-            "atlas-canaan",
-            "tuell-chronicles",
-            "luther-2-chronicles",
-            "wiki-2-chronicles"
+            "met-244562"
           ]
         },
         {
-          "title": "Correction and impartial judgment",
-          "text": "Jehu rebukes Jehoshaphat’s alliance. The king appoints judges and distinguishes religious and royal responsibilities. Jehoshaphat appoints judges and warns them against bribes. Their decisions must serve justice.",
-          "chapter": 19,
-          "verse": 1,
+          "title": "Defense combines work and trust",
+          "text": "Hezekiah repairs walls and prepares weapons while facing Assyria. His speech asks the people to trust God. The account presents practical defense and prayer together. Assyrian records describe the campaign from the attacking king’s side. Compare the accounts without treating royal claims as neutral reports.",
+          "chapter": 32,
+          "verse": 5,
           "sourceIds": [
             "web",
-            "atlas-canaan",
-            "tuell-chronicles"
+            "prism-taylor"
           ]
         },
         {
-          "title": "Exile and Cyrus’s proclamation",
-          "text": "The final kings face Egypt and Babylon. Jerusalem and the temple fall. Cyrus allows a return to rebuild the temple. Jerusalem falls, and people go into exile. Cyrus later permits a return to rebuild the temple.",
+          "title": "The last royal speech opens a road beyond exile",
+          "text": "The final speech comes from Cyrus, a foreign ruler. It allows a return and the rebuilding of a temple. The book ends with movement ahead rather than another Judahite king. The Cyrus Cylinder gives wider context for Persian restoration claims. It does not name this return or prove every detail of the speech.",
           "chapter": 36,
-          "verse": 1,
+          "verse": 23,
           "sourceIds": [
             "web",
-            "atlas-canaan",
-            "tuell-chronicles",
-            "luther-2-chronicles",
-            "schaser-2-chronicles",
-            "wiki-2-chronicles"
+            "cyrus"
           ]
         }
       ]
@@ -3153,7 +3562,8 @@
       "sourceIds": [
         "web",
         "atlas-canaan",
-        "tuell-chronicles"
+        "tuell-chronicles",
+        "met-244562"
       ]
     },
     {
@@ -3921,7 +4331,8 @@
         "tuell-chronicles",
         "millard-hezekiah",
         "taylor-prism",
-        "schaser-2-chronicles"
+        "schaser-2-chronicles",
+        "prism-taylor"
       ]
     },
     {
@@ -4030,11 +4441,193 @@
         "tuell-chronicles",
         "luther-2-chronicles",
         "schaser-2-chronicles",
-        "wiki-2-chronicles"
+        "wiki-2-chronicles",
+        "cyrus"
       ]
     }
   ],
   "textRoutes": [],
   "narrativeRegions": [],
-  "chapterStudies": []
+  "chapterStudies": [
+    {
+      "chapter": 1,
+      "verse": 10,
+      "context": ""
+    },
+    {
+      "chapter": 2,
+      "verse": 17,
+      "context": ""
+    },
+    {
+      "chapter": 3,
+      "verse": 1,
+      "context": ""
+    },
+    {
+      "chapter": 4,
+      "verse": 6,
+      "context": ""
+    },
+    {
+      "chapter": 5,
+      "verse": 13,
+      "context": ""
+    },
+    {
+      "chapter": 6,
+      "verse": 32,
+      "context": ""
+    },
+    {
+      "chapter": 7,
+      "verse": 19,
+      "context": ""
+    },
+    {
+      "chapter": 8,
+      "verse": 13,
+      "context": ""
+    },
+    {
+      "chapter": 9,
+      "verse": 7,
+      "context": ""
+    },
+    {
+      "chapter": 10,
+      "verse": 7,
+      "context": ""
+    },
+    {
+      "chapter": 11,
+      "verse": 4,
+      "context": ""
+    },
+    {
+      "chapter": 12,
+      "verse": 8,
+      "context": ""
+    },
+    {
+      "chapter": 13,
+      "verse": 12,
+      "context": ""
+    },
+    {
+      "chapter": 14,
+      "verse": 11,
+      "context": ""
+    },
+    {
+      "chapter": 15,
+      "verse": 8,
+      "context": ""
+    },
+    {
+      "chapter": 16,
+      "verse": 10,
+      "context": ""
+    },
+    {
+      "chapter": 17,
+      "verse": 9,
+      "context": ""
+    },
+    {
+      "chapter": 18,
+      "verse": 12,
+      "context": ""
+    },
+    {
+      "chapter": 19,
+      "verse": 7,
+      "context": ""
+    },
+    {
+      "chapter": 20,
+      "verse": 12,
+      "context": ""
+    },
+    {
+      "chapter": 21,
+      "verse": 4,
+      "context": ""
+    },
+    {
+      "chapter": 22,
+      "verse": 11,
+      "context": ""
+    },
+    {
+      "chapter": 23,
+      "verse": 16,
+      "context": ""
+    },
+    {
+      "chapter": 24,
+      "verse": 22,
+      "context": ""
+    },
+    {
+      "chapter": 25,
+      "verse": 16,
+      "context": ""
+    },
+    {
+      "chapter": 26,
+      "verse": 18,
+      "context": ""
+    },
+    {
+      "chapter": 27,
+      "verse": 2,
+      "context": ""
+    },
+    {
+      "chapter": 28,
+      "verse": 11,
+      "context": ""
+    },
+    {
+      "chapter": 29,
+      "verse": 36,
+      "context": ""
+    },
+    {
+      "chapter": 30,
+      "verse": 18,
+      "context": ""
+    },
+    {
+      "chapter": 31,
+      "verse": 18,
+      "context": ""
+    },
+    {
+      "chapter": 32,
+      "verse": 5,
+      "context": ""
+    },
+    {
+      "chapter": 33,
+      "verse": 12,
+      "context": ""
+    },
+    {
+      "chapter": 34,
+      "verse": 22,
+      "context": ""
+    },
+    {
+      "chapter": 35,
+      "verse": 22,
+      "context": ""
+    },
+    {
+      "chapter": 36,
+      "verse": 23,
+      "context": ""
+    }
+  ]
 }

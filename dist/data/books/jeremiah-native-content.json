@@ -318,6 +318,92 @@
       "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
       "type": "Geographic reference",
       "limitations": "An open geographic compilation, not archaeological proof of narrated events. Coordinates are approximate display points. Competing identifications remain uncertain. No index photographs are copied."
+    },
+    {
+      "id": "met-321953",
+      "title": "Cuneiform tablet: field sale",
+      "url": "https://www.metmuseum.org/art/collection/search/321953",
+      "author": "The Metropolitan Museum of Art",
+      "category": "museum",
+      "perspective": "historical",
+      "summary": "This Babylonian clay tablet records a field sale.",
+      "limits": "It shows that land sales could have written records. It is earlier regional evidence, not the biblical deed.",
+      "previewText": "This Babylonian clay tablet records a field sale. It shows that land sales could have written records. It is earlier regional evidence, not the biblical deed.",
+      "image": {
+        "src": "assets/study-objects/met-321953.jpg",
+        "fullUrl": "https://images.metmuseum.org/CRDImages/an/original/ME86_11_329.jpg",
+        "sourceUrl": "https://www.metmuseum.org/art/collection/search/321953",
+        "creditUrl": "https://www.metmuseum.org/art/collection/search/321953",
+        "credit": "The Metropolitan Museum of Art",
+        "license": "CC0 / Public domain",
+        "licenseUrl": "https://www.metmuseum.org/policies/image-resources",
+        "alt": "Cuneiform tablet: field sale",
+        "caption": "Cuneiform tablet: field sale · ca. 20th–16th century BCE · The Met",
+        "width": 554,
+        "height": 624
+      },
+      "date": "ca. 20th–16th century BCE",
+      "objectNumber": "86.11.329",
+      "creditLine": "Purchase, 1886",
+      "reviewed": {
+        "date": "2026-10-05",
+        "scope": "Museum object description, identity, date, and public-domain image metadata."
+      },
+      "access": "Public museum collection record and Open Access API",
+      "license": "CC0 / Public domain",
+      "chapterCoverage": [
+        32
+      ],
+      "imageChapters": [
+        32
+      ],
+      "type": "museum",
+      "limitations": "It shows that land sales could have written records. It is earlier regional evidence, not the biblical deed."
+    },
+    {
+      "id": "met-560805",
+      "title": "Scribe's Palette",
+      "url": "https://www.metmuseum.org/art/collection/search/560805",
+      "author": "The Metropolitan Museum of Art",
+      "category": "museum",
+      "perspective": "historical",
+      "summary": "This Egyptian palette held ink and reeds used for writing.",
+      "limits": "The palette offers a comparison for writing tools. It is not an Israelite object or Baruch’s equipment.",
+      "previewText": "This Egyptian palette held ink and reeds used for writing. The palette offers a comparison for writing tools. It is not an Israelite object or Baruch’s equipment.",
+      "image": {
+        "src": "assets/study-objects/met-560805.jpg",
+        "fullUrl": "https://images.metmuseum.org/CRDImages/eg/original/DP307883.jpg",
+        "sourceUrl": "https://www.metmuseum.org/art/collection/search/560805",
+        "creditUrl": "https://www.metmuseum.org/art/collection/search/560805",
+        "credit": "The Metropolitan Museum of Art",
+        "license": "CC0 / Public domain",
+        "licenseUrl": "https://www.metmuseum.org/policies/image-resources",
+        "alt": "Scribe's Palette",
+        "caption": "Scribe's Palette · ca. 2030–1550 BC · The Met",
+        "width": 599,
+        "height": 404
+      },
+      "date": "ca. 2030–1550 BC",
+      "objectNumber": "10.176.62",
+      "creditLine": "Rogers Fund, 1910",
+      "reviewed": {
+        "date": "2026-10-05",
+        "scope": "Museum object description, identity, date, and public-domain image metadata."
+      },
+      "access": "Public museum collection record and Open Access API",
+      "license": "CC0 / Public domain",
+      "chapterCoverage": [
+        29,
+        36,
+        51
+      ],
+      "imageChapters": [
+        29,
+        36,
+        51
+      ],
+      "type": "museum",
+      "limitations": "The palette offers a comparison for writing tools. It is not an Israelite object or Baruch’s equipment."
     }
   ],
   "passages": [
@@ -327,7 +413,7 @@
       "start": 1,
       "end": 19,
       "title": "Jeremiah receives his call",
-      "summary": "God appoints Jeremiah to speak to nations. Jeremiah objects that he is young and cannot speak. God answers Jeremiah’s fear with a promise of presence. The call includes both tearing down and building.",
+      "summary": "God appoints Jeremiah to speak to nations. Jeremiah objects that he is young and cannot speak.",
       "year": null,
       "dateLabel": "Chapter order",
       "uncertainty": "Map points locate named places. Lines connect stated movements where the passage gives endpoints.",
@@ -345,6 +431,14 @@
         "sourceIds": [
           "cfm-jeremiah-1"
         ]
+      },
+      "contextNote": {
+        "title": "The call sets the book's two directions",
+        "text": "The verbs of destruction come before the verbs of planting and building. Jeremiah's task therefore includes both loss and a future beyond it. The visions develop that task before public speeches begin. His youth explains his objection, but it does not define the reach of his message.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -353,7 +447,7 @@
       "start": 1,
       "end": 37,
       "title": "Broken water tanks and abandoned loyalty",
-      "summary": "Jeremiah recalls Israel’s early loyalty and later worship of other gods. He challenges reliance on Egypt and Assyria. A broken water tank cannot hold the water people need. The comparison questions choices that leave Israel without reliable help.",
+      "summary": "Jeremiah recalls Israel’s early loyalty and later worship of other gods. He challenges reliance on Egypt and Assyria.",
       "year": null,
       "dateLabel": "Chapter order",
       "uncertainty": "Map points locate named places. Lines connect stated movements where the passage gives endpoints.",
@@ -371,6 +465,14 @@
         "sourceIds": [
           "cfm-jeremiah-1"
         ]
+      },
+      "contextNote": {
+        "title": "A water image explains failed dependence",
+        "text": "The contrast places a living source beside containers that cannot retain water. It describes chosen replacements as inadequate to the need they must meet. Later references to Egypt and Assyria extend the question into political dependence. The chapter connects worship and alliances through that same problem.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -379,7 +481,7 @@
       "start": 1,
       "end": 25,
       "title": "An invitation to return",
-      "summary": "God compares Israel and Judah with unfaithful wives. He calls scattered people to return and promises caring leaders. The marriage comparison accuses the nations of broken loyalty. The invitation still offers return rather than permanent rejection.",
+      "summary": "God compares Israel and Judah with unfaithful wives. He calls scattered people to return and promises caring leaders.",
       "year": null,
       "dateLabel": "Chapter order",
       "uncertainty": "Map points locate named places. Lines connect stated movements where the passage gives endpoints.",
@@ -395,6 +497,14 @@
         "sourceIds": [
           "cfm-jeremiah-1"
         ]
+      },
+      "contextNote": {
+        "title": "One nation's failure does not excuse another",
+        "text": "Judah has witnessed Israel's breach and its consequences. The comparison therefore increases Judah's responsibility rather than proving its superiority. Calls to return follow the accusations. The marriage image describes the nations' loyalty. It is not a rule for judging women.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -403,7 +513,7 @@
       "start": 1,
       "end": 31,
       "title": "An approaching enemy and a ruined land",
-      "summary": "Jeremiah warns of an army coming from the north. He pictures the land without light, people, or fruitful fields. The ruined landscape reverses the ordered world of creation. Jeremiah’s grief shows what the threatened destruction would cost.",
+      "summary": "Jeremiah warns of an army coming from the north. He pictures the land without light, people, or fruitful fields.",
       "year": null,
       "dateLabel": "Chapter order",
       "uncertainty": "Map points locate named places. Lines connect stated movements where the passage gives endpoints.",
@@ -417,6 +527,14 @@
       "lds": {
         "text": "Why does Jeremiah describe the land as empty and dark?",
         "sourceIds": []
+      },
+      "contextNote": {
+        "title": "Destruction reverses the language of creation",
+        "text": "The vision removes light, people, birds, and fruitful land from the scene. Its sequence makes the threatened loss larger than defeat in battle. Jeremiah's bodily distress gives that vision a grieving witness. The passage joins warning with an account of what a ruined world would lose.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -425,7 +543,7 @@
       "start": 1,
       "end": 31,
       "title": "A search for justice",
-      "summary": "Jeremiah searches Jerusalem for someone who acts justly. He finds wrongdoing among poor people, leaders, prophets, and priests. Powerful people know the law but still reject it. The search prevents readers from blaming only the poor.",
+      "summary": "Jeremiah searches Jerusalem for someone who acts justly. He finds wrongdoing among poor people, leaders, prophets, and priests.",
       "year": null,
       "dateLabel": "Chapter order",
       "uncertainty": "Map points locate named places. Lines connect stated movements where the passage gives endpoints.",
@@ -439,6 +557,14 @@
       "lds": {
         "text": "How does Jeremiah’s search change when he turns to powerful people?",
         "sourceIds": []
+      },
+      "contextNote": {
+        "title": "Knowledge of the law does not explain away injustice",
+        "text": "Jeremiah first expects leaders to understand what poor people may not know. Their conduct defeats that expectation. The search moves through social ranks rather than blaming one group alone. The later charges against prophets and priests make the failure a problem of public authority.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -447,7 +573,7 @@
       "start": 1,
       "end": 30,
       "title": "Warnings that people refuse to hear",
-      "summary": "An enemy threatens Jerusalem. Leaders promise peace while people reject warnings and refuse to walk the older good path. The claim of peace hides wounds that need attention. Jeremiah compares ignored correction with metal that cannot be cleaned.",
+      "summary": "An enemy threatens Jerusalem. Leaders promise peace while people reject warnings and refuse to walk the older good path.",
       "year": null,
       "dateLabel": "Chapter order",
       "uncertainty": "Map points locate named places. Lines connect stated movements where the passage gives endpoints.",
@@ -461,6 +587,14 @@
       "lds": {
         "text": "What damage follows the leaders’ promise of peace?",
         "sourceIds": []
+      },
+      "contextNote": {
+        "title": "Reassurance can conceal a wound",
+        "text": "The charge against leaders compares comforting speech with inadequate treatment of an injury. Calling the situation peaceful does not make the damage disappear. Warnings about deaf ears explain why correction fails to reach its hearers. The chapter tests speech by what it allows people to ignore.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -469,7 +603,7 @@
       "start": 1,
       "end": 34,
       "title": "Temple worship and harm to neighbors",
-      "summary": "Jeremiah challenges people who trust the temple while harming others. Families also make offerings to the queen of the sky. The building cannot protect people who exploit their neighbors. Data Over Dogma notes that men, children, and women prepare the offerings together.",
+      "summary": "Jeremiah challenges people who trust the temple while harming others. Families also make offerings to the queen of the sky.",
       "year": null,
       "dateLabel": "Chapter order",
       "uncertainty": "Map points locate named places. Lines connect stated movements where the passage gives endpoints.",
@@ -488,6 +622,14 @@
         "sourceIds": [
           "cfm-jeremiah-1"
         ]
+      },
+      "contextNote": {
+        "title": "A temple can become a false source of safety",
+        "text": "The warning targets trust in the temple’s name without changed conduct. Jeremiah connects worship with justice toward strangers, widows, and children without fathers. He also names theft, killing, and other gods. The building cannot protect a community that ignores these duties. Read the speech as a challenge to public habits, not only private belief.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -496,7 +638,7 @@
       "start": 1,
       "end": 22,
       "title": "Rejected warnings and grief for the wounded",
-      "summary": "Jeremiah describes people refusing to return and scribes distorting the law. He grieves as harvest ends without deliverance. Knowing the law has not produced careful action. The unanswered question about healing expresses grief rather than easy reassurance.",
+      "summary": "Jeremiah describes people refusing to return and scribes distorting the law. He grieves as harvest ends without deliverance.",
       "year": null,
       "dateLabel": "Chapter order",
       "uncertainty": "Map points locate named places. Lines connect stated movements where the passage gives endpoints.",
@@ -511,6 +653,14 @@
       "lds": {
         "text": "Why does Jeremiah ask about medicine when describing his people’s wounds?",
         "sourceIds": []
+      },
+      "contextNote": {
+        "title": "Possessing written law does not secure right judgment",
+        "text": "The claim about scribes challenges confidence in the handling of the law itself. The chapter connects that confidence with refusal to return. Jeremiah's grief then gives the human cost a voice. Read the questions about healing beside the failure of those who claim to know.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -519,7 +669,7 @@
       "start": 1,
       "end": 26,
       "title": "Broken trust and reasons for grief",
-      "summary": "Jeremiah mourns a people who lie and betray neighbors. He urges boasting in knowing God rather than wealth or strength. Repeated lies make even friendships unsafe. Knowing God appears through kindness and justice rather than social rank.",
+      "summary": "Jeremiah mourns a people who lie and betray neighbors. He urges boasting in knowing God rather than wealth or strength.",
       "year": null,
       "dateLabel": "Chapter order",
       "uncertainty": "Map points locate named places. Lines connect stated movements where the passage gives endpoints.",
@@ -533,6 +683,14 @@
       "lds": {
         "text": "What replaces wealth, wisdom, and strength as a reason for praise?",
         "sourceIds": []
+      },
+      "contextNote": {
+        "title": "Knowing God receives a practical definition",
+        "text": "The passage names kindness, justice, and righteousness after rejecting boasts of wealth and strength. Those actions answer the surrounding descriptions of deceit and unsafe relationships. Knowledge is measured through conduct that others experience. The chapter moves from broken public trust to the terms on which trust might return.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -541,7 +699,7 @@
       "start": 1,
       "end": 25,
       "title": "Made idols and the living God",
-      "summary": "Jeremiah contrasts idols made from wood and metal with God. He mourns ruined homes and asks for measured correction. People must carry the objects that they made. Their inability to move supports the challenge to trusting them.",
+      "summary": "Jeremiah contrasts idols made from wood and metal with God. He mourns ruined homes and asks for measured correction.",
       "year": null,
       "dateLabel": "Chapter order",
       "uncertainty": "Map points locate named places. Lines connect stated movements where the passage gives endpoints.",
@@ -555,6 +713,14 @@
       "lds": {
         "text": "How does the need to carry an idol support Jeremiah’s argument?",
         "sourceIds": []
+      },
+      "contextNote": {
+        "title": "Craftsmanship and authority are different claims",
+        "text": "The description follows cutting, shaping, fastening, and carrying an object. Those human actions expose the idol's dependence on its makers. The chapter then turns to ruined tents and scattered children. Its argument about trust sits beside a community whose ordinary supports are failing.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -563,7 +729,7 @@
       "start": 1,
       "end": 23,
       "title": "A broken covenant and threats from Anathoth",
-      "summary": "God condemns Judah’s broken agreement and worship of Baal. Jeremiah learns that people from Anathoth plan to kill him. People from Jeremiah’s own community threaten him for speaking God’s message. They demand his silence rather than change their conduct.",
+      "summary": "God condemns Judah’s broken agreement and worship of Baal. Jeremiah learns that people from Anathoth plan to kill him.",
       "year": null,
       "dateLabel": "Chapter order",
       "uncertainty": "Map points locate named places. Lines connect stated movements where the passage gives endpoints.",
@@ -578,6 +744,14 @@
       "lds": {
         "text": "Why does the threat from Anathoth make Jeremiah’s task harder?",
         "sourceIds": []
+      },
+      "contextNote": {
+        "title": "The speaker's own community tries to restrict his speech",
+        "text": "The threats arise in Anathoth, not only at the royal court. Familiar relationships therefore offer no automatic protection from opposition. The demand for silence turns a public covenant dispute into personal danger. Jeremiah's response brings the cost of speaking into the book's account.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -586,7 +760,7 @@
       "start": 1,
       "end": 17,
       "title": "Jeremiah questions the success of wrongdoers",
-      "summary": "Jeremiah asks why dishonest people prosper. God warns about betrayal within his family and describes the ruined land. Jeremiah’s question joins personal danger with public injustice. The answer prepares him for greater strain rather than immediate relief.",
+      "summary": "Jeremiah asks why dishonest people prosper. God warns about betrayal within his family and describes the ruined land.",
       "year": null,
       "dateLabel": "Chapter order",
       "uncertainty": "Map points locate named places. Lines connect stated movements where the passage gives endpoints.",
@@ -598,6 +772,14 @@
       "lds": {
         "text": "How does the warning about Jeremiah’s family answer his complaint?",
         "sourceIds": []
+      },
+      "contextNote": {
+        "title": "A complaint tests the gap between justice and experience",
+        "text": "Jeremiah addresses God as righteous before asking why wrongdoers prosper. His question comes from observed conduct, not rejection of all justice. The answer warns of greater strain rather than immediate protection. Personal betrayal and a damaged land then widen the complaint beyond his own safety.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -606,7 +788,7 @@
       "start": 1,
       "end": 27,
       "title": "A ruined waistband and stubborn habits",
-      "summary": "Jeremiah buries a linen waistband and retrieves it ruined. God compares Judah’s pride and stubborn conduct with ruined cloth. The waistband once stayed close to its wearer. Its ruin shows lost closeness and usefulness. The skin comparison concerns unchanged traits, not skin’s moral value.",
+      "summary": "Jeremiah buries a linen waistband and retrieves it ruined. God compares Judah’s pride and stubborn conduct with ruined cloth.",
       "year": null,
       "dateLabel": "Chapter order",
       "uncertainty": "Map points locate named places. Lines connect stated movements where the passage gives endpoints.",
@@ -620,6 +802,14 @@
       "lds": {
         "text": "What does the waistband’s change explain about Judah’s broken loyalty?",
         "sourceIds": []
+      },
+      "contextNote": {
+        "title": "A close-fitting object represents a broken relationship",
+        "text": "The linen belt belongs next to its wearer rather than at a distance. Its ruined condition makes lost closeness and usefulness visible. The act gives physical form to the chapter's accusation of pride. The later comparisons concern stubborn habits, not a moral ranking of skin colors.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -628,7 +818,7 @@
       "start": 1,
       "end": 22,
       "title": "Drought and competing messages",
-      "summary": "Drought leaves people and animals without water. Jeremiah pleads for help while other prophets deny coming war and hunger. The prophets’ reassurance conflicts with visible suffering and Jeremiah’s warning. Their claim cannot remove the danger facing those who believe them.",
+      "summary": "Drought leaves people and animals without water. Jeremiah pleads for help while other prophets deny coming war and hunger.",
       "year": null,
       "dateLabel": "Chapter order",
       "uncertainty": "Map points locate named places. Lines connect stated movements where the passage gives endpoints.",
@@ -642,6 +832,14 @@
       "lds": {
         "text": "How do the prophets’ promises differ from Jeremiah’s warning?",
         "sourceIds": []
+      },
+      "contextNote": {
+        "title": "Competing messages appear during visible scarcity",
+        "text": "The drought description begins with failed searches for water and suffering animals. Jeremiah's report of reassuring prophets follows that scene. Their promised peace must be read against conditions already shown to the reader. The conflict concerns whose words can be trusted during a public emergency.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -650,7 +848,7 @@
       "start": 1,
       "end": 21,
       "title": "Jeremiah’s suffering and renewed task",
-      "summary": "God rejects further pleading for Judah and recalls Manasseh’s wrongdoing. Jeremiah describes isolation and receives a renewed charge to speak. Jeremiah’s service has brought pain rather than public approval. God calls him to return and speak carefully without joining his opponents.",
+      "summary": "God rejects further pleading for Judah and recalls Manasseh’s wrongdoing. Jeremiah describes isolation and receives a renewed charge to speak.",
       "year": null,
       "dateLabel": "Chapter order",
       "uncertainty": "Map points locate named places. Lines connect stated movements where the passage gives endpoints.",
@@ -664,6 +862,14 @@
       "lds": {
         "text": "What must Jeremiah change when God renews his charge?",
         "sourceIds": []
+      },
+      "contextNote": {
+        "title": "The prophet's complaint is part of his service",
+        "text": "Jeremiah describes isolation and pain within his speech to God. The account does not reserve distress for people who reject the message. His renewed charge answers that complaint without promising public approval. Read his return to speaking beside the cost that made him question it.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -672,7 +878,7 @@
       "start": 1,
       "end": 21,
       "title": "Missing celebrations and pursuing hunters",
-      "summary": "God forbids Jeremiah to marry or join mourning and feasts. He describes scattering, return, and fishers and hunters pursuing people. Jeremiah’s missing household and celebrations show coming loss. The fishers and hunters pursue people whose wrongdoing God sees.",
+      "summary": "God forbids Jeremiah to marry or join mourning and feasts. He describes scattering, return, and fishers and hunters pursuing people.",
       "year": null,
       "dateLabel": "Chapter order",
       "uncertainty": "Map points locate named places. Lines connect stated movements where the passage gives endpoints.",
@@ -686,6 +892,14 @@
         "sourceIds": [
           "cfm-jeremiah-1"
         ]
+      },
+      "contextNote": {
+        "title": "Missing household rituals make coming loss visible",
+        "text": "Marriage, mourning, and feasting normally place a person within community life. Jeremiah's absence from them becomes part of his message. The restrictions describe losses that the wider people will soon experience. His body and daily habits carry a warning alongside his spoken words.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -694,7 +908,7 @@
       "start": 1,
       "end": 27,
       "title": "Trust, hidden motives, and the Sabbath",
-      "summary": "Jeremiah contrasts trust in human strength with trust in God. He warns against carrying burdens through Jerusalem’s gates on the Sabbath. A tree near water can survive heat without losing fruit. The comparison explains steady dependence rather than a life without difficulty.",
+      "summary": "Jeremiah contrasts trust in human strength with trust in God. He warns against carrying burdens through Jerusalem’s gates on the Sabbath.",
       "year": null,
       "dateLabel": "Chapter order",
       "uncertainty": "Map points locate named places. Lines connect stated movements where the passage gives endpoints.",
@@ -710,6 +924,14 @@
         "sourceIds": [
           "cfm-jeremiah-1"
         ]
+      },
+      "contextNote": {
+        "title": "The tree image allows difficulty within trust",
+        "text": "The tree remains fruitful while heat and drought still occur. Trust therefore changes its resources rather than removing adverse conditions. Later instructions about Sabbath burdens bring dependence into work and trade. The chapter connects hidden motives with choices visible at the city's gates.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -718,7 +940,7 @@
       "start": 1,
       "end": 23,
       "title": "A potter’s work and plots against Jeremiah",
-      "summary": "Jeremiah watches a potter remake spoiled clay. Opponents plan to silence him, and he asks God to punish them. The potter’s changed work explains how a nation’s conduct affects its future. Jeremiah’s later prayer expresses anger at people seeking his death.",
+      "summary": "Jeremiah watches a potter remake spoiled clay. Opponents plan to silence him, and he asks God to punish them.",
       "year": null,
       "dateLabel": "Chapter order",
       "uncertainty": "Map points locate named places. Lines connect stated movements where the passage gives endpoints.",
@@ -734,6 +956,14 @@
         "sourceIds": [
           "cfm-jeremiah-1"
         ]
+      },
+      "contextNote": {
+        "title": "Soft clay presents a future that can change",
+        "text": "The potter can remake material that has not yet hardened. The explanation connects a nation's changed conduct with a changed outcome. The opponents' plans then show resistance to that possibility. Jeremiah's angry prayer belongs to the conflict that follows the teaching, not the potter's explanation.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -742,7 +972,7 @@
       "start": 1,
       "end": 15,
       "title": "A broken jar before the elders",
-      "summary": "Jeremiah takes elders to the Hinnom Valley and breaks a jar. He condemns child sacrifice and warns of siege and death. Unlike the soft clay, the broken jar cannot be remade. The act presents a warning of destruction that has become unavoidable.",
+      "summary": "Jeremiah takes elders to the Hinnom Valley and breaks a jar. He condemns child sacrifice and warns of siege and death.",
       "year": null,
       "dateLabel": "Chapter order",
       "uncertainty": "Map points locate named places. Lines connect stated movements where the passage gives endpoints.",
@@ -757,6 +987,14 @@
       "lds": {
         "text": "How does the broken jar differ from the clay in chapter 18?",
         "sourceIds": []
+      },
+      "contextNote": {
+        "title": "A broken vessel changes the force of the earlier image",
+        "text": "The jar differs from the soft clay in chapter 18. Once broken, it cannot simply return to its previous form. Taking elders as witnesses makes the action public. The warning presents a limit to the opportunity for change described in the earlier scene.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -765,7 +1003,7 @@
       "start": 1,
       "end": 18,
       "title": "Pashhur attacks Jeremiah",
-      "summary": "Pashhur strikes Jeremiah and puts him in stocks. Jeremiah warns him of exile, praises God, and curses his own birth. Jeremiah cannot silence the message even when speaking brings shame. His praise does not erase his anguish or wish never to have lived.",
+      "summary": "Pashhur strikes Jeremiah and puts him in stocks. Jeremiah warns him of exile, praises God, and curses his own birth.",
       "year": null,
       "dateLabel": "Chapter order",
       "uncertainty": "Map points locate named places. Lines connect stated movements where the passage gives endpoints.",
@@ -782,6 +1020,14 @@
         "sourceIds": [
           "cfm-jeremiah-1"
         ]
+      },
+      "contextNote": {
+        "title": "Praise and anguish remain in the same voice",
+        "text": "Jeremiah describes a message he cannot contain despite humiliation. The chapter moves from that pressure to praise and then a curse on his birth. These shifts prevent a smooth account of successful service. His confidence in rescue does not remove his suffering from the book.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -790,7 +1036,7 @@
       "start": 1,
       "end": 14,
       "title": "Zedekiah asks for rescue",
-      "summary": "Zedekiah sends Pashhur and Zephaniah to ask about Babylon’s attack. Jeremiah says surrender offers life while resistance brings death. The king hopes for rescue without changing the city’s course. Jeremiah places survival beside the king’s duty to stop oppression.",
+      "summary": "Zedekiah sends Pashhur and Zephaniah to ask about Babylon’s attack. Jeremiah says surrender offers life while resistance brings death.",
       "year": null,
       "dateLabel": "Chapter order",
       "uncertainty": "Map points locate named places. Lines connect stated movements where the passage gives endpoints.",
@@ -805,6 +1051,14 @@
       "lds": {
         "text": "What answer challenges Zedekiah’s hope for a miraculous rescue?",
         "sourceIds": []
+      },
+      "contextNote": {
+        "title": "A request for rescue meets a demand for justice",
+        "text": "The royal delegation seeks help against an approaching army. Jeremiah's answer includes the ruler's duty to protect people from oppression. Military danger does not make domestic injustice irrelevant. The offered way to survive also conflicts with the king's hope for a restored victory.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -813,7 +1067,7 @@
       "start": 1,
       "end": 30,
       "title": "Kings judged by their treatment of others",
-      "summary": "Jeremiah condemns unpaid labor and violence under Judah’s kings. He contrasts Jehoiakim’s grand house with Josiah’s care for poor people. Fine cedar does not make a ruler just. Josiah’s defense of needy people gives a different measure of knowing God.",
+      "summary": "Jeremiah condemns unpaid labor and violence under Judah’s kings. He contrasts Jehoiakim’s grand house with Josiah’s care for poor people.",
       "year": null,
       "dateLabel": "Chapter order",
       "uncertainty": "Map points locate named places. Lines connect stated movements where the passage gives endpoints.",
@@ -827,6 +1081,14 @@
       "lds": {
         "text": "Why does Jeremiah compare Jehoiakim’s cedar house with Josiah’s care for poor people?",
         "sourceIds": []
+      },
+      "contextNote": {
+        "title": "Royal buildings reveal how power treats workers",
+        "text": "The accusation concerns a fine house built through unpaid labor. Cedar and size cannot supply the justice missing from its construction. Josiah's treatment of poor people gives the comparison its alternative measure. The chapter judges royal achievement through the people who bear its cost.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -835,7 +1097,7 @@
       "start": 1,
       "end": 40,
       "title": "Harmful leaders and prophets who promise peace",
-      "summary": "God condemns leaders who scatter people and promises a just ruler. Jeremiah challenges prophets who give false comfort and report invented dreams. The prophets’ words encourage people to continue harming others. A useful message would turn them from those actions.",
+      "summary": "God condemns leaders who scatter people and promises a just ruler. Jeremiah challenges prophets who give false comfort and report invented dreams.",
       "year": null,
       "dateLabel": "Chapter order",
       "uncertainty": "Map points locate named places. Lines connect stated movements where the passage gives endpoints.",
@@ -850,6 +1112,14 @@
       "lds": {
         "text": "What effect should a prophet’s words have on people’s conduct?",
         "sourceIds": []
+      },
+      "contextNote": {
+        "title": "A prophet's effect on conduct matters",
+        "text": "The critique links false reassurance with continued wrongdoing. A claim to speak for God cannot be tested by comfort alone. The chapter asks whether speech turns people from harm. Its promised ruler answers the scattered people's need for justice rather than another impressive title.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -858,7 +1128,7 @@
       "start": 1,
       "end": 10,
       "title": "Two baskets of figs",
-      "summary": "God compares deported Judeans with good figs. He compares Zedekiah and those left in Judah or Egypt with spoiled figs. Being taken away does not mean God has abandoned the captives. The good figs challenge the remaining rulers’ claim to safety.",
+      "summary": "God compares deported Judeans with good figs. He compares Zedekiah and those left in Judah or Egypt with spoiled figs.",
       "year": null,
       "dateLabel": "Chapter order",
       "uncertainty": "Map points locate named places. Lines connect stated movements where the passage gives endpoints.",
@@ -874,6 +1144,14 @@
       "lds": {
         "text": "How do the good figs challenge assumptions about those taken to Babylon?",
         "sourceIds": []
+      },
+      "contextNote": {
+        "title": "Remaining at home does not prove divine favor",
+        "text": "The good figs represent people already taken away. That choice reverses an easy equation between survival in Judah and security. The promise of rebuilding reaches the displaced group. The vision therefore changes whose experience can carry the community's future.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -882,7 +1160,7 @@
       "start": 1,
       "end": 38,
       "title": "Babylon’s rule and the cup of anger",
-      "summary": "Jeremiah recounts twenty-three years of ignored warnings. He announces seventy years of Babylonian rule and judgment against many nations. Babylon serves as an instrument of punishment but also faces judgment. The cup places Judah’s suffering within a wider warning against nations.",
+      "summary": "Jeremiah recounts twenty-three years of ignored warnings. He announces seventy years of Babylonian rule and judgment against many nations.",
       "year": null,
       "dateLabel": "Chapter order",
       "uncertainty": "Map points locate named places. Lines connect stated movements where the passage gives endpoints.",
@@ -903,6 +1181,14 @@
       "lds": {
         "text": "Why does Babylon face judgment after serving God’s announced purpose?",
         "sourceIds": []
+      },
+      "contextNote": {
+        "title": "The conqueror also comes under judgment",
+        "text": "Babylon's announced role does not place it outside the wider warning. Its own punishment follows the period assigned to its rule. The cup then extends the scene to other nations. Read Judah's loss within that wider account without treating conquest as innocence.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -911,7 +1197,7 @@
       "start": 1,
       "end": 24,
       "title": "Jeremiah faces a death charge",
-      "summary": "Priests and prophets demand Jeremiah’s death after his temple warning. Officials spare him, while Jehoiakim has another prophet, Uriah, killed. Remembering Micah’s warning helps people defend Jeremiah. Uriah’s death shows that similar speech does not guarantee the same outcome.",
+      "summary": "Priests and prophets demand Jeremiah’s death after his temple warning. Officials spare him, while Jehoiakim has another prophet, Uriah, killed.",
       "year": null,
       "dateLabel": "Chapter order",
       "uncertainty": "Map points locate named places. Lines connect stated movements where the passage gives endpoints.",
@@ -927,6 +1213,14 @@
       "lds": {
         "text": "How does the memory of Micah help Jeremiah when Uriah receives no protection?",
         "sourceIds": []
+      },
+      "contextNote": {
+        "title": "Earlier prophecy becomes evidence in a public hearing",
+        "text": "The elders recall Micah when officials consider the demand for Jeremiah's death. That memory provides an alternative response to an unwelcome warning. Uriah's different fate prevents the hearing from becoming a universal promise of safety. Similar speech can meet different exercises of royal power.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -935,7 +1229,7 @@
       "start": 1,
       "end": 22,
       "title": "A yoke warns against rebellion",
-      "summary": "Jeremiah wears a wooden yoke and urges rulers to serve Babylon. He rejects promises that temple vessels will soon return. A yoke joins animals for pulling loads. Jeremiah uses it to show the burden of Babylon’s rule.",
+      "summary": "Jeremiah wears a wooden yoke and urges rulers to serve Babylon. He rejects promises that temple vessels will soon return.",
       "year": null,
       "dateLabel": "Chapter order",
       "uncertainty": "Map points locate named places. Lines connect stated movements where the passage gives endpoints.",
@@ -954,6 +1248,14 @@
       "lds": {
         "text": "Why does Jeremiah treat accepting the yoke as a way to survive?",
         "sourceIds": []
+      },
+      "contextNote": {
+        "title": "An object challenges the hope for immediate independence",
+        "text": "The yoke makes foreign service visible as a burden. Jeremiah directs the warning to rulers weighing resistance. The dispute about temple vessels connects political hope with sacred property. Preserving life, in this message, requires accepting a condition the audience wants to remove.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -962,7 +1264,7 @@
       "start": 1,
       "end": 17,
       "title": "Hananiah breaks the yoke",
-      "summary": "Hananiah promises return within two years and breaks Jeremiah’s wooden yoke. Jeremiah answers with an iron yoke, and Hananiah dies. Breaking the object does not remove the power it represents. The dispute tests a comforting promise against what actually happens.",
+      "summary": "Hananiah promises return within two years and breaks Jeremiah’s wooden yoke. Jeremiah answers with an iron yoke, and Hananiah dies.",
       "year": null,
       "dateLabel": "Chapter order",
       "uncertainty": "Map points locate named places. Lines connect stated movements where the passage gives endpoints.",
@@ -977,6 +1279,14 @@
       "lds": {
         "text": "What does Jeremiah’s iron yoke answer in Hananiah’s promise?",
         "sourceIds": []
+      },
+      "contextNote": {
+        "title": "Breaking a symbol does not settle a dispute",
+        "text": "Hananiah's action dramatizes his promise of a swift return. Jeremiah distinguishes that promise from evidence of its fulfillment. The replacement iron yoke increases the warning's force. The chapter tests an attractive message through events rather than the confidence of its speaker.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -985,7 +1295,7 @@
       "start": 1,
       "end": 32,
       "title": "A letter to people in exile",
-      "summary": "Jeremiah tells captives to build homes and seek Babylon’s peace. He rejects other prophets’ claims and answers Shemaiah’s attempt to silence him. The promised future includes a long wait and ordinary work. Seeking the city’s peace helps people live during that wait.",
+      "summary": "Jeremiah tells captives to build homes and seek Babylon’s peace. He rejects other prophets’ claims and answers Shemaiah’s attempt to silence him.",
       "year": null,
       "dateLabel": "Chapter order",
       "uncertainty": "Map points locate named places. Lines connect stated movements where the passage gives endpoints.",
@@ -995,11 +1305,22 @@
       ],
       "sourceIds": [
         "web",
-        "luther-jeremiah-summary"
+        "luther-jeremiah-summary",
+        "met-560805"
       ],
       "lds": {
         "text": "Why does Jeremiah tell captives to pray for the city that holds them?",
         "sourceIds": []
+      },
+      "contextNote": {
+        "title": "A promise of return includes ordinary life in exile",
+        "text": "The letter names homes, gardens, marriages, and the city's peace. These duties assume a stay longer than the rival prophets promise. A hoped-for future does not cancel present work among foreign neighbors. Read the later promise beside these instructions for the years before it.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": [
+          "met-560805"
+        ]
       }
     },
     {
@@ -1008,7 +1329,7 @@
       "start": 1,
       "end": 24,
       "title": "Healing after national suffering",
-      "summary": "God promises Israel and Judah return, healing, and renewed life. He also says the nations that plundered them will face loss. The wounded people have no help from former allies. The promise addresses both their injuries and their loss of belonging.",
+      "summary": "God promises Israel and Judah return, healing, and renewed life. He also says the nations that plundered them will face loss.",
       "year": null,
       "dateLabel": "Chapter order",
       "uncertainty": "Map points locate named places. Lines connect stated movements where the passage gives endpoints.",
@@ -1022,6 +1343,14 @@
       "lds": {
         "text": "What does God promise people whom others call abandoned?",
         "sourceIds": []
+      },
+      "contextNote": {
+        "title": "Healing answers both injury and exclusion",
+        "text": "The charge that Zion is unwanted gives the wound a social dimension. Restoration must answer loss of belonging as well as damaged buildings. Former allies cannot provide that recovery. The chapter's reversal joins judgment on plunderers with a future for those they harmed.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -1030,7 +1359,7 @@
       "start": 1,
       "end": 40,
       "title": "Return and a law written in hearts",
-      "summary": "God promises to gather scattered people and comfort Rachel’s grief. He announces a new covenant, an agreement with Israel and Judah. God offers forgiveness and writes his law in people’s hearts. Knowing God becomes part of the restored relationship.",
+      "summary": "God promises to gather scattered people and comfort Rachel’s grief. He announces a new covenant, an agreement with Israel and Judah.",
       "year": null,
       "dateLabel": "Chapter order",
       "uncertainty": "Map points locate named places. Lines connect stated movements where the passage gives endpoints.",
@@ -1048,6 +1377,14 @@
           "cfm-jeremiah-2",
           "lds-jeremiah-helps"
         ]
+      },
+      "contextNote": {
+        "title": "The covenant promise changes where the law resides",
+        "text": "The passage addresses Israel and Judah as peoples with a broken agreement. Writing in the heart contrasts with a relationship repeatedly violated. Forgiveness and shared knowledge accompany that change. Rachel's grief remains within the same chapter, placing renewed relation beside remembered loss.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -1056,7 +1393,7 @@
       "start": 1,
       "end": 44,
       "title": "Jeremiah buys a field during the siege",
-      "summary": "While confined during the siege, Jeremiah buys Hanamel’s field in Anathoth. He gives the deeds to Baruch and questions the purchase. Buying land gives visible form to the promise of return. Storing the deeds protects a claim that outlasts the present siege.",
+      "summary": "While confined during the siege, Jeremiah buys Hanamel’s field in Anathoth. He gives the deeds to Baruch and questions the purchase.",
       "year": null,
       "dateLabel": "Chapter order",
       "uncertainty": "Map points locate named places. Lines connect stated movements where the passage gives endpoints.",
@@ -1066,13 +1403,24 @@
       ],
       "sourceIds": [
         "web",
-        "luther-jeremiah-summary"
+        "luther-jeremiah-summary",
+        "met-321953"
       ],
       "lds": {
         "text": "Come, Follow Me studies God’s lasting promises. Why does Jeremiah preserve purchase deeds while Jerusalem faces capture?",
         "sourceIds": [
           "cfm-jeremiah-2",
           "lds-jeremiah-helps"
+        ]
+      },
+      "contextNote": {
+        "title": "A land purchase gives hope a material form",
+        "text": "Jeremiah buys land while the city faces destruction. Witnesses, payment, copies, and storage make the purchase a public act. Preserving the deed assumes a future in which ownership can matter again. Hope here takes the form of a transaction during danger. The tablet offers an earlier regional comparison for recording land sales.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": [
+          "met-321953"
         ]
       }
     },
@@ -1082,7 +1430,7 @@
       "start": 1,
       "end": 26,
       "title": "Healing, a just ruler, and renewed worship",
-      "summary": "God promises to heal Jerusalem and restore joy and worship. He promises a just ruler from David’s family and continued priestly service. Wedding songs and working shepherds describe restored daily life. The ruler’s justice makes that future more than a repaired city.",
+      "summary": "God promises to heal Jerusalem and restore joy and worship. He promises a just ruler from David’s family and continued priestly service.",
       "year": null,
       "dateLabel": "Chapter order",
       "uncertainty": "Map points locate named places. Lines connect stated movements where the passage gives endpoints.",
@@ -1099,6 +1447,14 @@
           "cfm-jeremiah-2",
           "lds-jeremiah-helps"
         ]
+      },
+      "contextNote": {
+        "title": "Restoration receives the sounds of ordinary life",
+        "text": "Wedding voices and thanksgiving replace the silence described around the city. Shepherds counting flocks give the promise another daily task. The future is more than repaired walls. Its picture of justice includes households, work, and worship that can continue together.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -1107,7 +1463,7 @@
       "start": 1,
       "end": 22,
       "title": "Freed servants are forced back into slavery",
-      "summary": "Jerusalem’s owners release Hebrew servants under an agreement. They then force them back into service, and Jeremiah announces punishment. The owners undo freedom that they publicly promised before God. Their broken promise takes away the servants’ ability to leave.",
+      "summary": "Jerusalem’s owners release Hebrew servants under an agreement. They then force them back into service, and Jeremiah announces punishment.",
       "year": null,
       "dateLabel": "Chapter order",
       "uncertainty": "Map points locate named places. Lines connect stated movements where the passage gives endpoints.",
@@ -1123,6 +1479,14 @@
       "lds": {
         "text": "Why does forcing freed servants back into slavery break the agreement?",
         "sourceIds": []
+      },
+      "contextNote": {
+        "title": "A public promise loses meaning when power reverses it",
+        "text": "The owners first agree to release their servants. Taking them back exposes the difference between a ceremony and sustained freedom. The charge names the people whose choices were removed. The siege does not excuse violating an agreement made before God.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -1131,7 +1495,7 @@
       "start": 1,
       "end": 19,
       "title": "The Rechabites refuse wine",
-      "summary": "Jeremiah offers wine to the Rechabites, who refuse it. They explain their ancestor Jonadab’s commands and their move into Jerusalem for safety. Their careful obedience exposes Judah’s refusal to hear repeated warnings. The comparison concerns keeping instructions, not a universal ban on wine.",
+      "summary": "Jeremiah offers wine to the Rechabites, who refuse it. They explain their ancestor Jonadab’s commands and their move into Jerusalem for safety.",
       "year": null,
       "dateLabel": "Chapter order",
       "uncertainty": "Map points locate named places. Lines connect stated movements where the passage gives endpoints.",
@@ -1145,6 +1509,14 @@
       "lds": {
         "text": "How does the Rechabites’ refusal challenge Judah’s response to God?",
         "sourceIds": []
+      },
+      "contextNote": {
+        "title": "A family tradition creates a comparison, not a universal rule",
+        "text": "The Rechabites explain whose command they preserve and why they entered the city. Their obedience contrasts with Judah's refusal of repeated divine messages. The comparison depends on keeping a received instruction. It does not require every reader to adopt all of that family's habits.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -1153,7 +1525,7 @@
       "start": 1,
       "end": 32,
       "title": "Jehoiakim burns the scroll",
-      "summary": "Baruch writes and reads Jeremiah’s warnings. Jehoiakim burns the scroll despite objections, and Jeremiah dictates another scroll with added words. Burning the scroll removes the object but not its warning. The replacement also shows that the written collection grew.",
+      "summary": "Baruch writes and reads Jeremiah’s warnings. Jehoiakim burns the scroll despite objections, and Jeremiah dictates another scroll with added words.",
       "year": null,
       "dateLabel": "Chapter order",
       "uncertainty": "Map points locate named places. Lines connect stated movements where the passage gives endpoints.",
@@ -1163,13 +1535,24 @@
       "sourceIds": [
         "web",
         "luther-jeremiah-summary",
-        "luther-jeremiah-background"
+        "luther-jeremiah-background",
+        "met-560805"
       ],
       "lds": {
         "text": "Come, Follow Me studies scripture that calls people to change. How does Jehoiakim’s response differ from the officials’ fear?",
         "sourceIds": [
           "cfm-jeremiah-2",
           "lds-jeremiah-helps"
+        ]
+      },
+      "contextNote": {
+        "title": "Destroying a copy does not end the message",
+        "text": "The scroll moves through writing, public reading, court officials, and the king. Each stage changes who can hear its words. The king burns the copy as it is read. The command to write again answers that attempt to silence it. The chapter makes the survival of words part of the conflict.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": [
+          "met-560805"
         ]
       }
     },
@@ -1179,7 +1562,7 @@
       "start": 1,
       "end": 21,
       "title": "A false charge sends Jeremiah to prison",
-      "summary": "Babylon’s troops withdraw when Egypt’s army approaches. Irijah accuses Jeremiah of joining the enemy, and officials imprison him despite his denial. The temporary withdrawal encourages hope that Jeremiah rejects. The king seeks a private answer while Jeremiah remains in prison.",
+      "summary": "Babylon’s troops withdraw when Egypt’s army approaches. Irijah accuses Jeremiah of joining the enemy, and officials imprison him despite his denial.",
       "year": null,
       "dateLabel": "Chapter order",
       "uncertainty": "Map points locate named places. Lines connect stated movements where the passage gives endpoints.",
@@ -1197,6 +1580,14 @@
           "cfm-jeremiah-2",
           "lds-jeremiah-helps"
         ]
+      },
+      "contextNote": {
+        "title": "A temporary change in the war encourages a false conclusion",
+        "text": "Babylon's withdrawal creates hope that the threat has ended. Jeremiah challenges that reading while facing accusations of desertion. The king then seeks information privately from the prisoner. The account separates visible movement, political expectation, and the warning that continues despite both.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -1205,7 +1596,7 @@
       "start": 1,
       "end": 28,
       "title": "Ebedmelech rescues Jeremiah",
-      "summary": "Officials lower Jeremiah into a muddy pit. Ebedmelech secures help and rescues him, while Zedekiah privately asks about surrender. Ebedmelech protects Jeremiah’s body with cloth beneath the rescue ropes. Zedekiah’s fear of ridicule keeps him from following advice meant to save lives.",
+      "summary": "Officials lower Jeremiah into a muddy pit. Ebedmelech secures help and rescues him, while Zedekiah privately asks about surrender.",
       "year": null,
       "dateLabel": "Chapter order",
       "uncertainty": "Map points locate named places. Lines connect stated movements where the passage gives endpoints.",
@@ -1222,6 +1613,14 @@
           "cfm-jeremiah-2",
           "lds-jeremiah-helps"
         ]
+      },
+      "contextNote": {
+        "title": "Practical care answers danger that official power created",
+        "text": "The rescue includes worn cloth to protect Jeremiah under the ropes. That small detail makes Ebedmelech's intervention more than a request for mercy. The king permits rescue but still fears following the prophet's advice. Helpful authority in one decision does not resolve his larger refusal.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -1230,7 +1629,7 @@
       "start": 1,
       "end": 18,
       "title": "Jerusalem falls and Jeremiah is spared",
-      "summary": "Babylon captures Jerusalem and Zedekiah. The invaders kill his sons and blind him. Jeremiah receives protection, and Ebedmelech receives a promise of survival. The losses that Jeremiah privately warned Zedekiah about now happen. The promise to Ebedmelech connects survival with his trust amid danger.",
+      "summary": "Babylon captures Jerusalem and Zedekiah. The invaders kill his sons and blind him. Jeremiah receives protection, and Ebedmelech receives a promise of survival.",
       "year": null,
       "dateLabel": "Chapter order",
       "uncertainty": "Map points locate named places. Lines connect stated movements where the passage gives endpoints.",
@@ -1251,6 +1650,14 @@
           "cfm-jeremiah-2",
           "lds-jeremiah-helps"
         ]
+      },
+      "contextNote": {
+        "title": "The city's fall affects people in unequal ways",
+        "text": "The royal household suffers capture and severe punishment. Some poor people receive land while others are removed. The account does not make conquest one uniform experience. Jeremiah's protection and Ebedmelech's promise form further distinct outcomes within the same disaster.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -1259,7 +1666,7 @@
       "start": 1,
       "end": 16,
       "title": "Gedaliah governs the remaining people",
-      "summary": "Nebuzaradan frees Jeremiah, who stays with Gedaliah at Mizpah. Judeans return to harvest, but Gedaliah rejects a warning about Ishmael. Returning farmers suggest that ordinary life could resume. Gedaliah’s refusal to believe the warning leaves that recovery exposed.",
+      "summary": "Nebuzaradan frees Jeremiah, who stays with Gedaliah at Mizpah. Judeans return to harvest, but Gedaliah rejects a warning about Ishmael.",
       "year": null,
       "dateLabel": "Chapter order",
       "uncertainty": "Map points locate named places. Lines connect stated movements where the passage gives endpoints.",
@@ -1274,6 +1681,14 @@
       "lds": {
         "text": "Why does Johanan think Ishmael’s plan threatens everyone gathered around Gedaliah?",
         "sourceIds": []
+      },
+      "contextNote": {
+        "title": "Harvest work offers a fragile recovery after conquest",
+        "text": "Gedaliah's invitation focuses on gathering produce and living in towns. That ordinary work contrasts with the preceding siege and removal. The warning about Ishmael threatens the limited safety needed for recovery. Refusing to believe it leaves the community's future exposed.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -1282,7 +1697,7 @@
       "start": 1,
       "end": 18,
       "title": "Ishmael kills Gedaliah and takes captives",
-      "summary": "Ishmael kills Gedaliah and visiting mourners, then takes captives. Johanan recovers the captives, and Ishmael escapes toward Ammon. The killings destroy the remaining community’s fragile safety. Fear of Babylonian retaliation drives the survivors toward Egypt.",
+      "summary": "Ishmael kills Gedaliah and visiting mourners, then takes captives. Johanan recovers the captives, and Ishmael escapes toward Ammon.",
       "year": null,
       "dateLabel": "Chapter order",
       "uncertainty": "Map points locate named places. Lines connect stated movements where the passage gives endpoints.",
@@ -1298,6 +1713,14 @@
       "lds": {
         "text": "How do Ishmael’s killings change the survivors’ plans for staying in Judah?",
         "sourceIds": []
+      },
+      "contextNote": {
+        "title": "A local killing changes the survivors' political choices",
+        "text": "Gedaliah's death destroys the arrangement under which farming had resumed. Fear of Babylon's response then shapes the recovered captives' next decision. Their danger comes through events inside the remaining community. The movement toward Egypt grows from that fear before they request divine guidance.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -1306,7 +1729,7 @@
       "start": 1,
       "end": 22,
       "title": "Survivors ask for guidance",
-      "summary": "Johanan and the survivors promise to obey God’s answer. Jeremiah tells them to remain in Judah and warns against seeking safety in Egypt. Their promise includes answers they may dislike. The warning challenges their belief that moving to Egypt would remove war and hunger.",
+      "summary": "Johanan and the survivors promise to obey God’s answer. Jeremiah tells them to remain in Judah and warns against seeking safety in Egypt.",
       "year": null,
       "dateLabel": "Chapter order",
       "uncertainty": "Map points locate named places. Lines connect stated movements where the passage gives endpoints.",
@@ -1320,6 +1743,14 @@
       "lds": {
         "text": "What part of the survivors’ promise becomes difficult when Jeremiah gives the answer?",
         "sourceIds": []
+      },
+      "contextNote": {
+        "title": "A promise to obey is tested by an unwanted answer",
+        "text": "The survivors agree to accept either a pleasing or difficult response. Jeremiah's answer challenges the destination they already consider safer. The ten-day wait also prevents an immediate endorsement of their plan. The account places declared obedience beside the concrete choice that will test it.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -1328,7 +1759,7 @@
       "start": 1,
       "end": 13,
       "title": "The survivors reject the answer",
-      "summary": "Johanan and Azariah accuse Jeremiah of lying and blame Baruch. They take the survivors, Jeremiah, and Baruch into Egypt. Their accusations avoid answering God’s warning. The buried stones show Babylon reaching the place they believe is safe.",
+      "summary": "Johanan and Azariah accuse Jeremiah of lying and blame Baruch. They take the survivors, Jeremiah, and Baruch into Egypt.",
       "year": null,
       "dateLabel": "Chapter order",
       "uncertainty": "Map points locate named places. Lines connect stated movements where the passage gives endpoints.",
@@ -1343,6 +1774,14 @@
       "lds": {
         "text": "How does blaming Baruch help the leaders reject Jeremiah’s message?",
         "sourceIds": []
+      },
+      "contextNote": {
+        "title": "An accusation replaces an answer to the warning",
+        "text": "The leaders blame Baruch for directing Jeremiah's speech. That claim shifts attention from the message to an alleged hidden motive. They then take the group into Egypt despite the warning. The buried stones give the new destination a danger they expected to escape.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -1351,7 +1790,7 @@
       "start": 1,
       "end": 30,
       "title": "A dispute about the queen of the sky",
-      "summary": "Judeans in Egypt insist that their goddess offerings brought prosperity. Jeremiah says those offerings caused the ruin they seek to escape. The speakers give opposite causes for the same disaster. Data Over Dogma favors identifying the queen with Astarte. The passage does not name her.",
+      "summary": "Judeans in Egypt insist that their goddess offerings brought prosperity. Jeremiah says those offerings caused the ruin they seek to escape.",
       "year": null,
       "dateLabel": "Chapter order",
       "uncertainty": "Map points locate named places. Lines connect stated movements where the passage gives endpoints.",
@@ -1368,6 +1807,14 @@
       "lds": {
         "text": "How do the women and Jeremiah explain the lost food and peace differently?",
         "sourceIds": []
+      },
+      "contextNote": {
+        "title": "The dispute concerns the remembered cause of disaster",
+        "text": "The people associate prosperity with their earlier offerings. Jeremiah interprets those same practices as the cause of destruction. Both speakers use memory to explain the present loss. The text records competing claims without giving the queen of the sky a personal name.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -1376,7 +1823,7 @@
       "start": 1,
       "end": 5,
       "title": "Baruch receives a promise of survival",
-      "summary": "Baruch laments his added sorrow and lack of rest. God warns him against seeking greatness and promises that he will keep his life. The promise offers survival during widespread loss rather than personal fame. It answers Baruch’s hopes without denying his sorrow.",
+      "summary": "Baruch laments his added sorrow and lack of rest. God warns him against seeking greatness and promises that he will keep his life.",
       "year": null,
       "dateLabel": "Chapter order",
       "uncertainty": "Map points locate named places. Lines connect stated movements where the passage gives endpoints.",
@@ -1389,6 +1836,14 @@
       "lds": {
         "text": "What does Baruch receive instead of the greatness he seeks?",
         "sourceIds": []
+      },
+      "contextNote": {
+        "title": "A scribe's private hopes meet a public crisis",
+        "text": "Baruch's complaint gives the person who writes the message his own voice. The answer places his hopes within the destruction facing the land. Survival replaces the greatness he might seek. His sorrow is acknowledged without a promise that serving the message brings personal advancement.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -1397,7 +1852,7 @@
       "start": 1,
       "end": 28,
       "title": "Egypt’s armies face defeat",
-      "summary": "Jeremiah describes Egypt’s defeat at Carchemish and warns of invasion. He also promises that scattered Israel will not be abandoned. Egypt’s boast of covering the land fails before the attack. Its many soldiers and hired fighters cannot stop its defeat.",
+      "summary": "Jeremiah describes Egypt’s defeat at Carchemish and warns of invasion. He also promises that scattered Israel will not be abandoned.",
       "year": null,
       "dateLabel": "Chapter order",
       "uncertainty": "Map points locate named places. Lines connect stated movements where the passage gives endpoints.",
@@ -1414,6 +1869,14 @@
       "lds": {
         "text": "How does Egypt’s boast differ from the soldiers’ flight?",
         "sourceIds": []
+      },
+      "contextNote": {
+        "title": "A river image exposes the gap between boast and outcome",
+        "text": "Egypt describes its advance as water covering the land. The battle scene turns that confidence into panic and retreat. Many troops do not guarantee the power claimed by the image. The final promise to Israel gives the chapter a second audience beyond the defeated army.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -1422,7 +1885,7 @@
       "start": 1,
       "end": 7,
       "title": "A warning against the Philistines",
-      "summary": "Jeremiah describes destruction reaching Philistine cities and their helpers. A voice asks when the sword will finally rest. The request for a quiet sword gives suffering a voice. The answer presents continued war as part of the announced judgment.",
+      "summary": "Jeremiah describes destruction reaching Philistine cities and their helpers. A voice asks when the sword will finally rest.",
       "year": null,
       "dateLabel": "Chapter order",
       "uncertainty": "Map points locate named places. Lines connect stated movements where the passage gives endpoints.",
@@ -1439,6 +1902,14 @@
       "lds": {
         "text": "Why does the passage ask the sword to rest?",
         "sourceIds": []
+      },
+      "contextNote": {
+        "title": "A question asks how long violence will continue",
+        "text": "The request for rest interrupts the announcement of destruction. It asks about the duration of violence rather than celebrating an enemy's loss. The answering voice keeps the announced judgment in view. The exchange lets grief and warning occupy the same short poem.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -1447,7 +1918,7 @@
       "start": 1,
       "end": 47,
       "title": "Moab’s pride and suffering",
-      "summary": "Jeremiah announces destruction across Moab and captivity for Chemosh’s worshipers. He mourns ruined vineyards and ends with a promise of return. Moab’s wealth and ease cannot prevent loss. Grief for the victims remains beside the charge of pride.",
+      "summary": "Jeremiah announces destruction across Moab and captivity for Chemosh’s worshipers. He mourns ruined vineyards and ends with a promise of return.",
       "year": null,
       "dateLabel": "Chapter order",
       "uncertainty": "Map points locate named places. Lines connect stated movements where the passage gives endpoints.",
@@ -1462,6 +1933,14 @@
       "lds": {
         "text": "How does the mourning for Moab complicate the warning against its pride?",
         "sourceIds": []
+      },
+      "contextNote": {
+        "title": "Grief remains beside the charge against Moab",
+        "text": "The speaker mourns the people whose pride the warning condemns. Ruined vineyards turn national loss into damage to familiar work and celebration. That sorrow complicates a reading based only on punishment. The closing return promise also prevents destruction from being the chapter's final word.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -1470,7 +1949,7 @@
       "start": 1,
       "end": 39,
       "title": "Warnings against neighboring peoples",
-      "summary": "Jeremiah announces judgment against Ammon, Edom, Damascus, Kedar, Hazor, and Elam. Promises of later return accompany warnings for Ammon and Elam. Treasures, mountain defenses, and weapons fail to provide lasting safety. God promises return to Ammon and Elam. The other warnings offer no matching promise.",
+      "summary": "Jeremiah announces judgment against Ammon, Edom, Damascus, Kedar, Hazor, and Elam. Promises of later return accompany warnings for Ammon and Elam.",
       "year": null,
       "dateLabel": "Chapter order",
       "uncertainty": "Map points locate named places. Lines connect stated movements where the passage gives endpoints.",
@@ -1487,6 +1966,14 @@
       "lds": {
         "text": "Which kinds of protection fail in these warnings?",
         "sourceIds": []
+      },
+      "contextNote": {
+        "title": "Different neighbors receive different endings",
+        "text": "The warnings address several peoples with distinct sources of confidence. Wealth, high places, and weapons fail in different scenes. Return promises appear for Ammon and Elam, but not for every named people. Keep those differences when reading the chapter as a group of national warnings.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -1495,7 +1982,7 @@
       "start": 1,
       "end": 46,
       "title": "Babylon faces judgment",
-      "summary": "Jeremiah announces Babylon’s fall and urges captives to leave. He promises Israel and Judah return, forgiveness, and a renewed agreement with God. Babylon’s earlier role in punishment does not excuse its violence. The warning holds the conqueror responsible for harming the people it captured.",
+      "summary": "Jeremiah announces Babylon’s fall and urges captives to leave. He promises Israel and Judah return, forgiveness, and a renewed agreement with God.",
       "year": null,
       "dateLabel": "Chapter order",
       "uncertainty": "Map points locate named places. Lines connect stated movements where the passage gives endpoints.",
@@ -1509,6 +1996,14 @@
       "lds": {
         "text": "Why does Babylon remain responsible after serving as an instrument of judgment?",
         "sourceIds": []
+      },
+      "contextNote": {
+        "title": "Being used in judgment does not excuse violence",
+        "text": "The attackers claim innocence because their victims had sinned. The warning against Babylon rejects that escape from responsibility. Israel and Judah's promised return therefore includes judgment on their captor. The book does not give one power permanent immunity because it once served a purpose.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -1517,7 +2012,7 @@
       "start": 1,
       "end": 64,
       "title": "A scroll marks Babylon’s announced fall",
-      "summary": "Jeremiah continues the warning against Babylon. He tells Seraiah to read a scroll there and sink it in the Euphrates. The sinking scroll gives visible form to Babylon’s announced fall. People must leave Babylon to avoid sharing its punishment.",
+      "summary": "Jeremiah continues the warning against Babylon. He tells Seraiah to read a scroll there and sink it in the Euphrates.",
       "year": null,
       "dateLabel": "Chapter order",
       "uncertainty": "Map points locate named places. Lines connect stated movements where the passage gives endpoints.",
@@ -1526,11 +2021,22 @@
       ],
       "sourceIds": [
         "web",
-        "luther-jeremiah-summary"
+        "luther-jeremiah-summary",
+        "met-560805"
       ],
       "lds": {
         "text": "Why does Jeremiah tell Seraiah to sink the scroll after reading it?",
         "sourceIds": []
+      },
+      "contextNote": {
+        "title": "Reading and sinking make a message into a witnessed act",
+        "text": "Seraiah must first read the warning in Babylon. A stone then sends the scroll beneath the river's surface. The spoken explanation gives that action its meaning. The act presents an announced future, not a record that Babylon had already fallen.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": [
+          "met-560805"
+        ]
       }
     },
     {
@@ -1539,7 +2045,7 @@
       "start": 1,
       "end": 34,
       "title": "Jerusalem’s destruction and Jehoiachin’s release",
-      "summary": "The closing account describes Jerusalem’s siege, destruction, executions, and forced removal of captives. Years later, Evilmerodach frees Jehoiachin and gives him a daily allowance. Invaders break and carry away Solomon’s temple furnishings. Jehoiachin’s changed treatment offers limited hope without reversing the destruction.",
+      "summary": "The closing account describes Jerusalem’s siege, destruction, executions, and forced removal of captives. Years later, Evilmerodach frees Jehoiachin and gives him a daily allowance.",
       "year": null,
       "dateLabel": "Chapter order",
       "uncertainty": "Map points locate named places. Lines connect stated movements where the passage gives endpoints.",
@@ -1557,6 +2063,14 @@
       "lds": {
         "text": "What changes for Jehoiachin, and what losses remain unchanged?",
         "sourceIds": []
+      },
+      "contextNote": {
+        "title": "The appendix keeps a surviving king beside an unrepaired loss",
+        "text": "The detailed destruction follows Jeremiah's speeches rather than ending with their promises. Temple objects, officials, and captives all enter its record of loss. Jehoiachin's later release changes one person's treatment. It offers a surviving royal line without claiming the temple or kingdom has returned.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     }
   ],
@@ -1568,7 +2082,7 @@
       "eventOrder": 1,
       "title": "Jeremiah receives his call",
       "summary": "God appoints Jeremiah to speak to nations. Jeremiah objects that he is young and cannot speak.",
-      "detail": "God answers Jeremiah’s fear with a promise of presence. The call includes both tearing down and building.",
+      "detail": "The verbs of destruction come before the verbs of planting and building. Jeremiah's task therefore includes both loss and a future beyond it. The visions develop that task before public speeches begin. His youth explains his objection, but it does not define the reach of his message.",
       "dateLabel": "Chapter order",
       "uncertainty": "Map points locate named places. Lines connect stated movements where the passage gives endpoints.",
       "sourceIds": [
@@ -1594,7 +2108,7 @@
       "eventOrder": 2,
       "title": "Broken water tanks and abandoned loyalty",
       "summary": "Jeremiah recalls Israel’s early loyalty and later worship of other gods. He challenges reliance on Egypt and Assyria.",
-      "detail": "A broken water tank cannot hold the water people need. The comparison questions choices that leave Israel without reliable help.",
+      "detail": "The contrast places a living source beside containers that cannot retain water. It describes chosen replacements as inadequate to the need they must meet. Later references to Egypt and Assyria extend the question into political dependence. The chapter connects worship and alliances through that same problem.",
       "dateLabel": "Chapter order",
       "uncertainty": "Map points locate named places. Lines connect stated movements where the passage gives endpoints.",
       "sourceIds": [
@@ -1620,7 +2134,7 @@
       "eventOrder": 3,
       "title": "An invitation to return",
       "summary": "God compares Israel and Judah with unfaithful wives. He calls scattered people to return and promises caring leaders.",
-      "detail": "The marriage comparison accuses the nations of broken loyalty. The invitation still offers return rather than permanent rejection.",
+      "detail": "Judah has witnessed Israel's breach and its consequences. The comparison therefore increases Judah's responsibility rather than proving its superiority. Calls to return follow the accusations. The marriage image describes the nations' loyalty. It is not a rule for judging women.",
       "dateLabel": "Chapter order",
       "uncertainty": "Map points locate named places. Lines connect stated movements where the passage gives endpoints.",
       "sourceIds": [
@@ -1644,7 +2158,7 @@
       "eventOrder": 4,
       "title": "An approaching enemy and a ruined land",
       "summary": "Jeremiah warns of an army coming from the north. He pictures the land without light, people, or fruitful fields.",
-      "detail": "The ruined landscape reverses the ordered world of creation. Jeremiah’s grief shows what the threatened destruction would cost.",
+      "detail": "The vision removes light, people, birds, and fruitful land from the scene. Its sequence makes the threatened loss larger than defeat in battle. Jeremiah's bodily distress gives that vision a grieving witness. The passage joins warning with an account of what a ruined world would lose.",
       "dateLabel": "Chapter order",
       "uncertainty": "Map points locate named places. Lines connect stated movements where the passage gives endpoints.",
       "sourceIds": [
@@ -1666,7 +2180,7 @@
       "eventOrder": 5,
       "title": "A search for justice",
       "summary": "Jeremiah searches Jerusalem for someone who acts justly. He finds wrongdoing among poor people, leaders, prophets, and priests.",
-      "detail": "Powerful people know the law but still reject it. The search prevents readers from blaming only the poor.",
+      "detail": "Jeremiah first expects leaders to understand what poor people may not know. Their conduct defeats that expectation. The search moves through social ranks rather than blaming one group alone. The later charges against prophets and priests make the failure a problem of public authority.",
       "dateLabel": "Chapter order",
       "uncertainty": "Map points locate named places. Lines connect stated movements where the passage gives endpoints.",
       "sourceIds": [
@@ -1688,7 +2202,7 @@
       "eventOrder": 6,
       "title": "Warnings that people refuse to hear",
       "summary": "An enemy threatens Jerusalem. Leaders promise peace while people reject warnings and refuse to walk the older good path.",
-      "detail": "The claim of peace hides wounds that need attention. Jeremiah compares ignored correction with metal that cannot be cleaned.",
+      "detail": "The charge against leaders compares comforting speech with inadequate treatment of an injury. Calling the situation peaceful does not make the damage disappear. Warnings about deaf ears explain why correction fails to reach its hearers. The chapter tests speech by what it allows people to ignore.",
       "dateLabel": "Chapter order",
       "uncertainty": "Map points locate named places. Lines connect stated movements where the passage gives endpoints.",
       "sourceIds": [
@@ -1710,7 +2224,7 @@
       "eventOrder": 7,
       "title": "Temple worship and harm to neighbors",
       "summary": "Jeremiah challenges people who trust the temple while harming others. Families also make offerings to the queen of the sky.",
-      "detail": "The building cannot protect people who exploit their neighbors. Data Over Dogma notes that men, children, and women prepare the offerings together.",
+      "detail": "The warning targets trust in the temple’s name without changed conduct. Jeremiah connects worship with justice toward strangers, widows, and children without fathers. He also names theft, killing, and other gods. The building cannot protect a community that ignores these duties. Read the speech as a challenge to public habits, not only private belief.",
       "dateLabel": "Chapter order",
       "uncertainty": "Map points locate named places. Lines connect stated movements where the passage gives endpoints.",
       "sourceIds": [
@@ -1737,7 +2251,7 @@
       "eventOrder": 8,
       "title": "Rejected warnings and grief for the wounded",
       "summary": "Jeremiah describes people refusing to return and scribes distorting the law. He grieves as harvest ends without deliverance.",
-      "detail": "Knowing the law has not produced careful action. The unanswered question about healing expresses grief rather than easy reassurance.",
+      "detail": "The claim about scribes challenges confidence in the handling of the law itself. The chapter connects that confidence with refusal to return. Jeremiah's grief then gives the human cost a voice. Read the questions about healing beside the failure of those who claim to know.",
       "dateLabel": "Chapter order",
       "uncertainty": "Map points locate named places. Lines connect stated movements where the passage gives endpoints.",
       "sourceIds": [
@@ -1760,7 +2274,7 @@
       "eventOrder": 9,
       "title": "Broken trust and reasons for grief",
       "summary": "Jeremiah mourns a people who lie and betray neighbors. He urges boasting in knowing God rather than wealth or strength.",
-      "detail": "Repeated lies make even friendships unsafe. Knowing God appears through kindness and justice rather than social rank.",
+      "detail": "The passage names kindness, justice, and righteousness after rejecting boasts of wealth and strength. Those actions answer the surrounding descriptions of deceit and unsafe relationships. Knowledge is measured through conduct that others experience. The chapter moves from broken public trust to the terms on which trust might return.",
       "dateLabel": "Chapter order",
       "uncertainty": "Map points locate named places. Lines connect stated movements where the passage gives endpoints.",
       "sourceIds": [
@@ -1782,7 +2296,7 @@
       "eventOrder": 10,
       "title": "Made idols and the living God",
       "summary": "Jeremiah contrasts idols made from wood and metal with God. He mourns ruined homes and asks for measured correction.",
-      "detail": "People must carry the objects that they made. Their inability to move supports the challenge to trusting them.",
+      "detail": "The description follows cutting, shaping, fastening, and carrying an object. Those human actions expose the idol's dependence on its makers. The chapter then turns to ruined tents and scattered children. Its argument about trust sits beside a community whose ordinary supports are failing.",
       "dateLabel": "Chapter order",
       "uncertainty": "Map points locate named places. Lines connect stated movements where the passage gives endpoints.",
       "sourceIds": [
@@ -1804,7 +2318,7 @@
       "eventOrder": 11,
       "title": "A broken covenant and threats from Anathoth",
       "summary": "God condemns Judah’s broken agreement and worship of Baal. Jeremiah learns that people from Anathoth plan to kill him.",
-      "detail": "People from Jeremiah’s own community threaten him for speaking God’s message. They demand his silence rather than change their conduct.",
+      "detail": "The threats arise in Anathoth, not only at the royal court. Familiar relationships therefore offer no automatic protection from opposition. The demand for silence turns a public covenant dispute into personal danger. Jeremiah's response brings the cost of speaking into the book's account.",
       "dateLabel": "Chapter order",
       "uncertainty": "Map points locate named places. Lines connect stated movements where the passage gives endpoints.",
       "sourceIds": [
@@ -1827,7 +2341,7 @@
       "eventOrder": 12,
       "title": "Jeremiah questions the success of wrongdoers",
       "summary": "Jeremiah asks why dishonest people prosper. God warns about betrayal within his family and describes the ruined land.",
-      "detail": "Jeremiah’s question joins personal danger with public injustice. The answer prepares him for greater strain rather than immediate relief.",
+      "detail": "Jeremiah addresses God as righteous before asking why wrongdoers prosper. His question comes from observed conduct, not rejection of all justice. The answer warns of greater strain rather than immediate protection. Personal betrayal and a damaged land then widen the complaint beyond his own safety.",
       "dateLabel": "Chapter order",
       "uncertainty": "Map points locate named places. Lines connect stated movements where the passage gives endpoints.",
       "sourceIds": [
@@ -1847,7 +2361,7 @@
       "eventOrder": 13,
       "title": "A ruined waistband and stubborn habits",
       "summary": "Jeremiah buries a linen waistband and retrieves it ruined. God compares Judah’s pride and stubborn conduct with ruined cloth.",
-      "detail": "The waistband once stayed close to its wearer. Its ruin shows lost closeness and usefulness. The skin comparison concerns unchanged traits, not skin’s moral value.",
+      "detail": "The linen belt belongs next to its wearer rather than at a distance. Its ruined condition makes lost closeness and usefulness visible. The act gives physical form to the chapter's accusation of pride. The later comparisons concern stubborn habits, not a moral ranking of skin colors.",
       "dateLabel": "Chapter order",
       "uncertainty": "Map points locate named places. Lines connect stated movements where the passage gives endpoints.",
       "sourceIds": [
@@ -1869,7 +2383,7 @@
       "eventOrder": 14,
       "title": "Drought and competing messages",
       "summary": "Drought leaves people and animals without water. Jeremiah pleads for help while other prophets deny coming war and hunger.",
-      "detail": "The prophets’ reassurance conflicts with visible suffering and Jeremiah’s warning. Their claim cannot remove the danger facing those who believe them.",
+      "detail": "The drought description begins with failed searches for water and suffering animals. Jeremiah's report of reassuring prophets follows that scene. Their promised peace must be read against conditions already shown to the reader. The conflict concerns whose words can be trusted during a public emergency.",
       "dateLabel": "Chapter order",
       "uncertainty": "Map points locate named places. Lines connect stated movements where the passage gives endpoints.",
       "sourceIds": [
@@ -1891,7 +2405,7 @@
       "eventOrder": 15,
       "title": "Jeremiah’s suffering and renewed task",
       "summary": "God rejects further pleading for Judah and recalls Manasseh’s wrongdoing. Jeremiah describes isolation and receives a renewed charge to speak.",
-      "detail": "Jeremiah’s service has brought pain rather than public approval. God calls him to return and speak carefully without joining his opponents.",
+      "detail": "Jeremiah describes isolation and pain within his speech to God. The account does not reserve distress for people who reject the message. His renewed charge answers that complaint without promising public approval. Read his return to speaking beside the cost that made him question it.",
       "dateLabel": "Chapter order",
       "uncertainty": "Map points locate named places. Lines connect stated movements where the passage gives endpoints.",
       "sourceIds": [
@@ -1913,7 +2427,7 @@
       "eventOrder": 16,
       "title": "Missing celebrations and pursuing hunters",
       "summary": "God forbids Jeremiah to marry or join mourning and feasts. He describes scattering, return, and fishers and hunters pursuing people.",
-      "detail": "Jeremiah’s missing household and celebrations show coming loss. The fishers and hunters pursue people whose wrongdoing God sees.",
+      "detail": "Marriage, mourning, and feasting normally place a person within community life. Jeremiah's absence from them becomes part of his message. The restrictions describe losses that the wider people will soon experience. His body and daily habits carry a warning alongside his spoken words.",
       "dateLabel": "Chapter order",
       "uncertainty": "Map points locate named places. Lines connect stated movements where the passage gives endpoints.",
       "sourceIds": [
@@ -1935,7 +2449,7 @@
       "eventOrder": 17,
       "title": "Trust, hidden motives, and the Sabbath",
       "summary": "Jeremiah contrasts trust in human strength with trust in God. He warns against carrying burdens through Jerusalem’s gates on the Sabbath.",
-      "detail": "A tree near water can survive heat without losing fruit. The comparison explains steady dependence rather than a life without difficulty.",
+      "detail": "The tree remains fruitful while heat and drought still occur. Trust therefore changes its resources rather than removing adverse conditions. Later instructions about Sabbath burdens bring dependence into work and trade. The chapter connects hidden motives with choices visible at the city's gates.",
       "dateLabel": "Chapter order",
       "uncertainty": "Map points locate named places. Lines connect stated movements where the passage gives endpoints.",
       "sourceIds": [
@@ -1959,7 +2473,7 @@
       "eventOrder": 18,
       "title": "A potter’s work and plots against Jeremiah",
       "summary": "Jeremiah watches a potter remake spoiled clay. Opponents plan to silence him, and he asks God to punish them.",
-      "detail": "The potter’s changed work explains how a nation’s conduct affects its future. Jeremiah’s later prayer expresses anger at people seeking his death.",
+      "detail": "The potter can remake material that has not yet hardened. The explanation connects a nation's changed conduct with a changed outcome. The opponents' plans then show resistance to that possibility. Jeremiah's angry prayer belongs to the conflict that follows the teaching, not the potter's explanation.",
       "dateLabel": "Chapter order",
       "uncertainty": "Map points locate named places. Lines connect stated movements where the passage gives endpoints.",
       "sourceIds": [
@@ -1983,7 +2497,7 @@
       "eventOrder": 19,
       "title": "A broken jar before the elders",
       "summary": "Jeremiah takes elders to the Hinnom Valley and breaks a jar. He condemns child sacrifice and warns of siege and death.",
-      "detail": "Unlike the soft clay, the broken jar cannot be remade. The act presents a warning of destruction that has become unavoidable.",
+      "detail": "The jar differs from the soft clay in chapter 18. Once broken, it cannot simply return to its previous form. Taking elders as witnesses makes the action public. The warning presents a limit to the opportunity for change described in the earlier scene.",
       "dateLabel": "Chapter order",
       "uncertainty": "Map points locate named places. Lines connect stated movements where the passage gives endpoints.",
       "sourceIds": [
@@ -2006,7 +2520,7 @@
       "eventOrder": 20,
       "title": "Pashhur attacks Jeremiah",
       "summary": "Pashhur strikes Jeremiah and puts him in stocks. Jeremiah warns him of exile, praises God, and curses his own birth.",
-      "detail": "Jeremiah cannot silence the message even when speaking brings shame. His praise does not erase his anguish or wish never to have lived.",
+      "detail": "Jeremiah describes a message he cannot contain despite humiliation. The chapter moves from that pressure to praise and then a curse on his birth. These shifts prevent a smooth account of successful service. His confidence in rescue does not remove his suffering from the book.",
       "dateLabel": "Chapter order",
       "uncertainty": "Map points locate named places. Lines connect stated movements where the passage gives endpoints.",
       "sourceIds": [
@@ -2031,7 +2545,7 @@
       "eventOrder": 21,
       "title": "Zedekiah asks for rescue",
       "summary": "Zedekiah sends Pashhur and Zephaniah to ask about Babylon’s attack. Jeremiah says surrender offers life while resistance brings death.",
-      "detail": "The king hopes for rescue without changing the city’s course. Jeremiah places survival beside the king’s duty to stop oppression.",
+      "detail": "The royal delegation seeks help against an approaching army. Jeremiah's answer includes the ruler's duty to protect people from oppression. Military danger does not make domestic injustice irrelevant. The offered way to survive also conflicts with the king's hope for a restored victory.",
       "dateLabel": "Chapter order",
       "uncertainty": "Map points locate named places. Lines connect stated movements where the passage gives endpoints.",
       "sourceIds": [
@@ -2054,7 +2568,7 @@
       "eventOrder": 22,
       "title": "Kings judged by their treatment of others",
       "summary": "Jeremiah condemns unpaid labor and violence under Judah’s kings. He contrasts Jehoiakim’s grand house with Josiah’s care for poor people.",
-      "detail": "Fine cedar does not make a ruler just. Josiah’s defense of needy people gives a different measure of knowing God.",
+      "detail": "The accusation concerns a fine house built through unpaid labor. Cedar and size cannot supply the justice missing from its construction. Josiah's treatment of poor people gives the comparison its alternative measure. The chapter judges royal achievement through the people who bear its cost.",
       "dateLabel": "Chapter order",
       "uncertainty": "Map points locate named places. Lines connect stated movements where the passage gives endpoints.",
       "sourceIds": [
@@ -2076,7 +2590,7 @@
       "eventOrder": 23,
       "title": "Harmful leaders and prophets who promise peace",
       "summary": "God condemns leaders who scatter people and promises a just ruler. Jeremiah challenges prophets who give false comfort and report invented dreams.",
-      "detail": "The prophets’ words encourage people to continue harming others. A useful message would turn them from those actions.",
+      "detail": "The critique links false reassurance with continued wrongdoing. A claim to speak for God cannot be tested by comfort alone. The chapter asks whether speech turns people from harm. Its promised ruler answers the scattered people's need for justice rather than another impressive title.",
       "dateLabel": "Chapter order",
       "uncertainty": "Map points locate named places. Lines connect stated movements where the passage gives endpoints.",
       "sourceIds": [
@@ -2099,7 +2613,7 @@
       "eventOrder": 24,
       "title": "Two baskets of figs",
       "summary": "God compares deported Judeans with good figs. He compares Zedekiah and those left in Judah or Egypt with spoiled figs.",
-      "detail": "Being taken away does not mean God has abandoned the captives. The good figs challenge the remaining rulers’ claim to safety.",
+      "detail": "The good figs represent people already taken away. That choice reverses an easy equation between survival in Judah and security. The promise of rebuilding reaches the displaced group. The vision therefore changes whose experience can carry the community's future.",
       "dateLabel": "Chapter order",
       "uncertainty": "Map points locate named places. Lines connect stated movements where the passage gives endpoints.",
       "sourceIds": [
@@ -2123,7 +2637,7 @@
       "eventOrder": 25,
       "title": "Babylon’s rule and the cup of anger",
       "summary": "Jeremiah recounts twenty-three years of ignored warnings. He announces seventy years of Babylonian rule and judgment against many nations.",
-      "detail": "Babylon serves as an instrument of punishment but also faces judgment. The cup places Judah’s suffering within a wider warning against nations.",
+      "detail": "Babylon's announced role does not place it outside the wider warning. Its own punishment follows the period assigned to its rule. The cup then extends the scene to other nations. Read Judah's loss within that wider account without treating conquest as innocence.",
       "dateLabel": "Chapter order",
       "uncertainty": "Map points locate named places. Lines connect stated movements where the passage gives endpoints.",
       "sourceIds": [
@@ -2152,7 +2666,7 @@
       "eventOrder": 26,
       "title": "Jeremiah faces a death charge",
       "summary": "Priests and prophets demand Jeremiah’s death after his temple warning. Officials spare him, while Jehoiakim has another prophet, Uriah, killed.",
-      "detail": "Remembering Micah’s warning helps people defend Jeremiah. Uriah’s death shows that similar speech does not guarantee the same outcome.",
+      "detail": "The elders recall Micah when officials consider the demand for Jeremiah's death. That memory provides an alternative response to an unwelcome warning. Uriah's different fate prevents the hearing from becoming a universal promise of safety. Similar speech can meet different exercises of royal power.",
       "dateLabel": "Chapter order",
       "uncertainty": "Map points locate named places. Lines connect stated movements where the passage gives endpoints.",
       "sourceIds": [
@@ -2176,7 +2690,7 @@
       "eventOrder": 27,
       "title": "A yoke warns against rebellion",
       "summary": "Jeremiah wears a wooden yoke and urges rulers to serve Babylon. He rejects promises that temple vessels will soon return.",
-      "detail": "A yoke joins animals for pulling loads. Jeremiah uses it to show the burden of Babylon’s rule.",
+      "detail": "The yoke makes foreign service visible as a burden. Jeremiah directs the warning to rulers weighing resistance. The dispute about temple vessels connects political hope with sacred property. Preserving life, in this message, requires accepting a condition the audience wants to remove.",
       "dateLabel": "Chapter order",
       "uncertainty": "Map points locate named places. Lines connect stated movements where the passage gives endpoints.",
       "sourceIds": [
@@ -2203,7 +2717,7 @@
       "eventOrder": 28,
       "title": "Hananiah breaks the yoke",
       "summary": "Hananiah promises return within two years and breaks Jeremiah’s wooden yoke. Jeremiah answers with an iron yoke, and Hananiah dies.",
-      "detail": "Breaking the object does not remove the power it represents. The dispute tests a comforting promise against what actually happens.",
+      "detail": "Hananiah's action dramatizes his promise of a swift return. Jeremiah distinguishes that promise from evidence of its fulfillment. The replacement iron yoke increases the warning's force. The chapter tests an attractive message through events rather than the confidence of its speaker.",
       "dateLabel": "Chapter order",
       "uncertainty": "Map points locate named places. Lines connect stated movements where the passage gives endpoints.",
       "sourceIds": [
@@ -2226,12 +2740,13 @@
       "eventOrder": 29,
       "title": "A letter to people in exile",
       "summary": "Jeremiah tells captives to build homes and seek Babylon’s peace. He rejects other prophets’ claims and answers Shemaiah’s attempt to silence him.",
-      "detail": "The promised future includes a long wait and ordinary work. Seeking the city’s peace helps people live during that wait.",
+      "detail": "The letter names homes, gardens, marriages, and the city's peace. These duties assume a stay longer than the rival prophets promise. A hoped-for future does not cancel present work among foreign neighbors. Read the later promise beside these instructions for the years before it.",
       "dateLabel": "Chapter order",
       "uncertainty": "Map points locate named places. Lines connect stated movements where the passage gives endpoints.",
       "sourceIds": [
         "web",
-        "luther-jeremiah-summary"
+        "luther-jeremiah-summary",
+        "met-560805"
       ],
       "placeIds": [
         "jerusalem",
@@ -2249,7 +2764,7 @@
       "eventOrder": 30,
       "title": "Healing after national suffering",
       "summary": "God promises Israel and Judah return, healing, and renewed life. He also says the nations that plundered them will face loss.",
-      "detail": "The wounded people have no help from former allies. The promise addresses both their injuries and their loss of belonging.",
+      "detail": "The charge that Zion is unwanted gives the wound a social dimension. Restoration must answer loss of belonging as well as damaged buildings. Former allies cannot provide that recovery. The chapter's reversal joins judgment on plunderers with a future for those they harmed.",
       "dateLabel": "Chapter order",
       "uncertainty": "Map points locate named places. Lines connect stated movements where the passage gives endpoints.",
       "sourceIds": [
@@ -2271,7 +2786,7 @@
       "eventOrder": 31,
       "title": "Return and a law written in hearts",
       "summary": "God promises to gather scattered people and comfort Rachel’s grief. He announces a new covenant, an agreement with Israel and Judah.",
-      "detail": "God offers forgiveness and writes his law in people’s hearts. Knowing God becomes part of the restored relationship.",
+      "detail": "The passage addresses Israel and Judah as peoples with a broken agreement. Writing in the heart contrasts with a relationship repeatedly violated. Forgiveness and shared knowledge accompany that change. Rachel's grief remains within the same chapter, placing renewed relation beside remembered loss.",
       "dateLabel": "Chapter order",
       "uncertainty": "Map points locate named places. Lines connect stated movements where the passage gives endpoints.",
       "sourceIds": [
@@ -2297,12 +2812,13 @@
       "eventOrder": 32,
       "title": "Jeremiah buys a field during the siege",
       "summary": "While confined during the siege, Jeremiah buys Hanamel’s field in Anathoth. He gives the deeds to Baruch and questions the purchase.",
-      "detail": "Buying land gives visible form to the promise of return. Storing the deeds protects a claim that outlasts the present siege.",
+      "detail": "Jeremiah buys land while the city faces destruction. Witnesses, payment, copies, and storage make the purchase a public act. Preserving the deed assumes a future in which ownership can matter again. Hope here takes the form of a transaction during danger. The tablet offers an earlier regional comparison for recording land sales.",
       "dateLabel": "Chapter order",
       "uncertainty": "Map points locate named places. Lines connect stated movements where the passage gives endpoints.",
       "sourceIds": [
         "web",
-        "luther-jeremiah-summary"
+        "luther-jeremiah-summary",
+        "met-321953"
       ],
       "placeIds": [
         "anathoth",
@@ -2323,7 +2839,7 @@
       "eventOrder": 33,
       "title": "Healing, a just ruler, and renewed worship",
       "summary": "God promises to heal Jerusalem and restore joy and worship. He promises a just ruler from David’s family and continued priestly service.",
-      "detail": "Wedding songs and working shepherds describe restored daily life. The ruler’s justice makes that future more than a repaired city.",
+      "detail": "Wedding voices and thanksgiving replace the silence described around the city. Shepherds counting flocks give the promise another daily task. The future is more than repaired walls. Its picture of justice includes households, work, and worship that can continue together.",
       "dateLabel": "Chapter order",
       "uncertainty": "Map points locate named places. Lines connect stated movements where the passage gives endpoints.",
       "sourceIds": [
@@ -2348,7 +2864,7 @@
       "eventOrder": 34,
       "title": "Freed servants are forced back into slavery",
       "summary": "Jerusalem’s owners release Hebrew servants under an agreement. They then force them back into service, and Jeremiah announces punishment.",
-      "detail": "The owners undo freedom that they publicly promised before God. Their broken promise takes away the servants’ ability to leave.",
+      "detail": "The owners first agree to release their servants. Taking them back exposes the difference between a ceremony and sustained freedom. The charge names the people whose choices were removed. The siege does not excuse violating an agreement made before God.",
       "dateLabel": "Chapter order",
       "uncertainty": "Map points locate named places. Lines connect stated movements where the passage gives endpoints.",
       "sourceIds": [
@@ -2372,7 +2888,7 @@
       "eventOrder": 35,
       "title": "The Rechabites refuse wine",
       "summary": "Jeremiah offers wine to the Rechabites, who refuse it. They explain their ancestor Jonadab’s commands and their move into Jerusalem for safety.",
-      "detail": "Their careful obedience exposes Judah’s refusal to hear repeated warnings. The comparison concerns keeping instructions, not a universal ban on wine.",
+      "detail": "The Rechabites explain whose command they preserve and why they entered the city. Their obedience contrasts with Judah's refusal of repeated divine messages. The comparison depends on keeping a received instruction. It does not require every reader to adopt all of that family's habits.",
       "dateLabel": "Chapter order",
       "uncertainty": "Map points locate named places. Lines connect stated movements where the passage gives endpoints.",
       "sourceIds": [
@@ -2394,13 +2910,14 @@
       "eventOrder": 36,
       "title": "Jehoiakim burns the scroll",
       "summary": "Baruch writes and reads Jeremiah’s warnings. Jehoiakim burns the scroll despite objections, and Jeremiah dictates another scroll with added words.",
-      "detail": "Burning the scroll removes the object but not its warning. The replacement also shows that the written collection grew.",
+      "detail": "The scroll moves through writing, public reading, court officials, and the king. Each stage changes who can hear its words. The king burns the copy as it is read. The command to write again answers that attempt to silence it. The chapter makes the survival of words part of the conflict.",
       "dateLabel": "Chapter order",
       "uncertainty": "Map points locate named places. Lines connect stated movements where the passage gives endpoints.",
       "sourceIds": [
         "web",
         "luther-jeremiah-summary",
-        "luther-jeremiah-background"
+        "luther-jeremiah-background",
+        "met-560805"
       ],
       "placeIds": [
         "jerusalem"
@@ -2420,7 +2937,7 @@
       "eventOrder": 37,
       "title": "A false charge sends Jeremiah to prison",
       "summary": "Babylon’s troops withdraw when Egypt’s army approaches. Irijah accuses Jeremiah of joining the enemy, and officials imprison him despite his denial.",
-      "detail": "The temporary withdrawal encourages hope that Jeremiah rejects. The king seeks a private answer while Jeremiah remains in prison.",
+      "detail": "Babylon's withdrawal creates hope that the threat has ended. Jeremiah challenges that reading while facing accusations of desertion. The king then seeks information privately from the prisoner. The account separates visible movement, political expectation, and the warning that continues despite both.",
       "dateLabel": "Chapter order",
       "uncertainty": "Map points locate named places. Lines connect stated movements where the passage gives endpoints.",
       "sourceIds": [
@@ -2446,7 +2963,7 @@
       "eventOrder": 38,
       "title": "Ebedmelech rescues Jeremiah",
       "summary": "Officials lower Jeremiah into a muddy pit. Ebedmelech secures help and rescues him, while Zedekiah privately asks about surrender.",
-      "detail": "Ebedmelech protects Jeremiah’s body with cloth beneath the rescue ropes. Zedekiah’s fear of ridicule keeps him from following advice meant to save lives.",
+      "detail": "The rescue includes worn cloth to protect Jeremiah under the ropes. That small detail makes Ebedmelech's intervention more than a request for mercy. The king permits rescue but still fears following the prophet's advice. Helpful authority in one decision does not resolve his larger refusal.",
       "dateLabel": "Chapter order",
       "uncertainty": "Map points locate named places. Lines connect stated movements where the passage gives endpoints.",
       "sourceIds": [
@@ -2471,7 +2988,7 @@
       "eventOrder": 39,
       "title": "Jerusalem falls and Jeremiah is spared",
       "summary": "Babylon captures Jerusalem and Zedekiah. The invaders kill his sons and blind him. Jeremiah receives protection, and Ebedmelech receives a promise of survival.",
-      "detail": "The losses that Jeremiah privately warned Zedekiah about now happen. The promise to Ebedmelech connects survival with his trust amid danger.",
+      "detail": "The royal household suffers capture and severe punishment. Some poor people receive land while others are removed. The account does not make conquest one uniform experience. Jeremiah's protection and Ebedmelech's promise form further distinct outcomes within the same disaster.",
       "dateLabel": "Chapter order",
       "uncertainty": "Map points locate named places. Lines connect stated movements where the passage gives endpoints.",
       "sourceIds": [
@@ -2500,7 +3017,7 @@
       "eventOrder": 40,
       "title": "Gedaliah governs the remaining people",
       "summary": "Nebuzaradan frees Jeremiah, who stays with Gedaliah at Mizpah. Judeans return to harvest, but Gedaliah rejects a warning about Ishmael.",
-      "detail": "Returning farmers suggest that ordinary life could resume. Gedaliah’s refusal to believe the warning leaves that recovery exposed.",
+      "detail": "Gedaliah's invitation focuses on gathering produce and living in towns. That ordinary work contrasts with the preceding siege and removal. The warning about Ishmael threatens the limited safety needed for recovery. Refusing to believe it leaves the community's future exposed.",
       "dateLabel": "Chapter order",
       "uncertainty": "Map points locate named places. Lines connect stated movements where the passage gives endpoints.",
       "sourceIds": [
@@ -2523,7 +3040,7 @@
       "eventOrder": 41,
       "title": "Ishmael kills Gedaliah and takes captives",
       "summary": "Ishmael kills Gedaliah and visiting mourners, then takes captives. Johanan recovers the captives, and Ishmael escapes toward Ammon.",
-      "detail": "The killings destroy the remaining community’s fragile safety. Fear of Babylonian retaliation drives the survivors toward Egypt.",
+      "detail": "Gedaliah's death destroys the arrangement under which farming had resumed. Fear of Babylon's response then shapes the recovered captives' next decision. Their danger comes through events inside the remaining community. The movement toward Egypt grows from that fear before they request divine guidance.",
       "dateLabel": "Chapter order",
       "uncertainty": "Map points locate named places. Lines connect stated movements where the passage gives endpoints.",
       "sourceIds": [
@@ -2547,7 +3064,7 @@
       "eventOrder": 42,
       "title": "Survivors ask for guidance",
       "summary": "Johanan and the survivors promise to obey God’s answer. Jeremiah tells them to remain in Judah and warns against seeking safety in Egypt.",
-      "detail": "Their promise includes answers they may dislike. The warning challenges their belief that moving to Egypt would remove war and hunger.",
+      "detail": "The survivors agree to accept either a pleasing or difficult response. Jeremiah's answer challenges the destination they already consider safer. The ten-day wait also prevents an immediate endorsement of their plan. The account places declared obedience beside the concrete choice that will test it.",
       "dateLabel": "Chapter order",
       "uncertainty": "Map points locate named places. Lines connect stated movements where the passage gives endpoints.",
       "sourceIds": [
@@ -2569,7 +3086,7 @@
       "eventOrder": 43,
       "title": "The survivors reject the answer",
       "summary": "Johanan and Azariah accuse Jeremiah of lying and blame Baruch. They take the survivors, Jeremiah, and Baruch into Egypt.",
-      "detail": "Their accusations avoid answering God’s warning. The buried stones show Babylon reaching the place they believe is safe.",
+      "detail": "The leaders blame Baruch for directing Jeremiah's speech. That claim shifts attention from the message to an alleged hidden motive. They then take the group into Egypt despite the warning. The buried stones give the new destination a danger they expected to escape.",
       "dateLabel": "Chapter order",
       "uncertainty": "Map points locate named places. Lines connect stated movements where the passage gives endpoints.",
       "sourceIds": [
@@ -2592,7 +3109,7 @@
       "eventOrder": 44,
       "title": "A dispute about the queen of the sky",
       "summary": "Judeans in Egypt insist that their goddess offerings brought prosperity. Jeremiah says those offerings caused the ruin they seek to escape.",
-      "detail": "The speakers give opposite causes for the same disaster. Data Over Dogma favors identifying the queen with Astarte. The passage does not name her.",
+      "detail": "The people associate prosperity with their earlier offerings. Jeremiah interprets those same practices as the cause of destruction. Both speakers use memory to explain the present loss. The text records competing claims without giving the queen of the sky a personal name.",
       "dateLabel": "Chapter order",
       "uncertainty": "Map points locate named places. Lines connect stated movements where the passage gives endpoints.",
       "sourceIds": [
@@ -2617,7 +3134,7 @@
       "eventOrder": 45,
       "title": "Baruch receives a promise of survival",
       "summary": "Baruch laments his added sorrow and lack of rest. God warns him against seeking greatness and promises that he will keep his life.",
-      "detail": "The promise offers survival during widespread loss rather than personal fame. It answers Baruch’s hopes without denying his sorrow.",
+      "detail": "Baruch's complaint gives the person who writes the message his own voice. The answer places his hopes within the destruction facing the land. Survival replaces the greatness he might seek. His sorrow is acknowledged without a promise that serving the message brings personal advancement.",
       "dateLabel": "Chapter order",
       "uncertainty": "Map points locate named places. Lines connect stated movements where the passage gives endpoints.",
       "sourceIds": [
@@ -2638,7 +3155,7 @@
       "eventOrder": 46,
       "title": "Egypt’s armies face defeat",
       "summary": "Jeremiah describes Egypt’s defeat at Carchemish and warns of invasion. He also promises that scattered Israel will not be abandoned.",
-      "detail": "Egypt’s boast of covering the land fails before the attack. Its many soldiers and hired fighters cannot stop its defeat.",
+      "detail": "Egypt describes its advance as water covering the land. The battle scene turns that confidence into panic and retreat. Many troops do not guarantee the power claimed by the image. The final promise to Israel gives the chapter a second audience beyond the defeated army.",
       "dateLabel": "Chapter order",
       "uncertainty": "Map points locate named places. Lines connect stated movements where the passage gives endpoints.",
       "sourceIds": [
@@ -2663,7 +3180,7 @@
       "eventOrder": 47,
       "title": "A warning against the Philistines",
       "summary": "Jeremiah describes destruction reaching Philistine cities and their helpers. A voice asks when the sword will finally rest.",
-      "detail": "The request for a quiet sword gives suffering a voice. The answer presents continued war as part of the announced judgment.",
+      "detail": "The request for rest interrupts the announcement of destruction. It asks about the duration of violence rather than celebrating an enemy's loss. The answering voice keeps the announced judgment in view. The exchange lets grief and warning occupy the same short poem.",
       "dateLabel": "Chapter order",
       "uncertainty": "Map points locate named places. Lines connect stated movements where the passage gives endpoints.",
       "sourceIds": [
@@ -2688,7 +3205,7 @@
       "eventOrder": 48,
       "title": "Moab’s pride and suffering",
       "summary": "Jeremiah announces destruction across Moab and captivity for Chemosh’s worshipers. He mourns ruined vineyards and ends with a promise of return.",
-      "detail": "Moab’s wealth and ease cannot prevent loss. Grief for the victims remains beside the charge of pride.",
+      "detail": "The speaker mourns the people whose pride the warning condemns. Ruined vineyards turn national loss into damage to familiar work and celebration. That sorrow complicates a reading based only on punishment. The closing return promise also prevents destruction from being the chapter's final word.",
       "dateLabel": "Chapter order",
       "uncertainty": "Map points locate named places. Lines connect stated movements where the passage gives endpoints.",
       "sourceIds": [
@@ -2711,7 +3228,7 @@
       "eventOrder": 49,
       "title": "Warnings against neighboring peoples",
       "summary": "Jeremiah announces judgment against Ammon, Edom, Damascus, Kedar, Hazor, and Elam. Promises of later return accompany warnings for Ammon and Elam.",
-      "detail": "Treasures, mountain defenses, and weapons fail to provide lasting safety. God promises return to Ammon and Elam. The other warnings offer no matching promise.",
+      "detail": "The warnings address several peoples with distinct sources of confidence. Wealth, high places, and weapons fail in different scenes. Return promises appear for Ammon and Elam, but not for every named people. Keep those differences when reading the chapter as a group of national warnings.",
       "dateLabel": "Chapter order",
       "uncertainty": "Map points locate named places. Lines connect stated movements where the passage gives endpoints.",
       "sourceIds": [
@@ -2736,7 +3253,7 @@
       "eventOrder": 50,
       "title": "Babylon faces judgment",
       "summary": "Jeremiah announces Babylon’s fall and urges captives to leave. He promises Israel and Judah return, forgiveness, and a renewed agreement with God.",
-      "detail": "Babylon’s earlier role in punishment does not excuse its violence. The warning holds the conqueror responsible for harming the people it captured.",
+      "detail": "The attackers claim innocence because their victims had sinned. The warning against Babylon rejects that escape from responsibility. Israel and Judah's promised return therefore includes judgment on their captor. The book does not give one power permanent immunity because it once served a purpose.",
       "dateLabel": "Chapter order",
       "uncertainty": "Map points locate named places. Lines connect stated movements where the passage gives endpoints.",
       "sourceIds": [
@@ -2758,12 +3275,13 @@
       "eventOrder": 51,
       "title": "A scroll marks Babylon’s announced fall",
       "summary": "Jeremiah continues the warning against Babylon. He tells Seraiah to read a scroll there and sink it in the Euphrates.",
-      "detail": "The sinking scroll gives visible form to Babylon’s announced fall. People must leave Babylon to avoid sharing its punishment.",
+      "detail": "Seraiah must first read the warning in Babylon. A stone then sends the scroll beneath the river's surface. The spoken explanation gives that action its meaning. The act presents an announced future, not a record that Babylon had already fallen.",
       "dateLabel": "Chapter order",
       "uncertainty": "Map points locate named places. Lines connect stated movements where the passage gives endpoints.",
       "sourceIds": [
         "web",
-        "luther-jeremiah-summary"
+        "luther-jeremiah-summary",
+        "met-560805"
       ],
       "placeIds": [
         "babylon"
@@ -2780,7 +3298,7 @@
       "eventOrder": 52,
       "title": "Jerusalem’s destruction and Jehoiachin’s release",
       "summary": "The closing account describes Jerusalem’s siege, destruction, executions, and forced removal of captives. Years later, Evilmerodach frees Jehoiachin and gives him a daily allowance.",
-      "detail": "Invaders break and carry away Solomon’s temple furnishings. Jehoiachin’s changed treatment offers limited hope without reversing the destruction.",
+      "detail": "The detailed destruction follows Jeremiah's speeches rather than ending with their promises. Temple objects, officials, and captives all enter its record of loss. Jehoiachin's later release changes one person's treatment. It offers a surviving royal line without claiming the temple or kingdom has returned.",
       "dateLabel": "Chapter order",
       "uncertainty": "Map points locate named places. Lines connect stated movements where the passage gives endpoints.",
       "sourceIds": [
@@ -3228,40 +3746,37 @@
   "words": [],
   "guides": [
     {
-      "id": "jeremiah-overview",
-      "title": "Study Jeremiah",
-      "description": "Follow selected chapters through the book.",
+      "id": "jeremiah-context",
+      "title": "Jeremiah: context and evidence",
+      "description": "Explore the book’s larger concerns through selected passages and relevant evidence.",
       "steps": [
         {
-          "title": "Jeremiah receives his call",
-          "text": "God appoints Jeremiah to speak to nations. Jeremiah objects that he is young and cannot speak. God answers Jeremiah’s fear with a promise of presence. The call includes both tearing down and building.",
-          "chapter": 1,
-          "verse": 1,
+          "title": "A temple can become a false source of safety",
+          "text": "The warning targets trust in the temple’s name without changed conduct. Jeremiah connects worship with justice toward strangers, widows, and children without fathers. He also names theft, killing, and other gods. The building cannot protect a community that ignores these duties. Read the speech as a challenge to public habits, not only private belief.",
+          "chapter": 7,
+          "verse": 4,
           "sourceIds": [
-            "web",
-            "luther-jeremiah-summary",
-            "luther-jeremiah-background"
+            "web"
           ]
         },
         {
-          "title": "A yoke warns against rebellion",
-          "text": "Jeremiah wears a wooden yoke and urges rulers to serve Babylon. He rejects promises that temple vessels will soon return. A yoke joins animals for pulling loads. Jeremiah uses it to show the burden of Babylon’s rule.",
-          "chapter": 27,
-          "verse": 1,
+          "title": "A land purchase gives hope a material form",
+          "text": "Jeremiah buys land while the city faces destruction. Witnesses, payment, copies, and storage make the purchase a public act. Preserving the deed assumes a future in which ownership can matter again. Hope here takes the form of a transaction during danger. The tablet offers an earlier regional comparison for recording land sales.",
+          "chapter": 32,
+          "verse": 14,
           "sourceIds": [
             "web",
-            "luther-jeremiah-summary"
+            "met-321953"
           ]
         },
         {
-          "title": "Jerusalem’s destruction and Jehoiachin’s release",
-          "text": "The closing account describes Jerusalem’s siege, destruction, executions, and forced removal of captives. Years later, Evilmerodach frees Jehoiachin and gives him a daily allowance. Invaders break and carry away Solomon’s temple furnishings. Jehoiachin’s changed treatment offers limited hope without reversing the destruction.",
-          "chapter": 52,
-          "verse": 1,
+          "title": "Destroying a copy does not end the message",
+          "text": "The scroll moves through writing, public reading, court officials, and the king. Each stage changes who can hear its words. The king burns the copy as it is read. The command to write again answers that attempt to silence it. The chapter makes the survival of words part of the conflict.",
+          "chapter": 36,
+          "verse": 23,
           "sourceIds": [
             "web",
-            "luther-jeremiah-summary",
-            "luther-jeremiah-background"
+            "met-560805"
           ]
         }
       ]
@@ -3955,7 +4470,8 @@
       "limits": "Map points locate named places. Lines connect stated movements where the passage gives endpoints.",
       "sourceIds": [
         "web",
-        "luther-jeremiah-summary"
+        "luther-jeremiah-summary",
+        "met-560805"
       ]
     },
     {
@@ -4022,7 +4538,8 @@
       "limits": "Map points locate named places. Lines connect stated movements where the passage gives endpoints.",
       "sourceIds": [
         "web",
-        "luther-jeremiah-summary"
+        "luther-jeremiah-summary",
+        "met-321953"
       ]
     },
     {
@@ -4111,7 +4628,8 @@
       "sourceIds": [
         "web",
         "luther-jeremiah-summary",
-        "luther-jeremiah-background"
+        "luther-jeremiah-background",
+        "met-560805"
       ]
     },
     {
@@ -4479,7 +4997,8 @@
       "limits": "Map points locate named places. Lines connect stated movements where the passage gives endpoints.",
       "sourceIds": [
         "web",
-        "luther-jeremiah-summary"
+        "luther-jeremiah-summary",
+        "met-560805"
       ]
     },
     {
@@ -4535,7 +5054,7 @@
       "chapter": 29,
       "verse": 1,
       "summary": "Jeremiah tells captives to build homes and seek Babylon’s peace. He rejects other prophets’ claims and answers Shemaiah’s attempt to silence him.",
-      "detail": "The promised future includes a long wait and ordinary work. Seeking the city’s peace helps people live during that wait.",
+      "detail": "The letter names homes, gardens, marriages, and the city's peace. These duties assume a stay longer than the rival prophets promise. A hoped-for future does not cancel present work among foreign neighbors. Read the later promise beside these instructions for the years before it.",
       "uncertainty": "Jeremiah 29:1–3 describes Elasah and Gemariah delivering the letter from Jerusalem to captives in Babylon. Intermediate roads are not specified.",
       "evidence": "Jeremiah 29:1–3 describes Elasah and Gemariah delivering the letter from Jerusalem to captives in Babylon. Intermediate roads are not specified.",
       "kind": "journey",
@@ -4543,7 +5062,8 @@
       "textRoute": true,
       "sourceIds": [
         "web",
-        "luther-jeremiah-summary"
+        "luther-jeremiah-summary",
+        "met-560805"
       ]
     },
     {
@@ -4570,7 +5090,7 @@
       "chapter": 39,
       "verse": 1,
       "summary": "Babylon captures Jerusalem and Zedekiah. The invaders kill his sons and blind him. Jeremiah receives protection, and Ebedmelech receives a promise of survival.",
-      "detail": "The losses that Jeremiah privately warned Zedekiah about now happen. The promise to Ebedmelech connects survival with his trust amid danger.",
+      "detail": "The royal household suffers capture and severe punishment. Some poor people receive land while others are removed. The account does not make conquest one uniform experience. Jeremiah's protection and Ebedmelech's promise form further distinct outcomes within the same disaster.",
       "uncertainty": "Jeremiah 39:4–7 traces Zedekiah’s escape, capture near Jericho, judgment at Riblah, and removal to Babylon. Lines connect approximate named locations, not known roads.",
       "evidence": "Jeremiah 39:4–7 traces Zedekiah’s escape, capture near Jericho, judgment at Riblah, and removal to Babylon. Lines connect approximate named locations, not known roads.",
       "kind": "journey",
@@ -4598,7 +5118,7 @@
       "chapter": 40,
       "verse": 1,
       "summary": "Nebuzaradan frees Jeremiah, who stays with Gedaliah at Mizpah. Judeans return to harvest, but Gedaliah rejects a warning about Ishmael.",
-      "detail": "Returning farmers suggest that ordinary life could resume. Gedaliah’s refusal to believe the warning leaves that recovery exposed.",
+      "detail": "Gedaliah's invitation focuses on gathering produce and living in towns. That ordinary work contrasts with the preceding siege and removal. The warning about Ishmael threatens the limited safety needed for recovery. Refusing to believe it leaves the community's future exposed.",
       "uncertainty": "Jeremiah 40:1–6 places Jeremiah among captives at Ramah and then with Gedaliah at Mizpah. The exact road and competing site locations remain uncertain.",
       "evidence": "Jeremiah 40:1–6 places Jeremiah among captives at Ramah and then with Gedaliah at Mizpah. The exact road and competing site locations remain uncertain.",
       "kind": "journey",
@@ -4633,7 +5153,7 @@
       "chapter": 52,
       "verse": 1,
       "summary": "The closing account describes Jerusalem’s siege, destruction, executions, and forced removal of captives. Years later, Evilmerodach frees Jehoiachin and gives him a daily allowance.",
-      "detail": "Invaders break and carry away Solomon’s temple furnishings. Jehoiachin’s changed treatment offers limited hope without reversing the destruction.",
+      "detail": "The detailed destruction follows Jeremiah's speeches rather than ending with their promises. Temple objects, officials, and captives all enter its record of loss. Jehoiachin's later release changes one person's treatment. It offers a surviving royal line without claiming the temple or kingdom has returned.",
       "uncertainty": "Jeremiah 52:7–11 repeats Zedekiah’s escape, capture near Jericho, judgment at Riblah, and removal to Babylon. It does not supply the roads.",
       "evidence": "Jeremiah 52:7–11 repeats Zedekiah’s escape, capture near Jericho, judgment at Riblah, and removal to Babylon. It does not supply the roads.",
       "kind": "journey",
@@ -4647,5 +5167,266 @@
     }
   ],
   "narrativeRegions": [],
-  "chapterStudies": []
+  "chapterStudies": [
+    {
+      "chapter": 1,
+      "verse": 10,
+      "context": ""
+    },
+    {
+      "chapter": 2,
+      "verse": 13,
+      "context": ""
+    },
+    {
+      "chapter": 3,
+      "verse": 11,
+      "context": ""
+    },
+    {
+      "chapter": 4,
+      "verse": 23,
+      "context": ""
+    },
+    {
+      "chapter": 5,
+      "verse": 5,
+      "context": ""
+    },
+    {
+      "chapter": 6,
+      "verse": 14,
+      "context": ""
+    },
+    {
+      "chapter": 7,
+      "verse": 4,
+      "context": ""
+    },
+    {
+      "chapter": 8,
+      "verse": 8,
+      "context": ""
+    },
+    {
+      "chapter": 9,
+      "verse": 24,
+      "context": ""
+    },
+    {
+      "chapter": 10,
+      "verse": 5,
+      "context": ""
+    },
+    {
+      "chapter": 11,
+      "verse": 21,
+      "context": ""
+    },
+    {
+      "chapter": 12,
+      "verse": 1,
+      "context": ""
+    },
+    {
+      "chapter": 13,
+      "verse": 11,
+      "context": ""
+    },
+    {
+      "chapter": 14,
+      "verse": 13,
+      "context": ""
+    },
+    {
+      "chapter": 15,
+      "verse": 18,
+      "context": ""
+    },
+    {
+      "chapter": 16,
+      "verse": 5,
+      "context": ""
+    },
+    {
+      "chapter": 17,
+      "verse": 8,
+      "context": ""
+    },
+    {
+      "chapter": 18,
+      "verse": 8,
+      "context": ""
+    },
+    {
+      "chapter": 19,
+      "verse": 11,
+      "context": ""
+    },
+    {
+      "chapter": 20,
+      "verse": 9,
+      "context": ""
+    },
+    {
+      "chapter": 21,
+      "verse": 12,
+      "context": ""
+    },
+    {
+      "chapter": 22,
+      "verse": 13,
+      "context": ""
+    },
+    {
+      "chapter": 23,
+      "verse": 22,
+      "context": ""
+    },
+    {
+      "chapter": 24,
+      "verse": 6,
+      "context": ""
+    },
+    {
+      "chapter": 25,
+      "verse": 12,
+      "context": ""
+    },
+    {
+      "chapter": 26,
+      "verse": 19,
+      "context": ""
+    },
+    {
+      "chapter": 27,
+      "verse": 12,
+      "context": ""
+    },
+    {
+      "chapter": 28,
+      "verse": 9,
+      "context": ""
+    },
+    {
+      "chapter": 29,
+      "verse": 7,
+      "context": ""
+    },
+    {
+      "chapter": 30,
+      "verse": 17,
+      "context": ""
+    },
+    {
+      "chapter": 31,
+      "verse": 33,
+      "context": ""
+    },
+    {
+      "chapter": 32,
+      "verse": 14,
+      "context": ""
+    },
+    {
+      "chapter": 33,
+      "verse": 11,
+      "context": ""
+    },
+    {
+      "chapter": 34,
+      "verse": 16,
+      "context": ""
+    },
+    {
+      "chapter": 35,
+      "verse": 14,
+      "context": ""
+    },
+    {
+      "chapter": 36,
+      "verse": 23,
+      "context": ""
+    },
+    {
+      "chapter": 37,
+      "verse": 9,
+      "context": ""
+    },
+    {
+      "chapter": 38,
+      "verse": 11,
+      "context": ""
+    },
+    {
+      "chapter": 39,
+      "verse": 10,
+      "context": ""
+    },
+    {
+      "chapter": 40,
+      "verse": 10,
+      "context": ""
+    },
+    {
+      "chapter": 41,
+      "verse": 18,
+      "context": ""
+    },
+    {
+      "chapter": 42,
+      "verse": 6,
+      "context": ""
+    },
+    {
+      "chapter": 43,
+      "verse": 3,
+      "context": ""
+    },
+    {
+      "chapter": 44,
+      "verse": 17,
+      "context": ""
+    },
+    {
+      "chapter": 45,
+      "verse": 5,
+      "context": ""
+    },
+    {
+      "chapter": 46,
+      "verse": 8,
+      "context": ""
+    },
+    {
+      "chapter": 47,
+      "verse": 6,
+      "context": ""
+    },
+    {
+      "chapter": 48,
+      "verse": 31,
+      "context": ""
+    },
+    {
+      "chapter": 49,
+      "verse": 4,
+      "context": ""
+    },
+    {
+      "chapter": 50,
+      "verse": 7,
+      "context": ""
+    },
+    {
+      "chapter": 51,
+      "verse": 64,
+      "context": ""
+    },
+    {
+      "chapter": 52,
+      "verse": 31,
+      "context": ""
+    }
+  ]
 }

@@ -1,10 +1,10 @@
 import { initChapterPicker } from './chapter-picker.js';
-import { people, featurePortraits, wordPortraits, personProfileHtml, personIdForLabel, setPortraitMode } from './book-song-of-solomon-portraits.js?v=20261005.20';
+import { people, featurePortraits, wordPortraits, personProfileHtml, personIdForLabel, setPortraitMode } from './book-song-of-solomon-portraits.js?v=20261005.23';
 import { initModalDragging } from './modal-drag.js';
 import { chapterFocus, chapterRoutes, chapterPoints, movementStyle } from './chapter-map.js';
 const $ = (s, root = document) => root.querySelector(s);
 const $$ = (s, root = document) => [...root.querySelectorAll(s)];
-const releaseVersion = '20261005.20';
+const releaseVersion = '20261005.23';
 const chapters = Array.from({ length: 8 }, (_, i) => i + 1);
 const defaults = { chapter: 1, verse: 1, studyMode: 'read', view: 'map', perspective: 'historical', portraitMode: 'generated', date: 1, layers: { places: true, regions: true, campaigns: true, roads: false, history: false }, sidebar: 'scripture', map: { center: [32.1, 35.0], zoom: 7 } };
 let state = { ...defaults, ...readSaved(), layers: { ...defaults.layers, ...(readSaved().layers || {}) } };
@@ -169,7 +169,7 @@ function buildStaticUi() {
   initTimelineTooltip();
   const layerOptions = ensureLayerOptions();
   if (!layerOptions) throw new Error('Map layer controls are unavailable.');
-  layerOptions.innerHTML = [['places','Places','place'],['regions','Areas','region'],['campaigns','Paths','route'],['roads','Ancient roads','road'],['history','Nations','region']].map(([key,label,kind]) => `<label class="layer-option"><input type="checkbox" data-layer="${key}"><span class="layer-swatch ${kind}"></span>${label}</label>`).join('');
+  layerOptions.innerHTML = [['places','Places','place'],['regions','Areas','region'],['campaigns','Paths','route'],['roads','Ancient roads','road'],['history','Nations','region']].filter(([key]) => ({places:data.places.length, regions:data.regions.length || data.narrativeRegions?.length, campaigns:data.textRoutes?.length || data.campaigns.length, roads:data.ancientRoads.length, history:data.regions.length})[key]).map(([key,label,kind]) => `<label class="layer-option"><input type="checkbox" data-layer="${key}"><span class="layer-swatch ${kind}"></span>${label}</label>`).join('');
   $('#periods').innerHTML = (data.periods.length ? data.periods : [{id:'pre',label:'Before Song of Solomon',description:'Earlier eighth-century setting'},{id:'isaiah',label:'Song of Solomon',description:'Assyria, Judah, and Song of Solomon’s ministry'},{id:'post',label:'After Song of Solomon',description:'Later events in Babylon and Persia'}]).slice(0,3).map(p => `<button data-period="${esc(p.id)}">${esc(p.label)}<small>${esc(p.description || '')}</small></button>`).join('');
   document.addEventListener('click', onClick);
   document.addEventListener('change', onChange);
@@ -427,7 +427,7 @@ function passageContextHtml() {
   const cite = passageFootnotes(p);
   const ids = [...new Set(passages.flatMap(p => p.sourceIds || []))];
   const reflection = state.perspective === 'lds' ? `<p><strong>LDS reflection.</strong> ${esc(p.lds?.text || '')}${cite(p.lds?.sourceIds)}</p>${sourceInsightsHtml(passages.flatMap(item => item.lds?.sourceIds || []))}` : '';
-  return `<section class="passage-context chapter-introduction" aria-label="Chapter introduction"><h2>${esc(p.title)}</h2><div class="passage-prose"><p>${linkedEntityHtml(p.summary)}${cite(ids)}</p>${chapterEvidenceHtml()}${sourceInsightsHtml(ids)}${reflection}${chapterInterviewNotesHtml()}</div>${mapStoryHtml()}</section>`;
+  return `<section class="passage-context chapter-introduction" aria-label="Chapter introduction"><h2>${esc(p.title)}</h2><div class="passage-prose"><p>${linkedEntityHtml(p.summary)}${cite(ids)}</p>${chapterContextHtml()}${chapterEvidenceHtml()}${sourceInsightsHtml(ids)}${reflection}${chapterInterviewNotesHtml()}</div>${mapStoryHtml()}</section>`;
 }
 function passageInterpretationHtml() {
   if (state.perspective !== 'lds') return '';
@@ -581,7 +581,7 @@ function sourceMediaHtml(ids = [], options = {}) {
   return [...new Set(ids)].map(id => {
     const item = source(id);
     if (!item) return '';
-    const showImage = options.images !== false && item.image && !images.has(item.image.src);
+    const showImage = options.images !== false && (options.allExcerpts || !(item.imageChapters || item.chapterCoverage) || (item.imageChapters || item.chapterCoverage).includes(Number(chapter))) && item.image && !images.has(item.image.src);
     if (showImage) images.add(item.image.src);
     const excerpt = options.quotes === false ? null : item.excerpt;
     const showExcerpt = excerpt && (!excerpt.chapters || excerpt.chapters.includes(Number(chapter)) || options.allExcerpts);
@@ -612,7 +612,8 @@ function placeVerseInChapter(feature, chapter = state.chapter) {
 function sourceChapters(id) {
   const item = source(id);
   const reviewed = data.studySourceReview?.find(entry => entry.sourceId === id)?.chapters || [];
-  const webChapter = id === 'web' ? 36 : id.match(/^web(\d+)$/)?.[1];
+  const webChapter = id.match(/^web(\d+)$/)?.[1];
+  if (id === 'web') return chapters;
   return [...new Set([...(item?.chapterCoverage || []), ...reviewed, ...(webChapter ? [Number(webChapter)] : [])].map(Number))];
 }
 function genericPlaceDescription(feature) {
@@ -639,7 +640,7 @@ function featureChapterContext(feature) {
     const chapters = sourceChapters(id);
     return !chapters.length || chapters.includes(state.chapter);
   });
-  const webId = state.chapter === 36 ? 'web' : `web${state.chapter}`;
+  const webId = 'web';
   if (verse && source(webId)) sourceIds.push(webId);
   return { paragraphs, sourceIds:[...new Set(sourceIds)] };
 }
@@ -984,7 +985,7 @@ function drawOverlays() {
   const focus = chapterFocus(data, state.chapter);
   const kinds = [...new Set(campaigns.filter(c=>c.chapterRoute).map(c=>c.kind))];
   const roadKey = roads.length ? '<div class="road-key"><span><i></i>Well-supported route</span><span><i class="probable"></i>Probable route</span></div>' : '';
-  $('.map-note').innerHTML = `<button data-action="focus-chapter" class="chapter-focus-button">Focus Song of Solomon ${state.chapter}</button><div class="movement-legend">${kinds.map(kind=>{const s=movementStyle({kind});return `<span><i style="background:${s.color}"></i>${s.label}</span>`;}).join('')}${focus?.impacts?.length && state.layers.places ? '<span><i class="impact-key"></i>Destruction / distress</span>' : ''}</div>${roadKey}${focus?.narrative ? `<details><summary>Map context</summary>${esc(focus.narrative)}</details>` : ''}`;
+  $('.map-note').innerHTML = `<button data-action="focus-chapter" class="chapter-focus-button" ${chapterPoints(data, state.chapter).length ? '' : 'disabled'}>Focus Song of Solomon ${state.chapter}</button><div class="movement-legend">${kinds.map(kind=>{const s=movementStyle({kind});return `<span><i style="background:${s.color}"></i>${s.label}</span>`;}).join('')}${focus?.impacts?.length && state.layers.places ? '<span><i class="impact-key"></i>Destruction / distress</span>' : ''}</div>${roadKey}${!chapterPoints(data, state.chapter).length ? '<p>This chapter has no mapped places.</p>' : ''}${focus?.narrative || focus?.limits ? `<details><summary>Map context</summary>${[focus.narrative, focus.limits].filter(Boolean).map(text => `<p>${esc(text)}</p>`).join('')}</details>` : ''}`;
   refreshMapDetails();
 }
 function refreshMapDetails() {
@@ -1150,7 +1151,7 @@ function librarySourceHtml(s) {
   }).join('');
   const cited = (s.citedSourceIds || []).map(id => source(id)).filter(Boolean);
   const scriptureRefs = (s.scriptureReferences || []).map(ref => `<p><a target="_blank" rel="noopener" href="${esc(ref.url)}">${esc(ref.label)} ↗</a> · <a target="_blank" rel="noopener" href="${esc(ref.contextUrl)}">${esc(ref.location)} in talk ↗</a></p>`).join('');
-  return `<article class="library-source" id="library-${esc(s.id)}"><a target="_blank" rel="noopener" href="${esc(s.url)}">${esc(s.title)} ↗</a><p>${esc(s.author || '')}${s.year ? ` · ${esc(s.year)}` : ''} · ${esc(s.type || 'Source')}</p>${sourceImageHtml(s.image)}${sourceMediaHtml([s.id], {images:false, allExcerpts:true})}<p><span class="badge">About this source</span> ${esc(s.summary || '')}</p>${scriptureRefs ? `<details><summary>Song of Solomon links</summary>${scriptureRefs}</details>` : ''}${moments ? `<details><summary>Video parts</summary>${moments}</details>` : ''}${cited.length ? `<details><summary>Sources used</summary>${cited.map(item => `<a class="source-link" href="${esc(item.url)}" data-source-id="${esc(item.id)}">${esc(item.title)} · Read source note</a>`).join('')}</details>` : ''}${s.revisionUrl ? `<p><a href="${esc(s.revisionUrl)}" target="_blank" rel="noopener">Wikipedia page we checked ↗</a> · <a href="${esc(s.licenseUrl)}" target="_blank" rel="noopener">${esc(s.license)}</a> · We made the notes shorter.</p>` : ''}${s.reviewed ? `<p><span class="badge">What we checked</span> ${esc(s.reviewed)}</p>` : ''}${s.limitations ? `<p><span class="badge">What this cannot show</span> ${esc(s.limitations)}</p>` : ''}</article>`;
+  return `<article class="library-source" id="library-${esc(s.id)}"><a target="_blank" rel="noopener" href="${esc(s.url)}">${esc(s.title)} ↗</a><p>${esc(s.author || '')}${s.year ? ` · ${esc(s.year)}` : ''} · ${esc(s.type || 'Source')}</p>${sourceImageHtml(s.image)}${sourceMediaHtml([s.id], {images:false, allExcerpts:true})}<p><span class="badge">About this source</span> ${esc(s.summary || '')}</p>${scriptureRefs ? `<details><summary>Song of Solomon links</summary>${scriptureRefs}</details>` : ''}${moments ? `<details><summary>Video parts</summary>${moments}</details>` : ''}${cited.length ? `<details><summary>Sources used</summary>${cited.map(item => `<a class="source-link" href="${esc(item.url)}" data-source-id="${esc(item.id)}">${esc(item.title)} · Read source note</a>`).join('')}</details>` : ''}${s.revisionUrl ? `<p><a href="${esc(s.revisionUrl)}" target="_blank" rel="noopener">Wikipedia page we checked ↗</a> · <a href="${esc(s.licenseUrl)}" target="_blank" rel="noopener">${esc(s.license)}</a> · We made the notes shorter.</p>` : ''}${s.reviewed ? `<p><span class="badge">What we checked</span> ${esc(typeof s.reviewed === 'string' ? s.reviewed : [s.reviewed.date, s.reviewed.scope].filter(Boolean).join(': '))}</p>` : ''}${s.limitations ? `<p><span class="badge">What this cannot show</span> ${esc(s.limitations)}</p>` : ''}</article>`;
 }
 function openLibrary() {
   const list = state.perspective === 'historical' ? data.sources.filter(s => !isLdsSource(s)) : data.sources;
@@ -1196,3 +1197,10 @@ function moveGuide(direction) { const guide = data.guides.find(g => g.id === gui
 document.addEventListener('keydown', e => { if (e.key === 'Escape') closeCard(); });
 $('#layerToggle').dataset.action = 'toggle-layers'; $('#libraryButton').dataset.action = 'library'; $('#tourButton').dataset.action = 'open-guides'; $('#returnPassage').dataset.action = 'return-passage';
 load();
+
+function chapterContextHtml(chapter = state.chapter) {
+  const passage = data.passages.find(p => p.chapter === Number(chapter));
+  const note = passage?.contextNote;
+  if (!note) return '';
+  return `<section class="chapter-context-note"><h3>${esc(note.title)}</h3><p>${esc(note.text)}${passageFootnotes(passage)(note.sourceIds)}</p></section>`;
+}

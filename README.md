@@ -98,3 +98,27 @@ Leviticus includes all 27 chapters and 859 verses.
 Each has selected events and people, portraits, map journeys, meanings, and separate historical and LDS sources.
 Run `npm run check:bible` to check the directory and ready book data.
 The remaining books have planned pages. See `BIBLE-EXPANSION.md` for the next book and weekly usage constraint.
+
+## Context across the ready books
+
+All 731 chapters in the 23 added books now have original contextual explanations and meaningful selected Scripture verses.
+Isaiah retains its existing 66 chapter studies.
+The explanations address speakers, literary choices, social practices, power, and consequences within the text.
+They replace the former generic meaning statements in the added-book reader.
+Historical and LDS perspectives retain the same shared context, with Church readings kept separate.
+
+Artifact photographs appear in relevant passages and short curated guides.
+Museum descriptions identify each object and explain the limits of the comparison.
+These objects do not establish the occurrence of every event described in Scripture.
+Licensed credits remain available with the photographs.
+Generated portraits have the shared footer note rather than repeated disclaimers beneath each image.
+
+Maintain complete chapter rows in `scripts/book-context-complete/<id>.json`.
+Maintain short guide selections and museum metadata in `scripts/book_context.py`.
+Rebuild with `python scripts/build-native-books.py`.
+The build requires exactly one contextual row per ready chapter.
+Run both `npm run check` and `npm run check:bible` before publishing.
+The GitHub Pages workflow also runs both checks before uploading `dist`.
+
+Future agents must read `AGENTS.md`, `WRITING-GUIDE.md`, and `BIBLE-SOURCE-POLICY.md` before changing study content.
+Complete original-text coverage does not imply a new full review of every external linked work.

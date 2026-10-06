@@ -1661,7 +1661,7 @@
       "chapter": 1,
       "title": "News of broken walls",
       "summary": "Hanani reports that Jerusalem has broken walls and burned gates. Nehemiah weeps, fasts, and prays.",
-      "meaning": "Nehemiah includes his own family when he confesses sin. He asks for help before approaching the king.",
+      "meaning": "Nehemiah's final words identify his position in the royal household. His prayer therefore prepares for a request to someone with power to help. He includes himself in the community's confession. Distance from Jerusalem has not removed his sense of responsibility for it.",
       "people": [
         "nehemiah",
         "hanani-nehemiah",
@@ -1689,13 +1689,21 @@
       "historicalNote": "Throntveit connects wall repairs, public teaching, and daily worship.",
       "mapNote": "Town markers show named places. The city’s gates and individual wall sections are not mapped.",
       "route": [],
-      "routeEvidence": "The map does not reconstruct a precise road or wall circuit."
+      "routeEvidence": "The map does not reconstruct a precise road or wall circuit.",
+      "contextNote": {
+        "title": "A public need begins within royal service",
+        "text": "Nehemiah's final words identify his position in the royal household. His prayer therefore prepares for a request to someone with power to help. He includes himself in the community's confession. Distance from Jerusalem has not removed his sense of responsibility for it.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
     },
     {
       "chapter": 2,
       "title": "Permission to rebuild",
       "summary": "Artaxerxes grants Nehemiah letters and wood. Nehemiah checks the walls at night before asking people to build.",
-      "meaning": "Nehemiah asks for specific help. His quiet inspection lets him see the damage before sharing his plan.",
+      "meaning": "Nehemiah asks for letters and timber before leaving the royal court. Safe travel and building materials depend on the king’s support. His prayer leads into specific requests. The wall project requires authority, work, and supplies together. The people’s local goal remains subject to a foreign ruler.",
       "people": [
         "nehemiah",
         "artaxerxes-ezra",
@@ -1712,7 +1720,8 @@
         "web",
         "atlas",
         "atlas-canaan",
-        "luther-nehemiah"
+        "luther-nehemiah",
+        "met-326387"
       ],
       "lds": {
         "text": "Come, Follow Me studies Nehemiah’s answer to mockery. What preparations support his call to rebuild?",
@@ -1726,13 +1735,23 @@
       "historicalNote": "Throntveit connects wall repairs, public teaching, and daily worship.",
       "mapNote": "Town markers show named places. The city’s gates and individual wall sections are not mapped.",
       "route": [],
-      "routeEvidence": "The map does not reconstruct a precise road or wall circuit."
+      "routeEvidence": "The map does not reconstruct a precise road or wall circuit.",
+      "contextNote": {
+        "title": "A wall requires permission and resources",
+        "text": "Nehemiah asks for letters and timber before leaving the royal court. Safe travel and building materials depend on the king’s support. His prayer leads into specific requests. The wall project requires authority, work, and supplies together. The people’s local goal remains subject to a foreign ruler.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": [
+          "met-326387"
+        ]
+      }
     },
     {
       "chapter": 3,
       "title": "Neighbors repair the walls",
       "summary": "Priests, families, and workers repair different sections. Shallum and his daughters join the work. Some nobles refuse.",
-      "meaning": "The list names work beside homes as well as gates. Many people share the task.",
+      "meaning": "The repeated names place many occupations beside one shared project. Work near homes joins public protection with household interests. The refusal of some nobles remains visible within the list. Naming workers preserves both participation and gaps in support.",
       "people": [
         "eliashib-nehemiah",
         "wall-builders",
@@ -1766,13 +1785,21 @@
       "historicalNote": "Havea emphasizes the workers’ own choices.",
       "mapNote": "Town markers show named places. The city’s gates and individual wall sections are not mapped.",
       "route": [],
-      "routeEvidence": "The map does not reconstruct a precise road or wall circuit."
+      "routeEvidence": "The map does not reconstruct a precise road or wall circuit.",
+      "contextNote": {
+        "title": "A work list also records unequal participation",
+        "text": "The repeated names place many occupations beside one shared project. Work near homes joins public protection with household interests. The refusal of some nobles remains visible within the list. Naming workers preserves both participation and gaps in support.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
     },
     {
       "chapter": 4,
       "title": "Builders keep watch",
       "summary": "Sanballat and Tobiah mock the builders. Threats bring guards, weapons, and a trumpet signal to the work.",
-      "meaning": "The builders pray and set guards. The trumpet lets people gather when danger reaches a distant section.",
+      "meaning": "The work spreads people across separate sections of the wall. A trumpet provides a way to gather quickly when one section faces danger. Weapons and divided tasks change the labor itself. The plan answers the practical risks created by a project too large for one household.",
       "people": [
         "nehemiah",
         "sanballat",
@@ -1802,13 +1829,21 @@
       "historicalNote": "Throntveit connects wall repairs, public teaching, and daily worship.",
       "mapNote": "Town markers show named places. The city’s gates and individual wall sections are not mapped.",
       "route": [],
-      "routeEvidence": "The map does not reconstruct a precise road or wall circuit."
+      "routeEvidence": "The map does not reconstruct a precise road or wall circuit.",
+      "contextNote": {
+        "title": "A long wall creates a communication problem",
+        "text": "The work spreads people across separate sections of the wall. A trumpet provides a way to gather quickly when one section faces danger. Weapons and divided tasks change the labor itself. The plan answers the practical risks created by a project too large for one household.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
     },
     {
       "chapter": 5,
       "title": "Families lose land and freedom",
       "summary": "Families lack food and borrow money. Some children become servants. Nehemiah orders lenders to return land and stop charges.",
-      "meaning": "Danger also comes from neighbors who demand payment. Nehemiah gives up the governor’s food allowance to ease the burden.",
+      "meaning": "Some families lose fields and children while others lend at interest. The complaint comes from within the same community. Nehemiah must address that harm while the wall rises. External enemies are not the only threat to survival. A strong boundary cannot replace fair treatment inside it.",
       "people": [
         "nehemiah",
         "debt-families",
@@ -1836,13 +1871,21 @@
       "historicalNote": "Havea emphasizes the workers’ own choices.",
       "mapNote": "Town markers show named places. The city’s gates and individual wall sections are not mapped.",
       "route": [],
-      "routeEvidence": "The map does not reconstruct a precise road or wall circuit."
+      "routeEvidence": "The map does not reconstruct a precise road or wall circuit.",
+      "contextNote": {
+        "title": "A shared building project does not remove inequality",
+        "text": "Some families lose fields and children while others lend at interest. The complaint comes from within the same community. Nehemiah must address that harm while the wall rises. External enemies are not the only threat to survival. A strong boundary cannot replace fair treatment inside it.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
     },
     {
       "chapter": 6,
       "title": "Letters, threats, and a finished wall",
       "summary": "Nehemiah rejects meetings and a false warning. The wall is finished in fifty-two days. Tobiah still sends threats.",
-      "meaning": "Tobiah has family ties with people inside Judah. Letters carry news between them despite the finished wall.",
+      "meaning": "The ending returns to letters between Tobiah and Judah's nobles. Family connections carry influence through the barrier the builders have finished. Nehemiah's refusal to attend meetings addresses only part of that pressure. Physical defenses and social loyalties operate through different routes.",
       "people": [
         "nehemiah",
         "sanballat",
@@ -1873,13 +1916,21 @@
       "historicalNote": "Throntveit connects wall repairs, public teaching, and daily worship.",
       "mapNote": "Town markers show named places. The city’s gates and individual wall sections are not mapped.",
       "route": [],
-      "routeEvidence": "The map does not reconstruct a precise road or wall circuit."
+      "routeEvidence": "The map does not reconstruct a precise road or wall circuit.",
+      "contextNote": {
+        "title": "A completed wall cannot stop internal influence",
+        "text": "The ending returns to letters between Tobiah and Judah's nobles. Family connections carry influence through the barrier the builders have finished. Nehemiah's refusal to attend meetings addresses only part of that pressure. Physical defenses and social loyalties operate through different routes.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
     },
     {
       "chapter": 7,
       "title": "Guards and the return register",
       "summary": "Nehemiah puts Hanani and Hananiah in charge. An earlier list names returning families and their gifts.",
-      "meaning": "The city has walls but few people and houses. Family records decide who can serve as priests.",
+      "meaning": "The account notices the difference between Jerusalem's size and its small population. Guards can protect gates, but households must also live within them. The earlier return register connects present needs with remembered families. Restoration requires people and records as well as construction.",
       "people": [
         "nehemiah",
         "hanani-nehemiah",
@@ -1915,13 +1966,21 @@
       "historicalNote": "Throntveit connects wall repairs, public teaching, and daily worship.",
       "mapNote": "Town markers show named places. The city’s gates and individual wall sections are not mapped.",
       "route": [],
-      "routeEvidence": "The map does not reconstruct a precise road or wall circuit."
+      "routeEvidence": "The map does not reconstruct a precise road or wall circuit.",
+      "contextNote": {
+        "title": "Walls do not create a populated city",
+        "text": "The account notices the difference between Jerusalem's size and its small population. Guards can protect gates, but households must also live within them. The earlier return register connects present needs with remembered families. Restoration requires people and records as well as construction.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
     },
     {
       "chapter": 8,
       "title": "Ezra reads and teachers explain",
       "summary": "Ezra reads God’s law to men and women. Teachers explain it. The people share food and make shelters for a feast.",
-      "meaning": "The leaders turn weeping toward joy. People send food to those who have none prepared.",
+      "meaning": "The people gather to hear a written law. Those who teach also explain its meaning. The account links reading with understanding, grief, joy, and action. Possessing a text alone is not the same as receiving it. The community needs shared work to turn words into a way of life.",
       "people": [
         "nehemiah",
         "ezra",
@@ -1952,13 +2011,21 @@
       "historicalNote": "Throntveit connects wall repairs, public teaching, and daily worship.",
       "mapNote": "Town markers show named places. The city’s gates and individual wall sections are not mapped.",
       "route": [],
-      "routeEvidence": "The map does not reconstruct a precise road or wall circuit."
+      "routeEvidence": "The map does not reconstruct a precise road or wall circuit.",
+      "contextNote": {
+        "title": "Public reading requires understanding",
+        "text": "The people gather to hear a written law. Those who teach also explain its meaning. The account links reading with understanding, grief, joy, and action. Possessing a text alone is not the same as receiving it. The community needs shared work to turn words into a way of life.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
     },
     {
       "chapter": 9,
       "title": "A prayer remembers mercy and failure",
       "summary": "The people fast and confess. Their prayer recalls Abraham, Egypt, the wilderness, and repeated rescue after sin.",
-      "meaning": "The prayer ends with a present need. Foreign kings take the land’s crops and control people and livestock.",
+      "meaning": "The long prayer recalls repeated deliverance before naming the community's present condition. They live on their land while foreign kings take its produce. Return has therefore not restored control over their work. The prayer ends with a written agreement in response to this distress.",
       "people": [
         "law-teachers",
         "sherebiah",
@@ -1989,13 +2056,21 @@
       "historicalNote": "Throntveit connects wall repairs, public teaching, and daily worship.",
       "mapNote": "Town markers show named places. The city’s gates and individual wall sections are not mapped.",
       "route": [],
-      "routeEvidence": "The map does not reconstruct a precise road or wall circuit."
+      "routeEvidence": "The map does not reconstruct a precise road or wall circuit.",
+      "contextNote": {
+        "title": "A prayer of rescue ends with continued dependence",
+        "text": "The long prayer recalls repeated deliverance before naming the community's present condition. They live on their land while foreign kings take its produce. Return has therefore not restored control over their work. The prayer ends with a written agreement in response to this distress.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
     },
     {
       "chapter": 10,
       "title": "Promises to support worship",
       "summary": "Leaders seal a written promise. Families agree to keep God’s law, rest on the Sabbath, and supply the temple.",
-      "meaning": "The promises name food, wood, money, and workers. Worship requires regular gifts rather than one celebration.",
+      "meaning": "The written agreement names wood, produce, money, and the workers who need support. Temple service cannot continue through one large celebration alone. The promise turns shared identity into repeated duties. Its later failures in chapter 13 test whether those duties survive ordinary life.",
       "people": [
         "nehemiah",
         "covenant-families",
@@ -2013,7 +2088,8 @@
         "atlas",
         "atlas-canaan",
         "luther-nehemiah",
-        "luther-nehemiah-background"
+        "luther-nehemiah-background",
+        "met-326387"
       ],
       "lds": {
         "text": "The Seminary overview studies promises about marriage and Sabbath rest. What supplies do the families also promise?",
@@ -2026,13 +2102,23 @@
       "historicalNote": "Throntveit connects wall repairs, public teaching, and daily worship.",
       "mapNote": "Town markers show named places. The city’s gates and individual wall sections are not mapped.",
       "route": [],
-      "routeEvidence": "The map does not reconstruct a precise road or wall circuit."
+      "routeEvidence": "The map does not reconstruct a precise road or wall circuit.",
+      "contextNote": {
+        "title": "A promise must supply recurring needs",
+        "text": "The written agreement names wood, produce, money, and the workers who need support. Temple service cannot continue through one large celebration alone. The promise turns shared identity into repeated duties. Its later failures in chapter 13 test whether those duties survive ordinary life.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": [
+          "met-326387"
+        ]
+      }
     },
     {
       "chapter": 11,
       "title": "Families move into Jerusalem",
       "summary": "One family in ten is chosen to live in Jerusalem. Volunteers also move there. The list names workers and nearby towns.",
-      "meaning": "Living in the city changes where families farm and work. Singers, guards, and temple workers need daily support.",
+      "meaning": "Moving families into Jerusalem addresses the gap between finished walls and a small population. The account distinguishes selection by lot from volunteering. Names and jobs show what a functioning city needs. A community's plan can also change a family's home and daily work.",
       "people": [
         "city-settlers",
         "shabbethai-nehemiah",
@@ -2062,13 +2148,21 @@
       "historicalNote": "Throntveit connects wall repairs, public teaching, and daily worship.",
       "mapNote": "Town markers show named places. The city’s gates and individual wall sections are not mapped.",
       "route": [],
-      "routeEvidence": "The map does not reconstruct a precise road or wall circuit."
+      "routeEvidence": "The map does not reconstruct a precise road or wall circuit.",
+      "contextNote": {
+        "title": "Restoration changes where households live",
+        "text": "Moving families into Jerusalem addresses the gap between finished walls and a small population. The account distinguishes selection by lot from volunteering. Names and jobs show what a functioning city needs. A community's plan can also change a family's home and daily work.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
     },
     {
       "chapter": 12,
       "title": "Singers celebrate the rebuilt walls",
       "summary": "Priests and Levites gather for the wall’s dedication. Two groups sing along the walls. Women and children join the joy.",
-      "meaning": "The celebration ends with plans to supply the workers. Food gifts help singers and priests continue their service.",
+      "meaning": "The two groups of singers make the rebuilt walls part of a shared ceremony. Women and children also participate in its joy. The account then turns to storing supplies for temple workers. Celebration and regular support belong to the same restored life.",
       "people": [
         "nehemiah",
         "ezra",
@@ -2101,13 +2195,21 @@
       "historicalNote": "Throntveit connects wall repairs, public teaching, and daily worship.",
       "mapNote": "Town markers show named places. The city’s gates and individual wall sections are not mapped.",
       "route": [],
-      "routeEvidence": "The map does not reconstruct a precise road or wall circuit."
+      "routeEvidence": "The map does not reconstruct a precise road or wall circuit.",
+      "contextNote": {
+        "title": "A public celebration rests on maintained labor",
+        "text": "The two groups of singers make the rebuilt walls part of a shared ceremony. Women and children also participate in its joy. The account then turns to storing supplies for temple workers. Celebration and regular support belong to the same restored life.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
     },
     {
       "chapter": 13,
       "title": "Nehemiah returns and changes the rules",
       "summary": "Nehemiah removes Tobiah’s goods, restores temple gifts, and closes the gates on the Sabbath. He confronts marriages with foreign women.",
-      "meaning": "He also strikes some men and pulls out their hair. His marriage rules cause conflict within families.",
+      "meaning": "The workers have returned to their fields because their support stopped. Nehemiah's interventions answer failures of the earlier written agreement. His repeated requests for remembrance also make his own role prominent. Read his forceful actions beside the needs and households they affect.",
       "people": [
         "nehemiah",
         "tobiah-nehemiah",
@@ -2142,7 +2244,15 @@
       "historicalNote": "Havea questions the rules about foreign wives. McClellan connects them with protecting group identity.",
       "mapNote": "Town markers show named places. The city’s gates and individual wall sections are not mapped.",
       "route": [],
-      "routeEvidence": "The map does not reconstruct a precise road or wall circuit."
+      "routeEvidence": "The map does not reconstruct a precise road or wall circuit.",
+      "contextNote": {
+        "title": "Reform reveals what earlier promises failed to sustain",
+        "text": "The workers have returned to their fields because their support stopped. Nehemiah's interventions answer failures of the earlier written agreement. His repeated requests for remembrance also make his own role prominent. Read his forceful actions beside the needs and households they affect.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
     }
   ],
   "people": [
@@ -3562,6 +3672,47 @@
         13
       ],
       "reviewed": "2026-10-05: Main lesson through The Lord’s Work reviewed. Linked talks and the separate doctrinal mastery quiz were not reviewed."
+    },
+    {
+      "id": "met-326387",
+      "title": "Bulla",
+      "url": "https://www.metmuseum.org/art/collection/search/326387",
+      "author": "The Metropolitan Museum of Art",
+      "category": "museum",
+      "perspective": "historical",
+      "summary": "This Persian clay object bears a seal impression. The museum links it with Persian record keeping.",
+      "limits": "It comes from Pasargadae, not the biblical court scene. Its exact original use remains uncertain.",
+      "previewText": "This Persian clay object bears a seal impression. The museum links it with Persian record keeping. It comes from Pasargadae, not the biblical court scene. Its exact original use remains uncertain.",
+      "image": {
+        "src": "assets/study-objects/met-326387.jpg",
+        "fullUrl": "https://images.metmuseum.org/CRDImages/an/original/DP-40305-001.jpg",
+        "sourceUrl": "https://www.metmuseum.org/art/collection/search/326387",
+        "creditUrl": "https://www.metmuseum.org/art/collection/search/326387",
+        "credit": "The Metropolitan Museum of Art",
+        "license": "CC0 / Public domain",
+        "licenseUrl": "https://www.metmuseum.org/policies/image-resources",
+        "alt": "Bulla",
+        "caption": "Bulla · mid 6th–late 4th century BCE · The Met",
+        "width": 599,
+        "height": 449
+      },
+      "date": "mid 6th–late 4th century BCE",
+      "objectNumber": "1978.93.13",
+      "creditLine": "Purchase, H. Dunscombe Colt Gift, 1978",
+      "reviewed": {
+        "date": "2026-10-05",
+        "scope": "Museum object description, identity, date, and public-domain image metadata."
+      },
+      "access": "Public museum collection record and Open Access API",
+      "license": "CC0 / Public domain",
+      "chapterCoverage": [
+        2,
+        10
+      ],
+      "imageChapters": [
+        2,
+        10
+      ]
     }
   ],
   "review": {
@@ -3570,8 +3721,115 @@
     "nextBook": "esther",
     "copyReview": "2026-10-05: Reader copy reviewed against WRITING-GUIDE.md. Scripture and source titles preserved.",
     "sourcePolicy": "BIBLE-SOURCE-POLICY.md",
-    "sourceEnrichmentDate": "2026-10-05"
+    "sourceEnrichmentDate": "2026-10-05",
+    "contextReview": {
+      "date": "2026-10-05",
+      "chapters": 13,
+      "scope": "Original close readings grounded in local World English Bible passages. Existing external source reviews remain separate."
+    }
   },
   "translation": "World English Bible",
-  "copyright": "Public domain"
+  "copyright": "Public domain",
+  "chapterStudies": [
+    {
+      "chapter": 1,
+      "verse": 11,
+      "context": ""
+    },
+    {
+      "chapter": 2,
+      "verse": 8,
+      "context": ""
+    },
+    {
+      "chapter": 3,
+      "verse": 5,
+      "context": ""
+    },
+    {
+      "chapter": 4,
+      "verse": 20,
+      "context": ""
+    },
+    {
+      "chapter": 5,
+      "verse": 5,
+      "context": ""
+    },
+    {
+      "chapter": 6,
+      "verse": 17,
+      "context": ""
+    },
+    {
+      "chapter": 7,
+      "verse": 4,
+      "context": ""
+    },
+    {
+      "chapter": 8,
+      "verse": 8,
+      "context": ""
+    },
+    {
+      "chapter": 9,
+      "verse": 36,
+      "context": ""
+    },
+    {
+      "chapter": 10,
+      "verse": 39,
+      "context": ""
+    },
+    {
+      "chapter": 11,
+      "verse": 2,
+      "context": ""
+    },
+    {
+      "chapter": 12,
+      "verse": 43,
+      "context": ""
+    },
+    {
+      "chapter": 13,
+      "verse": 10,
+      "context": ""
+    }
+  ],
+  "contextGuide": {
+    "id": "nehemiah-context",
+    "title": "Nehemiah: context and evidence",
+    "description": "Explore the book’s larger concerns through selected passages and relevant evidence.",
+    "steps": [
+      {
+        "title": "A wall requires permission and resources",
+        "text": "Nehemiah asks for letters and timber before leaving the royal court. Safe travel and building materials depend on the king’s support. His prayer leads into specific requests. The wall project requires authority, work, and supplies together. The people’s local goal remains subject to a foreign ruler.",
+        "chapter": 2,
+        "verse": 8,
+        "sourceIds": [
+          "web",
+          "met-326387"
+        ]
+      },
+      {
+        "title": "A shared building project does not remove inequality",
+        "text": "Some families lose fields and children while others lend at interest. The complaint comes from within the same community. Nehemiah must address that harm while the wall rises. External enemies are not the only threat to survival. A strong boundary cannot replace fair treatment inside it.",
+        "chapter": 5,
+        "verse": 5,
+        "sourceIds": [
+          "web"
+        ]
+      },
+      {
+        "title": "Public reading requires understanding",
+        "text": "The people gather to hear a written law. Those who teach also explain its meaning. The account links reading with understanding, grief, joy, and action. Possessing a text alone is not the same as receiving it. The community needs shared work to turn words into a way of life.",
+        "chapter": 8,
+        "verse": 8,
+        "sourceIds": [
+          "web"
+        ]
+      }
+    ]
+  }
 }

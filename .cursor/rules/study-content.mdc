@@ -1,0 +1,21 @@
+---
+description: Preserve context, source accuracy, and complete chapter coverage throughout the study guide.
+alwaysApply: true
+---
+
+Follow `AGENTS.md`, `WRITING-GUIDE.md`, and `BIBLE-SOURCE-POLICY.md` for this project.
+
+Every ready chapter needs its own contextual explanation and meaningful exact Scripture selection.
+Keep simple sentences within connected paragraphs that explain the passage.
+Do not replace context with plot summaries or general morals.
+
+Example: explain how Joseph's grain stores create dependence during famine.
+Do not stop with “Joseph prepares for famine. Preparation shows care.”
+
+Show relevant artifacts beside the explanation, with object identity, credits, and passage-specific limits.
+Do not imply that a regional comparison object belonged to a named biblical person.
+Keep Church readings separate from historical evidence and original close readings.
+Do not place AI illustration disclaimers beneath portraits.
+
+Change persistent sources before rebuilding.
+Require complete coverage and passing release checks before claiming completion or publishing.

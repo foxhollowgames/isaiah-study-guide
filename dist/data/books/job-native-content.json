@@ -422,6 +422,47 @@
       "type": "LDS study manual",
       "limitations": "Chapters 20–37 receive a brief general overview. Linked talks and videos were not reviewed. Later teaching remains distinct from the passage’s wording.",
       "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "met-327369",
+      "title": "Weight in shape of frog",
+      "url": "https://www.metmuseum.org/art/collection/search/327369",
+      "author": "The Metropolitan Museum of Art",
+      "category": "museum",
+      "perspective": "historical",
+      "summary": "This Babylonian stone weight names ten minas in its inscription. A mina was a local unit of weight.",
+      "limits": "It shows a regional practice of marked weights. It does not establish the standard weight used in Israel.",
+      "previewText": "This Babylonian stone weight names ten minas in its inscription. A mina was a local unit of weight. It shows a regional practice of marked weights. It does not establish the standard weight used in Israel.",
+      "image": {
+        "src": "assets/study-objects/met-327369.jpg",
+        "fullUrl": "https://images.metmuseum.org/CRDImages/an/original/DP235328.jpg",
+        "sourceUrl": "https://www.metmuseum.org/art/collection/search/327369",
+        "creditUrl": "https://www.metmuseum.org/art/collection/search/327369",
+        "credit": "The Metropolitan Museum of Art",
+        "license": "CC0 / Public domain",
+        "licenseUrl": "https://www.metmuseum.org/policies/image-resources",
+        "alt": "Weight in shape of frog",
+        "caption": "Weight in shape of frog · ca. 2000–1600 BCE · The Met",
+        "width": 599,
+        "height": 438
+      },
+      "date": "ca. 2000–1600 BCE",
+      "objectNumber": "1988.301",
+      "creditLine": "Purchase, Leon Levy and Shelby White Gift, Rogers Fund and Nathaniel Spear Jr. Gift, 1988",
+      "reviewed": {
+        "date": "2026-10-05",
+        "scope": "Museum object description, identity, date, and public-domain image metadata."
+      },
+      "access": "Public museum collection record and Open Access API",
+      "license": "CC0 / Public domain",
+      "chapterCoverage": [
+        31
+      ],
+      "imageChapters": [
+        31
+      ],
+      "type": "museum",
+      "limitations": "It shows a regional practice of marked weights. It does not establish the standard weight used in Israel."
     }
   ],
   "passages": [
@@ -431,7 +472,7 @@
       "start": 1,
       "end": 22,
       "title": "Job loses his children and wealth",
-      "summary": "Satan questions Job’s reasons for serving God. Four messengers report losses. Job mourns and worships. Job’s good life does not protect his family from disaster.",
+      "summary": "Satan questions Job’s reasons for serving God. Four messengers report losses. Job mourns and worships.",
       "year": null,
       "dateLabel": "Chapter order",
       "uncertainty": "Job’s home in Uz has no secure map location.",
@@ -449,6 +490,14 @@
           "cfm-job-2026",
           "lds-job-111"
         ]
+      },
+      "contextNote": {
+        "title": "The reader knows what the friends do not",
+        "text": "The opening calls Job blameless before his suffering begins. His friends later reason from suffering back to guilt. Their conclusion conflicts with information the reader already has. That difference shapes the long debate. Read confident advice against the book’s opening, not only the speaker’s certainty.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -457,7 +506,7 @@
       "start": 1,
       "end": 13,
       "title": "Illness and silent friends",
-      "summary": "Job suffers painful sores. His wife urges him to renounce God. Three friends sit silently with him. The friends first share Job’s grief before they try to explain it.",
+      "summary": "Job suffers painful sores. His wife urges him to renounce God. Three friends sit silently with him.",
       "year": null,
       "dateLabel": "Chapter order",
       "uncertainty": "Job’s home in Uz has no secure map location.",
@@ -475,6 +524,14 @@
           "cfm-job-2026",
           "lds-job-111"
         ]
+      },
+      "contextNote": {
+        "title": "Silence comes before the argument",
+        "text": "The friends first share Job’s ground and silence. Their presence recognizes pain before their speeches try to explain it. Compare this quiet company with the accusations that follow.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -483,7 +540,7 @@
       "start": 1,
       "end": 26,
       "title": "Job wishes he had not been born",
-      "summary": "Job curses the day of his birth. He asks why people in pain must keep living. His speech gives words to grief that his earlier worship did not remove.",
+      "summary": "Job curses the day of his birth. He asks why people in pain must keep living.",
       "year": null,
       "dateLabel": "Chapter order",
       "uncertainty": "Job’s home in Uz has no secure map location.",
@@ -501,6 +558,14 @@
           "cfm-job-2026",
           "lds-job-111"
         ]
+      },
+      "contextNote": {
+        "title": "Grief reverses the language of birth",
+        "text": "Job wishes his birth could disappear from time. Darkness replaces the light normally linked with new life. His speech attacks the beginning of his existence, rather than describing a cure.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -509,7 +574,7 @@
       "start": 1,
       "end": 21,
       "title": "Eliphaz explains suffering through guilt",
-      "summary": "Eliphaz recalls Job’s help for others. He claims innocent people do not perish. Eliphaz’s claim conflicts with the opening account, which calls Job blameless.",
+      "summary": "Eliphaz recalls Job’s help for others. He claims innocent people do not perish.",
       "year": null,
       "dateLabel": "Chapter order",
       "uncertainty": "Job’s home in Uz has no secure map location.",
@@ -526,6 +591,14 @@
           "cfm-job-2026",
           "lds-job-111"
         ]
+      },
+      "contextNote": {
+        "title": "Past counsel becomes a charge",
+        "text": "Eliphaz recalls Job strengthening other people. He then treats Job’s own distress as failure to follow that advice. The change turns remembered kindness into pressure on its giver.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -534,7 +607,7 @@
       "start": 1,
       "end": 27,
       "title": "Eliphaz urges Job to accept correction",
-      "summary": "Eliphaz urges Job to seek God. He promises safety, children, and long life after correction. His promises assume that Job’s losses began with wrongdoing.",
+      "summary": "Eliphaz urges Job to seek God. He promises safety, children, and long life after correction.",
       "year": null,
       "dateLabel": "Chapter order",
       "uncertainty": "Job’s home in Uz has no secure map location.",
@@ -551,6 +624,14 @@
           "cfm-job-2026",
           "lds-job-111"
         ]
+      },
+      "contextNote": {
+        "title": "Advice assumes an explanation",
+        "text": "Eliphaz calls suffering a form of divine correction. That explanation makes acceptance seem the proper response. Readers already know the opening did not identify Job’s loss as punishment.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -559,7 +640,7 @@
       "start": 1,
       "end": 30,
       "title": "Job asks his friends for kindness",
-      "summary": "Job describes pain beyond his strength. He compares his friends to streams that disappear when needed. He asks them to show his error instead of condemning his desperate words.",
+      "summary": "Job describes pain beyond his strength. He compares his friends to streams that disappear when needed.",
       "year": null,
       "dateLabel": "Chapter order",
       "uncertainty": "Job’s home in Uz has no secure map location.",
@@ -575,6 +656,14 @@
         "sourceIds": [
           "lds-job-111"
         ]
+      },
+      "contextNote": {
+        "title": "Failed friendship becomes a dry stream",
+        "text": "Job compares his friends with water that disappears when travelers need it. The image concerns disappointed dependence, not merely harsh speech. Their promised help fails precisely when his need grows greatest.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -583,7 +672,7 @@
       "start": 1,
       "end": 21,
       "title": "Job addresses God in his pain",
-      "summary": "Job describes sleepless nights and painful skin. He asks God to leave him alone. Job keeps speaking to God about his pain. He asks why God watches his short life so closely.",
+      "summary": "Job describes sleepless nights and painful skin. He asks God to leave him alone.",
       "year": null,
       "dateLabel": "Chapter order",
       "uncertainty": "Job’s home in Uz has no secure map location.",
@@ -599,6 +688,14 @@
         "sourceIds": [
           "lds-job-111"
         ]
+      },
+      "contextNote": {
+        "title": "Attention can feel like pursuit",
+        "text": "Job asks why God watches people so closely. Divine attention here feels burdensome rather than comforting. His appeal for rest challenges an easy equation between being seen and feeling safe.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -607,7 +704,7 @@
       "start": 1,
       "end": 22,
       "title": "Bildad blames wrongdoing",
-      "summary": "Bildad suggests Job’s children died for their sins. He promises renewed success if Job is upright. Bildad turns a family’s deaths into an accusation.",
+      "summary": "Bildad suggests Job’s children died for their sins. He promises renewed success if Job is upright.",
       "year": null,
       "dateLabel": "Chapter order",
       "uncertainty": "Job’s home in Uz has no secure map location.",
@@ -624,6 +721,14 @@
           "cfm-job-2026",
           "lds-job-111"
         ]
+      },
+      "contextNote": {
+        "title": "An argument makes the dead guilty",
+        "text": "Bildad explains the children’s deaths through their supposed sin. His tidy account gives Job another wound. Distinguish Bildad’s confidence from the book’s opening description of the household.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -632,7 +737,7 @@
       "start": 1,
       "end": 35,
       "title": "Job asks who could judge his case",
-      "summary": "Job describes God’s power over mountains, stars, and seas. He seeks someone to hear both sides. He fears that unequal power prevents a fair hearing.",
+      "summary": "Job describes God’s power over mountains, stars, and seas. He seeks someone to hear both sides.",
       "year": null,
       "dateLabel": "Chapter order",
       "uncertainty": "Job’s home in Uz has no secure map location.",
@@ -648,6 +753,14 @@
         "sourceIds": [
           "lds-job-111"
         ]
+      },
+      "contextNote": {
+        "title": "A court requires more than an argument",
+        "text": "Job pictures a dispute without an impartial judge between its parties. God’s power makes a fair hearing seem impossible. Legal language exposes his need for access, not simply a better defense.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -656,7 +769,7 @@
       "start": 1,
       "end": 22,
       "title": "Job asks why his maker harms him",
-      "summary": "Job recalls how God formed his body and gave him life. He asks why God now opposes him. He asks for an explanation instead of accepting his friends’ verdict.",
+      "summary": "Job recalls how God formed his body and gave him life. He asks why God now opposes him.",
       "year": null,
       "dateLabel": "Chapter order",
       "uncertainty": "Job’s home in Uz has no secure map location.",
@@ -672,6 +785,14 @@
         "sourceIds": [
           "lds-job-111"
         ]
+      },
+      "contextNote": {
+        "title": "Creation becomes grounds for complaint",
+        "text": "Job recalls God carefully forming his body. He asks why its maker now seems to destroy it. The creation image gives his protest a personal claim on divine care.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -680,7 +801,7 @@
       "start": 1,
       "end": 20,
       "title": "Zophar demands that Job change",
-      "summary": "Zophar says Job deserves worse. He promises relief if Job removes wrongdoing from his home. His confidence leaves little room to hear Job’s claim of innocence.",
+      "summary": "Zophar says Job deserves worse. He promises relief if Job removes wrongdoing from his home.",
       "year": null,
       "dateLabel": "Chapter order",
       "uncertainty": "Job’s home in Uz has no secure map location.",
@@ -697,6 +818,14 @@
           "cfm-job-2026",
           "lds-job-111"
         ]
+      },
+      "contextNote": {
+        "title": "Certainty closes the hearing",
+        "text": "Zophar claims Job deserves worse than his present suffering. His appeal to hidden wisdom prevents Job from challenging that claim. A speech about knowledge therefore ends by refusing to hear the sufferer.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -705,7 +834,7 @@
       "start": 1,
       "end": 25,
       "title": "Job challenges his friends’ wisdom",
-      "summary": "Job says he understands as much as his friends. He points to robbers who live safely. He uses what he sees to challenge their claim that wrongdoing always brings immediate loss.",
+      "summary": "Job says he understands as much as his friends. He points to robbers who live safely.",
       "year": null,
       "dateLabel": "Chapter order",
       "uncertainty": "Job’s home in Uz has no secure map location.",
@@ -722,6 +851,14 @@
           "cfm-job-2026",
           "lds-job-111"
         ]
+      },
+      "contextNote": {
+        "title": "Creation does not settle the dispute",
+        "text": "Job also knows the language of animals and divine power. That shared knowledge does not make his friends’ explanation true. He describes overturned rulers to question a simple connection between status and righteousness.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -730,7 +867,7 @@
       "start": 1,
       "end": 28,
       "title": "Job seeks a hearing with God",
-      "summary": "Job accuses his friends of speaking falsely for God. He asks God to hear his case. WEB reads verse 15 as having no hope. The King James Bible reads it as trust. Both retain Job’s resolve to defend himself.",
+      "summary": "Job accuses his friends of speaking falsely for God. He asks God to hear his case.",
       "year": null,
       "dateLabel": "Chapter order",
       "uncertainty": "Job’s home in Uz has no secure map location.",
@@ -748,6 +885,14 @@
           "cfm-job-2026",
           "lds-job-111"
         ]
+      },
+      "contextNote": {
+        "title": "Defending God can involve false speech",
+        "text": "Job calls his friends poor healers and challenges their defense of God. He wants to speak directly rather than accept their account. The scene asks whether religious loyalty excuses misleading claims about another person.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -756,7 +901,7 @@
       "start": 1,
       "end": 22,
       "title": "Job asks whether the dead live again",
-      "summary": "Job compares short human life with a tree that can grow again. He asks God to remember him. The question about life after death appears within his fear of losing hope.",
+      "summary": "Job compares short human life with a tree that can grow again. He asks God to remember him.",
       "year": null,
       "dateLabel": "Chapter order",
       "uncertainty": "Job’s home in Uz has no secure map location.",
@@ -773,6 +918,14 @@
           "cfm-job-2026",
           "lds-job-111"
         ]
+      },
+      "contextNote": {
+        "title": "A tree offers hope people lack",
+        "text": "A cut tree can send out new shoots. Job places that return beside human death and disappearance. His later wish for renewed life remains a question within this contrast.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -781,7 +934,7 @@
       "start": 1,
       "end": 35,
       "title": "Eliphaz condemns Job’s words",
-      "summary": "Eliphaz says Job’s own words prove guilt. He describes the fear and loss awaiting wicked people. Eliphaz treats Job’s protest as evidence against him.",
+      "summary": "Eliphaz says Job’s own words prove guilt. He describes the fear and loss awaiting wicked people.",
       "year": null,
       "dateLabel": "Chapter order",
       "uncertainty": "Job’s home in Uz has no secure map location.",
@@ -797,6 +950,14 @@
         "sourceIds": [
           "lds-job-111"
         ]
+      },
+      "contextNote": {
+        "title": "A friend treats protest as danger",
+        "text": "Eliphaz now charges Job with undermining reverence itself. The dispute moves from Job’s circumstances to his right to speak. His account of wicked lives becomes accusation disguised as general instruction.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -805,7 +966,7 @@
       "start": 1,
       "end": 22,
       "title": "Job calls his friends poor comforters",
-      "summary": "Job says he would strengthen them if their places were reversed. He asks for a witness in heaven. He wants someone to support his case instead of adding blame.",
+      "summary": "Job says he would strengthen them if their places were reversed. He asks for a witness in heaven.",
       "year": null,
       "dateLabel": "Chapter order",
       "uncertainty": "Job’s home in Uz has no secure map location.",
@@ -822,6 +983,14 @@
           "cfm-job-2026",
           "lds-job-111"
         ]
+      },
+      "contextNote": {
+        "title": "A witness is needed beyond the friends",
+        "text": "Job names his friends as failed comforters before seeking a witness above. Human listeners have not made his suffering understandable. His hope for testimony grows from the collapse of the present conversation.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -830,7 +999,7 @@
       "start": 1,
       "end": 16,
       "title": "Job sees his hope nearing the grave",
-      "summary": "Job describes broken plans and public shame. He asks where his hope can go. His friends’ promised bright future does not answer the darkness he experiences.",
+      "summary": "Job describes broken plans and public shame. He asks where his hope can go.",
       "year": null,
       "dateLabel": "Chapter order",
       "uncertainty": "Job’s home in Uz has no secure map location.",
@@ -846,6 +1015,14 @@
         "sourceIds": [
           "lds-job-112"
         ]
+      },
+      "contextNote": {
+        "title": "False brightness cannot remove death",
+        "text": "Job describes others calling darkness light while the grave approaches. Their assurances do not match the body before them. His questions about hope force readers to face that mismatch.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -854,7 +1031,7 @@
       "start": 1,
       "end": 21,
       "title": "Bildad describes the wicked person’s ruin",
-      "summary": "Bildad describes traps, disease, lost children, and a forgotten name. He calls this the wicked person’s fate. His description echoes Job’s losses and deepens the accusation.",
+      "summary": "Bildad describes traps, disease, lost children, and a forgotten name. He calls this the wicked person’s fate.",
       "year": null,
       "dateLabel": "Chapter order",
       "uncertainty": "Job’s home in Uz has no secure map location.",
@@ -870,6 +1047,14 @@
         "sourceIds": [
           "lds-job-112"
         ]
+      },
+      "contextNote": {
+        "title": "A general picture targets one sufferer",
+        "text": "Bildad describes traps, lost descendants, and destroyed homes. These images closely resemble Job’s losses without naming him. A speech presented as general wisdom therefore presses a personal accusation.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -878,7 +1063,7 @@
       "start": 1,
       "end": 29,
       "title": "Job asks for pity and a defender",
-      "summary": "Job describes relatives, servants, and friends turning away. He declares that his Redeemer lives. He wants his words preserved and someone to support his claim.",
+      "summary": "Job describes relatives, servants, and friends turning away. He declares that his Redeemer lives.",
       "year": null,
       "dateLabel": "Chapter order",
       "uncertainty": "Job’s home in Uz has no secure map location.",
@@ -895,6 +1080,14 @@
           "cfm-job-2026",
           "lds-job-112"
         ]
+      },
+      "contextNote": {
+        "title": "An appeal interrupts accusation",
+        "text": "Job asks the friends for pity before speaking of a defender. His damaged relationships make recognition as urgent as explanation. Read the hope for vindication beside his immediate request to stop the attack.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -903,7 +1096,7 @@
       "start": 1,
       "end": 29,
       "title": "Zophar says wicked success ends quickly",
-      "summary": "Zophar describes stolen wealth turning into suffering. He says wicked people cannot keep their success. His argument depends on a link between wealth, guilt, and ruin that Job will dispute.",
+      "summary": "Zophar describes stolen wealth turning into suffering. He says wicked people cannot keep their success.",
       "year": null,
       "dateLabel": "Chapter order",
       "uncertainty": "Job’s home in Uz has no secure map location.",
@@ -919,6 +1112,14 @@
         "sourceIds": [
           "lds-job-112"
         ]
+      },
+      "contextNote": {
+        "title": "Zophar pictures wealth as swallowed food",
+        "text": "The wicked person consumes riches and must give them back. This bodily image makes injustice seem certain to punish its owner. Job’s next speech challenges whether actual lives always follow that pattern.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -927,7 +1128,7 @@
       "start": 1,
       "end": 34,
       "title": "Job points to wicked people who prosper",
-      "summary": "Job describes wicked people growing old with safe homes and thriving children. He challenges his friends’ answers. Their rule fails to explain lives where wrongdoing and comfort appear together.",
+      "summary": "Job describes wicked people growing old with safe homes and thriving children. He challenges his friends’ answers.",
       "year": null,
       "dateLabel": "Chapter order",
       "uncertainty": "Job’s home in Uz has no secure map location.",
@@ -945,6 +1146,14 @@
           "cfm-job-2026",
           "lds-job-112"
         ]
+      },
+      "contextNote": {
+        "title": "Observation challenges the friends’ rule",
+        "text": "Job points to wicked people who live long and prosper. Their children and homes survive while his own did not. These examples test the friends’ explanation against events rather than merely another theory.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -953,7 +1162,7 @@
       "start": 1,
       "end": 30,
       "title": "Eliphaz names sins he assumes Job committed",
-      "summary": "Eliphaz accuses Job of withholding food, clothing, and help. He urges Job to return to God. The accusations grow more specific, though Eliphaz supplies no account of witnessing them.",
+      "summary": "Eliphaz accuses Job of withholding food, clothing, and help. He urges Job to return to God.",
       "year": null,
       "dateLabel": "Chapter order",
       "uncertainty": "Job’s home in Uz has no secure map location.",
@@ -969,6 +1178,14 @@
           "cfm-job-2026",
           "lds-job-112"
         ]
+      },
+      "contextNote": {
+        "title": "Suspicion becomes an invented charge",
+        "text": "Eliphaz now names specific offenses against poor people. The speech treats its explanation of suffering as evidence of those offenses. Compare these charges with Job’s later account of his public conduct.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -977,7 +1194,7 @@
       "start": 1,
       "end": 17,
       "title": "Job searches for God’s court",
-      "summary": "Job wants to present his case to God. He cannot find him, but insists he kept his commands. Job insists he kept God’s commands. He still fears God’s power.",
+      "summary": "Job wants to present his case to God. He cannot find him, but insists he kept his commands.",
       "year": null,
       "dateLabel": "Chapter order",
       "uncertainty": "Job’s home in Uz has no secure map location.",
@@ -993,6 +1210,14 @@
           "cfm-job-2026",
           "lds-job-112"
         ]
+      },
+      "contextNote": {
+        "title": "Absence prevents a hearing",
+        "text": "Job imagines presenting his case before God. He searches in every direction but cannot find that court. His confidence in his conduct exists beside fear of a power he cannot approach.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -1001,7 +1226,7 @@
       "start": 1,
       "end": 25,
       "title": "Job describes the suffering of the poor",
-      "summary": "Job describes stolen fields, hungry workers, and people without shelter. He asks why justice seems delayed. The argument widens beyond his own pain to people harmed by others.",
+      "summary": "Job describes stolen fields, hungry workers, and people without shelter. He asks why justice seems delayed.",
       "year": null,
       "dateLabel": "Chapter order",
       "uncertainty": "Job’s home in Uz has no secure map location.",
@@ -1018,6 +1243,14 @@
           "cfm-job-2026",
           "lds-job-112"
         ]
+      },
+      "contextNote": {
+        "title": "A complaint extends beyond one household",
+        "text": "Job describes workers, hungry families, and people driven from shelter. Their injuries remain visible without swift public judgment. His protest now asks why a whole pattern of harm goes unanswered.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -1026,7 +1259,7 @@
       "start": 1,
       "end": 6,
       "title": "Bildad questions human purity",
-      "summary": "Bildad says God rules above and even the stars lack purity before him. He compares people to worms. His brief answer offers no direct help with Job’s examples of injustice.",
+      "summary": "Bildad says God rules above and even the stars lack purity before him. He compares people to worms.",
       "year": null,
       "dateLabel": "Chapter order",
       "uncertainty": "Job’s home in Uz has no secure map location.",
@@ -1041,6 +1274,14 @@
         "sourceIds": [
           "lds-job-112"
         ]
+      },
+      "contextNote": {
+        "title": "A short speech leaves the case unheard",
+        "text": "Bildad answers with human smallness before God. This claim does not address the injured people Job just described. The shrinking response shows how general claims can avoid a concrete dispute.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -1049,7 +1290,7 @@
       "start": 1,
       "end": 14,
       "title": "Job describes power beyond human knowledge",
-      "summary": "Job first asks how Bildad has helped him. He describes God’s power over sky, sea, and death. Knowing that God is powerful does not settle their dispute about justice.",
+      "summary": "Job first asks how Bildad has helped him. He describes God’s power over sky, sea, and death.",
       "year": null,
       "dateLabel": "Chapter order",
       "uncertainty": "Job’s home in Uz has no secure map location.",
@@ -1064,6 +1305,14 @@
         "sourceIds": [
           "lds-job-112"
         ]
+      },
+      "contextNote": {
+        "title": "Shared beliefs do not guarantee useful help",
+        "text": "Job asks whom Bildad’s speech has strengthened. He then describes divine power in language equally grand. The contrast separates impressive claims about God from help that meets a sufferer’s need.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -1072,7 +1321,7 @@
       "start": 1,
       "end": 23,
       "title": "Job holds to his innocence",
-      "summary": "Job refuses to admit the friends are right about him. He then describes the fate of oppressors. He rejects their verdict while continuing to discuss judgment against wrongdoing.",
+      "summary": "Job refuses to admit the friends are right about him. He then describes the fate of oppressors.",
       "year": null,
       "dateLabel": "Chapter order",
       "uncertainty": "Job’s home in Uz has no secure map location.",
@@ -1087,6 +1336,14 @@
         "sourceIds": [
           "lds-job-112"
         ]
+      },
+      "contextNote": {
+        "title": "Job refuses a purchased agreement",
+        "text": "Job will not confess guilt simply to end the dispute. His hold on integrity stands beside descriptions of wicked people’s ruin. Agreement about some judgments does not require accepting the friends’ charge against him.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -1095,7 +1352,7 @@
       "start": 1,
       "end": 28,
       "title": "Where can wisdom be found?",
-      "summary": "A poem describes miners finding hidden metals. It asks where wisdom lies and says God knows its way. Skill at finding treasure does not give people complete understanding.",
+      "summary": "A poem describes miners finding hidden metals. It asks where wisdom lies and says God knows its way.",
       "year": null,
       "dateLabel": "Chapter order",
       "uncertainty": "Job’s home in Uz has no secure map location.",
@@ -1110,6 +1367,14 @@
         "sourceIds": [
           "lds-job-112"
         ]
+      },
+      "contextNote": {
+        "title": "Mining skill exposes another limit",
+        "text": "People can reach hidden metals beneath the earth. Yet the poem asks where wisdom can be found. The contrast separates technical success from understanding how life should be lived.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -1118,7 +1383,7 @@
       "start": 1,
       "end": 25,
       "title": "Job remembers respect and service",
-      "summary": "Job recalls public honor and his children nearby. He remembers helping widows and people in need. He connects his former standing with care for others.",
+      "summary": "Job recalls public honor and his children nearby. He remembers helping widows and people in need.",
       "year": null,
       "dateLabel": "Chapter order",
       "uncertainty": "Job’s home in Uz has no secure map location.",
@@ -1133,6 +1398,14 @@
         "sourceIds": [
           "lds-job-112"
         ]
+      },
+      "contextNote": {
+        "title": "Memory defines the lost public role",
+        "text": "Job remembers helping people who lacked defenders. His former honor rests on these acts as well as wealth. Read this account against Eliphaz’s accusations about how he treated the poor.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -1141,7 +1414,7 @@
       "start": 1,
       "end": 31,
       "title": "Job describes shame and unanswered cries",
-      "summary": "Job contrasts former respect with mockery and pain. He says his calls to God receive no answer. People now mock Job in public. Their treatment adds shame to his pain.",
+      "summary": "Job contrasts former respect with mockery and pain. He says his calls to God receive no answer.",
       "year": null,
       "dateLabel": "Chapter order",
       "uncertainty": "Job’s home in Uz has no secure map location.",
@@ -1156,6 +1429,14 @@
         "sourceIds": [
           "lds-job-112"
         ]
+      },
+      "contextNote": {
+        "title": "The remembered world has been reversed",
+        "text": "Job’s former respect becomes ridicule and isolation. His appeal to God receives no answer within the speech. The final change from music to mourning gives this reversal a sound.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -1164,7 +1445,7 @@
       "start": 1,
       "end": 40,
       "title": "Job gives his final defense",
-      "summary": "Job lists wrongs he says he avoided. He describes fairness toward servants, generosity, and welcome for strangers. He asks for a written charge and a chance to answer it.",
+      "summary": "Job lists wrongs he says he avoided. He describes fairness toward servants, generosity, and welcome for strangers.",
       "year": null,
       "dateLabel": "Chapter order",
       "uncertainty": "Job’s home in Uz has no secure map location.",
@@ -1172,13 +1453,24 @@
       "sourceIds": [
         "web",
         "luther-job",
-        "luther-job-issues"
+        "luther-job-issues",
+        "met-327369"
       ],
       "lds": {
         "text": "Come, Follow Me recalls Job’s repeated request for God to answer him.",
         "sourceIds": [
           "cfm-job-2026",
           "lds-job-112"
+        ]
+      },
+      "contextNote": {
+        "title": "A measure becomes an image of justice",
+        "text": "Job asks for a fair weighing of his life. He then names concrete duties toward workers, poor people, and strangers. His claim concerns conduct, not only private feelings. The image of weighing makes impartial judgment visible. An ancient trade weight helps explain the image without identifying Job’s time or home.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": [
+          "met-327369"
         ]
       }
     },
@@ -1188,7 +1480,7 @@
       "start": 1,
       "end": 22,
       "title": "Elihu begins after the others fall silent",
-      "summary": "Elihu becomes angry with Job and his three friends. He says youth does not prevent understanding. He waited for older speakers but now claims they failed to answer.",
+      "summary": "Elihu becomes angry with Job and his three friends. He says youth does not prevent understanding.",
       "year": null,
       "dateLabel": "Chapter order",
       "uncertainty": "Job’s home in Uz has no secure map location.",
@@ -1203,6 +1495,14 @@
         "sourceIds": [
           "lds-job-112"
         ]
+      },
+      "contextNote": {
+        "title": "Age does not settle authority",
+        "text": "Elihu explains why he waited before speaking. He then claims understanding does not belong to age alone. His entrance changes the speakers without yet providing readers an independent verdict on his claims.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -1211,7 +1511,7 @@
       "start": 1,
       "end": 33,
       "title": "Elihu says suffering can teach",
-      "summary": "Elihu says God speaks through dreams and pain. He describes rescue through a messenger and renewed health. This is Elihu’s explanation for suffering, given before God speaks.",
+      "summary": "Elihu says God speaks through dreams and pain. He describes rescue through a messenger and renewed health.",
       "year": null,
       "dateLabel": "Chapter order",
       "uncertainty": "Job’s home in Uz has no secure map location.",
@@ -1226,6 +1526,14 @@
         "sourceIds": [
           "lds-job-112"
         ]
+      },
+      "contextNote": {
+        "title": "An equal listener claims to explain God",
+        "text": "Elihu first stresses his shared human condition with Job. He then interprets dreams and pain as divine instruction. The move from equal listener to teacher helps explain the pressure within his appeal.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -1234,7 +1542,7 @@
       "start": 1,
       "end": 37,
       "title": "Elihu defends God’s justice",
-      "summary": "Elihu says God treats rich and poor without favor. He accuses Job of adding rebellion to sin. His defense of justice becomes another charge against Job.",
+      "summary": "Elihu says God treats rich and poor without favor. He accuses Job of adding rebellion to sin.",
       "year": null,
       "dateLabel": "Chapter order",
       "uncertainty": "Job’s home in Uz has no secure map location.",
@@ -1249,6 +1557,14 @@
         "sourceIds": [
           "lds-job-112"
         ]
+      },
+      "contextNote": {
+        "title": "A principle takes the place of a hearing",
+        "text": "Elihu insists God cannot act wrongly. He uses that conviction to condemn Job’s words. The argument defends divine justice without answering the particular losses that produced Job’s protest.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -1257,7 +1573,7 @@
       "start": 1,
       "end": 16,
       "title": "Elihu challenges Job’s complaint",
-      "summary": "Elihu says human choices affect other people. He claims pride prevents cries for help from being heard. He treats silence as a failure in the sufferer’s response.",
+      "summary": "Elihu says human choices affect other people. He claims pride prevents cries for help from being heard.",
       "year": null,
       "dateLabel": "Chapter order",
       "uncertainty": "Job’s home in Uz has no secure map location.",
@@ -1272,6 +1588,14 @@
         "sourceIds": [
           "lds-job-112"
         ]
+      },
+      "contextNote": {
+        "title": "Unheard cries receive another explanation",
+        "text": "Elihu links unanswered cries with pride and inadequate understanding. That claim shifts attention from oppression toward the petitioner. Read his explanation as Elihu’s judgment, not the book’s independent finding.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -1280,7 +1604,7 @@
       "start": 1,
       "end": 33,
       "title": "Elihu describes correction and the storm",
-      "summary": "Elihu says suffering opens people’s ears to instruction. He describes rain, clouds, and lightning. His speech moves from explaining human pain to describing God’s work in nature.",
+      "summary": "Elihu says suffering opens people’s ears to instruction. He describes rain, clouds, and lightning.",
       "year": null,
       "dateLabel": "Chapter order",
       "uncertainty": "Job’s home in Uz has no secure map location.",
@@ -1295,6 +1619,14 @@
         "sourceIds": [
           "lds-job-112"
         ]
+      },
+      "contextNote": {
+        "title": "Instruction and threat share one speech",
+        "text": "Elihu presents affliction as a means of opening ears. He also warns Job against choices that could worsen his condition. The speech combines an offer of meaning with pressure to accept it.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -1303,7 +1635,7 @@
       "start": 1,
       "end": 24,
       "title": "Elihu asks Job to consider God’s works",
-      "summary": "Elihu describes thunder, snow, and changing weather. He asks whether Job understands their workings. His final questions prepare for the change from human debate to God’s speech.",
+      "summary": "Elihu describes thunder, snow, and changing weather. He asks whether Job understands their workings.",
       "year": null,
       "dateLabel": "Chapter order",
       "uncertainty": "Job’s home in Uz has no secure map location.",
@@ -1318,6 +1650,14 @@
         "sourceIds": [
           "lds-job-112"
         ]
+      },
+      "contextNote": {
+        "title": "Weather prepares a change of voice",
+        "text": "Elihu asks Job to consider wonders beyond his control. Thunder and cloud imagery widen the scene beyond the dispute. The following divine speech comes from a whirlwind, continuing that change of scale.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -1326,7 +1666,7 @@
       "start": 1,
       "end": 41,
       "title": "The Lord answers from the whirlwind",
-      "summary": "The Lord questions Job about earth, sea, dawn, weather, stars, and animals. The answer draws Job into a world much larger than his dispute.",
+      "summary": "The Lord questions Job about earth, sea, dawn, weather, stars, and animals.",
       "year": null,
       "dateLabel": "Chapter order",
       "uncertainty": "Job’s home in Uz has no secure map location.",
@@ -1342,6 +1682,14 @@
           "cfm-job-2026",
           "lds-job-112"
         ]
+      },
+      "contextNote": {
+        "title": "Questions change the scale of the debate",
+        "text": "God’s questions begin with a world older than Job. They do not reveal the opening conversation that readers know. The reply changes the field of attention without giving a direct cause for the losses.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -1350,7 +1698,7 @@
       "start": 1,
       "end": 30,
       "title": "The Lord describes wild animals",
-      "summary": "The Lord asks about goats, wild donkeys, oxen, ostriches, horses, hawks, and eagles. These creatures have strength and freedom that people cannot command.",
+      "summary": "The Lord asks about goats, wild donkeys, oxen, ostriches, horses, hawks, and eagles.",
       "year": null,
       "dateLabel": "Chapter order",
       "uncertainty": "Job’s home in Uz has no secure map location.",
@@ -1366,6 +1714,14 @@
           "cfm-job-2026",
           "lds-job-112"
         ]
+      },
+      "contextNote": {
+        "title": "Wild creatures live beyond human service",
+        "text": "The animals described here need not obey or benefit people. Their freedom and unusual habits matter within the speech. The world’s value therefore exceeds its usefulness to the person asking for an explanation.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -1374,7 +1730,7 @@
       "start": 1,
       "end": 24,
       "title": "Job falls silent and hears about behemoth",
-      "summary": "Job places his hand over his mouth. The Lord questions his judgment and describes behemoth’s strength. The creature’s power challenges Job’s ability to govern the world he questions.",
+      "summary": "Job places his hand over his mouth. The Lord questions his judgment and describes behemoth’s strength.",
       "year": null,
       "dateLabel": "Chapter order",
       "uncertainty": "The poem names the Jordan. This marker does not locate Job’s home.",
@@ -1392,6 +1748,14 @@
           "cfm-job-2026",
           "lds-job-112"
         ]
+      },
+      "contextNote": {
+        "title": "Judgment includes the power to govern",
+        "text": "God connects Job’s challenge with the ability to bring proud people low. The questions test more than skill in making an argument. The powerful creature that follows adds another limit to human control.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -1400,7 +1764,7 @@
       "start": 1,
       "end": 34,
       "title": "The Lord describes Leviathan",
-      "summary": "The Lord describes Leviathan’s scales, strength, and frightening breath. Human tools cannot subdue it. The poem presents power that exceeds human control.",
+      "summary": "The Lord describes Leviathan’s scales, strength, and frightening breath. Human tools cannot subdue it.",
       "year": null,
       "dateLabel": "Chapter order",
       "uncertainty": "Job’s home in Uz has no secure map location.",
@@ -1415,6 +1779,14 @@
         "sourceIds": [
           "lds-job-112"
         ]
+      },
+      "contextNote": {
+        "title": "A creature resists the language of ownership",
+        "text": "Questions about catching Leviathan turn into an account of its strength. The creature cannot become an ordinary servant or household possession. Its resistance makes human claims to command the wider world seem small.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -1423,7 +1795,7 @@
       "start": 1,
       "end": 17,
       "title": "Job answers and prays for his friends",
-      "summary": "Job answers the Lord. The Lord rebukes the three friends. Job prays for them and receives renewed prosperity. The friends need the prayer of the man they accused. Job’s daughters receive property along with their brothers.",
+      "summary": "Job answers the Lord. The Lord rebukes the three friends. Job prays for them and receives renewed prosperity.",
       "year": null,
       "dateLabel": "Chapter order",
       "uncertainty": "Job’s home in Uz has no secure map location.",
@@ -1439,6 +1811,14 @@
           "cfm-job-2026",
           "lds-job-112"
         ]
+      },
+      "contextNote": {
+        "title": "The final judgment changes how the speeches should be read",
+        "text": "God rejects the friends’ speech even though they defended divine justice. Job’s prayer for them then becomes part of the ending. Restoration does not supply a simple explanation for the earlier deaths. The book leaves a difference between renewed life and answered questions. Its final judgment warns against using certainty to explain another person’s pain.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     }
   ],
@@ -1450,7 +1830,7 @@
       "eventOrder": 1,
       "title": "Job loses his children and wealth",
       "summary": "Satan questions Job’s reasons for serving God. Four messengers report losses. Job mourns and worships.",
-      "detail": "Job’s good life does not protect his family from disaster.",
+      "detail": "The opening calls Job blameless before his suffering begins. His friends later reason from suffering back to guilt. Their conclusion conflicts with information the reader already has. That difference shapes the long debate. Read confident advice against the book’s opening, not only the speaker’s certainty.",
       "dateLabel": "Chapter order",
       "uncertainty": "Job’s home in Uz has no secure map location.",
       "sourceIds": [
@@ -1476,7 +1856,7 @@
       "eventOrder": 2,
       "title": "Illness and silent friends",
       "summary": "Job suffers painful sores. His wife urges him to renounce God. Three friends sit silently with him.",
-      "detail": "The friends first share Job’s grief before they try to explain it.",
+      "detail": "The friends first share Job’s ground and silence. Their presence recognizes pain before their speeches try to explain it. Compare this quiet company with the accusations that follow.",
       "dateLabel": "Chapter order",
       "uncertainty": "Job’s home in Uz has no secure map location.",
       "sourceIds": [
@@ -1502,7 +1882,7 @@
       "eventOrder": 3,
       "title": "Job wishes he had not been born",
       "summary": "Job curses the day of his birth. He asks why people in pain must keep living.",
-      "detail": "His speech gives words to grief that his earlier worship did not remove.",
+      "detail": "Job wishes his birth could disappear from time. Darkness replaces the light normally linked with new life. His speech attacks the beginning of his existence, rather than describing a cure.",
       "dateLabel": "Chapter order",
       "uncertainty": "Job’s home in Uz has no secure map location.",
       "sourceIds": [
@@ -1528,7 +1908,7 @@
       "eventOrder": 4,
       "title": "Eliphaz explains suffering through guilt",
       "summary": "Eliphaz recalls Job’s help for others. He claims innocent people do not perish.",
-      "detail": "Eliphaz’s claim conflicts with the opening account, which calls Job blameless.",
+      "detail": "Eliphaz recalls Job strengthening other people. He then treats Job’s own distress as failure to follow that advice. The change turns remembered kindness into pressure on its giver.",
       "dateLabel": "Chapter order",
       "uncertainty": "Job’s home in Uz has no secure map location.",
       "sourceIds": [
@@ -1553,7 +1933,7 @@
       "eventOrder": 5,
       "title": "Eliphaz urges Job to accept correction",
       "summary": "Eliphaz urges Job to seek God. He promises safety, children, and long life after correction.",
-      "detail": "His promises assume that Job’s losses began with wrongdoing.",
+      "detail": "Eliphaz calls suffering a form of divine correction. That explanation makes acceptance seem the proper response. Readers already know the opening did not identify Job’s loss as punishment.",
       "dateLabel": "Chapter order",
       "uncertainty": "Job’s home in Uz has no secure map location.",
       "sourceIds": [
@@ -1578,7 +1958,7 @@
       "eventOrder": 6,
       "title": "Job asks his friends for kindness",
       "summary": "Job describes pain beyond his strength. He compares his friends to streams that disappear when needed.",
-      "detail": "He asks them to show his error instead of condemning his desperate words.",
+      "detail": "Job compares his friends with water that disappears when travelers need it. The image concerns disappointed dependence, not merely harsh speech. Their promised help fails precisely when his need grows greatest.",
       "dateLabel": "Chapter order",
       "uncertainty": "Job’s home in Uz has no secure map location.",
       "sourceIds": [
@@ -1602,7 +1982,7 @@
       "eventOrder": 7,
       "title": "Job addresses God in his pain",
       "summary": "Job describes sleepless nights and painful skin. He asks God to leave him alone.",
-      "detail": "Job keeps speaking to God about his pain. He asks why God watches his short life so closely.",
+      "detail": "Job asks why God watches people so closely. Divine attention here feels burdensome rather than comforting. His appeal for rest challenges an easy equation between being seen and feeling safe.",
       "dateLabel": "Chapter order",
       "uncertainty": "Job’s home in Uz has no secure map location.",
       "sourceIds": [
@@ -1626,7 +2006,7 @@
       "eventOrder": 8,
       "title": "Bildad blames wrongdoing",
       "summary": "Bildad suggests Job’s children died for their sins. He promises renewed success if Job is upright.",
-      "detail": "Bildad turns a family’s deaths into an accusation.",
+      "detail": "Bildad explains the children’s deaths through their supposed sin. His tidy account gives Job another wound. Distinguish Bildad’s confidence from the book’s opening description of the household.",
       "dateLabel": "Chapter order",
       "uncertainty": "Job’s home in Uz has no secure map location.",
       "sourceIds": [
@@ -1651,7 +2031,7 @@
       "eventOrder": 9,
       "title": "Job asks who could judge his case",
       "summary": "Job describes God’s power over mountains, stars, and seas. He seeks someone to hear both sides.",
-      "detail": "He fears that unequal power prevents a fair hearing.",
+      "detail": "Job pictures a dispute without an impartial judge between its parties. God’s power makes a fair hearing seem impossible. Legal language exposes his need for access, not simply a better defense.",
       "dateLabel": "Chapter order",
       "uncertainty": "Job’s home in Uz has no secure map location.",
       "sourceIds": [
@@ -1675,7 +2055,7 @@
       "eventOrder": 10,
       "title": "Job asks why his maker harms him",
       "summary": "Job recalls how God formed his body and gave him life. He asks why God now opposes him.",
-      "detail": "He asks for an explanation instead of accepting his friends’ verdict.",
+      "detail": "Job recalls God carefully forming his body. He asks why its maker now seems to destroy it. The creation image gives his protest a personal claim on divine care.",
       "dateLabel": "Chapter order",
       "uncertainty": "Job’s home in Uz has no secure map location.",
       "sourceIds": [
@@ -1699,7 +2079,7 @@
       "eventOrder": 11,
       "title": "Zophar demands that Job change",
       "summary": "Zophar says Job deserves worse. He promises relief if Job removes wrongdoing from his home.",
-      "detail": "His confidence leaves little room to hear Job’s claim of innocence.",
+      "detail": "Zophar claims Job deserves worse than his present suffering. His appeal to hidden wisdom prevents Job from challenging that claim. A speech about knowledge therefore ends by refusing to hear the sufferer.",
       "dateLabel": "Chapter order",
       "uncertainty": "Job’s home in Uz has no secure map location.",
       "sourceIds": [
@@ -1724,7 +2104,7 @@
       "eventOrder": 12,
       "title": "Job challenges his friends’ wisdom",
       "summary": "Job says he understands as much as his friends. He points to robbers who live safely.",
-      "detail": "He uses what he sees to challenge their claim that wrongdoing always brings immediate loss.",
+      "detail": "Job also knows the language of animals and divine power. That shared knowledge does not make his friends’ explanation true. He describes overturned rulers to question a simple connection between status and righteousness.",
       "dateLabel": "Chapter order",
       "uncertainty": "Job’s home in Uz has no secure map location.",
       "sourceIds": [
@@ -1749,7 +2129,7 @@
       "eventOrder": 13,
       "title": "Job seeks a hearing with God",
       "summary": "Job accuses his friends of speaking falsely for God. He asks God to hear his case.",
-      "detail": "WEB reads verse 15 as having no hope. The King James Bible reads it as trust. Both retain Job’s resolve to defend himself.",
+      "detail": "Job calls his friends poor healers and challenges their defense of God. He wants to speak directly rather than accept their account. The scene asks whether religious loyalty excuses misleading claims about another person.",
       "dateLabel": "Chapter order",
       "uncertainty": "Job’s home in Uz has no secure map location.",
       "sourceIds": [
@@ -1775,7 +2155,7 @@
       "eventOrder": 14,
       "title": "Job asks whether the dead live again",
       "summary": "Job compares short human life with a tree that can grow again. He asks God to remember him.",
-      "detail": "The question about life after death appears within his fear of losing hope.",
+      "detail": "A cut tree can send out new shoots. Job places that return beside human death and disappearance. His later wish for renewed life remains a question within this contrast.",
       "dateLabel": "Chapter order",
       "uncertainty": "Job’s home in Uz has no secure map location.",
       "sourceIds": [
@@ -1800,7 +2180,7 @@
       "eventOrder": 15,
       "title": "Eliphaz condemns Job’s words",
       "summary": "Eliphaz says Job’s own words prove guilt. He describes the fear and loss awaiting wicked people.",
-      "detail": "Eliphaz treats Job’s protest as evidence against him.",
+      "detail": "Eliphaz now charges Job with undermining reverence itself. The dispute moves from Job’s circumstances to his right to speak. His account of wicked lives becomes accusation disguised as general instruction.",
       "dateLabel": "Chapter order",
       "uncertainty": "Job’s home in Uz has no secure map location.",
       "sourceIds": [
@@ -1824,7 +2204,7 @@
       "eventOrder": 16,
       "title": "Job calls his friends poor comforters",
       "summary": "Job says he would strengthen them if their places were reversed. He asks for a witness in heaven.",
-      "detail": "He wants someone to support his case instead of adding blame.",
+      "detail": "Job names his friends as failed comforters before seeking a witness above. Human listeners have not made his suffering understandable. His hope for testimony grows from the collapse of the present conversation.",
       "dateLabel": "Chapter order",
       "uncertainty": "Job’s home in Uz has no secure map location.",
       "sourceIds": [
@@ -1849,7 +2229,7 @@
       "eventOrder": 17,
       "title": "Job sees his hope nearing the grave",
       "summary": "Job describes broken plans and public shame. He asks where his hope can go.",
-      "detail": "His friends’ promised bright future does not answer the darkness he experiences.",
+      "detail": "Job describes others calling darkness light while the grave approaches. Their assurances do not match the body before them. His questions about hope force readers to face that mismatch.",
       "dateLabel": "Chapter order",
       "uncertainty": "Job’s home in Uz has no secure map location.",
       "sourceIds": [
@@ -1873,7 +2253,7 @@
       "eventOrder": 18,
       "title": "Bildad describes the wicked person’s ruin",
       "summary": "Bildad describes traps, disease, lost children, and a forgotten name. He calls this the wicked person’s fate.",
-      "detail": "His description echoes Job’s losses and deepens the accusation.",
+      "detail": "Bildad describes traps, lost descendants, and destroyed homes. These images closely resemble Job’s losses without naming him. A speech presented as general wisdom therefore presses a personal accusation.",
       "dateLabel": "Chapter order",
       "uncertainty": "Job’s home in Uz has no secure map location.",
       "sourceIds": [
@@ -1897,7 +2277,7 @@
       "eventOrder": 19,
       "title": "Job asks for pity and a defender",
       "summary": "Job describes relatives, servants, and friends turning away. He declares that his Redeemer lives.",
-      "detail": "He wants his words preserved and someone to support his claim.",
+      "detail": "Job asks the friends for pity before speaking of a defender. His damaged relationships make recognition as urgent as explanation. Read the hope for vindication beside his immediate request to stop the attack.",
       "dateLabel": "Chapter order",
       "uncertainty": "Job’s home in Uz has no secure map location.",
       "sourceIds": [
@@ -1922,7 +2302,7 @@
       "eventOrder": 20,
       "title": "Zophar says wicked success ends quickly",
       "summary": "Zophar describes stolen wealth turning into suffering. He says wicked people cannot keep their success.",
-      "detail": "His argument depends on a link between wealth, guilt, and ruin that Job will dispute.",
+      "detail": "The wicked person consumes riches and must give them back. This bodily image makes injustice seem certain to punish its owner. Job’s next speech challenges whether actual lives always follow that pattern.",
       "dateLabel": "Chapter order",
       "uncertainty": "Job’s home in Uz has no secure map location.",
       "sourceIds": [
@@ -1946,7 +2326,7 @@
       "eventOrder": 21,
       "title": "Job points to wicked people who prosper",
       "summary": "Job describes wicked people growing old with safe homes and thriving children. He challenges his friends’ answers.",
-      "detail": "Their rule fails to explain lives where wrongdoing and comfort appear together.",
+      "detail": "Job points to wicked people who live long and prosper. Their children and homes survive while his own did not. These examples test the friends’ explanation against events rather than merely another theory.",
       "dateLabel": "Chapter order",
       "uncertainty": "Job’s home in Uz has no secure map location.",
       "sourceIds": [
@@ -1972,7 +2352,7 @@
       "eventOrder": 22,
       "title": "Eliphaz names sins he assumes Job committed",
       "summary": "Eliphaz accuses Job of withholding food, clothing, and help. He urges Job to return to God.",
-      "detail": "The accusations grow more specific, though Eliphaz supplies no account of witnessing them.",
+      "detail": "Eliphaz now names specific offenses against poor people. The speech treats its explanation of suffering as evidence of those offenses. Compare these charges with Job’s later account of his public conduct.",
       "dateLabel": "Chapter order",
       "uncertainty": "Job’s home in Uz has no secure map location.",
       "sourceIds": [
@@ -1996,7 +2376,7 @@
       "eventOrder": 23,
       "title": "Job searches for God’s court",
       "summary": "Job wants to present his case to God. He cannot find him, but insists he kept his commands.",
-      "detail": "Job insists he kept God’s commands. He still fears God’s power.",
+      "detail": "Job imagines presenting his case before God. He searches in every direction but cannot find that court. His confidence in his conduct exists beside fear of a power he cannot approach.",
       "dateLabel": "Chapter order",
       "uncertainty": "Job’s home in Uz has no secure map location.",
       "sourceIds": [
@@ -2020,7 +2400,7 @@
       "eventOrder": 24,
       "title": "Job describes the suffering of the poor",
       "summary": "Job describes stolen fields, hungry workers, and people without shelter. He asks why justice seems delayed.",
-      "detail": "The argument widens beyond his own pain to people harmed by others.",
+      "detail": "Job describes workers, hungry families, and people driven from shelter. Their injuries remain visible without swift public judgment. His protest now asks why a whole pattern of harm goes unanswered.",
       "dateLabel": "Chapter order",
       "uncertainty": "Job’s home in Uz has no secure map location.",
       "sourceIds": [
@@ -2045,7 +2425,7 @@
       "eventOrder": 25,
       "title": "Bildad questions human purity",
       "summary": "Bildad says God rules above and even the stars lack purity before him. He compares people to worms.",
-      "detail": "His brief answer offers no direct help with Job’s examples of injustice.",
+      "detail": "Bildad answers with human smallness before God. This claim does not address the injured people Job just described. The shrinking response shows how general claims can avoid a concrete dispute.",
       "dateLabel": "Chapter order",
       "uncertainty": "Job’s home in Uz has no secure map location.",
       "sourceIds": [
@@ -2068,7 +2448,7 @@
       "eventOrder": 26,
       "title": "Job describes power beyond human knowledge",
       "summary": "Job first asks how Bildad has helped him. He describes God’s power over sky, sea, and death.",
-      "detail": "Knowing that God is powerful does not settle their dispute about justice.",
+      "detail": "Job asks whom Bildad’s speech has strengthened. He then describes divine power in language equally grand. The contrast separates impressive claims about God from help that meets a sufferer’s need.",
       "dateLabel": "Chapter order",
       "uncertainty": "Job’s home in Uz has no secure map location.",
       "sourceIds": [
@@ -2091,7 +2471,7 @@
       "eventOrder": 27,
       "title": "Job holds to his innocence",
       "summary": "Job refuses to admit the friends are right about him. He then describes the fate of oppressors.",
-      "detail": "He rejects their verdict while continuing to discuss judgment against wrongdoing.",
+      "detail": "Job will not confess guilt simply to end the dispute. His hold on integrity stands beside descriptions of wicked people’s ruin. Agreement about some judgments does not require accepting the friends’ charge against him.",
       "dateLabel": "Chapter order",
       "uncertainty": "Job’s home in Uz has no secure map location.",
       "sourceIds": [
@@ -2114,7 +2494,7 @@
       "eventOrder": 28,
       "title": "Where can wisdom be found?",
       "summary": "A poem describes miners finding hidden metals. It asks where wisdom lies and says God knows its way.",
-      "detail": "Skill at finding treasure does not give people complete understanding.",
+      "detail": "People can reach hidden metals beneath the earth. Yet the poem asks where wisdom can be found. The contrast separates technical success from understanding how life should be lived.",
       "dateLabel": "Chapter order",
       "uncertainty": "Job’s home in Uz has no secure map location.",
       "sourceIds": [
@@ -2137,7 +2517,7 @@
       "eventOrder": 29,
       "title": "Job remembers respect and service",
       "summary": "Job recalls public honor and his children nearby. He remembers helping widows and people in need.",
-      "detail": "He connects his former standing with care for others.",
+      "detail": "Job remembers helping people who lacked defenders. His former honor rests on these acts as well as wealth. Read this account against Eliphaz’s accusations about how he treated the poor.",
       "dateLabel": "Chapter order",
       "uncertainty": "Job’s home in Uz has no secure map location.",
       "sourceIds": [
@@ -2160,7 +2540,7 @@
       "eventOrder": 30,
       "title": "Job describes shame and unanswered cries",
       "summary": "Job contrasts former respect with mockery and pain. He says his calls to God receive no answer.",
-      "detail": "People now mock Job in public. Their treatment adds shame to his pain.",
+      "detail": "Job’s former respect becomes ridicule and isolation. His appeal to God receives no answer within the speech. The final change from music to mourning gives this reversal a sound.",
       "dateLabel": "Chapter order",
       "uncertainty": "Job’s home in Uz has no secure map location.",
       "sourceIds": [
@@ -2183,13 +2563,14 @@
       "eventOrder": 31,
       "title": "Job gives his final defense",
       "summary": "Job lists wrongs he says he avoided. He describes fairness toward servants, generosity, and welcome for strangers.",
-      "detail": "He asks for a written charge and a chance to answer it.",
+      "detail": "Job asks for a fair weighing of his life. He then names concrete duties toward workers, poor people, and strangers. His claim concerns conduct, not only private feelings. The image of weighing makes impartial judgment visible. An ancient trade weight helps explain the image without identifying Job’s time or home.",
       "dateLabel": "Chapter order",
       "uncertainty": "Job’s home in Uz has no secure map location.",
       "sourceIds": [
         "web",
         "luther-job",
-        "luther-job-issues"
+        "luther-job-issues",
+        "met-327369"
       ],
       "placeIds": [],
       "lds": {
@@ -2207,7 +2588,7 @@
       "eventOrder": 32,
       "title": "Elihu begins after the others fall silent",
       "summary": "Elihu becomes angry with Job and his three friends. He says youth does not prevent understanding.",
-      "detail": "He waited for older speakers but now claims they failed to answer.",
+      "detail": "Elihu explains why he waited before speaking. He then claims understanding does not belong to age alone. His entrance changes the speakers without yet providing readers an independent verdict on his claims.",
       "dateLabel": "Chapter order",
       "uncertainty": "Job’s home in Uz has no secure map location.",
       "sourceIds": [
@@ -2230,7 +2611,7 @@
       "eventOrder": 33,
       "title": "Elihu says suffering can teach",
       "summary": "Elihu says God speaks through dreams and pain. He describes rescue through a messenger and renewed health.",
-      "detail": "This is Elihu’s explanation for suffering, given before God speaks.",
+      "detail": "Elihu first stresses his shared human condition with Job. He then interprets dreams and pain as divine instruction. The move from equal listener to teacher helps explain the pressure within his appeal.",
       "dateLabel": "Chapter order",
       "uncertainty": "Job’s home in Uz has no secure map location.",
       "sourceIds": [
@@ -2253,7 +2634,7 @@
       "eventOrder": 34,
       "title": "Elihu defends God’s justice",
       "summary": "Elihu says God treats rich and poor without favor. He accuses Job of adding rebellion to sin.",
-      "detail": "His defense of justice becomes another charge against Job.",
+      "detail": "Elihu insists God cannot act wrongly. He uses that conviction to condemn Job’s words. The argument defends divine justice without answering the particular losses that produced Job’s protest.",
       "dateLabel": "Chapter order",
       "uncertainty": "Job’s home in Uz has no secure map location.",
       "sourceIds": [
@@ -2276,7 +2657,7 @@
       "eventOrder": 35,
       "title": "Elihu challenges Job’s complaint",
       "summary": "Elihu says human choices affect other people. He claims pride prevents cries for help from being heard.",
-      "detail": "He treats silence as a failure in the sufferer’s response.",
+      "detail": "Elihu links unanswered cries with pride and inadequate understanding. That claim shifts attention from oppression toward the petitioner. Read his explanation as Elihu’s judgment, not the book’s independent finding.",
       "dateLabel": "Chapter order",
       "uncertainty": "Job’s home in Uz has no secure map location.",
       "sourceIds": [
@@ -2299,7 +2680,7 @@
       "eventOrder": 36,
       "title": "Elihu describes correction and the storm",
       "summary": "Elihu says suffering opens people’s ears to instruction. He describes rain, clouds, and lightning.",
-      "detail": "His speech moves from explaining human pain to describing God’s work in nature.",
+      "detail": "Elihu presents affliction as a means of opening ears. He also warns Job against choices that could worsen his condition. The speech combines an offer of meaning with pressure to accept it.",
       "dateLabel": "Chapter order",
       "uncertainty": "Job’s home in Uz has no secure map location.",
       "sourceIds": [
@@ -2322,7 +2703,7 @@
       "eventOrder": 37,
       "title": "Elihu asks Job to consider God’s works",
       "summary": "Elihu describes thunder, snow, and changing weather. He asks whether Job understands their workings.",
-      "detail": "His final questions prepare for the change from human debate to God’s speech.",
+      "detail": "Elihu asks Job to consider wonders beyond his control. Thunder and cloud imagery widen the scene beyond the dispute. The following divine speech comes from a whirlwind, continuing that change of scale.",
       "dateLabel": "Chapter order",
       "uncertainty": "Job’s home in Uz has no secure map location.",
       "sourceIds": [
@@ -2345,7 +2726,7 @@
       "eventOrder": 38,
       "title": "The Lord answers from the whirlwind",
       "summary": "The Lord questions Job about earth, sea, dawn, weather, stars, and animals.",
-      "detail": "The answer draws Job into a world much larger than his dispute.",
+      "detail": "God’s questions begin with a world older than Job. They do not reveal the opening conversation that readers know. The reply changes the field of attention without giving a direct cause for the losses.",
       "dateLabel": "Chapter order",
       "uncertainty": "Job’s home in Uz has no secure map location.",
       "sourceIds": [
@@ -2369,7 +2750,7 @@
       "eventOrder": 39,
       "title": "The Lord describes wild animals",
       "summary": "The Lord asks about goats, wild donkeys, oxen, ostriches, horses, hawks, and eagles.",
-      "detail": "These creatures have strength and freedom that people cannot command.",
+      "detail": "The animals described here need not obey or benefit people. Their freedom and unusual habits matter within the speech. The world’s value therefore exceeds its usefulness to the person asking for an explanation.",
       "dateLabel": "Chapter order",
       "uncertainty": "Job’s home in Uz has no secure map location.",
       "sourceIds": [
@@ -2393,7 +2774,7 @@
       "eventOrder": 40,
       "title": "Job falls silent and hears about behemoth",
       "summary": "Job places his hand over his mouth. The Lord questions his judgment and describes behemoth’s strength.",
-      "detail": "The creature’s power challenges Job’s ability to govern the world he questions.",
+      "detail": "God connects Job’s challenge with the ability to bring proud people low. The questions test more than skill in making an argument. The powerful creature that follows adds another limit to human control.",
       "dateLabel": "Chapter order",
       "uncertainty": "The poem names the Jordan. This marker does not locate Job’s home.",
       "sourceIds": [
@@ -2419,7 +2800,7 @@
       "eventOrder": 41,
       "title": "The Lord describes Leviathan",
       "summary": "The Lord describes Leviathan’s scales, strength, and frightening breath. Human tools cannot subdue it.",
-      "detail": "The poem presents power that exceeds human control.",
+      "detail": "Questions about catching Leviathan turn into an account of its strength. The creature cannot become an ordinary servant or household possession. Its resistance makes human claims to command the wider world seem small.",
       "dateLabel": "Chapter order",
       "uncertainty": "Job’s home in Uz has no secure map location.",
       "sourceIds": [
@@ -2442,7 +2823,7 @@
       "eventOrder": 42,
       "title": "Job answers and prays for his friends",
       "summary": "Job answers the Lord. The Lord rebukes the three friends. Job prays for them and receives renewed prosperity.",
-      "detail": "The friends need the prayer of the man they accused. Job’s daughters receive property along with their brothers.",
+      "detail": "God rejects the friends’ speech even though they defended divine justice. Job’s prayer for them then becomes part of the ending. Restoration does not supply a simple explanation for the earlier deaths. The book leaves a difference between renewed life and answered questions. Its final judgment warns against using certainty to explain another person’s pain.",
       "dateLabel": "Chapter order",
       "uncertainty": "Job’s home in Uz has no secure map location.",
       "sourceIds": [
@@ -2483,43 +2864,36 @@
   "words": [],
   "guides": [
     {
-      "id": "job-overview",
-      "title": "Study Job",
-      "description": "Follow selected chapters through the book.",
+      "id": "job-context",
+      "title": "Job: context and evidence",
+      "description": "Explore the book’s larger concerns through selected passages and relevant evidence.",
       "steps": [
         {
-          "title": "Job loses his children and wealth",
-          "text": "Satan questions Job’s reasons for serving God. Four messengers report losses. Job mourns and worships. Job’s good life does not protect his family from disaster.",
+          "title": "The reader knows what the friends do not",
+          "text": "The opening calls Job blameless before his suffering begins. His friends later reason from suffering back to guilt. Their conclusion conflicts with information the reader already has. That difference shapes the long debate. Read confident advice against the book’s opening, not only the speaker’s certainty.",
           "chapter": 1,
           "verse": 1,
           "sourceIds": [
-            "web",
-            "luther-job",
-            "luther-job-issues",
-            "seow-job-excerpt",
-            "mcclellan-job"
+            "web"
           ]
         },
         {
-          "title": "Eliphaz names sins he assumes Job committed",
-          "text": "Eliphaz accuses Job of withholding food, clothing, and help. He urges Job to return to God. The accusations grow more specific, though Eliphaz supplies no account of witnessing them.",
-          "chapter": 22,
-          "verse": 1,
+          "title": "A measure becomes an image of justice",
+          "text": "Job asks for a fair weighing of his life. He then names concrete duties toward workers, poor people, and strangers. His claim concerns conduct, not only private feelings. The image of weighing makes impartial judgment visible. An ancient trade weight helps explain the image without identifying Job’s time or home.",
+          "chapter": 31,
+          "verse": 6,
           "sourceIds": [
             "web",
-            "luther-job",
-            "luther-job-issues"
+            "met-327369"
           ]
         },
         {
-          "title": "Job answers and prays for his friends",
-          "text": "Job answers the Lord. The Lord rebukes the three friends. Job prays for them and receives renewed prosperity. The friends need the prayer of the man they accused. Job’s daughters receive property along with their brothers.",
+          "title": "The final judgment changes how the speeches should be read",
+          "text": "God rejects the friends’ speech even though they defended divine justice. Job’s prayer for them then becomes part of the ending. Restoration does not supply a simple explanation for the earlier deaths. The book leaves a difference between renewed life and answered questions. Its final judgment warns against using certainty to explain another person’s pain.",
           "chapter": 42,
-          "verse": 1,
+          "verse": 7,
           "sourceIds": [
-            "web",
-            "luther-job",
-            "luther-job-issues"
+            "web"
           ]
         }
       ]
@@ -3131,7 +3505,8 @@
       "sourceIds": [
         "web",
         "luther-job",
-        "luther-job-issues"
+        "luther-job-issues",
+        "met-327369"
       ]
     },
     {
@@ -3339,5 +3714,216 @@
   ],
   "textRoutes": [],
   "narrativeRegions": [],
-  "chapterStudies": []
+  "chapterStudies": [
+    {
+      "chapter": 1,
+      "verse": 1,
+      "context": ""
+    },
+    {
+      "chapter": 2,
+      "verse": 13,
+      "context": ""
+    },
+    {
+      "chapter": 3,
+      "verse": 3,
+      "context": ""
+    },
+    {
+      "chapter": 4,
+      "verse": 5,
+      "context": ""
+    },
+    {
+      "chapter": 5,
+      "verse": 17,
+      "context": ""
+    },
+    {
+      "chapter": 6,
+      "verse": 15,
+      "context": ""
+    },
+    {
+      "chapter": 7,
+      "verse": 17,
+      "context": ""
+    },
+    {
+      "chapter": 8,
+      "verse": 4,
+      "context": ""
+    },
+    {
+      "chapter": 9,
+      "verse": 33,
+      "context": ""
+    },
+    {
+      "chapter": 10,
+      "verse": 8,
+      "context": ""
+    },
+    {
+      "chapter": 11,
+      "verse": 6,
+      "context": ""
+    },
+    {
+      "chapter": 12,
+      "verse": 7,
+      "context": ""
+    },
+    {
+      "chapter": 13,
+      "verse": 4,
+      "context": ""
+    },
+    {
+      "chapter": 14,
+      "verse": 7,
+      "context": ""
+    },
+    {
+      "chapter": 15,
+      "verse": 4,
+      "context": ""
+    },
+    {
+      "chapter": 16,
+      "verse": 2,
+      "context": ""
+    },
+    {
+      "chapter": 17,
+      "verse": 12,
+      "context": ""
+    },
+    {
+      "chapter": 18,
+      "verse": 8,
+      "context": ""
+    },
+    {
+      "chapter": 19,
+      "verse": 21,
+      "context": ""
+    },
+    {
+      "chapter": 20,
+      "verse": 15,
+      "context": ""
+    },
+    {
+      "chapter": 21,
+      "verse": 7,
+      "context": ""
+    },
+    {
+      "chapter": 22,
+      "verse": 6,
+      "context": ""
+    },
+    {
+      "chapter": 23,
+      "verse": 3,
+      "context": ""
+    },
+    {
+      "chapter": 24,
+      "verse": 12,
+      "context": ""
+    },
+    {
+      "chapter": 25,
+      "verse": 4,
+      "context": ""
+    },
+    {
+      "chapter": 26,
+      "verse": 2,
+      "context": ""
+    },
+    {
+      "chapter": 27,
+      "verse": 6,
+      "context": ""
+    },
+    {
+      "chapter": 28,
+      "verse": 12,
+      "context": ""
+    },
+    {
+      "chapter": 29,
+      "verse": 12,
+      "context": ""
+    },
+    {
+      "chapter": 30,
+      "verse": 20,
+      "context": ""
+    },
+    {
+      "chapter": 31,
+      "verse": 6,
+      "context": ""
+    },
+    {
+      "chapter": 32,
+      "verse": 8,
+      "context": ""
+    },
+    {
+      "chapter": 33,
+      "verse": 6,
+      "context": ""
+    },
+    {
+      "chapter": 34,
+      "verse": 10,
+      "context": ""
+    },
+    {
+      "chapter": 35,
+      "verse": 9,
+      "context": ""
+    },
+    {
+      "chapter": 36,
+      "verse": 15,
+      "context": ""
+    },
+    {
+      "chapter": 37,
+      "verse": 14,
+      "context": ""
+    },
+    {
+      "chapter": 38,
+      "verse": 4,
+      "context": ""
+    },
+    {
+      "chapter": 39,
+      "verse": 5,
+      "context": ""
+    },
+    {
+      "chapter": 40,
+      "verse": 8,
+      "context": ""
+    },
+    {
+      "chapter": 41,
+      "verse": 8,
+      "context": ""
+    },
+    {
+      "chapter": 42,
+      "verse": 7,
+      "context": ""
+    }
+  ]
 }

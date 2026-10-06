@@ -2,6 +2,7 @@
 import json,re
 from bible_source_enrichment import enrich
 from book_copy import revise
+from book_context import enrich_context
 from pathlib import Path
 ROOT=Path(__file__).resolve().parent.parent
 D=ROOT/'dist';OUT=D/'data/books'
@@ -11,7 +12,7 @@ portraits=(D/'portraits.js').read_text(encoding='utf-8')
 for entry in json.loads((OUT/'directory.json').read_text(encoding='utf-8')):
     slug=entry['id']
     if entry['status']!='ready' or slug=='isaiah':continue
-    b=revise(enrich(json.loads((OUT/f'{slug}.json').read_text(encoding='utf-8'))));write(OUT/f'{slug}.json',b)
+    b=enrich_context(revise(enrich(json.loads((OUT/f'{slug}.json').read_text(encoding='utf-8')))));write(OUT/f'{slug}.json',b)
     name=b['name'];count=b['chapterCount'];code=b.get('bibleCode','GEN')
     art=json.loads((OUT/f'{slug}-art.json').read_text(encoding='utf-8'))
     content=dict(sources=[],passages=[],events=[],places=[],campaigns=[],ancientRoads=[],regions=[],words=[],guides=[],periods=[],chapterMaps=[],textRoutes=[],narrativeRegions=[],chapterStudies=[])
@@ -19,12 +20,17 @@ for entry in json.loads((OUT/'directory.json').read_text(encoding='utf-8')):
         content['sources'].append(dict(s,type=s.get('type',s['category']),limitations=s['limits'],license=s.get('license','Public domain' if s['id']=='web' else 'Linked source. Original guide summaries.')))
     for p in b['places']:
         content['places'].append(dict(p,name=p['name'].split(' / ')[0].split(' · ')[0],detail=p['summary'],uncertainty=p['limits'],chapterLocation=True))
+    content['chapterStudies']=b['chapterStudies']
     feature_people={}
     for c in b['chapters']:
         n=c['chapter'];eid=f'{slug}-{n}';refs=c['sourceIds'];total=len(b['scripture'][str(n)])
-        content['passages'].append(dict(id=eid,chapter=n,start=1,end=total,title=c['title'],summary=c['summary']+' '+c['meaning'],year=None,dateLabel=c['dateLabel'],uncertainty=c['mapNote'],placeIds=c['places'],sourceIds=refs,lds=c['lds']))
+        introduction=c['summary'] if c.get('contextNote') else c['summary']+' '+c['meaning']
+        content['passages'].append(dict(id=eid,chapter=n,start=1,end=total,title=c['title'],summary=introduction,year=None,dateLabel=c['dateLabel'],uncertainty=c['mapNote'],placeIds=c['places'],sourceIds=refs,lds=c['lds']))
         event=dict(id=eid,chapter=n,verse=1,eventOrder=n,title=c['title'],summary=c['summary'],detail=c['meaning'],dateLabel=c['dateLabel'],uncertainty=c['mapNote'],sourceIds=refs,placeIds=c['places'],lds=c['lds'])
         content['events'].append(event);feature_people[eid]=c['people']
+        if c.get('contextNote'):
+            content['passages'][-1]['contextNote']=c['contextNote']
+            event['detail']=c['contextNote']['text']
         focus=dict(chapter=n,focusPlaceIds=c['places'],placeIds=c['places'],routes=[],contextRoutes=[],contextPlaceIds=[],impacts=[],maxZoom=7,note=c['mapNote'],narrative=c['summary'],limits=c['mapNote'],sourceIds=refs)
         if len(c['route'])>1:
             points=[[next(p for p in b['places'] if p['id']==pid)[axis] for axis in ['lat','lng']] for pid in c['route']]
@@ -35,7 +41,7 @@ for entry in json.loads((OUT/'directory.json').read_text(encoding='utf-8')):
     # Keep the existing three-button timeline layout. These are chapter sections, not fabricated years.
     step=max(1,count//3)
     for i,(a,z) in enumerate([(1,step),(step+1,step*2),(step*2+1,count)]):content['periods'].append(dict(id=f'part-{i}',label=f'{name} {a}–{z}',start=a,end=z,description='Chapter order'))
-    content['guides']=[dict(id=f'{slug}-overview',title=f'Study {name}',description='Follow selected chapters through the book.',steps=[dict(title=c['title'],text=c['summary']+' '+c['meaning'],chapter=c['chapter'],verse=1,sourceIds=c['sourceIds']) for c in [b['chapters'][0],b['chapters'][count//2],b['chapters'][-1]]])]
+    content['guides']=[b['contextGuide']]
     write(OUT/f'{slug}-native-content.json',content)
     write(OUT/f'{slug}-native-scripture.json',dict(translation=b['translation'],copyright=b['copyright'],chapters=b['scripture']))
     profiles={p['id']:dict(name=p['name'],role=p['role'],life=p['life'],dateNote='Historical life dates remain uncertain.',locations=[next(q for q in b['places'] if q['id']==pid)['name'] for pid in p.get('placeIds',[])],passages=[p['passages']],importance=p['meaning'],connections=p['relations'],verseScope=p.get('verseScope',{})) for p in b['people']}
@@ -55,11 +61,25 @@ for entry in json.loads((OUT/'directory.json').read_text(encoding='utf-8')):
     pm=pm.replace("const imageKind = licensedImage ? 'Historical depiction' : 'Generated illustration';","const imageKind = image.generated ? 'Generated illustration' : 'Historical depiction';")
     pm=pm.replace('${name[0]}</span><img src="${escapeHtml(image.src)}" width="88" height="88" alt="${imageKind} of ${name}">','${name[0]}</span>${image.src ? `<img src="${escapeHtml(image.src)}" width="88" height="88" alt="${imageKind} of ${name}">` : ""}')
     pm=pm.replace('aria-hidden="true">${name[0]}','aria-hidden="${!!image.src}">${name[0]}')
-    pm=pm.replace(" : '';\n    const imageKind", " : image.generated && image.src ? '<small class=\"portrait-credit\">AI-generated illustration</small>' : '';\n    const imageKind")
+    pm=pm.replace('aria-label="${name}: portrait failed to load"', 'aria-label="${name}: ${image.src ? \'portrait failed to load\' : \'no portrait available\'}"')
+    # Match Isaiah: generated art has no repeated credit beneath each portrait.
+    # Keep licensed artwork credits and descriptive image alt text.
     (D/f'book-{slug}-portraits.js').write_text(pm,encoding='utf-8')
-    app=native.replace("'./portraits.js'",f"'./book-{slug}-portraits.js?v=20261005.20'").replace('Isaiah',name).replace('ISA${',code+'${')
-    app=app.replace("const releaseVersion = '20261004.1';", "const releaseVersion = '20261005.20';")
+    app=native.replace("'./portraits.js'",f"'./book-{slug}-portraits.js?v=20261005.23'").replace('Isaiah',name).replace('ISA${',code+'${')
+    app=app.replace("const releaseVersion = '20261004.1';", "const releaseVersion = '20261005.23';")
+    # Psalms uses three-digit publisher chapter filenames.
+    if code=='PSA':app=app.replace("String(chapter).padStart(2, '0')", "String(chapter).padStart(3, '0')")
+    # Added books have one complete Scripture source, not Isaiah's chapter sources.
+    app=app.replace("const webChapter = id === 'web' ? 36 : id.match(/^web(\\d+)$/)?.[1];", "const webChapter = id.match(/^web(\\d+)$/)?.[1];\n  if (id === 'web') return chapters;")
+    app=app.replace("const webId = state.chapter === 36 ? 'web' : `web${state.chapter}`;", "const webId = 'web';")
+    # Hide controls for data that this book does not contain.
+    app=app.replace("['history','Nations','region']].map", "['history','Nations','region']].filter(([key]) => ({places:data.places.length, regions:data.regions.length || data.narrativeRegions?.length, campaigns:data.textRoutes?.length || data.campaigns.length, roads:data.ancientRoads.length, history:data.regions.length})[key]).map")
+    # Explain empty maps and expose the actual location limits in Map context.
+    app=app.replace('class="chapter-focus-button">Focus ', 'class="chapter-focus-button" ${chapterPoints(data, state.chapter).length ? \'\' : \'disabled\'}>Focus ')
+    app=app.replace('${focus?.narrative ? `<details><summary>Map context</summary>${esc(focus.narrative)}</details>` : \'\'}', '${!chapterPoints(data, state.chapter).length ? \'<p>This chapter has no mapped places.</p>\' : \'\'}${focus?.narrative || focus?.limits ? `<details><summary>Map context</summary>${[focus.narrative, focus.limits].filter(Boolean).map(text => `<p>${esc(text)}</p>`).join(\'\')}</details>` : \'\'}')
     app=app.replace('const url = new URL(s.url);\n    url.searchParams.set(\'t\', `${moment.seconds}s`);', 'const url = new URL(moment.url || s.url);\n    if (!moment.url) url.searchParams.set(\'t\', `${moment.seconds}s`);')
+    # Some builders store review date and scope as separate fields.
+    app=app.replace('esc(s.reviewed)', "esc(typeof s.reviewed === 'string' ? s.reviewed : [s.reviewed.date, s.reviewed.scope].filter(Boolean).join(': '))")
     app=app.replace('This group has four videos and five works used in them. Each note says what we checked. It also says what the source cannot prove. The video about who wrote '+name+' links to chapter 39. The other videos help with the whole book.','These notes link to relevant McClellan material. Each note states what we reviewed and what remains unverified.')
     app=app.replace('length: 66',f'length: {count}').replace('state.chapter === 66',f'state.chapter === {count}')
     app=app.replace("'isaiah-study-guide-state'",f"'{slug}-native-study-state'").replace("localStorage.getItem('meridian-state')", "null")
@@ -69,6 +89,10 @@ for entry in json.loads((OUT/'directory.json').read_text(encoding='utf-8')):
     # General source summaries belong in the source dialog, not below each chapter.
     a=app.index('function sourceInsightsHtml(');z=app.index('function scriptureExcerptHtml(',a)
     app=app[:a]+"function sourceInsightsHtml(ids = [], chapter = state.chapter) { return sourceMediaHtml(ids, {chapter}); }\n"+app[z:]
+    app=app.replace('options.images !== false && item.image &&', 'options.images !== false && (options.allExcerpts || !(item.imageChapters || item.chapterCoverage) || (item.imageChapters || item.chapterCoverage).includes(Number(chapter))) && item.image &&')
+    # Original, passage-specific interpretation is distinct from generic source summaries.
+    app=app.replace('${chapterEvidenceHtml()}${sourceInsightsHtml(ids)}', '${chapterContextHtml()}${chapterEvidenceHtml()}${sourceInsightsHtml(ids)}')
+    app += "\nfunction chapterContextHtml(chapter = state.chapter) {\n  const passage = data.passages.find(p => p.chapter === Number(chapter));\n  const note = passage?.contextNote;\n  if (!note) return '';\n  return `<section class=\"chapter-context-note\"><h3>${esc(note.title)}</h3><p>${esc(note.text)}${passageFootnotes(passage)(note.sourceIds)}</p></section>`;\n}\n"
     a=app.index('function chapterDateHtml()');z=app.index('function renderScripture()',a)
     app=app[:a]+"function chapterDateHtml() { return ''; }\n"+app[z:]
     # Keep the footer's shared art note; avoid repeated date and art warnings in profiles.
@@ -105,6 +129,6 @@ html=(D/'index.html').read_text(encoding='utf-8')
 html=re.sub(r'  <meta (?:property="og:[^\n]+|name="twitter:[^\n]+)\n','',html)
 html=re.sub(r'  <link rel="canonical"[^\n]+\n','',html)
 html=html.replace('<title>Isaiah Study Guide</title>','<title>Bible Study Guide</title>').replace('<b>ISAIAH<small>STUDY GUIDE</small></b>','<b id="bookBrand">BIBLE<small>STUDY GUIDE</small></b>')
-html=html.replace('app.js?v=20261004.1','native-book.js?v=20261005.20').replace('styles.css?v=20261004.1','styles.css?v=20261005.1')
+html=html.replace('app.js?v=20261004.1','native-book.js?v=20261005.23').replace('styles.css?v=20261004.1','styles.css?v=20261005.1')
 html=html.replace('<span class="map-label label-assyria">ASSYRIA</span><span class="map-label label-judah">JUDAH</span>','')
 (D/'book.html').write_text(html,encoding='utf-8')

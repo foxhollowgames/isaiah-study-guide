@@ -4,7 +4,7 @@ All 66 chapters have an exact World English Bible quotation and an original expl
 
 The chapter enrichment pass added 18 verified short quotations from linked works. The earlier Luckenbill quotation remains. There are now 6 sources with licensed images. The Wikipedia review added article background, artifact and site images, and revised map connections. See WIKIPEDIA-MAP-REVIEW.md for its scope and limits. A chapter without an appropriate image uses its selected passage and explanation. General reading-method advice is labeled separately.
 
-The source inventory covers all 161 source records, including cited works, map data, and language references. It records how each source is used. It is not a claim that every complete external work was read again. Full books, blocked pages, video transcripts, and existing source checks retain their stated limits. Only exact quotations checked against the source text are presented as new direct quotations.
+The source inventory covers all 164 source records, including cited works, map data, and language references. It records how each source is used. It is not a claim that every complete external work was read again. Full books, blocked pages, video transcripts, and existing source checks retain their stated limits. Only exact quotations checked against the source text are presented as new direct quotations.
 
 ## Chapter coverage
 
@@ -110,11 +110,11 @@ Chapter associations include works cited within another source. Some association
 | 3 Nephi 23: search Isaiah’s words | Map, word, or library resource | Paraphrase or reference |
 | Natural Earth: geographic base data | Map, word, or library resource | Paraphrase or reference |
 | Bible geographic atlas | Map, word, or library resource | Paraphrase or reference |
-| Come, Follow Me 2026 — Isaiah 1–12: “God Is My Salvation” | 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 36 | Verified short quotation |
-| Come, Follow Me 2026 — Isaiah 13–14; 22; 24–30; 35: “A Marvellous Work and a Wonder” | 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 39 | Verified short quotation |
-| Come, Follow Me 2026 — Isaiah 40–49: “Comfort Ye My People” | 37, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49 | Verified short quotation |
-| Come, Follow Me 2026 — Isaiah 50–57: “He Hath Borne Our Griefs, and Carried Our Sorrows” | 38, 50, 51, 52, 53, 54, 55, 56, 57 | Verified short quotation |
-| Come, Follow Me 2026 — Isaiah 58–66: “The Redeemer Shall Come to Zion” | 38, 58, 59, 60, 61, 62, 63, 64, 65, 66 | Verified short quotation |
+| Come, Follow Me 2026 — Isaiah 1–12: “God Is My Salvation” | 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 | Verified short quotation |
+| Come, Follow Me 2026 — Isaiah 13–14; 22; 24–30; 35: “A Marvellous Work and a Wonder” | 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35 | Verified short quotation |
+| Come, Follow Me 2026 — Isaiah 40–49: “Comfort Ye My People” | 40, 41, 42, 43, 44, 45, 46, 47, 48, 49 | Verified short quotation |
+| Come, Follow Me 2026 — Isaiah 50–57: “He Hath Borne Our Griefs, and Carried Our Sorrows” | 50, 51, 52, 53, 54, 55, 56, 57 | Verified short quotation |
+| Come, Follow Me 2026 — Isaiah 58–66: “The Redeemer Shall Come to Zion” | 58, 59, 60, 61, 62, 63, 64, 65, 66 | Verified short quotation |
 | My claim about Isaiah 53 is “demonstrably false”? | 53 | Paraphrase or reference |
 | What is Deutero-Isaiah? | 39 | Paraphrase or reference |
 | Does the Great Isaiah Scroll prove the Bible hasn’t changed? | 53 | Paraphrase or reference |
@@ -128,7 +128,7 @@ Chapter associations include works cited within another source. Some association
 | Be Reconciled to God | 11 | Verified short quotation |
 | Humble Souls at Altars Kneel | 6, 28, 51 | Paraphrase or reference |
 | Simplicity in Christ | 9, 49 | Verified short quotation |
-| The Atoning Love of Jesus Christ | 38, 61 | Verified short quotation |
+| The Atoning Love of Jesus Christ | 61 | Verified short quotation |
 | And Now I See | 53 | Paraphrase or reference |
 | Look to God and Live | 1, 45 | Paraphrase or reference |
 | Prophets of God | 28, 52 | Paraphrase or reference |
@@ -140,8 +140,8 @@ Chapter associations include works cited within another source. Some association
 | Come Home | 58 | Paraphrase or reference |
 | Jesus Christ—the True Vine | 55 | Verified short quotation |
 | Jesus Christ Is Not Our Burden; He Is Our Relief | 41 | Verified short quotation |
-| He Knows You by Name | 38, 40 | Paraphrase or reference |
-| Choose Jesus Christ as Your Guide | 36, 41, 43 | Paraphrase or reference |
+| He Knows You by Name | 40 | Paraphrase or reference |
+| Choose Jesus Christ as Your Guide | 41, 43 | Paraphrase or reference |
 | He Is Risen | 41, 45, 49 | Paraphrase or reference |
 | I Glory in My Jesus | 9, 33, 49 | Paraphrase or reference |
 | “Here Am I, Send Me” | 53 | Verified short quotation |
@@ -221,6 +221,9 @@ Chapter associations include works cited within another source. Some association
 | Ann Madsen — Shares Her Experiences & Studies of Isaiah | 6 | Verified short quotation |
 | The Roads and Highways of Ancient Israel | Map, word, or library resource | Paraphrase or reference |
 | The Land of the Bible: A Historical Geography | Map, word, or library resource | Paraphrase or reference |
+| The King’s Road — the imperial communication network | Map, word, or library resource | Paraphrase or reference |
+| The Roads from and to Aleppo: Some Historical-geographical Considerations in Light of New Archaeological Data | Map, word, or library resource | Paraphrase or reference |
+| Kalhu, Tiglatpileser’s royal residence city | Map, word, or library resource | Paraphrase or reference |
 | Constructing the Assyrian Siege Ramp at Lachish | 36 | Paraphrase or reference |
 | Sennacherib · Wikipedia | 36, 37 | Image; Paraphrase or reference |
 | Sennacherib's campaign in the Levant · Wikipedia | 36 | Paraphrase or reference |
@@ -254,3 +257,26 @@ Maintain chapter selections in `scripts/chapter-enrichment.mjs`. Maintain checke
 Rebuild with `node scripts/create-content.mjs` and `python scripts/prepare-words.py`. Refresh this report with `node scripts/report-study-enrichment.mjs`. Run `npm run check` and `node --check dist/app.js`.
 
 Automated checks cover all 66 chapters in both modes, exact passage text, source completeness, attribution, chapter scope, image scope, and whole-word place matches. Browser checks cover an object image in chapter 45, LDS quotations in chapter 41, and a source-details dialog.
+
+## Added-book context
+
+731 of 731 chapters across 23 ready added books have original contextual explanations and selected local World English Bible verses.
+The existing 66 Isaiah studies remain intact.
+The complete added-book rows live in `scripts/book-context-complete/`.
+They supply chapter meaning, introductions, event details, and selected guide steps.
+
+Artifact photographs appear in 41 relevant added-book chapters.
+Nine Metropolitan Museum public-domain photographs supplement the existing licensed Isaiah artifacts.
+Images retain object identity, date, collection, credits, rights links, and comparison limits.
+The later Babylonian hymn tablet offers a comparison with another sacred-song tradition.
+It does not establish the earlier captors' own songs in Psalm 137.
+
+Original close readings use the local Scripture passages and their surroundings.
+Complete textual coverage does not claim a fresh full reading of every external linked work.
+Existing source-specific access records remain in place.
+The builder rejects incomplete authored chapter coverage.
+Presentation checks exercise every added chapter in both perspectives and preserve exact Scripture and image scope.
+Curated guides remain short selected routes.
+
+Rebuild added books with `python scripts/build-native-books.py`.
+Run `npm run check` and `npm run check:bible` before publication.

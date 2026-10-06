@@ -268,6 +268,131 @@
       "type": "Translation notes",
       "limitations": "The editions describe the men’s role differently. This comparison does not settle the Hebrew wording.",
       "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "cyrus",
+      "title": "The Cyrus Cylinder",
+      "author": "British Museum · collection 1880,0617.1941",
+      "year": "539 BCE setting",
+      "type": "Primary evidence",
+      "url": "https://www.britishmuseum.org/collection/object/W_1880-0617-1941",
+      "summary": "Cyrus had this royal message written on clay. It tells how he took Babylon. It also says he gave holy places back to some people.",
+      "limitations": "The message does not name Judah. It does not say that people from Judah went home.",
+      "license": "Linked reading; original study guide summary, no article reproduction",
+      "image": {
+        "src": "assets/cyrus-cylinder.jpg",
+        "fullUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Cyrus_Cylinder_BM_ME90920.jpg",
+        "alt": "The clay Cyrus Cylinder covered with cuneiform writing.",
+        "caption": "Cyrus Cylinder · British Museum",
+        "width": 3300,
+        "height": 1650,
+        "linkLabel": "View full-size image",
+        "credit": "Photograph by Marie-Lan Nguyen / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/User:Jastrow",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cyrus_Cylinder_BM_ME90920.jpg",
+        "license": "CC BY 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.5/"
+      },
+      "previewText": "The cylinder presents Cyrus restoring worship after taking Babylon. It does not name Judah’s returning families.",
+      "category": "Primary evidence",
+      "limits": "The message does not name Judah. It does not say that people from Judah went home.",
+      "perspective": "historical",
+      "reviewed": {
+        "date": "2026-09-29",
+        "scope": "Existing Isaiah object and licensed photograph review. No new direct museum-page review claimed."
+      },
+      "chapterCoverage": [
+        1
+      ],
+      "imageChapters": [
+        1
+      ]
+    },
+    {
+      "id": "met-326387",
+      "title": "Bulla",
+      "url": "https://www.metmuseum.org/art/collection/search/326387",
+      "author": "The Metropolitan Museum of Art",
+      "category": "museum",
+      "perspective": "historical",
+      "summary": "This Persian clay object bears a seal impression. The museum links it with Persian record keeping.",
+      "limits": "It comes from Pasargadae, not the biblical court scene. Its exact original use remains uncertain.",
+      "previewText": "This Persian clay object bears a seal impression. The museum links it with Persian record keeping. It comes from Pasargadae, not the biblical court scene. Its exact original use remains uncertain.",
+      "image": {
+        "src": "assets/study-objects/met-326387.jpg",
+        "fullUrl": "https://images.metmuseum.org/CRDImages/an/original/DP-40305-001.jpg",
+        "sourceUrl": "https://www.metmuseum.org/art/collection/search/326387",
+        "creditUrl": "https://www.metmuseum.org/art/collection/search/326387",
+        "credit": "The Metropolitan Museum of Art",
+        "license": "CC0 / Public domain",
+        "licenseUrl": "https://www.metmuseum.org/policies/image-resources",
+        "alt": "Bulla",
+        "caption": "Bulla · mid 6th–late 4th century BCE · The Met",
+        "width": 599,
+        "height": 449
+      },
+      "date": "mid 6th–late 4th century BCE",
+      "objectNumber": "1978.93.13",
+      "creditLine": "Purchase, H. Dunscombe Colt Gift, 1978",
+      "reviewed": {
+        "date": "2026-10-05",
+        "scope": "Museum object description, identity, date, and public-domain image metadata."
+      },
+      "access": "Public museum collection record and Open Access API",
+      "license": "CC0 / Public domain",
+      "chapterCoverage": [
+        4,
+        5,
+        6
+      ],
+      "imageChapters": [
+        4,
+        5,
+        6
+      ],
+      "type": "museum",
+      "limitations": "It comes from Pasargadae, not the biblical court scene. Its exact original use remains uncertain."
+    },
+    {
+      "id": "met-327369",
+      "title": "Weight in shape of frog",
+      "url": "https://www.metmuseum.org/art/collection/search/327369",
+      "author": "The Metropolitan Museum of Art",
+      "category": "museum",
+      "perspective": "historical",
+      "summary": "This Babylonian stone weight names ten minas in its inscription. A mina was a local unit of weight.",
+      "limits": "It shows a regional practice of marked weights. It does not establish the standard weight used in Israel.",
+      "previewText": "This Babylonian stone weight names ten minas in its inscription. A mina was a local unit of weight. It shows a regional practice of marked weights. It does not establish the standard weight used in Israel.",
+      "image": {
+        "src": "assets/study-objects/met-327369.jpg",
+        "fullUrl": "https://images.metmuseum.org/CRDImages/an/original/DP235328.jpg",
+        "sourceUrl": "https://www.metmuseum.org/art/collection/search/327369",
+        "creditUrl": "https://www.metmuseum.org/art/collection/search/327369",
+        "credit": "The Metropolitan Museum of Art",
+        "license": "CC0 / Public domain",
+        "licenseUrl": "https://www.metmuseum.org/policies/image-resources",
+        "alt": "Weight in shape of frog",
+        "caption": "Weight in shape of frog · ca. 2000–1600 BCE · The Met",
+        "width": 599,
+        "height": 438
+      },
+      "date": "ca. 2000–1600 BCE",
+      "objectNumber": "1988.301",
+      "creditLine": "Purchase, Leon Levy and Shelby White Gift, Rogers Fund and Nathaniel Spear Jr. Gift, 1988",
+      "reviewed": {
+        "date": "2026-10-05",
+        "scope": "Museum object description, identity, date, and public-domain image metadata."
+      },
+      "access": "Public museum collection record and Open Access API",
+      "license": "CC0 / Public domain",
+      "chapterCoverage": [
+        8
+      ],
+      "imageChapters": [
+        8
+      ],
+      "type": "museum",
+      "limitations": "It shows a regional practice of marked weights. It does not establish the standard weight used in Israel."
     }
   ],
   "passages": [
@@ -277,7 +402,7 @@
       "start": 1,
       "end": 11,
       "title": "Cyrus permits return",
-      "summary": "Cyrus announces temple rebuilding. Families prepare to return, and Sheshbazzar receives the temple vessels. Neighbors give gold, animals, and supplies. Their gifts help families prepare for the return.",
+      "summary": "Cyrus announces temple rebuilding. Families prepare to return, and Sheshbazzar receives the temple vessels.",
       "year": null,
       "dateLabel": "Chapter order · Persian reign sequence requires comparison",
       "uncertainty": "Selected known places and broad regions. Ahava, Casiphia, and the archive destination are not assigned unsupported coordinates.",
@@ -291,13 +416,24 @@
         "atlas-canaan",
         "luther-ezra",
         "eskenazi-excerpt",
-        "wiki-ezra"
+        "wiki-ezra",
+        "cyrus"
       ],
       "lds": {
         "text": "Come, Follow Me studies how people outside the community can help God’s work.",
         "sourceIds": [
           "cfm-ezra-2026",
           "lds-ezra-intro"
+        ]
+      },
+      "contextNote": {
+        "title": "Return occurs within Persian rule",
+        "text": "Permission to rebuild comes from the king who rules the larger region. The people return with help, goods, and temple vessels. Worship can resume without political independence. Read permission and dependence together. The Cyrus Cylinder provides wider royal context without naming Judah’s returning families.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": [
+          "cyrus"
         ]
       }
     },
@@ -307,7 +443,7 @@
       "start": 1,
       "end": 70,
       "title": "The returning community",
-      "summary": "A list names returning families and temple workers. Some priests must prove their family line. Families name their earlier homes. Priests without proof must wait before eating the most holy food.",
+      "summary": "A list names returning families and temple workers. Some priests must prove their family line.",
       "year": null,
       "dateLabel": "Chapter order · Persian reign sequence requires comparison",
       "uncertainty": "Selected known places and broad regions. Ahava, Casiphia, and the archive destination are not assigned unsupported coordinates.",
@@ -328,6 +464,14 @@
         "sourceIds": [
           "lds-ezra-intro"
         ]
+      },
+      "contextNote": {
+        "title": "Belonging requires more than arrival",
+        "text": "The list distinguishes households, workers, and claims to priestly service. Missing family records restrict access to sacred food. A rebuilt temple therefore needs decisions about membership as well as materials. The returning group must establish who can perform each task.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -336,7 +480,7 @@
       "start": 1,
       "end": 13,
       "title": "Altar, foundations, joy, and grief",
-      "summary": "Jeshua and Zerubbabel lead renewed offerings and temple work. The foundation ceremony brings both celebration and grief. Older people remember the earlier temple and weep. Others cheer as the new foundation is laid.",
+      "summary": "Jeshua and Zerubbabel lead renewed offerings and temple work. The foundation ceremony brings both celebration and grief.",
       "year": null,
       "dateLabel": "Chapter order · Persian reign sequence requires comparison",
       "uncertainty": "Selected known places and broad regions. Ahava, Casiphia, and the archive destination are not assigned unsupported coordinates.",
@@ -359,6 +503,14 @@
           "cfm-ezra-2026",
           "lds-ezra-intro"
         ]
+      },
+      "contextNote": {
+        "title": "A foundation holds two different memories",
+        "text": "The same ceremony produces joy in some people and grief in others. Older witnesses compare the new work with a lost temple. Their tears do not cancel the other people's celebration. The account preserves both responses within the sound of one gathering.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -367,7 +519,7 @@
       "start": 1,
       "end": 24,
       "title": "Opposition and royal letters",
-      "summary": "An offer of help is rejected. Opposition and letters to Persian rulers interrupt rebuilding before work resumes under Darius. The chapter moves between different kings. Some later letters concern the city's walls instead of temple work.",
+      "summary": "An offer of help is rejected. Opposition and letters to Persian rulers interrupt rebuilding before work resumes under Darius.",
       "year": null,
       "dateLabel": "Chapter order · Persian reign sequence requires comparison",
       "uncertainty": "Selected known places and broad regions. Ahava, Casiphia, and the archive destination are not assigned unsupported coordinates.",
@@ -381,13 +533,24 @@
         "atlas-canaan",
         "luther-ezra",
         "havea-ezra",
-        "wiki-ezra"
+        "wiki-ezra",
+        "met-326387"
       ],
       "lds": {
         "text": "Come, Follow Me studies responses to opposition.",
         "sourceIds": [
           "cfm-ezra-2026",
           "lds-ezra-intro"
+        ]
+      },
+      "contextNote": {
+        "title": "Opposition does not follow a simple sequence",
+        "text": "The chapter groups disputes from several reigns before returning to temple work under Darius. Some letters concern the city rather than the temple. Read each royal name and building request carefully. A shared theme of opposition holds together events from different times.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": [
+          "met-326387"
         ]
       }
     },
@@ -397,7 +560,7 @@
       "start": 1,
       "end": 17,
       "title": "Prophets encourage work as officials ask questions",
-      "summary": "Haggai and Zechariah encourage rebuilding. Tattenai asks for proof of Cyrus's order, and the leaders explain their work. The builders recall Sheshbazzar's earlier foundation work. Officials seek written proof of the king's permission.",
+      "summary": "Haggai and Zechariah encourage rebuilding. Tattenai asks for proof of Cyrus's order, and the leaders explain their work.",
       "year": null,
       "dateLabel": "Chapter order · Persian reign sequence requires comparison",
       "uncertainty": "Selected known places and broad regions. Ahava, Casiphia, and the archive destination are not assigned unsupported coordinates.",
@@ -408,13 +571,24 @@
       "sourceIds": [
         "web",
         "atlas",
-        "atlas-canaan"
+        "atlas-canaan",
+        "met-326387"
       ],
       "lds": {
         "text": "Come, Follow Me asks how the people continue God’s work despite opposition.",
         "sourceIds": [
           "cfm-ezra-2026",
           "lds-ezra-intro"
+        ]
+      },
+      "contextNote": {
+        "title": "Local builders answer through a longer history",
+        "text": "The elders identify themselves as servants before explaining their building work. Their answer connects royal permission with earlier destruction and return. They admit ancestral failure without accepting that rebuilding lacks authority. The dispute concerns who can authorize work within the empire.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": [
+          "met-326387"
         ]
       }
     },
@@ -424,7 +598,7 @@
       "start": 1,
       "end": 22,
       "title": "The king's order, the temple, and Passover",
-      "summary": "The archive search supports rebuilding. Darius supplies protection and resources. The community dedicates the temple and celebrates Passover. The king pays for work and offerings from taxes. The feast includes people who leave other gods.",
+      "summary": "The archive search supports rebuilding. Darius supplies protection and resources. The community dedicates the temple and celebrates Passover.",
       "year": null,
       "dateLabel": "Chapter order · Persian reign sequence requires comparison",
       "uncertainty": "Selected known places and broad regions. Ahava, Casiphia, and the archive destination are not assigned unsupported coordinates.",
@@ -437,13 +611,24 @@
         "atlas",
         "atlas-canaan",
         "luther-ezra",
-        "eskenazi-excerpt"
+        "eskenazi-excerpt",
+        "met-326387"
       ],
       "lds": {
         "text": "Come, Follow Me studies the temple's opening and the people's joy.",
         "sourceIds": [
           "cfm-ezra-2026",
           "lds-ezra-intro"
+        ]
+      },
+      "contextNote": {
+        "title": "A stored record changes a local dispute",
+        "text": "The search for a decree moves the dispute into royal archives. A written record can answer claims made by local opponents. Permission also brings duties and royal oversight. The temple story therefore includes files, officials, and taxes. The rebuilt community remains inside a larger system of rule.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": [
+          "met-326387"
         ]
       }
     },
@@ -453,7 +638,7 @@
       "start": 1,
       "end": 28,
       "title": "Ezra studies the law and receives royal support",
-      "summary": "Ezra is a priest who studies God’s law. Artaxerxes supports his journey and gives him duties to teach and judge. Ezra studies the law before living and teaching it. His journey connects these duties with the returning community.",
+      "summary": "Ezra is a priest who studies God’s law. Artaxerxes supports his journey and gives him duties to teach and judge.",
       "year": null,
       "dateLabel": "Chapter order · Persian reign sequence requires comparison",
       "uncertainty": "Selected known places and broad regions. Ahava, Casiphia, and the archive destination are not assigned unsupported coordinates.",
@@ -476,6 +661,14 @@
           "lds-ezra-intro",
           "lds-ezra-104"
         ]
+      },
+      "contextNote": {
+        "title": "Teaching joins study with conduct",
+        "text": "Ezra's description places study before practice and teaching. The royal letter then connects instruction with courts and public penalties. Law functions here as more than private guidance. Its teachers receive power over how the community orders its life.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -484,7 +677,7 @@
       "start": 1,
       "end": 36,
       "title": "Prayer, travel, and the care of temple gifts",
-      "summary": "Ezra gathers travelers and asks Iddo to send temple workers. They pray before leaving and count the gifts when they arrive. Ezra chooses people to guard the gifts. They must hand over the same weight they received.",
+      "summary": "Ezra gathers travelers and asks Iddo to send temple workers. They pray before leaving and count the gifts when they arrive.",
       "year": null,
       "dateLabel": "Chapter order · Persian reign sequence requires comparison",
       "uncertainty": "Selected known places and broad regions. Ahava, Casiphia, and the archive destination are not assigned unsupported coordinates.",
@@ -495,13 +688,24 @@
       "sourceIds": [
         "web",
         "atlas",
-        "atlas-canaan"
+        "atlas-canaan",
+        "met-327369"
       ],
       "lds": {
         "text": "The Seminary lesson studies fasting, prayer, and trust before the journey.",
         "sourceIds": [
           "lds-ezra-intro",
           "lds-ezra-104"
+        ]
+      },
+      "contextNote": {
+        "title": "Sacred gifts need public accountability",
+        "text": "Ezra's trust in protection does not remove the need to weigh the gifts. Selected guardians receive them before travel and deliver them after arrival. The matching weights make responsibility visible to others. Prayer and careful handling serve the same journey.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": [
+          "met-327369"
         ]
       }
     },
@@ -511,7 +715,7 @@
       "start": 1,
       "end": 15,
       "title": "Ezra prays about the mixed marriages",
-      "summary": "Leaders report marriages with women from other nations. Ezra tears his robe and begins a prayer. Ezra recalls earlier sins that sent Israel into exile. He fears losing the small group that survived.",
+      "summary": "Leaders report marriages with women from other nations. Ezra tears his robe and begins a prayer.",
       "year": null,
       "dateLabel": "Chapter order · Persian reign sequence requires comparison",
       "uncertainty": "Selected known places and broad regions. Ahava, Casiphia, and the archive destination are not assigned unsupported coordinates.",
@@ -533,6 +737,14 @@
           "lds-ezra-intro",
           "lds-ezra-104"
         ]
+      },
+      "contextNote": {
+        "title": "Gratitude and fear shape the prayer",
+        "text": "Ezra describes renewed life as a small allowance within continued foreign rule. That limited recovery explains his fear of losing the community again. The prayer interprets present marriages through the memory of exile. It expresses Ezra's judgment, not the voices of the affected wives.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     },
     {
@@ -541,7 +753,7 @@
       "start": 1,
       "end": 44,
       "title": "The marriage investigation",
-      "summary": "Shecaniah proposes separation from foreign wives and children. Ezra summons an assembly, and an investigation names households involved. Rain and the many cases delay the work. Leaders set times to examine each household.",
+      "summary": "Shecaniah proposes separation from foreign wives and children. Ezra summons an assembly, and an investigation names households involved.",
       "year": null,
       "dateLabel": "Chapter order · Persian reign sequence requires comparison",
       "uncertainty": "Selected known places and broad regions. Ahava, Casiphia, and the archive destination are not assigned unsupported coordinates.",
@@ -565,6 +777,14 @@
           "lds-ezra-intro",
           "lds-ezra-104"
         ]
+      },
+      "contextNote": {
+        "title": "A boundary decision has a human cost",
+        "text": "The proposed covenant requires wives and children to leave. The account names this as a response to unfaithfulness. Its focus on group identity does not remove the cost for families. Read the named men beside those affected but largely unheard. A return to worship does not settle every question about belonging.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
       }
     }
   ],
@@ -576,7 +796,7 @@
       "eventOrder": 1,
       "title": "Cyrus permits return",
       "summary": "Cyrus announces temple rebuilding. Families prepare to return, and Sheshbazzar receives the temple vessels.",
-      "detail": "Neighbors give gold, animals, and supplies. Their gifts help families prepare for the return.",
+      "detail": "Permission to rebuild comes from the king who rules the larger region. The people return with help, goods, and temple vessels. Worship can resume without political independence. Read permission and dependence together. The Cyrus Cylinder provides wider royal context without naming Judah’s returning families.",
       "dateLabel": "Chapter order · Persian reign sequence requires comparison",
       "uncertainty": "Selected known places and broad regions. Ahava, Casiphia, and the archive destination are not assigned unsupported coordinates.",
       "sourceIds": [
@@ -585,7 +805,8 @@
         "atlas-canaan",
         "luther-ezra",
         "eskenazi-excerpt",
-        "wiki-ezra"
+        "wiki-ezra",
+        "cyrus"
       ],
       "placeIds": [
         "jerusalem",
@@ -606,7 +827,7 @@
       "eventOrder": 2,
       "title": "The returning community",
       "summary": "A list names returning families and temple workers. Some priests must prove their family line.",
-      "detail": "Families name their earlier homes. Priests without proof must wait before eating the most holy food.",
+      "detail": "The list distinguishes households, workers, and claims to priestly service. Missing family records restrict access to sacred food. A rebuilt temple therefore needs decisions about membership as well as materials. The returning group must establish who can perform each task.",
       "dateLabel": "Chapter order · Persian reign sequence requires comparison",
       "uncertainty": "Selected known places and broad regions. Ahava, Casiphia, and the archive destination are not assigned unsupported coordinates.",
       "sourceIds": [
@@ -635,7 +856,7 @@
       "eventOrder": 3,
       "title": "Altar, foundations, joy, and grief",
       "summary": "Jeshua and Zerubbabel lead renewed offerings and temple work. The foundation ceremony brings both celebration and grief.",
-      "detail": "Older people remember the earlier temple and weep. Others cheer as the new foundation is laid.",
+      "detail": "The same ceremony produces joy in some people and grief in others. Older witnesses compare the new work with a lost temple. Their tears do not cancel the other people's celebration. The account preserves both responses within the sound of one gathering.",
       "dateLabel": "Chapter order · Persian reign sequence requires comparison",
       "uncertainty": "Selected known places and broad regions. Ahava, Casiphia, and the archive destination are not assigned unsupported coordinates.",
       "sourceIds": [
@@ -666,7 +887,7 @@
       "eventOrder": 4,
       "title": "Opposition and royal letters",
       "summary": "An offer of help is rejected. Opposition and letters to Persian rulers interrupt rebuilding before work resumes under Darius.",
-      "detail": "The chapter moves between different kings. Some later letters concern the city's walls instead of temple work.",
+      "detail": "The chapter groups disputes from several reigns before returning to temple work under Darius. Some letters concern the city rather than the temple. Read each royal name and building request carefully. A shared theme of opposition holds together events from different times.",
       "dateLabel": "Chapter order · Persian reign sequence requires comparison",
       "uncertainty": "Selected known places and broad regions. Ahava, Casiphia, and the archive destination are not assigned unsupported coordinates.",
       "sourceIds": [
@@ -675,7 +896,8 @@
         "atlas-canaan",
         "luther-ezra",
         "havea-ezra",
-        "wiki-ezra"
+        "wiki-ezra",
+        "met-326387"
       ],
       "placeIds": [
         "jerusalem",
@@ -696,13 +918,14 @@
       "eventOrder": 5,
       "title": "Prophets encourage work as officials ask questions",
       "summary": "Haggai and Zechariah encourage rebuilding. Tattenai asks for proof of Cyrus's order, and the leaders explain their work.",
-      "detail": "The builders recall Sheshbazzar's earlier foundation work. Officials seek written proof of the king's permission.",
+      "detail": "The elders identify themselves as servants before explaining their building work. Their answer connects royal permission with earlier destruction and return. They admit ancestral failure without accepting that rebuilding lacks authority. The dispute concerns who can authorize work within the empire.",
       "dateLabel": "Chapter order · Persian reign sequence requires comparison",
       "uncertainty": "Selected known places and broad regions. Ahava, Casiphia, and the archive destination are not assigned unsupported coordinates.",
       "sourceIds": [
         "web",
         "atlas",
-        "atlas-canaan"
+        "atlas-canaan",
+        "met-326387"
       ],
       "placeIds": [
         "jerusalem",
@@ -723,7 +946,7 @@
       "eventOrder": 6,
       "title": "The king's order, the temple, and Passover",
       "summary": "The archive search supports rebuilding. Darius supplies protection and resources. The community dedicates the temple and celebrates Passover.",
-      "detail": "The king pays for work and offerings from taxes. The feast includes people who leave other gods.",
+      "detail": "The search for a decree moves the dispute into royal archives. A written record can answer claims made by local opponents. Permission also brings duties and royal oversight. The temple story therefore includes files, officials, and taxes. The rebuilt community remains inside a larger system of rule.",
       "dateLabel": "Chapter order · Persian reign sequence requires comparison",
       "uncertainty": "Selected known places and broad regions. Ahava, Casiphia, and the archive destination are not assigned unsupported coordinates.",
       "sourceIds": [
@@ -731,7 +954,8 @@
         "atlas",
         "atlas-canaan",
         "luther-ezra",
-        "eskenazi-excerpt"
+        "eskenazi-excerpt",
+        "met-326387"
       ],
       "placeIds": [
         "jerusalem",
@@ -752,7 +976,7 @@
       "eventOrder": 7,
       "title": "Ezra studies the law and receives royal support",
       "summary": "Ezra is a priest who studies God’s law. Artaxerxes supports his journey and gives him duties to teach and judge.",
-      "detail": "Ezra studies the law before living and teaching it. His journey connects these duties with the returning community.",
+      "detail": "Ezra's description places study before practice and teaching. The royal letter then connects instruction with courts and public penalties. Law functions here as more than private guidance. Its teachers receive power over how the community orders its life.",
       "dateLabel": "Chapter order · Persian reign sequence requires comparison",
       "uncertainty": "Selected known places and broad regions. Ahava, Casiphia, and the archive destination are not assigned unsupported coordinates.",
       "sourceIds": [
@@ -783,13 +1007,14 @@
       "eventOrder": 8,
       "title": "Prayer, travel, and the care of temple gifts",
       "summary": "Ezra gathers travelers and asks Iddo to send temple workers. They pray before leaving and count the gifts when they arrive.",
-      "detail": "Ezra chooses people to guard the gifts. They must hand over the same weight they received.",
+      "detail": "Ezra's trust in protection does not remove the need to weigh the gifts. Selected guardians receive them before travel and deliver them after arrival. The matching weights make responsibility visible to others. Prayer and careful handling serve the same journey.",
       "dateLabel": "Chapter order · Persian reign sequence requires comparison",
       "uncertainty": "Selected known places and broad regions. Ahava, Casiphia, and the archive destination are not assigned unsupported coordinates.",
       "sourceIds": [
         "web",
         "atlas",
-        "atlas-canaan"
+        "atlas-canaan",
+        "met-327369"
       ],
       "placeIds": [
         "babylon",
@@ -810,7 +1035,7 @@
       "eventOrder": 9,
       "title": "Ezra prays about the mixed marriages",
       "summary": "Leaders report marriages with women from other nations. Ezra tears his robe and begins a prayer.",
-      "detail": "Ezra recalls earlier sins that sent Israel into exile. He fears losing the small group that survived.",
+      "detail": "Ezra describes renewed life as a small allowance within continued foreign rule. That limited recovery explains his fear of losing the community again. The prayer interprets present marriages through the memory of exile. It expresses Ezra's judgment, not the voices of the affected wives.",
       "dateLabel": "Chapter order · Persian reign sequence requires comparison",
       "uncertainty": "Selected known places and broad regions. Ahava, Casiphia, and the archive destination are not assigned unsupported coordinates.",
       "sourceIds": [
@@ -840,7 +1065,7 @@
       "eventOrder": 10,
       "title": "The marriage investigation",
       "summary": "Shecaniah proposes separation from foreign wives and children. Ezra summons an assembly, and an investigation names households involved.",
-      "detail": "Rain and the many cases delay the work. Leaders set times to examine each household.",
+      "detail": "The proposed covenant requires wives and children to leave. The account names this as a response to unfaithfulness. Its focus on group identity does not remove the cost for families. Read the named men beside those affected but largely unheard. A return to worship does not settle every question about belonging.",
       "dateLabel": "Chapter order · Persian reign sequence requires comparison",
       "uncertainty": "Selected known places and broad regions. Ahava, Casiphia, and the archive destination are not assigned unsupported coordinates.",
       "sourceIds": [
@@ -986,52 +1211,37 @@
   "words": [],
   "guides": [
     {
-      "id": "ezra-overview",
-      "title": "Study Ezra",
-      "description": "Follow selected chapters through the book.",
+      "id": "ezra-context",
+      "title": "Ezra: context and evidence",
+      "description": "Explore the book’s larger concerns through selected passages and relevant evidence.",
       "steps": [
         {
-          "title": "Cyrus permits return",
-          "text": "Cyrus announces temple rebuilding. Families prepare to return, and Sheshbazzar receives the temple vessels. Neighbors give gold, animals, and supplies. Their gifts help families prepare for the return.",
+          "title": "Return occurs within Persian rule",
+          "text": "Permission to rebuild comes from the king who rules the larger region. The people return with help, goods, and temple vessels. Worship can resume without political independence. Read permission and dependence together. The Cyrus Cylinder provides wider royal context without naming Judah’s returning families.",
           "chapter": 1,
-          "verse": 1,
+          "verse": 3,
           "sourceIds": [
             "web",
-            "atlas",
-            "atlas-canaan",
-            "luther-ezra",
-            "eskenazi-excerpt",
-            "wiki-ezra"
+            "cyrus"
           ]
         },
         {
-          "title": "The king's order, the temple, and Passover",
-          "text": "The archive search supports rebuilding. Darius supplies protection and resources. The community dedicates the temple and celebrates Passover. The king pays for work and offerings from taxes. The feast includes people who leave other gods.",
+          "title": "A stored record changes a local dispute",
+          "text": "The search for a decree moves the dispute into royal archives. A written record can answer claims made by local opponents. Permission also brings duties and royal oversight. The temple story therefore includes files, officials, and taxes. The rebuilt community remains inside a larger system of rule.",
           "chapter": 6,
-          "verse": 1,
+          "verse": 2,
           "sourceIds": [
             "web",
-            "atlas",
-            "atlas-canaan",
-            "luther-ezra",
-            "eskenazi-excerpt"
+            "met-326387"
           ]
         },
         {
-          "title": "The marriage investigation",
-          "text": "Shecaniah proposes separation from foreign wives and children. Ezra summons an assembly, and an investigation names households involved. Rain and the many cases delay the work. Leaders set times to examine each household.",
+          "title": "A boundary decision has a human cost",
+          "text": "The proposed covenant requires wives and children to leave. The account names this as a response to unfaithfulness. Its focus on group identity does not remove the cost for families. Read the named men beside those affected but largely unheard. A return to worship does not settle every question about belonging.",
           "chapter": 10,
-          "verse": 1,
+          "verse": 3,
           "sourceIds": [
-            "web",
-            "atlas",
-            "atlas-canaan",
-            "luther-ezra",
-            "havea-ezra",
-            "eskenazi-excerpt",
-            "mcclellan-ezra",
-            "wiki-ezra",
-            "ezra-kjv-10"
+            "web"
           ]
         }
       ]
@@ -1085,7 +1295,8 @@
         "atlas-canaan",
         "luther-ezra",
         "eskenazi-excerpt",
-        "wiki-ezra"
+        "wiki-ezra",
+        "cyrus"
       ]
     },
     {
@@ -1170,7 +1381,8 @@
         "atlas-canaan",
         "luther-ezra",
         "havea-ezra",
-        "wiki-ezra"
+        "wiki-ezra",
+        "met-326387"
       ]
     },
     {
@@ -1194,7 +1406,8 @@
       "sourceIds": [
         "web",
         "atlas",
-        "atlas-canaan"
+        "atlas-canaan",
+        "met-326387"
       ]
     },
     {
@@ -1220,7 +1433,8 @@
         "atlas",
         "atlas-canaan",
         "luther-ezra",
-        "eskenazi-excerpt"
+        "eskenazi-excerpt",
+        "met-326387"
       ]
     },
     {
@@ -1271,7 +1485,8 @@
       "sourceIds": [
         "web",
         "atlas",
-        "atlas-canaan"
+        "atlas-canaan",
+        "met-327369"
       ]
     },
     {
@@ -1331,5 +1546,56 @@
   ],
   "textRoutes": [],
   "narrativeRegions": [],
-  "chapterStudies": []
+  "chapterStudies": [
+    {
+      "chapter": 1,
+      "verse": 3,
+      "context": ""
+    },
+    {
+      "chapter": 2,
+      "verse": 62,
+      "context": ""
+    },
+    {
+      "chapter": 3,
+      "verse": 12,
+      "context": ""
+    },
+    {
+      "chapter": 4,
+      "verse": 21,
+      "context": ""
+    },
+    {
+      "chapter": 5,
+      "verse": 11,
+      "context": ""
+    },
+    {
+      "chapter": 6,
+      "verse": 2,
+      "context": ""
+    },
+    {
+      "chapter": 7,
+      "verse": 10,
+      "context": ""
+    },
+    {
+      "chapter": 8,
+      "verse": 29,
+      "context": ""
+    },
+    {
+      "chapter": 9,
+      "verse": 9,
+      "context": ""
+    },
+    {
+      "chapter": 10,
+      "verse": 3,
+      "context": ""
+    }
+  ]
 }
