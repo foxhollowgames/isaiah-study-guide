@@ -149,4 +149,4 @@ Check difficult cases for speaker attribution, violence, disputed identities, an
 Use browser checks to verify representative reading views, source dialogs, guides, and loaded photographs.
 Automated coverage and sentence checks do not establish historical truth or full STE100 compliance.
 
-GitHub Pages now runs `npm run check` and `npm run check:bible` before uploading the release.
+Both checks passed locally before publication through the existing GitHub Pages workflow.

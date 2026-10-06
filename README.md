@@ -118,7 +118,7 @@ Maintain short guide selections and museum metadata in `scripts/book_context.py`
 Rebuild with `python scripts/build-native-books.py`.
 The build requires exactly one contextual row per ready chapter.
 Run both `npm run check` and `npm run check:bible` before publishing.
-The GitHub Pages workflow also runs both checks before uploading `dist`.
+Run these checks locally before using the existing GitHub Pages publication workflow.
 
 Future agents must read `AGENTS.md`, `WRITING-GUIDE.md`, and `BIBLE-SOURCE-POLICY.md` before changing study content.
 Complete original-text coverage does not imply a new full review of every external linked work.
