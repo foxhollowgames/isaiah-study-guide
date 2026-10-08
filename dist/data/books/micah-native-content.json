@@ -1,0 +1,1044 @@
+{
+  "sources": [
+    {
+      "id": "web",
+      "title": "Micah · World English Bible",
+      "url": "https://ebible.org/engwebp/MIC01.htm",
+      "summary": "All seven chapters appear in the reading text.",
+      "category": "Scripture",
+      "perspective": "historical",
+      "limits": "The guide assigns no exact date to individual speeches or route through the named towns.",
+      "author": "World English Bible translators",
+      "publisher": "eBible.org",
+      "chapterCoverage": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "reviewed": {
+        "date": "2026-10-07",
+        "scope": "All 105 verses read. Verse counts and character integrity checked."
+      },
+      "type": "Scripture",
+      "limitations": "The guide assigns no exact date to individual speeches or route through the named towns.",
+      "license": "Public domain"
+    },
+    {
+      "id": "strollo-micah",
+      "title": "Commentary on Micah 6:1-8",
+      "url": "https://www.workingpreacher.org/commentaries/revised-common-lectionary/fourth-sunday-after-epiphany/commentary-on-micah-61-8-5",
+      "summary": "Strollo explains the dispute’s questions and the connection between daily conduct and relationship with God.",
+      "category": "Scholarly study",
+      "perspective": "historical",
+      "limits": "Proposed historical settings and translation choices remain attributed interpretations. Linked books were not separately reviewed.",
+      "author": "Megan Fullerton Strollo",
+      "year": 2023,
+      "publisher": "Luther Seminary",
+      "chapterCoverage": [
+        6
+      ],
+      "reviewed": {
+        "date": "2026-10-07",
+        "scope": "Complete commentary body and footnotes read. Linked works by Collins and Smith-Christopher were not separately reviewed."
+      },
+      "type": "Scholarly study",
+      "limitations": "Proposed historical settings and translation choices remain attributed interpretations. Linked books were not separately reviewed.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "cfm-micah-2026",
+      "title": "November 30–December 6: “He Delighteth in Mercy” · Micah, Nahum, Habakkuk, Zephaniah",
+      "url": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/49?lang=eng",
+      "summary": "The lesson studies mercy and required conduct. Its children’s section connects Bethlehem with Jesus.",
+      "category": "LDS Come, Follow Me",
+      "perspective": "lds",
+      "limits": "The Christian connection uses later Matthew passages. It remains separate from Micah’s own description of the ruler.",
+      "author": "The Church of Jesus Christ of Latter-day Saints",
+      "year": 2026,
+      "publisher": "The Church of Jesus Christ of Latter-day Saints",
+      "chapterCoverage": [
+        5,
+        6,
+        7
+      ],
+      "reviewed": {
+        "date": "2026-10-07",
+        "scope": "Introduction, adult study sections, and the children’s Micah 5 section read. Linked talks, videos, and Scripture Helps were not separately reviewed."
+      },
+      "type": "LDS Come, Follow Me",
+      "limitations": "The Christian connection uses later Matthew passages. It remains separate from Micah’s own description of the ruler.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "lds-3-nephi-20",
+      "title": "3 Nephi 20:18–19",
+      "author": "The Church of Jesus Christ of Latter-day Saints",
+      "year": "2013 edition",
+      "category": "LDS scripture",
+      "perspective": "lds",
+      "url": "https://www.churchofjesuschrist.org/study/scriptures/bofm/3-ne/20?lang=eng&id=p18-p19#p18",
+      "summary": "Jesus repeats the images of gathered sheaves, an iron horn, and brass hoofs.",
+      "reviewed": "2026-10-08: The linked verses were read on the official Church page.",
+      "limits": "This is later Latter-day Saint scripture. It is a Church reading, separate from the Bible passage’s own words.",
+      "license": "Linked official scripture. Original guide summary.",
+      "chapterCoverage": [
+        4
+      ],
+      "type": "LDS scripture",
+      "limitations": "This is later Latter-day Saint scripture. It is a Church reading, separate from the Bible passage’s own words."
+    }
+  ],
+  "passages": [
+    {
+      "id": "micah-1",
+      "chapter": 1,
+      "start": 1,
+      "end": 16,
+      "title": "The warning becomes the prophet's own lament",
+      "summary": "The LORD’s word comes to Micah of Moresheth about Samaria and Jerusalem. The LORD comes down, and the mountains melt under him. Samaria will become a heap of rubble. Its idols will be smashed. Micah says he will wail and go barefoot and naked. The wound has reached the gate of Jerusalem. He names town after town in Judah’s lowlands. Each one will share in the disaster and the exile.",
+      "year": null,
+      "dateLabel": "Book order",
+      "uncertainty": "Markers locate selected places named in the chapter. No army or promised return route is reconstructed.",
+      "placeIds": [
+        "samaria",
+        "jerusalem",
+        "lachish"
+      ],
+      "sourceIds": [
+        "web"
+      ],
+      "lds": {
+        "text": "Why does Micah mourn while announcing judgment?",
+        "sourceIds": []
+      },
+      "contextNote": {
+        "title": "The warning becomes the prophet's own lament",
+        "text": "Micah does not stand apart from his message. Verse 8 shows him mourning in public, stripped like a captive. The towns of verses 10–15 are his home region. Moresheth, his own village, is among them (verses 1 and 14). They lie on an invader’s road to Jerusalem. He announces judgment on his neighbors and grieves for them. Verse 9 says the wound has reached his people’s gate.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    },
+    {
+      "id": "micah-2",
+      "chapter": 2,
+      "start": 1,
+      "end": 13,
+      "title": "Power turns private plans into public dispossession",
+      "summary": "Micah speaks against those who plan evil on their beds. At dawn they carry it out, since it is in their power. They covet fields and houses and seize them. They rob a man of his home and his inheritance. So God is planning disaster against them. They tell Micah not to preach such things. They drive women from their homes and take the children’s blessing. Yet God will gather the remnant like sheep.",
+      "year": null,
+      "dateLabel": "Book order",
+      "uncertainty": "The chapter describes households and gathering without specifying mapped locations.",
+      "placeIds": [],
+      "sourceIds": [
+        "web"
+      ],
+      "lds": {
+        "text": "Who loses shelter when powerful people seize inherited fields?",
+        "sourceIds": []
+      },
+      "contextNote": {
+        "title": "Power turns private plans into public dispossession",
+        "text": "Verse 1 shows the order of events. The powerful plan at night and act at first light. They do it because they can. Verse 2 names what they take: fields, houses, and a family’s inheritance. Land in Israel was a family’s place among the people (Leviticus 25:23). Verse 9 shows women and children put out of their homes. They “devise” evil in verse 1, and God “devises” disaster in verse 3.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    },
+    {
+      "id": "micah-3",
+      "chapter": 3,
+      "start": 1,
+      "end": 12,
+      "title": "Paid assurances hide the violence of rulers",
+      "summary": "Micah addresses the rulers of Israel, who should know justice. They hate good and treat the people like meat for the pot. Prophets promise peace to those who feed them. They declare war on those who give them nothing. Micah says he is filled with the LORD’s Spirit to declare Israel’s sin. Leaders judge for bribes, priests teach for pay, and prophets speak for money. They say the LORD is among them. So Zion will be plowed like a field.",
+      "year": null,
+      "dateLabel": "Book order",
+      "uncertainty": "Markers locate selected places named in the chapter. No army or promised return route is reconstructed.",
+      "placeIds": [
+        "jerusalem"
+      ],
+      "sourceIds": [
+        "web"
+      ],
+      "lds": {
+        "text": "How does payment change the messages people receive?",
+        "sourceIds": []
+      },
+      "contextNote": {
+        "title": "Paid assurances hide the violence of rulers",
+        "text": "Verse 11 names three offices with one motive. Judges, priests, and prophets all work for money. Verse 5 says a prophet’s message depends on who feeds him. They still claim that the LORD is among them. They treat his presence as a guarantee. Verse 12 answers that Zion will be plowed. A century later that verse was quoted to save Jeremiah’s life (Jeremiah 26:18).",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    },
+    {
+      "id": "micah-4",
+      "chapter": 4,
+      "start": 1,
+      "end": 13,
+      "title": "Peace means safety for those driven away",
+      "summary": "In later days the mountain of the LORD’s house will be raised above the hills. Nations will come to learn his ways. He will judge between peoples and settle their disputes. They will beat swords into plows and learn war no more. Everyone will sit under his own vine and fig tree, unafraid. God will gather the lame and those who were driven away. He will rule them on Mount Zion. For now Zion must go to Babylon, and there she will be rescued.",
+      "year": null,
+      "dateLabel": "Book order",
+      "uncertainty": "Markers locate selected places named in the chapter. No army or promised return route is reconstructed.",
+      "placeIds": [
+        "jerusalem",
+        "babylon"
+      ],
+      "sourceIds": [
+        "web"
+      ],
+      "lds": {
+        "text": "In 3 Nephi 20:18–19 Jesus repeats the sheaves and iron horn. Who receives a place in the promised gathering?",
+        "sourceIds": [
+          "lds-3-nephi-20"
+        ]
+      },
+      "contextNote": {
+        "title": "Peace means safety for those driven away",
+        "text": "Verses 1–3 match Isaiah 2:2–4 almost word for word. Micah adds verse 4. Peace is pictured at the size of one household. Each person has a vine and a fig tree and no fear. In 2:2 the powerful were seizing fields. Here no one takes them. Verses 6–7 say who is gathered: the lame and the outcast.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    },
+    {
+      "id": "micah-5",
+      "chapter": 5,
+      "start": 1,
+      "end": 15,
+      "title": "A threatened ruler gives way to a shepherd",
+      "summary": "Jerusalem is under siege, and its ruler is struck on the cheek. A new ruler will come from Bethlehem, a small town in Judah. His origins are from ancient times. He will stand and shepherd his flock in the LORD’s strength. His people will live securely. He will be their peace when Assyria invades. The remnant of Jacob will be like dew among the nations. God will remove their horses, forts, and idols.",
+      "year": null,
+      "dateLabel": "Book order",
+      "uncertainty": "Markers locate selected places named in the chapter. No army or promised return route is reconstructed.",
+      "placeIds": [
+        "bethlehem"
+      ],
+      "sourceIds": [
+        "web"
+      ],
+      "lds": {
+        "text": "The lesson’s children’s section connects Bethlehem with Jesus through Matthew’s account of his birth. How does feeding a flock change the image of a threatened ruler?",
+        "sourceIds": [
+          "cfm-micah-2026"
+        ]
+      },
+      "contextNote": {
+        "title": "A threatened ruler gives way to a shepherd",
+        "text": "Verse 1 shows a ruler humiliated in a besieged capital. Verse 2 looks away to Bethlehem, David’s village (1 Samuel 16:1). The new ruler comes from a small place. Verse 4 says he will “shepherd,” which means to feed and guard. His greatness rests on the LORD’s strength. The people’s gain is stated simply: they will live. Matthew 2:6 quotes verse 2 about the birth of Jesus.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    },
+    {
+      "id": "micah-6",
+      "chapter": 6,
+      "start": 1,
+      "end": 16,
+      "title": "A dispute asks for conduct rather than greater payment",
+      "summary": "The LORD brings a case against his people, with the mountains as witnesses. He asks what he has done to weary them. He brought them from Egypt and sent Moses, Aaron, and Miriam. A worshiper asks what he should bring to the LORD. He offers calves, thousands of rams, and even his firstborn. The answer is that God has already shown what is good. Do justice, love mercy, and walk humbly with God. The city, however, is full of false weights and violence.",
+      "year": null,
+      "dateLabel": "Book order",
+      "uncertainty": "Markers locate selected places named in the chapter. No army or promised return route is reconstructed.",
+      "placeIds": [
+        "egypt"
+      ],
+      "sourceIds": [
+        "web",
+        "strollo-micah"
+      ],
+      "lds": {
+        "text": "The lesson asks readers to consider the conduct Micah says God requires. How do false weights contradict the conduct God requires?",
+        "sourceIds": [
+          "cfm-micah-2026"
+        ]
+      },
+      "contextNote": {
+        "title": "A dispute asks for conduct rather than greater payment",
+        "text": "God speaks first as the one wronged and asks what he did (verse 3). The worshiper answers with rising offers in verses 6–7. He goes from calves to rivers of oil to his own child. Verse 8 says the answer was never a larger payment. God “has shown you” what is good. It names three things: just acts, loved mercy, and a humble walk. Verses 10–12 then point to false scales in the city’s markets.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    },
+    {
+      "id": "micah-7",
+      "chapter": 7,
+      "start": 1,
+      "end": 20,
+      "title": "The appeal for mercy follows failed public trust",
+      "summary": "Micah grieves like someone who finds no fruit after the harvest. The faithful have vanished, and officials take bribes. No one can trust a neighbor or even a family member. Yet Micah will watch and wait for the LORD. He admits his sin and expects God to plead his case. He asks God to shepherd his people. He asks who is a God like this, who pardons guilt. God will hurl all their sins into the depths of the sea.",
+      "year": null,
+      "dateLabel": "Book order",
+      "uncertainty": "Markers locate selected places named in the chapter. No army or promised return route is reconstructed.",
+      "placeIds": [
+        "egypt",
+        "gilead"
+      ],
+      "sourceIds": [
+        "web"
+      ],
+      "lds": {
+        "text": "The lesson’s introduction emphasizes God’s delight in mercy through Micah’s final praise. Why does the ending join admitted wrongdoing with hope for forgiveness?",
+        "sourceIds": [
+          "cfm-micah-2026"
+        ]
+      },
+      "contextNote": {
+        "title": "The appeal for mercy follows failed public trust",
+        "text": "Verses 2–6 describe a society where no one can be trusted. That includes rulers, friends, and one’s own household. Hope cannot rest on the people around him. Verse 7 turns with “But as for me.” Verse 9 admits his own sin and accepts its weight. Verse 18 then praises a God who delights in loving kindness. Admitted wrong and hope of pardon stand together at the end.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "micah-1",
+      "chapter": 1,
+      "verse": 1,
+      "eventOrder": 1,
+      "title": "The warning becomes the prophet's own lament",
+      "summary": "The LORD’s word comes to Micah of Moresheth about Samaria and Jerusalem. The LORD comes down, and the mountains melt under him. Samaria will become a heap of rubble. Its idols will be smashed. Micah says he will wail and go barefoot and naked. The wound has reached the gate of Jerusalem. He names town after town in Judah’s lowlands. Each one will share in the disaster and the exile.",
+      "detail": "Micah does not stand apart from his message. Verse 8 shows him mourning in public, stripped like a captive. The towns of verses 10–15 are his home region. Moresheth, his own village, is among them (verses 1 and 14). They lie on an invader’s road to Jerusalem. He announces judgment on his neighbors and grieves for them. Verse 9 says the wound has reached his people’s gate.",
+      "dateLabel": "Book order",
+      "uncertainty": "Markers locate selected places named in the chapter. No army or promised return route is reconstructed.",
+      "sourceIds": [
+        "web"
+      ],
+      "placeIds": [
+        "samaria",
+        "jerusalem",
+        "lachish"
+      ],
+      "lds": {
+        "text": "Why does Micah mourn while announcing judgment?",
+        "sourceIds": []
+      }
+    },
+    {
+      "id": "micah-2",
+      "chapter": 2,
+      "verse": 1,
+      "eventOrder": 2,
+      "title": "Power turns private plans into public dispossession",
+      "summary": "Micah speaks against those who plan evil on their beds. At dawn they carry it out, since it is in their power. They covet fields and houses and seize them. They rob a man of his home and his inheritance. So God is planning disaster against them. They tell Micah not to preach such things. They drive women from their homes and take the children’s blessing. Yet God will gather the remnant like sheep.",
+      "detail": "Verse 1 shows the order of events. The powerful plan at night and act at first light. They do it because they can. Verse 2 names what they take: fields, houses, and a family’s inheritance. Land in Israel was a family’s place among the people (Leviticus 25:23). Verse 9 shows women and children put out of their homes. They “devise” evil in verse 1, and God “devises” disaster in verse 3.",
+      "dateLabel": "Book order",
+      "uncertainty": "The chapter describes households and gathering without specifying mapped locations.",
+      "sourceIds": [
+        "web"
+      ],
+      "placeIds": [],
+      "lds": {
+        "text": "Who loses shelter when powerful people seize inherited fields?",
+        "sourceIds": []
+      }
+    },
+    {
+      "id": "micah-3",
+      "chapter": 3,
+      "verse": 1,
+      "eventOrder": 3,
+      "title": "Paid assurances hide the violence of rulers",
+      "summary": "Micah addresses the rulers of Israel, who should know justice. They hate good and treat the people like meat for the pot. Prophets promise peace to those who feed them. They declare war on those who give them nothing. Micah says he is filled with the LORD’s Spirit to declare Israel’s sin. Leaders judge for bribes, priests teach for pay, and prophets speak for money. They say the LORD is among them. So Zion will be plowed like a field.",
+      "detail": "Verse 11 names three offices with one motive. Judges, priests, and prophets all work for money. Verse 5 says a prophet’s message depends on who feeds him. They still claim that the LORD is among them. They treat his presence as a guarantee. Verse 12 answers that Zion will be plowed. A century later that verse was quoted to save Jeremiah’s life (Jeremiah 26:18).",
+      "dateLabel": "Book order",
+      "uncertainty": "Markers locate selected places named in the chapter. No army or promised return route is reconstructed.",
+      "sourceIds": [
+        "web"
+      ],
+      "placeIds": [
+        "jerusalem"
+      ],
+      "lds": {
+        "text": "How does payment change the messages people receive?",
+        "sourceIds": []
+      }
+    },
+    {
+      "id": "micah-4",
+      "chapter": 4,
+      "verse": 1,
+      "eventOrder": 4,
+      "title": "Peace means safety for those driven away",
+      "summary": "In later days the mountain of the LORD’s house will be raised above the hills. Nations will come to learn his ways. He will judge between peoples and settle their disputes. They will beat swords into plows and learn war no more. Everyone will sit under his own vine and fig tree, unafraid. God will gather the lame and those who were driven away. He will rule them on Mount Zion. For now Zion must go to Babylon, and there she will be rescued.",
+      "detail": "Verses 1–3 match Isaiah 2:2–4 almost word for word. Micah adds verse 4. Peace is pictured at the size of one household. Each person has a vine and a fig tree and no fear. In 2:2 the powerful were seizing fields. Here no one takes them. Verses 6–7 say who is gathered: the lame and the outcast.",
+      "dateLabel": "Book order",
+      "uncertainty": "Markers locate selected places named in the chapter. No army or promised return route is reconstructed.",
+      "sourceIds": [
+        "web"
+      ],
+      "placeIds": [
+        "jerusalem",
+        "babylon"
+      ],
+      "lds": {
+        "text": "In 3 Nephi 20:18–19 Jesus repeats the sheaves and iron horn. Who receives a place in the promised gathering?",
+        "sourceIds": [
+          "lds-3-nephi-20"
+        ]
+      }
+    },
+    {
+      "id": "micah-5",
+      "chapter": 5,
+      "verse": 1,
+      "eventOrder": 5,
+      "title": "A threatened ruler gives way to a shepherd",
+      "summary": "Jerusalem is under siege, and its ruler is struck on the cheek. A new ruler will come from Bethlehem, a small town in Judah. His origins are from ancient times. He will stand and shepherd his flock in the LORD’s strength. His people will live securely. He will be their peace when Assyria invades. The remnant of Jacob will be like dew among the nations. God will remove their horses, forts, and idols.",
+      "detail": "Verse 1 shows a ruler humiliated in a besieged capital. Verse 2 looks away to Bethlehem, David’s village (1 Samuel 16:1). The new ruler comes from a small place. Verse 4 says he will “shepherd,” which means to feed and guard. His greatness rests on the LORD’s strength. The people’s gain is stated simply: they will live. Matthew 2:6 quotes verse 2 about the birth of Jesus.",
+      "dateLabel": "Book order",
+      "uncertainty": "Markers locate selected places named in the chapter. No army or promised return route is reconstructed.",
+      "sourceIds": [
+        "web"
+      ],
+      "placeIds": [
+        "bethlehem"
+      ],
+      "lds": {
+        "text": "The lesson’s children’s section connects Bethlehem with Jesus through Matthew’s account of his birth. How does feeding a flock change the image of a threatened ruler?",
+        "sourceIds": [
+          "cfm-micah-2026"
+        ]
+      }
+    },
+    {
+      "id": "micah-6",
+      "chapter": 6,
+      "verse": 1,
+      "eventOrder": 6,
+      "title": "A dispute asks for conduct rather than greater payment",
+      "summary": "The LORD brings a case against his people, with the mountains as witnesses. He asks what he has done to weary them. He brought them from Egypt and sent Moses, Aaron, and Miriam. A worshiper asks what he should bring to the LORD. He offers calves, thousands of rams, and even his firstborn. The answer is that God has already shown what is good. Do justice, love mercy, and walk humbly with God. The city, however, is full of false weights and violence.",
+      "detail": "God speaks first as the one wronged and asks what he did (verse 3). The worshiper answers with rising offers in verses 6–7. He goes from calves to rivers of oil to his own child. Verse 8 says the answer was never a larger payment. God “has shown you” what is good. It names three things: just acts, loved mercy, and a humble walk. Verses 10–12 then point to false scales in the city’s markets.",
+      "dateLabel": "Book order",
+      "uncertainty": "Markers locate selected places named in the chapter. No army or promised return route is reconstructed.",
+      "sourceIds": [
+        "web",
+        "strollo-micah"
+      ],
+      "placeIds": [
+        "egypt"
+      ],
+      "lds": {
+        "text": "The lesson asks readers to consider the conduct Micah says God requires. How do false weights contradict the conduct God requires?",
+        "sourceIds": [
+          "cfm-micah-2026"
+        ]
+      }
+    },
+    {
+      "id": "micah-7",
+      "chapter": 7,
+      "verse": 1,
+      "eventOrder": 7,
+      "title": "The appeal for mercy follows failed public trust",
+      "summary": "Micah grieves like someone who finds no fruit after the harvest. The faithful have vanished, and officials take bribes. No one can trust a neighbor or even a family member. Yet Micah will watch and wait for the LORD. He admits his sin and expects God to plead his case. He asks God to shepherd his people. He asks who is a God like this, who pardons guilt. God will hurl all their sins into the depths of the sea.",
+      "detail": "Verses 2–6 describe a society where no one can be trusted. That includes rulers, friends, and one’s own household. Hope cannot rest on the people around him. Verse 7 turns with “But as for me.” Verse 9 admits his own sin and accepts its weight. Verse 18 then praises a God who delights in loving kindness. Admitted wrong and hope of pardon stand together at the end.",
+      "dateLabel": "Book order",
+      "uncertainty": "Markers locate selected places named in the chapter. No army or promised return route is reconstructed.",
+      "sourceIds": [
+        "web"
+      ],
+      "placeIds": [
+        "egypt",
+        "gilead"
+      ],
+      "lds": {
+        "text": "The lesson’s introduction emphasizes God’s delight in mercy through Micah’s final praise. Why does the ending join admitted wrongdoing with hope for forgiveness?",
+        "sourceIds": [
+          "cfm-micah-2026"
+        ]
+      }
+    }
+  ],
+  "places": [
+    {
+      "id": "samaria",
+      "name": "Samaria",
+      "lat": 32.276,
+      "lng": 35.194,
+      "summary": "Samaria is one of the centers named when Micah identifies the people’s wrongdoing.",
+      "limits": "Approximate ancient city marker. The warning does not supply an invasion route.",
+      "sourceIds": [
+        "web"
+      ],
+      "detail": "Samaria is one of the centers named when Micah identifies the people’s wrongdoing.",
+      "uncertainty": "Approximate ancient city marker. The warning does not supply an invasion route.",
+      "chapterLocation": true
+    },
+    {
+      "id": "jerusalem",
+      "name": "Jerusalem",
+      "lat": 31.778,
+      "lng": 35.235,
+      "summary": "Jerusalem receives warnings of ruin and a later vision of nations seeking instruction.",
+      "limits": "Approximate city marker. The visions do not locate future buildings or battle movements.",
+      "sourceIds": [
+        "web"
+      ],
+      "detail": "Jerusalem receives warnings of ruin and a later vision of nations seeking instruction.",
+      "uncertainty": "Approximate city marker. The visions do not locate future buildings or battle movements.",
+      "chapterLocation": true
+    },
+    {
+      "id": "lachish",
+      "name": "Lachish",
+      "lat": 31.565,
+      "lng": 34.849,
+      "summary": "Micah names Lachish among towns addressed in the lament.",
+      "limits": "Approximate ancient city marker. The order of town names does not establish an army route.",
+      "sourceIds": [
+        "web"
+      ],
+      "detail": "Micah names Lachish among towns addressed in the lament.",
+      "uncertainty": "Approximate ancient city marker. The order of town names does not establish an army route.",
+      "chapterLocation": true
+    },
+    {
+      "id": "babylon",
+      "name": "Babylon",
+      "lat": 32.54,
+      "lng": 44.42,
+      "summary": "Babylon appears as the place of distress and promised rescue in chapter four.",
+      "limits": "Approximate city marker. The passage does not give a journey’s path.",
+      "sourceIds": [
+        "web"
+      ],
+      "detail": "Babylon appears as the place of distress and promised rescue in chapter four.",
+      "uncertainty": "Approximate city marker. The passage does not give a journey’s path.",
+      "chapterLocation": true
+    },
+    {
+      "id": "bethlehem",
+      "name": "Bethlehem",
+      "lat": 31.705,
+      "lng": 35.202,
+      "summary": "Bethlehem Ephrathah is the small place from which the promised ruler will come.",
+      "limits": "Approximate locality marker. It does not identify a particular birth building.",
+      "sourceIds": [
+        "web"
+      ],
+      "detail": "Bethlehem Ephrathah is the small place from which the promised ruler will come.",
+      "uncertainty": "Approximate locality marker. It does not identify a particular birth building.",
+      "chapterLocation": true
+    },
+    {
+      "id": "egypt",
+      "name": "Egypt",
+      "lat": 30.05,
+      "lng": 31.23,
+      "summary": "Egypt appears in memories of rescue and in the final hope for renewed wonders.",
+      "limits": "Broad regional reference. No specific departure point or route is assigned.",
+      "sourceIds": [
+        "web"
+      ],
+      "detail": "Egypt appears in memories of rescue and in the final hope for renewed wonders.",
+      "uncertainty": "Broad regional reference. No specific departure point or route is assigned.",
+      "chapterLocation": true
+    },
+    {
+      "id": "gilead",
+      "name": "Gilead",
+      "lat": 32.2,
+      "lng": 35.8,
+      "summary": "Gilead appears in the request that God feed the people as in earlier days.",
+      "limits": "Broad regional reference. The request does not establish a particular pasture boundary.",
+      "sourceIds": [
+        "web"
+      ],
+      "detail": "Gilead appears in the request that God feed the people as in earlier days.",
+      "uncertainty": "Broad regional reference. The request does not establish a particular pasture boundary.",
+      "chapterLocation": true
+    }
+  ],
+  "campaigns": [],
+  "ancientRoads": [],
+  "regions": [],
+  "words": [
+    {
+      "id": "glossary-assembly",
+      "label": "Assembly",
+      "matches": [
+        "assembly",
+        "assemblies"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A gathering of people. In the New Testament letters it means a group of believers. Many translations say “church.”",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    },
+    {
+      "id": "glossary-asherah",
+      "label": "Asherah",
+      "matches": [
+        "Asherah",
+        "Asherim",
+        "Asheroth"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A goddess, or a wooden pole set up for her. Deuteronomy 16:21 forbids such poles.",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    },
+    {
+      "id": "glossary-firstborn",
+      "label": "Firstborn",
+      "matches": [
+        "firstborn"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "The oldest child. A firstborn son received a double share of the inheritance (Deuteronomy 21:17).",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    },
+    {
+      "id": "glossary-redeem",
+      "label": "Redeem",
+      "matches": [
+        "redeem",
+        "redeems",
+        "redeemed",
+        "redeemer",
+        "redemption"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "To buy back a person or property. The word is also used for God’s rescue of people.",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    },
+    {
+      "id": "glossary-unclean",
+      "label": "Unclean",
+      "matches": [
+        "unclean",
+        "uncleanness"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "Unfit to take part in worship until a set cleansing is done. Leviticus 11–15 gives the rules.",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    },
+    {
+      "id": "glossary-anoint",
+      "label": "Anoint",
+      "matches": [
+        "anoint",
+        "anoints",
+        "anointed",
+        "anointing"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "To pour oil on a person or thing to set it apart. Kings and priests were anointed.",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    },
+    {
+      "id": "glossary-remnant",
+      "label": "Remnant",
+      "matches": [
+        "remnant"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "The part of a people that survives a disaster.",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    },
+    {
+      "id": "glossary-zion",
+      "label": "Zion",
+      "matches": [
+        "Zion"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A hill in Jerusalem. The name is also used for the city and its people.",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    },
+    {
+      "id": "glossary-parable",
+      "label": "Parable",
+      "matches": [
+        "parable",
+        "parables"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A short story or comparison that teaches a point.",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    },
+    {
+      "id": "glossary-ephah",
+      "label": "Ephah",
+      "matches": [
+        "ephah",
+        "ephahs"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A dry measure of about 22 liters.",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    }
+  ],
+  "guides": [
+    {
+      "id": "micah-context",
+      "title": "Micah: context and evidence",
+      "description": "Explore the book’s larger concerns through selected passages and relevant evidence.",
+      "steps": [
+        {
+          "title": "Power turns private plans into public dispossession",
+          "text": "Verse 1 shows the order of events. The powerful plan at night and act at first light. They do it because they can. Verse 2 names what they take: fields, houses, and a family’s inheritance. Land in Israel was a family’s place among the people (Leviticus 25:23). Verse 9 shows women and children put out of their homes. They “devise” evil in verse 1, and God “devises” disaster in verse 3.",
+          "chapter": 2,
+          "verse": 2,
+          "sourceIds": [
+            "web"
+          ]
+        },
+        {
+          "title": "Peace means safety for those driven away",
+          "text": "Verses 1–3 match Isaiah 2:2–4 almost word for word. Micah adds verse 4. Peace is pictured at the size of one household. Each person has a vine and a fig tree and no fear. In 2:2 the powerful were seizing fields. Here no one takes them. Verses 6–7 say who is gathered: the lame and the outcast.",
+          "chapter": 4,
+          "verse": 4,
+          "sourceIds": [
+            "web"
+          ]
+        },
+        {
+          "title": "A dispute asks for conduct rather than greater payment",
+          "text": "God speaks first as the one wronged and asks what he did (verse 3). The worshiper answers with rising offers in verses 6–7. He goes from calves to rivers of oil to his own child. Verse 8 says the answer was never a larger payment. God “has shown you” what is good. It names three things: just acts, loved mercy, and a humble walk. Verses 10–12 then point to false scales in the city’s markets.",
+          "chapter": 6,
+          "verse": 8,
+          "sourceIds": [
+            "web"
+          ]
+        }
+      ]
+    }
+  ],
+  "periods": [
+    {
+      "id": "part-0",
+      "label": "Micah 1–2",
+      "start": 1,
+      "end": 2,
+      "description": "Chapter order"
+    },
+    {
+      "id": "part-1",
+      "label": "Micah 3–4",
+      "start": 3,
+      "end": 4,
+      "description": "Chapter order"
+    },
+    {
+      "id": "part-2",
+      "label": "Micah 5–7",
+      "start": 5,
+      "end": 7,
+      "description": "Chapter order"
+    }
+  ],
+  "chapterMaps": [
+    {
+      "chapter": 1,
+      "focusPlaceIds": [
+        "samaria",
+        "jerusalem",
+        "lachish"
+      ],
+      "placeIds": [
+        "samaria",
+        "jerusalem",
+        "lachish"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Markers locate selected places named in the chapter. No army or promised return route is reconstructed.",
+      "narrative": "The LORD’s word comes to Micah of Moresheth about Samaria and Jerusalem. The LORD comes down, and the mountains melt under him. Samaria will become a heap of rubble. Its idols will be smashed. Micah says he will wail and go barefoot and naked. The wound has reached the gate of Jerusalem. He names town after town in Judah’s lowlands. Each one will share in the disaster and the exile.",
+      "limits": "Markers locate selected places named in the chapter. No army or promised return route is reconstructed.",
+      "sourceIds": [
+        "web"
+      ]
+    },
+    {
+      "chapter": 2,
+      "focusPlaceIds": [],
+      "placeIds": [],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "The chapter describes households and gathering without specifying mapped locations.",
+      "narrative": "Micah speaks against those who plan evil on their beds. At dawn they carry it out, since it is in their power. They covet fields and houses and seize them. They rob a man of his home and his inheritance. So God is planning disaster against them. They tell Micah not to preach such things. They drive women from their homes and take the children’s blessing. Yet God will gather the remnant like sheep.",
+      "limits": "The chapter describes households and gathering without specifying mapped locations.",
+      "sourceIds": [
+        "web"
+      ]
+    },
+    {
+      "chapter": 3,
+      "focusPlaceIds": [
+        "jerusalem"
+      ],
+      "placeIds": [
+        "jerusalem"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Markers locate selected places named in the chapter. No army or promised return route is reconstructed.",
+      "narrative": "Micah addresses the rulers of Israel, who should know justice. They hate good and treat the people like meat for the pot. Prophets promise peace to those who feed them. They declare war on those who give them nothing. Micah says he is filled with the LORD’s Spirit to declare Israel’s sin. Leaders judge for bribes, priests teach for pay, and prophets speak for money. They say the LORD is among them. So Zion will be plowed like a field.",
+      "limits": "Markers locate selected places named in the chapter. No army or promised return route is reconstructed.",
+      "sourceIds": [
+        "web"
+      ]
+    },
+    {
+      "chapter": 4,
+      "focusPlaceIds": [
+        "jerusalem",
+        "babylon"
+      ],
+      "placeIds": [
+        "jerusalem",
+        "babylon"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Markers locate selected places named in the chapter. No army or promised return route is reconstructed.",
+      "narrative": "In later days the mountain of the LORD’s house will be raised above the hills. Nations will come to learn his ways. He will judge between peoples and settle their disputes. They will beat swords into plows and learn war no more. Everyone will sit under his own vine and fig tree, unafraid. God will gather the lame and those who were driven away. He will rule them on Mount Zion. For now Zion must go to Babylon, and there she will be rescued.",
+      "limits": "Markers locate selected places named in the chapter. No army or promised return route is reconstructed.",
+      "sourceIds": [
+        "web"
+      ]
+    },
+    {
+      "chapter": 5,
+      "focusPlaceIds": [
+        "bethlehem"
+      ],
+      "placeIds": [
+        "bethlehem"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Markers locate selected places named in the chapter. No army or promised return route is reconstructed.",
+      "narrative": "Jerusalem is under siege, and its ruler is struck on the cheek. A new ruler will come from Bethlehem, a small town in Judah. His origins are from ancient times. He will stand and shepherd his flock in the LORD’s strength. His people will live securely. He will be their peace when Assyria invades. The remnant of Jacob will be like dew among the nations. God will remove their horses, forts, and idols.",
+      "limits": "Markers locate selected places named in the chapter. No army or promised return route is reconstructed.",
+      "sourceIds": [
+        "web"
+      ]
+    },
+    {
+      "chapter": 6,
+      "focusPlaceIds": [
+        "egypt"
+      ],
+      "placeIds": [
+        "egypt"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Markers locate selected places named in the chapter. No army or promised return route is reconstructed.",
+      "narrative": "The LORD brings a case against his people, with the mountains as witnesses. He asks what he has done to weary them. He brought them from Egypt and sent Moses, Aaron, and Miriam. A worshiper asks what he should bring to the LORD. He offers calves, thousands of rams, and even his firstborn. The answer is that God has already shown what is good. Do justice, love mercy, and walk humbly with God. The city, however, is full of false weights and violence.",
+      "limits": "Markers locate selected places named in the chapter. No army or promised return route is reconstructed.",
+      "sourceIds": [
+        "web",
+        "strollo-micah"
+      ]
+    },
+    {
+      "chapter": 7,
+      "focusPlaceIds": [
+        "egypt",
+        "gilead"
+      ],
+      "placeIds": [
+        "egypt",
+        "gilead"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Markers locate selected places named in the chapter. No army or promised return route is reconstructed.",
+      "narrative": "Micah grieves like someone who finds no fruit after the harvest. The faithful have vanished, and officials take bribes. No one can trust a neighbor or even a family member. Yet Micah will watch and wait for the LORD. He admits his sin and expects God to plead his case. He asks God to shepherd his people. He asks who is a God like this, who pardons guilt. God will hurl all their sins into the depths of the sea.",
+      "limits": "Markers locate selected places named in the chapter. No army or promised return route is reconstructed.",
+      "sourceIds": [
+        "web"
+      ]
+    }
+  ],
+  "textRoutes": [],
+  "narrativeRegions": [],
+  "chapterStudies": [
+    {
+      "chapter": 1,
+      "verse": 8,
+      "context": ""
+    },
+    {
+      "chapter": 2,
+      "verse": 2,
+      "context": ""
+    },
+    {
+      "chapter": 3,
+      "verse": 11,
+      "context": ""
+    },
+    {
+      "chapter": 4,
+      "verse": 4,
+      "context": ""
+    },
+    {
+      "chapter": 5,
+      "verse": 4,
+      "context": ""
+    },
+    {
+      "chapter": 6,
+      "verse": 8,
+      "context": ""
+    },
+    {
+      "chapter": 7,
+      "verse": 18,
+      "context": ""
+    }
+  ]
+}

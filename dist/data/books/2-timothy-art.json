@@ -1,0 +1,42 @@
+{
+  "paul": {
+    "src": "assets/portraits/acts/paul.png",
+    "generated": true,
+    "title": "Paul, also called Saul · interpretive portrait",
+    "credit": "AI-generated illustration",
+    "license": "Generated artwork",
+    "note": "Interpretive appearance for a selected first-century Acts profile."
+  },
+  "timothy": {
+    "src": "assets/portraits/romans/timothy.png",
+    "generated": true,
+    "title": "Timothy · interpretive portrait",
+    "credit": "AI-generated illustration",
+    "license": "Generated artwork",
+    "note": "Interpretive appearance for a selected first-century letter profile."
+  },
+  "jesus": {
+    "src": "assets/portraits/matthew/jesus.png",
+    "generated": true,
+    "title": "Jesus of Nazareth · interpretive portrait",
+    "credit": "AI-generated illustration",
+    "license": "Generated artwork",
+    "note": "Interpretive appearance for the selected first-century Gospel profile."
+  },
+  "titus": {
+    "src": "assets/portraits/2-corinthians/titus.png",
+    "generated": true,
+    "title": "Titus · interpretive portrait",
+    "credit": "AI-generated illustration",
+    "license": "Generated artwork",
+    "note": "Interpretive appearance for a selected first-century letter profile."
+  },
+  "tychicus": {
+    "src": "assets/portraits/ephesians/tychicus.png",
+    "generated": true,
+    "title": "Tychicus · interpretive portrait",
+    "credit": "AI-generated illustration",
+    "license": "Generated artwork",
+    "note": "Interpretive appearance for a selected first-century letter profile."
+  }
+}

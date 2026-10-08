@@ -1,0 +1,1293 @@
+{
+  "sources": [
+    {
+      "id": "web",
+      "title": "Amos · World English Bible",
+      "url": "https://ebible.org/engwebp/AMO01.htm",
+      "summary": "All nine chapters appear in the reading text.",
+      "category": "Scripture",
+      "perspective": "historical",
+      "limits": "Relative dates remain as Scripture gives them. The guide assigns no exact earthquake year.",
+      "author": "World English Bible translators",
+      "publisher": "eBible.org",
+      "chapterCoverage": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "reviewed": {
+        "date": "2026-10-07",
+        "scope": "All 146 WEB verses read. Verse counts and character integrity checked."
+      },
+      "type": "Scripture",
+      "limitations": "Relative dates remain as Scripture gives them. The guide assigns no exact earthquake year.",
+      "license": "Public domain"
+    },
+    {
+      "id": "aaron-amos-5",
+      "title": "Commentary on Amos 5:18-24",
+      "url": "https://www.workingpreacher.org/commentaries/revised-common-lectionary/ordinary-32/commentary-on-amos-518-24",
+      "summary": "Aaron explains rejected worship and justice that must continue beyond a single act.",
+      "category": "Scholarly study",
+      "perspective": "historical",
+      "limits": "Aaron discusses differing readings of the water image. This interpretation does not prove every event or assumption about the audience.",
+      "author": "Charles L. Aaron, Jr.",
+      "year": 2020,
+      "publisher": "Luther Seminary",
+      "chapterCoverage": [
+        5
+      ],
+      "reviewed": {
+        "date": "2026-10-07",
+        "scope": "Complete commentary body read. Linked commentaries and podcasts were not reviewed."
+      },
+      "type": "Scholarly study",
+      "limitations": "Aaron discusses differing readings of the water image. This interpretation does not prove every event or assumption about the audience.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "cfm-amos-2026",
+      "title": "November 23–29: “Seek the Lord, and Ye Shall Live” · Amos, Obadiah, Jonah",
+      "url": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/48?lang=eng",
+      "summary": "The lesson studies prophetic instruction, returning to God, and spiritual hunger.",
+      "category": "LDS Come, Follow Me",
+      "perspective": "lds",
+      "limits": "Notes cover Amos 3–5 and 7–8. The later Apostasy and Restoration application remains Church teaching.",
+      "author": "The Church of Jesus Christ of Latter-day Saints",
+      "year": 2026,
+      "publisher": "The Church of Jesus Christ of Latter-day Saints",
+      "chapterCoverage": [
+        3,
+        4,
+        5,
+        7,
+        8
+      ],
+      "reviewed": {
+        "date": "2026-10-07",
+        "scope": "Introduction and adult study sections read. Linked talks, videos, and Scripture Helps were not separately reviewed."
+      },
+      "type": "LDS Come, Follow Me",
+      "limitations": "Notes cover Amos 3–5 and 7–8. The later Apostasy and Restoration application remains Church teaching.",
+      "license": "Linked source. Original guide summaries."
+    }
+  ],
+  "passages": [
+    {
+      "id": "amos-1",
+      "chapter": 1,
+      "start": 1,
+      "end": 15,
+      "title": "Repeated charges expose violence across borders",
+      "summary": "Amos is a herdsman from Tekoa in Judah. He speaks in the days of King Jeroboam of Israel. The LORD roars from Zion, and the pastures wither. Amos announces judgment on the nations around Israel. Damascus threshed Gilead with iron sledges. Gaza and Tyre sold whole communities to Edom. Edom chased his brother with a sword and showed no pity. Ammon ripped open pregnant women to gain more land.",
+      "year": null,
+      "dateLabel": "Book order",
+      "uncertainty": "Selected named references have approximate markers. Warnings do not establish traveled routes.",
+      "placeIds": [
+        "jerusalem",
+        "damascus",
+        "tyre",
+        "edom",
+        "rabbah"
+      ],
+      "sourceIds": [
+        "web"
+      ],
+      "lds": {
+        "text": "What human costs do the repeated charges name?",
+        "sourceIds": []
+      },
+      "contextNote": {
+        "title": "Repeated charges expose violence across borders",
+        "text": "Each message begins with the same formula of three wrongs and four. None of these nations is charged with breaking Israel’s law. They are charged with cruelty any people would know as wrong. Verse 9 says Tyre handed over a whole community to slavery. It also forgot a treaty of brotherhood. Every charge in the chapter names harm done to human beings. God holds nations to account for such acts.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    },
+    {
+      "id": "amos-2",
+      "chapter": 2,
+      "start": 1,
+      "end": 16,
+      "title": "The accusation turns toward Israel's own worship",
+      "summary": "Amos continues with Moab, which burned the bones of Edom’s king. Then he turns to Judah, which rejected the LORD’s law. Last he turns to Israel itself. The people sell the innocent for silver and the needy for a pair of sandals. They trample the heads of the poor. They lie down beside altars on clothes taken as security for debts. They told the prophets not to speak. God will press them down like a loaded cart.",
+      "year": null,
+      "dateLabel": "Book order",
+      "uncertainty": "Selected named references have approximate markers. Warnings do not establish traveled routes.",
+      "placeIds": [
+        "edom",
+        "jerusalem",
+        "egypt"
+      ],
+      "sourceIds": [
+        "web"
+      ],
+      "lds": {
+        "text": "Why do garments and wine beside altars expose wrongdoing?",
+        "sourceIds": []
+      },
+      "contextNote": {
+        "title": "The accusation turns toward Israel's own worship",
+        "text": "Amos’s hearers would have approved the judgments on their neighbors. The eighth message turns on them. Israel’s list is the longest, and it concerns everyday dealings. Verse 6 says people are sold into slavery over small debts. Verse 8 says cloaks taken in pledge are used at the shrines. Exodus 22:26–27 required such a cloak back by sunset. The worship is furnished with the goods of the poor.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    },
+    {
+      "id": "amos-3",
+      "chapter": 3,
+      "start": 1,
+      "end": 15,
+      "title": "A chosen relationship increases responsibility",
+      "summary": "God speaks to the whole family he brought up from Egypt. He chose them alone of all the families of the earth. Therefore he will punish them for their sins. Amos asks a series of questions about cause and effect. A lion does not roar without prey. When the LORD speaks, a prophet must prophesy. Foreign peoples are called to witness the oppression in Samaria. The rich houses of winter and summer will be destroyed.",
+      "year": null,
+      "dateLabel": "Book order",
+      "uncertainty": "Selected named references have approximate markers. Warnings do not establish traveled routes.",
+      "placeIds": [
+        "samaria",
+        "egypt"
+      ],
+      "sourceIds": [
+        "web"
+      ],
+      "lds": {
+        "text": "The 2026 lesson connects prophetic speech with receiving God’s instruction. Why does chosen belonging increase responsibility?",
+        "sourceIds": [
+          "cfm-amos-2026"
+        ]
+      },
+      "contextNote": {
+        "title": "A chosen relationship increases responsibility",
+        "text": "Verse 2 has a surprising “Therefore.” Israel might expect its special place to bring safety. God says it brings greater responsibility. Being chosen makes the people answerable. Verses 3–8 then defend Amos’s right to say so. Verse 9 calls foreigners to look at Samaria’s violence. Verse 15 names the many fine houses that will fall.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    },
+    {
+      "id": "amos-4",
+      "chapter": 4,
+      "start": 1,
+      "end": 13,
+      "title": "Religious display continues without a changed response",
+      "summary": "Amos speaks to the wealthy women of Samaria who crush the poor. They will be led away with hooks. He tells the people, with irony, to go and sin at their shrines. They love to bring offerings and announce them. God sent hunger, drought, blight, plague, and ruin. After each one they did not return to him. So Israel must prepare to meet its God. He forms the mountains and creates the wind.",
+      "year": null,
+      "dateLabel": "Book order",
+      "uncertainty": "Selected named references have approximate markers. Warnings do not establish traveled routes.",
+      "placeIds": [
+        "samaria",
+        "egypt"
+      ],
+      "sourceIds": [
+        "web"
+      ],
+      "lds": {
+        "text": "The lesson invites return to God during trials. It does not claim that God sends every personal trial. What remains unchanged throughout the repeated disasters?",
+        "sourceIds": [
+          "cfm-amos-2026"
+        ]
+      },
+      "contextNote": {
+        "title": "Religious display continues without a changed response",
+        "text": "Verses 4–5 describe worship that is busy and generous. The people “love” to do it. Verses 6–11 list five disasters. Each ends with the same line: “yet you haven’t returned to me.” “Cleanness of teeth” in verse 6 means nothing to eat. Much religious activity goes on, and no one turns. Verse 12 says the next meeting will be with God himself.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    },
+    {
+      "id": "amos-5",
+      "chapter": 5,
+      "start": 1,
+      "end": 27,
+      "title": "Justice must replace confidence in protected worship",
+      "summary": "Amos sings a funeral song for Israel. God tells the people to seek him and live. They turn justice into bitterness and hate anyone who speaks truth in court. They tax the poor and take bribes. They should hate evil and set up justice at the gate. The day of the LORD will be darkness and not light. God says he hates their feasts and will not hear their songs. He wants justice to roll like a river.",
+      "year": null,
+      "dateLabel": "Book order",
+      "uncertainty": "Selected named references have approximate markers. Warnings do not establish traveled routes.",
+      "placeIds": [
+        "damascus"
+      ],
+      "sourceIds": [
+        "web",
+        "aaron-amos-5"
+      ],
+      "lds": {
+        "text": "The lesson studies seeking God and choosing good as a path toward life. How do unfair courts explain the rejection of festivals?",
+        "sourceIds": [
+          "cfm-amos-2026"
+        ]
+      },
+      "contextNote": {
+        "title": "Justice must replace confidence in protected worship",
+        "text": "The “gate” in verses 10, 12, and 15 is the town’s court. Bribes are taken there, and the needy are turned away. Verses 21–23 then reject the people’s feasts and music. The two belong together. Unfair courts make the worship unwelcome. Verse 24 asks for justice like a stream that never dries. Many streams in that land ran only after rain.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    },
+    {
+      "id": "amos-6",
+      "chapter": 6,
+      "start": 1,
+      "end": 14,
+      "title": "Comfort without grief becomes the first captivity",
+      "summary": "Amos warns those who feel safe in Zion and Samaria. They are the leading men of the first of the nations. They lie on beds of ivory and eat choice lambs. They sing to the harp and drink wine by the bowlful. They do not grieve over the ruin of their people. So they will be the first to go into exile. God hates Jacob’s pride and will give up the city. They have turned justice into poison.",
+      "year": null,
+      "dateLabel": "Book order",
+      "uncertainty": "Selected named references have approximate markers. Warnings do not establish traveled routes.",
+      "placeIds": [
+        "samaria"
+      ],
+      "sourceIds": [
+        "web"
+      ],
+      "lds": {
+        "text": "What suffering do the comfortable leaders refuse to grieve?",
+        "sourceIds": []
+      },
+      "contextNote": {
+        "title": "Comfort without grief becomes the first captivity",
+        "text": "Verses 4–6 list ivory beds, fine meat, music, wine, and oil. The charge comes in the last line of verse 6. These people feel no grief for the breaking of their nation. Their comfort has made them numb. The penalty fits the description. Verse 1 calls them the “first” of the nations. Verse 7 says they will go “first” into exile.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    },
+    {
+      "id": "amos-7",
+      "chapter": 7,
+      "start": 1,
+      "end": 17,
+      "title": "The priest's royal protection conflicts with Amos's calling",
+      "summary": "God shows Amos a swarm of locusts and then a fire. Each time Amos pleads, and God relents. Then God shows him a plumb line set among the people. He will spare them no longer. Amaziah, the priest of Bethel, reports Amos to the king. He tells Amos to go home to Judah and earn his bread there. Amos answers that he was a herdsman and tended fig trees. The LORD took him from the flock and sent him.",
+      "year": null,
+      "dateLabel": "Book order",
+      "uncertainty": "Selected places are not mapped in this chapter. No precise royal sanctuary location is assigned.",
+      "placeIds": [],
+      "sourceIds": [
+        "web"
+      ],
+      "lds": {
+        "text": "The lesson studies Amos’s calling as an example of God speaking through prophets. Why does Amaziah call Bethel the king’s sanctuary?",
+        "sourceIds": [
+          "cfm-amos-2026"
+        ]
+      },
+      "contextNote": {
+        "title": "The priest's royal protection conflicts with Amos's calling",
+        "text": "Amaziah’s words show how he thinks. Verse 13 calls Bethel “the king’s sanctuary” and a royal house. Verse 12 treats prophecy as a way to earn bread. Amos answers that he never held that post. He kept flocks and tended trees. Verse 15 says the LORD “took” him, as he took David from the sheep. In verses 2 and 5 this same man pleaded for Israel.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    },
+    {
+      "id": "amos-8",
+      "chapter": 8,
+      "start": 1,
+      "end": 14,
+      "title": "Dishonest markets prepare a different kind of famine",
+      "summary": "God shows Amos a basket of ripe summer fruit. The end has come for Israel. Amos speaks to those who trample the needy. They ask when the holy day will be over so they can sell grain. They shrink the measure, raise the price, and use false scales. They buy the poor for silver and sell the sweepings as wheat. God swears he will not forget. A famine is coming, a hunger to hear the LORD’s words.",
+      "year": null,
+      "dateLabel": "Book order",
+      "uncertainty": "Selected named references have approximate markers. Warnings do not establish traveled routes.",
+      "placeIds": [
+        "samaria",
+        "egypt"
+      ],
+      "sourceIds": [
+        "web"
+      ],
+      "lds": {
+        "text": "The lesson applies hunger for God’s words to spiritual life. It also connects this image with the later Apostasy and Restoration. How do false measures connect trade with loss of freedom?",
+        "sourceIds": [
+          "cfm-amos-2026"
+        ]
+      },
+      "contextNote": {
+        "title": "Dishonest markets prepare a different kind of famine",
+        "text": "The merchants in verse 5 keep the new moon and the Sabbath. They only wish the days would end. The verse names three frauds in one sale. The measure is small, the weight for payment is heavy, and the scale is rigged. Verse 6 adds that they sell the chaff. They observe the holy day and defeat its purpose. Verses 11–12 take away the word they would not hear.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    },
+    {
+      "id": "amos-9",
+      "chapter": 9,
+      "start": 1,
+      "end": 15,
+      "title": "Destroyed false security gives way to inhabited land",
+      "summary": "Amos sees the Lord standing beside the altar. He orders the temple struck, and no one will escape. Israel is no different to him than distant peoples. He brought the Philistines and Syrians from other lands too. He will sift Israel like grain and not destroy it completely. Then he will raise up David’s fallen shelter. The people will rebuild their ruined cities and live in them. They will never again be uprooted from their land.",
+      "year": null,
+      "dateLabel": "Book order",
+      "uncertainty": "Selected named references have approximate markers. Warnings do not establish traveled routes.",
+      "placeIds": [
+        "egypt",
+        "edom"
+      ],
+      "sourceIds": [
+        "web"
+      ],
+      "lds": {
+        "text": "How do inhabited cities reverse earlier warnings about lost houses?",
+        "sourceIds": []
+      },
+      "contextNote": {
+        "title": "Destroyed false security gives way to inhabited land",
+        "text": "Verse 7 removes Israel’s claim to special treatment. God moved other nations as well. After that, the book ends in promise. In 5:11 the people built houses they would not live in. They planted vineyards and would not drink the wine. Verse 14 reverses both lines exactly. Verse 11 calls David’s house a “tent,” a humble thing raised again.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "amos-1",
+      "chapter": 1,
+      "verse": 1,
+      "eventOrder": 1,
+      "title": "Repeated charges expose violence across borders",
+      "summary": "Amos is a herdsman from Tekoa in Judah. He speaks in the days of King Jeroboam of Israel. The LORD roars from Zion, and the pastures wither. Amos announces judgment on the nations around Israel. Damascus threshed Gilead with iron sledges. Gaza and Tyre sold whole communities to Edom. Edom chased his brother with a sword and showed no pity. Ammon ripped open pregnant women to gain more land.",
+      "detail": "Each message begins with the same formula of three wrongs and four. None of these nations is charged with breaking Israel’s law. They are charged with cruelty any people would know as wrong. Verse 9 says Tyre handed over a whole community to slavery. It also forgot a treaty of brotherhood. Every charge in the chapter names harm done to human beings. God holds nations to account for such acts.",
+      "dateLabel": "Book order",
+      "uncertainty": "Selected named references have approximate markers. Warnings do not establish traveled routes.",
+      "sourceIds": [
+        "web"
+      ],
+      "placeIds": [
+        "jerusalem",
+        "damascus",
+        "tyre",
+        "edom",
+        "rabbah"
+      ],
+      "lds": {
+        "text": "What human costs do the repeated charges name?",
+        "sourceIds": []
+      }
+    },
+    {
+      "id": "amos-2",
+      "chapter": 2,
+      "verse": 1,
+      "eventOrder": 2,
+      "title": "The accusation turns toward Israel's own worship",
+      "summary": "Amos continues with Moab, which burned the bones of Edom’s king. Then he turns to Judah, which rejected the LORD’s law. Last he turns to Israel itself. The people sell the innocent for silver and the needy for a pair of sandals. They trample the heads of the poor. They lie down beside altars on clothes taken as security for debts. They told the prophets not to speak. God will press them down like a loaded cart.",
+      "detail": "Amos’s hearers would have approved the judgments on their neighbors. The eighth message turns on them. Israel’s list is the longest, and it concerns everyday dealings. Verse 6 says people are sold into slavery over small debts. Verse 8 says cloaks taken in pledge are used at the shrines. Exodus 22:26–27 required such a cloak back by sunset. The worship is furnished with the goods of the poor.",
+      "dateLabel": "Book order",
+      "uncertainty": "Selected named references have approximate markers. Warnings do not establish traveled routes.",
+      "sourceIds": [
+        "web"
+      ],
+      "placeIds": [
+        "edom",
+        "jerusalem",
+        "egypt"
+      ],
+      "lds": {
+        "text": "Why do garments and wine beside altars expose wrongdoing?",
+        "sourceIds": []
+      }
+    },
+    {
+      "id": "amos-3",
+      "chapter": 3,
+      "verse": 1,
+      "eventOrder": 3,
+      "title": "A chosen relationship increases responsibility",
+      "summary": "God speaks to the whole family he brought up from Egypt. He chose them alone of all the families of the earth. Therefore he will punish them for their sins. Amos asks a series of questions about cause and effect. A lion does not roar without prey. When the LORD speaks, a prophet must prophesy. Foreign peoples are called to witness the oppression in Samaria. The rich houses of winter and summer will be destroyed.",
+      "detail": "Verse 2 has a surprising “Therefore.” Israel might expect its special place to bring safety. God says it brings greater responsibility. Being chosen makes the people answerable. Verses 3–8 then defend Amos’s right to say so. Verse 9 calls foreigners to look at Samaria’s violence. Verse 15 names the many fine houses that will fall.",
+      "dateLabel": "Book order",
+      "uncertainty": "Selected named references have approximate markers. Warnings do not establish traveled routes.",
+      "sourceIds": [
+        "web"
+      ],
+      "placeIds": [
+        "samaria",
+        "egypt"
+      ],
+      "lds": {
+        "text": "The 2026 lesson connects prophetic speech with receiving God’s instruction. Why does chosen belonging increase responsibility?",
+        "sourceIds": [
+          "cfm-amos-2026"
+        ]
+      }
+    },
+    {
+      "id": "amos-4",
+      "chapter": 4,
+      "verse": 1,
+      "eventOrder": 4,
+      "title": "Religious display continues without a changed response",
+      "summary": "Amos speaks to the wealthy women of Samaria who crush the poor. They will be led away with hooks. He tells the people, with irony, to go and sin at their shrines. They love to bring offerings and announce them. God sent hunger, drought, blight, plague, and ruin. After each one they did not return to him. So Israel must prepare to meet its God. He forms the mountains and creates the wind.",
+      "detail": "Verses 4–5 describe worship that is busy and generous. The people “love” to do it. Verses 6–11 list five disasters. Each ends with the same line: “yet you haven’t returned to me.” “Cleanness of teeth” in verse 6 means nothing to eat. Much religious activity goes on, and no one turns. Verse 12 says the next meeting will be with God himself.",
+      "dateLabel": "Book order",
+      "uncertainty": "Selected named references have approximate markers. Warnings do not establish traveled routes.",
+      "sourceIds": [
+        "web"
+      ],
+      "placeIds": [
+        "samaria",
+        "egypt"
+      ],
+      "lds": {
+        "text": "The lesson invites return to God during trials. It does not claim that God sends every personal trial. What remains unchanged throughout the repeated disasters?",
+        "sourceIds": [
+          "cfm-amos-2026"
+        ]
+      }
+    },
+    {
+      "id": "amos-5",
+      "chapter": 5,
+      "verse": 1,
+      "eventOrder": 5,
+      "title": "Justice must replace confidence in protected worship",
+      "summary": "Amos sings a funeral song for Israel. God tells the people to seek him and live. They turn justice into bitterness and hate anyone who speaks truth in court. They tax the poor and take bribes. They should hate evil and set up justice at the gate. The day of the LORD will be darkness and not light. God says he hates their feasts and will not hear their songs. He wants justice to roll like a river.",
+      "detail": "The “gate” in verses 10, 12, and 15 is the town’s court. Bribes are taken there, and the needy are turned away. Verses 21–23 then reject the people’s feasts and music. The two belong together. Unfair courts make the worship unwelcome. Verse 24 asks for justice like a stream that never dries. Many streams in that land ran only after rain.",
+      "dateLabel": "Book order",
+      "uncertainty": "Selected named references have approximate markers. Warnings do not establish traveled routes.",
+      "sourceIds": [
+        "web",
+        "aaron-amos-5"
+      ],
+      "placeIds": [
+        "damascus"
+      ],
+      "lds": {
+        "text": "The lesson studies seeking God and choosing good as a path toward life. How do unfair courts explain the rejection of festivals?",
+        "sourceIds": [
+          "cfm-amos-2026"
+        ]
+      }
+    },
+    {
+      "id": "amos-6",
+      "chapter": 6,
+      "verse": 1,
+      "eventOrder": 6,
+      "title": "Comfort without grief becomes the first captivity",
+      "summary": "Amos warns those who feel safe in Zion and Samaria. They are the leading men of the first of the nations. They lie on beds of ivory and eat choice lambs. They sing to the harp and drink wine by the bowlful. They do not grieve over the ruin of their people. So they will be the first to go into exile. God hates Jacob’s pride and will give up the city. They have turned justice into poison.",
+      "detail": "Verses 4–6 list ivory beds, fine meat, music, wine, and oil. The charge comes in the last line of verse 6. These people feel no grief for the breaking of their nation. Their comfort has made them numb. The penalty fits the description. Verse 1 calls them the “first” of the nations. Verse 7 says they will go “first” into exile.",
+      "dateLabel": "Book order",
+      "uncertainty": "Selected named references have approximate markers. Warnings do not establish traveled routes.",
+      "sourceIds": [
+        "web"
+      ],
+      "placeIds": [
+        "samaria"
+      ],
+      "lds": {
+        "text": "What suffering do the comfortable leaders refuse to grieve?",
+        "sourceIds": []
+      }
+    },
+    {
+      "id": "amos-7",
+      "chapter": 7,
+      "verse": 1,
+      "eventOrder": 7,
+      "title": "The priest's royal protection conflicts with Amos's calling",
+      "summary": "God shows Amos a swarm of locusts and then a fire. Each time Amos pleads, and God relents. Then God shows him a plumb line set among the people. He will spare them no longer. Amaziah, the priest of Bethel, reports Amos to the king. He tells Amos to go home to Judah and earn his bread there. Amos answers that he was a herdsman and tended fig trees. The LORD took him from the flock and sent him.",
+      "detail": "Amaziah’s words show how he thinks. Verse 13 calls Bethel “the king’s sanctuary” and a royal house. Verse 12 treats prophecy as a way to earn bread. Amos answers that he never held that post. He kept flocks and tended trees. Verse 15 says the LORD “took” him, as he took David from the sheep. In verses 2 and 5 this same man pleaded for Israel.",
+      "dateLabel": "Book order",
+      "uncertainty": "Selected places are not mapped in this chapter. No precise royal sanctuary location is assigned.",
+      "sourceIds": [
+        "web"
+      ],
+      "placeIds": [],
+      "lds": {
+        "text": "The lesson studies Amos’s calling as an example of God speaking through prophets. Why does Amaziah call Bethel the king’s sanctuary?",
+        "sourceIds": [
+          "cfm-amos-2026"
+        ]
+      }
+    },
+    {
+      "id": "amos-8",
+      "chapter": 8,
+      "verse": 1,
+      "eventOrder": 8,
+      "title": "Dishonest markets prepare a different kind of famine",
+      "summary": "God shows Amos a basket of ripe summer fruit. The end has come for Israel. Amos speaks to those who trample the needy. They ask when the holy day will be over so they can sell grain. They shrink the measure, raise the price, and use false scales. They buy the poor for silver and sell the sweepings as wheat. God swears he will not forget. A famine is coming, a hunger to hear the LORD’s words.",
+      "detail": "The merchants in verse 5 keep the new moon and the Sabbath. They only wish the days would end. The verse names three frauds in one sale. The measure is small, the weight for payment is heavy, and the scale is rigged. Verse 6 adds that they sell the chaff. They observe the holy day and defeat its purpose. Verses 11–12 take away the word they would not hear.",
+      "dateLabel": "Book order",
+      "uncertainty": "Selected named references have approximate markers. Warnings do not establish traveled routes.",
+      "sourceIds": [
+        "web"
+      ],
+      "placeIds": [
+        "samaria",
+        "egypt"
+      ],
+      "lds": {
+        "text": "The lesson applies hunger for God’s words to spiritual life. It also connects this image with the later Apostasy and Restoration. How do false measures connect trade with loss of freedom?",
+        "sourceIds": [
+          "cfm-amos-2026"
+        ]
+      }
+    },
+    {
+      "id": "amos-9",
+      "chapter": 9,
+      "verse": 1,
+      "eventOrder": 9,
+      "title": "Destroyed false security gives way to inhabited land",
+      "summary": "Amos sees the Lord standing beside the altar. He orders the temple struck, and no one will escape. Israel is no different to him than distant peoples. He brought the Philistines and Syrians from other lands too. He will sift Israel like grain and not destroy it completely. Then he will raise up David’s fallen shelter. The people will rebuild their ruined cities and live in them. They will never again be uprooted from their land.",
+      "detail": "Verse 7 removes Israel’s claim to special treatment. God moved other nations as well. After that, the book ends in promise. In 5:11 the people built houses they would not live in. They planted vineyards and would not drink the wine. Verse 14 reverses both lines exactly. Verse 11 calls David’s house a “tent,” a humble thing raised again.",
+      "dateLabel": "Book order",
+      "uncertainty": "Selected named references have approximate markers. Warnings do not establish traveled routes.",
+      "sourceIds": [
+        "web"
+      ],
+      "placeIds": [
+        "egypt",
+        "edom"
+      ],
+      "lds": {
+        "text": "How do inhabited cities reverse earlier warnings about lost houses?",
+        "sourceIds": []
+      }
+    }
+  ],
+  "places": [
+    {
+      "id": "jerusalem",
+      "name": "Jerusalem",
+      "lat": 31.778,
+      "lng": 35.235,
+      "summary": "Jerusalem is named in warnings directed toward Judah and the opening divine roar.",
+      "limits": "Approximate geographic reference. Prophetic warnings do not establish a traveled route or an exact battlefield.",
+      "sourceIds": [
+        "web"
+      ],
+      "detail": "Jerusalem is named in warnings directed toward Judah and the opening divine roar.",
+      "uncertainty": "Approximate geographic reference. Prophetic warnings do not establish a traveled route or an exact battlefield.",
+      "chapterLocation": true
+    },
+    {
+      "id": "damascus",
+      "name": "Damascus",
+      "lat": 33.513,
+      "lng": 36.292,
+      "summary": "Damascus receives a charge about violence and later marks a warning of distant captivity.",
+      "limits": "Approximate geographic reference. Prophetic warnings do not establish a traveled route or an exact battlefield.",
+      "sourceIds": [
+        "web"
+      ],
+      "detail": "Damascus receives a charge about violence and later marks a warning of distant captivity.",
+      "uncertainty": "Approximate geographic reference. Prophetic warnings do not establish a traveled route or an exact battlefield.",
+      "chapterLocation": true
+    },
+    {
+      "id": "tyre",
+      "name": "Tyre",
+      "lat": 33.27,
+      "lng": 35.2,
+      "summary": "Tyre faces a charge about handing over whole captive communities.",
+      "limits": "Approximate geographic reference. Prophetic warnings do not establish a traveled route or an exact battlefield.",
+      "sourceIds": [
+        "web"
+      ],
+      "detail": "Tyre faces a charge about handing over whole captive communities.",
+      "uncertainty": "Approximate geographic reference. Prophetic warnings do not establish a traveled route or an exact battlefield.",
+      "chapterLocation": true
+    },
+    {
+      "id": "edom",
+      "name": "Edom",
+      "lat": 30.75,
+      "lng": 35.55,
+      "summary": "Edom faces charges about continuing violence against a brother people.",
+      "limits": "Approximate geographic reference. Prophetic warnings do not establish a traveled route or an exact battlefield.",
+      "sourceIds": [
+        "web"
+      ],
+      "detail": "Edom faces charges about continuing violence against a brother people.",
+      "uncertainty": "Approximate geographic reference. Prophetic warnings do not establish a traveled route or an exact battlefield.",
+      "chapterLocation": true
+    },
+    {
+      "id": "rabbah",
+      "name": "Rabbah",
+      "lat": 31.951,
+      "lng": 35.94,
+      "summary": "Rabbah receives a warning within the speech against Ammon.",
+      "limits": "Approximate geographic reference. Prophetic warnings do not establish a traveled route or an exact battlefield.",
+      "sourceIds": [
+        "web"
+      ],
+      "detail": "Rabbah receives a warning within the speech against Ammon.",
+      "uncertainty": "Approximate geographic reference. Prophetic warnings do not establish a traveled route or an exact battlefield.",
+      "chapterLocation": true
+    },
+    {
+      "id": "samaria",
+      "name": "Samaria",
+      "lat": 32.276,
+      "lng": 35.194,
+      "summary": "Samaria is the city where wealth, oppression, and false security receive public scrutiny.",
+      "limits": "Approximate geographic reference. Prophetic warnings do not establish a traveled route or an exact battlefield.",
+      "sourceIds": [
+        "web"
+      ],
+      "detail": "Samaria is the city where wealth, oppression, and false security receive public scrutiny.",
+      "uncertainty": "Approximate geographic reference. Prophetic warnings do not establish a traveled route or an exact battlefield.",
+      "chapterLocation": true
+    },
+    {
+      "id": "egypt",
+      "name": "Egypt",
+      "lat": 30.05,
+      "lng": 31.23,
+      "summary": "Egypt appears among the remembered places of rescue and the witnesses to Samaria’s wrongdoing.",
+      "limits": "Approximate geographic reference. Prophetic warnings do not establish a traveled route or an exact battlefield.",
+      "sourceIds": [
+        "web"
+      ],
+      "detail": "Egypt appears among the remembered places of rescue and the witnesses to Samaria’s wrongdoing.",
+      "uncertainty": "Approximate geographic reference. Prophetic warnings do not establish a traveled route or an exact battlefield.",
+      "chapterLocation": true
+    }
+  ],
+  "campaigns": [],
+  "ancientRoads": [],
+  "regions": [],
+  "words": [
+    {
+      "id": "glossary-covenant",
+      "label": "Covenant",
+      "matches": [
+        "covenant",
+        "covenants"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A binding agreement with promises and duties. In the Bible, God makes covenants with people.",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    },
+    {
+      "id": "glossary-sabbath",
+      "label": "Sabbath",
+      "matches": [
+        "Sabbath",
+        "Sabbaths"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "The seventh day of the week, kept as a day of rest.",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    },
+    {
+      "id": "glossary-assembly",
+      "label": "Assembly",
+      "matches": [
+        "assembly",
+        "assemblies"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A gathering of people. In the New Testament letters it means a group of believers. Many translations say “church.”",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    },
+    {
+      "id": "glossary-tithe",
+      "label": "Tithe",
+      "matches": [
+        "tithe",
+        "tithes"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A tenth of produce or income given to God.",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    },
+    {
+      "id": "glossary-sheol",
+      "label": "Sheol",
+      "matches": [
+        "Sheol"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "The Hebrew name for the place of the dead.",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    },
+    {
+      "id": "glossary-sackcloth",
+      "label": "Sackcloth",
+      "matches": [
+        "sackcloth"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "Rough cloth worn to show grief or repentance.",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    },
+    {
+      "id": "glossary-nazirite",
+      "label": "Nazirite",
+      "matches": [
+        "Nazirite",
+        "Nazirites"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A person under a special vow. Numbers 6 forbids wine, haircuts, and contact with the dead.",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    },
+    {
+      "id": "glossary-unclean",
+      "label": "Unclean",
+      "matches": [
+        "unclean",
+        "uncleanness"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "Unfit to take part in worship until a set cleansing is done. Leviticus 11–15 gives the rules.",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    },
+    {
+      "id": "glossary-anoint",
+      "label": "Anoint",
+      "matches": [
+        "anoint",
+        "anoints",
+        "anointed",
+        "anointing"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "To pour oil on a person or thing to set it apart. Kings and priests were anointed.",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    },
+    {
+      "id": "glossary-remnant",
+      "label": "Remnant",
+      "matches": [
+        "remnant"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "The part of a people that survives a disaster.",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    },
+    {
+      "id": "glossary-zion",
+      "label": "Zion",
+      "matches": [
+        "Zion"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A hill in Jerusalem. The name is also used for the city and its people.",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    },
+    {
+      "id": "glossary-shekel",
+      "label": "Shekel",
+      "matches": [
+        "shekel",
+        "shekels"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A unit of weight, about 10 grams. Silver was weighed in shekels as money.",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    },
+    {
+      "id": "glossary-ephah",
+      "label": "Ephah",
+      "matches": [
+        "ephah",
+        "ephahs"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A dry measure of about 22 liters.",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    },
+    {
+      "id": "glossary-yeast",
+      "label": "Yeast",
+      "matches": [
+        "yeast",
+        "leaven",
+        "leavened",
+        "unleavened"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "Yeast, or leaven, makes dough rise. Bread made without it is called unleavened.",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    }
+  ],
+  "guides": [
+    {
+      "id": "amos-context",
+      "title": "Amos: context and evidence",
+      "description": "Explore the book’s larger concerns through selected passages and relevant evidence.",
+      "steps": [
+        {
+          "title": "The accusation turns toward Israel's own worship",
+          "text": "Amos’s hearers would have approved the judgments on their neighbors. The eighth message turns on them. Israel’s list is the longest, and it concerns everyday dealings. Verse 6 says people are sold into slavery over small debts. Verse 8 says cloaks taken in pledge are used at the shrines. Exodus 22:26–27 required such a cloak back by sunset. The worship is furnished with the goods of the poor.",
+          "chapter": 2,
+          "verse": 6,
+          "sourceIds": [
+            "web"
+          ]
+        },
+        {
+          "title": "Justice must replace confidence in protected worship",
+          "text": "The “gate” in verses 10, 12, and 15 is the town’s court. Bribes are taken there, and the needy are turned away. Verses 21–23 then reject the people’s feasts and music. The two belong together. Unfair courts make the worship unwelcome. Verse 24 asks for justice like a stream that never dries. Many streams in that land ran only after rain.",
+          "chapter": 5,
+          "verse": 24,
+          "sourceIds": [
+            "web"
+          ]
+        },
+        {
+          "title": "Dishonest markets prepare a different kind of famine",
+          "text": "The merchants in verse 5 keep the new moon and the Sabbath. They only wish the days would end. The verse names three frauds in one sale. The measure is small, the weight for payment is heavy, and the scale is rigged. Verse 6 adds that they sell the chaff. They observe the holy day and defeat its purpose. Verses 11–12 take away the word they would not hear.",
+          "chapter": 8,
+          "verse": 5,
+          "sourceIds": [
+            "web"
+          ]
+        }
+      ]
+    }
+  ],
+  "periods": [
+    {
+      "id": "part-0",
+      "label": "Amos 1–3",
+      "start": 1,
+      "end": 3,
+      "description": "Chapter order"
+    },
+    {
+      "id": "part-1",
+      "label": "Amos 4–6",
+      "start": 4,
+      "end": 6,
+      "description": "Chapter order"
+    },
+    {
+      "id": "part-2",
+      "label": "Amos 7–9",
+      "start": 7,
+      "end": 9,
+      "description": "Chapter order"
+    }
+  ],
+  "chapterMaps": [
+    {
+      "chapter": 1,
+      "focusPlaceIds": [
+        "jerusalem",
+        "damascus",
+        "tyre",
+        "edom",
+        "rabbah"
+      ],
+      "placeIds": [
+        "jerusalem",
+        "damascus",
+        "tyre",
+        "edom",
+        "rabbah"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Selected named references have approximate markers. Warnings do not establish traveled routes.",
+      "narrative": "Amos is a herdsman from Tekoa in Judah. He speaks in the days of King Jeroboam of Israel. The LORD roars from Zion, and the pastures wither. Amos announces judgment on the nations around Israel. Damascus threshed Gilead with iron sledges. Gaza and Tyre sold whole communities to Edom. Edom chased his brother with a sword and showed no pity. Ammon ripped open pregnant women to gain more land.",
+      "limits": "Selected named references have approximate markers. Warnings do not establish traveled routes.",
+      "sourceIds": [
+        "web"
+      ]
+    },
+    {
+      "chapter": 2,
+      "focusPlaceIds": [
+        "edom",
+        "jerusalem",
+        "egypt"
+      ],
+      "placeIds": [
+        "edom",
+        "jerusalem",
+        "egypt"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Selected named references have approximate markers. Warnings do not establish traveled routes.",
+      "narrative": "Amos continues with Moab, which burned the bones of Edom’s king. Then he turns to Judah, which rejected the LORD’s law. Last he turns to Israel itself. The people sell the innocent for silver and the needy for a pair of sandals. They trample the heads of the poor. They lie down beside altars on clothes taken as security for debts. They told the prophets not to speak. God will press them down like a loaded cart.",
+      "limits": "Selected named references have approximate markers. Warnings do not establish traveled routes.",
+      "sourceIds": [
+        "web"
+      ]
+    },
+    {
+      "chapter": 3,
+      "focusPlaceIds": [
+        "samaria",
+        "egypt"
+      ],
+      "placeIds": [
+        "samaria",
+        "egypt"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Selected named references have approximate markers. Warnings do not establish traveled routes.",
+      "narrative": "God speaks to the whole family he brought up from Egypt. He chose them alone of all the families of the earth. Therefore he will punish them for their sins. Amos asks a series of questions about cause and effect. A lion does not roar without prey. When the LORD speaks, a prophet must prophesy. Foreign peoples are called to witness the oppression in Samaria. The rich houses of winter and summer will be destroyed.",
+      "limits": "Selected named references have approximate markers. Warnings do not establish traveled routes.",
+      "sourceIds": [
+        "web"
+      ]
+    },
+    {
+      "chapter": 4,
+      "focusPlaceIds": [
+        "samaria",
+        "egypt"
+      ],
+      "placeIds": [
+        "samaria",
+        "egypt"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Selected named references have approximate markers. Warnings do not establish traveled routes.",
+      "narrative": "Amos speaks to the wealthy women of Samaria who crush the poor. They will be led away with hooks. He tells the people, with irony, to go and sin at their shrines. They love to bring offerings and announce them. God sent hunger, drought, blight, plague, and ruin. After each one they did not return to him. So Israel must prepare to meet its God. He forms the mountains and creates the wind.",
+      "limits": "Selected named references have approximate markers. Warnings do not establish traveled routes.",
+      "sourceIds": [
+        "web"
+      ]
+    },
+    {
+      "chapter": 5,
+      "focusPlaceIds": [
+        "damascus"
+      ],
+      "placeIds": [
+        "damascus"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Selected named references have approximate markers. Warnings do not establish traveled routes.",
+      "narrative": "Amos sings a funeral song for Israel. God tells the people to seek him and live. They turn justice into bitterness and hate anyone who speaks truth in court. They tax the poor and take bribes. They should hate evil and set up justice at the gate. The day of the LORD will be darkness and not light. God says he hates their feasts and will not hear their songs. He wants justice to roll like a river.",
+      "limits": "Selected named references have approximate markers. Warnings do not establish traveled routes.",
+      "sourceIds": [
+        "web",
+        "aaron-amos-5"
+      ]
+    },
+    {
+      "chapter": 6,
+      "focusPlaceIds": [
+        "samaria"
+      ],
+      "placeIds": [
+        "samaria"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Selected named references have approximate markers. Warnings do not establish traveled routes.",
+      "narrative": "Amos warns those who feel safe in Zion and Samaria. They are the leading men of the first of the nations. They lie on beds of ivory and eat choice lambs. They sing to the harp and drink wine by the bowlful. They do not grieve over the ruin of their people. So they will be the first to go into exile. God hates Jacob’s pride and will give up the city. They have turned justice into poison.",
+      "limits": "Selected named references have approximate markers. Warnings do not establish traveled routes.",
+      "sourceIds": [
+        "web"
+      ]
+    },
+    {
+      "chapter": 7,
+      "focusPlaceIds": [],
+      "placeIds": [],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Selected places are not mapped in this chapter. No precise royal sanctuary location is assigned.",
+      "narrative": "God shows Amos a swarm of locusts and then a fire. Each time Amos pleads, and God relents. Then God shows him a plumb line set among the people. He will spare them no longer. Amaziah, the priest of Bethel, reports Amos to the king. He tells Amos to go home to Judah and earn his bread there. Amos answers that he was a herdsman and tended fig trees. The LORD took him from the flock and sent him.",
+      "limits": "Selected places are not mapped in this chapter. No precise royal sanctuary location is assigned.",
+      "sourceIds": [
+        "web"
+      ]
+    },
+    {
+      "chapter": 8,
+      "focusPlaceIds": [
+        "samaria",
+        "egypt"
+      ],
+      "placeIds": [
+        "samaria",
+        "egypt"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Selected named references have approximate markers. Warnings do not establish traveled routes.",
+      "narrative": "God shows Amos a basket of ripe summer fruit. The end has come for Israel. Amos speaks to those who trample the needy. They ask when the holy day will be over so they can sell grain. They shrink the measure, raise the price, and use false scales. They buy the poor for silver and sell the sweepings as wheat. God swears he will not forget. A famine is coming, a hunger to hear the LORD’s words.",
+      "limits": "Selected named references have approximate markers. Warnings do not establish traveled routes.",
+      "sourceIds": [
+        "web"
+      ]
+    },
+    {
+      "chapter": 9,
+      "focusPlaceIds": [
+        "egypt",
+        "edom"
+      ],
+      "placeIds": [
+        "egypt",
+        "edom"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Selected named references have approximate markers. Warnings do not establish traveled routes.",
+      "narrative": "Amos sees the Lord standing beside the altar. He orders the temple struck, and no one will escape. Israel is no different to him than distant peoples. He brought the Philistines and Syrians from other lands too. He will sift Israel like grain and not destroy it completely. Then he will raise up David’s fallen shelter. The people will rebuild their ruined cities and live in them. They will never again be uprooted from their land.",
+      "limits": "Selected named references have approximate markers. Warnings do not establish traveled routes.",
+      "sourceIds": [
+        "web"
+      ]
+    }
+  ],
+  "textRoutes": [],
+  "narrativeRegions": [],
+  "chapterStudies": [
+    {
+      "chapter": 1,
+      "verse": 9,
+      "context": ""
+    },
+    {
+      "chapter": 2,
+      "verse": 6,
+      "context": ""
+    },
+    {
+      "chapter": 3,
+      "verse": 2,
+      "context": ""
+    },
+    {
+      "chapter": 4,
+      "verse": 6,
+      "context": ""
+    },
+    {
+      "chapter": 5,
+      "verse": 24,
+      "context": ""
+    },
+    {
+      "chapter": 6,
+      "verse": 6,
+      "context": ""
+    },
+    {
+      "chapter": 7,
+      "verse": 15,
+      "context": ""
+    },
+    {
+      "chapter": 8,
+      "verse": 5,
+      "context": ""
+    },
+    {
+      "chapter": 9,
+      "verse": 14,
+      "context": ""
+    }
+  ]
+}

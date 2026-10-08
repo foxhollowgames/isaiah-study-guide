@@ -1,0 +1,320 @@
+{
+  "name": "Hebrews",
+  "code": "HEB",
+  "date": "2026-10-07",
+  "verseCounts": [
+    14,
+    18,
+    19,
+    16,
+    14,
+    20,
+    28,
+    13,
+    28,
+    39,
+    40,
+    29,
+    25
+  ],
+  "nextBook": "james",
+  "description": "The Son · shared suffering · priesthood · access · promises · endurance",
+  "limits": "The work does not name its speaker. Historical authorship, dates, Greek forms, manuscripts, exact audience, and archaeological reconstruction of its tent description were not independently verified. The comparisons state the writer's argument rather than an independent dismissal of all Jewish worship. Heavenly Jerusalem is not assigned an earthly marker.",
+  "review": "All 303 verses read for thirteen original contextual explanations and exact selections. Eight selected profiles and one recalled city do not claim exhaustive coverage. Church scope follows actual lesson discussion. Foskett's interpretation remains attributed. The speaker remains unnamed. No exact heavenly setting, audience location, or tent reconstruction is supplied.",
+  "sources": [
+    {
+      "id": "cfm-nt-2023-45",
+      "title": "October 30–November 5 · Hebrews 1–6",
+      "url": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-sunday-school-new-testament-2023/45?lang=eng",
+      "author": "The Church of Jesus Christ of Latter-day Saints",
+      "publisher": "The Church of Jesus Christ of Latter-day Saints",
+      "year": 2023,
+      "category": "LDS Come, Follow Me",
+      "perspective": "lds",
+      "summary": "The lesson connects Christ's suffering with help, responsive hearts, and called service.",
+      "limits": "Coverage follows the actual lesson body rather than its title. Church applications to callings and ordinances remain distinct from independent historical evidence. The lesson's naming of Paul does not settle authorship. Linked videos, talks, and Restoration texts were not independently reviewed.",
+      "chapterCoverage": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "reviewed": {
+        "date": "2026-10-07",
+        "scope": "Complete lesson body and resource list read. Actual discussion covers chapters one through five. Chapter six is not separately discussed."
+      }
+    },
+    {
+      "id": "cfm-nt-2023-46",
+      "title": "November 6–12 · Hebrews 7–13",
+      "url": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-sunday-school-new-testament-2023/46?lang=eng",
+      "author": "The Church of Jesus Christ of Latter-day Saints",
+      "publisher": "The Church of Jesus Christ of Latter-day Saints",
+      "year": 2023,
+      "category": "LDS Come, Follow Me",
+      "perspective": "lds",
+      "summary": "The lesson connects ordinances with Christ and faith with trust in unfinished promises.",
+      "limits": "Coverage follows the actual lesson body rather than its title. Church applications to callings and ordinances remain distinct from independent historical evidence. The lesson's naming of Paul does not settle authorship. Linked videos, talks, and Restoration texts were not independently reviewed.",
+      "chapterCoverage": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "reviewed": {
+        "date": "2026-10-07",
+        "scope": "Complete lesson body and included Holland quotation read. Actual discussion covers chapters seven through eleven. Linked full talks and videos were not reviewed."
+      }
+    },
+    {
+      "id": "foskett-hebrews",
+      "title": "Commentary on Hebrews 11:29—12:2",
+      "url": "https://www.workingpreacher.org/commentaries/revised-common-lectionary/ordinary-20-3/commentary-on-hebrews-1129-122-4",
+      "author": "Mary Foskett",
+      "publisher": "Luther Seminary",
+      "year": 2019,
+      "category": "Scholarly study",
+      "perspective": "historical",
+      "summary": "Foskett connects present hearers with a wider history of faithful endurance.",
+      "limits": "This is Foskett's interpretation. Specific unnamed sufferers, authorship, precise audience history, and Greek forms were not independently verified. Endurance is not presented as approval of every form of suffering.",
+      "chapterCoverage": [
+        11
+      ],
+      "reviewed": {
+        "date": "2026-10-07",
+        "scope": "Complete commentary body read. The guide attributes its connection of present hearers with earlier lives of endurance."
+      }
+    }
+  ],
+  "people": [
+    {
+      "id": "jesus",
+      "name": "Jesus Christ",
+      "reuse": "matthew",
+      "role": "Son and high priest whose self-offering grounds the argument about access to God",
+      "relations": "The writer connects shared suffering, enduring life, and heavenly service with him.",
+      "meaning": "His work joins confidence before God with mutual care and patient endurance.",
+      "chapters": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "passages": "Hebrews 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13",
+      "linkNames": [
+        "Jesus",
+        "Christ"
+      ]
+    },
+    {
+      "id": "moses",
+      "name": "Moses",
+      "reuse": "exodus",
+      "role": "Faithful servant whose household care and received tent pattern support the comparisons",
+      "relations": "The writer recalls his leadership, law, received pattern, and choice of mistreatment.",
+      "meaning": "His faithfulness is honored within comparisons about the Son and continued trust.",
+      "chapters": [
+        3,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "passages": "Hebrews 3, 7, 8, 9, 10, 11, 12"
+    },
+    {
+      "id": "aaron",
+      "name": "Aaron",
+      "reuse": "exodus",
+      "role": "Called priest whose role supplies a comparison for appointment and repeated service",
+      "relations": "The writer names his calling, priestly order, and rod within the tent.",
+      "meaning": "His appointed role helps explain why priestly honor cannot be claimed for oneself.",
+      "chapters": [
+        5,
+        7,
+        9
+      ],
+      "passages": "Hebrews 5, 7, 9"
+    },
+    {
+      "id": "melchizedek",
+      "name": "Melchizedek",
+      "reuse": "genesis",
+      "role": "King and priest whose meeting with Abraham supports the argument about enduring priesthood",
+      "relations": "He blesses Abraham and receives a tenth of the returned goods.",
+      "meaning": "The writer uses his blessing and the account's silence about ancestry to explain its comparison.",
+      "chapters": [
+        5,
+        6,
+        7
+      ],
+      "passages": "Hebrews 5, 6, 7"
+    },
+    {
+      "id": "abraham",
+      "name": "Abraham",
+      "reuse": "genesis",
+      "role": "Promise receiver whose patient waiting and meeting with Melchizedek support the argument",
+      "relations": "He receives a promise and blessing, gives tribute, and waits with trust.",
+      "meaning": "His unfinished earthly life places faith within waiting rather than immediate visible completion.",
+      "chapters": [
+        2,
+        6,
+        7,
+        11
+      ],
+      "passages": "Hebrews 2, 6, 7, 11"
+    },
+    {
+      "id": "sarah",
+      "name": "Sarah",
+      "reuse": "genesis",
+      "role": "Woman whose trust in the promise is recalled within the examples of faith",
+      "relations": "The writer connects her promised child with confidence in the one who promised.",
+      "meaning": "Her example joins waiting and received power within the repeated account of faith.",
+      "chapters": [
+        11
+      ],
+      "passages": "Hebrews 11"
+    },
+    {
+      "id": "rahab",
+      "name": "Rahab",
+      "reuse": "joshua",
+      "role": "Woman whose reception of the spies is recalled as an act of faith",
+      "relations": "The writer contrasts her rescue with the destruction of those who refused.",
+      "meaning": "Her brief example widens the account of faith beyond the ancestors of Israel.",
+      "chapters": [
+        11
+      ],
+      "passages": "Hebrews 11"
+    },
+    {
+      "id": "timothy",
+      "name": "Timothy",
+      "reuse": "romans",
+      "role": "Freed brother whose possible arrival appears in the closing notice",
+      "relations": "The speaker hopes to visit the hearers with him if he arrives soon.",
+      "meaning": "His notice places the final appeal within shared relationships and uncertain travel plans.",
+      "chapters": [
+        13
+      ],
+      "passages": "Hebrews 13"
+    }
+  ],
+  "places": [
+    {
+      "id": "jericho",
+      "reuse": "joshua",
+      "chapters": [
+        11
+      ],
+      "summary": "Jericho is recalled in the account of the walls falling after repeated circling.",
+      "linkNames": [
+        "Jericho"
+      ],
+      "verseScope": {
+        "11": [
+          30
+        ]
+      }
+    }
+  ],
+  "chapters": {
+    "1": {
+      "question": "Why does the Son's place give weight to the message received?",
+      "teaching": "The selected Church lesson teaches that Jesus Christ is the author of eternal salvation.",
+      "ldsSources": [
+        "cfm-nt-2023-45"
+      ]
+    },
+    "2": {
+      "question": "How does shared suffering explain the high priest's ability to help?",
+      "teaching": "The selected Church lesson connects Christ's suffering with his ability to help us.",
+      "ldsSources": [
+        "cfm-nt-2023-45"
+      ]
+    },
+    "3": {
+      "question": "Why does the repeated word today require mutual encouragement?",
+      "teaching": "The selected Church lesson teaches responsive hearts rather than refusal of God's blessings.",
+      "ldsSources": [
+        "cfm-nt-2023-45"
+      ]
+    },
+    "4": {
+      "question": "How does offered mercy stand beside the exposure of hidden intentions?",
+      "teaching": "The selected Church lesson connects Christ's suffering with offered mercy and help.",
+      "ldsSources": [
+        "cfm-nt-2023-45"
+      ]
+    },
+    "5": {
+      "question": "Why does mature judgment require practice rather than passive hearing?",
+      "teaching": "The selected Church lesson applies called priestly service to authorized Church callings.",
+      "ldsSources": [
+        "cfm-nt-2023-45"
+      ]
+    },
+    "6": {
+      "question": "How does remembered service keep the warning connected with confident hope?"
+    },
+    "7": {
+      "question": "Why does continuing life answer the limit imposed by the deaths of priests?",
+      "teaching": "The selected Church lesson connects Melchizedek Priesthood ordinances with approaching Jesus Christ.",
+      "ldsSources": [
+        "cfm-nt-2023-46"
+      ]
+    },
+    "8": {
+      "question": "Why does the new covenant promise turn from buildings toward law within people?",
+      "teaching": "The selected Church lesson reads ancient ordinances as pointing toward Jesus Christ.",
+      "ldsSources": [
+        "cfm-nt-2023-46"
+      ]
+    },
+    "9": {
+      "question": "How does cleansing the conscience extend the argument beyond restricted entry?",
+      "teaching": "The selected Church lesson reads ancient ordinances as pointing toward Jesus Christ.",
+      "ldsSources": [
+        "cfm-nt-2023-46"
+      ]
+    },
+    "10": {
+      "question": "Why does confidence before God lead into encouragement of love and good work?",
+      "teaching": "The selected Church lesson joins meaningful ordinances with continued confidence and trust.",
+      "ldsSources": [
+        "cfm-nt-2023-46"
+      ]
+    },
+    "11": {
+      "question": "Why do victories and painful deaths appear within the same account of faith?",
+      "teaching": "The selected Church lesson teaches faith as trust in promises not yet fulfilled.",
+      "ldsSources": [
+        "cfm-nt-2023-46"
+      ],
+      "historicalSources": [
+        "foskett-hebrews"
+      ]
+    },
+    "12": {
+      "question": "How do commands to strengthen weak limbs make endurance a shared task?"
+    },
+    "13": {
+      "question": "Why does praise join sharing and care for prisoners in the closing directions?"
+    }
+  }
+}

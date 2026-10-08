@@ -31,11 +31,52 @@ Book pages use `/book.html?book=<slug>`.
 - Ecclesiastes: all 12 chapters, 222 verses, nine profiles, and Jerusalem as the opening royal setting.
 - Song of Solomon: all 8 chapters, 117 verses, eleven profiles, and eleven map references.
 - Jeremiah: all 52 chapters, 1,364 verses, 66 profiles, 28 places, and four stated movements.
-- Other 42 books: directory entries and clear planned pages. They have no published study content yet.
+- Lamentations: all five chapters, 154 verses, five contextual studies, and one unnamed speaker profile. Local checks passed.
+- Ezekiel: all 48 chapters, 1,273 verses, 48 contextual studies, four selected profiles, and nine geographic reference points. Local checks passed.
+- Daniel: all 12 chapters, 357 verses, five selected profiles, and two city markers.
+- Hosea: all 14 chapters, 197 verses, two selected profiles, and two reference markers.
+- Joel: all three chapters, 73 verses, one prophet profile, and five geographic references.
+- Amos: all nine chapters, 146 verses, two selected profiles, and seven geographic references.
+- Obadiah: all 21 verses, one prophet profile, and three geographic references.
+- Jonah: all four chapters, 48 verses, one prophet profile, and two place markers.
+- Micah: all seven chapters, 105 verses, one selected prophet profile, and seven geographic references.
+- Nahum: all three chapters, 47 verses, one prophet profile, and two geographic references.
+- Habakkuk: all three chapters, 56 verses, one prophet profile, and two regional references.
+- Zephaniah: all three chapters, 53 verses, two selected profiles, and seven geographic references.
+- Haggai: both chapters, 38 verses, four selected profiles, and two geographic references.
+- Zechariah: all 14 chapters, 211 verses, four selected profiles, and fourteen geographic references.
+- Malachi: all four chapters, 55 verses, three selected profiles, and two geographic references.
+- Matthew: all 28 chapters, 1,071 verses, six selected profiles, and fourteen geographic references.
+- Mark: all sixteen chapters, 678 verses, five selected profiles, and thirteen geographic references.
+- Luke: all 24 chapters, 1,151 numbered verse positions, six selected profiles, and thirteen geographic references.
+- John: all 21 chapters, 879 verses, ten selected profiles, and twelve geographic references.
+- Acts: all 28 chapters, 1,007 numbered verse positions, fourteen selected profiles, and thirteen city references.
+- Romans: all sixteen chapters, 434 numbered positions, ten selected profiles, and two destination references.
+- First Corinthians: all sixteen chapters, 437 verses, ten selected profiles, and three city references.
+- Second Corinthians: all thirteen chapters, 257 verses, six selected profiles, and two city references.
+- Galatians: all six chapters, 149 verses, eight selected profiles, and three city references.
+- Ephesians: all six chapters, 155 verses, three selected profiles, and one city reference.
+- Philippians: all four chapters, 104 verses, six selected profiles, and one city marker.
+- Colossians: all four chapters, 95 verses, six selected profiles, and three city references.
+- First Thessalonians: all five chapters, 89 verses, four selected profiles, and three city references.
+- Second Thessalonians: all three chapters, 47 verses, four selected profiles, and one city reference.
+- First Timothy: all six chapters, 113 verses, five selected profiles, and one city reference.
+- Second Timothy: all four chapters, 83 verses, five selected profiles, and three city references.
+- Titus: all three chapters, 46 verses, five selected profiles, and one island reference.
+- Philemon: all 25 verses, one contextual study, six selected profiles, and no assigned setting.
+- Hebrews: all thirteen chapters, 303 verses, eight selected profiles, and one recalled city.
+- James: all five chapters, 108 verses, seven selected profiles, and no assigned city.
+- First Peter: all five chapters, 105 verses, six selected profiles, and no assigned exact setting.
+- Second Peter: all three chapters, 61 verses, six selected profiles, and one disputed regional marker.
+- First John: all five chapters, 105 verses, two selected named profiles, and no assigned setting.
+- Second John: all thirteen verses, one original contextual study, and one selected named profile.
+- Third John: all fourteen WEB verses, one contextual study, and three distinct selected profiles.
+- Jude: all 25 verses, one contextual study, eight selected profiles, and one disputed regional marker.
+- Revelation: 22 contextual studies, all 404 WEB verses, six selected profiles, and eight geographic references.
 
 ## Next book
 
-Lamentations is next in canonical order. Complete and verify one book before starting another.
+All 66 books now have ready local guides, covering 1,189 chapters. No initial book remains in the backlog.
 Do not label a book ready until its reading text, chapter studies, sources, portraits, and maps pass review.
 Use the existing Isaiah guide as the detail standard. Genesis currently has selected major people and chapter-level events.
 Future enrichment can add finer passage divisions, additional people, language notes, and more specific citations.
@@ -46,9 +87,14 @@ The user permits at most 25 additional percentage points of weekly account usage
 The initial account reading was 44% on October 4, 2026, America/Denver.
 The initial stop threshold is 69%, with a safety margin for validation and publishing.
 Account usage is shared with other chats. Read current usage before each new book and during long work.
+The refreshed October 7 baseline was 0%. The user retained the 25-point limit, so this continuation stops at 25%.
 Do not start large image batches near the limit. Do not infer remaining budget from an unchanged usage reading.
 Do not assume this document authorizes another 25% in the same weekly window.
 Further weeks can continue the backlog, but no recurring schedule has been created.
+
+The weekly account window reset on October 7, 2026. The user authorized continuation after the reset.
+The new baseline is 0%. Keep the existing allowance of 25 additional percentage points.
+Reserve usage for checks. The usage endpoint still returned 0% during the first book, so that reading does not establish unused capacity.
 
 ## Sources and maps
 
@@ -178,3 +224,131 @@ Its checks separate shared names and preserve all 1,364 scripture verses.
 Build with `scripts/build-jeremiah.py`, `scripts/finish-jeremiah-art.py`,
 `scripts/build-jeremiah.py --ready`, and `scripts/build-native-books.py`.
 Run `node scripts/check-jeremiah-person-links.mjs` before publishing.
+
+Lamentations and Ezekiel were added locally on October 7, 2026.
+Lamentations preserves five poems, 154 verses, and five original contextual notes.
+Ezekiel preserves 48 chapters, 1,273 verses, and 48 original contextual notes.
+Reviewed Luther Seminary commentary and official Church lessons retain their specific scope and access limits.
+Ezekiel's map uses nine selected geographic references. It does not map the uncertain Chebar location or visionary buildings.
+Its four selected profiles are not a complete inventory of every named person.
+The three new portraits were generated with the built-in image tool and visually inspected.
+Their exact prompts and original paths live in the respective generated-portraits JSON files.
+Rebuild the new books with `scripts/build-lamentations.py --ready` and `scripts/build-ezekiel.py --ready`.
+Rebuild their artwork records with `scripts/finish-lamentations-art.py` and `scripts/finish-ezekiel-art.py`.
+Then run `scripts/build-native-books.py`, `npm run check`, and `npm run check:bible`.
+Local browser checks covered source details, guide navigation, both perspectives, map controls, and Ezekiel's portrait.
+These local checks do not establish a public deployment. No release was published during this continuation.
+
+Daniel, Hosea, and Joel were added locally on October 7, 2026.
+Daniel preserves 12 chapters and 357 verses with five selected profiles.
+Hosea preserves 14 chapters and 197 verses with two selected profiles.
+Joel preserves three chapters and 73 verses with one selected prophet profile.
+Each chapter has an original explanation and an exact WEB anchor.
+New portraits were inspected. Their prompts and original paths remain in each generated-portraits JSON file.
+Rebuild each book with its build script using --ready, then run build-native-books.py.
+Rebuild artwork with the corresponding finish-BOOK-art.py script.
+Browser checks covered representative chapters in both perspectives, Daniel and Hosea guides, and Hosea source details.
+Daniel's profile image loaded correctly. Source notes retain review dates and coverage limits.
+The latest Bible checks pass through Joel. The shared Isaiah checks also pass.
+No public deployment was performed.
+
+Amos, Obadiah, and Jonah were added locally on October 7, 2026.
+They preserve 146, 21, and 48 WEB verses respectively.
+All their verses were read for distinct chapter explanations and exact Scripture anchors.
+Amos separates the priest Amaziah from the earlier king with the same name.
+Obadiah separates the vision's named prophet from Ahab's steward.
+Jonah reuses the inspected portrait of Jonah, son of Amittai, from 2 Kings.
+Obadiah's one-step guide is valid for its single chapter and displays a working Finish control.
+The presentation check now allows one guide step for a single-chapter book.
+The latest Bible checks pass through Jonah. Browser checks covered Amos's profiles and both perspectives.
+These books remain local. No public deployment was performed.
+
+Micah through Malachi were added locally on October 7, 2026.
+All 39 Old Testament books now contain complete Scripture and original chapter explanations.
+The added-book checks cover 863 chapters. Isaiah adds its existing 66 chapters.
+New prophets have inspected portraits. Reused portraits retain their existing image credits.
+Haggai and Zechariah distinguish Joshua the priest from Joshua in the earlier conquest account.
+Malachi distinguishes its final Elijah promise from later Restoration readings.
+Nahum's USCCB introduction was read through indexed text because direct access returned 403.
+Each other external source records its actual reviewed body and chapter coverage.
+Browser checks covered representative historical and LDS readings in all seven new books.
+Malachi's final chapter correctly shows no mapped places. Horeb has no invented location.
+The Bible checks pass through Malachi. These books remain local and unpublished.
+
+Matthew was added locally on October 7, 2026.
+All 1,071 WEB verses were read for 28 original explanations and exact Scripture selections.
+Six selected profiles use inspected artwork generated with the built-in image tool.
+The portrait files are in dist/assets/portraits/matthew.
+Exact prompts and original paths remain in scripts/matthew-generated-portraits.json.
+Four reviewed 2023 Sunday School lessons apply only to Matthew 1, 5, 18, and 28.
+Minor’s complete commentary body was read for chapter 1. Its broader historical generalizations remain attributed and limited.
+NET geographic descriptions and coordinate lines were checked for four new locality references.
+Existing atlas coordinates retain their earlier review limits. Maps do not identify exact houses, tombs, or unnamed mountains.
+Browser checks covered historical chapter 27, LDS chapter 18, Mary Magdalene’s profile, and the four-step guide.
+All Bible checks passed through Matthew. No public deployment was performed.
+
+## Mark and Luke local review - October 7, 2026
+
+Mark has sixteen original studies, five reused inspected Gospel portraits, and three scoped Church lessons. Black supports an attributed discussion of the ending. Browser checks covered historical chapter twelve, LDS chapter sixteen, source details, and the four-step guide.
+
+Luke has 24 original studies, six reused inspected Gospel portraits, and five scoped Church lessons. Malcolm supplies attributed interpretation beside chapter sixteen. Luke 17:36 preserves the publisher omission and displays its manuscript note separately. Browser checks covered historical chapter seventeen and LDS chapter ten. Shared and Bible checks passed after rebuilding. No publication occurred.
+
+John local review: all 21 chapters pass Scripture, copy, and presentation checks. Historical chapter 9, its scholar source dialog, LDS chapter 21, and the Mary of Bethany portrait were checked in the browser. Bare Mary aliases do not merge the separate women at the cross. No publication occurred.
+
+Acts local review: Scripture, copy, presentation, and shared checks passed. The browser showed historical chapter 8 with its separate publisher note, LDS chapter 10, a four-step guide anchored at 6:3, and the Cornelius profile. Ten inspected portraits use the built-in image generator. Prompts and source paths are saved in scripts/acts-generated-portraits.json. No publication occurred.
+
+Romans local review: all sixteen chapters pass Scripture, copy, presentation, and shared checks. Browser checks covered historical chapter eleven, LDS chapter fourteen, Shore's source details, chapter sixteen's separate publisher note, and Phoebe's profile. Three inspected portraits use the built-in image generator. Files are in dist/assets/portraits/romans. Prompts and original paths are in scripts/romans-generated-portraits.json. No publication occurred.
+
+First Corinthians local review: all sixteen chapters pass Scripture, copy, presentation, and shared checks. A temporary Windows write failure interrupted one rebuild. The complete retry succeeded. Browser checks covered historical chapter fourteen, LDS chapter fifteen, the four-step guide, and Apollos's profile. Two inspected portraits use the built-in image generator. Files are in dist/assets/portraits/1-corinthians. Prompts and original paths are in scripts/1-corinthians-generated-portraits.json. No publication occurred.
+
+Second Corinthians local review: all thirteen chapters pass Scripture, copy, presentation, and shared checks. The shared builder now retries temporary Windows write errors up to four attempts. Persistent errors still stop the build. Browser checks covered historical chapter two, LDS chapter twelve, Tiede's source details, and Titus's profile. The inspected Titus portrait uses the built-in image generator. Its file is dist/assets/portraits/2-corinthians/titus.png. Its prompt and original path are in scripts/2-corinthians-generated-portraits.json. No publication occurred.
+
+Galatians local review: all six chapters pass Scripture, copy, presentation, and shared checks. Browser checks covered historical chapter four and LDS chapter three. Earthly Jerusalem links only at 4:25. Jerusalem above remains unlinked. Eight selected profiles reuse existing inspected artwork and preserve its credits. Works' interpretation remains attributed. No publication occurred.
+
+Ephesians local review: all six chapters pass Scripture, copy, presentation, and shared checks. Browser checks covered historical chapter five, LDS chapter six, and Tychicus's profile. The inspected portrait uses the built-in image generator. Its prompt and original path remain in scripts/ephesians-generated-portraits.json. The full copy check also found three long Galatians sentences. They were shortened in the persistent source and rebuilt. No publication occurred.
+
+Philippians local review: all four chapters pass Scripture, copy, presentation, and shared checks. Browser checks covered historical chapter four and LDS chapter two. Three inspected portraits use the built-in image generator. Prompts and original paths remain in scripts/philippians-generated-portraits.json. The map names the recipient city without assigning an exact prison setting. No publication occurred.
+
+Colossians local review: all four chapters pass Scripture, copy, and presentation checks. Browser checks covered historical chapter four, LDS chapter three, and Carlson's source details. The Jesus Christ profile excludes Jesus called Justus at 4:11. Two inspected portraits use the built-in image generator. Prompts and source paths remain in scripts/colossians-generated-portraits.json. Three NET location descriptions and coordinate lines support city markers. No publication occurred.
+
+First Thessalonians local review: all five chapters pass Scripture, copy, and presentation checks. Browser checks covered historical chapter two and LDS chapter four. Four selected profiles reuse inspected artwork. NET locality and coordinate lines support Thessalonica. Chapter two keeps the accusations within the letter's conflict. No publication occurred.
+
+Second Thessalonians local review: all three chapters pass Scripture, copy, and presentation checks. Browser checks covered historical chapter three and LDS chapter two. Four selected profiles reuse inspected artwork. The predicted lawless figure and restraining force have no invented modern identities. The Great Apostasy application remains distinct Church teaching. No publication occurred.
+
+First Timothy local review: all six chapters pass Scripture, copy, presentation, and shared checks. Browser checks covered historical chapter two and LDS chapter four. Five selected profiles reuse inspected artwork. The explanation retains unequal roles without inventing a local incident behind the restrictions. Eberhart's reading remains attributed. No publication occurred.
+
+Second Timothy local review: all four chapters pass Scripture, copy, and presentation checks. Browser checks covered historical chapter two and LDS chapter three. Five selected profiles reuse inspected artwork. Skinner's reading remains attributed. No exact prison site or complete travel sequence is assigned. No publication occurred.
+
+Titus local review: all three chapters pass Scripture, copy, and presentation checks. Browser checks covered historical chapter one and LDS chapter two. Five selected profiles reuse inspected artwork. NET locality and coordinates support Crete as an island reference. Nicopolis remains unmapped. The quoted insult is kept within the letter's accusation. No publication occurred.
+
+Philemon local review: all 25 verses pass Scripture, copy, and presentation checks. Browser checks covered both perspectives, the Philemon portrait, and the single-step guide through Finish. The inspected portrait uses the built-in image generator. Its prompt and original path remain in scripts/philemon-generated-portraits.json. The Church lesson title supplies no unsupported chapter reference. No publication occurred.
+
+Hebrews local review: all thirteen chapters pass Scripture, copy, and presentation checks. Browser checks covered historical chapter twelve and LDS chapter seven. Heavenly Jerusalem remains unlinked to an earthly marker. Eight selected profiles reuse inspected artwork. The unnamed speaker is not assigned to Paul. Foskett's interpretation remains attributed. No publication occurred.
+
+James local review: all five chapters pass Scripture, copy, and presentation checks. Browser checks covered historical chapter two and LDS chapter one. The inspected letter-speaker portrait uses the built-in image generator. Its prompt and source path remain in scripts/james-generated-portraits.json. No identification with another historical James is claimed. Sigmon's interpretation remains attributed. No publication occurred.
+
+First Peter local review: all five chapters pass Scripture, copy, and presentation checks. Browser checks covered historical chapter two and LDS chapter three. Six selected profiles reuse inspected artwork. Brown's interpretation remains attributed. The spirit-world application remains Church teaching, while Babylon has no invented literal location. No publication occurred.
+
+Second Peter local review: all three chapters pass Scripture, copy, and presentation checks. Browser checks covered historical chapter three and LDS chapter one. Six selected profiles reuse inspected artwork. Lange's interpretation remains attributed. The coming day has no calculated date. No publication occurred.
+
+First John local review: all five chapters pass Scripture, copy, and presentation checks. Browser checks covered historical chapter three and LDS chapter four. Two selected named profiles reuse inspected artwork. The unnamed speaker has no assigned personal identity. Ok's interpretation remains attributed. No publication occurred.
+
+Second John local review: all thirteen verses pass Scripture, copy, and presentation checks. Browser checks covered both perspectives. The elder and chosen lady have no invented personal identities. The full USCCB introduction was read through indexed text after direct access returned 403. Its assembly reading remains attributed. No publication occurred.
+
+Third John local review: all fourteen WEB verses pass Scripture, copy, and presentation checks. Browser checks covered both perspectives and Gaius's profile. Three inspected portraits use the built-in image generator. Their prompts and source paths remain in scripts/3-john-generated-portraits.json. Gaius and Demetrius remain distinct from same-name people elsewhere. No publication occurred.
+
+Jude local review: all 25 verses pass Scripture, copy, and presentation checks. Browser checks covered both perspectives. The inspected Jude portrait uses the built-in image generator. Its prompt and source path remain in scripts/jude-generated-portraits.json. Historical identities and transmission of earlier quoted accounts retain explicit limits. No publication occurred.
+
+Revelation local review: all 404 verses pass Scripture, copy, and presentation checks.
+Browser checks covered historical chapter thirteen, LDS chapter twenty-one, the source dialog, and John's profile.
+The four-step guide completed successfully. Chapter one displayed Patmos and the seven addressed cities.
+Symbolic and heavenly settings have no assigned literal coordinates. The false lamb in 13:11 has no Jesus profile link.
+The inspected John portrait uses the built-in image generator. Its prompt and source path remain in scripts/revelation-generated-portraits.json.
+Carey's interpretation remains attributed. Church lessons retain their actual reviewed chapter coverage.
+
+Completion review: all 66 books have ready local guides covering 1,189 chapters.
+The 65 added books contain 1,123 contextual readings and exact Scripture selections.
+Thirteen final books also received separate four-sentence summaries in persistent source files.
+Both shared and Bible checks passed. Representative browser checks covered both reading perspectives and selected guides, profiles, photographs, and source dialogs.
+The account endpoint returned 7% usage against the 0% baseline and 25% stop threshold.
+These guides remain local. No commit, push, or public deployment occurred during this continuation.

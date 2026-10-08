@@ -1,0 +1,1745 @@
+{
+  "sources": [
+    {
+      "id": "web",
+      "title": "Zechariah · World English Bible",
+      "url": "https://ebible.org/engwebp/ZEC01.htm",
+      "summary": "All fourteen chapters appear in the reading text.",
+      "category": "Scripture",
+      "perspective": "historical",
+      "limits": "Dated opening messages do not date every later vision. Symbolic figures and movements receive no certain historical identities or routes.",
+      "author": "World English Bible translators",
+      "publisher": "eBible.org",
+      "chapterCoverage": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "reviewed": {
+        "date": "2026-10-07",
+        "scope": "All 211 verses read. Verse counts and character integrity checked."
+      },
+      "type": "Scripture",
+      "limitations": "Dated opening messages do not date every later vision. Symbolic figures and movements receive no certain historical identities or routes.",
+      "license": "Public domain"
+    },
+    {
+      "id": "couey-zechariah",
+      "title": "Commentary on Zechariah 9:9-12",
+      "url": "https://www.workingpreacher.org/commentaries/revised-common-lectionary/ordinary-14/commentary-on-zechariah-99-12",
+      "summary": "Couey explains the king’s arrival, removed weapons, and promised release of prisoners.",
+      "category": "Scholarly study",
+      "perspective": "historical",
+      "limits": "Proposed dates, Hebrew readings, and modern applications remain the author’s interpretations. Linked works were not independently reviewed.",
+      "author": "J. Blake Couey",
+      "year": 2020,
+      "publisher": "Luther Seminary",
+      "chapterCoverage": [
+        9
+      ],
+      "reviewed": {
+        "date": "2026-10-07",
+        "scope": "Complete commentary body and footnotes read. Linked Alexander book and wider biblical comparisons were not independently reviewed."
+      },
+      "type": "Scholarly study",
+      "limitations": "Proposed dates, Hebrew readings, and modern applications remain the author’s interpretations. Linked works were not independently reviewed.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "cfm-zechariah-2026",
+      "title": "December 7–13: “Holiness unto the Lord” · Haggai 1–2; Zechariah 1–4; 7–14",
+      "url": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/50?lang=eng",
+      "summary": "The lesson studies holiness and reads selected visions through later accounts about Jesus Christ.",
+      "category": "LDS Come, Follow Me",
+      "perspective": "lds",
+      "limits": "Later Gospel and Restoration connections remain Church readings. They do not identify every unnamed figure in the original visions.",
+      "author": "The Church of Jesus Christ of Latter-day Saints",
+      "year": 2026,
+      "publisher": "The Church of Jesus Christ of Latter-day Saints",
+      "chapterCoverage": [
+        1,
+        2,
+        3,
+        7,
+        8,
+        9,
+        11,
+        12,
+        13,
+        14
+      ],
+      "reviewed": {
+        "date": "2026-10-07",
+        "scope": "Introduction and adult Zechariah study sections read. Coverage follows the chapters actually discussed, not every chapter in the heading. Linked talks, videos, and Scripture Helps were not separately reviewed."
+      },
+      "type": "LDS Come, Follow Me",
+      "limitations": "Later Gospel and Restoration connections remain Church readings. They do not identify every unnamed figure in the original visions.",
+      "license": "Linked source. Original guide summaries."
+    }
+  ],
+  "passages": [
+    {
+      "id": "zechariah-1",
+      "chapter": 1,
+      "start": 1,
+      "end": 21,
+      "title": "Peace elsewhere does not answer Jerusalem's distress",
+      "summary": "In the second year of Darius, Zechariah calls the people to return to the LORD. Their fathers ignored the prophets, and the warnings came true. Then Zechariah sees a vision at night. A man on a red horse stands among myrtle trees with other riders. They have patrolled the earth and found it quiet. The LORD’s angel asks how long Jerusalem must go without mercy. God answers with kind and comforting words. He is angry with the nations that are at ease.",
+      "year": null,
+      "dateLabel": "Book order",
+      "uncertainty": "Markers locate selected geographic references. Visions and promises do not establish traveled army or return paths.",
+      "placeIds": [
+        "jerusalem"
+      ],
+      "sourceIds": [
+        "web"
+      ],
+      "lds": {
+        "text": "The lesson connects returning to God with becoming holy. Why does the angel question the patrol’s report of peace?",
+        "sourceIds": [
+          "cfm-zechariah-2026"
+        ]
+      },
+      "contextNote": {
+        "title": "Peace elsewhere does not answer Jerusalem's distress",
+        "text": "The patrol reports in verse 11 that the whole earth is at rest. That sounds like good news. For Jerusalem it is not. The world is calm while the city still lies in ruins. In verse 12 an angel asks God, “how long?” Verse 15 says God is angry with the nations at ease. They went further in harming Judah than he intended.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    },
+    {
+      "id": "zechariah-2",
+      "chapter": 2,
+      "start": 1,
+      "end": 13,
+      "title": "The measured city receives a promise larger than its walls",
+      "summary": "Zechariah sees a man with a measuring line going to measure Jerusalem. An angel sends word to stop him. Jerusalem will be like villages without walls, since so many will live there. The LORD will be a wall of fire around it. He calls the exiles to escape from Babylon. Whoever touches them touches the apple of his eye. He is coming to live among his people. Many nations will join themselves to the LORD and be his people.",
+      "year": null,
+      "dateLabel": "Book order",
+      "uncertainty": "Markers locate selected geographic references. Visions and promises do not establish traveled army or return paths.",
+      "placeIds": [
+        "jerusalem",
+        "babylon"
+      ],
+      "sourceIds": [
+        "web"
+      ],
+      "lds": {
+        "text": "The lesson studies God dwelling among a people who become holy. How does the promise of protection change the meaning of the measuring line?",
+        "sourceIds": [
+          "cfm-zechariah-2026"
+        ]
+      },
+      "contextNote": {
+        "title": "The measured city receives a promise larger than its walls",
+        "text": "The man in verse 1 means to measure the city, perhaps for its walls. Verse 4 says the city will be too full for walls. Verse 5 gives a different protection: God himself as a wall of fire. Verse 11 then widens who lives inside. Many nations will join the LORD. He calls them “my people,” the name once given to Israel alone. The promise is larger than any line can mark.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    },
+    {
+      "id": "zechariah-3",
+      "chapter": 3,
+      "start": 1,
+      "end": 10,
+      "title": "Changed clothing answers the accusation against the priest",
+      "summary": "Zechariah sees the high priest Joshua standing before the LORD’s angel. The accuser stands at his right hand. The LORD rebukes the accuser and calls Joshua a stick snatched from the fire. Joshua is wearing filthy clothes. The angel orders them removed and says his guilt is taken away. He is dressed in fine robes and a clean turban. He is told to walk in God’s ways. God promises to bring his servant, the Branch.",
+      "year": null,
+      "dateLabel": "Book order",
+      "uncertainty": "Markers locate selected geographic references. Visions and promises do not establish traveled army or return paths.",
+      "placeIds": [
+        "jerusalem"
+      ],
+      "sourceIds": [
+        "web"
+      ],
+      "lds": {
+        "text": "The lesson uses Joshua’s changed clothing to discuss holiness and changed conduct. What must Joshua still do after receiving clean clothing?",
+        "sourceIds": [
+          "cfm-zechariah-2026"
+        ]
+      },
+      "contextNote": {
+        "title": "Changed clothing answers the accusation against the priest",
+        "text": "Verse 3 admits that Joshua’s clothes are filthy. The accuser has grounds. The reply in verse 2 does not claim Joshua is clean. It points to God’s choice of Jerusalem. Verse 4 then removes the clothes and the guilt together. Joshua does not change his own garments. Verse 7 gives him duties after the gift, not before it.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    },
+    {
+      "id": "zechariah-4",
+      "chapter": 4,
+      "start": 1,
+      "end": 14,
+      "title": "The vision directs attention back to unfinished work",
+      "summary": "An angel wakes Zechariah and shows him a gold lampstand with seven lamps. Two olive trees stand beside it. The angel gives a word for Zerubbabel the governor. The work will be done by God’s Spirit, not by might or power. The great mountain before him will become level ground. His hands laid the temple’s foundation, and his hands will finish it. No one should despise the day of small things. The two olive trees are the two anointed ones.",
+      "year": null,
+      "dateLabel": "Book order",
+      "uncertainty": "The vision names no securely mapped location for its objects. Symbolic movements receive no ordinary route.",
+      "placeIds": [],
+      "sourceIds": [
+        "web"
+      ],
+      "lds": {
+        "text": "Why does the promise mention both laying the foundation and finishing the house?",
+        "sourceIds": []
+      },
+      "contextNote": {
+        "title": "The vision directs attention back to unfinished work",
+        "text": "The vision is strange, and its message is practical. The temple’s foundation was laid, and then the work stalled (Ezra 4:24). Verse 6 says how it will be finished. The builders have no army or great strength. God’s Spirit will do it. Verse 9 promises that the hands that began will finish. Verse 10 speaks to those who scorned a small beginning.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    },
+    {
+      "id": "zechariah-5",
+      "chapter": 5,
+      "start": 1,
+      "end": 11,
+      "title": "Wrongdoing leaves houses without their supposed protection",
+      "summary": "Zechariah sees a huge scroll flying through the air. It carries a curse over the whole land. It condemns everyone who steals and everyone who swears falsely. It will enter their houses and consume timber and stone. Then he sees a measuring basket with a lead cover. A woman sits inside, and she is called Wickedness. Two winged women lift the basket into the sky. They carry it away to the land of Babylon.",
+      "year": null,
+      "dateLabel": "Book order",
+      "uncertainty": "The vision names no securely mapped location for its objects. Symbolic movements receive no ordinary route.",
+      "placeIds": [],
+      "sourceIds": [
+        "web"
+      ],
+      "lds": {
+        "text": "What happens when the curse enters houses built to shelter their owners?",
+        "sourceIds": []
+      },
+      "contextNote": {
+        "title": "Wrongdoing leaves houses without their supposed protection",
+        "text": "The scroll names two wrongs: theft and false oaths. One harms a neighbor, and the other misuses God’s name. Verse 4 says the curse goes into the offender’s house. A house is where people keep what they took and feel safe. The curse stays there and takes the building apart. So wrongdoing removes its own shelter. The second vision carries wickedness out of the land altogether.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    },
+    {
+      "id": "zechariah-6",
+      "chapter": 6,
+      "start": 1,
+      "end": 15,
+      "title": "A crown links distant gifts with the temple's future",
+      "summary": "Zechariah sees four chariots come out between two bronze mountains. They go out to patrol the whole earth. Then God tells him to collect silver and gold from exiles newly come from Babylon. He must make a crown and set it on Joshua the high priest. He says a man called the Branch will build the LORD’s temple. That man will rule on his throne and be a priest there. The crown will be kept in the temple as a reminder. People from far away will come and help build.",
+      "year": null,
+      "dateLabel": "Book order",
+      "uncertainty": "Markers locate selected geographic references. Visions and promises do not establish traveled army or return paths.",
+      "placeIds": [
+        "babylon"
+      ],
+      "sourceIds": [
+        "web"
+      ],
+      "lds": {
+        "text": "How do gifts from distant people become part of the temple’s future?",
+        "sourceIds": []
+      },
+      "contextNote": {
+        "title": "A crown links distant gifts with the temple's future",
+        "text": "The crown is set on a priest, not on the governor. Verse 13 then describes one figure called the Branch. He builds the temple, sits on a throne, and serves as priest. Israel had kept those two offices apart. Here there is “counsel of peace” between them. The gold comes from exiles who just arrived (verse 10). Verse 15 says more people from far away will share in the building.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    },
+    {
+      "id": "zechariah-7",
+      "chapter": 7,
+      "start": 1,
+      "end": 14,
+      "title": "A question about fasting becomes a question about injured neighbors",
+      "summary": "Men come from Bethel to ask the priests a question. For years they have fasted in the fifth month. They ask whether they should continue. God asks whether their fasting was really for him. He recalls what the earlier prophets said. Judge fairly, and show kindness and mercy to one another. Do not oppress widows, orphans, foreigners, or the poor. The fathers refused to listen, and so they were scattered.",
+      "year": null,
+      "dateLabel": "Book order",
+      "uncertainty": "Markers locate selected geographic references. Visions and promises do not establish traveled army or return paths.",
+      "placeIds": [
+        "bethel",
+        "jerusalem"
+      ],
+      "sourceIds": [
+        "web"
+      ],
+      "lds": {
+        "text": "The lesson connects holiness with compassion and protection for injured neighbors. Why does the answer move from fasting dates to injured neighbors?",
+        "sourceIds": [
+          "cfm-zechariah-2026"
+        ]
+      },
+      "contextNote": {
+        "title": "A question about fasting becomes a question about injured neighbors",
+        "text": "The fifth-month fast mourned the burning of the temple (2 Kings 25:8–9). God does not answer the question until 8:19. He first asks whom the fasting served (verses 5–6). Then verses 9–10 repeat the earlier prophets’ demand. Four groups are named: widows, orphans, foreigners, and the poor. Neglect of them led to the loss now being mourned. Grief over the loss means little if its cause continues.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    },
+    {
+      "id": "zechariah-8",
+      "chapter": 8,
+      "start": 1,
+      "end": 23,
+      "title": "A restored city must be safe enough for ordinary life",
+      "summary": "The LORD says he is returning to Zion to live in Jerusalem. Old men and women will sit in its streets with their canes. The streets will be full of boys and girls playing. God will bring his people from east and west. He tells them to be strong and finish the temple. They must speak truth and judge fairly at their gates. The fasts will become glad feasts. Ten foreigners will take hold of one Jew’s robe and ask to go with him.",
+      "year": null,
+      "dateLabel": "Book order",
+      "uncertainty": "Markers locate selected geographic references. Visions and promises do not establish traveled army or return paths.",
+      "placeIds": [
+        "jerusalem"
+      ],
+      "sourceIds": [
+        "web"
+      ],
+      "lds": {
+        "text": "The lesson studies truth and peace as part of a future holy community. What do playing children show about the city’s restored life?",
+        "sourceIds": [
+          "cfm-zechariah-2026"
+        ]
+      },
+      "contextNote": {
+        "title": "A restored city must be safe enough for ordinary life",
+        "text": "Verses 4–5 measure the restored city by two groups. Old people sit outside, and children play in the streets. These are the ages least able to defend themselves. No walls or soldiers are mentioned. A city is safe when they can use its streets. Verses 16–17 say what that takes: true speech and fair courts. Verse 19 finally answers the question about fasting from chapter 7.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    },
+    {
+      "id": "zechariah-9",
+      "chapter": 9,
+      "start": 1,
+      "end": 17,
+      "title": "The promised king removes weapons while the chapter still contains battle",
+      "summary": "A message of judgment falls on Syria, Tyre, and the Philistine cities. God will guard his house against every army. Zion is told to rejoice, for her king is coming. He is righteous and humble and rides on a donkey. He will remove chariots, war horses, and bows from Israel. He will speak peace to the nations and rule from sea to sea. God will free the prisoners because of his covenant. He will save his people like a flock.",
+      "year": null,
+      "dateLabel": "Book order",
+      "uncertainty": "Markers locate selected geographic references. Visions and promises do not establish traveled army or return paths.",
+      "placeIds": [
+        "damascus",
+        "tyre",
+        "sidon",
+        "gaza",
+        "ashkelon",
+        "ashdod",
+        "ekron",
+        "jerusalem"
+      ],
+      "sourceIds": [
+        "web",
+        "couey-zechariah"
+      ],
+      "lds": {
+        "text": "The lesson reads the coming king through Matthew’s later account of Jesus entering Jerusalem. How does removing weapons explain the announced peace?",
+        "sourceIds": [
+          "cfm-zechariah-2026"
+        ]
+      },
+      "contextNote": {
+        "title": "The promised king removes weapons while the chapter still contains battle",
+        "text": "Verse 9 brings the king on a donkey, not a war horse. Verse 10 then says what he removes. The chariots of Ephraim and the horses of Jerusalem are Israel’s own. He disarms his own side. His rule spreads by speaking peace. Verses 13–15 still describe battle, and the chapter keeps both pictures. Matthew 21:5 quotes verse 9 about Jesus entering Jerusalem.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    },
+    {
+      "id": "zechariah-10",
+      "chapter": 10,
+      "start": 1,
+      "end": 12,
+      "title": "Failed guidance leaves people scattered like an untended flock",
+      "summary": "The people are told to ask the LORD for rain in the spring. Household idols speak nonsense, and fortune-tellers see lies. Their comfort is empty. So the people wander like sheep with no shepherd. God is angry with the shepherds and will care for his flock himself. He will strengthen Judah and save the house of Joseph. He will whistle for them and gather them in. He will bring them home from Egypt and Assyria.",
+      "year": null,
+      "dateLabel": "Book order",
+      "uncertainty": "Markers locate selected geographic references. Visions and promises do not establish traveled army or return paths.",
+      "placeIds": [
+        "egypt",
+        "gilead",
+        "lebanon"
+      ],
+      "sourceIds": [
+        "web"
+      ],
+      "lds": {
+        "text": "How does failed guidance leave the people like untended sheep?",
+        "sourceIds": []
+      },
+      "contextNote": {
+        "title": "Failed guidance leaves people scattered like an untended flock",
+        "text": "Verse 1 says to ask the LORD, who makes the storm clouds. Verse 2 names where the people have been asking. They turn to household idols, diviners, and dreamers. The comfort they receive is false. The verse then states a result in society. People drift like sheep and suffer because no one leads them. In verse 3 God answers by becoming their shepherd himself.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    },
+    {
+      "id": "zechariah-11",
+      "chapter": 11,
+      "start": 1,
+      "end": 17,
+      "title": "Selling the flock turns care into profit",
+      "summary": "Zechariah is told to shepherd a flock marked for slaughter. Its buyers kill the sheep and feel no guilt. Its sellers thank God that they are rich. He takes two staffs, named Favor and Union. He grows weary of the flock, and they detest him. He breaks the staff Favor and asks for his wages. They weigh out thirty pieces of silver, and he throws it to the potter. He breaks the second staff, and a worthless shepherd follows.",
+      "year": null,
+      "dateLabel": "Book order",
+      "uncertainty": "Markers locate selected geographic references. Visions and promises do not establish traveled army or return paths.",
+      "placeIds": [
+        "lebanon"
+      ],
+      "sourceIds": [
+        "web"
+      ],
+      "lds": {
+        "text": "The lesson connects the weighed silver with Matthew’s later account concerning Judas. What happens when the people responsible for care treat the flock as profit?",
+        "sourceIds": [
+          "cfm-zechariah-2026"
+        ]
+      },
+      "contextNote": {
+        "title": "Selling the flock turns care into profit",
+        "text": "Verse 5 names three groups who gain from the flock. Buyers slaughter and go unpunished. Sellers say, “Blessed be the LORD, for I am rich.” The flock’s own shepherds feel no pity. Religious words cover the trade. The good shepherd’s pay in verse 12 is thirty pieces of silver. Exodus 21:32 sets that as the price of a slave.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    },
+    {
+      "id": "zechariah-12",
+      "chapter": 12,
+      "start": 1,
+      "end": 14,
+      "title": "Rescue outside the city comes before the city's honor",
+      "summary": "The LORD will make Jerusalem a cup that makes the nations stagger. All who try to lift that heavy stone will hurt themselves. The clans of Judah will be like fire among sheaves. The LORD will save the tents of Judah first. David’s house and Jerusalem will not be honored above the rest. Then God will pour out a spirit of grace and prayer. They will look on one they pierced and mourn. Every family will mourn by itself.",
+      "year": null,
+      "dateLabel": "Book order",
+      "uncertainty": "Markers locate selected geographic references. Visions and promises do not establish traveled army or return paths.",
+      "placeIds": [
+        "jerusalem"
+      ],
+      "sourceIds": [
+        "web"
+      ],
+      "lds": {
+        "text": "The lesson reads the pierced figure through John’s account and later Revelation. Why does rescue for the tents come before honor for the capital?",
+        "sourceIds": [
+          "cfm-zechariah-2026"
+        ]
+      },
+      "contextNote": {
+        "title": "Rescue outside the city comes before the city's honor",
+        "text": "Verse 7 sets an order for the rescue. The “tents of Judah,” the countryside, are saved first. The verse gives the reason. The capital and the royal house must not rise above the others. Verse 10 then turns victory into mourning. The leading families weep one by one (verses 12–14). John 19:37 applies verse 10 to the death of Jesus.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    },
+    {
+      "id": "zechariah-13",
+      "chapter": 13,
+      "start": 1,
+      "end": 9,
+      "title": "Cleansing includes the collapse of false claims and the testing of survivors",
+      "summary": "On that day a fountain will be opened to cleanse sin. God will remove the names of the idols from the land. False prophets will be ashamed and deny their trade. A sword is called against God’s shepherd. The shepherd is struck, and the sheep scatter. Two thirds of the people will perish. The last third will pass through fire and be refined like silver. They will call on God, and he will call them his people.",
+      "year": null,
+      "dateLabel": "Book order",
+      "uncertainty": "Markers locate selected geographic references. Visions and promises do not establish traveled army or return paths.",
+      "placeIds": [
+        "jerusalem"
+      ],
+      "sourceIds": [
+        "web"
+      ],
+      "lds": {
+        "text": "The lesson connects the struck shepherd with Matthew and the wounds with Restoration scripture. What does the final exchange say about the survivors’ relationship with God?",
+        "sourceIds": [
+          "cfm-zechariah-2026"
+        ]
+      },
+      "contextNote": {
+        "title": "Cleansing includes the collapse of false claims and the testing of survivors",
+        "text": "The chapter moves in four steps. A fountain cleanses (verse 1), and false prophecy ends (verses 2–6). The shepherd is struck (verse 7), and the survivors are refined (verses 8–9). Being among the survivors is not the end. Fire tests them as silver and gold are tested. Verse 9 closes with both sides speaking. God says, “It is my people,” and they say, “The LORD is my God.”",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    },
+    {
+      "id": "zechariah-14",
+      "chapter": 14,
+      "start": 1,
+      "end": 21,
+      "title": "Holiness reaches ordinary pots after a vision of terrible conflict",
+      "summary": "A day of the LORD is coming when nations will attack Jerusalem. The city will be taken, and half its people exiled. Then the LORD will fight, and his feet will stand on the Mount of Olives. Living water will flow from Jerusalem all year. The LORD will be king over all the earth. Survivors of the nations will come each year to worship him. Even the bells on the horses will be marked as holy. Every cooking pot in Jerusalem will be holy to the LORD.",
+      "year": null,
+      "dateLabel": "Book order",
+      "uncertainty": "Markers locate selected geographic references. Visions and promises do not establish traveled army or return paths.",
+      "placeIds": [
+        "jerusalem",
+        "olives",
+        "egypt"
+      ],
+      "sourceIds": [
+        "web"
+      ],
+      "lds": {
+        "text": "The lesson uses daily objects to discuss holiness and gives later readings about Christ’s return. How does holiness on cooking pots change the final image of worship?",
+        "sourceIds": [
+          "cfm-zechariah-2026"
+        ]
+      },
+      "contextNote": {
+        "title": "Holiness reaches ordinary pots after a vision of terrible conflict",
+        "text": "The chapter begins with a city plundered (verse 2). It ends with kitchens. “Holy to the LORD” was engraved on the high priest’s gold plate (Exodus 28:36). Verse 20 puts those words on horses’ bells. Verse 21 makes every pot in the city fit for sacred use. The line between holy and common is removed by raising everything. Verse 16 includes survivors from the nations in the worship.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "zechariah-1",
+      "chapter": 1,
+      "verse": 1,
+      "eventOrder": 1,
+      "title": "Peace elsewhere does not answer Jerusalem's distress",
+      "summary": "In the second year of Darius, Zechariah calls the people to return to the LORD. Their fathers ignored the prophets, and the warnings came true. Then Zechariah sees a vision at night. A man on a red horse stands among myrtle trees with other riders. They have patrolled the earth and found it quiet. The LORD’s angel asks how long Jerusalem must go without mercy. God answers with kind and comforting words. He is angry with the nations that are at ease.",
+      "detail": "The patrol reports in verse 11 that the whole earth is at rest. That sounds like good news. For Jerusalem it is not. The world is calm while the city still lies in ruins. In verse 12 an angel asks God, “how long?” Verse 15 says God is angry with the nations at ease. They went further in harming Judah than he intended.",
+      "dateLabel": "Book order",
+      "uncertainty": "Markers locate selected geographic references. Visions and promises do not establish traveled army or return paths.",
+      "sourceIds": [
+        "web"
+      ],
+      "placeIds": [
+        "jerusalem"
+      ],
+      "lds": {
+        "text": "The lesson connects returning to God with becoming holy. Why does the angel question the patrol’s report of peace?",
+        "sourceIds": [
+          "cfm-zechariah-2026"
+        ]
+      }
+    },
+    {
+      "id": "zechariah-2",
+      "chapter": 2,
+      "verse": 1,
+      "eventOrder": 2,
+      "title": "The measured city receives a promise larger than its walls",
+      "summary": "Zechariah sees a man with a measuring line going to measure Jerusalem. An angel sends word to stop him. Jerusalem will be like villages without walls, since so many will live there. The LORD will be a wall of fire around it. He calls the exiles to escape from Babylon. Whoever touches them touches the apple of his eye. He is coming to live among his people. Many nations will join themselves to the LORD and be his people.",
+      "detail": "The man in verse 1 means to measure the city, perhaps for its walls. Verse 4 says the city will be too full for walls. Verse 5 gives a different protection: God himself as a wall of fire. Verse 11 then widens who lives inside. Many nations will join the LORD. He calls them “my people,” the name once given to Israel alone. The promise is larger than any line can mark.",
+      "dateLabel": "Book order",
+      "uncertainty": "Markers locate selected geographic references. Visions and promises do not establish traveled army or return paths.",
+      "sourceIds": [
+        "web"
+      ],
+      "placeIds": [
+        "jerusalem",
+        "babylon"
+      ],
+      "lds": {
+        "text": "The lesson studies God dwelling among a people who become holy. How does the promise of protection change the meaning of the measuring line?",
+        "sourceIds": [
+          "cfm-zechariah-2026"
+        ]
+      }
+    },
+    {
+      "id": "zechariah-3",
+      "chapter": 3,
+      "verse": 1,
+      "eventOrder": 3,
+      "title": "Changed clothing answers the accusation against the priest",
+      "summary": "Zechariah sees the high priest Joshua standing before the LORD’s angel. The accuser stands at his right hand. The LORD rebukes the accuser and calls Joshua a stick snatched from the fire. Joshua is wearing filthy clothes. The angel orders them removed and says his guilt is taken away. He is dressed in fine robes and a clean turban. He is told to walk in God’s ways. God promises to bring his servant, the Branch.",
+      "detail": "Verse 3 admits that Joshua’s clothes are filthy. The accuser has grounds. The reply in verse 2 does not claim Joshua is clean. It points to God’s choice of Jerusalem. Verse 4 then removes the clothes and the guilt together. Joshua does not change his own garments. Verse 7 gives him duties after the gift, not before it.",
+      "dateLabel": "Book order",
+      "uncertainty": "Markers locate selected geographic references. Visions and promises do not establish traveled army or return paths.",
+      "sourceIds": [
+        "web"
+      ],
+      "placeIds": [
+        "jerusalem"
+      ],
+      "lds": {
+        "text": "The lesson uses Joshua’s changed clothing to discuss holiness and changed conduct. What must Joshua still do after receiving clean clothing?",
+        "sourceIds": [
+          "cfm-zechariah-2026"
+        ]
+      }
+    },
+    {
+      "id": "zechariah-4",
+      "chapter": 4,
+      "verse": 1,
+      "eventOrder": 4,
+      "title": "The vision directs attention back to unfinished work",
+      "summary": "An angel wakes Zechariah and shows him a gold lampstand with seven lamps. Two olive trees stand beside it. The angel gives a word for Zerubbabel the governor. The work will be done by God’s Spirit, not by might or power. The great mountain before him will become level ground. His hands laid the temple’s foundation, and his hands will finish it. No one should despise the day of small things. The two olive trees are the two anointed ones.",
+      "detail": "The vision is strange, and its message is practical. The temple’s foundation was laid, and then the work stalled (Ezra 4:24). Verse 6 says how it will be finished. The builders have no army or great strength. God’s Spirit will do it. Verse 9 promises that the hands that began will finish. Verse 10 speaks to those who scorned a small beginning.",
+      "dateLabel": "Book order",
+      "uncertainty": "The vision names no securely mapped location for its objects. Symbolic movements receive no ordinary route.",
+      "sourceIds": [
+        "web"
+      ],
+      "placeIds": [],
+      "lds": {
+        "text": "Why does the promise mention both laying the foundation and finishing the house?",
+        "sourceIds": []
+      }
+    },
+    {
+      "id": "zechariah-5",
+      "chapter": 5,
+      "verse": 1,
+      "eventOrder": 5,
+      "title": "Wrongdoing leaves houses without their supposed protection",
+      "summary": "Zechariah sees a huge scroll flying through the air. It carries a curse over the whole land. It condemns everyone who steals and everyone who swears falsely. It will enter their houses and consume timber and stone. Then he sees a measuring basket with a lead cover. A woman sits inside, and she is called Wickedness. Two winged women lift the basket into the sky. They carry it away to the land of Babylon.",
+      "detail": "The scroll names two wrongs: theft and false oaths. One harms a neighbor, and the other misuses God’s name. Verse 4 says the curse goes into the offender’s house. A house is where people keep what they took and feel safe. The curse stays there and takes the building apart. So wrongdoing removes its own shelter. The second vision carries wickedness out of the land altogether.",
+      "dateLabel": "Book order",
+      "uncertainty": "The vision names no securely mapped location for its objects. Symbolic movements receive no ordinary route.",
+      "sourceIds": [
+        "web"
+      ],
+      "placeIds": [],
+      "lds": {
+        "text": "What happens when the curse enters houses built to shelter their owners?",
+        "sourceIds": []
+      }
+    },
+    {
+      "id": "zechariah-6",
+      "chapter": 6,
+      "verse": 1,
+      "eventOrder": 6,
+      "title": "A crown links distant gifts with the temple's future",
+      "summary": "Zechariah sees four chariots come out between two bronze mountains. They go out to patrol the whole earth. Then God tells him to collect silver and gold from exiles newly come from Babylon. He must make a crown and set it on Joshua the high priest. He says a man called the Branch will build the LORD’s temple. That man will rule on his throne and be a priest there. The crown will be kept in the temple as a reminder. People from far away will come and help build.",
+      "detail": "The crown is set on a priest, not on the governor. Verse 13 then describes one figure called the Branch. He builds the temple, sits on a throne, and serves as priest. Israel had kept those two offices apart. Here there is “counsel of peace” between them. The gold comes from exiles who just arrived (verse 10). Verse 15 says more people from far away will share in the building.",
+      "dateLabel": "Book order",
+      "uncertainty": "Markers locate selected geographic references. Visions and promises do not establish traveled army or return paths.",
+      "sourceIds": [
+        "web"
+      ],
+      "placeIds": [
+        "babylon"
+      ],
+      "lds": {
+        "text": "How do gifts from distant people become part of the temple’s future?",
+        "sourceIds": []
+      }
+    },
+    {
+      "id": "zechariah-7",
+      "chapter": 7,
+      "verse": 1,
+      "eventOrder": 7,
+      "title": "A question about fasting becomes a question about injured neighbors",
+      "summary": "Men come from Bethel to ask the priests a question. For years they have fasted in the fifth month. They ask whether they should continue. God asks whether their fasting was really for him. He recalls what the earlier prophets said. Judge fairly, and show kindness and mercy to one another. Do not oppress widows, orphans, foreigners, or the poor. The fathers refused to listen, and so they were scattered.",
+      "detail": "The fifth-month fast mourned the burning of the temple (2 Kings 25:8–9). God does not answer the question until 8:19. He first asks whom the fasting served (verses 5–6). Then verses 9–10 repeat the earlier prophets’ demand. Four groups are named: widows, orphans, foreigners, and the poor. Neglect of them led to the loss now being mourned. Grief over the loss means little if its cause continues.",
+      "dateLabel": "Book order",
+      "uncertainty": "Markers locate selected geographic references. Visions and promises do not establish traveled army or return paths.",
+      "sourceIds": [
+        "web"
+      ],
+      "placeIds": [
+        "bethel",
+        "jerusalem"
+      ],
+      "lds": {
+        "text": "The lesson connects holiness with compassion and protection for injured neighbors. Why does the answer move from fasting dates to injured neighbors?",
+        "sourceIds": [
+          "cfm-zechariah-2026"
+        ]
+      }
+    },
+    {
+      "id": "zechariah-8",
+      "chapter": 8,
+      "verse": 1,
+      "eventOrder": 8,
+      "title": "A restored city must be safe enough for ordinary life",
+      "summary": "The LORD says he is returning to Zion to live in Jerusalem. Old men and women will sit in its streets with their canes. The streets will be full of boys and girls playing. God will bring his people from east and west. He tells them to be strong and finish the temple. They must speak truth and judge fairly at their gates. The fasts will become glad feasts. Ten foreigners will take hold of one Jew’s robe and ask to go with him.",
+      "detail": "Verses 4–5 measure the restored city by two groups. Old people sit outside, and children play in the streets. These are the ages least able to defend themselves. No walls or soldiers are mentioned. A city is safe when they can use its streets. Verses 16–17 say what that takes: true speech and fair courts. Verse 19 finally answers the question about fasting from chapter 7.",
+      "dateLabel": "Book order",
+      "uncertainty": "Markers locate selected geographic references. Visions and promises do not establish traveled army or return paths.",
+      "sourceIds": [
+        "web"
+      ],
+      "placeIds": [
+        "jerusalem"
+      ],
+      "lds": {
+        "text": "The lesson studies truth and peace as part of a future holy community. What do playing children show about the city’s restored life?",
+        "sourceIds": [
+          "cfm-zechariah-2026"
+        ]
+      }
+    },
+    {
+      "id": "zechariah-9",
+      "chapter": 9,
+      "verse": 1,
+      "eventOrder": 9,
+      "title": "The promised king removes weapons while the chapter still contains battle",
+      "summary": "A message of judgment falls on Syria, Tyre, and the Philistine cities. God will guard his house against every army. Zion is told to rejoice, for her king is coming. He is righteous and humble and rides on a donkey. He will remove chariots, war horses, and bows from Israel. He will speak peace to the nations and rule from sea to sea. God will free the prisoners because of his covenant. He will save his people like a flock.",
+      "detail": "Verse 9 brings the king on a donkey, not a war horse. Verse 10 then says what he removes. The chariots of Ephraim and the horses of Jerusalem are Israel’s own. He disarms his own side. His rule spreads by speaking peace. Verses 13–15 still describe battle, and the chapter keeps both pictures. Matthew 21:5 quotes verse 9 about Jesus entering Jerusalem.",
+      "dateLabel": "Book order",
+      "uncertainty": "Markers locate selected geographic references. Visions and promises do not establish traveled army or return paths.",
+      "sourceIds": [
+        "web",
+        "couey-zechariah"
+      ],
+      "placeIds": [
+        "damascus",
+        "tyre",
+        "sidon",
+        "gaza",
+        "ashkelon",
+        "ashdod",
+        "ekron",
+        "jerusalem"
+      ],
+      "lds": {
+        "text": "The lesson reads the coming king through Matthew’s later account of Jesus entering Jerusalem. How does removing weapons explain the announced peace?",
+        "sourceIds": [
+          "cfm-zechariah-2026"
+        ]
+      }
+    },
+    {
+      "id": "zechariah-10",
+      "chapter": 10,
+      "verse": 1,
+      "eventOrder": 10,
+      "title": "Failed guidance leaves people scattered like an untended flock",
+      "summary": "The people are told to ask the LORD for rain in the spring. Household idols speak nonsense, and fortune-tellers see lies. Their comfort is empty. So the people wander like sheep with no shepherd. God is angry with the shepherds and will care for his flock himself. He will strengthen Judah and save the house of Joseph. He will whistle for them and gather them in. He will bring them home from Egypt and Assyria.",
+      "detail": "Verse 1 says to ask the LORD, who makes the storm clouds. Verse 2 names where the people have been asking. They turn to household idols, diviners, and dreamers. The comfort they receive is false. The verse then states a result in society. People drift like sheep and suffer because no one leads them. In verse 3 God answers by becoming their shepherd himself.",
+      "dateLabel": "Book order",
+      "uncertainty": "Markers locate selected geographic references. Visions and promises do not establish traveled army or return paths.",
+      "sourceIds": [
+        "web"
+      ],
+      "placeIds": [
+        "egypt",
+        "gilead",
+        "lebanon"
+      ],
+      "lds": {
+        "text": "How does failed guidance leave the people like untended sheep?",
+        "sourceIds": []
+      }
+    },
+    {
+      "id": "zechariah-11",
+      "chapter": 11,
+      "verse": 1,
+      "eventOrder": 11,
+      "title": "Selling the flock turns care into profit",
+      "summary": "Zechariah is told to shepherd a flock marked for slaughter. Its buyers kill the sheep and feel no guilt. Its sellers thank God that they are rich. He takes two staffs, named Favor and Union. He grows weary of the flock, and they detest him. He breaks the staff Favor and asks for his wages. They weigh out thirty pieces of silver, and he throws it to the potter. He breaks the second staff, and a worthless shepherd follows.",
+      "detail": "Verse 5 names three groups who gain from the flock. Buyers slaughter and go unpunished. Sellers say, “Blessed be the LORD, for I am rich.” The flock’s own shepherds feel no pity. Religious words cover the trade. The good shepherd’s pay in verse 12 is thirty pieces of silver. Exodus 21:32 sets that as the price of a slave.",
+      "dateLabel": "Book order",
+      "uncertainty": "Markers locate selected geographic references. Visions and promises do not establish traveled army or return paths.",
+      "sourceIds": [
+        "web"
+      ],
+      "placeIds": [
+        "lebanon"
+      ],
+      "lds": {
+        "text": "The lesson connects the weighed silver with Matthew’s later account concerning Judas. What happens when the people responsible for care treat the flock as profit?",
+        "sourceIds": [
+          "cfm-zechariah-2026"
+        ]
+      }
+    },
+    {
+      "id": "zechariah-12",
+      "chapter": 12,
+      "verse": 1,
+      "eventOrder": 12,
+      "title": "Rescue outside the city comes before the city's honor",
+      "summary": "The LORD will make Jerusalem a cup that makes the nations stagger. All who try to lift that heavy stone will hurt themselves. The clans of Judah will be like fire among sheaves. The LORD will save the tents of Judah first. David’s house and Jerusalem will not be honored above the rest. Then God will pour out a spirit of grace and prayer. They will look on one they pierced and mourn. Every family will mourn by itself.",
+      "detail": "Verse 7 sets an order for the rescue. The “tents of Judah,” the countryside, are saved first. The verse gives the reason. The capital and the royal house must not rise above the others. Verse 10 then turns victory into mourning. The leading families weep one by one (verses 12–14). John 19:37 applies verse 10 to the death of Jesus.",
+      "dateLabel": "Book order",
+      "uncertainty": "Markers locate selected geographic references. Visions and promises do not establish traveled army or return paths.",
+      "sourceIds": [
+        "web"
+      ],
+      "placeIds": [
+        "jerusalem"
+      ],
+      "lds": {
+        "text": "The lesson reads the pierced figure through John’s account and later Revelation. Why does rescue for the tents come before honor for the capital?",
+        "sourceIds": [
+          "cfm-zechariah-2026"
+        ]
+      }
+    },
+    {
+      "id": "zechariah-13",
+      "chapter": 13,
+      "verse": 1,
+      "eventOrder": 13,
+      "title": "Cleansing includes the collapse of false claims and the testing of survivors",
+      "summary": "On that day a fountain will be opened to cleanse sin. God will remove the names of the idols from the land. False prophets will be ashamed and deny their trade. A sword is called against God’s shepherd. The shepherd is struck, and the sheep scatter. Two thirds of the people will perish. The last third will pass through fire and be refined like silver. They will call on God, and he will call them his people.",
+      "detail": "The chapter moves in four steps. A fountain cleanses (verse 1), and false prophecy ends (verses 2–6). The shepherd is struck (verse 7), and the survivors are refined (verses 8–9). Being among the survivors is not the end. Fire tests them as silver and gold are tested. Verse 9 closes with both sides speaking. God says, “It is my people,” and they say, “The LORD is my God.”",
+      "dateLabel": "Book order",
+      "uncertainty": "Markers locate selected geographic references. Visions and promises do not establish traveled army or return paths.",
+      "sourceIds": [
+        "web"
+      ],
+      "placeIds": [
+        "jerusalem"
+      ],
+      "lds": {
+        "text": "The lesson connects the struck shepherd with Matthew and the wounds with Restoration scripture. What does the final exchange say about the survivors’ relationship with God?",
+        "sourceIds": [
+          "cfm-zechariah-2026"
+        ]
+      }
+    },
+    {
+      "id": "zechariah-14",
+      "chapter": 14,
+      "verse": 1,
+      "eventOrder": 14,
+      "title": "Holiness reaches ordinary pots after a vision of terrible conflict",
+      "summary": "A day of the LORD is coming when nations will attack Jerusalem. The city will be taken, and half its people exiled. Then the LORD will fight, and his feet will stand on the Mount of Olives. Living water will flow from Jerusalem all year. The LORD will be king over all the earth. Survivors of the nations will come each year to worship him. Even the bells on the horses will be marked as holy. Every cooking pot in Jerusalem will be holy to the LORD.",
+      "detail": "The chapter begins with a city plundered (verse 2). It ends with kitchens. “Holy to the LORD” was engraved on the high priest’s gold plate (Exodus 28:36). Verse 20 puts those words on horses’ bells. Verse 21 makes every pot in the city fit for sacred use. The line between holy and common is removed by raising everything. Verse 16 includes survivors from the nations in the worship.",
+      "dateLabel": "Book order",
+      "uncertainty": "Markers locate selected geographic references. Visions and promises do not establish traveled army or return paths.",
+      "sourceIds": [
+        "web"
+      ],
+      "placeIds": [
+        "jerusalem",
+        "olives",
+        "egypt"
+      ],
+      "lds": {
+        "text": "The lesson uses daily objects to discuss holiness and gives later readings about Christ’s return. How does holiness on cooking pots change the final image of worship?",
+        "sourceIds": [
+          "cfm-zechariah-2026"
+        ]
+      }
+    }
+  ],
+  "places": [
+    {
+      "id": "jerusalem",
+      "name": "Jerusalem",
+      "lat": 31.778,
+      "lng": 35.235,
+      "summary": "Jerusalem receives promises of rebuilding, changed conduct, protection, and worship by many nations.",
+      "limits": "Approximate city or regional reference. No visionary boundaries, split mountain path, or battle route is reconstructed.",
+      "sourceIds": [
+        "web"
+      ],
+      "detail": "Jerusalem receives promises of rebuilding, changed conduct, protection, and worship by many nations.",
+      "uncertainty": "Approximate city or regional reference. No visionary boundaries, split mountain path, or battle route is reconstructed.",
+      "chapterLocation": true
+    },
+    {
+      "id": "babylon",
+      "name": "Babylon",
+      "lat": 32.54,
+      "lng": 44.42,
+      "summary": "Babylon appears as the place from which people must leave or have brought gifts.",
+      "limits": "Approximate city or regional reference. No visionary boundaries, split mountain path, or battle route is reconstructed.",
+      "sourceIds": [
+        "web"
+      ],
+      "detail": "Babylon appears as the place from which people must leave or have brought gifts.",
+      "uncertainty": "Approximate city or regional reference. No visionary boundaries, split mountain path, or battle route is reconstructed.",
+      "chapterLocation": true
+    },
+    {
+      "id": "damascus",
+      "name": "Damascus",
+      "lat": 33.513,
+      "lng": 36.292,
+      "summary": "Damascus appears at the beginning of the warning against northern and coastal cities.",
+      "limits": "Approximate city or regional reference. No visionary boundaries, split mountain path, or battle route is reconstructed.",
+      "sourceIds": [
+        "web"
+      ],
+      "detail": "Damascus appears at the beginning of the warning against northern and coastal cities.",
+      "uncertainty": "Approximate city or regional reference. No visionary boundaries, split mountain path, or battle route is reconstructed.",
+      "chapterLocation": true
+    },
+    {
+      "id": "tyre",
+      "name": "Tyre",
+      "lat": 33.27,
+      "lng": 35.2,
+      "summary": "Tyre’s stored wealth and sea power face judgment before the promised king arrives.",
+      "limits": "Approximate city or regional reference. No visionary boundaries, split mountain path, or battle route is reconstructed.",
+      "sourceIds": [
+        "web"
+      ],
+      "detail": "Tyre’s stored wealth and sea power face judgment before the promised king arrives.",
+      "uncertainty": "Approximate city or regional reference. No visionary boundaries, split mountain path, or battle route is reconstructed.",
+      "chapterLocation": true
+    },
+    {
+      "id": "sidon",
+      "name": "Sidon",
+      "lat": 33.56,
+      "lng": 35.37,
+      "summary": "Sidon appears with Tyre among places addressed in the opening warning of chapter nine.",
+      "limits": "Approximate city or regional reference. No visionary boundaries, split mountain path, or battle route is reconstructed.",
+      "sourceIds": [
+        "web"
+      ],
+      "detail": "Sidon appears with Tyre among places addressed in the opening warning of chapter nine.",
+      "uncertainty": "Approximate city or regional reference. No visionary boundaries, split mountain path, or battle route is reconstructed.",
+      "chapterLocation": true
+    },
+    {
+      "id": "gaza",
+      "name": "Gaza",
+      "lat": 31.5,
+      "lng": 34.46,
+      "summary": "Gaza’s king faces loss after the threatened fall of Tyre.",
+      "limits": "Approximate city or regional reference. No visionary boundaries, split mountain path, or battle route is reconstructed.",
+      "sourceIds": [
+        "web"
+      ],
+      "detail": "Gaza’s king faces loss after the threatened fall of Tyre.",
+      "uncertainty": "Approximate city or regional reference. No visionary boundaries, split mountain path, or battle route is reconstructed.",
+      "chapterLocation": true
+    },
+    {
+      "id": "ashkelon",
+      "name": "Ashkelon",
+      "lat": 31.67,
+      "lng": 34.55,
+      "summary": "Ashkelon appears among cities threatened with fear and abandonment.",
+      "limits": "Approximate city or regional reference. No visionary boundaries, split mountain path, or battle route is reconstructed.",
+      "sourceIds": [
+        "web"
+      ],
+      "detail": "Ashkelon appears among cities threatened with fear and abandonment.",
+      "uncertainty": "Approximate city or regional reference. No visionary boundaries, split mountain path, or battle route is reconstructed.",
+      "chapterLocation": true
+    },
+    {
+      "id": "ashdod",
+      "name": "Ashdod",
+      "lat": 31.75,
+      "lng": 34.66,
+      "summary": "Ashdod appears where outsiders will dwell as Philistine pride is removed.",
+      "limits": "Approximate city or regional reference. No visionary boundaries, split mountain path, or battle route is reconstructed.",
+      "sourceIds": [
+        "web"
+      ],
+      "detail": "Ashdod appears where outsiders will dwell as Philistine pride is removed.",
+      "uncertainty": "Approximate city or regional reference. No visionary boundaries, split mountain path, or battle route is reconstructed.",
+      "chapterLocation": true
+    },
+    {
+      "id": "ekron",
+      "name": "Ekron",
+      "lat": 31.777,
+      "lng": 34.852,
+      "summary": "Ekron faces disappointed hope before a later promise of inclusion among God’s people.",
+      "limits": "Approximate city or regional reference. No visionary boundaries, split mountain path, or battle route is reconstructed.",
+      "sourceIds": [
+        "web"
+      ],
+      "detail": "Ekron faces disappointed hope before a later promise of inclusion among God’s people.",
+      "uncertainty": "Approximate city or regional reference. No visionary boundaries, split mountain path, or battle route is reconstructed.",
+      "chapterLocation": true
+    },
+    {
+      "id": "egypt",
+      "name": "Egypt",
+      "lat": 30.05,
+      "lng": 31.23,
+      "summary": "Egypt appears in promised gathering and the warning about nations refusing to worship.",
+      "limits": "Approximate city or regional reference. No visionary boundaries, split mountain path, or battle route is reconstructed.",
+      "sourceIds": [
+        "web"
+      ],
+      "detail": "Egypt appears in promised gathering and the warning about nations refusing to worship.",
+      "uncertainty": "Approximate city or regional reference. No visionary boundaries, split mountain path, or battle route is reconstructed.",
+      "chapterLocation": true
+    },
+    {
+      "id": "gilead",
+      "name": "Gilead",
+      "lat": 32.2,
+      "lng": 35.8,
+      "summary": "Gilead appears among places where the gathered people will live.",
+      "limits": "Approximate city or regional reference. No visionary boundaries, split mountain path, or battle route is reconstructed.",
+      "sourceIds": [
+        "web"
+      ],
+      "detail": "Gilead appears among places where the gathered people will live.",
+      "uncertainty": "Approximate city or regional reference. No visionary boundaries, split mountain path, or battle route is reconstructed.",
+      "chapterLocation": true
+    },
+    {
+      "id": "lebanon",
+      "name": "Lebanon",
+      "lat": 34.0,
+      "lng": 35.85,
+      "summary": "Lebanon appears in gathering promises and the lament over destroyed forests.",
+      "limits": "Approximate city or regional reference. No visionary boundaries, split mountain path, or battle route is reconstructed.",
+      "sourceIds": [
+        "web"
+      ],
+      "detail": "Lebanon appears in gathering promises and the lament over destroyed forests.",
+      "uncertainty": "Approximate city or regional reference. No visionary boundaries, split mountain path, or battle route is reconstructed.",
+      "chapterLocation": true
+    },
+    {
+      "id": "bethel",
+      "name": "Bethel",
+      "lat": 31.93,
+      "lng": 35.22,
+      "summary": "Bethel sends visitors who ask whether their long practice of fasting should continue.",
+      "limits": "Approximate city or regional reference. No visionary boundaries, split mountain path, or battle route is reconstructed.",
+      "sourceIds": [
+        "web"
+      ],
+      "detail": "Bethel sends visitors who ask whether their long practice of fasting should continue.",
+      "uncertainty": "Approximate city or regional reference. No visionary boundaries, split mountain path, or battle route is reconstructed.",
+      "chapterLocation": true
+    },
+    {
+      "id": "olives",
+      "name": "Mount of Olives",
+      "lat": 31.779,
+      "lng": 35.247,
+      "summary": "The Mount of Olives appears in the extraordinary vision of rescue during the final battle.",
+      "limits": "Approximate city or regional reference. No visionary boundaries, split mountain path, or battle route is reconstructed.",
+      "sourceIds": [
+        "web"
+      ],
+      "detail": "The Mount of Olives appears in the extraordinary vision of rescue during the final battle.",
+      "uncertainty": "Approximate city or regional reference. No visionary boundaries, split mountain path, or battle route is reconstructed.",
+      "chapterLocation": true
+    }
+  ],
+  "campaigns": [],
+  "ancientRoads": [],
+  "regions": [],
+  "words": [
+    {
+      "id": "glossary-covenant",
+      "label": "Covenant",
+      "matches": [
+        "covenant",
+        "covenants"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A binding agreement with promises and duties. In the Bible, God makes covenants with people.",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    },
+    {
+      "id": "glossary-firstborn",
+      "label": "Firstborn",
+      "matches": [
+        "firstborn"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "The oldest child. A firstborn son received a double share of the inheritance (Deuteronomy 21:17).",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    },
+    {
+      "id": "glossary-redeem",
+      "label": "Redeem",
+      "matches": [
+        "redeem",
+        "redeems",
+        "redeemed",
+        "redeemer",
+        "redemption"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "To buy back a person or property. The word is also used for God’s rescue of people.",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    },
+    {
+      "id": "glossary-unclean",
+      "label": "Unclean",
+      "matches": [
+        "unclean",
+        "uncleanness"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "Unfit to take part in worship until a set cleansing is done. Leviticus 11–15 gives the rules.",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    },
+    {
+      "id": "glossary-anoint",
+      "label": "Anoint",
+      "matches": [
+        "anoint",
+        "anoints",
+        "anointed",
+        "anointing"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "To pour oil on a person or thing to set it apart. Kings and priests were anointed.",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    },
+    {
+      "id": "glossary-remnant",
+      "label": "Remnant",
+      "matches": [
+        "remnant"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "The part of a people that survives a disaster.",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    },
+    {
+      "id": "glossary-zion",
+      "label": "Zion",
+      "matches": [
+        "Zion"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A hill in Jerusalem. The name is also used for the city and its people.",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    },
+    {
+      "id": "glossary-bondservant",
+      "label": "Bondservant",
+      "matches": [
+        "bondservant",
+        "bondservants"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A slave or bound servant.",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    },
+    {
+      "id": "glossary-cubit",
+      "label": "Cubit",
+      "matches": [
+        "cubit",
+        "cubits"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A length from the elbow to the fingertip, about 46 centimeters.",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    },
+    {
+      "id": "glossary-talent",
+      "label": "Talent",
+      "matches": [
+        "talent",
+        "talents"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A large unit of weight, about 30 kilograms.",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    },
+    {
+      "id": "glossary-ephah",
+      "label": "Ephah",
+      "matches": [
+        "ephah",
+        "ephahs"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A dry measure of about 22 liters.",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    }
+  ],
+  "guides": [
+    {
+      "id": "zechariah-context",
+      "title": "Zechariah: context and evidence",
+      "description": "Explore the book’s larger concerns through selected passages and relevant evidence.",
+      "steps": [
+        {
+          "title": "Changed clothing answers the accusation against the priest",
+          "text": "Verse 3 admits that Joshua’s clothes are filthy. The accuser has grounds. The reply in verse 2 does not claim Joshua is clean. It points to God’s choice of Jerusalem. Verse 4 then removes the clothes and the guilt together. Joshua does not change his own garments. Verse 7 gives him duties after the gift, not before it.",
+          "chapter": 3,
+          "verse": 4,
+          "sourceIds": [
+            "web"
+          ]
+        },
+        {
+          "title": "A question about fasting becomes a question about injured neighbors",
+          "text": "The fifth-month fast mourned the burning of the temple (2 Kings 25:8–9). God does not answer the question until 8:19. He first asks whom the fasting served (verses 5–6). Then verses 9–10 repeat the earlier prophets’ demand. Four groups are named: widows, orphans, foreigners, and the poor. Neglect of them led to the loss now being mourned. Grief over the loss means little if its cause continues.",
+          "chapter": 7,
+          "verse": 10,
+          "sourceIds": [
+            "web"
+          ]
+        },
+        {
+          "title": "The promised king removes weapons while the chapter still contains battle",
+          "text": "Verse 9 brings the king on a donkey, not a war horse. Verse 10 then says what he removes. The chariots of Ephraim and the horses of Jerusalem are Israel’s own. He disarms his own side. His rule spreads by speaking peace. Verses 13–15 still describe battle, and the chapter keeps both pictures. Matthew 21:5 quotes verse 9 about Jesus entering Jerusalem.",
+          "chapter": 9,
+          "verse": 10,
+          "sourceIds": [
+            "web"
+          ]
+        },
+        {
+          "title": "Holiness reaches ordinary pots after a vision of terrible conflict",
+          "text": "The chapter begins with a city plundered (verse 2). It ends with kitchens. “Holy to the LORD” was engraved on the high priest’s gold plate (Exodus 28:36). Verse 20 puts those words on horses’ bells. Verse 21 makes every pot in the city fit for sacred use. The line between holy and common is removed by raising everything. Verse 16 includes survivors from the nations in the worship.",
+          "chapter": 14,
+          "verse": 20,
+          "sourceIds": [
+            "web"
+          ]
+        }
+      ]
+    }
+  ],
+  "periods": [
+    {
+      "id": "part-0",
+      "label": "Zechariah 1–4",
+      "start": 1,
+      "end": 4,
+      "description": "Chapter order"
+    },
+    {
+      "id": "part-1",
+      "label": "Zechariah 5–8",
+      "start": 5,
+      "end": 8,
+      "description": "Chapter order"
+    },
+    {
+      "id": "part-2",
+      "label": "Zechariah 9–14",
+      "start": 9,
+      "end": 14,
+      "description": "Chapter order"
+    }
+  ],
+  "chapterMaps": [
+    {
+      "chapter": 1,
+      "focusPlaceIds": [
+        "jerusalem"
+      ],
+      "placeIds": [
+        "jerusalem"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Markers locate selected geographic references. Visions and promises do not establish traveled army or return paths.",
+      "narrative": "In the second year of Darius, Zechariah calls the people to return to the LORD. Their fathers ignored the prophets, and the warnings came true. Then Zechariah sees a vision at night. A man on a red horse stands among myrtle trees with other riders. They have patrolled the earth and found it quiet. The LORD’s angel asks how long Jerusalem must go without mercy. God answers with kind and comforting words. He is angry with the nations that are at ease.",
+      "limits": "Markers locate selected geographic references. Visions and promises do not establish traveled army or return paths.",
+      "sourceIds": [
+        "web"
+      ]
+    },
+    {
+      "chapter": 2,
+      "focusPlaceIds": [
+        "jerusalem",
+        "babylon"
+      ],
+      "placeIds": [
+        "jerusalem",
+        "babylon"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Markers locate selected geographic references. Visions and promises do not establish traveled army or return paths.",
+      "narrative": "Zechariah sees a man with a measuring line going to measure Jerusalem. An angel sends word to stop him. Jerusalem will be like villages without walls, since so many will live there. The LORD will be a wall of fire around it. He calls the exiles to escape from Babylon. Whoever touches them touches the apple of his eye. He is coming to live among his people. Many nations will join themselves to the LORD and be his people.",
+      "limits": "Markers locate selected geographic references. Visions and promises do not establish traveled army or return paths.",
+      "sourceIds": [
+        "web"
+      ]
+    },
+    {
+      "chapter": 3,
+      "focusPlaceIds": [
+        "jerusalem"
+      ],
+      "placeIds": [
+        "jerusalem"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Markers locate selected geographic references. Visions and promises do not establish traveled army or return paths.",
+      "narrative": "Zechariah sees the high priest Joshua standing before the LORD’s angel. The accuser stands at his right hand. The LORD rebukes the accuser and calls Joshua a stick snatched from the fire. Joshua is wearing filthy clothes. The angel orders them removed and says his guilt is taken away. He is dressed in fine robes and a clean turban. He is told to walk in God’s ways. God promises to bring his servant, the Branch.",
+      "limits": "Markers locate selected geographic references. Visions and promises do not establish traveled army or return paths.",
+      "sourceIds": [
+        "web"
+      ]
+    },
+    {
+      "chapter": 4,
+      "focusPlaceIds": [],
+      "placeIds": [],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "The vision names no securely mapped location for its objects. Symbolic movements receive no ordinary route.",
+      "narrative": "An angel wakes Zechariah and shows him a gold lampstand with seven lamps. Two olive trees stand beside it. The angel gives a word for Zerubbabel the governor. The work will be done by God’s Spirit, not by might or power. The great mountain before him will become level ground. His hands laid the temple’s foundation, and his hands will finish it. No one should despise the day of small things. The two olive trees are the two anointed ones.",
+      "limits": "The vision names no securely mapped location for its objects. Symbolic movements receive no ordinary route.",
+      "sourceIds": [
+        "web"
+      ]
+    },
+    {
+      "chapter": 5,
+      "focusPlaceIds": [],
+      "placeIds": [],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "The vision names no securely mapped location for its objects. Symbolic movements receive no ordinary route.",
+      "narrative": "Zechariah sees a huge scroll flying through the air. It carries a curse over the whole land. It condemns everyone who steals and everyone who swears falsely. It will enter their houses and consume timber and stone. Then he sees a measuring basket with a lead cover. A woman sits inside, and she is called Wickedness. Two winged women lift the basket into the sky. They carry it away to the land of Babylon.",
+      "limits": "The vision names no securely mapped location for its objects. Symbolic movements receive no ordinary route.",
+      "sourceIds": [
+        "web"
+      ]
+    },
+    {
+      "chapter": 6,
+      "focusPlaceIds": [
+        "babylon"
+      ],
+      "placeIds": [
+        "babylon"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Markers locate selected geographic references. Visions and promises do not establish traveled army or return paths.",
+      "narrative": "Zechariah sees four chariots come out between two bronze mountains. They go out to patrol the whole earth. Then God tells him to collect silver and gold from exiles newly come from Babylon. He must make a crown and set it on Joshua the high priest. He says a man called the Branch will build the LORD’s temple. That man will rule on his throne and be a priest there. The crown will be kept in the temple as a reminder. People from far away will come and help build.",
+      "limits": "Markers locate selected geographic references. Visions and promises do not establish traveled army or return paths.",
+      "sourceIds": [
+        "web"
+      ]
+    },
+    {
+      "chapter": 7,
+      "focusPlaceIds": [
+        "bethel",
+        "jerusalem"
+      ],
+      "placeIds": [
+        "bethel",
+        "jerusalem"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Markers locate selected geographic references. Visions and promises do not establish traveled army or return paths.",
+      "narrative": "Men come from Bethel to ask the priests a question. For years they have fasted in the fifth month. They ask whether they should continue. God asks whether their fasting was really for him. He recalls what the earlier prophets said. Judge fairly, and show kindness and mercy to one another. Do not oppress widows, orphans, foreigners, or the poor. The fathers refused to listen, and so they were scattered.",
+      "limits": "Markers locate selected geographic references. Visions and promises do not establish traveled army or return paths.",
+      "sourceIds": [
+        "web"
+      ]
+    },
+    {
+      "chapter": 8,
+      "focusPlaceIds": [
+        "jerusalem"
+      ],
+      "placeIds": [
+        "jerusalem"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Markers locate selected geographic references. Visions and promises do not establish traveled army or return paths.",
+      "narrative": "The LORD says he is returning to Zion to live in Jerusalem. Old men and women will sit in its streets with their canes. The streets will be full of boys and girls playing. God will bring his people from east and west. He tells them to be strong and finish the temple. They must speak truth and judge fairly at their gates. The fasts will become glad feasts. Ten foreigners will take hold of one Jew’s robe and ask to go with him.",
+      "limits": "Markers locate selected geographic references. Visions and promises do not establish traveled army or return paths.",
+      "sourceIds": [
+        "web"
+      ]
+    },
+    {
+      "chapter": 9,
+      "focusPlaceIds": [
+        "damascus",
+        "tyre",
+        "sidon",
+        "gaza",
+        "ashkelon",
+        "ashdod",
+        "ekron",
+        "jerusalem"
+      ],
+      "placeIds": [
+        "damascus",
+        "tyre",
+        "sidon",
+        "gaza",
+        "ashkelon",
+        "ashdod",
+        "ekron",
+        "jerusalem"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Markers locate selected geographic references. Visions and promises do not establish traveled army or return paths.",
+      "narrative": "A message of judgment falls on Syria, Tyre, and the Philistine cities. God will guard his house against every army. Zion is told to rejoice, for her king is coming. He is righteous and humble and rides on a donkey. He will remove chariots, war horses, and bows from Israel. He will speak peace to the nations and rule from sea to sea. God will free the prisoners because of his covenant. He will save his people like a flock.",
+      "limits": "Markers locate selected geographic references. Visions and promises do not establish traveled army or return paths.",
+      "sourceIds": [
+        "web",
+        "couey-zechariah"
+      ]
+    },
+    {
+      "chapter": 10,
+      "focusPlaceIds": [
+        "egypt",
+        "gilead",
+        "lebanon"
+      ],
+      "placeIds": [
+        "egypt",
+        "gilead",
+        "lebanon"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Markers locate selected geographic references. Visions and promises do not establish traveled army or return paths.",
+      "narrative": "The people are told to ask the LORD for rain in the spring. Household idols speak nonsense, and fortune-tellers see lies. Their comfort is empty. So the people wander like sheep with no shepherd. God is angry with the shepherds and will care for his flock himself. He will strengthen Judah and save the house of Joseph. He will whistle for them and gather them in. He will bring them home from Egypt and Assyria.",
+      "limits": "Markers locate selected geographic references. Visions and promises do not establish traveled army or return paths.",
+      "sourceIds": [
+        "web"
+      ]
+    },
+    {
+      "chapter": 11,
+      "focusPlaceIds": [
+        "lebanon"
+      ],
+      "placeIds": [
+        "lebanon"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Markers locate selected geographic references. Visions and promises do not establish traveled army or return paths.",
+      "narrative": "Zechariah is told to shepherd a flock marked for slaughter. Its buyers kill the sheep and feel no guilt. Its sellers thank God that they are rich. He takes two staffs, named Favor and Union. He grows weary of the flock, and they detest him. He breaks the staff Favor and asks for his wages. They weigh out thirty pieces of silver, and he throws it to the potter. He breaks the second staff, and a worthless shepherd follows.",
+      "limits": "Markers locate selected geographic references. Visions and promises do not establish traveled army or return paths.",
+      "sourceIds": [
+        "web"
+      ]
+    },
+    {
+      "chapter": 12,
+      "focusPlaceIds": [
+        "jerusalem"
+      ],
+      "placeIds": [
+        "jerusalem"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Markers locate selected geographic references. Visions and promises do not establish traveled army or return paths.",
+      "narrative": "The LORD will make Jerusalem a cup that makes the nations stagger. All who try to lift that heavy stone will hurt themselves. The clans of Judah will be like fire among sheaves. The LORD will save the tents of Judah first. David’s house and Jerusalem will not be honored above the rest. Then God will pour out a spirit of grace and prayer. They will look on one they pierced and mourn. Every family will mourn by itself.",
+      "limits": "Markers locate selected geographic references. Visions and promises do not establish traveled army or return paths.",
+      "sourceIds": [
+        "web"
+      ]
+    },
+    {
+      "chapter": 13,
+      "focusPlaceIds": [
+        "jerusalem"
+      ],
+      "placeIds": [
+        "jerusalem"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Markers locate selected geographic references. Visions and promises do not establish traveled army or return paths.",
+      "narrative": "On that day a fountain will be opened to cleanse sin. God will remove the names of the idols from the land. False prophets will be ashamed and deny their trade. A sword is called against God’s shepherd. The shepherd is struck, and the sheep scatter. Two thirds of the people will perish. The last third will pass through fire and be refined like silver. They will call on God, and he will call them his people.",
+      "limits": "Markers locate selected geographic references. Visions and promises do not establish traveled army or return paths.",
+      "sourceIds": [
+        "web"
+      ]
+    },
+    {
+      "chapter": 14,
+      "focusPlaceIds": [
+        "jerusalem",
+        "olives",
+        "egypt"
+      ],
+      "placeIds": [
+        "jerusalem",
+        "olives",
+        "egypt"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Markers locate selected geographic references. Visions and promises do not establish traveled army or return paths.",
+      "narrative": "A day of the LORD is coming when nations will attack Jerusalem. The city will be taken, and half its people exiled. Then the LORD will fight, and his feet will stand on the Mount of Olives. Living water will flow from Jerusalem all year. The LORD will be king over all the earth. Survivors of the nations will come each year to worship him. Even the bells on the horses will be marked as holy. Every cooking pot in Jerusalem will be holy to the LORD.",
+      "limits": "Markers locate selected geographic references. Visions and promises do not establish traveled army or return paths.",
+      "sourceIds": [
+        "web"
+      ]
+    }
+  ],
+  "textRoutes": [],
+  "narrativeRegions": [],
+  "chapterStudies": [
+    {
+      "chapter": 1,
+      "verse": 12,
+      "context": ""
+    },
+    {
+      "chapter": 2,
+      "verse": 11,
+      "context": ""
+    },
+    {
+      "chapter": 3,
+      "verse": 4,
+      "context": ""
+    },
+    {
+      "chapter": 4,
+      "verse": 9,
+      "context": ""
+    },
+    {
+      "chapter": 5,
+      "verse": 4,
+      "context": ""
+    },
+    {
+      "chapter": 6,
+      "verse": 13,
+      "context": ""
+    },
+    {
+      "chapter": 7,
+      "verse": 10,
+      "context": ""
+    },
+    {
+      "chapter": 8,
+      "verse": 5,
+      "context": ""
+    },
+    {
+      "chapter": 9,
+      "verse": 10,
+      "context": ""
+    },
+    {
+      "chapter": 10,
+      "verse": 2,
+      "context": ""
+    },
+    {
+      "chapter": 11,
+      "verse": 5,
+      "context": ""
+    },
+    {
+      "chapter": 12,
+      "verse": 7,
+      "context": ""
+    },
+    {
+      "chapter": 13,
+      "verse": 9,
+      "context": ""
+    },
+    {
+      "chapter": 14,
+      "verse": 20,
+      "context": ""
+    }
+  ]
+}

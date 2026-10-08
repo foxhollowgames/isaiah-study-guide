@@ -1,14 +1,23 @@
 """Adapt book data to the existing Isaiah reader. Do not create a second UI."""
-import json,re
+import json,re,time
 from bible_source_enrichment import enrich
 from book_copy import revise
 from book_context import enrich_context
 from pathlib import Path
 ROOT=Path(__file__).resolve().parent.parent
 D=ROOT/'dist';OUT=D/'data/books'
-def write(path,value):path.write_text(json.dumps(value,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+def write_text(path,text):
+    for attempt in range(4):
+        try:
+            path.write_text(text,encoding='utf-8')
+            return
+        except OSError as error:
+            if error.errno not in (13,22) or attempt==3:raise
+            time.sleep(0.15*(attempt+1))
+def write(path,value):write_text(path,json.dumps(value,ensure_ascii=False,indent=2)+'\n')
 native=(D/'app.js').read_text(encoding='utf-8')
 portraits=(D/'portraits.js').read_text(encoding='utf-8')
+glossary=json.loads((ROOT/'scripts/book-glossary.json').read_text(encoding='utf-8'))
 for entry in json.loads((OUT/'directory.json').read_text(encoding='utf-8')):
     slug=entry['id']
     if entry['status']!='ready' or slug=='isaiah':continue
@@ -42,6 +51,9 @@ for entry in json.loads((OUT/'directory.json').read_text(encoding='utf-8')):
     step=max(1,count//3)
     for i,(a,z) in enumerate([(1,step),(step+1,step*2),(step*2+1,count)]):content['periods'].append(dict(id=f'part-{i}',label=f'{name} {a}–{z}',start=a,end=z,description='Chapter order'))
     content['guides']=[b['contextGuide']]
+    # Plain-meaning glossary terms that occur in this book. They are not Hebrew or Greek word studies.
+    haystack=' '.join(v['text'] for ch in b['scripture'].values() for v in ch)+' '+' '.join(c['summary']+' '+c['meaning'] for c in b['chapters'])
+    content['words']=[dict(id='glossary-'+g['id'],label=g['label'],matches=g['matches'],chapter=None,verses=[],hebrew='',transliteration='',greek='',greekNote='',meaning=g['meaning'],grammar='',discussion='',sourceIds=['web'],related=[],scope='glossary') for g in glossary if re.search(r'\b(?:'+'|'.join(map(re.escape,g['matches']))+r')\b',haystack)]
     write(OUT/f'{slug}-native-content.json',content)
     write(OUT/f'{slug}-native-scripture.json',dict(translation=b['translation'],copyright=b['copyright'],chapters=b['scripture']))
     profiles={p['id']:dict(name=p['name'],role=p['role'],life=p['life'],dateNote='Historical life dates remain uncertain.',locations=[next(q for q in b['places'] if q['id']==pid)['name'] for pid in p.get('placeIds',[])],passages=[p['passages']],importance=p['meaning'],connections=p['relations'],verseScope=p.get('verseScope',{})) for p in b['people']}
@@ -64,9 +76,9 @@ for entry in json.loads((OUT/'directory.json').read_text(encoding='utf-8')):
     pm=pm.replace('aria-label="${name}: portrait failed to load"', 'aria-label="${name}: ${image.src ? \'portrait failed to load\' : \'no portrait available\'}"')
     # Match Isaiah: generated art has no repeated credit beneath each portrait.
     # Keep licensed artwork credits and descriptive image alt text.
-    (D/f'book-{slug}-portraits.js').write_text(pm,encoding='utf-8')
-    app=native.replace("'./portraits.js'",f"'./book-{slug}-portraits.js?v=20261005.23'").replace('Isaiah',name).replace('ISA${',code+'${')
-    app=app.replace("const releaseVersion = '20261004.1';", "const releaseVersion = '20261005.23';")
+    write_text(D/f'book-{slug}-portraits.js',pm)
+    app=native.replace("'./portraits.js'",f"'./book-{slug}-portraits.js?v=20261008.2'").replace('Isaiah',name).replace('ISA${',code+'${')
+    app=app.replace("const releaseVersion = '20261008.1';", "const releaseVersion = '20261008.2';")
     # Psalms uses three-digit publisher chapter filenames.
     if code=='PSA':app=app.replace("String(chapter).padStart(2, '0')", "String(chapter).padStart(3, '0')")
     # Added books have one complete Scripture source, not Isaiah's chapter sources.
@@ -102,7 +114,7 @@ for entry in json.loads((OUT/'directory.json').read_text(encoding='utf-8')):
     pm=pm.replace('<div><dt>Key locations</dt><dd>${person.locations.map(linkHtml).join(\' · \')}</dd></div>', '${person.locations.length ? `<div><dt>Key locations</dt><dd>${person.locations.map(linkHtml).join(\' · \')}</dd></div>` : ""}')
     pm=pm.replace('<p class="profile-date-note"><strong>Date note.</strong> ${linkHtml(person.dateNote)}</p>','')
     pm=pm.replace('<p class="profile-portrait-note">Portraits are illustrations or later historical depictions. They do not show the person’s known appearance.</p>','')
-    (D/f'book-{slug}-portraits.js').write_text(pm,encoding='utf8')
+    write_text(D/f'book-{slug}-portraits.js',pm)
     app=app.replace('Natural Earth · Terrain: Mapzen / USGS / NOAA · Places: <a href="https://www.openbible.info/geo/">OpenBible.info</a> / <a href="https://www.openstreetmap.org/copyright">OSM contributors</a>','Natural Earth · Terrain: Mapzen / USGS / NOAA · Place sources: see study notes')
     app=app.replace("$('#timelineRange').addEventListener('input', e => { state.date = Number(e.target.value); renderTimeline(); drawOverlays(); persist(); });", "$('#timelineRange').min=1; $('#timelineRange').max=chapters.length; $('#timelineRange').setAttribute('aria-label','Chapter in narrative order');\n  $('#timelineRange').addEventListener('input', e => { selectChapter(Number(e.target.value)); focusChapterMap(); });")
     app=app.replace("state.date = Math.round((p.start + p.end) / 2); renderTimeline(); drawOverlays(); persist();", "selectChapter(Math.round((p.start + p.end) / 2)); focusChapterMap();")
@@ -113,7 +125,7 @@ for entry in json.loads((OUT/'directory.json').read_text(encoding='utf-8')):
     app=app.replace("state.studyMode === 'map' ? visibleAt(p) : chapterPlaceVisible(p)",'chapterPlaceVisible(p)')
     # Use Isaiah's existing inline entity controls and return navigation for the new profiles.
     start=app.index('  const candidates = eligibleWords(v);',app.index('function renderVerse'))
-    end=app.index('\n',start);app=app[:start]+'  const text = linkedEntityHtml(v.text, {verse:v.verse});'+app[end:]
+    end=app.index('\n',start);app=app[:start]+'  const text = linkedEntityHtml(v.text, {verse:v.verse}) + (v.publisherNote ? `<span class="verse-publisher-note"><strong>Publisher note.</strong> ${esc(v.publisherNote)}</span>` : "");'+app[end:]
     app=app.replace("${esc(p.summary)}${cite(ids)}", "${linkedEntityHtml(p.summary)}${cite(ids)}")
     app=app.replace('for (const [id, person] of Object.entries(people)) {','for (const [id, person] of Object.entries(people)) {\n    if (!person.chapterIds.includes(state.chapter)) continue;')
     app=app.replace('function entityLinkTerms() {','function entityLinkTerms(verse = null) {')
@@ -123,12 +135,12 @@ for entry in json.loads((OUT/'directory.json').read_text(encoding='utf-8')):
     app=app.replace("const name = mapDisplayName(feature.name || feature.title || '');", "const scope = feature.verseScope?.[state.chapter];\n    if (verse != null && scope && !scope.includes(verse)) continue;\n    const name = mapDisplayName(feature.name || feature.title || '');")
     app=app.replace("for (const label of [person.name, ...(person.linkNames || [])]) add(label, 'person', id, person.name);", "const scope = person.verseScope?.[state.chapter];\n    if (verse != null && scope && !scope.includes(verse)) continue;\n    const aliases = verse == null && scope ? [] : (person.linkNames || []);\n    for (const label of [person.name, ...aliases]) add(label, 'person', id, person.name);")
     app=app.replace('const start = match.index, end = start + match[0].length;',"const start = match.index, end = start + match[0].length;\n    if (/(?:Tubal|Uzzen|Obed)[ -]$/i.test(text.slice(0,start))) continue;")
-    (D/f'book-{slug}-app.js').write_text(app,encoding='utf-8')
+    write_text(D/f'book-{slug}-app.js',app)
     print(f'Adapted {name} to Isaiah UI.')
 html=(D/'index.html').read_text(encoding='utf-8')
 html=re.sub(r'  <meta (?:property="og:[^\n]+|name="twitter:[^\n]+)\n','',html)
 html=re.sub(r'  <link rel="canonical"[^\n]+\n','',html)
 html=html.replace('<title>Isaiah Study Guide</title>','<title>Bible Study Guide</title>').replace('<b>ISAIAH<small>STUDY GUIDE</small></b>','<b id="bookBrand">BIBLE<small>STUDY GUIDE</small></b>')
-html=html.replace('app.js?v=20261004.1','native-book.js?v=20261005.23').replace('styles.css?v=20261004.1','styles.css?v=20261005.1')
+html=html.replace('app.js?v=20261008.1','native-book.js?v=20261008.2').replace('styles.css?v=20261008.1','styles.css?v=20261005.1')
 html=html.replace('<span class="map-label label-assyria">ASSYRIA</span><span class="map-label label-judah">JUDAH</span>','')
-(D/'book.html').write_text(html,encoding='utf-8')
+write_text(D/'book.html',html)

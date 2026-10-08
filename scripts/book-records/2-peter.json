@@ -1,0 +1,166 @@
+{
+  "name": "2 Peter",
+  "code": "2PE",
+  "date": "2026-10-07",
+  "verseCounts": [
+    21,
+    22,
+    18
+  ],
+  "nextBook": "1-john",
+  "description": "Growing qualities · recalled rescue · corrupt promises · patient hope",
+  "limits": "Peter is the named speaker. Historical authorship, dates, Greek forms, exact audience conditions, and the mountain's identity were not independently verified. The coming day has no calculated date. Sodom remains a disputed regional marker.",
+  "review": "All 61 verses read for three original explanations and exact selections. Six selected profiles reuse inspected artwork. The map marks a disputed recalled region rather than an exact city. Lange's reading remains attributed. Actual Church lesson coverage remains separate from original close readings.",
+  "sources": [
+    {
+      "id": "cfm-nt-2023-48",
+      "reuse": "1-peter",
+      "summary": "The lesson connects growth in Christlike qualities with developing divine nature.",
+      "chapterCoverage": [
+        1
+      ],
+      "limits": "Only actual Second Peter chapter one discussion supports this reference. First Peter applications, linked talks, and Restoration texts do not extend coverage to other chapters.",
+      "reviewed": {
+        "date": "2026-10-07",
+        "scope": "Complete lesson body and included resource excerpt read. Second Peter coverage follows the actual discussion of 1:1–11."
+      }
+    },
+    {
+      "id": "lange-peter",
+      "title": "Commentary on 2 Peter 3:8-15a",
+      "url": "https://www.workingpreacher.org/commentaries/revised-common-lectionary/second-sunday-of-advent-2/commentary-on-2-peter-38-15a",
+      "author": "Dirk G. Lange",
+      "publisher": "Luther Seminary",
+      "year": 2011,
+      "category": "Scholarly study",
+      "perspective": "historical",
+      "summary": "Lange reads waiting as hope that changes present conduct.",
+      "limits": "This is Lange's interpretation. His historical authorship assertion, Greek comparisons, and wider historical claims were not independently verified. The guide assigns no exact date to the promised coming.",
+      "chapterCoverage": [
+        3
+      ],
+      "reviewed": {
+        "date": "2026-10-07",
+        "scope": "Complete commentary body read. The guide attributes his connection between waiting, hope, and present conduct."
+      }
+    }
+  ],
+  "people": [
+    {
+      "id": "peter",
+      "name": "Peter",
+      "reuse": "acts",
+      "role": "Named speaker who recalls the mountain witness and prepares reminders before his death",
+      "relations": "He addresses believers and later names Paul as a beloved brother.",
+      "meaning": "His reminders connect received knowledge with conduct and continued growth.",
+      "chapters": [
+        1,
+        2,
+        3
+      ],
+      "passages": "Second Peter 1, 2, 3"
+    },
+    {
+      "id": "jesus",
+      "name": "Jesus Christ",
+      "reuse": "matthew",
+      "role": "Lord whose power supplies gifts for life and whose coming remains promised",
+      "relations": "The speaker recalls the voice identifying him as the beloved Son.",
+      "meaning": "His promised coming makes present conduct significant even when waiting continues.",
+      "chapters": [
+        1,
+        2,
+        3
+      ],
+      "passages": "Second Peter 1, 2, 3",
+      "linkNames": [
+        "Jesus",
+        "Christ"
+      ]
+    },
+    {
+      "id": "noah",
+      "name": "Noah",
+      "reuse": "genesis",
+      "role": "Herald of righteousness recalled as preserved during the flood",
+      "relations": "He appears among earlier examples of judgment and rescue.",
+      "meaning": "His preservation prevents the judgment comparisons from excluding the possibility of rescue.",
+      "chapters": [
+        2
+      ],
+      "passages": "Second Peter 2"
+    },
+    {
+      "id": "lot",
+      "name": "Lot",
+      "reuse": "genesis",
+      "role": "Man recalled as distressed by wrongdoing and rescued from destruction",
+      "relations": "His rescue stands beside the destruction of Sodom and Gomorrah.",
+      "meaning": "The comparison connects judgment with the Lord's ability to rescue the godly.",
+      "chapters": [
+        2
+      ],
+      "passages": "Second Peter 2"
+    },
+    {
+      "id": "balaam",
+      "name": "Balaam",
+      "reuse": "numbers",
+      "role": "Prophet recalled through his desire for payment and the donkey's rebuke",
+      "relations": "His recalled error supplies a comparison for the false teachers' greed.",
+      "meaning": "The rebuke exposes the contradiction between claimed knowledge and corrupt desire.",
+      "chapters": [
+        2
+      ],
+      "passages": "Second Peter 2"
+    },
+    {
+      "id": "paul",
+      "name": "Paul",
+      "reuse": "romans",
+      "role": "Beloved brother whose letters the speaker says contain difficult passages",
+      "relations": "The speaker warns that unstable readers twist his letters alongside other Scriptures.",
+      "meaning": "His mention makes responsible reading part of the final call to growth.",
+      "chapters": [
+        3
+      ],
+      "passages": "Second Peter 3"
+    }
+  ],
+  "places": [
+    {
+      "id": "sodom",
+      "reuse": "genesis",
+      "chapters": [
+        2
+      ],
+      "summary": "The letter recalls Sodom's destruction beside Lot's rescue.",
+      "verseScope": {
+        "2": [
+          6
+        ]
+      },
+      "linkNames": [
+        "Sodom"
+      ]
+    }
+  ],
+  "chapters": {
+    "1": {
+      "question": "How does growth in love prevent received knowledge from remaining idle?",
+      "teaching": "The selected Church lesson connects growing Christlike qualities with developing our divine nature.",
+      "ldsSources": [
+        "cfm-nt-2023-48"
+      ]
+    },
+    "2": {
+      "question": "Why can promised freedom become a form of slavery when conduct remains corrupt?"
+    },
+    "3": {
+      "question": "How does patient waiting change present conduct without supplying a date for the coming day?",
+      "historicalSources": [
+        "lange-peter"
+      ]
+    }
+  }
+}

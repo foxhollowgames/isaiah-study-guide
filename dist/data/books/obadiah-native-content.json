@@ -1,0 +1,279 @@
+{
+  "sources": [
+    {
+      "id": "web",
+      "title": "Obadiah · World English Bible",
+      "url": "https://ebible.org/engwebp/OBA01.htm",
+      "summary": "The full vision appears in the reading text.",
+      "category": "Scripture",
+      "perspective": "historical",
+      "limits": "The book supplies no detailed biography of Obadiah. He is not identified with Ahab’s steward.",
+      "author": "World English Bible translators",
+      "publisher": "eBible.org",
+      "chapterCoverage": [
+        1
+      ],
+      "reviewed": {
+        "date": "2026-10-07",
+        "scope": "All 21 verses read, including the surrounding charges and closing promises."
+      },
+      "type": "Scripture",
+      "limitations": "The book supplies no detailed biography of Obadiah. He is not identified with Ahab’s steward.",
+      "license": "Public domain"
+    },
+    {
+      "id": "usccb-obadiah-intro",
+      "title": "The Book of Obadiah · Introduction",
+      "url": "https://bible.usccb.org/bible/obadiah/0",
+      "summary": "The editors connect the vision with Edom’s exploitation of Judah and its promised reversal.",
+      "category": "Bible introduction",
+      "perspective": "historical",
+      "limits": "The introduction proposes a historical setting. The guide assigns no certain date to this vision.",
+      "author": "United States Conference of Catholic Bishops Bible editors",
+      "publisher": "United States Conference of Catholic Bishops",
+      "chapterCoverage": [
+        1
+      ],
+      "reviewed": {
+        "date": "2026-10-07",
+        "scope": "Complete book introduction and outline read. Linked book text and footnotes were not separately reviewed."
+      },
+      "type": "Bible introduction",
+      "limitations": "The introduction proposes a historical setting. The guide assigns no certain date to this vision.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "cfm-obadiah-2026",
+      "title": "November 23–29: “Seek the Lord, and Ye Shall Live” · Amos, Obadiah, Jonah",
+      "url": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/48?lang=eng",
+      "summary": "The lesson applies Obadiah’s final verse to temple service for deceased people.",
+      "category": "LDS Come, Follow Me",
+      "perspective": "lds",
+      "limits": "This temple application is later Church teaching, distinct from the vision’s rule over Edom.",
+      "author": "The Church of Jesus Christ of Latter-day Saints",
+      "year": 2026,
+      "publisher": "The Church of Jesus Christ of Latter-day Saints",
+      "chapterCoverage": [
+        1
+      ],
+      "reviewed": {
+        "date": "2026-10-07",
+        "scope": "Introduction and adult study sections read. The cited Hinckley address and linked hymn were not separately reviewed."
+      },
+      "type": "LDS Come, Follow Me",
+      "limitations": "This temple application is later Church teaching, distinct from the vision’s rule over Edom.",
+      "license": "Linked source. Original guide summaries."
+    }
+  ],
+  "passages": [
+    {
+      "id": "obadiah-1",
+      "chapter": 1,
+      "start": 1,
+      "end": 21,
+      "title": "Secure heights cannot excuse betrayal of a brother",
+      "summary": "Obadiah’s vision concerns Edom, the nation descended from Esau. Edom lives high in the rocks and thinks no one can bring it down. God will bring it down. Its allies will deceive it, and its wise men will perish. Edom did violence to its brother Jacob. It stood aside while strangers looted Jerusalem. It gloated, entered the gates, and seized goods. It cut down those who fled, and what it did will be done to it.",
+      "year": null,
+      "dateLabel": "Vision order",
+      "uncertainty": "Markers locate selected geographic references. The vision does not establish a traveled route.",
+      "placeIds": [
+        "edom",
+        "jerusalem",
+        "samaria"
+      ],
+      "sourceIds": [
+        "web",
+        "usccb-obadiah-intro"
+      ],
+      "lds": {
+        "text": "The 2026 lesson applies the final verse to temple service for deceased people. This later Church reading differs from the vision’s judgment over Edom. Why does intercepting people who escape make Edom part of the violence?",
+        "sourceIds": [
+          "cfm-obadiah-2026"
+        ]
+      },
+      "contextNote": {
+        "title": "Secure heights cannot excuse betrayal of a brother",
+        "text": "Verses 11–14 follow Edom’s conduct step by step. First it stood aside while Jerusalem was looted. Then it gloated, entered the city, and took plunder. Verse 14 names the last step. Edom waited at the crossroads for those who had escaped. It killed some and handed over the rest. Verse 10 calls the victim “your brother Jacob,” which makes it betrayal.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "obadiah-1",
+      "chapter": 1,
+      "verse": 1,
+      "eventOrder": 1,
+      "title": "Secure heights cannot excuse betrayal of a brother",
+      "summary": "Obadiah’s vision concerns Edom, the nation descended from Esau. Edom lives high in the rocks and thinks no one can bring it down. God will bring it down. Its allies will deceive it, and its wise men will perish. Edom did violence to its brother Jacob. It stood aside while strangers looted Jerusalem. It gloated, entered the gates, and seized goods. It cut down those who fled, and what it did will be done to it.",
+      "detail": "Verses 11–14 follow Edom’s conduct step by step. First it stood aside while Jerusalem was looted. Then it gloated, entered the city, and took plunder. Verse 14 names the last step. Edom waited at the crossroads for those who had escaped. It killed some and handed over the rest. Verse 10 calls the victim “your brother Jacob,” which makes it betrayal.",
+      "dateLabel": "Vision order",
+      "uncertainty": "Markers locate selected geographic references. The vision does not establish a traveled route.",
+      "sourceIds": [
+        "web",
+        "usccb-obadiah-intro"
+      ],
+      "placeIds": [
+        "edom",
+        "jerusalem",
+        "samaria"
+      ],
+      "lds": {
+        "text": "The 2026 lesson applies the final verse to temple service for deceased people. This later Church reading differs from the vision’s judgment over Edom. Why does intercepting people who escape make Edom part of the violence?",
+        "sourceIds": [
+          "cfm-obadiah-2026"
+        ]
+      }
+    }
+  ],
+  "places": [
+    {
+      "id": "edom",
+      "name": "Edom",
+      "lat": 30.75,
+      "lng": 35.55,
+      "summary": "Edom is the people and mountain region addressed in the vision.",
+      "limits": "Approximate city or region reference. The marker does not identify a particular rock dwelling or crossroads.",
+      "sourceIds": [
+        "web"
+      ],
+      "detail": "Edom is the people and mountain region addressed in the vision.",
+      "uncertainty": "Approximate city or region reference. The marker does not identify a particular rock dwelling or crossroads.",
+      "chapterLocation": true
+    },
+    {
+      "id": "jerusalem",
+      "name": "Jerusalem",
+      "lat": 31.778,
+      "lng": 35.235,
+      "summary": "Jerusalem appears as the city whose defeat Edom exploited.",
+      "limits": "Approximate city or region reference. The marker does not identify a particular rock dwelling or crossroads.",
+      "sourceIds": [
+        "web"
+      ],
+      "detail": "Jerusalem appears as the city whose defeat Edom exploited.",
+      "uncertainty": "Approximate city or region reference. The marker does not identify a particular rock dwelling or crossroads.",
+      "chapterLocation": true
+    },
+    {
+      "id": "samaria",
+      "name": "Samaria",
+      "lat": 32.276,
+      "lng": 35.194,
+      "summary": "Samaria appears among the fields named in the closing land promise.",
+      "limits": "Approximate city or region reference. The marker does not identify a particular rock dwelling or crossroads.",
+      "sourceIds": [
+        "web"
+      ],
+      "detail": "Samaria appears among the fields named in the closing land promise.",
+      "uncertainty": "Approximate city or region reference. The marker does not identify a particular rock dwelling or crossroads.",
+      "chapterLocation": true
+    }
+  ],
+  "campaigns": [],
+  "ancientRoads": [],
+  "regions": [],
+  "words": [
+    {
+      "id": "glossary-zion",
+      "label": "Zion",
+      "matches": [
+        "Zion"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A hill in Jerusalem. The name is also used for the city and its people.",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    }
+  ],
+  "guides": [
+    {
+      "id": "obadiah-context",
+      "title": "Obadiah: context and evidence",
+      "description": "Explore the book’s larger concerns through selected passages and relevant evidence.",
+      "steps": [
+        {
+          "title": "Secure heights cannot excuse betrayal of a brother",
+          "text": "Verses 11–14 follow Edom’s conduct step by step. First it stood aside while Jerusalem was looted. Then it gloated, entered the city, and took plunder. Verse 14 names the last step. Edom waited at the crossroads for those who had escaped. It killed some and handed over the rest. Verse 10 calls the victim “your brother Jacob,” which makes it betrayal.",
+          "chapter": 1,
+          "verse": 14,
+          "sourceIds": [
+            "web"
+          ]
+        }
+      ]
+    }
+  ],
+  "periods": [
+    {
+      "id": "part-0",
+      "label": "Obadiah 1–1",
+      "start": 1,
+      "end": 1,
+      "description": "Chapter order"
+    },
+    {
+      "id": "part-1",
+      "label": "Obadiah 2–2",
+      "start": 2,
+      "end": 2,
+      "description": "Chapter order"
+    },
+    {
+      "id": "part-2",
+      "label": "Obadiah 3–1",
+      "start": 3,
+      "end": 1,
+      "description": "Chapter order"
+    }
+  ],
+  "chapterMaps": [
+    {
+      "chapter": 1,
+      "focusPlaceIds": [
+        "edom",
+        "jerusalem",
+        "samaria"
+      ],
+      "placeIds": [
+        "edom",
+        "jerusalem",
+        "samaria"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Markers locate selected geographic references. The vision does not establish a traveled route.",
+      "narrative": "Obadiah’s vision concerns Edom, the nation descended from Esau. Edom lives high in the rocks and thinks no one can bring it down. God will bring it down. Its allies will deceive it, and its wise men will perish. Edom did violence to its brother Jacob. It stood aside while strangers looted Jerusalem. It gloated, entered the gates, and seized goods. It cut down those who fled, and what it did will be done to it.",
+      "limits": "Markers locate selected geographic references. The vision does not establish a traveled route.",
+      "sourceIds": [
+        "web",
+        "usccb-obadiah-intro"
+      ]
+    }
+  ],
+  "textRoutes": [],
+  "narrativeRegions": [],
+  "chapterStudies": [
+    {
+      "chapter": 1,
+      "verse": 14,
+      "context": ""
+    }
+  ]
+}

@@ -47,7 +47,16 @@ Passages can include `studyNotes: [{title, text, perspective, sourceIds}]`. `per
 
 ## Chapter study material
 
+Added-book verse records can include `publisherNote` when the publisher leaves a numbered verse empty.
+The reader labels this field “Publisher note.” It does not present that note as Scripture.
+Luke 17:36 preserves the WEB omission and its manuscript note. Exact Scripture selections still use `text` only.
+
 ### Added Bible books
+
+`scripts/book-summaries-final.json` supplies authored summaries for Second Peter through Revelation.
+Its book IDs contain chapter-number keys and summary strings. These summaries remain separate from contextual explanations.
+`scripts/build-reviewed-letter.py` applies these values before the native build.
+`scripts/book-summaries-letters.json` uses the same structure for First Timothy through First Peter.
 
 The added-book records retain complete Scripture in `dist/data/books/<id>.json`. Each chapter has `contextNote: {title, text, sourceIds, evidenceSourceIds}`. The same original explanation supplies `meaning`. `sourceIds` supports the close reading. `evidenceSourceIds` identifies the objects displayed beside it. Museum evidence does not become the author of the interpretation.
 
@@ -65,4 +74,4 @@ Sources may have `studyText` for prose in the main summary, `chapterCoverage` fo
 
 ## Word coverage extension
 
-Word records include `strongId` (the Hebrew dictionary number). Generated general entries also have `scope: "dictionary"`; the UI labels their meaning as a dictionary meaning. The catalog requires a complete English token and the Hebrew lemma in the same verse. Chapter and verse restrictions stay explicit. Existing passage notes take priority. Greek forms and passage-specific comments must not be copied to other chapters. English Isaiah 9:1 maps to Hebrew 8:23; the rest of chapter 9 is offset by one. English 64:1 maps to Hebrew 63:19b; the rest of chapter 64 is offset by one. Coverage is broad but remains a verse-level association, not a full interlinear alignment.
+Word records include `strongId` (the Hebrew dictionary number). Generated general entries also have `scope: "dictionary"`; the UI labels their meaning as a dictionary meaning. Added books receive plain-meaning terms from `scripts/book-glossary.json` with `scope: "glossary"`. These entries have empty Hebrew and Greek fields, and the UI shows only a plain meaning for them. The catalog requires a complete English token and the Hebrew lemma in the same verse. Chapter and verse restrictions stay explicit. Existing passage notes take priority. Greek forms and passage-specific comments must not be copied to other chapters. English Isaiah 9:1 maps to Hebrew 8:23; the rest of chapter 9 is offset by one. English 64:1 maps to Hebrew 63:19b; the rest of chapter 64 is offset by one. Coverage is broad but remains a verse-level association, not a full interlinear alignment.

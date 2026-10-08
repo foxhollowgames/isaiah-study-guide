@@ -1,0 +1,894 @@
+{
+  "id": "philippians",
+  "bibleCode": "PHP",
+  "name": "Philippians",
+  "description": "Shared work · humility · costly service · joy · contentment",
+  "chapterCount": 4,
+  "scripture": {
+    "1": [
+      {
+        "verse": 1,
+        "text": "Paul and Timothy, servants of Jesus Christ, to all the saints in Christ Jesus who are at Philippi, with the overseers and servants:"
+      },
+      {
+        "verse": 2,
+        "text": "Grace to you and peace from God our Father and the Lord Jesus Christ."
+      },
+      {
+        "verse": 3,
+        "text": "I thank my God whenever I remember you,"
+      },
+      {
+        "verse": 4,
+        "text": "always in every request of mine on behalf of you all, making my requests with joy,"
+      },
+      {
+        "verse": 5,
+        "text": "for your partnership in furtherance of the Good News from the first day until now;"
+      },
+      {
+        "verse": 6,
+        "text": "being confident of this very thing, that he who began a good work in you will complete it until the day of Jesus Christ."
+      },
+      {
+        "verse": 7,
+        "text": "It is even right for me to think this way on behalf of all of you, because I have you in my heart, because both in my bonds and in the defense and confirmation of the Good News, you all are partakers with me of grace."
+      },
+      {
+        "verse": 8,
+        "text": "For God is my witness, how I long after all of you in the tender mercies of Christ Jesus."
+      },
+      {
+        "verse": 9,
+        "text": "This I pray, that your love may abound yet more and more in knowledge and all discernment,"
+      },
+      {
+        "verse": 10,
+        "text": "so that you may approve the things that are excellent, that you may be sincere and without offense to the day of Christ,"
+      },
+      {
+        "verse": 11,
+        "text": "being filled with the fruits of righteousness which are through Jesus Christ, to the glory and praise of God."
+      },
+      {
+        "verse": 12,
+        "text": "Now I desire to have you know, brothers, that the things which happened to me have turned out rather to the progress of the Good News,"
+      },
+      {
+        "verse": 13,
+        "text": "so that it became evident to the whole palace guard, and to all the rest, that my bonds are in Christ,"
+      },
+      {
+        "verse": 14,
+        "text": "and that most of the brothers in the Lord, being confident through my bonds, are more abundantly bold to speak the word of God without fear."
+      },
+      {
+        "verse": 15,
+        "text": "Some indeed preach Christ even out of envy and strife, and some also out of good will."
+      },
+      {
+        "verse": 16,
+        "text": "The former insincerely preach Christ from selfish ambition, thinking that they add affliction to my chains;"
+      },
+      {
+        "verse": 17,
+        "text": "but the latter out of love, knowing that I am appointed for the defense of the Good News."
+      },
+      {
+        "verse": 18,
+        "text": "What does it matter? Only that in every way, whether in pretense or in truth, Christ is proclaimed. I rejoice in this, yes, and will rejoice."
+      },
+      {
+        "verse": 19,
+        "text": "For I know that this will turn out to my salvation through your prayers and the supply of the Spirit of Jesus Christ,"
+      },
+      {
+        "verse": 20,
+        "text": "according to my earnest expectation and hope, that I will in no way be disappointed, but with all boldness, as always, now also Christ will be magnified in my body, whether by life or by death."
+      },
+      {
+        "verse": 21,
+        "text": "For to me to live is Christ, and to die is gain."
+      },
+      {
+        "verse": 22,
+        "text": "But if I live on in the flesh, this will bring fruit from my work; yet I don’t know what I will choose."
+      },
+      {
+        "verse": 23,
+        "text": "But I am hard pressed between the two, having the desire to depart and be with Christ, which is far better."
+      },
+      {
+        "verse": 24,
+        "text": "Yet to remain in the flesh is more needful for your sake."
+      },
+      {
+        "verse": 25,
+        "text": "Having this confidence, I know that I will remain, yes, and remain with you all for your progress and joy in the faith,"
+      },
+      {
+        "verse": 26,
+        "text": "that your boasting may abound in Christ Jesus in me through my presence with you again."
+      },
+      {
+        "verse": 27,
+        "text": "Only let your way of life be worthy of the Good News of Christ, that whether I come and see you or am absent, I may hear of your state, that you stand firm in one spirit, with one soul striving for the faith of the Good News;"
+      },
+      {
+        "verse": 28,
+        "text": "and in nothing frightened by the adversaries, which is for them a proof of destruction, but to you of salvation, and that from God."
+      },
+      {
+        "verse": 29,
+        "text": "Because it has been granted to you on behalf of Christ, not only to believe in him, but also to suffer on his behalf,"
+      },
+      {
+        "verse": 30,
+        "text": "having the same conflict which you saw in me and now hear is in me."
+      }
+    ],
+    "2": [
+      {
+        "verse": 1,
+        "text": "If therefore there is any exhortation in Christ, if any consolation of love, if any fellowship of the Spirit, if any tender mercies and compassion,"
+      },
+      {
+        "verse": 2,
+        "text": "make my joy full by being like-minded, having the same love, being of one accord, of one mind;"
+      },
+      {
+        "verse": 3,
+        "text": "doing nothing through rivalry or through conceit, but in humility, each counting others better than himself;"
+      },
+      {
+        "verse": 4,
+        "text": "each of you not just looking to his own things, but each of you also to the things of others."
+      },
+      {
+        "verse": 5,
+        "text": "Have this in your mind, which was also in Christ Jesus,"
+      },
+      {
+        "verse": 6,
+        "text": "who, existing in the form of God, didn’t consider equality with God a thing to be grasped,"
+      },
+      {
+        "verse": 7,
+        "text": "but emptied himself, taking the form of a servant, being made in the likeness of men."
+      },
+      {
+        "verse": 8,
+        "text": "And being found in human form, he humbled himself, becoming obedient to the point of death, yes, the death of the cross."
+      },
+      {
+        "verse": 9,
+        "text": "Therefore God also highly exalted him, and gave to him the name which is above every name,"
+      },
+      {
+        "verse": 10,
+        "text": "that at the name of Jesus every knee should bow, of those in heaven, those on earth, and those under the earth,"
+      },
+      {
+        "verse": 11,
+        "text": "and that every tongue should confess that Jesus Christ is Lord, to the glory of God the Father."
+      },
+      {
+        "verse": 12,
+        "text": "So then, my beloved, even as you have always obeyed, not only in my presence, but now much more in my absence, work out your own salvation with fear and trembling."
+      },
+      {
+        "verse": 13,
+        "text": "For it is God who works in you both to will and to work for his good pleasure."
+      },
+      {
+        "verse": 14,
+        "text": "Do all things without complaining and arguing,"
+      },
+      {
+        "verse": 15,
+        "text": "that you may become blameless and harmless, children of God without defect in the middle of a crooked and perverse generation, among whom you are seen as lights in the world,"
+      },
+      {
+        "verse": 16,
+        "text": "holding up the word of life, that I may have something to boast in the day of Christ that I didn’t run in vain nor labor in vain."
+      },
+      {
+        "verse": 17,
+        "text": "Yes, and if I am poured out on the sacrifice and service of your faith, I am glad and rejoice with you all."
+      },
+      {
+        "verse": 18,
+        "text": "In the same way, you also should be glad and rejoice with me."
+      },
+      {
+        "verse": 19,
+        "text": "But I hope in the Lord Jesus to send Timothy to you soon, that I also may be cheered up when I know how you are doing."
+      },
+      {
+        "verse": 20,
+        "text": "For I have no one else like-minded, who will truly care about you."
+      },
+      {
+        "verse": 21,
+        "text": "For they all seek their own, not the things of Jesus Christ."
+      },
+      {
+        "verse": 22,
+        "text": "But you know that he has proved himself. As a child serves a father, so he served with me in furtherance of the Good News."
+      },
+      {
+        "verse": 23,
+        "text": "Therefore I hope to send him at once, as soon as I see how it will go with me."
+      },
+      {
+        "verse": 24,
+        "text": "But I trust in the Lord that I myself also will come shortly."
+      },
+      {
+        "verse": 25,
+        "text": "But I thought it necessary to send to you Epaphroditus, my brother, fellow worker, fellow soldier, and your apostle and servant of my need,"
+      },
+      {
+        "verse": 26,
+        "text": "since he longed for you all, and was very troubled because you had heard that he was sick."
+      },
+      {
+        "verse": 27,
+        "text": "For indeed he was sick nearly to death, but God had mercy on him, and not on him only, but on me also, that I might not have sorrow on sorrow."
+      },
+      {
+        "verse": 28,
+        "text": "I have sent him therefore the more diligently, that when you see him again, you may rejoice, and that I may be the less sorrowful."
+      },
+      {
+        "verse": 29,
+        "text": "Receive him therefore in the Lord with all joy, and hold such people in honor,"
+      },
+      {
+        "verse": 30,
+        "text": "because for the work of Christ he came near to death, risking his life to supply that which was lacking in your service toward me."
+      }
+    ],
+    "3": [
+      {
+        "verse": 1,
+        "text": "Finally, my brothers, rejoice in the Lord! To write the same things to you, to me indeed is not tiresome, but for you it is safe."
+      },
+      {
+        "verse": 2,
+        "text": "Beware of the dogs; beware of the evil workers; beware of the false circumcision."
+      },
+      {
+        "verse": 3,
+        "text": "For we are the circumcision, who worship God in the Spirit, and rejoice in Christ Jesus, and have no confidence in the flesh;"
+      },
+      {
+        "verse": 4,
+        "text": "though I myself might have confidence even in the flesh. If any other man thinks that he has confidence in the flesh, I yet more:"
+      },
+      {
+        "verse": 5,
+        "text": "circumcised the eighth day, of the stock of Israel, of the tribe of Benjamin, a Hebrew of Hebrews; concerning the law, a Pharisee;"
+      },
+      {
+        "verse": 6,
+        "text": "concerning zeal, persecuting the assembly; concerning the righteousness which is in the law, found blameless."
+      },
+      {
+        "verse": 7,
+        "text": "However, I consider those things that were gain to me as a loss for Christ."
+      },
+      {
+        "verse": 8,
+        "text": "Yes most certainly, and I count all things to be a loss for the excellency of the knowledge of Christ Jesus, my Lord, for whom I suffered the loss of all things, and count them nothing but refuse, that I may gain Christ"
+      },
+      {
+        "verse": 9,
+        "text": "and be found in him, not having a righteousness of my own, that which is of the law, but that which is through faith in Christ, the righteousness which is from God by faith,"
+      },
+      {
+        "verse": 10,
+        "text": "that I may know him and the power of his resurrection, and the fellowship of his sufferings, becoming conformed to his death,"
+      },
+      {
+        "verse": 11,
+        "text": "if by any means I may attain to the resurrection from the dead."
+      },
+      {
+        "verse": 12,
+        "text": "Not that I have already obtained, or am already made perfect; but I press on, that I may take hold of that for which also I was taken hold of by Christ Jesus."
+      },
+      {
+        "verse": 13,
+        "text": "Brothers, I don’t regard myself as yet having taken hold, but one thing I do: forgetting the things which are behind and stretching forward to the things which are before,"
+      },
+      {
+        "verse": 14,
+        "text": "I press on toward the goal for the prize of the high calling of God in Christ Jesus."
+      },
+      {
+        "verse": 15,
+        "text": "Let us therefore, as many as are perfect, think this way. If in anything you think otherwise, God will also reveal that to you."
+      },
+      {
+        "verse": 16,
+        "text": "Nevertheless, to the extent that we have already attained, let’s walk by the same rule. Let’s be of the same mind."
+      },
+      {
+        "verse": 17,
+        "text": "Brothers, be imitators together of me, and note those who walk this way, even as you have us for an example."
+      },
+      {
+        "verse": 18,
+        "text": "For many walk, of whom I told you often, and now tell you even weeping, as the enemies of the cross of Christ,"
+      },
+      {
+        "verse": 19,
+        "text": "whose end is destruction, whose god is the belly, and whose glory is in their shame, who think about earthly things."
+      },
+      {
+        "verse": 20,
+        "text": "For our citizenship is in heaven, from where we also wait for a Savior, the Lord Jesus Christ,"
+      },
+      {
+        "verse": 21,
+        "text": "who will change the body of our humiliation to be conformed to the body of his glory, according to the working by which he is able even to subject all things to himself."
+      }
+    ],
+    "4": [
+      {
+        "verse": 1,
+        "text": "Therefore, my brothers, beloved and longed for, my joy and crown, stand firm in the Lord in this way, my beloved."
+      },
+      {
+        "verse": 2,
+        "text": "I exhort Euodia, and I exhort Syntyche, to think the same way in the Lord."
+      },
+      {
+        "verse": 3,
+        "text": "Yes, I beg you also, true partner, help these women, for they labored with me in the Good News with Clement also, and the rest of my fellow workers, whose names are in the book of life."
+      },
+      {
+        "verse": 4,
+        "text": "Rejoice in the Lord always! Again I will say, “Rejoice!”"
+      },
+      {
+        "verse": 5,
+        "text": "Let your gentleness be known to all men. The Lord is at hand."
+      },
+      {
+        "verse": 6,
+        "text": "In nothing be anxious, but in everything, by prayer and petition with thanksgiving, let your requests be made known to God."
+      },
+      {
+        "verse": 7,
+        "text": "And the peace of God, which surpasses all understanding, will guard your hearts and your thoughts in Christ Jesus."
+      },
+      {
+        "verse": 8,
+        "text": "Finally, brothers, whatever things are true, whatever things are honorable, whatever things are just, whatever things are pure, whatever things are lovely, whatever things are of good report: if there is any virtue and if there is anything worthy of praise, think about these things."
+      },
+      {
+        "verse": 9,
+        "text": "Do the things which you learned, received, heard, and saw in me, and the God of peace will be with you."
+      },
+      {
+        "verse": 10,
+        "text": "But I rejoice in the Lord greatly that now at length you have revived your thought for me; in which you did indeed take thought, but you lacked opportunity."
+      },
+      {
+        "verse": 11,
+        "text": "Not that I speak because of lack, for I have learned in whatever state I am, to be content in it."
+      },
+      {
+        "verse": 12,
+        "text": "I know how to be humbled, and I also know how to abound. In any and all circumstances I have learned the secret both to be filled and to be hungry, both to abound and to be in need."
+      },
+      {
+        "verse": 13,
+        "text": "I can do all things through Christ who strengthens me."
+      },
+      {
+        "verse": 14,
+        "text": "However you did well that you shared in my affliction."
+      },
+      {
+        "verse": 15,
+        "text": "You yourselves also know, you Philippians, that in the beginning of the Good News, when I departed from Macedonia, no assembly shared with me in the matter of giving and receiving but you only."
+      },
+      {
+        "verse": 16,
+        "text": "For even in Thessalonica you sent once and again to my need."
+      },
+      {
+        "verse": 17,
+        "text": "Not that I seek for the gift, but I seek for the fruit that increases to your account."
+      },
+      {
+        "verse": 18,
+        "text": "But I have all things and abound. I am filled, having received from Epaphroditus the things that came from you, a sweet-smelling fragrance, an acceptable and well-pleasing sacrifice to God."
+      },
+      {
+        "verse": 19,
+        "text": "My God will supply every need of yours according to his riches in glory in Christ Jesus."
+      },
+      {
+        "verse": 20,
+        "text": "Now to our God and Father be the glory forever and ever! Amen."
+      },
+      {
+        "verse": 21,
+        "text": "Greet every saint in Christ Jesus. The brothers who are with me greet you."
+      },
+      {
+        "verse": 22,
+        "text": "All the saints greet you, especially those who are of Caesar’s household."
+      },
+      {
+        "verse": 23,
+        "text": "The grace of the Lord Jesus Christ be with you all. Amen."
+      }
+    ]
+  },
+  "chapters": [
+    {
+      "chapter": 1,
+      "title": "Paul measures uncertain imprisonment through the hearers' continuing need",
+      "summary": "Paul and Timothy write to the saints at Philippi with their overseers and servants. Paul thanks God for their partnership from the first day. He prays that their love will grow in knowledge. He says his chains have helped the good news spread through the whole guard. Some announce Christ from envy, some from good will, and he rejoices. He does not know whether he will live or die. To live is Christ, and to die is gain. He asks them to stand firm in one spirit and not fear their opponents.",
+      "meaning": "Paul writes in chains and does not know the outcome (verses 13 and 20). Verse 21 says both outcomes are good to him. Verse 23 states his own wish: to depart and be with Christ. Verse 24 sets the readers’ need against that wish. To remain is “more needful” for them. Verse 25 says this convinces him that he will stay. His reason for staying is their progress and joy in the faith.",
+      "people": [
+        "paul",
+        "jesus",
+        "timothy"
+      ],
+      "places": [
+        "philippi"
+      ],
+      "sourceIds": [
+        "web"
+      ],
+      "lds": {
+        "text": "Why does Paul place the hearers' need beside his own desire to depart?",
+        "sourceIds": []
+      },
+      "eventOrder": 1,
+      "dateLabel": "Book order",
+      "historicalNote": "The opening prayer treats the hearers as partners rather than distant recipients of advice. Paul then reports that his chains have encouraged others to speak more boldly. Rival workers cause pain, yet their motives do not become his only measure of events. His reflection on death and continued life places desire beside the hearers' need for him. Remaining would permit more work for their progress and joy. The closing appeal asks them to stand together whether his hoped visit happens or not.",
+      "mapNote": "The marker identifies the named recipient city. No exact prison, home, or heavenly location is assigned.",
+      "route": [],
+      "routeEvidence": "The letter does not establish an exact delivery route or prison city.",
+      "contextNote": {
+        "title": "Paul measures uncertain imprisonment through the hearers' continuing need",
+        "text": "Paul writes in chains and does not know the outcome (verses 13 and 20). Verse 21 says both outcomes are good to him. Verse 23 states his own wish: to depart and be with Christ. Verse 24 sets the readers’ need against that wish. To remain is “more needful” for them. Verse 25 says this convinces him that he will stay. His reason for staying is their progress and joy in the faith.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    },
+    {
+      "chapter": 2,
+      "title": "Christ's lowered position supplies the pattern for workers who serve others",
+      "summary": "Paul asks them to be of one mind and to do nothing from rivalry. Each should count others better than himself. He tells them to have the mind of Christ Jesus. Christ existed in the form of God and emptied himself, taking a servant’s form. He was obedient to death on a cross. God exalted him, so that every knee will bow. They are to work out their salvation and shine as lights. Paul plans to send Timothy, and he sends back Epaphroditus, who nearly died.",
+      "meaning": "Verse 3 forbids rivalry and conceit. Verse 4 states the same thing as a direction for the eyes. Each is to look to the things of others, not only his own. Verses 6–8 give the pattern: Christ did not grasp equality with God. He emptied himself and became obedient to death. The chapter then names two people who do this. Timothy cares for their state (verse 20), and Epaphroditus risked his life (verse 30).",
+      "people": [
+        "paul",
+        "jesus",
+        "timothy",
+        "epaphroditus"
+      ],
+      "places": [],
+      "sourceIds": [
+        "web"
+      ],
+      "lds": {
+        "text": "The selected Church lesson teaches changed conduct through humility and care for others. How do Timothy and Epaphroditus give personal examples of concern for others?",
+        "sourceIds": [
+          "cfm-nt-2023-42"
+        ]
+      },
+      "eventOrder": 2,
+      "dateLabel": "Book order",
+      "historicalNote": "Paul answers rivalry by asking each person to consider another's interests alongside their own. Christ's movement through servanthood and death gives that request its central pattern. His later raised position follows that lowered path rather than replacing its importance. The commands about obedience and shared joy bring this pattern into the hearers' conduct. Timothy's genuine concern and Epaphroditus' dangerous service then give the appeal two personal examples. Paul asks the group to honor service rather than treating illness as a worker's failure.",
+      "mapNote": "The marker identifies the named recipient city. No exact prison, home, or heavenly location is assigned.",
+      "route": [],
+      "routeEvidence": "The letter does not establish an exact delivery route or prison city.",
+      "contextNote": {
+        "title": "Christ's lowered position supplies the pattern for workers who serve others",
+        "text": "Verse 3 forbids rivalry and conceit. Verse 4 states the same thing as a direction for the eyes. Each is to look to the things of others, not only his own. Verses 6–8 give the pattern: Christ did not grasp equality with God. He emptied himself and became obedient to death. The chapter then names two people who do this. Timothy cares for their state (verse 20), and Epaphroditus risked his life (verse 30).",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    },
+    {
+      "chapter": 3,
+      "title": "Paul exchanges claims to rank for a pursuit he has not yet completed",
+      "summary": "Paul warns against those who insist on circumcision. He lists his own grounds for confidence in the flesh. He was of Benjamin, a Pharisee, and blameless in the law. He counts all of it loss for the sake of knowing Christ. He wants a righteousness that is through faith. He has not yet reached the goal and presses on toward the prize. He asks them to follow his example. He says their citizenship is in heaven, and Christ will change their bodies.",
+      "meaning": "Verses 5–6 give a proud record, and verse 7 calls it loss. Verses 10–11 say what he wants: to know Christ and reach the resurrection. Verse 12 stops any claim that he has arrived. He has not obtained it and is not yet perfect. Two verbs carry the verse. Paul presses on to take hold, because Christ first took hold of him. Verse 13 repeats the denial, and verse 14 keeps him running toward the prize.",
+      "people": [
+        "paul",
+        "jesus"
+      ],
+      "places": [],
+      "sourceIds": [
+        "web"
+      ],
+      "lds": {
+        "text": "Why does Paul describe pursuit rather than claim completed perfection?",
+        "sourceIds": []
+      },
+      "eventOrder": 3,
+      "dateLabel": "Book order",
+      "historicalNote": "The warning against rival workers leads into Paul's own former reasons for confidence. His inherited standing and strict practice show that he understands the claims he now rejects. He counts those gains as loss because knowing Christ supplies a different measure. Yet receiving that new direction does not mean that Paul claims completed perfection. The reaching image places continued effort within a goal that still lies ahead. Waiting for changed bodies then connects shared hope with Christ rather than present bodily rank.",
+      "mapNote": "The marker identifies the named recipient city. No exact prison, home, or heavenly location is assigned.",
+      "route": [],
+      "routeEvidence": "The letter does not establish an exact delivery route or prison city.",
+      "contextNote": {
+        "title": "Paul exchanges claims to rank for a pursuit he has not yet completed",
+        "text": "Verses 5–6 give a proud record, and verse 7 calls it loss. Verses 10–11 say what he wants: to know Christ and reach the resurrection. Verse 12 stops any claim that he has arrived. He has not obtained it and is not yet perfect. Two verbs carry the verse. Paul presses on to take hold, because Christ first took hold of him. Verse 13 repeats the denial, and verse 14 keeps him running toward the prize.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    },
+    {
+      "chapter": 4,
+      "title": "Strength through Christ supports contentment within need and shared practical help",
+      "summary": "Paul begs Euodia and Syntyche to agree in the Lord. He tells them to rejoice always and to bring every request to God. God’s peace will guard their hearts. They should think on what is true, honorable, just, pure, and lovely. Paul rejoices that they have renewed their care for him. He has learned to be content in plenty and in hunger. He thanks them for the gifts sent by Epaphroditus. He sends greetings, including from those of Caesar’s household.",
+      "meaning": "Verse 10 thanks the Philippians for their gift. Verse 11 at once says Paul does not speak from need. He has learned to be content in every state. Verse 12 names the states: hunger and plenty, abundance and want. “All things” in verse 13 means those conditions. Christ gives him strength to live through each one. Verse 14 still says they did well to share in his trouble.",
+      "people": [
+        "paul",
+        "jesus",
+        "epaphroditus",
+        "euodia",
+        "syntyche"
+      ],
+      "places": [],
+      "sourceIds": [
+        "web",
+        "works-philippians"
+      ],
+      "lds": {
+        "text": "The selected Church lesson teaches joy and contentment through Christ during difficult conditions. How does the gift show that contentment can still welcome help?",
+        "sourceIds": [
+          "cfm-nt-2023-42"
+        ]
+      },
+      "eventOrder": 4,
+      "dateLabel": "Book order",
+      "historicalNote": "Paul addresses Euodia and Syntyche as fellow workers who need help to agree. Their service remains recognized rather than disappearing behind the present dispute. Carla Works reads the appeal to rejoice within danger rather than as denial of suffering. Paul then explains learned contentment through both hunger and plenty. Strength through Christ supports endurance in those conditions rather than promising every desired achievement. His thanks for the group's gift shows that contentment still welcomes practical help from others.",
+      "mapNote": "The marker identifies the named recipient city. No exact prison, home, or heavenly location is assigned.",
+      "route": [],
+      "routeEvidence": "The letter does not establish an exact delivery route or prison city.",
+      "contextNote": {
+        "title": "Strength through Christ supports contentment within need and shared practical help",
+        "text": "Verse 10 thanks the Philippians for their gift. Verse 11 at once says Paul does not speak from need. He has learned to be content in every state. Verse 12 names the states: hunger and plenty, abundance and want. “All things” in verse 13 means those conditions. Christ gives him strength to live through each one. Verse 14 still says they did well to share in his trouble.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    }
+  ],
+  "people": [
+    {
+      "id": "paul",
+      "name": "Paul",
+      "role": "Imprisoned letter speaker who depends on shared prayer and support",
+      "relations": "Timothy shares the opening greeting, and Epaphroditus brings the group's gift.",
+      "passages": "Philippians 1–4",
+      "meaning": "His uncertain condition gives the appeals to unity and joy their immediate setting.",
+      "life": "Birth and death years are not securely known.",
+      "sourceIds": [
+        "web"
+      ],
+      "placeIds": [],
+      "linkNames": [
+        "Paul"
+      ],
+      "verseScope": {}
+    },
+    {
+      "id": "jesus",
+      "name": "Jesus Christ",
+      "role": "Lord whose self-giving path supplies the pattern for shared conduct",
+      "relations": "Paul connects his own changed measure of life and the group's hope with him.",
+      "passages": "Philippians 1–4",
+      "meaning": "His service and raised position give humility and hope a common center.",
+      "life": "Birth and death years are not securely known.",
+      "sourceIds": [
+        "web"
+      ],
+      "placeIds": [],
+      "linkNames": [
+        "Jesus",
+        "Christ"
+      ],
+      "verseScope": {}
+    },
+    {
+      "id": "timothy",
+      "name": "Timothy",
+      "role": "Trusted worker whom Paul hopes to send for news of the hearers",
+      "relations": "He shares the opening greeting and has served beside Paul.",
+      "passages": "Philippians 1:1; 2:19–23",
+      "meaning": "His genuine concern gives the appeal to consider others a personal example.",
+      "life": "Birth and death years are not securely known.",
+      "sourceIds": [
+        "web"
+      ],
+      "placeIds": [],
+      "linkNames": [
+        "Timothy"
+      ],
+      "verseScope": {}
+    },
+    {
+      "id": "epaphroditus",
+      "name": "Epaphroditus",
+      "role": "Messenger whose service for Paul brings him close to death",
+      "relations": "He carries the group's gift and longs to return to them.",
+      "passages": "Philippians 2:25–30; 4:18",
+      "meaning": "Paul asks the group to honor his costly service and welcome his return.",
+      "life": "Birth and death years are not securely known.",
+      "sourceIds": [
+        "web"
+      ],
+      "placeIds": [],
+      "linkNames": [
+        "Epaphroditus"
+      ],
+      "verseScope": {}
+    },
+    {
+      "id": "euodia",
+      "name": "Euodia",
+      "role": "Recognized fellow worker whom Paul asks to agree with Syntyche",
+      "relations": "An unnamed partner is asked to help both women.",
+      "passages": "Philippians 4:2–3",
+      "meaning": "Her earlier service remains recognized within the present appeal for agreement.",
+      "life": "Birth and death years are not securely known.",
+      "sourceIds": [
+        "web"
+      ],
+      "placeIds": [],
+      "linkNames": [
+        "Euodia"
+      ],
+      "verseScope": {}
+    },
+    {
+      "id": "syntyche",
+      "name": "Syntyche",
+      "role": "Recognized fellow worker whom Paul asks to agree with Euodia",
+      "relations": "An unnamed partner is asked to help both women.",
+      "passages": "Philippians 4:2–3",
+      "meaning": "Her earlier service remains recognized within the present appeal for agreement.",
+      "life": "Birth and death years are not securely known.",
+      "sourceIds": [
+        "web"
+      ],
+      "placeIds": [],
+      "linkNames": [
+        "Syntyche"
+      ],
+      "verseScope": {}
+    }
+  ],
+  "places": [
+    {
+      "id": "philippi",
+      "name": "Philippi",
+      "lat": 41,
+      "lng": 24.283333333333335,
+      "summary": "Philippi is named as the recipients' city in the opening greeting.",
+      "limits": "Broad city reference. Exact houses, riverside meeting points, courtrooms, and ancient routes remain unassigned.",
+      "sourceIds": [
+        "web",
+        "net-acts-map"
+      ],
+      "verseScope": {},
+      "linkNames": [
+        "Philippi"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "web",
+      "title": "Philippians · World English Bible",
+      "url": "https://ebible.org/engwebp/PHP01.htm",
+      "summary": "All four chapters supply the primary text for original close readings.",
+      "category": "Scripture",
+      "perspective": "historical",
+      "limits": "Exact dates, the prison city, original manuscripts, Greek forms, rival workers' identities, and the cause of the women's disagreement were not independently verified. The letter supplies Paul's perspective rather than a complete reply from others.",
+      "author": "World English Bible translators",
+      "publisher": "eBible.org",
+      "chapterCoverage": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "reviewed": {
+        "date": "2026-10-07",
+        "scope": "All 104 verses read for four original contextual explanations and exact selections. Surroundings, counts, and character integrity checked."
+      }
+    },
+    {
+      "id": "works-philippians",
+      "title": "Commentary on Philippians 4:4-7",
+      "url": "https://www.workingpreacher.org/commentaries/revised-common-lectionary/third-sunday-of-advent-3/commentary-on-philippians-44-7-5",
+      "summary": "Works reads joy within suffering and uncertain waiting.",
+      "category": "Scholarly study",
+      "perspective": "historical",
+      "limits": "This is Works' interpretation. Her Greek analysis, wider Roman setting, and broader account of peace were not independently verified. Linked works were not reviewed.",
+      "author": "Carla Works",
+      "publisher": "Luther Seminary",
+      "year": 2021,
+      "chapterCoverage": [
+        4
+      ],
+      "reviewed": {
+        "date": "2026-10-07",
+        "scope": "Complete commentary body read. The guide attributes her reading of joy without denial of suffering."
+      }
+    },
+    {
+      "id": "cfm-nt-2023-42",
+      "title": "October 9–15 · Philippians; Colossians",
+      "url": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-sunday-school-new-testament-2023/42?lang=eng",
+      "summary": "The lesson studies changed conduct and joy through Christ.",
+      "category": "LDS Come, Follow Me",
+      "perspective": "lds",
+      "limits": "Philippians coverage follows actual discussion of chapters two and four. The lesson title does not establish coverage of every chapter. Linked talks, videos, and Restoration passages were not independently reviewed.",
+      "author": "The Church of Jesus Christ of Latter-day Saints",
+      "publisher": "The Church of Jesus Christ of Latter-day Saints",
+      "year": 2023,
+      "chapterCoverage": [
+        2,
+        4
+      ],
+      "reviewed": {
+        "date": "2026-10-07",
+        "scope": "Complete lesson body read, including its Colossians sections. Only Philippians two and four support this book's lesson references."
+      }
+    },
+    {
+      "id": "atlas-canaan",
+      "title": "Bible Maps: Canaan in Old Testament Times",
+      "perspective": "historical",
+      "category": "Geography",
+      "url": "https://www.churchofjesuschrist.org/study/scriptures/bible-maps/map-10?lang=eng",
+      "summary": "This Church-published atlas identifies towns and regions in Canaan.",
+      "limits": "Existing selected reference coordinates only. The earlier review record remains unchanged. This source does not verify Gospel events or exact routes."
+    },
+    {
+      "id": "net-acts-map",
+      "title": "NET Bible · selected Acts location references",
+      "url": "https://classic.net.bible.org/dictionary.php?word=Antioch",
+      "summary": "Selected opening descriptions and coordinates distinguish cities named in Acts.",
+      "category": "Geographic reference",
+      "perspective": "historical",
+      "limits": "Broad reference points do not verify ancient events, travel paths, buildings, or coastlines. Older encyclopedia claims about authorship, law, populations, and exact dates were not adopted.",
+      "author": "NET Bible editors and linked reference contributors",
+      "publisher": "Bible.org",
+      "year": null,
+      "reviewed": {
+        "date": "2026-10-07",
+        "scope": "Opening descriptions and coordinate lines read for Rome, Corinth, Ephesus, Athens, Antioch, Caesarea, and Philippi. The Caesarea page also supplies the distinct Philippi coordinate. Both Antiochs remain separate. Only these location references are used."
+      },
+      "links": [
+        {
+          "label": "Rome",
+          "url": "https://classic.net.bible.org/dictionary.php?word=Rome"
+        },
+        {
+          "label": "Corinth",
+          "url": "https://classic.net.bible.org/dictionary.php?word=Corinth"
+        },
+        {
+          "label": "Ephesus",
+          "url": "https://classic.net.bible.org/dictionary.php?word=Ephesus"
+        },
+        {
+          "label": "Athens",
+          "url": "https://classic.net.bible.org/dictionary.php?word=Athens"
+        },
+        {
+          "label": "Antioch",
+          "url": "https://classic.net.bible.org/dictionary.php?word=Antioch"
+        },
+        {
+          "label": "Caesarea",
+          "url": "https://classic.net.bible.org/dictionary.php?word=Caesarea"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "date": "2026-10-07",
+    "contextReviewDate": "2026-10-07",
+    "copyReviewDate": "2026-10-07",
+    "scope": "All 104 verses read for four original contextual explanations and exact selections. Six selected profiles and one city marker do not claim exhaustive coverage. One Church lesson retains actual chapter discussion. Works' interpretation remains attributed. Exact dates, prison city, original manuscripts, Greek forms, rival identities, and the cause of the women's disagreement were not independently verified.",
+    "nextBook": "colossians",
+    "copyReview": "2026-10-07: Reader copy reviewed against WRITING-GUIDE.md. Scripture and source titles preserved.",
+    "sourcePolicy": "BIBLE-SOURCE-POLICY.md",
+    "sourceEnrichmentDate": "2026-10-05",
+    "contextReview": {
+      "date": "2026-10-07",
+      "chapters": 4,
+      "scope": "Original close readings grounded in local World English Bible passages. Existing external source reviews remain separate."
+    }
+  },
+  "translation": "World English Bible",
+  "copyright": "Public domain",
+  "chapterStudies": [
+    {
+      "chapter": 1,
+      "verse": 24,
+      "context": ""
+    },
+    {
+      "chapter": 2,
+      "verse": 4,
+      "context": ""
+    },
+    {
+      "chapter": 3,
+      "verse": 12,
+      "context": ""
+    },
+    {
+      "chapter": 4,
+      "verse": 13,
+      "context": ""
+    }
+  ],
+  "contextGuide": {
+    "id": "philippians-context",
+    "title": "Philippians: context and evidence",
+    "description": "Explore the book’s larger concerns through selected passages and relevant evidence.",
+    "steps": [
+      {
+        "title": "Paul measures uncertain imprisonment through the hearers' continuing need",
+        "text": "Paul writes in chains and does not know the outcome (verses 13 and 20). Verse 21 says both outcomes are good to him. Verse 23 states his own wish: to depart and be with Christ. Verse 24 sets the readers’ need against that wish. To remain is “more needful” for them. Verse 25 says this convinces him that he will stay. His reason for staying is their progress and joy in the faith.",
+        "chapter": 1,
+        "verse": 24,
+        "sourceIds": [
+          "web"
+        ]
+      },
+      {
+        "title": "Christ's lowered position supplies the pattern for workers who serve others",
+        "text": "Verse 3 forbids rivalry and conceit. Verse 4 states the same thing as a direction for the eyes. Each is to look to the things of others, not only his own. Verses 6–8 give the pattern: Christ did not grasp equality with God. He emptied himself and became obedient to death. The chapter then names two people who do this. Timothy cares for their state (verse 20), and Epaphroditus risked his life (verse 30).",
+        "chapter": 2,
+        "verse": 4,
+        "sourceIds": [
+          "web"
+        ]
+      },
+      {
+        "title": "Paul exchanges claims to rank for a pursuit he has not yet completed",
+        "text": "Verses 5–6 give a proud record, and verse 7 calls it loss. Verses 10–11 say what he wants: to know Christ and reach the resurrection. Verse 12 stops any claim that he has arrived. He has not obtained it and is not yet perfect. Two verbs carry the verse. Paul presses on to take hold, because Christ first took hold of him. Verse 13 repeats the denial, and verse 14 keeps him running toward the prize.",
+        "chapter": 3,
+        "verse": 12,
+        "sourceIds": [
+          "web"
+        ]
+      },
+      {
+        "title": "Strength through Christ supports contentment within need and shared practical help",
+        "text": "Verse 10 thanks the Philippians for their gift. Verse 11 at once says Paul does not speak from need. He has learned to be content in every state. Verse 12 names the states: hunger and plenty, abundance and want. “All things” in verse 13 means those conditions. Christ gives him strength to live through each one. Verse 14 still says they did well to share in his trouble.",
+        "chapter": 4,
+        "verse": 13,
+        "sourceIds": [
+          "web"
+        ]
+      }
+    ]
+  }
+}

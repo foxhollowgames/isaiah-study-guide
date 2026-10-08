@@ -1,0 +1,8 @@
+"""Persistent sentence refinements following review of the John explanations."""
+import json
+from book_common import ROOT
+p=ROOT/'scripts/book-context-complete/john.json';rows=json.loads(p.read_text(encoding='utf8'))
+changes={2:[('answers the sign demand','answers the demand')],3:[('comes at night with confidence that the signs establish','comes at night believing the signs establish'),("the fulfillment of his own task","fulfillment of his own task")],5:[('and repeated failure to reach','and failure to reach')],8:[('The retained opening scene','The opening scene'),('within this exchange','within this argument')],9:[('people confident that they already see','people confident they already see')],10:[('without naming that group here','without naming that group')],11:[('joins the mourners in tears','joins mourners in tears'),('another meaning about gathering','another meaning: gathering')],12:[('The arrival of Greeks asking to see Jesus','Greeks asking to see Jesus')],13:[('Judas leaves into night','Judas leaves into darkness')],14:[('their present responsibility','their responsibility')],16:[('Jesus immediately predicts','Jesus predicts')],17:[('the sending and the shared love','the sending and shared love')],18:[('a different kind of kingdom','a different kingdom'),('through the crowd\'s choice','through crowd choice')],19:[('or the decision to hand Jesus over','or handing Jesus over'),('a later medical explanation','a medical explanation')],20:[('selected written signs','written signs')],21:[('turn into a certainty','turn into certainty')]}
+for r in rows:
+ for a,b in changes.get(r[0],[]):r[3]=r[3].replace(a,b)
+p.write_text(json.dumps(rows,ensure_ascii=False,indent=2)+'\n',encoding='utf8')

@@ -1,0 +1,540 @@
+{
+  "sources": [
+    {
+      "id": "web",
+      "title": "Jonah · World English Bible",
+      "url": "https://ebible.org/engwebp/JON01.htm",
+      "summary": "All four chapters appear in the reading text.",
+      "category": "Scripture",
+      "perspective": "historical",
+      "limits": "The book does not identify the king of Nineveh. The guide assigns no certain composition date or sea route.",
+      "author": "World English Bible translators",
+      "publisher": "eBible.org",
+      "chapterCoverage": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "reviewed": {
+        "date": "2026-10-07",
+        "scope": "All 48 verses read. Verse counts and character integrity checked."
+      },
+      "type": "Scripture",
+      "limitations": "The book does not identify the king of Nineveh. The guide assigns no certain composition date or sea route.",
+      "license": "Public domain"
+    },
+    {
+      "id": "wolfe-jonah",
+      "title": "Commentary on Jonah 3:10—4:11",
+      "url": "https://www.workingpreacher.org/commentaries/revised-common-lectionary/ordinary-25/commentary-on-jonah-310-411-4",
+      "summary": "Wolfe explains Jonah’s anger at mercy and the book’s unexpected reversals.",
+      "category": "Scholarly study",
+      "perspective": "historical",
+      "limits": "Historical examples and proposed links with later disputes remain the author’s interpretation. Linked essays were not separately checked.",
+      "author": "Lisa Wolfe",
+      "year": 2023,
+      "publisher": "Luther Seminary",
+      "chapterCoverage": [
+        3,
+        4
+      ],
+      "reviewed": {
+        "date": "2026-10-07",
+        "scope": "Complete commentary body read. Linked Bible Odyssey essays and podcast were not reviewed."
+      },
+      "type": "Scholarly study",
+      "limitations": "Historical examples and proposed links with later disputes remain the author’s interpretation. Linked essays were not separately checked.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "cfm-jonah-2026",
+      "title": "November 23–29: “Seek the Lord, and Ye Shall Live” · Amos, Obadiah, Jonah",
+      "url": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/48?lang=eng",
+      "summary": "The lesson studies mercy, renewed opportunity, and sharing the gospel with others.",
+      "category": "LDS Come, Follow Me",
+      "perspective": "lds",
+      "limits": "Church applications remain separate from the original explanations of Jonah’s words and actions.",
+      "author": "The Church of Jesus Christ of Latter-day Saints",
+      "year": 2026,
+      "publisher": "The Church of Jesus Christ of Latter-day Saints",
+      "chapterCoverage": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "reviewed": {
+        "date": "2026-10-07",
+        "scope": "Introduction and adult study sections read. Linked talks, videos, and Scripture Helps were not separately reviewed."
+      },
+      "type": "LDS Come, Follow Me",
+      "limitations": "Church applications remain separate from the original explanations of Jonah’s words and actions.",
+      "license": "Linked source. Original guide summaries."
+    }
+  ],
+  "passages": [
+    {
+      "id": "jonah-1",
+      "chapter": 1,
+      "start": 1,
+      "end": 17,
+      "title": "The fleeing prophet meets sailors who try to save him",
+      "summary": "The LORD tells Jonah to go and preach against the great city of Nineveh. Jonah boards a ship going the other way. The LORD sends a violent storm. The sailors pray to their gods and throw the cargo overboard. Jonah is asleep below. The lot points to him, and he tells them to throw him in. The men row hard for land and then do as he says. The sea grows calm, and a great fish swallows Jonah.",
+      "year": null,
+      "dateLabel": "Story order",
+      "uncertainty": "Markers locate the port and city named in the story. The sea journey is not reconstructed.",
+      "placeIds": [
+        "joppa",
+        "nineveh"
+      ],
+      "sourceIds": [
+        "web"
+      ],
+      "lds": {
+        "text": "The 2026 lesson reads the rescue as another opportunity for Jonah to respond. How do the sailors’ actions contrast with Jonah’s flight?",
+        "sourceIds": [
+          "cfm-jonah-2026"
+        ]
+      },
+      "contextNote": {
+        "title": "The fleeing prophet meets sailors who try to save him",
+        "text": "The foreign sailors behave better than the prophet. They pray while he sleeps (verses 5–6). He tells them to throw him overboard. Verse 13 says they rowed hard for land instead. They risked themselves for the man who had endangered them. In verse 14 they ask not to be guilty of his blood. Verse 16 ends with the sailors worshiping the LORD.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    },
+    {
+      "id": "jonah-2",
+      "chapter": 2,
+      "start": 1,
+      "end": 10,
+      "title": "A rescued voice thanks the God it tried to flee",
+      "summary": "Jonah prays to the LORD from inside the fish. He says he called from the depths, and God heard him. The waters closed over him, and weeds wrapped his head. He sank to the roots of the mountains. God brought his life up from the pit. Jonah says idol worshipers give up their hope of mercy. He will offer thanks and pay his vows. The LORD speaks to the fish, and it puts Jonah on dry land.",
+      "year": null,
+      "dateLabel": "Story order",
+      "uncertainty": "The fish’s location and the point of return to land are not given.",
+      "placeIds": [],
+      "sourceIds": [
+        "web"
+      ],
+      "lds": {
+        "text": "The lesson invites readers to notice God’s mercy throughout Jonah’s experience. How does Jonah’s promise compare with the sailors’ earlier worship?",
+        "sourceIds": [
+          "cfm-jonah-2026"
+        ]
+      },
+      "contextNote": {
+        "title": "A rescued voice thanks the God it tried to flee",
+        "text": "Jonah’s prayer is a psalm of thanks. He speaks it inside the fish, which he counts as his rescue. He says nothing about Nineveh or about running away. In verse 8 he looks down on those who worship idols. The sailors of chapter 1 have just worshiped more truly than he did. Verse 9 ends, “Salvation belongs to the LORD.” In chapter 4 he resents that truth when Nineveh receives it.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    },
+    {
+      "id": "jonah-3",
+      "chapter": 3,
+      "start": 1,
+      "end": 10,
+      "title": "A brief warning produces a citywide change",
+      "summary": "The LORD’s word comes to Jonah a second time, and he goes. He walks a day into the city. He says that in forty days Nineveh will be overthrown. The people believe God and put on sackcloth. The king leaves his throne and sits in ashes. He orders everyone to fast, pray, and turn from violence. He says God may yet relent. God sees that they have turned, and he does not destroy them.",
+      "year": null,
+      "dateLabel": "Story order",
+      "uncertainty": "Markers locate the port and city named in the story. The sea journey is not reconstructed.",
+      "placeIds": [
+        "nineveh"
+      ],
+      "sourceIds": [
+        "web",
+        "wolfe-jonah"
+      ],
+      "lds": {
+        "text": "The lesson connects Nineveh’s change with sharing the gospel despite uncertain expectations. Why does God’s response focus on changed conduct?",
+        "sourceIds": [
+          "cfm-jonah-2026"
+        ]
+      },
+      "contextNote": {
+        "title": "A brief warning produces a citywide change",
+        "text": "Jonah’s message in verse 4 is one sentence with no offer of mercy. The whole city responds, from the king down. Verse 8 defines what turning means. Each person must leave his evil way and the violence in his hands. The king presumes nothing and says God may relent (verse 9). Verse 10 says God saw their works. Jeremiah 18:7–8 states the rule that a warned nation may be spared.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    },
+    {
+      "id": "jonah-4",
+      "chapter": 4,
+      "start": 1,
+      "end": 11,
+      "title": "Concern for a plant meets concern for a whole city",
+      "summary": "Jonah is very angry that Nineveh is spared. He says this is why he fled in the first place. He knew God is gracious, merciful, and slow to anger. He asks to die. He sits outside the city to see what will happen. God gives him a plant for shade and then sends a worm to kill it. Jonah is angry enough to die. God asks whether he should not care for a great city and its animals.",
+      "year": null,
+      "dateLabel": "Story order",
+      "uncertainty": "Markers locate the port and city named in the story. The sea journey is not reconstructed.",
+      "placeIds": [
+        "nineveh"
+      ],
+      "sourceIds": [
+        "web",
+        "wolfe-jonah"
+      ],
+      "lds": {
+        "text": "The lesson asks readers to consider mercy toward others when Jonah resents their rescue. Whose lives does God include in the final question?",
+        "sourceIds": [
+          "cfm-jonah-2026"
+        ]
+      },
+      "contextNote": {
+        "title": "Concern for a plant meets concern for a whole city",
+        "text": "Verse 2 finally explains why Jonah ran. He knew God’s mercy and did not want Nineveh to receive it. He quotes Exodus 34:6 as a complaint. The plant shows what Jonah cares about. He pities a vine that gave him shade for a day. God’s question in verse 11 sets that beside a whole city. The book ends with the question, and Jonah gives no answer.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "jonah-1",
+      "chapter": 1,
+      "verse": 1,
+      "eventOrder": 1,
+      "title": "The fleeing prophet meets sailors who try to save him",
+      "summary": "The LORD tells Jonah to go and preach against the great city of Nineveh. Jonah boards a ship going the other way. The LORD sends a violent storm. The sailors pray to their gods and throw the cargo overboard. Jonah is asleep below. The lot points to him, and he tells them to throw him in. The men row hard for land and then do as he says. The sea grows calm, and a great fish swallows Jonah.",
+      "detail": "The foreign sailors behave better than the prophet. They pray while he sleeps (verses 5–6). He tells them to throw him overboard. Verse 13 says they rowed hard for land instead. They risked themselves for the man who had endangered them. In verse 14 they ask not to be guilty of his blood. Verse 16 ends with the sailors worshiping the LORD.",
+      "dateLabel": "Story order",
+      "uncertainty": "Markers locate the port and city named in the story. The sea journey is not reconstructed.",
+      "sourceIds": [
+        "web"
+      ],
+      "placeIds": [
+        "joppa",
+        "nineveh"
+      ],
+      "lds": {
+        "text": "The 2026 lesson reads the rescue as another opportunity for Jonah to respond. How do the sailors’ actions contrast with Jonah’s flight?",
+        "sourceIds": [
+          "cfm-jonah-2026"
+        ]
+      }
+    },
+    {
+      "id": "jonah-2",
+      "chapter": 2,
+      "verse": 1,
+      "eventOrder": 2,
+      "title": "A rescued voice thanks the God it tried to flee",
+      "summary": "Jonah prays to the LORD from inside the fish. He says he called from the depths, and God heard him. The waters closed over him, and weeds wrapped his head. He sank to the roots of the mountains. God brought his life up from the pit. Jonah says idol worshipers give up their hope of mercy. He will offer thanks and pay his vows. The LORD speaks to the fish, and it puts Jonah on dry land.",
+      "detail": "Jonah’s prayer is a psalm of thanks. He speaks it inside the fish, which he counts as his rescue. He says nothing about Nineveh or about running away. In verse 8 he looks down on those who worship idols. The sailors of chapter 1 have just worshiped more truly than he did. Verse 9 ends, “Salvation belongs to the LORD.” In chapter 4 he resents that truth when Nineveh receives it.",
+      "dateLabel": "Story order",
+      "uncertainty": "The fish’s location and the point of return to land are not given.",
+      "sourceIds": [
+        "web"
+      ],
+      "placeIds": [],
+      "lds": {
+        "text": "The lesson invites readers to notice God’s mercy throughout Jonah’s experience. How does Jonah’s promise compare with the sailors’ earlier worship?",
+        "sourceIds": [
+          "cfm-jonah-2026"
+        ]
+      }
+    },
+    {
+      "id": "jonah-3",
+      "chapter": 3,
+      "verse": 1,
+      "eventOrder": 3,
+      "title": "A brief warning produces a citywide change",
+      "summary": "The LORD’s word comes to Jonah a second time, and he goes. He walks a day into the city. He says that in forty days Nineveh will be overthrown. The people believe God and put on sackcloth. The king leaves his throne and sits in ashes. He orders everyone to fast, pray, and turn from violence. He says God may yet relent. God sees that they have turned, and he does not destroy them.",
+      "detail": "Jonah’s message in verse 4 is one sentence with no offer of mercy. The whole city responds, from the king down. Verse 8 defines what turning means. Each person must leave his evil way and the violence in his hands. The king presumes nothing and says God may relent (verse 9). Verse 10 says God saw their works. Jeremiah 18:7–8 states the rule that a warned nation may be spared.",
+      "dateLabel": "Story order",
+      "uncertainty": "Markers locate the port and city named in the story. The sea journey is not reconstructed.",
+      "sourceIds": [
+        "web",
+        "wolfe-jonah"
+      ],
+      "placeIds": [
+        "nineveh"
+      ],
+      "lds": {
+        "text": "The lesson connects Nineveh’s change with sharing the gospel despite uncertain expectations. Why does God’s response focus on changed conduct?",
+        "sourceIds": [
+          "cfm-jonah-2026"
+        ]
+      }
+    },
+    {
+      "id": "jonah-4",
+      "chapter": 4,
+      "verse": 1,
+      "eventOrder": 4,
+      "title": "Concern for a plant meets concern for a whole city",
+      "summary": "Jonah is very angry that Nineveh is spared. He says this is why he fled in the first place. He knew God is gracious, merciful, and slow to anger. He asks to die. He sits outside the city to see what will happen. God gives him a plant for shade and then sends a worm to kill it. Jonah is angry enough to die. God asks whether he should not care for a great city and its animals.",
+      "detail": "Verse 2 finally explains why Jonah ran. He knew God’s mercy and did not want Nineveh to receive it. He quotes Exodus 34:6 as a complaint. The plant shows what Jonah cares about. He pities a vine that gave him shade for a day. God’s question in verse 11 sets that beside a whole city. The book ends with the question, and Jonah gives no answer.",
+      "dateLabel": "Story order",
+      "uncertainty": "Markers locate the port and city named in the story. The sea journey is not reconstructed.",
+      "sourceIds": [
+        "web",
+        "wolfe-jonah"
+      ],
+      "placeIds": [
+        "nineveh"
+      ],
+      "lds": {
+        "text": "The lesson asks readers to consider mercy toward others when Jonah resents their rescue. Whose lives does God include in the final question?",
+        "sourceIds": [
+          "cfm-jonah-2026"
+        ]
+      }
+    }
+  ],
+  "places": [
+    {
+      "id": "nineveh",
+      "name": "Nineveh",
+      "lat": 36.36,
+      "lng": 43.15,
+      "summary": "Nineveh is the city Jonah must address and the object of God’s final question.",
+      "limits": "Approximate ancient city marker. No king, palace room, or walking path is identified.",
+      "sourceIds": [
+        "web"
+      ],
+      "detail": "Nineveh is the city Jonah must address and the object of God’s final question.",
+      "uncertainty": "Approximate ancient city marker. No king, palace room, or walking path is identified.",
+      "chapterLocation": true
+    },
+    {
+      "id": "joppa",
+      "name": "Joppa",
+      "lat": 32.054,
+      "lng": 34.751,
+      "summary": "Joppa is the port where Jonah finds the ship bound for Tarshish.",
+      "limits": "Approximate port marker. Tarshish and the ship’s course remain uncertain and unmapped.",
+      "sourceIds": [
+        "web"
+      ],
+      "detail": "Joppa is the port where Jonah finds the ship bound for Tarshish.",
+      "uncertainty": "Approximate port marker. Tarshish and the ship’s course remain uncertain and unmapped.",
+      "chapterLocation": true
+    }
+  ],
+  "campaigns": [],
+  "ancientRoads": [],
+  "regions": [],
+  "words": [
+    {
+      "id": "glossary-sheol",
+      "label": "Sheol",
+      "matches": [
+        "Sheol"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "The Hebrew name for the place of the dead.",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    },
+    {
+      "id": "glossary-sackcloth",
+      "label": "Sackcloth",
+      "matches": [
+        "sackcloth"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "Rough cloth worn to show grief or repentance.",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    }
+  ],
+  "guides": [
+    {
+      "id": "jonah-context",
+      "title": "Jonah: context and evidence",
+      "description": "Explore the book’s larger concerns through selected passages and relevant evidence.",
+      "steps": [
+        {
+          "title": "The fleeing prophet meets sailors who try to save him",
+          "text": "The foreign sailors behave better than the prophet. They pray while he sleeps (verses 5–6). He tells them to throw him overboard. Verse 13 says they rowed hard for land instead. They risked themselves for the man who had endangered them. In verse 14 they ask not to be guilty of his blood. Verse 16 ends with the sailors worshiping the LORD.",
+          "chapter": 1,
+          "verse": 13,
+          "sourceIds": [
+            "web"
+          ]
+        },
+        {
+          "title": "A brief warning produces a citywide change",
+          "text": "Jonah’s message in verse 4 is one sentence with no offer of mercy. The whole city responds, from the king down. Verse 8 defines what turning means. Each person must leave his evil way and the violence in his hands. The king presumes nothing and says God may relent (verse 9). Verse 10 says God saw their works. Jeremiah 18:7–8 states the rule that a warned nation may be spared.",
+          "chapter": 3,
+          "verse": 8,
+          "sourceIds": [
+            "web"
+          ]
+        },
+        {
+          "title": "Concern for a plant meets concern for a whole city",
+          "text": "Verse 2 finally explains why Jonah ran. He knew God’s mercy and did not want Nineveh to receive it. He quotes Exodus 34:6 as a complaint. The plant shows what Jonah cares about. He pities a vine that gave him shade for a day. God’s question in verse 11 sets that beside a whole city. The book ends with the question, and Jonah gives no answer.",
+          "chapter": 4,
+          "verse": 11,
+          "sourceIds": [
+            "web"
+          ]
+        }
+      ]
+    }
+  ],
+  "periods": [
+    {
+      "id": "part-0",
+      "label": "Jonah 1–1",
+      "start": 1,
+      "end": 1,
+      "description": "Chapter order"
+    },
+    {
+      "id": "part-1",
+      "label": "Jonah 2–2",
+      "start": 2,
+      "end": 2,
+      "description": "Chapter order"
+    },
+    {
+      "id": "part-2",
+      "label": "Jonah 3–4",
+      "start": 3,
+      "end": 4,
+      "description": "Chapter order"
+    }
+  ],
+  "chapterMaps": [
+    {
+      "chapter": 1,
+      "focusPlaceIds": [
+        "joppa",
+        "nineveh"
+      ],
+      "placeIds": [
+        "joppa",
+        "nineveh"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Markers locate the port and city named in the story. The sea journey is not reconstructed.",
+      "narrative": "The LORD tells Jonah to go and preach against the great city of Nineveh. Jonah boards a ship going the other way. The LORD sends a violent storm. The sailors pray to their gods and throw the cargo overboard. Jonah is asleep below. The lot points to him, and he tells them to throw him in. The men row hard for land and then do as he says. The sea grows calm, and a great fish swallows Jonah.",
+      "limits": "Markers locate the port and city named in the story. The sea journey is not reconstructed.",
+      "sourceIds": [
+        "web"
+      ]
+    },
+    {
+      "chapter": 2,
+      "focusPlaceIds": [],
+      "placeIds": [],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "The fish’s location and the point of return to land are not given.",
+      "narrative": "Jonah prays to the LORD from inside the fish. He says he called from the depths, and God heard him. The waters closed over him, and weeds wrapped his head. He sank to the roots of the mountains. God brought his life up from the pit. Jonah says idol worshipers give up their hope of mercy. He will offer thanks and pay his vows. The LORD speaks to the fish, and it puts Jonah on dry land.",
+      "limits": "The fish’s location and the point of return to land are not given.",
+      "sourceIds": [
+        "web"
+      ]
+    },
+    {
+      "chapter": 3,
+      "focusPlaceIds": [
+        "nineveh"
+      ],
+      "placeIds": [
+        "nineveh"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Markers locate the port and city named in the story. The sea journey is not reconstructed.",
+      "narrative": "The LORD’s word comes to Jonah a second time, and he goes. He walks a day into the city. He says that in forty days Nineveh will be overthrown. The people believe God and put on sackcloth. The king leaves his throne and sits in ashes. He orders everyone to fast, pray, and turn from violence. He says God may yet relent. God sees that they have turned, and he does not destroy them.",
+      "limits": "Markers locate the port and city named in the story. The sea journey is not reconstructed.",
+      "sourceIds": [
+        "web",
+        "wolfe-jonah"
+      ]
+    },
+    {
+      "chapter": 4,
+      "focusPlaceIds": [
+        "nineveh"
+      ],
+      "placeIds": [
+        "nineveh"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Markers locate the port and city named in the story. The sea journey is not reconstructed.",
+      "narrative": "Jonah is very angry that Nineveh is spared. He says this is why he fled in the first place. He knew God is gracious, merciful, and slow to anger. He asks to die. He sits outside the city to see what will happen. God gives him a plant for shade and then sends a worm to kill it. Jonah is angry enough to die. God asks whether he should not care for a great city and its animals.",
+      "limits": "Markers locate the port and city named in the story. The sea journey is not reconstructed.",
+      "sourceIds": [
+        "web",
+        "wolfe-jonah"
+      ]
+    }
+  ],
+  "textRoutes": [],
+  "narrativeRegions": [],
+  "chapterStudies": [
+    {
+      "chapter": 1,
+      "verse": 13,
+      "context": ""
+    },
+    {
+      "chapter": 2,
+      "verse": 9,
+      "context": ""
+    },
+    {
+      "chapter": 3,
+      "verse": 8,
+      "context": ""
+    },
+    {
+      "chapter": 4,
+      "verse": 11,
+      "context": ""
+    }
+  ]
+}

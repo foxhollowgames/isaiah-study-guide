@@ -1,0 +1,575 @@
+{
+  "sources": [
+    {
+      "id": "web",
+      "title": "Zephaniah · World English Bible",
+      "url": "https://ebible.org/engwebp/ZEP01.htm",
+      "summary": "All three chapters appear in the reading text.",
+      "category": "Scripture",
+      "perspective": "historical",
+      "limits": "The opening names Josiah’s reign. It does not identify the prophet’s ancestor Hezekiah as the king.",
+      "author": "World English Bible translators",
+      "publisher": "eBible.org",
+      "chapterCoverage": [
+        1,
+        2,
+        3
+      ],
+      "reviewed": {
+        "date": "2026-10-07",
+        "scope": "All 53 verses read. Verse counts and character integrity checked."
+      },
+      "type": "Scripture",
+      "limitations": "The opening names Josiah’s reign. It does not identify the prophet’s ancestor Hezekiah as the king.",
+      "license": "Public domain"
+    },
+    {
+      "id": "stewart-zephaniah",
+      "title": "Commentary on Zephaniah 3:14-20",
+      "url": "https://www.workingpreacher.org/commentaries/revised-common-lectionary/third-sunday-of-advent-3/commentary-on-zephaniah-314-20-3",
+      "summary": "Stewart compares the warnings with the final promise of joy, justice, and help for outcasts.",
+      "category": "Scholarly study",
+      "perspective": "historical",
+      "limits": "Her proposed later setting for the final vision remains uncertain. Christian Advent applications are later readings.",
+      "author": "Anne Stewart",
+      "year": 2015,
+      "publisher": "Luther Seminary",
+      "chapterCoverage": [
+        1,
+        3
+      ],
+      "reviewed": {
+        "date": "2026-10-07",
+        "scope": "Complete commentary body read, including its discussion of chapter one and the final vision. Linked podcast and related commentaries were not reviewed."
+      },
+      "type": "Scholarly study",
+      "limitations": "Her proposed later setting for the final vision remains uncertain. Christian Advent applications are later readings.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "cfm-zephaniah-2026",
+      "title": "November 30–December 6: “He Delighteth in Mercy” · Micah, Nahum, Habakkuk, Zephaniah",
+      "url": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/49?lang=eng",
+      "summary": "The lesson compares condemned conduct with humility and the promise of rejoicing.",
+      "category": "LDS Come, Follow Me",
+      "perspective": "lds",
+      "limits": "Its connection with 3 Nephi is a later Church reading, separate from the original vision.",
+      "author": "The Church of Jesus Christ of Latter-day Saints",
+      "year": 2026,
+      "publisher": "The Church of Jesus Christ of Latter-day Saints",
+      "chapterCoverage": [
+        1,
+        2,
+        3
+      ],
+      "reviewed": {
+        "date": "2026-10-07",
+        "scope": "Introduction and adult Zephaniah study sections read. Linked talks, videos, and Scripture Helps were not separately reviewed."
+      },
+      "type": "LDS Come, Follow Me",
+      "limitations": "Its connection with 3 Nephi is a later Church reading, separate from the original vision.",
+      "license": "Linked source. Original guide summaries."
+    }
+  ],
+  "passages": [
+    {
+      "id": "zephaniah-1",
+      "chapter": 1,
+      "start": 1,
+      "end": 18,
+      "title": "The searching lamp overturns confidence in indifference",
+      "summary": "The LORD’s word comes to Zephaniah in the days of King Josiah. God will sweep everything from the face of the earth. He will strike Judah and those who worship Baal and the stars. Some swear by the LORD and also by another god. The day of the LORD is near. He will search Jerusalem with lamps. He will punish those who say he does nothing, good or bad. It will be a day of wrath, and silver and gold will not save.",
+      "year": null,
+      "dateLabel": "Book order",
+      "uncertainty": "Markers locate selected places named in the warning and promise. No attack or return path is reconstructed.",
+      "placeIds": [
+        "jerusalem"
+      ],
+      "sourceIds": [
+        "web",
+        "stewart-zephaniah"
+      ],
+      "lds": {
+        "text": "The lesson asks readers to examine attitudes and conduct condemned in the opening warning. What assumption does God’s searching lamp expose?",
+        "sourceIds": [
+          "cfm-zephaniah-2026"
+        ]
+      },
+      "contextNote": {
+        "title": "The searching lamp overturns confidence in indifference",
+        "text": "Verse 12 does not describe open rebels. It describes people “settled on their dregs,” like wine left too long. They are comfortable and undisturbed. Their belief is that the LORD will do nothing either way. They treat God as beside the point. The lamps mean that no corner of the city stays dark. Verse 13 takes the wealth and houses they rely on.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    },
+    {
+      "id": "zephaniah-2",
+      "chapter": 2,
+      "start": 1,
+      "end": 15,
+      "title": "An uncertain refuge stands beside the ruin of proud cities",
+      "summary": "Zephaniah calls the nation to gather before the day of anger comes. The humble of the land should seek the LORD. They should seek righteousness and humility. Perhaps they will be sheltered on that day. Philistia’s cities will be emptied. Moab and Ammon will become like Sodom for their pride. Ethiopia will fall by the sword. Nineveh, which said no one was like it, will become a home for wild animals.",
+      "year": null,
+      "dateLabel": "Book order",
+      "uncertainty": "Markers locate selected places named in the warning and promise. No attack or return path is reconstructed.",
+      "placeIds": [
+        "gaza",
+        "ashkelon",
+        "ashdod",
+        "ekron",
+        "moab",
+        "nineveh"
+      ],
+      "sourceIds": [
+        "web"
+      ],
+      "lds": {
+        "text": "The lesson contrasts pride with seeking humility before God. Why does possible shelter remain uncertain even for those who seek humility?",
+        "sourceIds": [
+          "cfm-zephaniah-2026"
+        ]
+      },
+      "contextNote": {
+        "title": "An uncertain refuge stands beside the ruin of proud cities",
+        "text": "Verse 3 speaks to people who are already humble and obedient. They are told to keep seeking. The verse then says “It may be.” Shelter is hoped for and not promised as payment. Around this verse, nations fall on every side. Philistia lies west, Moab and Ammon east, Ethiopia south, and Assyria north. Nineveh’s boast in verse 15 is the kind only God may make.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    },
+    {
+      "id": "zephaniah-3",
+      "chapter": 3,
+      "start": 1,
+      "end": 20,
+      "title": "The gathered people differ from the leaders who consumed them",
+      "summary": "Zephaniah cries woe to the rebellious city that listens to no one. Its officials are roaring lions, and its judges are wolves. Its prophets are reckless, and its priests profane what is holy. The LORD within it does no wrong and gives justice every morning. He will purify the speech of the nations to call on his name. He will leave a humble and lowly people in the city. Zion is told to sing, for the LORD is among them. He will save the lame and gather the outcasts.",
+      "year": null,
+      "dateLabel": "Book order",
+      "uncertainty": "Markers locate selected places named in the warning and promise. No attack or return path is reconstructed.",
+      "placeIds": [
+        "jerusalem"
+      ],
+      "sourceIds": [
+        "web",
+        "stewart-zephaniah"
+      ],
+      "lds": {
+        "text": "The lesson connects the promised joy with a later scene in 3 Nephi 17. How do the gathered people differ from the earlier city’s rulers?",
+        "sourceIds": [
+          "cfm-zephaniah-2026"
+        ]
+      },
+      "contextNote": {
+        "title": "The gathered people differ from the leaders who consumed them",
+        "text": "Verses 3–4 describe rulers who devour like lions and wolves. Verse 12 describes the people who remain: humble and lowly. Verse 13 says they do no wrong and tell no lies. Verse 19 names those God gathers: the lame and the driven out. These are the kind of people the old rulers consumed. Their shame is turned to praise. Verse 17 pictures God himself singing over them.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "zephaniah-1",
+      "chapter": 1,
+      "verse": 1,
+      "eventOrder": 1,
+      "title": "The searching lamp overturns confidence in indifference",
+      "summary": "The LORD’s word comes to Zephaniah in the days of King Josiah. God will sweep everything from the face of the earth. He will strike Judah and those who worship Baal and the stars. Some swear by the LORD and also by another god. The day of the LORD is near. He will search Jerusalem with lamps. He will punish those who say he does nothing, good or bad. It will be a day of wrath, and silver and gold will not save.",
+      "detail": "Verse 12 does not describe open rebels. It describes people “settled on their dregs,” like wine left too long. They are comfortable and undisturbed. Their belief is that the LORD will do nothing either way. They treat God as beside the point. The lamps mean that no corner of the city stays dark. Verse 13 takes the wealth and houses they rely on.",
+      "dateLabel": "Book order",
+      "uncertainty": "Markers locate selected places named in the warning and promise. No attack or return path is reconstructed.",
+      "sourceIds": [
+        "web",
+        "stewart-zephaniah"
+      ],
+      "placeIds": [
+        "jerusalem"
+      ],
+      "lds": {
+        "text": "The lesson asks readers to examine attitudes and conduct condemned in the opening warning. What assumption does God’s searching lamp expose?",
+        "sourceIds": [
+          "cfm-zephaniah-2026"
+        ]
+      }
+    },
+    {
+      "id": "zephaniah-2",
+      "chapter": 2,
+      "verse": 1,
+      "eventOrder": 2,
+      "title": "An uncertain refuge stands beside the ruin of proud cities",
+      "summary": "Zephaniah calls the nation to gather before the day of anger comes. The humble of the land should seek the LORD. They should seek righteousness and humility. Perhaps they will be sheltered on that day. Philistia’s cities will be emptied. Moab and Ammon will become like Sodom for their pride. Ethiopia will fall by the sword. Nineveh, which said no one was like it, will become a home for wild animals.",
+      "detail": "Verse 3 speaks to people who are already humble and obedient. They are told to keep seeking. The verse then says “It may be.” Shelter is hoped for and not promised as payment. Around this verse, nations fall on every side. Philistia lies west, Moab and Ammon east, Ethiopia south, and Assyria north. Nineveh’s boast in verse 15 is the kind only God may make.",
+      "dateLabel": "Book order",
+      "uncertainty": "Markers locate selected places named in the warning and promise. No attack or return path is reconstructed.",
+      "sourceIds": [
+        "web"
+      ],
+      "placeIds": [
+        "gaza",
+        "ashkelon",
+        "ashdod",
+        "ekron",
+        "moab",
+        "nineveh"
+      ],
+      "lds": {
+        "text": "The lesson contrasts pride with seeking humility before God. Why does possible shelter remain uncertain even for those who seek humility?",
+        "sourceIds": [
+          "cfm-zephaniah-2026"
+        ]
+      }
+    },
+    {
+      "id": "zephaniah-3",
+      "chapter": 3,
+      "verse": 1,
+      "eventOrder": 3,
+      "title": "The gathered people differ from the leaders who consumed them",
+      "summary": "Zephaniah cries woe to the rebellious city that listens to no one. Its officials are roaring lions, and its judges are wolves. Its prophets are reckless, and its priests profane what is holy. The LORD within it does no wrong and gives justice every morning. He will purify the speech of the nations to call on his name. He will leave a humble and lowly people in the city. Zion is told to sing, for the LORD is among them. He will save the lame and gather the outcasts.",
+      "detail": "Verses 3–4 describe rulers who devour like lions and wolves. Verse 12 describes the people who remain: humble and lowly. Verse 13 says they do no wrong and tell no lies. Verse 19 names those God gathers: the lame and the driven out. These are the kind of people the old rulers consumed. Their shame is turned to praise. Verse 17 pictures God himself singing over them.",
+      "dateLabel": "Book order",
+      "uncertainty": "Markers locate selected places named in the warning and promise. No attack or return path is reconstructed.",
+      "sourceIds": [
+        "web",
+        "stewart-zephaniah"
+      ],
+      "placeIds": [
+        "jerusalem"
+      ],
+      "lds": {
+        "text": "The lesson connects the promised joy with a later scene in 3 Nephi 17. How do the gathered people differ from the earlier city’s rulers?",
+        "sourceIds": [
+          "cfm-zephaniah-2026"
+        ]
+      }
+    }
+  ],
+  "places": [
+    {
+      "id": "jerusalem",
+      "name": "Jerusalem",
+      "lat": 31.778,
+      "lng": 35.235,
+      "summary": "Jerusalem receives warnings about worship and violence before the final promise of singing and gathering.",
+      "limits": "Approximate city or regional reference. The warnings supply no reconstructed army path.",
+      "sourceIds": [
+        "web"
+      ],
+      "detail": "Jerusalem receives warnings about worship and violence before the final promise of singing and gathering.",
+      "uncertainty": "Approximate city or regional reference. The warnings supply no reconstructed army path.",
+      "chapterLocation": true
+    },
+    {
+      "id": "gaza",
+      "name": "Gaza",
+      "lat": 31.5,
+      "lng": 34.46,
+      "summary": "Gaza appears among coastal towns threatened with abandonment.",
+      "limits": "Approximate city or regional reference. The warnings supply no reconstructed army path.",
+      "sourceIds": [
+        "web"
+      ],
+      "detail": "Gaza appears among coastal towns threatened with abandonment.",
+      "uncertainty": "Approximate city or regional reference. The warnings supply no reconstructed army path.",
+      "chapterLocation": true
+    },
+    {
+      "id": "ashkelon",
+      "name": "Ashkelon",
+      "lat": 31.67,
+      "lng": 34.55,
+      "summary": "Ashkelon appears in the warning and the promise of shelter for Judah’s remnant.",
+      "limits": "Approximate city or regional reference. The warnings supply no reconstructed army path.",
+      "sourceIds": [
+        "web"
+      ],
+      "detail": "Ashkelon appears in the warning and the promise of shelter for Judah’s remnant.",
+      "uncertainty": "Approximate city or regional reference. The warnings supply no reconstructed army path.",
+      "chapterLocation": true
+    },
+    {
+      "id": "ashdod",
+      "name": "Ashdod",
+      "lat": 31.75,
+      "lng": 34.66,
+      "summary": "Ashdod appears among coastal towns whose inhabitants face removal.",
+      "limits": "Approximate city or regional reference. The warnings supply no reconstructed army path.",
+      "sourceIds": [
+        "web"
+      ],
+      "detail": "Ashdod appears among coastal towns whose inhabitants face removal.",
+      "uncertainty": "Approximate city or regional reference. The warnings supply no reconstructed army path.",
+      "chapterLocation": true
+    },
+    {
+      "id": "ekron",
+      "name": "Ekron",
+      "lat": 31.777,
+      "lng": 34.852,
+      "summary": "Ekron appears among coastal towns threatened with destruction.",
+      "limits": "Approximate city or regional reference. The warnings supply no reconstructed army path.",
+      "sourceIds": [
+        "web"
+      ],
+      "detail": "Ekron appears among coastal towns threatened with destruction.",
+      "uncertainty": "Approximate city or regional reference. The warnings supply no reconstructed army path.",
+      "chapterLocation": true
+    },
+    {
+      "id": "moab",
+      "name": "Moab",
+      "lat": 31.5,
+      "lng": 35.75,
+      "summary": "Moab receives a warning after insults directed against God’s people.",
+      "limits": "Approximate city or regional reference. The warnings supply no reconstructed army path.",
+      "sourceIds": [
+        "web"
+      ],
+      "detail": "Moab receives a warning after insults directed against God’s people.",
+      "uncertainty": "Approximate city or regional reference. The warnings supply no reconstructed army path.",
+      "chapterLocation": true
+    },
+    {
+      "id": "nineveh",
+      "name": "Nineveh",
+      "lat": 36.36,
+      "lng": 43.15,
+      "summary": "Nineveh’s proud claim of unmatched security ends in buildings occupied by animals.",
+      "limits": "Approximate city or regional reference. The warnings supply no reconstructed army path.",
+      "sourceIds": [
+        "web"
+      ],
+      "detail": "Nineveh’s proud claim of unmatched security ends in buildings occupied by animals.",
+      "uncertainty": "Approximate city or regional reference. The warnings supply no reconstructed army path.",
+      "chapterLocation": true
+    }
+  ],
+  "campaigns": [],
+  "ancientRoads": [],
+  "regions": [],
+  "words": [
+    {
+      "id": "glossary-baal",
+      "label": "Baal",
+      "matches": [
+        "Baal",
+        "Baals"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A god worshiped by Israel’s neighbors. The prophets condemn Israel for serving him.",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    },
+    {
+      "id": "glossary-remnant",
+      "label": "Remnant",
+      "matches": [
+        "remnant"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "The part of a people that survives a disaster.",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    },
+    {
+      "id": "glossary-zion",
+      "label": "Zion",
+      "matches": [
+        "Zion"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A hill in Jerusalem. The name is also used for the city and its people.",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    }
+  ],
+  "guides": [
+    {
+      "id": "zephaniah-context",
+      "title": "Zephaniah: context and evidence",
+      "description": "Explore the book’s larger concerns through selected passages and relevant evidence.",
+      "steps": [
+        {
+          "title": "The searching lamp overturns confidence in indifference",
+          "text": "Verse 12 does not describe open rebels. It describes people “settled on their dregs,” like wine left too long. They are comfortable and undisturbed. Their belief is that the LORD will do nothing either way. They treat God as beside the point. The lamps mean that no corner of the city stays dark. Verse 13 takes the wealth and houses they rely on.",
+          "chapter": 1,
+          "verse": 12,
+          "sourceIds": [
+            "web"
+          ]
+        },
+        {
+          "title": "An uncertain refuge stands beside the ruin of proud cities",
+          "text": "Verse 3 speaks to people who are already humble and obedient. They are told to keep seeking. The verse then says “It may be.” Shelter is hoped for and not promised as payment. Around this verse, nations fall on every side. Philistia lies west, Moab and Ammon east, Ethiopia south, and Assyria north. Nineveh’s boast in verse 15 is the kind only God may make.",
+          "chapter": 2,
+          "verse": 3,
+          "sourceIds": [
+            "web"
+          ]
+        },
+        {
+          "title": "The gathered people differ from the leaders who consumed them",
+          "text": "Verses 3–4 describe rulers who devour like lions and wolves. Verse 12 describes the people who remain: humble and lowly. Verse 13 says they do no wrong and tell no lies. Verse 19 names those God gathers: the lame and the driven out. These are the kind of people the old rulers consumed. Their shame is turned to praise. Verse 17 pictures God himself singing over them.",
+          "chapter": 3,
+          "verse": 19,
+          "sourceIds": [
+            "web"
+          ]
+        }
+      ]
+    }
+  ],
+  "periods": [
+    {
+      "id": "part-0",
+      "label": "Zephaniah 1–1",
+      "start": 1,
+      "end": 1,
+      "description": "Chapter order"
+    },
+    {
+      "id": "part-1",
+      "label": "Zephaniah 2–2",
+      "start": 2,
+      "end": 2,
+      "description": "Chapter order"
+    },
+    {
+      "id": "part-2",
+      "label": "Zephaniah 3–3",
+      "start": 3,
+      "end": 3,
+      "description": "Chapter order"
+    }
+  ],
+  "chapterMaps": [
+    {
+      "chapter": 1,
+      "focusPlaceIds": [
+        "jerusalem"
+      ],
+      "placeIds": [
+        "jerusalem"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Markers locate selected places named in the warning and promise. No attack or return path is reconstructed.",
+      "narrative": "The LORD’s word comes to Zephaniah in the days of King Josiah. God will sweep everything from the face of the earth. He will strike Judah and those who worship Baal and the stars. Some swear by the LORD and also by another god. The day of the LORD is near. He will search Jerusalem with lamps. He will punish those who say he does nothing, good or bad. It will be a day of wrath, and silver and gold will not save.",
+      "limits": "Markers locate selected places named in the warning and promise. No attack or return path is reconstructed.",
+      "sourceIds": [
+        "web",
+        "stewart-zephaniah"
+      ]
+    },
+    {
+      "chapter": 2,
+      "focusPlaceIds": [
+        "gaza",
+        "ashkelon",
+        "ashdod",
+        "ekron",
+        "moab",
+        "nineveh"
+      ],
+      "placeIds": [
+        "gaza",
+        "ashkelon",
+        "ashdod",
+        "ekron",
+        "moab",
+        "nineveh"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Markers locate selected places named in the warning and promise. No attack or return path is reconstructed.",
+      "narrative": "Zephaniah calls the nation to gather before the day of anger comes. The humble of the land should seek the LORD. They should seek righteousness and humility. Perhaps they will be sheltered on that day. Philistia’s cities will be emptied. Moab and Ammon will become like Sodom for their pride. Ethiopia will fall by the sword. Nineveh, which said no one was like it, will become a home for wild animals.",
+      "limits": "Markers locate selected places named in the warning and promise. No attack or return path is reconstructed.",
+      "sourceIds": [
+        "web"
+      ]
+    },
+    {
+      "chapter": 3,
+      "focusPlaceIds": [
+        "jerusalem"
+      ],
+      "placeIds": [
+        "jerusalem"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Markers locate selected places named in the warning and promise. No attack or return path is reconstructed.",
+      "narrative": "Zephaniah cries woe to the rebellious city that listens to no one. Its officials are roaring lions, and its judges are wolves. Its prophets are reckless, and its priests profane what is holy. The LORD within it does no wrong and gives justice every morning. He will purify the speech of the nations to call on his name. He will leave a humble and lowly people in the city. Zion is told to sing, for the LORD is among them. He will save the lame and gather the outcasts.",
+      "limits": "Markers locate selected places named in the warning and promise. No attack or return path is reconstructed.",
+      "sourceIds": [
+        "web",
+        "stewart-zephaniah"
+      ]
+    }
+  ],
+  "textRoutes": [],
+  "narrativeRegions": [],
+  "chapterStudies": [
+    {
+      "chapter": 1,
+      "verse": 12,
+      "context": ""
+    },
+    {
+      "chapter": 2,
+      "verse": 3,
+      "context": ""
+    },
+    {
+      "chapter": 3,
+      "verse": 19,
+      "context": ""
+    }
+  ]
+}

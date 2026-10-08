@@ -1,0 +1,2565 @@
+{
+  "sources": [
+    {
+      "id": "web",
+      "title": "John · World English Bible",
+      "url": "https://ebible.org/engwebp/JHN01.htm",
+      "summary": "All 21 chapters appear in the reading text.",
+      "category": "Scripture",
+      "perspective": "historical",
+      "limits": "Close reading does not establish every event, date, or traditional identity. The publisher retains John 7:53–8:11 and notes textual uncertainty.",
+      "author": "World English Bible translators",
+      "publisher": "eBible.org",
+      "chapterCoverage": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "reviewed": {
+        "date": "2026-10-07",
+        "scope": "All 879 verses read with every selected passage’s surrounding chapter. Publisher notes at John 8:11 read. Verse counts and character integrity checked."
+      },
+      "type": "Scripture",
+      "limitations": "Close reading does not establish every event, date, or traditional identity. The publisher retains John 7:53–8:11 and notes textual uncertainty.",
+      "license": "Public domain"
+    },
+    {
+      "id": "scott-john",
+      "title": "Commentary on John 9:1-41",
+      "url": "https://www.workingpreacher.org/commentaries/narrative-lectionary/the-man-born-blind/commentary-on-john-91-41-8",
+      "summary": "Scott discusses blame, disability, the healed man’s testimony, and translation choices.",
+      "category": "Scholarly study",
+      "perspective": "historical",
+      "limits": "This is Scott’s interpretation. Greek manuscripts and the separately cited Brant and Black books were not reviewed. The guide retains the WEB text.",
+      "author": "Lindsey Scott",
+      "publisher": "Luther Seminary",
+      "year": 2022,
+      "chapterCoverage": [
+        9
+      ],
+      "reviewed": {
+        "date": "2026-10-07",
+        "scope": "Complete commentary and notes read. Linked material, cited books, related commentaries, and podcast were not reviewed. Broad ancient social generalizations were not independently verified."
+      },
+      "type": "Scholarly study",
+      "limitations": "This is Scott’s interpretation. Greek manuscripts and the separately cited Brant and Black books were not reviewed. The guide retains the WEB text.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "cfm-nt-2023-4",
+      "title": "January 16–22 · John 1",
+      "url": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-sunday-school-new-testament-2023/04?lang=eng",
+      "summary": "The lesson studies Christ before birth, light, and inviting others to come and see.",
+      "category": "LDS Come, Follow Me",
+      "perspective": "lds",
+      "limits": "This is selected Church teaching. Other chapter headings and linked resources receive no automatic coverage.",
+      "author": "The Church of Jesus Christ of Latter-day Saints",
+      "publisher": "The Church of Jesus Christ of Latter-day Saints",
+      "year": 2023,
+      "chapterCoverage": [
+        1
+      ],
+      "reviewed": {
+        "date": "2026-10-07",
+        "scope": "Complete lesson body and additional resources read. Linked talks, videos, dictionary articles, and other editions were not separately reviewed. Only listed John chapters receive teaching coverage."
+      },
+      "type": "LDS Come, Follow Me",
+      "limitations": "This is selected Church teaching. Other chapter headings and linked resources receive no automatic coverage.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "cfm-nt-2023-7",
+      "title": "February 6–12 · John 2–4",
+      "url": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-sunday-school-new-testament-2023/07?lang=eng",
+      "summary": "The lesson studies signs, spiritual rebirth, and living water.",
+      "category": "LDS Come, Follow Me",
+      "perspective": "lds",
+      "limits": "This is selected Church teaching. Other chapter headings and linked resources receive no automatic coverage.",
+      "author": "The Church of Jesus Christ of Latter-day Saints",
+      "publisher": "The Church of Jesus Christ of Latter-day Saints",
+      "year": 2023,
+      "chapterCoverage": [
+        2,
+        3,
+        4
+      ],
+      "reviewed": {
+        "date": "2026-10-07",
+        "scope": "Complete lesson body and additional resources read. Linked talks, videos, dictionary articles, and other editions were not separately reviewed. Only listed John chapters receive teaching coverage."
+      },
+      "type": "LDS Come, Follow Me",
+      "limitations": "This is selected Church teaching. Other chapter headings and linked resources receive no automatic coverage.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "cfm-nt-2023-24",
+      "title": "June 5–11 · John 14–17",
+      "url": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-sunday-school-new-testament-2023/24?lang=eng",
+      "summary": "The lesson teaches help from the Holy Spirit, remaining in Christ, and unity.",
+      "category": "LDS Come, Follow Me",
+      "perspective": "lds",
+      "limits": "This is selected Church teaching. Other chapter headings and linked resources receive no automatic coverage.",
+      "author": "The Church of Jesus Christ of Latter-day Saints",
+      "publisher": "The Church of Jesus Christ of Latter-day Saints",
+      "year": 2023,
+      "chapterCoverage": [
+        14,
+        15,
+        16,
+        17
+      ],
+      "reviewed": {
+        "date": "2026-10-07",
+        "scope": "Complete lesson body and additional resources read. Linked talks, videos, dictionary articles, and other editions were not separately reviewed. Only listed John chapters receive teaching coverage."
+      },
+      "type": "LDS Come, Follow Me",
+      "limitations": "This is selected Church teaching. Other chapter headings and linked resources receive no automatic coverage.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "cfm-nt-2023-27",
+      "title": "June 26–July 2 · Matthew 28; Mark 16; Luke 24; John 20–21",
+      "url": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-sunday-school-new-testament-2023/27?lang=eng",
+      "summary": "The lesson teaches resurrection and the call to feed Christ’s sheep.",
+      "category": "LDS Come, Follow Me",
+      "perspective": "lds",
+      "limits": "This is selected Church teaching. Other chapter headings and linked resources receive no automatic coverage.",
+      "author": "The Church of Jesus Christ of Latter-day Saints",
+      "publisher": "The Church of Jesus Christ of Latter-day Saints",
+      "year": 2023,
+      "chapterCoverage": [
+        20,
+        21
+      ],
+      "reviewed": {
+        "date": "2026-10-07",
+        "scope": "Complete lesson body and additional resources read. Linked talks, videos, dictionary articles, and other editions were not separately reviewed. Only listed John chapters receive teaching coverage."
+      },
+      "type": "LDS Come, Follow Me",
+      "limitations": "This is selected Church teaching. Other chapter headings and linked resources receive no automatic coverage.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "net-nt-map",
+      "title": "Israel During the Time of Jesus · NET Study Map NT1",
+      "url": "https://classic.net.bible.org/map.php?map=nt1",
+      "summary": "The map index supplies selected city and regional references.",
+      "category": "Geographic reference",
+      "perspective": "historical",
+      "limits": "Geographic reference only. It does not verify events, ancient roads, houses, tombs, or the unnamed mountains.",
+      "author": "NET Bible and ROHR Productions",
+      "publisher": "bible.org",
+      "reviewed": {
+        "date": "2026-10-07",
+        "scope": "Map NT1 place index reviewed. Capernaum, Nazareth, Caesarea Philippi, and Bethany opening geographic descriptions and coordinate lines checked in the linked dictionary pages. Older encyclopedia material is not used for archaeology, word origins, or reconstructed buildings. Bethsaida and Sea of Galilee opening geographic descriptions and coordinate lines reviewed. Bethsaida remains a broad vicinity reference, not a fixed ancient ruin. Cana and Sychar opening descriptions and coordinate lines checked. Their markers are broad reference areas, not verified ruins or a well."
+      },
+      "license": "Linked reference. No map image or dictionary prose reproduced.",
+      "type": "Geographic reference",
+      "limitations": "Geographic reference only. It does not verify events, ancient roads, houses, tombs, or the unnamed mountains."
+    },
+    {
+      "id": "atlas-canaan",
+      "title": "Bible Maps: Canaan in Old Testament Times",
+      "perspective": "historical",
+      "category": "Geography",
+      "url": "https://www.churchofjesuschrist.org/study/scriptures/bible-maps/map-10?lang=eng",
+      "summary": "This Church-published atlas identifies towns and regions in Canaan.",
+      "limits": "Existing selected reference coordinates only. The earlier review record remains unchanged. This source does not verify Gospel events or exact routes.",
+      "type": "Geography",
+      "limitations": "Existing selected reference coordinates only. The earlier review record remains unchanged. This source does not verify Gospel events or exact routes.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "lds-3-nephi-15",
+      "title": "3 Nephi 15:16–21",
+      "author": "The Church of Jesus Christ of Latter-day Saints",
+      "year": "2013 edition",
+      "category": "LDS scripture",
+      "perspective": "lds",
+      "url": "https://www.churchofjesuschrist.org/study/scriptures/bofm/3-ne/15?lang=eng&id=p16-p21#p16",
+      "summary": "Jesus tells a Book of Mormon people that they are the other sheep of John 10:16.",
+      "reviewed": "2026-10-08: The linked verses were read on the official Church page.",
+      "limits": "This is later Latter-day Saint scripture. It is a Church reading, separate from the Bible passage’s own words.",
+      "license": "Linked official scripture. Original guide summary.",
+      "chapterCoverage": [
+        10
+      ],
+      "type": "LDS scripture",
+      "limitations": "This is later Latter-day Saint scripture. It is a Church reading, separate from the Bible passage’s own words."
+    },
+    {
+      "id": "lds-dc-76",
+      "title": "Doctrine and Covenants 76:15–18",
+      "author": "The Church of Jesus Christ of Latter-day Saints",
+      "year": "2013 edition",
+      "category": "LDS scripture",
+      "perspective": "lds",
+      "url": "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/76?lang=eng&id=p15-p18#p15",
+      "summary": "The section says a vision followed the translation of John 5:29.",
+      "reviewed": "2026-10-08: The linked verses were read on the official Church page.",
+      "limits": "This is later Latter-day Saint scripture. It is a Church reading, separate from the Bible passage’s own words.",
+      "license": "Linked official scripture. Original guide summary.",
+      "chapterCoverage": [
+        5
+      ],
+      "type": "LDS scripture",
+      "limitations": "This is later Latter-day Saint scripture. It is a Church reading, separate from the Bible passage’s own words."
+    }
+  ],
+  "passages": [
+    {
+      "id": "john-1",
+      "chapter": 1,
+      "start": 1,
+      "end": 51,
+      "title": "The opening claim becomes an invitation to come and see",
+      "summary": "In the beginning was the Word, and the Word was with God and was God. All things were made through him. The Word became flesh and lived among us. John the Baptist says he is not the Christ. He points to Jesus as the Lamb of God. Two of John’s disciples follow Jesus and spend the day with him. Andrew brings his brother Simon. Philip brings Nathanael, who doubts that anything good comes from Nazareth.",
+      "year": null,
+      "dateLabel": "Book order",
+      "uncertainty": "Selected markers distinguish events from quoted origins and remembered places. Bethany beyond the Jordan is separate from Bethany near Jerusalem. Exact gardens, pools, houses, and routes remain unassigned.",
+      "placeIds": [
+        "jerusalem",
+        "jordan",
+        "galilee",
+        "bethsaida",
+        "nazareth"
+      ],
+      "sourceIds": [
+        "web"
+      ],
+      "lds": {
+        "text": "The selected lesson studies light and inviting others to come and see. Why does John direct his own followers toward another person?",
+        "sourceIds": [
+          "cfm-nt-2023-4"
+        ]
+      },
+      "contextNote": {
+        "title": "The opening claim becomes an invitation to come and see",
+        "text": "The chapter opens with the largest claims in the book. It then turns to a simple scene. Two men ask Jesus where he is staying (verse 38). Verse 39 answers, “Come and see.” They go and stay the day. Philip uses the same words to Nathanael in verse 46. The great claim is offered as an invitation to look.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    },
+    {
+      "id": "john-2",
+      "chapter": 2,
+      "start": 1,
+      "end": 25,
+      "title": "Remembering after resurrection changes understanding of the temple saying",
+      "summary": "Jesus and his disciples attend a wedding at Cana. The wine runs out, and his mother tells him. He has six stone jars filled with water. The water becomes fine wine, and his disciples believe in him. He goes up to Jerusalem for the Passover. He drives the sellers and money changers out of the temple. He says, “Destroy this temple, and in three days I will raise it up.” He was speaking about his body.",
+      "year": null,
+      "dateLabel": "Book order",
+      "uncertainty": "Selected markers distinguish events from quoted origins and remembered places. Bethany beyond the Jordan is separate from Bethany near Jerusalem. Exact gardens, pools, houses, and routes remain unassigned.",
+      "placeIds": [
+        "cana",
+        "galilee",
+        "capernaum",
+        "jerusalem"
+      ],
+      "sourceIds": [
+        "web"
+      ],
+      "lds": {
+        "text": "The selected lesson studies the wedding sign and care for sacred places. How does later remembrance change the meaning of the temple saying?",
+        "sourceIds": [
+          "cfm-nt-2023-7"
+        ]
+      },
+      "contextNote": {
+        "title": "Remembering after resurrection changes understanding of the temple saying",
+        "text": "The hearers think Jesus means the building (verse 20). Verse 21 says he meant his body. No one understood at the time, including the disciples. Verse 22 says they remembered after he was raised. Then they believed the Scripture and his word. John tells the story from that later point of view. Some sayings can be understood only after the events they point to.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    },
+    {
+      "id": "john-3",
+      "chapter": 3,
+      "start": 1,
+      "end": 36,
+      "title": "A teacher's questions stand beside a witness's willingness to decrease",
+      "summary": "Nicodemus, a Pharisee and ruler, comes to Jesus at night. Jesus says no one can see God’s Kingdom without being born anew. Nicodemus asks how that can be. Jesus says God loved the world and gave his only Son. Light has come, and people loved darkness. John’s disciples complain that everyone is going to Jesus. John says he is the bridegroom’s friend and is glad. He says Jesus must increase and he must decrease.",
+      "year": null,
+      "dateLabel": "Book order",
+      "uncertainty": "Selected markers distinguish events from quoted origins and remembered places. Bethany beyond the Jordan is separate from Bethany near Jerusalem. Exact gardens, pools, houses, and routes remain unassigned.",
+      "placeIds": [
+        "jordan"
+      ],
+      "sourceIds": [
+        "web"
+      ],
+      "lds": {
+        "text": "The selected lesson teaches spiritual rebirth through Christ. How does John’s bridegroom comparison answer his disciples’ concern about losing followers?",
+        "sourceIds": [
+          "cfm-nt-2023-7"
+        ]
+      },
+      "contextNote": {
+        "title": "A teacher's questions stand beside a witness's willingness to decrease",
+        "text": "John’s disciples are worried about losing their following (verse 26). John answers with a wedding. The bride belongs to the bridegroom (verse 29). The friend stands by and is glad to hear the groom’s voice. John says his joy is complete. Verse 30 then states his place in one line. He was sent to point to another, so growing smaller is success.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    },
+    {
+      "id": "john-4",
+      "chapter": 4,
+      "start": 1,
+      "end": 54,
+      "title": "The woman's invitation leads others to hear for themselves",
+      "summary": "Jesus travels through Samaria and rests at Jacob’s well. He asks a Samaritan woman for a drink. He offers her living water and tells her about her life. She asks where people ought to worship. He says true worshipers worship in spirit and truth. She tells her town to come and see. Many Samaritans believe and ask him to stay. In Galilee he heals an official’s son with a word.",
+      "year": null,
+      "dateLabel": "Book order",
+      "uncertainty": "Selected markers distinguish events from quoted origins and remembered places. Bethany beyond the Jordan is separate from Bethany near Jerusalem. Exact gardens, pools, houses, and routes remain unassigned.",
+      "placeIds": [
+        "galilee",
+        "sychar",
+        "jerusalem",
+        "cana",
+        "capernaum"
+      ],
+      "sourceIds": [
+        "web"
+      ],
+      "lds": {
+        "text": "The selected lesson reads living water through spiritual needs and growing testimony. How does the town’s own hearing develop the woman’s invitation?",
+        "sourceIds": [
+          "cfm-nt-2023-7"
+        ]
+      },
+      "contextNote": {
+        "title": "The woman's invitation leads others to hear for themselves",
+        "text": "The woman leaves her water jar and goes to the town (verse 28). She says, “Come, see a man” (verse 29). Many believe because of her word (verse 39). They ask Jesus to stay, and he stays two days. Verse 42 reports what they then tell her. They now believe because they have heard for themselves. Her invitation did its work by bringing them to him.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    },
+    {
+      "id": "john-5",
+      "chapter": 5,
+      "start": 1,
+      "end": 47,
+      "title": "The man's lack of help leads into a dispute about work",
+      "summary": "In Jerusalem many sick people lie beside a pool. One man has been ill for thirty-eight years. Jesus asks whether he wants to be well. The man says he has no one to put him in the water. Jesus tells him to take up his mat and walk. It is the Sabbath, and the leaders object. Jesus says his Father is working and he is working. He says the Scriptures testify about him.",
+      "year": null,
+      "dateLabel": "Book order",
+      "uncertainty": "Selected markers distinguish events from quoted origins and remembered places. Bethany beyond the Jordan is separate from Bethany near Jerusalem. Exact gardens, pools, houses, and routes remain unassigned.",
+      "placeIds": [
+        "jerusalem"
+      ],
+      "sourceIds": [
+        "web"
+      ],
+      "lds": {
+        "text": "Doctrine and Covenants 76:15–18 says a vision followed study of verse 29. What prevents the man from reaching the water before Jesus speaks?",
+        "sourceIds": [
+          "lds-dc-76"
+        ]
+      },
+      "contextNote": {
+        "title": "The man's lack of help leads into a dispute about work",
+        "text": "Jesus asks the man a direct question in verse 6. The man does not say yes. Verse 7 explains why he has not been healed. He has no one to help him into the pool. Others always get there first. He has been alone among a crowd for years. Jesus heals him with a word, and the dispute turns to Sabbath work.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    },
+    {
+      "id": "john-6",
+      "chapter": 6,
+      "start": 1,
+      "end": 71,
+      "title": "A meal leads to words that some followers cannot accept",
+      "summary": "Jesus feeds five thousand with five barley loaves and two fish. The crowd wants to make him king, and he withdraws. He walks on the sea to his disciples. The crowd finds him and asks for more bread. He says he is the bread of life that came down from heaven. He speaks of eating his flesh and drinking his blood. Many disciples call this a hard saying and leave. Peter says there is no one else to go to.",
+      "year": null,
+      "dateLabel": "Book order",
+      "uncertainty": "Selected markers distinguish events from quoted origins and remembered places. Bethany beyond the Jordan is separate from Bethany near Jerusalem. Exact gardens, pools, houses, and routes remain unassigned.",
+      "placeIds": [
+        "sea-galilee",
+        "capernaum"
+      ],
+      "sourceIds": [
+        "web"
+      ],
+      "lds": {
+        "text": "Why does Peter remain when other disciples leave after the same teaching?",
+        "sourceIds": []
+      },
+      "contextNote": {
+        "title": "A meal leads to words that some followers cannot accept",
+        "text": "Verse 60 says many disciples found the teaching hard. Verse 66 says they left and walked with him no more. Jesus asks the twelve whether they will leave too. Peter does not say he understands. Verse 68 asks where else they would go. He stays because of who Jesus is and what he has found in his words. Verse 69 adds that they have come to believe and know.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    },
+    {
+      "id": "john-7",
+      "chapter": 7,
+      "start": 1,
+      "end": 53,
+      "title": "The divided crowd prevents a single response from representing everyone",
+      "summary": "Jesus’s brothers urge him to show himself at the Feast of Booths. He goes up in secret and then teaches in the temple. Some say he is a good man, and others say he deceives the people. Officers are sent to arrest him. On the last day he invites the thirsty to come and drink. The crowd is divided over him. The officers return without him and say no one ever spoke like this. Nicodemus asks whether the law judges a man unheard.",
+      "year": null,
+      "dateLabel": "Book order",
+      "uncertainty": "Selected markers distinguish events from quoted origins and remembered places. Bethany beyond the Jordan is separate from Bethany near Jerusalem. Exact gardens, pools, houses, and routes remain unassigned.",
+      "placeIds": [
+        "galilee",
+        "jerusalem",
+        "bethlehem"
+      ],
+      "sourceIds": [
+        "web"
+      ],
+      "lds": {
+        "text": "How does Nicodemus’ hearing request challenge the proposed judgment?",
+        "sourceIds": []
+      },
+      "contextNote": {
+        "title": "The divided crowd prevents a single response from representing everyone",
+        "text": "This chapter shows a crowd that cannot agree. Verses 12, 40–43 record several opinions at once. The rulers want an arrest and scorn the crowd (verse 49). Nicodemus is one of those rulers. Verse 51 asks a plain legal question. Does their law condemn a man before hearing him? No single response in the chapter speaks for everyone.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    },
+    {
+      "id": "john-8",
+      "chapter": 8,
+      "start": 1,
+      "end": 59,
+      "title": "Claims about ancestry meet the question of present conduct",
+      "summary": "Jesus says he is the light of the world. The Pharisees say his witness about himself is not valid. He tells those who believed him that the truth will set them free. They answer that they are Abraham’s children and were never slaves. He says everyone who sins is a slave to sin. If they were Abraham’s children, they would do what Abraham did. They are trying to kill him. He says, “Before Abraham came into existence, I AM.”",
+      "year": null,
+      "dateLabel": "Book order",
+      "uncertainty": "Selected markers distinguish events from quoted origins and remembered places. Bethany beyond the Jordan is separate from Bethany near Jerusalem. Exact gardens, pools, houses, and routes remain unassigned.",
+      "placeIds": [
+        "olives",
+        "jerusalem"
+      ],
+      "sourceIds": [
+        "web"
+      ],
+      "lds": {
+        "text": "How does claimed ancestry differ from the conduct Jesus names?",
+        "sourceIds": []
+      },
+      "contextNote": {
+        "title": "Claims about ancestry meet the question of present conduct",
+        "text": "The hearers rest their case on ancestry (verses 33 and 39). Jesus does not deny their descent (verse 37). He asks what they are doing now. Verse 40 says they seek to kill a man who told them the truth. He adds, “Abraham didn’t do this.” A family line is shown by family likeness. The words belong to one heated dispute and should not be turned against a people.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    },
+    {
+      "id": "john-9",
+      "chapter": 9,
+      "start": 1,
+      "end": 41,
+      "title": "Repeated questioning gives the healed man a voice of his own",
+      "summary": "Jesus sees a man blind from birth. The disciples ask whose sin caused it. He says neither, and he heals the man with mud and washing. Neighbors and Pharisees question the man again and again. His parents are afraid and say he can speak for himself. He says he knows one thing: he was blind and now sees. They throw him out. Jesus finds him, and the man worships him.",
+      "year": null,
+      "dateLabel": "Book order",
+      "uncertainty": "Selected markers distinguish events from quoted origins and remembered places. Bethany beyond the Jordan is separate from Bethany near Jerusalem. Exact gardens, pools, houses, and routes remain unassigned.",
+      "placeIds": [
+        "jerusalem"
+      ],
+      "sourceIds": [
+        "web",
+        "scott-john"
+      ],
+      "lds": {
+        "text": "What remains consistent in the man’s answers as the questions repeat?",
+        "sourceIds": []
+      },
+      "contextNote": {
+        "title": "Repeated questioning gives the healed man a voice of his own",
+        "text": "The man is questioned four times in this chapter. Each time he says a little more. He calls Jesus “the man” (verse 11) and then “a prophet” (verse 17). Verse 25 refuses to go beyond what he knows. He was blind, and now he sees. He will not call Jesus a sinner to please his judges. By verse 38 he says, “Lord, I believe.”",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    },
+    {
+      "id": "john-10",
+      "chapter": 10,
+      "start": 1,
+      "end": 42,
+      "title": "The shepherd's care answers the danger of abandonment",
+      "summary": "Jesus says the shepherd enters by the door and the sheep know his voice. A thief comes only to steal and kill. Jesus says he is the door and the good shepherd. A hired man runs when the wolf comes. The good shepherd lays down his life for the sheep. He has other sheep that are not of this fold. At a winter feast some ask whether he is the Christ. He says, “I and the Father are one,” and they pick up stones.",
+      "year": null,
+      "dateLabel": "Book order",
+      "uncertainty": "Selected markers distinguish events from quoted origins and remembered places. Bethany beyond the Jordan is separate from Bethany near Jerusalem. Exact gardens, pools, houses, and routes remain unassigned.",
+      "placeIds": [
+        "jerusalem",
+        "jordan"
+      ],
+      "sourceIds": [
+        "web"
+      ],
+      "lds": {
+        "text": "In 3 Nephi 15:21 Jesus calls a Book of Mormon people his “other sheep.” What distinguishes the shepherd from the hired worker when danger comes?",
+        "sourceIds": [
+          "lds-3-nephi-15"
+        ]
+      },
+      "contextNote": {
+        "title": "The shepherd's care answers the danger of abandonment",
+        "text": "Verse 11 defines the good shepherd by one act. He lays down his life for the sheep. Verses 12–13 describe the hired man by contrast. He sees the wolf, leaves the flock, and runs. The sheep are not his, and he does not care about them. The test comes when danger arrives. Verse 18 adds that Jesus lays down his life of his own will.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    },
+    {
+      "id": "john-11",
+      "chapter": 11,
+      "start": 1,
+      "end": 57,
+      "title": "Restored life produces a plan for another death",
+      "summary": "Lazarus of Bethany falls ill, and his sisters send for Jesus. Jesus arrives after Lazarus has been dead four days. Martha says she believes he is the Christ. Jesus weeps at the tomb. He calls Lazarus out, and the dead man comes out wrapped in cloths. Many believe, and some report it to the Pharisees. The council fears that Rome will destroy their place and nation. The high priest says one man should die for the people.",
+      "year": null,
+      "dateLabel": "Book order",
+      "uncertainty": "Selected markers distinguish events from quoted origins and remembered places. Bethany beyond the Jordan is separate from Bethany near Jerusalem. Exact gardens, pools, houses, and routes remain unassigned.",
+      "placeIds": [
+        "bethany",
+        "jerusalem"
+      ],
+      "sourceIds": [
+        "web"
+      ],
+      "lds": {
+        "text": "How does restored life become a reason for the council’s death plan?",
+        "sourceIds": []
+      },
+      "contextNote": {
+        "title": "Restored life produces a plan for another death",
+        "text": "A man has been raised, and many believe (verse 45). The council treats that as a danger. Verse 48 gives their fear: Rome may take away their place and nation. Verse 50 gives the high priest’s reasoning. One death is better than the loss of all. Verses 51–52 say he spoke more truly than he knew. A gift of life leads directly to a plan for death (verse 53).",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    },
+    {
+      "id": "john-12",
+      "chapter": 12,
+      "start": 1,
+      "end": 50,
+      "title": "The seed image changes the meaning of royal praise",
+      "summary": "Mary anoints Jesus’s feet with costly perfume, and Judas objects. A crowd welcomes Jesus to Jerusalem with palm branches. Some Greeks ask to see him. He says the hour has come for the Son of Man to be glorified. A grain of wheat must fall into the earth and die to bear fruit. A voice from heaven answers him. He says that when he is lifted up he will draw all people to himself. Many still do not believe.",
+      "year": null,
+      "dateLabel": "Book order",
+      "uncertainty": "Selected markers distinguish events from quoted origins and remembered places. Bethany beyond the Jordan is separate from Bethany near Jerusalem. Exact gardens, pools, houses, and routes remain unassigned.",
+      "placeIds": [
+        "bethany",
+        "jerusalem",
+        "bethsaida"
+      ],
+      "sourceIds": [
+        "web"
+      ],
+      "lds": {
+        "text": "How does the dying seed change expectations about the announced hour?",
+        "sourceIds": []
+      },
+      "contextNote": {
+        "title": "The seed image changes the meaning of royal praise",
+        "text": "The crowd has just hailed Jesus as king (verse 13). Foreigners are asking for him (verse 21). He says the hour of glory has come (verse 23). Verse 24 then explains what that glory is. A seed stays alone unless it is buried and dies. Only then does it bear much fruit. The praise at the gate is to be read through that picture.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    },
+    {
+      "id": "john-13",
+      "chapter": 13,
+      "start": 1,
+      "end": 38,
+      "title": "The teacher's lowered position supplies the example for followers",
+      "summary": "Before the Passover Jesus rises from supper and ties a towel around himself. He washes his disciples’ feet. Peter objects and then asks to be washed all over. Jesus says they should wash one another’s feet. He is troubled and says one of them will betray him. Judas takes the bread and goes out into the night. Jesus gives a new commandment: love one another as he has loved them. He tells Peter that he will deny him three times.",
+      "year": null,
+      "dateLabel": "Book order",
+      "uncertainty": "This chapter has no selected place markers. Speech images do not establish an exact teaching location.",
+      "placeIds": [],
+      "sourceIds": [
+        "web"
+      ],
+      "lds": {
+        "text": "Why does Jesus keep the titles Teacher and Lord while washing feet?",
+        "sourceIds": []
+      },
+      "contextNote": {
+        "title": "The teacher's lowered position supplies the example for followers",
+        "text": "Verse 3 says Jesus knew the Father had given all things into his hands. With that knowledge he takes a servant’s towel. In verse 13 he accepts the titles Teacher and Lord. Verse 14 argues from them. If the Lord has washed their feet, they must wash each other’s. He does not give up his rank to serve. He shows what that rank is for.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    },
+    {
+      "id": "john-14",
+      "chapter": 14,
+      "start": 1,
+      "end": 31,
+      "title": "Questions about departure meet a promise of continued teaching",
+      "summary": "Jesus tells his disciples not to be troubled. He is going to prepare a place for them. Thomas says they do not know the way. Jesus says he is the way, the truth, and the life. Philip asks to see the Father. Jesus says whoever has seen him has seen the Father. He promises another Counselor, the Spirit of truth. He leaves them his peace.",
+      "year": null,
+      "dateLabel": "Book order",
+      "uncertainty": "This chapter has no selected place markers. Speech images do not establish an exact teaching location.",
+      "placeIds": [],
+      "sourceIds": [
+        "web"
+      ],
+      "lds": {
+        "text": "The selected lesson teaches the Holy Spirit’s help through teaching and remembrance. How will remembered words connect the promised Spirit with Jesus’ earlier teaching?",
+        "sourceIds": [
+          "cfm-nt-2023-24"
+        ]
+      },
+      "contextNote": {
+        "title": "Questions about departure meet a promise of continued teaching",
+        "text": "The disciples ask three anxious questions in this chapter (verses 5, 8, 22). They fear losing him. Verse 26 promises that his teaching will continue. The Holy Spirit will teach them and remind them of his words. The Spirit’s work is tied to what Jesus has already said. Their remembering will be helped. Verse 27 follows with a gift of peace.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    },
+    {
+      "id": "john-15",
+      "chapter": 15,
+      "start": 1,
+      "end": 27,
+      "title": "The vine image leads into the command to love",
+      "summary": "Jesus says he is the true vine and his Father is the gardener. Branches that bear fruit are pruned to bear more. A branch cannot bear fruit unless it remains in the vine. His disciples must remain in his love. His commandment is that they love one another as he loved them. He calls them friends and not servants. The world will hate them as it hated him. The Spirit and the disciples will bear witness.",
+      "year": null,
+      "dateLabel": "Book order",
+      "uncertainty": "This chapter has no selected place markers. Speech images do not establish an exact teaching location.",
+      "placeIds": [],
+      "sourceIds": [
+        "web"
+      ],
+      "lds": {
+        "text": "The selected lesson connects remaining in Christ with fruit and joy. Why does the branch need to remain joined even when it already bears fruit?",
+        "sourceIds": [
+          "cfm-nt-2023-24"
+        ]
+      },
+      "contextNote": {
+        "title": "The vine image leads into the command to love",
+        "text": "Verses 1–8 speak of branches and fruit. Verses 9–10 say that remaining in the vine means remaining in his love. Verse 12 then says what the fruit is. They are to love one another as he has loved them. Verse 13 measures that love by laying down one’s life. Verse 17 repeats the command. The picture of the vine leads straight to it.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    },
+    {
+      "id": "john-16",
+      "chapter": 16,
+      "start": 1,
+      "end": 33,
+      "title": "Confidence about understanding meets a warning of scattering",
+      "summary": "Jesus warns that his disciples will be put out of the synagogues. He says it is better for them that he goes away. The Counselor will come and guide them into all truth. They will weep, and their sorrow will turn to joy. He tells them to ask the Father in his name. The disciples say that now they understand and believe. He answers that they will soon be scattered and leave him alone. He tells them to take courage, for he has overcome the world.",
+      "year": null,
+      "dateLabel": "Book order",
+      "uncertainty": "This chapter has no selected place markers. Speech images do not establish an exact teaching location.",
+      "placeIds": [],
+      "sourceIds": [
+        "web"
+      ],
+      "lds": {
+        "text": "The selected lesson teaches guidance from the Holy Spirit. How does the scattering warning qualify the disciples’ new confidence?",
+        "sourceIds": [
+          "cfm-nt-2023-24"
+        ]
+      },
+      "contextNote": {
+        "title": "Confidence about understanding meets a warning of scattering",
+        "text": "In verses 29–30 the disciples say they finally understand. They are sure of their belief. Verse 31 answers with a question: “Do you now believe?” Verse 32 says they are about to scatter, each to his own home. They will leave him alone. Their confidence is real and not yet tested. Verse 33 gives them peace that rests on him, not on their firmness.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    },
+    {
+      "id": "john-17",
+      "chapter": 17,
+      "start": 1,
+      "end": 26,
+      "title": "The prayer extends belonging beyond the people presently listening",
+      "summary": "Jesus lifts his eyes to heaven and prays. He asks the Father to glorify the Son. He says eternal life is to know the only true God and Jesus Christ. He prays for those the Father gave him. He does not ask that they be taken out of the world. He asks that they be kept from the evil one. He prays also for those who will believe through their word. He asks that they all may be one.",
+      "year": null,
+      "dateLabel": "Book order",
+      "uncertainty": "This chapter has no selected place markers. Speech images do not establish an exact teaching location.",
+      "placeIds": [],
+      "sourceIds": [
+        "web"
+      ],
+      "lds": {
+        "text": "The selected lesson studies unity with the Father and among followers. Why does protection leave the followers within the world rather than remove them?",
+        "sourceIds": [
+          "cfm-nt-2023-24"
+        ]
+      },
+      "contextNote": {
+        "title": "The prayer extends belonging beyond the people presently listening",
+        "text": "Verses 6–19 pray for the disciples in the room. Verse 20 widens the prayer. It includes all who will believe through their word. Later readers are among those prayed for. Verse 21 asks that they all be one, as the Father and Son are one. The purpose is that the world may believe. Verse 15 says they stay in the world for that reason.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    },
+    {
+      "id": "john-18",
+      "chapter": 18,
+      "start": 1,
+      "end": 40,
+      "title": "Open testimony contrasts with denial and armed force",
+      "summary": "Jesus goes to a garden across the Kidron, and Judas brings soldiers. Jesus steps forward and says, “I am he.” Peter cuts off a servant’s ear, and Jesus tells him to put away his sword. Jesus is taken to the high priest. Peter denies him three times by a fire. Jesus tells the high priest that he taught openly. He is brought to Pilate, who asks whether he is a king. Jesus says his Kingdom is not of this world.",
+      "year": null,
+      "dateLabel": "Book order",
+      "uncertainty": "Selected markers distinguish events from quoted origins and remembered places. Bethany beyond the Jordan is separate from Bethany near Jerusalem. Exact gardens, pools, houses, and routes remain unassigned.",
+      "placeIds": [
+        "jerusalem",
+        "nazareth"
+      ],
+      "sourceIds": [
+        "web"
+      ],
+      "lds": {
+        "text": "How does Jesus’ answer about fighting explain his kingdom to Pilate?",
+        "sourceIds": []
+      },
+      "contextNote": {
+        "title": "Open testimony contrasts with denial and armed force",
+        "text": "Pilate needs to know whether Jesus is a rival to Rome. Verse 36 answers by pointing to what his followers did not do. If his Kingdom were of this world, they would fight. Jesus stopped the one sword drawn for him (verse 11). His rule does not come by force. He has also said that he spoke openly (verse 20). Peter, meanwhile, denies him in the dark (verses 17, 25–27).",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    },
+    {
+      "id": "john-19",
+      "chapter": 19,
+      "start": 1,
+      "end": 42,
+      "title": "The execution scene joins completed work with care for those remaining",
+      "summary": "Pilate has Jesus flogged, and soldiers crown him with thorns. Pilate says he finds no guilt and brings him out to the crowd. He hands him over to be crucified. The sign on the cross reads “Jesus of Nazareth, the King of the Jews.” Soldiers divide his clothes. Jesus entrusts his mother to the disciple he loves. He says, “It is finished,” and dies. Joseph of Arimathea and Nicodemus bury him in a garden tomb.",
+      "year": null,
+      "dateLabel": "Book order",
+      "uncertainty": "Selected markers distinguish events from quoted origins and remembered places. Bethany beyond the Jordan is separate from Bethany near Jerusalem. Exact gardens, pools, houses, and routes remain unassigned.",
+      "placeIds": [
+        "jerusalem",
+        "nazareth"
+      ],
+      "sourceIds": [
+        "web"
+      ],
+      "lds": {
+        "text": "How does care for his mother stand beside the statement of completed work?",
+        "sourceIds": []
+      },
+      "contextNote": {
+        "title": "The execution scene joins completed work with care for those remaining",
+        "text": "Four soldiers are dividing his clothes (verses 23–24). Near the cross stand his mother and the disciple he loves. Verse 26 gives her a son, and verse 27 gives him a mother. From that hour the disciple takes her into his home. Jesus arranges her care while he is dying. Verse 30 then records, “It is finished.” The finished work includes this act for those left behind.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    },
+    {
+      "id": "john-20",
+      "chapter": 20,
+      "start": 1,
+      "end": 31,
+      "title": "Different paths to recognition lead toward readers who have not seen",
+      "summary": "Mary Magdalene finds the tomb open and runs to Peter and another disciple. They see the grave cloths and go home. Mary stays weeping and meets Jesus, whom she takes for the gardener. He says her name, and she knows him. That evening he appears to the disciples behind locked doors. Thomas is absent and says he will not believe without touching the wounds. A week later Jesus invites him to touch. John says he wrote so that readers may believe.",
+      "year": null,
+      "dateLabel": "Book order",
+      "uncertainty": "Selected markers distinguish events from quoted origins and remembered places. Bethany beyond the Jordan is separate from Bethany near Jerusalem. Exact gardens, pools, houses, and routes remain unassigned.",
+      "placeIds": [
+        "jerusalem"
+      ],
+      "sourceIds": [
+        "web"
+      ],
+      "lds": {
+        "text": "The selected lesson teaches resurrection through the Gospel accounts. How does the account’s stated purpose address readers who have not seen these signs?",
+        "sourceIds": [
+          "cfm-nt-2023-27"
+        ]
+      },
+      "contextNote": {
+        "title": "Different paths to recognition lead toward readers who have not seen",
+        "text": "People come to recognize Jesus in different ways in this chapter. One disciple sees the cloths and believes (verse 8). Mary knows him when he speaks her name (verse 16). Thomas asks to touch and then confesses him as Lord and God (verse 28). Verse 29 blesses those who have not seen. Verse 31 says the book was written for them. The written signs are offered to readers in place of sight.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    },
+    {
+      "id": "john-21",
+      "chapter": 21,
+      "start": 1,
+      "end": 25,
+      "title": "Peter's restored task does not determine another disciple's future",
+      "summary": "Seven disciples go fishing on the Sea of Tiberias and catch nothing. At dawn a man on the shore tells them to cast on the right side. The net fills, and they know it is the Lord. He gives them bread and fish beside a charcoal fire. He asks Peter three times whether he loves him. Each time he tells him to feed his sheep. Peter asks what will happen to another disciple. Jesus says that is not Peter’s concern.",
+      "year": null,
+      "dateLabel": "Book order",
+      "uncertainty": "Selected markers distinguish events from quoted origins and remembered places. Bethany beyond the Jordan is separate from Bethany near Jerusalem. Exact gardens, pools, houses, and routes remain unassigned.",
+      "placeIds": [
+        "sea-galilee",
+        "galilee",
+        "cana"
+      ],
+      "sourceIds": [
+        "web"
+      ],
+      "lds": {
+        "text": "The selected lesson connects love for Christ with feeding his sheep. How does the final correction distinguish a conditional saying from a certain prediction?",
+        "sourceIds": [
+          "cfm-nt-2023-27"
+        ]
+      },
+      "contextNote": {
+        "title": "Peter's restored task does not determine another disciple's future",
+        "text": "Peter denied Jesus three times beside a charcoal fire (18:18). Here he is asked three times beside another (verse 9). He receives a task and word of his own death (verses 18–19). Then he asks about another disciple (verse 21). Jesus says that is not Peter’s concern and tells him to follow. Verse 23 corrects a rumor that grew from this. Jesus said “if,” and people heard a promise.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "john-1",
+      "chapter": 1,
+      "verse": 1,
+      "eventOrder": 1,
+      "title": "The opening claim becomes an invitation to come and see",
+      "summary": "In the beginning was the Word, and the Word was with God and was God. All things were made through him. The Word became flesh and lived among us. John the Baptist says he is not the Christ. He points to Jesus as the Lamb of God. Two of John’s disciples follow Jesus and spend the day with him. Andrew brings his brother Simon. Philip brings Nathanael, who doubts that anything good comes from Nazareth.",
+      "detail": "The chapter opens with the largest claims in the book. It then turns to a simple scene. Two men ask Jesus where he is staying (verse 38). Verse 39 answers, “Come and see.” They go and stay the day. Philip uses the same words to Nathanael in verse 46. The great claim is offered as an invitation to look.",
+      "dateLabel": "Book order",
+      "uncertainty": "Selected markers distinguish events from quoted origins and remembered places. Bethany beyond the Jordan is separate from Bethany near Jerusalem. Exact gardens, pools, houses, and routes remain unassigned.",
+      "sourceIds": [
+        "web"
+      ],
+      "placeIds": [
+        "jerusalem",
+        "jordan",
+        "galilee",
+        "bethsaida",
+        "nazareth"
+      ],
+      "lds": {
+        "text": "The selected lesson studies light and inviting others to come and see. Why does John direct his own followers toward another person?",
+        "sourceIds": [
+          "cfm-nt-2023-4"
+        ]
+      }
+    },
+    {
+      "id": "john-2",
+      "chapter": 2,
+      "verse": 1,
+      "eventOrder": 2,
+      "title": "Remembering after resurrection changes understanding of the temple saying",
+      "summary": "Jesus and his disciples attend a wedding at Cana. The wine runs out, and his mother tells him. He has six stone jars filled with water. The water becomes fine wine, and his disciples believe in him. He goes up to Jerusalem for the Passover. He drives the sellers and money changers out of the temple. He says, “Destroy this temple, and in three days I will raise it up.” He was speaking about his body.",
+      "detail": "The hearers think Jesus means the building (verse 20). Verse 21 says he meant his body. No one understood at the time, including the disciples. Verse 22 says they remembered after he was raised. Then they believed the Scripture and his word. John tells the story from that later point of view. Some sayings can be understood only after the events they point to.",
+      "dateLabel": "Book order",
+      "uncertainty": "Selected markers distinguish events from quoted origins and remembered places. Bethany beyond the Jordan is separate from Bethany near Jerusalem. Exact gardens, pools, houses, and routes remain unassigned.",
+      "sourceIds": [
+        "web"
+      ],
+      "placeIds": [
+        "cana",
+        "galilee",
+        "capernaum",
+        "jerusalem"
+      ],
+      "lds": {
+        "text": "The selected lesson studies the wedding sign and care for sacred places. How does later remembrance change the meaning of the temple saying?",
+        "sourceIds": [
+          "cfm-nt-2023-7"
+        ]
+      }
+    },
+    {
+      "id": "john-3",
+      "chapter": 3,
+      "verse": 1,
+      "eventOrder": 3,
+      "title": "A teacher's questions stand beside a witness's willingness to decrease",
+      "summary": "Nicodemus, a Pharisee and ruler, comes to Jesus at night. Jesus says no one can see God’s Kingdom without being born anew. Nicodemus asks how that can be. Jesus says God loved the world and gave his only Son. Light has come, and people loved darkness. John’s disciples complain that everyone is going to Jesus. John says he is the bridegroom’s friend and is glad. He says Jesus must increase and he must decrease.",
+      "detail": "John’s disciples are worried about losing their following (verse 26). John answers with a wedding. The bride belongs to the bridegroom (verse 29). The friend stands by and is glad to hear the groom’s voice. John says his joy is complete. Verse 30 then states his place in one line. He was sent to point to another, so growing smaller is success.",
+      "dateLabel": "Book order",
+      "uncertainty": "Selected markers distinguish events from quoted origins and remembered places. Bethany beyond the Jordan is separate from Bethany near Jerusalem. Exact gardens, pools, houses, and routes remain unassigned.",
+      "sourceIds": [
+        "web"
+      ],
+      "placeIds": [
+        "jordan"
+      ],
+      "lds": {
+        "text": "The selected lesson teaches spiritual rebirth through Christ. How does John’s bridegroom comparison answer his disciples’ concern about losing followers?",
+        "sourceIds": [
+          "cfm-nt-2023-7"
+        ]
+      }
+    },
+    {
+      "id": "john-4",
+      "chapter": 4,
+      "verse": 1,
+      "eventOrder": 4,
+      "title": "The woman's invitation leads others to hear for themselves",
+      "summary": "Jesus travels through Samaria and rests at Jacob’s well. He asks a Samaritan woman for a drink. He offers her living water and tells her about her life. She asks where people ought to worship. He says true worshipers worship in spirit and truth. She tells her town to come and see. Many Samaritans believe and ask him to stay. In Galilee he heals an official’s son with a word.",
+      "detail": "The woman leaves her water jar and goes to the town (verse 28). She says, “Come, see a man” (verse 29). Many believe because of her word (verse 39). They ask Jesus to stay, and he stays two days. Verse 42 reports what they then tell her. They now believe because they have heard for themselves. Her invitation did its work by bringing them to him.",
+      "dateLabel": "Book order",
+      "uncertainty": "Selected markers distinguish events from quoted origins and remembered places. Bethany beyond the Jordan is separate from Bethany near Jerusalem. Exact gardens, pools, houses, and routes remain unassigned.",
+      "sourceIds": [
+        "web"
+      ],
+      "placeIds": [
+        "galilee",
+        "sychar",
+        "jerusalem",
+        "cana",
+        "capernaum"
+      ],
+      "lds": {
+        "text": "The selected lesson reads living water through spiritual needs and growing testimony. How does the town’s own hearing develop the woman’s invitation?",
+        "sourceIds": [
+          "cfm-nt-2023-7"
+        ]
+      }
+    },
+    {
+      "id": "john-5",
+      "chapter": 5,
+      "verse": 1,
+      "eventOrder": 5,
+      "title": "The man's lack of help leads into a dispute about work",
+      "summary": "In Jerusalem many sick people lie beside a pool. One man has been ill for thirty-eight years. Jesus asks whether he wants to be well. The man says he has no one to put him in the water. Jesus tells him to take up his mat and walk. It is the Sabbath, and the leaders object. Jesus says his Father is working and he is working. He says the Scriptures testify about him.",
+      "detail": "Jesus asks the man a direct question in verse 6. The man does not say yes. Verse 7 explains why he has not been healed. He has no one to help him into the pool. Others always get there first. He has been alone among a crowd for years. Jesus heals him with a word, and the dispute turns to Sabbath work.",
+      "dateLabel": "Book order",
+      "uncertainty": "Selected markers distinguish events from quoted origins and remembered places. Bethany beyond the Jordan is separate from Bethany near Jerusalem. Exact gardens, pools, houses, and routes remain unassigned.",
+      "sourceIds": [
+        "web"
+      ],
+      "placeIds": [
+        "jerusalem"
+      ],
+      "lds": {
+        "text": "Doctrine and Covenants 76:15–18 says a vision followed study of verse 29. What prevents the man from reaching the water before Jesus speaks?",
+        "sourceIds": [
+          "lds-dc-76"
+        ]
+      }
+    },
+    {
+      "id": "john-6",
+      "chapter": 6,
+      "verse": 1,
+      "eventOrder": 6,
+      "title": "A meal leads to words that some followers cannot accept",
+      "summary": "Jesus feeds five thousand with five barley loaves and two fish. The crowd wants to make him king, and he withdraws. He walks on the sea to his disciples. The crowd finds him and asks for more bread. He says he is the bread of life that came down from heaven. He speaks of eating his flesh and drinking his blood. Many disciples call this a hard saying and leave. Peter says there is no one else to go to.",
+      "detail": "Verse 60 says many disciples found the teaching hard. Verse 66 says they left and walked with him no more. Jesus asks the twelve whether they will leave too. Peter does not say he understands. Verse 68 asks where else they would go. He stays because of who Jesus is and what he has found in his words. Verse 69 adds that they have come to believe and know.",
+      "dateLabel": "Book order",
+      "uncertainty": "Selected markers distinguish events from quoted origins and remembered places. Bethany beyond the Jordan is separate from Bethany near Jerusalem. Exact gardens, pools, houses, and routes remain unassigned.",
+      "sourceIds": [
+        "web"
+      ],
+      "placeIds": [
+        "sea-galilee",
+        "capernaum"
+      ],
+      "lds": {
+        "text": "Why does Peter remain when other disciples leave after the same teaching?",
+        "sourceIds": []
+      }
+    },
+    {
+      "id": "john-7",
+      "chapter": 7,
+      "verse": 1,
+      "eventOrder": 7,
+      "title": "The divided crowd prevents a single response from representing everyone",
+      "summary": "Jesus’s brothers urge him to show himself at the Feast of Booths. He goes up in secret and then teaches in the temple. Some say he is a good man, and others say he deceives the people. Officers are sent to arrest him. On the last day he invites the thirsty to come and drink. The crowd is divided over him. The officers return without him and say no one ever spoke like this. Nicodemus asks whether the law judges a man unheard.",
+      "detail": "This chapter shows a crowd that cannot agree. Verses 12, 40–43 record several opinions at once. The rulers want an arrest and scorn the crowd (verse 49). Nicodemus is one of those rulers. Verse 51 asks a plain legal question. Does their law condemn a man before hearing him? No single response in the chapter speaks for everyone.",
+      "dateLabel": "Book order",
+      "uncertainty": "Selected markers distinguish events from quoted origins and remembered places. Bethany beyond the Jordan is separate from Bethany near Jerusalem. Exact gardens, pools, houses, and routes remain unassigned.",
+      "sourceIds": [
+        "web"
+      ],
+      "placeIds": [
+        "galilee",
+        "jerusalem",
+        "bethlehem"
+      ],
+      "lds": {
+        "text": "How does Nicodemus’ hearing request challenge the proposed judgment?",
+        "sourceIds": []
+      }
+    },
+    {
+      "id": "john-8",
+      "chapter": 8,
+      "verse": 1,
+      "eventOrder": 8,
+      "title": "Claims about ancestry meet the question of present conduct",
+      "summary": "Jesus says he is the light of the world. The Pharisees say his witness about himself is not valid. He tells those who believed him that the truth will set them free. They answer that they are Abraham’s children and were never slaves. He says everyone who sins is a slave to sin. If they were Abraham’s children, they would do what Abraham did. They are trying to kill him. He says, “Before Abraham came into existence, I AM.”",
+      "detail": "The hearers rest their case on ancestry (verses 33 and 39). Jesus does not deny their descent (verse 37). He asks what they are doing now. Verse 40 says they seek to kill a man who told them the truth. He adds, “Abraham didn’t do this.” A family line is shown by family likeness. The words belong to one heated dispute and should not be turned against a people.",
+      "dateLabel": "Book order",
+      "uncertainty": "Selected markers distinguish events from quoted origins and remembered places. Bethany beyond the Jordan is separate from Bethany near Jerusalem. Exact gardens, pools, houses, and routes remain unassigned.",
+      "sourceIds": [
+        "web"
+      ],
+      "placeIds": [
+        "olives",
+        "jerusalem"
+      ],
+      "lds": {
+        "text": "How does claimed ancestry differ from the conduct Jesus names?",
+        "sourceIds": []
+      }
+    },
+    {
+      "id": "john-9",
+      "chapter": 9,
+      "verse": 1,
+      "eventOrder": 9,
+      "title": "Repeated questioning gives the healed man a voice of his own",
+      "summary": "Jesus sees a man blind from birth. The disciples ask whose sin caused it. He says neither, and he heals the man with mud and washing. Neighbors and Pharisees question the man again and again. His parents are afraid and say he can speak for himself. He says he knows one thing: he was blind and now sees. They throw him out. Jesus finds him, and the man worships him.",
+      "detail": "The man is questioned four times in this chapter. Each time he says a little more. He calls Jesus “the man” (verse 11) and then “a prophet” (verse 17). Verse 25 refuses to go beyond what he knows. He was blind, and now he sees. He will not call Jesus a sinner to please his judges. By verse 38 he says, “Lord, I believe.”",
+      "dateLabel": "Book order",
+      "uncertainty": "Selected markers distinguish events from quoted origins and remembered places. Bethany beyond the Jordan is separate from Bethany near Jerusalem. Exact gardens, pools, houses, and routes remain unassigned.",
+      "sourceIds": [
+        "web",
+        "scott-john"
+      ],
+      "placeIds": [
+        "jerusalem"
+      ],
+      "lds": {
+        "text": "What remains consistent in the man’s answers as the questions repeat?",
+        "sourceIds": []
+      }
+    },
+    {
+      "id": "john-10",
+      "chapter": 10,
+      "verse": 1,
+      "eventOrder": 10,
+      "title": "The shepherd's care answers the danger of abandonment",
+      "summary": "Jesus says the shepherd enters by the door and the sheep know his voice. A thief comes only to steal and kill. Jesus says he is the door and the good shepherd. A hired man runs when the wolf comes. The good shepherd lays down his life for the sheep. He has other sheep that are not of this fold. At a winter feast some ask whether he is the Christ. He says, “I and the Father are one,” and they pick up stones.",
+      "detail": "Verse 11 defines the good shepherd by one act. He lays down his life for the sheep. Verses 12–13 describe the hired man by contrast. He sees the wolf, leaves the flock, and runs. The sheep are not his, and he does not care about them. The test comes when danger arrives. Verse 18 adds that Jesus lays down his life of his own will.",
+      "dateLabel": "Book order",
+      "uncertainty": "Selected markers distinguish events from quoted origins and remembered places. Bethany beyond the Jordan is separate from Bethany near Jerusalem. Exact gardens, pools, houses, and routes remain unassigned.",
+      "sourceIds": [
+        "web"
+      ],
+      "placeIds": [
+        "jerusalem",
+        "jordan"
+      ],
+      "lds": {
+        "text": "In 3 Nephi 15:21 Jesus calls a Book of Mormon people his “other sheep.” What distinguishes the shepherd from the hired worker when danger comes?",
+        "sourceIds": [
+          "lds-3-nephi-15"
+        ]
+      }
+    },
+    {
+      "id": "john-11",
+      "chapter": 11,
+      "verse": 1,
+      "eventOrder": 11,
+      "title": "Restored life produces a plan for another death",
+      "summary": "Lazarus of Bethany falls ill, and his sisters send for Jesus. Jesus arrives after Lazarus has been dead four days. Martha says she believes he is the Christ. Jesus weeps at the tomb. He calls Lazarus out, and the dead man comes out wrapped in cloths. Many believe, and some report it to the Pharisees. The council fears that Rome will destroy their place and nation. The high priest says one man should die for the people.",
+      "detail": "A man has been raised, and many believe (verse 45). The council treats that as a danger. Verse 48 gives their fear: Rome may take away their place and nation. Verse 50 gives the high priest’s reasoning. One death is better than the loss of all. Verses 51–52 say he spoke more truly than he knew. A gift of life leads directly to a plan for death (verse 53).",
+      "dateLabel": "Book order",
+      "uncertainty": "Selected markers distinguish events from quoted origins and remembered places. Bethany beyond the Jordan is separate from Bethany near Jerusalem. Exact gardens, pools, houses, and routes remain unassigned.",
+      "sourceIds": [
+        "web"
+      ],
+      "placeIds": [
+        "bethany",
+        "jerusalem"
+      ],
+      "lds": {
+        "text": "How does restored life become a reason for the council’s death plan?",
+        "sourceIds": []
+      }
+    },
+    {
+      "id": "john-12",
+      "chapter": 12,
+      "verse": 1,
+      "eventOrder": 12,
+      "title": "The seed image changes the meaning of royal praise",
+      "summary": "Mary anoints Jesus’s feet with costly perfume, and Judas objects. A crowd welcomes Jesus to Jerusalem with palm branches. Some Greeks ask to see him. He says the hour has come for the Son of Man to be glorified. A grain of wheat must fall into the earth and die to bear fruit. A voice from heaven answers him. He says that when he is lifted up he will draw all people to himself. Many still do not believe.",
+      "detail": "The crowd has just hailed Jesus as king (verse 13). Foreigners are asking for him (verse 21). He says the hour of glory has come (verse 23). Verse 24 then explains what that glory is. A seed stays alone unless it is buried and dies. Only then does it bear much fruit. The praise at the gate is to be read through that picture.",
+      "dateLabel": "Book order",
+      "uncertainty": "Selected markers distinguish events from quoted origins and remembered places. Bethany beyond the Jordan is separate from Bethany near Jerusalem. Exact gardens, pools, houses, and routes remain unassigned.",
+      "sourceIds": [
+        "web"
+      ],
+      "placeIds": [
+        "bethany",
+        "jerusalem",
+        "bethsaida"
+      ],
+      "lds": {
+        "text": "How does the dying seed change expectations about the announced hour?",
+        "sourceIds": []
+      }
+    },
+    {
+      "id": "john-13",
+      "chapter": 13,
+      "verse": 1,
+      "eventOrder": 13,
+      "title": "The teacher's lowered position supplies the example for followers",
+      "summary": "Before the Passover Jesus rises from supper and ties a towel around himself. He washes his disciples’ feet. Peter objects and then asks to be washed all over. Jesus says they should wash one another’s feet. He is troubled and says one of them will betray him. Judas takes the bread and goes out into the night. Jesus gives a new commandment: love one another as he has loved them. He tells Peter that he will deny him three times.",
+      "detail": "Verse 3 says Jesus knew the Father had given all things into his hands. With that knowledge he takes a servant’s towel. In verse 13 he accepts the titles Teacher and Lord. Verse 14 argues from them. If the Lord has washed their feet, they must wash each other’s. He does not give up his rank to serve. He shows what that rank is for.",
+      "dateLabel": "Book order",
+      "uncertainty": "This chapter has no selected place markers. Speech images do not establish an exact teaching location.",
+      "sourceIds": [
+        "web"
+      ],
+      "placeIds": [],
+      "lds": {
+        "text": "Why does Jesus keep the titles Teacher and Lord while washing feet?",
+        "sourceIds": []
+      }
+    },
+    {
+      "id": "john-14",
+      "chapter": 14,
+      "verse": 1,
+      "eventOrder": 14,
+      "title": "Questions about departure meet a promise of continued teaching",
+      "summary": "Jesus tells his disciples not to be troubled. He is going to prepare a place for them. Thomas says they do not know the way. Jesus says he is the way, the truth, and the life. Philip asks to see the Father. Jesus says whoever has seen him has seen the Father. He promises another Counselor, the Spirit of truth. He leaves them his peace.",
+      "detail": "The disciples ask three anxious questions in this chapter (verses 5, 8, 22). They fear losing him. Verse 26 promises that his teaching will continue. The Holy Spirit will teach them and remind them of his words. The Spirit’s work is tied to what Jesus has already said. Their remembering will be helped. Verse 27 follows with a gift of peace.",
+      "dateLabel": "Book order",
+      "uncertainty": "This chapter has no selected place markers. Speech images do not establish an exact teaching location.",
+      "sourceIds": [
+        "web"
+      ],
+      "placeIds": [],
+      "lds": {
+        "text": "The selected lesson teaches the Holy Spirit’s help through teaching and remembrance. How will remembered words connect the promised Spirit with Jesus’ earlier teaching?",
+        "sourceIds": [
+          "cfm-nt-2023-24"
+        ]
+      }
+    },
+    {
+      "id": "john-15",
+      "chapter": 15,
+      "verse": 1,
+      "eventOrder": 15,
+      "title": "The vine image leads into the command to love",
+      "summary": "Jesus says he is the true vine and his Father is the gardener. Branches that bear fruit are pruned to bear more. A branch cannot bear fruit unless it remains in the vine. His disciples must remain in his love. His commandment is that they love one another as he loved them. He calls them friends and not servants. The world will hate them as it hated him. The Spirit and the disciples will bear witness.",
+      "detail": "Verses 1–8 speak of branches and fruit. Verses 9–10 say that remaining in the vine means remaining in his love. Verse 12 then says what the fruit is. They are to love one another as he has loved them. Verse 13 measures that love by laying down one’s life. Verse 17 repeats the command. The picture of the vine leads straight to it.",
+      "dateLabel": "Book order",
+      "uncertainty": "This chapter has no selected place markers. Speech images do not establish an exact teaching location.",
+      "sourceIds": [
+        "web"
+      ],
+      "placeIds": [],
+      "lds": {
+        "text": "The selected lesson connects remaining in Christ with fruit and joy. Why does the branch need to remain joined even when it already bears fruit?",
+        "sourceIds": [
+          "cfm-nt-2023-24"
+        ]
+      }
+    },
+    {
+      "id": "john-16",
+      "chapter": 16,
+      "verse": 1,
+      "eventOrder": 16,
+      "title": "Confidence about understanding meets a warning of scattering",
+      "summary": "Jesus warns that his disciples will be put out of the synagogues. He says it is better for them that he goes away. The Counselor will come and guide them into all truth. They will weep, and their sorrow will turn to joy. He tells them to ask the Father in his name. The disciples say that now they understand and believe. He answers that they will soon be scattered and leave him alone. He tells them to take courage, for he has overcome the world.",
+      "detail": "In verses 29–30 the disciples say they finally understand. They are sure of their belief. Verse 31 answers with a question: “Do you now believe?” Verse 32 says they are about to scatter, each to his own home. They will leave him alone. Their confidence is real and not yet tested. Verse 33 gives them peace that rests on him, not on their firmness.",
+      "dateLabel": "Book order",
+      "uncertainty": "This chapter has no selected place markers. Speech images do not establish an exact teaching location.",
+      "sourceIds": [
+        "web"
+      ],
+      "placeIds": [],
+      "lds": {
+        "text": "The selected lesson teaches guidance from the Holy Spirit. How does the scattering warning qualify the disciples’ new confidence?",
+        "sourceIds": [
+          "cfm-nt-2023-24"
+        ]
+      }
+    },
+    {
+      "id": "john-17",
+      "chapter": 17,
+      "verse": 1,
+      "eventOrder": 17,
+      "title": "The prayer extends belonging beyond the people presently listening",
+      "summary": "Jesus lifts his eyes to heaven and prays. He asks the Father to glorify the Son. He says eternal life is to know the only true God and Jesus Christ. He prays for those the Father gave him. He does not ask that they be taken out of the world. He asks that they be kept from the evil one. He prays also for those who will believe through their word. He asks that they all may be one.",
+      "detail": "Verses 6–19 pray for the disciples in the room. Verse 20 widens the prayer. It includes all who will believe through their word. Later readers are among those prayed for. Verse 21 asks that they all be one, as the Father and Son are one. The purpose is that the world may believe. Verse 15 says they stay in the world for that reason.",
+      "dateLabel": "Book order",
+      "uncertainty": "This chapter has no selected place markers. Speech images do not establish an exact teaching location.",
+      "sourceIds": [
+        "web"
+      ],
+      "placeIds": [],
+      "lds": {
+        "text": "The selected lesson studies unity with the Father and among followers. Why does protection leave the followers within the world rather than remove them?",
+        "sourceIds": [
+          "cfm-nt-2023-24"
+        ]
+      }
+    },
+    {
+      "id": "john-18",
+      "chapter": 18,
+      "verse": 1,
+      "eventOrder": 18,
+      "title": "Open testimony contrasts with denial and armed force",
+      "summary": "Jesus goes to a garden across the Kidron, and Judas brings soldiers. Jesus steps forward and says, “I am he.” Peter cuts off a servant’s ear, and Jesus tells him to put away his sword. Jesus is taken to the high priest. Peter denies him three times by a fire. Jesus tells the high priest that he taught openly. He is brought to Pilate, who asks whether he is a king. Jesus says his Kingdom is not of this world.",
+      "detail": "Pilate needs to know whether Jesus is a rival to Rome. Verse 36 answers by pointing to what his followers did not do. If his Kingdom were of this world, they would fight. Jesus stopped the one sword drawn for him (verse 11). His rule does not come by force. He has also said that he spoke openly (verse 20). Peter, meanwhile, denies him in the dark (verses 17, 25–27).",
+      "dateLabel": "Book order",
+      "uncertainty": "Selected markers distinguish events from quoted origins and remembered places. Bethany beyond the Jordan is separate from Bethany near Jerusalem. Exact gardens, pools, houses, and routes remain unassigned.",
+      "sourceIds": [
+        "web"
+      ],
+      "placeIds": [
+        "jerusalem",
+        "nazareth"
+      ],
+      "lds": {
+        "text": "How does Jesus’ answer about fighting explain his kingdom to Pilate?",
+        "sourceIds": []
+      }
+    },
+    {
+      "id": "john-19",
+      "chapter": 19,
+      "verse": 1,
+      "eventOrder": 19,
+      "title": "The execution scene joins completed work with care for those remaining",
+      "summary": "Pilate has Jesus flogged, and soldiers crown him with thorns. Pilate says he finds no guilt and brings him out to the crowd. He hands him over to be crucified. The sign on the cross reads “Jesus of Nazareth, the King of the Jews.” Soldiers divide his clothes. Jesus entrusts his mother to the disciple he loves. He says, “It is finished,” and dies. Joseph of Arimathea and Nicodemus bury him in a garden tomb.",
+      "detail": "Four soldiers are dividing his clothes (verses 23–24). Near the cross stand his mother and the disciple he loves. Verse 26 gives her a son, and verse 27 gives him a mother. From that hour the disciple takes her into his home. Jesus arranges her care while he is dying. Verse 30 then records, “It is finished.” The finished work includes this act for those left behind.",
+      "dateLabel": "Book order",
+      "uncertainty": "Selected markers distinguish events from quoted origins and remembered places. Bethany beyond the Jordan is separate from Bethany near Jerusalem. Exact gardens, pools, houses, and routes remain unassigned.",
+      "sourceIds": [
+        "web"
+      ],
+      "placeIds": [
+        "jerusalem",
+        "nazareth"
+      ],
+      "lds": {
+        "text": "How does care for his mother stand beside the statement of completed work?",
+        "sourceIds": []
+      }
+    },
+    {
+      "id": "john-20",
+      "chapter": 20,
+      "verse": 1,
+      "eventOrder": 20,
+      "title": "Different paths to recognition lead toward readers who have not seen",
+      "summary": "Mary Magdalene finds the tomb open and runs to Peter and another disciple. They see the grave cloths and go home. Mary stays weeping and meets Jesus, whom she takes for the gardener. He says her name, and she knows him. That evening he appears to the disciples behind locked doors. Thomas is absent and says he will not believe without touching the wounds. A week later Jesus invites him to touch. John says he wrote so that readers may believe.",
+      "detail": "People come to recognize Jesus in different ways in this chapter. One disciple sees the cloths and believes (verse 8). Mary knows him when he speaks her name (verse 16). Thomas asks to touch and then confesses him as Lord and God (verse 28). Verse 29 blesses those who have not seen. Verse 31 says the book was written for them. The written signs are offered to readers in place of sight.",
+      "dateLabel": "Book order",
+      "uncertainty": "Selected markers distinguish events from quoted origins and remembered places. Bethany beyond the Jordan is separate from Bethany near Jerusalem. Exact gardens, pools, houses, and routes remain unassigned.",
+      "sourceIds": [
+        "web"
+      ],
+      "placeIds": [
+        "jerusalem"
+      ],
+      "lds": {
+        "text": "The selected lesson teaches resurrection through the Gospel accounts. How does the account’s stated purpose address readers who have not seen these signs?",
+        "sourceIds": [
+          "cfm-nt-2023-27"
+        ]
+      }
+    },
+    {
+      "id": "john-21",
+      "chapter": 21,
+      "verse": 1,
+      "eventOrder": 21,
+      "title": "Peter's restored task does not determine another disciple's future",
+      "summary": "Seven disciples go fishing on the Sea of Tiberias and catch nothing. At dawn a man on the shore tells them to cast on the right side. The net fills, and they know it is the Lord. He gives them bread and fish beside a charcoal fire. He asks Peter three times whether he loves him. Each time he tells him to feed his sheep. Peter asks what will happen to another disciple. Jesus says that is not Peter’s concern.",
+      "detail": "Peter denied Jesus three times beside a charcoal fire (18:18). Here he is asked three times beside another (verse 9). He receives a task and word of his own death (verses 18–19). Then he asks about another disciple (verse 21). Jesus says that is not Peter’s concern and tells him to follow. Verse 23 corrects a rumor that grew from this. Jesus said “if,” and people heard a promise.",
+      "dateLabel": "Book order",
+      "uncertainty": "Selected markers distinguish events from quoted origins and remembered places. Bethany beyond the Jordan is separate from Bethany near Jerusalem. Exact gardens, pools, houses, and routes remain unassigned.",
+      "sourceIds": [
+        "web"
+      ],
+      "placeIds": [
+        "sea-galilee",
+        "galilee",
+        "cana"
+      ],
+      "lds": {
+        "text": "The selected lesson connects love for Christ with feeding his sheep. How does the final correction distinguish a conditional saying from a certain prediction?",
+        "sourceIds": [
+          "cfm-nt-2023-27"
+        ]
+      }
+    }
+  ],
+  "places": [
+    {
+      "id": "bethlehem",
+      "name": "Bethlehem",
+      "lat": 31.705,
+      "lng": 35.202,
+      "summary": "Bethlehem appears in the crowd’s disputed claim about the Christ’s origin.",
+      "limits": "Approximate reference marker. It identifies no exact house, road, execution site, or ancient border.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan"
+      ],
+      "verseScope": {},
+      "detail": "Bethlehem appears in the crowd’s disputed claim about the Christ’s origin.",
+      "uncertainty": "Approximate reference marker. It identifies no exact house, road, execution site, or ancient border.",
+      "chapterLocation": true
+    },
+    {
+      "id": "jerusalem",
+      "name": "Jerusalem",
+      "lat": 31.778,
+      "lng": 35.235,
+      "summary": "Jerusalem holds feast disputes, final conflict, and the burial and appearance setting.",
+      "limits": "Approximate reference marker. It identifies no exact house, road, execution site, or ancient border.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan"
+      ],
+      "verseScope": {},
+      "detail": "Jerusalem holds feast disputes, final conflict, and the burial and appearance setting.",
+      "uncertainty": "Approximate reference marker. It identifies no exact house, road, execution site, or ancient border.",
+      "chapterLocation": true
+    },
+    {
+      "id": "jordan",
+      "name": "Jordan",
+      "lat": 31.86,
+      "lng": 35.55,
+      "summary": "Beyond the Jordan holds John’s early witness and Jesus’ later withdrawal.",
+      "limits": "Approximate reference marker. It identifies no exact house, road, execution site, or ancient border.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan"
+      ],
+      "verseScope": {},
+      "detail": "Beyond the Jordan holds John’s early witness and Jesus’ later withdrawal.",
+      "uncertainty": "Approximate reference marker. It identifies no exact house, road, execution site, or ancient border.",
+      "chapterLocation": true
+    },
+    {
+      "id": "galilee",
+      "name": "Galilee",
+      "lat": 32.85,
+      "lng": 35.3,
+      "summary": "Galilee holds early signs and the final shared meal by the lake.",
+      "limits": "Approximate reference marker. It identifies no exact house, road, execution site, or ancient border.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan"
+      ],
+      "verseScope": {},
+      "detail": "Galilee holds early signs and the final shared meal by the lake.",
+      "uncertainty": "Approximate reference marker. It identifies no exact house, road, execution site, or ancient border.",
+      "chapterLocation": true
+    },
+    {
+      "id": "olives",
+      "name": "Mount of Olives",
+      "lat": 31.779,
+      "lng": 35.247,
+      "summary": "The Mount of Olives appears in the retained opening of chapter eight.",
+      "limits": "Approximate reference marker. It identifies no exact house, road, execution site, or ancient border.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan"
+      ],
+      "verseScope": {},
+      "detail": "The Mount of Olives appears in the retained opening of chapter eight.",
+      "uncertainty": "Approximate reference marker. It identifies no exact house, road, execution site, or ancient border.",
+      "chapterLocation": true
+    },
+    {
+      "id": "nazareth",
+      "name": "Nazareth",
+      "lat": 32.7,
+      "lng": 35.3,
+      "summary": "Nazareth appears in identity questions and the execution title.",
+      "limits": "Approximate town reference from the NET coordinate line. No house or workshop is identified.",
+      "sourceIds": [
+        "web",
+        "net-nt-map"
+      ],
+      "verseScope": {},
+      "detail": "Nazareth appears in identity questions and the execution title.",
+      "uncertainty": "Approximate town reference from the NET coordinate line. No house or workshop is identified.",
+      "chapterLocation": true
+    },
+    {
+      "id": "capernaum",
+      "name": "Capernaum",
+      "lat": 32.86666666666667,
+      "lng": 35.56666666666667,
+      "summary": "Capernaum holds the bread teaching and the official’s sick son.",
+      "limits": "Approximate town reference from the NET coordinate line. No specific synagogue or house is reconstructed.",
+      "sourceIds": [
+        "web",
+        "net-nt-map"
+      ],
+      "verseScope": {},
+      "detail": "Capernaum holds the bread teaching and the official’s sick son.",
+      "uncertainty": "Approximate town reference from the NET coordinate line. No specific synagogue or house is reconstructed.",
+      "chapterLocation": true
+    },
+    {
+      "id": "bethany",
+      "name": "Bethany near Jerusalem",
+      "lat": 31.766666666666666,
+      "lng": 35.25,
+      "summary": "Bethany near Jerusalem holds Lazarus’ home and the anointing meal.",
+      "limits": "Approximate reference from the NET coordinate line. This is not Bethany beyond the Jordan or an identified house.",
+      "sourceIds": [
+        "web",
+        "net-nt-map"
+      ],
+      "verseScope": {
+        "1": [],
+        "10": [],
+        "11": [
+          1,
+          18
+        ],
+        "12": [
+          1
+        ]
+      },
+      "detail": "Bethany near Jerusalem holds Lazarus’ home and the anointing meal.",
+      "uncertainty": "Approximate reference from the NET coordinate line. This is not Bethany beyond the Jordan or an identified house.",
+      "chapterLocation": true
+    },
+    {
+      "id": "bethsaida",
+      "name": "Bethsaida",
+      "lat": 32.9,
+      "lng": 35.61666666666667,
+      "summary": "Bethsaida identifies the origins of Andrew, Peter, and Philip.",
+      "limits": "Broad vicinity from the NET reference. This marker does not identify one ancient ruin or a boat landing.",
+      "sourceIds": [
+        "web",
+        "net-nt-map"
+      ],
+      "verseScope": {},
+      "detail": "Bethsaida identifies the origins of Andrew, Peter, and Philip.",
+      "uncertainty": "Broad vicinity from the NET reference. This marker does not identify one ancient ruin or a boat landing.",
+      "chapterLocation": true
+    },
+    {
+      "id": "sea-galilee",
+      "name": "Sea of Galilee",
+      "lat": 32.8,
+      "lng": 35.583333333333336,
+      "summary": "The Sea of Galilee, also called Tiberias, holds crossings and the final fishing scene.",
+      "limits": "Lake reference from the NET coordinate line. No exact storm position or crossing route is assigned.",
+      "sourceIds": [
+        "web",
+        "net-nt-map"
+      ],
+      "verseScope": {},
+      "detail": "The Sea of Galilee, also called Tiberias, holds crossings and the final fishing scene.",
+      "uncertainty": "Lake reference from the NET coordinate line. No exact storm position or crossing route is assigned.",
+      "chapterLocation": true
+    },
+    {
+      "id": "cana",
+      "name": "Cana of Galilee",
+      "lat": 32.733333333333334,
+      "lng": 35.333333333333336,
+      "summary": "Cana holds the wedding sign and the official’s request. It also names Nathanael’s hometown.",
+      "limits": "Broad NET reference vicinity. Competing site claims remain unresolved. No wedding house receives a fixed point.",
+      "sourceIds": [
+        "web",
+        "net-nt-map"
+      ],
+      "detail": "Cana holds the wedding sign and the official’s request. It also names Nathanael’s hometown.",
+      "uncertainty": "Broad NET reference vicinity. Competing site claims remain unresolved. No wedding house receives a fixed point.",
+      "chapterLocation": true
+    },
+    {
+      "id": "sychar",
+      "name": "Sychar",
+      "lat": 32.2,
+      "lng": 35.3,
+      "summary": "The well conversation occurs near Sychar in Samaria.",
+      "limits": "Broad NET reference vicinity. The marker does not identify an ancient ruin or authenticate the well.",
+      "sourceIds": [
+        "web",
+        "net-nt-map"
+      ],
+      "detail": "The well conversation occurs near Sychar in Samaria.",
+      "uncertainty": "Broad NET reference vicinity. The marker does not identify an ancient ruin or authenticate the well.",
+      "chapterLocation": true
+    }
+  ],
+  "campaigns": [],
+  "ancientRoads": [],
+  "regions": [],
+  "words": [
+    {
+      "id": "glossary-levites",
+      "label": "Levites",
+      "matches": [
+        "Levite",
+        "Levites",
+        "Levitical"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "Members of the tribe of Levi. They cared for the tabernacle and later the temple. The priests came from one Levite family, Aaron’s.",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    },
+    {
+      "id": "glossary-sabbath",
+      "label": "Sabbath",
+      "matches": [
+        "Sabbath",
+        "Sabbaths"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "The seventh day of the week, kept as a day of rest.",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    },
+    {
+      "id": "glossary-pharisees",
+      "label": "Pharisees",
+      "matches": [
+        "Pharisee",
+        "Pharisees"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A Jewish group known for careful keeping of the law. Acts 23:8 says they believed in resurrection, angels, and spirits.",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    },
+    {
+      "id": "glossary-scribes",
+      "label": "Scribes",
+      "matches": [
+        "scribe",
+        "scribes"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "People trained to write and to keep records. In the Gospels, scribes also teach the law.",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    },
+    {
+      "id": "glossary-synagogue",
+      "label": "Synagogue",
+      "matches": [
+        "synagogue",
+        "synagogues"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A local Jewish meeting place for prayer and for reading Scripture.",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    },
+    {
+      "id": "glossary-passover",
+      "label": "Passover",
+      "matches": [
+        "Passover"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A yearly feast that recalls Israel’s escape from Egypt. Exodus 12 gives its first account.",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    },
+    {
+      "id": "glossary-circumcision",
+      "label": "Circumcision",
+      "matches": [
+        "circumcision",
+        "circumcised",
+        "circumcise",
+        "uncircumcised",
+        "uncircumcision"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "The cutting of the foreskin. Genesis 17 makes it the sign of God’s covenant with Abraham.",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    },
+    {
+      "id": "glossary-manna",
+      "label": "Manna",
+      "matches": [
+        "manna"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "The food Israel gathered in the wilderness. Exodus 16 describes it.",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    },
+    {
+      "id": "glossary-anoint",
+      "label": "Anoint",
+      "matches": [
+        "anoint",
+        "anoints",
+        "anointed",
+        "anointing"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "To pour oil on a person or thing to set it apart. Kings and priests were anointed.",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    },
+    {
+      "id": "glossary-messiah",
+      "label": "Messiah",
+      "matches": [
+        "Messiah"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "The Hebrew title “anointed one.” John 1:41 gives “Christ” as the same title in Greek.",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    },
+    {
+      "id": "glossary-zion",
+      "label": "Zion",
+      "matches": [
+        "Zion"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A hill in Jerusalem. The name is also used for the city and its people.",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    },
+    {
+      "id": "glossary-samaritans",
+      "label": "Samaritans",
+      "matches": [
+        "Samaritan",
+        "Samaritans"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "People of Samaria, between Judea and Galilee. John 4:9 says Jews had no dealings with them.",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    },
+    {
+      "id": "glossary-rabbi",
+      "label": "Rabbi",
+      "matches": [
+        "Rabbi"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A title of respect for a teacher. John 1:38 gives the meaning as “Teacher.”",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    },
+    {
+      "id": "glossary-parable",
+      "label": "Parable",
+      "matches": [
+        "parable",
+        "parables"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A short story or comparison that teaches a point.",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    },
+    {
+      "id": "glossary-bondservant",
+      "label": "Bondservant",
+      "matches": [
+        "bondservant",
+        "bondservants"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A slave or bound servant.",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    },
+    {
+      "id": "glossary-cubit",
+      "label": "Cubit",
+      "matches": [
+        "cubit",
+        "cubits"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A length from the elbow to the fingertip, about 46 centimeters.",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    },
+    {
+      "id": "glossary-denarius",
+      "label": "Denarius",
+      "matches": [
+        "denarius",
+        "denarii"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A Roman silver coin. Matthew 20:2 gives it as a worker’s pay for one day.",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    }
+  ],
+  "guides": [
+    {
+      "id": "john-context",
+      "title": "John: context and evidence",
+      "description": "Explore the book’s larger concerns through selected passages and relevant evidence.",
+      "steps": [
+        {
+          "title": "The woman's invitation leads others to hear for themselves",
+          "text": "The woman leaves her water jar and goes to the town (verse 28). She says, “Come, see a man” (verse 29). Many believe because of her word (verse 39). They ask Jesus to stay, and he stays two days. Verse 42 reports what they then tell her. They now believe because they have heard for themselves. Her invitation did its work by bringing them to him.",
+          "chapter": 4,
+          "verse": 42,
+          "sourceIds": [
+            "web"
+          ]
+        },
+        {
+          "title": "Repeated questioning gives the healed man a voice of his own",
+          "text": "The man is questioned four times in this chapter. Each time he says a little more. He calls Jesus “the man” (verse 11) and then “a prophet” (verse 17). Verse 25 refuses to go beyond what he knows. He was blind, and now he sees. He will not call Jesus a sinner to please his judges. By verse 38 he says, “Lord, I believe.”",
+          "chapter": 9,
+          "verse": 25,
+          "sourceIds": [
+            "web"
+          ]
+        },
+        {
+          "title": "The teacher's lowered position supplies the example for followers",
+          "text": "Verse 3 says Jesus knew the Father had given all things into his hands. With that knowledge he takes a servant’s towel. In verse 13 he accepts the titles Teacher and Lord. Verse 14 argues from them. If the Lord has washed their feet, they must wash each other’s. He does not give up his rank to serve. He shows what that rank is for.",
+          "chapter": 13,
+          "verse": 14,
+          "sourceIds": [
+            "web"
+          ]
+        },
+        {
+          "title": "Different paths to recognition lead toward readers who have not seen",
+          "text": "People come to recognize Jesus in different ways in this chapter. One disciple sees the cloths and believes (verse 8). Mary knows him when he speaks her name (verse 16). Thomas asks to touch and then confesses him as Lord and God (verse 28). Verse 29 blesses those who have not seen. Verse 31 says the book was written for them. The written signs are offered to readers in place of sight.",
+          "chapter": 20,
+          "verse": 31,
+          "sourceIds": [
+            "web"
+          ]
+        }
+      ]
+    }
+  ],
+  "periods": [
+    {
+      "id": "part-0",
+      "label": "John 1–7",
+      "start": 1,
+      "end": 7,
+      "description": "Chapter order"
+    },
+    {
+      "id": "part-1",
+      "label": "John 8–14",
+      "start": 8,
+      "end": 14,
+      "description": "Chapter order"
+    },
+    {
+      "id": "part-2",
+      "label": "John 15–21",
+      "start": 15,
+      "end": 21,
+      "description": "Chapter order"
+    }
+  ],
+  "chapterMaps": [
+    {
+      "chapter": 1,
+      "focusPlaceIds": [
+        "jerusalem",
+        "jordan",
+        "galilee",
+        "bethsaida",
+        "nazareth"
+      ],
+      "placeIds": [
+        "jerusalem",
+        "jordan",
+        "galilee",
+        "bethsaida",
+        "nazareth"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Selected markers distinguish events from quoted origins and remembered places. Bethany beyond the Jordan is separate from Bethany near Jerusalem. Exact gardens, pools, houses, and routes remain unassigned.",
+      "narrative": "In the beginning was the Word, and the Word was with God and was God. All things were made through him. The Word became flesh and lived among us. John the Baptist says he is not the Christ. He points to Jesus as the Lamb of God. Two of John’s disciples follow Jesus and spend the day with him. Andrew brings his brother Simon. Philip brings Nathanael, who doubts that anything good comes from Nazareth.",
+      "limits": "Selected markers distinguish events from quoted origins and remembered places. Bethany beyond the Jordan is separate from Bethany near Jerusalem. Exact gardens, pools, houses, and routes remain unassigned.",
+      "sourceIds": [
+        "web"
+      ]
+    },
+    {
+      "chapter": 2,
+      "focusPlaceIds": [
+        "cana",
+        "galilee",
+        "capernaum",
+        "jerusalem"
+      ],
+      "placeIds": [
+        "cana",
+        "galilee",
+        "capernaum",
+        "jerusalem"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Selected markers distinguish events from quoted origins and remembered places. Bethany beyond the Jordan is separate from Bethany near Jerusalem. Exact gardens, pools, houses, and routes remain unassigned.",
+      "narrative": "Jesus and his disciples attend a wedding at Cana. The wine runs out, and his mother tells him. He has six stone jars filled with water. The water becomes fine wine, and his disciples believe in him. He goes up to Jerusalem for the Passover. He drives the sellers and money changers out of the temple. He says, “Destroy this temple, and in three days I will raise it up.” He was speaking about his body.",
+      "limits": "Selected markers distinguish events from quoted origins and remembered places. Bethany beyond the Jordan is separate from Bethany near Jerusalem. Exact gardens, pools, houses, and routes remain unassigned.",
+      "sourceIds": [
+        "web"
+      ]
+    },
+    {
+      "chapter": 3,
+      "focusPlaceIds": [
+        "jordan"
+      ],
+      "placeIds": [
+        "jordan"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Selected markers distinguish events from quoted origins and remembered places. Bethany beyond the Jordan is separate from Bethany near Jerusalem. Exact gardens, pools, houses, and routes remain unassigned.",
+      "narrative": "Nicodemus, a Pharisee and ruler, comes to Jesus at night. Jesus says no one can see God’s Kingdom without being born anew. Nicodemus asks how that can be. Jesus says God loved the world and gave his only Son. Light has come, and people loved darkness. John’s disciples complain that everyone is going to Jesus. John says he is the bridegroom’s friend and is glad. He says Jesus must increase and he must decrease.",
+      "limits": "Selected markers distinguish events from quoted origins and remembered places. Bethany beyond the Jordan is separate from Bethany near Jerusalem. Exact gardens, pools, houses, and routes remain unassigned.",
+      "sourceIds": [
+        "web"
+      ]
+    },
+    {
+      "chapter": 4,
+      "focusPlaceIds": [
+        "galilee",
+        "sychar",
+        "jerusalem",
+        "cana",
+        "capernaum"
+      ],
+      "placeIds": [
+        "galilee",
+        "sychar",
+        "jerusalem",
+        "cana",
+        "capernaum"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Selected markers distinguish events from quoted origins and remembered places. Bethany beyond the Jordan is separate from Bethany near Jerusalem. Exact gardens, pools, houses, and routes remain unassigned.",
+      "narrative": "Jesus travels through Samaria and rests at Jacob’s well. He asks a Samaritan woman for a drink. He offers her living water and tells her about her life. She asks where people ought to worship. He says true worshipers worship in spirit and truth. She tells her town to come and see. Many Samaritans believe and ask him to stay. In Galilee he heals an official’s son with a word.",
+      "limits": "Selected markers distinguish events from quoted origins and remembered places. Bethany beyond the Jordan is separate from Bethany near Jerusalem. Exact gardens, pools, houses, and routes remain unassigned.",
+      "sourceIds": [
+        "web"
+      ]
+    },
+    {
+      "chapter": 5,
+      "focusPlaceIds": [
+        "jerusalem"
+      ],
+      "placeIds": [
+        "jerusalem"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Selected markers distinguish events from quoted origins and remembered places. Bethany beyond the Jordan is separate from Bethany near Jerusalem. Exact gardens, pools, houses, and routes remain unassigned.",
+      "narrative": "In Jerusalem many sick people lie beside a pool. One man has been ill for thirty-eight years. Jesus asks whether he wants to be well. The man says he has no one to put him in the water. Jesus tells him to take up his mat and walk. It is the Sabbath, and the leaders object. Jesus says his Father is working and he is working. He says the Scriptures testify about him.",
+      "limits": "Selected markers distinguish events from quoted origins and remembered places. Bethany beyond the Jordan is separate from Bethany near Jerusalem. Exact gardens, pools, houses, and routes remain unassigned.",
+      "sourceIds": [
+        "web"
+      ]
+    },
+    {
+      "chapter": 6,
+      "focusPlaceIds": [
+        "sea-galilee",
+        "capernaum"
+      ],
+      "placeIds": [
+        "sea-galilee",
+        "capernaum"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Selected markers distinguish events from quoted origins and remembered places. Bethany beyond the Jordan is separate from Bethany near Jerusalem. Exact gardens, pools, houses, and routes remain unassigned.",
+      "narrative": "Jesus feeds five thousand with five barley loaves and two fish. The crowd wants to make him king, and he withdraws. He walks on the sea to his disciples. The crowd finds him and asks for more bread. He says he is the bread of life that came down from heaven. He speaks of eating his flesh and drinking his blood. Many disciples call this a hard saying and leave. Peter says there is no one else to go to.",
+      "limits": "Selected markers distinguish events from quoted origins and remembered places. Bethany beyond the Jordan is separate from Bethany near Jerusalem. Exact gardens, pools, houses, and routes remain unassigned.",
+      "sourceIds": [
+        "web"
+      ]
+    },
+    {
+      "chapter": 7,
+      "focusPlaceIds": [
+        "galilee",
+        "jerusalem",
+        "bethlehem"
+      ],
+      "placeIds": [
+        "galilee",
+        "jerusalem",
+        "bethlehem"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Selected markers distinguish events from quoted origins and remembered places. Bethany beyond the Jordan is separate from Bethany near Jerusalem. Exact gardens, pools, houses, and routes remain unassigned.",
+      "narrative": "Jesus’s brothers urge him to show himself at the Feast of Booths. He goes up in secret and then teaches in the temple. Some say he is a good man, and others say he deceives the people. Officers are sent to arrest him. On the last day he invites the thirsty to come and drink. The crowd is divided over him. The officers return without him and say no one ever spoke like this. Nicodemus asks whether the law judges a man unheard.",
+      "limits": "Selected markers distinguish events from quoted origins and remembered places. Bethany beyond the Jordan is separate from Bethany near Jerusalem. Exact gardens, pools, houses, and routes remain unassigned.",
+      "sourceIds": [
+        "web"
+      ]
+    },
+    {
+      "chapter": 8,
+      "focusPlaceIds": [
+        "olives",
+        "jerusalem"
+      ],
+      "placeIds": [
+        "olives",
+        "jerusalem"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Selected markers distinguish events from quoted origins and remembered places. Bethany beyond the Jordan is separate from Bethany near Jerusalem. Exact gardens, pools, houses, and routes remain unassigned.",
+      "narrative": "Jesus says he is the light of the world. The Pharisees say his witness about himself is not valid. He tells those who believed him that the truth will set them free. They answer that they are Abraham’s children and were never slaves. He says everyone who sins is a slave to sin. If they were Abraham’s children, they would do what Abraham did. They are trying to kill him. He says, “Before Abraham came into existence, I AM.”",
+      "limits": "Selected markers distinguish events from quoted origins and remembered places. Bethany beyond the Jordan is separate from Bethany near Jerusalem. Exact gardens, pools, houses, and routes remain unassigned.",
+      "sourceIds": [
+        "web"
+      ]
+    },
+    {
+      "chapter": 9,
+      "focusPlaceIds": [
+        "jerusalem"
+      ],
+      "placeIds": [
+        "jerusalem"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Selected markers distinguish events from quoted origins and remembered places. Bethany beyond the Jordan is separate from Bethany near Jerusalem. Exact gardens, pools, houses, and routes remain unassigned.",
+      "narrative": "Jesus sees a man blind from birth. The disciples ask whose sin caused it. He says neither, and he heals the man with mud and washing. Neighbors and Pharisees question the man again and again. His parents are afraid and say he can speak for himself. He says he knows one thing: he was blind and now sees. They throw him out. Jesus finds him, and the man worships him.",
+      "limits": "Selected markers distinguish events from quoted origins and remembered places. Bethany beyond the Jordan is separate from Bethany near Jerusalem. Exact gardens, pools, houses, and routes remain unassigned.",
+      "sourceIds": [
+        "web",
+        "scott-john"
+      ]
+    },
+    {
+      "chapter": 10,
+      "focusPlaceIds": [
+        "jerusalem",
+        "jordan"
+      ],
+      "placeIds": [
+        "jerusalem",
+        "jordan"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Selected markers distinguish events from quoted origins and remembered places. Bethany beyond the Jordan is separate from Bethany near Jerusalem. Exact gardens, pools, houses, and routes remain unassigned.",
+      "narrative": "Jesus says the shepherd enters by the door and the sheep know his voice. A thief comes only to steal and kill. Jesus says he is the door and the good shepherd. A hired man runs when the wolf comes. The good shepherd lays down his life for the sheep. He has other sheep that are not of this fold. At a winter feast some ask whether he is the Christ. He says, “I and the Father are one,” and they pick up stones.",
+      "limits": "Selected markers distinguish events from quoted origins and remembered places. Bethany beyond the Jordan is separate from Bethany near Jerusalem. Exact gardens, pools, houses, and routes remain unassigned.",
+      "sourceIds": [
+        "web"
+      ]
+    },
+    {
+      "chapter": 11,
+      "focusPlaceIds": [
+        "bethany",
+        "jerusalem"
+      ],
+      "placeIds": [
+        "bethany",
+        "jerusalem"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Selected markers distinguish events from quoted origins and remembered places. Bethany beyond the Jordan is separate from Bethany near Jerusalem. Exact gardens, pools, houses, and routes remain unassigned.",
+      "narrative": "Lazarus of Bethany falls ill, and his sisters send for Jesus. Jesus arrives after Lazarus has been dead four days. Martha says she believes he is the Christ. Jesus weeps at the tomb. He calls Lazarus out, and the dead man comes out wrapped in cloths. Many believe, and some report it to the Pharisees. The council fears that Rome will destroy their place and nation. The high priest says one man should die for the people.",
+      "limits": "Selected markers distinguish events from quoted origins and remembered places. Bethany beyond the Jordan is separate from Bethany near Jerusalem. Exact gardens, pools, houses, and routes remain unassigned.",
+      "sourceIds": [
+        "web"
+      ]
+    },
+    {
+      "chapter": 12,
+      "focusPlaceIds": [
+        "bethany",
+        "jerusalem",
+        "bethsaida"
+      ],
+      "placeIds": [
+        "bethany",
+        "jerusalem",
+        "bethsaida"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Selected markers distinguish events from quoted origins and remembered places. Bethany beyond the Jordan is separate from Bethany near Jerusalem. Exact gardens, pools, houses, and routes remain unassigned.",
+      "narrative": "Mary anoints Jesus’s feet with costly perfume, and Judas objects. A crowd welcomes Jesus to Jerusalem with palm branches. Some Greeks ask to see him. He says the hour has come for the Son of Man to be glorified. A grain of wheat must fall into the earth and die to bear fruit. A voice from heaven answers him. He says that when he is lifted up he will draw all people to himself. Many still do not believe.",
+      "limits": "Selected markers distinguish events from quoted origins and remembered places. Bethany beyond the Jordan is separate from Bethany near Jerusalem. Exact gardens, pools, houses, and routes remain unassigned.",
+      "sourceIds": [
+        "web"
+      ]
+    },
+    {
+      "chapter": 13,
+      "focusPlaceIds": [],
+      "placeIds": [],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "This chapter has no selected place markers. Speech images do not establish an exact teaching location.",
+      "narrative": "Before the Passover Jesus rises from supper and ties a towel around himself. He washes his disciples’ feet. Peter objects and then asks to be washed all over. Jesus says they should wash one another’s feet. He is troubled and says one of them will betray him. Judas takes the bread and goes out into the night. Jesus gives a new commandment: love one another as he has loved them. He tells Peter that he will deny him three times.",
+      "limits": "This chapter has no selected place markers. Speech images do not establish an exact teaching location.",
+      "sourceIds": [
+        "web"
+      ]
+    },
+    {
+      "chapter": 14,
+      "focusPlaceIds": [],
+      "placeIds": [],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "This chapter has no selected place markers. Speech images do not establish an exact teaching location.",
+      "narrative": "Jesus tells his disciples not to be troubled. He is going to prepare a place for them. Thomas says they do not know the way. Jesus says he is the way, the truth, and the life. Philip asks to see the Father. Jesus says whoever has seen him has seen the Father. He promises another Counselor, the Spirit of truth. He leaves them his peace.",
+      "limits": "This chapter has no selected place markers. Speech images do not establish an exact teaching location.",
+      "sourceIds": [
+        "web"
+      ]
+    },
+    {
+      "chapter": 15,
+      "focusPlaceIds": [],
+      "placeIds": [],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "This chapter has no selected place markers. Speech images do not establish an exact teaching location.",
+      "narrative": "Jesus says he is the true vine and his Father is the gardener. Branches that bear fruit are pruned to bear more. A branch cannot bear fruit unless it remains in the vine. His disciples must remain in his love. His commandment is that they love one another as he loved them. He calls them friends and not servants. The world will hate them as it hated him. The Spirit and the disciples will bear witness.",
+      "limits": "This chapter has no selected place markers. Speech images do not establish an exact teaching location.",
+      "sourceIds": [
+        "web"
+      ]
+    },
+    {
+      "chapter": 16,
+      "focusPlaceIds": [],
+      "placeIds": [],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "This chapter has no selected place markers. Speech images do not establish an exact teaching location.",
+      "narrative": "Jesus warns that his disciples will be put out of the synagogues. He says it is better for them that he goes away. The Counselor will come and guide them into all truth. They will weep, and their sorrow will turn to joy. He tells them to ask the Father in his name. The disciples say that now they understand and believe. He answers that they will soon be scattered and leave him alone. He tells them to take courage, for he has overcome the world.",
+      "limits": "This chapter has no selected place markers. Speech images do not establish an exact teaching location.",
+      "sourceIds": [
+        "web"
+      ]
+    },
+    {
+      "chapter": 17,
+      "focusPlaceIds": [],
+      "placeIds": [],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "This chapter has no selected place markers. Speech images do not establish an exact teaching location.",
+      "narrative": "Jesus lifts his eyes to heaven and prays. He asks the Father to glorify the Son. He says eternal life is to know the only true God and Jesus Christ. He prays for those the Father gave him. He does not ask that they be taken out of the world. He asks that they be kept from the evil one. He prays also for those who will believe through their word. He asks that they all may be one.",
+      "limits": "This chapter has no selected place markers. Speech images do not establish an exact teaching location.",
+      "sourceIds": [
+        "web"
+      ]
+    },
+    {
+      "chapter": 18,
+      "focusPlaceIds": [
+        "jerusalem",
+        "nazareth"
+      ],
+      "placeIds": [
+        "jerusalem",
+        "nazareth"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Selected markers distinguish events from quoted origins and remembered places. Bethany beyond the Jordan is separate from Bethany near Jerusalem. Exact gardens, pools, houses, and routes remain unassigned.",
+      "narrative": "Jesus goes to a garden across the Kidron, and Judas brings soldiers. Jesus steps forward and says, “I am he.” Peter cuts off a servant’s ear, and Jesus tells him to put away his sword. Jesus is taken to the high priest. Peter denies him three times by a fire. Jesus tells the high priest that he taught openly. He is brought to Pilate, who asks whether he is a king. Jesus says his Kingdom is not of this world.",
+      "limits": "Selected markers distinguish events from quoted origins and remembered places. Bethany beyond the Jordan is separate from Bethany near Jerusalem. Exact gardens, pools, houses, and routes remain unassigned.",
+      "sourceIds": [
+        "web"
+      ]
+    },
+    {
+      "chapter": 19,
+      "focusPlaceIds": [
+        "jerusalem",
+        "nazareth"
+      ],
+      "placeIds": [
+        "jerusalem",
+        "nazareth"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Selected markers distinguish events from quoted origins and remembered places. Bethany beyond the Jordan is separate from Bethany near Jerusalem. Exact gardens, pools, houses, and routes remain unassigned.",
+      "narrative": "Pilate has Jesus flogged, and soldiers crown him with thorns. Pilate says he finds no guilt and brings him out to the crowd. He hands him over to be crucified. The sign on the cross reads “Jesus of Nazareth, the King of the Jews.” Soldiers divide his clothes. Jesus entrusts his mother to the disciple he loves. He says, “It is finished,” and dies. Joseph of Arimathea and Nicodemus bury him in a garden tomb.",
+      "limits": "Selected markers distinguish events from quoted origins and remembered places. Bethany beyond the Jordan is separate from Bethany near Jerusalem. Exact gardens, pools, houses, and routes remain unassigned.",
+      "sourceIds": [
+        "web"
+      ]
+    },
+    {
+      "chapter": 20,
+      "focusPlaceIds": [
+        "jerusalem"
+      ],
+      "placeIds": [
+        "jerusalem"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Selected markers distinguish events from quoted origins and remembered places. Bethany beyond the Jordan is separate from Bethany near Jerusalem. Exact gardens, pools, houses, and routes remain unassigned.",
+      "narrative": "Mary Magdalene finds the tomb open and runs to Peter and another disciple. They see the grave cloths and go home. Mary stays weeping and meets Jesus, whom she takes for the gardener. He says her name, and she knows him. That evening he appears to the disciples behind locked doors. Thomas is absent and says he will not believe without touching the wounds. A week later Jesus invites him to touch. John says he wrote so that readers may believe.",
+      "limits": "Selected markers distinguish events from quoted origins and remembered places. Bethany beyond the Jordan is separate from Bethany near Jerusalem. Exact gardens, pools, houses, and routes remain unassigned.",
+      "sourceIds": [
+        "web"
+      ]
+    },
+    {
+      "chapter": 21,
+      "focusPlaceIds": [
+        "sea-galilee",
+        "galilee",
+        "cana"
+      ],
+      "placeIds": [
+        "sea-galilee",
+        "galilee",
+        "cana"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Selected markers distinguish events from quoted origins and remembered places. Bethany beyond the Jordan is separate from Bethany near Jerusalem. Exact gardens, pools, houses, and routes remain unassigned.",
+      "narrative": "Seven disciples go fishing on the Sea of Tiberias and catch nothing. At dawn a man on the shore tells them to cast on the right side. The net fills, and they know it is the Lord. He gives them bread and fish beside a charcoal fire. He asks Peter three times whether he loves him. Each time he tells him to feed his sheep. Peter asks what will happen to another disciple. Jesus says that is not Peter’s concern.",
+      "limits": "Selected markers distinguish events from quoted origins and remembered places. Bethany beyond the Jordan is separate from Bethany near Jerusalem. Exact gardens, pools, houses, and routes remain unassigned.",
+      "sourceIds": [
+        "web"
+      ]
+    }
+  ],
+  "textRoutes": [],
+  "narrativeRegions": [],
+  "chapterStudies": [
+    {
+      "chapter": 1,
+      "verse": 39,
+      "context": ""
+    },
+    {
+      "chapter": 2,
+      "verse": 22,
+      "context": ""
+    },
+    {
+      "chapter": 3,
+      "verse": 30,
+      "context": ""
+    },
+    {
+      "chapter": 4,
+      "verse": 42,
+      "context": ""
+    },
+    {
+      "chapter": 5,
+      "verse": 7,
+      "context": ""
+    },
+    {
+      "chapter": 6,
+      "verse": 68,
+      "context": ""
+    },
+    {
+      "chapter": 7,
+      "verse": 51,
+      "context": ""
+    },
+    {
+      "chapter": 8,
+      "verse": 40,
+      "context": ""
+    },
+    {
+      "chapter": 9,
+      "verse": 25,
+      "context": ""
+    },
+    {
+      "chapter": 10,
+      "verse": 11,
+      "context": ""
+    },
+    {
+      "chapter": 11,
+      "verse": 50,
+      "context": ""
+    },
+    {
+      "chapter": 12,
+      "verse": 24,
+      "context": ""
+    },
+    {
+      "chapter": 13,
+      "verse": 14,
+      "context": ""
+    },
+    {
+      "chapter": 14,
+      "verse": 26,
+      "context": ""
+    },
+    {
+      "chapter": 15,
+      "verse": 12,
+      "context": ""
+    },
+    {
+      "chapter": 16,
+      "verse": 32,
+      "context": ""
+    },
+    {
+      "chapter": 17,
+      "verse": 21,
+      "context": ""
+    },
+    {
+      "chapter": 18,
+      "verse": 36,
+      "context": ""
+    },
+    {
+      "chapter": 19,
+      "verse": 27,
+      "context": ""
+    },
+    {
+      "chapter": 20,
+      "verse": 31,
+      "context": ""
+    },
+    {
+      "chapter": 21,
+      "verse": 23,
+      "context": ""
+    }
+  ]
+}

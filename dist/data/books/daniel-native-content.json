@@ -1,0 +1,1257 @@
+{
+  "sources": [
+    {
+      "id": "web",
+      "title": "Daniel · World English Bible",
+      "url": "https://ebible.org/engwebp/DAN01.htm",
+      "summary": "Court stories and visions appear in the full reading text.",
+      "category": "Scripture",
+      "perspective": "historical",
+      "limits": "The guide distinguishes named explanations from uncertain details. Darius the Mede is not identified with the Persian ruler in Ezra.",
+      "author": "World English Bible translators",
+      "publisher": "eBible.org",
+      "chapterCoverage": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "reviewed": {
+        "date": "2026-10-07",
+        "scope": "All chapter verse counts checked. Selected anchors and surrounding passages read for twelve original close readings."
+      },
+      "type": "Scripture",
+      "limitations": "The guide distinguishes named explanations from uncertain details. Darius the Mede is not identified with the Persian ruler in Ezra.",
+      "license": "Public domain"
+    },
+    {
+      "id": "nam-daniel-7",
+      "title": "Commentary on Daniel 7:9-10, 13-14",
+      "url": "https://www.workingpreacher.org/commentaries/revised-common-lectionary/christ-the-king-2/commentary-on-daniel-79-10-13-14-4",
+      "summary": "Nam explains the ordered court beside violent beasts and distinguishes later Christian readings.",
+      "category": "Scholarly study",
+      "perspective": "historical",
+      "limits": "This source covers the selected vision. It does not establish dates for every vision in Daniel.",
+      "author": "Roger Nam",
+      "year": 2018,
+      "publisher": "Luther Seminary",
+      "chapterCoverage": [
+        7
+      ],
+      "reviewed": {
+        "date": "2026-10-07",
+        "scope": "Complete commentary body read. Linked commentaries were not reviewed."
+      },
+      "type": "Scholarly study",
+      "limitations": "This source covers the selected vision. It does not establish dates for every vision in Daniel.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "cfm-daniel-2026",
+      "title": "November 9–15: “There Is No Other God That Can Deliver” · Daniel 1–7",
+      "url": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/46?lang=eng",
+      "summary": "The lesson studies faithful choices, prayer, and God’s kingdom.",
+      "category": "LDS Come, Follow Me",
+      "perspective": "lds",
+      "limits": "Its Church applications remain separate from the original passage explanations. The lesson does not cover chapters 8–12.",
+      "author": "The Church of Jesus Christ of Latter-day Saints",
+      "year": 2026,
+      "publisher": "The Church of Jesus Christ of Latter-day Saints",
+      "chapterCoverage": [
+        1,
+        2,
+        3,
+        6,
+        7
+      ],
+      "reviewed": {
+        "date": "2026-10-07",
+        "scope": "Introduction and adult study sections read. Applied notes cover chapters 1–3 and 6–7. Linked resources were not separately reviewed."
+      },
+      "type": "LDS Come, Follow Me",
+      "limitations": "Its Church applications remain separate from the original passage explanations. The lesson does not cover chapters 8–12.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "lds-dc-116",
+      "title": "Doctrine and Covenants 116",
+      "author": "The Church of Jesus Christ of Latter-day Saints",
+      "year": "2013 edition",
+      "category": "LDS scripture",
+      "perspective": "lds",
+      "url": "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/116?lang=eng",
+      "summary": "The section names Adam-ondi-Ahman as the place where the Ancient of Days will sit, as Daniel described.",
+      "reviewed": "2026-10-08: The linked verses were read on the official Church page.",
+      "limits": "This is later Latter-day Saint scripture. It is a Church reading, separate from the Bible passage’s own words.",
+      "license": "Linked official scripture. Original guide summary.",
+      "chapterCoverage": [
+        7
+      ],
+      "type": "LDS scripture",
+      "limitations": "This is later Latter-day Saint scripture. It is a Church reading, separate from the Bible passage’s own words."
+    }
+  ],
+  "passages": [
+    {
+      "id": "daniel-1",
+      "chapter": 1,
+      "start": 1,
+      "end": 21,
+      "title": "A small request within royal control",
+      "summary": "Nebuchadnezzar of Babylon takes Jerusalem and carries off some temple vessels. He orders young men of noble families trained for his court. Daniel and three friends are chosen and given Babylonian names. They are to eat the king’s food and drink his wine. Daniel resolves not to defile himself and asks to be excused. The official fears for his own head. Daniel proposes ten days on vegetables and water. The four look healthier, and God gives them learning and wisdom.",
+      "year": null,
+      "dateLabel": "Book order",
+      "uncertainty": "City markers locate named references. They do not trace the movements of visions.",
+      "placeIds": [
+        "babylon",
+        "jerusalem"
+      ],
+      "sourceIds": [
+        "web"
+      ],
+      "lds": {
+        "text": "The 2026 lesson connects faithful choices with resisting harmful pressures. How does the steward’s risk shape Daniel’s proposed trial?",
+        "sourceIds": [
+          "cfm-daniel-2026"
+        ]
+      },
+      "contextNote": {
+        "title": "A small request within royal control",
+        "text": "The four accept new names, a foreign education, and royal service. Verse 8 shows where Daniel draws his line: the king’s table. He decides in his heart, and then he asks. He does not defy the official. His proposal protects that official too (verses 10–13). The test is short, and its result can be checked. The chapter says three times that “God gave” (verses 2, 9, 17).",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    },
+    {
+      "id": "daniel-2",
+      "chapter": 2,
+      "start": 1,
+      "end": 49,
+      "title": "The threatened servants and the fragile statue",
+      "summary": "The king has a troubling dream and demands that his wise men tell it. They say no one can do this except the gods. He orders all the wise men killed. Daniel asks for time and prays with his friends. God reveals the dream in the night. The king saw a statue of gold, silver, bronze, iron, and clay. A stone cut without hands struck its feet and became a great mountain. Daniel says God will set up a kingdom that will never be destroyed.",
+      "year": null,
+      "dateLabel": "Book order",
+      "uncertainty": "City markers locate named references. They do not trace the movements of visions.",
+      "placeIds": [
+        "babylon"
+      ],
+      "sourceIds": [
+        "web"
+      ],
+      "lds": {
+        "text": "The lesson identifies the Church with the kingdom represented by the stone. This is a later Church application of the vision. Why does Daniel pray with his companions before answering?",
+        "sourceIds": [
+          "cfm-daniel-2026"
+        ]
+      },
+      "contextNote": {
+        "title": "The threatened servants and the fragile statue",
+        "text": "The statue’s metals fall in value from the head to the feet. It ends in iron mixed with brittle clay. Verse 34 says the stone was cut “without hands.” No human power made it. Verse 44 says this kingdom will not pass to another people. That sets it apart from every kingdom in the statue. Daniel’s answer saves the other wise men, and he takes no credit (verses 24, 30).",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    },
+    {
+      "id": "daniel-3",
+      "chapter": 3,
+      "start": 1,
+      "end": 30,
+      "title": "Refusal does not depend on rescue",
+      "summary": "Nebuchadnezzar sets up a huge gold image on a plain. All officials must bow when the music plays, or be thrown into a furnace. Three Jewish officials refuse. The king rages and asks what god can rescue them. They answer that their God is able to save them. Even if he does not, they will not worship the image. They are thrown in, and the king sees four men walking unharmed. He calls them out and praises their God.",
+      "year": null,
+      "dateLabel": "Book order",
+      "uncertainty": "City markers locate named references. They do not trace the movements of visions.",
+      "placeIds": [
+        "babylon"
+      ],
+      "sourceIds": [
+        "web"
+      ],
+      "lds": {
+        "text": "The lesson studies faith that continues even when rescue is uncertain. What makes their refusal independent of rescue?",
+        "sourceIds": [
+          "cfm-daniel-2026"
+        ]
+      },
+      "contextNote": {
+        "title": "Refusal does not depend on rescue",
+        "text": "The king asks in verse 15 what god could rescue them. Their reply has two parts. Verse 17 says their God is able. Verse 18 begins, “But if not.” They do not claim to know what will happen. Their refusal does not depend on being saved. Verse 25 notes that the men walk “loose,” so the fire burned only their ropes.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    },
+    {
+      "id": "daniel-4",
+      "chapter": 4,
+      "start": 1,
+      "end": 37,
+      "title": "The ruler must learn what his power serves",
+      "summary": "King Nebuchadnezzar tells this story himself in a letter to all peoples. He dreamed of a great tree that fed and sheltered every creature. A heavenly watcher ordered it cut down, with its stump left in the ground. Daniel explains that the tree is the king. He will live like an animal until he knows that heaven rules. Daniel urges him to do right and show mercy to the poor. A year later the king boasts about Babylon and loses his mind. When he looks up to heaven, his reason returns.",
+      "year": null,
+      "dateLabel": "Book order",
+      "uncertainty": "City markers locate named references. They do not trace the movements of visions.",
+      "placeIds": [
+        "babylon"
+      ],
+      "sourceIds": [
+        "web"
+      ],
+      "lds": {
+        "text": "How does care for poor people relate to royal power?",
+        "sourceIds": []
+      },
+      "contextNote": {
+        "title": "The ruler must learn what his power serves",
+        "text": "The tree in the dream gave food and shade to all (verse 12). A king’s greatness was meant to shelter others. Daniel’s advice in verse 27 is specific. The king should do what is right and show mercy to the poor. Verse 29 shows he had twelve months to act. Verse 30 gives his boast: “I have built” and “my power.” The story is told in the voice of the king who learned it.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    },
+    {
+      "id": "daniel-5",
+      "chapter": 5,
+      "start": 1,
+      "end": 31,
+      "title": "Stolen vessels expose a ruler's blindness",
+      "summary": "King Belshazzar gives a feast for a thousand nobles. He orders the gold cups from Jerusalem’s temple brought for his guests. They drink and praise gods of gold, silver, wood, and stone. A hand appears and writes on the wall. The king turns pale, and his wise men cannot read it. Daniel is called and refuses the king’s gifts. He reads the words: numbered, weighed, divided. That night Belshazzar is killed.",
+      "year": null,
+      "dateLabel": "Book order",
+      "uncertainty": "City markers locate named references. They do not trace the movements of visions.",
+      "placeIds": [
+        "babylon",
+        "jerusalem"
+      ],
+      "sourceIds": [
+        "web"
+      ],
+      "lds": {
+        "text": "Why does Daniel reject the rewards before explaining the writing?",
+        "sourceIds": []
+      },
+      "contextNote": {
+        "title": "Stolen vessels expose a ruler's blindness",
+        "text": "Daniel refuses the rewards before he reads a word (verse 17). His message is not for sale. Verse 22 says the king knew what happened to Nebuchadnezzar. Knowing the story did not change him. Verse 23 states the charge in two parts. He used holy cups to praise gods that cannot see or hear. He did not honor the God who holds his breath.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    },
+    {
+      "id": "daniel-6",
+      "chapter": 6,
+      "start": 1,
+      "end": 28,
+      "title": "Ordinary prayer becomes a legal trap",
+      "summary": "King Darius appoints officials over the kingdom, and Daniel excels among them. His rivals can find no fault in his work. They persuade the king to ban prayer to anyone but himself for thirty days. Daniel goes home and prays three times a day, as before. The king is distressed and cannot undo his own law. Daniel is thrown to the lions, and the king spends a sleepless night. At dawn Daniel answers that God shut the lions’ mouths. The king orders respect for Daniel’s God.",
+      "year": null,
+      "dateLabel": "Book order",
+      "uncertainty": "City markers locate named references. They do not trace the movements of visions.",
+      "placeIds": [
+        "babylon",
+        "jerusalem"
+      ],
+      "sourceIds": [
+        "web"
+      ],
+      "lds": {
+        "text": "The lesson connects Daniel’s regular prayer with daily faith. How does the prayer ban expose the king’s limits?",
+        "sourceIds": [
+          "cfm-daniel-2026"
+        ]
+      },
+      "contextNote": {
+        "title": "Ordinary prayer becomes a legal trap",
+        "text": "Daniel’s rivals build their trap from his known habit (verse 5). Verse 10 says he prayed “as he did before.” He does not hide, and he does not make a display. He simply continues. The law also traps the king who signed it. Verses 14–15 show the most powerful man in the land unable to help. He can only hope that Daniel’s God will (verse 16).",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    },
+    {
+      "id": "daniel-7",
+      "chapter": 7,
+      "start": 1,
+      "end": 28,
+      "title": "The court limits the beasts' power",
+      "summary": "Daniel dreams of four great beasts rising from a stormy sea. One is like a lion, one like a bear, and one like a leopard. The fourth is terrible, with iron teeth and ten horns. Thrones are set, and the Ancient of Days takes his seat. The court sits, and the books are opened. One like a son of man comes with the clouds and receives a lasting kingdom. An angel explains that the beasts are kingdoms. The holy people of the Most High will receive the kingdom.",
+      "year": null,
+      "dateLabel": "Book order",
+      "uncertainty": "This vision has no mapped locations. Uncertain settings and unseen conflicts remain unmapped.",
+      "placeIds": [],
+      "sourceIds": [
+        "web",
+        "nam-daniel-7"
+      ],
+      "lds": {
+        "text": "The lesson reads the humanlike figure through Jesus Christ. This Christian reading remains separate from the vision’s shared kingdom for the saints. Doctrine and Covenants 116 places the Ancient of Days at Adam-ondi-Ahman. Why does the explanation give the kingdom to the saints?",
+        "sourceIds": [
+          "cfm-daniel-2026",
+          "lds-dc-116"
+        ]
+      },
+      "contextNote": {
+        "title": "The court limits the beasts' power",
+        "text": "The kingdoms in this vision appear as animals. The one who finally rules appears as a human figure. Verse 14 says rule “was given” to him; he does not seize it. Verses 9–10 make the turning point a court, not a battle. Verses 18 and 27 give the same kingdom to God’s holy people. Verse 28 says Daniel remained troubled. Jesus draws on this scene in Mark 14:62.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    },
+    {
+      "id": "daniel-8",
+      "chapter": 8,
+      "start": 1,
+      "end": 27,
+      "title": "Power attacks worship and exhausts the witness",
+      "summary": "Daniel sees a ram with two horns pushing in every direction. A goat comes from the west and breaks the ram. The goat’s great horn is broken, and four grow in its place. A small horn grows and attacks the holy place and its daily offering. A voice asks how long this will last. Gabriel explains that the ram is Media and Persia and the goat is Greece. A fierce king will rise and be broken without human hand. Daniel is sick for days and does not understand.",
+      "year": null,
+      "dateLabel": "Book order",
+      "uncertainty": "This vision has no mapped locations. Uncertain settings and unseen conflicts remain unmapped.",
+      "placeIds": [],
+      "sourceIds": [
+        "web"
+      ],
+      "lds": {
+        "text": "What remains difficult after the animals receive named explanations?",
+        "sourceIds": []
+      },
+      "contextNote": {
+        "title": "Power attacks worship and exhausts the witness",
+        "text": "Gabriel comes close, and Daniel falls on his face in fear (verse 17). The angel then names the kingdoms outright (verses 20–21). That is rare in visions of this kind. Even so, verse 27 says Daniel was ill and did not understand. Named explanations do not remove the weight of what he saw. Verse 25 says the last king is broken “without hand.” The stone of 2:34 was described the same way.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    },
+    {
+      "id": "daniel-9",
+      "chapter": 9,
+      "start": 1,
+      "end": 27,
+      "title": "Confession asks for mercy beyond earned reward",
+      "summary": "Daniel reads in Jeremiah that Jerusalem’s ruin would last seventy years. He turns to God with fasting, sackcloth, and ashes. He confesses that all Israel has sinned and ignored the prophets. God is in the right, and shame belongs to the people. He asks God to turn his anger from Jerusalem. He asks on the ground of mercy and for God’s own name. Gabriel comes while he is still praying. He speaks of seventy weeks set for the people and the holy city.",
+      "year": null,
+      "dateLabel": "Book order",
+      "uncertainty": "City markers locate named references. They do not trace the movements of visions.",
+      "placeIds": [
+        "jerusalem"
+      ],
+      "sourceIds": [
+        "web"
+      ],
+      "lds": {
+        "text": "Why does Daniel appeal to mercy rather than earned reward?",
+        "sourceIds": []
+      },
+      "contextNote": {
+        "title": "Confession asks for mercy beyond earned reward",
+        "text": "Verse 2 shows the prayer beginning from a text, the scroll of Jeremiah. The story has shown Daniel as faithful, yet he says “we” throughout. Verse 18 states his ground plainly. He does not ask because the people deserve it. He asks because God’s mercies are great. Verse 19 adds that the city and people carry God’s name. Readers have understood the seventy weeks of verses 24–27 in very different ways.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    },
+    {
+      "id": "daniel-10",
+      "chapter": 10,
+      "start": 1,
+      "end": 21,
+      "title": "The unseen conflict meets a weakened body",
+      "summary": "In the third year of Cyrus, Daniel mourns for three weeks. Beside the Tigris he sees a man clothed in linen with a face like lightning. His companions run, and Daniel falls weak to the ground. A hand lifts him to his knees. The messenger says Daniel’s words were heard from the first day. The prince of Persia opposed him for twenty-one days until Michael came. Daniel cannot speak or breathe. The messenger touches him again and says, “Peace be to you.”",
+      "year": null,
+      "dateLabel": "Book order",
+      "uncertainty": "This vision has no mapped locations. Uncertain settings and unseen conflicts remain unmapped.",
+      "placeIds": [],
+      "sourceIds": [
+        "web"
+      ],
+      "lds": {
+        "text": "How does the messenger help Daniel’s weakened body?",
+        "sourceIds": []
+      },
+      "contextNote": {
+        "title": "The unseen conflict meets a weakened body",
+        "text": "Daniel mourned and fasted for three full weeks (verses 2–3). Verse 12 says his words were heard on the first day. Verse 13 explains the delay as a conflict he could not see. It lasted twenty-one days, the same three weeks. The wait is not blamed on the one who prayed. The messenger touches him three times (verses 10, 16, 18). Each touch restores a little more of his strength.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    },
+    {
+      "id": "daniel-11",
+      "chapter": 11,
+      "start": 1,
+      "end": 45,
+      "title": "Broken alliances do not stop faithful teaching",
+      "summary": "The messenger describes a long line of kings. A mighty king rises, and his kingdom is divided to the four winds. Kings of the south and north make war and marriage alliances that fail. A hateful ruler gains power by flattery. He attacks the holy covenant and stops the daily offering. Those who know their God stand firm and act. The wise teach many, though some fall by sword and flame. The proud king exalts himself and comes to his end with no one to help.",
+      "year": null,
+      "dateLabel": "Book order",
+      "uncertainty": "This vision has no mapped locations. Uncertain settings and unseen conflicts remain unmapped.",
+      "placeIds": [],
+      "sourceIds": [
+        "web"
+      ],
+      "lds": {
+        "text": "Why does faithful teaching remain important when teachers suffer?",
+        "sourceIds": []
+      },
+      "contextNote": {
+        "title": "Broken alliances do not stop faithful teaching",
+        "text": "Verses 32–33 describe faithful people under a violent ruler. They know their God, stand firm, and teach others. Verse 33 admits that they fall by sword, fire, and prison. Verse 35 gives that suffering a purpose and a limit. It refines them, and it lasts only until the appointed time. Their fall is not counted as failure. The alliances earlier in the chapter all collapse (verses 6 and 17).",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    },
+    {
+      "id": "daniel-12",
+      "chapter": 12,
+      "start": 1,
+      "end": 13,
+      "title": "Hope includes waiting without full understanding",
+      "summary": "The messenger says a time of great trouble is coming. Daniel’s people will be rescued, all whose names are written in the book. Many who sleep in the dust will awake. Some rise to lasting life, and some to shame. The wise will shine like the sky. Daniel is told to seal the book until the time of the end. He hears and does not understand, and he asks about the outcome. He is told to go his way, rest, and rise at the end.",
+      "year": null,
+      "dateLabel": "Book order",
+      "uncertainty": "This vision has no mapped locations. Uncertain settings and unseen conflicts remain unmapped.",
+      "placeIds": [],
+      "sourceIds": [
+        "web"
+      ],
+      "lds": {
+        "text": "What does Daniel receive when full understanding remains unavailable?",
+        "sourceIds": []
+      },
+      "contextNote": {
+        "title": "Hope includes waiting without full understanding",
+        "text": "Verse 2 gives the clearest statement of resurrection in the Old Testament. Verse 3 names those who will shine. They are the wise who turn many to righteousness. These are the teachers of 11:33, some of whom were killed. In verse 8 Daniel says he does not understand and asks more. Verse 9 does not explain. Verse 13 gives him a promise for himself: rest, and a place at the end.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "daniel-1",
+      "chapter": 1,
+      "verse": 1,
+      "eventOrder": 1,
+      "title": "A small request within royal control",
+      "summary": "Nebuchadnezzar of Babylon takes Jerusalem and carries off some temple vessels. He orders young men of noble families trained for his court. Daniel and three friends are chosen and given Babylonian names. They are to eat the king’s food and drink his wine. Daniel resolves not to defile himself and asks to be excused. The official fears for his own head. Daniel proposes ten days on vegetables and water. The four look healthier, and God gives them learning and wisdom.",
+      "detail": "The four accept new names, a foreign education, and royal service. Verse 8 shows where Daniel draws his line: the king’s table. He decides in his heart, and then he asks. He does not defy the official. His proposal protects that official too (verses 10–13). The test is short, and its result can be checked. The chapter says three times that “God gave” (verses 2, 9, 17).",
+      "dateLabel": "Book order",
+      "uncertainty": "City markers locate named references. They do not trace the movements of visions.",
+      "sourceIds": [
+        "web"
+      ],
+      "placeIds": [
+        "babylon",
+        "jerusalem"
+      ],
+      "lds": {
+        "text": "The 2026 lesson connects faithful choices with resisting harmful pressures. How does the steward’s risk shape Daniel’s proposed trial?",
+        "sourceIds": [
+          "cfm-daniel-2026"
+        ]
+      }
+    },
+    {
+      "id": "daniel-2",
+      "chapter": 2,
+      "verse": 1,
+      "eventOrder": 2,
+      "title": "The threatened servants and the fragile statue",
+      "summary": "The king has a troubling dream and demands that his wise men tell it. They say no one can do this except the gods. He orders all the wise men killed. Daniel asks for time and prays with his friends. God reveals the dream in the night. The king saw a statue of gold, silver, bronze, iron, and clay. A stone cut without hands struck its feet and became a great mountain. Daniel says God will set up a kingdom that will never be destroyed.",
+      "detail": "The statue’s metals fall in value from the head to the feet. It ends in iron mixed with brittle clay. Verse 34 says the stone was cut “without hands.” No human power made it. Verse 44 says this kingdom will not pass to another people. That sets it apart from every kingdom in the statue. Daniel’s answer saves the other wise men, and he takes no credit (verses 24, 30).",
+      "dateLabel": "Book order",
+      "uncertainty": "City markers locate named references. They do not trace the movements of visions.",
+      "sourceIds": [
+        "web"
+      ],
+      "placeIds": [
+        "babylon"
+      ],
+      "lds": {
+        "text": "The lesson identifies the Church with the kingdom represented by the stone. This is a later Church application of the vision. Why does Daniel pray with his companions before answering?",
+        "sourceIds": [
+          "cfm-daniel-2026"
+        ]
+      }
+    },
+    {
+      "id": "daniel-3",
+      "chapter": 3,
+      "verse": 1,
+      "eventOrder": 3,
+      "title": "Refusal does not depend on rescue",
+      "summary": "Nebuchadnezzar sets up a huge gold image on a plain. All officials must bow when the music plays, or be thrown into a furnace. Three Jewish officials refuse. The king rages and asks what god can rescue them. They answer that their God is able to save them. Even if he does not, they will not worship the image. They are thrown in, and the king sees four men walking unharmed. He calls them out and praises their God.",
+      "detail": "The king asks in verse 15 what god could rescue them. Their reply has two parts. Verse 17 says their God is able. Verse 18 begins, “But if not.” They do not claim to know what will happen. Their refusal does not depend on being saved. Verse 25 notes that the men walk “loose,” so the fire burned only their ropes.",
+      "dateLabel": "Book order",
+      "uncertainty": "City markers locate named references. They do not trace the movements of visions.",
+      "sourceIds": [
+        "web"
+      ],
+      "placeIds": [
+        "babylon"
+      ],
+      "lds": {
+        "text": "The lesson studies faith that continues even when rescue is uncertain. What makes their refusal independent of rescue?",
+        "sourceIds": [
+          "cfm-daniel-2026"
+        ]
+      }
+    },
+    {
+      "id": "daniel-4",
+      "chapter": 4,
+      "verse": 1,
+      "eventOrder": 4,
+      "title": "The ruler must learn what his power serves",
+      "summary": "King Nebuchadnezzar tells this story himself in a letter to all peoples. He dreamed of a great tree that fed and sheltered every creature. A heavenly watcher ordered it cut down, with its stump left in the ground. Daniel explains that the tree is the king. He will live like an animal until he knows that heaven rules. Daniel urges him to do right and show mercy to the poor. A year later the king boasts about Babylon and loses his mind. When he looks up to heaven, his reason returns.",
+      "detail": "The tree in the dream gave food and shade to all (verse 12). A king’s greatness was meant to shelter others. Daniel’s advice in verse 27 is specific. The king should do what is right and show mercy to the poor. Verse 29 shows he had twelve months to act. Verse 30 gives his boast: “I have built” and “my power.” The story is told in the voice of the king who learned it.",
+      "dateLabel": "Book order",
+      "uncertainty": "City markers locate named references. They do not trace the movements of visions.",
+      "sourceIds": [
+        "web"
+      ],
+      "placeIds": [
+        "babylon"
+      ],
+      "lds": {
+        "text": "How does care for poor people relate to royal power?",
+        "sourceIds": []
+      }
+    },
+    {
+      "id": "daniel-5",
+      "chapter": 5,
+      "verse": 1,
+      "eventOrder": 5,
+      "title": "Stolen vessels expose a ruler's blindness",
+      "summary": "King Belshazzar gives a feast for a thousand nobles. He orders the gold cups from Jerusalem’s temple brought for his guests. They drink and praise gods of gold, silver, wood, and stone. A hand appears and writes on the wall. The king turns pale, and his wise men cannot read it. Daniel is called and refuses the king’s gifts. He reads the words: numbered, weighed, divided. That night Belshazzar is killed.",
+      "detail": "Daniel refuses the rewards before he reads a word (verse 17). His message is not for sale. Verse 22 says the king knew what happened to Nebuchadnezzar. Knowing the story did not change him. Verse 23 states the charge in two parts. He used holy cups to praise gods that cannot see or hear. He did not honor the God who holds his breath.",
+      "dateLabel": "Book order",
+      "uncertainty": "City markers locate named references. They do not trace the movements of visions.",
+      "sourceIds": [
+        "web"
+      ],
+      "placeIds": [
+        "babylon",
+        "jerusalem"
+      ],
+      "lds": {
+        "text": "Why does Daniel reject the rewards before explaining the writing?",
+        "sourceIds": []
+      }
+    },
+    {
+      "id": "daniel-6",
+      "chapter": 6,
+      "verse": 1,
+      "eventOrder": 6,
+      "title": "Ordinary prayer becomes a legal trap",
+      "summary": "King Darius appoints officials over the kingdom, and Daniel excels among them. His rivals can find no fault in his work. They persuade the king to ban prayer to anyone but himself for thirty days. Daniel goes home and prays three times a day, as before. The king is distressed and cannot undo his own law. Daniel is thrown to the lions, and the king spends a sleepless night. At dawn Daniel answers that God shut the lions’ mouths. The king orders respect for Daniel’s God.",
+      "detail": "Daniel’s rivals build their trap from his known habit (verse 5). Verse 10 says he prayed “as he did before.” He does not hide, and he does not make a display. He simply continues. The law also traps the king who signed it. Verses 14–15 show the most powerful man in the land unable to help. He can only hope that Daniel’s God will (verse 16).",
+      "dateLabel": "Book order",
+      "uncertainty": "City markers locate named references. They do not trace the movements of visions.",
+      "sourceIds": [
+        "web"
+      ],
+      "placeIds": [
+        "babylon",
+        "jerusalem"
+      ],
+      "lds": {
+        "text": "The lesson connects Daniel’s regular prayer with daily faith. How does the prayer ban expose the king’s limits?",
+        "sourceIds": [
+          "cfm-daniel-2026"
+        ]
+      }
+    },
+    {
+      "id": "daniel-7",
+      "chapter": 7,
+      "verse": 1,
+      "eventOrder": 7,
+      "title": "The court limits the beasts' power",
+      "summary": "Daniel dreams of four great beasts rising from a stormy sea. One is like a lion, one like a bear, and one like a leopard. The fourth is terrible, with iron teeth and ten horns. Thrones are set, and the Ancient of Days takes his seat. The court sits, and the books are opened. One like a son of man comes with the clouds and receives a lasting kingdom. An angel explains that the beasts are kingdoms. The holy people of the Most High will receive the kingdom.",
+      "detail": "The kingdoms in this vision appear as animals. The one who finally rules appears as a human figure. Verse 14 says rule “was given” to him; he does not seize it. Verses 9–10 make the turning point a court, not a battle. Verses 18 and 27 give the same kingdom to God’s holy people. Verse 28 says Daniel remained troubled. Jesus draws on this scene in Mark 14:62.",
+      "dateLabel": "Book order",
+      "uncertainty": "This vision has no mapped locations. Uncertain settings and unseen conflicts remain unmapped.",
+      "sourceIds": [
+        "web",
+        "nam-daniel-7"
+      ],
+      "placeIds": [],
+      "lds": {
+        "text": "The lesson reads the humanlike figure through Jesus Christ. This Christian reading remains separate from the vision’s shared kingdom for the saints. Doctrine and Covenants 116 places the Ancient of Days at Adam-ondi-Ahman. Why does the explanation give the kingdom to the saints?",
+        "sourceIds": [
+          "cfm-daniel-2026",
+          "lds-dc-116"
+        ]
+      }
+    },
+    {
+      "id": "daniel-8",
+      "chapter": 8,
+      "verse": 1,
+      "eventOrder": 8,
+      "title": "Power attacks worship and exhausts the witness",
+      "summary": "Daniel sees a ram with two horns pushing in every direction. A goat comes from the west and breaks the ram. The goat’s great horn is broken, and four grow in its place. A small horn grows and attacks the holy place and its daily offering. A voice asks how long this will last. Gabriel explains that the ram is Media and Persia and the goat is Greece. A fierce king will rise and be broken without human hand. Daniel is sick for days and does not understand.",
+      "detail": "Gabriel comes close, and Daniel falls on his face in fear (verse 17). The angel then names the kingdoms outright (verses 20–21). That is rare in visions of this kind. Even so, verse 27 says Daniel was ill and did not understand. Named explanations do not remove the weight of what he saw. Verse 25 says the last king is broken “without hand.” The stone of 2:34 was described the same way.",
+      "dateLabel": "Book order",
+      "uncertainty": "This vision has no mapped locations. Uncertain settings and unseen conflicts remain unmapped.",
+      "sourceIds": [
+        "web"
+      ],
+      "placeIds": [],
+      "lds": {
+        "text": "What remains difficult after the animals receive named explanations?",
+        "sourceIds": []
+      }
+    },
+    {
+      "id": "daniel-9",
+      "chapter": 9,
+      "verse": 1,
+      "eventOrder": 9,
+      "title": "Confession asks for mercy beyond earned reward",
+      "summary": "Daniel reads in Jeremiah that Jerusalem’s ruin would last seventy years. He turns to God with fasting, sackcloth, and ashes. He confesses that all Israel has sinned and ignored the prophets. God is in the right, and shame belongs to the people. He asks God to turn his anger from Jerusalem. He asks on the ground of mercy and for God’s own name. Gabriel comes while he is still praying. He speaks of seventy weeks set for the people and the holy city.",
+      "detail": "Verse 2 shows the prayer beginning from a text, the scroll of Jeremiah. The story has shown Daniel as faithful, yet he says “we” throughout. Verse 18 states his ground plainly. He does not ask because the people deserve it. He asks because God’s mercies are great. Verse 19 adds that the city and people carry God’s name. Readers have understood the seventy weeks of verses 24–27 in very different ways.",
+      "dateLabel": "Book order",
+      "uncertainty": "City markers locate named references. They do not trace the movements of visions.",
+      "sourceIds": [
+        "web"
+      ],
+      "placeIds": [
+        "jerusalem"
+      ],
+      "lds": {
+        "text": "Why does Daniel appeal to mercy rather than earned reward?",
+        "sourceIds": []
+      }
+    },
+    {
+      "id": "daniel-10",
+      "chapter": 10,
+      "verse": 1,
+      "eventOrder": 10,
+      "title": "The unseen conflict meets a weakened body",
+      "summary": "In the third year of Cyrus, Daniel mourns for three weeks. Beside the Tigris he sees a man clothed in linen with a face like lightning. His companions run, and Daniel falls weak to the ground. A hand lifts him to his knees. The messenger says Daniel’s words were heard from the first day. The prince of Persia opposed him for twenty-one days until Michael came. Daniel cannot speak or breathe. The messenger touches him again and says, “Peace be to you.”",
+      "detail": "Daniel mourned and fasted for three full weeks (verses 2–3). Verse 12 says his words were heard on the first day. Verse 13 explains the delay as a conflict he could not see. It lasted twenty-one days, the same three weeks. The wait is not blamed on the one who prayed. The messenger touches him three times (verses 10, 16, 18). Each touch restores a little more of his strength.",
+      "dateLabel": "Book order",
+      "uncertainty": "This vision has no mapped locations. Uncertain settings and unseen conflicts remain unmapped.",
+      "sourceIds": [
+        "web"
+      ],
+      "placeIds": [],
+      "lds": {
+        "text": "How does the messenger help Daniel’s weakened body?",
+        "sourceIds": []
+      }
+    },
+    {
+      "id": "daniel-11",
+      "chapter": 11,
+      "verse": 1,
+      "eventOrder": 11,
+      "title": "Broken alliances do not stop faithful teaching",
+      "summary": "The messenger describes a long line of kings. A mighty king rises, and his kingdom is divided to the four winds. Kings of the south and north make war and marriage alliances that fail. A hateful ruler gains power by flattery. He attacks the holy covenant and stops the daily offering. Those who know their God stand firm and act. The wise teach many, though some fall by sword and flame. The proud king exalts himself and comes to his end with no one to help.",
+      "detail": "Verses 32–33 describe faithful people under a violent ruler. They know their God, stand firm, and teach others. Verse 33 admits that they fall by sword, fire, and prison. Verse 35 gives that suffering a purpose and a limit. It refines them, and it lasts only until the appointed time. Their fall is not counted as failure. The alliances earlier in the chapter all collapse (verses 6 and 17).",
+      "dateLabel": "Book order",
+      "uncertainty": "This vision has no mapped locations. Uncertain settings and unseen conflicts remain unmapped.",
+      "sourceIds": [
+        "web"
+      ],
+      "placeIds": [],
+      "lds": {
+        "text": "Why does faithful teaching remain important when teachers suffer?",
+        "sourceIds": []
+      }
+    },
+    {
+      "id": "daniel-12",
+      "chapter": 12,
+      "verse": 1,
+      "eventOrder": 12,
+      "title": "Hope includes waiting without full understanding",
+      "summary": "The messenger says a time of great trouble is coming. Daniel’s people will be rescued, all whose names are written in the book. Many who sleep in the dust will awake. Some rise to lasting life, and some to shame. The wise will shine like the sky. Daniel is told to seal the book until the time of the end. He hears and does not understand, and he asks about the outcome. He is told to go his way, rest, and rise at the end.",
+      "detail": "Verse 2 gives the clearest statement of resurrection in the Old Testament. Verse 3 names those who will shine. They are the wise who turn many to righteousness. These are the teachers of 11:33, some of whom were killed. In verse 8 Daniel says he does not understand and asks more. Verse 9 does not explain. Verse 13 gives him a promise for himself: rest, and a place at the end.",
+      "dateLabel": "Book order",
+      "uncertainty": "This vision has no mapped locations. Uncertain settings and unseen conflicts remain unmapped.",
+      "sourceIds": [
+        "web"
+      ],
+      "placeIds": [],
+      "lds": {
+        "text": "What does Daniel receive when full understanding remains unavailable?",
+        "sourceIds": []
+      }
+    }
+  ],
+  "places": [
+    {
+      "id": "babylon",
+      "name": "Babylon",
+      "lat": 32.54,
+      "lng": 44.42,
+      "summary": "Babylon is the court setting for the opening stories.",
+      "limits": "Approximate city marker. It does not locate a palace room or trace a journey.",
+      "sourceIds": [
+        "web"
+      ],
+      "detail": "Babylon is the court setting for the opening stories.",
+      "uncertainty": "Approximate city marker. It does not locate a palace room or trace a journey.",
+      "chapterLocation": true
+    },
+    {
+      "id": "jerusalem",
+      "name": "Jerusalem",
+      "lat": 31.778,
+      "lng": 35.235,
+      "summary": "Jerusalem is the city remembered through captured vessels and prayer.",
+      "limits": "Approximate city marker. It does not locate a palace room or trace a journey.",
+      "sourceIds": [
+        "web"
+      ],
+      "detail": "Jerusalem is the city remembered through captured vessels and prayer.",
+      "uncertainty": "Approximate city marker. It does not locate a palace room or trace a journey.",
+      "chapterLocation": true
+    }
+  ],
+  "campaigns": [],
+  "ancientRoads": [],
+  "regions": [],
+  "words": [
+    {
+      "id": "glossary-covenant",
+      "label": "Covenant",
+      "matches": [
+        "covenant",
+        "covenants"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A binding agreement with promises and duties. In the Bible, God makes covenants with people.",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    },
+    {
+      "id": "glossary-saints",
+      "label": "Saints",
+      "matches": [
+        "saints"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "People set apart as holy. In the letters the word means the believers in a place.",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    },
+    {
+      "id": "glossary-sackcloth",
+      "label": "Sackcloth",
+      "matches": [
+        "sackcloth"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "Rough cloth worn to show grief or repentance.",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    },
+    {
+      "id": "glossary-anoint",
+      "label": "Anoint",
+      "matches": [
+        "anoint",
+        "anoints",
+        "anointed",
+        "anointing"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "To pour oil on a person or thing to set it apart. Kings and priests were anointed.",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    },
+    {
+      "id": "glossary-eunuch",
+      "label": "Eunuch",
+      "matches": [
+        "eunuch",
+        "eunuchs"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A court official. The word often means a man who was castrated.",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    },
+    {
+      "id": "glossary-concubine",
+      "label": "Concubine",
+      "matches": [
+        "concubine",
+        "concubines"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A woman joined to a man’s household with lower standing than a wife.",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    },
+    {
+      "id": "glossary-cubit",
+      "label": "Cubit",
+      "matches": [
+        "cubit",
+        "cubits"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A length from the elbow to the fingertip, about 46 centimeters.",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    }
+  ],
+  "guides": [
+    {
+      "id": "daniel-context",
+      "title": "Daniel: context and evidence",
+      "description": "Explore the book’s larger concerns through selected passages and relevant evidence.",
+      "steps": [
+        {
+          "title": "Refusal does not depend on rescue",
+          "text": "The king asks in verse 15 what god could rescue them. Their reply has two parts. Verse 17 says their God is able. Verse 18 begins, “But if not.” They do not claim to know what will happen. Their refusal does not depend on being saved. Verse 25 notes that the men walk “loose,” so the fire burned only their ropes.",
+          "chapter": 3,
+          "verse": 18,
+          "sourceIds": [
+            "web"
+          ]
+        },
+        {
+          "title": "The court limits the beasts' power",
+          "text": "The kingdoms in this vision appear as animals. The one who finally rules appears as a human figure. Verse 14 says rule “was given” to him; he does not seize it. Verses 9–10 make the turning point a court, not a battle. Verses 18 and 27 give the same kingdom to God’s holy people. Verse 28 says Daniel remained troubled. Jesus draws on this scene in Mark 14:62.",
+          "chapter": 7,
+          "verse": 14,
+          "sourceIds": [
+            "web"
+          ]
+        },
+        {
+          "title": "Hope includes waiting without full understanding",
+          "text": "Verse 2 gives the clearest statement of resurrection in the Old Testament. Verse 3 names those who will shine. They are the wise who turn many to righteousness. These are the teachers of 11:33, some of whom were killed. In verse 8 Daniel says he does not understand and asks more. Verse 9 does not explain. Verse 13 gives him a promise for himself: rest, and a place at the end.",
+          "chapter": 12,
+          "verse": 3,
+          "sourceIds": [
+            "web"
+          ]
+        }
+      ]
+    }
+  ],
+  "periods": [
+    {
+      "id": "part-0",
+      "label": "Daniel 1–4",
+      "start": 1,
+      "end": 4,
+      "description": "Chapter order"
+    },
+    {
+      "id": "part-1",
+      "label": "Daniel 5–8",
+      "start": 5,
+      "end": 8,
+      "description": "Chapter order"
+    },
+    {
+      "id": "part-2",
+      "label": "Daniel 9–12",
+      "start": 9,
+      "end": 12,
+      "description": "Chapter order"
+    }
+  ],
+  "chapterMaps": [
+    {
+      "chapter": 1,
+      "focusPlaceIds": [
+        "babylon",
+        "jerusalem"
+      ],
+      "placeIds": [
+        "babylon",
+        "jerusalem"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "City markers locate named references. They do not trace the movements of visions.",
+      "narrative": "Nebuchadnezzar of Babylon takes Jerusalem and carries off some temple vessels. He orders young men of noble families trained for his court. Daniel and three friends are chosen and given Babylonian names. They are to eat the king’s food and drink his wine. Daniel resolves not to defile himself and asks to be excused. The official fears for his own head. Daniel proposes ten days on vegetables and water. The four look healthier, and God gives them learning and wisdom.",
+      "limits": "City markers locate named references. They do not trace the movements of visions.",
+      "sourceIds": [
+        "web"
+      ]
+    },
+    {
+      "chapter": 2,
+      "focusPlaceIds": [
+        "babylon"
+      ],
+      "placeIds": [
+        "babylon"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "City markers locate named references. They do not trace the movements of visions.",
+      "narrative": "The king has a troubling dream and demands that his wise men tell it. They say no one can do this except the gods. He orders all the wise men killed. Daniel asks for time and prays with his friends. God reveals the dream in the night. The king saw a statue of gold, silver, bronze, iron, and clay. A stone cut without hands struck its feet and became a great mountain. Daniel says God will set up a kingdom that will never be destroyed.",
+      "limits": "City markers locate named references. They do not trace the movements of visions.",
+      "sourceIds": [
+        "web"
+      ]
+    },
+    {
+      "chapter": 3,
+      "focusPlaceIds": [
+        "babylon"
+      ],
+      "placeIds": [
+        "babylon"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "City markers locate named references. They do not trace the movements of visions.",
+      "narrative": "Nebuchadnezzar sets up a huge gold image on a plain. All officials must bow when the music plays, or be thrown into a furnace. Three Jewish officials refuse. The king rages and asks what god can rescue them. They answer that their God is able to save them. Even if he does not, they will not worship the image. They are thrown in, and the king sees four men walking unharmed. He calls them out and praises their God.",
+      "limits": "City markers locate named references. They do not trace the movements of visions.",
+      "sourceIds": [
+        "web"
+      ]
+    },
+    {
+      "chapter": 4,
+      "focusPlaceIds": [
+        "babylon"
+      ],
+      "placeIds": [
+        "babylon"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "City markers locate named references. They do not trace the movements of visions.",
+      "narrative": "King Nebuchadnezzar tells this story himself in a letter to all peoples. He dreamed of a great tree that fed and sheltered every creature. A heavenly watcher ordered it cut down, with its stump left in the ground. Daniel explains that the tree is the king. He will live like an animal until he knows that heaven rules. Daniel urges him to do right and show mercy to the poor. A year later the king boasts about Babylon and loses his mind. When he looks up to heaven, his reason returns.",
+      "limits": "City markers locate named references. They do not trace the movements of visions.",
+      "sourceIds": [
+        "web"
+      ]
+    },
+    {
+      "chapter": 5,
+      "focusPlaceIds": [
+        "babylon",
+        "jerusalem"
+      ],
+      "placeIds": [
+        "babylon",
+        "jerusalem"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "City markers locate named references. They do not trace the movements of visions.",
+      "narrative": "King Belshazzar gives a feast for a thousand nobles. He orders the gold cups from Jerusalem’s temple brought for his guests. They drink and praise gods of gold, silver, wood, and stone. A hand appears and writes on the wall. The king turns pale, and his wise men cannot read it. Daniel is called and refuses the king’s gifts. He reads the words: numbered, weighed, divided. That night Belshazzar is killed.",
+      "limits": "City markers locate named references. They do not trace the movements of visions.",
+      "sourceIds": [
+        "web"
+      ]
+    },
+    {
+      "chapter": 6,
+      "focusPlaceIds": [
+        "babylon",
+        "jerusalem"
+      ],
+      "placeIds": [
+        "babylon",
+        "jerusalem"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "City markers locate named references. They do not trace the movements of visions.",
+      "narrative": "King Darius appoints officials over the kingdom, and Daniel excels among them. His rivals can find no fault in his work. They persuade the king to ban prayer to anyone but himself for thirty days. Daniel goes home and prays three times a day, as before. The king is distressed and cannot undo his own law. Daniel is thrown to the lions, and the king spends a sleepless night. At dawn Daniel answers that God shut the lions’ mouths. The king orders respect for Daniel’s God.",
+      "limits": "City markers locate named references. They do not trace the movements of visions.",
+      "sourceIds": [
+        "web"
+      ]
+    },
+    {
+      "chapter": 7,
+      "focusPlaceIds": [],
+      "placeIds": [],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "This vision has no mapped locations. Uncertain settings and unseen conflicts remain unmapped.",
+      "narrative": "Daniel dreams of four great beasts rising from a stormy sea. One is like a lion, one like a bear, and one like a leopard. The fourth is terrible, with iron teeth and ten horns. Thrones are set, and the Ancient of Days takes his seat. The court sits, and the books are opened. One like a son of man comes with the clouds and receives a lasting kingdom. An angel explains that the beasts are kingdoms. The holy people of the Most High will receive the kingdom.",
+      "limits": "This vision has no mapped locations. Uncertain settings and unseen conflicts remain unmapped.",
+      "sourceIds": [
+        "web",
+        "nam-daniel-7"
+      ]
+    },
+    {
+      "chapter": 8,
+      "focusPlaceIds": [],
+      "placeIds": [],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "This vision has no mapped locations. Uncertain settings and unseen conflicts remain unmapped.",
+      "narrative": "Daniel sees a ram with two horns pushing in every direction. A goat comes from the west and breaks the ram. The goat’s great horn is broken, and four grow in its place. A small horn grows and attacks the holy place and its daily offering. A voice asks how long this will last. Gabriel explains that the ram is Media and Persia and the goat is Greece. A fierce king will rise and be broken without human hand. Daniel is sick for days and does not understand.",
+      "limits": "This vision has no mapped locations. Uncertain settings and unseen conflicts remain unmapped.",
+      "sourceIds": [
+        "web"
+      ]
+    },
+    {
+      "chapter": 9,
+      "focusPlaceIds": [
+        "jerusalem"
+      ],
+      "placeIds": [
+        "jerusalem"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "City markers locate named references. They do not trace the movements of visions.",
+      "narrative": "Daniel reads in Jeremiah that Jerusalem’s ruin would last seventy years. He turns to God with fasting, sackcloth, and ashes. He confesses that all Israel has sinned and ignored the prophets. God is in the right, and shame belongs to the people. He asks God to turn his anger from Jerusalem. He asks on the ground of mercy and for God’s own name. Gabriel comes while he is still praying. He speaks of seventy weeks set for the people and the holy city.",
+      "limits": "City markers locate named references. They do not trace the movements of visions.",
+      "sourceIds": [
+        "web"
+      ]
+    },
+    {
+      "chapter": 10,
+      "focusPlaceIds": [],
+      "placeIds": [],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "This vision has no mapped locations. Uncertain settings and unseen conflicts remain unmapped.",
+      "narrative": "In the third year of Cyrus, Daniel mourns for three weeks. Beside the Tigris he sees a man clothed in linen with a face like lightning. His companions run, and Daniel falls weak to the ground. A hand lifts him to his knees. The messenger says Daniel’s words were heard from the first day. The prince of Persia opposed him for twenty-one days until Michael came. Daniel cannot speak or breathe. The messenger touches him again and says, “Peace be to you.”",
+      "limits": "This vision has no mapped locations. Uncertain settings and unseen conflicts remain unmapped.",
+      "sourceIds": [
+        "web"
+      ]
+    },
+    {
+      "chapter": 11,
+      "focusPlaceIds": [],
+      "placeIds": [],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "This vision has no mapped locations. Uncertain settings and unseen conflicts remain unmapped.",
+      "narrative": "The messenger describes a long line of kings. A mighty king rises, and his kingdom is divided to the four winds. Kings of the south and north make war and marriage alliances that fail. A hateful ruler gains power by flattery. He attacks the holy covenant and stops the daily offering. Those who know their God stand firm and act. The wise teach many, though some fall by sword and flame. The proud king exalts himself and comes to his end with no one to help.",
+      "limits": "This vision has no mapped locations. Uncertain settings and unseen conflicts remain unmapped.",
+      "sourceIds": [
+        "web"
+      ]
+    },
+    {
+      "chapter": 12,
+      "focusPlaceIds": [],
+      "placeIds": [],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "This vision has no mapped locations. Uncertain settings and unseen conflicts remain unmapped.",
+      "narrative": "The messenger says a time of great trouble is coming. Daniel’s people will be rescued, all whose names are written in the book. Many who sleep in the dust will awake. Some rise to lasting life, and some to shame. The wise will shine like the sky. Daniel is told to seal the book until the time of the end. He hears and does not understand, and he asks about the outcome. He is told to go his way, rest, and rise at the end.",
+      "limits": "This vision has no mapped locations. Uncertain settings and unseen conflicts remain unmapped.",
+      "sourceIds": [
+        "web"
+      ]
+    }
+  ],
+  "textRoutes": [],
+  "narrativeRegions": [],
+  "chapterStudies": [
+    {
+      "chapter": 1,
+      "verse": 8,
+      "context": ""
+    },
+    {
+      "chapter": 2,
+      "verse": 44,
+      "context": ""
+    },
+    {
+      "chapter": 3,
+      "verse": 18,
+      "context": ""
+    },
+    {
+      "chapter": 4,
+      "verse": 27,
+      "context": ""
+    },
+    {
+      "chapter": 5,
+      "verse": 23,
+      "context": ""
+    },
+    {
+      "chapter": 6,
+      "verse": 10,
+      "context": ""
+    },
+    {
+      "chapter": 7,
+      "verse": 14,
+      "context": ""
+    },
+    {
+      "chapter": 8,
+      "verse": 17,
+      "context": ""
+    },
+    {
+      "chapter": 9,
+      "verse": 18,
+      "context": ""
+    },
+    {
+      "chapter": 10,
+      "verse": 13,
+      "context": ""
+    },
+    {
+      "chapter": 11,
+      "verse": 35,
+      "context": ""
+    },
+    {
+      "chapter": 12,
+      "verse": 3,
+      "context": ""
+    }
+  ]
+}

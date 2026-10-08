@@ -1,0 +1,626 @@
+{
+  "sources": [
+    {
+      "id": "web",
+      "title": "1 Peter · World English Bible",
+      "url": "https://ebible.org/engwebp/1PE01.htm",
+      "summary": "Complete Scripture supplies the primary text for original close readings.",
+      "category": "Scripture",
+      "perspective": "historical",
+      "limits": "Peter is the named letter speaker. Historical authorship, dates, Greek forms, manuscripts, exact audience conditions, identity of the imprisoned spirits, and whether Babylon identifies a literal city were not independently verified. No spirit-world or Babylon location is assigned.",
+      "author": "World English Bible translators",
+      "publisher": "eBible.org",
+      "chapterCoverage": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "reviewed": {
+        "date": "2026-10-07",
+        "scope": "All 105 verses read for 5 original contextual explanations and exact selections. Surroundings, counts, and character integrity checked."
+      },
+      "type": "Scripture",
+      "limitations": "Peter is the named letter speaker. Historical authorship, dates, Greek forms, manuscripts, exact audience conditions, identity of the imprisoned spirits, and whether Babylon identifies a literal city were not independently verified. No spirit-world or Babylon location is assigned.",
+      "license": "Public domain"
+    },
+    {
+      "id": "cfm-nt-2023-48",
+      "title": "November 20–26 · First and Second Peter",
+      "url": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-sunday-school-new-testament-2023/48?lang=eng",
+      "author": "The Church of Jesus Christ of Latter-day Saints",
+      "publisher": "The Church of Jesus Christ of Latter-day Saints",
+      "year": 2023,
+      "category": "LDS Come, Follow Me",
+      "perspective": "lds",
+      "summary": "The lesson connects trials, belonging to God, and teaching to the dead.",
+      "limits": "First Peter coverage follows actual discussion of chapters one through four. The spirit-world explanation is Church teaching. The included Christofferson excerpt was read, but the linked full talk, Restoration texts, and Greek meanings were not independently reviewed.",
+      "chapterCoverage": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "reviewed": {
+        "date": "2026-10-07",
+        "scope": "Complete lesson body and included resource quotation read. Only actual First Peter discussion supports these chapter references."
+      },
+      "type": "LDS Come, Follow Me",
+      "limitations": "First Peter coverage follows actual discussion of chapters one through four. The spirit-world explanation is Church teaching. The included Christofferson excerpt was read, but the linked full talk, Restoration texts, and Greek meanings were not independently reviewed.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "brown-peter",
+      "title": "Commentary on 1 Peter 2:19-25",
+      "url": "https://www.workingpreacher.org/commentaries/revised-common-lectionary/fourth-sunday-of-easter/commentary-on-1-peter-219-25-3",
+      "author": "Jeannine K. Brown",
+      "publisher": "Luther Seminary",
+      "year": 2017,
+      "category": "Scholarly study",
+      "perspective": "historical",
+      "summary": "Brown reads direct address to bound workers as giving vulnerable hearers a meaningful role.",
+      "limits": "This is Brown's interpretation. Wider household-code history, Greek analysis, precise audience conditions, and cited books were not independently verified. The actual instructions retain unequal power and do not explicitly abolish the relationship.",
+      "chapterCoverage": [
+        2
+      ],
+      "reviewed": {
+        "date": "2026-10-07",
+        "scope": "Complete commentary body and four notes read. The guide attributes her emphasis on direct address to vulnerable hearers."
+      },
+      "type": "Scholarly study",
+      "limitations": "This is Brown's interpretation. Wider household-code history, Greek analysis, precise audience conditions, and cited books were not independently verified. The actual instructions retain unequal power and do not explicitly abolish the relationship.",
+      "license": "Linked source. Original guide summaries."
+    }
+  ],
+  "passages": [
+    {
+      "id": "1-peter-1",
+      "chapter": 1,
+      "start": 1,
+      "end": 25,
+      "title": "Living hope requires changed conduct and sincere love during present trials",
+      "summary": "Peter writes to chosen exiles in Pontus, Galatia, Cappadocia, Asia, and Bithynia. He blesses God for a living hope through the resurrection of Jesus Christ. An inheritance is kept in heaven for them. For a little while trials grieve them and test their faith like gold. The prophets searched for this salvation. The readers are to be holy, for they were redeemed with Christ’s precious blood. They are to love one another from the heart. They were born again through God’s word, which remains forever.",
+      "year": null,
+      "dateLabel": "Book order",
+      "uncertainty": "No exact location is assigned to unnamed or heavenly settings.",
+      "placeIds": [],
+      "sourceIds": [
+        "web"
+      ],
+      "lds": {
+        "text": "The selected Church lesson connects trials with living hope and belonging to God. Why does a secure inheritance lead into sincere love rather than private confidence alone?",
+        "sourceIds": [
+          "cfm-nt-2023-48"
+        ]
+      },
+      "contextNote": {
+        "title": "Living hope requires changed conduct and sincere love during present trials",
+        "text": "Verses 18–19 say the readers were redeemed with the blood of Christ. Verse 22 says they have purified their souls by obeying the truth. That purifying has an aim stated in the verse: sincere brotherly affection. Then the command follows: love one another from the heart, fervently. Verse 23 gives the ground for it. They were born again of seed that does not perish. Verses 24–25 contrast that with grass, which withers.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    },
+    {
+      "id": "1-peter-2",
+      "chapter": 2,
+      "start": 1,
+      "end": 25,
+      "title": "A shared spiritual house stands beside unequal power and the refusal of revenge",
+      "summary": "Peter tells them to put away malice and to long for pure milk. They come to Christ, a living stone, and are built into a spiritual house. They are a chosen race, a royal priesthood, and a holy nation. They once were not a people and now are God’s people. As foreigners they should live well among the Gentiles. They should be subject to kings and governors for the Lord’s sake. Servants should be subject even to harsh masters. Christ suffered for them and left an example.",
+      "year": null,
+      "dateLabel": "Book order",
+      "uncertainty": "No exact location is assigned to unnamed or heavenly settings.",
+      "placeIds": [],
+      "sourceIds": [
+        "web",
+        "brown-peter"
+      ],
+      "lds": {
+        "text": "The selected Church lesson connects Christ's example with faithful conduct during trials. How does the refusal of revenge place judgment beyond the present power of harsh masters?",
+        "sourceIds": [
+          "cfm-nt-2023-48"
+        ]
+      },
+      "contextNote": {
+        "title": "A shared spiritual house stands beside unequal power and the refusal of revenge",
+        "text": "Verse 18 tells servants to submit even to harsh masters. Verse 20 says there is no credit in bearing a deserved beating. Bearing unjust suffering is what God commends. Verse 21 gives Christ as the example for that case. Verse 23 says what he did not do: he did not curse back or threaten. He entrusted himself to the one who judges justly. Verse 24 adds that he bore our sins in his body on the tree.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    },
+    {
+      "id": "1-peter-3",
+      "chapter": 3,
+      "start": 1,
+      "end": 22,
+      "title": "Shared inheritance and gentle witness frame the argument about suffering and rescue",
+      "summary": "Wives are told to be subject to their husbands and to value a gentle spirit. Husbands are told to honor their wives as joint heirs of life. All should be compassionate and not repay evil for evil. Peter quotes a psalm about seeking peace. If they suffer for righteousness, they are blessed. They should be ready to answer anyone who asks about their hope. Christ suffered once, the righteous for the unrighteous. He spoke to the spirits in prison, and baptism now saves.",
+      "year": null,
+      "dateLabel": "Book order",
+      "uncertainty": "No exact location is assigned to unnamed or heavenly settings.",
+      "placeIds": [],
+      "sourceIds": [
+        "web"
+      ],
+      "lds": {
+        "text": "The selected Church lesson reads the imprisoned spirits through Christ's visit to the spirit world. Why must an answer about hope include humility and a good conscience?",
+        "sourceIds": [
+          "cfm-nt-2023-48"
+        ]
+      },
+      "contextNote": {
+        "title": "Shared inheritance and gentle witness frame the argument about suffering and rescue",
+        "text": "Verse 15 tells them to be ready with an answer about their hope. It adds the manner: with humility and fear. Verse 16 adds a third condition, a good conscience. The reason is practical. They are being spoken against as evildoers. A good way of life disappoints those who curse it. Verse 17 says suffering for doing good is better than for doing evil.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    },
+    {
+      "id": "1-peter-4",
+      "chapter": 4,
+      "start": 1,
+      "end": 19,
+      "title": "Changed conduct needs shared service when former companions respond with insults",
+      "summary": "Peter says Christ suffered in the flesh, and the readers should have the same mind. They have spent enough time in the ways of the Gentiles. Former companions think it strange and speak evil of them. The end of all things is near, so they should be sober and pray. Above all they should love one another earnestly, for love covers many sins. They should be hospitable without grumbling and use their gifts to serve. They should not be surprised at the fiery trial. If anyone suffers as a Christian, he should not be ashamed.",
+      "year": null,
+      "dateLabel": "Book order",
+      "uncertainty": "No exact location is assigned to unnamed or heavenly settings.",
+      "placeIds": [],
+      "sourceIds": [
+        "web"
+      ],
+      "lds": {
+        "text": "The selected Church lesson connects teaching to the dead with God's just judgment. How do hospitality and received gifts make love practical during insult and pressure?",
+        "sourceIds": [
+          "cfm-nt-2023-48"
+        ]
+      },
+      "contextNote": {
+        "title": "Changed conduct needs shared service when former companions respond with insults",
+        "text": "Verse 4 says former companions now speak evil of the readers. The next verses turn to life inside the group. Verse 8 asks for earnest love, and verse 9 for hospitality without grumbling. Verse 10 gives the rule for every member. Each has received a gift and is to use it to serve others. The verse calls them managers of God’s grace, which takes many forms. Verse 11 names two kinds of gift: speaking and serving.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    },
+    {
+      "id": "1-peter-5",
+      "chapter": 5,
+      "start": 1,
+      "end": 14,
+      "title": "Leadership by example and shared humility answer danger without ruling through fear",
+      "summary": "Peter writes to the elders as a fellow elder who saw Christ’s sufferings. They are to shepherd God’s flock willingly, not for gain. They are not to lord it over the flock but to be examples. When the chief Shepherd appears, they will receive a crown of glory. The younger should be subject to the elder, and all should be humble. They should cast their worries on God, who cares for them. The devil prowls like a roaring lion, and they should resist him. Peter writes through Silvanus and sends greetings from Babylon and from Mark.",
+      "year": null,
+      "dateLabel": "Book order",
+      "uncertainty": "No exact location is assigned to unnamed or heavenly settings.",
+      "placeIds": [],
+      "sourceIds": [
+        "web"
+      ],
+      "lds": {
+        "text": "How does the chief Shepherd's promised appearance limit the authority of present leaders?",
+        "sourceIds": []
+      },
+      "contextNote": {
+        "title": "Leadership by example and shared humility answer danger without ruling through fear",
+        "text": "Verse 2 gives three contrasts for elders, and verse 3 is the third. They serve willingly, not under pressure. They serve eagerly, not for dishonest gain. They lead by example, not by lording it over the flock. The flock is called “those entrusted to you,” so it is not theirs. Verse 4 names the chief Shepherd, who will appear. Verse 5 then asks humility of everyone, elders included.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "1-peter-1",
+      "chapter": 1,
+      "verse": 1,
+      "eventOrder": 1,
+      "title": "Living hope requires changed conduct and sincere love during present trials",
+      "summary": "Peter writes to chosen exiles in Pontus, Galatia, Cappadocia, Asia, and Bithynia. He blesses God for a living hope through the resurrection of Jesus Christ. An inheritance is kept in heaven for them. For a little while trials grieve them and test their faith like gold. The prophets searched for this salvation. The readers are to be holy, for they were redeemed with Christ’s precious blood. They are to love one another from the heart. They were born again through God’s word, which remains forever.",
+      "detail": "Verses 18–19 say the readers were redeemed with the blood of Christ. Verse 22 says they have purified their souls by obeying the truth. That purifying has an aim stated in the verse: sincere brotherly affection. Then the command follows: love one another from the heart, fervently. Verse 23 gives the ground for it. They were born again of seed that does not perish. Verses 24–25 contrast that with grass, which withers.",
+      "dateLabel": "Book order",
+      "uncertainty": "No exact location is assigned to unnamed or heavenly settings.",
+      "sourceIds": [
+        "web"
+      ],
+      "placeIds": [],
+      "lds": {
+        "text": "The selected Church lesson connects trials with living hope and belonging to God. Why does a secure inheritance lead into sincere love rather than private confidence alone?",
+        "sourceIds": [
+          "cfm-nt-2023-48"
+        ]
+      }
+    },
+    {
+      "id": "1-peter-2",
+      "chapter": 2,
+      "verse": 1,
+      "eventOrder": 2,
+      "title": "A shared spiritual house stands beside unequal power and the refusal of revenge",
+      "summary": "Peter tells them to put away malice and to long for pure milk. They come to Christ, a living stone, and are built into a spiritual house. They are a chosen race, a royal priesthood, and a holy nation. They once were not a people and now are God’s people. As foreigners they should live well among the Gentiles. They should be subject to kings and governors for the Lord’s sake. Servants should be subject even to harsh masters. Christ suffered for them and left an example.",
+      "detail": "Verse 18 tells servants to submit even to harsh masters. Verse 20 says there is no credit in bearing a deserved beating. Bearing unjust suffering is what God commends. Verse 21 gives Christ as the example for that case. Verse 23 says what he did not do: he did not curse back or threaten. He entrusted himself to the one who judges justly. Verse 24 adds that he bore our sins in his body on the tree.",
+      "dateLabel": "Book order",
+      "uncertainty": "No exact location is assigned to unnamed or heavenly settings.",
+      "sourceIds": [
+        "web",
+        "brown-peter"
+      ],
+      "placeIds": [],
+      "lds": {
+        "text": "The selected Church lesson connects Christ's example with faithful conduct during trials. How does the refusal of revenge place judgment beyond the present power of harsh masters?",
+        "sourceIds": [
+          "cfm-nt-2023-48"
+        ]
+      }
+    },
+    {
+      "id": "1-peter-3",
+      "chapter": 3,
+      "verse": 1,
+      "eventOrder": 3,
+      "title": "Shared inheritance and gentle witness frame the argument about suffering and rescue",
+      "summary": "Wives are told to be subject to their husbands and to value a gentle spirit. Husbands are told to honor their wives as joint heirs of life. All should be compassionate and not repay evil for evil. Peter quotes a psalm about seeking peace. If they suffer for righteousness, they are blessed. They should be ready to answer anyone who asks about their hope. Christ suffered once, the righteous for the unrighteous. He spoke to the spirits in prison, and baptism now saves.",
+      "detail": "Verse 15 tells them to be ready with an answer about their hope. It adds the manner: with humility and fear. Verse 16 adds a third condition, a good conscience. The reason is practical. They are being spoken against as evildoers. A good way of life disappoints those who curse it. Verse 17 says suffering for doing good is better than for doing evil.",
+      "dateLabel": "Book order",
+      "uncertainty": "No exact location is assigned to unnamed or heavenly settings.",
+      "sourceIds": [
+        "web"
+      ],
+      "placeIds": [],
+      "lds": {
+        "text": "The selected Church lesson reads the imprisoned spirits through Christ's visit to the spirit world. Why must an answer about hope include humility and a good conscience?",
+        "sourceIds": [
+          "cfm-nt-2023-48"
+        ]
+      }
+    },
+    {
+      "id": "1-peter-4",
+      "chapter": 4,
+      "verse": 1,
+      "eventOrder": 4,
+      "title": "Changed conduct needs shared service when former companions respond with insults",
+      "summary": "Peter says Christ suffered in the flesh, and the readers should have the same mind. They have spent enough time in the ways of the Gentiles. Former companions think it strange and speak evil of them. The end of all things is near, so they should be sober and pray. Above all they should love one another earnestly, for love covers many sins. They should be hospitable without grumbling and use their gifts to serve. They should not be surprised at the fiery trial. If anyone suffers as a Christian, he should not be ashamed.",
+      "detail": "Verse 4 says former companions now speak evil of the readers. The next verses turn to life inside the group. Verse 8 asks for earnest love, and verse 9 for hospitality without grumbling. Verse 10 gives the rule for every member. Each has received a gift and is to use it to serve others. The verse calls them managers of God’s grace, which takes many forms. Verse 11 names two kinds of gift: speaking and serving.",
+      "dateLabel": "Book order",
+      "uncertainty": "No exact location is assigned to unnamed or heavenly settings.",
+      "sourceIds": [
+        "web"
+      ],
+      "placeIds": [],
+      "lds": {
+        "text": "The selected Church lesson connects teaching to the dead with God's just judgment. How do hospitality and received gifts make love practical during insult and pressure?",
+        "sourceIds": [
+          "cfm-nt-2023-48"
+        ]
+      }
+    },
+    {
+      "id": "1-peter-5",
+      "chapter": 5,
+      "verse": 1,
+      "eventOrder": 5,
+      "title": "Leadership by example and shared humility answer danger without ruling through fear",
+      "summary": "Peter writes to the elders as a fellow elder who saw Christ’s sufferings. They are to shepherd God’s flock willingly, not for gain. They are not to lord it over the flock but to be examples. When the chief Shepherd appears, they will receive a crown of glory. The younger should be subject to the elder, and all should be humble. They should cast their worries on God, who cares for them. The devil prowls like a roaring lion, and they should resist him. Peter writes through Silvanus and sends greetings from Babylon and from Mark.",
+      "detail": "Verse 2 gives three contrasts for elders, and verse 3 is the third. They serve willingly, not under pressure. They serve eagerly, not for dishonest gain. They lead by example, not by lording it over the flock. The flock is called “those entrusted to you,” so it is not theirs. Verse 4 names the chief Shepherd, who will appear. Verse 5 then asks humility of everyone, elders included.",
+      "dateLabel": "Book order",
+      "uncertainty": "No exact location is assigned to unnamed or heavenly settings.",
+      "sourceIds": [
+        "web"
+      ],
+      "placeIds": [],
+      "lds": {
+        "text": "How does the chief Shepherd's promised appearance limit the authority of present leaders?",
+        "sourceIds": []
+      }
+    }
+  ],
+  "places": [],
+  "campaigns": [],
+  "ancientRoads": [],
+  "regions": [],
+  "words": [
+    {
+      "id": "glossary-gentiles",
+      "label": "Gentiles",
+      "matches": [
+        "Gentile",
+        "Gentiles"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "People of nations other than Israel.",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    },
+    {
+      "id": "glossary-apostles",
+      "label": "Apostles",
+      "matches": [
+        "apostle",
+        "apostles"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "People sent out with a message. In the Gospels the word names twelve whom Jesus chose.",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    },
+    {
+      "id": "glossary-redeem",
+      "label": "Redeem",
+      "matches": [
+        "redeem",
+        "redeems",
+        "redeemed",
+        "redeemer",
+        "redemption"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "To buy back a person or property. The word is also used for God’s rescue of people.",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    },
+    {
+      "id": "glossary-zion",
+      "label": "Zion",
+      "matches": [
+        "Zion"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A hill in Jerusalem. The name is also used for the city and its people.",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    },
+    {
+      "id": "glossary-bondservant",
+      "label": "Bondservant",
+      "matches": [
+        "bondservant",
+        "bondservants"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A slave or bound servant.",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    }
+  ],
+  "guides": [
+    {
+      "id": "1-peter-context",
+      "title": "1 Peter: context and evidence",
+      "description": "Explore the book’s larger concerns through selected passages and relevant evidence.",
+      "steps": [
+        {
+          "title": "Living hope requires changed conduct and sincere love during present trials",
+          "text": "Verses 18–19 say the readers were redeemed with the blood of Christ. Verse 22 says they have purified their souls by obeying the truth. That purifying has an aim stated in the verse: sincere brotherly affection. Then the command follows: love one another from the heart, fervently. Verse 23 gives the ground for it. They were born again of seed that does not perish. Verses 24–25 contrast that with grass, which withers.",
+          "chapter": 1,
+          "verse": 22,
+          "sourceIds": [
+            "web"
+          ]
+        },
+        {
+          "title": "A shared spiritual house stands beside unequal power and the refusal of revenge",
+          "text": "Verse 18 tells servants to submit even to harsh masters. Verse 20 says there is no credit in bearing a deserved beating. Bearing unjust suffering is what God commends. Verse 21 gives Christ as the example for that case. Verse 23 says what he did not do: he did not curse back or threaten. He entrusted himself to the one who judges justly. Verse 24 adds that he bore our sins in his body on the tree.",
+          "chapter": 2,
+          "verse": 23,
+          "sourceIds": [
+            "web"
+          ]
+        },
+        {
+          "title": "Shared inheritance and gentle witness frame the argument about suffering and rescue",
+          "text": "Verse 15 tells them to be ready with an answer about their hope. It adds the manner: with humility and fear. Verse 16 adds a third condition, a good conscience. The reason is practical. They are being spoken against as evildoers. A good way of life disappoints those who curse it. Verse 17 says suffering for doing good is better than for doing evil.",
+          "chapter": 3,
+          "verse": 16,
+          "sourceIds": [
+            "web"
+          ]
+        },
+        {
+          "title": "Leadership by example and shared humility answer danger without ruling through fear",
+          "text": "Verse 2 gives three contrasts for elders, and verse 3 is the third. They serve willingly, not under pressure. They serve eagerly, not for dishonest gain. They lead by example, not by lording it over the flock. The flock is called “those entrusted to you,” so it is not theirs. Verse 4 names the chief Shepherd, who will appear. Verse 5 then asks humility of everyone, elders included.",
+          "chapter": 5,
+          "verse": 3,
+          "sourceIds": [
+            "web"
+          ]
+        }
+      ]
+    }
+  ],
+  "periods": [
+    {
+      "id": "part-0",
+      "label": "1 Peter 1–1",
+      "start": 1,
+      "end": 1,
+      "description": "Chapter order"
+    },
+    {
+      "id": "part-1",
+      "label": "1 Peter 2–2",
+      "start": 2,
+      "end": 2,
+      "description": "Chapter order"
+    },
+    {
+      "id": "part-2",
+      "label": "1 Peter 3–5",
+      "start": 3,
+      "end": 5,
+      "description": "Chapter order"
+    }
+  ],
+  "chapterMaps": [
+    {
+      "chapter": 1,
+      "focusPlaceIds": [],
+      "placeIds": [],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "No exact location is assigned to unnamed or heavenly settings.",
+      "narrative": "Peter writes to chosen exiles in Pontus, Galatia, Cappadocia, Asia, and Bithynia. He blesses God for a living hope through the resurrection of Jesus Christ. An inheritance is kept in heaven for them. For a little while trials grieve them and test their faith like gold. The prophets searched for this salvation. The readers are to be holy, for they were redeemed with Christ’s precious blood. They are to love one another from the heart. They were born again through God’s word, which remains forever.",
+      "limits": "No exact location is assigned to unnamed or heavenly settings.",
+      "sourceIds": [
+        "web"
+      ]
+    },
+    {
+      "chapter": 2,
+      "focusPlaceIds": [],
+      "placeIds": [],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "No exact location is assigned to unnamed or heavenly settings.",
+      "narrative": "Peter tells them to put away malice and to long for pure milk. They come to Christ, a living stone, and are built into a spiritual house. They are a chosen race, a royal priesthood, and a holy nation. They once were not a people and now are God’s people. As foreigners they should live well among the Gentiles. They should be subject to kings and governors for the Lord’s sake. Servants should be subject even to harsh masters. Christ suffered for them and left an example.",
+      "limits": "No exact location is assigned to unnamed or heavenly settings.",
+      "sourceIds": [
+        "web",
+        "brown-peter"
+      ]
+    },
+    {
+      "chapter": 3,
+      "focusPlaceIds": [],
+      "placeIds": [],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "No exact location is assigned to unnamed or heavenly settings.",
+      "narrative": "Wives are told to be subject to their husbands and to value a gentle spirit. Husbands are told to honor their wives as joint heirs of life. All should be compassionate and not repay evil for evil. Peter quotes a psalm about seeking peace. If they suffer for righteousness, they are blessed. They should be ready to answer anyone who asks about their hope. Christ suffered once, the righteous for the unrighteous. He spoke to the spirits in prison, and baptism now saves.",
+      "limits": "No exact location is assigned to unnamed or heavenly settings.",
+      "sourceIds": [
+        "web"
+      ]
+    },
+    {
+      "chapter": 4,
+      "focusPlaceIds": [],
+      "placeIds": [],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "No exact location is assigned to unnamed or heavenly settings.",
+      "narrative": "Peter says Christ suffered in the flesh, and the readers should have the same mind. They have spent enough time in the ways of the Gentiles. Former companions think it strange and speak evil of them. The end of all things is near, so they should be sober and pray. Above all they should love one another earnestly, for love covers many sins. They should be hospitable without grumbling and use their gifts to serve. They should not be surprised at the fiery trial. If anyone suffers as a Christian, he should not be ashamed.",
+      "limits": "No exact location is assigned to unnamed or heavenly settings.",
+      "sourceIds": [
+        "web"
+      ]
+    },
+    {
+      "chapter": 5,
+      "focusPlaceIds": [],
+      "placeIds": [],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "No exact location is assigned to unnamed or heavenly settings.",
+      "narrative": "Peter writes to the elders as a fellow elder who saw Christ’s sufferings. They are to shepherd God’s flock willingly, not for gain. They are not to lord it over the flock but to be examples. When the chief Shepherd appears, they will receive a crown of glory. The younger should be subject to the elder, and all should be humble. They should cast their worries on God, who cares for them. The devil prowls like a roaring lion, and they should resist him. Peter writes through Silvanus and sends greetings from Babylon and from Mark.",
+      "limits": "No exact location is assigned to unnamed or heavenly settings.",
+      "sourceIds": [
+        "web"
+      ]
+    }
+  ],
+  "textRoutes": [],
+  "narrativeRegions": [],
+  "chapterStudies": [
+    {
+      "chapter": 1,
+      "verse": 22,
+      "context": ""
+    },
+    {
+      "chapter": 2,
+      "verse": 23,
+      "context": ""
+    },
+    {
+      "chapter": 3,
+      "verse": 16,
+      "context": ""
+    },
+    {
+      "chapter": 4,
+      "verse": 10,
+      "context": ""
+    },
+    {
+      "chapter": 5,
+      "verse": 3,
+      "context": ""
+    }
+  ]
+}

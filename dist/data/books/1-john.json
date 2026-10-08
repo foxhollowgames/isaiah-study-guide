@@ -1,0 +1,799 @@
+{
+  "id": "1-john",
+  "bibleCode": "1JN",
+  "name": "1 John",
+  "description": "Shared witness · honest confession · practical love · careful testing · confidence",
+  "chapterCount": 5,
+  "scripture": {
+    "1": [
+      {
+        "verse": 1,
+        "text": "That which was from the beginning, that which we have heard, that which we have seen with our eyes, that which we saw, and our hands touched, concerning the Word of life"
+      },
+      {
+        "verse": 2,
+        "text": "(and the life was revealed, and we have seen, and testify, and declare to you the life, the eternal life, which was with the Father, and was revealed to us);"
+      },
+      {
+        "verse": 3,
+        "text": "that which we have seen and heard we declare to you, that you also may have fellowship with us. Yes, and our fellowship is with the Father and with his Son, Jesus Christ."
+      },
+      {
+        "verse": 4,
+        "text": "And we write these things to you, that our joy may be fulfilled."
+      },
+      {
+        "verse": 5,
+        "text": "This is the message which we have heard from him and announce to you, that God is light, and in him is no darkness at all."
+      },
+      {
+        "verse": 6,
+        "text": "If we say that we have fellowship with him and walk in the darkness, we lie and don’t tell the truth."
+      },
+      {
+        "verse": 7,
+        "text": "But if we walk in the light as he is in the light, we have fellowship with one another, and the blood of Jesus Christ his Son cleanses us from all sin."
+      },
+      {
+        "verse": 8,
+        "text": "If we say that we have no sin, we deceive ourselves, and the truth is not in us."
+      },
+      {
+        "verse": 9,
+        "text": "If we confess our sins, he is faithful and righteous to forgive us the sins and to cleanse us from all unrighteousness."
+      },
+      {
+        "verse": 10,
+        "text": "If we say that we haven’t sinned, we make him a liar, and his word is not in us."
+      }
+    ],
+    "2": [
+      {
+        "verse": 1,
+        "text": "My little children, I write these things to you so that you may not sin. If anyone sins, we have a Counselor with the Father, Jesus Christ, the righteous."
+      },
+      {
+        "verse": 2,
+        "text": "And he is the atoning sacrifice for our sins, and not for ours only, but also for the whole world."
+      },
+      {
+        "verse": 3,
+        "text": "This is how we know that we know him: if we keep his commandments."
+      },
+      {
+        "verse": 4,
+        "text": "One who says, “I know him,” and doesn’t keep his commandments, is a liar, and the truth isn’t in him."
+      },
+      {
+        "verse": 5,
+        "text": "But God’s love has most certainly been perfected in whoever keeps his word. This is how we know that we are in him:"
+      },
+      {
+        "verse": 6,
+        "text": "he who says he remains in him ought himself also to walk just like he walked."
+      },
+      {
+        "verse": 7,
+        "text": "Brothers, I write no new commandment to you, but an old commandment which you had from the beginning. The old commandment is the word which you heard from the beginning."
+      },
+      {
+        "verse": 8,
+        "text": "Again, I write a new commandment to you, which is true in him and in you, because the darkness is passing away and the true light already shines."
+      },
+      {
+        "verse": 9,
+        "text": "He who says he is in the light and hates his brother is in the darkness even until now."
+      },
+      {
+        "verse": 10,
+        "text": "He who loves his brother remains in the light, and there is no occasion for stumbling in him."
+      },
+      {
+        "verse": 11,
+        "text": "But he who hates his brother is in the darkness, and walks in the darkness, and doesn’t know where he is going, because the darkness has blinded his eyes."
+      },
+      {
+        "verse": 12,
+        "text": "I write to you, little children, because your sins are forgiven you for his name’s sake."
+      },
+      {
+        "verse": 13,
+        "text": "I write to you, fathers, because you know him who is from the beginning. I write to you, young men, because you have overcome the evil one. I write to you, little children, because you know the Father."
+      },
+      {
+        "verse": 14,
+        "text": "I have written to you, fathers, because you know him who is from the beginning. I have written to you, young men, because you are strong, and the word of God remains in you, and you have overcome the evil one."
+      },
+      {
+        "verse": 15,
+        "text": "Don’t love the world or the things that are in the world. If anyone loves the world, the Father’s love isn’t in him."
+      },
+      {
+        "verse": 16,
+        "text": "For all that is in the world—the lust of the flesh, the lust of the eyes, and the pride of life—isn’t the Father’s, but is the world’s."
+      },
+      {
+        "verse": 17,
+        "text": "The world is passing away with its lusts, but he who does God’s will remains forever."
+      },
+      {
+        "verse": 18,
+        "text": "Little children, these are the end times, and as you heard that the Antichrist is coming, even now many antichrists have arisen. By this we know that it is the final hour."
+      },
+      {
+        "verse": 19,
+        "text": "They went out from us, but they didn’t belong to us; for if they had belonged to us, they would have continued with us. But they left, that they might be revealed that none of them belong to us."
+      },
+      {
+        "verse": 20,
+        "text": "You have an anointing from the Holy One, and you all have knowledge."
+      },
+      {
+        "verse": 21,
+        "text": "I have not written to you because you don’t know the truth, but because you know it, and because no lie is of the truth."
+      },
+      {
+        "verse": 22,
+        "text": "Who is the liar but he who denies that Jesus is the Christ? This is the Antichrist, he who denies the Father and the Son."
+      },
+      {
+        "verse": 23,
+        "text": "Whoever denies the Son doesn’t have the Father. He who confesses the Son has the Father also."
+      },
+      {
+        "verse": 24,
+        "text": "Therefore, as for you, let that remain in you which you heard from the beginning. If that which you heard from the beginning remains in you, you also will remain in the Son, and in the Father."
+      },
+      {
+        "verse": 25,
+        "text": "This is the promise which he promised us, the eternal life."
+      },
+      {
+        "verse": 26,
+        "text": "These things I have written to you concerning those who would lead you astray."
+      },
+      {
+        "verse": 27,
+        "text": "As for you, the anointing which you received from him remains in you, and you don’t need for anyone to teach you. But as his anointing teaches you concerning all things, and is true, and is no lie, and even as it taught you, you will remain in him."
+      },
+      {
+        "verse": 28,
+        "text": "Now, little children, remain in him, that when he appears, we may have boldness and not be ashamed before him at his coming."
+      },
+      {
+        "verse": 29,
+        "text": "If you know that he is righteous, you know that everyone who practices righteousness has been born of him."
+      }
+    ],
+    "3": [
+      {
+        "verse": 1,
+        "text": "See how great a love the Father has given to us, that we should be called children of God! For this cause the world doesn’t know us, because it didn’t know him."
+      },
+      {
+        "verse": 2,
+        "text": "Beloved, now we are children of God. It is not yet revealed what we will be; but we know that when he is revealed, we will be like him, for we will see him just as he is."
+      },
+      {
+        "verse": 3,
+        "text": "Everyone who has this hope set on him purifies himself, even as he is pure."
+      },
+      {
+        "verse": 4,
+        "text": "Everyone who sins also commits lawlessness. Sin is lawlessness."
+      },
+      {
+        "verse": 5,
+        "text": "You know that he was revealed to take away our sins, and no sin is in him."
+      },
+      {
+        "verse": 6,
+        "text": "Whoever remains in him doesn’t sin. Whoever sins hasn’t seen him and doesn’t know him."
+      },
+      {
+        "verse": 7,
+        "text": "Little children, let no one lead you astray. He who does righteousness is righteous, even as he is righteous."
+      },
+      {
+        "verse": 8,
+        "text": "He who sins is of the devil, for the devil has been sinning from the beginning. To this end the Son of God was revealed: that he might destroy the works of the devil."
+      },
+      {
+        "verse": 9,
+        "text": "Whoever is born of God doesn’t commit sin, because his seed remains in him, and he can’t sin, because he is born of God."
+      },
+      {
+        "verse": 10,
+        "text": "In this the children of God are revealed, and the children of the devil. Whoever doesn’t do righteousness is not of God, neither is he who doesn’t love his brother."
+      },
+      {
+        "verse": 11,
+        "text": "For this is the message which you heard from the beginning, that we should love one another—"
+      },
+      {
+        "verse": 12,
+        "text": "unlike Cain, who was of the evil one and killed his brother. Why did he kill him? Because his deeds were evil, and his brother’s righteous."
+      },
+      {
+        "verse": 13,
+        "text": "Don’t be surprised, my brothers, if the world hates you."
+      },
+      {
+        "verse": 14,
+        "text": "We know that we have passed out of death into life, because we love the brothers. He who doesn’t love his brother remains in death."
+      },
+      {
+        "verse": 15,
+        "text": "Whoever hates his brother is a murderer, and you know that no murderer has eternal life remaining in him."
+      },
+      {
+        "verse": 16,
+        "text": "By this we know love, because he laid down his life for us. And we ought to lay down our lives for the brothers."
+      },
+      {
+        "verse": 17,
+        "text": "But whoever has the world’s goods and sees his brother in need, then closes his heart of compassion against him, how does God’s love remain in him?"
+      },
+      {
+        "verse": 18,
+        "text": "My little children, let’s not love in word only, or with the tongue only, but in deed and truth."
+      },
+      {
+        "verse": 19,
+        "text": "And by this we know that we are of the truth and persuade our hearts before him,"
+      },
+      {
+        "verse": 20,
+        "text": "because if our heart condemns us, God is greater than our heart, and knows all things."
+      },
+      {
+        "verse": 21,
+        "text": "Beloved, if our hearts don’t condemn us, we have boldness toward God;"
+      },
+      {
+        "verse": 22,
+        "text": "so whatever we ask, we receive from him, because we keep his commandments and do the things that are pleasing in his sight."
+      },
+      {
+        "verse": 23,
+        "text": "This is his commandment, that we should believe in the name of his Son, Jesus Christ, and love one another, even as he commanded."
+      },
+      {
+        "verse": 24,
+        "text": "He who keeps his commandments remains in him, and he in him. By this we know that he remains in us, by the Spirit which he gave us."
+      }
+    ],
+    "4": [
+      {
+        "verse": 1,
+        "text": "Beloved, don’t believe every spirit, but test the spirits, whether they are of God, because many false prophets have gone out into the world."
+      },
+      {
+        "verse": 2,
+        "text": "By this you know the Spirit of God: every spirit who confesses that Jesus Christ has come in the flesh is of God,"
+      },
+      {
+        "verse": 3,
+        "text": "and every spirit who doesn’t confess that Jesus Christ has come in the flesh is not of God; and this is the spirit of the Antichrist, of whom you have heard that it comes. Now it is in the world already."
+      },
+      {
+        "verse": 4,
+        "text": "You are of God, little children, and have overcome them, because greater is he who is in you than he who is in the world."
+      },
+      {
+        "verse": 5,
+        "text": "They are of the world. Therefore they speak of the world, and the world hears them."
+      },
+      {
+        "verse": 6,
+        "text": "We are of God. He who knows God listens to us. He who is not of God doesn’t listen to us. By this we know the spirit of truth, and the spirit of error."
+      },
+      {
+        "verse": 7,
+        "text": "Beloved, let’s love one another, for love is of God; and everyone who loves has been born of God and knows God."
+      },
+      {
+        "verse": 8,
+        "text": "He who doesn’t love doesn’t know God, for God is love."
+      },
+      {
+        "verse": 9,
+        "text": "By this God’s love was revealed in us, that God has sent his only born Son into the world that we might live through him."
+      },
+      {
+        "verse": 10,
+        "text": "In this is love, not that we loved God, but that he loved us, and sent his Son as the atoning sacrifice for our sins."
+      },
+      {
+        "verse": 11,
+        "text": "Beloved, if God loved us in this way, we also ought to love one another."
+      },
+      {
+        "verse": 12,
+        "text": "No one has seen God at any time. If we love one another, God remains in us, and his love has been perfected in us."
+      },
+      {
+        "verse": 13,
+        "text": "By this we know that we remain in him and he in us, because he has given us of his Spirit."
+      },
+      {
+        "verse": 14,
+        "text": "We have seen and testify that the Father has sent the Son as the Savior of the world."
+      },
+      {
+        "verse": 15,
+        "text": "Whoever confesses that Jesus is the Son of God, God remains in him, and he in God."
+      },
+      {
+        "verse": 16,
+        "text": "We know and have believed the love which God has for us. God is love, and he who remains in love remains in God, and God remains in him."
+      },
+      {
+        "verse": 17,
+        "text": "In this, love has been made perfect among us, that we may have boldness in the day of judgment, because as he is, even so we are in this world."
+      },
+      {
+        "verse": 18,
+        "text": "There is no fear in love; but perfect love casts out fear, because fear has punishment. He who fears is not made perfect in love."
+      },
+      {
+        "verse": 19,
+        "text": "We love him, because he first loved us."
+      },
+      {
+        "verse": 20,
+        "text": "If a man says, “I love God,” and hates his brother, he is a liar; for he who doesn’t love his brother whom he has seen, how can he love God whom he has not seen?"
+      },
+      {
+        "verse": 21,
+        "text": "This commandment we have from him, that he who loves God should also love his brother."
+      }
+    ],
+    "5": [
+      {
+        "verse": 1,
+        "text": "Whoever believes that Jesus is the Christ has been born of God. Whoever loves the Father also loves the child who is born of him."
+      },
+      {
+        "verse": 2,
+        "text": "By this we know that we love the children of God, when we love God and keep his commandments."
+      },
+      {
+        "verse": 3,
+        "text": "For this is loving God, that we keep his commandments. His commandments are not grievous."
+      },
+      {
+        "verse": 4,
+        "text": "For whatever is born of God overcomes the world. This is the victory that has overcome the world: your faith."
+      },
+      {
+        "verse": 5,
+        "text": "Who is he who overcomes the world, but he who believes that Jesus is the Son of God?"
+      },
+      {
+        "verse": 6,
+        "text": "This is he who came by water and blood, Jesus Christ; not with the water only, but with the water and the blood. It is the Spirit who testifies, because the Spirit is the truth."
+      },
+      {
+        "verse": 7,
+        "text": "For there are three who testify:"
+      },
+      {
+        "verse": 8,
+        "text": "the Spirit, the water, and the blood; and the three agree as one."
+      },
+      {
+        "verse": 9,
+        "text": "If we receive the witness of men, the witness of God is greater; for this is God’s testimony which he has testified concerning his Son."
+      },
+      {
+        "verse": 10,
+        "text": "He who believes in the Son of God has the testimony in himself. He who doesn’t believe God has made him a liar, because he has not believed in the testimony that God has given concerning his Son."
+      },
+      {
+        "verse": 11,
+        "text": "The testimony is this: that God gave to us eternal life, and this life is in his Son."
+      },
+      {
+        "verse": 12,
+        "text": "He who has the Son has the life. He who doesn’t have God’s Son doesn’t have the life."
+      },
+      {
+        "verse": 13,
+        "text": "These things I have written to you who believe in the name of the Son of God, that you may know that you have eternal life, and that you may continue to believe in the name of the Son of God."
+      },
+      {
+        "verse": 14,
+        "text": "This is the boldness which we have toward him, that if we ask anything according to his will, he listens to us."
+      },
+      {
+        "verse": 15,
+        "text": "And if we know that he listens to us, whatever we ask, we know that we have the petitions which we have asked of him."
+      },
+      {
+        "verse": 16,
+        "text": "If anyone sees his brother sinning a sin not leading to death, he shall ask, and God will give him life for those who sin not leading to death. There is sin leading to death. I don’t say that he should make a request concerning this."
+      },
+      {
+        "verse": 17,
+        "text": "All unrighteousness is sin, and there is sin not leading to death."
+      },
+      {
+        "verse": 18,
+        "text": "We know that whoever is born of God doesn’t sin, but he who was born of God keeps himself, and the evil one doesn’t touch him."
+      },
+      {
+        "verse": 19,
+        "text": "We know that we are of God, and the whole world lies in the power of the evil one."
+      },
+      {
+        "verse": 20,
+        "text": "We know that the Son of God has come and has given us an understanding, that we know him who is true; and we are in him who is true, in his Son Jesus Christ. This is the true God and eternal life."
+      },
+      {
+        "verse": 21,
+        "text": "Little children, keep yourselves from idols."
+      }
+    ]
+  },
+  "chapters": [
+    {
+      "chapter": 1,
+      "title": "Shared witness and honest confession make fellowship more than a claim",
+      "summary": "The writer announces what he has heard, seen, and touched: the Word of life. He writes so readers may share fellowship with the Father and the Son. God is light, and in him is no darkness. Anyone who claims fellowship and walks in darkness lies. If we walk in the light, Jesus’ blood cleanses us from all sin. If we say we have no sin, we deceive ourselves. If we confess our sins, he is faithful to forgive.",
+      "meaning": "Verse 5 gives the message: God is light. Verses 6–10 are five sentences that each begin with “if.” Verse 6 rejects a claim of fellowship made by one who walks in darkness. Verse 7 gives the true case, with two results. Those who walk in the light have fellowship with one another. The blood of Jesus also cleanses them from all sin. So walking in the light does not mean having no sin (verses 8–9).",
+      "people": [
+        "jesus"
+      ],
+      "places": [],
+      "sourceIds": [
+        "web"
+      ],
+      "lds": {
+        "text": "The selected Church lesson connects God's light and love with the conduct described here. Why does honest confession belong within walking in light?",
+        "sourceIds": [
+          "cfm-nt-2023-49"
+        ]
+      },
+      "eventOrder": 1,
+      "dateLabel": "Book order",
+      "historicalNote": "The opening joins heard words with sight and touch to describe the received witness. Its stated purpose is shared fellowship with the Father and Son rather than private knowledge. The light comparison then tests that fellowship through the direction of actual conduct. Claims to fellowship fail when conduct remains in darkness or speech denies the truth. Yet walking in light does not mean claiming that sin has never occurred. Honest confession belongs beside cleansing, so denial of failure contradicts the very truth being received.",
+      "mapNote": "No exact location is assigned to unnamed or heavenly settings.",
+      "route": [],
+      "routeEvidence": "No exact travel route is reconstructed.",
+      "contextNote": {
+        "title": "Shared witness and honest confession make fellowship more than a claim",
+        "text": "Verse 5 gives the message: God is light. Verses 6–10 are five sentences that each begin with “if.” Verse 6 rejects a claim of fellowship made by one who walks in darkness. Verse 7 gives the true case, with two results. Those who walk in the light have fellowship with one another. The blood of Jesus also cleanses them from all sin. So walking in the light does not mean having no sin (verses 8–9).",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    },
+    {
+      "chapter": 2,
+      "title": "Remaining in the received message requires love amid denial and departure",
+      "summary": "The writer says he writes so that they will not sin. If anyone sins, Jesus Christ the righteous is an advocate with the Father. Those who know him keep his commandments. The command to love is both old and new. Whoever hates his brother is in darkness. He writes to children, fathers, and young men. They must not love the world, which is passing away. Antichrists have gone out, and the readers should remain in what they heard.",
+      "meaning": "Verse 9 tests a claim to be in the light while hating a brother. The verse says he is still in darkness. Verse 10 gives the opposite case. One who loves his brother remains in the light. Nothing in him causes stumbling. Verse 11 says the hater walks in darkness and cannot see his way. So light and darkness are told apart by conduct toward a brother.",
+      "people": [
+        "jesus"
+      ],
+      "places": [],
+      "sourceIds": [
+        "web"
+      ],
+      "lds": {
+        "text": "The selected Church lesson connects God's light and love with the conduct described here. How does love for a visible brother test a claim about knowing Christ?",
+        "sourceIds": [
+          "cfm-nt-2023-49"
+        ]
+      },
+      "eventOrder": 2,
+      "dateLabel": "Book order",
+      "historicalNote": "The promise of a Counselor addresses failure without making wrongdoing the aim of the letter. Knowing Christ must become obedience, while love for a brother tests claims about light. The repeated addresses remind different hearers that forgiveness and strength already belong to them. Desire and pride cannot supply lasting security because the world they pursue is passing away. Departures then introduce a conflict about confessing Jesus as the Christ and acknowledging the Son. The warning calls hearers to retain the received message without identifying a modern opponent.",
+      "mapNote": "No exact location is assigned to unnamed or heavenly settings.",
+      "route": [],
+      "routeEvidence": "No exact travel route is reconstructed.",
+      "contextNote": {
+        "title": "Remaining in the received message requires love amid denial and departure",
+        "text": "Verse 9 tests a claim to be in the light while hating a brother. The verse says he is still in darkness. Verse 10 gives the opposite case. One who loves his brother remains in the light. Nothing in him causes stumbling. Verse 11 says the hater walks in darkness and cannot see his way. So light and darkness are told apart by conduct toward a brother.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    },
+    {
+      "chapter": 3,
+      "title": "Love takes visible form through shared goods rather than claims of belonging alone",
+      "summary": "The writer marvels that believers are called children of God. When Christ appears, they will be like him. Whoever remains in him does not keep on sinning. The message from the beginning is to love one another. Cain killed his brother, and whoever hates is a murderer. Christ laid down his life, and they should lay down theirs for the brothers. One who has goods and shuts out a needy brother lacks God’s love. God’s command is to believe in his Son and love one another.",
+      "meaning": "Verse 16 defines love by an act: Christ laid down his life for us. Verse 17 brings it down to an ordinary case. Someone has the world’s goods and sees a brother in need. If he closes his heart, how does God’s love remain in him? Verse 18 draws the rule. Love is not in word or tongue only; it is in deed and truth. Verse 19 says this is how they know they are of the truth.",
+      "people": [
+        "jesus",
+        "cain"
+      ],
+      "places": [],
+      "sourceIds": [
+        "web",
+        "ok-john"
+      ],
+      "lds": {
+        "text": "The selected Church lesson connects God's light and love with the conduct described here. How can shared goods give visible form to love?",
+        "sourceIds": [
+          "cfm-nt-2023-49"
+        ]
+      },
+      "eventOrder": 3,
+      "dateLabel": "Book order",
+      "historicalNote": "Being called God's children introduces hope that leads into purification and righteous conduct. The strong statements against sin must be read beside the earlier instructions about confession. Cain's killing supplies the negative comparison, while Christ's surrendered life shows the shape of love. The question about withheld goods then tests that love through a visible brother's actual need. Ok reads such care as love made practical through attention to material need. The ending joins confidence before God with belief, love, and the Spirit's presence.",
+      "mapNote": "No exact location is assigned to unnamed or heavenly settings.",
+      "route": [],
+      "routeEvidence": "No exact travel route is reconstructed.",
+      "contextNote": {
+        "title": "Love takes visible form through shared goods rather than claims of belonging alone",
+        "text": "Verse 16 defines love by an act: Christ laid down his life for us. Verse 17 brings it down to an ordinary case. Someone has the world’s goods and sees a brother in need. If he closes his heart, how does God’s love remain in him? Verse 18 draws the rule. Love is not in word or tongue only; it is in deed and truth. Verse 19 says this is how they know they are of the truth.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    },
+    {
+      "chapter": 4,
+      "title": "Confession and visible love test claims about the unseen God",
+      "summary": "The writer tells them to test the spirits. Every spirit that confesses Jesus Christ come in the flesh is of God. They should love one another, for love is of God. God showed his love by sending his only Son so that they might live. No one has seen God at any time. If they love one another, God remains in them. God is love, and perfect love casts out fear. We love because he first loved us.",
+      "meaning": "Verse 12 says no one has seen God at any time. That makes a claim to love God hard to check. Verse 20 supplies the check. A brother can be seen. One who does not love a seen brother cannot love the unseen God. A man who says he loves God and hates his brother lies. Verse 21 makes it a command: love God, and love a brother also.",
+      "people": [
+        "jesus"
+      ],
+      "places": [],
+      "sourceIds": [
+        "web"
+      ],
+      "lds": {
+        "text": "The selected Church lesson connects God's light and love with the conduct described here. Why does hatred toward a brother contradict professed love for God?",
+        "sourceIds": [
+          "cfm-nt-2023-49"
+        ]
+      },
+      "eventOrder": 4,
+      "dateLabel": "Book order",
+      "historicalNote": "The instruction to test spirits makes confession of Christ's coming in flesh a decisive test. Claims to spiritual authority therefore require examination rather than acceptance through force or popularity. The account of God's prior love supplies the reason for loving one another. Love then gives visible form to belonging even though God remains unseen. Fear of punishment differs from the confidence that perfected love supplies before judgment. The question exposes the contradiction between professed love for God and hatred toward a brother.",
+      "mapNote": "No exact location is assigned to unnamed or heavenly settings.",
+      "route": [],
+      "routeEvidence": "No exact travel route is reconstructed.",
+      "contextNote": {
+        "title": "Confession and visible love test claims about the unseen God",
+        "text": "Verse 12 says no one has seen God at any time. That makes a claim to love God hard to check. Verse 20 supplies the check. A brother can be seen. One who does not love a seen brother cannot love the unseen God. A man who says he loves God and hates his brother lies. Verse 21 makes it a command: love God, and love a brother also.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    },
+    {
+      "chapter": 5,
+      "title": "Shared testimony supports confidence while prayer remains directed by God's will",
+      "summary": "The writer says whoever believes that Jesus is the Christ is born of God. Loving God means keeping his commandments, and they are not heavy. Faith is the victory that overcomes the world. Jesus Christ came by water and blood, and the Spirit testifies. God has given eternal life, and this life is in his Son. The writer wants believers to know that they have eternal life. They may ask according to God’s will and be heard. He ends by telling the little children to keep themselves from idols.",
+      "meaning": "Verse 13 gives the writer’s purpose: that believers know they have eternal life. Verse 14 names what follows from that knowledge: boldness toward God. The boldness is about prayer. The verse sets one condition: asking “according to his will.” Under that condition, he listens. Verse 15 adds that if he listens, they have what they asked. Verse 16 gives a first use: asking life for a brother who sins.",
+      "people": [
+        "jesus"
+      ],
+      "places": [],
+      "sourceIds": [
+        "web"
+      ],
+      "lds": {
+        "text": "The selected Church lesson connects God's light and love with the conduct described here. How does asking according to God's will shape confidence in prayer?",
+        "sourceIds": [
+          "cfm-nt-2023-49"
+        ]
+      },
+      "eventOrder": 5,
+      "dateLabel": "Book order",
+      "historicalNote": "Faith, love, and obedience appear together because loving the Father includes loving his children. The water, blood, and Spirit supply agreeing testimony about the Son rather than isolated claims. The stated purpose is confidence in received life, not anxiety about an undisclosed hidden test. Prayer follows that confidence but remains directed by God's will rather than unlimited personal desire. The distinction between sins leading toward death remains difficult and receives no complete list here. The warning about idols protects the letter's account of understanding and life in the Son.",
+      "mapNote": "No exact location is assigned to unnamed or heavenly settings.",
+      "route": [],
+      "routeEvidence": "No exact travel route is reconstructed.",
+      "contextNote": {
+        "title": "Shared testimony supports confidence while prayer remains directed by God's will",
+        "text": "Verse 13 gives the writer’s purpose: that believers know they have eternal life. Verse 14 names what follows from that knowledge: boldness toward God. The boldness is about prayer. The verse sets one condition: asking “according to his will.” Under that condition, he listens. Verse 15 adds that if he listens, they have what they asked. Verse 16 gives a first use: asking life for a brother who sins.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    }
+  ],
+  "people": [
+    {
+      "id": "jesus",
+      "name": "Jesus Christ",
+      "role": "Son whose revealed life supplies the message, cleansing, and example of love",
+      "relations": "The unnamed speaker connects fellowship with the Father and his Son.",
+      "passages": "First John 1–5",
+      "meaning": "Confession about him must become conduct shaped by his love.",
+      "life": "Birth and death years are not securely known.",
+      "sourceIds": [
+        "web"
+      ],
+      "placeIds": [],
+      "linkNames": [
+        "Jesus",
+        "Christ"
+      ],
+      "verseScope": {}
+    },
+    {
+      "id": "cain",
+      "name": "Cain",
+      "role": "Brother recalled through killing as the opposite of love",
+      "relations": "The letter contrasts his evil deeds with his brother's righteous deeds.",
+      "passages": "First John 3:12",
+      "meaning": "His recalled act makes hatred incompatible with the claimed passage from death into life.",
+      "life": "Birth and death years are not securely known.",
+      "sourceIds": [
+        "web"
+      ],
+      "placeIds": [],
+      "linkNames": [
+        "Cain"
+      ],
+      "verseScope": {}
+    }
+  ],
+  "places": [],
+  "sources": [
+    {
+      "id": "web",
+      "title": "1 John · World English Bible",
+      "url": "https://ebible.org/engwebp/1JN01.htm",
+      "summary": "Complete Scripture supplies the primary text for original close readings.",
+      "category": "Scripture",
+      "perspective": "historical",
+      "limits": "The speaker is unnamed. Historical authorship, dates, Greek forms, manuscripts, exact audience conditions, and the identity of departed opponents were not independently verified. No city or modern opponent is assigned.",
+      "author": "World English Bible translators",
+      "publisher": "eBible.org",
+      "chapterCoverage": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "reviewed": {
+        "date": "2026-10-07",
+        "scope": "All 105 verses read for 5 original contextual explanations and exact selections. Surroundings, counts, and character integrity checked."
+      }
+    },
+    {
+      "id": "cfm-nt-2023-49",
+      "title": "November 27–December 3 · First–Third John and Jude",
+      "url": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-sunday-school-new-testament-2023/49?lang=eng",
+      "author": "The Church of Jesus Christ of Latter-day Saints",
+      "publisher": "The Church of Jesus Christ of Latter-day Saints",
+      "year": 2023,
+      "category": "LDS Come, Follow Me",
+      "perspective": "lds",
+      "summary": "The lesson connects God's light and love with conduct and remaining in Christ's teaching.",
+      "limits": "First John coverage follows actual discussion in all five chapters. Linked Restoration texts, hymns, and reference entries were not independently reviewed. The lesson's apostasy application remains Church teaching.",
+      "chapterCoverage": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "reviewed": {
+        "date": "2026-10-07",
+        "scope": "Complete lesson body and resource list read. References follow actual discussion rather than the broad lesson title."
+      }
+    },
+    {
+      "id": "ok-john",
+      "title": "Commentary on 1 John 3:16-24",
+      "url": "https://www.workingpreacher.org/commentaries/revised-common-lectionary/fourth-sunday-of-easter-2/commentary-on-1-john-316-24-6",
+      "author": "Janette H. Ok",
+      "publisher": "Luther Seminary",
+      "year": 2024,
+      "category": "Scholarly study",
+      "perspective": "historical",
+      "summary": "Ok connects practical love with attention to fellow believers' material needs.",
+      "limits": "This is Ok's interpretation. Greek word analysis, wider claims about unique wording, and modern examples were not independently verified. The guide does not reconstruct exact audience conditions.",
+      "chapterCoverage": [
+        3
+      ],
+      "reviewed": {
+        "date": "2026-10-07",
+        "scope": "Complete commentary body read. The guide attributes her connection between practical love and attention to material need."
+      }
+    }
+  ],
+  "review": {
+    "date": "2026-10-07",
+    "contextReviewDate": "2026-10-07",
+    "copyReviewDate": "2026-10-07",
+    "scope": "All 105 verses read for five original contextual explanations and exact selections. Two selected named profiles reuse inspected artwork. Unnamed participants have no invented personal identities. No specific setting is assigned. Ok's reading remains attributed. Church teaching remains distinct from the original close readings.",
+    "nextBook": "2-john",
+    "copyReview": "2026-10-07: Reader copy reviewed against WRITING-GUIDE.md. Scripture and source titles preserved.",
+    "sourcePolicy": "BIBLE-SOURCE-POLICY.md",
+    "sourceEnrichmentDate": "2026-10-05",
+    "contextReview": {
+      "date": "2026-10-07",
+      "chapters": 5,
+      "scope": "Original close readings grounded in local World English Bible passages. Existing external source reviews remain separate."
+    }
+  },
+  "translation": "World English Bible",
+  "copyright": "Public domain",
+  "chapterStudies": [
+    {
+      "chapter": 1,
+      "verse": 7,
+      "context": ""
+    },
+    {
+      "chapter": 2,
+      "verse": 10,
+      "context": ""
+    },
+    {
+      "chapter": 3,
+      "verse": 18,
+      "context": ""
+    },
+    {
+      "chapter": 4,
+      "verse": 20,
+      "context": ""
+    },
+    {
+      "chapter": 5,
+      "verse": 14,
+      "context": ""
+    }
+  ],
+  "contextGuide": {
+    "id": "1-john-context",
+    "title": "1 John: context and evidence",
+    "description": "Explore the book’s larger concerns through selected passages and relevant evidence.",
+    "steps": [
+      {
+        "title": "Shared witness and honest confession make fellowship more than a claim",
+        "text": "Verse 5 gives the message: God is light. Verses 6–10 are five sentences that each begin with “if.” Verse 6 rejects a claim of fellowship made by one who walks in darkness. Verse 7 gives the true case, with two results. Those who walk in the light have fellowship with one another. The blood of Jesus also cleanses them from all sin. So walking in the light does not mean having no sin (verses 8–9).",
+        "chapter": 1,
+        "verse": 7,
+        "sourceIds": [
+          "web"
+        ]
+      },
+      {
+        "title": "Remaining in the received message requires love amid denial and departure",
+        "text": "Verse 9 tests a claim to be in the light while hating a brother. The verse says he is still in darkness. Verse 10 gives the opposite case. One who loves his brother remains in the light. Nothing in him causes stumbling. Verse 11 says the hater walks in darkness and cannot see his way. So light and darkness are told apart by conduct toward a brother.",
+        "chapter": 2,
+        "verse": 10,
+        "sourceIds": [
+          "web"
+        ]
+      },
+      {
+        "title": "Love takes visible form through shared goods rather than claims of belonging alone",
+        "text": "Verse 16 defines love by an act: Christ laid down his life for us. Verse 17 brings it down to an ordinary case. Someone has the world’s goods and sees a brother in need. If he closes his heart, how does God’s love remain in him? Verse 18 draws the rule. Love is not in word or tongue only; it is in deed and truth. Verse 19 says this is how they know they are of the truth.",
+        "chapter": 3,
+        "verse": 18,
+        "sourceIds": [
+          "web"
+        ]
+      },
+      {
+        "title": "Confession and visible love test claims about the unseen God",
+        "text": "Verse 12 says no one has seen God at any time. That makes a claim to love God hard to check. Verse 20 supplies the check. A brother can be seen. One who does not love a seen brother cannot love the unseen God. A man who says he loves God and hates his brother lies. Verse 21 makes it a command: love God, and love a brother also.",
+        "chapter": 4,
+        "verse": 20,
+        "sourceIds": [
+          "web"
+        ]
+      }
+    ]
+  }
+}

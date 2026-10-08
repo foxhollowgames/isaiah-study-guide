@@ -1,0 +1,378 @@
+{
+  "sources": [
+    {
+      "id": "web",
+      "title": "Haggai · World English Bible",
+      "url": "https://ebible.org/engwebp/HAG01.htm",
+      "summary": "Both chapters appear in the reading text.",
+      "category": "Scripture",
+      "perspective": "historical",
+      "limits": "The guide preserves the stated regnal dates without assigning a date to every future promise.",
+      "author": "World English Bible translators",
+      "publisher": "eBible.org",
+      "chapterCoverage": [
+        1,
+        2
+      ],
+      "reviewed": {
+        "date": "2026-10-07",
+        "scope": "All 38 verses read. Verse counts and character integrity checked."
+      },
+      "type": "Scripture",
+      "limitations": "The guide preserves the stated regnal dates without assigning a date to every future promise.",
+      "license": "Public domain"
+    },
+    {
+      "id": "gafney-haggai",
+      "title": "Commentary on Haggai 1:15b-2:9",
+      "url": "https://www.workingpreacher.org/commentaries/revised-common-lectionary/ordinary-32-3/commentary-on-haggai-115b-29",
+      "summary": "Gafney explains disappointment with the rebuilt temple and the promise of God’s continuing presence.",
+      "category": "Scholarly study",
+      "perspective": "historical",
+      "limits": "Her historical reconstruction and wider applications remain attributed interpretation. The guide does not adopt every proposed comparison.",
+      "author": "Wil Gafney",
+      "year": 2010,
+      "publisher": "Luther Seminary",
+      "chapterCoverage": [
+        1,
+        2
+      ],
+      "reviewed": {
+        "date": "2026-10-07",
+        "scope": "Complete commentary body read. Its main explanation concerns 2:1–9 and the preceding regnal date. Wider linked biblical comparisons were not independently researched."
+      },
+      "type": "Scholarly study",
+      "limitations": "Her historical reconstruction and wider applications remain attributed interpretation. The guide does not adopt every proposed comparison.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "cfm-haggai-2026",
+      "title": "December 7–13: “Holiness unto the Lord” · Haggai 1–2; Zechariah 1–4; 7–14",
+      "url": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/50?lang=eng",
+      "summary": "The lesson studies priorities, temple building, and encouragement for those doing the work.",
+      "category": "LDS Come, Follow Me",
+      "perspective": "lds",
+      "limits": "The comparison with Doctrine and Covenants 95 is a later Church application.",
+      "author": "The Church of Jesus Christ of Latter-day Saints",
+      "year": 2026,
+      "publisher": "The Church of Jesus Christ of Latter-day Saints",
+      "chapterCoverage": [
+        1,
+        2
+      ],
+      "reviewed": {
+        "date": "2026-10-07",
+        "scope": "Introduction and adult Haggai study section read. Linked talks, videos, and Scripture Helps were not separately reviewed."
+      },
+      "type": "LDS Come, Follow Me",
+      "limitations": "The comparison with Doctrine and Covenants 95 is a later Church application.",
+      "license": "Linked source. Original guide summaries."
+    }
+  ],
+  "passages": [
+    {
+      "id": "haggai-1",
+      "chapter": 1,
+      "start": 1,
+      "end": 15,
+      "title": "Private houses expose the delay in a shared task",
+      "summary": "In the second year of Darius, Haggai speaks to the governor and the high priest. The people say it is not yet time to rebuild the LORD’s house. God asks whether they should live in paneled houses while his house lies ruined. They sow much and harvest little. Their wages go into a bag with holes. God tells them to bring wood and build. The leaders and the people obey. Within a month the work begins.",
+      "year": null,
+      "dateLabel": "Book order",
+      "uncertainty": "Jerusalem marks the rebuilding setting. The mountain supplying wood is unnamed and receives no route.",
+      "placeIds": [
+        "jerusalem"
+      ],
+      "sourceIds": [
+        "web",
+        "gafney-haggai"
+      ],
+      "lds": {
+        "text": "The lesson connects considering one’s ways with giving temple work higher priority. Why does Haggai compare private houses with God’s ruined house?",
+        "sourceIds": [
+          "cfm-haggai-2026"
+        ]
+      },
+      "contextNote": {
+        "title": "Private houses expose the delay in a shared task",
+        "text": "Verse 4 notes that the people’s own houses are finished and paneled. Verse 9 says each one “is busy with his own house.” The trouble is where their energy goes. Haggai reads their poor harvests as a signal to stop and think. The response is quick. Verses 1 and 15 are dated twenty-three days apart. Ezra 5:1–2 records the same new start.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    },
+    {
+      "id": "haggai-2",
+      "chapter": 2,
+      "start": 1,
+      "end": 23,
+      "title": "The smaller building does not end God's presence",
+      "summary": "A month later Haggai speaks again. He asks who remembers the first temple in its glory. The new one looks like nothing beside it. Yet God tells the governor, the priest, and the people to be strong and work. He is with them, and his Spirit remains among them. He will shake the nations and fill this house with glory. From the day the foundation was laid, he will bless them. He tells the governor that he has chosen him.",
+      "year": null,
+      "dateLabel": "Book order",
+      "uncertainty": "Jerusalem marks the rebuilding setting. Egypt is a remembered regional reference, not a present journey.",
+      "placeIds": [
+        "jerusalem",
+        "egypt"
+      ],
+      "sourceIds": [
+        "web",
+        "gafney-haggai"
+      ],
+      "lds": {
+        "text": "The lesson compares encouragement for the builders with later Church teaching about temples. Why does the promise of presence matter before greater glory or a new harvest?",
+        "sourceIds": [
+          "cfm-haggai-2026"
+        ]
+      },
+      "contextNote": {
+        "title": "The smaller building does not end God's presence",
+        "text": "Verse 3 says honestly that the new building looks like nothing. Ezra 3:12 shows old men weeping at the sight. Verse 4 does not deny the difference. It says “be strong” three times and then “work.” The reason is God’s presence, not the size of the house. Verse 5 ties that presence to the exodus. Glory is promised for later (verse 9), and the work is for now.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "haggai-1",
+      "chapter": 1,
+      "verse": 1,
+      "eventOrder": 1,
+      "title": "Private houses expose the delay in a shared task",
+      "summary": "In the second year of Darius, Haggai speaks to the governor and the high priest. The people say it is not yet time to rebuild the LORD’s house. God asks whether they should live in paneled houses while his house lies ruined. They sow much and harvest little. Their wages go into a bag with holes. God tells them to bring wood and build. The leaders and the people obey. Within a month the work begins.",
+      "detail": "Verse 4 notes that the people’s own houses are finished and paneled. Verse 9 says each one “is busy with his own house.” The trouble is where their energy goes. Haggai reads their poor harvests as a signal to stop and think. The response is quick. Verses 1 and 15 are dated twenty-three days apart. Ezra 5:1–2 records the same new start.",
+      "dateLabel": "Book order",
+      "uncertainty": "Jerusalem marks the rebuilding setting. The mountain supplying wood is unnamed and receives no route.",
+      "sourceIds": [
+        "web",
+        "gafney-haggai"
+      ],
+      "placeIds": [
+        "jerusalem"
+      ],
+      "lds": {
+        "text": "The lesson connects considering one’s ways with giving temple work higher priority. Why does Haggai compare private houses with God’s ruined house?",
+        "sourceIds": [
+          "cfm-haggai-2026"
+        ]
+      }
+    },
+    {
+      "id": "haggai-2",
+      "chapter": 2,
+      "verse": 1,
+      "eventOrder": 2,
+      "title": "The smaller building does not end God's presence",
+      "summary": "A month later Haggai speaks again. He asks who remembers the first temple in its glory. The new one looks like nothing beside it. Yet God tells the governor, the priest, and the people to be strong and work. He is with them, and his Spirit remains among them. He will shake the nations and fill this house with glory. From the day the foundation was laid, he will bless them. He tells the governor that he has chosen him.",
+      "detail": "Verse 3 says honestly that the new building looks like nothing. Ezra 3:12 shows old men weeping at the sight. Verse 4 does not deny the difference. It says “be strong” three times and then “work.” The reason is God’s presence, not the size of the house. Verse 5 ties that presence to the exodus. Glory is promised for later (verse 9), and the work is for now.",
+      "dateLabel": "Book order",
+      "uncertainty": "Jerusalem marks the rebuilding setting. Egypt is a remembered regional reference, not a present journey.",
+      "sourceIds": [
+        "web",
+        "gafney-haggai"
+      ],
+      "placeIds": [
+        "jerusalem",
+        "egypt"
+      ],
+      "lds": {
+        "text": "The lesson compares encouragement for the builders with later Church teaching about temples. Why does the promise of presence matter before greater glory or a new harvest?",
+        "sourceIds": [
+          "cfm-haggai-2026"
+        ]
+      }
+    }
+  ],
+  "places": [
+    {
+      "id": "jerusalem",
+      "name": "Jerusalem",
+      "lat": 31.778,
+      "lng": 35.235,
+      "summary": "Jerusalem is the temple rebuilding setting described in Gafney’s commentary.",
+      "limits": "Approximate city marker. No temple dimensions, timber path, or future building plan is assigned.",
+      "sourceIds": [
+        "gafney-haggai"
+      ],
+      "detail": "Jerusalem is the temple rebuilding setting described in Gafney’s commentary.",
+      "uncertainty": "Approximate city marker. No temple dimensions, timber path, or future building plan is assigned.",
+      "chapterLocation": true
+    },
+    {
+      "id": "egypt",
+      "name": "Egypt",
+      "lat": 30.05,
+      "lng": 31.23,
+      "summary": "Egypt appears in God’s reminder of the promise made when the people came out.",
+      "limits": "Broad regional reference. The remembered rescue has no reconstructed route in Haggai.",
+      "sourceIds": [
+        "web"
+      ],
+      "detail": "Egypt appears in God’s reminder of the promise made when the people came out.",
+      "uncertainty": "Broad regional reference. The remembered rescue has no reconstructed route in Haggai.",
+      "chapterLocation": true
+    }
+  ],
+  "campaigns": [],
+  "ancientRoads": [],
+  "regions": [],
+  "words": [
+    {
+      "id": "glossary-unclean",
+      "label": "Unclean",
+      "matches": [
+        "unclean",
+        "uncleanness"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "Unfit to take part in worship until a set cleansing is done. Leviticus 11–15 gives the rules.",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    },
+    {
+      "id": "glossary-remnant",
+      "label": "Remnant",
+      "matches": [
+        "remnant"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "The part of a people that survives a disaster.",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    }
+  ],
+  "guides": [
+    {
+      "id": "haggai-context",
+      "title": "Haggai: context and evidence",
+      "description": "Explore the book’s larger concerns through selected passages and relevant evidence.",
+      "steps": [
+        {
+          "title": "Private houses expose the delay in a shared task",
+          "text": "Verse 4 notes that the people’s own houses are finished and paneled. Verse 9 says each one “is busy with his own house.” The trouble is where their energy goes. Haggai reads their poor harvests as a signal to stop and think. The response is quick. Verses 1 and 15 are dated twenty-three days apart. Ezra 5:1–2 records the same new start.",
+          "chapter": 1,
+          "verse": 9,
+          "sourceIds": [
+            "web"
+          ]
+        },
+        {
+          "title": "The smaller building does not end God's presence",
+          "text": "Verse 3 says honestly that the new building looks like nothing. Ezra 3:12 shows old men weeping at the sight. Verse 4 does not deny the difference. It says “be strong” three times and then “work.” The reason is God’s presence, not the size of the house. Verse 5 ties that presence to the exodus. Glory is promised for later (verse 9), and the work is for now.",
+          "chapter": 2,
+          "verse": 4,
+          "sourceIds": [
+            "web"
+          ]
+        }
+      ]
+    }
+  ],
+  "periods": [
+    {
+      "id": "part-0",
+      "label": "Haggai 1–1",
+      "start": 1,
+      "end": 1,
+      "description": "Chapter order"
+    },
+    {
+      "id": "part-1",
+      "label": "Haggai 2–2",
+      "start": 2,
+      "end": 2,
+      "description": "Chapter order"
+    },
+    {
+      "id": "part-2",
+      "label": "Haggai 3–2",
+      "start": 3,
+      "end": 2,
+      "description": "Chapter order"
+    }
+  ],
+  "chapterMaps": [
+    {
+      "chapter": 1,
+      "focusPlaceIds": [
+        "jerusalem"
+      ],
+      "placeIds": [
+        "jerusalem"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Jerusalem marks the rebuilding setting. The mountain supplying wood is unnamed and receives no route.",
+      "narrative": "In the second year of Darius, Haggai speaks to the governor and the high priest. The people say it is not yet time to rebuild the LORD’s house. God asks whether they should live in paneled houses while his house lies ruined. They sow much and harvest little. Their wages go into a bag with holes. God tells them to bring wood and build. The leaders and the people obey. Within a month the work begins.",
+      "limits": "Jerusalem marks the rebuilding setting. The mountain supplying wood is unnamed and receives no route.",
+      "sourceIds": [
+        "web",
+        "gafney-haggai"
+      ]
+    },
+    {
+      "chapter": 2,
+      "focusPlaceIds": [
+        "jerusalem",
+        "egypt"
+      ],
+      "placeIds": [
+        "jerusalem",
+        "egypt"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Jerusalem marks the rebuilding setting. Egypt is a remembered regional reference, not a present journey.",
+      "narrative": "A month later Haggai speaks again. He asks who remembers the first temple in its glory. The new one looks like nothing beside it. Yet God tells the governor, the priest, and the people to be strong and work. He is with them, and his Spirit remains among them. He will shake the nations and fill this house with glory. From the day the foundation was laid, he will bless them. He tells the governor that he has chosen him.",
+      "limits": "Jerusalem marks the rebuilding setting. Egypt is a remembered regional reference, not a present journey.",
+      "sourceIds": [
+        "web",
+        "gafney-haggai"
+      ]
+    }
+  ],
+  "textRoutes": [],
+  "narrativeRegions": [],
+  "chapterStudies": [
+    {
+      "chapter": 1,
+      "verse": 9,
+      "context": ""
+    },
+    {
+      "chapter": 2,
+      "verse": 4,
+      "context": ""
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "paul": {
+    "src": "assets/portraits/acts/paul.png",
+    "generated": true,
+    "title": "Paul, also called Saul · interpretive portrait",
+    "credit": "AI-generated illustration",
+    "license": "Generated artwork",
+    "note": "Interpretive appearance for a selected first-century Acts profile."
+  },
+  "jesus": {
+    "src": "assets/portraits/matthew/jesus.png",
+    "generated": true,
+    "title": "Jesus of Nazareth · interpretive portrait",
+    "credit": "AI-generated illustration",
+    "license": "Generated artwork",
+    "note": "Interpretive appearance for the selected first-century Gospel profile."
+  },
+  "peter": {
+    "src": "assets/portraits/matthew/peter.png",
+    "generated": true,
+    "title": "Simon Peter · interpretive portrait",
+    "credit": "AI-generated illustration",
+    "license": "Generated artwork",
+    "note": "Interpretive appearance for the selected first-century Gospel profile."
+  },
+  "barnabas": {
+    "src": "assets/portraits/acts/barnabas.png",
+    "generated": true,
+    "title": "Barnabas · interpretive portrait",
+    "credit": "AI-generated illustration",
+    "license": "Generated artwork",
+    "note": "Interpretive appearance for a selected first-century Acts profile."
+  },
+  "titus": {
+    "src": "assets/portraits/2-corinthians/titus.png",
+    "generated": true,
+    "title": "Titus · interpretive portrait",
+    "credit": "AI-generated illustration",
+    "license": "Generated artwork",
+    "note": "Interpretive appearance for a selected first-century letter profile."
+  },
+  "abraham": {
+    "title": "File:Rembrandt Abraham Serving the Three Angels.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Rembrandt_Abraham_Serving_the_Three_Angels.jpg/500px-Rembrandt_Abraham_Serving_the_Three_Angels.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rembrandt_Abraham_Serving_the_Three_Angels.jpg",
+    "credit": "Rembrandt",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "description": "Abraham and the Three Angels",
+    "src": "assets/portraits/genesis/abraham.jpg",
+    "note": "Historical art illustrates the story. It does not establish actual appearance."
+  },
+  "hagar": {
+    "title": "File:Hagar (from Mothers of the Bible), by Henry Ossawa Tanner.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Hagar_%28from_Mothers_of_the_Bible%29%2C_by_Henry_Ossawa_Tanner.jpg/500px-Hagar_%28from_Mothers_of_the_Bible%29%2C_by_Henry_Ossawa_Tanner.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hagar_(from_Mothers_of_the_Bible),_by_Henry_Ossawa_Tanner.jpg",
+    "credit": "Henry Ossawa Tanner",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "description": "Hagar (from Mothers of the Bible), by Henry Ossawa Tanner. Published October 1902 in the Ladies' Home Journal, page 13.\nAnd Abraham rose up early in the morning, and took bread, and a bottle of water, and gave it unto Hagar. . . .and sent her away; and she departed and wandered in the wilderness of Beer-sheba--GENESIS XXI, 14.\n\nTanner painted the scene in which Hagar is banished.",
+    "src": "assets/portraits/genesis/hagar.jpg",
+    "note": "Historical art illustrates the story. It does not establish actual appearance."
+  },
+  "isaac": {
+    "title": "File:Rembrandt Isaac and Rebecca.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Rembrandt_Isaac_and_Rebecca.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rembrandt_Isaac_and_Rebecca.jpg",
+    "credit": "Rembrandt",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "description": "Isaac and Rebeccah spied upon by Abimelech",
+    "src": "assets/portraits/genesis/isaac.jpg",
+    "note": "Historical art illustrates the story. It does not establish actual appearance."
+  }
+}

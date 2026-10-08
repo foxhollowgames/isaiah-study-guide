@@ -1,0 +1,135 @@
+{
+  "name": "1 John",
+  "code": "1JN",
+  "date": "2026-10-07",
+  "verseCounts": [
+    10,
+    29,
+    24,
+    21,
+    21
+  ],
+  "nextBook": "2-john",
+  "description": "Shared witness · honest confession · practical love · careful testing · confidence",
+  "limits": "The speaker is unnamed. Historical authorship, dates, Greek forms, manuscripts, exact audience conditions, and the identity of departed opponents were not independently verified. No city or modern opponent is assigned.",
+  "review": "All 105 verses read for five original contextual explanations and exact selections. Two selected named profiles reuse inspected artwork. Unnamed participants have no invented personal identities. No specific setting is assigned. Ok's reading remains attributed. Church teaching remains distinct from the original close readings.",
+  "sources": [
+    {
+      "id": "cfm-nt-2023-49",
+      "title": "November 27–December 3 · First–Third John and Jude",
+      "url": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-sunday-school-new-testament-2023/49?lang=eng",
+      "author": "The Church of Jesus Christ of Latter-day Saints",
+      "publisher": "The Church of Jesus Christ of Latter-day Saints",
+      "year": 2023,
+      "category": "LDS Come, Follow Me",
+      "perspective": "lds",
+      "summary": "The lesson connects God's light and love with conduct and remaining in Christ's teaching.",
+      "limits": "First John coverage follows actual discussion in all five chapters. Linked Restoration texts, hymns, and reference entries were not independently reviewed. The lesson's apostasy application remains Church teaching.",
+      "chapterCoverage": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "reviewed": {
+        "date": "2026-10-07",
+        "scope": "Complete lesson body and resource list read. References follow actual discussion rather than the broad lesson title."
+      }
+    },
+    {
+      "id": "ok-john",
+      "title": "Commentary on 1 John 3:16-24",
+      "url": "https://www.workingpreacher.org/commentaries/revised-common-lectionary/fourth-sunday-of-easter-2/commentary-on-1-john-316-24-6",
+      "author": "Janette H. Ok",
+      "publisher": "Luther Seminary",
+      "year": 2024,
+      "category": "Scholarly study",
+      "perspective": "historical",
+      "summary": "Ok connects practical love with attention to fellow believers' material needs.",
+      "limits": "This is Ok's interpretation. Greek word analysis, wider claims about unique wording, and modern examples were not independently verified. The guide does not reconstruct exact audience conditions.",
+      "chapterCoverage": [
+        3
+      ],
+      "reviewed": {
+        "date": "2026-10-07",
+        "scope": "Complete commentary body read. The guide attributes her connection between practical love and attention to material need."
+      }
+    }
+  ],
+  "people": [
+    {
+      "id": "jesus",
+      "name": "Jesus Christ",
+      "reuse": "matthew",
+      "role": "Son whose revealed life supplies the message, cleansing, and example of love",
+      "relations": "The unnamed speaker connects fellowship with the Father and his Son.",
+      "meaning": "Confession about him must become conduct shaped by his love.",
+      "chapters": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "passages": "First John 1–5",
+      "linkNames": [
+        "Jesus",
+        "Christ"
+      ]
+    },
+    {
+      "id": "cain",
+      "name": "Cain",
+      "reuse": "genesis",
+      "role": "Brother recalled through killing as the opposite of love",
+      "relations": "The letter contrasts his evil deeds with his brother's righteous deeds.",
+      "meaning": "His recalled act makes hatred incompatible with the claimed passage from death into life.",
+      "chapters": [
+        3
+      ],
+      "passages": "First John 3:12"
+    }
+  ],
+  "places": [],
+  "chapters": {
+    "1": {
+      "question": "Why does honest confession belong within walking in light?",
+      "ldsSources": [
+        "cfm-nt-2023-49"
+      ],
+      "teaching": "The selected Church lesson connects God's light and love with the conduct described here."
+    },
+    "2": {
+      "question": "How does love for a visible brother test a claim about knowing Christ?",
+      "ldsSources": [
+        "cfm-nt-2023-49"
+      ],
+      "teaching": "The selected Church lesson connects God's light and love with the conduct described here."
+    },
+    "3": {
+      "question": "How can shared goods give visible form to love?",
+      "ldsSources": [
+        "cfm-nt-2023-49"
+      ],
+      "teaching": "The selected Church lesson connects God's light and love with the conduct described here.",
+      "historicalSources": [
+        "ok-john"
+      ]
+    },
+    "4": {
+      "question": "Why does hatred toward a brother contradict professed love for God?",
+      "ldsSources": [
+        "cfm-nt-2023-49"
+      ],
+      "teaching": "The selected Church lesson connects God's light and love with the conduct described here."
+    },
+    "5": {
+      "question": "How does asking according to God's will shape confidence in prayer?",
+      "ldsSources": [
+        "cfm-nt-2023-49"
+      ],
+      "teaching": "The selected Church lesson connects God's light and love with the conduct described here."
+    }
+  }
+}

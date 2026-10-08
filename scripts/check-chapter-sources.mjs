@@ -59,7 +59,7 @@ for (const perspective of ['historical', 'lds']) {
     assert.equal((intro.match(/<h2/g) || []).length, 1);
     assert(!intro.includes('The wider story') && !intro.includes('See the Assyrian evidence'));
     assert(!intro.includes('The exact route is unknown'));
-    assert.equal(intro.includes('LDS reflection.'), perspective === 'lds');
+    assert.equal(intro.includes('<h3>LDS lens</h3>'), perspective === 'lds');
   }
 }
 context.state.chapter = 36;

@@ -1,0 +1,96 @@
+const bookArt = {"jude-letter": {"src": "assets/portraits/jude/jude-letter.png", "generated": true, "title": "Jude · interpretive portrait", "credit": "AI-generated illustration", "license": "Generated artwork", "note": "Interpretive appearance for a selected biblical profile."}, "jesus": {"src": "assets/portraits/matthew/jesus.png", "generated": true, "title": "Jesus of Nazareth · interpretive portrait", "credit": "AI-generated illustration", "license": "Generated artwork", "note": "Interpretive appearance for the selected first-century Gospel profile."}, "moses": {"title": "File:Rembrandt - Moses Smashing the Tablets of the Law - WGA19132.jpg", "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Rembrandt_-_Moses_Smashing_the_Tablets_of_the_Law_-_WGA19132.jpg/500px-Rembrandt_-_Moses_Smashing_the_Tablets_of_the_Law_-_WGA19132.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rembrandt_-_Moses_Smashing_the_Tablets_of_the_Law_-_WGA19132.jpg", "credit": "Rembrandt", "license": "Public domain", "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/", "description": "", "src": "assets/portraits/exodus/moses.jpg", "note": "Historical art illustrates the person or story. It does not establish actual appearance."}, "cain": {"title": "File:Caïn venant de tuer son frère Abel by Henri Vidal, Tuileries Garden, 18 July 2017.jpg", "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Ca%C3%AFn_venant_de_tuer_son_fr%C3%A8re_Abel_by_Henri_Vidal%2C_Tuileries_Garden%2C_18_July_2017.jpg/500px-Ca%C3%AFn_venant_de_tuer_son_fr%C3%A8re_Abel_by_Henri_Vidal%2C_Tuileries_Garden%2C_18_July_2017.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ca%C3%AFn_venant_de_tuer_son_fr%C3%A8re_Abel_by_Henri_Vidal,_Tuileries_Garden,_18_July_2017.jpg", "credit": "Joe deSousa", "license": "CC0", "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en", "description": "This statue in the Tuilleries Garden by the Louvre is actually titled \"Caïn venant de tuer son frère Abel\" and shows Cain after killing his brother Abel.", "src": "assets/portraits/genesis/cain.jpg", "note": "Historical art illustrates the story. It does not establish actual appearance."}, "balaam": {"title": "File:Hermann tom Ring - Balaam (^) - 4649 - Bavarian State Painting Collections.jpg", "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Hermann_tom_Ring_-_Balaam_%28%5E%29_-_4649_-_Bavarian_State_Painting_Collections.jpg/500px-Hermann_tom_Ring_-_Balaam_%28%5E%29_-_4649_-_Bavarian_State_Painting_Collections.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hermann_tom_Ring_-_Balaam_(%5E)_-_4649_-_Bavarian_State_Painting_Collections.jpg", "credit": "Hermann tom Ring", "license": "Public domain", "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/", "description": "", "src": "assets/portraits/numbers/balaam.jpg", "note": "Later story-based artwork. It does not establish actual appearance. Group scenes do not identify a known individual likeness."}, "korah": {"title": "File:Korah Swallowed Up (Dalziels' Bible Gallery) MET DP835885.jpg", "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Korah_Swallowed_Up_%28Dalziels%27_Bible_Gallery%29_MET_DP835885.jpg/500px-Korah_Swallowed_Up_%28Dalziels%27_Bible_Gallery%29_MET_DP835885.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Korah_Swallowed_Up_(Dalziels%27_Bible_Gallery)_MET_DP835885.jpg", "credit": "After Frederick Richard Pickersgill / Brothers Dalziel / Camden Press", "license": "CC0", "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en", "description": "Print; Prints", "src": "assets/portraits/numbers/korah.jpg", "note": "Later story-based artwork. It does not establish actual appearance. Group scenes do not identify a known individual likeness."}, "enoch": {"title": "File:BOWYER BIBLE GENESIS 085. Enoch translated. Genesis cap 5 v 24. Mortier's Bible.jpg", "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/BOWYER_BIBLE_GENESIS_085._Enoch_translated._Genesis_cap_5_v_24._Mortier%27s_Bible.jpg/500px-BOWYER_BIBLE_GENESIS_085._Enoch_translated._Genesis_cap_5_v_24._Mortier%27s_Bible.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail", "sourceUrl": "https://commons.wikimedia.org/wiki/File:BOWYER_BIBLE_GENESIS_085._Enoch_translated._Genesis_cap_5_v_24._Mortier%27s_Bible.jpg", "credit": "Phidev74", "license": "CC BY-SA 4.0", "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0", "description": "BOWYER BIBLE PRINTS ILLUSTRATING THE BOOK OF GENESIS IN THE BIBLE. Robert Bowyer (1758-1834) spent a fortune on his own copy of the Macklin Bible which he expanded to 45 volumes after acquiring and inserting over 6200 different prints of Biblical events. He had a custom designed bookcase built just to house his collection; The Bowyer Bible is now housed in Bolton Museums and Archives. The expansion of the Macklin Bible through careful \"grangerisation\" indicates a practice of enhancing existing texts with additional illustrative material popular among collectors and scholars in the 18th century. Given that Bowyer wished to promulgate the Word of God through these images, the project represented a great act of faith on his part in view of the absence of any method in his time that would allow this to be done. Had it not been for the internet, the set of volumes locked in their case would have remained a curiosity attracting only the passing attention of antiquarians. Phillip Medhurst's current project of opening them up and getting them into social media is a scattering of the seed of God's word which Bowyer would have rejoiced to see. For a complete presentation of these prints see  https://archive.org/details/bowyer-bible", "src": "assets/portraits/genesis/enoch.jpg", "note": "Historical art illustrates the story. It does not establish actual appearance."}, "adam": {"title": "File:Michelangelo, Creation of Adam 06.jpg", "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Michelangelo%2C_Creation_of_Adam_06.jpg/500px-Michelangelo%2C_Creation_of_Adam_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Michelangelo,_Creation_of_Adam_06.jpg", "credit": "Michelangelo", "license": "Public domain", "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/", "description": "", "src": "assets/portraits/genesis/adam.jpg", "note": "Historical art illustrates the story. It does not establish actual appearance."}};
+// Portraits illustrate people in each story. They do not establish actual appearance.
+let portraitMode = 'generated';
+let licensedImages = {};
+const escapeHtml = (value = '') => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;'}[c]));
+
+export function setPortraitMode(mode, images) {
+  portraitMode = mode === 'non-generated' ? mode : 'generated';
+  if (images) licensedImages = images;
+  // Replace only portrait groups so open panels keep their content and position.
+  document.querySelectorAll('.portrait-group[data-people]').forEach(group => {
+    group.outerHTML = portraitsHtml(group.dataset.people.split(','), {interactive:group.dataset.profileLinks !== 'false'});
+  });
+}
+
+// Image errors do not bubble. Capture them for portraits added to any panel.
+document.addEventListener('error', event => {
+  if (event.target.matches?.('.portrait-art img')) {
+    const art = event.target.parentElement;
+    event.target.remove();
+    art.querySelector('.portrait-initial').removeAttribute('aria-hidden');
+  }
+}, true);
+export const people = {"jude-letter": {"name": "Jude", "role": "Named speaker who changes his intended subject to warn against harmful teaching", "life": "Birth and death years are not securely known.", "dateNote": "Historical life dates remain uncertain.", "locations": [], "passages": ["Jude 1"], "importance": "His final commands join protection of received faith with mercy toward people in danger.", "connections": "He identifies himself as a servant of Jesus Christ and brother of James.", "verseScope": {}, "linkNames": ["Jude"], "chapterIds": [1]}, "jesus": {"name": "Jesus Christ", "role": "Lord whose mercy remains the ground of hope for eternal life", "life": "Birth and death years are not securely known.", "dateNote": "Historical life dates remain uncertain.", "locations": [], "passages": ["Jude 1"], "importance": "Waiting for his mercy belongs beside active care and prayer.", "connections": "Jude identifies himself as his servant and warns against denying him.", "verseScope": {}, "linkNames": ["Jesus", "Christ"], "chapterIds": [1]}, "moses": {"name": "Moses", "role": "Person recalled through the dispute about his body", "life": "Birth and death years are not securely known.", "dateNote": "Historical life dates remain uncertain.", "locations": [], "passages": ["Jude 1"], "importance": "His mention serves a comparison about speech rather than locating his grave.", "connections": "Jude describes Michael's restrained reply during a dispute with the devil.", "verseScope": {}, "linkNames": ["Moses"], "chapterIds": [1]}, "cain": {"name": "Cain", "role": "Recalled figure whose way supplies a negative comparison", "life": "Birth and death years are not securely known.", "dateNote": "Historical life dates remain uncertain.", "locations": [], "passages": ["Jude 1"], "importance": "The comparison joins wrongdoing with the broader warning about present conduct.", "connections": "Jude places his way beside Balaam's error and Korah's rebellion.", "verseScope": {}, "linkNames": ["Cain"], "chapterIds": [1]}, "balaam": {"name": "Balaam", "role": "Figure recalled through error connected with payment", "life": "Birth and death years are not securely known.", "dateNote": "Historical life dates remain uncertain.", "locations": [], "passages": ["Jude 1"], "importance": "Desire for gain helps explain why claimed spiritual standing does not ensure sound conduct.", "connections": "His example stands among the warning's three named comparisons.", "verseScope": {}, "linkNames": ["Balaam"], "chapterIds": [1]}, "korah": {"name": "Korah", "role": "Figure recalled through rebellion and destruction", "life": "Birth and death years are not securely known.", "dateNote": "Historical life dates remain uncertain.", "locations": [], "passages": ["Jude 1"], "importance": "His mention connects the present warning with the consequences of earlier rebellion.", "connections": "His remembered rebellion stands beside Cain and Balaam.", "verseScope": {}, "linkNames": ["Korah"], "chapterIds": [1]}, "enoch": {"name": "Enoch", "role": "Figure to whom Jude attributes a saying about coming judgment", "life": "Birth and death years are not securely known.", "dateNote": "Historical life dates remain uncertain.", "locations": [], "passages": ["Jude 1"], "importance": "His attributed words strengthen the warning without supplying a complete account of their earlier transmission.", "connections": "Jude calls him the seventh from Adam and quotes the judgment saying.", "verseScope": {}, "linkNames": ["Enoch"], "chapterIds": [1]}, "adam": {"name": "Adam", "role": "Ancestor named in the description of Enoch", "life": "Birth and death years are not securely known.", "dateNote": "Historical life dates remain uncertain.", "locations": [], "passages": ["Jude 1"], "importance": "His brief mention identifies the recalled speaker rather than developing a creation account.", "connections": "Jude uses his name to place Enoch within an ancestral sequence.", "verseScope": {}, "linkNames": ["Adam"], "chapterIds": [1]}};
+
+function linkedPeopleHtml(text, currentId) {
+  const terms = [];
+  for (const [id, person] of Object.entries(people)) {
+    if (id === currentId) continue;
+    for (const label of [person.name, ...(person.linkNames || [])]) terms.push({id, label});
+  }
+  terms.sort((a, b) => b.label.length - a.label.length);
+  const byLabel = new Map(terms.map(item => [item.label, item.id]));
+  const escapedTerms = terms.map(item => item.label.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'));
+  if (!escapedTerms.length) return escapeHtml(text);
+  const pattern = new RegExp(escapedTerms.join('|'), 'g');
+  let html = '', cursor = 0;
+  for (const match of text.matchAll(pattern)) {
+    html += escapeHtml(text.slice(cursor, match.index));
+    const id = byLabel.get(match[0]);
+    html += `<button type="button" class="person-inline-link" data-person-id="${id}" aria-label="Open profile for ${escapeHtml(people[id].name)}">${escapeHtml(match[0])}</button>`;
+    cursor = match.index + match[0].length;
+  }
+  return html + escapeHtml(text.slice(cursor));
+}
+
+const featurePeople = {"jude-1": ["jude-letter", "jesus", "moses", "cain", "balaam", "korah", "enoch", "adam"]};
+
+export function portraitsHtml(ids = [], options = {}) {
+  const known = [...new Set(ids)].filter(id => people[id]);
+  if (!known.length) return '';
+  return `<div class="portrait-group" data-people="${known.join(',')}" data-profile-links="${options.interactive === false ? 'false' : 'true'}" aria-label="People in this story">${known.map(id => {
+    const {name, role} = people[id];
+    const linkedRole = role.replace(/Isaiah (\d+)(?:–\d+)?/g, (reference, chapter) =>
+      `<a class="scripture-reference" href="https://www.churchofjesuschrist.org/study/scriptures/ot/isa/${chapter}?lang=eng" target="_blank" rel="noopener">${reference}</a>`);
+    const licensedImage = bookArt[id] && (portraitMode !== 'non-generated' || !bookArt[id].generated) ? bookArt[id] : null;
+    const image = licensedImage || { src: '', generated:true };
+    const hue = [...id].reduce((sum, c) => sum + c.charCodeAt(0), 0) % 360;
+    const credit = image?.sourceUrl ? `<small class="portrait-credit"><a href="${escapeHtml(image.sourceUrl)}" target="_blank" rel="noopener">${escapeHtml(image.credit)}</a> · <a href="${escapeHtml(image.licenseUrl)}" target="_blank" rel="noopener">${escapeHtml(image.license)}</a> · Cropped</small>` : '';
+    const imageKind = image.generated ? 'Generated illustration' : 'Historical depiction';
+    const art = `<span class="portrait-art" style="--portrait-hue:${hue}"><span class="portrait-initial" role="img" aria-label="${name}: ${image.src ? 'portrait failed to load' : 'no portrait available'}" aria-hidden="${!!image.src}">${name[0]}</span>${image.src ? `<img src="${escapeHtml(image.src)}" width="88" height="88" alt="${imageKind} of ${name}">` : ""}</span>`;
+    if (options.interactive === false) {
+      return `<figure class="person-portrait">${art}<figcaption><strong>${escapeHtml(name)}</strong><span>${linkedRole}</span>${credit}</figcaption></figure>`;
+    }
+    const profileControl = `<button type="button" class="portrait-profile-button" data-person-id="${id}" aria-label="Open profile for ${escapeHtml(name)}">${art}<span class="portrait-copy"><strong class="portrait-name">${escapeHtml(name)}</strong><span class="portrait-role">${escapeHtml(role)}</span></span></button>`;
+    return `<figure class="person-portrait portrait-profile-link">${profileControl}${credit}</figure>`;
+  }).join('')}</div>`;
+}
+
+export function personProfileHtml(id, options = {}) {
+  const person = people[id];
+  if (!person) return '';
+  const linkHtml = options.linkHtml || (text => linkedPeopleHtml(text, id));
+  const back = options.backLabel ? `<button class="back-button person-profile-back" data-action="person-profile-back">← ${escapeHtml(options.backLabel)}</button>` : '';
+  return `<section class="person-profile" data-person-profile="${id}">${back}<h2>${escapeHtml(person.name)}</h2>${portraitsHtml([id], {interactive:false})}<dl class="person-facts">${person.locations.length ? `<div><dt>Key locations</dt><dd>${person.locations.map(linkHtml).join(' · ')}</dd></div>` : ""}</dl><div class="word-section"><h3>Why this person matters</h3><p>${linkHtml(person.importance)}</p></div><div class="word-section"><h3>Story connections</h3><p>${linkHtml(person.connections)}</p></div><div class="word-section"><h3>Relevant passages</h3><ul class="profile-passages">${person.passages.map(passage => `<li>${escapeHtml(passage)}</li>`).join('')}</ul></div></section>`;
+}
+
+export function personIdForLabel(label = '') {
+  const normalized = label.toLowerCase().replace(/[‐‑–—]/g, '-').replace(/^the\s+/, '').trim();
+  const aliases = {
+    'amos':'amoz', 'nebuchadnezzar ii':'nebuchadnezzar', 'cyrus ii':'cyrus',
+    'shear jashub':'shear-jashub', 'maher shalal hash baz':'maher-shalal-hash-baz'
+  };
+  return people[normalized] ? normalized : aliases[normalized] || null;
+}
+
+export function featurePortraits(feature) {
+  const ids = featurePeople[feature.id] || featurePeople[feature.faction] || [];
+  return portraitsHtml(ids);
+}
+
+export function wordPortraits(label = '') {
+  const id = personIdForLabel(label) || label.toLowerCase().replace(/[‐‑–—]/g, '-').replace(/^[^\p{L}]+|[^\p{L}]+$/gu, '');
+  const aliases = { judah: ['hezekiah', 'isaiah'], assyria: ['sennacherib'], babylon: ['merodach-baladan'] };
+  return portraitsHtml(people[id] ? [id] : aliases[id] || [], {interactive:false});
+}

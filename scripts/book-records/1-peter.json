@@ -1,0 +1,182 @@
+{
+  "name": "1 Peter",
+  "code": "1PE",
+  "date": "2026-10-07",
+  "verseCounts": [
+    25,
+    25,
+    22,
+    19,
+    14
+  ],
+  "nextBook": "2-peter",
+  "description": "Living hope · shared belonging · unequal power · gentle witness · willing care",
+  "limits": "Peter is the named letter speaker. Historical authorship, dates, Greek forms, manuscripts, exact audience conditions, identity of the imprisoned spirits, and whether Babylon identifies a literal city were not independently verified. No spirit-world or Babylon location is assigned.",
+  "review": "All 105 verses read for five original contextual explanations and exact selections. Six selected profiles do not claim exhaustive coverage. Broad addressed regions and the uncertain Babylon reference have no invented exact setting. Brown's reading remains attributed. Actual Church lesson coverage and spirit-world teaching remain separate from the original close readings.",
+  "sources": [
+    {
+      "id": "cfm-nt-2023-48",
+      "title": "November 20–26 · First and Second Peter",
+      "url": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-sunday-school-new-testament-2023/48?lang=eng",
+      "author": "The Church of Jesus Christ of Latter-day Saints",
+      "publisher": "The Church of Jesus Christ of Latter-day Saints",
+      "year": 2023,
+      "category": "LDS Come, Follow Me",
+      "perspective": "lds",
+      "summary": "The lesson connects trials, belonging to God, and teaching to the dead.",
+      "limits": "First Peter coverage follows actual discussion of chapters one through four. The spirit-world explanation is Church teaching. The included Christofferson excerpt was read, but the linked full talk, Restoration texts, and Greek meanings were not independently reviewed.",
+      "chapterCoverage": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "reviewed": {
+        "date": "2026-10-07",
+        "scope": "Complete lesson body and included resource quotation read. Only actual First Peter discussion supports these chapter references."
+      }
+    },
+    {
+      "id": "brown-peter",
+      "title": "Commentary on 1 Peter 2:19-25",
+      "url": "https://www.workingpreacher.org/commentaries/revised-common-lectionary/fourth-sunday-of-easter/commentary-on-1-peter-219-25-3",
+      "author": "Jeannine K. Brown",
+      "publisher": "Luther Seminary",
+      "year": 2017,
+      "category": "Scholarly study",
+      "perspective": "historical",
+      "summary": "Brown reads direct address to bound workers as giving vulnerable hearers a meaningful role.",
+      "limits": "This is Brown's interpretation. Wider household-code history, Greek analysis, precise audience conditions, and cited books were not independently verified. The actual instructions retain unequal power and do not explicitly abolish the relationship.",
+      "chapterCoverage": [
+        2
+      ],
+      "reviewed": {
+        "date": "2026-10-07",
+        "scope": "Complete commentary body and four notes read. The guide attributes her emphasis on direct address to vulnerable hearers."
+      }
+    }
+  ],
+  "people": [
+    {
+      "id": "peter",
+      "name": "Peter",
+      "reuse": "acts",
+      "role": "Named letter speaker who addresses scattered believers and identifies himself as a fellow elder",
+      "relations": "He recalls Christ's suffering and names Silvanus as a faithful brother.",
+      "meaning": "His final instructions connect leadership with willing care rather than domination.",
+      "chapters": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "passages": "First Peter 1, 2, 3, 4, 5"
+    },
+    {
+      "id": "jesus",
+      "name": "Jesus Christ",
+      "reuse": "matthew",
+      "role": "Risen Lord whose suffering and enduring life ground hope, conduct, and rescue",
+      "relations": "The letter presents him as the rejected stone, shepherd, and source of access to God.",
+      "meaning": "His example connects refusal of revenge with confidence in God's judgment.",
+      "chapters": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "passages": "First Peter 1, 2, 3, 4, 5",
+      "linkNames": [
+        "Jesus",
+        "Christ"
+      ]
+    },
+    {
+      "id": "sarah",
+      "name": "Sarah",
+      "reuse": "genesis",
+      "role": "Woman recalled in the instructions to wives about conduct and freedom from terror",
+      "relations": "The speaker names her obedience to Abraham within the household comparison.",
+      "meaning": "Her named example belongs to unequal directions that also require husbands to honor joint heirs.",
+      "chapters": [
+        3
+      ],
+      "passages": "First Peter 3"
+    },
+    {
+      "id": "abraham",
+      "name": "Abraham",
+      "reuse": "genesis",
+      "role": "Husband named within Sarah's example in the household instructions",
+      "relations": "The speaker recalls Sarah addressing him as lord.",
+      "meaning": "His brief mention belongs to the letter's comparison rather than a reconstructed household scene.",
+      "chapters": [
+        3
+      ],
+      "passages": "First Peter 3"
+    },
+    {
+      "id": "noah",
+      "name": "Noah",
+      "reuse": "genesis",
+      "role": "Ship builder recalled in the account of rescue through water",
+      "relations": "The speaker connects patient waiting in his days with eight people saved through water.",
+      "meaning": "His account supplies the comparison leading into baptism and conscience before God.",
+      "chapters": [
+        3
+      ],
+      "passages": "First Peter 3"
+    },
+    {
+      "id": "silas",
+      "name": "Silvanus",
+      "reuse": "acts",
+      "role": "Faithful brother through whom the speaker says he wrote the brief appeal",
+      "relations": "He appears beside the closing testimony about the grace in which the hearers stand.",
+      "meaning": "His named work keeps the letter's delivery within shared support.",
+      "chapters": [
+        5
+      ],
+      "passages": "First Peter 5"
+    }
+  ],
+  "places": [],
+  "chapters": {
+    "1": {
+      "question": "Why does a secure inheritance lead into sincere love rather than private confidence alone?",
+      "teaching": "The selected Church lesson connects trials with living hope and belonging to God.",
+      "ldsSources": [
+        "cfm-nt-2023-48"
+      ]
+    },
+    "2": {
+      "question": "How does the refusal of revenge place judgment beyond the present power of harsh masters?",
+      "teaching": "The selected Church lesson connects Christ's example with faithful conduct during trials.",
+      "ldsSources": [
+        "cfm-nt-2023-48"
+      ],
+      "historicalSources": [
+        "brown-peter"
+      ]
+    },
+    "3": {
+      "question": "Why must an answer about hope include humility and a good conscience?",
+      "teaching": "The selected Church lesson reads the imprisoned spirits through Christ's visit to the spirit world.",
+      "ldsSources": [
+        "cfm-nt-2023-48"
+      ]
+    },
+    "4": {
+      "question": "How do hospitality and received gifts make love practical during insult and pressure?",
+      "teaching": "The selected Church lesson connects teaching to the dead with God's just judgment.",
+      "ldsSources": [
+        "cfm-nt-2023-48"
+      ]
+    },
+    "5": {
+      "question": "How does the chief Shepherd's promised appearance limit the authority of present leaders?"
+    }
+  }
+}

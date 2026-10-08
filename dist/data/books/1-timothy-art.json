@@ -1,0 +1,48 @@
+{
+  "paul": {
+    "src": "assets/portraits/acts/paul.png",
+    "generated": true,
+    "title": "Paul, also called Saul · interpretive portrait",
+    "credit": "AI-generated illustration",
+    "license": "Generated artwork",
+    "note": "Interpretive appearance for a selected first-century Acts profile."
+  },
+  "timothy": {
+    "src": "assets/portraits/romans/timothy.png",
+    "generated": true,
+    "title": "Timothy · interpretive portrait",
+    "credit": "AI-generated illustration",
+    "license": "Generated artwork",
+    "note": "Interpretive appearance for a selected first-century letter profile."
+  },
+  "jesus": {
+    "src": "assets/portraits/matthew/jesus.png",
+    "generated": true,
+    "title": "Jesus of Nazareth · interpretive portrait",
+    "credit": "AI-generated illustration",
+    "license": "Generated artwork",
+    "note": "Interpretive appearance for the selected first-century Gospel profile."
+  },
+  "adam": {
+    "title": "File:Michelangelo, Creation of Adam 06.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Michelangelo%2C_Creation_of_Adam_06.jpg/500px-Michelangelo%2C_Creation_of_Adam_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Michelangelo,_Creation_of_Adam_06.jpg",
+    "credit": "Michelangelo",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "description": "",
+    "src": "assets/portraits/genesis/adam.jpg",
+    "note": "Historical art illustrates the story. It does not establish actual appearance."
+  },
+  "eve": {
+    "title": "File:Adam and Eve by Lucas Cranach (I).jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Adam_and_Eve_by_Lucas_Cranach_%28I%29.jpg/500px-Adam_and_Eve_by_Lucas_Cranach_%28I%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Adam_and_Eve_by_Lucas_Cranach_(I).jpg",
+    "credit": "Lucas Cranach the Elder",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "description": "In the foreground: Prohibition of God to Adam and Eve, in the middle ground: Creation of Adam, the Fall, Discovery of the Fall, the Expulsion from Paradise",
+    "src": "assets/portraits/genesis/eve.jpg",
+    "note": "Historical art illustrates the story. It does not establish actual appearance."
+  }
+}

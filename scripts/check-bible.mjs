@@ -49,6 +49,7 @@ const firstKingsCounts=[53,46,28,34,18,38,51,66,28,29,43,33,34,31,34,34,24,46,21
 const secondKingsCounts=[18,25,27,44,27,33,20,29,37,36,21,21,25,29,38,20,41,37,37,21,26,20,37,20,30];
 const secondChroniclesCounts=[17,18,17,22,14,42,22,18,31,19,23,16,22,15,19,14,19,34,11,37,20,12,21,27,28,23,9,27,36,27,21,33,25,33,27,23];
 const ezraCounts=[11,70,13,24,17,22,28,36,15,44];
+const lamentationsCounts=[22,22,66,22,22];
 const nehemiahCounts=[11,20,32,23,19,19,73,18,38,39,36,47,31];
 const estherCounts=[22,23,15,17,14,14,10,17,32,3];
 const jobCounts=[22,13,26,21,27,30,21,22,35,22,20,25,28,22,35,22,16,21,29,29,34,30,17,25,6,14,23,28,25,31,40,22,33,37,16,33,24,41,30,24,34,17];
@@ -75,10 +76,18 @@ for(const book of directory.filter(b=>b.status==='ready'&&!['genesis','isaiah'].
     if(book.id==='1-chronicles')assert.equal(text.length,firstChroniclesCounts[c.chapter-1]);
     if(book.id==='2-chronicles')assert.equal(text.length,secondChroniclesCounts[c.chapter-1]);
     if(book.id==='ezra')assert.equal(text.length,ezraCounts[c.chapter-1]);
+    if(book.id==='lamentations')assert.equal(text.length,lamentationsCounts[c.chapter-1]);
     if(book.id==='nehemiah')assert.equal(text.length,nehemiahCounts[c.chapter-1]);
     if(book.id==='esther')assert.equal(text.length,estherCounts[c.chapter-1]);
     if(book.id==='job')assert.equal(text.length,jobCounts[c.chapter-1]);
-    text.forEach((v,i)=>{assert.equal(v.verse,i+1);assert(v.text&&!/\ufffd|\bundefined\b|\b(?:Exodus|Genesis)\s*</.test(v.text));});verses+=text.length;
+    const reviewedPublisherNotes={
+      'luke:17:36':'Some Greek manuscripts add: “Two will be in the field: the one taken, and the other left.”',
+      'acts:8:37':'TR adds Philip said, “If you believe with all your heart, you may.” He answered, “I believe that Jesus Christ is the Son of God.”',
+      'acts:15:34':'Some manuscripts add: But it seemed good to Silas to stay there.',
+      'acts:24:7':'TR adds “but the commanding officer, Lysias, came by and with great violence took him out of our hands,”',
+      'romans:16:25':'TR places Romans 14:24-26 at the end of Romans instead of at the end of chapter 14, and numbers these verses 16:25-27.'
+    };
+    text.forEach((v,i)=>{assert.equal(v.verse,i+1);assert((v.text || v.publisherNote)&&!/\ufffd|\bundefined\b|\b(?:Exodus|Genesis)\s*</.test(v.text));if(!v.text)assert.equal(v.publisherNote,reviewedPublisherNotes[`${book.id}:${c.chapter}:${v.verse}`]);});verses+=text.length;
     assert(c.summary&&c.meaning&&c.lds?.text&&c.historicalNote);
     for(const id of c.sourceIds)assert.equal(sources.get(id)?.perspective,'historical');
     for(const id of c.lds.sourceIds)assert.equal(sources.get(id)?.perspective,'lds');

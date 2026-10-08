@@ -1,0 +1,633 @@
+{
+  "sources": [
+    {
+      "id": "web",
+      "title": "Philippians · World English Bible",
+      "url": "https://ebible.org/engwebp/PHP01.htm",
+      "summary": "All four chapters supply the primary text for original close readings.",
+      "category": "Scripture",
+      "perspective": "historical",
+      "limits": "Exact dates, the prison city, original manuscripts, Greek forms, rival workers' identities, and the cause of the women's disagreement were not independently verified. The letter supplies Paul's perspective rather than a complete reply from others.",
+      "author": "World English Bible translators",
+      "publisher": "eBible.org",
+      "chapterCoverage": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "reviewed": {
+        "date": "2026-10-07",
+        "scope": "All 104 verses read for four original contextual explanations and exact selections. Surroundings, counts, and character integrity checked."
+      },
+      "type": "Scripture",
+      "limitations": "Exact dates, the prison city, original manuscripts, Greek forms, rival workers' identities, and the cause of the women's disagreement were not independently verified. The letter supplies Paul's perspective rather than a complete reply from others.",
+      "license": "Public domain"
+    },
+    {
+      "id": "works-philippians",
+      "title": "Commentary on Philippians 4:4-7",
+      "url": "https://www.workingpreacher.org/commentaries/revised-common-lectionary/third-sunday-of-advent-3/commentary-on-philippians-44-7-5",
+      "summary": "Works reads joy within suffering and uncertain waiting.",
+      "category": "Scholarly study",
+      "perspective": "historical",
+      "limits": "This is Works' interpretation. Her Greek analysis, wider Roman setting, and broader account of peace were not independently verified. Linked works were not reviewed.",
+      "author": "Carla Works",
+      "publisher": "Luther Seminary",
+      "year": 2021,
+      "chapterCoverage": [
+        4
+      ],
+      "reviewed": {
+        "date": "2026-10-07",
+        "scope": "Complete commentary body read. The guide attributes her reading of joy without denial of suffering."
+      },
+      "type": "Scholarly study",
+      "limitations": "This is Works' interpretation. Her Greek analysis, wider Roman setting, and broader account of peace were not independently verified. Linked works were not reviewed.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "cfm-nt-2023-42",
+      "title": "October 9–15 · Philippians; Colossians",
+      "url": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-sunday-school-new-testament-2023/42?lang=eng",
+      "summary": "The lesson studies changed conduct and joy through Christ.",
+      "category": "LDS Come, Follow Me",
+      "perspective": "lds",
+      "limits": "Philippians coverage follows actual discussion of chapters two and four. The lesson title does not establish coverage of every chapter. Linked talks, videos, and Restoration passages were not independently reviewed.",
+      "author": "The Church of Jesus Christ of Latter-day Saints",
+      "publisher": "The Church of Jesus Christ of Latter-day Saints",
+      "year": 2023,
+      "chapterCoverage": [
+        2,
+        4
+      ],
+      "reviewed": {
+        "date": "2026-10-07",
+        "scope": "Complete lesson body read, including its Colossians sections. Only Philippians two and four support this book's lesson references."
+      },
+      "type": "LDS Come, Follow Me",
+      "limitations": "Philippians coverage follows actual discussion of chapters two and four. The lesson title does not establish coverage of every chapter. Linked talks, videos, and Restoration passages were not independently reviewed.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "atlas-canaan",
+      "title": "Bible Maps: Canaan in Old Testament Times",
+      "perspective": "historical",
+      "category": "Geography",
+      "url": "https://www.churchofjesuschrist.org/study/scriptures/bible-maps/map-10?lang=eng",
+      "summary": "This Church-published atlas identifies towns and regions in Canaan.",
+      "limits": "Existing selected reference coordinates only. The earlier review record remains unchanged. This source does not verify Gospel events or exact routes.",
+      "type": "Geography",
+      "limitations": "Existing selected reference coordinates only. The earlier review record remains unchanged. This source does not verify Gospel events or exact routes.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "net-acts-map",
+      "title": "NET Bible · selected Acts location references",
+      "url": "https://classic.net.bible.org/dictionary.php?word=Antioch",
+      "summary": "Selected opening descriptions and coordinates distinguish cities named in Acts.",
+      "category": "Geographic reference",
+      "perspective": "historical",
+      "limits": "Broad reference points do not verify ancient events, travel paths, buildings, or coastlines. Older encyclopedia claims about authorship, law, populations, and exact dates were not adopted.",
+      "author": "NET Bible editors and linked reference contributors",
+      "publisher": "Bible.org",
+      "year": null,
+      "reviewed": {
+        "date": "2026-10-07",
+        "scope": "Opening descriptions and coordinate lines read for Rome, Corinth, Ephesus, Athens, Antioch, Caesarea, and Philippi. The Caesarea page also supplies the distinct Philippi coordinate. Both Antiochs remain separate. Only these location references are used."
+      },
+      "links": [
+        {
+          "label": "Rome",
+          "url": "https://classic.net.bible.org/dictionary.php?word=Rome"
+        },
+        {
+          "label": "Corinth",
+          "url": "https://classic.net.bible.org/dictionary.php?word=Corinth"
+        },
+        {
+          "label": "Ephesus",
+          "url": "https://classic.net.bible.org/dictionary.php?word=Ephesus"
+        },
+        {
+          "label": "Athens",
+          "url": "https://classic.net.bible.org/dictionary.php?word=Athens"
+        },
+        {
+          "label": "Antioch",
+          "url": "https://classic.net.bible.org/dictionary.php?word=Antioch"
+        },
+        {
+          "label": "Caesarea",
+          "url": "https://classic.net.bible.org/dictionary.php?word=Caesarea"
+        }
+      ],
+      "type": "Geographic reference",
+      "limitations": "Broad reference points do not verify ancient events, travel paths, buildings, or coastlines. Older encyclopedia claims about authorship, law, populations, and exact dates were not adopted.",
+      "license": "Linked source. Original guide summaries."
+    }
+  ],
+  "passages": [
+    {
+      "id": "philippians-1",
+      "chapter": 1,
+      "start": 1,
+      "end": 30,
+      "title": "Paul measures uncertain imprisonment through the hearers' continuing need",
+      "summary": "Paul and Timothy write to the saints at Philippi with their overseers and servants. Paul thanks God for their partnership from the first day. He prays that their love will grow in knowledge. He says his chains have helped the good news spread through the whole guard. Some announce Christ from envy, some from good will, and he rejoices. He does not know whether he will live or die. To live is Christ, and to die is gain. He asks them to stand firm in one spirit and not fear their opponents.",
+      "year": null,
+      "dateLabel": "Book order",
+      "uncertainty": "The marker identifies the named recipient city. No exact prison, home, or heavenly location is assigned.",
+      "placeIds": [
+        "philippi"
+      ],
+      "sourceIds": [
+        "web"
+      ],
+      "lds": {
+        "text": "Why does Paul place the hearers' need beside his own desire to depart?",
+        "sourceIds": []
+      },
+      "contextNote": {
+        "title": "Paul measures uncertain imprisonment through the hearers' continuing need",
+        "text": "Paul writes in chains and does not know the outcome (verses 13 and 20). Verse 21 says both outcomes are good to him. Verse 23 states his own wish: to depart and be with Christ. Verse 24 sets the readers’ need against that wish. To remain is “more needful” for them. Verse 25 says this convinces him that he will stay. His reason for staying is their progress and joy in the faith.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    },
+    {
+      "id": "philippians-2",
+      "chapter": 2,
+      "start": 1,
+      "end": 30,
+      "title": "Christ's lowered position supplies the pattern for workers who serve others",
+      "summary": "Paul asks them to be of one mind and to do nothing from rivalry. Each should count others better than himself. He tells them to have the mind of Christ Jesus. Christ existed in the form of God and emptied himself, taking a servant’s form. He was obedient to death on a cross. God exalted him, so that every knee will bow. They are to work out their salvation and shine as lights. Paul plans to send Timothy, and he sends back Epaphroditus, who nearly died.",
+      "year": null,
+      "dateLabel": "Book order",
+      "uncertainty": "The marker identifies the named recipient city. No exact prison, home, or heavenly location is assigned.",
+      "placeIds": [],
+      "sourceIds": [
+        "web"
+      ],
+      "lds": {
+        "text": "The selected Church lesson teaches changed conduct through humility and care for others. How do Timothy and Epaphroditus give personal examples of concern for others?",
+        "sourceIds": [
+          "cfm-nt-2023-42"
+        ]
+      },
+      "contextNote": {
+        "title": "Christ's lowered position supplies the pattern for workers who serve others",
+        "text": "Verse 3 forbids rivalry and conceit. Verse 4 states the same thing as a direction for the eyes. Each is to look to the things of others, not only his own. Verses 6–8 give the pattern: Christ did not grasp equality with God. He emptied himself and became obedient to death. The chapter then names two people who do this. Timothy cares for their state (verse 20), and Epaphroditus risked his life (verse 30).",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    },
+    {
+      "id": "philippians-3",
+      "chapter": 3,
+      "start": 1,
+      "end": 21,
+      "title": "Paul exchanges claims to rank for a pursuit he has not yet completed",
+      "summary": "Paul warns against those who insist on circumcision. He lists his own grounds for confidence in the flesh. He was of Benjamin, a Pharisee, and blameless in the law. He counts all of it loss for the sake of knowing Christ. He wants a righteousness that is through faith. He has not yet reached the goal and presses on toward the prize. He asks them to follow his example. He says their citizenship is in heaven, and Christ will change their bodies.",
+      "year": null,
+      "dateLabel": "Book order",
+      "uncertainty": "The marker identifies the named recipient city. No exact prison, home, or heavenly location is assigned.",
+      "placeIds": [],
+      "sourceIds": [
+        "web"
+      ],
+      "lds": {
+        "text": "Why does Paul describe pursuit rather than claim completed perfection?",
+        "sourceIds": []
+      },
+      "contextNote": {
+        "title": "Paul exchanges claims to rank for a pursuit he has not yet completed",
+        "text": "Verses 5–6 give a proud record, and verse 7 calls it loss. Verses 10–11 say what he wants: to know Christ and reach the resurrection. Verse 12 stops any claim that he has arrived. He has not obtained it and is not yet perfect. Two verbs carry the verse. Paul presses on to take hold, because Christ first took hold of him. Verse 13 repeats the denial, and verse 14 keeps him running toward the prize.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    },
+    {
+      "id": "philippians-4",
+      "chapter": 4,
+      "start": 1,
+      "end": 23,
+      "title": "Strength through Christ supports contentment within need and shared practical help",
+      "summary": "Paul begs Euodia and Syntyche to agree in the Lord. He tells them to rejoice always and to bring every request to God. God’s peace will guard their hearts. They should think on what is true, honorable, just, pure, and lovely. Paul rejoices that they have renewed their care for him. He has learned to be content in plenty and in hunger. He thanks them for the gifts sent by Epaphroditus. He sends greetings, including from those of Caesar’s household.",
+      "year": null,
+      "dateLabel": "Book order",
+      "uncertainty": "The marker identifies the named recipient city. No exact prison, home, or heavenly location is assigned.",
+      "placeIds": [],
+      "sourceIds": [
+        "web",
+        "works-philippians"
+      ],
+      "lds": {
+        "text": "The selected Church lesson teaches joy and contentment through Christ during difficult conditions. How does the gift show that contentment can still welcome help?",
+        "sourceIds": [
+          "cfm-nt-2023-42"
+        ]
+      },
+      "contextNote": {
+        "title": "Strength through Christ supports contentment within need and shared practical help",
+        "text": "Verse 10 thanks the Philippians for their gift. Verse 11 at once says Paul does not speak from need. He has learned to be content in every state. Verse 12 names the states: hunger and plenty, abundance and want. “All things” in verse 13 means those conditions. Christ gives him strength to live through each one. Verse 14 still says they did well to share in his trouble.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "philippians-1",
+      "chapter": 1,
+      "verse": 1,
+      "eventOrder": 1,
+      "title": "Paul measures uncertain imprisonment through the hearers' continuing need",
+      "summary": "Paul and Timothy write to the saints at Philippi with their overseers and servants. Paul thanks God for their partnership from the first day. He prays that their love will grow in knowledge. He says his chains have helped the good news spread through the whole guard. Some announce Christ from envy, some from good will, and he rejoices. He does not know whether he will live or die. To live is Christ, and to die is gain. He asks them to stand firm in one spirit and not fear their opponents.",
+      "detail": "Paul writes in chains and does not know the outcome (verses 13 and 20). Verse 21 says both outcomes are good to him. Verse 23 states his own wish: to depart and be with Christ. Verse 24 sets the readers’ need against that wish. To remain is “more needful” for them. Verse 25 says this convinces him that he will stay. His reason for staying is their progress and joy in the faith.",
+      "dateLabel": "Book order",
+      "uncertainty": "The marker identifies the named recipient city. No exact prison, home, or heavenly location is assigned.",
+      "sourceIds": [
+        "web"
+      ],
+      "placeIds": [
+        "philippi"
+      ],
+      "lds": {
+        "text": "Why does Paul place the hearers' need beside his own desire to depart?",
+        "sourceIds": []
+      }
+    },
+    {
+      "id": "philippians-2",
+      "chapter": 2,
+      "verse": 1,
+      "eventOrder": 2,
+      "title": "Christ's lowered position supplies the pattern for workers who serve others",
+      "summary": "Paul asks them to be of one mind and to do nothing from rivalry. Each should count others better than himself. He tells them to have the mind of Christ Jesus. Christ existed in the form of God and emptied himself, taking a servant’s form. He was obedient to death on a cross. God exalted him, so that every knee will bow. They are to work out their salvation and shine as lights. Paul plans to send Timothy, and he sends back Epaphroditus, who nearly died.",
+      "detail": "Verse 3 forbids rivalry and conceit. Verse 4 states the same thing as a direction for the eyes. Each is to look to the things of others, not only his own. Verses 6–8 give the pattern: Christ did not grasp equality with God. He emptied himself and became obedient to death. The chapter then names two people who do this. Timothy cares for their state (verse 20), and Epaphroditus risked his life (verse 30).",
+      "dateLabel": "Book order",
+      "uncertainty": "The marker identifies the named recipient city. No exact prison, home, or heavenly location is assigned.",
+      "sourceIds": [
+        "web"
+      ],
+      "placeIds": [],
+      "lds": {
+        "text": "The selected Church lesson teaches changed conduct through humility and care for others. How do Timothy and Epaphroditus give personal examples of concern for others?",
+        "sourceIds": [
+          "cfm-nt-2023-42"
+        ]
+      }
+    },
+    {
+      "id": "philippians-3",
+      "chapter": 3,
+      "verse": 1,
+      "eventOrder": 3,
+      "title": "Paul exchanges claims to rank for a pursuit he has not yet completed",
+      "summary": "Paul warns against those who insist on circumcision. He lists his own grounds for confidence in the flesh. He was of Benjamin, a Pharisee, and blameless in the law. He counts all of it loss for the sake of knowing Christ. He wants a righteousness that is through faith. He has not yet reached the goal and presses on toward the prize. He asks them to follow his example. He says their citizenship is in heaven, and Christ will change their bodies.",
+      "detail": "Verses 5–6 give a proud record, and verse 7 calls it loss. Verses 10–11 say what he wants: to know Christ and reach the resurrection. Verse 12 stops any claim that he has arrived. He has not obtained it and is not yet perfect. Two verbs carry the verse. Paul presses on to take hold, because Christ first took hold of him. Verse 13 repeats the denial, and verse 14 keeps him running toward the prize.",
+      "dateLabel": "Book order",
+      "uncertainty": "The marker identifies the named recipient city. No exact prison, home, or heavenly location is assigned.",
+      "sourceIds": [
+        "web"
+      ],
+      "placeIds": [],
+      "lds": {
+        "text": "Why does Paul describe pursuit rather than claim completed perfection?",
+        "sourceIds": []
+      }
+    },
+    {
+      "id": "philippians-4",
+      "chapter": 4,
+      "verse": 1,
+      "eventOrder": 4,
+      "title": "Strength through Christ supports contentment within need and shared practical help",
+      "summary": "Paul begs Euodia and Syntyche to agree in the Lord. He tells them to rejoice always and to bring every request to God. God’s peace will guard their hearts. They should think on what is true, honorable, just, pure, and lovely. Paul rejoices that they have renewed their care for him. He has learned to be content in plenty and in hunger. He thanks them for the gifts sent by Epaphroditus. He sends greetings, including from those of Caesar’s household.",
+      "detail": "Verse 10 thanks the Philippians for their gift. Verse 11 at once says Paul does not speak from need. He has learned to be content in every state. Verse 12 names the states: hunger and plenty, abundance and want. “All things” in verse 13 means those conditions. Christ gives him strength to live through each one. Verse 14 still says they did well to share in his trouble.",
+      "dateLabel": "Book order",
+      "uncertainty": "The marker identifies the named recipient city. No exact prison, home, or heavenly location is assigned.",
+      "sourceIds": [
+        "web",
+        "works-philippians"
+      ],
+      "placeIds": [],
+      "lds": {
+        "text": "The selected Church lesson teaches joy and contentment through Christ during difficult conditions. How does the gift show that contentment can still welcome help?",
+        "sourceIds": [
+          "cfm-nt-2023-42"
+        ]
+      }
+    }
+  ],
+  "places": [
+    {
+      "id": "philippi",
+      "name": "Philippi",
+      "lat": 41,
+      "lng": 24.283333333333335,
+      "summary": "Philippi is named as the recipients' city in the opening greeting.",
+      "limits": "Broad city reference. Exact houses, riverside meeting points, courtrooms, and ancient routes remain unassigned.",
+      "sourceIds": [
+        "web",
+        "net-acts-map"
+      ],
+      "verseScope": {},
+      "linkNames": [
+        "Philippi"
+      ],
+      "detail": "Philippi is named as the recipients' city in the opening greeting.",
+      "uncertainty": "Broad city reference. Exact houses, riverside meeting points, courtrooms, and ancient routes remain unassigned.",
+      "chapterLocation": true
+    }
+  ],
+  "campaigns": [],
+  "ancientRoads": [],
+  "regions": [],
+  "words": [
+    {
+      "id": "glossary-pharisees",
+      "label": "Pharisees",
+      "matches": [
+        "Pharisee",
+        "Pharisees"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A Jewish group known for careful keeping of the law. Acts 23:8 says they believed in resurrection, angels, and spirits.",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    },
+    {
+      "id": "glossary-apostles",
+      "label": "Apostles",
+      "matches": [
+        "apostle",
+        "apostles"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "People sent out with a message. In the Gospels the word names twelve whom Jesus chose.",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    },
+    {
+      "id": "glossary-saints",
+      "label": "Saints",
+      "matches": [
+        "saints"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "People set apart as holy. In the letters the word means the believers in a place.",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    },
+    {
+      "id": "glossary-assembly",
+      "label": "Assembly",
+      "matches": [
+        "assembly",
+        "assemblies"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A gathering of people. In the New Testament letters it means a group of believers. Many translations say “church.”",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    },
+    {
+      "id": "glossary-circumcision",
+      "label": "Circumcision",
+      "matches": [
+        "circumcision",
+        "circumcised",
+        "circumcise",
+        "uncircumcised",
+        "uncircumcision"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "The cutting of the foreskin. Genesis 17 makes it the sign of God’s covenant with Abraham.",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    }
+  ],
+  "guides": [
+    {
+      "id": "philippians-context",
+      "title": "Philippians: context and evidence",
+      "description": "Explore the book’s larger concerns through selected passages and relevant evidence.",
+      "steps": [
+        {
+          "title": "Paul measures uncertain imprisonment through the hearers' continuing need",
+          "text": "Paul writes in chains and does not know the outcome (verses 13 and 20). Verse 21 says both outcomes are good to him. Verse 23 states his own wish: to depart and be with Christ. Verse 24 sets the readers’ need against that wish. To remain is “more needful” for them. Verse 25 says this convinces him that he will stay. His reason for staying is their progress and joy in the faith.",
+          "chapter": 1,
+          "verse": 24,
+          "sourceIds": [
+            "web"
+          ]
+        },
+        {
+          "title": "Christ's lowered position supplies the pattern for workers who serve others",
+          "text": "Verse 3 forbids rivalry and conceit. Verse 4 states the same thing as a direction for the eyes. Each is to look to the things of others, not only his own. Verses 6–8 give the pattern: Christ did not grasp equality with God. He emptied himself and became obedient to death. The chapter then names two people who do this. Timothy cares for their state (verse 20), and Epaphroditus risked his life (verse 30).",
+          "chapter": 2,
+          "verse": 4,
+          "sourceIds": [
+            "web"
+          ]
+        },
+        {
+          "title": "Paul exchanges claims to rank for a pursuit he has not yet completed",
+          "text": "Verses 5–6 give a proud record, and verse 7 calls it loss. Verses 10–11 say what he wants: to know Christ and reach the resurrection. Verse 12 stops any claim that he has arrived. He has not obtained it and is not yet perfect. Two verbs carry the verse. Paul presses on to take hold, because Christ first took hold of him. Verse 13 repeats the denial, and verse 14 keeps him running toward the prize.",
+          "chapter": 3,
+          "verse": 12,
+          "sourceIds": [
+            "web"
+          ]
+        },
+        {
+          "title": "Strength through Christ supports contentment within need and shared practical help",
+          "text": "Verse 10 thanks the Philippians for their gift. Verse 11 at once says Paul does not speak from need. He has learned to be content in every state. Verse 12 names the states: hunger and plenty, abundance and want. “All things” in verse 13 means those conditions. Christ gives him strength to live through each one. Verse 14 still says they did well to share in his trouble.",
+          "chapter": 4,
+          "verse": 13,
+          "sourceIds": [
+            "web"
+          ]
+        }
+      ]
+    }
+  ],
+  "periods": [
+    {
+      "id": "part-0",
+      "label": "Philippians 1–1",
+      "start": 1,
+      "end": 1,
+      "description": "Chapter order"
+    },
+    {
+      "id": "part-1",
+      "label": "Philippians 2–2",
+      "start": 2,
+      "end": 2,
+      "description": "Chapter order"
+    },
+    {
+      "id": "part-2",
+      "label": "Philippians 3–4",
+      "start": 3,
+      "end": 4,
+      "description": "Chapter order"
+    }
+  ],
+  "chapterMaps": [
+    {
+      "chapter": 1,
+      "focusPlaceIds": [
+        "philippi"
+      ],
+      "placeIds": [
+        "philippi"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "The marker identifies the named recipient city. No exact prison, home, or heavenly location is assigned.",
+      "narrative": "Paul and Timothy write to the saints at Philippi with their overseers and servants. Paul thanks God for their partnership from the first day. He prays that their love will grow in knowledge. He says his chains have helped the good news spread through the whole guard. Some announce Christ from envy, some from good will, and he rejoices. He does not know whether he will live or die. To live is Christ, and to die is gain. He asks them to stand firm in one spirit and not fear their opponents.",
+      "limits": "The marker identifies the named recipient city. No exact prison, home, or heavenly location is assigned.",
+      "sourceIds": [
+        "web"
+      ]
+    },
+    {
+      "chapter": 2,
+      "focusPlaceIds": [],
+      "placeIds": [],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "The marker identifies the named recipient city. No exact prison, home, or heavenly location is assigned.",
+      "narrative": "Paul asks them to be of one mind and to do nothing from rivalry. Each should count others better than himself. He tells them to have the mind of Christ Jesus. Christ existed in the form of God and emptied himself, taking a servant’s form. He was obedient to death on a cross. God exalted him, so that every knee will bow. They are to work out their salvation and shine as lights. Paul plans to send Timothy, and he sends back Epaphroditus, who nearly died.",
+      "limits": "The marker identifies the named recipient city. No exact prison, home, or heavenly location is assigned.",
+      "sourceIds": [
+        "web"
+      ]
+    },
+    {
+      "chapter": 3,
+      "focusPlaceIds": [],
+      "placeIds": [],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "The marker identifies the named recipient city. No exact prison, home, or heavenly location is assigned.",
+      "narrative": "Paul warns against those who insist on circumcision. He lists his own grounds for confidence in the flesh. He was of Benjamin, a Pharisee, and blameless in the law. He counts all of it loss for the sake of knowing Christ. He wants a righteousness that is through faith. He has not yet reached the goal and presses on toward the prize. He asks them to follow his example. He says their citizenship is in heaven, and Christ will change their bodies.",
+      "limits": "The marker identifies the named recipient city. No exact prison, home, or heavenly location is assigned.",
+      "sourceIds": [
+        "web"
+      ]
+    },
+    {
+      "chapter": 4,
+      "focusPlaceIds": [],
+      "placeIds": [],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "The marker identifies the named recipient city. No exact prison, home, or heavenly location is assigned.",
+      "narrative": "Paul begs Euodia and Syntyche to agree in the Lord. He tells them to rejoice always and to bring every request to God. God’s peace will guard their hearts. They should think on what is true, honorable, just, pure, and lovely. Paul rejoices that they have renewed their care for him. He has learned to be content in plenty and in hunger. He thanks them for the gifts sent by Epaphroditus. He sends greetings, including from those of Caesar’s household.",
+      "limits": "The marker identifies the named recipient city. No exact prison, home, or heavenly location is assigned.",
+      "sourceIds": [
+        "web",
+        "works-philippians"
+      ]
+    }
+  ],
+  "textRoutes": [],
+  "narrativeRegions": [],
+  "chapterStudies": [
+    {
+      "chapter": 1,
+      "verse": 24,
+      "context": ""
+    },
+    {
+      "chapter": 2,
+      "verse": 4,
+      "context": ""
+    },
+    {
+      "chapter": 3,
+      "verse": 12,
+      "context": ""
+    },
+    {
+      "chapter": 4,
+      "verse": 13,
+      "context": ""
+    }
+  ]
+}

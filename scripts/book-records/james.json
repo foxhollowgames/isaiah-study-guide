@@ -1,0 +1,191 @@
+{
+  "name": "James",
+  "code": "JAS",
+  "date": "2026-10-07",
+  "verseCounts": [
+    27,
+    26,
+    18,
+    17,
+    20
+  ],
+  "nextBook": "1-peter",
+  "description": "Wisdom · active faith · fair treatment · speech · shared care",
+  "limits": "James is the named letter speaker. His identification with a specific historical James, authorship, dates, Greek forms, manuscripts, exact addressed communities, and a full harmony with other letters were not independently verified. The unnamed trading city remains unlocated.",
+  "review": "All 108 verses read for five original contextual explanations and exact selections. Seven selected profiles do not claim exhaustive coverage. The speaker is not securely identified with another James. No unnamed city is assigned a location. Actual lesson discussion supplies Church scope. Sigmon's interpretation remains attributed.",
+  "sources": [
+    {
+      "id": "cfm-nt-2023-47",
+      "title": "November 13–19 · James",
+      "url": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-sunday-school-new-testament-2023/47?lang=eng",
+      "author": "The Church of Jesus Christ of Latter-day Saints",
+      "publisher": "The Church of Jesus Christ of Latter-day Saints",
+      "year": 2023,
+      "category": "LDS Come, Follow Me",
+      "perspective": "lds",
+      "summary": "The lesson joins seeking wisdom, patient endurance, active faith, and responsible words.",
+      "limits": "Coverage follows actual discussion of chapters one, two, three, and five. Its Joseph Smith application remains Church teaching. Linked Restoration passages, a talk, and a video were not independently reviewed.",
+      "chapterCoverage": [
+        1,
+        2,
+        3,
+        5
+      ],
+      "reviewed": {
+        "date": "2026-10-07",
+        "scope": "Complete lesson body read. Its teaching sections discuss wisdom, endurance, faith and works, fair treatment, and speech."
+      }
+    },
+    {
+      "id": "sigmon-james",
+      "title": "Commentary on James 2:1-10 [11-13] 14-17",
+      "url": "https://www.workingpreacher.org/commentaries/revised-common-lectionary/ordinary-23-2/commentary-on-james-21-10-11-13-14-17-5",
+      "author": "Casey Thornburgh Sigmon",
+      "publisher": "Luther Seminary",
+      "year": 2021,
+      "category": "Scholarly study",
+      "perspective": "historical",
+      "summary": "Sigmon connects preference for wealth with a gap between professed faith and conduct.",
+      "limits": "This is Sigmon's interpretation. Broader economic generalizations, ancient literature, modern political claims, and linked campaign material were not independently verified.",
+      "chapterCoverage": [
+        2
+      ],
+      "reviewed": {
+        "date": "2026-10-07",
+        "scope": "Complete commentary body read. The guide attributes her connection between preference for wealth and conduct that contradicts professed faith."
+      }
+    }
+  ],
+  "people": [
+    {
+      "id": "james-letter",
+      "name": "James",
+      "reuse": "james",
+      "role": "Named letter speaker who addresses the twelve tribes in their scattering",
+      "relations": "He calls himself a servant of God and of the Lord Jesus Christ.",
+      "meaning": "His instruction tests received faith through speech, fair treatment, and practical care.",
+      "chapters": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "passages": "James 1, 2, 3, 4, 5"
+    },
+    {
+      "id": "jesus",
+      "name": "Jesus Christ",
+      "reuse": "matthew",
+      "role": "Lord named in the greeting and the warning against favoring wealthy visitors",
+      "relations": "The hearers' faith in him must not accompany preference based on clothing or wealth.",
+      "meaning": "His named place grounds the challenge to unequal treatment within the assembly.",
+      "chapters": [
+        1,
+        2
+      ],
+      "passages": "James 1, 2",
+      "linkNames": [
+        "Jesus",
+        "Christ"
+      ]
+    },
+    {
+      "id": "abraham",
+      "name": "Abraham",
+      "reuse": "genesis",
+      "role": "Father whose offering of Isaac supplies an example of faith working through action",
+      "relations": "The speaker joins his trust, action, and description as God's friend.",
+      "meaning": "His example connects professed trust with conduct that completes its expression.",
+      "chapters": [
+        2
+      ],
+      "passages": "James 2"
+    },
+    {
+      "id": "isaac",
+      "name": "Isaac",
+      "reuse": "genesis",
+      "role": "Son named in the example of Abraham's offering",
+      "relations": "His place appears within the argument that Abraham's faith worked through action.",
+      "meaning": "His brief mention makes the example concern a costly act rather than words alone.",
+      "chapters": [
+        2
+      ],
+      "passages": "James 2"
+    },
+    {
+      "id": "rahab",
+      "name": "Rahab",
+      "reuse": "joshua",
+      "role": "Woman whose reception and sending of the messengers supplies an example of active faith",
+      "relations": "The speaker places her example beside Abraham's offering.",
+      "meaning": "Her different circumstances widen the argument about faith expressed through action.",
+      "chapters": [
+        2
+      ],
+      "passages": "James 2"
+    },
+    {
+      "id": "job",
+      "name": "Job",
+      "reuse": "job",
+      "role": "Enduring sufferer recalled beside the Lord's compassion and mercy",
+      "relations": "The speaker asks the hearers to remember his endurance and its outcome.",
+      "meaning": "His example supports patience without making present suffering evidence of abandonment.",
+      "chapters": [
+        5
+      ],
+      "passages": "James 5"
+    },
+    {
+      "id": "elijah",
+      "name": "Elijah",
+      "reuse": "1-kings",
+      "role": "Prophet whose prayer and received rain supply an example of effective prayer",
+      "relations": "The speaker stresses that his nature was like that of the hearers.",
+      "meaning": "His example connects shared human limits with the call to pray for one another.",
+      "chapters": [
+        5
+      ],
+      "passages": "James 5"
+    }
+  ],
+  "places": [],
+  "chapters": {
+    "1": {
+      "question": "Why does the mirror example make hearing without action a form of self-deception?",
+      "teaching": "The selected Church lesson applies asking for wisdom to Joseph Smith's experience.",
+      "ldsSources": [
+        "cfm-nt-2023-47"
+      ]
+    },
+    "2": {
+      "question": "How does the unmet need for food test a spoken claim to faith?",
+      "teaching": "The selected Church lesson joins active faith with love regardless of outward appearance.",
+      "ldsSources": [
+        "cfm-nt-2023-47"
+      ],
+      "historicalSources": [
+        "sigmon-james"
+      ]
+    },
+    "3": {
+      "question": "Why does blessing God conflict with cursing people made in God's image?",
+      "teaching": "The selected Church lesson teaches words that help people rather than cause harm.",
+      "ldsSources": [
+        "cfm-nt-2023-47"
+      ]
+    },
+    "4": {
+      "question": "How does uncertainty about tomorrow challenge both boasting and delayed good work?"
+    },
+    "5": {
+      "question": "How do withheld wages and shared prayer make endurance include care for other people?",
+      "teaching": "The selected Church lesson joins patient endurance with fair treatment of others.",
+      "ldsSources": [
+        "cfm-nt-2023-47"
+      ]
+    }
+  }
+}

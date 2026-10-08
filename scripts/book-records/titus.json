@@ -1,0 +1,189 @@
+{
+  "name": "Titus",
+  "code": "TIT",
+  "date": "2026-10-07",
+  "verseCounts": [
+    16,
+    15,
+    15
+  ],
+  "nextBook": "philemon",
+  "description": "Tested leaders · household care · grace · good work · shared support",
+  "limits": "Paul is the named letter speaker. Historical authorship, dates, Greek forms, manuscripts, ethnic generalizations, and a complete travel harmony were not independently verified. The quoted insult is not independent evidence for every Cretan. Nicopolis is not assigned a secure location.",
+  "review": "All 46 verses read for three original contextual explanations and exact selections. Five selected profiles and one island reference do not claim exhaustive coverage. Church coverage follows actual discussion. Pietz's reading remains attributed. NET locality and coordinates support Crete without an exact town. No independent ethnic character claim or secure Nicopolis identification is made.",
+  "sources": [
+    {
+      "id": "cfm-nt-2023-44",
+      "title": "October 23–29 · Timothy, Titus, and Philemon",
+      "url": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-sunday-school-new-testament-2023/44?lang=eng",
+      "author": "The Church of Jesus Christ of Latter-day Saints",
+      "publisher": "The Church of Jesus Christ of Latter-day Saints",
+      "year": 2023,
+      "category": "LDS Come, Follow Me",
+      "perspective": "lds",
+      "summary": "The lesson connects sound doctrine with protection from false teaching.",
+      "limits": "Titus coverage follows actual discussion of chapters one and two. The title alone does not establish chapter three or Philemon coverage. Linked Restoration passages were not independently reviewed.",
+      "chapterCoverage": [
+        1,
+        2
+      ],
+      "reviewed": {
+        "date": "2026-10-07",
+        "scope": "Complete lesson body and resource list read. Its actual Titus discussion supports only chapters one and two."
+      }
+    },
+    {
+      "id": "pietz-titus",
+      "title": "Commentary on Titus 2:11-14",
+      "url": "https://www.workingpreacher.org/commentaries/revised-common-lectionary/christmas-eve-nativity-of-our-lord/commentary-on-titus-211-14-10",
+      "author": "Jennifer Vija Pietz",
+      "publisher": "Luther Seminary",
+      "year": 2017,
+      "category": "Scholarly study",
+      "perspective": "historical",
+      "summary": "Pietz reads grace as the basis of changed conduct and good work.",
+      "limits": "This is Pietz's interpretation. Greek analysis, authorship, broader social claims about Crete, household codes, and cited books were not independently verified.",
+      "chapterCoverage": [
+        2
+      ],
+      "reviewed": {
+        "date": "2026-10-07",
+        "scope": "Complete commentary body and two notes read. The guide attributes the connection between grace and good work."
+      }
+    },
+    {
+      "id": "net-crete",
+      "title": "NET Bible · Crete",
+      "url": "https://classic.net.bible.org/dictionary.php/dictionary.php?word=CRETE",
+      "author": "NET Bible reference editors",
+      "publisher": "Bible.org",
+      "category": "Reference work",
+      "perspective": "historical",
+      "summary": "The dictionary identifies Crete as an island and supplies reference coordinates.",
+      "limits": "Only the opening locality description and coordinate line support the island marker. Old historical claims, ethnic stereotypes, exact towns, and travel sequences were not independently verified.",
+      "reviewed": {
+        "date": "2026-10-07",
+        "scope": "Opening island description and coordinate line read: 35 degrees 10 minutes north, 25 degrees east."
+      }
+    }
+  ],
+  "people": [
+    {
+      "id": "paul",
+      "name": "Paul",
+      "reuse": "acts",
+      "role": "Named letter speaker who directs Titus to complete work on Crete",
+      "relations": "He calls Titus a true child in their common faith.",
+      "passages": "Titus 1–3",
+      "meaning": "His instructions connect sound teaching with tested care and work that meets needs.",
+      "chapters": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "jesus",
+      "name": "Jesus Christ",
+      "reuse": "matthew",
+      "linkNames": [
+        "Jesus",
+        "Christ"
+      ],
+      "role": "Savior whose grace and self-giving ground the call to good work",
+      "relations": "The letter connects his past gift and promised appearing with present conduct.",
+      "passages": "Titus 1–3",
+      "meaning": "His work makes good deeds a response to grace rather than its purchase price.",
+      "chapters": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "titus",
+      "name": "Titus",
+      "reuse": "2-corinthians",
+      "role": "Addressed worker charged with appointing elders and teaching conduct that fits sound doctrine",
+      "relations": "Paul asks him to continue work on Crete and later come to Nicopolis.",
+      "passages": "Titus 1–3",
+      "meaning": "His task connects tested leaders, household instruction, and support for traveling workers.",
+      "chapters": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "tychicus",
+      "name": "Tychicus",
+      "reuse": "ephesians",
+      "role": "Worker named as a possible replacement before Titus leaves for Nicopolis",
+      "relations": "The speaker may send him or Artemas to Titus.",
+      "passages": "Titus 3:12",
+      "meaning": "The alternative sending keeps care for the assembly within shared work.",
+      "chapters": [
+        3
+      ]
+    },
+    {
+      "id": "apollos",
+      "name": "Apollos",
+      "reuse": "1-corinthians",
+      "role": "Traveling worker whom Titus must help continue his journey",
+      "relations": "The speaker asks that he and Zenas lack nothing for their journey.",
+      "passages": "Titus 3:13",
+      "meaning": "His need makes the call to useful work concrete through material support.",
+      "chapters": [
+        3
+      ]
+    }
+  ],
+  "places": [
+    {
+      "id": "crete",
+      "name": "Crete",
+      "lat": 35.166666666666664,
+      "lng": 25,
+      "summary": "Crete is the island where Titus remains to complete work and appoint elders.",
+      "limits": "Island reference rather than an exact town or meeting house.",
+      "sourceIds": [
+        "web",
+        "net-crete"
+      ],
+      "chapters": [
+        1
+      ],
+      "verseScope": {
+        "1": [
+          5
+        ]
+      },
+      "linkNames": [
+        "Crete"
+      ]
+    }
+  ],
+  "chapters": {
+    "1": {
+      "question": "Why does a teacher's conduct matter when whole households face disruption?",
+      "teaching": "The selected Church lesson teaches sound doctrine as protection against false instruction.",
+      "ldsSources": [
+        "cfm-nt-2023-44"
+      ]
+    },
+    "2": {
+      "question": "How does grace supply the reason for good work within these unequal instructions?",
+      "teaching": "The selected Church lesson teaches sound doctrine as protection against false instruction.",
+      "ldsSources": [
+        "cfm-nt-2023-44"
+      ],
+      "historicalSources": [
+        "pietz-titus"
+      ]
+    },
+    "3": {
+      "question": "How do the closing travel requests make useful work concrete?"
+    }
+  }
+}

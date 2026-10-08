@@ -1,0 +1,640 @@
+{
+  "id": "2-peter",
+  "bibleCode": "2PE",
+  "name": "2 Peter",
+  "description": "Growing qualities · recalled rescue · corrupt promises · patient hope",
+  "chapterCount": 3,
+  "scripture": {
+    "1": [
+      {
+        "verse": 1,
+        "text": "Simon Peter, a servant and apostle of Jesus Christ, to those who have obtained a like precious faith with us in the righteousness of our God and Savior, Jesus Christ:"
+      },
+      {
+        "verse": 2,
+        "text": "Grace to you and peace be multiplied in the knowledge of God and of Jesus our Lord,"
+      },
+      {
+        "verse": 3,
+        "text": "seeing that his divine power has granted to us all things that pertain to life and godliness, through the knowledge of him who called us by his own glory and virtue,"
+      },
+      {
+        "verse": 4,
+        "text": "by which he has granted to us his precious and exceedingly great promises; that through these you may become partakers of the divine nature, having escaped from the corruption that is in the world by lust."
+      },
+      {
+        "verse": 5,
+        "text": "Yes, and for this very cause adding on your part all diligence, in your faith supply moral excellence; and in moral excellence, knowledge;"
+      },
+      {
+        "verse": 6,
+        "text": "and in knowledge, self-control; and in self-control, perseverance; and in perseverance, godliness;"
+      },
+      {
+        "verse": 7,
+        "text": "and in godliness, brotherly affection; and in brotherly affection, love."
+      },
+      {
+        "verse": 8,
+        "text": "For if these things are yours and abound, they make you to not be idle or unfruitful in the knowledge of our Lord Jesus Christ."
+      },
+      {
+        "verse": 9,
+        "text": "For he who lacks these things is blind, seeing only what is near, having forgotten the cleansing from his old sins."
+      },
+      {
+        "verse": 10,
+        "text": "Therefore, brothers, be more diligent to make your calling and election sure. For if you do these things, you will never stumble."
+      },
+      {
+        "verse": 11,
+        "text": "For thus you will be richly supplied with the entrance into the eternal Kingdom of our Lord and Savior, Jesus Christ."
+      },
+      {
+        "verse": 12,
+        "text": "Therefore I will not be negligent to remind you of these things, though you know them and are established in the present truth."
+      },
+      {
+        "verse": 13,
+        "text": "I think it right, as long as I am in this tent, to stir you up by reminding you,"
+      },
+      {
+        "verse": 14,
+        "text": "knowing that the putting off of my tent comes swiftly, even as our Lord Jesus Christ made clear to me."
+      },
+      {
+        "verse": 15,
+        "text": "Yes, I will make every effort that you may always be able to remember these things even after my departure."
+      },
+      {
+        "verse": 16,
+        "text": "For we didn’t follow cunningly devised fables when we made known to you the power and coming of our Lord Jesus Christ, but we were eyewitnesses of his majesty."
+      },
+      {
+        "verse": 17,
+        "text": "For he received from God the Father honor and glory when the voice came to him from the Majestic Glory, “This is my beloved Son, in whom I am well pleased.”"
+      },
+      {
+        "verse": 18,
+        "text": "We heard this voice come out of heaven when we were with him on the holy mountain."
+      },
+      {
+        "verse": 19,
+        "text": "We have the more sure word of prophecy; and you do well that you heed it as to a lamp shining in a dark place, until the day dawns and the morning star arises in your hearts,"
+      },
+      {
+        "verse": 20,
+        "text": "knowing this first, that no prophecy of Scripture is of private interpretation."
+      },
+      {
+        "verse": 21,
+        "text": "For no prophecy ever came by the will of man, but holy men of God spoke, being moved by the Holy Spirit."
+      }
+    ],
+    "2": [
+      {
+        "verse": 1,
+        "text": "But false prophets also arose among the people, as false teachers will also be among you, who will secretly bring in destructive heresies, denying even the Master who bought them, bringing on themselves swift destruction."
+      },
+      {
+        "verse": 2,
+        "text": "Many will follow their immoral ways, and as a result, the way of the truth will be maligned."
+      },
+      {
+        "verse": 3,
+        "text": "In covetousness they will exploit you with deceptive words: whose sentence now from of old doesn’t linger, and their destruction will not slumber."
+      },
+      {
+        "verse": 4,
+        "text": "For if God didn’t spare angels when they sinned, but cast them down to Tartarus, and committed them to pits of darkness to be reserved for judgment;"
+      },
+      {
+        "verse": 5,
+        "text": "and didn’t spare the ancient world, but preserved Noah with seven others, a preacher of righteousness, when he brought a flood on the world of the ungodly,"
+      },
+      {
+        "verse": 6,
+        "text": "and turning the cities of Sodom and Gomorrah into ashes, condemned them to destruction, having made them an example to those who would live in an ungodly way,"
+      },
+      {
+        "verse": 7,
+        "text": "and delivered righteous Lot, who was very distressed by the lustful life of the wicked"
+      },
+      {
+        "verse": 8,
+        "text": "(for that righteous man dwelling among them was tormented in his righteous soul from day to day with seeing and hearing lawless deeds),"
+      },
+      {
+        "verse": 9,
+        "text": "then the Lord knows how to deliver the godly out of temptation and to keep the unrighteous under punishment for the day of judgment,"
+      },
+      {
+        "verse": 10,
+        "text": "but chiefly those who walk after the flesh in the lust of defilement and despise authority. Daring, self-willed, they are not afraid to speak evil of dignitaries,"
+      },
+      {
+        "verse": 11,
+        "text": "whereas angels, though greater in might and power, don’t bring a slanderous judgment against them before the Lord."
+      },
+      {
+        "verse": 12,
+        "text": "But these, as unreasoning creatures, born natural animals to be taken and destroyed, speaking evil in matters about which they are ignorant, will in their destroying surely be destroyed,"
+      },
+      {
+        "verse": 13,
+        "text": "receiving the wages of unrighteousness; people who count it pleasure to revel in the daytime, spots and defects, reveling in their deceit while they feast with you;"
+      },
+      {
+        "verse": 14,
+        "text": "having eyes full of adultery, and who can’t cease from sin, enticing unsettled souls, having a heart trained in greed, accursed children!"
+      },
+      {
+        "verse": 15,
+        "text": "Forsaking the right way, they went astray, having followed the way of Balaam the son of Beor, who loved the wages of wrongdoing;"
+      },
+      {
+        "verse": 16,
+        "text": "but he was rebuked for his own disobedience. A speechless donkey spoke with a man’s voice and stopped the madness of the prophet."
+      },
+      {
+        "verse": 17,
+        "text": "These are wells without water, clouds driven by a storm, for whom the blackness of darkness has been reserved forever."
+      },
+      {
+        "verse": 18,
+        "text": "For, uttering great swelling words of emptiness, they entice in the lusts of the flesh, by licentiousness, those who are indeed escaping from those who live in error;"
+      },
+      {
+        "verse": 19,
+        "text": "promising them liberty, while they themselves are bondservants of corruption; for a man is brought into bondage by whoever overcomes him."
+      },
+      {
+        "verse": 20,
+        "text": "For if, after they have escaped the defilement of the world through the knowledge of the Lord and Savior Jesus Christ, they are again entangled in it and overcome, the last state has become worse for them than the first."
+      },
+      {
+        "verse": 21,
+        "text": "For it would be better for them not to have known the way of righteousness, than after knowing it, to turn back from the holy commandment delivered to them."
+      },
+      {
+        "verse": 22,
+        "text": "But it has happened to them according to the true proverb, “The dog turns to his own vomit again,” and “the sow that has washed to wallowing in the mire.”"
+      }
+    ],
+    "3": [
+      {
+        "verse": 1,
+        "text": "This is now, beloved, the second letter that I have written to you; and in both of them I stir up your sincere mind by reminding you"
+      },
+      {
+        "verse": 2,
+        "text": "that you should remember the words which were spoken before by the holy prophets and the commandment of us, the apostles of the Lord and Savior,"
+      },
+      {
+        "verse": 3,
+        "text": "knowing this first, that in the last days mockers will come, walking after their own lusts"
+      },
+      {
+        "verse": 4,
+        "text": "and saying, “Where is the promise of his coming? For, from the day that the fathers fell asleep, all things continue as they were from the beginning of the creation.”"
+      },
+      {
+        "verse": 5,
+        "text": "For they willfully forget that there were heavens from of old, and an earth formed out of water and amid water by the word of God,"
+      },
+      {
+        "verse": 6,
+        "text": "by which means the world that existed then, being overflowed with water, perished."
+      },
+      {
+        "verse": 7,
+        "text": "But the heavens that exist now and the earth, by the same word have been stored up for fire, being reserved against the day of judgment and destruction of ungodly men."
+      },
+      {
+        "verse": 8,
+        "text": "But don’t forget this one thing, beloved, that one day is with the Lord as a thousand years, and a thousand years as one day."
+      },
+      {
+        "verse": 9,
+        "text": "The Lord is not slow concerning his promise, as some count slowness; but he is patient with us, not wishing that anyone should perish, but that all should come to repentance."
+      },
+      {
+        "verse": 10,
+        "text": "But the day of the Lord will come as a thief in the night, in which the heavens will pass away with a great noise, and the elements will be dissolved with fervent heat; and the earth and the works that are in it will be burned up."
+      },
+      {
+        "verse": 11,
+        "text": "Therefore, since all these things will be destroyed like this, what kind of people ought you to be in holy living and godliness,"
+      },
+      {
+        "verse": 12,
+        "text": "looking for and earnestly desiring the coming of the day of God, which will cause the burning heavens to be dissolved, and the elements will melt with fervent heat?"
+      },
+      {
+        "verse": 13,
+        "text": "But, according to his promise, we look for new heavens and a new earth, in which righteousness dwells."
+      },
+      {
+        "verse": 14,
+        "text": "Therefore, beloved, seeing that you look for these things, be diligent to be found in peace, without defect and blameless in his sight."
+      },
+      {
+        "verse": 15,
+        "text": "Regard the patience of our Lord as salvation; even as our beloved brother Paul also, according to the wisdom given to him, wrote to you,"
+      },
+      {
+        "verse": 16,
+        "text": "as also in all of his letters, speaking in them of these things. In those, there are some things that are hard to understand, which the ignorant and unsettled twist, as they also do to the other Scriptures, to their own destruction."
+      },
+      {
+        "verse": 17,
+        "text": "You therefore, beloved, knowing these things beforehand, beware, lest being carried away with the error of the wicked, you fall from your own steadfastness."
+      },
+      {
+        "verse": 18,
+        "text": "But grow in the grace and knowledge of our Lord and Savior Jesus Christ. To him be the glory both now and forever. Amen."
+      }
+    ]
+  },
+  "chapters": [
+    {
+      "chapter": 1,
+      "title": "Received gifts require growth while remembered witness supports the coming promise",
+      "summary": "Simon Peter writes to those who share the same precious faith. God’s power has given them all they need for life and godliness. Through his promises they share in the divine nature. They are to add goodness, knowledge, self-control, endurance, godliness, affection, and love to faith. With these they will not be idle or unfruitful. Peter says he will soon put off his tent and wants them to remember. He was an eyewitness of Christ’s majesty on the holy mountain. Prophecy came as the Holy Spirit moved men, not by human will.",
+      "meaning": "Verses 3–4 say God has given everything needed and great promises. Verses 5–7 list what to add, from faith through to love. Verse 8 gives the result if these qualities are theirs and growing. They will not be idle or unfruitful in knowing the Lord Jesus Christ. Knowledge is meant to bear fruit. Verse 9 says one who lacks them is blind and forgets his cleansing. Verse 10 tells them to make their calling sure.",
+      "people": [
+        "peter",
+        "jesus"
+      ],
+      "places": [],
+      "sourceIds": [
+        "web"
+      ],
+      "lds": {
+        "text": "The selected Church lesson connects growing Christlike qualities with developing our divine nature. How does growth in love prevent received knowledge from remaining idle?",
+        "sourceIds": [
+          "cfm-nt-2023-48"
+        ]
+      },
+      "eventOrder": 1,
+      "dateLabel": "Book order",
+      "historicalNote": "The opening joins received faith with gifts that make a changed life possible. The list of qualities connects faith with knowledge, self-control, endurance, affection, and love. Their growth prevents knowledge from becoming idle while their absence suggests forgotten cleansing. The speaker therefore repeats reminders because his approaching death will remove his present voice. The remembered mountain voice supports the promise through witness rather than an invented story. Prophecy appears as a lamp whose source lies with God's Spirit rather than human will.",
+      "mapNote": "No exact location is assigned to unnamed or heavenly settings.",
+      "route": [],
+      "routeEvidence": "No exact travel route is reconstructed.",
+      "contextNote": {
+        "title": "Received gifts require growth while remembered witness supports the coming promise",
+        "text": "Verses 3–4 say God has given everything needed and great promises. Verses 5–7 list what to add, from faith through to love. Verse 8 gives the result if these qualities are theirs and growing. They will not be idle or unfruitful in knowing the Lord Jesus Christ. Knowledge is meant to bear fruit. Verse 9 says one who lacks them is blind and forgets his cleansing. Verse 10 tells them to make their calling sure.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    },
+    {
+      "chapter": 2,
+      "title": "Promises of freedom conceal greed and renewed slavery when conduct denies the message",
+      "summary": "Peter warns that false teachers will come among them, as false prophets did. In greed they will exploit the readers with made-up words. God did not spare the angels who sinned or the ancient world. He saved Noah and rescued Lot from Sodom. These teachers despise authority and are like unreasoning animals. They have followed the way of Balaam, who loved the wages of wrongdoing. They are springs without water. They promise freedom, and their last state is worse than the first.",
+      "meaning": "Verse 18 says these teachers entice people who are just escaping from error. Verse 19 names the bait: a promise of liberty. It then names the teachers’ real condition: they are bondservants of corruption. The verse gives a general rule to prove it. A person is a slave of whatever overcomes him. Verses 20–22 apply it to those who return to the world’s defilements. Their last state is worse than the first.",
+      "people": [
+        "peter",
+        "jesus",
+        "noah",
+        "lot",
+        "balaam"
+      ],
+      "places": [
+        "sodom"
+      ],
+      "sourceIds": [
+        "web"
+      ],
+      "lds": {
+        "text": "Why can promised freedom become a form of slavery when conduct remains corrupt?",
+        "sourceIds": []
+      },
+      "eventOrder": 2,
+      "dateLabel": "Book order",
+      "historicalNote": "False teachers appear through destructive teaching, greed, and exploitation rather than harmless disagreement. Earlier judgments supply comparisons, while Noah and Lot show that rescue can accompany judgment. These recalled events make present power unable to remove accountability before God. Balaam's rebuke introduces the contradiction between claimed insight and desire for payment. Empty wells describe teachers whose promises offer refreshment without supplying it. Their promised freedom conceals slavery to corruption, while the final animal comparisons describe destructive return.",
+      "mapNote": "No exact location is assigned to unnamed or heavenly settings.",
+      "route": [],
+      "routeEvidence": "No exact travel route is reconstructed.",
+      "contextNote": {
+        "title": "Promises of freedom conceal greed and renewed slavery when conduct denies the message",
+        "text": "Verse 18 says these teachers entice people who are just escaping from error. Verse 19 names the bait: a promise of liberty. It then names the teachers’ real condition: they are bondservants of corruption. The verse gives a general rule to prove it. A person is a slave of whatever overcomes him. Verses 20–22 apply it to those who return to the world’s defilements. Their last state is worse than the first.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    },
+    {
+      "chapter": 3,
+      "title": "The delayed promise calls for patient hope and changed conduct without an exact countdown",
+      "summary": "Peter says this is his second letter and reminds them of the prophets’ words. Mockers will ask where the promise of his coming is. They forget that the world was once destroyed by water. The present heavens and earth are kept for fire. With the Lord one day is as a thousand years. The day of the Lord will come like a thief. They should live in holiness and look for new heavens and a new earth. Peter mentions Paul’s letters, which some twist.",
+      "meaning": "Verse 4 gives the mockers’ argument: nothing has changed since the fathers died. Verse 8 answers about time: a thousand years are as a day. Verse 9 answers about motive. The delay is not slowness; it is patience. God does not wish anyone to perish. He wants all to come to repentance. Verse 15 repeats it: count the Lord’s patience as salvation.",
+      "people": [
+        "peter",
+        "jesus",
+        "paul"
+      ],
+      "places": [],
+      "sourceIds": [
+        "web",
+        "lange-peter"
+      ],
+      "lds": {
+        "text": "How does patient waiting change present conduct without supplying a date for the coming day?",
+        "sourceIds": []
+      },
+      "eventOrder": 3,
+      "dateLabel": "Book order",
+      "historicalNote": "Mockers treat the world's apparent continuity as proof that the promised coming will fail. The reply recalls creation and the flood to challenge that account of unchanged conditions. The comparison between days and years prevents human measures from controlling God's promise. Lange reads the delay as an occasion for hope that changes present conduct. Patience allows repentance, while the unexpected day calls for holiness rather than a calculated date. The closing warning about twisted letters joins careful reading with growth in grace and knowledge.",
+      "mapNote": "No exact location is assigned to unnamed or heavenly settings.",
+      "route": [],
+      "routeEvidence": "No exact travel route is reconstructed.",
+      "contextNote": {
+        "title": "The delayed promise calls for patient hope and changed conduct without an exact countdown",
+        "text": "Verse 4 gives the mockers’ argument: nothing has changed since the fathers died. Verse 8 answers about time: a thousand years are as a day. Verse 9 answers about motive. The delay is not slowness; it is patience. God does not wish anyone to perish. He wants all to come to repentance. Verse 15 repeats it: count the Lord’s patience as salvation.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    }
+  ],
+  "people": [
+    {
+      "id": "peter",
+      "name": "Peter",
+      "role": "Named speaker who recalls the mountain witness and prepares reminders before his death",
+      "relations": "He addresses believers and later names Paul as a beloved brother.",
+      "passages": "Second Peter 1, 2, 3",
+      "meaning": "His reminders connect received knowledge with conduct and continued growth.",
+      "life": "Birth and death years are not securely known.",
+      "sourceIds": [
+        "web"
+      ],
+      "placeIds": [],
+      "linkNames": [
+        "Peter"
+      ],
+      "verseScope": {}
+    },
+    {
+      "id": "jesus",
+      "name": "Jesus Christ",
+      "role": "Lord whose power supplies gifts for life and whose coming remains promised",
+      "relations": "The speaker recalls the voice identifying him as the beloved Son.",
+      "passages": "Second Peter 1, 2, 3",
+      "meaning": "His promised coming makes present conduct significant even when waiting continues.",
+      "life": "Birth and death years are not securely known.",
+      "sourceIds": [
+        "web"
+      ],
+      "placeIds": [],
+      "linkNames": [
+        "Jesus",
+        "Christ"
+      ],
+      "verseScope": {}
+    },
+    {
+      "id": "noah",
+      "name": "Noah",
+      "role": "Herald of righteousness recalled as preserved during the flood",
+      "relations": "He appears among earlier examples of judgment and rescue.",
+      "passages": "Second Peter 2",
+      "meaning": "His preservation prevents the judgment comparisons from excluding the possibility of rescue.",
+      "life": "Birth and death years are not securely known.",
+      "sourceIds": [
+        "web"
+      ],
+      "placeIds": [],
+      "linkNames": [
+        "Noah"
+      ],
+      "verseScope": {}
+    },
+    {
+      "id": "lot",
+      "name": "Lot",
+      "role": "Man recalled as distressed by wrongdoing and rescued from destruction",
+      "relations": "His rescue stands beside the destruction of Sodom and Gomorrah.",
+      "passages": "Second Peter 2",
+      "meaning": "The comparison connects judgment with the Lord's ability to rescue the godly.",
+      "life": "Birth and death years are not securely known.",
+      "sourceIds": [
+        "web"
+      ],
+      "placeIds": [],
+      "linkNames": [
+        "Lot"
+      ],
+      "verseScope": {}
+    },
+    {
+      "id": "balaam",
+      "name": "Balaam",
+      "role": "Prophet recalled through his desire for payment and the donkey's rebuke",
+      "relations": "His recalled error supplies a comparison for the false teachers' greed.",
+      "passages": "Second Peter 2",
+      "meaning": "The rebuke exposes the contradiction between claimed knowledge and corrupt desire.",
+      "life": "Birth and death years are not securely known.",
+      "sourceIds": [
+        "web"
+      ],
+      "placeIds": [],
+      "linkNames": [
+        "Balaam"
+      ],
+      "verseScope": {}
+    },
+    {
+      "id": "paul",
+      "name": "Paul",
+      "role": "Beloved brother whose letters the speaker says contain difficult passages",
+      "relations": "The speaker warns that unstable readers twist his letters alongside other Scriptures.",
+      "passages": "Second Peter 3",
+      "meaning": "His mention makes responsible reading part of the final call to growth.",
+      "life": "Birth and death years are not securely known.",
+      "sourceIds": [
+        "web"
+      ],
+      "placeIds": [],
+      "linkNames": [
+        "Paul"
+      ],
+      "verseScope": {}
+    }
+  ],
+  "places": [
+    {
+      "id": "sodom",
+      "name": "Sodom / Dead Sea region",
+      "lat": 31.2,
+      "lng": 35.5,
+      "summary": "The letter recalls Sodom's destruction beside Lot's rescue.",
+      "limits": "The site is disputed. This marker shows a region rather than a confirmed city.",
+      "sourceIds": [
+        "web",
+        "atlas",
+        "atlas-canaan"
+      ],
+      "verseScope": {
+        "2": [
+          6
+        ]
+      },
+      "linkNames": [
+        "Sodom"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "web",
+      "title": "2 Peter · World English Bible",
+      "url": "https://ebible.org/engwebp/2PE01.htm",
+      "summary": "Complete Scripture supplies the primary text for original close readings.",
+      "category": "Scripture",
+      "perspective": "historical",
+      "limits": "Peter is the named speaker. Historical authorship, dates, Greek forms, exact audience conditions, and the mountain's identity were not independently verified. The coming day has no calculated date. Sodom remains a disputed regional marker.",
+      "author": "World English Bible translators",
+      "publisher": "eBible.org",
+      "chapterCoverage": [
+        1,
+        2,
+        3
+      ],
+      "reviewed": {
+        "date": "2026-10-07",
+        "scope": "All 61 verses read for 3 original contextual explanations and exact selections. Surroundings, counts, and character integrity checked."
+      }
+    },
+    {
+      "id": "cfm-nt-2023-48",
+      "title": "November 20–26 · First and Second Peter",
+      "url": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-sunday-school-new-testament-2023/48?lang=eng",
+      "author": "The Church of Jesus Christ of Latter-day Saints",
+      "publisher": "The Church of Jesus Christ of Latter-day Saints",
+      "year": 2023,
+      "category": "LDS Come, Follow Me",
+      "perspective": "lds",
+      "summary": "The lesson connects growth in Christlike qualities with developing divine nature.",
+      "limits": "Only actual Second Peter chapter one discussion supports this reference. First Peter applications, linked talks, and Restoration texts do not extend coverage to other chapters.",
+      "chapterCoverage": [
+        1
+      ],
+      "reviewed": {
+        "date": "2026-10-07",
+        "scope": "Complete lesson body and included resource excerpt read. Second Peter coverage follows the actual discussion of 1:1–11."
+      }
+    },
+    {
+      "id": "lange-peter",
+      "title": "Commentary on 2 Peter 3:8-15a",
+      "url": "https://www.workingpreacher.org/commentaries/revised-common-lectionary/second-sunday-of-advent-2/commentary-on-2-peter-38-15a",
+      "author": "Dirk G. Lange",
+      "publisher": "Luther Seminary",
+      "year": 2011,
+      "category": "Scholarly study",
+      "perspective": "historical",
+      "summary": "Lange reads waiting as hope that changes present conduct.",
+      "limits": "This is Lange's interpretation. His historical authorship assertion, Greek comparisons, and wider historical claims were not independently verified. The guide assigns no exact date to the promised coming.",
+      "chapterCoverage": [
+        3
+      ],
+      "reviewed": {
+        "date": "2026-10-07",
+        "scope": "Complete commentary body read. The guide attributes his connection between waiting, hope, and present conduct."
+      }
+    },
+    {
+      "id": "atlas",
+      "title": "Bible Maps: The World of the Old Testament",
+      "perspective": "historical",
+      "category": "Geography",
+      "url": "https://www.churchofjesuschrist.org/study/scriptures/bible-maps/map-9?lang=eng",
+      "summary": "This Church-published atlas locates the wider setting and marks some disputed places.",
+      "limits": "Use the geographic labels as context. The linked atlas also includes LDS commentary."
+    },
+    {
+      "id": "atlas-canaan",
+      "title": "Bible Maps: Canaan in Old Testament Times",
+      "perspective": "historical",
+      "category": "Geography",
+      "url": "https://www.churchofjesuschrist.org/study/scriptures/bible-maps/map-10?lang=eng",
+      "summary": "This Church-published atlas identifies towns and regions in Canaan.",
+      "limits": "Coordinates are display estimates. A town marker does not verify each Genesis event."
+    }
+  ],
+  "review": {
+    "date": "2026-10-07",
+    "contextReviewDate": "2026-10-07",
+    "copyReviewDate": "2026-10-07",
+    "scope": "All 61 verses read for three original explanations and exact selections. Six selected profiles reuse inspected artwork. The map marks a disputed recalled region rather than an exact city. Lange's reading remains attributed. Actual Church lesson coverage remains separate from original close readings.",
+    "nextBook": "1-john",
+    "copyReview": "2026-10-07: Reader copy reviewed against WRITING-GUIDE.md. Scripture and source titles preserved.",
+    "sourcePolicy": "BIBLE-SOURCE-POLICY.md",
+    "sourceEnrichmentDate": "2026-10-05",
+    "contextReview": {
+      "date": "2026-10-07",
+      "chapters": 3,
+      "scope": "Original close readings grounded in local World English Bible passages. Existing external source reviews remain separate."
+    }
+  },
+  "translation": "World English Bible",
+  "copyright": "Public domain",
+  "chapterStudies": [
+    {
+      "chapter": 1,
+      "verse": 8,
+      "context": ""
+    },
+    {
+      "chapter": 2,
+      "verse": 19,
+      "context": ""
+    },
+    {
+      "chapter": 3,
+      "verse": 9,
+      "context": ""
+    }
+  ],
+  "contextGuide": {
+    "id": "2-peter-context",
+    "title": "2 Peter: context and evidence",
+    "description": "Explore the book’s larger concerns through selected passages and relevant evidence.",
+    "steps": [
+      {
+        "title": "Received gifts require growth while remembered witness supports the coming promise",
+        "text": "Verses 3–4 say God has given everything needed and great promises. Verses 5–7 list what to add, from faith through to love. Verse 8 gives the result if these qualities are theirs and growing. They will not be idle or unfruitful in knowing the Lord Jesus Christ. Knowledge is meant to bear fruit. Verse 9 says one who lacks them is blind and forgets his cleansing. Verse 10 tells them to make their calling sure.",
+        "chapter": 1,
+        "verse": 8,
+        "sourceIds": [
+          "web"
+        ]
+      },
+      {
+        "title": "Promises of freedom conceal greed and renewed slavery when conduct denies the message",
+        "text": "Verse 18 says these teachers entice people who are just escaping from error. Verse 19 names the bait: a promise of liberty. It then names the teachers’ real condition: they are bondservants of corruption. The verse gives a general rule to prove it. A person is a slave of whatever overcomes him. Verses 20–22 apply it to those who return to the world’s defilements. Their last state is worse than the first.",
+        "chapter": 2,
+        "verse": 19,
+        "sourceIds": [
+          "web"
+        ]
+      },
+      {
+        "title": "The delayed promise calls for patient hope and changed conduct without an exact countdown",
+        "text": "Verse 4 gives the mockers’ argument: nothing has changed since the fathers died. Verse 8 answers about time: a thousand years are as a day. Verse 9 answers about motive. The delay is not slowness; it is patience. God does not wish anyone to perish. He wants all to come to repentance. Verse 15 repeats it: count the Lord’s patience as salvation.",
+        "chapter": 3,
+        "verse": 9,
+        "sourceIds": [
+          "web"
+        ]
+      }
+    ]
+  }
+}

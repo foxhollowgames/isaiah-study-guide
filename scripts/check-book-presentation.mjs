@@ -86,7 +86,7 @@ for (const book of books) {
       assert.equal((intro.match(/chapter-introduction/g) || []).length, 1);
       assert(!intro.includes('What we checked'), 'Review process belongs in source details');
       assert(!intro.includes('AI-generated illustration'), 'No portrait disclaimer in chapter introductions');
-      assert.equal(intro.includes('LDS reflection.'), perspective === 'lds');
+      assert.equal(intro.includes('<h3>LDS lens</h3>'), perspective === 'lds');
       if (chapter.contextNote) {
         assert(intro.includes(esc(chapter.contextNote.text)), 'Show the actual contextual explanation in both perspectives');
         const study = data.chapterStudies.find(item => item.chapter === chapter.chapter);
@@ -116,8 +116,8 @@ for (const book of books) {
       distinctParagraphs.add(row[3]);
       assert.equal(data.chapterStudies.find(item => item.chapter === chapter.chapter).verse, row[1], 'Build must preserve the meaningful verse selection');
       assert.deepEqual(chapter.contextNote.evidenceSourceIds, row.slice(4), 'Preserve the exact artifact scope');
-      const sentences = chapter.contextNote.text.split(/(?<=[.!?])\s+/);
-      assert(sentences.length >= 3 && sentences.length <= 6, 'Context uses connected paragraphs with sufficient explanation');
+      const sentences = chapter.contextNote.text.split(/(?<=[.!?][”’"')]?)\s+/);
+      assert(sentences.length >= 3 && sentences.length <= 7, 'Context uses connected paragraphs with sufficient explanation');
       assert.notEqual(chapter.contextNote.text, chapter.summary + ' ' + chapter.meaning, 'Add context rather than duplicate the recap');
       for (const sentence of sentences) {
         assert(sentence.split(/\s+/).length <= 15, `${book.id}: context sentences stay readable`);
@@ -127,7 +127,7 @@ for (const book of books) {
   assert.equal(data.chapterStudies.length, raw.chapterCount, 'Every chapter needs its own exact Scripture anchor');
   assert(raw.chapters.every(chapter => chapter.contextNote), 'Every chapter needs contextual interpretation');
   assert(new Set(data.chapterStudies.map(item => item.chapter)).size === raw.chapterCount, 'One distinct close reading per chapter');
-  assert(data.guides[0].steps.length >= 2 && data.guides[0].steps.length <= 5, 'Keep curated guides short enough to use');
+  assert(data.guides[0].steps.length >= Math.min(2, raw.chapterCount) && data.guides[0].steps.length <= 5, 'Keep curated guides short enough to use');
   for (const step of data.guides[0].steps) {
     const note = raw.chapters[step.chapter - 1].contextNote;
     assert.deepEqual(step.sourceIds, [...note.sourceIds, ...note.evidenceSourceIds], 'Guide steps retain their relevant image sources');

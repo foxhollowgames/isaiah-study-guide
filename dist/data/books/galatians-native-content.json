@@ -1,0 +1,956 @@
+{
+  "sources": [
+    {
+      "id": "web",
+      "title": "Galatians · World English Bible",
+      "url": "https://ebible.org/engwebp/GAL01.htm",
+      "summary": "All six chapters supply the primary text for original close readings.",
+      "category": "Scripture",
+      "perspective": "historical",
+      "limits": "Paul’s reported disputes remain his account. Original manuscripts, exact dates, opponents’ identities, Greek vocabulary, and harmony with Acts were not independently verified. Hagar and Jerusalem remain part of Paul’s stated symbolic comparison rather than an independent description of Jewish belief.",
+      "author": "World English Bible translators",
+      "publisher": "eBible.org",
+      "chapterCoverage": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "reviewed": {
+        "date": "2026-10-07",
+        "scope": "All 149 verses read for six original contextual explanations and exact selections. Surroundings, counts, and character integrity checked."
+      },
+      "type": "Scripture",
+      "limitations": "Paul’s reported disputes remain his account. Original manuscripts, exact dates, opponents’ identities, Greek vocabulary, and harmony with Acts were not independently verified. Hagar and Jerusalem remain part of Paul’s stated symbolic comparison rather than an independent description of Jewish belief.",
+      "license": "Public domain"
+    },
+    {
+      "id": "works-galatians",
+      "title": "Commentary on Galatians 3:23-29",
+      "url": "https://www.workingpreacher.org/commentaries/revised-common-lectionary/ordinary-12-3/commentary-on-galatians-323-29-5",
+      "summary": "Works reads shared belonging through Christ within continuing difference.",
+      "category": "Scholarly study",
+      "perspective": "historical",
+      "limits": "This is Works’ interpretation. Her broader historical account of household guardians, baptismal practice, slavery, and the later church was not independently verified. Linked commentaries and podcasts were not reviewed.",
+      "author": "Carla Works",
+      "publisher": "Luther Seminary",
+      "year": 2022,
+      "chapterCoverage": [
+        3
+      ],
+      "reviewed": {
+        "date": "2026-10-07",
+        "scope": "Complete commentary body read. The guide attributes her reading of shared belonging within continuing difference. Opponents’ exact positions remain a reconstruction rather than an independently preserved reply."
+      },
+      "type": "Scholarly study",
+      "limitations": "This is Works’ interpretation. Her broader historical account of household guardians, baptismal practice, slavery, and the later church was not independently verified. Linked commentaries and podcasts were not reviewed.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "cfm-nt-2023-40",
+      "title": "September 25–October 1 · Galatians",
+      "url": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-sunday-school-new-testament-2023/40?lang=eng",
+      "summary": "The lesson studies freedom, the Spirit’s fruit, and patient work.",
+      "category": "LDS Come, Follow Me",
+      "perspective": "lds",
+      "limits": "Coverage follows actual chapter discussion. The lesson does not independently review chapter two. Included Hinckley and Soares passages were read here, not in their complete original works.",
+      "author": "The Church of Jesus Christ of Latter-day Saints",
+      "publisher": "The Church of Jesus Christ of Latter-day Saints",
+      "year": 2023,
+      "chapterCoverage": [
+        1,
+        3,
+        4,
+        5,
+        6
+      ],
+      "reviewed": {
+        "date": "2026-10-07",
+        "scope": "Complete lesson body and included resources read. Linked full talks, manuals, videos, and Restoration passages were not independently reviewed."
+      },
+      "type": "LDS Come, Follow Me",
+      "limitations": "Coverage follows actual chapter discussion. The lesson does not independently review chapter two. Included Hinckley and Soares passages were read here, not in their complete original works.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "atlas-canaan",
+      "title": "Bible Maps: Canaan in Old Testament Times",
+      "perspective": "historical",
+      "category": "Geography",
+      "url": "https://www.churchofjesuschrist.org/study/scriptures/bible-maps/map-10?lang=eng",
+      "summary": "This Church-published atlas identifies towns and regions in Canaan.",
+      "limits": "Existing selected reference coordinates only. The earlier review record remains unchanged. This source does not verify Gospel events or exact routes.",
+      "type": "Geography",
+      "limitations": "Existing selected reference coordinates only. The earlier review record remains unchanged. This source does not verify Gospel events or exact routes.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "net-acts-map",
+      "title": "NET Bible · selected Acts location references",
+      "url": "https://classic.net.bible.org/dictionary.php?word=Antioch",
+      "summary": "Selected opening descriptions and coordinates distinguish cities named in Acts.",
+      "category": "Geographic reference",
+      "perspective": "historical",
+      "limits": "Broad reference points do not verify ancient events, travel paths, buildings, or coastlines. Older encyclopedia claims about authorship, law, populations, and exact dates were not adopted.",
+      "author": "NET Bible editors and linked reference contributors",
+      "publisher": "Bible.org",
+      "year": null,
+      "reviewed": {
+        "date": "2026-10-07",
+        "scope": "Opening descriptions and coordinate lines read for Rome, Corinth, Ephesus, Athens, Antioch, Caesarea, and Philippi. The Caesarea page also supplies the distinct Philippi coordinate. Both Antiochs remain separate. Only these location references are used."
+      },
+      "links": [
+        {
+          "label": "Rome",
+          "url": "https://classic.net.bible.org/dictionary.php?word=Rome"
+        },
+        {
+          "label": "Corinth",
+          "url": "https://classic.net.bible.org/dictionary.php?word=Corinth"
+        },
+        {
+          "label": "Ephesus",
+          "url": "https://classic.net.bible.org/dictionary.php?word=Ephesus"
+        },
+        {
+          "label": "Athens",
+          "url": "https://classic.net.bible.org/dictionary.php?word=Athens"
+        },
+        {
+          "label": "Antioch",
+          "url": "https://classic.net.bible.org/dictionary.php?word=Antioch"
+        },
+        {
+          "label": "Caesarea",
+          "url": "https://classic.net.bible.org/dictionary.php?word=Caesarea"
+        }
+      ],
+      "type": "Geographic reference",
+      "limitations": "Broad reference points do not verify ancient events, travel paths, buildings, or coastlines. Older encyclopedia claims about authorship, law, populations, and exact dates were not adopted.",
+      "license": "Linked source. Original guide summaries."
+    }
+  ],
+  "passages": [
+    {
+      "id": "galatians-1",
+      "chapter": 1,
+      "start": 1,
+      "end": 24,
+      "title": "Paul defends the source of a message whose reception is now disputed",
+      "summary": "Paul writes to the assemblies of Galatia as an apostle sent by Jesus Christ. He gives no thanks. He is amazed that they are turning so quickly to a different good news. He says anyone who brings another message is cursed. His message did not come from a human source. He once persecuted the assembly and advanced in Judaism. God called him, and he went to Arabia, not to Jerusalem. After three years he visited Peter for fifteen days and saw James.",
+      "year": null,
+      "dateLabel": "Book order",
+      "uncertainty": "Markers show named earthly cities in Paul’s memories and comparison. Jerusalem above and Mount Sinai have no invented location.",
+      "placeIds": [
+        "jerusalem",
+        "damascus"
+      ],
+      "sourceIds": [
+        "web"
+      ],
+      "lds": {
+        "text": "The selected lesson studies the problem of turning toward another message. Why does Paul distinguish revelation from instruction by the earlier apostles?",
+        "sourceIds": [
+          "cfm-nt-2023-40"
+        ]
+      },
+      "contextNote": {
+        "title": "Paul defends the source of a message whose reception is now disputed",
+        "text": "Verse 11 says Paul’s good news is not of human origin. Verse 12 denies two human routes: he neither received it nor was taught it. It came through revelation of Jesus Christ. The rest of the chapter gives evidence from his movements. He did not consult anyone or go to Jerusalem (verses 16–17). His first visit came three years later and lasted fifteen days (verse 18). Verse 20 swears before God that this is no lie.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    },
+    {
+      "id": "galatians-2",
+      "chapter": 2,
+      "start": 1,
+      "end": 21,
+      "title": "Shared recognition fails when fear divides the meal",
+      "summary": "After fourteen years Paul goes to Jerusalem with Barnabas and Titus. Titus, a Greek, is not forced to be circumcised. James, Peter, and John give Paul and Barnabas the right hand of fellowship. They ask only that he remember the poor. In Antioch Peter eats with Gentiles, then draws back when men come from James. Barnabas is carried along too. Paul rebukes Peter before everyone. He says a person is justified by faith in Christ, not by law.",
+      "year": null,
+      "dateLabel": "Book order",
+      "uncertainty": "Markers show named earthly cities in Paul’s memories and comparison. Jerusalem above and Mount Sinai have no invented location.",
+      "placeIds": [
+        "jerusalem",
+        "antioch-syria"
+      ],
+      "sourceIds": [
+        "web"
+      ],
+      "lds": {
+        "text": "How does Peter’s meal withdrawal conflict with the earlier shared recognition?",
+        "sourceIds": []
+      },
+      "contextNote": {
+        "title": "Shared recognition fails when fear divides the meal",
+        "text": "Verse 12 gives the facts: Peter ate with Gentiles and then withdrew in fear. Verse 13 says the other Jewish believers and Barnabas followed him. Verse 14 names the fault: not walking by the truth of the good news. Paul answers “before them all.” His question points to the gap. Peter himself had lived like a Gentile. Now his withdrawal pressed Gentiles to live like Jews.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    },
+    {
+      "id": "galatians-3",
+      "chapter": 3,
+      "start": 1,
+      "end": 29,
+      "title": "Promise and shared inheritance answer the demand for another membership sign",
+      "summary": "Paul calls the Galatians foolish and asks how they received the Spirit. It was by hearing with faith, not by works of the law. Abraham believed God, and those of faith are his children. The law curses all who fail to keep it, and Christ redeemed us. The promise to Abraham came 430 years before the law. The law cannot cancel it. The law was a tutor to bring us to Christ. In Christ there is neither Jew nor Greek, slave nor free, male nor female.",
+      "year": null,
+      "dateLabel": "Book order",
+      "uncertainty": "Markers show named earthly cities in Paul’s memories and comparison. Jerusalem above and Mount Sinai have no invented location.",
+      "placeIds": [],
+      "sourceIds": [
+        "web",
+        "works-galatians"
+      ],
+      "lds": {
+        "text": "The selected lesson connects receiving the Spirit with the gospel’s freedom. Why can the later law not cancel Abraham’s earlier promise?",
+        "sourceIds": [
+          "cfm-nt-2023-40"
+        ]
+      },
+      "contextNote": {
+        "title": "Promise and shared inheritance answer the demand for another membership sign",
+        "text": "The dispute is who counts as Abraham’s offspring and heir. Verse 16 says the promised offspring is Christ. Verse 17 says the later law cannot cancel that promise. Verses 26–28 say all who are baptized into Christ are one in him. Verse 29 draws the conclusion in two steps. If they belong to Christ, they are Abraham’s offspring. If offspring, they are heirs by promise.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    },
+    {
+      "id": "galatians-4",
+      "chapter": 4,
+      "start": 1,
+      "end": 31,
+      "title": "Paul turns a family account into an argument about the disputed promise",
+      "summary": "Paul says an heir who is a child is no different from a servant. God sent his Son, born of a woman, to redeem those under the law. Now they are sons and call God Abba, Father. He asks why they turn back to weak principles and observe days and seasons. He recalls how they welcomed him when he was ill. He is in labor again until Christ is formed in them. Then he tells of Abraham’s two sons, by Hagar and by the free woman. He says believers are children of the free woman.",
+      "year": null,
+      "dateLabel": "Book order",
+      "uncertainty": "Markers show named earthly cities in Paul’s memories and comparison. Jerusalem above and Mount Sinai have no invented location.",
+      "placeIds": [
+        "jerusalem"
+      ],
+      "sourceIds": [
+        "web"
+      ],
+      "lds": {
+        "text": "The selected lesson studies Paul’s appeal against returning to bondage. Why must the two mothers’ roles here remain part of Paul’s stated comparison?",
+        "sourceIds": [
+          "cfm-nt-2023-40"
+        ]
+      },
+      "contextNote": {
+        "title": "Paul turns a family account into an argument about the disputed promise",
+        "text": "Verse 21 addresses those who want to be under the law. Paul answers them from the law’s own account of Abraham (verse 22). Verse 24 says plainly that he reads it as an allegory. The two women stand for two covenants, and Hagar stands for Sinai. Verse 26 sets the free Jerusalem above against her. This is Paul’s comparison for this dispute, not a verdict on a people. Verse 31 gives its point: believers are children of the free woman.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    },
+    {
+      "id": "galatians-5",
+      "chapter": 5,
+      "start": 1,
+      "end": 26,
+      "title": "Freedom becomes service through love rather than permission to consume others",
+      "summary": "Paul tells the Galatians to stand firm in freedom. If they accept circumcision, they must keep the whole law. What counts is faith working through love. He says a little yeast leavens the whole lump. They were called to freedom, to serve one another through love. The whole law is fulfilled in loving a neighbor as oneself. He lists the works of the flesh and then the fruit of the Spirit. The fruit is love, joy, peace, patience, kindness, goodness, faith, gentleness, and self-control.",
+      "year": null,
+      "dateLabel": "Book order",
+      "uncertainty": "Markers show named earthly cities in Paul’s memories and comparison. Jerusalem above and Mount Sinai have no invented location.",
+      "placeIds": [],
+      "sourceIds": [
+        "web"
+      ],
+      "lds": {
+        "text": "The selected lesson teaches freedom through love and conduct shaped by the Spirit. How does freedom become service rather than permission to harm others?",
+        "sourceIds": [
+          "cfm-nt-2023-40"
+        ]
+      },
+      "contextNote": {
+        "title": "Freedom becomes service through love rather than permission to consume others",
+        "text": "Verse 1 said Christ set them free and warned against a yoke of bondage. Verse 13 guards that freedom from the other side. Freedom must not become an opening for the flesh. The verse then tells free people to be servants to one another. Love is the means. Verse 14 gives the reason: the whole law is fulfilled in loving a neighbor. Verse 15 shows the alternative: biting and devouring until they consume each other.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    },
+    {
+      "id": "galatians-6",
+      "chapter": 6,
+      "start": 1,
+      "end": 18,
+      "title": "Shared burdens stand beside personal examination and patient work",
+      "summary": "Paul tells the spiritual to restore gently anyone caught in a fault. They should bear one another’s burdens. Each should test his own work and carry his own load. A person reaps what he sows, to the flesh or to the Spirit. They should not grow tired of doing good, especially to the household of faith. Paul writes the ending in large letters with his own hand. He says those pressing circumcision want to avoid persecution. He will boast only in the cross, and a new creation is what counts.",
+      "year": null,
+      "dateLabel": "Book order",
+      "uncertainty": "Markers show named earthly cities in Paul’s memories and comparison. Jerusalem above and Mount Sinai have no invented location.",
+      "placeIds": [],
+      "sourceIds": [
+        "web"
+      ],
+      "lds": {
+        "text": "The selected lesson teaches patient work and the later consequences of choices. How do shared burdens and personal examination support each other?",
+        "sourceIds": [
+          "cfm-nt-2023-40"
+        ]
+      },
+      "contextNote": {
+        "title": "Shared burdens stand beside personal examination and patient work",
+        "text": "Verse 1 gives a case: someone is caught in a fault. Those who restore him must be gentle and watch themselves. Verse 2 widens the case to a rule: bear one another’s burdens. It calls this fulfilling “the law of Christ.” The letter has argued against the law as a requirement for Gentiles. Here Paul names a law they do keep, and 5:14 called it love. Verse 5 adds that each still carries his own load.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "galatians-1",
+      "chapter": 1,
+      "verse": 1,
+      "eventOrder": 1,
+      "title": "Paul defends the source of a message whose reception is now disputed",
+      "summary": "Paul writes to the assemblies of Galatia as an apostle sent by Jesus Christ. He gives no thanks. He is amazed that they are turning so quickly to a different good news. He says anyone who brings another message is cursed. His message did not come from a human source. He once persecuted the assembly and advanced in Judaism. God called him, and he went to Arabia, not to Jerusalem. After three years he visited Peter for fifteen days and saw James.",
+      "detail": "Verse 11 says Paul’s good news is not of human origin. Verse 12 denies two human routes: he neither received it nor was taught it. It came through revelation of Jesus Christ. The rest of the chapter gives evidence from his movements. He did not consult anyone or go to Jerusalem (verses 16–17). His first visit came three years later and lasted fifteen days (verse 18). Verse 20 swears before God that this is no lie.",
+      "dateLabel": "Book order",
+      "uncertainty": "Markers show named earthly cities in Paul’s memories and comparison. Jerusalem above and Mount Sinai have no invented location.",
+      "sourceIds": [
+        "web"
+      ],
+      "placeIds": [
+        "jerusalem",
+        "damascus"
+      ],
+      "lds": {
+        "text": "The selected lesson studies the problem of turning toward another message. Why does Paul distinguish revelation from instruction by the earlier apostles?",
+        "sourceIds": [
+          "cfm-nt-2023-40"
+        ]
+      }
+    },
+    {
+      "id": "galatians-2",
+      "chapter": 2,
+      "verse": 1,
+      "eventOrder": 2,
+      "title": "Shared recognition fails when fear divides the meal",
+      "summary": "After fourteen years Paul goes to Jerusalem with Barnabas and Titus. Titus, a Greek, is not forced to be circumcised. James, Peter, and John give Paul and Barnabas the right hand of fellowship. They ask only that he remember the poor. In Antioch Peter eats with Gentiles, then draws back when men come from James. Barnabas is carried along too. Paul rebukes Peter before everyone. He says a person is justified by faith in Christ, not by law.",
+      "detail": "Verse 12 gives the facts: Peter ate with Gentiles and then withdrew in fear. Verse 13 says the other Jewish believers and Barnabas followed him. Verse 14 names the fault: not walking by the truth of the good news. Paul answers “before them all.” His question points to the gap. Peter himself had lived like a Gentile. Now his withdrawal pressed Gentiles to live like Jews.",
+      "dateLabel": "Book order",
+      "uncertainty": "Markers show named earthly cities in Paul’s memories and comparison. Jerusalem above and Mount Sinai have no invented location.",
+      "sourceIds": [
+        "web"
+      ],
+      "placeIds": [
+        "jerusalem",
+        "antioch-syria"
+      ],
+      "lds": {
+        "text": "How does Peter’s meal withdrawal conflict with the earlier shared recognition?",
+        "sourceIds": []
+      }
+    },
+    {
+      "id": "galatians-3",
+      "chapter": 3,
+      "verse": 1,
+      "eventOrder": 3,
+      "title": "Promise and shared inheritance answer the demand for another membership sign",
+      "summary": "Paul calls the Galatians foolish and asks how they received the Spirit. It was by hearing with faith, not by works of the law. Abraham believed God, and those of faith are his children. The law curses all who fail to keep it, and Christ redeemed us. The promise to Abraham came 430 years before the law. The law cannot cancel it. The law was a tutor to bring us to Christ. In Christ there is neither Jew nor Greek, slave nor free, male nor female.",
+      "detail": "The dispute is who counts as Abraham’s offspring and heir. Verse 16 says the promised offspring is Christ. Verse 17 says the later law cannot cancel that promise. Verses 26–28 say all who are baptized into Christ are one in him. Verse 29 draws the conclusion in two steps. If they belong to Christ, they are Abraham’s offspring. If offspring, they are heirs by promise.",
+      "dateLabel": "Book order",
+      "uncertainty": "Markers show named earthly cities in Paul’s memories and comparison. Jerusalem above and Mount Sinai have no invented location.",
+      "sourceIds": [
+        "web",
+        "works-galatians"
+      ],
+      "placeIds": [],
+      "lds": {
+        "text": "The selected lesson connects receiving the Spirit with the gospel’s freedom. Why can the later law not cancel Abraham’s earlier promise?",
+        "sourceIds": [
+          "cfm-nt-2023-40"
+        ]
+      }
+    },
+    {
+      "id": "galatians-4",
+      "chapter": 4,
+      "verse": 1,
+      "eventOrder": 4,
+      "title": "Paul turns a family account into an argument about the disputed promise",
+      "summary": "Paul says an heir who is a child is no different from a servant. God sent his Son, born of a woman, to redeem those under the law. Now they are sons and call God Abba, Father. He asks why they turn back to weak principles and observe days and seasons. He recalls how they welcomed him when he was ill. He is in labor again until Christ is formed in them. Then he tells of Abraham’s two sons, by Hagar and by the free woman. He says believers are children of the free woman.",
+      "detail": "Verse 21 addresses those who want to be under the law. Paul answers them from the law’s own account of Abraham (verse 22). Verse 24 says plainly that he reads it as an allegory. The two women stand for two covenants, and Hagar stands for Sinai. Verse 26 sets the free Jerusalem above against her. This is Paul’s comparison for this dispute, not a verdict on a people. Verse 31 gives its point: believers are children of the free woman.",
+      "dateLabel": "Book order",
+      "uncertainty": "Markers show named earthly cities in Paul’s memories and comparison. Jerusalem above and Mount Sinai have no invented location.",
+      "sourceIds": [
+        "web"
+      ],
+      "placeIds": [
+        "jerusalem"
+      ],
+      "lds": {
+        "text": "The selected lesson studies Paul’s appeal against returning to bondage. Why must the two mothers’ roles here remain part of Paul’s stated comparison?",
+        "sourceIds": [
+          "cfm-nt-2023-40"
+        ]
+      }
+    },
+    {
+      "id": "galatians-5",
+      "chapter": 5,
+      "verse": 1,
+      "eventOrder": 5,
+      "title": "Freedom becomes service through love rather than permission to consume others",
+      "summary": "Paul tells the Galatians to stand firm in freedom. If they accept circumcision, they must keep the whole law. What counts is faith working through love. He says a little yeast leavens the whole lump. They were called to freedom, to serve one another through love. The whole law is fulfilled in loving a neighbor as oneself. He lists the works of the flesh and then the fruit of the Spirit. The fruit is love, joy, peace, patience, kindness, goodness, faith, gentleness, and self-control.",
+      "detail": "Verse 1 said Christ set them free and warned against a yoke of bondage. Verse 13 guards that freedom from the other side. Freedom must not become an opening for the flesh. The verse then tells free people to be servants to one another. Love is the means. Verse 14 gives the reason: the whole law is fulfilled in loving a neighbor. Verse 15 shows the alternative: biting and devouring until they consume each other.",
+      "dateLabel": "Book order",
+      "uncertainty": "Markers show named earthly cities in Paul’s memories and comparison. Jerusalem above and Mount Sinai have no invented location.",
+      "sourceIds": [
+        "web"
+      ],
+      "placeIds": [],
+      "lds": {
+        "text": "The selected lesson teaches freedom through love and conduct shaped by the Spirit. How does freedom become service rather than permission to harm others?",
+        "sourceIds": [
+          "cfm-nt-2023-40"
+        ]
+      }
+    },
+    {
+      "id": "galatians-6",
+      "chapter": 6,
+      "verse": 1,
+      "eventOrder": 6,
+      "title": "Shared burdens stand beside personal examination and patient work",
+      "summary": "Paul tells the spiritual to restore gently anyone caught in a fault. They should bear one another’s burdens. Each should test his own work and carry his own load. A person reaps what he sows, to the flesh or to the Spirit. They should not grow tired of doing good, especially to the household of faith. Paul writes the ending in large letters with his own hand. He says those pressing circumcision want to avoid persecution. He will boast only in the cross, and a new creation is what counts.",
+      "detail": "Verse 1 gives a case: someone is caught in a fault. Those who restore him must be gentle and watch themselves. Verse 2 widens the case to a rule: bear one another’s burdens. It calls this fulfilling “the law of Christ.” The letter has argued against the law as a requirement for Gentiles. Here Paul names a law they do keep, and 5:14 called it love. Verse 5 adds that each still carries his own load.",
+      "dateLabel": "Book order",
+      "uncertainty": "Markers show named earthly cities in Paul’s memories and comparison. Jerusalem above and Mount Sinai have no invented location.",
+      "sourceIds": [
+        "web"
+      ],
+      "placeIds": [],
+      "lds": {
+        "text": "The selected lesson teaches patient work and the later consequences of choices. How do shared burdens and personal examination support each other?",
+        "sourceIds": [
+          "cfm-nt-2023-40"
+        ]
+      }
+    }
+  ],
+  "places": [
+    {
+      "id": "jerusalem",
+      "name": "Jerusalem",
+      "lat": 31.778,
+      "lng": 35.235,
+      "summary": "Jerusalem appears in Paul’s remembered visits and his later symbolic comparison.",
+      "limits": "Approximate reference marker. It identifies no exact house, road, execution site, or ancient border.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan"
+      ],
+      "verseScope": {
+        "4": [
+          25
+        ]
+      },
+      "detail": "Jerusalem appears in Paul’s remembered visits and his later symbolic comparison.",
+      "uncertainty": "Approximate reference marker. It identifies no exact house, road, execution site, or ancient border.",
+      "chapterLocation": true
+    },
+    {
+      "id": "damascus",
+      "name": "Damascus",
+      "lat": 33.513,
+      "lng": 36.292,
+      "summary": "Damascus appears in Paul’s remembered account of his early travels.",
+      "limits": "Approximate location. Region markers do not define ancient borders. Anathoth, Mizpah, Ramah, and Heshbon have competing site identifications.",
+      "sourceIds": [
+        "web",
+        "atlas-canaan"
+      ],
+      "verseScope": {},
+      "detail": "Damascus appears in Paul’s remembered account of his early travels.",
+      "uncertainty": "Approximate location. Region markers do not define ancient borders. Anathoth, Mizpah, Ramah, and Heshbon have competing site identifications.",
+      "chapterLocation": true
+    },
+    {
+      "id": "antioch-syria",
+      "name": "Antioch",
+      "lat": 36.2,
+      "lng": 36.15,
+      "summary": "Antioch is the recalled setting of the dispute over shared meals.",
+      "limits": "Broad city reference. Exact houses, riverside meeting points, courtrooms, and ancient routes remain unassigned.",
+      "sourceIds": [
+        "web",
+        "net-acts-map"
+      ],
+      "verseScope": {},
+      "detail": "Antioch is the recalled setting of the dispute over shared meals.",
+      "uncertainty": "Broad city reference. Exact houses, riverside meeting points, courtrooms, and ancient routes remain unassigned.",
+      "chapterLocation": true
+    }
+  ],
+  "campaigns": [],
+  "ancientRoads": [],
+  "regions": [],
+  "words": [
+    {
+      "id": "glossary-covenant",
+      "label": "Covenant",
+      "matches": [
+        "covenant",
+        "covenants"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A binding agreement with promises and duties. In the Bible, God makes covenants with people.",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    },
+    {
+      "id": "glossary-gentiles",
+      "label": "Gentiles",
+      "matches": [
+        "Gentile",
+        "Gentiles"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "People of nations other than Israel.",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    },
+    {
+      "id": "glossary-apostles",
+      "label": "Apostles",
+      "matches": [
+        "apostle",
+        "apostles"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "People sent out with a message. In the Gospels the word names twelve whom Jesus chose.",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    },
+    {
+      "id": "glossary-assembly",
+      "label": "Assembly",
+      "matches": [
+        "assembly",
+        "assemblies"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A gathering of people. In the New Testament letters it means a group of believers. Many translations say “church.”",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    },
+    {
+      "id": "glossary-circumcision",
+      "label": "Circumcision",
+      "matches": [
+        "circumcision",
+        "circumcised",
+        "circumcise",
+        "uncircumcised",
+        "uncircumcision"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "The cutting of the foreskin. Genesis 17 makes it the sign of God’s covenant with Abraham.",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    },
+    {
+      "id": "glossary-redeem",
+      "label": "Redeem",
+      "matches": [
+        "redeem",
+        "redeems",
+        "redeemed",
+        "redeemer",
+        "redemption"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "To buy back a person or property. The word is also used for God’s rescue of people.",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    },
+    {
+      "id": "glossary-unclean",
+      "label": "Unclean",
+      "matches": [
+        "unclean",
+        "uncleanness"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "Unfit to take part in worship until a set cleansing is done. Leviticus 11–15 gives the rules.",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    },
+    {
+      "id": "glossary-bondservant",
+      "label": "Bondservant",
+      "matches": [
+        "bondservant",
+        "bondservants"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A slave or bound servant.",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    },
+    {
+      "id": "glossary-abba",
+      "label": "Abba",
+      "matches": [
+        "Abba"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "An Aramaic word for father. The text gives the translation beside it.",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    },
+    {
+      "id": "glossary-yeast",
+      "label": "Yeast",
+      "matches": [
+        "yeast",
+        "leaven",
+        "leavened",
+        "unleavened"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "Yeast, or leaven, makes dough rise. Bread made without it is called unleavened.",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    }
+  ],
+  "guides": [
+    {
+      "id": "galatians-context",
+      "title": "Galatians: context and evidence",
+      "description": "Explore the book’s larger concerns through selected passages and relevant evidence.",
+      "steps": [
+        {
+          "title": "Shared recognition fails when fear divides the meal",
+          "text": "Verse 12 gives the facts: Peter ate with Gentiles and then withdrew in fear. Verse 13 says the other Jewish believers and Barnabas followed him. Verse 14 names the fault: not walking by the truth of the good news. Paul answers “before them all.” His question points to the gap. Peter himself had lived like a Gentile. Now his withdrawal pressed Gentiles to live like Jews.",
+          "chapter": 2,
+          "verse": 14,
+          "sourceIds": [
+            "web"
+          ]
+        },
+        {
+          "title": "Promise and shared inheritance answer the demand for another membership sign",
+          "text": "The dispute is who counts as Abraham’s offspring and heir. Verse 16 says the promised offspring is Christ. Verse 17 says the later law cannot cancel that promise. Verses 26–28 say all who are baptized into Christ are one in him. Verse 29 draws the conclusion in two steps. If they belong to Christ, they are Abraham’s offspring. If offspring, they are heirs by promise.",
+          "chapter": 3,
+          "verse": 29,
+          "sourceIds": [
+            "web"
+          ]
+        },
+        {
+          "title": "Paul turns a family account into an argument about the disputed promise",
+          "text": "Verse 21 addresses those who want to be under the law. Paul answers them from the law’s own account of Abraham (verse 22). Verse 24 says plainly that he reads it as an allegory. The two women stand for two covenants, and Hagar stands for Sinai. Verse 26 sets the free Jerusalem above against her. This is Paul’s comparison for this dispute, not a verdict on a people. Verse 31 gives its point: believers are children of the free woman.",
+          "chapter": 4,
+          "verse": 24,
+          "sourceIds": [
+            "web"
+          ]
+        },
+        {
+          "title": "Freedom becomes service through love rather than permission to consume others",
+          "text": "Verse 1 said Christ set them free and warned against a yoke of bondage. Verse 13 guards that freedom from the other side. Freedom must not become an opening for the flesh. The verse then tells free people to be servants to one another. Love is the means. Verse 14 gives the reason: the whole law is fulfilled in loving a neighbor. Verse 15 shows the alternative: biting and devouring until they consume each other.",
+          "chapter": 5,
+          "verse": 13,
+          "sourceIds": [
+            "web"
+          ]
+        }
+      ]
+    }
+  ],
+  "periods": [
+    {
+      "id": "part-0",
+      "label": "Galatians 1–2",
+      "start": 1,
+      "end": 2,
+      "description": "Chapter order"
+    },
+    {
+      "id": "part-1",
+      "label": "Galatians 3–4",
+      "start": 3,
+      "end": 4,
+      "description": "Chapter order"
+    },
+    {
+      "id": "part-2",
+      "label": "Galatians 5–6",
+      "start": 5,
+      "end": 6,
+      "description": "Chapter order"
+    }
+  ],
+  "chapterMaps": [
+    {
+      "chapter": 1,
+      "focusPlaceIds": [
+        "jerusalem",
+        "damascus"
+      ],
+      "placeIds": [
+        "jerusalem",
+        "damascus"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Markers show named earthly cities in Paul’s memories and comparison. Jerusalem above and Mount Sinai have no invented location.",
+      "narrative": "Paul writes to the assemblies of Galatia as an apostle sent by Jesus Christ. He gives no thanks. He is amazed that they are turning so quickly to a different good news. He says anyone who brings another message is cursed. His message did not come from a human source. He once persecuted the assembly and advanced in Judaism. God called him, and he went to Arabia, not to Jerusalem. After three years he visited Peter for fifteen days and saw James.",
+      "limits": "Markers show named earthly cities in Paul’s memories and comparison. Jerusalem above and Mount Sinai have no invented location.",
+      "sourceIds": [
+        "web"
+      ]
+    },
+    {
+      "chapter": 2,
+      "focusPlaceIds": [
+        "jerusalem",
+        "antioch-syria"
+      ],
+      "placeIds": [
+        "jerusalem",
+        "antioch-syria"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Markers show named earthly cities in Paul’s memories and comparison. Jerusalem above and Mount Sinai have no invented location.",
+      "narrative": "After fourteen years Paul goes to Jerusalem with Barnabas and Titus. Titus, a Greek, is not forced to be circumcised. James, Peter, and John give Paul and Barnabas the right hand of fellowship. They ask only that he remember the poor. In Antioch Peter eats with Gentiles, then draws back when men come from James. Barnabas is carried along too. Paul rebukes Peter before everyone. He says a person is justified by faith in Christ, not by law.",
+      "limits": "Markers show named earthly cities in Paul’s memories and comparison. Jerusalem above and Mount Sinai have no invented location.",
+      "sourceIds": [
+        "web"
+      ]
+    },
+    {
+      "chapter": 3,
+      "focusPlaceIds": [],
+      "placeIds": [],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Markers show named earthly cities in Paul’s memories and comparison. Jerusalem above and Mount Sinai have no invented location.",
+      "narrative": "Paul calls the Galatians foolish and asks how they received the Spirit. It was by hearing with faith, not by works of the law. Abraham believed God, and those of faith are his children. The law curses all who fail to keep it, and Christ redeemed us. The promise to Abraham came 430 years before the law. The law cannot cancel it. The law was a tutor to bring us to Christ. In Christ there is neither Jew nor Greek, slave nor free, male nor female.",
+      "limits": "Markers show named earthly cities in Paul’s memories and comparison. Jerusalem above and Mount Sinai have no invented location.",
+      "sourceIds": [
+        "web",
+        "works-galatians"
+      ]
+    },
+    {
+      "chapter": 4,
+      "focusPlaceIds": [
+        "jerusalem"
+      ],
+      "placeIds": [
+        "jerusalem"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Markers show named earthly cities in Paul’s memories and comparison. Jerusalem above and Mount Sinai have no invented location.",
+      "narrative": "Paul says an heir who is a child is no different from a servant. God sent his Son, born of a woman, to redeem those under the law. Now they are sons and call God Abba, Father. He asks why they turn back to weak principles and observe days and seasons. He recalls how they welcomed him when he was ill. He is in labor again until Christ is formed in them. Then he tells of Abraham’s two sons, by Hagar and by the free woman. He says believers are children of the free woman.",
+      "limits": "Markers show named earthly cities in Paul’s memories and comparison. Jerusalem above and Mount Sinai have no invented location.",
+      "sourceIds": [
+        "web"
+      ]
+    },
+    {
+      "chapter": 5,
+      "focusPlaceIds": [],
+      "placeIds": [],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Markers show named earthly cities in Paul’s memories and comparison. Jerusalem above and Mount Sinai have no invented location.",
+      "narrative": "Paul tells the Galatians to stand firm in freedom. If they accept circumcision, they must keep the whole law. What counts is faith working through love. He says a little yeast leavens the whole lump. They were called to freedom, to serve one another through love. The whole law is fulfilled in loving a neighbor as oneself. He lists the works of the flesh and then the fruit of the Spirit. The fruit is love, joy, peace, patience, kindness, goodness, faith, gentleness, and self-control.",
+      "limits": "Markers show named earthly cities in Paul’s memories and comparison. Jerusalem above and Mount Sinai have no invented location.",
+      "sourceIds": [
+        "web"
+      ]
+    },
+    {
+      "chapter": 6,
+      "focusPlaceIds": [],
+      "placeIds": [],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Markers show named earthly cities in Paul’s memories and comparison. Jerusalem above and Mount Sinai have no invented location.",
+      "narrative": "Paul tells the spiritual to restore gently anyone caught in a fault. They should bear one another’s burdens. Each should test his own work and carry his own load. A person reaps what he sows, to the flesh or to the Spirit. They should not grow tired of doing good, especially to the household of faith. Paul writes the ending in large letters with his own hand. He says those pressing circumcision want to avoid persecution. He will boast only in the cross, and a new creation is what counts.",
+      "limits": "Markers show named earthly cities in Paul’s memories and comparison. Jerusalem above and Mount Sinai have no invented location.",
+      "sourceIds": [
+        "web"
+      ]
+    }
+  ],
+  "textRoutes": [],
+  "narrativeRegions": [],
+  "chapterStudies": [
+    {
+      "chapter": 1,
+      "verse": 12,
+      "context": ""
+    },
+    {
+      "chapter": 2,
+      "verse": 14,
+      "context": ""
+    },
+    {
+      "chapter": 3,
+      "verse": 29,
+      "context": ""
+    },
+    {
+      "chapter": 4,
+      "verse": 24,
+      "context": ""
+    },
+    {
+      "chapter": 5,
+      "verse": 13,
+      "context": ""
+    },
+    {
+      "chapter": 6,
+      "verse": 2,
+      "context": ""
+    }
+  ]
+}

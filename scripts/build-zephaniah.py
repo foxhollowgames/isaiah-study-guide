@@ -1,0 +1,32 @@
+"""Build Zephaniah while distinguishing the prophet from Jeremiah's priest."""
+import json,sys
+from book_common import ROOT,OUT,scripture,source,person,finish
+DATE='2026-10-07'
+t=scripture('zephaniah','ZEP',3)
+assert [len(t[str(n)]) for n in range(1,4)]==[18,15,20]
+assert not any('\ufffd' in v['text'] for vv in t.values() for v in vv)
+notes=json.loads((ROOT/'scripts/book-context-complete/zephaniah.json').read_text(encoding='utf8'))
+s=source('web','Zephaniah · World English Bible','https://ebible.org/engwebp/ZEP01.htm','All three chapters appear in the reading text.','Scripture','historical','The opening names Josiah’s reign. It does not identify the prophet’s ancestor Hezekiah as the king.')
+s.update(author='World English Bible translators',publisher='eBible.org',chapterCoverage=[1,2,3],reviewed=dict(date=DATE,scope='All 53 verses read. Verse counts and character integrity checked.'));sources=[s]
+s=source('stewart-zephaniah','Commentary on Zephaniah 3:14-20','https://www.workingpreacher.org/commentaries/revised-common-lectionary/third-sunday-of-advent-3/commentary-on-zephaniah-314-20-3','Stewart compares the warnings with the final promise of joy, justice, and help for outcasts.','Scholarly study','historical','Her proposed later setting for the final vision remains uncertain. Christian Advent applications are later readings.')
+s.update(author='Anne Stewart',year=2015,publisher='Luther Seminary',chapterCoverage=[1,3],reviewed=dict(date=DATE,scope='Complete commentary body read, including its discussion of chapter one and the final vision. Linked podcast and related commentaries were not reviewed.'));sources.append(s)
+s=source('cfm-zephaniah-2026','November 30–December 6: “He Delighteth in Mercy” · Micah, Nahum, Habakkuk, Zephaniah','https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/49?lang=eng','The lesson compares condemned conduct with humility and the promise of rejoicing.','LDS Come, Follow Me','lds','Its connection with 3 Nephi is a later Church reading, separate from the original vision.')
+s.update(author='The Church of Jesus Christ of Latter-day Saints',year=2026,publisher='The Church of Jesus Christ of Latter-day Saints',chapterCoverage=[1,2,3],reviewed=dict(date=DATE,scope='Introduction and adult Zephaniah study sections read. Linked talks, videos, and Scripture Helps were not separately reviewed.'));sources.append(s)
+p=person('zephaniah-prophet','Zephaniah, son of Cushi','Prophet whose book opens during Josiah’s reign','The opening traces his family through Cushi, Gedaliah, Amariah, and Hezekiah.','Zephaniah 1–3','His warning confronts indifference before the ending promises to gather afflicted people.')
+p.update(placeIds=['jerusalem'],linkNames=['Zephaniah'],verseScope={})
+old=json.loads((OUT/'jeremiah.json').read_text(encoding='utf8'));king=json.loads((OUT/'2-kings.json').read_text(encoding='utf8'));sam=json.loads((OUT/'1-samuel.json').read_text(encoding='utf8'))
+j=dict(next(p for p in king['people'] if p['id']=='josiah'));j.update(role='King named in the book’s opening time reference',relations='He is Amon’s son and king of Judah when the opening places Zephaniah’s message.',passages='Zephaniah 1:1',meaning='His name gives the opening a royal setting without dating every later vision.',sourceIds=['web'],placeIds=['jerusalem'],linkNames=['Josiah'],verseScope={})
+descriptions={'jerusalem':'Jerusalem receives warnings about worship and violence before the final promise of singing and gathering.','gaza':'Gaza appears among coastal towns threatened with abandonment.','ashkelon':'Ashkelon appears in the warning and the promise of shelter for Judah’s remnant.','ashdod':'Ashdod appears among coastal towns whose inhabitants face removal.','ekron':'Ekron appears among coastal towns threatened with destruction.','moab':'Moab receives a warning after insults directed against God’s people.','nineveh':'Nineveh’s proud claim of unmatched security ends in buildings occupied by animals.'}
+places=[]
+for id,summary in descriptions.items():
+ q=dict(next(q for d in [old,king,sam] for q in d['places'] if q['id']==id));q.update(summary=summary,sourceIds=['web'],limits='Approximate city or regional reference. The warnings supply no reconstructed army path.');places.append(q)
+summaries=['God warns Jerusalem about rival worship, violence, and indifference. Wealth cannot buy safety.','The nation must seek humility. Warnings address coastal towns, neighbors, and proud Nineveh.','Corrupt leaders face judgment. A changed remnant receives safety, singing, and restored honor.']
+questions=['What assumption does God’s searching lamp expose?','Why does possible shelter remain uncertain even for those who seek humility?','How do the gathered people differ from the earlier city’s rulers?']
+ldsNotes=['The lesson asks readers to examine attitudes and conduct condemned in the opening warning.','The lesson contrasts pride with seeking humility before God.','The lesson connects the promised joy with a later scene in 3 Nephi 17.']
+chapters=[]
+for n,v,title,meaning in notes:
+ loc=['jerusalem'] if n!=2 else ['gaza','ashkelon','ashdod','ekron','moab','nineveh']
+ chapters.append(dict(chapter=n,title=title,summary=summaries[n-1],meaning=meaning,people=['zephaniah-prophet']+(['josiah'] if n==1 else []),places=loc,sourceIds=['web']+(['stewart-zephaniah'] if n in [1,3] else []),lds=dict(text=ldsNotes[n-1]+' Study question. '+questions[n-1],sourceIds=['cfm-zephaniah-2026']),eventOrder=n,dateLabel='Book order',historicalNote=meaning,mapNote='Markers locate selected places named in the warning and promise. No attack or return path is reconstructed.',route=[],routeEvidence='Warnings and promises do not give a continuous traveled route.'))
+data=dict(id='zephaniah',bibleCode='ZEP',name='Zephaniah',description='Indifference · threatened wealth · humility · proud cities · gathered outcasts',chapterCount=3,scripture=t,chapters=chapters,people=[p,j],places=places,sources=sources,review=dict(date=DATE,contextReviewDate=DATE,copyReviewDate=DATE,scope='All 53 WEB verses read for three original contextual explanations. Two selected profiles distinguish the prophet from Jeremiah’s priest and reuse the same king Josiah’s inspected portrait. Ancestor Hezekiah is not assigned a royal identity.',nextBook='haggai'))
+if '--ready' in sys.argv:finish(data)
+else:(ROOT/'review/zephaniah-draft.json').write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n',encoding='utf8')

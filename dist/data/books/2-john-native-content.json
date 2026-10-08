@@ -1,0 +1,222 @@
+{
+  "sources": [
+    {
+      "id": "web",
+      "title": "2 John · World English Bible",
+      "url": "https://ebible.org/engwebp/2JN01.htm",
+      "summary": "Complete Scripture supplies the primary text for original close readings.",
+      "category": "Scripture",
+      "perspective": "historical",
+      "limits": "The elder has no assigned personal identity. Historical authorship, dates, Greek forms, manuscripts, exact audience conditions, and the addressee's identity were not independently verified. No exact house or city is assigned.",
+      "author": "World English Bible translators",
+      "publisher": "eBible.org",
+      "chapterCoverage": [
+        1
+      ],
+      "reviewed": {
+        "date": "2026-10-07",
+        "scope": "All 13 verses read for 1 original contextual explanations and exact selections. Surroundings, counts, and character integrity checked."
+      },
+      "type": "Scripture",
+      "limitations": "The elder has no assigned personal identity. Historical authorship, dates, Greek forms, manuscripts, exact audience conditions, and the addressee's identity were not independently verified. No exact house or city is assigned.",
+      "license": "Public domain"
+    },
+    {
+      "id": "cfm-nt-2023-49",
+      "title": "November 27–December 3 · First–Third John and Jude",
+      "url": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-sunday-school-new-testament-2023/49?lang=eng",
+      "author": "The Church of Jesus Christ of Latter-day Saints",
+      "publisher": "The Church of Jesus Christ of Latter-day Saints",
+      "year": 2023,
+      "category": "LDS Come, Follow Me",
+      "perspective": "lds",
+      "summary": "The lesson connects remaining in Christ's teaching with resisting false teaching.",
+      "limits": "Second John coverage follows actual discussion of 1:7–11. Linked reference entries and Restoration passages were not independently reviewed.",
+      "chapterCoverage": [
+        1
+      ],
+      "reviewed": {
+        "date": "2026-10-07",
+        "scope": "Complete shared lesson body and resource list read. This reference follows actual Second John discussion."
+      },
+      "type": "LDS Come, Follow Me",
+      "limitations": "Second John coverage follows actual discussion of 1:7–11. Linked reference entries and Restoration passages were not independently reviewed.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "usccb-2-john",
+      "title": "Introduction to the Second Letter of John",
+      "url": "https://bible.usccb.org/bible/2john/0",
+      "author": "United States Conference of Catholic Bishops",
+      "publisher": "United States Conference of Catholic Bishops",
+      "category": "Scholarly study",
+      "perspective": "historical",
+      "summary": "The introduction reads the chosen lady and children as a specific Christian assembly.",
+      "limits": "This is the introduction's interpretation. Direct access returned 403. Authorship proposals, papyrus constraints, dates, and reconstructed false teaching were not independently verified. No named woman or city is assigned.",
+      "chapterCoverage": [
+        1
+      ],
+      "reviewed": {
+        "date": "2026-10-07",
+        "scope": "Complete two-paragraph introduction read through indexed search text after direct access returned 403. Only the assembly reading is used and attributed."
+      },
+      "type": "Scholarly study",
+      "limitations": "This is the introduction's interpretation. Direct access returned 403. Authorship proposals, papyrus constraints, dates, and reconstructed false teaching were not independently verified. No named woman or city is assigned.",
+      "license": "Linked source. Original guide summaries."
+    }
+  ],
+  "passages": [
+    {
+      "id": "2-john-1",
+      "chapter": 1,
+      "start": 1,
+      "end": 13,
+      "title": "Love and truth shape the limits of welcome during a teaching conflict",
+      "summary": "The elder writes to the chosen lady and her children. He rejoices that some of her children walk in truth. He asks that they love one another, as commanded from the beginning. Love means walking by God’s commandments. Many deceivers deny that Jesus Christ came in the flesh. Whoever goes beyond Christ’s teaching does not have God. They should not receive such a teacher into the house. The elder hopes to come and speak face to face.",
+      "year": null,
+      "dateLabel": "Book order",
+      "uncertainty": "No exact location is assigned to unnamed or heavenly settings.",
+      "placeIds": [],
+      "sourceIds": [
+        "web",
+        "usccb-2-john"
+      ],
+      "lds": {
+        "text": "The selected Church lesson uses this warning to discuss remaining in Christ's teaching. How does walking in received teaching connect love with responsible welcome?",
+        "sourceIds": [
+          "cfm-nt-2023-49"
+        ]
+      },
+      "contextNote": {
+        "title": "Love and truth shape the limits of welcome during a teaching conflict",
+        "text": "Verse 5 asks for love and says the command is not new. Verse 6 defines the word: love is walking by his commandments. The command is the one heard from the beginning. That definition prepares for verse 7, where deceivers bring a different teaching. Verse 10 then limits welcome. A house should not receive one who does not bring Christ’s teaching.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "2-john-1",
+      "chapter": 1,
+      "verse": 1,
+      "eventOrder": 1,
+      "title": "Love and truth shape the limits of welcome during a teaching conflict",
+      "summary": "The elder writes to the chosen lady and her children. He rejoices that some of her children walk in truth. He asks that they love one another, as commanded from the beginning. Love means walking by God’s commandments. Many deceivers deny that Jesus Christ came in the flesh. Whoever goes beyond Christ’s teaching does not have God. They should not receive such a teacher into the house. The elder hopes to come and speak face to face.",
+      "detail": "Verse 5 asks for love and says the command is not new. Verse 6 defines the word: love is walking by his commandments. The command is the one heard from the beginning. That definition prepares for verse 7, where deceivers bring a different teaching. Verse 10 then limits welcome. A house should not receive one who does not bring Christ’s teaching.",
+      "dateLabel": "Book order",
+      "uncertainty": "No exact location is assigned to unnamed or heavenly settings.",
+      "sourceIds": [
+        "web",
+        "usccb-2-john"
+      ],
+      "placeIds": [],
+      "lds": {
+        "text": "The selected Church lesson uses this warning to discuss remaining in Christ's teaching. How does walking in received teaching connect love with responsible welcome?",
+        "sourceIds": [
+          "cfm-nt-2023-49"
+        ]
+      }
+    }
+  ],
+  "places": [],
+  "campaigns": [],
+  "ancientRoads": [],
+  "regions": [],
+  "words": [
+    {
+      "id": "glossary-antichrist",
+      "label": "Antichrist",
+      "matches": [
+        "antichrist",
+        "antichrists",
+        "Antichrist"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "One who opposes Christ. First John 2:22 uses the word for those who deny him.",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    }
+  ],
+  "guides": [
+    {
+      "id": "2-john-context",
+      "title": "2 John: context and evidence",
+      "description": "Explore the book’s larger concerns through selected passages and relevant evidence.",
+      "steps": [
+        {
+          "title": "Love and truth shape the limits of welcome during a teaching conflict",
+          "text": "Verse 5 asks for love and says the command is not new. Verse 6 defines the word: love is walking by his commandments. The command is the one heard from the beginning. That definition prepares for verse 7, where deceivers bring a different teaching. Verse 10 then limits welcome. A house should not receive one who does not bring Christ’s teaching.",
+          "chapter": 1,
+          "verse": 6,
+          "sourceIds": [
+            "web"
+          ]
+        }
+      ]
+    }
+  ],
+  "periods": [
+    {
+      "id": "part-0",
+      "label": "2 John 1–1",
+      "start": 1,
+      "end": 1,
+      "description": "Chapter order"
+    },
+    {
+      "id": "part-1",
+      "label": "2 John 2–2",
+      "start": 2,
+      "end": 2,
+      "description": "Chapter order"
+    },
+    {
+      "id": "part-2",
+      "label": "2 John 3–1",
+      "start": 3,
+      "end": 1,
+      "description": "Chapter order"
+    }
+  ],
+  "chapterMaps": [
+    {
+      "chapter": 1,
+      "focusPlaceIds": [],
+      "placeIds": [],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "No exact location is assigned to unnamed or heavenly settings.",
+      "narrative": "The elder writes to the chosen lady and her children. He rejoices that some of her children walk in truth. He asks that they love one another, as commanded from the beginning. Love means walking by God’s commandments. Many deceivers deny that Jesus Christ came in the flesh. Whoever goes beyond Christ’s teaching does not have God. They should not receive such a teacher into the house. The elder hopes to come and speak face to face.",
+      "limits": "No exact location is assigned to unnamed or heavenly settings.",
+      "sourceIds": [
+        "web",
+        "usccb-2-john"
+      ]
+    }
+  ],
+  "textRoutes": [],
+  "narrativeRegions": [],
+  "chapterStudies": [
+    {
+      "chapter": 1,
+      "verse": 6,
+      "context": ""
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "name": "Philemon",
+  "code": "PHM",
+  "date": "2026-10-07",
+  "verseCounts": [
+    25
+  ],
+  "nextBook": "hebrews",
+  "description": "Household assembly · affection · debt · partnership · reception as a brother",
+  "limits": "Paul is the named letter speaker. Historical authorship, dates, Greek forms, manuscripts, the reason for separation, exact location, legal freedom, and the eventual response were not independently verified. Colossae and a prison city are not inferred.",
+  "review": "All 25 verses read for one original contextual explanation and exact selection. Six selected profiles do not claim exhaustive coverage. No exact location is assigned. Pietz's interpretation remains attributed. The reviewed Church lesson does not discuss Philemon in its body, so its title supplies no chapter reference.",
+  "sources": [
+    {
+      "id": "pietz-philemon",
+      "title": "Commentary on Philemon 1:1-21",
+      "url": "https://www.workingpreacher.org/commentaries/revised-common-lectionary/ordinary-23-3/commentary-on-philemon-11-21-4",
+      "author": "Jennifer Vija Pietz",
+      "publisher": "Luther Seminary",
+      "year": 2019,
+      "category": "Scholarly study",
+      "perspective": "historical",
+      "summary": "Pietz emphasizes changed relationships while recognizing uncertainty about a request for legal freedom.",
+      "limits": "This is Pietz's interpretation. Her proposed runaway account, precise legal setting, broader history of slavery, and the eventual outcome were not independently verified. The letter does not record Onesimus's own response.",
+      "chapterCoverage": [
+        1
+      ],
+      "reviewed": {
+        "date": "2026-10-07",
+        "scope": "Complete commentary body read. The guide attributes its emphasis on changed relationships and uncertainty about required legal freedom."
+      }
+    }
+  ],
+  "people": [
+    {
+      "id": "paul",
+      "name": "Paul",
+      "reuse": "acts",
+      "role": "Prisoner and letter speaker who appeals for Onesimus and offers to carry any debt",
+      "relations": "He names Timothy beside himself and asks Philemon to receive Onesimus as a partner.",
+      "passages": "Philemon 1",
+      "meaning": "His appeal combines affection, remembered obligation, and material responsibility rather than a bare command.",
+      "chapters": [
+        1
+      ]
+    },
+    {
+      "id": "timothy",
+      "name": "Timothy",
+      "reuse": "romans",
+      "role": "Worker named beside Paul in the opening greeting",
+      "relations": "Paul calls him a brother before addressing the household assembly.",
+      "passages": "Philemon 1",
+      "meaning": "His named presence keeps the appeal within shared relationships.",
+      "chapters": [
+        1
+      ]
+    },
+    {
+      "id": "jesus",
+      "name": "Jesus Christ",
+      "reuse": "matthew",
+      "linkNames": [
+        "Jesus",
+        "Christ"
+      ],
+      "role": "Lord whose grace and shared faith ground the appeal for Onesimus",
+      "relations": "Paul connects love, partnership, and the closing blessing with him.",
+      "passages": "Philemon 1",
+      "meaning": "Shared belonging supplies the reason to receive Onesimus as more than a bound worker.",
+      "chapters": [
+        1
+      ]
+    },
+    {
+      "id": "philemon",
+      "name": "Philemon",
+      "reuse": "philemon",
+      "role": "Addressed household host asked to receive Onesimus as a beloved brother",
+      "relations": "Paul praises his love and asks him to receive Onesimus as Paul himself.",
+      "passages": "Philemon 1:1–22",
+      "meaning": "The appeal tests whether praised love can change conduct within an unequal relationship.",
+      "chapters": [
+        1
+      ]
+    },
+    {
+      "id": "onesimus",
+      "name": "Onesimus",
+      "reuse": "colossians",
+      "role": "Person sent back with an appeal for reception as a beloved brother",
+      "relations": "Paul calls him his child and own heart, and offers to carry any debt.",
+      "passages": "Philemon 1:10–21",
+      "meaning": "His place makes partnership demand care for a person whose own response remains unrecorded.",
+      "chapters": [
+        1
+      ]
+    },
+    {
+      "id": "epaphras",
+      "name": "Epaphras",
+      "reuse": "colossians",
+      "role": "Fellow prisoner who sends a greeting beside the closing workers",
+      "relations": "Paul names him before Mark, Aristarchus, Demas, and Luke.",
+      "passages": "Philemon 1:23",
+      "meaning": "His greeting places imprisonment within a continuing network of shared work.",
+      "chapters": [
+        1
+      ]
+    }
+  ],
+  "places": [],
+  "chapters": {
+    "1": {
+      "question": "Why does receiving Onesimus as Paul himself make partnership costly?",
+      "historicalSources": [
+        "pietz-philemon"
+      ]
+    }
+  }
+}

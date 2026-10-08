@@ -1,0 +1,989 @@
+{
+  "id": "1-timothy",
+  "bibleCode": "1TI",
+  "name": "1 Timothy",
+  "description": "Teaching · prayer · tested care · visible conduct · family duties · generous use",
+  "chapterCount": 6,
+  "scripture": {
+    "1": [
+      {
+        "verse": 1,
+        "text": "Paul, an apostle of Jesus Christ according to the commandment of God our Savior and the Lord Jesus Christ our hope,"
+      },
+      {
+        "verse": 2,
+        "text": "to Timothy, my true child in faith: Grace, mercy, and peace from God our Father and Christ Jesus our Lord."
+      },
+      {
+        "verse": 3,
+        "text": "As I urged you when I was going into Macedonia, stay at Ephesus that you might command certain men not to teach a different doctrine,"
+      },
+      {
+        "verse": 4,
+        "text": "and not to pay attention to myths and endless genealogies, which cause disputes rather than God’s stewardship, which is in faith."
+      },
+      {
+        "verse": 5,
+        "text": "But the goal of this command is love from a pure heart, a good conscience, and sincere faith,"
+      },
+      {
+        "verse": 6,
+        "text": "from which things some, having missed the mark, have turned away to vain talking,"
+      },
+      {
+        "verse": 7,
+        "text": "desiring to be teachers of the law, though they understand neither what they say nor about what they strongly affirm."
+      },
+      {
+        "verse": 8,
+        "text": "But we know that the law is good if a person uses it lawfully,"
+      },
+      {
+        "verse": 9,
+        "text": "as knowing this, that law is not made for a righteous person, but for the lawless and insubordinate, for the ungodly and sinners, for the unholy and profane, for murderers of fathers and murderers of mothers, for manslayers,"
+      },
+      {
+        "verse": 10,
+        "text": "for the sexually immoral, for homosexuals, for slave-traders, for liars, for perjurers, and for any other thing contrary to the sound doctrine,"
+      },
+      {
+        "verse": 11,
+        "text": "according to the Good News of the glory of the blessed God, which was committed to my trust."
+      },
+      {
+        "verse": 12,
+        "text": "I thank him who enabled me, Christ Jesus our Lord, because he counted me faithful, appointing me to service,"
+      },
+      {
+        "verse": 13,
+        "text": "although I used to be a blasphemer, a persecutor, and insolent. However, I obtained mercy because I did it ignorantly in unbelief."
+      },
+      {
+        "verse": 14,
+        "text": "The grace of our Lord abounded exceedingly with faith and love which is in Christ Jesus."
+      },
+      {
+        "verse": 15,
+        "text": "The saying is faithful and worthy of all acceptance, that Christ Jesus came into the world to save sinners, of whom I am chief."
+      },
+      {
+        "verse": 16,
+        "text": "However, for this cause I obtained mercy, that in me first, Jesus Christ might display all his patience for an example of those who were going to believe in him for eternal life."
+      },
+      {
+        "verse": 17,
+        "text": "Now to the King eternal, immortal, invisible, to God who alone is wise, be honor and glory forever and ever. Amen."
+      },
+      {
+        "verse": 18,
+        "text": "I commit this instruction to you, my child Timothy, according to the prophecies which were given to you before, that by them you may wage the good warfare,"
+      },
+      {
+        "verse": 19,
+        "text": "holding faith and a good conscience, which some having thrust away made a shipwreck concerning the faith,"
+      },
+      {
+        "verse": 20,
+        "text": "of whom are Hymenaeus and Alexander, whom I delivered to Satan that they might be taught not to blaspheme."
+      }
+    ],
+    "2": [
+      {
+        "verse": 1,
+        "text": "I exhort therefore, first of all, that petitions, prayers, intercessions, and givings of thanks be made for all men,"
+      },
+      {
+        "verse": 2,
+        "text": "for kings and all who are in high places, that we may lead a tranquil and quiet life in all godliness and reverence."
+      },
+      {
+        "verse": 3,
+        "text": "For this is good and acceptable in the sight of God our Savior,"
+      },
+      {
+        "verse": 4,
+        "text": "who desires all people to be saved and come to full knowledge of the truth."
+      },
+      {
+        "verse": 5,
+        "text": "For there is one God and one mediator between God and men, the man Christ Jesus,"
+      },
+      {
+        "verse": 6,
+        "text": "who gave himself as a ransom for all, the testimony at the proper time,"
+      },
+      {
+        "verse": 7,
+        "text": "to which I was appointed a preacher and an apostle—I am telling the truth in Christ, not lying—a teacher of the Gentiles in faith and truth."
+      },
+      {
+        "verse": 8,
+        "text": "I desire therefore that the men in every place pray, lifting up holy hands without anger and doubting."
+      },
+      {
+        "verse": 9,
+        "text": "In the same way, that women also adorn themselves in decent clothing, with modesty and propriety, not with braided hair, gold, pearls, or expensive clothing,"
+      },
+      {
+        "verse": 10,
+        "text": "but with good works, which is appropriate for women professing godliness."
+      },
+      {
+        "verse": 11,
+        "text": "Let a woman learn in quietness with full submission."
+      },
+      {
+        "verse": 12,
+        "text": "But I don’t permit a woman to teach, nor to exercise authority over a man, but to be in quietness."
+      },
+      {
+        "verse": 13,
+        "text": "For Adam was formed first, then Eve."
+      },
+      {
+        "verse": 14,
+        "text": "Adam wasn’t deceived, but the woman, being deceived, has fallen into disobedience;"
+      },
+      {
+        "verse": 15,
+        "text": "but she will be saved through her childbearing, if they continue in faith, love, and holiness with sobriety."
+      }
+    ],
+    "3": [
+      {
+        "verse": 1,
+        "text": "This is a faithful saying: someone who seeks to be an overseer desires a good work."
+      },
+      {
+        "verse": 2,
+        "text": "The overseer therefore must be without reproach, the husband of one wife, temperate, sensible, modest, hospitable, good at teaching;"
+      },
+      {
+        "verse": 3,
+        "text": "not a drinker, not violent, not greedy for money, but gentle, not quarrelsome, not covetous;"
+      },
+      {
+        "verse": 4,
+        "text": "one who rules his own house well, having children in subjection with all reverence;"
+      },
+      {
+        "verse": 5,
+        "text": "(for how could someone who doesn’t know how to rule his own house take care of God’s assembly?)"
+      },
+      {
+        "verse": 6,
+        "text": "not a new convert, lest being puffed up he fall into the same condemnation as the devil."
+      },
+      {
+        "verse": 7,
+        "text": "Moreover he must have good testimony from those who are outside, to avoid falling into reproach and the snare of the devil."
+      },
+      {
+        "verse": 8,
+        "text": "Servants, in the same way, must be reverent, not double-tongued, not addicted to much wine, not greedy for money,"
+      },
+      {
+        "verse": 9,
+        "text": "holding the mystery of the faith in a pure conscience."
+      },
+      {
+        "verse": 10,
+        "text": "Let them also first be tested; then let them serve if they are blameless."
+      },
+      {
+        "verse": 11,
+        "text": "Their wives in the same way must be reverent, not slanderers, temperate, and faithful in all things."
+      },
+      {
+        "verse": 12,
+        "text": "Let servants be husbands of one wife, ruling their children and their own houses well."
+      },
+      {
+        "verse": 13,
+        "text": "For those who have served well gain for themselves a good standing and great boldness in the faith which is in Christ Jesus."
+      },
+      {
+        "verse": 14,
+        "text": "These things I write to you, hoping to come to you shortly,"
+      },
+      {
+        "verse": 15,
+        "text": "but if I wait long, that you may know how men ought to behave themselves in God’s house, which is the assembly of the living God, the pillar and ground of the truth."
+      },
+      {
+        "verse": 16,
+        "text": "Without controversy, the mystery of godliness is great: God was revealed in the flesh, justified in the spirit, seen by angels, preached among the nations, believed on in the world, and received up in glory."
+      }
+    ],
+    "4": [
+      {
+        "verse": 1,
+        "text": "But the Spirit says expressly that in later times some will fall away from the faith, paying attention to seducing spirits and doctrines of demons,"
+      },
+      {
+        "verse": 2,
+        "text": "through the hypocrisy of men who speak lies, branded in their own conscience as with a hot iron,"
+      },
+      {
+        "verse": 3,
+        "text": "forbidding marriage and commanding to abstain from foods which God created to be received with thanksgiving by those who believe and know the truth."
+      },
+      {
+        "verse": 4,
+        "text": "For every creature of God is good, and nothing is to be rejected if it is received with thanksgiving."
+      },
+      {
+        "verse": 5,
+        "text": "For it is sanctified through the word of God and prayer."
+      },
+      {
+        "verse": 6,
+        "text": "If you instruct the brothers of these things, you will be a good servant of Christ Jesus, nourished in the words of the faith and of the good doctrine which you have followed."
+      },
+      {
+        "verse": 7,
+        "text": "But refuse profane and old wives’ fables. Exercise yourself toward godliness."
+      },
+      {
+        "verse": 8,
+        "text": "For bodily exercise has some value, but godliness has value in all things, having the promise of the life which is now and of that which is to come."
+      },
+      {
+        "verse": 9,
+        "text": "This saying is faithful and worthy of all acceptance."
+      },
+      {
+        "verse": 10,
+        "text": "For to this end we both labor and suffer reproach, because we have set our trust in the living God, who is the Savior of all men, especially of those who believe."
+      },
+      {
+        "verse": 11,
+        "text": "Command and teach these things."
+      },
+      {
+        "verse": 12,
+        "text": "Let no man despise your youth; but be an example to those who believe, in word, in your way of life, in love, in spirit, in faith, and in purity."
+      },
+      {
+        "verse": 13,
+        "text": "Until I come, pay attention to reading, to exhortation, and to teaching."
+      },
+      {
+        "verse": 14,
+        "text": "Don’t neglect the gift that is in you, which was given to you by prophecy with the laying on of the hands of the elders."
+      },
+      {
+        "verse": 15,
+        "text": "Be diligent in these things. Give yourself wholly to them, that your progress may be revealed to all."
+      },
+      {
+        "verse": 16,
+        "text": "Pay attention to yourself and to your teaching. Continue in these things, for in doing this you will save both yourself and those who hear you."
+      }
+    ],
+    "5": [
+      {
+        "verse": 1,
+        "text": "Don’t rebuke an older man, but exhort him as a father; the younger men as brothers;"
+      },
+      {
+        "verse": 2,
+        "text": "the elder women as mothers; the younger as sisters, in all purity."
+      },
+      {
+        "verse": 3,
+        "text": "Honor widows who are widows indeed."
+      },
+      {
+        "verse": 4,
+        "text": "But if any widow has children or grandchildren, let them learn first to show piety toward their own family and to repay their parents, for this is acceptable in the sight of God."
+      },
+      {
+        "verse": 5,
+        "text": "Now she who is a widow indeed and desolate, has her hope set on God and continues in petitions and prayers night and day."
+      },
+      {
+        "verse": 6,
+        "text": "But she who gives herself to pleasure is dead while she lives."
+      },
+      {
+        "verse": 7,
+        "text": "Also command these things, that they may be without reproach."
+      },
+      {
+        "verse": 8,
+        "text": "But if anyone doesn’t provide for his own, and especially his own household, he has denied the faith and is worse than an unbeliever."
+      },
+      {
+        "verse": 9,
+        "text": "Let no one be enrolled as a widow under sixty years old, having been the wife of one man,"
+      },
+      {
+        "verse": 10,
+        "text": "being approved by good works, if she has brought up children, if she has been hospitable to strangers, if she has washed the saints’ feet, if she has relieved the afflicted, and if she has diligently followed every good work."
+      },
+      {
+        "verse": 11,
+        "text": "But refuse younger widows, for when they have grown wanton against Christ, they desire to marry,"
+      },
+      {
+        "verse": 12,
+        "text": "having condemnation, because they have rejected their first pledge."
+      },
+      {
+        "verse": 13,
+        "text": "Besides, they also learn to be idle, going about from house to house. Not only idle, but also gossips and busybodies, saying things which they ought not."
+      },
+      {
+        "verse": 14,
+        "text": "I desire therefore that the younger widows marry, bear children, rule the household, and give no occasion to the adversary for insulting."
+      },
+      {
+        "verse": 15,
+        "text": "For already some have turned away after Satan."
+      },
+      {
+        "verse": 16,
+        "text": "If any man or woman who believes has widows, let them relieve them, and don’t let the assembly be burdened, that it might relieve those who are widows indeed."
+      },
+      {
+        "verse": 17,
+        "text": "Let the elders who rule well be counted worthy of double honor, especially those who labor in the word and in teaching."
+      },
+      {
+        "verse": 18,
+        "text": "For the Scripture says, “You shall not muzzle the ox when it treads out the grain.” And, “The laborer is worthy of his wages.”"
+      },
+      {
+        "verse": 19,
+        "text": "Don’t receive an accusation against an elder except at the word of two or three witnesses."
+      },
+      {
+        "verse": 20,
+        "text": "Those who sin, reprove in the sight of all, that the rest also may be in fear."
+      },
+      {
+        "verse": 21,
+        "text": "I command you in the sight of God, and the Lord Jesus Christ, and the chosen angels, that you observe these things without prejudice, doing nothing by partiality."
+      },
+      {
+        "verse": 22,
+        "text": "Lay hands hastily on no one. Don’t be a participant in other people’s sins. Keep yourself pure."
+      },
+      {
+        "verse": 23,
+        "text": "Be no longer a drinker of water only, but use a little wine for your stomach’s sake and your frequent infirmities."
+      },
+      {
+        "verse": 24,
+        "text": "Some men’s sins are evident, preceding them to judgment, and some also follow later."
+      },
+      {
+        "verse": 25,
+        "text": "In the same way also there are good works that are obvious, and those that are otherwise can’t be hidden."
+      }
+    ],
+    "6": [
+      {
+        "verse": 1,
+        "text": "Let as many as are bondservants under the yoke count their own masters worthy of all honor, that the name of God and the doctrine not be blasphemed."
+      },
+      {
+        "verse": 2,
+        "text": "Those who have believing masters, let them not despise them because they are brothers, but rather let them serve them, because those who partake of the benefit are believing and beloved. Teach and exhort these things."
+      },
+      {
+        "verse": 3,
+        "text": "If anyone teaches a different doctrine and doesn’t consent to sound words, the words of our Lord Jesus Christ, and to the doctrine which is according to godliness,"
+      },
+      {
+        "verse": 4,
+        "text": "he is conceited, knowing nothing, but obsessed with arguments, disputes, and word battles, from which come envy, strife, insulting, evil suspicions,"
+      },
+      {
+        "verse": 5,
+        "text": "constant friction of people of corrupt minds and destitute of the truth, who suppose that godliness is a means of gain. Withdraw yourself from such."
+      },
+      {
+        "verse": 6,
+        "text": "But godliness with contentment is great gain."
+      },
+      {
+        "verse": 7,
+        "text": "For we brought nothing into the world, and we certainly can’t carry anything out."
+      },
+      {
+        "verse": 8,
+        "text": "But having food and clothing, we will be content with that."
+      },
+      {
+        "verse": 9,
+        "text": "But those who are determined to be rich fall into a temptation, a snare, and many foolish and harmful lusts, such as drown men in ruin and destruction."
+      },
+      {
+        "verse": 10,
+        "text": "For the love of money is a root of all kinds of evil. Some have been led astray from the faith in their greed, and have pierced themselves through with many sorrows."
+      },
+      {
+        "verse": 11,
+        "text": "But you, man of God, flee these things, and follow after righteousness, godliness, faith, love, perseverance, and gentleness."
+      },
+      {
+        "verse": 12,
+        "text": "Fight the good fight of faith. Take hold of the eternal life to which you were called, and you confessed the good confession in the sight of many witnesses."
+      },
+      {
+        "verse": 13,
+        "text": "I command you before God who gives life to all things, and before Christ Jesus who before Pontius Pilate testified the good confession,"
+      },
+      {
+        "verse": 14,
+        "text": "that you keep the commandment without spot, blameless until the appearing of our Lord Jesus Christ,"
+      },
+      {
+        "verse": 15,
+        "text": "which at the right time he will show, who is the blessed and only Ruler, the King of kings and Lord of lords."
+      },
+      {
+        "verse": 16,
+        "text": "He alone has immortality, dwelling in unapproachable light, whom no man has seen nor can see, to whom be honor and eternal power. Amen."
+      },
+      {
+        "verse": 17,
+        "text": "Charge those who are rich in this present age that they not be arrogant, nor have their hope set on the uncertainty of riches, but on the living God, who richly provides us with everything to enjoy;"
+      },
+      {
+        "verse": 18,
+        "text": "that they do good, that they be rich in good works, that they be ready to distribute, willing to share;"
+      },
+      {
+        "verse": 19,
+        "text": "laying up in store for themselves a good foundation against the time to come, that they may lay hold of eternal life."
+      },
+      {
+        "verse": 20,
+        "text": "Timothy, guard that which is committed to you, turning away from the empty chatter and oppositions of what is falsely called knowledge,"
+      },
+      {
+        "verse": 21,
+        "text": "which some profess, and thus have wandered from the faith. Grace be with you. Amen."
+      }
+    ]
+  },
+  "chapters": [
+    {
+      "chapter": 1,
+      "title": "Love supplies the aim against teaching that produces empty disputes",
+      "summary": "The letter is addressed from Paul to Timothy, his true child in faith. Timothy is to stay in Ephesus and stop certain people from teaching different doctrine. They occupy themselves with myths and endless lists of ancestors. The law is good when used lawfully, against the lawless. Paul thanks Christ, who put him in service though he was a persecutor. Christ Jesus came to save sinners, and Paul calls himself the chief. Timothy is to fight the good fight with faith and a good conscience. Hymenaeus and Alexander have wrecked their faith.",
+      "meaning": "Verse 3 tells Timothy to command certain people to stop. Verse 4 says their teaching produces disputes and not God’s work in faith. Verse 5 gives the goal of the command, and it is love. That love has three sources: a pure heart, a good conscience, and sincere faith. Verse 6 says some have missed these and turned to empty talk. So the test of teaching here is what it produces. Verse 19 repeats two of the three: faith and a good conscience.",
+      "people": [
+        "paul",
+        "timothy",
+        "jesus"
+      ],
+      "places": [
+        "ephesus"
+      ],
+      "sourceIds": [
+        "web"
+      ],
+      "lds": {
+        "text": "The selected Church lesson teaches sound doctrine as protection against false instruction. Why does the aim of love require both sound teaching and a good conscience?",
+        "sourceIds": [
+          "cfm-nt-2023-44"
+        ]
+      },
+      "eventOrder": 1,
+      "dateLabel": "Book order",
+      "historicalNote": "The opening makes Timothy's stay at Ephesus serve a problem within the assembled believers. Disputes about ancestors and the law threaten instruction that should produce love and trust. Paul's remembered violence makes received mercy the basis of his authority to instruct others. His change illustrates patience rather than suggesting that his earlier conduct mattered little. The charge to Timothy joins sound teaching with a good conscience instead of argument alone. Hymenaeus and Alexander show the consequence assigned to rejecting that conscience within the letter's conflict.",
+      "mapNote": "The marker identifies Ephesus. No exact meeting house or journey through Macedonia is assigned.",
+      "route": [],
+      "routeEvidence": "No exact travel route is reconstructed.",
+      "contextNote": {
+        "title": "Love supplies the aim against teaching that produces empty disputes",
+        "text": "Verse 3 tells Timothy to command certain people to stop. Verse 4 says their teaching produces disputes and not God’s work in faith. Verse 5 gives the goal of the command, and it is love. That love has three sources: a pure heart, a good conscience, and sincere faith. Verse 6 says some have missed these and turned to empty talk. So the test of teaching here is what it produces. Verse 19 repeats two of the three: faith and a good conscience.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    },
+    {
+      "chapter": 2,
+      "title": "Prayer for everyone leads into instructions shaped by unequal roles",
+      "summary": "Paul urges prayer for all people, and for kings and all in authority. The aim is a quiet and peaceful life. God wants all people to be saved and to know the truth. There is one God and one mediator, who gave himself for all. Men are to pray without anger. Women are to dress modestly and adorn themselves with good works. The letter says a woman should learn quietly and not teach a man. It gives Adam and Eve as its reason.",
+      "meaning": "Verse 1 asks prayer “for all men,” and verse 2 names kings. Verse 4 gives the reason: God desires all people to be saved. Verse 5 supports that with two “ones.” There is one God, so no people has a different one. There is one mediator between God and humans, the man Christ Jesus. Verse 6 completes it: he gave himself as a ransom for all. One God and one mediator for all is why prayer covers all.",
+      "people": [
+        "paul",
+        "timothy",
+        "jesus",
+        "adam",
+        "eve"
+      ],
+      "places": [],
+      "sourceIds": [
+        "web"
+      ],
+      "lds": {
+        "text": "How does the claim about one mediator support prayer for everyone?",
+        "sourceIds": []
+      },
+      "eventOrder": 2,
+      "dateLabel": "Book order",
+      "historicalNote": "Prayer for rulers serves the desire for peaceful lives rather than approval of every ruler. The claim about one mediator supports prayer for everyone because salvation is widely desired. Instructions about anger, display, and good works then address conduct within worship. The command for women to learn accompanies limits on teaching and authority over men. Adam and Eve supply the letter's stated reasons, but the childbirth connection remains partly unexplained. These unequal directions belong to the argument itself rather than a securely reconstructed local incident.",
+      "mapNote": "The marker identifies Ephesus. No exact meeting house or journey through Macedonia is assigned.",
+      "route": [],
+      "routeEvidence": "No exact travel route is reconstructed.",
+      "contextNote": {
+        "title": "Prayer for everyone leads into instructions shaped by unequal roles",
+        "text": "Verse 1 asks prayer “for all men,” and verse 2 names kings. Verse 4 gives the reason: God desires all people to be saved. Verse 5 supports that with two “ones.” There is one God, so no people has a different one. There is one mediator between God and humans, the man Christ Jesus. Verse 6 completes it: he gave himself as a ransom for all. One God and one mediator for all is why prayer covers all.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    },
+    {
+      "chapter": 3,
+      "title": "Care for a household becomes a test of care for the assembly",
+      "summary": "The letter gives the qualities of an overseer. He must be without reproach, the husband of one wife, and able to teach. He must not be a drinker, violent, or a lover of money. He must rule his own house well and not be a new convert. Servants of the assembly must also be tested first. Their wives must be reverent and faithful. Paul writes so Timothy will know how to behave in God’s house. The chapter ends with a short confession about Christ revealed in the flesh.",
+      "meaning": "Verse 4 requires an overseer to rule his own house well. Verse 5 gives the reason as a question in brackets. One who cannot rule his own house cannot care for God’s assembly. The comparison rests on a picture stated in verse 15. The assembly is called the house of God. So the smaller house shows how he will act in the larger one. The verbs differ: “rule” for the house, “take care of” for the assembly.",
+      "people": [
+        "paul",
+        "timothy",
+        "jesus"
+      ],
+      "places": [],
+      "sourceIds": [
+        "web"
+      ],
+      "lds": {
+        "text": "Why does care for a household supply a test for care of the assembly?",
+        "sourceIds": []
+      },
+      "eventOrder": 3,
+      "dateLabel": "Book order",
+      "historicalNote": "The opening connects the desire to oversee others with demanding tests of personal conduct. Violence, greed, and uncontrolled behavior would damage the very people the leader must care for. Household management supplies the letter's comparison because responsibility must appear in ordinary relationships. Servants also require testing, which prevents appointment from depending on an attractive public appearance alone. A good report from outsiders makes the assembly's trust answerable beyond its own members. The closing explains these instructions as preparation for Timothy's work while the visit remains delayed.",
+      "mapNote": "The marker identifies Ephesus. No exact meeting house or journey through Macedonia is assigned.",
+      "route": [],
+      "routeEvidence": "No exact travel route is reconstructed.",
+      "contextNote": {
+        "title": "Care for a household becomes a test of care for the assembly",
+        "text": "Verse 4 requires an overseer to rule his own house well. Verse 5 gives the reason as a question in brackets. One who cannot rule his own house cannot care for God’s assembly. The comparison rests on a picture stated in verse 15. The assembly is called the house of God. So the smaller house shows how he will act in the larger one. The verbs differ: “rule” for the house, “take care of” for the assembly.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    },
+    {
+      "chapter": 4,
+      "title": "Received gifts and visible conduct answer restrictions and contempt for youth",
+      "summary": "The Spirit says that in later times some will leave the faith. They will forbid marriage and command people to abstain from foods. The letter answers that God created foods to be received with thanks. Everything God made is good. Timothy is to teach this and avoid profane fables. Bodily exercise has some value, but godliness has value for all things. No one should despise his youth. He is to attend to reading, exhortation, and teaching, and use his gift.",
+      "meaning": "Verse 3 names two rules of these teachers: no marriage and certain foods forbidden. Verse 4 answers with creation. Every creature of God is good. Nothing is to be rejected if it is received with thanksgiving. The condition matters: the food is received as a gift. Verse 5 says it is made holy by God’s word and prayer. Verse 3 already said God created these foods to be received.",
+      "people": [
+        "paul",
+        "timothy",
+        "jesus"
+      ],
+      "places": [],
+      "sourceIds": [
+        "web"
+      ],
+      "lds": {
+        "text": "The selected Church lesson teaches becoming a faithful example despite youth. Why must Timothy's visible conduct support the instruction he gives?",
+        "sourceIds": [
+          "cfm-nt-2023-44"
+        ]
+      },
+      "eventOrder": 4,
+      "dateLabel": "Book order",
+      "historicalNote": "The warning identifies teachers who forbid marriage and foods as threats to received faith. Thanksgiving answers food restrictions because the argument treats created gifts as good when properly received. Training in godliness then connects instruction with steady practice rather than argument about empty stories. Timothy's youth can attract contempt, so his conduct must make the teaching visible. Public reading, encouragement, and teaching place his gift within service supported by the elders' hands. Watching conduct and instruction prevents his public task from becoming separated from his own life.",
+      "mapNote": "The marker identifies Ephesus. No exact meeting house or journey through Macedonia is assigned.",
+      "route": [],
+      "routeEvidence": "No exact travel route is reconstructed.",
+      "contextNote": {
+        "title": "Received gifts and visible conduct answer restrictions and contempt for youth",
+        "text": "Verse 3 names two rules of these teachers: no marriage and certain foods forbidden. Verse 4 answers with creation. Every creature of God is good. Nothing is to be rejected if it is received with thanksgiving. The condition matters: the food is received as a gift. Verse 5 says it is made holy by God’s word and prayer. Verse 3 already said God created these foods to be received.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    },
+    {
+      "chapter": 5,
+      "title": "Family duties and tested testimony shape care and correction",
+      "summary": "Timothy is to treat older men as fathers and older women as mothers. The assembly should honor widows who are truly alone. A widow with children or grandchildren should be cared for by them. A widow is enrolled only if she is sixty and known for good works. Younger widows should marry. Elders who rule well deserve double honor, for the worker deserves his wages. An accusation against an elder needs two or three witnesses. Timothy is told to use a little wine for his stomach.",
+      "meaning": "Verse 3 says to honor widows “who are widows indeed.” Verse 4 puts the first duty on children and grandchildren. Caring for a parent is called piety and repayment. It is “acceptable in the sight of God.” Verse 8 says one who will not provide has denied the faith. Verse 16 gives the purpose: the assembly can then relieve widows who are alone.",
+      "people": [
+        "paul",
+        "timothy",
+        "jesus"
+      ],
+      "places": [],
+      "sourceIds": [
+        "web"
+      ],
+      "lds": {
+        "text": "How do family duties and tested testimony limit careless decisions about support?",
+        "sourceIds": []
+      },
+      "eventOrder": 5,
+      "dateLabel": "Book order",
+      "historicalNote": "The opening uses family relationships to limit how Timothy addresses people of different ages. Children and grandchildren must support widows first because family duties come before shared care. The restricted widow list connects age and proven service with a particular shared obligation. These rules therefore organize support rather than declaring that every younger widow has no need. Instructions about elders join support for their work with tested accusations and correction without favoritism. The warning against quick appointment requires patience because good and harmful conduct emerge over time.",
+      "mapNote": "The marker identifies Ephesus. No exact meeting house or journey through Macedonia is assigned.",
+      "route": [],
+      "routeEvidence": "No exact travel route is reconstructed.",
+      "contextNote": {
+        "title": "Family duties and tested testimony shape care and correction",
+        "text": "Verse 3 says to honor widows “who are widows indeed.” Verse 4 puts the first duty on children and grandchildren. Caring for a parent is called piety and repayment. It is “acceptable in the sight of God.” Verse 8 says one who will not provide has denied the faith. Verse 16 gives the purpose: the assembly can then relieve widows who are alone.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    },
+    {
+      "chapter": 6,
+      "title": "Contentment and generous use answer the pursuit of wealth as religious gain",
+      "summary": "Servants are told to honor their masters so that God’s name is not blasphemed. The letter warns against teachers who think godliness is a way to gain. Godliness with contentment is great gain. We brought nothing into the world and can carry nothing out. The love of money is a root of all kinds of evil. Timothy is to flee these things and fight the good fight of faith. The rich are told not to be proud or to trust in uncertain riches. Timothy is to guard what was entrusted to him.",
+      "meaning": "Verses 9–10 warn those who want to be rich. Verse 17 then speaks to those who already are. It tells them where not to put hope: in uncertain riches. Verse 18 says what to do with wealth, in four phrases. Do good, be rich in good works, be ready to give, be willing to share. The word “rich” is turned: the wealth that counts is good works. Verse 19 calls this a good foundation for the time to come.",
+      "people": [
+        "paul",
+        "timothy",
+        "jesus"
+      ],
+      "places": [],
+      "sourceIds": [
+        "web",
+        "eberhart-timothy"
+      ],
+      "lds": {
+        "text": "The selected Church lesson teaches sound doctrine as protection against false instruction. How does generous sharing answer the temptation to treat faith as private gain?",
+        "sourceIds": [
+          "cfm-nt-2023-44"
+        ]
+      },
+      "eventOrder": 6,
+      "dateLabel": "Book order",
+      "historicalNote": "Instructions to bound workers preserve unequal conditions while demanding conduct toward masters who also believe. The following warning treats the search for religious profit as a corruption of teaching. Contentment with food and clothing answers that search because possessions cannot accompany birth or death. Eberhart distinguishes love of money from possessions themselves while stressing generous use. Timothy must pursue faithfulness, while wealthy hearers must place hope in God and share freely. The ending connects guarding received teaching with conduct that refuses faith as private gain.",
+      "mapNote": "The marker identifies Ephesus. No exact meeting house or journey through Macedonia is assigned.",
+      "route": [],
+      "routeEvidence": "No exact travel route is reconstructed.",
+      "contextNote": {
+        "title": "Contentment and generous use answer the pursuit of wealth as religious gain",
+        "text": "Verses 9–10 warn those who want to be rich. Verse 17 then speaks to those who already are. It tells them where not to put hope: in uncertain riches. Verse 18 says what to do with wealth, in four phrases. Do good, be rich in good works, be ready to give, be willing to share. The word “rich” is turned: the wealth that counts is good works. Verse 19 calls this a good foundation for the time to come.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    }
+  ],
+  "people": [
+    {
+      "id": "paul",
+      "name": "Paul",
+      "role": "Named letter speaker who gives Timothy instructions for teaching and care",
+      "relations": "He recalls received mercy and calls Timothy his true child in faith.",
+      "passages": "First Timothy 1–6",
+      "meaning": "His remembered violence makes mercy central to the authority claimed for his teaching.",
+      "life": "Birth and death years are not securely known.",
+      "sourceIds": [
+        "web"
+      ],
+      "placeIds": [],
+      "linkNames": [
+        "Paul"
+      ],
+      "verseScope": {}
+    },
+    {
+      "id": "timothy",
+      "name": "Timothy",
+      "role": "Addressed worker charged with teaching, public reading, and care for others",
+      "relations": "Paul asks him to stay at Ephesus and make his conduct an example.",
+      "passages": "First Timothy 1–6",
+      "meaning": "His task joins received instruction with patient judgment and visible personal conduct.",
+      "life": "Birth and death years are not securely known.",
+      "sourceIds": [
+        "web"
+      ],
+      "placeIds": [],
+      "linkNames": [
+        "Timothy"
+      ],
+      "verseScope": {}
+    },
+    {
+      "id": "jesus",
+      "name": "Jesus Christ",
+      "role": "Mediator and Lord whose mercy supplies the letter's foundation for faith",
+      "relations": "The speaker connects received patience, salvation, and a faithful confession with him.",
+      "passages": "First Timothy 1–6",
+      "meaning": "His work grounds the call to prayer for everyone and continued faithful conduct.",
+      "life": "Birth and death years are not securely known.",
+      "sourceIds": [
+        "web"
+      ],
+      "placeIds": [],
+      "linkNames": [
+        "Jesus",
+        "Christ"
+      ],
+      "verseScope": {}
+    },
+    {
+      "id": "adam",
+      "name": "Adam",
+      "role": "First formed person named in the letter's argument about teaching",
+      "relations": "His formation is compared with Eve's within the stated reason for unequal roles.",
+      "passages": "First Timothy 2:13–14",
+      "meaning": "The appeal uses the creation account rather than explaining a specific local dispute.",
+      "life": "Birth and death years are not securely known.",
+      "sourceIds": [
+        "web"
+      ],
+      "placeIds": [],
+      "linkNames": [
+        "Adam"
+      ],
+      "verseScope": {}
+    },
+    {
+      "id": "eve",
+      "name": "Eve",
+      "role": "Woman named in the letter's appeal to formation and deception",
+      "relations": "The speaker compares her with Adam in the stated reason for unequal roles.",
+      "passages": "First Timothy 2:13–14",
+      "meaning": "Her named place makes the letter's argument visible without establishing an invented local incident.",
+      "life": "Birth and death years are not securely known.",
+      "sourceIds": [
+        "web"
+      ],
+      "placeIds": [],
+      "linkNames": [
+        "Eve"
+      ],
+      "verseScope": {}
+    }
+  ],
+  "places": [
+    {
+      "id": "ephesus",
+      "name": "Ephesus",
+      "lat": 37.95,
+      "lng": 27.366666666666667,
+      "summary": "Ephesus is the named place where Timothy must remain to address disputed teaching.",
+      "limits": "Broad city reference. Exact houses, riverside meeting points, courtrooms, and ancient routes remain unassigned.",
+      "sourceIds": [
+        "web",
+        "net-acts-map"
+      ],
+      "verseScope": {},
+      "linkNames": [
+        "Ephesus"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "web",
+      "title": "1 Timothy · World English Bible",
+      "url": "https://ebible.org/engwebp/1TI01.htm",
+      "summary": "Complete Scripture supplies the primary text for original close readings.",
+      "category": "Scripture",
+      "perspective": "historical",
+      "limits": "Paul is the named letter speaker. Historical authorship, dates, Greek forms, manuscripts, local causes of restrictions on women, and the childbirth phrase were not independently verified. Unequal roles remain visible without an invented local incident.",
+      "author": "World English Bible translators",
+      "publisher": "eBible.org",
+      "chapterCoverage": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "reviewed": {
+        "date": "2026-10-07",
+        "scope": "All 113 verses read for 6 original contextual explanations and exact selections. Surroundings, counts, and character integrity checked."
+      }
+    },
+    {
+      "id": "eberhart-timothy",
+      "title": "Commentary on 1 Timothy 6:6-19",
+      "url": "https://www.workingpreacher.org/commentaries/revised-common-lectionary/ordinary-26-3/commentary-on-1-timothy-66-19-3",
+      "author": "Christian A. Eberhart",
+      "publisher": "Luther Seminary",
+      "year": 2013,
+      "category": "Scholarly study",
+      "perspective": "historical",
+      "summary": "Eberhart distinguishes love of money from possessions and stresses generous use.",
+      "limits": "This is Eberhart's interpretation. His Greek analysis, broader Roman economic claims, proposed payment of Tertius, and cited books were not independently verified.",
+      "chapterCoverage": [
+        6
+      ],
+      "reviewed": {
+        "date": "2026-10-07",
+        "scope": "Complete commentary body and note read. The guide attributes its distinction between love of money and possessions, with generous sharing."
+      }
+    },
+    {
+      "id": "cfm-nt-2023-44",
+      "title": "October 23–29 · Timothy, Titus, and Philemon",
+      "url": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-sunday-school-new-testament-2023/44?lang=eng",
+      "author": "The Church of Jesus Christ of Latter-day Saints",
+      "publisher": "The Church of Jesus Christ of Latter-day Saints",
+      "year": 2023,
+      "category": "LDS Come, Follow Me",
+      "perspective": "lds",
+      "summary": "The lesson connects sound teaching with a faithful personal example.",
+      "limits": "First Timothy coverage follows actual discussion of chapters one, four, and six. Linked talks and Restoration passages were not independently reviewed.",
+      "chapterCoverage": [
+        1,
+        4,
+        6
+      ],
+      "reviewed": {
+        "date": "2026-10-07",
+        "scope": "Complete lesson body and resource list read. Only its actual First Timothy discussion supports this book's Church references."
+      }
+    },
+    {
+      "id": "net-acts-map",
+      "title": "NET Bible · selected Acts location references",
+      "url": "https://classic.net.bible.org/dictionary.php?word=Antioch",
+      "summary": "Selected opening descriptions and coordinates distinguish cities named in Acts.",
+      "category": "Geographic reference",
+      "perspective": "historical",
+      "limits": "Broad reference points do not verify ancient events, travel paths, buildings, or coastlines. Older encyclopedia claims about authorship, law, populations, and exact dates were not adopted.",
+      "author": "NET Bible editors and linked reference contributors",
+      "publisher": "Bible.org",
+      "year": null,
+      "reviewed": {
+        "date": "2026-10-07",
+        "scope": "Opening descriptions and coordinate lines read for Rome, Corinth, Ephesus, Athens, Antioch, Caesarea, and Philippi. The Caesarea page also supplies the distinct Philippi coordinate. Both Antiochs remain separate. Only these location references are used."
+      },
+      "links": [
+        {
+          "label": "Rome",
+          "url": "https://classic.net.bible.org/dictionary.php?word=Rome"
+        },
+        {
+          "label": "Corinth",
+          "url": "https://classic.net.bible.org/dictionary.php?word=Corinth"
+        },
+        {
+          "label": "Ephesus",
+          "url": "https://classic.net.bible.org/dictionary.php?word=Ephesus"
+        },
+        {
+          "label": "Athens",
+          "url": "https://classic.net.bible.org/dictionary.php?word=Athens"
+        },
+        {
+          "label": "Antioch",
+          "url": "https://classic.net.bible.org/dictionary.php?word=Antioch"
+        },
+        {
+          "label": "Caesarea",
+          "url": "https://classic.net.bible.org/dictionary.php?word=Caesarea"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "date": "2026-10-07",
+    "contextReviewDate": "2026-10-07",
+    "copyReviewDate": "2026-10-07",
+    "scope": "All 113 verses read for six original contextual explanations and exact selections. Five selected profiles and one city reference do not claim exhaustive coverage. Church coverage follows actual lesson discussion. Eberhart's reading remains attributed. Authorship, dates, Greek forms, and a reconstructed local incident behind chapter two were not independently verified.",
+    "nextBook": "2-timothy",
+    "copyReview": "2026-10-07: Reader copy reviewed against WRITING-GUIDE.md. Scripture and source titles preserved.",
+    "sourcePolicy": "BIBLE-SOURCE-POLICY.md",
+    "sourceEnrichmentDate": "2026-10-05",
+    "contextReview": {
+      "date": "2026-10-07",
+      "chapters": 6,
+      "scope": "Original close readings grounded in local World English Bible passages. Existing external source reviews remain separate."
+    }
+  },
+  "translation": "World English Bible",
+  "copyright": "Public domain",
+  "chapterStudies": [
+    {
+      "chapter": 1,
+      "verse": 5,
+      "context": ""
+    },
+    {
+      "chapter": 2,
+      "verse": 5,
+      "context": ""
+    },
+    {
+      "chapter": 3,
+      "verse": 5,
+      "context": ""
+    },
+    {
+      "chapter": 4,
+      "verse": 4,
+      "context": ""
+    },
+    {
+      "chapter": 5,
+      "verse": 4,
+      "context": ""
+    },
+    {
+      "chapter": 6,
+      "verse": 18,
+      "context": ""
+    }
+  ],
+  "contextGuide": {
+    "id": "1-timothy-context",
+    "title": "1 Timothy: context and evidence",
+    "description": "Explore the book’s larger concerns through selected passages and relevant evidence.",
+    "steps": [
+      {
+        "title": "Love supplies the aim against teaching that produces empty disputes",
+        "text": "Verse 3 tells Timothy to command certain people to stop. Verse 4 says their teaching produces disputes and not God’s work in faith. Verse 5 gives the goal of the command, and it is love. That love has three sources: a pure heart, a good conscience, and sincere faith. Verse 6 says some have missed these and turned to empty talk. So the test of teaching here is what it produces. Verse 19 repeats two of the three: faith and a good conscience.",
+        "chapter": 1,
+        "verse": 5,
+        "sourceIds": [
+          "web"
+        ]
+      },
+      {
+        "title": "Care for a household becomes a test of care for the assembly",
+        "text": "Verse 4 requires an overseer to rule his own house well. Verse 5 gives the reason as a question in brackets. One who cannot rule his own house cannot care for God’s assembly. The comparison rests on a picture stated in verse 15. The assembly is called the house of God. So the smaller house shows how he will act in the larger one. The verbs differ: “rule” for the house, “take care of” for the assembly.",
+        "chapter": 3,
+        "verse": 5,
+        "sourceIds": [
+          "web"
+        ]
+      },
+      {
+        "title": "Received gifts and visible conduct answer restrictions and contempt for youth",
+        "text": "Verse 3 names two rules of these teachers: no marriage and certain foods forbidden. Verse 4 answers with creation. Every creature of God is good. Nothing is to be rejected if it is received with thanksgiving. The condition matters: the food is received as a gift. Verse 5 says it is made holy by God’s word and prayer. Verse 3 already said God created these foods to be received.",
+        "chapter": 4,
+        "verse": 4,
+        "sourceIds": [
+          "web"
+        ]
+      },
+      {
+        "title": "Contentment and generous use answer the pursuit of wealth as religious gain",
+        "text": "Verses 9–10 warn those who want to be rich. Verse 17 then speaks to those who already are. It tells them where not to put hope: in uncertain riches. Verse 18 says what to do with wealth, in four phrases. Do good, be rich in good works, be ready to give, be willing to share. The word “rich” is turned: the wealth that counts is good works. Verse 19 calls this a good foundation for the time to come.",
+        "chapter": 6,
+        "verse": 18,
+        "sourceIds": [
+          "web"
+        ]
+      }
+    ]
+  }
+}

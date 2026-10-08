@@ -1,0 +1,417 @@
+{
+  "sources": [
+    {
+      "id": "web",
+      "title": "Nahum · World English Bible",
+      "url": "https://ebible.org/engwebp/NAM01.htm",
+      "summary": "All three chapters appear in the reading text.",
+      "category": "Scripture",
+      "perspective": "historical",
+      "limits": "Poetic battle scenes do not supply verified street routes or a named attacking army.",
+      "author": "World English Bible translators",
+      "publisher": "eBible.org",
+      "chapterCoverage": [
+        1,
+        2,
+        3
+      ],
+      "reviewed": {
+        "date": "2026-10-07",
+        "scope": "All 47 verses read. Verse counts and character integrity checked."
+      },
+      "type": "Scripture",
+      "limitations": "Poetic battle scenes do not supply verified street routes or a named attacking army.",
+      "license": "Public domain"
+    },
+    {
+      "id": "usccb-nahum",
+      "title": "The Book of Nahum · Introduction",
+      "url": "https://bible.usccb.org/bible/nahum/0",
+      "summary": "The introduction reads Nineveh’s fall as release for peoples harmed by Assyrian power.",
+      "category": "Bible introduction",
+      "perspective": "historical",
+      "limits": "The introduction proposes a historical setting. This guide does not independently verify its dates or cited royal inscriptions.",
+      "author": "United States Conference of Catholic Bishops",
+      "publisher": "United States Conference of Catholic Bishops",
+      "chapterCoverage": [
+        1,
+        2,
+        3
+      ],
+      "reviewed": {
+        "date": "2026-10-07",
+        "scope": "Complete introduction and outline read in the indexed page text. Direct page fetch returned 403. Royal inscriptions mentioned by the introduction were not independently reviewed."
+      },
+      "type": "Bible introduction",
+      "limitations": "The introduction proposes a historical setting. This guide does not independently verify its dates or cited royal inscriptions.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "cfm-nahum-2026",
+      "title": "November 30–December 6: “He Delighteth in Mercy” · Micah, Nahum, Habakkuk, Zephaniah",
+      "url": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/49?lang=eng",
+      "summary": "The lesson connects Nahum’s description of God’s power with refuge and mercy.",
+      "category": "LDS Come, Follow Me",
+      "perspective": "lds",
+      "limits": "The Church application remains separate from the close readings of the city’s destruction.",
+      "author": "The Church of Jesus Christ of Latter-day Saints",
+      "year": 2026,
+      "publisher": "The Church of Jesus Christ of Latter-day Saints",
+      "chapterCoverage": [
+        1
+      ],
+      "reviewed": {
+        "date": "2026-10-07",
+        "scope": "Introduction and adult Nahum study section read. Linked talks, videos, and Scripture Helps were not separately reviewed."
+      },
+      "type": "LDS Come, Follow Me",
+      "limitations": "The Church application remains separate from the close readings of the city’s destruction.",
+      "license": "Linked source. Original guide summaries."
+    }
+  ],
+  "passages": [
+    {
+      "id": "nahum-1",
+      "chapter": 1,
+      "start": 1,
+      "end": 15,
+      "title": "A breaking yoke changes who must fear",
+      "summary": "This book is a message about Nineveh, the capital of Assyria. The LORD is slow to anger and great in power. He will not leave the guilty unpunished. Mountains quake before him, and no one can stand against his anger. He is good and a refuge in the day of trouble. He will make a full end of those who plot against him. He tells Judah he will break Assyria’s yoke. A messenger on the mountains brings news of peace.",
+      "year": null,
+      "dateLabel": "Book order",
+      "uncertainty": "Markers locate selected geographic references. The poem’s battle scenes do not establish mapped army movements.",
+      "placeIds": [
+        "nineveh"
+      ],
+      "sourceIds": [
+        "web",
+        "usccb-nahum"
+      ],
+      "lds": {
+        "text": "The lesson asks readers to consider power and mercy together in God’s character. How does the broken yoke explain Judah’s welcome for the message?",
+        "sourceIds": [
+          "cfm-nahum-2026"
+        ]
+      },
+      "contextNote": {
+        "title": "A breaking yoke changes who must fear",
+        "text": "The book of Jonah showed Nineveh spared. Nahum speaks in a later time about its fall. Verse 3 still calls the LORD slow to anger. It adds that he will not clear the guilty. Verses 7 and 8 set a refuge beside a flood. Verse 13 is spoken to Judah, which lived under Assyria’s demands (2 Kings 18:14). A broken yoke changes who has reason to fear.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    },
+    {
+      "id": "nahum-2",
+      "chapter": 2,
+      "start": 1,
+      "end": 13,
+      "title": "The predator's den becomes a place of flight",
+      "summary": "An attacker advances against Nineveh. Shields are red, and chariots flash like torches in the streets. The river gates are opened, and the palace collapses. The city is stripped, and its women moan like doves. People flee, and no one turns back. Plunderers carry off endless silver and gold. Nahum asks where the lions’ den is now. The lion once filled his caves with torn prey.",
+      "year": null,
+      "dateLabel": "Book order",
+      "uncertainty": "Markers locate selected geographic references. The poem’s battle scenes do not establish mapped army movements.",
+      "placeIds": [
+        "nineveh"
+      ],
+      "sourceIds": [
+        "web",
+        "usccb-nahum"
+      ],
+      "lds": {
+        "text": "What does the lion’s stored prey suggest about the city’s wealth?",
+        "sourceIds": []
+      },
+      "contextNote": {
+        "title": "The predator's den becomes a place of flight",
+        "text": "Verses 11–12 picture Nineveh as a den of lions. The lion killed enough for his cubs and his mates. He filled his caves with prey. So the city’s great wealth was plunder taken from others. Verse 9 shows that same treasure being carried off in turn. The question about the den is a taunt. Verse 13 says the voices of Assyria’s envoys will be heard no more.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    },
+    {
+      "id": "nahum-3",
+      "chapter": 3,
+      "start": 1,
+      "end": 19,
+      "title": "The ending explains why no one offers comfort",
+      "summary": "Nahum cries woe to the city of blood, full of lies and plunder. Horsemen charge, and the dead lie in heaps. Nineveh sold nations by her charms and will be put to shame. No one will mourn her. She is no better than Thebes, the great city on the Nile. Thebes went into exile, and its infants were killed. Nineveh’s forts will fall like ripe figs. Her wound cannot be healed, and all who hear of it clap their hands.",
+      "year": null,
+      "dateLabel": "Book order",
+      "uncertainty": "Markers locate selected geographic references. The poem’s battle scenes do not establish mapped army movements.",
+      "placeIds": [
+        "nineveh",
+        "egypt"
+      ],
+      "sourceIds": [
+        "web",
+        "usccb-nahum"
+      ],
+      "lds": {
+        "text": "Why does the final question connect the listeners’ applause with the city’s cruelty?",
+        "sourceIds": []
+      },
+      "contextNote": {
+        "title": "The ending explains why no one offers comfort",
+        "text": "Verse 7 asks who will mourn Nineveh or comfort her. Verse 19 gives the answer and the reason. Everyone who hears of her fall applauds. The verse ends with a question: who has not felt her endless cruelty? The applause is the verdict of her victims. Verses 8–10 recall the fall of Thebes as a warning. The book of Jonah also ends with a question about this city.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "nahum-1",
+      "chapter": 1,
+      "verse": 1,
+      "eventOrder": 1,
+      "title": "A breaking yoke changes who must fear",
+      "summary": "This book is a message about Nineveh, the capital of Assyria. The LORD is slow to anger and great in power. He will not leave the guilty unpunished. Mountains quake before him, and no one can stand against his anger. He is good and a refuge in the day of trouble. He will make a full end of those who plot against him. He tells Judah he will break Assyria’s yoke. A messenger on the mountains brings news of peace.",
+      "detail": "The book of Jonah showed Nineveh spared. Nahum speaks in a later time about its fall. Verse 3 still calls the LORD slow to anger. It adds that he will not clear the guilty. Verses 7 and 8 set a refuge beside a flood. Verse 13 is spoken to Judah, which lived under Assyria’s demands (2 Kings 18:14). A broken yoke changes who has reason to fear.",
+      "dateLabel": "Book order",
+      "uncertainty": "Markers locate selected geographic references. The poem’s battle scenes do not establish mapped army movements.",
+      "sourceIds": [
+        "web",
+        "usccb-nahum"
+      ],
+      "placeIds": [
+        "nineveh"
+      ],
+      "lds": {
+        "text": "The lesson asks readers to consider power and mercy together in God’s character. How does the broken yoke explain Judah’s welcome for the message?",
+        "sourceIds": [
+          "cfm-nahum-2026"
+        ]
+      }
+    },
+    {
+      "id": "nahum-2",
+      "chapter": 2,
+      "verse": 1,
+      "eventOrder": 2,
+      "title": "The predator's den becomes a place of flight",
+      "summary": "An attacker advances against Nineveh. Shields are red, and chariots flash like torches in the streets. The river gates are opened, and the palace collapses. The city is stripped, and its women moan like doves. People flee, and no one turns back. Plunderers carry off endless silver and gold. Nahum asks where the lions’ den is now. The lion once filled his caves with torn prey.",
+      "detail": "Verses 11–12 picture Nineveh as a den of lions. The lion killed enough for his cubs and his mates. He filled his caves with prey. So the city’s great wealth was plunder taken from others. Verse 9 shows that same treasure being carried off in turn. The question about the den is a taunt. Verse 13 says the voices of Assyria’s envoys will be heard no more.",
+      "dateLabel": "Book order",
+      "uncertainty": "Markers locate selected geographic references. The poem’s battle scenes do not establish mapped army movements.",
+      "sourceIds": [
+        "web",
+        "usccb-nahum"
+      ],
+      "placeIds": [
+        "nineveh"
+      ],
+      "lds": {
+        "text": "What does the lion’s stored prey suggest about the city’s wealth?",
+        "sourceIds": []
+      }
+    },
+    {
+      "id": "nahum-3",
+      "chapter": 3,
+      "verse": 1,
+      "eventOrder": 3,
+      "title": "The ending explains why no one offers comfort",
+      "summary": "Nahum cries woe to the city of blood, full of lies and plunder. Horsemen charge, and the dead lie in heaps. Nineveh sold nations by her charms and will be put to shame. No one will mourn her. She is no better than Thebes, the great city on the Nile. Thebes went into exile, and its infants were killed. Nineveh’s forts will fall like ripe figs. Her wound cannot be healed, and all who hear of it clap their hands.",
+      "detail": "Verse 7 asks who will mourn Nineveh or comfort her. Verse 19 gives the answer and the reason. Everyone who hears of her fall applauds. The verse ends with a question: who has not felt her endless cruelty? The applause is the verdict of her victims. Verses 8–10 recall the fall of Thebes as a warning. The book of Jonah also ends with a question about this city.",
+      "dateLabel": "Book order",
+      "uncertainty": "Markers locate selected geographic references. The poem’s battle scenes do not establish mapped army movements.",
+      "sourceIds": [
+        "web",
+        "usccb-nahum"
+      ],
+      "placeIds": [
+        "nineveh",
+        "egypt"
+      ],
+      "lds": {
+        "text": "Why does the final question connect the listeners’ applause with the city’s cruelty?",
+        "sourceIds": []
+      }
+    }
+  ],
+  "places": [
+    {
+      "id": "nineveh",
+      "name": "Nineveh",
+      "lat": 36.36,
+      "lng": 43.15,
+      "summary": "Nineveh is the city addressed through battle scenes, lost wealth, and final abandonment.",
+      "limits": "Approximate ancient city marker. Streets, river gates, and army paths are not reconstructed.",
+      "sourceIds": [
+        "web"
+      ],
+      "detail": "Nineveh is the city addressed through battle scenes, lost wealth, and final abandonment.",
+      "uncertainty": "Approximate ancient city marker. Streets, river gates, and army paths are not reconstructed.",
+      "chapterLocation": true
+    },
+    {
+      "id": "egypt",
+      "name": "Egypt",
+      "lat": 30.05,
+      "lng": 31.23,
+      "summary": "Egypt appears among the powers that supported No-Amon before its capture.",
+      "limits": "Broad regional reference. No-Amon receives no precise marker in this selected map.",
+      "sourceIds": [
+        "web"
+      ],
+      "detail": "Egypt appears among the powers that supported No-Amon before its capture.",
+      "uncertainty": "Broad regional reference. No-Amon receives no precise marker in this selected map.",
+      "chapterLocation": true
+    }
+  ],
+  "campaigns": [],
+  "ancientRoads": [],
+  "regions": [],
+  "words": [],
+  "guides": [
+    {
+      "id": "nahum-context",
+      "title": "Nahum: context and evidence",
+      "description": "Explore the book’s larger concerns through selected passages and relevant evidence.",
+      "steps": [
+        {
+          "title": "A breaking yoke changes who must fear",
+          "text": "The book of Jonah showed Nineveh spared. Nahum speaks in a later time about its fall. Verse 3 still calls the LORD slow to anger. It adds that he will not clear the guilty. Verses 7 and 8 set a refuge beside a flood. Verse 13 is spoken to Judah, which lived under Assyria’s demands (2 Kings 18:14). A broken yoke changes who has reason to fear.",
+          "chapter": 1,
+          "verse": 13,
+          "sourceIds": [
+            "web"
+          ]
+        },
+        {
+          "title": "The predator's den becomes a place of flight",
+          "text": "Verses 11–12 picture Nineveh as a den of lions. The lion killed enough for his cubs and his mates. He filled his caves with prey. So the city’s great wealth was plunder taken from others. Verse 9 shows that same treasure being carried off in turn. The question about the den is a taunt. Verse 13 says the voices of Assyria’s envoys will be heard no more.",
+          "chapter": 2,
+          "verse": 12,
+          "sourceIds": [
+            "web"
+          ]
+        },
+        {
+          "title": "The ending explains why no one offers comfort",
+          "text": "Verse 7 asks who will mourn Nineveh or comfort her. Verse 19 gives the answer and the reason. Everyone who hears of her fall applauds. The verse ends with a question: who has not felt her endless cruelty? The applause is the verdict of her victims. Verses 8–10 recall the fall of Thebes as a warning. The book of Jonah also ends with a question about this city.",
+          "chapter": 3,
+          "verse": 19,
+          "sourceIds": [
+            "web"
+          ]
+        }
+      ]
+    }
+  ],
+  "periods": [
+    {
+      "id": "part-0",
+      "label": "Nahum 1–1",
+      "start": 1,
+      "end": 1,
+      "description": "Chapter order"
+    },
+    {
+      "id": "part-1",
+      "label": "Nahum 2–2",
+      "start": 2,
+      "end": 2,
+      "description": "Chapter order"
+    },
+    {
+      "id": "part-2",
+      "label": "Nahum 3–3",
+      "start": 3,
+      "end": 3,
+      "description": "Chapter order"
+    }
+  ],
+  "chapterMaps": [
+    {
+      "chapter": 1,
+      "focusPlaceIds": [
+        "nineveh"
+      ],
+      "placeIds": [
+        "nineveh"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Markers locate selected geographic references. The poem’s battle scenes do not establish mapped army movements.",
+      "narrative": "This book is a message about Nineveh, the capital of Assyria. The LORD is slow to anger and great in power. He will not leave the guilty unpunished. Mountains quake before him, and no one can stand against his anger. He is good and a refuge in the day of trouble. He will make a full end of those who plot against him. He tells Judah he will break Assyria’s yoke. A messenger on the mountains brings news of peace.",
+      "limits": "Markers locate selected geographic references. The poem’s battle scenes do not establish mapped army movements.",
+      "sourceIds": [
+        "web",
+        "usccb-nahum"
+      ]
+    },
+    {
+      "chapter": 2,
+      "focusPlaceIds": [
+        "nineveh"
+      ],
+      "placeIds": [
+        "nineveh"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Markers locate selected geographic references. The poem’s battle scenes do not establish mapped army movements.",
+      "narrative": "An attacker advances against Nineveh. Shields are red, and chariots flash like torches in the streets. The river gates are opened, and the palace collapses. The city is stripped, and its women moan like doves. People flee, and no one turns back. Plunderers carry off endless silver and gold. Nahum asks where the lions’ den is now. The lion once filled his caves with torn prey.",
+      "limits": "Markers locate selected geographic references. The poem’s battle scenes do not establish mapped army movements.",
+      "sourceIds": [
+        "web",
+        "usccb-nahum"
+      ]
+    },
+    {
+      "chapter": 3,
+      "focusPlaceIds": [
+        "nineveh",
+        "egypt"
+      ],
+      "placeIds": [
+        "nineveh",
+        "egypt"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Markers locate selected geographic references. The poem’s battle scenes do not establish mapped army movements.",
+      "narrative": "Nahum cries woe to the city of blood, full of lies and plunder. Horsemen charge, and the dead lie in heaps. Nineveh sold nations by her charms and will be put to shame. No one will mourn her. She is no better than Thebes, the great city on the Nile. Thebes went into exile, and its infants were killed. Nineveh’s forts will fall like ripe figs. Her wound cannot be healed, and all who hear of it clap their hands.",
+      "limits": "Markers locate selected geographic references. The poem’s battle scenes do not establish mapped army movements.",
+      "sourceIds": [
+        "web",
+        "usccb-nahum"
+      ]
+    }
+  ],
+  "textRoutes": [],
+  "narrativeRegions": [],
+  "chapterStudies": [
+    {
+      "chapter": 1,
+      "verse": 13,
+      "context": ""
+    },
+    {
+      "chapter": 2,
+      "verse": 12,
+      "context": ""
+    },
+    {
+      "chapter": 3,
+      "verse": 19,
+      "context": ""
+    }
+  ]
+}

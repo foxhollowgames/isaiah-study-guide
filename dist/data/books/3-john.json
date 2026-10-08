@@ -1,0 +1,256 @@
+{
+  "id": "3-john",
+  "bibleCode": "3JN",
+  "name": "3 John",
+  "description": "Faithful welcome · shared support · disputed authority · personal testimony",
+  "chapterCount": 1,
+  "scripture": {
+    "1": [
+      {
+        "verse": 1,
+        "text": "The elder to Gaius the beloved, whom I love in truth."
+      },
+      {
+        "verse": 2,
+        "text": "Beloved, I pray that you may prosper in all things and be healthy, even as your soul prospers."
+      },
+      {
+        "verse": 3,
+        "text": "For I rejoiced greatly when brothers came and testified about your truth, even as you walk in truth."
+      },
+      {
+        "verse": 4,
+        "text": "I have no greater joy than this: to hear about my children walking in truth."
+      },
+      {
+        "verse": 5,
+        "text": "Beloved, you do a faithful work in whatever you accomplish for those who are brothers and strangers."
+      },
+      {
+        "verse": 6,
+        "text": "They have testified about your love before the assembly. You will do well to send them forward on their journey in a way worthy of God,"
+      },
+      {
+        "verse": 7,
+        "text": "because for the sake of the Name they went out, taking nothing from the Gentiles."
+      },
+      {
+        "verse": 8,
+        "text": "We therefore ought to receive such, that we may be fellow workers for the truth."
+      },
+      {
+        "verse": 9,
+        "text": "I wrote to the assembly, but Diotrephes, who loves to be first among them, doesn’t accept what we say."
+      },
+      {
+        "verse": 10,
+        "text": "Therefore, if I come, I will call attention to his deeds which he does, unjustly accusing us with wicked words. Not content with this, he doesn’t receive the brothers himself, and those who would, he forbids and throws out of the assembly."
+      },
+      {
+        "verse": 11,
+        "text": "Beloved, don’t imitate that which is evil, but that which is good. He who does good is of God. He who does evil hasn’t seen God."
+      },
+      {
+        "verse": 12,
+        "text": "Demetrius has the testimony of all, and of the truth itself; yes, we also testify, and you know that our testimony is true."
+      },
+      {
+        "verse": 13,
+        "text": "I had many things to write to you, but I am unwilling to write to you with ink and pen;"
+      },
+      {
+        "verse": 14,
+        "text": "but I hope to see you soon. Then we will speak face to face. Peace be to you. The friends greet you. Greet the friends by name."
+      }
+    ]
+  },
+  "chapters": [
+    {
+      "chapter": 1,
+      "title": "Support for traveling believers makes truth practical while exclusion reveals a conflict over authority",
+      "summary": "The elder writes to Gaius, whom he loves in truth. He prays that Gaius will be healthy, as his soul prospers. Brothers have reported that Gaius walks in truth. Gaius has cared for traveling brothers, though they were strangers. They went out for the Name and took nothing from the Gentiles. Diotrephes loves to be first and refuses the elder’s messengers. He puts out of the assembly those who welcome them. Demetrius has a good report from everyone.",
+      "meaning": "Verse 5 praises Gaius for what he does for brothers who are strangers. Verse 7 explains their need. They went out for the Name and accepted nothing from the Gentiles. Verse 8 gives the duty that follows: we “ought to receive such.” It also gives the host a title. Those who support them are fellow workers for the truth. Verses 9–10 show the opposite: Diotrephes refuses the brothers and stops others.",
+      "people": [
+        "gaius-letter",
+        "diotrephes",
+        "demetrius-letter"
+      ],
+      "places": [],
+      "sourceIds": [
+        "web",
+        "usccb-3-john"
+      ],
+      "lds": {
+        "text": "The selected Church lesson connects joy with helping others walk in truth. How does support for visiting believers make a host a fellow worker for truth?",
+        "sourceIds": [
+          "cfm-nt-2023-49"
+        ]
+      },
+      "eventOrder": 1,
+      "dateLabel": "Book order",
+      "historicalNote": "The elder's joy rests on reports of Gaius's conduct rather than a claim alone. Welcome includes strangers whose work receives material help for the next part of their journey. Because these travelers accept nothing from Gentiles, shared support makes hosts fellow workers for truth. Diotrephes instead rejects the elder's message and excludes people willing to welcome the brothers. The USCCB introduction presents several motives, so the letter does not settle his full position. Demetrius's recommendation and promised visit keep good conduct and personal testimony central to this conflict.",
+      "mapNote": "No exact location is assigned to unnamed or heavenly settings.",
+      "route": [],
+      "routeEvidence": "No exact travel route is reconstructed.",
+      "contextNote": {
+        "title": "Support for traveling believers makes truth practical while exclusion reveals a conflict over authority",
+        "text": "Verse 5 praises Gaius for what he does for brothers who are strangers. Verse 7 explains their need. They went out for the Name and accepted nothing from the Gentiles. Verse 8 gives the duty that follows: we “ought to receive such.” It also gives the host a title. Those who support them are fellow workers for the truth. Verses 9–10 show the opposite: Diotrephes refuses the brothers and stops others.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    }
+  ],
+  "people": [
+    {
+      "id": "gaius-letter",
+      "name": "Gaius",
+      "role": "Recipient praised for faithful welcome and help given to traveling believers",
+      "relations": "The elder rejoices at reports about his conduct and asks him to continue his support.",
+      "passages": "Third John 1",
+      "meaning": "His hospitality makes received truth visible through help for people beyond his familiar circle.",
+      "life": "Birth and death years are not securely known.",
+      "sourceIds": [
+        "web"
+      ],
+      "placeIds": [],
+      "linkNames": [
+        "Gaius"
+      ],
+      "verseScope": {}
+    },
+    {
+      "id": "diotrephes",
+      "name": "Diotrephes",
+      "role": "Assembly member accused of rejecting the elder and excluding people who welcome the brothers",
+      "relations": "The elder says he loves to be first and refuses the visiting brothers.",
+      "passages": "Third John 1",
+      "meaning": "His conduct introduces a conflict over welcome and authority without preserving his own account.",
+      "life": "Birth and death years are not securely known.",
+      "sourceIds": [
+        "web"
+      ],
+      "placeIds": [],
+      "linkNames": [
+        "Diotrephes"
+      ],
+      "verseScope": {}
+    },
+    {
+      "id": "demetrius-letter",
+      "name": "Demetrius",
+      "role": "Person recommended through testimony about his conduct",
+      "relations": "The elder adds his own testimony to the good report from others.",
+      "passages": "Third John 1",
+      "meaning": "His recommendation gives Gaius a positive example beside the warning about Diotrephes.",
+      "life": "Birth and death years are not securely known.",
+      "sourceIds": [
+        "web"
+      ],
+      "placeIds": [],
+      "linkNames": [
+        "Demetrius"
+      ],
+      "verseScope": {}
+    }
+  ],
+  "places": [],
+  "sources": [
+    {
+      "id": "web",
+      "title": "3 John · World English Bible",
+      "url": "https://ebible.org/engwebp/3JN01.htm",
+      "summary": "Complete Scripture supplies the primary text for original close readings.",
+      "category": "Scripture",
+      "perspective": "historical",
+      "limits": "The elder has no assigned personal identity. Gaius and Demetrius are not identified with same-name people elsewhere. Historical authorship, dates, Greek forms, exact local setting, and the opposing party's own account were not independently verified.",
+      "author": "World English Bible translators",
+      "publisher": "eBible.org",
+      "chapterCoverage": [
+        1
+      ],
+      "reviewed": {
+        "date": "2026-10-07",
+        "scope": "All 14 verses read for 1 original contextual explanations and exact selections. Surroundings, counts, and character integrity checked."
+      }
+    },
+    {
+      "id": "cfm-nt-2023-49",
+      "title": "November 27–December 3 · First–Third John and Jude",
+      "url": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-sunday-school-new-testament-2023/49?lang=eng",
+      "author": "The Church of Jesus Christ of Latter-day Saints",
+      "publisher": "The Church of Jesus Christ of Latter-day Saints",
+      "year": 2023,
+      "category": "LDS Come, Follow Me",
+      "perspective": "lds",
+      "summary": "The lesson connects joy with helping others walk in truth and warns against harmful conduct.",
+      "limits": "Third John coverage follows actual discussion of 1:1–4 and 9–11. Linked Restoration texts and reference entries were not independently reviewed.",
+      "chapterCoverage": [
+        1
+      ],
+      "reviewed": {
+        "date": "2026-10-07",
+        "scope": "Complete shared lesson body and resource list read. Only its actual Third John discussion supports this reference."
+      }
+    },
+    {
+      "id": "usccb-3-john",
+      "title": "Introduction to the Third Letter of John",
+      "url": "https://bible.usccb.org/bible/3john/0",
+      "author": "United States Conference of Catholic Bishops",
+      "publisher": "United States Conference of Catholic Bishops",
+      "category": "Scholarly study",
+      "perspective": "historical",
+      "summary": "The introduction offers several possible motives for Diotrephes' refusal.",
+      "limits": "These are competing interpretations rather than established motives. Historical authorship, exact local offices, audience conditions, and Demetrius' possible delivery role were not independently verified.",
+      "chapterCoverage": [
+        1
+      ],
+      "reviewed": {
+        "date": "2026-10-07",
+        "scope": "Complete three-paragraph introduction read through indexed source text. The guide attributes its range of possible motives and preserves uncertainty."
+      }
+    }
+  ],
+  "review": {
+    "date": "2026-10-07",
+    "contextReviewDate": "2026-10-07",
+    "copyReviewDate": "2026-10-07",
+    "scope": "All fourteen WEB verses read for an original explanation and exact selection. Three selected named profiles use newly inspected artwork and remain separate from same-name people elsewhere. The travelers have no invented route or destination. Competing USCCB readings remain attributed. Actual Church discussion remains separate.",
+    "nextBook": "jude",
+    "copyReview": "2026-10-07: Reader copy reviewed against WRITING-GUIDE.md. Scripture and source titles preserved.",
+    "sourcePolicy": "BIBLE-SOURCE-POLICY.md",
+    "sourceEnrichmentDate": "2026-10-05",
+    "contextReview": {
+      "date": "2026-10-07",
+      "chapters": 1,
+      "scope": "Original close readings grounded in local World English Bible passages. Existing external source reviews remain separate."
+    }
+  },
+  "translation": "World English Bible",
+  "copyright": "Public domain",
+  "chapterStudies": [
+    {
+      "chapter": 1,
+      "verse": 8,
+      "context": ""
+    }
+  ],
+  "contextGuide": {
+    "id": "3-john-context",
+    "title": "3 John: context and evidence",
+    "description": "Explore the book’s larger concerns through selected passages and relevant evidence.",
+    "steps": [
+      {
+        "title": "Support for traveling believers makes truth practical while exclusion reveals a conflict over authority",
+        "text": "Verse 5 praises Gaius for what he does for brothers who are strangers. Verse 7 explains their need. They went out for the Name and accepted nothing from the Gentiles. Verse 8 gives the duty that follows: we “ought to receive such.” It also gives the host a title. Those who support them are fellow workers for the truth. Verses 9–10 show the opposite: Diotrephes refuses the brothers and stops others.",
+        "chapter": 1,
+        "verse": 8,
+        "sourceIds": [
+          "web"
+        ]
+      }
+    ]
+  }
+}

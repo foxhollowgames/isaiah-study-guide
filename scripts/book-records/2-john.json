@@ -1,0 +1,76 @@
+{
+  "name": "2 John",
+  "code": "2JN",
+  "date": "2026-10-07",
+  "verseCounts": [
+    13
+  ],
+  "nextBook": "3-john",
+  "description": "Truth and love · received teaching · limits of welcome · shared joy",
+  "limits": "The elder has no assigned personal identity. Historical authorship, dates, Greek forms, manuscripts, exact audience conditions, and the addressee's identity were not independently verified. No exact house or city is assigned.",
+  "review": "All thirteen verses read for an original contextual explanation and exact selection. The selected named profile reuses inspected artwork. The elder and chosen lady have no invented names or faces. The USCCB assembly reading remains attributed. Actual Church lesson coverage remains separate.",
+  "sources": [
+    {
+      "id": "cfm-nt-2023-49",
+      "reuse": "1-john",
+      "summary": "The lesson connects remaining in Christ's teaching with resisting false teaching.",
+      "chapterCoverage": [
+        1
+      ],
+      "limits": "Second John coverage follows actual discussion of 1:7–11. Linked reference entries and Restoration passages were not independently reviewed.",
+      "reviewed": {
+        "date": "2026-10-07",
+        "scope": "Complete shared lesson body and resource list read. This reference follows actual Second John discussion."
+      }
+    },
+    {
+      "id": "usccb-2-john",
+      "title": "Introduction to the Second Letter of John",
+      "url": "https://bible.usccb.org/bible/2john/0",
+      "author": "United States Conference of Catholic Bishops",
+      "publisher": "United States Conference of Catholic Bishops",
+      "category": "Scholarly study",
+      "perspective": "historical",
+      "summary": "The introduction reads the chosen lady and children as a specific Christian assembly.",
+      "limits": "This is the introduction's interpretation. Direct access returned 403. Authorship proposals, papyrus constraints, dates, and reconstructed false teaching were not independently verified. No named woman or city is assigned.",
+      "chapterCoverage": [
+        1
+      ],
+      "reviewed": {
+        "date": "2026-10-07",
+        "scope": "Complete two-paragraph introduction read through indexed search text after direct access returned 403. Only the assembly reading is used and attributed."
+      }
+    }
+  ],
+  "people": [
+    {
+      "id": "jesus",
+      "name": "Jesus Christ",
+      "reuse": "matthew",
+      "role": "Son whose coming in flesh is the stated test of received teaching",
+      "relations": "The elder connects remaining in his teaching with having the Father and Son.",
+      "meaning": "The confession about him gives the warning its specific content.",
+      "chapters": [
+        1
+      ],
+      "passages": "Second John 1:3, 7–9",
+      "linkNames": [
+        "Jesus",
+        "Christ"
+      ]
+    }
+  ],
+  "places": [],
+  "chapters": {
+    "1": {
+      "question": "How does walking in received teaching connect love with responsible welcome?",
+      "teaching": "The selected Church lesson uses this warning to discuss remaining in Christ's teaching.",
+      "ldsSources": [
+        "cfm-nt-2023-49"
+      ],
+      "historicalSources": [
+        "usccb-2-john"
+      ]
+    }
+  }
+}

@@ -1,0 +1,542 @@
+{
+  "sources": [
+    {
+      "id": "web",
+      "title": "Joel · World English Bible",
+      "url": "https://ebible.org/engwebp/JOL01.htm",
+      "summary": "All three chapters appear in the reading text.",
+      "category": "Scripture",
+      "perspective": "historical",
+      "limits": "This edition has three chapters. No exact disaster date or modern fulfillment is assigned.",
+      "author": "World English Bible translators",
+      "publisher": "eBible.org",
+      "chapterCoverage": [
+        1,
+        2,
+        3
+      ],
+      "reviewed": {
+        "date": "2026-10-07",
+        "scope": "All 73 verses read. Chapter counts and character integrity checked."
+      },
+      "type": "Scripture",
+      "limitations": "This edition has three chapters. No exact disaster date or modern fulfillment is assigned.",
+      "license": "Public domain"
+    },
+    {
+      "id": "howard-joel-2",
+      "title": "Commentary on Joel 2:1-2, 12-17",
+      "url": "https://www.workingpreacher.org/commentaries/revised-common-lectionary/ash-wednesday/commentary-on-joel-21-2-12-17-15",
+      "summary": "Howard explains the shared gathering, the changed trumpet call, and hope in mercy.",
+      "category": "Scholarly study",
+      "perspective": "historical",
+      "limits": "The commentary interprets the locust disaster and the selected passage. It does not supply a certain date.",
+      "author": "Cameron B.R. Howard",
+      "year": 2024,
+      "publisher": "Luther Seminary",
+      "chapterCoverage": [
+        2
+      ],
+      "reviewed": {
+        "date": "2026-10-07",
+        "scope": "Complete commentary read. Its linked references were not separately reviewed."
+      },
+      "type": "Scholarly study",
+      "limitations": "The commentary interprets the locust disaster and the selected passage. It does not supply a certain date.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "cfm-joel-2026",
+      "title": "November 16–22: “I Will Love Them Freely” · Hosea and Joel",
+      "url": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/47?lang=eng",
+      "summary": "The lesson applies inward devotion and the gift of the Spirit to daily faith.",
+      "category": "LDS Come, Follow Me",
+      "perspective": "lds",
+      "limits": "Its applications through Acts and Joseph Smith’s account remain later Church readings.",
+      "author": "The Church of Jesus Christ of Latter-day Saints",
+      "year": 2026,
+      "publisher": "The Church of Jesus Christ of Latter-day Saints",
+      "chapterCoverage": [
+        2
+      ],
+      "reviewed": {
+        "date": "2026-10-07",
+        "scope": "Introduction and adult study sections read. Linked talks, videos, and Scripture references were not separately reviewed."
+      },
+      "type": "LDS Come, Follow Me",
+      "limitations": "Its applications through Acts and Joseph Smith’s account remain later Church readings.",
+      "license": "Linked source. Original guide summaries."
+    }
+  ],
+  "passages": [
+    {
+      "id": "joel-1",
+      "chapter": 1,
+      "start": 1,
+      "end": 20,
+      "title": "Destroyed crops bring every household into mourning",
+      "summary": "The LORD’s word comes to Joel. He asks the old men whether anything like this has happened before. Swarm after swarm of locusts has eaten everything. Vines are ruined, and fig trees are stripped bare. Grain and wine offerings have stopped in the LORD’s house. Farmers despair, and the joy of the people dries up. Joel tells the priests to call a fast and gather everyone. Even the wild animals cry to God as the streams dry up.",
+      "year": null,
+      "dateLabel": "Book order",
+      "uncertainty": "The chapter names no specific place for the crop disaster.",
+      "placeIds": [],
+      "sourceIds": [
+        "web"
+      ],
+      "lds": {
+        "text": "Why does lost grain affect both farmers and priests?",
+        "sourceIds": []
+      },
+      "contextNote": {
+        "title": "Destroyed crops bring every household into mourning",
+        "text": "The locusts strike one group after another. Drinkers lose their wine (verse 5), and farmers lose their harvest (verse 11). Verse 9 says the offerings in God’s house have stopped. With no grain or wine there is nothing to bring. So the disaster reaches worship as well as food. Verse 14 treats it as a summons. Everyone must gather, fast, and cry to the LORD.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    },
+    {
+      "id": "joel-2",
+      "chapter": 2,
+      "start": 1,
+      "end": 32,
+      "title": "An alarm becomes a call to gather and return",
+      "summary": "A trumpet sounds in Zion, for the day of the LORD is near. An army advances like fire, and nothing escapes it. Yet even now God calls the people to return with all their heart. They should tear their hearts and not their clothes. He is gracious, merciful, and slow to anger. Everyone must gather, from elders to nursing infants. Then God will restore the years the locusts ate. Afterward he will pour out his Spirit on all people.",
+      "year": null,
+      "dateLabel": "Book order",
+      "uncertainty": "Selected city and region references appear as approximate markers. Visions do not establish traveled routes.",
+      "placeIds": [
+        "jerusalem"
+      ],
+      "sourceIds": [
+        "web",
+        "howard-joel-2"
+      ],
+      "lds": {
+        "text": "The 2026 lesson studies inward devotion and the Spirit’s guidance. It connects Joel’s promise with Acts and Joseph Smith’s account as later applications. Who must join the gathering, and who receives the promised Spirit?",
+        "sourceIds": [
+          "cfm-joel-2026"
+        ]
+      },
+      "contextNote": {
+        "title": "An alarm becomes a call to gather and return",
+        "text": "Tearing one’s clothes was a visible sign of grief. Verse 13 asks for the inward form of it. Its ground is God’s character, quoted from Exodus 34:6. Verse 14 adds “Who knows?” The people may hope, and they may not presume. Verse 16 calls everyone, even infants and a bride and groom. Peter quotes verses 28–32 in Acts 2:16–21.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    },
+    {
+      "id": "joel-3",
+      "chapter": 3,
+      "start": 1,
+      "end": 21,
+      "title": "Judgment answers the sale and scattering of people",
+      "summary": "In those days God will gather all nations for judgment. They scattered his people and divided his land. They cast lots for his people. They traded a boy for a prostitute and sold a girl for wine. Tyre, Sidon, and Philistia sold Judah’s children far away. God will return their deeds on their own heads. Crowds gather in the valley of decision. The LORD will shelter his people, and Judah will be lived in forever.",
+      "year": null,
+      "dateLabel": "Book order",
+      "uncertainty": "Selected city and region references appear as approximate markers. Visions do not establish traveled routes.",
+      "placeIds": [
+        "jerusalem",
+        "tyre",
+        "sidon",
+        "egypt",
+        "edom"
+      ],
+      "sourceIds": [
+        "web"
+      ],
+      "lds": {
+        "text": "How do the charges about sold children explain the judgment?",
+        "sourceIds": []
+      },
+      "contextNote": {
+        "title": "Judgment answers the sale and scattering of people",
+        "text": "The charge in verse 3 is the sale of children. A boy was traded for a night with a prostitute. A girl was sold for the price of a drink. The cheapness of the price shows how little their lives counted. Verses 6–8 add that Judah’s children were sold to distant peoples. The judgment answers in kind. Verse 10 reverses the hope of Isaiah 2:4, and plows become swords.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "joel-1",
+      "chapter": 1,
+      "verse": 1,
+      "eventOrder": 1,
+      "title": "Destroyed crops bring every household into mourning",
+      "summary": "The LORD’s word comes to Joel. He asks the old men whether anything like this has happened before. Swarm after swarm of locusts has eaten everything. Vines are ruined, and fig trees are stripped bare. Grain and wine offerings have stopped in the LORD’s house. Farmers despair, and the joy of the people dries up. Joel tells the priests to call a fast and gather everyone. Even the wild animals cry to God as the streams dry up.",
+      "detail": "The locusts strike one group after another. Drinkers lose their wine (verse 5), and farmers lose their harvest (verse 11). Verse 9 says the offerings in God’s house have stopped. With no grain or wine there is nothing to bring. So the disaster reaches worship as well as food. Verse 14 treats it as a summons. Everyone must gather, fast, and cry to the LORD.",
+      "dateLabel": "Book order",
+      "uncertainty": "The chapter names no specific place for the crop disaster.",
+      "sourceIds": [
+        "web"
+      ],
+      "placeIds": [],
+      "lds": {
+        "text": "Why does lost grain affect both farmers and priests?",
+        "sourceIds": []
+      }
+    },
+    {
+      "id": "joel-2",
+      "chapter": 2,
+      "verse": 1,
+      "eventOrder": 2,
+      "title": "An alarm becomes a call to gather and return",
+      "summary": "A trumpet sounds in Zion, for the day of the LORD is near. An army advances like fire, and nothing escapes it. Yet even now God calls the people to return with all their heart. They should tear their hearts and not their clothes. He is gracious, merciful, and slow to anger. Everyone must gather, from elders to nursing infants. Then God will restore the years the locusts ate. Afterward he will pour out his Spirit on all people.",
+      "detail": "Tearing one’s clothes was a visible sign of grief. Verse 13 asks for the inward form of it. Its ground is God’s character, quoted from Exodus 34:6. Verse 14 adds “Who knows?” The people may hope, and they may not presume. Verse 16 calls everyone, even infants and a bride and groom. Peter quotes verses 28–32 in Acts 2:16–21.",
+      "dateLabel": "Book order",
+      "uncertainty": "Selected city and region references appear as approximate markers. Visions do not establish traveled routes.",
+      "sourceIds": [
+        "web",
+        "howard-joel-2"
+      ],
+      "placeIds": [
+        "jerusalem"
+      ],
+      "lds": {
+        "text": "The 2026 lesson studies inward devotion and the Spirit’s guidance. It connects Joel’s promise with Acts and Joseph Smith’s account as later applications. Who must join the gathering, and who receives the promised Spirit?",
+        "sourceIds": [
+          "cfm-joel-2026"
+        ]
+      }
+    },
+    {
+      "id": "joel-3",
+      "chapter": 3,
+      "verse": 1,
+      "eventOrder": 3,
+      "title": "Judgment answers the sale and scattering of people",
+      "summary": "In those days God will gather all nations for judgment. They scattered his people and divided his land. They cast lots for his people. They traded a boy for a prostitute and sold a girl for wine. Tyre, Sidon, and Philistia sold Judah’s children far away. God will return their deeds on their own heads. Crowds gather in the valley of decision. The LORD will shelter his people, and Judah will be lived in forever.",
+      "detail": "The charge in verse 3 is the sale of children. A boy was traded for a night with a prostitute. A girl was sold for the price of a drink. The cheapness of the price shows how little their lives counted. Verses 6–8 add that Judah’s children were sold to distant peoples. The judgment answers in kind. Verse 10 reverses the hope of Isaiah 2:4, and plows become swords.",
+      "dateLabel": "Book order",
+      "uncertainty": "Selected city and region references appear as approximate markers. Visions do not establish traveled routes.",
+      "sourceIds": [
+        "web"
+      ],
+      "placeIds": [
+        "jerusalem",
+        "tyre",
+        "sidon",
+        "egypt",
+        "edom"
+      ],
+      "lds": {
+        "text": "How do the charges about sold children explain the judgment?",
+        "sourceIds": []
+      }
+    }
+  ],
+  "places": [
+    {
+      "id": "jerusalem",
+      "name": "Jerusalem",
+      "lat": 31.778,
+      "lng": 35.235,
+      "summary": "Jerusalem is the place named in promises of escape and God’s continued presence.",
+      "limits": "Approximate city or broad region reference. The valley of judgment and visionary water remain unmapped.",
+      "sourceIds": [
+        "web"
+      ],
+      "detail": "Jerusalem is the place named in promises of escape and God’s continued presence.",
+      "uncertainty": "Approximate city or broad region reference. The valley of judgment and visionary water remain unmapped.",
+      "chapterLocation": true
+    },
+    {
+      "id": "tyre",
+      "name": "Tyre",
+      "lat": 33.27,
+      "lng": 35.2,
+      "summary": "Tyre is addressed with charges about stolen treasures and the sale of captives.",
+      "limits": "Approximate city or broad region reference. The valley of judgment and visionary water remain unmapped.",
+      "sourceIds": [
+        "web"
+      ],
+      "detail": "Tyre is addressed with charges about stolen treasures and the sale of captives.",
+      "uncertainty": "Approximate city or broad region reference. The valley of judgment and visionary water remain unmapped.",
+      "chapterLocation": true
+    },
+    {
+      "id": "sidon",
+      "name": "Sidon",
+      "lat": 33.56,
+      "lng": 35.37,
+      "summary": "Sidon is addressed beside Tyre in the charges about trade in captives.",
+      "limits": "Approximate city or broad region reference. The valley of judgment and visionary water remain unmapped.",
+      "sourceIds": [
+        "web"
+      ],
+      "detail": "Sidon is addressed beside Tyre in the charges about trade in captives.",
+      "uncertainty": "Approximate city or broad region reference. The valley of judgment and visionary water remain unmapped.",
+      "chapterLocation": true
+    },
+    {
+      "id": "egypt",
+      "name": "Egypt",
+      "lat": 30.05,
+      "lng": 31.23,
+      "summary": "Egypt receives a warning tied to violence against Judah.",
+      "limits": "Approximate city or broad region reference. The valley of judgment and visionary water remain unmapped.",
+      "sourceIds": [
+        "web"
+      ],
+      "detail": "Egypt receives a warning tied to violence against Judah.",
+      "uncertainty": "Approximate city or broad region reference. The valley of judgment and visionary water remain unmapped.",
+      "chapterLocation": true
+    },
+    {
+      "id": "edom",
+      "name": "Edom",
+      "lat": 30.75,
+      "lng": 35.55,
+      "summary": "Edom receives a warning tied to the shedding of innocent blood.",
+      "limits": "Approximate city or broad region reference. The valley of judgment and visionary water remain unmapped.",
+      "sourceIds": [
+        "web"
+      ],
+      "detail": "Edom receives a warning tied to the shedding of innocent blood.",
+      "uncertainty": "Approximate city or broad region reference. The valley of judgment and visionary water remain unmapped.",
+      "chapterLocation": true
+    }
+  ],
+  "campaigns": [],
+  "ancientRoads": [],
+  "regions": [],
+  "words": [
+    {
+      "id": "glossary-assembly",
+      "label": "Assembly",
+      "matches": [
+        "assembly",
+        "assemblies"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A gathering of people. In the New Testament letters it means a group of believers. Many translations say “church.”",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    },
+    {
+      "id": "glossary-sackcloth",
+      "label": "Sackcloth",
+      "matches": [
+        "sackcloth"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "Rough cloth worn to show grief or repentance.",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    },
+    {
+      "id": "glossary-remnant",
+      "label": "Remnant",
+      "matches": [
+        "remnant"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "The part of a people that survives a disaster.",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    },
+    {
+      "id": "glossary-zion",
+      "label": "Zion",
+      "matches": [
+        "Zion"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A hill in Jerusalem. The name is also used for the city and its people.",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    }
+  ],
+  "guides": [
+    {
+      "id": "joel-context",
+      "title": "Joel: context and evidence",
+      "description": "Explore the book’s larger concerns through selected passages and relevant evidence.",
+      "steps": [
+        {
+          "title": "Destroyed crops bring every household into mourning",
+          "text": "The locusts strike one group after another. Drinkers lose their wine (verse 5), and farmers lose their harvest (verse 11). Verse 9 says the offerings in God’s house have stopped. With no grain or wine there is nothing to bring. So the disaster reaches worship as well as food. Verse 14 treats it as a summons. Everyone must gather, fast, and cry to the LORD.",
+          "chapter": 1,
+          "verse": 14,
+          "sourceIds": [
+            "web"
+          ]
+        },
+        {
+          "title": "An alarm becomes a call to gather and return",
+          "text": "Tearing one’s clothes was a visible sign of grief. Verse 13 asks for the inward form of it. Its ground is God’s character, quoted from Exodus 34:6. Verse 14 adds “Who knows?” The people may hope, and they may not presume. Verse 16 calls everyone, even infants and a bride and groom. Peter quotes verses 28–32 in Acts 2:16–21.",
+          "chapter": 2,
+          "verse": 13,
+          "sourceIds": [
+            "web"
+          ]
+        },
+        {
+          "title": "Judgment answers the sale and scattering of people",
+          "text": "The charge in verse 3 is the sale of children. A boy was traded for a night with a prostitute. A girl was sold for the price of a drink. The cheapness of the price shows how little their lives counted. Verses 6–8 add that Judah’s children were sold to distant peoples. The judgment answers in kind. Verse 10 reverses the hope of Isaiah 2:4, and plows become swords.",
+          "chapter": 3,
+          "verse": 3,
+          "sourceIds": [
+            "web"
+          ]
+        }
+      ]
+    }
+  ],
+  "periods": [
+    {
+      "id": "part-0",
+      "label": "Joel 1–1",
+      "start": 1,
+      "end": 1,
+      "description": "Chapter order"
+    },
+    {
+      "id": "part-1",
+      "label": "Joel 2–2",
+      "start": 2,
+      "end": 2,
+      "description": "Chapter order"
+    },
+    {
+      "id": "part-2",
+      "label": "Joel 3–3",
+      "start": 3,
+      "end": 3,
+      "description": "Chapter order"
+    }
+  ],
+  "chapterMaps": [
+    {
+      "chapter": 1,
+      "focusPlaceIds": [],
+      "placeIds": [],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "The chapter names no specific place for the crop disaster.",
+      "narrative": "The LORD’s word comes to Joel. He asks the old men whether anything like this has happened before. Swarm after swarm of locusts has eaten everything. Vines are ruined, and fig trees are stripped bare. Grain and wine offerings have stopped in the LORD’s house. Farmers despair, and the joy of the people dries up. Joel tells the priests to call a fast and gather everyone. Even the wild animals cry to God as the streams dry up.",
+      "limits": "The chapter names no specific place for the crop disaster.",
+      "sourceIds": [
+        "web"
+      ]
+    },
+    {
+      "chapter": 2,
+      "focusPlaceIds": [
+        "jerusalem"
+      ],
+      "placeIds": [
+        "jerusalem"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Selected city and region references appear as approximate markers. Visions do not establish traveled routes.",
+      "narrative": "A trumpet sounds in Zion, for the day of the LORD is near. An army advances like fire, and nothing escapes it. Yet even now God calls the people to return with all their heart. They should tear their hearts and not their clothes. He is gracious, merciful, and slow to anger. Everyone must gather, from elders to nursing infants. Then God will restore the years the locusts ate. Afterward he will pour out his Spirit on all people.",
+      "limits": "Selected city and region references appear as approximate markers. Visions do not establish traveled routes.",
+      "sourceIds": [
+        "web",
+        "howard-joel-2"
+      ]
+    },
+    {
+      "chapter": 3,
+      "focusPlaceIds": [
+        "jerusalem",
+        "tyre",
+        "sidon",
+        "egypt",
+        "edom"
+      ],
+      "placeIds": [
+        "jerusalem",
+        "tyre",
+        "sidon",
+        "egypt",
+        "edom"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Selected city and region references appear as approximate markers. Visions do not establish traveled routes.",
+      "narrative": "In those days God will gather all nations for judgment. They scattered his people and divided his land. They cast lots for his people. They traded a boy for a prostitute and sold a girl for wine. Tyre, Sidon, and Philistia sold Judah’s children far away. God will return their deeds on their own heads. Crowds gather in the valley of decision. The LORD will shelter his people, and Judah will be lived in forever.",
+      "limits": "Selected city and region references appear as approximate markers. Visions do not establish traveled routes.",
+      "sourceIds": [
+        "web"
+      ]
+    }
+  ],
+  "textRoutes": [],
+  "narrativeRegions": [],
+  "chapterStudies": [
+    {
+      "chapter": 1,
+      "verse": 14,
+      "context": ""
+    },
+    {
+      "chapter": 2,
+      "verse": 13,
+      "context": ""
+    },
+    {
+      "chapter": 3,
+      "verse": 3,
+      "context": ""
+    }
+  ]
+}

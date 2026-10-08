@@ -1,0 +1,753 @@
+{
+  "sources": [
+    {
+      "id": "web",
+      "title": "Lamentations · World English Bible",
+      "url": "https://ebible.org/engwebp/LAM01.htm",
+      "summary": "All five poems appear in the reading text.",
+      "category": "Scripture",
+      "perspective": "historical",
+      "limits": "The poems do not name their author. Individual voices are not automatically identified with Jeremiah.",
+      "author": "World English Bible translators",
+      "publisher": "eBible.org",
+      "chapterCoverage": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "reviewed": {
+        "date": "2026-10-07",
+        "scope": "All 154 verses and their surrounding passages read from cached publisher HTML."
+      },
+      "type": "Scripture",
+      "limitations": "The poems do not name their author. Individual voices are not automatically identified with Jeremiah.",
+      "license": "Public domain"
+    },
+    {
+      "id": "bouzard-lamentations",
+      "title": "Commentary on Lamentations 1:1-6",
+      "url": "https://www.workingpreacher.org/commentaries/revised-common-lectionary/ordinary-27-3/commentary-on-lamentations-11-6-3",
+      "summary": "Bouzard explains the city’s grief and its continued appeal to God.",
+      "category": "Scholarly study",
+      "perspective": "historical",
+      "limits": "The commentary offers interpretation. Its wider historical and modern examples were not independently checked.",
+      "author": "Walter C. Bouzard",
+      "year": 2013,
+      "publisher": "Luther Seminary",
+      "chapterCoverage": [
+        1
+      ],
+      "reviewed": {
+        "date": "2026-10-07",
+        "scope": "Complete commentary and footnotes read. Opening discussion treats poetic form and Jerusalem’s voice."
+      },
+      "type": "Scholarly study",
+      "limitations": "The commentary offers interpretation. Its wider historical and modern examples were not independently checked.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "holbert-lamentations",
+      "title": "Commentary on Lamentations 3:22-33",
+      "url": "https://www.workingpreacher.org/commentaries/revised-common-lectionary/ordinary-13-2/commentary-on-lamentations-322-33-2",
+      "summary": "Holbert reads remembered mercy beside the speaker’s descriptions of siege and pain.",
+      "category": "Scholarly study",
+      "perspective": "historical",
+      "limits": "Language proposals remain Holbert’s interpretation. This guide preserves the WEB wording and adds no unverified Hebrew forms.",
+      "author": "John C. Holbert",
+      "year": 2009,
+      "publisher": "Luther Seminary",
+      "chapterCoverage": [
+        3
+      ],
+      "reviewed": {
+        "date": "2026-10-07",
+        "scope": "Complete commentary read, including its treatment of 3:1–33."
+      },
+      "type": "Scholarly study",
+      "limitations": "Language proposals remain Holbert’s interpretation. This guide preserves the WEB wording and adds no unverified Hebrew forms.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "lds-lamentations-2026",
+      "title": "Lamentations 1; 3: “His Compassions Fail Not”",
+      "url": "https://www.churchofjesuschrist.org/study/manual/old-testament-seminary-manual-2026/43-jeremiah-lamentations/433-lamentations?lang=eng",
+      "summary": "The lesson teaches the Savior’s compassion for people who repent.",
+      "category": "LDS Seminary",
+      "perspective": "lds",
+      "limits": "The lesson attributes the poems to Jeremiah. The biblical poems themselves do not name him. Its teaching is kept in the LDS perspective.",
+      "author": "The Church of Jesus Christ of Latter-day Saints",
+      "year": 2026,
+      "publisher": "The Church of Jesus Christ of Latter-day Saints",
+      "chapterCoverage": [
+        1,
+        3
+      ],
+      "reviewed": {
+        "date": "2026-10-07",
+        "scope": "Lesson introduction, Sorrow for sin, and The Savior’s compassion sections read. Linked videos and later resource sections were not reviewed."
+      },
+      "type": "LDS Seminary",
+      "limitations": "The lesson attributes the poems to Jeremiah. The biblical poems themselves do not name him. Its teaching is kept in the LDS perspective.",
+      "license": "Linked source. Original guide summaries."
+    }
+  ],
+  "passages": [
+    {
+      "id": "lamentations-1",
+      "chapter": 1,
+      "start": 1,
+      "end": 22,
+      "title": "The ruined city asks to be seen",
+      "summary": "Jerusalem sits alone, like a widow who was once a princess. She weeps at night, and none of her friends comfort her. Judah has gone into exile, and no one comes to the feasts. Her enemies prosper, and her children are captives. The poem says she sinned and has been afflicted for it. Then the city speaks for herself. She asks those who pass by to look at her sorrow. She admits she rebelled, and she asks God to see what her enemies have done.",
+      "year": null,
+      "dateLabel": "Poem order",
+      "uncertainty": "The map marks Jerusalem. The poems do not give a continuous travel route.",
+      "placeIds": [
+        "jerusalem"
+      ],
+      "sourceIds": [
+        "web",
+        "bouzard-lamentations"
+      ],
+      "lds": {
+        "text": "The 2026 Seminary lesson reads this grief alongside the Savior’s compassion. Why does Jerusalem ask travelers to look at her sorrow?",
+        "sourceIds": [
+          "lds-lamentations-2026"
+        ]
+      },
+      "contextNote": {
+        "title": "The ruined city asks to be seen",
+        "text": "For eleven verses a speaker describes Jerusalem as “she.” In verse 12 the city begins to speak as “I.” She calls to strangers on the road, since no one else will listen. The poem says five times that she has no comforter. What she asks first is to be seen. Verse 18 admits that the LORD is right and she rebelled. That admission does not end her cry for help.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    },
+    {
+      "id": "lamentations-2",
+      "chapter": 2,
+      "start": 1,
+      "end": 22,
+      "title": "Prayer rises from the hungry streets",
+      "summary": "The poem says the Lord has acted like an enemy against Zion. He has thrown down her walls, her palaces, and his own sanctuary. King and priest are rejected, and the prophets receive no vision. Elders sit silent on the ground. The poet’s eyes fail with weeping, because children faint in the streets. Her prophets saw false visions and did not expose her guilt. The poet tells Zion to cry out to the Lord through the night. She asks God to look at whom he has treated this way.",
+      "year": null,
+      "dateLabel": "Poem order",
+      "uncertainty": "The map marks Jerusalem. The poems do not give a continuous travel route.",
+      "placeIds": [
+        "jerusalem"
+      ],
+      "sourceIds": [
+        "web"
+      ],
+      "lds": {
+        "text": "Why does the call to pray focus on hungry children?",
+        "sourceIds": []
+      },
+      "contextNote": {
+        "title": "Prayer rises from the hungry streets",
+        "text": "Verses 11–12 describe infants asking their mothers for food and dying. That picture drives the whole poem. Verse 5 says the Lord became “like an enemy.” He is still the only one to turn to. In verse 19 the poet urges Zion to pour out her heart for her children. The prayer she then offers is not gentle. Verse 20 says, “Look, LORD, and see to whom you have done thus.”",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    },
+    {
+      "id": "lamentations-3",
+      "chapter": 3,
+      "start": 1,
+      "end": 66,
+      "title": "Hope interrupts grief without ending it",
+      "summary": "One man speaks of the suffering he has seen under God’s anger. God has walled him in and shut out his prayer. He has become a joke, and his hope from the LORD is gone. Then he calls something to mind and has hope. The LORD’s mercies never end and are new every morning. It is good to wait quietly, for the Lord does not reject forever. He calls the people to examine their ways and return. Then he weeps again, and he asks God to judge his enemies.",
+      "year": null,
+      "dateLabel": "Poem order",
+      "uncertainty": "The map marks Jerusalem. The poems do not give a continuous travel route.",
+      "placeIds": [
+        "jerusalem"
+      ],
+      "sourceIds": [
+        "web",
+        "holbert-lamentations"
+      ],
+      "lds": {
+        "text": "The 2026 Seminary lesson connects remembered mercy with the Savior’s willingness to forgive. How does renewed complaint follow the speaker’s remembered mercy?",
+        "sourceIds": [
+          "lds-lamentations-2026"
+        ]
+      },
+      "contextNote": {
+        "title": "Hope interrupts grief without ending it",
+        "text": "Verse 21 stands near the middle of the book. “This” points ahead to verses 22–23. The speaker’s situation has not changed. His hope comes from what he chooses to remember. Verse 33 adds that God does not afflict people willingly. From verse 42 the complaint returns: “you have not pardoned.” Hope interrupts the grief in this poem and does not end it.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    },
+    {
+      "id": "lamentations-4",
+      "chapter": 4,
+      "start": 1,
+      "end": 22,
+      "title": "Failed protection and the cost of hunger",
+      "summary": "The poet mourns that Zion’s gold has grown dim. Her precious children are treated like clay pots. Infants thirst, and no one gives them bread. Those who ate fine food now lie on trash heaps. The city’s punishment is worse than Sodom’s, which fell in a moment. This came through the sins of her prophets and priests, who shed innocent blood. The people watched in vain for a nation that could not save. Their king, the LORD’s anointed, was captured.",
+      "year": null,
+      "dateLabel": "Poem order",
+      "uncertainty": "The map marks Jerusalem. The poems do not give a continuous travel route.",
+      "placeIds": [
+        "jerusalem"
+      ],
+      "sourceIds": [
+        "web"
+      ],
+      "lds": {
+        "text": "How does the poem connect public leaders with innocent blood?",
+        "sourceIds": []
+      },
+      "contextNote": {
+        "title": "Failed protection and the cost of hunger",
+        "text": "The poem names three protections that failed. Prophets and priests, a foreign ally, and the king all failed (verses 13, 17, 20). It begins with the religious leaders. They should have warned the city, and they shed the blood of the just. The starving children of verses 4 and 10 are the cost. Verse 6 says a slow death by hunger is worse than Sodom’s sudden end. Verse 22 sets a limit: Zion’s punishment is complete.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    },
+    {
+      "id": "lamentations-5",
+      "chapter": 5,
+      "start": 1,
+      "end": 22,
+      "title": "A shared prayer ends without an answer",
+      "summary": "The people ask the LORD to remember what has happened to them. Strangers hold their land and houses. They are orphans, and they must buy their own water and wood. Slaves rule over them, and they risk their lives for bread. Women are abused, princes are hanged, and elders receive no respect. Music has stopped, and Mount Zion lies empty. They say the LORD reigns forever and ask why he forgets them. They ask him to bring them back, unless he has utterly rejected them.",
+      "year": null,
+      "dateLabel": "Poem order",
+      "uncertainty": "The map marks Jerusalem. The poems do not give a continuous travel route.",
+      "placeIds": [
+        "jerusalem"
+      ],
+      "sourceIds": [
+        "web"
+      ],
+      "lds": {
+        "text": "What remains unresolved after the people ask for renewal?",
+        "sourceIds": []
+      },
+      "contextNote": {
+        "title": "A shared prayer ends without an answer",
+        "text": "This last poem is a prayer from start to finish. The people say “we” and “us” in every part. Verse 19 says the LORD’s throne stands, though verse 18 shows his hill in ruins. Verse 21 asks God to do the turning. The people do not think they can return on their own. Verse 22 then raises the fear that he has rejected them. The book ends there, with no answer recorded.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "lamentations-1",
+      "chapter": 1,
+      "verse": 1,
+      "eventOrder": 1,
+      "title": "The ruined city asks to be seen",
+      "summary": "Jerusalem sits alone, like a widow who was once a princess. She weeps at night, and none of her friends comfort her. Judah has gone into exile, and no one comes to the feasts. Her enemies prosper, and her children are captives. The poem says she sinned and has been afflicted for it. Then the city speaks for herself. She asks those who pass by to look at her sorrow. She admits she rebelled, and she asks God to see what her enemies have done.",
+      "detail": "For eleven verses a speaker describes Jerusalem as “she.” In verse 12 the city begins to speak as “I.” She calls to strangers on the road, since no one else will listen. The poem says five times that she has no comforter. What she asks first is to be seen. Verse 18 admits that the LORD is right and she rebelled. That admission does not end her cry for help.",
+      "dateLabel": "Poem order",
+      "uncertainty": "The map marks Jerusalem. The poems do not give a continuous travel route.",
+      "sourceIds": [
+        "web",
+        "bouzard-lamentations"
+      ],
+      "placeIds": [
+        "jerusalem"
+      ],
+      "lds": {
+        "text": "The 2026 Seminary lesson reads this grief alongside the Savior’s compassion. Why does Jerusalem ask travelers to look at her sorrow?",
+        "sourceIds": [
+          "lds-lamentations-2026"
+        ]
+      }
+    },
+    {
+      "id": "lamentations-2",
+      "chapter": 2,
+      "verse": 1,
+      "eventOrder": 2,
+      "title": "Prayer rises from the hungry streets",
+      "summary": "The poem says the Lord has acted like an enemy against Zion. He has thrown down her walls, her palaces, and his own sanctuary. King and priest are rejected, and the prophets receive no vision. Elders sit silent on the ground. The poet’s eyes fail with weeping, because children faint in the streets. Her prophets saw false visions and did not expose her guilt. The poet tells Zion to cry out to the Lord through the night. She asks God to look at whom he has treated this way.",
+      "detail": "Verses 11–12 describe infants asking their mothers for food and dying. That picture drives the whole poem. Verse 5 says the Lord became “like an enemy.” He is still the only one to turn to. In verse 19 the poet urges Zion to pour out her heart for her children. The prayer she then offers is not gentle. Verse 20 says, “Look, LORD, and see to whom you have done thus.”",
+      "dateLabel": "Poem order",
+      "uncertainty": "The map marks Jerusalem. The poems do not give a continuous travel route.",
+      "sourceIds": [
+        "web"
+      ],
+      "placeIds": [
+        "jerusalem"
+      ],
+      "lds": {
+        "text": "Why does the call to pray focus on hungry children?",
+        "sourceIds": []
+      }
+    },
+    {
+      "id": "lamentations-3",
+      "chapter": 3,
+      "verse": 1,
+      "eventOrder": 3,
+      "title": "Hope interrupts grief without ending it",
+      "summary": "One man speaks of the suffering he has seen under God’s anger. God has walled him in and shut out his prayer. He has become a joke, and his hope from the LORD is gone. Then he calls something to mind and has hope. The LORD’s mercies never end and are new every morning. It is good to wait quietly, for the Lord does not reject forever. He calls the people to examine their ways and return. Then he weeps again, and he asks God to judge his enemies.",
+      "detail": "Verse 21 stands near the middle of the book. “This” points ahead to verses 22–23. The speaker’s situation has not changed. His hope comes from what he chooses to remember. Verse 33 adds that God does not afflict people willingly. From verse 42 the complaint returns: “you have not pardoned.” Hope interrupts the grief in this poem and does not end it.",
+      "dateLabel": "Poem order",
+      "uncertainty": "The map marks Jerusalem. The poems do not give a continuous travel route.",
+      "sourceIds": [
+        "web",
+        "holbert-lamentations"
+      ],
+      "placeIds": [
+        "jerusalem"
+      ],
+      "lds": {
+        "text": "The 2026 Seminary lesson connects remembered mercy with the Savior’s willingness to forgive. How does renewed complaint follow the speaker’s remembered mercy?",
+        "sourceIds": [
+          "lds-lamentations-2026"
+        ]
+      }
+    },
+    {
+      "id": "lamentations-4",
+      "chapter": 4,
+      "verse": 1,
+      "eventOrder": 4,
+      "title": "Failed protection and the cost of hunger",
+      "summary": "The poet mourns that Zion’s gold has grown dim. Her precious children are treated like clay pots. Infants thirst, and no one gives them bread. Those who ate fine food now lie on trash heaps. The city’s punishment is worse than Sodom’s, which fell in a moment. This came through the sins of her prophets and priests, who shed innocent blood. The people watched in vain for a nation that could not save. Their king, the LORD’s anointed, was captured.",
+      "detail": "The poem names three protections that failed. Prophets and priests, a foreign ally, and the king all failed (verses 13, 17, 20). It begins with the religious leaders. They should have warned the city, and they shed the blood of the just. The starving children of verses 4 and 10 are the cost. Verse 6 says a slow death by hunger is worse than Sodom’s sudden end. Verse 22 sets a limit: Zion’s punishment is complete.",
+      "dateLabel": "Poem order",
+      "uncertainty": "The map marks Jerusalem. The poems do not give a continuous travel route.",
+      "sourceIds": [
+        "web"
+      ],
+      "placeIds": [
+        "jerusalem"
+      ],
+      "lds": {
+        "text": "How does the poem connect public leaders with innocent blood?",
+        "sourceIds": []
+      }
+    },
+    {
+      "id": "lamentations-5",
+      "chapter": 5,
+      "verse": 1,
+      "eventOrder": 5,
+      "title": "A shared prayer ends without an answer",
+      "summary": "The people ask the LORD to remember what has happened to them. Strangers hold their land and houses. They are orphans, and they must buy their own water and wood. Slaves rule over them, and they risk their lives for bread. Women are abused, princes are hanged, and elders receive no respect. Music has stopped, and Mount Zion lies empty. They say the LORD reigns forever and ask why he forgets them. They ask him to bring them back, unless he has utterly rejected them.",
+      "detail": "This last poem is a prayer from start to finish. The people say “we” and “us” in every part. Verse 19 says the LORD’s throne stands, though verse 18 shows his hill in ruins. Verse 21 asks God to do the turning. The people do not think they can return on their own. Verse 22 then raises the fear that he has rejected them. The book ends there, with no answer recorded.",
+      "dateLabel": "Poem order",
+      "uncertainty": "The map marks Jerusalem. The poems do not give a continuous travel route.",
+      "sourceIds": [
+        "web"
+      ],
+      "placeIds": [
+        "jerusalem"
+      ],
+      "lds": {
+        "text": "What remains unresolved after the people ask for renewal?",
+        "sourceIds": []
+      }
+    }
+  ],
+  "places": [
+    {
+      "id": "jerusalem",
+      "name": "Jerusalem",
+      "lat": 31.778,
+      "lng": 35.235,
+      "summary": "Jerusalem is the ruined city whose people speak through these poems.",
+      "limits": "The marker locates the city. It does not locate a speaker or reconstruct a siege route.",
+      "sourceIds": [
+        "web"
+      ],
+      "detail": "Jerusalem is the ruined city whose people speak through these poems.",
+      "uncertainty": "The marker locates the city. It does not locate a speaker or reconstruct a siege route.",
+      "chapterLocation": true
+    }
+  ],
+  "campaigns": [],
+  "ancientRoads": [],
+  "regions": [],
+  "words": [
+    {
+      "id": "glossary-sabbath",
+      "label": "Sabbath",
+      "matches": [
+        "Sabbath",
+        "Sabbaths"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "The seventh day of the week, kept as a day of rest.",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    },
+    {
+      "id": "glossary-assembly",
+      "label": "Assembly",
+      "matches": [
+        "assembly",
+        "assemblies"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A gathering of people. In the New Testament letters it means a group of believers. Many translations say “church.”",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    },
+    {
+      "id": "glossary-tabernacle",
+      "label": "Tabernacle",
+      "matches": [
+        "tabernacle"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "The tent sanctuary Israel carried in the wilderness. Exodus 25–40 describes it.",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    },
+    {
+      "id": "glossary-sackcloth",
+      "label": "Sackcloth",
+      "matches": [
+        "sackcloth"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "Rough cloth worn to show grief or repentance.",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    },
+    {
+      "id": "glossary-redeem",
+      "label": "Redeem",
+      "matches": [
+        "redeem",
+        "redeems",
+        "redeemed",
+        "redeemer",
+        "redemption"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "To buy back a person or property. The word is also used for God’s rescue of people.",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    },
+    {
+      "id": "glossary-unclean",
+      "label": "Unclean",
+      "matches": [
+        "unclean",
+        "uncleanness"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "Unfit to take part in worship until a set cleansing is done. Leviticus 11–15 gives the rules.",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    },
+    {
+      "id": "glossary-anoint",
+      "label": "Anoint",
+      "matches": [
+        "anoint",
+        "anoints",
+        "anointed",
+        "anointing"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "To pour oil on a person or thing to set it apart. Kings and priests were anointed.",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    },
+    {
+      "id": "glossary-zion",
+      "label": "Zion",
+      "matches": [
+        "Zion"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A hill in Jerusalem. The name is also used for the city and its people.",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    }
+  ],
+  "guides": [
+    {
+      "id": "lamentations-context",
+      "title": "Lamentations: context and evidence",
+      "description": "Explore the book’s larger concerns through selected passages and relevant evidence.",
+      "steps": [
+        {
+          "title": "The ruined city asks to be seen",
+          "text": "For eleven verses a speaker describes Jerusalem as “she.” In verse 12 the city begins to speak as “I.” She calls to strangers on the road, since no one else will listen. The poem says five times that she has no comforter. What she asks first is to be seen. Verse 18 admits that the LORD is right and she rebelled. That admission does not end her cry for help.",
+          "chapter": 1,
+          "verse": 12,
+          "sourceIds": [
+            "web"
+          ]
+        },
+        {
+          "title": "Hope interrupts grief without ending it",
+          "text": "Verse 21 stands near the middle of the book. “This” points ahead to verses 22–23. The speaker’s situation has not changed. His hope comes from what he chooses to remember. Verse 33 adds that God does not afflict people willingly. From verse 42 the complaint returns: “you have not pardoned.” Hope interrupts the grief in this poem and does not end it.",
+          "chapter": 3,
+          "verse": 21,
+          "sourceIds": [
+            "web"
+          ]
+        },
+        {
+          "title": "A shared prayer ends without an answer",
+          "text": "This last poem is a prayer from start to finish. The people say “we” and “us” in every part. Verse 19 says the LORD’s throne stands, though verse 18 shows his hill in ruins. Verse 21 asks God to do the turning. The people do not think they can return on their own. Verse 22 then raises the fear that he has rejected them. The book ends there, with no answer recorded.",
+          "chapter": 5,
+          "verse": 21,
+          "sourceIds": [
+            "web"
+          ]
+        }
+      ]
+    }
+  ],
+  "periods": [
+    {
+      "id": "part-0",
+      "label": "Lamentations 1–1",
+      "start": 1,
+      "end": 1,
+      "description": "Chapter order"
+    },
+    {
+      "id": "part-1",
+      "label": "Lamentations 2–2",
+      "start": 2,
+      "end": 2,
+      "description": "Chapter order"
+    },
+    {
+      "id": "part-2",
+      "label": "Lamentations 3–5",
+      "start": 3,
+      "end": 5,
+      "description": "Chapter order"
+    }
+  ],
+  "chapterMaps": [
+    {
+      "chapter": 1,
+      "focusPlaceIds": [
+        "jerusalem"
+      ],
+      "placeIds": [
+        "jerusalem"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "The map marks Jerusalem. The poems do not give a continuous travel route.",
+      "narrative": "Jerusalem sits alone, like a widow who was once a princess. She weeps at night, and none of her friends comfort her. Judah has gone into exile, and no one comes to the feasts. Her enemies prosper, and her children are captives. The poem says she sinned and has been afflicted for it. Then the city speaks for herself. She asks those who pass by to look at her sorrow. She admits she rebelled, and she asks God to see what her enemies have done.",
+      "limits": "The map marks Jerusalem. The poems do not give a continuous travel route.",
+      "sourceIds": [
+        "web",
+        "bouzard-lamentations"
+      ]
+    },
+    {
+      "chapter": 2,
+      "focusPlaceIds": [
+        "jerusalem"
+      ],
+      "placeIds": [
+        "jerusalem"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "The map marks Jerusalem. The poems do not give a continuous travel route.",
+      "narrative": "The poem says the Lord has acted like an enemy against Zion. He has thrown down her walls, her palaces, and his own sanctuary. King and priest are rejected, and the prophets receive no vision. Elders sit silent on the ground. The poet’s eyes fail with weeping, because children faint in the streets. Her prophets saw false visions and did not expose her guilt. The poet tells Zion to cry out to the Lord through the night. She asks God to look at whom he has treated this way.",
+      "limits": "The map marks Jerusalem. The poems do not give a continuous travel route.",
+      "sourceIds": [
+        "web"
+      ]
+    },
+    {
+      "chapter": 3,
+      "focusPlaceIds": [
+        "jerusalem"
+      ],
+      "placeIds": [
+        "jerusalem"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "The map marks Jerusalem. The poems do not give a continuous travel route.",
+      "narrative": "One man speaks of the suffering he has seen under God’s anger. God has walled him in and shut out his prayer. He has become a joke, and his hope from the LORD is gone. Then he calls something to mind and has hope. The LORD’s mercies never end and are new every morning. It is good to wait quietly, for the Lord does not reject forever. He calls the people to examine their ways and return. Then he weeps again, and he asks God to judge his enemies.",
+      "limits": "The map marks Jerusalem. The poems do not give a continuous travel route.",
+      "sourceIds": [
+        "web",
+        "holbert-lamentations"
+      ]
+    },
+    {
+      "chapter": 4,
+      "focusPlaceIds": [
+        "jerusalem"
+      ],
+      "placeIds": [
+        "jerusalem"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "The map marks Jerusalem. The poems do not give a continuous travel route.",
+      "narrative": "The poet mourns that Zion’s gold has grown dim. Her precious children are treated like clay pots. Infants thirst, and no one gives them bread. Those who ate fine food now lie on trash heaps. The city’s punishment is worse than Sodom’s, which fell in a moment. This came through the sins of her prophets and priests, who shed innocent blood. The people watched in vain for a nation that could not save. Their king, the LORD’s anointed, was captured.",
+      "limits": "The map marks Jerusalem. The poems do not give a continuous travel route.",
+      "sourceIds": [
+        "web"
+      ]
+    },
+    {
+      "chapter": 5,
+      "focusPlaceIds": [
+        "jerusalem"
+      ],
+      "placeIds": [
+        "jerusalem"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "The map marks Jerusalem. The poems do not give a continuous travel route.",
+      "narrative": "The people ask the LORD to remember what has happened to them. Strangers hold their land and houses. They are orphans, and they must buy their own water and wood. Slaves rule over them, and they risk their lives for bread. Women are abused, princes are hanged, and elders receive no respect. Music has stopped, and Mount Zion lies empty. They say the LORD reigns forever and ask why he forgets them. They ask him to bring them back, unless he has utterly rejected them.",
+      "limits": "The map marks Jerusalem. The poems do not give a continuous travel route.",
+      "sourceIds": [
+        "web"
+      ]
+    }
+  ],
+  "textRoutes": [],
+  "narrativeRegions": [],
+  "chapterStudies": [
+    {
+      "chapter": 1,
+      "verse": 12,
+      "context": ""
+    },
+    {
+      "chapter": 2,
+      "verse": 19,
+      "context": ""
+    },
+    {
+      "chapter": 3,
+      "verse": 21,
+      "context": ""
+    },
+    {
+      "chapter": 4,
+      "verse": 13,
+      "context": ""
+    },
+    {
+      "chapter": 5,
+      "verse": 21,
+      "context": ""
+    }
+  ]
+}

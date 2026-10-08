@@ -1,0 +1,522 @@
+{
+  "sources": [
+    {
+      "id": "web",
+      "title": "Habakkuk · World English Bible",
+      "url": "https://ebible.org/engwebp/HAB01.htm",
+      "summary": "All three chapters appear in the reading text.",
+      "category": "Scripture",
+      "perspective": "historical",
+      "limits": "The guide assigns no exact date or watchtower location. Poetic divine movements are not traveled routes.",
+      "author": "World English Bible translators",
+      "publisher": "eBible.org",
+      "chapterCoverage": [
+        1,
+        2,
+        3
+      ],
+      "reviewed": {
+        "date": "2026-10-07",
+        "scope": "All 56 verses read. Verse counts and character integrity checked."
+      },
+      "type": "Scripture",
+      "limitations": "The guide assigns no exact date or watchtower location. Poetic divine movements are not traveled routes.",
+      "license": "Public domain"
+    },
+    {
+      "id": "wrenn-habakkuk",
+      "title": "Commentary on Habakkuk 1:1-4, 2:1-4",
+      "url": "https://www.workingpreacher.org/commentaries/revised-common-lectionary/ordinary-31-3/commentary-on-habakkuk-11-4-21-4-12",
+      "summary": "Wrenn reads the prophet’s anger and waiting as part of the passage’s account of faith.",
+      "category": "Scholarly study",
+      "perspective": "historical",
+      "limits": "Her translation proposals and Christian applications remain attributed interpretations. They do not replace the displayed WEB text.",
+      "author": "Rachel Wrenn",
+      "year": 2025,
+      "publisher": "Luther Seminary",
+      "chapterCoverage": [
+        1,
+        2
+      ],
+      "reviewed": {
+        "date": "2026-10-07",
+        "scope": "Complete commentary and notes read. This 2025 page identifies a previous 2022 publication. Linked Nysse background essay was not separately reviewed."
+      },
+      "type": "Scholarly study",
+      "limitations": "Her translation proposals and Christian applications remain attributed interpretations. They do not replace the displayed WEB text.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "cfm-habakkuk-2026",
+      "title": "November 30–December 6: “He Delighteth in Mercy” · Micah, Nahum, Habakkuk, Zephaniah",
+      "url": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/49?lang=eng",
+      "summary": "The lesson studies difficult questions, waiting for answers, and rejoicing during loss.",
+      "category": "LDS Come, Follow Me",
+      "perspective": "lds",
+      "limits": "Church applications remain separate from Habakkuk’s complaints and the prayer’s own images.",
+      "author": "The Church of Jesus Christ of Latter-day Saints",
+      "year": 2026,
+      "publisher": "The Church of Jesus Christ of Latter-day Saints",
+      "chapterCoverage": [
+        1,
+        2,
+        3
+      ],
+      "reviewed": {
+        "date": "2026-10-07",
+        "scope": "Introduction and adult Habakkuk study sections read. Linked talks, videos, and Scripture Helps were not separately reviewed."
+      },
+      "type": "LDS Come, Follow Me",
+      "limitations": "Church applications remain separate from Habakkuk’s complaints and the prayer’s own images.",
+      "license": "Linked source. Original guide summaries."
+    }
+  ],
+  "passages": [
+    {
+      "id": "habakkuk-1",
+      "chapter": 1,
+      "start": 1,
+      "end": 17,
+      "title": "The promised answer creates a second complaint",
+      "summary": "Habakkuk asks how long he must cry for help and not be heard. He sees violence, and justice never wins. God answers that he is raising up the Chaldeans. They are a fierce nation that sweeps across the earth. Their own strength is their god. Habakkuk objects that God’s eyes are too pure to look on evil. He asks why God is silent while the wicked swallow the more righteous. The enemy catches people like fish in a net.",
+      "year": null,
+      "dateLabel": "Book order",
+      "uncertainty": "The complaint names no city where the prophet stands. The conquerors receive no reconstructed army route.",
+      "placeIds": [],
+      "sourceIds": [
+        "web",
+        "wrenn-habakkuk"
+      ],
+      "lds": {
+        "text": "The lesson invites readers to bring difficult questions to God as Habakkuk does. Why does the announced rise of Chaldeans create a second complaint?",
+        "sourceIds": [
+          "cfm-habakkuk-2026"
+        ]
+      },
+      "contextNote": {
+        "title": "The promised answer creates a second complaint",
+        "text": "Habakkuk’s first complaint is about wrong inside Judah (verses 2–4). God’s answer is the coming of Babylon (verses 5–11). That answer creates a second complaint. Verse 13 argues from God’s own character. A pure God is using a nation worse than the one it punishes. Verses 15–17 picture people as fish and the empire worshiping its net. The book records a prophet arguing with God.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    },
+    {
+      "id": "habakkuk-2",
+      "chapter": 2,
+      "start": 1,
+      "end": 20,
+      "title": "The victimized peoples gain a voice against their captor",
+      "summary": "Habakkuk stands at his watch post to see what God will say. The LORD tells him to write the vision plainly on tablets. It awaits its time, and he must wait for it. The proud one is not upright, and the righteous will live by faith. The conquered nations will taunt their conqueror with five woes. He piled up what was not his and built his house on plunder. Idols are teachers of lies. The LORD is in his holy temple, and all the earth must be silent.",
+      "year": null,
+      "dateLabel": "Book order",
+      "uncertainty": "The marker locates a broad regional reference. No watchtower or poetic divine route is assigned.",
+      "placeIds": [
+        "lebanon"
+      ],
+      "sourceIds": [
+        "web",
+        "wrenn-habakkuk"
+      ],
+      "lds": {
+        "text": "The lesson connects the prophet’s watch with waiting for answers from God. Why do stones and beams testify against their owner?",
+        "sourceIds": [
+          "cfm-habakkuk-2026"
+        ]
+      },
+      "contextNote": {
+        "title": "The victimized peoples gain a voice against their captor",
+        "text": "Verse 6 says the conquered peoples will speak these woes. They receive a voice against their captor. Verses 9–11 concern a house built with unjust gain. The builder hoped to set his nest out of harm’s reach. Verse 11 says the stones and beams themselves will accuse him. No human witness is needed. Verse 4 tells the righteous how to live while they wait.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    },
+    {
+      "id": "habakkuk-3",
+      "chapter": 3,
+      "start": 1,
+      "end": 19,
+      "title": "The song chooses joy without claiming that food has returned",
+      "summary": "Habakkuk prays and asks God to remember mercy in his anger. He recalls God coming from the south in glory. Mountains shook, and the sun and moon stood still. God went out to save his people and crush the wicked. Habakkuk’s body trembles as he waits for the day of trouble. The fig tree may not bud, and the fields may give no food. The flocks and herds may be gone. Yet he will rejoice in the LORD, who is his strength.",
+      "year": null,
+      "dateLabel": "Book order",
+      "uncertainty": "The marker locates a broad regional reference. No watchtower or poetic divine route is assigned.",
+      "placeIds": [
+        "midian"
+      ],
+      "sourceIds": [
+        "web"
+      ],
+      "lds": {
+        "text": "The lesson studies rejoicing in God when material sources of security fail. Which losses remain when the speaker chooses to rejoice?",
+        "sourceIds": [
+          "cfm-habakkuk-2026"
+        ]
+      },
+      "contextNote": {
+        "title": "The song chooses joy without claiming that food has returned",
+        "text": "Verse 17 lists six losses. Figs, grapes, olives, grain, sheep, and cattle all fail. That is the whole food supply of a farming land. Verse 18 begins with “yet.” Nothing in the list is said to return. His joy is placed in God, apart from the harvest. Verse 16 shows that his body still trembles as he says it.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "habakkuk-1",
+      "chapter": 1,
+      "verse": 1,
+      "eventOrder": 1,
+      "title": "The promised answer creates a second complaint",
+      "summary": "Habakkuk asks how long he must cry for help and not be heard. He sees violence, and justice never wins. God answers that he is raising up the Chaldeans. They are a fierce nation that sweeps across the earth. Their own strength is their god. Habakkuk objects that God’s eyes are too pure to look on evil. He asks why God is silent while the wicked swallow the more righteous. The enemy catches people like fish in a net.",
+      "detail": "Habakkuk’s first complaint is about wrong inside Judah (verses 2–4). God’s answer is the coming of Babylon (verses 5–11). That answer creates a second complaint. Verse 13 argues from God’s own character. A pure God is using a nation worse than the one it punishes. Verses 15–17 picture people as fish and the empire worshiping its net. The book records a prophet arguing with God.",
+      "dateLabel": "Book order",
+      "uncertainty": "The complaint names no city where the prophet stands. The conquerors receive no reconstructed army route.",
+      "sourceIds": [
+        "web",
+        "wrenn-habakkuk"
+      ],
+      "placeIds": [],
+      "lds": {
+        "text": "The lesson invites readers to bring difficult questions to God as Habakkuk does. Why does the announced rise of Chaldeans create a second complaint?",
+        "sourceIds": [
+          "cfm-habakkuk-2026"
+        ]
+      }
+    },
+    {
+      "id": "habakkuk-2",
+      "chapter": 2,
+      "verse": 1,
+      "eventOrder": 2,
+      "title": "The victimized peoples gain a voice against their captor",
+      "summary": "Habakkuk stands at his watch post to see what God will say. The LORD tells him to write the vision plainly on tablets. It awaits its time, and he must wait for it. The proud one is not upright, and the righteous will live by faith. The conquered nations will taunt their conqueror with five woes. He piled up what was not his and built his house on plunder. Idols are teachers of lies. The LORD is in his holy temple, and all the earth must be silent.",
+      "detail": "Verse 6 says the conquered peoples will speak these woes. They receive a voice against their captor. Verses 9–11 concern a house built with unjust gain. The builder hoped to set his nest out of harm’s reach. Verse 11 says the stones and beams themselves will accuse him. No human witness is needed. Verse 4 tells the righteous how to live while they wait.",
+      "dateLabel": "Book order",
+      "uncertainty": "The marker locates a broad regional reference. No watchtower or poetic divine route is assigned.",
+      "sourceIds": [
+        "web",
+        "wrenn-habakkuk"
+      ],
+      "placeIds": [
+        "lebanon"
+      ],
+      "lds": {
+        "text": "The lesson connects the prophet’s watch with waiting for answers from God. Why do stones and beams testify against their owner?",
+        "sourceIds": [
+          "cfm-habakkuk-2026"
+        ]
+      }
+    },
+    {
+      "id": "habakkuk-3",
+      "chapter": 3,
+      "verse": 1,
+      "eventOrder": 3,
+      "title": "The song chooses joy without claiming that food has returned",
+      "summary": "Habakkuk prays and asks God to remember mercy in his anger. He recalls God coming from the south in glory. Mountains shook, and the sun and moon stood still. God went out to save his people and crush the wicked. Habakkuk’s body trembles as he waits for the day of trouble. The fig tree may not bud, and the fields may give no food. The flocks and herds may be gone. Yet he will rejoice in the LORD, who is his strength.",
+      "detail": "Verse 17 lists six losses. Figs, grapes, olives, grain, sheep, and cattle all fail. That is the whole food supply of a farming land. Verse 18 begins with “yet.” Nothing in the list is said to return. His joy is placed in God, apart from the harvest. Verse 16 shows that his body still trembles as he says it.",
+      "dateLabel": "Book order",
+      "uncertainty": "The marker locates a broad regional reference. No watchtower or poetic divine route is assigned.",
+      "sourceIds": [
+        "web"
+      ],
+      "placeIds": [
+        "midian"
+      ],
+      "lds": {
+        "text": "The lesson studies rejoicing in God when material sources of security fail. Which losses remain when the speaker chooses to rejoice?",
+        "sourceIds": [
+          "cfm-habakkuk-2026"
+        ]
+      }
+    }
+  ],
+  "places": [
+    {
+      "id": "lebanon",
+      "name": "Lebanon",
+      "lat": 34.0,
+      "lng": 35.85,
+      "summary": "Lebanon appears among the places harmed by violence in the taunt against the oppressor.",
+      "limits": "Broad regional reference. The poem does not identify particular forests or an army route.",
+      "sourceIds": [
+        "web"
+      ],
+      "detail": "Lebanon appears among the places harmed by violence in the taunt against the oppressor.",
+      "uncertainty": "Broad regional reference. The poem does not identify particular forests or an army route.",
+      "chapterLocation": true
+    },
+    {
+      "id": "midian",
+      "name": "Midian",
+      "lat": 28.4,
+      "lng": 35.3,
+      "summary": "Midian appears among the trembling dwellings in the prayer’s description of God’s arrival.",
+      "limits": "Broad regional reference. The prayer’s movement does not establish an ordinary traveled path.",
+      "sourceIds": [
+        "web"
+      ],
+      "detail": "Midian appears among the trembling dwellings in the prayer’s description of God’s arrival.",
+      "uncertainty": "Broad regional reference. The prayer’s movement does not establish an ordinary traveled path.",
+      "chapterLocation": true
+    }
+  ],
+  "campaigns": [],
+  "ancientRoads": [],
+  "regions": [],
+  "words": [
+    {
+      "id": "glossary-sheol",
+      "label": "Sheol",
+      "matches": [
+        "Sheol"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "The Hebrew name for the place of the dead.",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    },
+    {
+      "id": "glossary-anoint",
+      "label": "Anoint",
+      "matches": [
+        "anoint",
+        "anoints",
+        "anointed",
+        "anointing"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "To pour oil on a person or thing to set it apart. Kings and priests were anointed.",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    },
+    {
+      "id": "glossary-remnant",
+      "label": "Remnant",
+      "matches": [
+        "remnant"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "The part of a people that survives a disaster.",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    },
+    {
+      "id": "glossary-parable",
+      "label": "Parable",
+      "matches": [
+        "parable",
+        "parables"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A short story or comparison that teaches a point.",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    },
+    {
+      "id": "glossary-selah",
+      "label": "Selah",
+      "matches": [
+        "Selah"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A word in the Psalms whose meaning is not known. It may mark a pause.",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    }
+  ],
+  "guides": [
+    {
+      "id": "habakkuk-context",
+      "title": "Habakkuk: context and evidence",
+      "description": "Explore the book’s larger concerns through selected passages and relevant evidence.",
+      "steps": [
+        {
+          "title": "The promised answer creates a second complaint",
+          "text": "Habakkuk’s first complaint is about wrong inside Judah (verses 2–4). God’s answer is the coming of Babylon (verses 5–11). That answer creates a second complaint. Verse 13 argues from God’s own character. A pure God is using a nation worse than the one it punishes. Verses 15–17 picture people as fish and the empire worshiping its net. The book records a prophet arguing with God.",
+          "chapter": 1,
+          "verse": 13,
+          "sourceIds": [
+            "web"
+          ]
+        },
+        {
+          "title": "The victimized peoples gain a voice against their captor",
+          "text": "Verse 6 says the conquered peoples will speak these woes. They receive a voice against their captor. Verses 9–11 concern a house built with unjust gain. The builder hoped to set his nest out of harm’s reach. Verse 11 says the stones and beams themselves will accuse him. No human witness is needed. Verse 4 tells the righteous how to live while they wait.",
+          "chapter": 2,
+          "verse": 11,
+          "sourceIds": [
+            "web"
+          ]
+        },
+        {
+          "title": "The song chooses joy without claiming that food has returned",
+          "text": "Verse 17 lists six losses. Figs, grapes, olives, grain, sheep, and cattle all fail. That is the whole food supply of a farming land. Verse 18 begins with “yet.” Nothing in the list is said to return. His joy is placed in God, apart from the harvest. Verse 16 shows that his body still trembles as he says it.",
+          "chapter": 3,
+          "verse": 18,
+          "sourceIds": [
+            "web"
+          ]
+        }
+      ]
+    }
+  ],
+  "periods": [
+    {
+      "id": "part-0",
+      "label": "Habakkuk 1–1",
+      "start": 1,
+      "end": 1,
+      "description": "Chapter order"
+    },
+    {
+      "id": "part-1",
+      "label": "Habakkuk 2–2",
+      "start": 2,
+      "end": 2,
+      "description": "Chapter order"
+    },
+    {
+      "id": "part-2",
+      "label": "Habakkuk 3–3",
+      "start": 3,
+      "end": 3,
+      "description": "Chapter order"
+    }
+  ],
+  "chapterMaps": [
+    {
+      "chapter": 1,
+      "focusPlaceIds": [],
+      "placeIds": [],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "The complaint names no city where the prophet stands. The conquerors receive no reconstructed army route.",
+      "narrative": "Habakkuk asks how long he must cry for help and not be heard. He sees violence, and justice never wins. God answers that he is raising up the Chaldeans. They are a fierce nation that sweeps across the earth. Their own strength is their god. Habakkuk objects that God’s eyes are too pure to look on evil. He asks why God is silent while the wicked swallow the more righteous. The enemy catches people like fish in a net.",
+      "limits": "The complaint names no city where the prophet stands. The conquerors receive no reconstructed army route.",
+      "sourceIds": [
+        "web",
+        "wrenn-habakkuk"
+      ]
+    },
+    {
+      "chapter": 2,
+      "focusPlaceIds": [
+        "lebanon"
+      ],
+      "placeIds": [
+        "lebanon"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "The marker locates a broad regional reference. No watchtower or poetic divine route is assigned.",
+      "narrative": "Habakkuk stands at his watch post to see what God will say. The LORD tells him to write the vision plainly on tablets. It awaits its time, and he must wait for it. The proud one is not upright, and the righteous will live by faith. The conquered nations will taunt their conqueror with five woes. He piled up what was not his and built his house on plunder. Idols are teachers of lies. The LORD is in his holy temple, and all the earth must be silent.",
+      "limits": "The marker locates a broad regional reference. No watchtower or poetic divine route is assigned.",
+      "sourceIds": [
+        "web",
+        "wrenn-habakkuk"
+      ]
+    },
+    {
+      "chapter": 3,
+      "focusPlaceIds": [
+        "midian"
+      ],
+      "placeIds": [
+        "midian"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "The marker locates a broad regional reference. No watchtower or poetic divine route is assigned.",
+      "narrative": "Habakkuk prays and asks God to remember mercy in his anger. He recalls God coming from the south in glory. Mountains shook, and the sun and moon stood still. God went out to save his people and crush the wicked. Habakkuk’s body trembles as he waits for the day of trouble. The fig tree may not bud, and the fields may give no food. The flocks and herds may be gone. Yet he will rejoice in the LORD, who is his strength.",
+      "limits": "The marker locates a broad regional reference. No watchtower or poetic divine route is assigned.",
+      "sourceIds": [
+        "web"
+      ]
+    }
+  ],
+  "textRoutes": [],
+  "narrativeRegions": [],
+  "chapterStudies": [
+    {
+      "chapter": 1,
+      "verse": 13,
+      "context": ""
+    },
+    {
+      "chapter": 2,
+      "verse": 11,
+      "context": ""
+    },
+    {
+      "chapter": 3,
+      "verse": 18,
+      "context": ""
+    }
+  ]
+}

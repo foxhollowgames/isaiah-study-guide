@@ -1,0 +1,198 @@
+{
+  "name": "Jude",
+  "code": "JUD",
+  "date": "2026-10-07",
+  "verseCounts": [
+    25
+  ],
+  "nextBook": "revelation",
+  "description": "Urgent warning · failed promises · restrained speech · mercy · keeping power",
+  "limits": "Jude is the named letter speaker, without secure identification with a Gospel relative or apostle. Historical authorship, dates, Greek forms, exact opponents, and the earlier transmission of the Michael and Enoch accounts were not independently verified. Sodom remains a disputed regional marker.",
+  "review": "All 25 verses read for an original explanation and exact selection. Eight selected profiles include an inspected letter-speaker portrait and reused artwork. No exact grave, angelic dwelling, or regional city site is assigned. The USCCB reading remains attributed. Church application remains distinct from the close reading.",
+  "sources": [
+    {
+      "id": "cfm-nt-2023-49",
+      "reuse": "1-john",
+      "summary": "The lesson connects Jude's warning images with resisting false teaching and showing compassion.",
+      "chapterCoverage": [
+        1
+      ],
+      "limits": "Coverage follows the lesson's actual Jude discussion. Linked reference entries and Restoration passages were not independently reviewed. The apostasy application remains Church teaching.",
+      "reviewed": {
+        "date": "2026-10-07",
+        "scope": "Complete shared lesson body and resource list read. Jude discussion includes warning imagery, prayer, and compassion."
+      }
+    },
+    {
+      "id": "usccb-jude",
+      "title": "Introduction to the Letter of Jude",
+      "url": "https://bible.usccb.org/bible/jude/0",
+      "author": "United States Conference of Catholic Bishops",
+      "publisher": "United States Conference of Catholic Bishops",
+      "category": "Scholarly study",
+      "perspective": "historical",
+      "summary": "The introduction reads the change of subject as an urgent response to harmful teachers.",
+      "limits": "This is the introduction's interpretation. Historical identities, authorship proposals, dates, reconstructed opponents, literary borrowing, and the cited earlier works were not independently verified.",
+      "chapterCoverage": [
+        1
+      ],
+      "reviewed": {
+        "date": "2026-10-07",
+        "scope": "Complete five-paragraph introduction read through indexed source text. The guide attributes only its reading of the changed purpose and urgent warning."
+      }
+    }
+  ],
+  "people": [
+    {
+      "id": "jude-letter",
+      "name": "Jude",
+      "reuse": "jude",
+      "role": "Named speaker who changes his intended subject to warn against harmful teaching",
+      "relations": "He identifies himself as a servant of Jesus Christ and brother of James.",
+      "meaning": "His final commands join protection of received faith with mercy toward people in danger.",
+      "chapters": [
+        1
+      ],
+      "passages": "Jude 1",
+      "linkNames": [
+        "Jude"
+      ]
+    },
+    {
+      "id": "jesus",
+      "name": "Jesus Christ",
+      "reuse": "matthew",
+      "role": "Lord whose mercy remains the ground of hope for eternal life",
+      "relations": "Jude identifies himself as his servant and warns against denying him.",
+      "meaning": "Waiting for his mercy belongs beside active care and prayer.",
+      "chapters": [
+        1
+      ],
+      "passages": "Jude 1",
+      "linkNames": [
+        "Jesus",
+        "Christ"
+      ]
+    },
+    {
+      "id": "moses",
+      "name": "Moses",
+      "reuse": "exodus",
+      "role": "Person recalled through the dispute about his body",
+      "relations": "Jude describes Michael's restrained reply during a dispute with the devil.",
+      "meaning": "His mention serves a comparison about speech rather than locating his grave.",
+      "chapters": [
+        1
+      ],
+      "passages": "Jude 1",
+      "linkNames": [
+        "Moses"
+      ]
+    },
+    {
+      "id": "cain",
+      "name": "Cain",
+      "reuse": "genesis",
+      "role": "Recalled figure whose way supplies a negative comparison",
+      "relations": "Jude places his way beside Balaam's error and Korah's rebellion.",
+      "meaning": "The comparison joins wrongdoing with the broader warning about present conduct.",
+      "chapters": [
+        1
+      ],
+      "passages": "Jude 1",
+      "linkNames": [
+        "Cain"
+      ]
+    },
+    {
+      "id": "balaam",
+      "name": "Balaam",
+      "reuse": "numbers",
+      "role": "Figure recalled through error connected with payment",
+      "relations": "His example stands among the warning's three named comparisons.",
+      "meaning": "Desire for gain helps explain why claimed spiritual standing does not ensure sound conduct.",
+      "chapters": [
+        1
+      ],
+      "passages": "Jude 1",
+      "linkNames": [
+        "Balaam"
+      ]
+    },
+    {
+      "id": "korah",
+      "name": "Korah",
+      "reuse": "numbers",
+      "role": "Figure recalled through rebellion and destruction",
+      "relations": "His remembered rebellion stands beside Cain and Balaam.",
+      "meaning": "His mention connects the present warning with the consequences of earlier rebellion.",
+      "chapters": [
+        1
+      ],
+      "passages": "Jude 1",
+      "linkNames": [
+        "Korah"
+      ]
+    },
+    {
+      "id": "enoch",
+      "name": "Enoch",
+      "reuse": "genesis",
+      "role": "Figure to whom Jude attributes a saying about coming judgment",
+      "relations": "Jude calls him the seventh from Adam and quotes the judgment saying.",
+      "meaning": "His attributed words strengthen the warning without supplying a complete account of their earlier transmission.",
+      "chapters": [
+        1
+      ],
+      "passages": "Jude 1",
+      "linkNames": [
+        "Enoch"
+      ]
+    },
+    {
+      "id": "adam",
+      "name": "Adam",
+      "reuse": "genesis",
+      "role": "Ancestor named in the description of Enoch",
+      "relations": "Jude uses his name to place Enoch within an ancestral sequence.",
+      "meaning": "His brief mention identifies the recalled speaker rather than developing a creation account.",
+      "chapters": [
+        1
+      ],
+      "passages": "Jude 1",
+      "linkNames": [
+        "Adam"
+      ]
+    }
+  ],
+  "places": [
+    {
+      "id": "sodom",
+      "reuse": "genesis",
+      "chapters": [
+        1
+      ],
+      "summary": "Jude recalls Sodom's destruction within the warning comparisons.",
+      "verseScope": {
+        "1": [
+          7
+        ]
+      },
+      "linkNames": [
+        "Sodom"
+      ]
+    }
+  ],
+  "chapters": {
+    "1": {
+      "question": "Why does a warning about harmful teaching end with mercy and rescue?",
+      "teaching": "The selected Church lesson joins Jude's warning images with prayer and compassion.",
+      "ldsSources": [
+        "cfm-nt-2023-49"
+      ],
+      "historicalSources": [
+        "usccb-jude"
+      ]
+    }
+  }
+}

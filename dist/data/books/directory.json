@@ -193,294 +193,336 @@
     "id": "lamentations",
     "name": "Lamentations",
     "testament": "Old Testament",
-    "status": "planned",
-    "url": "book.html?book=lamentations"
+    "status": "ready",
+    "url": "book.html?book=lamentations",
+    "description": "Ruined Jerusalem · grief · mercy · unanswered prayer"
   },
   {
     "id": "ezekiel",
     "name": "Ezekiel",
     "testament": "Old Testament",
-    "status": "planned",
-    "url": "book.html?book=ezekiel"
+    "status": "ready",
+    "url": "book.html?book=ezekiel",
+    "description": "Exile · visions · failed rulers · renewed life · divine presence"
   },
   {
     "id": "daniel",
     "name": "Daniel",
     "testament": "Old Testament",
-    "status": "planned",
-    "url": "book.html?book=daniel"
+    "status": "ready",
+    "url": "book.html?book=daniel",
+    "description": "Court service · forced worship · prayer · visions · waiting"
   },
   {
     "id": "hosea",
     "name": "Hosea",
     "testament": "Old Testament",
-    "status": "planned",
-    "url": "book.html?book=hosea"
+    "status": "ready",
+    "url": "book.html?book=hosea",
+    "description": "Broken belonging · failed rulers · remembered care · freely given love"
   },
   {
     "id": "joel",
     "name": "Joel",
     "testament": "Old Testament",
-    "status": "planned",
-    "url": "book.html?book=joel"
+    "status": "ready",
+    "url": "book.html?book=joel",
+    "description": "Crop disaster · shared prayer · restored life · judgment against traded people"
   },
   {
     "id": "amos",
     "name": "Amos",
     "testament": "Old Testament",
-    "status": "planned",
-    "url": "book.html?book=amos"
+    "status": "ready",
+    "url": "book.html?book=amos",
+    "description": "Public justice · honest trade · rejected worship · challenged speech · restored homes"
   },
   {
     "id": "obadiah",
     "name": "Obadiah",
     "testament": "Old Testament",
-    "status": "planned",
-    "url": "book.html?book=obadiah"
+    "status": "ready",
+    "url": "book.html?book=obadiah",
+    "description": "Betrayed brotherhood · fleeing captives · repayment · restored belonging"
   },
   {
     "id": "jonah",
     "name": "Jonah",
     "testament": "Old Testament",
-    "status": "planned",
-    "url": "book.html?book=jonah"
+    "status": "ready",
+    "url": "book.html?book=jonah",
+    "description": "Flight · rescue · changed conduct · disputed mercy · an unanswered question"
   },
   {
     "id": "micah",
     "name": "Micah",
     "testament": "Old Testament",
-    "status": "planned",
-    "url": "book.html?book=micah"
+    "status": "ready",
+    "url": "book.html?book=micah",
+    "description": "Seized homes · paid answers · peace · a shepherd · justice · mercy"
   },
   {
     "id": "nahum",
     "name": "Nahum",
     "testament": "Old Testament",
-    "status": "planned",
-    "url": "book.html?book=nahum"
+    "status": "ready",
+    "url": "book.html?book=nahum",
+    "description": "Threatened power · refuge · ruined defenses · cruelty · abandoned people"
   },
   {
     "id": "habakkuk",
     "name": "Habakkuk",
     "testament": "Old Testament",
-    "status": "planned",
-    "url": "book.html?book=habakkuk"
+    "status": "ready",
+    "url": "book.html?book=habakkuk",
+    "description": "Violence · a disputed answer · waiting · injured peoples · joy amid loss"
   },
   {
     "id": "zephaniah",
     "name": "Zephaniah",
     "testament": "Old Testament",
-    "status": "planned",
-    "url": "book.html?book=zephaniah"
+    "status": "ready",
+    "url": "book.html?book=zephaniah",
+    "description": "Indifference · threatened wealth · humility · proud cities · gathered outcasts"
   },
   {
     "id": "haggai",
     "name": "Haggai",
     "testament": "Old Testament",
-    "status": "planned",
-    "url": "book.html?book=haggai"
+    "status": "ready",
+    "url": "book.html?book=haggai",
+    "description": "Private houses · shared work · a smaller temple · presence · promised blessing"
   },
   {
     "id": "zechariah",
     "name": "Zechariah",
     "testament": "Old Testament",
-    "status": "planned",
-    "url": "book.html?book=zechariah"
+    "status": "ready",
+    "url": "book.html?book=zechariah",
+    "description": "Night visions · restored service · justice · a lowly king · shepherds · holy daily life"
   },
   {
     "id": "malachi",
     "name": "Malachi",
     "testament": "Old Testament",
-    "status": "planned",
-    "url": "book.html?book=malachi"
+    "status": "ready",
+    "url": "book.html?book=malachi",
+    "description": "Doubted love · rejected offerings · fidelity · justice · changed hearts"
   },
   {
     "id": "matthew",
     "name": "Matthew",
     "testament": "New Testament",
-    "status": "planned",
-    "url": "book.html?book=matthew"
+    "status": "ready",
+    "url": "book.html?book=matthew",
+    "description": "Jesus · teaching · healing · disputed authority · cross · resurrection"
   },
   {
     "id": "mark",
     "name": "Mark",
     "testament": "New Testament",
-    "status": "planned",
-    "url": "book.html?book=mark"
+    "status": "ready",
+    "url": "book.html?book=mark",
+    "description": "Hearing · healing · incomplete understanding · service · cross · resurrection"
   },
   {
     "id": "luke",
     "name": "Luke",
     "testament": "New Testament",
-    "status": "planned",
-    "url": "book.html?book=luke"
+    "status": "ready",
+    "url": "book.html?book=luke",
+    "description": "Mercy · welcome · possessions · service · Jerusalem · resurrection"
   },
   {
     "id": "john",
     "name": "John",
     "testament": "New Testament",
-    "status": "planned",
-    "url": "book.html?book=john"
+    "status": "ready",
+    "url": "book.html?book=john",
+    "description": "Signs · testimony · life · love · cross · resurrection"
   },
   {
     "id": "acts",
     "name": "Acts",
     "testament": "New Testament",
-    "status": "planned",
-    "url": "book.html?book=acts"
+    "status": "ready",
+    "url": "book.html?book=acts",
+    "description": "Witness · shared care · disputed belonging · travel · hearings"
   },
   {
     "id": "romans",
     "name": "Romans",
     "testament": "New Testament",
-    "status": "planned",
-    "url": "book.html?book=romans"
+    "status": "ready",
+    "url": "book.html?book=romans",
+    "description": "Grace · shared belonging · Israel · changed conduct · welcome"
   },
   {
     "id": "1-corinthians",
     "name": "1 Corinthians",
     "testament": "New Testament",
-    "status": "planned",
-    "url": "book.html?book=1-corinthians"
+    "status": "ready",
+    "url": "book.html?book=1-corinthians",
+    "description": "Unity · freedom · shared meals · gifts · love · resurrection"
   },
   {
     "id": "2-corinthians",
     "name": "2 Corinthians",
     "testament": "New Testament",
-    "status": "planned",
-    "url": "book.html?book=2-corinthians"
+    "status": "ready",
+    "url": "book.html?book=2-corinthians",
+    "description": "Comfort · restored relationships · giving · weakness · disputed authority"
   },
   {
     "id": "galatians",
     "name": "Galatians",
     "testament": "New Testament",
-    "status": "planned",
-    "url": "book.html?book=galatians"
+    "status": "ready",
+    "url": "book.html?book=galatians",
+    "description": "Promise · belonging · disputed meals · freedom · the Spirit"
   },
   {
     "id": "ephesians",
     "name": "Ephesians",
     "testament": "New Testament",
-    "status": "planned",
-    "url": "book.html?book=ephesians"
+    "status": "ready",
+    "url": "book.html?book=ephesians",
+    "description": "Grace · shared belonging · one body · household care · spiritual resistance"
   },
   {
     "id": "philippians",
     "name": "Philippians",
     "testament": "New Testament",
-    "status": "planned",
-    "url": "book.html?book=philippians"
+    "status": "ready",
+    "url": "book.html?book=philippians",
+    "description": "Shared work · humility · costly service · joy · contentment"
   },
   {
     "id": "colossians",
     "name": "Colossians",
     "testament": "New Testament",
-    "status": "planned",
-    "url": "book.html?book=colossians"
+    "status": "ready",
+    "url": "book.html?book=colossians",
+    "description": "Christ's fullness · received life · changed conduct · shared letters"
   },
   {
     "id": "1-thessalonians",
     "name": "1 Thessalonians",
     "testament": "New Testament",
-    "status": "planned",
-    "url": "book.html?book=1-thessalonians"
+    "status": "ready",
+    "url": "book.html?book=1-thessalonians",
+    "description": "Shared work · remembered care · waiting · resurrection hope · alert conduct"
   },
   {
     "id": "2-thessalonians",
     "name": "2 Thessalonians",
     "testament": "New Testament",
-    "status": "planned",
-    "url": "book.html?book=2-thessalonians"
+    "status": "ready",
+    "url": "book.html?book=2-thessalonians",
+    "description": "Endurance · relief · tested messages · quiet work · correction"
   },
   {
     "id": "1-timothy",
     "name": "1 Timothy",
     "testament": "New Testament",
-    "status": "planned",
-    "url": "book.html?book=1-timothy"
+    "status": "ready",
+    "url": "book.html?book=1-timothy",
+    "description": "Teaching · prayer · tested care · visible conduct · family duties · generous use"
   },
   {
     "id": "2-timothy",
     "name": "2 Timothy",
     "testament": "New Testament",
-    "status": "planned",
-    "url": "book.html?book=2-timothy"
+    "status": "ready",
+    "url": "book.html?book=2-timothy",
+    "description": "Remembered faith · chains · patient correction · Scripture · departure"
   },
   {
     "id": "titus",
     "name": "Titus",
     "testament": "New Testament",
-    "status": "planned",
-    "url": "book.html?book=titus"
+    "status": "ready",
+    "url": "book.html?book=titus",
+    "description": "Tested leaders · household care · grace · good work · shared support"
   },
   {
     "id": "philemon",
     "name": "Philemon",
     "testament": "New Testament",
-    "status": "planned",
-    "url": "book.html?book=philemon"
+    "status": "ready",
+    "url": "book.html?book=philemon",
+    "description": "Household assembly · affection · debt · partnership · reception as a brother"
   },
   {
     "id": "hebrews",
     "name": "Hebrews",
     "testament": "New Testament",
-    "status": "planned",
-    "url": "book.html?book=hebrews"
+    "status": "ready",
+    "url": "book.html?book=hebrews",
+    "description": "The Son · shared suffering · priesthood · access · promises · endurance"
   },
   {
     "id": "james",
     "name": "James",
     "testament": "New Testament",
-    "status": "planned",
-    "url": "book.html?book=james"
+    "status": "ready",
+    "url": "book.html?book=james",
+    "description": "Wisdom · active faith · fair treatment · speech · shared care"
   },
   {
     "id": "1-peter",
     "name": "1 Peter",
     "testament": "New Testament",
-    "status": "planned",
-    "url": "book.html?book=1-peter"
+    "status": "ready",
+    "url": "book.html?book=1-peter",
+    "description": "Living hope · shared belonging · unequal power · gentle witness · willing care"
   },
   {
     "id": "2-peter",
     "name": "2 Peter",
     "testament": "New Testament",
-    "status": "planned",
-    "url": "book.html?book=2-peter"
+    "status": "ready",
+    "url": "book.html?book=2-peter",
+    "description": "Growing qualities · recalled rescue · corrupt promises · patient hope"
   },
   {
     "id": "1-john",
     "name": "1 John",
     "testament": "New Testament",
-    "status": "planned",
-    "url": "book.html?book=1-john"
+    "status": "ready",
+    "url": "book.html?book=1-john",
+    "description": "Shared witness · honest confession · practical love · careful testing · confidence"
   },
   {
     "id": "2-john",
     "name": "2 John",
     "testament": "New Testament",
-    "status": "planned",
-    "url": "book.html?book=2-john"
+    "status": "ready",
+    "url": "book.html?book=2-john",
+    "description": "Truth and love · received teaching · limits of welcome · shared joy"
   },
   {
     "id": "3-john",
     "name": "3 John",
     "testament": "New Testament",
-    "status": "planned",
-    "url": "book.html?book=3-john"
+    "status": "ready",
+    "url": "book.html?book=3-john",
+    "description": "Faithful welcome · shared support · disputed authority · personal testimony"
   },
   {
     "id": "jude",
     "name": "Jude",
     "testament": "New Testament",
-    "status": "planned",
-    "url": "book.html?book=jude"
+    "status": "ready",
+    "url": "book.html?book=jude",
+    "description": "Urgent warning · failed promises · restrained speech · mercy · keeping power"
   },
   {
     "id": "revelation",
     "name": "Revelation",
     "testament": "New Testament",
-    "status": "planned",
-    "url": "book.html?book=revelation"
+    "status": "ready",
+    "url": "book.html?book=revelation",
+    "description": "Assembly messages · faithful witness · coercive power · judgment · renewed life"
   }
 ]

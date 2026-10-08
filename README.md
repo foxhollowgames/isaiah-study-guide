@@ -92,16 +92,16 @@ Maintain chapter selections and source scope in `scripts/chapter-enrichment.mjs`
 ## Bible study directory
 
 The Bible directory is [Bible Study Guides](https://isaiah.josephnewelldesign.com/books.html).
-The original Isaiah URL remains unchanged. Genesis through Jeremiah are ready.
+The original Isaiah URL remains unchanged. All 66 books have local ready guides covering 1,189 chapters.
 Genesis includes all 50 chapters and 1,533 verses. Exodus includes all 40 chapters and 1,213 verses.
 Leviticus includes all 27 chapters and 859 verses.
 Each has selected events and people, portraits, map journeys, meanings, and separate historical and LDS sources.
 Run `npm run check:bible` to check the directory and ready book data.
-The remaining books have planned pages. See `BIBLE-EXPANSION.md` for the next book and weekly usage constraint.
+See `BIBLE-EXPANSION.md` for review scope and the weekly usage constraint. The new content remains unpublished.
 
 ## Context across the ready books
 
-All 731 chapters in the 23 added books now have original contextual explanations and meaningful selected Scripture verses.
+All 1,123 chapters in the 65 added books have original contextual explanations and meaningful selected Scripture verses.
 Isaiah retains its existing 66 chapter studies.
 The explanations address speakers, literary choices, social practices, power, and consequences within the text.
 They replace the former generic meaning statements in the added-book reader.
@@ -114,6 +114,9 @@ Licensed credits remain available with the photographs.
 Generated portraits have the shared footer note rather than repeated disclaimers beneath each image.
 
 Maintain complete chapter rows in `scripts/book-context-complete/<id>.json`.
+Maintain the final six books' authored summaries in `scripts/book-summaries-final.json`.
+Maintain the preceding seven letters' summaries in `scripts/book-summaries-letters.json`.
+Rebuild their base records with `python scripts/build-reviewed-letter.py <id> --ready` before the native build.
 Maintain short guide selections and museum metadata in `scripts/book_context.py`.
 Rebuild with `python scripts/build-native-books.py`.
 The build requires exactly one contextual row per ready chapter.

@@ -1,0 +1,557 @@
+{
+  "sources": [
+    {
+      "id": "web",
+      "title": "Malachi · World English Bible",
+      "url": "https://ebible.org/engwebp/MAL01.htm",
+      "summary": "All four chapters appear in the reading text.",
+      "category": "Scripture",
+      "perspective": "historical",
+      "limits": "The book supplies no secure personal biography for Malachi or exact date for its disputes.",
+      "author": "World English Bible translators",
+      "publisher": "eBible.org",
+      "chapterCoverage": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "reviewed": {
+        "date": "2026-10-07",
+        "scope": "All 55 verses read. Verse counts and character integrity checked."
+      },
+      "type": "Scripture",
+      "limitations": "The book supplies no secure personal biography for Malachi or exact date for its disputes.",
+      "license": "Public domain"
+    },
+    {
+      "id": "stewart-malachi",
+      "title": "Commentary on Malachi 3:1-4",
+      "url": "https://www.workingpreacher.org/commentaries/revised-common-lectionary/second-sunday-of-advent-3/commentary-on-malachi-31-4-8",
+      "summary": "Stewart explains the visitor’s uncertain identity and the purification of worship.",
+      "category": "Scholarly study",
+      "perspective": "historical",
+      "limits": "Whether Malachi is a personal name or a messenger title remains uncertain. Christian Advent applications are later readings.",
+      "author": "Anne Stewart",
+      "year": 2024,
+      "publisher": "Luther Seminary",
+      "chapterCoverage": [
+        3
+      ],
+      "reviewed": {
+        "date": "2026-10-07",
+        "scope": "Complete commentary body and note read. This 2024 page identifies previous publication in 2015. Linked related commentaries were not reviewed."
+      },
+      "type": "Scholarly study",
+      "limitations": "Whether Malachi is a personal name or a messenger title remains uncertain. Christian Advent applications are later readings.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "cfm-malachi-2026",
+      "title": "December 14–20: “I Have Loved You, Saith the Lord” · Malachi",
+      "url": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/51?lang=eng",
+      "summary": "The lesson studies offerings, returning to God, tithing, and Elijah through Restoration scripture.",
+      "category": "LDS Come, Follow Me",
+      "perspective": "lds",
+      "limits": "Moroni’s changed quotation and the later Elijah account remain Church readings, separate from the original wording.",
+      "author": "The Church of Jesus Christ of Latter-day Saints",
+      "year": 2026,
+      "publisher": "The Church of Jesus Christ of Latter-day Saints",
+      "chapterCoverage": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "reviewed": {
+        "date": "2026-10-07",
+        "scope": "Introduction and adult study sections read, including the explicit 2:17 question. Linked conference messages, videos, and Scripture Helps were not separately reviewed."
+      },
+      "type": "LDS Come, Follow Me",
+      "limitations": "Moroni’s changed quotation and the later Elijah account remain Church readings, separate from the original wording.",
+      "license": "Linked source. Original guide summaries."
+    }
+  ],
+  "passages": [
+    {
+      "id": "malachi-1",
+      "chapter": 1,
+      "start": 1,
+      "end": 14,
+      "title": "Rejected offerings expose the honor people actually give",
+      "summary": "The LORD tells Israel that he has loved them, and they ask how. He points to his choice of Jacob over Esau. A son honors his father, yet the priests despise God’s name. They ask how they have done so. They offer blind, lame, and sick animals on his altar. God tells them to try giving such gifts to their governor. He would rather the temple doors were shut. His name will be great among the nations.",
+      "year": null,
+      "dateLabel": "Book order",
+      "uncertainty": "Markers locate selected geographic references. No movements or precise worship buildings are reconstructed.",
+      "placeIds": [
+        "edom"
+      ],
+      "sourceIds": [
+        "web"
+      ],
+      "lds": {
+        "text": "The lesson asks readers to consider whether their offerings show honor for God. Why does God compare the offerings with gifts presented to a governor?",
+        "sourceIds": [
+          "cfm-malachi-2026"
+        ]
+      },
+      "contextNote": {
+        "title": "Rejected offerings expose the honor people actually give",
+        "text": "The book is built as a series of disputes. God makes a statement, and the people ask how (verses 2, 6, 7). Verse 8 gives a simple test. Would the governor accept a blind or lame animal as a gift? The priests give a human official more honor than God. Leviticus 22:20–22 required animals without defect. Verse 10 says closed doors would be better than such offerings.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    },
+    {
+      "id": "malachi-2",
+      "chapter": 2,
+      "start": 1,
+      "end": 17,
+      "title": "Public teaching and private fidelity belong within the same dispute",
+      "summary": "God warns the priests that he will curse their blessings. His covenant with Levi was one of life and peace. A priest’s lips should guard knowledge. These priests have caused many to stumble. The people are also faithless to one another. They weep at the altar because God ignores their offerings. The LORD is witness between each man and the wife of his youth. They have wearied him by asking where the God of justice is.",
+      "year": null,
+      "dateLabel": "Book order",
+      "uncertainty": "Markers locate selected geographic references. No movements or precise worship buildings are reconstructed.",
+      "placeIds": [
+        "jerusalem"
+      ],
+      "sourceIds": [
+        "web"
+      ],
+      "lds": {
+        "text": "The lesson uses the complaint about justice to examine attitudes during difficult times. Why can tears at the altar fail to answer betrayal of a spouse?",
+        "sourceIds": [
+          "cfm-malachi-2026"
+        ]
+      },
+      "contextNote": {
+        "title": "Public teaching and private fidelity belong within the same dispute",
+        "text": "Verse 13 shows worshipers weeping because their offerings are not accepted. They ask why. Verse 14 points away from the altar to the home. Each man has been faithless to the wife of his youth. She is called his companion and his wife by covenant. God stood as witness to that promise. The same word, “faithless,” describes the priests’ teaching in verses 10–11.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    },
+    {
+      "id": "malachi-3",
+      "chapter": 3,
+      "start": 1,
+      "end": 18,
+      "title": "The desired visitor confronts the people who ask for justice",
+      "summary": "God says he is sending a messenger to prepare his way. The Lord they seek will come suddenly to his temple. He will be like a refiner’s fire and will purify the Levites. He will come near to judge. He will testify against those who cheat workers and oppress widows, orphans, and foreigners. He calls the people to return and stop robbing him of tithes. Some say it is useless to serve God. Those who fear the LORD are written in a book of remembrance.",
+      "year": null,
+      "dateLabel": "Book order",
+      "uncertainty": "Markers locate selected geographic references. No movements or precise worship buildings are reconstructed.",
+      "placeIds": [
+        "jerusalem"
+      ],
+      "sourceIds": [
+        "web",
+        "stewart-malachi"
+      ],
+      "lds": {
+        "text": "The lesson connects tithing with faith and returning to God. Whose injuries does the judgment name when it answers demands for justice?",
+        "sourceIds": [
+          "cfm-malachi-2026"
+        ]
+      },
+      "contextNote": {
+        "title": "The desired visitor confronts the people who ask for justice",
+        "text": "In 2:17 the people asked where the God of justice was. Verses 1–2 answer that he is coming. They then ask who can stand when he does. Those who called for justice are examined first. Verse 5 lists the charges. Sorcery, adultery, and false oaths stand beside unpaid wages. Wrongs to widows, orphans, and foreigners are named in the same breath.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    },
+    {
+      "id": "malachi-4",
+      "chapter": 4,
+      "start": 1,
+      "end": 6,
+      "title": "The final warning joins remembered instruction with restored relationships",
+      "summary": "A day is coming that will burn like a furnace. The proud and the wicked will be like stubble. For those who fear God’s name, the sun of righteousness will rise with healing. They will go out leaping like calves from the stall. The people are told to remember the law of Moses. God will send Elijah the prophet before that great day. He will turn the hearts of fathers to their children. He will turn the hearts of children to their fathers.",
+      "year": null,
+      "dateLabel": "Book order",
+      "uncertainty": "The chapter names Horeb in remembered instruction. Its uncertain location receives no marker or route.",
+      "placeIds": [],
+      "sourceIds": [
+        "web"
+      ],
+      "lds": {
+        "text": "The lesson reads Elijah’s promise through Moroni’s quotation and the later Kirtland Temple account. Why does the final promise concern changed hearts between parents and children?",
+        "sourceIds": [
+          "cfm-malachi-2026"
+        ]
+      },
+      "contextNote": {
+        "title": "The final warning joins remembered instruction with restored relationships",
+        "text": "The book closes with two instructions. Verse 4 looks back: remember the law given through Moses. Verse 5 looks ahead: expect Elijah before the great day. Verse 6 says what Elijah will do. He will turn parents and children toward each other. The healing of families prepares for God’s coming. The other choice is named last, and it is a curse.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "malachi-1",
+      "chapter": 1,
+      "verse": 1,
+      "eventOrder": 1,
+      "title": "Rejected offerings expose the honor people actually give",
+      "summary": "The LORD tells Israel that he has loved them, and they ask how. He points to his choice of Jacob over Esau. A son honors his father, yet the priests despise God’s name. They ask how they have done so. They offer blind, lame, and sick animals on his altar. God tells them to try giving such gifts to their governor. He would rather the temple doors were shut. His name will be great among the nations.",
+      "detail": "The book is built as a series of disputes. God makes a statement, and the people ask how (verses 2, 6, 7). Verse 8 gives a simple test. Would the governor accept a blind or lame animal as a gift? The priests give a human official more honor than God. Leviticus 22:20–22 required animals without defect. Verse 10 says closed doors would be better than such offerings.",
+      "dateLabel": "Book order",
+      "uncertainty": "Markers locate selected geographic references. No movements or precise worship buildings are reconstructed.",
+      "sourceIds": [
+        "web"
+      ],
+      "placeIds": [
+        "edom"
+      ],
+      "lds": {
+        "text": "The lesson asks readers to consider whether their offerings show honor for God. Why does God compare the offerings with gifts presented to a governor?",
+        "sourceIds": [
+          "cfm-malachi-2026"
+        ]
+      }
+    },
+    {
+      "id": "malachi-2",
+      "chapter": 2,
+      "verse": 1,
+      "eventOrder": 2,
+      "title": "Public teaching and private fidelity belong within the same dispute",
+      "summary": "God warns the priests that he will curse their blessings. His covenant with Levi was one of life and peace. A priest’s lips should guard knowledge. These priests have caused many to stumble. The people are also faithless to one another. They weep at the altar because God ignores their offerings. The LORD is witness between each man and the wife of his youth. They have wearied him by asking where the God of justice is.",
+      "detail": "Verse 13 shows worshipers weeping because their offerings are not accepted. They ask why. Verse 14 points away from the altar to the home. Each man has been faithless to the wife of his youth. She is called his companion and his wife by covenant. God stood as witness to that promise. The same word, “faithless,” describes the priests’ teaching in verses 10–11.",
+      "dateLabel": "Book order",
+      "uncertainty": "Markers locate selected geographic references. No movements or precise worship buildings are reconstructed.",
+      "sourceIds": [
+        "web"
+      ],
+      "placeIds": [
+        "jerusalem"
+      ],
+      "lds": {
+        "text": "The lesson uses the complaint about justice to examine attitudes during difficult times. Why can tears at the altar fail to answer betrayal of a spouse?",
+        "sourceIds": [
+          "cfm-malachi-2026"
+        ]
+      }
+    },
+    {
+      "id": "malachi-3",
+      "chapter": 3,
+      "verse": 1,
+      "eventOrder": 3,
+      "title": "The desired visitor confronts the people who ask for justice",
+      "summary": "God says he is sending a messenger to prepare his way. The Lord they seek will come suddenly to his temple. He will be like a refiner’s fire and will purify the Levites. He will come near to judge. He will testify against those who cheat workers and oppress widows, orphans, and foreigners. He calls the people to return and stop robbing him of tithes. Some say it is useless to serve God. Those who fear the LORD are written in a book of remembrance.",
+      "detail": "In 2:17 the people asked where the God of justice was. Verses 1–2 answer that he is coming. They then ask who can stand when he does. Those who called for justice are examined first. Verse 5 lists the charges. Sorcery, adultery, and false oaths stand beside unpaid wages. Wrongs to widows, orphans, and foreigners are named in the same breath.",
+      "dateLabel": "Book order",
+      "uncertainty": "Markers locate selected geographic references. No movements or precise worship buildings are reconstructed.",
+      "sourceIds": [
+        "web",
+        "stewart-malachi"
+      ],
+      "placeIds": [
+        "jerusalem"
+      ],
+      "lds": {
+        "text": "The lesson connects tithing with faith and returning to God. Whose injuries does the judgment name when it answers demands for justice?",
+        "sourceIds": [
+          "cfm-malachi-2026"
+        ]
+      }
+    },
+    {
+      "id": "malachi-4",
+      "chapter": 4,
+      "verse": 1,
+      "eventOrder": 4,
+      "title": "The final warning joins remembered instruction with restored relationships",
+      "summary": "A day is coming that will burn like a furnace. The proud and the wicked will be like stubble. For those who fear God’s name, the sun of righteousness will rise with healing. They will go out leaping like calves from the stall. The people are told to remember the law of Moses. God will send Elijah the prophet before that great day. He will turn the hearts of fathers to their children. He will turn the hearts of children to their fathers.",
+      "detail": "The book closes with two instructions. Verse 4 looks back: remember the law given through Moses. Verse 5 looks ahead: expect Elijah before the great day. Verse 6 says what Elijah will do. He will turn parents and children toward each other. The healing of families prepares for God’s coming. The other choice is named last, and it is a curse.",
+      "dateLabel": "Book order",
+      "uncertainty": "The chapter names Horeb in remembered instruction. Its uncertain location receives no marker or route.",
+      "sourceIds": [
+        "web"
+      ],
+      "placeIds": [],
+      "lds": {
+        "text": "The lesson reads Elijah’s promise through Moroni’s quotation and the later Kirtland Temple account. Why does the final promise concern changed hearts between parents and children?",
+        "sourceIds": [
+          "cfm-malachi-2026"
+        ]
+      }
+    }
+  ],
+  "places": [
+    {
+      "id": "jerusalem",
+      "name": "Jerusalem",
+      "lat": 31.778,
+      "lng": 35.235,
+      "summary": "Jerusalem appears in the accusation about broken bonds and the promise of acceptable offerings.",
+      "limits": "Approximate city marker. The disputes give no specific altar layout or travel route.",
+      "sourceIds": [
+        "web"
+      ],
+      "detail": "Jerusalem appears in the accusation about broken bonds and the promise of acceptable offerings.",
+      "uncertainty": "Approximate city marker. The disputes give no specific altar layout or travel route.",
+      "chapterLocation": true
+    },
+    {
+      "id": "edom",
+      "name": "Edom",
+      "lat": 30.75,
+      "lng": 35.55,
+      "summary": "Edom appears in the opening dispute about love and the threatened rebuilding of ruined places.",
+      "limits": "Broad regional reference. The passage gives no particular ruined town or border line.",
+      "sourceIds": [
+        "web"
+      ],
+      "detail": "Edom appears in the opening dispute about love and the threatened rebuilding of ruined places.",
+      "uncertainty": "Broad regional reference. The passage gives no particular ruined town or border line.",
+      "chapterLocation": true
+    }
+  ],
+  "campaigns": [],
+  "ancientRoads": [],
+  "regions": [],
+  "words": [
+    {
+      "id": "glossary-levites",
+      "label": "Levites",
+      "matches": [
+        "Levite",
+        "Levites",
+        "Levitical"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "Members of the tribe of Levi. They cared for the tabernacle and later the temple. The priests came from one Levite family, Aaron’s.",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    },
+    {
+      "id": "glossary-covenant",
+      "label": "Covenant",
+      "matches": [
+        "covenant",
+        "covenants"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A binding agreement with promises and duties. In the Bible, God makes covenants with people.",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    },
+    {
+      "id": "glossary-tithe",
+      "label": "Tithe",
+      "matches": [
+        "tithe",
+        "tithes"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A tenth of produce or income given to God.",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    }
+  ],
+  "guides": [
+    {
+      "id": "malachi-context",
+      "title": "Malachi: context and evidence",
+      "description": "Explore the book’s larger concerns through selected passages and relevant evidence.",
+      "steps": [
+        {
+          "title": "Rejected offerings expose the honor people actually give",
+          "text": "The book is built as a series of disputes. God makes a statement, and the people ask how (verses 2, 6, 7). Verse 8 gives a simple test. Would the governor accept a blind or lame animal as a gift? The priests give a human official more honor than God. Leviticus 22:20–22 required animals without defect. Verse 10 says closed doors would be better than such offerings.",
+          "chapter": 1,
+          "verse": 8,
+          "sourceIds": [
+            "web"
+          ]
+        },
+        {
+          "title": "The desired visitor confronts the people who ask for justice",
+          "text": "In 2:17 the people asked where the God of justice was. Verses 1–2 answer that he is coming. They then ask who can stand when he does. Those who called for justice are examined first. Verse 5 lists the charges. Sorcery, adultery, and false oaths stand beside unpaid wages. Wrongs to widows, orphans, and foreigners are named in the same breath.",
+          "chapter": 3,
+          "verse": 5,
+          "sourceIds": [
+            "web"
+          ]
+        },
+        {
+          "title": "The final warning joins remembered instruction with restored relationships",
+          "text": "The book closes with two instructions. Verse 4 looks back: remember the law given through Moses. Verse 5 looks ahead: expect Elijah before the great day. Verse 6 says what Elijah will do. He will turn parents and children toward each other. The healing of families prepares for God’s coming. The other choice is named last, and it is a curse.",
+          "chapter": 4,
+          "verse": 6,
+          "sourceIds": [
+            "web"
+          ]
+        }
+      ]
+    }
+  ],
+  "periods": [
+    {
+      "id": "part-0",
+      "label": "Malachi 1–1",
+      "start": 1,
+      "end": 1,
+      "description": "Chapter order"
+    },
+    {
+      "id": "part-1",
+      "label": "Malachi 2–2",
+      "start": 2,
+      "end": 2,
+      "description": "Chapter order"
+    },
+    {
+      "id": "part-2",
+      "label": "Malachi 3–4",
+      "start": 3,
+      "end": 4,
+      "description": "Chapter order"
+    }
+  ],
+  "chapterMaps": [
+    {
+      "chapter": 1,
+      "focusPlaceIds": [
+        "edom"
+      ],
+      "placeIds": [
+        "edom"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Markers locate selected geographic references. No movements or precise worship buildings are reconstructed.",
+      "narrative": "The LORD tells Israel that he has loved them, and they ask how. He points to his choice of Jacob over Esau. A son honors his father, yet the priests despise God’s name. They ask how they have done so. They offer blind, lame, and sick animals on his altar. God tells them to try giving such gifts to their governor. He would rather the temple doors were shut. His name will be great among the nations.",
+      "limits": "Markers locate selected geographic references. No movements or precise worship buildings are reconstructed.",
+      "sourceIds": [
+        "web"
+      ]
+    },
+    {
+      "chapter": 2,
+      "focusPlaceIds": [
+        "jerusalem"
+      ],
+      "placeIds": [
+        "jerusalem"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Markers locate selected geographic references. No movements or precise worship buildings are reconstructed.",
+      "narrative": "God warns the priests that he will curse their blessings. His covenant with Levi was one of life and peace. A priest’s lips should guard knowledge. These priests have caused many to stumble. The people are also faithless to one another. They weep at the altar because God ignores their offerings. The LORD is witness between each man and the wife of his youth. They have wearied him by asking where the God of justice is.",
+      "limits": "Markers locate selected geographic references. No movements or precise worship buildings are reconstructed.",
+      "sourceIds": [
+        "web"
+      ]
+    },
+    {
+      "chapter": 3,
+      "focusPlaceIds": [
+        "jerusalem"
+      ],
+      "placeIds": [
+        "jerusalem"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Markers locate selected geographic references. No movements or precise worship buildings are reconstructed.",
+      "narrative": "God says he is sending a messenger to prepare his way. The Lord they seek will come suddenly to his temple. He will be like a refiner’s fire and will purify the Levites. He will come near to judge. He will testify against those who cheat workers and oppress widows, orphans, and foreigners. He calls the people to return and stop robbing him of tithes. Some say it is useless to serve God. Those who fear the LORD are written in a book of remembrance.",
+      "limits": "Markers locate selected geographic references. No movements or precise worship buildings are reconstructed.",
+      "sourceIds": [
+        "web",
+        "stewart-malachi"
+      ]
+    },
+    {
+      "chapter": 4,
+      "focusPlaceIds": [],
+      "placeIds": [],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "The chapter names Horeb in remembered instruction. Its uncertain location receives no marker or route.",
+      "narrative": "A day is coming that will burn like a furnace. The proud and the wicked will be like stubble. For those who fear God’s name, the sun of righteousness will rise with healing. They will go out leaping like calves from the stall. The people are told to remember the law of Moses. God will send Elijah the prophet before that great day. He will turn the hearts of fathers to their children. He will turn the hearts of children to their fathers.",
+      "limits": "The chapter names Horeb in remembered instruction. Its uncertain location receives no marker or route.",
+      "sourceIds": [
+        "web"
+      ]
+    }
+  ],
+  "textRoutes": [],
+  "narrativeRegions": [],
+  "chapterStudies": [
+    {
+      "chapter": 1,
+      "verse": 8,
+      "context": ""
+    },
+    {
+      "chapter": 2,
+      "verse": 14,
+      "context": ""
+    },
+    {
+      "chapter": 3,
+      "verse": 5,
+      "context": ""
+    },
+    {
+      "chapter": 4,
+      "verse": 6,
+      "context": ""
+    }
+  ]
+}

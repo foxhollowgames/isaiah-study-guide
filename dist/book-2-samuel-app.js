@@ -1,10 +1,10 @@
 import { initChapterPicker } from './chapter-picker.js';
-import { people, featurePortraits, wordPortraits, personProfileHtml, personIdForLabel, setPortraitMode } from './book-2-samuel-portraits.js?v=20261005.23';
+import { people, featurePortraits, wordPortraits, personProfileHtml, personIdForLabel, setPortraitMode } from './book-2-samuel-portraits.js?v=20261008.2';
 import { initModalDragging } from './modal-drag.js';
 import { chapterFocus, chapterRoutes, chapterPoints, movementStyle } from './chapter-map.js';
 const $ = (s, root = document) => root.querySelector(s);
 const $$ = (s, root = document) => [...root.querySelectorAll(s)];
-const releaseVersion = '20261005.23';
+const releaseVersion = '20261008.2';
 const chapters = Array.from({ length: 24 }, (_, i) => i + 1);
 const defaults = { chapter: 1, verse: 1, studyMode: 'read', view: 'map', perspective: 'historical', portraitMode: 'generated', date: 1, layers: { places: true, regions: true, campaigns: true, roads: false, history: false }, sidebar: 'scripture', map: { center: [32.1, 35.0], zoom: 7 } };
 let state = { ...defaults, ...readSaved(), layers: { ...defaults.layers, ...(readSaved().layers || {}) } };
@@ -101,7 +101,7 @@ function entityLinkTerms(verse = null) {
     const name = mapDisplayName(feature.name || feature.title || '');
     add(name, 'feature', feature.id, name);
   }
-  const words = data.words.filter(word => Number(word.chapter) === state.chapter);
+  const words = data.words.filter(word => word.scope === 'glossary' || Number(word.chapter) === state.chapter);
   for (const word of words) for (const label of [word.label, ...(word.matches || [])]) add(label, 'word', word.id, word.label);
   entityLinkCache = {chapter:state.chapter, verse, terms:[...terms.values()].sort((a, b) => b.label.length - a.label.length)};
   return entityLinkCache.terms;
@@ -426,7 +426,7 @@ function passageContextHtml() {
   const p = passages[0]; if (!p) return '';
   const cite = passageFootnotes(p);
   const ids = [...new Set(passages.flatMap(p => p.sourceIds || []))];
-  const reflection = state.perspective === 'lds' ? `<p><strong>LDS reflection.</strong> ${esc(p.lds?.text || '')}${cite(p.lds?.sourceIds)}</p>${sourceInsightsHtml(passages.flatMap(item => item.lds?.sourceIds || []))}` : '';
+  const reflection = state.perspective === 'lds' ? `<h3>LDS lens</h3><p>${esc(p.lds?.text || '')}${cite(p.lds?.sourceIds)}</p>${sourceInsightsHtml(passages.flatMap(item => item.lds?.sourceIds || []))}` : '';
   return `<section class="passage-context chapter-introduction" aria-label="Chapter introduction"><h2>${esc(p.title)}</h2><div class="passage-prose"><p>${linkedEntityHtml(p.summary)}${cite(ids)}</p>${chapterContextHtml()}${chapterEvidenceHtml()}${sourceInsightsHtml(ids)}${reflection}${chapterInterviewNotesHtml()}</div>${mapStoryHtml()}</section>`;
 }
 function passageInterpretationHtml() {
@@ -435,7 +435,7 @@ function passageInterpretationHtml() {
   return `<section class="passage-interpretation"><h3>LDS reading</h3><p class="translation">${p ? `2 Samuel ${esc(String(p.chapter))}:${esc(String(p.start))}–${esc(String(p.end))} · ${esc(p.title || '')}` : `2 Samuel ${state.chapter}`}</p><div class="passage-prose"><p>${esc(p?.lds?.text || 'This passage has no LDS study note yet.')}${cite(p?.lds?.sourceIds)}</p>${sourceInsightsHtml(p?.lds?.sourceIds)}</div></section>`;
 }
 function renderVerse(v, prefix = 'side') {
-  const text = linkedEntityHtml(v.text, {verse:v.verse});
+  const text = linkedEntityHtml(v.text, {verse:v.verse}) + (v.publisherNote ? `<span class="verse-publisher-note"><strong>Publisher note.</strong> ${esc(v.publisherNote)}</span>` : "");
   const passage = data.passages.find(p => p.chapter === state.chapter && p.start === v.verse);
   const refs = passage ? [...(passage.sourceIds || []), ...(state.perspective === 'lds' ? passage.lds?.sourceIds || [] : [])] : [];
   const citations = passage ? passageFootnotes(passage)(refs) : '';
@@ -461,8 +461,8 @@ function wordStudyBodyHtml(word, title = word?.label || 'Selected word') {
   if (!word) html += `<p class="translation">No study note yet</p><div class="word-section"><p>This word has no study note yet. The app does not give a Hebrew or Greek match for it.</p></div>`;
   else {
     const refs = wordReferences(word), cite = refs.cite;
-    html += wordLanguagesHtml(word);
-    if (word.meaning) html += `<div class="word-section"><h3>${word.scope === 'dictionary' ? 'Dictionary meaning' : 'Meaning in this passage'}</h3><p>${linkedEntityHtml(word.meaning, {excludeType:'word', excludeId:word.id}).replace(/\n/g, '<br>')}${cite(refs.meaning)}</p></div>`;
+    if (word.scope !== 'glossary') html += wordLanguagesHtml(word);
+    if (word.meaning) html += `<div class="word-section"><h3>${word.scope === 'dictionary' ? 'Dictionary meaning' : word.scope === 'glossary' ? 'Plain meaning' : 'Meaning in this passage'}</h3><p>${linkedEntityHtml(word.meaning, {excludeType:'word', excludeId:word.id}).replace(/\n/g, '<br>')}${cite(refs.meaning)}</p></div>`;
     if (word.discussion) html += `<div class="word-section"><h3>Study note</h3><p>${linkedEntityHtml(word.discussion, {excludeType:'word', excludeId:word.id}).replace(/\n/g, '<br>')}${cite(refs.discussion)}</p></div>`;
 
     if (word.related?.length) html += `<div class="word-section"><h3>Related use</h3>${word.related.map(r => `<a class="source-link" target="_blank" rel="noopener" href="${esc(r.url)}">${esc(r.label)} — ${esc(r.note || '')}</a>`).join('')}</div>`;

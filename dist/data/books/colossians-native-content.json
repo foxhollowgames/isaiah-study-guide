@@ -1,0 +1,805 @@
+{
+  "sources": [
+    {
+      "id": "web",
+      "title": "Colossians · World English Bible",
+      "url": "https://ebible.org/engwebp/COL01.htm",
+      "summary": "All four chapters supply the primary text for original close readings.",
+      "category": "Scripture",
+      "perspective": "historical",
+      "limits": "The letter names Paul as its speaker. Authorship, date, prison city, original manuscripts, Greek forms, and the exact rival teaching were not independently verified. Jesus called Justus is not linked to Jesus Christ. Household commands do not establish that unequal conditions disappeared.",
+      "author": "World English Bible translators",
+      "publisher": "eBible.org",
+      "chapterCoverage": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "reviewed": {
+        "date": "2026-10-07",
+        "scope": "All 95 verses read for four original contextual explanations and exact selections. Surroundings, counts, and character integrity checked."
+      },
+      "type": "Scripture",
+      "limitations": "The letter names Paul as its speaker. Authorship, date, prison city, original manuscripts, Greek forms, and the exact rival teaching were not independently verified. Jesus called Justus is not linked to Jesus Christ. Household commands do not establish that unequal conditions disappeared.",
+      "license": "Public domain"
+    },
+    {
+      "id": "carlson-colossians",
+      "title": "Commentary on Colossians 3:1-11",
+      "url": "https://www.workingpreacher.org/commentaries/revised-common-lectionary/ordinary-18-3/commentary-on-colossians-31-11-3",
+      "summary": "Carlson connects received new identity with changed conduct.",
+      "category": "Scholarly study",
+      "perspective": "historical",
+      "limits": "This is Carlson's interpretation. His Greek analysis, proposed links with other letters, and account of the barbarian and Scythian pair were not independently verified. Linked works were not reviewed.",
+      "author": "Richard Carlson",
+      "publisher": "Luther Seminary",
+      "year": 2013,
+      "chapterCoverage": [
+        3
+      ],
+      "reviewed": {
+        "date": "2026-10-07",
+        "scope": "Complete commentary body read. The guide attributes his connection between received identity and changed conduct."
+      },
+      "type": "Scholarly study",
+      "limitations": "This is Carlson's interpretation. His Greek analysis, proposed links with other letters, and account of the barbarian and Scythian pair were not independently verified. Linked works were not reviewed.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "cfm-nt-2023-42",
+      "title": "October 9–15 · Philippians; Colossians",
+      "url": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-sunday-school-new-testament-2023/42?lang=eng",
+      "summary": "The lesson studies changed conduct and being rooted in Christ.",
+      "category": "LDS Come, Follow Me",
+      "perspective": "lds",
+      "limits": "Colossians coverage follows actual discussion of chapters one through three. The lesson does not independently discuss chapter four. Linked talks, videos, and Restoration passages were not independently reviewed.",
+      "author": "The Church of Jesus Christ of Latter-day Saints",
+      "publisher": "The Church of Jesus Christ of Latter-day Saints",
+      "year": 2023,
+      "chapterCoverage": [
+        1,
+        2,
+        3
+      ],
+      "reviewed": {
+        "date": "2026-10-07",
+        "scope": "Complete lesson body read, including its Philippians sections. Only Colossians one through three support this book's lesson references."
+      },
+      "type": "LDS Come, Follow Me",
+      "limitations": "Colossians coverage follows actual discussion of chapters one through three. The lesson does not independently discuss chapter four. Linked talks, videos, and Restoration passages were not independently reviewed.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "net-colossae",
+      "title": "NET Bible · Colossae",
+      "url": "https://classic.net.bible.org/dictionary.php/xml/xml/dictionary.php?word=Colossae",
+      "summary": "The dictionary supplies a general city reference and a coordinate line.",
+      "category": "Reference work",
+      "perspective": "historical",
+      "limits": "Only the opening location description and coordinate line support this marker. Historical dictionary claims, exact buildings, and delivery routes were not independently verified.",
+      "author": "NET Bible reference editors",
+      "publisher": "Bible.org",
+      "reviewed": {
+        "date": "2026-10-07",
+        "scope": "Opening locality description and published coordinate line read. Only the city reference is used."
+      },
+      "type": "Reference work",
+      "limitations": "Only the opening location description and coordinate line support this marker. Historical dictionary claims, exact buildings, and delivery routes were not independently verified.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "net-laodicea",
+      "title": "NET Bible · Laodicea",
+      "url": "https://classic.net.bible.org/dictionary.php?word=Laodicea",
+      "summary": "The dictionary supplies a general city reference and a coordinate line.",
+      "category": "Reference work",
+      "perspective": "historical",
+      "limits": "Only the opening location description and coordinate line support this marker. Historical dictionary claims, exact buildings, and delivery routes were not independently verified.",
+      "author": "NET Bible reference editors",
+      "publisher": "Bible.org",
+      "reviewed": {
+        "date": "2026-10-07",
+        "scope": "Opening locality description and published coordinate line read. Only the city reference is used."
+      },
+      "type": "Reference work",
+      "limitations": "Only the opening location description and coordinate line support this marker. Historical dictionary claims, exact buildings, and delivery routes were not independently verified.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "net-hierapolis",
+      "title": "NET Bible · Hierapolis",
+      "url": "https://classic.net.bible.org/dictionary.php?word=Hierapolis",
+      "summary": "The dictionary supplies a general city reference and a coordinate line.",
+      "category": "Reference work",
+      "perspective": "historical",
+      "limits": "Only the opening location description and coordinate line support this marker. Historical dictionary claims, exact buildings, and delivery routes were not independently verified.",
+      "author": "NET Bible reference editors",
+      "publisher": "Bible.org",
+      "reviewed": {
+        "date": "2026-10-07",
+        "scope": "Opening locality description and published coordinate line read. Only the city reference is used."
+      },
+      "type": "Reference work",
+      "limitations": "Only the opening location description and coordinate line support this marker. Historical dictionary claims, exact buildings, and delivery routes were not independently verified.",
+      "license": "Linked source. Original guide summaries."
+    }
+  ],
+  "passages": [
+    {
+      "id": "colossians-1",
+      "chapter": 1,
+      "start": 1,
+      "end": 29,
+      "title": "Christ's place above every power supports the hearers' received hope",
+      "summary": "Paul and Timothy write to the saints at Colossae. They thank God for the faith of readers whom Epaphras taught. They pray that the readers be filled with knowledge of God’s will. The Father moved them from darkness into the kingdom of his Son. A passage of praise follows. The Son is God’s image, and all things were created through him. He is head of the body, and through him God reconciles all things. Paul rejoices in his sufferings and labors to present everyone mature in Christ.",
+      "year": null,
+      "dateLabel": "Book order",
+      "uncertainty": "Markers identify named cities rather than exact homes or a prison setting.",
+      "placeIds": [
+        "colossae"
+      ],
+      "sourceIds": [
+        "web"
+      ],
+      "lds": {
+        "text": "The selected Church lesson studies faith strengthened through Christ's saving work. Why does the account of Christ's place support the hearers' received hope?",
+        "sourceIds": [
+          "cfm-nt-2023-42"
+        ]
+      },
+      "contextNote": {
+        "title": "Christ's place above every power supports the hearers' received hope",
+        "text": "Verse 16 says all things were created through the Son. It lists them: things in heaven and on earth, thrones and powers. Verse 20 uses the same range for reconciliation. God reconciles all things, on earth and in the heavens. The means is stated without softening: peace through the blood of his cross. Verses 21–22 apply it to the readers. They were once alienated, and now he has reconciled them.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    },
+    {
+      "id": "colossians-2",
+      "chapter": 2,
+      "start": 1,
+      "end": 23,
+      "title": "The joined body grows through its head rather than added claims to special wisdom",
+      "summary": "Paul says he struggles for the readers and for those at Laodicea. All the treasures of wisdom are hidden in Christ. They should walk in him as they were taught. He warns against philosophy and empty deceit built on human tradition. In Christ all the fullness of deity lives in bodily form. God forgave them and nailed the record of debt to the cross. No one should judge them about food, festivals, new moons, or Sabbaths. Rules like “Don’t handle, nor taste, nor touch” have no value against the flesh.",
+      "year": null,
+      "dateLabel": "Book order",
+      "uncertainty": "Markers identify named cities rather than exact homes or a prison setting.",
+      "placeIds": [
+        "laodicea"
+      ],
+      "sourceIds": [
+        "web"
+      ],
+      "lds": {
+        "text": "The selected Church lesson teaches remaining rooted in Christ against deceptive influences. How does holding the head differ from depending on added rules?",
+        "sourceIds": [
+          "cfm-nt-2023-42"
+        ]
+      },
+      "contextNote": {
+        "title": "The joined body grows through its head rather than added claims to special wisdom",
+        "text": "Verse 18 describes a person who would rob the readers of their prize. He insists on false humility and the worship of angels. Verse 19 names what is wrong with him. He does not hold firmly to the Head. The body grows only from there, and the growth is God’s. Verse 10 has already said the readers are made full in Christ. So verses 20–23 ask why they submit to added rules.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    },
+    {
+      "id": "colossians-3",
+      "chapter": 3,
+      "start": 1,
+      "end": 25,
+      "title": "Received new life requires changed speech and care within still unequal households",
+      "summary": "Paul says the readers were raised with Christ and should seek the things above. Their life is hidden with Christ in God. They are to put to death immorality, greed, anger, and lying. In the new man there is no Greek or Jew, slave or free. They are to put on compassion, kindness, and patience, and to forgive. Love binds all together, and Christ’s peace should rule. Instructions follow for wives, husbands, children, fathers, and servants. Whatever they do, they are to do it as for the Lord.",
+      "year": null,
+      "dateLabel": "Book order",
+      "uncertainty": "Markers identify named cities rather than exact homes or a prison setting.",
+      "placeIds": [],
+      "sourceIds": [
+        "web",
+        "carlson-colossians"
+      ],
+      "lds": {
+        "text": "The selected Church lesson teaches putting away former conduct and practicing shared care. How does seeking what is above change conduct toward earthly neighbors?",
+        "sourceIds": [
+          "cfm-nt-2023-42"
+        ]
+      },
+      "contextNote": {
+        "title": "Received new life requires changed speech and care within still unequal households",
+        "text": "Verses 8–9 use the picture of clothing: put away anger, malice, and lying. Verse 10 says they have put on the new man. Verse 12 tells them what the new clothing is. It first names who they are: God’s chosen ones, holy and beloved. The five garments all concern other people: compassion, kindness, lowliness, humility, and perseverance. Verse 13 adds forgiving one another as Christ forgave. Verse 14 puts love over all of it as the bond.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    },
+    {
+      "id": "colossians-4",
+      "chapter": 4,
+      "start": 1,
+      "end": 18,
+      "title": "Letters, messengers, and prayer connect separate assemblies with the chained speaker",
+      "summary": "Masters are told to give their servants what is just and equal. Paul asks for prayer that a door will open for the word. He is in chains for it. He sends Tychicus and Onesimus to report his news. Aristarchus, Mark, Jesus called Justus, Epaphras, Luke, and Demas send greetings. He greets the brothers in Laodicea and the assembly in the house of Nymphas. The letter is to be read in Laodicea too. Paul signs with his own hand and asks them to remember his chains.",
+      "year": null,
+      "dateLabel": "Book order",
+      "uncertainty": "Markers identify named cities rather than exact homes or a prison setting.",
+      "placeIds": [
+        "laodicea",
+        "hierapolis"
+      ],
+      "sourceIds": [
+        "web"
+      ],
+      "lds": {
+        "text": "Why do personal messengers matter beside the request to exchange letters?",
+        "sourceIds": []
+      },
+      "contextNote": {
+        "title": "Letters, messengers, and prayer connect separate assemblies with the chained speaker",
+        "text": "Paul cannot visit; he is in chains (verses 3 and 18). The letter stands in for him, and people carry it. Verses 7–9 send Tychicus and Onesimus to tell what the letter does not. Verse 16 then orders two public readings. This letter is to be read at Colossae and at Laodicea. A letter from Laodicea is to be read at Colossae in exchange. The verse shows these letters were written to be heard by whole assemblies.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "colossians-1",
+      "chapter": 1,
+      "verse": 1,
+      "eventOrder": 1,
+      "title": "Christ's place above every power supports the hearers' received hope",
+      "summary": "Paul and Timothy write to the saints at Colossae. They thank God for the faith of readers whom Epaphras taught. They pray that the readers be filled with knowledge of God’s will. The Father moved them from darkness into the kingdom of his Son. A passage of praise follows. The Son is God’s image, and all things were created through him. He is head of the body, and through him God reconciles all things. Paul rejoices in his sufferings and labors to present everyone mature in Christ.",
+      "detail": "Verse 16 says all things were created through the Son. It lists them: things in heaven and on earth, thrones and powers. Verse 20 uses the same range for reconciliation. God reconciles all things, on earth and in the heavens. The means is stated without softening: peace through the blood of his cross. Verses 21–22 apply it to the readers. They were once alienated, and now he has reconciled them.",
+      "dateLabel": "Book order",
+      "uncertainty": "Markers identify named cities rather than exact homes or a prison setting.",
+      "sourceIds": [
+        "web"
+      ],
+      "placeIds": [
+        "colossae"
+      ],
+      "lds": {
+        "text": "The selected Church lesson studies faith strengthened through Christ's saving work. Why does the account of Christ's place support the hearers' received hope?",
+        "sourceIds": [
+          "cfm-nt-2023-42"
+        ]
+      }
+    },
+    {
+      "id": "colossians-2",
+      "chapter": 2,
+      "verse": 1,
+      "eventOrder": 2,
+      "title": "The joined body grows through its head rather than added claims to special wisdom",
+      "summary": "Paul says he struggles for the readers and for those at Laodicea. All the treasures of wisdom are hidden in Christ. They should walk in him as they were taught. He warns against philosophy and empty deceit built on human tradition. In Christ all the fullness of deity lives in bodily form. God forgave them and nailed the record of debt to the cross. No one should judge them about food, festivals, new moons, or Sabbaths. Rules like “Don’t handle, nor taste, nor touch” have no value against the flesh.",
+      "detail": "Verse 18 describes a person who would rob the readers of their prize. He insists on false humility and the worship of angels. Verse 19 names what is wrong with him. He does not hold firmly to the Head. The body grows only from there, and the growth is God’s. Verse 10 has already said the readers are made full in Christ. So verses 20–23 ask why they submit to added rules.",
+      "dateLabel": "Book order",
+      "uncertainty": "Markers identify named cities rather than exact homes or a prison setting.",
+      "sourceIds": [
+        "web"
+      ],
+      "placeIds": [
+        "laodicea"
+      ],
+      "lds": {
+        "text": "The selected Church lesson teaches remaining rooted in Christ against deceptive influences. How does holding the head differ from depending on added rules?",
+        "sourceIds": [
+          "cfm-nt-2023-42"
+        ]
+      }
+    },
+    {
+      "id": "colossians-3",
+      "chapter": 3,
+      "verse": 1,
+      "eventOrder": 3,
+      "title": "Received new life requires changed speech and care within still unequal households",
+      "summary": "Paul says the readers were raised with Christ and should seek the things above. Their life is hidden with Christ in God. They are to put to death immorality, greed, anger, and lying. In the new man there is no Greek or Jew, slave or free. They are to put on compassion, kindness, and patience, and to forgive. Love binds all together, and Christ’s peace should rule. Instructions follow for wives, husbands, children, fathers, and servants. Whatever they do, they are to do it as for the Lord.",
+      "detail": "Verses 8–9 use the picture of clothing: put away anger, malice, and lying. Verse 10 says they have put on the new man. Verse 12 tells them what the new clothing is. It first names who they are: God’s chosen ones, holy and beloved. The five garments all concern other people: compassion, kindness, lowliness, humility, and perseverance. Verse 13 adds forgiving one another as Christ forgave. Verse 14 puts love over all of it as the bond.",
+      "dateLabel": "Book order",
+      "uncertainty": "Markers identify named cities rather than exact homes or a prison setting.",
+      "sourceIds": [
+        "web",
+        "carlson-colossians"
+      ],
+      "placeIds": [],
+      "lds": {
+        "text": "The selected Church lesson teaches putting away former conduct and practicing shared care. How does seeking what is above change conduct toward earthly neighbors?",
+        "sourceIds": [
+          "cfm-nt-2023-42"
+        ]
+      }
+    },
+    {
+      "id": "colossians-4",
+      "chapter": 4,
+      "verse": 1,
+      "eventOrder": 4,
+      "title": "Letters, messengers, and prayer connect separate assemblies with the chained speaker",
+      "summary": "Masters are told to give their servants what is just and equal. Paul asks for prayer that a door will open for the word. He is in chains for it. He sends Tychicus and Onesimus to report his news. Aristarchus, Mark, Jesus called Justus, Epaphras, Luke, and Demas send greetings. He greets the brothers in Laodicea and the assembly in the house of Nymphas. The letter is to be read in Laodicea too. Paul signs with his own hand and asks them to remember his chains.",
+      "detail": "Paul cannot visit; he is in chains (verses 3 and 18). The letter stands in for him, and people carry it. Verses 7–9 send Tychicus and Onesimus to tell what the letter does not. Verse 16 then orders two public readings. This letter is to be read at Colossae and at Laodicea. A letter from Laodicea is to be read at Colossae in exchange. The verse shows these letters were written to be heard by whole assemblies.",
+      "dateLabel": "Book order",
+      "uncertainty": "Markers identify named cities rather than exact homes or a prison setting.",
+      "sourceIds": [
+        "web"
+      ],
+      "placeIds": [
+        "laodicea",
+        "hierapolis"
+      ],
+      "lds": {
+        "text": "Why do personal messengers matter beside the request to exchange letters?",
+        "sourceIds": []
+      }
+    }
+  ],
+  "places": [
+    {
+      "id": "colossae",
+      "name": "Colossae",
+      "lat": 37.766666666666666,
+      "lng": 29.25,
+      "summary": "Colossae is named as the recipients' city in the opening address.",
+      "limits": "City reference rather than an exact meeting house.",
+      "sourceIds": [
+        "web",
+        "net-colossae"
+      ],
+      "verseScope": {},
+      "linkNames": [
+        "Colossae"
+      ],
+      "detail": "Colossae is named as the recipients' city in the opening address.",
+      "uncertainty": "City reference rather than an exact meeting house.",
+      "chapterLocation": true
+    },
+    {
+      "id": "laodicea",
+      "name": "Laodicea",
+      "lat": 37.766666666666666,
+      "lng": 29.05,
+      "summary": "Laodicea shares the speaker's concern and the request for exchanged letters.",
+      "limits": "City reference rather than an exact meeting house.",
+      "sourceIds": [
+        "web",
+        "net-laodicea"
+      ],
+      "verseScope": {},
+      "linkNames": [
+        "Laodicea"
+      ],
+      "detail": "Laodicea shares the speaker's concern and the request for exchanged letters.",
+      "uncertainty": "City reference rather than an exact meeting house.",
+      "chapterLocation": true
+    },
+    {
+      "id": "hierapolis",
+      "name": "Hierapolis",
+      "lat": 37.916666666666664,
+      "lng": 29.116666666666667,
+      "summary": "Hierapolis is named among the places for which Epaphras has concern.",
+      "limits": "City reference rather than an exact assembly location.",
+      "sourceIds": [
+        "web",
+        "net-hierapolis"
+      ],
+      "verseScope": {},
+      "linkNames": [
+        "Hierapolis"
+      ],
+      "detail": "Hierapolis is named among the places for which Epaphras has concern.",
+      "uncertainty": "City reference rather than an exact assembly location.",
+      "chapterLocation": true
+    }
+  ],
+  "campaigns": [],
+  "ancientRoads": [],
+  "regions": [],
+  "words": [
+    {
+      "id": "glossary-sabbath",
+      "label": "Sabbath",
+      "matches": [
+        "Sabbath",
+        "Sabbaths"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "The seventh day of the week, kept as a day of rest.",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    },
+    {
+      "id": "glossary-gentiles",
+      "label": "Gentiles",
+      "matches": [
+        "Gentile",
+        "Gentiles"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "People of nations other than Israel.",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    },
+    {
+      "id": "glossary-apostles",
+      "label": "Apostles",
+      "matches": [
+        "apostle",
+        "apostles"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "People sent out with a message. In the Gospels the word names twelve whom Jesus chose.",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    },
+    {
+      "id": "glossary-saints",
+      "label": "Saints",
+      "matches": [
+        "saints"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "People set apart as holy. In the letters the word means the believers in a place.",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    },
+    {
+      "id": "glossary-assembly",
+      "label": "Assembly",
+      "matches": [
+        "assembly",
+        "assemblies"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A gathering of people. In the New Testament letters it means a group of believers. Many translations say “church.”",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    },
+    {
+      "id": "glossary-circumcision",
+      "label": "Circumcision",
+      "matches": [
+        "circumcision",
+        "circumcised",
+        "circumcise",
+        "uncircumcised",
+        "uncircumcision"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "The cutting of the foreskin. Genesis 17 makes it the sign of God’s covenant with Abraham.",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    },
+    {
+      "id": "glossary-firstborn",
+      "label": "Firstborn",
+      "matches": [
+        "firstborn"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "The oldest child. A firstborn son received a double share of the inheritance (Deuteronomy 21:17).",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    },
+    {
+      "id": "glossary-redeem",
+      "label": "Redeem",
+      "matches": [
+        "redeem",
+        "redeems",
+        "redeemed",
+        "redeemer",
+        "redemption"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "To buy back a person or property. The word is also used for God’s rescue of people.",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    },
+    {
+      "id": "glossary-unclean",
+      "label": "Unclean",
+      "matches": [
+        "unclean",
+        "uncleanness"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "Unfit to take part in worship until a set cleansing is done. Leviticus 11–15 gives the rules.",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    },
+    {
+      "id": "glossary-bondservant",
+      "label": "Bondservant",
+      "matches": [
+        "bondservant",
+        "bondservants"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A slave or bound servant.",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    }
+  ],
+  "guides": [
+    {
+      "id": "colossians-context",
+      "title": "Colossians: context and evidence",
+      "description": "Explore the book’s larger concerns through selected passages and relevant evidence.",
+      "steps": [
+        {
+          "title": "Christ's place above every power supports the hearers' received hope",
+          "text": "Verse 16 says all things were created through the Son. It lists them: things in heaven and on earth, thrones and powers. Verse 20 uses the same range for reconciliation. God reconciles all things, on earth and in the heavens. The means is stated without softening: peace through the blood of his cross. Verses 21–22 apply it to the readers. They were once alienated, and now he has reconciled them.",
+          "chapter": 1,
+          "verse": 20,
+          "sourceIds": [
+            "web"
+          ]
+        },
+        {
+          "title": "The joined body grows through its head rather than added claims to special wisdom",
+          "text": "Verse 18 describes a person who would rob the readers of their prize. He insists on false humility and the worship of angels. Verse 19 names what is wrong with him. He does not hold firmly to the Head. The body grows only from there, and the growth is God’s. Verse 10 has already said the readers are made full in Christ. So verses 20–23 ask why they submit to added rules.",
+          "chapter": 2,
+          "verse": 19,
+          "sourceIds": [
+            "web"
+          ]
+        },
+        {
+          "title": "Received new life requires changed speech and care within still unequal households",
+          "text": "Verses 8–9 use the picture of clothing: put away anger, malice, and lying. Verse 10 says they have put on the new man. Verse 12 tells them what the new clothing is. It first names who they are: God’s chosen ones, holy and beloved. The five garments all concern other people: compassion, kindness, lowliness, humility, and perseverance. Verse 13 adds forgiving one another as Christ forgave. Verse 14 puts love over all of it as the bond.",
+          "chapter": 3,
+          "verse": 12,
+          "sourceIds": [
+            "web"
+          ]
+        },
+        {
+          "title": "Letters, messengers, and prayer connect separate assemblies with the chained speaker",
+          "text": "Paul cannot visit; he is in chains (verses 3 and 18). The letter stands in for him, and people carry it. Verses 7–9 send Tychicus and Onesimus to tell what the letter does not. Verse 16 then orders two public readings. This letter is to be read at Colossae and at Laodicea. A letter from Laodicea is to be read at Colossae in exchange. The verse shows these letters were written to be heard by whole assemblies.",
+          "chapter": 4,
+          "verse": 16,
+          "sourceIds": [
+            "web"
+          ]
+        }
+      ]
+    }
+  ],
+  "periods": [
+    {
+      "id": "part-0",
+      "label": "Colossians 1–1",
+      "start": 1,
+      "end": 1,
+      "description": "Chapter order"
+    },
+    {
+      "id": "part-1",
+      "label": "Colossians 2–2",
+      "start": 2,
+      "end": 2,
+      "description": "Chapter order"
+    },
+    {
+      "id": "part-2",
+      "label": "Colossians 3–4",
+      "start": 3,
+      "end": 4,
+      "description": "Chapter order"
+    }
+  ],
+  "chapterMaps": [
+    {
+      "chapter": 1,
+      "focusPlaceIds": [
+        "colossae"
+      ],
+      "placeIds": [
+        "colossae"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Markers identify named cities rather than exact homes or a prison setting.",
+      "narrative": "Paul and Timothy write to the saints at Colossae. They thank God for the faith of readers whom Epaphras taught. They pray that the readers be filled with knowledge of God’s will. The Father moved them from darkness into the kingdom of his Son. A passage of praise follows. The Son is God’s image, and all things were created through him. He is head of the body, and through him God reconciles all things. Paul rejoices in his sufferings and labors to present everyone mature in Christ.",
+      "limits": "Markers identify named cities rather than exact homes or a prison setting.",
+      "sourceIds": [
+        "web"
+      ]
+    },
+    {
+      "chapter": 2,
+      "focusPlaceIds": [
+        "laodicea"
+      ],
+      "placeIds": [
+        "laodicea"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Markers identify named cities rather than exact homes or a prison setting.",
+      "narrative": "Paul says he struggles for the readers and for those at Laodicea. All the treasures of wisdom are hidden in Christ. They should walk in him as they were taught. He warns against philosophy and empty deceit built on human tradition. In Christ all the fullness of deity lives in bodily form. God forgave them and nailed the record of debt to the cross. No one should judge them about food, festivals, new moons, or Sabbaths. Rules like “Don’t handle, nor taste, nor touch” have no value against the flesh.",
+      "limits": "Markers identify named cities rather than exact homes or a prison setting.",
+      "sourceIds": [
+        "web"
+      ]
+    },
+    {
+      "chapter": 3,
+      "focusPlaceIds": [],
+      "placeIds": [],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Markers identify named cities rather than exact homes or a prison setting.",
+      "narrative": "Paul says the readers were raised with Christ and should seek the things above. Their life is hidden with Christ in God. They are to put to death immorality, greed, anger, and lying. In the new man there is no Greek or Jew, slave or free. They are to put on compassion, kindness, and patience, and to forgive. Love binds all together, and Christ’s peace should rule. Instructions follow for wives, husbands, children, fathers, and servants. Whatever they do, they are to do it as for the Lord.",
+      "limits": "Markers identify named cities rather than exact homes or a prison setting.",
+      "sourceIds": [
+        "web",
+        "carlson-colossians"
+      ]
+    },
+    {
+      "chapter": 4,
+      "focusPlaceIds": [
+        "laodicea",
+        "hierapolis"
+      ],
+      "placeIds": [
+        "laodicea",
+        "hierapolis"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "Markers identify named cities rather than exact homes or a prison setting.",
+      "narrative": "Masters are told to give their servants what is just and equal. Paul asks for prayer that a door will open for the word. He is in chains for it. He sends Tychicus and Onesimus to report his news. Aristarchus, Mark, Jesus called Justus, Epaphras, Luke, and Demas send greetings. He greets the brothers in Laodicea and the assembly in the house of Nymphas. The letter is to be read in Laodicea too. Paul signs with his own hand and asks them to remember his chains.",
+      "limits": "Markers identify named cities rather than exact homes or a prison setting.",
+      "sourceIds": [
+        "web"
+      ]
+    }
+  ],
+  "textRoutes": [],
+  "narrativeRegions": [],
+  "chapterStudies": [
+    {
+      "chapter": 1,
+      "verse": 20,
+      "context": ""
+    },
+    {
+      "chapter": 2,
+      "verse": 19,
+      "context": ""
+    },
+    {
+      "chapter": 3,
+      "verse": 12,
+      "context": ""
+    },
+    {
+      "chapter": 4,
+      "verse": 16,
+      "context": ""
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "peter": {
+    "src": "assets/portraits/matthew/peter.png",
+    "generated": true,
+    "title": "Simon Peter · interpretive portrait",
+    "credit": "AI-generated illustration",
+    "license": "Generated artwork",
+    "note": "Interpretive appearance for the selected first-century Gospel profile."
+  },
+  "jesus": {
+    "src": "assets/portraits/matthew/jesus.png",
+    "generated": true,
+    "title": "Jesus of Nazareth · interpretive portrait",
+    "credit": "AI-generated illustration",
+    "license": "Generated artwork",
+    "note": "Interpretive appearance for the selected first-century Gospel profile."
+  },
+  "noah": {
+    "title": "File:'Noah's Offering', oil on canvas painting attributed to Francesco Castiglione, El Paso Museum of Art.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/%27Noah%27s_Offering%27%2C_oil_on_canvas_painting_attributed_to_Francesco_Castiglione%2C_El_Paso_Museum_of_Art.jpg/500px-%27Noah%27s_Offering%27%2C_oil_on_canvas_painting_attributed_to_Francesco_Castiglione%2C_El_Paso_Museum_of_Art.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%27Noah%27s_Offering%27,_oil_on_canvas_painting_attributed_to_Francesco_Castiglione,_El_Paso_Museum_of_Art.jpg",
+    "credit": "Attributed to Francesco Castiglione",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "description": "Noah's Offering",
+    "src": "assets/portraits/genesis/noah.jpg",
+    "note": "Historical art illustrates the story. It does not establish actual appearance."
+  },
+  "lot": {
+    "title": "File:The angel leads Lot, his wife, and his daughters out of Sodom, and Abraham intercedes with the Lord for the righteous of this city, from the Olomouc Bible, Part I, folio 8r (Bible olomoucká, I. díl, I. 1417, s. 8r) cropped.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/The_angel_leads_Lot%2C_his_wife%2C_and_his_daughters_out_of_Sodom%2C_and_Abraham_intercedes_with_the_Lord_for_the_righteous_of_this_city%2C_from_the_Olomouc_Bible%2C_Part_I%2C_folio_8r_%28Bible_olomouck%C3%A1%2C_I._d%C3%ADl%2C_I._1417%2C_s._8r%29_cropped.jpg/500px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_angel_leads_Lot,_his_wife,_and_his_daughters_out_of_Sodom,_and_Abraham_intercedes_with_the_Lord_for_the_righteous_of_this_city,_from_the_Olomouc_Bible,_Part_I,_folio_8r_(Bible_olomouck%C3%A1,_I._d%C3%ADl,_I._1417,_s._8r)_cropped.jpg",
+    "credit": "unknown artist, Olomouc, Moravia, circa 1417 A.D.",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "description": "The angel leads Lot, his wife, and his daughters out of Sodom, and Abraham intercedes with the Lord for the righteous of this city, from the Olomouc Bible, Part I, folio 148v (Bible olomoucká, I. díl, I. 1417, s. 148v)",
+    "src": "assets/portraits/genesis/lot.jpg",
+    "note": "Historical art illustrates the story. It does not establish actual appearance."
+  },
+  "balaam": {
+    "title": "File:Hermann tom Ring - Balaam (^) - 4649 - Bavarian State Painting Collections.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Hermann_tom_Ring_-_Balaam_%28%5E%29_-_4649_-_Bavarian_State_Painting_Collections.jpg/500px-Hermann_tom_Ring_-_Balaam_%28%5E%29_-_4649_-_Bavarian_State_Painting_Collections.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hermann_tom_Ring_-_Balaam_(%5E)_-_4649_-_Bavarian_State_Painting_Collections.jpg",
+    "credit": "Hermann tom Ring",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "description": "",
+    "src": "assets/portraits/numbers/balaam.jpg",
+    "note": "Later story-based artwork. It does not establish actual appearance. Group scenes do not identify a known individual likeness."
+  },
+  "paul": {
+    "src": "assets/portraits/acts/paul.png",
+    "generated": true,
+    "title": "Paul, also called Saul · interpretive portrait",
+    "credit": "AI-generated illustration",
+    "license": "Generated artwork",
+    "note": "Interpretive appearance for a selected first-century Acts profile."
+  }
+}

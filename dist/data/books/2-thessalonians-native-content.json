@@ -1,0 +1,448 @@
+{
+  "sources": [
+    {
+      "id": "web",
+      "title": "Second Thessalonians · World English Bible",
+      "url": "https://ebible.org/engwebp/2TH01.htm",
+      "summary": "All three chapters supply the primary text for original close readings.",
+      "category": "Scripture",
+      "perspective": "historical",
+      "limits": "The letter names Paul as its speaker. Authorship, dates, original manuscripts, Greek forms, the lawless figure's identity, the restraining force, and the cause of refused work were not independently verified. No present person or event is assigned to the predicted sequence.",
+      "author": "World English Bible translators",
+      "publisher": "eBible.org",
+      "chapterCoverage": [
+        1,
+        2,
+        3
+      ],
+      "reviewed": {
+        "date": "2026-10-07",
+        "scope": "All 47 verses read for three original contextual explanations and exact selections. Surroundings, counts, and character integrity checked."
+      },
+      "type": "Scripture",
+      "limitations": "The letter names Paul as its speaker. Authorship, dates, original manuscripts, Greek forms, the lawless figure's identity, the restraining force, and the cause of refused work were not independently verified. No present person or event is assigned to the predicted sequence.",
+      "license": "Public domain"
+    },
+    {
+      "id": "wyant-thessalonians",
+      "title": "Commentary on 2 Thessalonians 3:6-13",
+      "url": "https://www.workingpreacher.org/commentaries/revised-common-lectionary/ordinary-33-3/commentary-on-2-thessalonians-36-13-5",
+      "summary": "Wyant reads the work commands within the group's problem of irresponsible conduct.",
+      "category": "Scholarly study",
+      "perspective": "historical",
+      "limits": "This is Wyant's interpretation. Her proposed identities of the busybodies remain alternatives. Greek analysis, ancient military usage, the Didache, and the linked news report were not independently reviewed.",
+      "author": "Jennifer S. Wyant",
+      "publisher": "Luther Seminary",
+      "year": 2022,
+      "chapterCoverage": [
+        3
+      ],
+      "reviewed": {
+        "date": "2026-10-07",
+        "scope": "Complete commentary body and notes read. The guide attributes her reading of irresponsible work and interference within the group."
+      },
+      "type": "Scholarly study",
+      "limitations": "This is Wyant's interpretation. Her proposed identities of the busybodies remain alternatives. Greek analysis, ancient military usage, the Didache, and the linked news report were not independently reviewed.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "cfm-nt-2023-43",
+      "title": "October 16–22 · First and Second Thessalonians",
+      "url": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-sunday-school-new-testament-2023/43?lang=eng",
+      "summary": "The lesson studies work and a falling away before Christ's return.",
+      "category": "LDS Come, Follow Me",
+      "perspective": "lds",
+      "limits": "Second Thessalonians coverage follows actual discussion of chapters two and three. Its application to the Great Apostasy remains Church teaching rather than independent historical evidence. Linked Restoration passages were not independently reviewed.",
+      "author": "The Church of Jesus Christ of Latter-day Saints",
+      "publisher": "The Church of Jesus Christ of Latter-day Saints",
+      "year": 2023,
+      "chapterCoverage": [
+        2,
+        3
+      ],
+      "reviewed": {
+        "date": "2026-10-07",
+        "scope": "Complete lesson body and resource list read. Its Second Thessalonians sections discuss falling away and useful work."
+      },
+      "type": "LDS Come, Follow Me",
+      "limitations": "Second Thessalonians coverage follows actual discussion of chapters two and three. Its application to the Great Apostasy remains Church teaching rather than independent historical evidence. Linked Restoration passages were not independently reviewed.",
+      "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "net-thessalonica",
+      "title": "NET Bible · Thessalonica",
+      "url": "https://classic.net.bible.org/dictionary.php?word=Thessalonica",
+      "summary": "The dictionary identifies the city on the Thermaic Gulf and supplies coordinates.",
+      "category": "Reference work",
+      "perspective": "historical",
+      "limits": "Only the opening locality description and coordinate line support the marker. Old population figures, wider historical claims, inscriptions, exact buildings, and routes were not independently verified.",
+      "author": "NET Bible reference editors",
+      "publisher": "Bible.org",
+      "reviewed": {
+        "date": "2026-10-07",
+        "scope": "Opening location description and coordinate line read: 40 degrees 37 minutes north, 22 degrees 55 minutes east. Only the city reference is used."
+      },
+      "type": "Reference work",
+      "limitations": "Only the opening locality description and coordinate line support the marker. Old population figures, wider historical claims, inscriptions, exact buildings, and routes were not independently verified.",
+      "license": "Linked source. Original guide summaries."
+    }
+  ],
+  "passages": [
+    {
+      "id": "2-thessalonians-1",
+      "chapter": 1,
+      "start": 1,
+      "end": 12,
+      "title": "Growing faith amid suffering leads into hope for relief and prayer for good work",
+      "summary": "Paul, Silvanus, and Timothy write again to the Thessalonians. They thank God that the readers’ faith grows and their love increases. They boast of the readers’ endurance in persecutions. They say God will repay the afflicters and give relief to the afflicted. That will happen when the Lord Jesus is revealed from heaven with his angels. Those who do not obey the good news will be punished. He will be glorified in his saints on that day. The writers pray that God will count the readers worthy of their calling.",
+      "year": null,
+      "dateLabel": "Book order",
+      "uncertainty": "The marker identifies the addressed city. No exact temple or heavenly location is assigned.",
+      "placeIds": [
+        "thessalonica"
+      ],
+      "sourceIds": [
+        "web"
+      ],
+      "lds": {
+        "text": "Why does promised relief lead into prayer for continued good work?",
+        "sourceIds": []
+      },
+      "contextNote": {
+        "title": "Growing faith amid suffering leads into hope for relief and prayer for good work",
+        "text": "Verses 6–10 promise relief at the Lord’s revealing, which is still future. Verse 11 says what the writers ask for the time between. “To this end” ties the prayer to that day. They ask God to count the readers worthy of their calling. They ask him to complete every good desire and work of faith with power. The work is the readers’, and the power is God’s. Verse 12 gives the aim: the name of Jesus glorified in them.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    },
+    {
+      "id": "2-thessalonians-2",
+      "chapter": 2,
+      "start": 1,
+      "end": 17,
+      "title": "Claims that the day has arrived must answer the instruction already received",
+      "summary": "Paul asks them not to be shaken by a letter said to be his. Such a message says the day of the Lord has already come. That day will not come before the rebellion and the man of sin. That man will sit in God’s temple and claim to be God. Something now restrains him. The Lord Jesus will destroy him by the breath of his mouth. Those who refused to love the truth will be deceived. Paul thanks God for choosing the readers and tells them to stand firm.",
+      "year": null,
+      "dateLabel": "Book order",
+      "uncertainty": "The marker identifies the addressed city. No exact temple or heavenly location is assigned.",
+      "placeIds": [],
+      "sourceIds": [
+        "web"
+      ],
+      "lds": {
+        "text": "The selected Church lesson applies falling away to the Great Apostasy before Christ's return. Why can a message claimed to come from the teachers still require testing?",
+        "sourceIds": [
+          "cfm-nt-2023-43"
+        ]
+      },
+      "contextNote": {
+        "title": "Claims that the day has arrived must answer the instruction already received",
+        "text": "Verse 2 names three ways a false report could come: spirit, word, or letter. Any of them might claim the writers’ authority. Verse 5 reminds them that Paul told them these things in person. Verse 15 gives the test that follows. They are to hold what the writers taught, by word or by letter. A new claim is measured against that teaching. Verse 3:17 adds a safeguard: Paul’s own handwriting marks every letter.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    },
+    {
+      "id": "2-thessalonians-3",
+      "chapter": 3,
+      "start": 1,
+      "end": 18,
+      "title": "Refusal of work calls for correction that still recognizes a brother",
+      "summary": "Paul asks for prayer that the Lord’s word will spread quickly. The Lord is faithful and will guard them. He commands them to withdraw from any brother who refuses to work. He worked night and day and ate no one’s bread for free. He gave the rule that one who will not work should not eat. Some are busybodies and should work quietly. Anyone who ignores this letter should be noted and avoided. Paul signs with his own hand.",
+      "year": null,
+      "dateLabel": "Book order",
+      "uncertainty": "The marker identifies the addressed city. No exact temple or heavenly location is assigned.",
+      "placeIds": [],
+      "sourceIds": [
+        "web",
+        "wyant-thessalonians"
+      ],
+      "lds": {
+        "text": "The selected Church lesson teaches useful work for oneself and people in need. How does treating the person as a brother limit the aim of separation?",
+        "sourceIds": [
+          "cfm-nt-2023-43"
+        ]
+      },
+      "contextNote": {
+        "title": "Refusal of work calls for correction that still recognizes a brother",
+        "text": "Verse 14 tells them to note a disobedient person and keep away. The stated aim is that he be ashamed. Verse 15 limits how far that goes. He is not to be counted an enemy. He is to be admonished, and the word used for him is still “brother.” Verse 6 used the same word at the start of the instruction. The distance is meant to correct him, not to disown him.",
+        "sourceIds": [
+          "web"
+        ],
+        "evidenceSourceIds": []
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "2-thessalonians-1",
+      "chapter": 1,
+      "verse": 1,
+      "eventOrder": 1,
+      "title": "Growing faith amid suffering leads into hope for relief and prayer for good work",
+      "summary": "Paul, Silvanus, and Timothy write again to the Thessalonians. They thank God that the readers’ faith grows and their love increases. They boast of the readers’ endurance in persecutions. They say God will repay the afflicters and give relief to the afflicted. That will happen when the Lord Jesus is revealed from heaven with his angels. Those who do not obey the good news will be punished. He will be glorified in his saints on that day. The writers pray that God will count the readers worthy of their calling.",
+      "detail": "Verses 6–10 promise relief at the Lord’s revealing, which is still future. Verse 11 says what the writers ask for the time between. “To this end” ties the prayer to that day. They ask God to count the readers worthy of their calling. They ask him to complete every good desire and work of faith with power. The work is the readers’, and the power is God’s. Verse 12 gives the aim: the name of Jesus glorified in them.",
+      "dateLabel": "Book order",
+      "uncertainty": "The marker identifies the addressed city. No exact temple or heavenly location is assigned.",
+      "sourceIds": [
+        "web"
+      ],
+      "placeIds": [
+        "thessalonica"
+      ],
+      "lds": {
+        "text": "Why does promised relief lead into prayer for continued good work?",
+        "sourceIds": []
+      }
+    },
+    {
+      "id": "2-thessalonians-2",
+      "chapter": 2,
+      "verse": 1,
+      "eventOrder": 2,
+      "title": "Claims that the day has arrived must answer the instruction already received",
+      "summary": "Paul asks them not to be shaken by a letter said to be his. Such a message says the day of the Lord has already come. That day will not come before the rebellion and the man of sin. That man will sit in God’s temple and claim to be God. Something now restrains him. The Lord Jesus will destroy him by the breath of his mouth. Those who refused to love the truth will be deceived. Paul thanks God for choosing the readers and tells them to stand firm.",
+      "detail": "Verse 2 names three ways a false report could come: spirit, word, or letter. Any of them might claim the writers’ authority. Verse 5 reminds them that Paul told them these things in person. Verse 15 gives the test that follows. They are to hold what the writers taught, by word or by letter. A new claim is measured against that teaching. Verse 3:17 adds a safeguard: Paul’s own handwriting marks every letter.",
+      "dateLabel": "Book order",
+      "uncertainty": "The marker identifies the addressed city. No exact temple or heavenly location is assigned.",
+      "sourceIds": [
+        "web"
+      ],
+      "placeIds": [],
+      "lds": {
+        "text": "The selected Church lesson applies falling away to the Great Apostasy before Christ's return. Why can a message claimed to come from the teachers still require testing?",
+        "sourceIds": [
+          "cfm-nt-2023-43"
+        ]
+      }
+    },
+    {
+      "id": "2-thessalonians-3",
+      "chapter": 3,
+      "verse": 1,
+      "eventOrder": 3,
+      "title": "Refusal of work calls for correction that still recognizes a brother",
+      "summary": "Paul asks for prayer that the Lord’s word will spread quickly. The Lord is faithful and will guard them. He commands them to withdraw from any brother who refuses to work. He worked night and day and ate no one’s bread for free. He gave the rule that one who will not work should not eat. Some are busybodies and should work quietly. Anyone who ignores this letter should be noted and avoided. Paul signs with his own hand.",
+      "detail": "Verse 14 tells them to note a disobedient person and keep away. The stated aim is that he be ashamed. Verse 15 limits how far that goes. He is not to be counted an enemy. He is to be admonished, and the word used for him is still “brother.” Verse 6 used the same word at the start of the instruction. The distance is meant to correct him, not to disown him.",
+      "dateLabel": "Book order",
+      "uncertainty": "The marker identifies the addressed city. No exact temple or heavenly location is assigned.",
+      "sourceIds": [
+        "web",
+        "wyant-thessalonians"
+      ],
+      "placeIds": [],
+      "lds": {
+        "text": "The selected Church lesson teaches useful work for oneself and people in need. How does treating the person as a brother limit the aim of separation?",
+        "sourceIds": [
+          "cfm-nt-2023-43"
+        ]
+      }
+    }
+  ],
+  "places": [
+    {
+      "id": "thessalonica",
+      "name": "Thessalonica",
+      "lat": 40.61666666666667,
+      "lng": 22.916666666666668,
+      "summary": "Thessalonica identifies the assembly addressed in the opening greeting.",
+      "limits": "City reference rather than an exact meeting house.",
+      "sourceIds": [
+        "web",
+        "net-thessalonica"
+      ],
+      "verseScope": {},
+      "linkNames": [
+        "Thessalonians"
+      ],
+      "detail": "Thessalonica identifies the assembly addressed in the opening greeting.",
+      "uncertainty": "City reference rather than an exact meeting house.",
+      "chapterLocation": true
+    }
+  ],
+  "campaigns": [],
+  "ancientRoads": [],
+  "regions": [],
+  "words": [
+    {
+      "id": "glossary-saints",
+      "label": "Saints",
+      "matches": [
+        "saints"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "People set apart as holy. In the letters the word means the believers in a place.",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    },
+    {
+      "id": "glossary-assembly",
+      "label": "Assembly",
+      "matches": [
+        "assembly",
+        "assemblies"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A gathering of people. In the New Testament letters it means a group of believers. Many translations say “church.”",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary"
+    }
+  ],
+  "guides": [
+    {
+      "id": "2-thessalonians-context",
+      "title": "2 Thessalonians: context and evidence",
+      "description": "Explore the book’s larger concerns through selected passages and relevant evidence.",
+      "steps": [
+        {
+          "title": "Growing faith amid suffering leads into hope for relief and prayer for good work",
+          "text": "Verses 6–10 promise relief at the Lord’s revealing, which is still future. Verse 11 says what the writers ask for the time between. “To this end” ties the prayer to that day. They ask God to count the readers worthy of their calling. They ask him to complete every good desire and work of faith with power. The work is the readers’, and the power is God’s. Verse 12 gives the aim: the name of Jesus glorified in them.",
+          "chapter": 1,
+          "verse": 11,
+          "sourceIds": [
+            "web"
+          ]
+        },
+        {
+          "title": "Claims that the day has arrived must answer the instruction already received",
+          "text": "Verse 2 names three ways a false report could come: spirit, word, or letter. Any of them might claim the writers’ authority. Verse 5 reminds them that Paul told them these things in person. Verse 15 gives the test that follows. They are to hold what the writers taught, by word or by letter. A new claim is measured against that teaching. Verse 3:17 adds a safeguard: Paul’s own handwriting marks every letter.",
+          "chapter": 2,
+          "verse": 15,
+          "sourceIds": [
+            "web"
+          ]
+        },
+        {
+          "title": "Refusal of work calls for correction that still recognizes a brother",
+          "text": "Verse 14 tells them to note a disobedient person and keep away. The stated aim is that he be ashamed. Verse 15 limits how far that goes. He is not to be counted an enemy. He is to be admonished, and the word used for him is still “brother.” Verse 6 used the same word at the start of the instruction. The distance is meant to correct him, not to disown him.",
+          "chapter": 3,
+          "verse": 15,
+          "sourceIds": [
+            "web"
+          ]
+        }
+      ]
+    }
+  ],
+  "periods": [
+    {
+      "id": "part-0",
+      "label": "2 Thessalonians 1–1",
+      "start": 1,
+      "end": 1,
+      "description": "Chapter order"
+    },
+    {
+      "id": "part-1",
+      "label": "2 Thessalonians 2–2",
+      "start": 2,
+      "end": 2,
+      "description": "Chapter order"
+    },
+    {
+      "id": "part-2",
+      "label": "2 Thessalonians 3–3",
+      "start": 3,
+      "end": 3,
+      "description": "Chapter order"
+    }
+  ],
+  "chapterMaps": [
+    {
+      "chapter": 1,
+      "focusPlaceIds": [
+        "thessalonica"
+      ],
+      "placeIds": [
+        "thessalonica"
+      ],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "The marker identifies the addressed city. No exact temple or heavenly location is assigned.",
+      "narrative": "Paul, Silvanus, and Timothy write again to the Thessalonians. They thank God that the readers’ faith grows and their love increases. They boast of the readers’ endurance in persecutions. They say God will repay the afflicters and give relief to the afflicted. That will happen when the Lord Jesus is revealed from heaven with his angels. Those who do not obey the good news will be punished. He will be glorified in his saints on that day. The writers pray that God will count the readers worthy of their calling.",
+      "limits": "The marker identifies the addressed city. No exact temple or heavenly location is assigned.",
+      "sourceIds": [
+        "web"
+      ]
+    },
+    {
+      "chapter": 2,
+      "focusPlaceIds": [],
+      "placeIds": [],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "The marker identifies the addressed city. No exact temple or heavenly location is assigned.",
+      "narrative": "Paul asks them not to be shaken by a letter said to be his. Such a message says the day of the Lord has already come. That day will not come before the rebellion and the man of sin. That man will sit in God’s temple and claim to be God. Something now restrains him. The Lord Jesus will destroy him by the breath of his mouth. Those who refused to love the truth will be deceived. Paul thanks God for choosing the readers and tells them to stand firm.",
+      "limits": "The marker identifies the addressed city. No exact temple or heavenly location is assigned.",
+      "sourceIds": [
+        "web"
+      ]
+    },
+    {
+      "chapter": 3,
+      "focusPlaceIds": [],
+      "placeIds": [],
+      "routes": [],
+      "contextRoutes": [],
+      "contextPlaceIds": [],
+      "impacts": [],
+      "maxZoom": 7,
+      "note": "The marker identifies the addressed city. No exact temple or heavenly location is assigned.",
+      "narrative": "Paul asks for prayer that the Lord’s word will spread quickly. The Lord is faithful and will guard them. He commands them to withdraw from any brother who refuses to work. He worked night and day and ate no one’s bread for free. He gave the rule that one who will not work should not eat. Some are busybodies and should work quietly. Anyone who ignores this letter should be noted and avoided. Paul signs with his own hand.",
+      "limits": "The marker identifies the addressed city. No exact temple or heavenly location is assigned.",
+      "sourceIds": [
+        "web",
+        "wyant-thessalonians"
+      ]
+    }
+  ],
+  "textRoutes": [],
+  "narrativeRegions": [],
+  "chapterStudies": [
+    {
+      "chapter": 1,
+      "verse": 11,
+      "context": ""
+    },
+    {
+      "chapter": 2,
+      "verse": 15,
+      "context": ""
+    },
+    {
+      "chapter": 3,
+      "verse": 15,
+      "context": ""
+    }
+  ]
+}

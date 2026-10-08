@@ -22,9 +22,13 @@ def scripture(slug,code,count):
         for i,m in enumerate(matches):
             text=raw[m.end():matches[i+1].start() if i+1<len(matches) else len(raw)]
             text=re.sub(r'<div class="(?:s|s2|ms|ms2|r|d)"[^>]*>.*?</div>','',text,flags=re.S)
+            publisher_notes=re.findall(r'<span class="popup">(.*?)</span>',text,re.S)
             text=re.sub(r'<a [^>]*class="notemark"[^>]*>.*?</a>','',text,flags=re.S)
             text=' '.join(html.unescape(re.sub('<[^>]+>',' ',text)).split())
-            verses.append(dict(verse=int(m[1]),text=text))
+            record=dict(verse=int(m[1]),text=text)
+            if not text and publisher_notes:
+                record['publisherNote']=' '.join(html.unescape(re.sub('<[^>]+>',' ',note)).strip() for note in publisher_notes)
+            verses.append(record)
         if not verses:raise ValueError(f'No verses in {slug} {n}')
         return str(n),verses
     return dict(ThreadPoolExecutor(max_workers=4).map(chapter,range(1,count+1)))

@@ -1,0 +1,105 @@
+{
+  "name": "3 John",
+  "code": "3JN",
+  "date": "2026-10-07",
+  "verseCounts": [
+    14
+  ],
+  "nextBook": "jude",
+  "description": "Faithful welcome · shared support · disputed authority · personal testimony",
+  "limits": "The elder has no assigned personal identity. Gaius and Demetrius are not identified with same-name people elsewhere. Historical authorship, dates, Greek forms, exact local setting, and the opposing party's own account were not independently verified.",
+  "review": "All fourteen WEB verses read for an original explanation and exact selection. Three selected named profiles use newly inspected artwork and remain separate from same-name people elsewhere. The travelers have no invented route or destination. Competing USCCB readings remain attributed. Actual Church discussion remains separate.",
+  "sources": [
+    {
+      "id": "cfm-nt-2023-49",
+      "reuse": "1-john",
+      "summary": "The lesson connects joy with helping others walk in truth and warns against harmful conduct.",
+      "chapterCoverage": [
+        1
+      ],
+      "limits": "Third John coverage follows actual discussion of 1:1–4 and 9–11. Linked Restoration texts and reference entries were not independently reviewed.",
+      "reviewed": {
+        "date": "2026-10-07",
+        "scope": "Complete shared lesson body and resource list read. Only its actual Third John discussion supports this reference."
+      }
+    },
+    {
+      "id": "usccb-3-john",
+      "title": "Introduction to the Third Letter of John",
+      "url": "https://bible.usccb.org/bible/3john/0",
+      "author": "United States Conference of Catholic Bishops",
+      "publisher": "United States Conference of Catholic Bishops",
+      "category": "Scholarly study",
+      "perspective": "historical",
+      "summary": "The introduction offers several possible motives for Diotrephes' refusal.",
+      "limits": "These are competing interpretations rather than established motives. Historical authorship, exact local offices, audience conditions, and Demetrius' possible delivery role were not independently verified.",
+      "chapterCoverage": [
+        1
+      ],
+      "reviewed": {
+        "date": "2026-10-07",
+        "scope": "Complete three-paragraph introduction read through indexed source text. The guide attributes its range of possible motives and preserves uncertainty."
+      }
+    }
+  ],
+  "people": [
+    {
+      "id": "gaius-letter",
+      "name": "Gaius",
+      "reuse": "3-john",
+      "role": "Recipient praised for faithful welcome and help given to traveling believers",
+      "relations": "The elder rejoices at reports about his conduct and asks him to continue his support.",
+      "meaning": "His hospitality makes received truth visible through help for people beyond his familiar circle.",
+      "chapters": [
+        1
+      ],
+      "passages": "Third John 1",
+      "linkNames": [
+        "Gaius"
+      ]
+    },
+    {
+      "id": "diotrephes",
+      "name": "Diotrephes",
+      "reuse": "3-john",
+      "role": "Assembly member accused of rejecting the elder and excluding people who welcome the brothers",
+      "relations": "The elder says he loves to be first and refuses the visiting brothers.",
+      "meaning": "His conduct introduces a conflict over welcome and authority without preserving his own account.",
+      "chapters": [
+        1
+      ],
+      "passages": "Third John 1",
+      "linkNames": [
+        "Diotrephes"
+      ]
+    },
+    {
+      "id": "demetrius-letter",
+      "name": "Demetrius",
+      "reuse": "3-john",
+      "role": "Person recommended through testimony about his conduct",
+      "relations": "The elder adds his own testimony to the good report from others.",
+      "meaning": "His recommendation gives Gaius a positive example beside the warning about Diotrephes.",
+      "chapters": [
+        1
+      ],
+      "passages": "Third John 1",
+      "linkNames": [
+        "Demetrius"
+      ]
+    }
+  ],
+  "places": [],
+  "chapters": {
+    "1": {
+      "question": "How does support for visiting believers make a host a fellow worker for truth?",
+      "teaching": "The selected Church lesson connects joy with helping others walk in truth.",
+      "ldsSources": [
+        "cfm-nt-2023-49"
+      ],
+      "historicalSources": [
+        "usccb-3-john"
+      ]
+    }
+  }
+}

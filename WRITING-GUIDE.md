@@ -24,8 +24,42 @@ Use plain English based on ASD-STE100 principles for app labels, instructions, m
 - Remove sentences that repeat the title, nearby text, or another note.
 - Keep general source-review limits in Source details. Show a limit in the reading only when it changes that passage's meaning.
 - Do not repeat atlas descriptions, publication records, or general source summaries under every chapter.
-- Use a specific study question. Do not add a repeated “Original study reflection” label.
+- Use a specific study question. Do not add a repeated “Original study reflection” label. The “LDS lens” section heading is the only perspective label.
 - Describe what people do and why it matters. Keep image instructions and research-process notes out of their profiles.
+
+## Write each chapter in three parts
+
+Isaiah 1 is the model. Read the whole chapter in the local World English Bible before writing.
+
+**Summary: what happens.** Use four to eight short sentences.
+
+- Name the speaker or the form first: a vision, a song, a letter, a prayer, a court case.
+- Follow the chapter's order. Include the turn where the subject or mood changes.
+- Name the people the text names. Write “the fatherless and the widow,” not “people in need.”
+- State each condition and each result. Do not shorten a choice into “God gives them hope.”
+- Include facts that the map, a photograph, or a later note depends on.
+- Do not explain meaning here. Keep the reasons for the note.
+
+**Note beside the selected verse: why.** Use four to seven connected sentences.
+
+- Start with the problem or question the selected verse answers.
+- Give the reason from the chapter itself. Cite verse numbers so the reader can check.
+- Connect the verse with one other verse that explains it, such as a cause, a contrast, or a result.
+- End with what the key word or action means in this passage. Do not end with a general moral.
+- Use only what the text says. A claim about ancient law, custom, or history needs a reviewed source.
+- Do not repeat a summary sentence.
+
+**Study question.** Use one or two sentences.
+
+- State the conflict, person, or promise from the chapter. Then ask the question.
+- Point to verse numbers when they help the reader look.
+- Do not ask a question that fits any chapter, such as “How can worship help you?”
+
+The **LDS lens** heading starts the Latter-day Saint section of a chapter. The study question, Church sources, and interview notes belong below it. Keep the historical reading above it.
+
+Check each new sentence against the verse it describes. A simple word must not change who acts, what they do, or how certain the result is.
+
+Isaiah's summaries and questions live in `scripts/full-isaiah.mjs`. Its verse notes live in `scripts/chapter-enrichment.mjs`. For added books, summaries and questions live in `scripts/book-copy-chapters/<book-id>.json`. Their verse notes live in `scripts/book-context-complete/<book-id>.json`. Use `node scripts/show-chapter.mjs <book-id> <first> <last>` to read chapters. Use `node scripts/apply-chapter-copy.mjs <book-id> <batch-file>` to apply a batch. The apply script rejects long sentences and banned terms before it writes. In an added book's LDS lens, keep the sentence that names a Church source. Then add the passage question.
 
 ## Preserve source text
 
@@ -75,7 +109,7 @@ Every ready chapter requires an original contextual explanation and one meaningf
 
 Added-book context lives in `scripts/book-context-complete/<book-id>.json`. Each row contains the chapter, selected verse, heading, explanation, and optional artifact source IDs. The builder rejects missing or duplicate chapters. `scripts/book_context.py` adds source and image metadata. Museum image identity and rights live in `scripts/study-objects.json`. The shared builder carries the explanations into chapter introductions, event details, and short curated guides.
 
-The chapter meaning field uses the contextual explanation. Keep the opening plot summary brief. Do not append an earlier generic moral to the new explanation. Guides select a small route through the book. Complete chapter coverage belongs in the chapter reader, not an oversized guided tour.
+The chapter meaning field uses the contextual explanation. Keep the opening plot summary within eight short sentences. Do not append an earlier generic moral to the new explanation. Guides select a small route through the book. Complete chapter coverage belongs in the chapter reader, not an oversized guided tour.
 
 An original close reading can use the local World English Bible as its primary text. This does not verify dates, authorship, archaeology, or scholarly consensus. Additional claims need their own reviewed sources. Record the distinction in the review metadata. Do not label original interpretation as a museum's or scholar's conclusion.
 
