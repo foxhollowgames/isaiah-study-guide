@@ -1,0 +1,47 @@
+{
+ "tool": "ChatGPT built-in image generation",
+ "assets": [
+  {
+   "name": "1-timothy/cover",
+   "person": "Timothy as a teacher",
+   "path": "dist/assets/portraits/1-timothy/cover.png",
+   "detail": "Man about thirty-five, soft oval face, light brown wavy hair, short beard. Looking down at an open scroll in his hands. Sage green cloak. Pale warm stone wall behind. Soft morning light.",
+   "prompt": "Create one image. Interpretive portrait of Timothy as a teacher. Man about thirty-five, soft oval face, light brown wavy hair, short beard. Looking down at an open scroll in his hands. Sage green cloak. Pale warm stone wall behind. Soft morning light. Square 1:1 illustration for a Bible study guide. Head and shoulders, with the face large in the upper half of the frame. Calm, simplified painting with broad soft shapes and smooth gradients. Low detail in cloth and background. Plain, softly blurred background. Gentle contrast. No gritty texture, no fine noise, no sharp micro-detail. One person only. First-century eastern Mediterranean clothing. No text, letters, frame, halo, or modern items. This is an interpretive illustration, not a known likeness."
+  },
+  {
+   "name": "2-timothy/cover",
+   "person": "Lois, grandmother of Timothy",
+   "path": "dist/assets/portraits/2-timothy/cover.png",
+   "detail": "Elderly woman, kind lined face, brown skin, white hair under a dusty rose head covering, slight smile, three-quarter view. Soft blue-grey background. Gentle window light.",
+   "prompt": "Create one image. Interpretive portrait of Lois, grandmother of Timothy. Elderly woman, kind lined face, brown skin, white hair under a dusty rose head covering, slight smile, three-quarter view. Soft blue-grey background. Gentle window light. Square 1:1 illustration for a Bible study guide. Head and shoulders, with the face large in the upper half of the frame. Calm, simplified painting with broad soft shapes and smooth gradients. Low detail in cloth and background. Plain, softly blurred background. Gentle contrast. No gritty texture, no fine noise, no sharp micro-detail. One person only. First-century eastern Mediterranean clothing. No text, letters, frame, halo, or modern items. This is an interpretive illustration, not a known likeness."
+  },
+  {
+   "name": "titus/cover",
+   "person": "Titus on Crete",
+   "path": "dist/assets/portraits/titus/cover.png",
+   "detail": "Greek man in his forties, clean-shaven, strong jaw, short greying hair, in profile facing left. Sea-blue cloak. Pale sky above a soft sea horizon. Bright even light.",
+   "prompt": "Create one image. Interpretive portrait of Titus on Crete. Greek man in his forties, clean-shaven, strong jaw, short greying hair, in profile facing left. Sea-blue cloak. Pale sky above a soft sea horizon. Bright even light. Square 1:1 illustration for a Bible study guide. Head and shoulders, with the face large in the upper half of the frame. Calm, simplified painting with broad soft shapes and smooth gradients. Low detail in cloth and background. Plain, softly blurred background. Gentle contrast. No gritty texture, no fine noise, no sharp micro-detail. One person only. First-century eastern Mediterranean clothing. No text, letters, frame, halo, or modern items. This is an interpretive illustration, not a known likeness."
+  },
+  {
+   "name": "2-peter/cover",
+   "person": "Simon Peter in old age",
+   "path": "dist/assets/portraits/2-peter/cover.png",
+   "detail": "Old man, broad weathered face, white curly hair and beard, looking up to the right. Charcoal mantle. Deep warm amber background with a single lamp glow.",
+   "prompt": "Create one image. Interpretive portrait of Simon Peter in old age. Old man, broad weathered face, white curly hair and beard, looking up to the right. Charcoal mantle. Deep warm amber background with a single lamp glow. Square 1:1 illustration for a Bible study guide. Head and shoulders, with the face large in the upper half of the frame. Calm, simplified painting with broad soft shapes and smooth gradients. Low detail in cloth and background. Plain, softly blurred background. Gentle contrast. No gritty texture, no fine noise, no sharp micro-detail. One person only. First-century eastern Mediterranean clothing. No text, letters, frame, halo, or modern items. This is an interpretive illustration, not a known likeness."
+  },
+  {
+   "name": "1-john/cover",
+   "person": "The elder of the letters of John",
+   "path": "dist/assets/portraits/1-john/cover.png",
+   "detail": "Man in his seventies, thin gentle face, bald crown, short white beard, eyes closed with a slight smile, facing front. Cream robe. Soft gold background.",
+   "prompt": "Create one image. Interpretive portrait of The elder of the letters of John. Man in his seventies, thin gentle face, bald crown, short white beard, eyes closed with a slight smile, facing front. Cream robe. Soft gold background. Square 1:1 illustration for a Bible study guide. Head and shoulders, with the face large in the upper half of the frame. Calm, simplified painting with broad soft shapes and smooth gradients. Low detail in cloth and background. Plain, softly blurred background. Gentle contrast. No gritty texture, no fine noise, no sharp micro-detail. One person only. First-century eastern Mediterranean clothing. No text, letters, frame, halo, or modern items. This is an interpretive illustration, not a known likeness."
+  },
+  {
+   "name": "2-john/cover",
+   "person": "The chosen lady of 2 John",
+   "path": "dist/assets/portraits/2-john/cover.png",
+   "detail": "Woman in her forties, round warm face, olive skin, dark hair under an olive-green head covering, looking back over her shoulder. Terracotta dress. Plain cream wall. Soft daylight.",
+   "prompt": "Create one image. Interpretive portrait of The chosen lady of 2 John. Woman in her forties, round warm face, olive skin, dark hair under an olive-green head covering, looking back over her shoulder. Terracotta dress. Plain cream wall. Soft daylight. Square 1:1 illustration for a Bible study guide. Head and shoulders, with the face large in the upper half of the frame. Calm, simplified painting with broad soft shapes and smooth gradients. Low detail in cloth and background. Plain, softly blurred background. Gentle contrast. No gritty texture, no fine noise, no sharp micro-detail. One person only. First-century eastern Mediterranean clothing. No text, letters, frame, halo, or modern items. This is an interpretive illustration, not a known likeness."
+  }
+ ]
+}
