@@ -1,0 +1,285 @@
+{
+ "tool": "ChatGPT built-in image generation",
+ "assets": [
+  {
+   "name": "matthew/jesus",
+   "person": "Jesus of Nazareth",
+   "path": "dist/assets/portraits/matthew/jesus.png",
+   "detail": "Jewish man about thirty, oval face, olive-brown skin, dark shoulder-length hair, short beard. Seated on a hillside rock, teaching with one open hand, seen slightly from below. Galilee hills and a lake at dawn. Undyed cream tunic and a faded blue-grey mantle. Soft gold morning light.",
+   "prompt": "Create one image. Interpretive portrait of Jesus of Nazareth. Jewish man about thirty, oval face, olive-brown skin, dark shoulder-length hair, short beard. Seated on a hillside rock, teaching with one open hand, seen slightly from below. Galilee hills and a lake at dawn. Undyed cream tunic and a faded blue-grey mantle. Soft gold morning light. Square 1:1 illustration for a Bible study guide. Painterly realism with visible brushwork. One person only. Clear silhouette that reads as a small thumbnail, with the face well lit. First-century eastern Mediterranean clothing and setting. No text, letters, frame, halo, or modern items. This is an interpretive illustration, not a known likeness."
+  },
+  {
+   "name": "matthew/mary-mother",
+   "person": "Mary, mother of Jesus",
+   "path": "dist/assets/portraits/matthew/mary-mother.png",
+   "detail": "Young Jewish woman, round face, light brown skin, dark hair under a madder-red head covering. Standing in a courtyard doorway holding a wrapped infant, three-quarter view. Whitewashed village house with clay water jars. Cool morning shade with warm reflected light.",
+   "prompt": "Create one image. Interpretive portrait of Mary, mother of Jesus. Young Jewish woman, round face, light brown skin, dark hair under a madder-red head covering. Standing in a courtyard doorway holding a wrapped infant, three-quarter view. Whitewashed village house with clay water jars. Cool morning shade with warm reflected light. Square 1:1 illustration for a Bible study guide. Painterly realism with visible brushwork. One person only. Clear silhouette that reads as a small thumbnail, with the face well lit. First-century eastern Mediterranean clothing and setting. No text, letters, frame, halo, or modern items. This is an interpretive illustration, not a known likeness."
+  },
+  {
+   "name": "matthew/joseph-mary",
+   "person": "Joseph, Mary’s husband",
+   "path": "dist/assets/portraits/matthew/joseph-mary.png",
+   "detail": "Man in his thirties, broad square face, tanned skin, short dark curly hair and beard, strong forearms. Walking at night leading a donkey, glancing back over his shoulder, full figure. Desert road under stars. Brown wool cloak over an ochre tunic. Deep blue night with an orange lantern glow.",
+   "prompt": "Create one image. Interpretive portrait of Joseph, Mary’s husband. Man in his thirties, broad square face, tanned skin, short dark curly hair and beard, strong forearms. Walking at night leading a donkey, glancing back over his shoulder, full figure. Desert road under stars. Brown wool cloak over an ochre tunic. Deep blue night with an orange lantern glow. Square 1:1 illustration for a Bible study guide. Painterly realism with visible brushwork. One person only. Clear silhouette that reads as a small thumbnail, with the face well lit. First-century eastern Mediterranean clothing and setting. No text, letters, frame, halo, or modern items. This is an interpretive illustration, not a known likeness."
+  },
+  {
+   "name": "matthew/john-baptizer",
+   "person": "John the Baptizer",
+   "path": "dist/assets/portraits/matthew/john-baptizer.png",
+   "detail": "Lean wiry man about thirty, long narrow face, sunburnt skin, long untamed hair and beard. Standing knee-deep in a river with one arm raised in speech, full length. Reeds and pale cliffs. Camel-hair garment and a leather belt. Harsh midday sun on green-brown water.",
+   "prompt": "Create one image. Interpretive portrait of John the Baptizer. Lean wiry man about thirty, long narrow face, sunburnt skin, long untamed hair and beard. Standing knee-deep in a river with one arm raised in speech, full length. Reeds and pale cliffs. Camel-hair garment and a leather belt. Harsh midday sun on green-brown water. Square 1:1 illustration for a Bible study guide. Painterly realism with visible brushwork. One person only. Clear silhouette that reads as a small thumbnail, with the face well lit. First-century eastern Mediterranean clothing and setting. No text, letters, frame, halo, or modern items. This is an interpretive illustration, not a known likeness."
+  },
+  {
+   "name": "matthew/peter",
+   "person": "Simon Peter",
+   "path": "dist/assets/portraits/matthew/peter.png",
+   "detail": "Stocky fisherman in his forties, wide weathered face, thick greying curly hair and beard. Hauling a wet net over the side of a wooden boat, looking up, seen from the side. Lake in early morning mist. Grey-brown tunic with rolled sleeves. Silver-blue light.",
+   "prompt": "Create one image. Interpretive portrait of Simon Peter. Stocky fisherman in his forties, wide weathered face, thick greying curly hair and beard. Hauling a wet net over the side of a wooden boat, looking up, seen from the side. Lake in early morning mist. Grey-brown tunic with rolled sleeves. Silver-blue light. Square 1:1 illustration for a Bible study guide. Painterly realism with visible brushwork. One person only. Clear silhouette that reads as a small thumbnail, with the face well lit. First-century eastern Mediterranean clothing and setting. No text, letters, frame, halo, or modern items. This is an interpretive illustration, not a known likeness."
+  },
+  {
+   "name": "matthew/mary-magdalene",
+   "person": "Mary Magdalene",
+   "path": "dist/assets/portraits/matthew/mary-magdalene.png",
+   "detail": "Woman about thirty, long face with high cheekbones, brown skin, dark wavy hair partly covered by a deep green shawl. Standing in a garden at first light, turning toward the viewer with a hand at her chest. A rock tomb opening and olive trees behind. Violet dawn sky with pale gold rim light.",
+   "prompt": "Create one image. Interpretive portrait of Mary Magdalene. Woman about thirty, long face with high cheekbones, brown skin, dark wavy hair partly covered by a deep green shawl. Standing in a garden at first light, turning toward the viewer with a hand at her chest. A rock tomb opening and olive trees behind. Violet dawn sky with pale gold rim light. Square 1:1 illustration for a Bible study guide. Painterly realism with visible brushwork. One person only. Clear silhouette that reads as a small thumbnail, with the face well lit. First-century eastern Mediterranean clothing and setting. No text, letters, frame, halo, or modern items. This is an interpretive illustration, not a known likeness."
+  },
+  {
+   "name": "john/nicodemus",
+   "person": "Nicodemus",
+   "path": "dist/assets/portraits/john/nicodemus.png",
+   "detail": "Elderly man in his seventies, long thin face, white beard, pale olive skin. Seated on a flat rooftop at night, leaning forward to listen, in profile. An oil lamp and city roofs. Fine dark blue robe with a striped fringed shawl. Warm lamplight against cool moonlight.",
+   "prompt": "Create one image. Interpretive portrait of Nicodemus. Elderly man in his seventies, long thin face, white beard, pale olive skin. Seated on a flat rooftop at night, leaning forward to listen, in profile. An oil lamp and city roofs. Fine dark blue robe with a striped fringed shawl. Warm lamplight against cool moonlight. Square 1:1 illustration for a Bible study guide. Painterly realism with visible brushwork. One person only. Clear silhouette that reads as a small thumbnail, with the face well lit. First-century eastern Mediterranean clothing and setting. No text, letters, frame, halo, or modern items. This is an interpretive illustration, not a known likeness."
+  },
+  {
+   "name": "john/thomas",
+   "person": "Thomas",
+   "path": "dist/assets/portraits/john/thomas.png",
+   "detail": "Man in his late twenties, narrow face, heavy brows, short black hair, close beard, dark brown skin. Half-length frontal view, reaching one hand forward with hesitation. Shuttered upper room with one shaft of light. Grey-green tunic and a rust cloak. Dim interior with a single bright beam.",
+   "prompt": "Create one image. Interpretive portrait of Thomas. Man in his late twenties, narrow face, heavy brows, short black hair, close beard, dark brown skin. Half-length frontal view, reaching one hand forward with hesitation. Shuttered upper room with one shaft of light. Grey-green tunic and a rust cloak. Dim interior with a single bright beam. Square 1:1 illustration for a Bible study guide. Painterly realism with visible brushwork. One person only. Clear silhouette that reads as a small thumbnail, with the face well lit. First-century eastern Mediterranean clothing and setting. No text, letters, frame, halo, or modern items. This is an interpretive illustration, not a known likeness."
+  },
+  {
+   "name": "john/martha",
+   "person": "Martha of Bethany",
+   "path": "dist/assets/portraits/john/martha.png",
+   "detail": "Woman in her forties, strong square face, tanned skin, hair bound in a saffron-yellow cloth. Standing in a village road with clasped hands, speaking earnestly, three-quarter view. Stone houses and a dusty path. Terracotta dress with a work apron. Soft overcast light.",
+   "prompt": "Create one image. Interpretive portrait of Martha of Bethany. Woman in her forties, strong square face, tanned skin, hair bound in a saffron-yellow cloth. Standing in a village road with clasped hands, speaking earnestly, three-quarter view. Stone houses and a dusty path. Terracotta dress with a work apron. Soft overcast light. Square 1:1 illustration for a Bible study guide. Painterly realism with visible brushwork. One person only. Clear silhouette that reads as a small thumbnail, with the face well lit. First-century eastern Mediterranean clothing and setting. No text, letters, frame, halo, or modern items. This is an interpretive illustration, not a known likeness."
+  },
+  {
+   "name": "john/mary-bethany",
+   "person": "Mary of Bethany",
+   "path": "dist/assets/portraits/john/mary-bethany.png",
+   "detail": "Woman in her early twenties, heart-shaped face, light olive skin, long loose dark hair. Kneeling and pouring oil from a small alabaster jar, seen from the side and slightly above. Low dining room with cushions. Pale rose dress and a cream shawl. Warm evening lamplight.",
+   "prompt": "Create one image. Interpretive portrait of Mary of Bethany. Woman in her early twenties, heart-shaped face, light olive skin, long loose dark hair. Kneeling and pouring oil from a small alabaster jar, seen from the side and slightly above. Low dining room with cushions. Pale rose dress and a cream shawl. Warm evening lamplight. Square 1:1 illustration for a Bible study guide. Painterly realism with visible brushwork. One person only. Clear silhouette that reads as a small thumbnail, with the face well lit. First-century eastern Mediterranean clothing and setting. No text, letters, frame, halo, or modern items. This is an interpretive illustration, not a known likeness."
+  },
+  {
+   "name": "john/lazarus",
+   "person": "Lazarus of Bethany",
+   "path": "dist/assets/portraits/john/lazarus.png",
+   "detail": "Man about thirty-five, gaunt oval face, pale skin, short dark beard. Stepping out of a dark tomb mouth into daylight, loosened linen burial wraps on his shoulders, full length. Rock-cut tomb with a rolled stone. White linen against dark rock. Strong contrast of bright sun and shadow.",
+   "prompt": "Create one image. Interpretive portrait of Lazarus of Bethany. Man about thirty-five, gaunt oval face, pale skin, short dark beard. Stepping out of a dark tomb mouth into daylight, loosened linen burial wraps on his shoulders, full length. Rock-cut tomb with a rolled stone. White linen against dark rock. Strong contrast of bright sun and shadow. Square 1:1 illustration for a Bible study guide. Painterly realism with visible brushwork. One person only. Clear silhouette that reads as a small thumbnail, with the face well lit. First-century eastern Mediterranean clothing and setting. No text, letters, frame, halo, or modern items. This is an interpretive illustration, not a known likeness."
+  },
+  {
+   "name": "acts/paul",
+   "person": "Paul, also called Saul",
+   "path": "dist/assets/portraits/acts/paul.png",
+   "detail": "Middle-aged Jewish man, lean angular face, receding dark hair, short dark beard, weathered skin. Seated at a rough workbench stitching tent leather with an awl, looking up mid-thought, waist up, three-quarter view. Open-fronted workshop in a port with harbor light behind. Deep indigo cloak over a rust tunic. Copper lamplight against cool blue shade.",
+   "prompt": "Create one image. Interpretive portrait of Paul, also called Saul. Middle-aged Jewish man, lean angular face, receding dark hair, short dark beard, weathered skin. Seated at a rough workbench stitching tent leather with an awl, looking up mid-thought, waist up, three-quarter view. Open-fronted workshop in a port with harbor light behind. Deep indigo cloak over a rust tunic. Copper lamplight against cool blue shade. Square 1:1 illustration for a Bible study guide. Painterly realism with visible brushwork. One person only. Clear silhouette that reads as a small thumbnail, with the face well lit. First-century eastern Mediterranean clothing and setting. No text, letters, frame, halo, or modern items. This is an interpretive illustration, not a known likeness."
+  },
+  {
+   "name": "acts/barnabas",
+   "person": "Barnabas",
+   "path": "dist/assets/portraits/acts/barnabas.png",
+   "detail": "Tall heavy-framed man in his fifties, round friendly face, bald crown, full grey-black beard, olive skin. Holding out a money pouch with a smile, half length. Sunlit city courtyard. Cream tunic and an ochre-yellow cloak. Warm afternoon light.",
+   "prompt": "Create one image. Interpretive portrait of Barnabas. Tall heavy-framed man in his fifties, round friendly face, bald crown, full grey-black beard, olive skin. Holding out a money pouch with a smile, half length. Sunlit city courtyard. Cream tunic and an ochre-yellow cloak. Warm afternoon light. Square 1:1 illustration for a Bible study guide. Painterly realism with visible brushwork. One person only. Clear silhouette that reads as a small thumbnail, with the face well lit. First-century eastern Mediterranean clothing and setting. No text, letters, frame, halo, or modern items. This is an interpretive illustration, not a known likeness."
+  },
+  {
+   "name": "acts/stephen",
+   "person": "Stephen",
+   "path": "dist/assets/portraits/acts/stephen.png",
+   "detail": "Young man in his mid-twenties, smooth oval face, short beard, light brown skin, short Greek-style hair. Standing and speaking with his face lifted upward, seen from a low angle. Stone council chamber with columns and deep shadow. White tunic with a pale blue mantle. Light falling from above.",
+   "prompt": "Create one image. Interpretive portrait of Stephen. Young man in his mid-twenties, smooth oval face, short beard, light brown skin, short Greek-style hair. Standing and speaking with his face lifted upward, seen from a low angle. Stone council chamber with columns and deep shadow. White tunic with a pale blue mantle. Light falling from above. Square 1:1 illustration for a Bible study guide. Painterly realism with visible brushwork. One person only. Clear silhouette that reads as a small thumbnail, with the face well lit. First-century eastern Mediterranean clothing and setting. No text, letters, frame, halo, or modern items. This is an interpretive illustration, not a known likeness."
+  },
+  {
+   "name": "acts/philip-evangelist",
+   "person": "Philip the evangelist",
+   "path": "dist/assets/portraits/acts/philip-evangelist.png",
+   "detail": "Man in his thirties, lean, sun-browned skin, short curly hair, light beard. Seated on the bench of a halted chariot, holding an open scroll and pointing to a line, turned to the right. Desert road, sand, and wide blue sky. Dusty green tunic. Bright desert noon.",
+   "prompt": "Create one image. Interpretive portrait of Philip the evangelist. Man in his thirties, lean, sun-browned skin, short curly hair, light beard. Seated on the bench of a halted chariot, holding an open scroll and pointing to a line, turned to the right. Desert road, sand, and wide blue sky. Dusty green tunic. Bright desert noon. Square 1:1 illustration for a Bible study guide. Painterly realism with visible brushwork. One person only. Clear silhouette that reads as a small thumbnail, with the face well lit. First-century eastern Mediterranean clothing and setting. No text, letters, frame, halo, or modern items. This is an interpretive illustration, not a known likeness."
+  },
+  {
+   "name": "acts/lydia",
+   "person": "Lydia",
+   "path": "dist/assets/portraits/acts/lydia.png",
+   "detail": "Woman in her forties, confident oval face, olive skin, hair in a braided updo. Standing at a riverside stall holding up a length of purple cloth, three-quarter view. River bank with dye vats. White dress with a purple-bordered mantle and gold earrings. Clear morning light.",
+   "prompt": "Create one image. Interpretive portrait of Lydia. Woman in her forties, confident oval face, olive skin, hair in a braided updo. Standing at a riverside stall holding up a length of purple cloth, three-quarter view. River bank with dye vats. White dress with a purple-bordered mantle and gold earrings. Clear morning light. Square 1:1 illustration for a Bible study guide. Painterly realism with visible brushwork. One person only. Clear silhouette that reads as a small thumbnail, with the face well lit. First-century eastern Mediterranean clothing and setting. No text, letters, frame, halo, or modern items. This is an interpretive illustration, not a known likeness."
+  },
+  {
+   "name": "acts/priscilla",
+   "person": "Priscilla",
+   "path": "dist/assets/portraits/acts/priscilla.png",
+   "detail": "Woman in her thirties, sharp intelligent face, light brown skin, dark hair tied back with a cloth band. Seated at a table with an open scroll, one hand raised in explanation, facing right. Workshop home with rolls of tent canvas. Teal dress and a sand-colored shawl. Window daylight.",
+   "prompt": "Create one image. Interpretive portrait of Priscilla. Woman in her thirties, sharp intelligent face, light brown skin, dark hair tied back with a cloth band. Seated at a table with an open scroll, one hand raised in explanation, facing right. Workshop home with rolls of tent canvas. Teal dress and a sand-colored shawl. Window daylight. Square 1:1 illustration for a Bible study guide. Painterly realism with visible brushwork. One person only. Clear silhouette that reads as a small thumbnail, with the face well lit. First-century eastern Mediterranean clothing and setting. No text, letters, frame, halo, or modern items. This is an interpretive illustration, not a known likeness."
+  },
+  {
+   "name": "acts/aquila",
+   "person": "Aquila",
+   "path": "dist/assets/portraits/acts/aquila.png",
+   "detail": "Stocky man in his forties, round face, short black beard, dark olive skin. Cutting leather with a curved knife at a bench, eyes down on the work, seen from the front left. Hanging leather and hand tools. Leather apron over a brick-red tunic. Warm side light.",
+   "prompt": "Create one image. Interpretive portrait of Aquila. Stocky man in his forties, round face, short black beard, dark olive skin. Cutting leather with a curved knife at a bench, eyes down on the work, seen from the front left. Hanging leather and hand tools. Leather apron over a brick-red tunic. Warm side light. Square 1:1 illustration for a Bible study guide. Painterly realism with visible brushwork. One person only. Clear silhouette that reads as a small thumbnail, with the face well lit. First-century eastern Mediterranean clothing and setting. No text, letters, frame, halo, or modern items. This is an interpretive illustration, not a known likeness."
+  },
+  {
+   "name": "acts/cornelius",
+   "person": "Cornelius",
+   "path": "dist/assets/portraits/acts/cornelius.png",
+   "detail": "Roman officer in his forties, clean-shaven, square jaw, short cropped greying hair, lightly tanned skin. Kneeling in prayer in a house courtyard with his helmet on the ground beside him, in profile. Columns and a distant sea. Red military cloak over scale armor. Late afternoon gold light.",
+   "prompt": "Create one image. Interpretive portrait of Cornelius. Roman officer in his forties, clean-shaven, square jaw, short cropped greying hair, lightly tanned skin. Kneeling in prayer in a house courtyard with his helmet on the ground beside him, in profile. Columns and a distant sea. Red military cloak over scale armor. Late afternoon gold light. Square 1:1 illustration for a Bible study guide. Painterly realism with visible brushwork. One person only. Clear silhouette that reads as a small thumbnail, with the face well lit. First-century eastern Mediterranean clothing and setting. No text, letters, frame, halo, or modern items. This is an interpretive illustration, not a known likeness."
+  },
+  {
+   "name": "acts/tabitha",
+   "person": "Tabitha, also called Dorcas",
+   "path": "dist/assets/portraits/acts/tabitha.png",
+   "detail": "Woman in her sixties, gentle round lined face, brown skin, grey hair under a light blue covering. Seated and sewing a tunic with a needle, smiling down at the work, half length. Upper room by a window above a harbor town. Cream and sea-blue cloth. Soft coastal light.",
+   "prompt": "Create one image. Interpretive portrait of Tabitha, also called Dorcas. Woman in her sixties, gentle round lined face, brown skin, grey hair under a light blue covering. Seated and sewing a tunic with a needle, smiling down at the work, half length. Upper room by a window above a harbor town. Cream and sea-blue cloth. Soft coastal light. Square 1:1 illustration for a Bible study guide. Painterly realism with visible brushwork. One person only. Clear silhouette that reads as a small thumbnail, with the face well lit. First-century eastern Mediterranean clothing and setting. No text, letters, frame, halo, or modern items. This is an interpretive illustration, not a known likeness."
+  },
+  {
+   "name": "acts/silas",
+   "person": "Silas",
+   "path": "dist/assets/portraits/acts/silas.png",
+   "detail": "Man in his thirties, long face, fair olive skin, shoulder-length brown hair, short beard. Seated on a prison floor singing with eyes raised, ankles held in wooden stocks, full figure. Dark stone cell with one torch. Torn grey tunic. Torch orange against deep shadow.",
+   "prompt": "Create one image. Interpretive portrait of Silas. Man in his thirties, long face, fair olive skin, shoulder-length brown hair, short beard. Seated on a prison floor singing with eyes raised, ankles held in wooden stocks, full figure. Dark stone cell with one torch. Torn grey tunic. Torch orange against deep shadow. Square 1:1 illustration for a Bible study guide. Painterly realism with visible brushwork. One person only. Clear silhouette that reads as a small thumbnail, with the face well lit. First-century eastern Mediterranean clothing and setting. No text, letters, frame, halo, or modern items. This is an interpretive illustration, not a known likeness."
+  },
+  {
+   "name": "romans/phoebe",
+   "person": "Phoebe",
+   "path": "dist/assets/portraits/romans/phoebe.png",
+   "detail": "Dignified woman in her forties, oval face, dark brown skin, hair covered with a coral scarf. Walking up a ship’s gangway with a sealed scroll case, turning to look back, three-quarter view. Busy harbor with moored ships. Coral and cream clothing. Bright sea light.",
+   "prompt": "Create one image. Interpretive portrait of Phoebe. Dignified woman in her forties, oval face, dark brown skin, hair covered with a coral scarf. Walking up a ship’s gangway with a sealed scroll case, turning to look back, three-quarter view. Busy harbor with moored ships. Coral and cream clothing. Bright sea light. Square 1:1 illustration for a Bible study guide. Painterly realism with visible brushwork. One person only. Clear silhouette that reads as a small thumbnail, with the face well lit. First-century eastern Mediterranean clothing and setting. No text, letters, frame, halo, or modern items. This is an interpretive illustration, not a known likeness."
+  },
+  {
+   "name": "romans/tertius",
+   "person": "Tertius",
+   "path": "dist/assets/portraits/romans/tertius.png",
+   "detail": "Young man in his twenties, round boyish face, curly dark hair, clean-shaven. Seated cross-legged, writing with a reed pen on papyrus on a knee board, seen from the front and slightly above. Small room with an inkpot and a lamp. Plain undyed tunic. Close warm lamplight.",
+   "prompt": "Create one image. Interpretive portrait of Tertius. Young man in his twenties, round boyish face, curly dark hair, clean-shaven. Seated cross-legged, writing with a reed pen on papyrus on a knee board, seen from the front and slightly above. Small room with an inkpot and a lamp. Plain undyed tunic. Close warm lamplight. Square 1:1 illustration for a Bible study guide. Painterly realism with visible brushwork. One person only. Clear silhouette that reads as a small thumbnail, with the face well lit. First-century eastern Mediterranean clothing and setting. No text, letters, frame, halo, or modern items. This is an interpretive illustration, not a known likeness."
+  },
+  {
+   "name": "romans/timothy",
+   "person": "Timothy",
+   "path": "dist/assets/portraits/romans/timothy.png",
+   "detail": "Slim young man in his early twenties, soft oval face, light brown wavy hair, faint beard. Walking a mountain road with a travel bag and staff, looking ahead, full length from the side. Dry green hills. Olive-green cloak. Cool morning light.",
+   "prompt": "Create one image. Interpretive portrait of Timothy. Slim young man in his early twenties, soft oval face, light brown wavy hair, faint beard. Walking a mountain road with a travel bag and staff, looking ahead, full length from the side. Dry green hills. Olive-green cloak. Cool morning light. Square 1:1 illustration for a Bible study guide. Painterly realism with visible brushwork. One person only. Clear silhouette that reads as a small thumbnail, with the face well lit. First-century eastern Mediterranean clothing and setting. No text, letters, frame, halo, or modern items. This is an interpretive illustration, not a known likeness."
+  },
+  {
+   "name": "1-corinthians/apollos",
+   "person": "Apollos",
+   "path": "dist/assets/portraits/1-corinthians/apollos.png",
+   "detail": "Man in his thirties from Alexandria, narrow handsome face, dark brown skin, short neat beard. Standing and speaking with one arm raised and a scroll in the other hand, seen from a low side angle. City colonnade. White tunic with a deep red mantle. Strong sun and hard shadow.",
+   "prompt": "Create one image. Interpretive portrait of Apollos. Man in his thirties from Alexandria, narrow handsome face, dark brown skin, short neat beard. Standing and speaking with one arm raised and a scroll in the other hand, seen from a low side angle. City colonnade. White tunic with a deep red mantle. Strong sun and hard shadow. Square 1:1 illustration for a Bible study guide. Painterly realism with visible brushwork. One person only. Clear silhouette that reads as a small thumbnail, with the face well lit. First-century eastern Mediterranean clothing and setting. No text, letters, frame, halo, or modern items. This is an interpretive illustration, not a known likeness."
+  },
+  {
+   "name": "1-corinthians/chloe",
+   "person": "Chloe",
+   "path": "dist/assets/portraits/1-corinthians/chloe.png",
+   "detail": "Composed woman in her fifties, long face, olive skin, grey-streaked hair in a bun. Standing in a household doorway holding a wax tablet, waist up, frontal. Courtyard with a loom behind. Mustard dress and a dark green mantle. Diffuse shade.",
+   "prompt": "Create one image. Interpretive portrait of Chloe. Composed woman in her fifties, long face, olive skin, grey-streaked hair in a bun. Standing in a household doorway holding a wax tablet, waist up, frontal. Courtyard with a loom behind. Mustard dress and a dark green mantle. Diffuse shade. Square 1:1 illustration for a Bible study guide. Painterly realism with visible brushwork. One person only. Clear silhouette that reads as a small thumbnail, with the face well lit. First-century eastern Mediterranean clothing and setting. No text, letters, frame, halo, or modern items. This is an interpretive illustration, not a known likeness."
+  },
+  {
+   "name": "2-corinthians/titus",
+   "person": "Titus",
+   "path": "dist/assets/portraits/2-corinthians/titus.png",
+   "detail": "Greek man in his thirties, strong jaw, clean-shaven, short brown hair, tanned skin. Dusty from the road, holding out a folded letter with a tired smile, half length. City gate at the end of a journey. Slate-blue cloak. Dusk light.",
+   "prompt": "Create one image. Interpretive portrait of Titus. Greek man in his thirties, strong jaw, clean-shaven, short brown hair, tanned skin. Dusty from the road, holding out a folded letter with a tired smile, half length. City gate at the end of a journey. Slate-blue cloak. Dusk light. Square 1:1 illustration for a Bible study guide. Painterly realism with visible brushwork. One person only. Clear silhouette that reads as a small thumbnail, with the face well lit. First-century eastern Mediterranean clothing and setting. No text, letters, frame, halo, or modern items. This is an interpretive illustration, not a known likeness."
+  },
+  {
+   "name": "ephesians/tychicus",
+   "person": "Tychicus",
+   "path": "dist/assets/portraits/ephesians/tychicus.png",
+   "detail": "Lean man in his forties, narrow face, cropped black hair and beard, brown skin. Standing on the deck of a small ship, gripping a rope, with a satchel of letters across his chest and wind in his cloak. Open sea and islands. Sea-green and tan clothing. Bright windy day.",
+   "prompt": "Create one image. Interpretive portrait of Tychicus. Lean man in his forties, narrow face, cropped black hair and beard, brown skin. Standing on the deck of a small ship, gripping a rope, with a satchel of letters across his chest and wind in his cloak. Open sea and islands. Sea-green and tan clothing. Bright windy day. Square 1:1 illustration for a Bible study guide. Painterly realism with visible brushwork. One person only. Clear silhouette that reads as a small thumbnail, with the face well lit. First-century eastern Mediterranean clothing and setting. No text, letters, frame, halo, or modern items. This is an interpretive illustration, not a known likeness."
+  },
+  {
+   "name": "philippians/epaphroditus",
+   "person": "Epaphroditus",
+   "path": "dist/assets/portraits/philippians/epaphroditus.png",
+   "detail": "Man in his thirties recovering from illness, thin pale face, dark hair, shadows under the eyes. Sitting up on a bed mat wrapped in a blanket with a weak smile, three-quarter view. Simple room with a bowl and cup. Ochre blanket over an off-white tunic. Soft window light.",
+   "prompt": "Create one image. Interpretive portrait of Epaphroditus. Man in his thirties recovering from illness, thin pale face, dark hair, shadows under the eyes. Sitting up on a bed mat wrapped in a blanket with a weak smile, three-quarter view. Simple room with a bowl and cup. Ochre blanket over an off-white tunic. Soft window light. Square 1:1 illustration for a Bible study guide. Painterly realism with visible brushwork. One person only. Clear silhouette that reads as a small thumbnail, with the face well lit. First-century eastern Mediterranean clothing and setting. No text, letters, frame, halo, or modern items. This is an interpretive illustration, not a known likeness."
+  },
+  {
+   "name": "philippians/euodia",
+   "person": "Euodia",
+   "path": "dist/assets/portraits/philippians/euodia.png",
+   "detail": "Woman in her forties, broad cheerful face, dark skin, hair wrapped in an orange cloth. Kneading bread at a table and looking up at the viewer. House kitchen with a clay oven. Orange and brown clothing. Warm firelight.",
+   "prompt": "Create one image. Interpretive portrait of Euodia. Woman in her forties, broad cheerful face, dark skin, hair wrapped in an orange cloth. Kneading bread at a table and looking up at the viewer. House kitchen with a clay oven. Orange and brown clothing. Warm firelight. Square 1:1 illustration for a Bible study guide. Painterly realism with visible brushwork. One person only. Clear silhouette that reads as a small thumbnail, with the face well lit. First-century eastern Mediterranean clothing and setting. No text, letters, frame, halo, or modern items. This is an interpretive illustration, not a known likeness."
+  },
+  {
+   "name": "philippians/syntyche",
+   "person": "Syntyche",
+   "path": "dist/assets/portraits/philippians/syntyche.png",
+   "detail": "Woman in her thirties, angular face, light olive skin, straight black hair in a long braid. Standing beside a river with a basket on her hip, looking to one side. Reeds and slow water. Lavender-grey dress. Cool overcast light.",
+   "prompt": "Create one image. Interpretive portrait of Syntyche. Woman in her thirties, angular face, light olive skin, straight black hair in a long braid. Standing beside a river with a basket on her hip, looking to one side. Reeds and slow water. Lavender-grey dress. Cool overcast light. Square 1:1 illustration for a Bible study guide. Painterly realism with visible brushwork. One person only. Clear silhouette that reads as a small thumbnail, with the face well lit. First-century eastern Mediterranean clothing and setting. No text, letters, frame, halo, or modern items. This is an interpretive illustration, not a known likeness."
+  },
+  {
+   "name": "colossians/epaphras",
+   "person": "Epaphras",
+   "path": "dist/assets/portraits/colossians/epaphras.png",
+   "detail": "Heavyset man in his fifties, round face, bald head, grey beard. Kneeling in prayer with hands lifted, in profile from the right. Bare room with a woven mat. Brown tunic with a wine-red cloak. Dawn light through a high window.",
+   "prompt": "Create one image. Interpretive portrait of Epaphras. Heavyset man in his fifties, round face, bald head, grey beard. Kneeling in prayer with hands lifted, in profile from the right. Bare room with a woven mat. Brown tunic with a wine-red cloak. Dawn light through a high window. Square 1:1 illustration for a Bible study guide. Painterly realism with visible brushwork. One person only. Clear silhouette that reads as a small thumbnail, with the face well lit. First-century eastern Mediterranean clothing and setting. No text, letters, frame, halo, or modern items. This is an interpretive illustration, not a known likeness."
+  },
+  {
+   "name": "colossians/onesimus",
+   "person": "Onesimus",
+   "path": "dist/assets/portraits/colossians/onesimus.png",
+   "detail": "Slender young man about twenty, dark brown skin, short curly hair, no beard. Walking a country road toward the viewer with a letter in his hand, wary and resolved, full length. River valley road with poplar trees. Plain short grey tunic and worn sandals. Afternoon sun.",
+   "prompt": "Create one image. Interpretive portrait of Onesimus. Slender young man about twenty, dark brown skin, short curly hair, no beard. Walking a country road toward the viewer with a letter in his hand, wary and resolved, full length. River valley road with poplar trees. Plain short grey tunic and worn sandals. Afternoon sun. Square 1:1 illustration for a Bible study guide. Painterly realism with visible brushwork. One person only. Clear silhouette that reads as a small thumbnail, with the face well lit. First-century eastern Mediterranean clothing and setting. No text, letters, frame, halo, or modern items. This is an interpretive illustration, not a known likeness."
+  },
+  {
+   "name": "philemon/philemon",
+   "person": "Philemon",
+   "path": "dist/assets/portraits/philemon/philemon.png",
+   "detail": "Prosperous man in his fifties, oval face, trimmed grey beard, olive skin. Standing in the atrium of his house reading a letter with one brow raised, half length. Mosaic floor and columns. Cream tunic and a blue mantle. Indoor daylight.",
+   "prompt": "Create one image. Interpretive portrait of Philemon. Prosperous man in his fifties, oval face, trimmed grey beard, olive skin. Standing in the atrium of his house reading a letter with one brow raised, half length. Mosaic floor and columns. Cream tunic and a blue mantle. Indoor daylight. Square 1:1 illustration for a Bible study guide. Painterly realism with visible brushwork. One person only. Clear silhouette that reads as a small thumbnail, with the face well lit. First-century eastern Mediterranean clothing and setting. No text, letters, frame, halo, or modern items. This is an interpretive illustration, not a known likeness."
+  },
+  {
+   "name": "james/james-letter",
+   "person": "James",
+   "path": "dist/assets/portraits/james/james-letter.png",
+   "detail": "Austere man in his sixties, long face, long grey beard, deep-set eyes, weathered skin. Seated on worn city steps writing on a scroll and looking outward. Narrow stone street. Plain white linen robe. Pale morning light.",
+   "prompt": "Create one image. Interpretive portrait of James. Austere man in his sixties, long face, long grey beard, deep-set eyes, weathered skin. Seated on worn city steps writing on a scroll and looking outward. Narrow stone street. Plain white linen robe. Pale morning light. Square 1:1 illustration for a Bible study guide. Painterly realism with visible brushwork. One person only. Clear silhouette that reads as a small thumbnail, with the face well lit. First-century eastern Mediterranean clothing and setting. No text, letters, frame, halo, or modern items. This is an interpretive illustration, not a known likeness."
+  },
+  {
+   "name": "3-john/gaius-letter",
+   "person": "Gaius",
+   "path": "dist/assets/portraits/3-john/gaius-letter.png",
+   "detail": "Welcoming man in his forties, round face, short brown beard. Holding a door open with one hand and a clay lamp in the other, facing the viewer. House doorway at night. Warm yellow tunic. Lamp glow against a blue night.",
+   "prompt": "Create one image. Interpretive portrait of Gaius. Welcoming man in his forties, round face, short brown beard. Holding a door open with one hand and a clay lamp in the other, facing the viewer. House doorway at night. Warm yellow tunic. Lamp glow against a blue night. Square 1:1 illustration for a Bible study guide. Painterly realism with visible brushwork. One person only. Clear silhouette that reads as a small thumbnail, with the face well lit. First-century eastern Mediterranean clothing and setting. No text, letters, frame, halo, or modern items. This is an interpretive illustration, not a known likeness."
+  },
+  {
+   "name": "3-john/diotrephes",
+   "person": "Diotrephes",
+   "path": "dist/assets/portraits/3-john/diotrephes.png",
+   "detail": "Proud man in his fifties, narrow face, sharp nose, sleek black hair, pointed beard. Standing with crossed arms across a meeting-room doorway, chin raised, seen from a low angle. Benches inside. Dark purple-brown robe. Hard side light.",
+   "prompt": "Create one image. Interpretive portrait of Diotrephes. Proud man in his fifties, narrow face, sharp nose, sleek black hair, pointed beard. Standing with crossed arms across a meeting-room doorway, chin raised, seen from a low angle. Benches inside. Dark purple-brown robe. Hard side light. Square 1:1 illustration for a Bible study guide. Painterly realism with visible brushwork. One person only. Clear silhouette that reads as a small thumbnail, with the face well lit. First-century eastern Mediterranean clothing and setting. No text, letters, frame, halo, or modern items. This is an interpretive illustration, not a known likeness."
+  },
+  {
+   "name": "3-john/demetrius-letter",
+   "person": "Demetrius",
+   "path": "dist/assets/portraits/3-john/demetrius-letter.png",
+   "detail": "Man in his thirties, open square face, sandy-brown hair, light beard. A traveler arriving with a pack and staff, one hand raised in greeting, full length. Country road and a village. Green cloak. Midday light.",
+   "prompt": "Create one image. Interpretive portrait of Demetrius. Man in his thirties, open square face, sandy-brown hair, light beard. A traveler arriving with a pack and staff, one hand raised in greeting, full length. Country road and a village. Green cloak. Midday light. Square 1:1 illustration for a Bible study guide. Painterly realism with visible brushwork. One person only. Clear silhouette that reads as a small thumbnail, with the face well lit. First-century eastern Mediterranean clothing and setting. No text, letters, frame, halo, or modern items. This is an interpretive illustration, not a known likeness."
+  },
+  {
+   "name": "jude/jude-letter",
+   "person": "Jude",
+   "path": "dist/assets/portraits/jude/jude-letter.png",
+   "detail": "Rugged man in his fifties, square face, greying black hair and beard, tanned skin. Standing on a rocky coast under storm clouds, holding a scroll against the wind. Rough sea. Charcoal cloak over a sand-colored tunic. Grey storm light with one break of sun.",
+   "prompt": "Create one image. Interpretive portrait of Jude. Rugged man in his fifties, square face, greying black hair and beard, tanned skin. Standing on a rocky coast under storm clouds, holding a scroll against the wind. Rough sea. Charcoal cloak over a sand-colored tunic. Grey storm light with one break of sun. Square 1:1 illustration for a Bible study guide. Painterly realism with visible brushwork. One person only. Clear silhouette that reads as a small thumbnail, with the face well lit. First-century eastern Mediterranean clothing and setting. No text, letters, frame, halo, or modern items. This is an interpretive illustration, not a known likeness."
+  },
+  {
+   "name": "revelation/john-vision",
+   "person": "John",
+   "path": "dist/assets/portraits/revelation/john-vision.png",
+   "detail": "Very old man in his eighties, thin long face, long white hair and beard, deeply lined skin. Kneeling on a rocky island shore with a scroll, looking up at a blazing sky, seen from behind and to the side. Cliffs and sea. Faded brown tunic. Golden-white radiance against deep blue.",
+   "prompt": "Create one image. Interpretive portrait of John. Very old man in his eighties, thin long face, long white hair and beard, deeply lined skin. Kneeling on a rocky island shore with a scroll, looking up at a blazing sky, seen from behind and to the side. Cliffs and sea. Faded brown tunic. Golden-white radiance against deep blue. Square 1:1 illustration for a Bible study guide. Painterly realism with visible brushwork. One person only. Clear silhouette that reads as a small thumbnail, with the face well lit. First-century eastern Mediterranean clothing and setting. No text, letters, frame, halo, or modern items. This is an interpretive illustration, not a known likeness."
+  }
+ ]
+}
