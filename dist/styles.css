@@ -169,12 +169,12 @@ path.map-feature.campaign-hit:hover,path.map-feature.campaign-hit:focus-visible{
 /* Full-book navigation keeps the source control visible. */
 #railChapters{min-height:0;overflow-y:auto;flex:1;width:100%;scrollbar-width:thin;scrollbar-color:#276181 transparent}
 .rail{overflow:hidden}.rail-footer{flex-shrink:0}
-.scripture-heading .chapter-picker{min-width:0;width:220px;max-width:100%;margin:0;color:var(--ink)}
-.chapter-picker-block{min-width:0;width:220px;max-width:100%;text-align:center}.chapter-picker-block .chapter-picker{width:100%}.chapter-date{margin:4px 0 0;color:#b8d4e3;font:12px/1.25 var(--sans)}
+.scripture-heading .chapter-picker{min-width:0;max-width:100%;margin:0;color:var(--ink)}
+.chapter-picker-block{min-width:0;width:max-content;max-width:100%;text-align:center}.chapter-picker-block .chapter-picker{width:auto}.chapter-date{margin:4px 0 0;color:#b8d4e3;font:12px/1.25 var(--sans)}
 .sidebar-content{padding-top:0}
 .scripture-heading{position:sticky;top:0;z-index:4;margin-top:0;padding:8px 0;background:#041d34;box-shadow:0 8px 14px #021323b8}
 .scripture-resize{border-inline-end:0}
-.chapter-picker-trigger{position:relative;display:block;width:100%;min-height:44px;padding:6px 32px;border:1px solid transparent;border-radius:8px;background:transparent;color:inherit;font:inherit;white-space:nowrap;cursor:pointer}
+.chapter-picker-trigger{position:relative;display:block;width:auto;max-width:100%;margin:0 auto;min-height:44px;padding:6px 32px;overflow:hidden;text-overflow:ellipsis;border:1px solid transparent;border-radius:8px;background:transparent;color:inherit;font:inherit;white-space:nowrap;cursor:pointer}
 .chapter-picker-trigger svg{position:absolute;right:12px;top:50%;transform:translateY(-50%)}
 .chapter-picker-trigger:hover,.chapter-picker-trigger[aria-expanded=true]{background:#062441;border-color:#37617e}
 .chapter-picker-trigger:focus-visible{outline:2px solid var(--cyan);outline-offset:2px}
