@@ -1,0 +1,52 @@
+// Portrait variety, batch 4: the New Testament portraits again, in the calm low-texture style with a close crop.
+// Run to write batch4-generation.json and batch4-queue.json. This batch replaces the images from batch 1.
+import { writeFileSync } from 'node:fs';
+import { fileURLToPath } from 'node:url';
+const style = 'Square 1:1 illustration for a Bible study guide. Head and shoulders, with the face large in the upper half of the frame. One person only. Calm, simplified painting with broad soft shapes and smooth gradients. Low detail in cloth and background. Plain, softly blurred background. Gentle contrast. No gritty texture, no fine noise, no sharp micro-detail. First-century eastern Mediterranean clothing. No text, letters, frame, halo, or modern items. This is an interpretive illustration, not a known likeness.';
+const rows = [
+  ['matthew/jesus', 'Jesus of Nazareth', 'Jewish man about thirty, oval face, olive-brown skin, dark shoulder-length hair, short beard, warm steady gaze, one open hand raised. Cream tunic with a faded blue-grey mantle. Soft gold dawn sky over a pale lake.'],
+  ['matthew/mary-mother', 'Mary, mother of Jesus', 'Young woman, round face, light brown skin, dark hair under a madder-red head covering, looking down with a small smile at a wrapped infant held near her shoulder. Pale whitewashed wall. Cool morning light.'],
+  ['matthew/joseph-mary', 'Joseph, husband of Mary', 'Man in his thirties, broad square face, tanned skin, short dark curly hair and beard, glancing back over his shoulder. Brown wool cloak. Deep blue night with a soft orange lantern glow.'],
+  ['matthew/john-baptizer', 'John the Baptizer', 'Lean man about thirty, long narrow face, sunburnt skin, long untamed hair and beard, mouth open in speech, one arm raised. Rough camel-hair garment. Pale green river and bright sky.'],
+  ['matthew/peter', 'Simon Peter the fisherman', 'Stocky man in his forties, wide weathered face, thick greying curly hair and beard, squinting toward the light with a net over one shoulder. Grey-brown tunic. Silver-blue lake mist.'],
+  ['matthew/mary-magdalene', 'Mary Magdalene', 'Woman about thirty, long face with high cheekbones, brown skin, dark wavy hair under a deep green shawl, turning toward the viewer in surprise. Soft violet dawn background.'],
+  ['john/nicodemus', 'Nicodemus', 'Man in his seventies, long thin face, white beard, pale olive skin, leaning forward to listen, in profile facing left. Dark blue robe with a striped shawl over his head. Warm lamp glow against night blue.'],
+  ['john/thomas', 'Thomas', 'Man in his late twenties, narrow face, heavy brows, short black hair, close beard, dark brown skin, doubtful look, one hand half raised. Grey-green tunic. Dim warm-grey room with one soft beam of light.'],
+  ['john/martha', 'Martha of Bethany', 'Woman in her forties, strong square face, tanned skin, hair bound in a saffron-yellow cloth, speaking earnestly. Terracotta dress. Soft overcast pale-stone background.'],
+  ['john/mary-bethany', 'Mary of Bethany', 'Woman in her early twenties, heart-shaped face, light olive skin, long loose dark hair, eyes lowered, holding a small alabaster jar near her chest. Pale rose dress. Warm amber lamplight background.'],
+  ['john/lazarus', 'Lazarus of Bethany', 'Man about thirty-five, gaunt oval face, pale skin, short dark beard, blinking in bright light, loosened white linen wraps around his head and shoulders. Dark rock behind with strong soft daylight.'],
+  ['acts/paul', 'Paul, also called Saul', 'Middle-aged man, lean angular face, receding dark hair, short dark beard, weathered skin, looking up mid-thought. Deep indigo cloak over a rust tunic. Cool blue shade with a warm copper glow.'],
+  ['acts/barnabas', 'Barnabas', 'Heavy-framed man in his fifties, round friendly face, bald crown, full grey-black beard, olive skin, wide smile. Cream tunic and an ochre-yellow cloak. Warm afternoon courtyard blur.'],
+  ['acts/stephen', 'Stephen', 'Young man in his mid-twenties, smooth oval face, short beard, light brown skin, short hair, face lifted upward and lit from above. White tunic with a pale blue mantle. Soft shadowed stone background.'],
+  ['acts/philip-evangelist', 'Philip the evangelist', 'Man in his thirties, lean face, sun-browned skin, short curly hair, light beard, smiling as he points to a line on an open scroll. Dusty green tunic. Bright sand and blue sky.'],
+  ['acts/lydia', 'Lydia, seller of purple', 'Woman in her forties, confident oval face, olive skin, hair in a braided updo, gold earrings, a fold of purple cloth over her arm. White dress. Clear pale river-blue background.'],
+  ['acts/priscilla', 'Priscilla', 'Woman in her thirties, sharp intelligent face, light brown skin, dark hair tied back with a cloth band, one hand raised in explanation. Teal dress. Soft window daylight on a sand-colored wall.'],
+  ['acts/aquila', 'Aquila the tentmaker', 'Stocky man in his forties, round face, short black beard, dark olive skin, eyes down on his work. Leather apron over a brick-red tunic. Warm brown workshop blur.'],
+  ['acts/cornelius', 'Cornelius the centurion', 'Roman officer in his forties, clean-shaven, square jaw, short cropped greying hair, eyes closed in prayer, in profile facing right. Red military cloak. Late afternoon gold background.'],
+  ['acts/tabitha', 'Tabitha, also called Dorcas', 'Woman in her sixties, gentle round lined face, brown skin, grey hair under a light blue covering, smiling down at her sewing. Cream dress. Soft sea-blue window light.'],
+  ['acts/silas', 'Silas', 'Man in his thirties, long face, fair olive skin, shoulder-length brown hair, short beard, eyes raised, singing. Torn grey tunic. Dark warm background with a torch-orange glow.'],
+  ['romans/phoebe', 'Phoebe of Cenchreae', 'Woman in her forties, dignified oval face, dark brown skin, coral head scarf, holding a sealed scroll case against her shoulder. Cream dress. Bright pale harbor-blue background.'],
+  ['romans/tertius', 'Tertius the scribe', 'Young man in his twenties, round boyish face, curly dark hair, clean-shaven, biting his lip in focus with a reed pen in hand. Plain undyed tunic. Close warm lamplight background.'],
+  ['romans/timothy', 'Timothy', 'Slim young man in his early twenties, soft oval face, light brown wavy hair, faint beard, looking ahead with a travel bag strap on his shoulder. Olive-green cloak. Cool morning hills blur.'],
+  ['1-corinthians/apollos', 'Apollos of Alexandria', 'Man in his thirties, narrow handsome face, dark brown skin, short neat beard, speaking with one arm raised. White tunic with a deep red mantle. Pale sunlit colonnade blur.'],
+  ['1-corinthians/chloe', 'Chloe', 'Woman in her fifties, composed long face, olive skin, grey-streaked hair in a bun, holding a wax tablet. Mustard dress with a dark green mantle. Soft shaded courtyard background.'],
+  ['2-corinthians/titus', 'Titus', 'Greek man in his thirties, strong jaw, clean-shaven, short brown hair, tanned skin, tired smile. Slate-blue travel cloak. Warm dusk background.'],
+  ['ephesians/tychicus', 'Tychicus the messenger', 'Lean man in his forties, narrow face, cropped black hair and beard, brown skin, wind in his hair, satchel strap across his chest. Sea-green cloak. Bright sea and sky.'],
+  ['philippians/epaphroditus', 'Epaphroditus', 'Man in his thirties, thin pale face, dark hair, shadows under the eyes, weak grateful smile, a blanket around his shoulders. Ochre blanket. Soft window light on a plain wall.'],
+  ['philippians/euodia', 'Euodia', 'Woman in her forties, broad cheerful face, dark skin, hair wrapped in an orange cloth, laughing. Brown dress. Warm firelight background.'],
+  ['philippians/syntyche', 'Syntyche', 'Woman in her thirties, angular face, light olive skin, straight black hair in a long braid over one shoulder, looking to one side. Lavender-grey dress. Cool overcast river background.'],
+  ['colossians/epaphras', 'Epaphras', 'Heavyset man in his fifties, round face, bald head, grey beard, eyes closed in prayer, in profile facing left. Brown tunic with a wine-red cloak. Soft dawn light from a high window.'],
+  ['colossians/onesimus', 'Onesimus', 'Slender young man about twenty, dark brown skin, short curly hair, no beard, wary and resolved, holding a letter against his chest. Plain grey tunic. Sunlit pale green valley blur.'],
+  ['philemon/philemon', 'Philemon', 'Prosperous man in his fifties, oval face, trimmed grey beard, olive skin, one brow raised as he reads a letter. Cream tunic and a blue mantle. Soft indoor daylight on pale columns.'],
+  ['james/james-letter', 'James of Jerusalem', 'Austere man in his sixties, long face, long grey beard, deep-set eyes, weathered skin, looking outward. Plain white linen robe. Pale morning stone background.'],
+  ['3-john/gaius-letter', 'Gaius the host', 'Welcoming man in his forties, round face, short brown beard, warm smile, holding a small clay lamp near his face. Warm yellow tunic. Deep blue night behind.'],
+  ['3-john/diotrephes', 'Diotrephes', 'Proud man in his fifties, narrow face, sharp nose, sleek black hair, pointed beard, chin raised, arms crossed. Dark purple-brown robe. Cool grey background with hard side light.'],
+  ['3-john/demetrius-letter', 'Demetrius the traveler', 'Man in his thirties, open square face, sandy-brown hair, light beard, one hand raised in greeting, a staff at his shoulder. Green cloak. Bright midday country blur.'],
+  ['jude/jude-letter', 'Jude', 'Rugged man in his fifties, square face, greying black hair and beard, tanned skin, wind-blown, grave look. Charcoal cloak. Grey storm sky with one soft break of sun.'],
+  ['revelation/john-vision', 'John on Patmos', 'Very old man in his eighties, thin long face, long white hair and beard, deeply lined skin, looking up in awe with light on his face. Faded brown tunic. Golden-white glow against deep blue.']
+];
+const assets = rows.map(([name, person, detail]) => ({ name, person, path: `dist/assets/portraits/${name}.png`, detail, prompt: `Create one image. Interpretive portrait of ${person}. ${detail} ${style}` }));
+const here = p => fileURLToPath(new URL(p, import.meta.url));
+writeFileSync(here('./batch4-generation.json'), JSON.stringify({ tool: 'ChatGPT built-in image generation', assets }, null, 1) + '\n');
+writeFileSync(here('./batch4-queue.json'), JSON.stringify(assets.map(a => [a.name.replace('/', '--'), a.prompt])));
+console.log(`wrote ${assets.length} prompts`);
