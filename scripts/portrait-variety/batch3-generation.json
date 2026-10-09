@@ -1,0 +1,411 @@
+{
+ "tool": "ChatGPT built-in image generation",
+ "assets": [
+  {
+   "name": "jeremiah/cover",
+   "person": "Jeremiah the prophet",
+   "path": "dist/assets/portraits/jeremiah/cover.png",
+   "detail": "Man in his forties, long tired face, dark hair with first grey, short beard, eyes lowered in grief. Undyed linen robe. Soft dusk-violet background.",
+   "prompt": "Create one image. Interpretive portrait of Jeremiah the prophet. Man in his forties, long tired face, dark hair with first grey, short beard, eyes lowered in grief. Undyed linen robe. Soft dusk-violet background. Square 1:1 illustration for a Bible study guide. Head and shoulders, with the face large in the upper half of the frame. One person only. Calm, simplified painting with broad soft shapes and smooth gradients. Low detail in cloth and background. Plain, softly blurred background. Gentle contrast. No gritty texture, no fine noise, no sharp micro-detail. Ancient Near Eastern clothing of the sixth century BC. No text, letters, frame, halo, or modern items. This is an interpretive illustration, not a known likeness."
+  },
+  {
+   "name": "jeremiah/baruch",
+   "person": "Baruch the scribe",
+   "path": "dist/assets/portraits/jeremiah/baruch.png",
+   "detail": "Man in his thirties, narrow careful face, ink-stained fingers holding a reed pen near his chin, three-quarter view. Pale sand tunic. Warm cream background.",
+   "prompt": "Create one image. Interpretive portrait of Baruch the scribe. Man in his thirties, narrow careful face, ink-stained fingers holding a reed pen near his chin, three-quarter view. Pale sand tunic. Warm cream background. Square 1:1 illustration for a Bible study guide. Head and shoulders, with the face large in the upper half of the frame. One person only. Calm, simplified painting with broad soft shapes and smooth gradients. Low detail in cloth and background. Plain, softly blurred background. Gentle contrast. No gritty texture, no fine noise, no sharp micro-detail. Ancient Near Eastern clothing of the sixth century BC. No text, letters, frame, halo, or modern items. This is an interpretive illustration, not a known likeness."
+  },
+  {
+   "name": "jeremiah/ebedmelech",
+   "person": "Ebedmelech the Ethiopian palace servant",
+   "path": "dist/assets/portraits/jeremiah/ebedmelech.png",
+   "detail": "Man in his forties, dark brown skin, broad kind face, close-cropped hair, holding a coil of rope and old cloths. White palace tunic. Soft teal background.",
+   "prompt": "Create one image. Interpretive portrait of Ebedmelech the Ethiopian palace servant. Man in his forties, dark brown skin, broad kind face, close-cropped hair, holding a coil of rope and old cloths. White palace tunic. Soft teal background. Square 1:1 illustration for a Bible study guide. Head and shoulders, with the face large in the upper half of the frame. One person only. Calm, simplified painting with broad soft shapes and smooth gradients. Low detail in cloth and background. Plain, softly blurred background. Gentle contrast. No gritty texture, no fine noise, no sharp micro-detail. Ancient Near Eastern clothing of the sixth century BC. No text, letters, frame, halo, or modern items. This is an interpretive illustration, not a known likeness."
+  },
+  {
+   "name": "jeremiah/pashhur-immer",
+   "person": "Pashhur son of Immer, a temple officer",
+   "path": "dist/assets/portraits/jeremiah/pashhur-immer.png",
+   "detail": "Heavy-set man in his fifties, stern square face, grey beard, priestly white turban, chin raised. White robe with a blue sash. Cool stone-grey background.",
+   "prompt": "Create one image. Interpretive portrait of Pashhur son of Immer, a temple officer. Heavy-set man in his fifties, stern square face, grey beard, priestly white turban, chin raised. White robe with a blue sash. Cool stone-grey background. Square 1:1 illustration for a Bible study guide. Head and shoulders, with the face large in the upper half of the frame. One person only. Calm, simplified painting with broad soft shapes and smooth gradients. Low detail in cloth and background. Plain, softly blurred background. Gentle contrast. No gritty texture, no fine noise, no sharp micro-detail. Ancient Near Eastern clothing of the sixth century BC. No text, letters, frame, halo, or modern items. This is an interpretive illustration, not a known likeness."
+  },
+  {
+   "name": "jeremiah/pashhur-malchijah",
+   "person": "Pashhur son of Malchijah, a court official",
+   "path": "dist/assets/portraits/jeremiah/pashhur-malchijah.png",
+   "detail": "Lean man in his thirties, sharp face, trimmed black beard, sideways glance. Dark red court robe. Muted olive background.",
+   "prompt": "Create one image. Interpretive portrait of Pashhur son of Malchijah, a court official. Lean man in his thirties, sharp face, trimmed black beard, sideways glance. Dark red court robe. Muted olive background. Square 1:1 illustration for a Bible study guide. Head and shoulders, with the face large in the upper half of the frame. One person only. Calm, simplified painting with broad soft shapes and smooth gradients. Low detail in cloth and background. Plain, softly blurred background. Gentle contrast. No gritty texture, no fine noise, no sharp micro-detail. Ancient Near Eastern clothing of the sixth century BC. No text, letters, frame, halo, or modern items. This is an interpretive illustration, not a known likeness."
+  },
+  {
+   "name": "jeremiah/hananiah-azzur",
+   "person": "Hananiah son of Azzur, a prophet",
+   "path": "dist/assets/portraits/jeremiah/hananiah-azzur.png",
+   "detail": "Confident man in his forties, round face, wide smile, thick dark beard, one hand lifting a broken wooden yoke bar. Bright yellow mantle. Light sky-blue background.",
+   "prompt": "Create one image. Interpretive portrait of Hananiah son of Azzur, a prophet. Confident man in his forties, round face, wide smile, thick dark beard, one hand lifting a broken wooden yoke bar. Bright yellow mantle. Light sky-blue background. Square 1:1 illustration for a Bible study guide. Head and shoulders, with the face large in the upper half of the frame. One person only. Calm, simplified painting with broad soft shapes and smooth gradients. Low detail in cloth and background. Plain, softly blurred background. Gentle contrast. No gritty texture, no fine noise, no sharp micro-detail. Ancient Near Eastern clothing of the sixth century BC. No text, letters, frame, halo, or modern items. This is an interpretive illustration, not a known likeness."
+  },
+  {
+   "name": "jeremiah/hilkiah-father",
+   "person": "Hilkiah, a priest of Anathoth",
+   "path": "dist/assets/portraits/jeremiah/hilkiah-father.png",
+   "detail": "Old man in his seventies, gentle long face, white beard, small white priestly cap, in profile facing right. Cream robe. Soft green hillside blur.",
+   "prompt": "Create one image. Interpretive portrait of Hilkiah, a priest of Anathoth. Old man in his seventies, gentle long face, white beard, small white priestly cap, in profile facing right. Cream robe. Soft green hillside blur. Square 1:1 illustration for a Bible study guide. Head and shoulders, with the face large in the upper half of the frame. One person only. Calm, simplified painting with broad soft shapes and smooth gradients. Low detail in cloth and background. Plain, softly blurred background. Gentle contrast. No gritty texture, no fine noise, no sharp micro-detail. Ancient Near Eastern clothing of the sixth century BC. No text, letters, frame, halo, or modern items. This is an interpretive illustration, not a known likeness."
+  },
+  {
+   "name": "jeremiah/uriah-shemaiah",
+   "person": "Uriah son of Shemaiah, a prophet",
+   "path": "dist/assets/portraits/jeremiah/uriah-shemaiah.png",
+   "detail": "Young man in his late twenties, thin anxious face, short beard, looking back over his shoulder. Dusty brown travel cloak with a hood. Pale desert-rose background.",
+   "prompt": "Create one image. Interpretive portrait of Uriah son of Shemaiah, a prophet. Young man in his late twenties, thin anxious face, short beard, looking back over his shoulder. Dusty brown travel cloak with a hood. Pale desert-rose background. Square 1:1 illustration for a Bible study guide. Head and shoulders, with the face large in the upper half of the frame. One person only. Calm, simplified painting with broad soft shapes and smooth gradients. Low detail in cloth and background. Plain, softly blurred background. Gentle contrast. No gritty texture, no fine noise, no sharp micro-detail. Ancient Near Eastern clothing of the sixth century BC. No text, letters, frame, halo, or modern items. This is an interpretive illustration, not a known likeness."
+  },
+  {
+   "name": "jeremiah/micah-prophet",
+   "person": "Micah the Morashtite",
+   "path": "dist/assets/portraits/jeremiah/micah-prophet.png",
+   "detail": "Countryman in his fifties, sun-browned oval face, grey-streaked curly hair, steady gaze, shepherd’s staff at his shoulder. Earth-green cloak. Wheat-gold background.",
+   "prompt": "Create one image. Interpretive portrait of Micah the Morashtite. Countryman in his fifties, sun-browned oval face, grey-streaked curly hair, steady gaze, shepherd’s staff at his shoulder. Earth-green cloak. Wheat-gold background. Square 1:1 illustration for a Bible study guide. Head and shoulders, with the face large in the upper half of the frame. One person only. Calm, simplified painting with broad soft shapes and smooth gradients. Low detail in cloth and background. Plain, softly blurred background. Gentle contrast. No gritty texture, no fine noise, no sharp micro-detail. Ancient Near Eastern clothing of the sixth century BC. No text, letters, frame, halo, or modern items. This is an interpretive illustration, not a known likeness."
+  },
+  {
+   "name": "jeremiah/elnathan-achbor",
+   "person": "Elnathan son of Achbor, a royal official",
+   "path": "dist/assets/portraits/jeremiah/elnathan-achbor.png",
+   "detail": "Man in his fifties, smooth guarded face, neat grey beard, hands folded at his chest. Deep blue robe with a gold neck band. Plain ivory background.",
+   "prompt": "Create one image. Interpretive portrait of Elnathan son of Achbor, a royal official. Man in his fifties, smooth guarded face, neat grey beard, hands folded at his chest. Deep blue robe with a gold neck band. Plain ivory background. Square 1:1 illustration for a Bible study guide. Head and shoulders, with the face large in the upper half of the frame. One person only. Calm, simplified painting with broad soft shapes and smooth gradients. Low detail in cloth and background. Plain, softly blurred background. Gentle contrast. No gritty texture, no fine noise, no sharp micro-detail. Ancient Near Eastern clothing of the sixth century BC. No text, letters, frame, halo, or modern items. This is an interpretive illustration, not a known likeness."
+  },
+  {
+   "name": "jeremiah/elasah-shaphan",
+   "person": "Elasah son of Shaphan, a royal messenger",
+   "path": "dist/assets/portraits/jeremiah/elasah-shaphan.png",
+   "detail": "Man in his thirties, open oval face, short brown beard, holding a sealed letter roll. Rust travel cloak. Hazy pale-blue road background.",
+   "prompt": "Create one image. Interpretive portrait of Elasah son of Shaphan, a royal messenger. Man in his thirties, open oval face, short brown beard, holding a sealed letter roll. Rust travel cloak. Hazy pale-blue road background. Square 1:1 illustration for a Bible study guide. Head and shoulders, with the face large in the upper half of the frame. One person only. Calm, simplified painting with broad soft shapes and smooth gradients. Low detail in cloth and background. Plain, softly blurred background. Gentle contrast. No gritty texture, no fine noise, no sharp micro-detail. Ancient Near Eastern clothing of the sixth century BC. No text, letters, frame, halo, or modern items. This is an interpretive illustration, not a known likeness."
+  },
+  {
+   "name": "jeremiah/gemariah-hilkiah",
+   "person": "Gemariah son of Hilkiah, a royal messenger",
+   "path": "dist/assets/portraits/jeremiah/gemariah-hilkiah.png",
+   "detail": "Man in his forties, long face, high forehead, thin beard, eyes on the distance, in profile facing left. Slate-grey cloak. Warm peach dawn background.",
+   "prompt": "Create one image. Interpretive portrait of Gemariah son of Hilkiah, a royal messenger. Man in his forties, long face, high forehead, thin beard, eyes on the distance, in profile facing left. Slate-grey cloak. Warm peach dawn background. Square 1:1 illustration for a Bible study guide. Head and shoulders, with the face large in the upper half of the frame. One person only. Calm, simplified painting with broad soft shapes and smooth gradients. Low detail in cloth and background. Plain, softly blurred background. Gentle contrast. No gritty texture, no fine noise, no sharp micro-detail. Ancient Near Eastern clothing of the sixth century BC. No text, letters, frame, halo, or modern items. This is an interpretive illustration, not a known likeness."
+  },
+  {
+   "name": "jeremiah/ahab-kolaiah",
+   "person": "Ahab son of Kolaiah, a prophet in Babylon",
+   "path": "dist/assets/portraits/jeremiah/ahab-kolaiah.png",
+   "detail": "Man in his forties, fleshy face, oiled curled beard, half smile, one hand raised as if speaking. Purple-brown fringed robe. Glazed blue brick blur behind.",
+   "prompt": "Create one image. Interpretive portrait of Ahab son of Kolaiah, a prophet in Babylon. Man in his forties, fleshy face, oiled curled beard, half smile, one hand raised as if speaking. Purple-brown fringed robe. Glazed blue brick blur behind. Square 1:1 illustration for a Bible study guide. Head and shoulders, with the face large in the upper half of the frame. One person only. Calm, simplified painting with broad soft shapes and smooth gradients. Low detail in cloth and background. Plain, softly blurred background. Gentle contrast. No gritty texture, no fine noise, no sharp micro-detail. Ancient Near Eastern clothing of the sixth century BC. No text, letters, frame, halo, or modern items. This is an interpretive illustration, not a known likeness."
+  },
+  {
+   "name": "jeremiah/zedekiah-maaseiah",
+   "person": "Zedekiah son of Maaseiah, a prophet in Babylon",
+   "path": "dist/assets/portraits/jeremiah/zedekiah-maaseiah.png",
+   "detail": "Man in his thirties, gaunt face, intense eyes, shaved upper lip with a chin beard, frontal. Orange-red mantle. Dark teal background.",
+   "prompt": "Create one image. Interpretive portrait of Zedekiah son of Maaseiah, a prophet in Babylon. Man in his thirties, gaunt face, intense eyes, shaved upper lip with a chin beard, frontal. Orange-red mantle. Dark teal background. Square 1:1 illustration for a Bible study guide. Head and shoulders, with the face large in the upper half of the frame. One person only. Calm, simplified painting with broad soft shapes and smooth gradients. Low detail in cloth and background. Plain, softly blurred background. Gentle contrast. No gritty texture, no fine noise, no sharp micro-detail. Ancient Near Eastern clothing of the sixth century BC. No text, letters, frame, halo, or modern items. This is an interpretive illustration, not a known likeness."
+  },
+  {
+   "name": "jeremiah/shemaiah-nehelamite",
+   "person": "Shemaiah the Nehelamite",
+   "path": "dist/assets/portraits/jeremiah/shemaiah-nehelamite.png",
+   "detail": "Man in his fifties, pinched face, thin grey beard, frowning down at a letter he is writing. Mustard robe. Soft lavender-grey background.",
+   "prompt": "Create one image. Interpretive portrait of Shemaiah the Nehelamite. Man in his fifties, pinched face, thin grey beard, frowning down at a letter he is writing. Mustard robe. Soft lavender-grey background. Square 1:1 illustration for a Bible study guide. Head and shoulders, with the face large in the upper half of the frame. One person only. Calm, simplified painting with broad soft shapes and smooth gradients. Low detail in cloth and background. Plain, softly blurred background. Gentle contrast. No gritty texture, no fine noise, no sharp micro-detail. Ancient Near Eastern clothing of the sixth century BC. No text, letters, frame, halo, or modern items. This is an interpretive illustration, not a known likeness."
+  },
+  {
+   "name": "jeremiah/hanamel",
+   "person": "Hanamel, cousin of Jeremiah",
+   "path": "dist/assets/portraits/jeremiah/hanamel.png",
+   "detail": "Farmer in his forties, round weathered face, short beard, hopeful look, holding a small clay jar. Faded green tunic. Pale straw-yellow field blur.",
+   "prompt": "Create one image. Interpretive portrait of Hanamel, cousin of Jeremiah. Farmer in his forties, round weathered face, short beard, hopeful look, holding a small clay jar. Faded green tunic. Pale straw-yellow field blur. Square 1:1 illustration for a Bible study guide. Head and shoulders, with the face large in the upper half of the frame. One person only. Calm, simplified painting with broad soft shapes and smooth gradients. Low detail in cloth and background. Plain, softly blurred background. Gentle contrast. No gritty texture, no fine noise, no sharp micro-detail. Ancient Near Eastern clothing of the sixth century BC. No text, letters, frame, halo, or modern items. This is an interpretive illustration, not a known likeness."
+  },
+  {
+   "name": "jeremiah/jaazaniah-rechabite",
+   "person": "Jaazaniah the Rechabite",
+   "path": "dist/assets/portraits/jeremiah/jaazaniah-rechabite.png",
+   "detail": "Tent-dwelling man in his fifties, lean lined face, long dark hair tied back, long beard, gently pushing away a wine cup with one hand. Striped goat-hair cloak. Soft tan background.",
+   "prompt": "Create one image. Interpretive portrait of Jaazaniah the Rechabite. Tent-dwelling man in his fifties, lean lined face, long dark hair tied back, long beard, gently pushing away a wine cup with one hand. Striped goat-hair cloak. Soft tan background. Square 1:1 illustration for a Bible study guide. Head and shoulders, with the face large in the upper half of the frame. One person only. Calm, simplified painting with broad soft shapes and smooth gradients. Low detail in cloth and background. Plain, softly blurred background. Gentle contrast. No gritty texture, no fine noise, no sharp micro-detail. Ancient Near Eastern clothing of the sixth century BC. No text, letters, frame, halo, or modern items. This is an interpretive illustration, not a known likeness."
+  },
+  {
+   "name": "jeremiah/gemariah-shaphan",
+   "person": "Gemariah son of Shaphan, an official",
+   "path": "dist/assets/portraits/jeremiah/gemariah-shaphan.png",
+   "detail": "Man in his forties, calm square face, short black beard, listening with head tilted. Light blue robe. Warm stone-colored room blur.",
+   "prompt": "Create one image. Interpretive portrait of Gemariah son of Shaphan, an official. Man in his forties, calm square face, short black beard, listening with head tilted. Light blue robe. Warm stone-colored room blur. Square 1:1 illustration for a Bible study guide. Head and shoulders, with the face large in the upper half of the frame. One person only. Calm, simplified painting with broad soft shapes and smooth gradients. Low detail in cloth and background. Plain, softly blurred background. Gentle contrast. No gritty texture, no fine noise, no sharp micro-detail. Ancient Near Eastern clothing of the sixth century BC. No text, letters, frame, halo, or modern items. This is an interpretive illustration, not a known likeness."
+  },
+  {
+   "name": "jeremiah/micaiah-gemariah",
+   "person": "Micaiah son of Gemariah",
+   "path": "dist/assets/portraits/jeremiah/micaiah-gemariah.png",
+   "detail": "Young man about twenty, smooth face, wide worried eyes, short curly hair, no beard, turning to hurry away. Cream tunic. Soft coral background.",
+   "prompt": "Create one image. Interpretive portrait of Micaiah son of Gemariah. Young man about twenty, smooth face, wide worried eyes, short curly hair, no beard, turning to hurry away. Cream tunic. Soft coral background. Square 1:1 illustration for a Bible study guide. Head and shoulders, with the face large in the upper half of the frame. One person only. Calm, simplified painting with broad soft shapes and smooth gradients. Low detail in cloth and background. Plain, softly blurred background. Gentle contrast. No gritty texture, no fine noise, no sharp micro-detail. Ancient Near Eastern clothing of the sixth century BC. No text, letters, frame, halo, or modern items. This is an interpretive illustration, not a known likeness."
+  },
+  {
+   "name": "jeremiah/elishama-scribe",
+   "person": "Elishama the royal scribe",
+   "path": "dist/assets/portraits/jeremiah/elishama-scribe.png",
+   "detail": "Man in his sixties, full face, bald head, white beard, holding a closed scroll against his chest. Dark green robe. Plain warm-grey background.",
+   "prompt": "Create one image. Interpretive portrait of Elishama the royal scribe. Man in his sixties, full face, bald head, white beard, holding a closed scroll against his chest. Dark green robe. Plain warm-grey background. Square 1:1 illustration for a Bible study guide. Head and shoulders, with the face large in the upper half of the frame. One person only. Calm, simplified painting with broad soft shapes and smooth gradients. Low detail in cloth and background. Plain, softly blurred background. Gentle contrast. No gritty texture, no fine noise, no sharp micro-detail. Ancient Near Eastern clothing of the sixth century BC. No text, letters, frame, halo, or modern items. This is an interpretive illustration, not a known likeness."
+  },
+  {
+   "name": "jeremiah/delaiah-shemaiah",
+   "person": "Delaiah son of Shemaiah, an official",
+   "path": "dist/assets/portraits/jeremiah/delaiah-shemaiah.png",
+   "detail": "Man in his forties, earnest oval face, brown beard, one open hand raised in appeal. Wine-red robe. Soft amber firelight background.",
+   "prompt": "Create one image. Interpretive portrait of Delaiah son of Shemaiah, an official. Man in his forties, earnest oval face, brown beard, one open hand raised in appeal. Wine-red robe. Soft amber firelight background. Square 1:1 illustration for a Bible study guide. Head and shoulders, with the face large in the upper half of the frame. One person only. Calm, simplified painting with broad soft shapes and smooth gradients. Low detail in cloth and background. Plain, softly blurred background. Gentle contrast. No gritty texture, no fine noise, no sharp micro-detail. Ancient Near Eastern clothing of the sixth century BC. No text, letters, frame, halo, or modern items. This is an interpretive illustration, not a known likeness."
+  },
+  {
+   "name": "jeremiah/zedekiah-hananiah",
+   "person": "Zedekiah son of Hananiah, an official",
+   "path": "dist/assets/portraits/jeremiah/zedekiah-hananiah.png",
+   "detail": "Man in his thirties, long narrow face, close beard, arms crossed, thoughtful. Indigo robe. Pale grey-green background.",
+   "prompt": "Create one image. Interpretive portrait of Zedekiah son of Hananiah, an official. Man in his thirties, long narrow face, close beard, arms crossed, thoughtful. Indigo robe. Pale grey-green background. Square 1:1 illustration for a Bible study guide. Head and shoulders, with the face large in the upper half of the frame. One person only. Calm, simplified painting with broad soft shapes and smooth gradients. Low detail in cloth and background. Plain, softly blurred background. Gentle contrast. No gritty texture, no fine noise, no sharp micro-detail. Ancient Near Eastern clothing of the sixth century BC. No text, letters, frame, halo, or modern items. This is an interpretive illustration, not a known likeness."
+  },
+  {
+   "name": "jeremiah/jehudi",
+   "person": "Jehudi, a court messenger",
+   "path": "dist/assets/portraits/jeremiah/jehudi.png",
+   "detail": "Slim man in his twenties, alert face, short black hair, small beard, reading aloud from an open scroll. Plain white tunic with a red belt. Warm brazier-orange glow behind.",
+   "prompt": "Create one image. Interpretive portrait of Jehudi, a court messenger. Slim man in his twenties, alert face, short black hair, small beard, reading aloud from an open scroll. Plain white tunic with a red belt. Warm brazier-orange glow behind. Square 1:1 illustration for a Bible study guide. Head and shoulders, with the face large in the upper half of the frame. One person only. Calm, simplified painting with broad soft shapes and smooth gradients. Low detail in cloth and background. Plain, softly blurred background. Gentle contrast. No gritty texture, no fine noise, no sharp micro-detail. Ancient Near Eastern clothing of the sixth century BC. No text, letters, frame, halo, or modern items. This is an interpretive illustration, not a known likeness."
+  },
+  {
+   "name": "jeremiah/jehucal-shelemiah",
+   "person": "Jehucal son of Shelemiah, an official",
+   "path": "dist/assets/portraits/jeremiah/jehucal-shelemiah.png",
+   "detail": "Man in his forties, broad face, heavy brows, dark beard, wary sideways look. Brown robe with a yellow shoulder cloth. Dusty blue background.",
+   "prompt": "Create one image. Interpretive portrait of Jehucal son of Shelemiah, an official. Man in his forties, broad face, heavy brows, dark beard, wary sideways look. Brown robe with a yellow shoulder cloth. Dusty blue background. Square 1:1 illustration for a Bible study guide. Head and shoulders, with the face large in the upper half of the frame. One person only. Calm, simplified painting with broad soft shapes and smooth gradients. Low detail in cloth and background. Plain, softly blurred background. Gentle contrast. No gritty texture, no fine noise, no sharp micro-detail. Ancient Near Eastern clothing of the sixth century BC. No text, letters, frame, halo, or modern items. This is an interpretive illustration, not a known likeness."
+  },
+  {
+   "name": "jeremiah/irijah",
+   "person": "Irijah, a gate guard",
+   "path": "dist/assets/portraits/jeremiah/irijah.png",
+   "detail": "Soldier in his thirties, hard square face, stubble, leather cap, gripping a spear shaft beside his face. Leather vest over a grey tunic. Sunlit pale stone gate blur.",
+   "prompt": "Create one image. Interpretive portrait of Irijah, a gate guard. Soldier in his thirties, hard square face, stubble, leather cap, gripping a spear shaft beside his face. Leather vest over a grey tunic. Sunlit pale stone gate blur. Square 1:1 illustration for a Bible study guide. Head and shoulders, with the face large in the upper half of the frame. One person only. Calm, simplified painting with broad soft shapes and smooth gradients. Low detail in cloth and background. Plain, softly blurred background. Gentle contrast. No gritty texture, no fine noise, no sharp micro-detail. Ancient Near Eastern clothing of the sixth century BC. No text, letters, frame, halo, or modern items. This is an interpretive illustration, not a known likeness."
+  },
+  {
+   "name": "jeremiah/jonathan-scribe",
+   "person": "Jonathan the scribe",
+   "path": "dist/assets/portraits/jeremiah/jonathan-scribe.png",
+   "detail": "Man in his fifties, thin closed face, grey hair, short beard, a ring of keys in his hand. Dull blue robe. Dim brown interior blur.",
+   "prompt": "Create one image. Interpretive portrait of Jonathan the scribe. Man in his fifties, thin closed face, grey hair, short beard, a ring of keys in his hand. Dull blue robe. Dim brown interior blur. Square 1:1 illustration for a Bible study guide. Head and shoulders, with the face large in the upper half of the frame. One person only. Calm, simplified painting with broad soft shapes and smooth gradients. Low detail in cloth and background. Plain, softly blurred background. Gentle contrast. No gritty texture, no fine noise, no sharp micro-detail. Ancient Near Eastern clothing of the sixth century BC. No text, letters, frame, halo, or modern items. This is an interpretive illustration, not a known likeness."
+  },
+  {
+   "name": "jeremiah/malchijah-royal",
+   "person": "Malchijah, the king’s son",
+   "path": "dist/assets/portraits/jeremiah/malchijah-royal.png",
+   "detail": "Young prince in his twenties, proud smooth face, short oiled beard, gold circlet, chin raised. Crimson robe. Soft gold background.",
+   "prompt": "Create one image. Interpretive portrait of Malchijah, the king’s son. Young prince in his twenties, proud smooth face, short oiled beard, gold circlet, chin raised. Crimson robe. Soft gold background. Square 1:1 illustration for a Bible study guide. Head and shoulders, with the face large in the upper half of the frame. One person only. Calm, simplified painting with broad soft shapes and smooth gradients. Low detail in cloth and background. Plain, softly blurred background. Gentle contrast. No gritty texture, no fine noise, no sharp micro-detail. Ancient Near Eastern clothing of the sixth century BC. No text, letters, frame, halo, or modern items. This is an interpretive illustration, not a known likeness."
+  },
+  {
+   "name": "jeremiah/jonathan-kareah",
+   "person": "Jonathan son of Kareah, a field commander",
+   "path": "dist/assets/portraits/jeremiah/jonathan-kareah.png",
+   "detail": "Soldier in his thirties, tanned oval face, short beard, a scar on one cheek, bronze helmet under his arm. Olive-green cloak. Hazy hill-country background.",
+   "prompt": "Create one image. Interpretive portrait of Jonathan son of Kareah, a field commander. Soldier in his thirties, tanned oval face, short beard, a scar on one cheek, bronze helmet under his arm. Olive-green cloak. Hazy hill-country background. Square 1:1 illustration for a Bible study guide. Head and shoulders, with the face large in the upper half of the frame. One person only. Calm, simplified painting with broad soft shapes and smooth gradients. Low detail in cloth and background. Plain, softly blurred background. Gentle contrast. No gritty texture, no fine noise, no sharp micro-detail. Ancient Near Eastern clothing of the sixth century BC. No text, letters, frame, halo, or modern items. This is an interpretive illustration, not a known likeness."
+  },
+  {
+   "name": "jeremiah/baalis",
+   "person": "Baalis, king of the Ammonites",
+   "path": "dist/assets/portraits/jeremiah/baalis.png",
+   "detail": "King in his fifties, heavy-lidded face, braided grey-black beard, tall cloth crown, cold half smile. Dark green and gold robe. Deep maroon background.",
+   "prompt": "Create one image. Interpretive portrait of Baalis, king of the Ammonites. King in his fifties, heavy-lidded face, braided grey-black beard, tall cloth crown, cold half smile. Dark green and gold robe. Deep maroon background. Square 1:1 illustration for a Bible study guide. Head and shoulders, with the face large in the upper half of the frame. One person only. Calm, simplified painting with broad soft shapes and smooth gradients. Low detail in cloth and background. Plain, softly blurred background. Gentle contrast. No gritty texture, no fine noise, no sharp micro-detail. Ancient Near Eastern clothing of the sixth century BC. No text, letters, frame, halo, or modern items. This is an interpretive illustration, not a known likeness."
+  },
+  {
+   "name": "jeremiah/jezaniah-hoshaiah",
+   "person": "Jezaniah son of Hoshaiah",
+   "path": "dist/assets/portraits/jeremiah/jezaniah-hoshaiah.png",
+   "detail": "Man in his forties, worn round face, untidy beard, hands pressed together in a request. Torn grey-brown cloak. Pale overcast background.",
+   "prompt": "Create one image. Interpretive portrait of Jezaniah son of Hoshaiah. Man in his forties, worn round face, untidy beard, hands pressed together in a request. Torn grey-brown cloak. Pale overcast background. Square 1:1 illustration for a Bible study guide. Head and shoulders, with the face large in the upper half of the frame. One person only. Calm, simplified painting with broad soft shapes and smooth gradients. Low detail in cloth and background. Plain, softly blurred background. Gentle contrast. No gritty texture, no fine noise, no sharp micro-detail. Ancient Near Eastern clothing of the sixth century BC. No text, letters, frame, halo, or modern items. This is an interpretive illustration, not a known likeness."
+  },
+  {
+   "name": "jeremiah/azariah-hoshaiah",
+   "person": "Azariah son of Hoshaiah",
+   "path": "dist/assets/portraits/jeremiah/azariah-hoshaiah.png",
+   "detail": "Man in his forties, angry long face, black beard, pointing a finger forward. Dark rust cloak. Stormy grey-blue background.",
+   "prompt": "Create one image. Interpretive portrait of Azariah son of Hoshaiah. Man in his forties, angry long face, black beard, pointing a finger forward. Dark rust cloak. Stormy grey-blue background. Square 1:1 illustration for a Bible study guide. Head and shoulders, with the face large in the upper half of the frame. One person only. Calm, simplified painting with broad soft shapes and smooth gradients. Low detail in cloth and background. Plain, softly blurred background. Gentle contrast. No gritty texture, no fine noise, no sharp micro-detail. Ancient Near Eastern clothing of the sixth century BC. No text, letters, frame, halo, or modern items. This is an interpretive illustration, not a known likeness."
+  },
+  {
+   "name": "jeremiah/hophra",
+   "person": "Pharaoh Hophra of Egypt",
+   "path": "dist/assets/portraits/jeremiah/hophra.png",
+   "detail": "Egyptian king in his forties, clean-shaven oval face, kohl-lined eyes, blue-and-gold striped royal headcloth, in profile facing right. White linen with a broad collar. Warm sand background.",
+   "prompt": "Create one image. Interpretive portrait of Pharaoh Hophra of Egypt. Egyptian king in his forties, clean-shaven oval face, kohl-lined eyes, blue-and-gold striped royal headcloth, in profile facing right. White linen with a broad collar. Warm sand background. Square 1:1 illustration for a Bible study guide. Head and shoulders, with the face large in the upper half of the frame. One person only. Calm, simplified painting with broad soft shapes and smooth gradients. Low detail in cloth and background. Plain, softly blurred background. Gentle contrast. No gritty texture, no fine noise, no sharp micro-detail. Ancient Near Eastern clothing of the sixth century BC. No text, letters, frame, halo, or modern items. This is an interpretive illustration, not a known likeness."
+  },
+  {
+   "name": "jeremiah/seraiah-neriah",
+   "person": "Seraiah son of Neriah, a court officer",
+   "path": "dist/assets/portraits/jeremiah/seraiah-neriah.png",
+   "detail": "Man in his forties, composed face, short beard, holding a scroll tied to a stone above river water. Blue-grey travel cloak. Soft river-green background.",
+   "prompt": "Create one image. Interpretive portrait of Seraiah son of Neriah, a court officer. Man in his forties, composed face, short beard, holding a scroll tied to a stone above river water. Blue-grey travel cloak. Soft river-green background. Square 1:1 illustration for a Bible study guide. Head and shoulders, with the face large in the upper half of the frame. One person only. Calm, simplified painting with broad soft shapes and smooth gradients. Low detail in cloth and background. Plain, softly blurred background. Gentle contrast. No gritty texture, no fine noise, no sharp micro-detail. Ancient Near Eastern clothing of the sixth century BC. No text, letters, frame, halo, or modern items. This is an interpretive illustration, not a known likeness."
+  },
+  {
+   "name": "jeremiah/rechabites",
+   "person": "The Rechabites, a family",
+   "path": "dist/assets/portraits/jeremiah/rechabites.png",
+   "detail": "A father, a mother, and a teenage son standing close together, weathered faces, simple striped cloaks, wine cups left untouched on a low table before them. Soft tan background.",
+   "prompt": "Create one image. Interpretive portrait of The Rechabites, a family. A father, a mother, and a teenage son standing close together, weathered faces, simple striped cloaks, wine cups left untouched on a low table before them. Soft tan background. Square 1:1 illustration for a Bible study guide. Faces large and clear in the upper half of the frame. Calm, simplified painting with broad soft shapes and smooth gradients. Low detail in cloth and background. Plain, softly blurred background. Gentle contrast. No gritty texture, no fine noise, no sharp micro-detail. Ancient Near Eastern clothing of the sixth century BC. No text, letters, frame, halo, or modern items. This is an interpretive illustration, not a known likeness."
+  },
+  {
+   "name": "jeremiah/arrest-officers",
+   "person": "Three royal officers sent to arrest Jeremiah and Baruch",
+   "path": "dist/assets/portraits/jeremiah/arrest-officers.png",
+   "detail": "Three men of different ages and builds in dark cloaks, searching with a small lamp, looking in different directions. Deep blue night background.",
+   "prompt": "Create one image. Interpretive portrait of Three royal officers sent to arrest Jeremiah and Baruch. Three men of different ages and builds in dark cloaks, searching with a small lamp, looking in different directions. Deep blue night background. Square 1:1 illustration for a Bible study guide. Faces large and clear in the upper half of the frame. Calm, simplified painting with broad soft shapes and smooth gradients. Low detail in cloth and background. Plain, softly blurred background. Gentle contrast. No gritty texture, no fine noise, no sharp micro-detail. Ancient Near Eastern clothing of the sixth century BC. No text, letters, frame, halo, or modern items. This is an interpretive illustration, not a known likeness."
+  },
+  {
+   "name": "jeremiah/hostile-officials",
+   "person": "Shephatiah and Gedaliah, two officials who oppose Jeremiah",
+   "path": "dist/assets/portraits/jeremiah/hostile-officials.png",
+   "detail": "Two court officials side by side, one tall and thin with a grey beard, one short and stout with a black beard, both frowning. Red and brown robes. Plain ochre background.",
+   "prompt": "Create one image. Interpretive portrait of Shephatiah and Gedaliah, two officials who oppose Jeremiah. Two court officials side by side, one tall and thin with a grey beard, one short and stout with a black beard, both frowning. Red and brown robes. Plain ochre background. Square 1:1 illustration for a Bible study guide. Faces large and clear in the upper half of the frame. Calm, simplified painting with broad soft shapes and smooth gradients. Low detail in cloth and background. Plain, softly blurred background. Gentle contrast. No gritty texture, no fine noise, no sharp micro-detail. Ancient Near Eastern clothing of the sixth century BC. No text, letters, frame, halo, or modern items. This is an interpretive illustration, not a known likeness."
+  },
+  {
+   "name": "jeremiah/babylonian-officers",
+   "person": "Babylonian officers at the gate of Jerusalem",
+   "path": "dist/assets/portraits/jeremiah/babylonian-officers.png",
+   "detail": "Three Babylonian officers seated in a row, long curled beards, tall rounded caps, fringed robes in blue, red, and green. Pale broken stone wall behind.",
+   "prompt": "Create one image. Interpretive portrait of Babylonian officers at the gate of Jerusalem. Three Babylonian officers seated in a row, long curled beards, tall rounded caps, fringed robes in blue, red, and green. Pale broken stone wall behind. Square 1:1 illustration for a Bible study guide. Faces large and clear in the upper half of the frame. Calm, simplified painting with broad soft shapes and smooth gradients. Low detail in cloth and background. Plain, softly blurred background. Gentle contrast. No gritty texture, no fine noise, no sharp micro-detail. Ancient Near Eastern clothing of the sixth century BC. No text, letters, frame, halo, or modern items. This is an interpretive illustration, not a known likeness."
+  },
+  {
+   "name": "jeremiah/women-queen",
+   "person": "Judean women in Egypt",
+   "path": "dist/assets/portraits/jeremiah/women-queen.png",
+   "detail": "Three women of different ages, head coverings in rose, saffron, and green, one holding a small plate of cakes, all facing the viewer firmly. Soft Nile-reed green background.",
+   "prompt": "Create one image. Interpretive portrait of Judean women in Egypt. Three women of different ages, head coverings in rose, saffron, and green, one holding a small plate of cakes, all facing the viewer firmly. Soft Nile-reed green background. Square 1:1 illustration for a Bible study guide. Faces large and clear in the upper half of the frame. Calm, simplified painting with broad soft shapes and smooth gradients. Low detail in cloth and background. Plain, softly blurred background. Gentle contrast. No gritty texture, no fine noise, no sharp micro-detail. Ancient Near Eastern clothing of the sixth century BC. No text, letters, frame, halo, or modern items. This is an interpretive illustration, not a known likeness."
+  },
+  {
+   "name": "lamentations/grieving-speaker",
+   "person": "The grieving man of Lamentations",
+   "path": "dist/assets/portraits/lamentations/grieving-speaker.png",
+   "detail": "Man in his fifties, hollow face, grey stubble, ash on his hair, eyes closed, head bowed onto one hand. Rough sackcloth. Smoke-grey background with a faint warm glow.",
+   "prompt": "Create one image. Interpretive portrait of The grieving man of Lamentations. Man in his fifties, hollow face, grey stubble, ash on his hair, eyes closed, head bowed onto one hand. Rough sackcloth. Smoke-grey background with a faint warm glow. Square 1:1 illustration for a Bible study guide. Head and shoulders, with the face large in the upper half of the frame. One person only. Calm, simplified painting with broad soft shapes and smooth gradients. Low detail in cloth and background. Plain, softly blurred background. Gentle contrast. No gritty texture, no fine noise, no sharp micro-detail. Ancient Near Eastern clothing of the sixth century BC. No text, letters, frame, halo, or modern items. This is an interpretive illustration, not a known likeness."
+  },
+  {
+   "name": "ezekiel/ezekiel",
+   "person": "Ezekiel, priest and prophet",
+   "path": "dist/assets/portraits/ezekiel/ezekiel.png",
+   "detail": "Man about thirty, strong angular face, shaved head, short black beard, wide eyes lifted upward. White linen priest’s tunic. Soft storm-gold and blue sky background.",
+   "prompt": "Create one image. Interpretive portrait of Ezekiel, priest and prophet. Man about thirty, strong angular face, shaved head, short black beard, wide eyes lifted upward. White linen priest’s tunic. Soft storm-gold and blue sky background. Square 1:1 illustration for a Bible study guide. Head and shoulders, with the face large in the upper half of the frame. One person only. Calm, simplified painting with broad soft shapes and smooth gradients. Low detail in cloth and background. Plain, softly blurred background. Gentle contrast. No gritty texture, no fine noise, no sharp micro-detail. Ancient Near Eastern clothing of the sixth century BC. No text, letters, frame, halo, or modern items. This is an interpretive illustration, not a known likeness."
+  },
+  {
+   "name": "ezekiel/ezekiel-wife",
+   "person": "The wife of Ezekiel",
+   "path": "dist/assets/portraits/ezekiel/ezekiel-wife.png",
+   "detail": "Woman about thirty, gentle oval face, olive skin, dark hair under a pale blue covering, soft sad smile, three-quarter view. Cream dress. Warm rose evening background.",
+   "prompt": "Create one image. Interpretive portrait of The wife of Ezekiel. Woman about thirty, gentle oval face, olive skin, dark hair under a pale blue covering, soft sad smile, three-quarter view. Cream dress. Warm rose evening background. Square 1:1 illustration for a Bible study guide. Head and shoulders, with the face large in the upper half of the frame. One person only. Calm, simplified painting with broad soft shapes and smooth gradients. Low detail in cloth and background. Plain, softly blurred background. Gentle contrast. No gritty texture, no fine noise, no sharp micro-detail. Ancient Near Eastern clothing of the sixth century BC. No text, letters, frame, halo, or modern items. This is an interpretive illustration, not a known likeness."
+  },
+  {
+   "name": "daniel/daniel",
+   "person": "Daniel in Babylon",
+   "path": "dist/assets/portraits/daniel/daniel.png",
+   "detail": "Young man about twenty, clear oval face, light brown skin, short dark hair, no beard, calm direct gaze. Simple cream tunic with a blue Babylonian shoulder sash. Glazed turquoise tile blur.",
+   "prompt": "Create one image. Interpretive portrait of Daniel in Babylon. Young man about twenty, clear oval face, light brown skin, short dark hair, no beard, calm direct gaze. Simple cream tunic with a blue Babylonian shoulder sash. Glazed turquoise tile blur. Square 1:1 illustration for a Bible study guide. Head and shoulders, with the face large in the upper half of the frame. One person only. Calm, simplified painting with broad soft shapes and smooth gradients. Low detail in cloth and background. Plain, softly blurred background. Gentle contrast. No gritty texture, no fine noise, no sharp micro-detail. Ancient Near Eastern clothing of the sixth century BC. No text, letters, frame, halo, or modern items. This is an interpretive illustration, not a known likeness."
+  },
+  {
+   "name": "daniel/shadrach",
+   "person": "Hananiah, called Shadrach",
+   "path": "dist/assets/portraits/daniel/shadrach.png",
+   "detail": "Young man about twenty, square face, thick eyebrows, short curly hair, light beard, arms folded. Sand tunic with a red sash. Warm orange background.",
+   "prompt": "Create one image. Interpretive portrait of Hananiah, called Shadrach. Young man about twenty, square face, thick eyebrows, short curly hair, light beard, arms folded. Sand tunic with a red sash. Warm orange background. Square 1:1 illustration for a Bible study guide. Head and shoulders, with the face large in the upper half of the frame. One person only. Calm, simplified painting with broad soft shapes and smooth gradients. Low detail in cloth and background. Plain, softly blurred background. Gentle contrast. No gritty texture, no fine noise, no sharp micro-detail. Ancient Near Eastern clothing of the sixth century BC. No text, letters, frame, halo, or modern items. This is an interpretive illustration, not a known likeness."
+  },
+  {
+   "name": "daniel/meshach",
+   "person": "Mishael, called Meshach",
+   "path": "dist/assets/portraits/daniel/meshach.png",
+   "detail": "Young man about twenty, long thin face, straight black hair to the jaw, no beard, slight smile. Pale green tunic. Soft yellow background.",
+   "prompt": "Create one image. Interpretive portrait of Mishael, called Meshach. Young man about twenty, long thin face, straight black hair to the jaw, no beard, slight smile. Pale green tunic. Soft yellow background. Square 1:1 illustration for a Bible study guide. Head and shoulders, with the face large in the upper half of the frame. One person only. Calm, simplified painting with broad soft shapes and smooth gradients. Low detail in cloth and background. Plain, softly blurred background. Gentle contrast. No gritty texture, no fine noise, no sharp micro-detail. Ancient Near Eastern clothing of the sixth century BC. No text, letters, frame, halo, or modern items. This is an interpretive illustration, not a known likeness."
+  },
+  {
+   "name": "daniel/abednego",
+   "person": "Azariah, called Abednego",
+   "path": "dist/assets/portraits/daniel/abednego.png",
+   "detail": "Young man about twenty, round face, dark brown skin, very short hair, no beard, looking upward. White tunic with a purple sash. Deep ember-red background.",
+   "prompt": "Create one image. Interpretive portrait of Azariah, called Abednego. Young man about twenty, round face, dark brown skin, very short hair, no beard, looking upward. White tunic with a purple sash. Deep ember-red background. Square 1:1 illustration for a Bible study guide. Head and shoulders, with the face large in the upper half of the frame. One person only. Calm, simplified painting with broad soft shapes and smooth gradients. Low detail in cloth and background. Plain, softly blurred background. Gentle contrast. No gritty texture, no fine noise, no sharp micro-detail. Ancient Near Eastern clothing of the sixth century BC. No text, letters, frame, halo, or modern items. This is an interpretive illustration, not a known likeness."
+  },
+  {
+   "name": "hosea/hosea",
+   "person": "Hosea the prophet",
+   "path": "dist/assets/portraits/hosea/hosea.png",
+   "detail": "Man in his thirties, soft sorrowful face, wavy brown hair, short beard, holding a small child’s sandal. Faded blue cloak. Pale vineyard-green background.",
+   "prompt": "Create one image. Interpretive portrait of Hosea the prophet. Man in his thirties, soft sorrowful face, wavy brown hair, short beard, holding a small child’s sandal. Faded blue cloak. Pale vineyard-green background. Square 1:1 illustration for a Bible study guide. Head and shoulders, with the face large in the upper half of the frame. One person only. Calm, simplified painting with broad soft shapes and smooth gradients. Low detail in cloth and background. Plain, softly blurred background. Gentle contrast. No gritty texture, no fine noise, no sharp micro-detail. Ancient Near Eastern clothing of the sixth century BC. No text, letters, frame, halo, or modern items. This is an interpretive illustration, not a known likeness."
+  },
+  {
+   "name": "hosea/gomer",
+   "person": "Gomer",
+   "path": "dist/assets/portraits/hosea/gomer.png",
+   "detail": "Woman in her late twenties, heart-shaped face, olive skin, dark hair with a red ribbon and earrings, looking away to one side. Rose-red dress. Warm tan background.",
+   "prompt": "Create one image. Interpretive portrait of Gomer. Woman in her late twenties, heart-shaped face, olive skin, dark hair with a red ribbon and earrings, looking away to one side. Rose-red dress. Warm tan background. Square 1:1 illustration for a Bible study guide. Head and shoulders, with the face large in the upper half of the frame. One person only. Calm, simplified painting with broad soft shapes and smooth gradients. Low detail in cloth and background. Plain, softly blurred background. Gentle contrast. No gritty texture, no fine noise, no sharp micro-detail. Ancient Near Eastern clothing of the sixth century BC. No text, letters, frame, halo, or modern items. This is an interpretive illustration, not a known likeness."
+  },
+  {
+   "name": "joel/joel",
+   "person": "Joel the prophet",
+   "path": "dist/assets/portraits/joel/joel.png",
+   "detail": "Man in his sixties, lean face, long white beard, one hand shading his eyes as he looks at the sky. Grey cloak. Dry yellow-brown field blur under a pale sky.",
+   "prompt": "Create one image. Interpretive portrait of Joel the prophet. Man in his sixties, lean face, long white beard, one hand shading his eyes as he looks at the sky. Grey cloak. Dry yellow-brown field blur under a pale sky. Square 1:1 illustration for a Bible study guide. Head and shoulders, with the face large in the upper half of the frame. One person only. Calm, simplified painting with broad soft shapes and smooth gradients. Low detail in cloth and background. Plain, softly blurred background. Gentle contrast. No gritty texture, no fine noise, no sharp micro-detail. Ancient Near Eastern clothing of the sixth century BC. No text, letters, frame, halo, or modern items. This is an interpretive illustration, not a known likeness."
+  },
+  {
+   "name": "amos/amos",
+   "person": "Amos the herdsman",
+   "path": "dist/assets/portraits/amos/amos.png",
+   "detail": "Herdsman in his forties, sunburnt broad face, short rough beard, a lamb across his shoulders. Sheepskin vest over a brown tunic. Bright dry hill background.",
+   "prompt": "Create one image. Interpretive portrait of Amos the herdsman. Herdsman in his forties, sunburnt broad face, short rough beard, a lamb across his shoulders. Sheepskin vest over a brown tunic. Bright dry hill background. Square 1:1 illustration for a Bible study guide. Head and shoulders, with the face large in the upper half of the frame. One person only. Calm, simplified painting with broad soft shapes and smooth gradients. Low detail in cloth and background. Plain, softly blurred background. Gentle contrast. No gritty texture, no fine noise, no sharp micro-detail. Ancient Near Eastern clothing of the sixth century BC. No text, letters, frame, halo, or modern items. This is an interpretive illustration, not a known likeness."
+  },
+  {
+   "name": "amos/amaziah",
+   "person": "Amaziah, priest of Bethel",
+   "path": "dist/assets/portraits/amos/amaziah.png",
+   "detail": "Priest in his fifties, plump smooth face, oiled beard, tall white head wrap, pointing away with one arm. White robe with gold trim. Pale marble blur.",
+   "prompt": "Create one image. Interpretive portrait of Amaziah, priest of Bethel. Priest in his fifties, plump smooth face, oiled beard, tall white head wrap, pointing away with one arm. White robe with gold trim. Pale marble blur. Square 1:1 illustration for a Bible study guide. Head and shoulders, with the face large in the upper half of the frame. One person only. Calm, simplified painting with broad soft shapes and smooth gradients. Low detail in cloth and background. Plain, softly blurred background. Gentle contrast. No gritty texture, no fine noise, no sharp micro-detail. Ancient Near Eastern clothing of the sixth century BC. No text, letters, frame, halo, or modern items. This is an interpretive illustration, not a known likeness."
+  },
+  {
+   "name": "obadiah/obadiah",
+   "person": "Obadiah the prophet",
+   "path": "dist/assets/portraits/obadiah/obadiah.png",
+   "detail": "Man in his fifties, dark brown skin, strong long face, grey beard, looking up toward red cliffs. Dark blue cloak. Soft red sandstone background.",
+   "prompt": "Create one image. Interpretive portrait of Obadiah the prophet. Man in his fifties, dark brown skin, strong long face, grey beard, looking up toward red cliffs. Dark blue cloak. Soft red sandstone background. Square 1:1 illustration for a Bible study guide. Head and shoulders, with the face large in the upper half of the frame. One person only. Calm, simplified painting with broad soft shapes and smooth gradients. Low detail in cloth and background. Plain, softly blurred background. Gentle contrast. No gritty texture, no fine noise, no sharp micro-detail. Ancient Near Eastern clothing of the sixth century BC. No text, letters, frame, halo, or modern items. This is an interpretive illustration, not a known likeness."
+  },
+  {
+   "name": "jonah/cover",
+   "person": "Jonah son of Amittai",
+   "path": "dist/assets/portraits/jonah/cover.png",
+   "detail": "Man in his forties, sullen round face, wet dark hair, short beard, sitting with arms around his knees under a leafy vine. Faded yellow tunic. Bright hot sky background.",
+   "prompt": "Create one image. Interpretive portrait of Jonah son of Amittai. Man in his forties, sullen round face, wet dark hair, short beard, sitting with arms around his knees under a leafy vine. Faded yellow tunic. Bright hot sky background. Square 1:1 illustration for a Bible study guide. Head and shoulders, with the face large in the upper half of the frame. One person only. Calm, simplified painting with broad soft shapes and smooth gradients. Low detail in cloth and background. Plain, softly blurred background. Gentle contrast. No gritty texture, no fine noise, no sharp micro-detail. Ancient Near Eastern clothing of the sixth century BC. No text, letters, frame, halo, or modern items. This is an interpretive illustration, not a known likeness."
+  },
+  {
+   "name": "nahum/nahum",
+   "person": "Nahum the Elkoshite",
+   "path": "dist/assets/portraits/nahum/nahum.png",
+   "detail": "Man in his sixties, hawk-like face, white hair, long beard, eyes narrowed toward the distance, in profile facing left. Dark red cloak. Smoky blue-grey background.",
+   "prompt": "Create one image. Interpretive portrait of Nahum the Elkoshite. Man in his sixties, hawk-like face, white hair, long beard, eyes narrowed toward the distance, in profile facing left. Dark red cloak. Smoky blue-grey background. Square 1:1 illustration for a Bible study guide. Head and shoulders, with the face large in the upper half of the frame. One person only. Calm, simplified painting with broad soft shapes and smooth gradients. Low detail in cloth and background. Plain, softly blurred background. Gentle contrast. No gritty texture, no fine noise, no sharp micro-detail. Ancient Near Eastern clothing of the sixth century BC. No text, letters, frame, halo, or modern items. This is an interpretive illustration, not a known likeness."
+  },
+  {
+   "name": "habakkuk/habakkuk",
+   "person": "Habakkuk the prophet",
+   "path": "dist/assets/portraits/habakkuk/habakkuk.png",
+   "detail": "Man in his forties, questioning face, raised brows, dark beard, leaning on a stone watchtower wall, looking up. Brown cloak. Cool night-blue sky with one soft star.",
+   "prompt": "Create one image. Interpretive portrait of Habakkuk the prophet. Man in his forties, questioning face, raised brows, dark beard, leaning on a stone watchtower wall, looking up. Brown cloak. Cool night-blue sky with one soft star. Square 1:1 illustration for a Bible study guide. Head and shoulders, with the face large in the upper half of the frame. One person only. Calm, simplified painting with broad soft shapes and smooth gradients. Low detail in cloth and background. Plain, softly blurred background. Gentle contrast. No gritty texture, no fine noise, no sharp micro-detail. Ancient Near Eastern clothing of the sixth century BC. No text, letters, frame, halo, or modern items. This is an interpretive illustration, not a known likeness."
+  },
+  {
+   "name": "zephaniah/zephaniah-prophet",
+   "person": "Zephaniah son of Cushi",
+   "path": "dist/assets/portraits/zephaniah/zephaniah-prophet.png",
+   "detail": "Man in his thirties, dark brown skin, fine narrow face, short beard, calm steady gaze, frontal. Deep green robe with a gold edge. Pale gold background.",
+   "prompt": "Create one image. Interpretive portrait of Zephaniah son of Cushi. Man in his thirties, dark brown skin, fine narrow face, short beard, calm steady gaze, frontal. Deep green robe with a gold edge. Pale gold background. Square 1:1 illustration for a Bible study guide. Head and shoulders, with the face large in the upper half of the frame. One person only. Calm, simplified painting with broad soft shapes and smooth gradients. Low detail in cloth and background. Plain, softly blurred background. Gentle contrast. No gritty texture, no fine noise, no sharp micro-detail. Ancient Near Eastern clothing of the sixth century BC. No text, letters, frame, halo, or modern items. This is an interpretive illustration, not a known likeness."
+  },
+  {
+   "name": "haggai/cover",
+   "person": "Haggai the prophet",
+   "path": "dist/assets/portraits/haggai/cover.png",
+   "detail": "Old man in his seventies, weathered square face, white beard, one hand resting on a cut building stone. Earth-brown cloak. Clear morning-blue sky background.",
+   "prompt": "Create one image. Interpretive portrait of Haggai the prophet. Old man in his seventies, weathered square face, white beard, one hand resting on a cut building stone. Earth-brown cloak. Clear morning-blue sky background. Square 1:1 illustration for a Bible study guide. Head and shoulders, with the face large in the upper half of the frame. One person only. Calm, simplified painting with broad soft shapes and smooth gradients. Low detail in cloth and background. Plain, softly blurred background. Gentle contrast. No gritty texture, no fine noise, no sharp micro-detail. Ancient Near Eastern clothing of the sixth century BC. No text, letters, frame, halo, or modern items. This is an interpretive illustration, not a known likeness."
+  },
+  {
+   "name": "zechariah/cover",
+   "person": "Zechariah son of Berechiah",
+   "path": "dist/assets/portraits/zechariah/cover.png",
+   "detail": "Young man in his twenties, bright oval face, short dark beard, looking upward by the light of a small golden lampstand. Cream robe. Deep indigo night background.",
+   "prompt": "Create one image. Interpretive portrait of Zechariah son of Berechiah. Young man in his twenties, bright oval face, short dark beard, looking upward by the light of a small golden lampstand. Cream robe. Deep indigo night background. Square 1:1 illustration for a Bible study guide. Head and shoulders, with the face large in the upper half of the frame. One person only. Calm, simplified painting with broad soft shapes and smooth gradients. Low detail in cloth and background. Plain, softly blurred background. Gentle contrast. No gritty texture, no fine noise, no sharp micro-detail. Ancient Near Eastern clothing of the sixth century BC. No text, letters, frame, halo, or modern items. This is an interpretive illustration, not a known likeness."
+  },
+  {
+   "name": "malachi/malachi",
+   "person": "Malachi the messenger",
+   "path": "dist/assets/portraits/malachi/malachi.png",
+   "detail": "Man in his fifties, grave long face, grey-black beard, holding out an open hand, three-quarter view. Plain white linen robe. Soft sunrise-gold background.",
+   "prompt": "Create one image. Interpretive portrait of Malachi the messenger. Man in his fifties, grave long face, grey-black beard, holding out an open hand, three-quarter view. Plain white linen robe. Soft sunrise-gold background. Square 1:1 illustration for a Bible study guide. Head and shoulders, with the face large in the upper half of the frame. One person only. Calm, simplified painting with broad soft shapes and smooth gradients. Low detail in cloth and background. Plain, softly blurred background. Gentle contrast. No gritty texture, no fine noise, no sharp micro-detail. Ancient Near Eastern clothing of the sixth century BC. No text, letters, frame, halo, or modern items. This is an interpretive illustration, not a known likeness."
+  }
+ ]
+}
