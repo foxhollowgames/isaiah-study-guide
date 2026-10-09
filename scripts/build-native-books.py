@@ -71,14 +71,13 @@ for entry in json.loads((OUT/'directory.json').read_text(encoding='utf-8')):
     pm=pm.replace("const licensedImage = portraitMode === 'non-generated' ? licensedImages[id] : null;","const licensedImage = bookArt[id] && (portraitMode !== 'non-generated' || !bookArt[id].generated) ? bookArt[id] : null;")
     pm=pm.replace("{ src: `assets/portraits/${id}-v2.png` }","{ src: '', generated:true }")
     pm=pm.replace("const imageKind = licensedImage ? 'Historical depiction' : 'Generated illustration';","const imageKind = image.generated ? 'Generated illustration' : 'Historical depiction';")
-    pm=pm.replace('${name[0]}</span><img src="${escapeHtml(image.src)}" width="88" height="88" alt="${imageKind} of ${name}">','${name[0]}</span>${image.src ? `<img src="${escapeHtml(image.src)}" width="88" height="88" alt="${imageKind} of ${name}">` : ""}')
     pm=pm.replace('aria-hidden="true">${name[0]}','aria-hidden="${!!image.src}">${name[0]}')
     pm=pm.replace('aria-label="${name}: portrait failed to load"', 'aria-label="${name}: ${image.src ? \'portrait failed to load\' : \'no portrait available\'}"')
     # Match Isaiah: generated art has no repeated credit beneath each portrait.
     # Keep licensed artwork credits and descriptive image alt text.
     write_text(D/f'book-{slug}-portraits.js',pm)
-    app=native.replace("'./portraits.js'",f"'./book-{slug}-portraits.js?v=20261008.2'").replace('Isaiah',name).replace('ISA${',code+'${')
-    app=app.replace("const releaseVersion = '20261008.1';", "const releaseVersion = '20261008.2';")
+    app=native.replace("'./portraits.js'",f"'./book-{slug}-portraits.js?v=20261009.1'").replace('Isaiah',name).replace('ISA${',code+'${')
+    app=app.replace("const releaseVersion = '20261009.1';", "const releaseVersion = '20261009.2';")
     # Psalms uses three-digit publisher chapter filenames.
     if code=='PSA':app=app.replace("String(chapter).padStart(2, '0')", "String(chapter).padStart(3, '0')")
     # Added books have one complete Scripture source, not Isaiah's chapter sources.
@@ -141,6 +140,6 @@ html=(D/'index.html').read_text(encoding='utf-8')
 html=re.sub(r'  <meta (?:property="og:[^\n]+|name="twitter:[^\n]+)\n','',html)
 html=re.sub(r'  <link rel="canonical"[^\n]+\n','',html)
 html=html.replace('<title>Isaiah Study Guide</title>','<title>Bible Study Guide</title>').replace('<b>ISAIAH<small>STUDY GUIDE</small></b>','<b id="bookBrand">BIBLE<small>STUDY GUIDE</small></b>')
-html=html.replace('app.js?v=20261008.1','native-book.js?v=20261008.2').replace('styles.css?v=20261008.1','styles.css?v=20261005.1')
+html=html.replace('app.js?v=20261009.1','native-book.js?v=20261009.1')
 html=html.replace('<span class="map-label label-assyria">ASSYRIA</span><span class="map-label label-judah">JUDAH</span>','')
 write_text(D/'book.html',html)

@@ -24,6 +24,8 @@ Do not place AI illustration disclaimers beneath portraits.
 Edit persistent source files before rebuilding generated files.
 Added-book context lives in `scripts/book-context-complete/*.json`.
 Run `python scripts/build-native-books.py` after changing those records.
+Run `python scripts/optimize-images.py` after adding or changing images in `dist/assets`.
+Pages load the WebP copies that this script writes. The PNG and JPEG masters stay as fallbacks.
 Run `npm run check` and `npm run check:bible` before publication.
 Check representative chapters, guides, source dialogs, and photographs in both reading perspectives.
 Do not claim source review, full coverage, or publication without supporting checks.

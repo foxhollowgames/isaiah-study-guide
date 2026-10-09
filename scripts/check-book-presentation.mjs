@@ -51,7 +51,7 @@ for (const book of books) {
     source:id => data.sources.find(item => item.id === id), mapDisplayName:text => text,
     mapDisplayText:text => text, linkedEntityHtml:esc, mapStoryHtml:() => '',
     chapterEvidenceHtml:() => '', chapterInterviewNotesHtml:() => '',
-    sourceImageHtml:() => ''});
+    sourceImageHtml:() => '', webpSourceHtml:() => ''});
   for (const name of ['sourcesHtml', 'passageFootnotes', 'chapterSourceIds', 'sourceMediaHtml', 'sourceInsightsHtml',
     'scriptureExcerptHtml', 'placeVerseInChapter', 'sourceChapters', 'genericPlaceDescription',
     'featureChapterContext', 'passageContextHtml', 'librarySourceHtml', 'chapterContextHtml',

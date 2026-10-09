@@ -1,3 +1,5 @@
+import coverPreviews from './book-cover-placeholders.js';
+// WebP copies and blurred previews come from scripts/optimize-images.py.
 const bookArtwork={
   "genesis": "genesis/zilpah.png",
   "exodus": "exodus/jethro.png",
@@ -73,6 +75,7 @@ try {
   const books=await response.json();
   function render(){
     groups.replaceChildren();
+    let covers=0;
     for(const testament of ['Old Testament','New Testament']){
       const rows=books.filter(b=>b.testament===testament);if(!rows.length)continue;
       const section=document.createElement('section'),heading=document.createElement('h2'),grid=document.createElement('div');heading.textContent=testament;grid.className='book-grid';section.append(heading,grid);
@@ -82,11 +85,20 @@ try {
         card.href=book.url;
         const artwork=book.status==='ready'&&bookArtwork[book.id];
         if(artwork){
-          const image=document.createElement('img');
-          image.src=`assets/portraits/${artwork}`;
+          const image=document.createElement('img'),base=`assets/portraits/${artwork.replace(/\.png$/,'')}`;
           image.alt='';
-          image.loading='lazy';
           image.decoding='async';
+          // Load the first screen of covers at once. Later covers wait for scrolling.
+          if(covers<6)image.fetchPriority='high';
+          if(covers++>=18)image.loading='lazy';
+          image.addEventListener('load',()=>image.classList.add('loaded'));
+          // A missing WebP copy falls back to the master image.
+          image.addEventListener('error',()=>{image.removeAttribute('srcset');image.src=`assets/portraits/${artwork}`;},{once:true});
+          image.sizes='(max-width:650px) 50vw, 240px';
+          image.srcset=`${base}-480.webp 480w, ${base}.webp 960w`;
+          image.src=`${base}-480.webp`;
+          // Show a blurred preview until the cover arrives.
+          if(coverPreviews[artwork])card.style.backgroundImage=`url("${coverPreviews[artwork]}")`;
           card.classList.add('has-artwork');
           card.append(image);
         }

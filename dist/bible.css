@@ -14,4 +14,7 @@
 .directory-page a.book-card:hover{transform:translateY(-3px);box-shadow:0 9px 22px #0006}
 .directory-page a.book-card:hover img{transform:none}
 @media(max-width:650px){.directory-page .book-card{min-height:150px;padding:15px}.directory-page .book-card h3{font-size:22px}}
+.directory-page .book-card.has-artwork{background-size:cover;background-position:center top}
+.directory-page .book-card img{opacity:0;transition:opacity .4s ease}
+.directory-page .book-card img.loaded{opacity:1}
 @media(prefers-reduced-motion:reduce){.directory-page .book-card,.directory-page .book-card img{transition:none}.directory-page a.book-card:hover,.directory-page a.book-card:hover img{transform:none}}

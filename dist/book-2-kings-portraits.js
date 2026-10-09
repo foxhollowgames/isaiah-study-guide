@@ -13,11 +13,33 @@ export function setPortraitMode(mode, images) {
   });
 }
 
-// Image errors do not bubble. Capture them for portraits added to any panel.
-document.addEventListener('error', event => {
+// Compressed WebP copies sit beside local master images. See scripts/optimize-images.py.
+export const webpCopy = (src = '', size = '') => /^assets\/.+\.(png|jpe?g)$/i.test(src) ? src.replace(/\.(png|jpe?g)$/i, `${size}.webp`) : '';
+export function webpSourceHtml(src, size) {
+  const copy = webpCopy(src, size);
+  return copy ? `<source type="image/webp" srcset="${escapeHtml(copy)}">` : '';
+}
+// Portraits fade in once. Later renders of a loaded portrait show it at once.
+const shownPortraits = new Set();
+function portraitImageHtml(src, alt) {
+  if (!src) return '';
+  return `<picture>${webpSourceHtml(src, '-192')}<img src="${escapeHtml(src)}" width="88" height="88" alt="${alt}" loading="lazy" decoding="async"${shownPortraits.has(src) ? ' class="loaded"' : ''}></picture>`;
+}
+document.addEventListener('load', event => {
   if (event.target.matches?.('.portrait-art img')) {
-    const art = event.target.parentElement;
-    event.target.remove();
+    shownPortraits.add(event.target.getAttribute('src'));
+    event.target.classList.add('loaded');
+  }
+}, true);
+
+// Image errors do not bubble. Capture them for images added to any panel.
+document.addEventListener('error', event => {
+  // A missing WebP copy falls back to the master image.
+  const copies = event.target.matches?.('picture > img') ? event.target.parentElement.querySelectorAll('source') : [];
+  if (copies.length) { copies.forEach(copy => copy.remove()); return; }
+  if (event.target.matches?.('.portrait-art img')) {
+    const art = event.target.closest('.portrait-art');
+    event.target.closest('picture').remove();
     art.querySelector('.portrait-initial').removeAttribute('aria-hidden');
   }
 }, true);
@@ -58,7 +80,7 @@ export function portraitsHtml(ids = [], options = {}) {
     const hue = [...id].reduce((sum, c) => sum + c.charCodeAt(0), 0) % 360;
     const credit = image?.sourceUrl ? `<small class="portrait-credit"><a href="${escapeHtml(image.sourceUrl)}" target="_blank" rel="noopener">${escapeHtml(image.credit)}</a> · <a href="${escapeHtml(image.licenseUrl)}" target="_blank" rel="noopener">${escapeHtml(image.license)}</a> · Cropped</small>` : '';
     const imageKind = image.generated ? 'Generated illustration' : 'Historical depiction';
-    const art = `<span class="portrait-art" style="--portrait-hue:${hue}"><span class="portrait-initial" role="img" aria-label="${name}: ${image.src ? 'portrait failed to load' : 'no portrait available'}" aria-hidden="${!!image.src}">${name[0]}</span>${image.src ? `<img src="${escapeHtml(image.src)}" width="88" height="88" alt="${imageKind} of ${name}">` : ""}</span>`;
+    const art = `<span class="portrait-art" style="--portrait-hue:${hue}"><span class="portrait-initial" role="img" aria-label="${name}: ${image.src ? 'portrait failed to load' : 'no portrait available'}" aria-hidden="${!!image.src}">${name[0]}</span>${portraitImageHtml(image.src, `${imageKind} of ${name}`)}</span>`;
     if (options.interactive === false) {
       return `<figure class="person-portrait">${art}<figcaption><strong>${escapeHtml(name)}</strong><span>${linkedRole}</span>${credit}</figcaption></figure>`;
     }

@@ -1,10 +1,10 @@
 import { initChapterPicker } from './chapter-picker.js';
-import { people, featurePortraits, wordPortraits, personProfileHtml, personIdForLabel, setPortraitMode } from './book-lamentations-portraits.js?v=20261008.2';
+import { people, featurePortraits, wordPortraits, personProfileHtml, personIdForLabel, setPortraitMode, webpCopy, webpSourceHtml } from './book-lamentations-portraits.js?v=20261009.1';
 import { initModalDragging } from './modal-drag.js';
 import { chapterFocus, chapterRoutes, chapterPoints, movementStyle } from './chapter-map.js';
 const $ = (s, root = document) => root.querySelector(s);
 const $$ = (s, root = document) => [...root.querySelectorAll(s)];
-const releaseVersion = '20261008.2';
+const releaseVersion = '20261009.2';
 const chapters = Array.from({ length: 5 }, (_, i) => i + 1);
 const defaults = { chapter: 1, verse: 1, studyMode: 'read', view: 'map', perspective: 'historical', portraitMode: 'generated', date: 1, layers: { places: true, regions: true, campaigns: true, roads: false, history: false }, sidebar: 'scripture', map: { center: [32.1, 35.0], zoom: 7 } };
 let state = { ...defaults, ...readSaved(), layers: { ...defaults.layers, ...(readSaved().layers || {}) } };
@@ -766,7 +766,7 @@ function initMap() {
     if (r[3].status === 'fulfilled') L.geoJSON(r[3].value, {pane:'water', interactive:false,
       style: f => ({color:'#4b9fbd', weight:f.properties.rank <= 5 ? 3.2 : 2.2, opacity:1})}).addTo(map);
     if (r[2].status === 'fulfilled') {
-      L.imageOverlay('assets/relief.png',r[2].value.bounds,{pane:'relief',opacity:1,interactive:false}).addTo(map);
+      L.imageOverlay('assets/relief.webp',r[2].value.bounds,{pane:'relief',opacity:1,interactive:false}).addTo(map);
       const [[south,west],[north,east]] = r[2].value.bounds;
       L.polygon([
         [[-85,-180],[-85,180],[85,180],[85,-180]],
@@ -775,7 +775,7 @@ function initMap() {
         fillOpacity:1, fillRule:'evenodd', smoothFactor:0}).addTo(map);
       // Keep coarse tiles beneath finer layers as a fallback outside their bounds.
       const details = [r[2].value.detail, ...(r[2].value.closeDetail || [])].filter(Boolean);
-      details.forEach((detail,index) => L.tileLayer(detail.url, {
+      details.forEach((detail,index) => L.tileLayer(webpCopy(detail.url) || detail.url, {
         pane:'detail', bounds:detail.bounds, minZoom:detail.minZoom,
         maxNativeZoom:detail.maxNativeZoom, maxZoom:14, noWrap:true, keepBuffer:1,
         zIndex:index+1,
@@ -1184,7 +1184,7 @@ function startGuide(id) { const guide = data.guides.find(g => g.id === id); if (
 function applyGuideStep() { const guide = data.guides.find(g => g.id === guideState?.id); const step = guide?.steps?.[guideState.index]; if (!step) return; state.chapter = Number(step.chapter || state.chapter); state.verse = Number(step.verse || state.verse); state.sidebar = 'scripture'; if (step.year != null) state.date = Number(step.year); renderAll(); renderGuideStep(); focusChapterMap(); requestAnimationFrame(() => scrollVerse(state.verse,false)); persist(); }
 function sourceImageHtml(image) {
   if (!image) return '';
-  return `<figure class="guide-image"><a href="${esc(image.fullUrl || image.src)}" target="_blank" rel="noopener" aria-label="${esc(image.linkLabel || 'View full-size image')}"><img src="${esc(image.src)}" alt="${esc(image.alt)}" width="${Number(image.width)}" height="${Number(image.height)}"></a><figcaption>${esc(image.caption)}<br><a href="${esc(image.fullUrl || image.src)}" target="_blank" rel="noopener">${esc(image.linkLabel || 'View full-size image')} ↗</a><small><a href="${esc(image.creditUrl)}" target="_blank" rel="noopener">${esc(image.credit)}</a> · <a href="${esc(image.licenseUrl)}" target="_blank" rel="noopener">${esc(image.license)}</a> · <a href="${esc(image.sourceUrl)}" target="_blank" rel="noopener">Photo source ↗</a></small></figcaption></figure>`;
+  return `<figure class="guide-image"><a href="${esc(image.fullUrl || image.src)}" target="_blank" rel="noopener" aria-label="${esc(image.linkLabel || 'View full-size image')}"><picture>${webpSourceHtml(image.src)}<img src="${esc(image.src)}" alt="${esc(image.alt)}" width="${Number(image.width)}" height="${Number(image.height)}" loading="lazy" decoding="async"></picture></a><figcaption>${esc(image.caption)}<br><a href="${esc(image.fullUrl || image.src)}" target="_blank" rel="noopener">${esc(image.linkLabel || 'View full-size image')} ↗</a><small><a href="${esc(image.creditUrl)}" target="_blank" rel="noopener">${esc(image.credit)}</a> · <a href="${esc(image.licenseUrl)}" target="_blank" rel="noopener">${esc(image.license)}</a> · <a href="${esc(image.sourceUrl)}" target="_blank" rel="noopener">Photo source ↗</a></small></figcaption></figure>`;
 }
 function guideReadingHtml(step) {
   const verses = (scripture.chapters[step.chapter] || []).filter(v => v.verse === Number(step.verse));
