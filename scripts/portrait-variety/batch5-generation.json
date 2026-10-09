@@ -1,0 +1,12 @@
+{
+ "tool": "ChatGPT built-in image generation",
+ "assets": [
+  {
+   "name": "hebrews/cover",
+   "person": "Melchizedek, king of Salem and priest",
+   "path": "dist/assets/portraits/hebrews/cover.png",
+   "detail": "Man in his sixties, serene oval face, olive-brown skin, long silver beard, a simple gold band over a white head cloth, holding out a small loaf of bread. White robe with a deep purple mantle. Soft sunrise-gold hills behind.",
+   "prompt": "Create one image. Interpretive portrait of Melchizedek, king of Salem and priest. Man in his sixties, serene oval face, olive-brown skin, long silver beard, a simple gold band over a white head cloth, holding out a small loaf of bread. White robe with a deep purple mantle. Soft sunrise-gold hills behind. Square 1:1 illustration for a Bible study guide. Head and shoulders, with the face large in the upper half of the frame. One person only. Calm, simplified painting with broad soft shapes and smooth gradients. Low detail in cloth and background. Plain, softly blurred background. Gentle contrast. No gritty texture, no fine noise, no sharp micro-detail. Ancient Near Eastern clothing. No text, letters, frame, halo, or modern items. This is an interpretive illustration, not a known likeness."
+  }
+ ]
+}

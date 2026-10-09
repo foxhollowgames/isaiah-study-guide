@@ -56,7 +56,7 @@ const bookArtwork={
   "2-timothy": "2-timothy/cover.png",
   "titus": "titus/cover.png",
   "philemon": "philemon/philemon.png",
-  "hebrews": "genesis/melchizedek.jpg",
+  "hebrews": "hebrews/cover.png",
   "james": "james/james-letter.png",
   "1-peter": "matthew/peter.png",
   "2-peter": "2-peter/cover.png",
