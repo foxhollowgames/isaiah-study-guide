@@ -7,9 +7,9 @@
       "category": "Scripture",
       "url": "https://ebible.org/engwebp/GEN01.htm",
       "summary": "The public-domain reading text supplies all 50 chapters.",
-      "limits": "Chapter notes describe the narrative. They do not prove every narrated event.",
+      "limits": "Chapter notes describe the account. They do not prove every event in it.",
       "type": "Scripture",
-      "limitations": "Chapter notes describe the narrative. They do not prove every narrated event.",
+      "limitations": "Chapter notes describe the account. They do not prove every event in it.",
       "license": "Public domain"
     },
     {
@@ -55,9 +55,9 @@
       "category": "Scholarly study",
       "url": "https://oyc.yale.edu/religious-studies/rlst-145/lecture-3",
       "summary": "Christine Hayes compares the creation stories with their ancient Near Eastern setting.",
-      "limits": "This academic interpretation remains separate from LDS teaching. Scholars disagree about composition and historicity.",
+      "limits": "This is a university reading, separate from LDS teaching. Scholars disagree about how Genesis was written. They also disagree about how much is history.",
       "type": "Scholarly study",
-      "limitations": "This academic interpretation remains separate from LDS teaching. Scholars disagree about composition and historicity.",
+      "limitations": "This is a university reading, separate from LDS teaching. Scholars disagree about how Genesis was written. They also disagree about how much is history.",
       "license": "Linked source. Original guide summaries."
     },
     {
@@ -67,9 +67,9 @@
       "category": "Scholarly study",
       "url": "https://oyc.yale.edu/religious-studies/rlst-145/lecture-4",
       "summary": "Christine Hayes examines repeated accounts and literary sources in Genesis.",
-      "limits": "This academic interpretation remains separate from LDS teaching. Scholars disagree about composition and historicity.",
+      "limits": "This is a university reading, separate from LDS teaching. Scholars disagree about how Genesis was written. They also disagree about how much is history.",
       "type": "Scholarly study",
-      "limitations": "This academic interpretation remains separate from LDS teaching. Scholars disagree about composition and historicity.",
+      "limitations": "This is a university reading, separate from LDS teaching. Scholars disagree about how Genesis was written. They also disagree about how much is history.",
       "license": "Linked source. Original guide summaries."
     },
     {
@@ -78,10 +78,10 @@
       "perspective": "historical",
       "category": "Scholarly study",
       "url": "https://oyc.yale.edu/religious-studies/rlst-145/lecture-5",
-      "summary": "Christine Hayes introduces methods for reading the ancestral narratives.",
-      "limits": "This academic interpretation remains separate from LDS teaching. Scholars disagree about composition and historicity.",
+      "summary": "Christine Hayes introduces ways to read the stories of the ancestors.",
+      "limits": "This is a university reading, separate from LDS teaching. Scholars disagree about how Genesis was written. They also disagree about how much is history.",
       "type": "Scholarly study",
-      "limitations": "This academic interpretation remains separate from LDS teaching. Scholars disagree about composition and historicity.",
+      "limitations": "This is a university reading, separate from LDS teaching. Scholars disagree about how Genesis was written. They also disagree about how much is history.",
       "license": "Linked source. Original guide summaries."
     },
     {
@@ -91,9 +91,9 @@
       "category": "Scholarly study",
       "url": "https://oyc.yale.edu/religious-studies/rlst-145/lecture-6",
       "summary": "Christine Hayes studies covenant, family conflict, and the limits of historical evidence.",
-      "limits": "This academic interpretation remains separate from LDS teaching. Scholars disagree about composition and historicity.",
+      "limits": "This is a university reading, separate from LDS teaching. Scholars disagree about how Genesis was written. They also disagree about how much is history.",
       "type": "Scholarly study",
-      "limitations": "This academic interpretation remains separate from LDS teaching. Scholars disagree about composition and historicity.",
+      "limitations": "This is a university reading, separate from LDS teaching. Scholars disagree about how Genesis was written. They also disagree about how much is history.",
       "license": "Linked source. Original guide summaries."
     },
     {
@@ -355,9 +355,9 @@
       "category": "Geography",
       "url": "https://registry.opendata.aws/terrain-tiles/",
       "summary": "Cached terrain shows modern elevation. Natural Earth supplies the land and water outlines.",
-      "limits": "Modern terrain is a geographic aid. It does not reconstruct ancient shorelines or settlements.",
+      "limits": "Modern terrain is a map aid. It does not show ancient shorelines or settlements.",
       "type": "Geography",
-      "limitations": "Modern terrain is a geographic aid. It does not reconstruct ancient shorelines or settlements.",
+      "limitations": "Modern terrain is a map aid. It does not show ancient shorelines or settlements.",
       "license": "Linked source. Original guide summaries."
     },
     {
@@ -569,7 +569,7 @@
       "url": "https://en.wikipedia.org/wiki/Book_of_Genesis",
       "revisionId": "1378152197",
       "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1378152197",
-      "summary": "Genesis moves from creation and early humanity to the families of Abraham, Isaac, Jacob, and Joseph. This overview helps explain the book’s structure.",
+      "summary": "Genesis starts with creation and the first people. It then follows the families of Abraham, Isaac, Jacob, and Joseph. This overview helps explain how the book is built.",
       "reviewed": "2026-10-05: Opening overview and book structure reviewed. These notes make no claim about exact composition dates.",
       "limits": "Anyone can edit this source. Use it for background and source discovery. Its disputed historical claims require separate scholarly review.",
       "license": "CC BY-SA 4.0",
@@ -610,7 +610,7 @@
       "perspective": "historical",
       "group": "mcclellan",
       "url": "https://www.mormonstories.org/10-things-bible-dan-mcclellan/",
-      "summary": "McClellan discusses different creation accounts and older flood traditions. He states uncertainty about Babel’s possible sources. He also describes Genesis 49 as poetry preserved within a larger narrative.",
+      "summary": "McClellan discusses different creation accounts and older flood traditions. He states uncertainty about Babel’s possible sources. He also describes Genesis 49 as poetry kept inside a larger story.",
       "timestamps": [
         {
           "seconds": 1409,
@@ -629,7 +629,7 @@
         }
       ],
       "reviewed": "2026-10-05: Relevant sections of the publisher’s machine-generated, lightly edited transcript reviewed. Audio and video were not independently checked. Transcript errors remain possible.",
-      "limits": "This is one scholar’s interpretation, separate from Church teaching. Proposed dates and claims about scholarly agreement were not independently verified.",
+      "limits": "This is one scholar’s interpretation, separate from Church teaching. His proposed dates and his claims about scholarly agreement were not checked separately.",
       "license": "Linked interview. Original summary. Transcript text is not reproduced.",
       "chapterCoverage": [
         1,
@@ -643,7 +643,7 @@
         49
       ],
       "type": "Scholar interview",
-      "limitations": "This is one scholar’s interpretation, separate from Church teaching. Proposed dates and claims about scholarly agreement were not independently verified."
+      "limitations": "This is one scholar’s interpretation, separate from Church teaching. His proposed dates and his claims about scholarly agreement were not checked separately."
     },
     {
       "id": "met-321953",
@@ -728,6 +728,34 @@
       ],
       "type": "museum",
       "limitations": "This Egyptian tomb model is not Joseph’s storehouse. It illustrates related work, not the event in Genesis."
+    },
+    {
+      "id": "strong",
+      "title": "A Concise Dictionary of the Words in the Hebrew Bible",
+      "author": "James Strong · Open Scriptures XML edition",
+      "year": "1894 / digital edition",
+      "perspective": "historical",
+      "category": "Historical lexicon",
+      "url": "https://github.com/openscriptures/strongs",
+      "summary": "Lists Hebrew dictionary forms and their possible meanings. Use it with the passage to study a word.",
+      "limits": "This is an older dictionary. Compare its meanings with the passage. A list of meanings alone cannot show which one applies.",
+      "license": "Source XML declares Public Domain. Only selected headwords are used.",
+      "type": "Historical lexicon",
+      "limitations": "This is an older dictionary. Compare its meanings with the passage. A list of meanings alone cannot show which one applies."
+    },
+    {
+      "id": "oshb",
+      "title": "Open Scriptures Hebrew Bible",
+      "author": "Open Scriptures contributors / Westminster Leningrad Codex",
+      "year": "Digital edition",
+      "perspective": "historical",
+      "category": "Hebrew text",
+      "url": "https://hb.openscriptures.org/",
+      "summary": "Provides the Hebrew text and word identifiers. This study guide uses these to check selected words against their verses.",
+      "limits": "The app checks selected words, not every English–Hebrew match. It shows Hebrew dictionary forms. The forms in the verses can differ.",
+      "license": "Hebrew text public domain; lemma/morphology data CC BY 4.0. Original work of the Open Scriptures Hebrew Bible, https://hb.openscriptures.org/.",
+      "type": "Hebrew text",
+      "limitations": "The app checks selected words, not every English–Hebrew match. It shows Hebrew dictionary forms. The forms in the verses can differ."
     }
   ],
   "passages": [
@@ -740,7 +768,7 @@
       "summary": "In the beginning God creates the heavens and the earth. He speaks, and light, sky, land, and plants appear over three days. Sun, moon, stars, sea animals, and birds follow. On the sixth day he makes land animals and then people. He makes people in his own image, male and female. He blesses them and tells them to fill the earth and rule the animals. He gives plants as food to people and animals. God sees all he has made and calls it very good.",
       "year": null,
       "dateLabel": "Narrative order · historical year unknown",
-      "uncertainty": "No verified location is supplied for this chapter.",
+      "uncertainty": "The map has no sure location for this chapter.",
       "placeIds": [],
       "sourceIds": [
         "web",
@@ -774,7 +802,7 @@
       "summary": "God finishes his work, rests on the seventh day, and makes that day holy. Then the LORD God forms a man from dust and breathes life into him. God plants a garden in Eden with a river and two named trees. He puts the man there to work it and keep it. He forbids one tree and warns of death. God says it is not good for the man to be alone. The man names the animals, but none is a helper like him. God makes a woman from his rib, and the man welcomes her as his flesh.",
       "year": null,
       "dateLabel": "Narrative order · historical year unknown",
-      "uncertainty": "No verified location is supplied for this chapter.",
+      "uncertainty": "The map has no sure location for this chapter.",
       "placeIds": [],
       "sourceIds": [
         "web",
@@ -807,7 +835,7 @@
       "summary": "The serpent asks the woman what God really said. She repeats the command, and the serpent says she will not die. She sees the fruit is good, eats, and gives some to her husband. Their eyes open, and they cover themselves and hide. God asks where the man is and whether he ate. The man blames the woman, and the woman blames the serpent. God curses the serpent and the ground, and speaks of pain and hard work. He clothes them with skins and sends them out of Eden.",
       "year": null,
       "dateLabel": "Narrative order · historical year unknown",
-      "uncertainty": "No verified location is supplied for this chapter.",
+      "uncertainty": "The map has no sure location for this chapter.",
       "placeIds": [],
       "sourceIds": [
         "web",
@@ -841,7 +869,7 @@
       "summary": "Eve bears Cain and then Abel. Cain farms, and Abel keeps sheep. Both bring offerings, and the LORD accepts Abel’s but not Cain’s. The LORD warns Cain that sin crouches at the door. Cain kills Abel in the field and asks if he is his brother’s keeper. The LORD sends Cain away as a wanderer but marks him for protection. Cain’s family builds a city, and Lamech boasts of killing a man. Eve bears Seth, and people begin to call on the LORD’s name.",
       "year": null,
       "dateLabel": "Narrative order · historical year unknown",
-      "uncertainty": "No verified location is supplied for this chapter.",
+      "uncertainty": "The map has no sure location for this chapter.",
       "placeIds": [],
       "sourceIds": [
         "web",
@@ -873,7 +901,7 @@
       "summary": "This is the family record from Adam to Noah. God made people in his likeness, and Adam fathers Seth in his own likeness. Each entry gives a father’s age, his son, his total years, and his death. The years are very long, up to 969 for Methuselah. Enoch’s entry is different. He walks with God, and God takes him. Lamech names his son Noah and hopes for comfort from the cursed ground. Noah fathers Shem, Ham, and Japheth.",
       "year": null,
       "dateLabel": "Narrative order · historical year unknown",
-      "uncertainty": "No verified location is supplied for this chapter.",
+      "uncertainty": "The map has no sure location for this chapter.",
       "placeIds": [],
       "sourceIds": [
         "web",
@@ -906,7 +934,7 @@
       "summary": "People multiply, and God’s sons take human daughters as wives. The LORD says man’s days will be 120 years. He sees that human thoughts are evil all the time, and he is grieved. He decides to wipe out people and animals. But Noah finds favor and walks with God. God tells Noah the earth is filled with violence. He orders a ship of gopher wood with three levels and one door. Noah is to bring his family, pairs of animals, and food, and he obeys.",
       "year": null,
       "dateLabel": "Narrative order · historical year unknown",
-      "uncertainty": "No verified location is supplied for this chapter.",
+      "uncertainty": "The map has no sure location for this chapter.",
       "placeIds": [],
       "sourceIds": [
         "web",
@@ -940,7 +968,7 @@
       "summary": "The LORD tells Noah to enter the ship with his household. Noah takes seven pairs of clean animals and one pair of the others. Noah is six hundred years old. After seven days the deep bursts open and the sky’s windows open. Rain falls forty days and nights. Noah’s family and the animals go in, and the LORD shuts him in. The water lifts the ship and covers the high mountains. Everything on dry land dies, and only those in the ship remain.",
       "year": null,
       "dateLabel": "Narrative order · historical year unknown",
-      "uncertainty": "No verified location is supplied for this chapter.",
+      "uncertainty": "The map has no sure location for this chapter.",
       "placeIds": [],
       "sourceIds": [
         "web",
@@ -1008,7 +1036,7 @@
       "summary": "God blesses Noah and his sons and tells them to fill the earth. Animals will fear them, and they may eat meat but not blood. God will demand a reckoning for human life, because he made people in his image. He makes a covenant with Noah, his family, and every living creature. No flood will destroy the earth again, and the rainbow is the sign. Noah plants a vineyard and gets drunk. Ham sees his father naked, and Shem and Japheth cover him. Noah curses Canaan and blesses Shem and Japheth.",
       "year": null,
       "dateLabel": "Narrative order · historical year unknown",
-      "uncertainty": "No verified location is supplied for this chapter.",
+      "uncertainty": "The map has no sure location for this chapter.",
       "placeIds": [],
       "sourceIds": [
         "web",
@@ -2500,7 +2528,7 @@
       "summary": "In the beginning God creates the heavens and the earth. He speaks, and light, sky, land, and plants appear over three days. Sun, moon, stars, sea animals, and birds follow. On the sixth day he makes land animals and then people. He makes people in his own image, male and female. He blesses them and tells them to fill the earth and rule the animals. He gives plants as food to people and animals. God sees all he has made and calls it very good.",
       "detail": "Six times the chapter says God saw that his work was good. People come last, and verse 31 says “very good.” Verse 27 says “image” twice and then names both male and female. No one group holds that standing alone. The command to rule in verse 28 comes after the blessing. Verses 29–30 then give plants as food to people and animals alike. So ruling here sits beside care for life that God called good.",
       "dateLabel": "Narrative order · historical year unknown",
-      "uncertainty": "No verified location is supplied for this chapter.",
+      "uncertainty": "The map has no sure location for this chapter.",
       "sourceIds": [
         "web",
         "yale-creation",
@@ -2526,7 +2554,7 @@
       "summary": "God finishes his work, rests on the seventh day, and makes that day holy. Then the LORD God forms a man from dust and breathes life into him. God plants a garden in Eden with a river and two named trees. He puts the man there to work it and keep it. He forbids one tree and warns of death. God says it is not good for the man to be alone. The man names the animals, but none is a helper like him. God makes a woman from his rib, and the man welcomes her as his flesh.",
       "detail": "Chapter 1 said “good” again and again. Verse 18 is the first “not good.” The man already has a garden, food, and work (verses 15–16). In verses 19–20 he meets every animal and names it. Naming shows he knows them, yet none is “comparable to him.” Only then does God make the woman. The man’s words in verse 23 are about likeness: bone of his bones.",
       "dateLabel": "Narrative order · historical year unknown",
-      "uncertainty": "No verified location is supplied for this chapter.",
+      "uncertainty": "The map has no sure location for this chapter.",
       "sourceIds": [
         "web",
         "yale-creation",
@@ -2551,7 +2579,7 @@
       "summary": "The serpent asks the woman what God really said. She repeats the command, and the serpent says she will not die. She sees the fruit is good, eats, and gives some to her husband. Their eyes open, and they cover themselves and hide. God asks where the man is and whether he ate. The man blames the woman, and the woman blames the serpent. God curses the serpent and the ground, and speaks of pain and hard work. He clothes them with skins and sends them out of Eden.",
       "detail": "God asks the man two direct questions in verses 9 and 11. Verse 12 answers neither one first. The man names the woman, and then names God as the one who gave her. “I ate” comes last. In 2:23 he called her bone of his bones. Now he puts her between himself and God. Verse 13 shows the same move when the woman points to the serpent.",
       "dateLabel": "Narrative order · historical year unknown",
-      "uncertainty": "No verified location is supplied for this chapter.",
+      "uncertainty": "The map has no sure location for this chapter.",
       "sourceIds": [
         "web",
         "yale-creation",
@@ -2577,7 +2605,7 @@
       "summary": "Eve bears Cain and then Abel. Cain farms, and Abel keeps sheep. Both bring offerings, and the LORD accepts Abel’s but not Cain’s. The LORD warns Cain that sin crouches at the door. Cain kills Abel in the field and asks if he is his brother’s keeper. The LORD sends Cain away as a wanderer but marks him for protection. Cain’s family builds a city, and Lamech boasts of killing a man. Eve bears Seth, and people begin to call on the LORD’s name.",
       "detail": "Verse 15 sets a limit. God promises sevenfold vengeance to stop anyone from killing Cain. In verse 24 Lamech takes that promise for himself and multiplies it. He has killed a young man for a wound (verse 23). No one gave him this protection. A rule meant to hold back killing becomes a boast about killing. Verse 26 ends with a different use of speech: calling on the LORD’s name.",
       "dateLabel": "Narrative order · historical year unknown",
-      "uncertainty": "No verified location is supplied for this chapter.",
+      "uncertainty": "The map has no sure location for this chapter.",
       "sourceIds": [
         "web",
         "yale-creation"
@@ -2601,7 +2629,7 @@
       "summary": "This is the family record from Adam to Noah. God made people in his likeness, and Adam fathers Seth in his own likeness. Each entry gives a father’s age, his son, his total years, and his death. The years are very long, up to 969 for Methuselah. Enoch’s entry is different. He walks with God, and God takes him. Lamech names his son Noah and hopes for comfort from the cursed ground. Noah fathers Shem, Ham, and Japheth.",
       "detail": "The chapter repeats one pattern eight times and ends each with “then he died.” Genesis 2:17 warned of death, and the list shows it arriving. Enoch breaks the pattern in verses 22–24. The text says twice that he “walked with God.” His entry has no death line. It says God took him. Verse 29 adds a second break: a father hopes his son will bring relief.",
       "dateLabel": "Narrative order · historical year unknown",
-      "uncertainty": "No verified location is supplied for this chapter.",
+      "uncertainty": "The map has no sure location for this chapter.",
       "sourceIds": [
         "web",
         "yale-flood"
@@ -2626,7 +2654,7 @@
       "summary": "People multiply, and God’s sons take human daughters as wives. The LORD says man’s days will be 120 years. He sees that human thoughts are evil all the time, and he is grieved. He decides to wipe out people and animals. But Noah finds favor and walks with God. God tells Noah the earth is filled with violence. He orders a ship of gopher wood with three levels and one door. Noah is to bring his family, pairs of animals, and food, and he obeys.",
       "detail": "Verse 5 gives the cause of the flood as seen in the human heart. Verse 11 gives it as seen on the ground: violence fills the earth. The word “corrupt” appears three times in verses 11–12. God’s word for what he will do in verse 13 is “destroy.” The earth is already ruined by its people before the water comes. Verse 6 shows the decision costs God grief. Verse 8 keeps one door open: Noah finds favor.",
       "dateLabel": "Narrative order · historical year unknown",
-      "uncertainty": "No verified location is supplied for this chapter.",
+      "uncertainty": "The map has no sure location for this chapter.",
       "sourceIds": [
         "web",
         "yale-flood",
@@ -2652,7 +2680,7 @@
       "summary": "The LORD tells Noah to enter the ship with his household. Noah takes seven pairs of clean animals and one pair of the others. Noah is six hundred years old. After seven days the deep bursts open and the sky’s windows open. Rain falls forty days and nights. Noah’s family and the animals go in, and the LORD shuts him in. The water lifts the ship and covers the high mountains. Everything on dry land dies, and only those in the ship remain.",
       "detail": "Noah builds the ship and loads it, as verses 5 and 9 say. One act is not his: closing the door. Verse 16 says “the LORD shut him in.” Noah’s safety rests on that act, not on his building alone. The closed door keeps the family in and the water out. It also marks the end of the time to enter. Verse 23 states the result: only those inside are left.",
       "dateLabel": "Narrative order · historical year unknown",
-      "uncertainty": "No verified location is supplied for this chapter.",
+      "uncertainty": "The map has no sure location for this chapter.",
       "sourceIds": [
         "web",
         "yale-flood",
@@ -2704,7 +2732,7 @@
       "summary": "God blesses Noah and his sons and tells them to fill the earth. Animals will fear them, and they may eat meat but not blood. God will demand a reckoning for human life, because he made people in his image. He makes a covenant with Noah, his family, and every living creature. No flood will destroy the earth again, and the rainbow is the sign. Noah plants a vineyard and gets drunk. Ham sees his father naked, and Shem and Japheth cover him. Noah curses Canaan and blesses Shem and Japheth.",
       "detail": "After the flood, people may kill animals for food (verse 3). Verse 5 draws a line at human life. Verse 6 gives the reason: “God made man in his own image.” That is the same ground given for human worth in 1:27. The flood did not remove it. So the rule protects every person, not one family or rank. The earth was “filled with violence” in 6:11, and this rule answers that.",
       "dateLabel": "Narrative order · historical year unknown",
-      "uncertainty": "No verified location is supplied for this chapter.",
+      "uncertainty": "The map has no sure location for this chapter.",
       "sourceIds": [
         "web",
         "yale-flood",
@@ -3850,328 +3878,691 @@
       "name": "Ur",
       "lat": 30.962,
       "lng": 46.103,
-      "summary": "Genesis 11 names Ur of the Chaldeans. Southern Ur is a common identification.",
-      "limits": "The identification remains debated. This marker does not settle Abraham's origin.",
+      "summary": "Terah’s son Haran dies in Ur of the Chaldees. Terah leaves Ur with Abram, Sarai, and Lot in Genesis 11. Southern Ur is a common choice for the site.",
+      "limits": "Scholars still debate which place Genesis means.",
       "sourceIds": [
         "web",
         "atlas"
       ],
-      "detail": "Genesis 11 names Ur of the Chaldeans. Southern Ur is a common identification.",
-      "uncertainty": "The identification remains debated. This marker does not settle Abraham's origin.",
-      "chapterLocation": true
+      "detail": "Terah’s son Haran dies in Ur of the Chaldees. Terah leaves Ur with Abram, Sarai, and Lot in Genesis 11. Southern Ur is a common choice for the site.",
+      "uncertainty": "Scholars still debate which place Genesis means.",
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H218",
+        "key": "Ur",
+        "checkedVerses": 3,
+        "example": [
+          11,
+          28
+        ],
+        "hebrew": "אוּר",
+        "transliteration": "ʼÛwr",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "haran",
       "name": "Haran",
       "lat": 36.865,
       "lng": 39.032,
-      "summary": "Terah's household settles here. Abraham later leaves for Canaan.",
+      "summary": "Terah’s family settles here, and Terah dies (Genesis 11). Abram leaves Haran for Canaan in Genesis 12. Jacob later flees here to Laban.",
       "limits": "The ancient city is near modern Harran.",
       "sourceIds": [
         "web",
         "atlas"
       ],
-      "detail": "Terah's household settles here. Abraham later leaves for Canaan.",
+      "detail": "Terah’s family settles here, and Terah dies (Genesis 11). Abram leaves Haran for Canaan in Genesis 12. Jacob later flees here to Laban.",
       "uncertainty": "The ancient city is near modern Harran.",
-      "chapterLocation": true
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H2771",
+        "key": "Haran",
+        "checkedVerses": 6,
+        "example": [
+          11,
+          32
+        ],
+        "hebrew": "חָרָן",
+        "transliteration": "Chârân",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "babel",
       "name": "Babel",
       "lat": 32.543,
       "lng": 44.421,
-      "summary": "Genesis 11 places Babel in Shinar. The story links its name with confused speech.",
-      "limits": "Babylon is the usual city identification. The tower itself is not identified.",
+      "summary": "Nimrod’s kingdom begins at Babel in Genesis 10. In Genesis 11 people build a city and a tower in Shinar. The LORD confuses their language, and the city is named Babel.",
+      "limits": "Babylon is the usual choice for the city. No one has identified the tower.",
       "sourceIds": [
         "web",
         "atlas"
       ],
-      "detail": "Genesis 11 places Babel in Shinar. The story links its name with confused speech.",
-      "uncertainty": "Babylon is the usual city identification. The tower itself is not identified.",
-      "chapterLocation": true
+      "detail": "Nimrod’s kingdom begins at Babel in Genesis 10. In Genesis 11 people build a city and a tower in Shinar. The LORD confuses their language, and the city is named Babel.",
+      "uncertainty": "Babylon is the usual choice for the city. No one has identified the tower.",
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H894",
+        "key": "Babel",
+        "checkedVerses": 2,
+        "example": [
+          10,
+          10
+        ],
+        "hebrew": "בָּבֶל",
+        "transliteration": "Bâbel",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "ararat",
       "name": "Mountains of Ararat",
       "lat": 38.7,
       "lng": 43.3,
-      "summary": "Genesis 8 names a mountain region where the ark rests.",
-      "limits": "This marker represents a broad region. It does not locate the ark or one mountain.",
+      "summary": "The ship rests on Ararat’s mountains in Genesis 8.",
+      "limits": "The marker shows a broad mountain region, not one peak.",
       "sourceIds": [
         "web",
         "atlas"
       ],
-      "detail": "Genesis 8 names a mountain region where the ark rests.",
-      "uncertainty": "This marker represents a broad region. It does not locate the ark or one mountain.",
-      "chapterLocation": true
+      "detail": "The ship rests on Ararat’s mountains in Genesis 8.",
+      "uncertainty": "The marker shows a broad mountain region, not one peak.",
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H780",
+        "key": "Ararat",
+        "checkedVerses": 1,
+        "example": [
+          8,
+          4
+        ],
+        "hebrew": "אֲרָרַט",
+        "transliteration": "ʼĂrâraṭ",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ],
+        "languageNote": "This is the dictionary form of the name “Ararat.”"
+      }
     },
     {
       "id": "shechem",
       "name": "Shechem",
       "lat": 32.213,
       "lng": 35.282,
-      "summary": "Abraham builds an altar nearby. Jacob later buys land here.",
+      "summary": "Abram builds an altar here in Genesis 12. Jacob buys land here in Genesis 33. In Genesis 34 Simeon and Levi kill the men of the city. Joseph looks for his brothers here in Genesis 37.",
       "limits": "Tell Balata is the usual ancient city site.",
       "sourceIds": [
         "web",
         "atlas",
         "atlas-canaan"
       ],
-      "detail": "Abraham builds an altar nearby. Jacob later buys land here.",
+      "detail": "Abram builds an altar here in Genesis 12. Jacob buys land here in Genesis 33. In Genesis 34 Simeon and Levi kill the men of the city. Joseph looks for his brothers here in Genesis 37.",
       "uncertainty": "Tell Balata is the usual ancient city site.",
-      "chapterLocation": true
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H7927",
+        "key": "Shechem",
+        "checkedVerses": 17,
+        "example": [
+          12,
+          6
+        ],
+        "hebrew": "שְׁכֶם",
+        "transliteration": "Shᵉkem",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "bethel",
       "name": "Bethel",
       "lat": 31.929,
       "lng": 35.238,
-      "summary": "Abraham camps nearby. Jacob names the site after his dream.",
-      "limits": "Beitin is a common identification. Exact ancient boundaries remain uncertain.",
+      "summary": "Abram builds an altar near Bethel in Genesis 12 and returns in Genesis 13. Jacob dreams here and names the place Bethel (Genesis 28). God sends Jacob back here in Genesis 35.",
+      "limits": "Beitin is a common identification. The exact ancient site is not sure.",
       "sourceIds": [
         "web",
         "atlas",
         "atlas-canaan"
       ],
-      "detail": "Abraham camps nearby. Jacob names the site after his dream.",
-      "uncertainty": "Beitin is a common identification. Exact ancient boundaries remain uncertain.",
-      "chapterLocation": true
+      "detail": "Abram builds an altar near Bethel in Genesis 12 and returns in Genesis 13. Jacob dreams here and names the place Bethel (Genesis 28). God sends Jacob back here in Genesis 35.",
+      "uncertainty": "Beitin is a common identification. The exact ancient site is not sure.",
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H1008",
+        "key": "Bethel",
+        "checkedVerses": 10,
+        "example": [
+          12,
+          8
+        ],
+        "hebrew": "בֵּית־אֵל",
+        "transliteration": "Bêyth-ʼÊl",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "hebron",
       "name": "Hebron",
       "lat": 31.532,
       "lng": 35.1,
-      "summary": "Abraham lives near Hebron. Sarah's burial establishes a family grave.",
-      "limits": "The marker shows Hebron. It does not verify the burial chamber.",
+      "summary": "Abram lives by the oaks of Mamre in Hebron (Genesis 13). Sarah dies here, and Abraham buys the cave of Machpelah (Genesis 23). Abraham, Isaac, and Jacob are later buried in that cave.",
+      "limits": "The marker shows Hebron. It does not prove where the burial cave is.",
       "sourceIds": [
         "web",
         "atlas",
         "atlas-canaan"
       ],
-      "detail": "Abraham lives near Hebron. Sarah's burial establishes a family grave.",
-      "uncertainty": "The marker shows Hebron. It does not verify the burial chamber.",
-      "chapterLocation": true
+      "detail": "Abram lives by the oaks of Mamre in Hebron (Genesis 13). Sarah dies here, and Abraham buys the cave of Machpelah (Genesis 23). Abraham, Isaac, and Jacob are later buried in that cave.",
+      "uncertainty": "The marker shows Hebron. It does not prove where the burial cave is.",
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H2275",
+        "key": "Hebron",
+        "checkedVerses": 5,
+        "example": [
+          13,
+          18
+        ],
+        "hebrew": "חֶבְרוֹן",
+        "transliteration": "Chebrôwn",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "beersheba",
       "name": "Beersheba",
       "lat": 31.245,
       "lng": 34.84,
-      "summary": "Abraham and Isaac make agreements here. Jacob stops before entering Egypt.",
-      "limits": "The marker shows the ancient settlement area.",
+      "summary": "Abraham and Abimelech swear an oath here in Genesis 21. Isaac makes his own oath with Abimelech in Genesis 26. Jacob offers sacrifices here on his way to Egypt (Genesis 46).",
+      "limits": "The marker shows the area of the ancient town.",
       "sourceIds": [
         "web",
         "atlas",
         "atlas-canaan"
       ],
-      "detail": "Abraham and Isaac make agreements here. Jacob stops before entering Egypt.",
-      "uncertainty": "The marker shows the ancient settlement area.",
-      "chapterLocation": true
+      "detail": "Abraham and Abimelech swear an oath here in Genesis 21. Isaac makes his own oath with Abimelech in Genesis 26. Jacob offers sacrifices here on his way to Egypt (Genesis 46).",
+      "uncertainty": "The marker shows the area of the ancient town.",
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H884",
+        "key": "Beersheba",
+        "checkedVerses": 10,
+        "example": [
+          21,
+          14
+        ],
+        "hebrew": "בְּאֵר שֶׁבַע",
+        "transliteration": "Bᵉʼêr Shebaʻ",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "egypt",
       "name": "Egypt",
       "lat": 30.1,
       "lng": 31.2,
-      "summary": "Famine draws Abraham and later Jacob's family into Egypt. Joseph rises to royal service.",
-      "limits": "This regional marker does not identify Joseph's palace or Pharaoh.",
+      "summary": "Abram goes to Egypt in a famine (Genesis 12). Joseph is sold there and rises to rule under Pharaoh. Jacob’s family moves there in Genesis 46.",
+      "limits": "The marker shows the whole region, not one city.",
       "sourceIds": [
         "web",
         "atlas"
       ],
-      "detail": "Famine draws Abraham and later Jacob's family into Egypt. Joseph rises to royal service.",
-      "uncertainty": "This regional marker does not identify Joseph's palace or Pharaoh.",
-      "chapterLocation": true
+      "detail": "Abram goes to Egypt in a famine (Genesis 12). Joseph is sold there and rises to rule under Pharaoh. Jacob’s family moves there in Genesis 46.",
+      "uncertainty": "The marker shows the whole region, not one city.",
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H4714",
+        "key": "Egypt",
+        "checkedVerses": 73,
+        "example": [
+          12,
+          10
+        ],
+        "hebrew": "מִצְרַיִם",
+        "transliteration": "Mitsrayim",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "goshen",
       "name": "Goshen",
       "lat": 30.7,
       "lng": 31.8,
-      "summary": "Genesis places Jacob's household in Goshen, within Egypt.",
-      "limits": "The broad delta placement is approximate. Its exact limits are unknown.",
+      "summary": "Joseph settles Jacob’s family in Goshen in Genesis 46–47. Pharaoh calls it the best of the land.",
+      "limits": "The marker shows a broad part of the delta. Goshen’s exact limits are unknown.",
       "sourceIds": [
         "web",
         "atlas"
       ],
-      "detail": "Genesis places Jacob's household in Goshen, within Egypt.",
-      "uncertainty": "The broad delta placement is approximate. Its exact limits are unknown.",
-      "chapterLocation": true
+      "detail": "Joseph settles Jacob’s family in Goshen in Genesis 46–47. Pharaoh calls it the best of the land.",
+      "uncertainty": "The marker shows a broad part of the delta. Goshen’s exact limits are unknown.",
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H1657",
+        "key": "Goshen",
+        "checkedVerses": 9,
+        "example": [
+          45,
+          10
+        ],
+        "hebrew": "גֹּשֶׁן",
+        "transliteration": "Gôshen",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "sodom",
       "name": "Sodom",
       "lat": 31.2,
       "lng": 35.5,
-      "summary": "Lot lives in Sodom. Genesis 19 tells how the city is destroyed.",
-      "limits": "The site is disputed. This marker shows a region rather than a confirmed city.",
+      "summary": "Lot moves his tent as far as Sodom in Genesis 13. Abraham pleads for the city in Genesis 18. In Genesis 19 the LORD rains sulfur and fire on it.",
+      "limits": "The site is disputed. The marker shows a region, not a known city.",
       "sourceIds": [
         "web",
         "atlas",
         "atlas-canaan"
       ],
-      "detail": "Lot lives in Sodom. Genesis 19 tells how the city is destroyed.",
-      "uncertainty": "The site is disputed. This marker shows a region rather than a confirmed city.",
-      "chapterLocation": true
+      "detail": "Lot moves his tent as far as Sodom in Genesis 13. Abraham pleads for the city in Genesis 18. In Genesis 19 the LORD rains sulfur and fire on it.",
+      "uncertainty": "The site is disputed. The marker shows a region, not a known city.",
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H5467",
+        "key": "Sodom",
+        "checkedVerses": 20,
+        "example": [
+          10,
+          19
+        ],
+        "hebrew": "סְדֹם",
+        "transliteration": "Çᵉdôm",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "zoar",
       "name": "Zoar",
       "lat": 31.0,
       "lng": 35.5,
-      "summary": "Lot seeks refuge in Zoar when he leaves Sodom.",
-      "limits": "The exact Genesis site is uncertain.",
+      "summary": "Lot asks to flee to this small city in Genesis 19. He reaches Zoar at sunrise, then leaves for the mountain.",
+      "limits": "The exact site is not sure.",
       "sourceIds": [
         "web",
         "atlas",
         "atlas-canaan"
       ],
-      "detail": "Lot seeks refuge in Zoar when he leaves Sodom.",
-      "uncertainty": "The exact Genesis site is uncertain.",
-      "chapterLocation": true
+      "detail": "Lot asks to flee to this small city in Genesis 19. He reaches Zoar at sunrise, then leaves for the mountain.",
+      "uncertainty": "The exact site is not sure.",
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H6820",
+        "key": "Zoar",
+        "checkedVerses": 6,
+        "example": [
+          13,
+          10
+        ],
+        "hebrew": "צֹעַר",
+        "transliteration": "Tsôʻar",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "gerar",
       "name": "Gerar",
       "lat": 31.39,
       "lng": 34.61,
-      "summary": "Abraham and Isaac deal with Abimelech near Gerar.",
-      "limits": "Tell Haror is a proposed identification. The marker is approximate.",
+      "summary": "Abraham stays in Gerar in Genesis 20, and Abimelech takes Sarah. Isaac stays here in Genesis 26, and herdsmen argue over his wells.",
+      "limits": "Tell Haror is a proposed site. The marker is a rough guide.",
       "sourceIds": [
         "web",
         "atlas",
         "atlas-canaan"
       ],
-      "detail": "Abraham and Isaac deal with Abimelech near Gerar.",
-      "uncertainty": "Tell Haror is a proposed identification. The marker is approximate.",
-      "chapterLocation": true
+      "detail": "Abraham stays in Gerar in Genesis 20, and Abimelech takes Sarah. Isaac stays here in Genesis 26, and herdsmen argue over his wells.",
+      "uncertainty": "Tell Haror is a proposed site. The marker is a rough guide.",
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H1642",
+        "key": "Gerar",
+        "checkedVerses": 8,
+        "example": [
+          10,
+          19
+        ],
+        "hebrew": "גְּרָר",
+        "transliteration": "Gᵉrâr",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "beer-lahai-roi",
       "name": "Beer Lahai Roi",
       "lat": 30.8,
       "lng": 34.8,
-      "summary": "Hagar names the well after her encounter. Isaac later lives nearby.",
-      "limits": "Its location is unknown. The marker represents the Negev region only.",
+      "summary": "The LORD’s angel finds Hagar by a spring in Genesis 16. The well is then called Beer Lahai Roi. Isaac later lives near it.",
+      "limits": "Its site is unknown. The marker shows only the Negev region.",
       "sourceIds": [
         "web",
         "atlas",
         "atlas-canaan"
       ],
-      "detail": "Hagar names the well after her encounter. Isaac later lives nearby.",
-      "uncertainty": "Its location is unknown. The marker represents the Negev region only.",
-      "chapterLocation": true
+      "detail": "The LORD’s angel finds Hagar by a spring in Genesis 16. The well is then called Beer Lahai Roi. Isaac later lives near it.",
+      "uncertainty": "Its site is unknown. The marker shows only the Negev region.",
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H883",
+        "key": "Beer Lahai Roi",
+        "checkedVerses": 3,
+        "example": [
+          16,
+          14
+        ],
+        "hebrew": "בְּאֵר לַחַי רֹאִי",
+        "transliteration": "Bᵉʼêr la-Chay Rôʼîy",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "moriah",
       "name": "Land of Moriah",
       "lat": 31.778,
       "lng": 35.235,
-      "summary": "Genesis 22 places Abraham's test in the land of Moriah.",
-      "limits": "Jerusalem reflects a later biblical association. Genesis does not give a verified site.",
+      "summary": "God sends Abraham to the land of Moriah to offer Isaac (Genesis 22). The LORD’s angel stops him there, and Abraham offers a ram.",
+      "limits": "A later Bible book links Moriah with Jerusalem. Genesis gives no sure site.",
       "sourceIds": [
         "web",
         "atlas",
         "atlas-canaan"
       ],
-      "detail": "Genesis 22 places Abraham's test in the land of Moriah.",
-      "uncertainty": "Jerusalem reflects a later biblical association. Genesis does not give a verified site.",
-      "chapterLocation": true
+      "detail": "God sends Abraham to the land of Moriah to offer Isaac (Genesis 22). The LORD’s angel stops him there, and Abraham offers a ram.",
+      "uncertainty": "A later Bible book links Moriah with Jerusalem. Genesis gives no sure site.",
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H4179",
+        "key": "Moriah",
+        "checkedVerses": 1,
+        "example": [
+          22,
+          2
+        ],
+        "hebrew": "מוֹרִיָּה",
+        "transliteration": "Môwrîyâh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ],
+        "languageNote": "This is the dictionary form of the name “Moriah.”"
+      }
     },
     {
       "id": "salem",
       "name": "Salem",
       "lat": 31.778,
       "lng": 35.235,
-      "summary": "Melchizedek is king of Salem and priest of God Most High.",
-      "limits": "Jerusalem is a traditional identification. Genesis alone does not establish it.",
+      "summary": "Melchizedek, king of Salem, meets Abram in Genesis 14. He is priest of God Most High.",
+      "limits": "Tradition identifies Salem with Jerusalem. Genesis alone does not prove it.",
       "sourceIds": [
         "web",
         "atlas",
         "atlas-canaan"
       ],
-      "detail": "Melchizedek is king of Salem and priest of God Most High.",
-      "uncertainty": "Jerusalem is a traditional identification. Genesis alone does not establish it.",
-      "chapterLocation": true
+      "detail": "Melchizedek, king of Salem, meets Abram in Genesis 14. He is priest of God Most High.",
+      "uncertainty": "Tradition identifies Salem with Jerusalem. Genesis alone does not prove it.",
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H8004",
+        "key": "Salem",
+        "checkedVerses": 1,
+        "example": [
+          14,
+          18
+        ],
+        "hebrew": "שָׁלֵם",
+        "transliteration": "Shâlêm",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "dan",
       "name": "Dan",
       "lat": 33.249,
       "lng": 35.652,
-      "summary": "Abram pursues Lot's captors as far as Dan.",
-      "limits": "The name may reflect the narrator's later geography.",
+      "summary": "Abram chases the kings who took Lot as far as Dan (Genesis 14).",
+      "limits": "The name Dan may come from a later time than Abram.",
       "sourceIds": [
         "web",
         "atlas",
         "atlas-canaan"
       ],
-      "detail": "Abram pursues Lot's captors as far as Dan.",
-      "uncertainty": "The name may reflect the narrator's later geography.",
-      "chapterLocation": true
+      "detail": "Abram chases the kings who took Lot as far as Dan (Genesis 14).",
+      "uncertainty": "The name Dan may come from a later time than Abram.",
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H1835",
+        "key": "Dan",
+        "checkedVerses": 6,
+        "example": [
+          14,
+          14
+        ],
+        "hebrew": "דָּן",
+        "transliteration": "Dân",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "damascus",
       "name": "Damascus region",
       "lat": 33.514,
       "lng": 36.277,
-      "summary": "Genesis 14 places Hobah north of Damascus.",
-      "limits": "This marker shows Damascus. Hobah's exact site is unknown.",
+      "summary": "Abram chases the kings to Hobah in Genesis 14. The text puts Hobah on the left hand of Damascus.",
+      "limits": "The marker shows Damascus. Hobah’s exact site is unknown.",
       "sourceIds": [
         "web",
         "atlas",
         "atlas-canaan"
       ],
-      "detail": "Genesis 14 places Hobah north of Damascus.",
-      "uncertainty": "This marker shows Damascus. Hobah's exact site is unknown.",
-      "chapterLocation": true
+      "detail": "Abram chases the kings to Hobah in Genesis 14. The text puts Hobah on the left hand of Damascus.",
+      "uncertainty": "The marker shows Damascus. Hobah’s exact site is unknown.",
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H1834",
+        "key": "Damascus",
+        "checkedVerses": 2,
+        "example": [
+          14,
+          15
+        ],
+        "hebrew": "דַּמֶּשֶׂק",
+        "transliteration": "Dammeseq",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ],
+        "languageNote": "This is the dictionary form of the name “Damascus.”"
+      }
     },
     {
       "id": "gilead",
       "name": "Gilead",
       "lat": 32.2,
       "lng": 35.85,
-      "summary": "Jacob and Laban make their agreement in this hill region.",
-      "limits": "This is a regional marker.",
+      "summary": "Laban catches up with Jacob in the mountain of Gilead (Genesis 31). They heap up stones and make a covenant there.",
+      "limits": "The marker shows a hill region, not one spot.",
       "sourceIds": [
         "web",
         "atlas",
         "atlas-canaan"
       ],
-      "detail": "Jacob and Laban make their agreement in this hill region.",
-      "uncertainty": "This is a regional marker.",
-      "chapterLocation": true
+      "detail": "Laban catches up with Jacob in the mountain of Gilead (Genesis 31). They heap up stones and make a covenant there.",
+      "uncertainty": "The marker shows a hill region, not one spot.",
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H1568",
+        "key": "Gilead",
+        "checkedVerses": 4,
+        "example": [
+          31,
+          21
+        ],
+        "hebrew": "גִּלְעָד",
+        "transliteration": "Gilʻâd",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "mahanaim",
       "name": "Mahanaim",
       "lat": 32.21,
       "lng": 35.62,
-      "summary": "Jacob names the place after meeting God's messengers.",
-      "limits": "The site is uncertain. The marker shows the broader region.",
+      "summary": "God’s angels meet Jacob here in Genesis 32. Jacob says, “This is God’s army,” and names the place Mahanaim.",
+      "limits": "The site is not sure. The marker shows the wider region.",
       "sourceIds": [
         "web",
         "atlas",
         "atlas-canaan"
       ],
-      "detail": "Jacob names the place after meeting God's messengers.",
-      "uncertainty": "The site is uncertain. The marker shows the broader region.",
-      "chapterLocation": true
+      "detail": "God’s angels meet Jacob here in Genesis 32. Jacob says, “This is God’s army,” and names the place Mahanaim.",
+      "uncertainty": "The site is not sure. The marker shows the wider region.",
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H4266",
+        "key": "Mahanaim",
+        "checkedVerses": 1,
+        "example": [
+          32,
+          2
+        ],
+        "hebrew": "מַחֲנַיִם",
+        "transliteration": "Machănayim",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "penuel",
       "name": "Penuel",
       "lat": 32.184,
       "lng": 35.702,
-      "summary": "Jacob wrestles near the Jabbok before meeting Esau.",
+      "summary": "Jacob wrestles a man until dawn near the ford of the Jabbok (Genesis 32). He names the place Peniel. He then meets Esau in Genesis 33.",
       "limits": "The marker follows a proposed site near the river.",
       "sourceIds": [
         "web",
         "atlas",
         "atlas-canaan"
       ],
-      "detail": "Jacob wrestles near the Jabbok before meeting Esau.",
+      "detail": "Jacob wrestles a man until dawn near the ford of the Jabbok (Genesis 32). He names the place Peniel. He then meets Esau in Genesis 33.",
       "uncertainty": "The marker follows a proposed site near the river.",
       "chapterLocation": true
     },
@@ -4180,78 +4571,150 @@
       "name": "Succoth",
       "lat": 32.18,
       "lng": 35.62,
-      "summary": "Jacob builds shelters here after meeting Esau.",
+      "summary": "Jacob builds a house and shelters for his livestock here in Genesis 33.",
       "limits": "The marker follows a proposed Jordan valley site.",
       "sourceIds": [
         "web",
         "atlas",
         "atlas-canaan"
       ],
-      "detail": "Jacob builds shelters here after meeting Esau.",
+      "detail": "Jacob builds a house and shelters for his livestock here in Genesis 33.",
       "uncertainty": "The marker follows a proposed Jordan valley site.",
-      "chapterLocation": true
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H5523",
+        "key": "Succoth",
+        "checkedVerses": 1,
+        "example": [
+          33,
+          17
+        ],
+        "hebrew": "סֻכּוֹת",
+        "transliteration": "Çukkôwth",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "bethlehem",
       "name": "Bethlehem",
       "lat": 31.705,
       "lng": 35.202,
-      "summary": "Rachel dies on the journey toward Ephrath, identified in the text as Bethlehem.",
-      "limits": "The marker shows the town. Rachel's burial site has competing traditions.",
+      "summary": "Rachel dies giving birth to Benjamin on the way to Ephrath (Genesis 35). The text says Ephrath is also called Bethlehem.",
+      "limits": "The marker shows the town. Traditions differ about where Rachel is buried.",
       "sourceIds": [
         "web",
         "atlas",
         "atlas-canaan"
       ],
-      "detail": "Rachel dies on the journey toward Ephrath, identified in the text as Bethlehem.",
-      "uncertainty": "The marker shows the town. Rachel's burial site has competing traditions.",
-      "chapterLocation": true
+      "detail": "Rachel dies giving birth to Benjamin on the way to Ephrath (Genesis 35). The text says Ephrath is also called Bethlehem.",
+      "uncertainty": "The marker shows the town. Traditions differ about where Rachel is buried.",
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H1035",
+        "key": "Bethlehem",
+        "checkedVerses": 2,
+        "example": [
+          35,
+          19
+        ],
+        "hebrew": "בֵּית לֶחֶם",
+        "transliteration": "Bêyth Lechem",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "edom",
       "name": "Edom",
       "lat": 30.7,
       "lng": 35.5,
-      "summary": "Genesis 36 associates Esau's descendants with Seir and Edom.",
-      "limits": "This is a regional marker, not a political boundary.",
+      "summary": "Esau lives in the hill country of Seir in Genesis 36. The chapter lists his sons and the chiefs of Edom.",
+      "limits": "The marker shows a region, not a border.",
       "sourceIds": [
         "web",
         "atlas",
         "atlas-canaan"
       ],
-      "detail": "Genesis 36 associates Esau's descendants with Seir and Edom.",
-      "uncertainty": "This is a regional marker, not a political boundary.",
-      "chapterLocation": true
+      "detail": "Esau lives in the hill country of Seir in Genesis 36. The chapter lists his sons and the chiefs of Edom.",
+      "uncertainty": "The marker shows a region, not a border.",
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H123",
+        "key": "Edom",
+        "checkedVerses": 11,
+        "example": [
+          25,
+          30
+        ],
+        "hebrew": "אֱדֹם",
+        "transliteration": "ʼĔdôm",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "dothan",
       "name": "Dothan",
       "lat": 32.413,
       "lng": 35.238,
-      "summary": "Joseph finds his brothers near Dothan before they sell him.",
+      "summary": "Joseph finds his brothers at Dothan in Genesis 37. They throw him into a pit and sell him.",
       "limits": "Tell Dothan is the usual identification.",
       "sourceIds": [
         "web",
         "atlas",
         "atlas-canaan"
       ],
-      "detail": "Joseph finds his brothers near Dothan before they sell him.",
+      "detail": "Joseph finds his brothers at Dothan in Genesis 37. They throw him into a pit and sell him.",
       "uncertainty": "Tell Dothan is the usual identification.",
-      "chapterLocation": true
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H1886",
+        "key": "Dothan",
+        "checkedVerses": 1,
+        "example": [
+          37,
+          17
+        ],
+        "hebrew": "דֹּתָן",
+        "transliteration": "Dôthân",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "adullam",
       "name": "Adullam",
       "lat": 31.65,
       "lng": 35.0,
-      "summary": "Judah goes down to Adullam in Genesis 38.",
+      "summary": "Judah visits Hirah, an Adullamite, in Genesis 38. Hirah later goes with Judah to Timnah.",
       "limits": "The marker follows the usual hill-country identification.",
       "sourceIds": [
         "web",
         "atlas",
         "atlas-canaan"
       ],
-      "detail": "Judah goes down to Adullam in Genesis 38.",
+      "detail": "Judah visits Hirah, an Adullamite, in Genesis 38. Hirah later goes with Judah to Timnah.",
       "uncertainty": "The marker follows the usual hill-country identification.",
       "chapterLocation": true
     },
@@ -4260,38 +4723,287 @@
       "name": "Timnah region",
       "lat": 31.75,
       "lng": 34.94,
-      "summary": "Judah travels to Timnah for sheep shearing.",
-      "limits": "More than one ancient site has this name. The identification is uncertain.",
+      "summary": "Judah goes up to Timnah to shear his sheep in Genesis 38. Tamar waits for him on the road there.",
+      "limits": "More than one ancient site has this name. The right one is not sure.",
       "sourceIds": [
         "web",
         "atlas",
         "atlas-canaan"
       ],
-      "detail": "Judah travels to Timnah for sheep shearing.",
-      "uncertainty": "More than one ancient site has this name. The identification is uncertain.",
-      "chapterLocation": true
+      "detail": "Judah goes up to Timnah to shear his sheep in Genesis 38. Tamar waits for him on the road there.",
+      "uncertainty": "More than one ancient site has this name. The right one is not sure.",
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H8553",
+        "key": "Timnah",
+        "checkedVerses": 3,
+        "example": [
+          38,
+          12
+        ],
+        "hebrew": "תִּמְנָה",
+        "transliteration": "Timnâh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ],
+        "languageNote": "This is the dictionary form of the name “Timnah.”"
+      }
     },
     {
       "id": "canaan",
       "name": "Canaan",
       "lat": 32.0,
       "lng": 35.15,
-      "summary": "The promised land forms the main setting of the ancestral stories.",
-      "limits": "This is a regional marker, not a surveyed border.",
+      "summary": "Jacob lives in Canaan during the famine. His sons travel from Canaan to Egypt for grain in Genesis 42–43. In Genesis 45 Joseph sends them back to bring Jacob.",
+      "limits": "The marker shows a region, not a border.",
       "sourceIds": [
         "web",
         "atlas",
         "atlas-canaan"
       ],
-      "detail": "The promised land forms the main setting of the ancestral stories.",
-      "uncertainty": "This is a regional marker, not a surveyed border.",
-      "chapterLocation": true
+      "detail": "Jacob lives in Canaan during the famine. His sons travel from Canaan to Egypt for grain in Genesis 42–43. In Genesis 45 Joseph sends them back to bring Jacob.",
+      "uncertainty": "The marker shows a region, not a border.",
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H3667",
+        "key": "Canaan",
+        "checkedVerses": 45,
+        "example": [
+          9,
+          18
+        ],
+        "hebrew": "כְּנַעַן",
+        "transliteration": "Kᵉnaʻan",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     }
   ],
   "campaigns": [],
   "ancientRoads": [],
   "regions": [],
   "words": [
+    {
+      "id": "glossary-covenant-6-H1285-covenant",
+      "label": "Covenant",
+      "matches": [
+        "covenant"
+      ],
+      "chapter": 6,
+      "verses": [
+        18
+      ],
+      "hebrew": "בְּרִית",
+      "transliteration": "bᵉrîyth",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A binding agreement with promises and duties. In the Bible, God makes covenants with people.",
+      "grammar": "This is the dictionary form of Hebrew word H1285. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H1285",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-covenant-9-H1285-covenant",
+      "label": "Covenant",
+      "matches": [
+        "covenant"
+      ],
+      "chapter": 9,
+      "verses": [
+        9,
+        11,
+        12,
+        13,
+        15,
+        16,
+        17
+      ],
+      "hebrew": "בְּרִית",
+      "transliteration": "bᵉrîyth",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A binding agreement with promises and duties. In the Bible, God makes covenants with people.",
+      "grammar": "This is the dictionary form of Hebrew word H1285. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H1285",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-covenant-15-H1285-covenant",
+      "label": "Covenant",
+      "matches": [
+        "covenant"
+      ],
+      "chapter": 15,
+      "verses": [
+        18
+      ],
+      "hebrew": "בְּרִית",
+      "transliteration": "bᵉrîyth",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A binding agreement with promises and duties. In the Bible, God makes covenants with people.",
+      "grammar": "This is the dictionary form of Hebrew word H1285. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H1285",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-covenant-17-H1285-covenant",
+      "label": "Covenant",
+      "matches": [
+        "covenant"
+      ],
+      "chapter": 17,
+      "verses": [
+        2,
+        4,
+        7,
+        9,
+        10,
+        11,
+        13,
+        14,
+        19,
+        21
+      ],
+      "hebrew": "בְּרִית",
+      "transliteration": "bᵉrîyth",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A binding agreement with promises and duties. In the Bible, God makes covenants with people.",
+      "grammar": "This is the dictionary form of Hebrew word H1285. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H1285",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-covenant-21-H1285-covenant",
+      "label": "Covenant",
+      "matches": [
+        "covenant"
+      ],
+      "chapter": 21,
+      "verses": [
+        27,
+        32
+      ],
+      "hebrew": "בְּרִית",
+      "transliteration": "bᵉrîyth",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A binding agreement with promises and duties. In the Bible, God makes covenants with people.",
+      "grammar": "This is the dictionary form of Hebrew word H1285. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H1285",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-covenant-26-H1285-covenant",
+      "label": "Covenant",
+      "matches": [
+        "covenant"
+      ],
+      "chapter": 26,
+      "verses": [
+        28
+      ],
+      "hebrew": "בְּרִית",
+      "transliteration": "bᵉrîyth",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A binding agreement with promises and duties. In the Bible, God makes covenants with people.",
+      "grammar": "This is the dictionary form of Hebrew word H1285. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H1285",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-covenant-31-H1285-covenant",
+      "label": "Covenant",
+      "matches": [
+        "covenant"
+      ],
+      "chapter": 31,
+      "verses": [
+        44
+      ],
+      "hebrew": "בְּרִית",
+      "transliteration": "bᵉrîyth",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A binding agreement with promises and duties. In the Bible, God makes covenants with people.",
+      "grammar": "This is the dictionary form of Hebrew word H1285. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H1285",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
     {
       "id": "glossary-covenant",
       "label": "Covenant",
@@ -4312,7 +5024,8 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
     },
     {
       "id": "glossary-scribes",
@@ -4334,7 +5047,36 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-assembly-49-H6951-assembly",
+      "label": "Assembly",
+      "matches": [
+        "assembly"
+      ],
+      "chapter": 49,
+      "verses": [
+        6
+      ],
+      "hebrew": "קָהָל",
+      "transliteration": "qâhâl",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A gathering of people. In the New Testament letters it means a group of believers. Many translations say “church.”",
+      "grammar": "This is the dictionary form of Hebrew word H6951. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H6951",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-assembly",
@@ -4356,7 +5098,8 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
     },
     {
       "id": "glossary-baal",
@@ -4378,7 +5121,131 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-circumcision-17-H6189-uncircumcised",
+      "label": "Circumcision",
+      "matches": [
+        "uncircumcised"
+      ],
+      "chapter": 17,
+      "verses": [
+        14
+      ],
+      "hebrew": "עָרֵל",
+      "transliteration": "ʻârêl",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "The cutting of the foreskin. Genesis 17 makes it the sign of God’s covenant with Abraham.",
+      "grammar": "This is the dictionary form of Hebrew word H6189. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H6189",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-circumcision-17-H4135-circumcised",
+      "label": "Circumcision",
+      "matches": [
+        "circumcised"
+      ],
+      "chapter": 17,
+      "verses": [
+        10,
+        12,
+        13,
+        14,
+        23,
+        24,
+        25,
+        26,
+        27
+      ],
+      "hebrew": "מוּל",
+      "transliteration": "mûwl",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "The cutting of the foreskin. Genesis 17 makes it the sign of God’s covenant with Abraham.",
+      "grammar": "This is the dictionary form of Hebrew word H4135. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H4135",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-circumcision-21-H4135-circumcised",
+      "label": "Circumcision",
+      "matches": [
+        "circumcised"
+      ],
+      "chapter": 21,
+      "verses": [
+        4
+      ],
+      "hebrew": "מוּל",
+      "transliteration": "mûwl",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "The cutting of the foreskin. Genesis 17 makes it the sign of God’s covenant with Abraham.",
+      "grammar": "This is the dictionary form of Hebrew word H4135. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H4135",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-circumcision-34-H4135-circumcised",
+      "label": "Circumcision",
+      "matches": [
+        "circumcised"
+      ],
+      "chapter": 34,
+      "verses": [
+        15,
+        17,
+        22,
+        24
+      ],
+      "hebrew": "מוּל",
+      "transliteration": "mûwl",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "The cutting of the foreskin. Genesis 17 makes it the sign of God’s covenant with Abraham.",
+      "grammar": "This is the dictionary form of Hebrew word H4135. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H4135",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-circumcision",
@@ -4403,7 +5270,36 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-cherubim-3-H3742-cherubim",
+      "label": "Cherubim",
+      "matches": [
+        "cherubim"
+      ],
+      "chapter": 3,
+      "verses": [
+        24
+      ],
+      "hebrew": "כְּרוּב",
+      "transliteration": "kᵉrûwb",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "Winged heavenly beings. Gold figures of them stood over the ark (Exodus 25:18–20).",
+      "grammar": "This is the dictionary form of Hebrew word H3742. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H3742",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-cherubim",
@@ -4425,7 +5321,93 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-sheol-37-H7585-sheol",
+      "label": "Sheol",
+      "matches": [
+        "Sheol"
+      ],
+      "chapter": 37,
+      "verses": [
+        35
+      ],
+      "hebrew": "שְׁאוֹל",
+      "transliteration": "shᵉʼôwl",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "The Hebrew name for the place of the dead.",
+      "grammar": "This is the dictionary form of Hebrew word H7585. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H7585",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-sheol-42-H7585-sheol",
+      "label": "Sheol",
+      "matches": [
+        "Sheol"
+      ],
+      "chapter": 42,
+      "verses": [
+        38
+      ],
+      "hebrew": "שְׁאוֹל",
+      "transliteration": "shᵉʼôwl",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "The Hebrew name for the place of the dead.",
+      "grammar": "This is the dictionary form of Hebrew word H7585. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H7585",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-sheol-44-H7585-sheol",
+      "label": "Sheol",
+      "matches": [
+        "Sheol"
+      ],
+      "chapter": 44,
+      "verses": [
+        29,
+        31
+      ],
+      "hebrew": "שְׁאוֹל",
+      "transliteration": "shᵉʼôwl",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "The Hebrew name for the place of the dead.",
+      "grammar": "This is the dictionary form of Hebrew word H7585. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H7585",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-sheol",
@@ -4446,7 +5428,36 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-sackcloth-37-H8242-sackcloth",
+      "label": "Sackcloth",
+      "matches": [
+        "sackcloth"
+      ],
+      "chapter": 37,
+      "verses": [
+        34
+      ],
+      "hebrew": "שַׂק",
+      "transliteration": "saq",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "Rough cloth worn to show grief or repentance.",
+      "grammar": "This is the dictionary form of Hebrew word H8242. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H8242",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-sackcloth",
@@ -4467,7 +5478,406 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-firstborn-10-H1060-firstborn",
+      "label": "Firstborn",
+      "matches": [
+        "firstborn"
+      ],
+      "chapter": 10,
+      "verses": [
+        15
+      ],
+      "hebrew": "בְּכוֹר",
+      "transliteration": "bᵉkôwr",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "The oldest child. A firstborn son received a double share of the inheritance (Deuteronomy 21:17).",
+      "grammar": "This is the dictionary form of Hebrew word H1060. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H1060",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-firstborn-19-H1067-firstborn",
+      "label": "Firstborn",
+      "matches": [
+        "firstborn"
+      ],
+      "chapter": 19,
+      "verses": [
+        31,
+        33,
+        34,
+        37
+      ],
+      "hebrew": "בְּכִירָה",
+      "transliteration": "bᵉkîyrâh",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "The oldest child. A firstborn son received a double share of the inheritance (Deuteronomy 21:17).",
+      "grammar": "This is the dictionary form of Hebrew word H1067. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H1067",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-firstborn-22-H1060-firstborn",
+      "label": "Firstborn",
+      "matches": [
+        "firstborn"
+      ],
+      "chapter": 22,
+      "verses": [
+        21
+      ],
+      "hebrew": "בְּכוֹר",
+      "transliteration": "bᵉkôwr",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "The oldest child. A firstborn son received a double share of the inheritance (Deuteronomy 21:17).",
+      "grammar": "This is the dictionary form of Hebrew word H1060. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H1060",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-firstborn-25-H1060-firstborn",
+      "label": "Firstborn",
+      "matches": [
+        "firstborn"
+      ],
+      "chapter": 25,
+      "verses": [
+        13
+      ],
+      "hebrew": "בְּכוֹר",
+      "transliteration": "bᵉkôwr",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "The oldest child. A firstborn son received a double share of the inheritance (Deuteronomy 21:17).",
+      "grammar": "This is the dictionary form of Hebrew word H1060. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H1060",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-firstborn-27-H1060-firstborn",
+      "label": "Firstborn",
+      "matches": [
+        "firstborn"
+      ],
+      "chapter": 27,
+      "verses": [
+        19,
+        32
+      ],
+      "hebrew": "בְּכוֹר",
+      "transliteration": "bᵉkôwr",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "The oldest child. A firstborn son received a double share of the inheritance (Deuteronomy 21:17).",
+      "grammar": "This is the dictionary form of Hebrew word H1060. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H1060",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-firstborn-29-H1067-firstborn",
+      "label": "Firstborn",
+      "matches": [
+        "firstborn"
+      ],
+      "chapter": 29,
+      "verses": [
+        26
+      ],
+      "hebrew": "בְּכִירָה",
+      "transliteration": "bᵉkîyrâh",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "The oldest child. A firstborn son received a double share of the inheritance (Deuteronomy 21:17).",
+      "grammar": "This is the dictionary form of Hebrew word H1067. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H1067",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-firstborn-35-H1060-firstborn",
+      "label": "Firstborn",
+      "matches": [
+        "firstborn"
+      ],
+      "chapter": 35,
+      "verses": [
+        23
+      ],
+      "hebrew": "בְּכוֹר",
+      "transliteration": "bᵉkôwr",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "The oldest child. A firstborn son received a double share of the inheritance (Deuteronomy 21:17).",
+      "grammar": "This is the dictionary form of Hebrew word H1060. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H1060",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-firstborn-36-H1060-firstborn",
+      "label": "Firstborn",
+      "matches": [
+        "firstborn"
+      ],
+      "chapter": 36,
+      "verses": [
+        15
+      ],
+      "hebrew": "בְּכוֹר",
+      "transliteration": "bᵉkôwr",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "The oldest child. A firstborn son received a double share of the inheritance (Deuteronomy 21:17).",
+      "grammar": "This is the dictionary form of Hebrew word H1060. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H1060",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-firstborn-38-H1060-firstborn",
+      "label": "Firstborn",
+      "matches": [
+        "firstborn"
+      ],
+      "chapter": 38,
+      "verses": [
+        6,
+        7
+      ],
+      "hebrew": "בְּכוֹר",
+      "transliteration": "bᵉkôwr",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "The oldest child. A firstborn son received a double share of the inheritance (Deuteronomy 21:17).",
+      "grammar": "This is the dictionary form of Hebrew word H1060. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H1060",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-firstborn-41-H1060-firstborn",
+      "label": "Firstborn",
+      "matches": [
+        "firstborn"
+      ],
+      "chapter": 41,
+      "verses": [
+        51
+      ],
+      "hebrew": "בְּכוֹר",
+      "transliteration": "bᵉkôwr",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "The oldest child. A firstborn son received a double share of the inheritance (Deuteronomy 21:17).",
+      "grammar": "This is the dictionary form of Hebrew word H1060. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H1060",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-firstborn-43-H1060-firstborn",
+      "label": "Firstborn",
+      "matches": [
+        "firstborn"
+      ],
+      "chapter": 43,
+      "verses": [
+        33
+      ],
+      "hebrew": "בְּכוֹר",
+      "transliteration": "bᵉkôwr",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "The oldest child. A firstborn son received a double share of the inheritance (Deuteronomy 21:17).",
+      "grammar": "This is the dictionary form of Hebrew word H1060. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H1060",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-firstborn-46-H1060-firstborn",
+      "label": "Firstborn",
+      "matches": [
+        "firstborn"
+      ],
+      "chapter": 46,
+      "verses": [
+        8
+      ],
+      "hebrew": "בְּכוֹר",
+      "transliteration": "bᵉkôwr",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "The oldest child. A firstborn son received a double share of the inheritance (Deuteronomy 21:17).",
+      "grammar": "This is the dictionary form of Hebrew word H1060. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H1060",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-firstborn-48-H1060-firstborn",
+      "label": "Firstborn",
+      "matches": [
+        "firstborn"
+      ],
+      "chapter": 48,
+      "verses": [
+        14,
+        18
+      ],
+      "hebrew": "בְּכוֹר",
+      "transliteration": "bᵉkôwr",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "The oldest child. A firstborn son received a double share of the inheritance (Deuteronomy 21:17).",
+      "grammar": "This is the dictionary form of Hebrew word H1060. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H1060",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-firstborn-49-H1060-firstborn",
+      "label": "Firstborn",
+      "matches": [
+        "firstborn"
+      ],
+      "chapter": 49,
+      "verses": [
+        3
+      ],
+      "hebrew": "בְּכוֹר",
+      "transliteration": "bᵉkôwr",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "The oldest child. A firstborn son received a double share of the inheritance (Deuteronomy 21:17).",
+      "grammar": "This is the dictionary form of Hebrew word H1060. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H1060",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-firstborn",
@@ -4488,7 +5898,95 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-birthright-25-H1062-birthright",
+      "label": "Birthright",
+      "matches": [
+        "birthright"
+      ],
+      "chapter": 25,
+      "verses": [
+        31,
+        32,
+        33,
+        34
+      ],
+      "hebrew": "בְּכוֹרָה",
+      "transliteration": "bᵉkôwrâh",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "The firstborn son’s right to the larger share of the inheritance.",
+      "grammar": "This is the dictionary form of Hebrew word H1062. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H1062",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-birthright-27-H1062-birthright",
+      "label": "Birthright",
+      "matches": [
+        "birthright"
+      ],
+      "chapter": 27,
+      "verses": [
+        36
+      ],
+      "hebrew": "בְּכוֹרָה",
+      "transliteration": "bᵉkôwrâh",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "The firstborn son’s right to the larger share of the inheritance.",
+      "grammar": "This is the dictionary form of Hebrew word H1062. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H1062",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-birthright-43-H1062-birthright",
+      "label": "Birthright",
+      "matches": [
+        "birthright"
+      ],
+      "chapter": 43,
+      "verses": [
+        33
+      ],
+      "hebrew": "בְּכוֹרָה",
+      "transliteration": "bᵉkôwrâh",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "The firstborn son’s right to the larger share of the inheritance.",
+      "grammar": "This is the dictionary form of Hebrew word H1062. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H1062",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-birthright",
@@ -4509,7 +6007,36 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-redeem-48-H1350-redeemed",
+      "label": "Redeem",
+      "matches": [
+        "redeemed"
+      ],
+      "chapter": 48,
+      "verses": [
+        16
+      ],
+      "hebrew": "גָּאַל",
+      "transliteration": "gâʼal",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "To buy back a person or property. The word is also used for God’s rescue of people.",
+      "grammar": "This is the dictionary form of Hebrew word H1350. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H1350",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-redeem",
@@ -4534,7 +6061,8 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
     },
     {
       "id": "glossary-unclean",
@@ -4556,7 +6084,36 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-anoint-31-H4886-anointed",
+      "label": "Anoint",
+      "matches": [
+        "anointed"
+      ],
+      "chapter": 31,
+      "verses": [
+        13
+      ],
+      "hebrew": "מָשַׁח",
+      "transliteration": "mâshach",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "To pour oil on a person or thing to set it apart. Kings and priests were anointed.",
+      "grammar": "This is the dictionary form of Hebrew word H4886. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H4886",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-anoint",
@@ -4580,7 +6137,8 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
     },
     {
       "id": "glossary-remnant",
@@ -4601,7 +6159,120 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-concubine-25-H6370-concubines",
+      "label": "Concubine",
+      "matches": [
+        "concubines"
+      ],
+      "chapter": 25,
+      "verses": [
+        6
+      ],
+      "hebrew": "פִּילֶגֶשׁ",
+      "transliteration": "pîylegesh",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A woman joined to a man’s household with lower standing than a wife.",
+      "grammar": "This is the dictionary form of Hebrew word H6370. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H6370",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-concubine-22-H6370-concubine",
+      "label": "Concubine",
+      "matches": [
+        "concubine"
+      ],
+      "chapter": 22,
+      "verses": [
+        24
+      ],
+      "hebrew": "פִּילֶגֶשׁ",
+      "transliteration": "pîylegesh",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A woman joined to a man’s household with lower standing than a wife.",
+      "grammar": "This is the dictionary form of Hebrew word H6370. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H6370",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-concubine-35-H6370-concubine",
+      "label": "Concubine",
+      "matches": [
+        "concubine"
+      ],
+      "chapter": 35,
+      "verses": [
+        22
+      ],
+      "hebrew": "פִּילֶגֶשׁ",
+      "transliteration": "pîylegesh",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A woman joined to a man’s household with lower standing than a wife.",
+      "grammar": "This is the dictionary form of Hebrew word H6370. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H6370",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-concubine-36-H6370-concubine",
+      "label": "Concubine",
+      "matches": [
+        "concubine"
+      ],
+      "chapter": 36,
+      "verses": [
+        12
+      ],
+      "hebrew": "פִּילֶגֶשׁ",
+      "transliteration": "pîylegesh",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A woman joined to a man’s household with lower standing than a wife.",
+      "grammar": "This is the dictionary form of Hebrew word H6370. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H6370",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-concubine",
@@ -4623,7 +6294,92 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-cubit-6-H520-cubits",
+      "label": "Cubit",
+      "matches": [
+        "cubits"
+      ],
+      "chapter": 6,
+      "verses": [
+        15
+      ],
+      "hebrew": "אַמָּה",
+      "transliteration": "ʼammâh",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A length from the elbow to the fingertip, about 46 centimeters.",
+      "grammar": "This is the dictionary form of Hebrew word H520. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H520",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-cubit-7-H520-cubits",
+      "label": "Cubit",
+      "matches": [
+        "cubits"
+      ],
+      "chapter": 7,
+      "verses": [
+        20
+      ],
+      "hebrew": "אַמָּה",
+      "transliteration": "ʼammâh",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A length from the elbow to the fingertip, about 46 centimeters.",
+      "grammar": "This is the dictionary form of Hebrew word H520. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H520",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-cubit-6-H520-cubit",
+      "label": "Cubit",
+      "matches": [
+        "cubit"
+      ],
+      "chapter": 6,
+      "verses": [
+        16
+      ],
+      "hebrew": "אַמָּה",
+      "transliteration": "ʼammâh",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A length from the elbow to the fingertip, about 46 centimeters.",
+      "grammar": "This is the dictionary form of Hebrew word H520. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H520",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-cubit",
@@ -4645,7 +6401,37 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-shekel-23-H8255-shekels",
+      "label": "Shekel",
+      "matches": [
+        "shekels"
+      ],
+      "chapter": 23,
+      "verses": [
+        15,
+        16
+      ],
+      "hebrew": "שֶׁקֶל",
+      "transliteration": "sheqel",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A unit of weight, about 10 grams. Silver was weighed in shekels as money.",
+      "grammar": "This is the dictionary form of Hebrew word H8255. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H8255",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-shekel",
@@ -4667,7 +6453,59 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-ephah",
+      "label": "Ephah",
+      "matches": [
+        "ephah",
+        "ephahs"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A dry measure of about 22 liters.",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-yeast-19-H4682-unleavened",
+      "label": "Yeast",
+      "matches": [
+        "unleavened"
+      ],
+      "chapter": 19,
+      "verses": [
+        3
+      ],
+      "hebrew": "מַצָּה",
+      "transliteration": "matstsâh",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "Yeast, or leaven, makes dough rise. Bread made without it is called unleavened.",
+      "grammar": "This is the dictionary form of Hebrew word H4682. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H4682",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-yeast",
@@ -4691,7 +6529,8 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
     }
   ],
   "guides": [
@@ -4765,9 +6604,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "No verified location is supplied for this chapter.",
+      "note": "The map has no sure location for this chapter.",
       "narrative": "In the beginning God creates the heavens and the earth. He speaks, and light, sky, land, and plants appear over three days. Sun, moon, stars, sea animals, and birds follow. On the sixth day he makes land animals and then people. He makes people in his own image, male and female. He blesses them and tells them to fill the earth and rule the animals. He gives plants as food to people and animals. God sees all he has made and calls it very good.",
-      "limits": "No verified location is supplied for this chapter.",
+      "limits": "The map has no sure location for this chapter.",
       "sourceIds": [
         "web",
         "yale-creation",
@@ -4784,9 +6623,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "No verified location is supplied for this chapter.",
+      "note": "The map has no sure location for this chapter.",
       "narrative": "God finishes his work, rests on the seventh day, and makes that day holy. Then the LORD God forms a man from dust and breathes life into him. God plants a garden in Eden with a river and two named trees. He puts the man there to work it and keep it. He forbids one tree and warns of death. God says it is not good for the man to be alone. The man names the animals, but none is a helper like him. God makes a woman from his rib, and the man welcomes her as his flesh.",
-      "limits": "No verified location is supplied for this chapter.",
+      "limits": "The map has no sure location for this chapter.",
       "sourceIds": [
         "web",
         "yale-creation",
@@ -4802,9 +6641,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "No verified location is supplied for this chapter.",
+      "note": "The map has no sure location for this chapter.",
       "narrative": "The serpent asks the woman what God really said. She repeats the command, and the serpent says she will not die. She sees the fruit is good, eats, and gives some to her husband. Their eyes open, and they cover themselves and hide. God asks where the man is and whether he ate. The man blames the woman, and the woman blames the serpent. God curses the serpent and the ground, and speaks of pain and hard work. He clothes them with skins and sends them out of Eden.",
-      "limits": "No verified location is supplied for this chapter.",
+      "limits": "The map has no sure location for this chapter.",
       "sourceIds": [
         "web",
         "yale-creation",
@@ -4820,9 +6659,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "No verified location is supplied for this chapter.",
+      "note": "The map has no sure location for this chapter.",
       "narrative": "Eve bears Cain and then Abel. Cain farms, and Abel keeps sheep. Both bring offerings, and the LORD accepts Abel’s but not Cain’s. The LORD warns Cain that sin crouches at the door. Cain kills Abel in the field and asks if he is his brother’s keeper. The LORD sends Cain away as a wanderer but marks him for protection. Cain’s family builds a city, and Lamech boasts of killing a man. Eve bears Seth, and people begin to call on the LORD’s name.",
-      "limits": "No verified location is supplied for this chapter.",
+      "limits": "The map has no sure location for this chapter.",
       "sourceIds": [
         "web",
         "yale-creation"
@@ -4837,9 +6676,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "No verified location is supplied for this chapter.",
+      "note": "The map has no sure location for this chapter.",
       "narrative": "This is the family record from Adam to Noah. God made people in his likeness, and Adam fathers Seth in his own likeness. Each entry gives a father’s age, his son, his total years, and his death. The years are very long, up to 969 for Methuselah. Enoch’s entry is different. He walks with God, and God takes him. Lamech names his son Noah and hopes for comfort from the cursed ground. Noah fathers Shem, Ham, and Japheth.",
-      "limits": "No verified location is supplied for this chapter.",
+      "limits": "The map has no sure location for this chapter.",
       "sourceIds": [
         "web",
         "yale-flood"
@@ -4854,9 +6693,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "No verified location is supplied for this chapter.",
+      "note": "The map has no sure location for this chapter.",
       "narrative": "People multiply, and God’s sons take human daughters as wives. The LORD says man’s days will be 120 years. He sees that human thoughts are evil all the time, and he is grieved. He decides to wipe out people and animals. But Noah finds favor and walks with God. God tells Noah the earth is filled with violence. He orders a ship of gopher wood with three levels and one door. Noah is to bring his family, pairs of animals, and food, and he obeys.",
-      "limits": "No verified location is supplied for this chapter.",
+      "limits": "The map has no sure location for this chapter.",
       "sourceIds": [
         "web",
         "yale-flood",
@@ -4873,9 +6712,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "No verified location is supplied for this chapter.",
+      "note": "The map has no sure location for this chapter.",
       "narrative": "The LORD tells Noah to enter the ship with his household. Noah takes seven pairs of clean animals and one pair of the others. Noah is six hundred years old. After seven days the deep bursts open and the sky’s windows open. Rain falls forty days and nights. Noah’s family and the animals go in, and the LORD shuts him in. The water lifts the ship and covers the high mountains. Everything on dry land dies, and only those in the ship remain.",
-      "limits": "No verified location is supplied for this chapter.",
+      "limits": "The map has no sure location for this chapter.",
       "sourceIds": [
         "web",
         "yale-flood",
@@ -4915,9 +6754,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "No verified location is supplied for this chapter.",
+      "note": "The map has no sure location for this chapter.",
       "narrative": "God blesses Noah and his sons and tells them to fill the earth. Animals will fear them, and they may eat meat but not blood. God will demand a reckoning for human life, because he made people in his image. He makes a covenant with Noah, his family, and every living creature. No flood will destroy the earth again, and the rainbow is the sign. Noah plants a vineyard and gets drunk. Ham sees his father naked, and Shem and Japheth cover him. Noah curses Canaan and blesses Shem and Japheth.",
-      "limits": "No verified location is supplied for this chapter.",
+      "limits": "The map has no sure location for this chapter.",
       "sourceIds": [
         "web",
         "yale-flood",

@@ -4,10 +4,10 @@
       "id": "web",
       "title": "First Thessalonians · World English Bible",
       "url": "https://ebible.org/engwebp/1TH01.htm",
-      "summary": "All five chapters supply the primary text for original close readings.",
+      "summary": "All five chapters are the main text for original close readings.",
       "category": "Scripture",
       "perspective": "historical",
-      "limits": "Dates, original manuscripts, Greek forms, the blocked visits' exact cause, and a complete harmony with Acts were not independently verified. The accusations in chapter two remain part of the letter's conflict rather than independent evidence against all Jewish people. No return date is assigned.",
+      "limits": "The guide did not check dates, manuscripts, or Greek forms. It did not check why the visits were blocked. It did not match the letter with Acts into one full account. The accusations in chapter two are part of the letter’s conflict. They are not independent evidence against all Jewish people. No return date is given.",
       "author": "World English Bible translators",
       "publisher": "eBible.org",
       "chapterCoverage": [
@@ -22,17 +22,17 @@
         "scope": "All 89 verses read for five original contextual explanations and exact selections. Surroundings, counts, and character integrity checked."
       },
       "type": "Scripture",
-      "limitations": "Dates, original manuscripts, Greek forms, the blocked visits' exact cause, and a complete harmony with Acts were not independently verified. The accusations in chapter two remain part of the letter's conflict rather than independent evidence against all Jewish people. No return date is assigned.",
+      "limitations": "The guide did not check dates, manuscripts, or Greek forms. It did not check why the visits were blocked. It did not match the letter with Acts into one full account. The accusations in chapter two are part of the letter’s conflict. They are not independent evidence against all Jewish people. No return date is given.",
       "license": "Public domain"
     },
     {
       "id": "carr-thessalonians",
       "title": "Commentary on 1 Thessalonians 2:1-8",
       "url": "https://www.workingpreacher.org/commentaries/revised-common-lectionary/ordinary-30/commentary-on-1-thessalonians-21-8-6",
-      "summary": "Carr reads the remembered conduct as a defense of the teachers' trustworthiness.",
+      "summary": "Carr reads the remembered conduct as a defense of the teachers’ trustworthiness.",
       "category": "Scholarly study",
       "perspective": "historical",
-      "limits": "This is Carr's interpretation. His Greek analysis, manuscript preference for infants, ancient teacher comparisons, and cited books were not independently verified. The selected WEB wording remains unchanged.",
+      "limits": "This is Carr’s own reading. The guide did not check his Greek analysis or his manuscript choice of infants. It did not check his ancient teacher comparisons or the books he cites. The chosen WEB wording is unchanged.",
       "author": "David Carr",
       "publisher": "Luther Seminary",
       "year": 2023,
@@ -44,7 +44,7 @@
         "scope": "Complete commentary body and notes read. The guide attributes his reading of remembered conduct and trustworthiness."
       },
       "type": "Scholarly study",
-      "limitations": "This is Carr's interpretation. His Greek analysis, manuscript preference for infants, ancient teacher comparisons, and cited books were not independently verified. The selected WEB wording remains unchanged.",
+      "limitations": "This is Carr’s own reading. The guide did not check his Greek analysis or his manuscript choice of infants. It did not check his ancient teacher comparisons or the books he cites. The chosen WEB wording is unchanged.",
       "license": "Linked source. Original guide summaries."
     },
     {
@@ -54,7 +54,7 @@
       "summary": "The lesson studies sincere teaching, growing holiness, and useful work.",
       "category": "LDS Come, Follow Me",
       "perspective": "lds",
-      "limits": "First Thessalonians coverage follows actual discussion of chapters one through four. The lesson does not independently discuss chapter five. Linked hymns, talks, and Restoration passages were not independently reviewed.",
+      "limits": "First Thessalonians coverage follows what the lesson discusses in chapters one through four. The lesson does not discuss chapter five on its own. The guide did not check the linked hymns, talks, or Restoration passages.",
       "author": "The Church of Jesus Christ of Latter-day Saints",
       "publisher": "The Church of Jesus Christ of Latter-day Saints",
       "year": 2023,
@@ -69,17 +69,17 @@
         "scope": "Complete lesson body and included resource list read. Its Second Thessalonians sections were also read, but support only that book's separate lesson references."
       },
       "type": "LDS Come, Follow Me",
-      "limitations": "First Thessalonians coverage follows actual discussion of chapters one through four. The lesson does not independently discuss chapter five. Linked hymns, talks, and Restoration passages were not independently reviewed.",
+      "limitations": "First Thessalonians coverage follows what the lesson discusses in chapters one through four. The lesson does not discuss chapter five on its own. The guide did not check the linked hymns, talks, or Restoration passages.",
       "license": "Linked source. Original guide summaries."
     },
     {
       "id": "net-thessalonica",
       "title": "NET Bible · Thessalonica",
       "url": "https://classic.net.bible.org/dictionary.php?word=Thessalonica",
-      "summary": "The dictionary identifies the city on the Thermaic Gulf and supplies coordinates.",
+      "summary": "The dictionary places the city on the Thermaic Gulf and gives coordinates.",
       "category": "Reference work",
       "perspective": "historical",
-      "limits": "Only the opening locality description and coordinate line support the marker. Old population figures, wider historical claims, inscriptions, exact buildings, and routes were not independently verified.",
+      "limits": "Only the opening place description and the coordinates support the marker. The guide did not check old population figures, wider history, inscriptions, buildings, or routes.",
       "author": "NET Bible reference editors",
       "publisher": "Bible.org",
       "reviewed": {
@@ -87,7 +87,7 @@
         "scope": "Opening location description and coordinate line read: 40 degrees 37 minutes north, 22 degrees 55 minutes east. Only the city reference is used."
       },
       "type": "Reference work",
-      "limitations": "Only the opening locality description and coordinate line support the marker. Old population figures, wider historical claims, inscriptions, exact buildings, and routes were not independently verified.",
+      "limitations": "Only the opening place description and the coordinates support the marker. The guide did not check old population figures, wider history, inscriptions, buildings, or routes.",
       "license": "Linked source. Original guide summaries."
     },
     {
@@ -96,20 +96,20 @@
       "perspective": "historical",
       "category": "Geography",
       "url": "https://www.churchofjesuschrist.org/study/scriptures/bible-maps/map-10?lang=eng",
-      "summary": "This Church-published atlas identifies towns and regions in Canaan.",
-      "limits": "Existing selected reference coordinates only. The earlier review record remains unchanged. This source does not verify Gospel events or exact routes.",
+      "summary": "This Church-published atlas names towns and regions in Canaan.",
+      "limits": "It supplies only the chosen reference coordinates. The earlier review record is unchanged. This source does not confirm Gospel events or exact routes.",
       "type": "Geography",
-      "limitations": "Existing selected reference coordinates only. The earlier review record remains unchanged. This source does not verify Gospel events or exact routes.",
+      "limitations": "It supplies only the chosen reference coordinates. The earlier review record is unchanged. This source does not confirm Gospel events or exact routes.",
       "license": "Linked source. Original guide summaries."
     },
     {
       "id": "net-acts-map",
       "title": "NET Bible · selected Acts location references",
       "url": "https://classic.net.bible.org/dictionary.php?word=Antioch",
-      "summary": "Selected opening descriptions and coordinates distinguish cities named in Acts.",
+      "summary": "Opening descriptions and coordinates mark the cities named in Acts.",
       "category": "Geographic reference",
       "perspective": "historical",
-      "limits": "Broad reference points do not verify ancient events, travel paths, buildings, or coastlines. Older encyclopedia claims about authorship, law, populations, and exact dates were not adopted.",
+      "limits": "These broad points do not confirm ancient events, travel paths, buildings, or coastlines. The guide did not adopt older encyclopedia claims about authorship, law, population, or exact dates.",
       "author": "NET Bible editors and linked reference contributors",
       "publisher": "Bible.org",
       "year": null,
@@ -144,8 +144,36 @@
         }
       ],
       "type": "Geographic reference",
-      "limitations": "Broad reference points do not verify ancient events, travel paths, buildings, or coastlines. Older encyclopedia claims about authorship, law, populations, and exact dates were not adopted.",
+      "limitations": "These broad points do not confirm ancient events, travel paths, buildings, or coastlines. The guide did not adopt older encyclopedia claims about authorship, law, population, or exact dates.",
       "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "strong-greek",
+      "title": "A Concise Dictionary of the Words in the Greek Testament",
+      "author": "James Strong · Open Scriptures XML edition",
+      "year": "1890 / digital edition",
+      "perspective": "historical",
+      "category": "Historical lexicon",
+      "url": "https://github.com/openscriptures/strongs",
+      "summary": "Lists Greek dictionary forms and their possible meanings. Use it with the passage to study a word.",
+      "limits": "This is an older dictionary. Compare its meanings with the passage. A list of meanings alone cannot show which one applies.",
+      "license": "Source XML declares Public Domain. Only selected headwords are used.",
+      "type": "Historical lexicon",
+      "limitations": "This is an older dictionary. Compare its meanings with the passage. A list of meanings alone cannot show which one applies."
+    },
+    {
+      "id": "byz",
+      "title": "The New Testament in the Original Greek: Byzantine Textform",
+      "author": "Maurice A. Robinson and William G. Pierpont",
+      "year": "2018 digital edition",
+      "perspective": "historical",
+      "category": "Greek text",
+      "url": "https://github.com/byztxt/byzantine-majority-text",
+      "summary": "Provides a Greek New Testament text with dictionary numbers. This study guide uses these to check selected words against their verses.",
+      "limits": "The app checks selected words, not every English–Greek match. It shows Greek dictionary forms. The forms in the verses can differ. Other Greek editions differ in some verses.",
+      "license": "Public domain.",
+      "type": "Greek text",
+      "limitations": "The app checks selected words, not every English–Greek match. It shows Greek dictionary forms. The forms in the verses can differ. Other Greek editions differ in some verses."
     }
   ],
   "passages": [
@@ -158,7 +186,7 @@
       "summary": "Paul, Silvanus, and Timothy write to the assembly of the Thessalonians. They thank God for the readers’ faith, love, and enduring hope. The good news came to them in power and in the Holy Spirit. They received the word in much affliction with joy. They became an example to believers in Macedonia and Achaia. People everywhere tell how they turned from idols to serve the living God. They wait for his Son from heaven, whom he raised.",
       "year": null,
       "dateLabel": "Book order",
-      "uncertainty": "Markers identify the addressed city and named places in the teachers' remembered work.",
+      "uncertainty": "Markers show the city addressed and the cities Paul names from his past work.",
       "placeIds": [
         "thessalonica"
       ],
@@ -189,7 +217,7 @@
       "summary": "Paul recalls that they came to Thessalonica after being mistreated at Philippi. They did not use flattery or seek glory or money. They were gentle, like a nursing mother with her children. They worked night and day so as not to burden anyone. They urged each one as a father does. The readers accepted the message as God’s word and suffered from their own countrymen. Paul speaks sharply of those in Judea who opposed the assemblies there. He wanted to return, but Satan hindered him, and the readers are his joy.",
       "year": null,
       "dateLabel": "Book order",
-      "uncertainty": "Markers identify the addressed city and named places in the teachers' remembered work.",
+      "uncertainty": "Markers show the city addressed and the cities Paul names from his past work.",
       "placeIds": [
         "philippi"
       ],
@@ -221,7 +249,7 @@
       "summary": "Paul could not bear the separation and sent Timothy from Athens. Timothy was to strengthen them so that no one would be shaken by afflictions. Paul had warned them that suffering would come. He feared the tempter had tempted them and the work was wasted. Timothy has now returned with good news of their faith and love. Paul says he lives if they stand firm in the Lord. He prays night and day to see them and supply what their faith lacks. He prays that their love will increase.",
       "year": null,
       "dateLabel": "Book order",
-      "uncertainty": "Markers identify the addressed city and named places in the teachers' remembered work.",
+      "uncertainty": "Markers show the city addressed and the cities Paul names from his past work.",
       "placeIds": [
         "athens"
       ],
@@ -252,7 +280,7 @@
       "summary": "Paul urges them to live so as to please God, more and more. God’s will is their holiness, and they are to abstain from sexual immorality. No one should wrong a brother in this matter. They already love one another and should do so more. They should live quietly, mind their own business, and work with their hands. Paul then writes about those who have fallen asleep. The dead in Christ will rise first, when the Lord descends with a shout. Then the living will be caught up to be with the Lord always.",
       "year": null,
       "dateLabel": "Book order",
-      "uncertainty": "Markers identify the addressed city and named places in the teachers' remembered work.",
+      "uncertainty": "Markers show the city addressed and the cities Paul names from his past work.",
       "placeIds": [],
       "sourceIds": [
         "web"
@@ -281,7 +309,7 @@
       "summary": "Paul says they need no letter about times and seasons. The day of the Lord comes like a thief in the night. They are children of light and should stay awake and sober. They wear faith and love as a breastplate and hope as a helmet. They should respect those who labor among them and lead them. Paul gives short commands: rejoice always, pray without ceasing, give thanks in everything. They should not quench the Spirit, and they should test all things. He asks that the letter be read to all the brothers.",
       "year": null,
       "dateLabel": "Book order",
-      "uncertainty": "Markers identify the addressed city and named places in the teachers' remembered work.",
+      "uncertainty": "Markers show the city addressed and the cities Paul names from his past work.",
       "placeIds": [],
       "sourceIds": [
         "web"
@@ -310,7 +338,7 @@
       "summary": "Paul, Silvanus, and Timothy write to the assembly of the Thessalonians. They thank God for the readers’ faith, love, and enduring hope. The good news came to them in power and in the Holy Spirit. They received the word in much affliction with joy. They became an example to believers in Macedonia and Achaia. People everywhere tell how they turned from idols to serve the living God. They wait for his Son from heaven, whom he raised.",
       "detail": "Verse 5 says the readers saw what kind of men the writers were. Verse 6 says the readers then became imitators of them and of the Lord. The likeness is specific. They received the word in much affliction. They also received it with joy from the Holy Spirit. Trouble and joy together is the pattern they copied. Verse 7 shows it passing on: they became an example to other believers.",
       "dateLabel": "Book order",
-      "uncertainty": "Markers identify the addressed city and named places in the teachers' remembered work.",
+      "uncertainty": "Markers show the city addressed and the cities Paul names from his past work.",
       "sourceIds": [
         "web"
       ],
@@ -333,7 +361,7 @@
       "summary": "Paul recalls that they came to Thessalonica after being mistreated at Philippi. They did not use flattery or seek glory or money. They were gentle, like a nursing mother with her children. They worked night and day so as not to burden anyone. They urged each one as a father does. The readers accepted the message as God’s word and suffered from their own countrymen. Paul speaks sharply of those in Judea who opposed the assemblies there. He wanted to return, but Satan hindered him, and the readers are his joy.",
       "detail": "Verses 3–6 deny wrong motives: deceit, flattery, greed, and a search for glory. Verse 7 gives the opposite picture: a nursing mother. Verse 8 says what that care amounted to. They gave the good news, and they gave their own souls. The reason is affection: the readers had become very dear to them. Verse 9 offers proof the readers can remember: labor night and day.",
       "dateLabel": "Book order",
-      "uncertainty": "Markers identify the addressed city and named places in the teachers' remembered work.",
+      "uncertainty": "Markers show the city addressed and the cities Paul names from his past work.",
       "sourceIds": [
         "web",
         "carr-thessalonians"
@@ -357,7 +385,7 @@
       "summary": "Paul could not bear the separation and sent Timothy from Athens. Timothy was to strengthen them so that no one would be shaken by afflictions. Paul had warned them that suffering would come. He feared the tempter had tempted them and the work was wasted. Timothy has now returned with good news of their faith and love. Paul says he lives if they stand firm in the Lord. He prays night and day to see them and supply what their faith lacks. He prays that their love will increase.",
       "detail": "Verse 5 states Paul’s fear: the tempter may have undone the work. He sent Timothy because he could bear it no longer. Verse 6 reports the answer, and it has three parts. Their faith holds, their love holds, and they remember the writers kindly. The third part matters to a man torn away from them (2:17). They long to see him as he longs to see them. Verse 7 says this comforted him in his own distress.",
       "dateLabel": "Book order",
-      "uncertainty": "Markers identify the addressed city and named places in the teachers' remembered work.",
+      "uncertainty": "Markers show the city addressed and the cities Paul names from his past work.",
       "sourceIds": [
         "web"
       ],
@@ -380,7 +408,7 @@
       "summary": "Paul urges them to live so as to please God, more and more. God’s will is their holiness, and they are to abstain from sexual immorality. No one should wrong a brother in this matter. They already love one another and should do so more. They should live quietly, mind their own business, and work with their hands. Paul then writes about those who have fallen asleep. The dead in Christ will rise first, when the Lord descends with a shout. Then the living will be caught up to be with the Lord always.",
       "detail": "Verse 13 gives the purpose of the passage. Paul does not want them to grieve like those who have no hope. The worry seems to be that the dead will miss the Lord’s coming. Verse 15 answers it: the living will not go ahead of the dead. Verse 16 puts the dead in Christ first. Verse 17 ends with all of them together with the Lord. Verse 18 tells them to use these words to comfort each other.",
       "dateLabel": "Book order",
-      "uncertainty": "Markers identify the addressed city and named places in the teachers' remembered work.",
+      "uncertainty": "Markers show the city addressed and the cities Paul names from his past work.",
       "sourceIds": [
         "web"
       ],
@@ -401,7 +429,7 @@
       "summary": "Paul says they need no letter about times and seasons. The day of the Lord comes like a thief in the night. They are children of light and should stay awake and sober. They wear faith and love as a breastplate and hope as a helmet. They should respect those who labor among them and lead them. Paul gives short commands: rejoice always, pray without ceasing, give thanks in everything. They should not quench the Spirit, and they should test all things. He asks that the letter be read to all the brothers.",
       "detail": "Verses 12–13 speak of those who lead. Verse 14 then gives a task to the “brothers,” the whole group. It names three kinds of people and three different responses. The disorderly are admonished, the faint-hearted encouraged, and the weak supported. One response covers everyone: patience. Verse 15 adds the limit: no one may repay evil for evil.",
       "dateLabel": "Book order",
-      "uncertainty": "Markers identify the addressed city and named places in the teachers' remembered work.",
+      "uncertainty": "Markers show the city addressed and the cities Paul names from his past work.",
       "sourceIds": [
         "web"
       ],
@@ -418,8 +446,8 @@
       "name": "Thessalonica",
       "lat": 40.61666666666667,
       "lng": 22.916666666666668,
-      "summary": "Thessalonica identifies the assembly addressed in the opening greeting.",
-      "limits": "City reference rather than an exact meeting house.",
+      "summary": "The letter is addressed to the assembly of the Thessalonians in chapter 1. Paul, Silvanus, and Timothy greet them.",
+      "limits": "The marker shows the city’s general location.",
       "sourceIds": [
         "web",
         "net-thessalonica"
@@ -428,8 +456,8 @@
       "linkNames": [
         "Thessalonians"
       ],
-      "detail": "Thessalonica identifies the assembly addressed in the opening greeting.",
-      "uncertainty": "City reference rather than an exact meeting house.",
+      "detail": "The letter is addressed to the assembly of the Thessalonians in chapter 1. Paul, Silvanus, and Timothy greet them.",
+      "uncertainty": "The marker shows the city’s general location.",
       "chapterLocation": true
     },
     {
@@ -437,8 +465,8 @@
       "name": "Athens",
       "lat": 37.983333333333334,
       "lng": 23.733333333333334,
-      "summary": "Athens is the place from which Timothy is sent to strengthen the hearers.",
-      "limits": "Broad city reference. Exact houses, riverside meeting points, courtrooms, and ancient routes remain unassigned.",
+      "summary": "Paul says in chapter 3 that he stayed at Athens alone. From there he sent Timothy to the Thessalonians.",
+      "limits": "The marker shows the city’s general location.",
       "sourceIds": [
         "web",
         "net-acts-map"
@@ -447,17 +475,36 @@
       "linkNames": [
         "Athens"
       ],
-      "detail": "Athens is the place from which Timothy is sent to strengthen the hearers.",
-      "uncertainty": "Broad city reference. Exact houses, riverside meeting points, courtrooms, and ancient routes remain unassigned.",
-      "chapterLocation": true
+      "detail": "Paul says in chapter 3 that he stayed at Athens alone. From there he sent Timothy to the Thessalonians.",
+      "uncertainty": "The marker shows the city’s general location.",
+      "chapterLocation": true,
+      "word": {
+        "language": "greek",
+        "strongId": "G116",
+        "key": "Athens",
+        "checkedVerses": 1,
+        "example": [
+          3,
+          1
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Ἀθῆναι",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Athēnai"
+      }
     },
     {
       "id": "philippi",
       "name": "Philippi",
       "lat": 41,
       "lng": 24.283333333333335,
-      "summary": "Philippi is recalled as the place of earlier suffering before the teachers' visit.",
-      "limits": "Broad city reference. Exact houses, riverside meeting points, courtrooms, and ancient routes remain unassigned.",
+      "summary": "In chapter 2 Paul says he and his team suffered at Philippi. They were shamefully treated. Then they told the Thessalonians the Good News.",
+      "limits": "The marker shows the city’s general location.",
       "sourceIds": [
         "web",
         "net-acts-map"
@@ -466,15 +513,92 @@
       "linkNames": [
         "Philippi"
       ],
-      "detail": "Philippi is recalled as the place of earlier suffering before the teachers' visit.",
-      "uncertainty": "Broad city reference. Exact houses, riverside meeting points, courtrooms, and ancient routes remain unassigned.",
-      "chapterLocation": true
+      "detail": "In chapter 2 Paul says he and his team suffered at Philippi. They were shamefully treated. Then they told the Thessalonians the Good News.",
+      "uncertainty": "The marker shows the city’s general location.",
+      "chapterLocation": true,
+      "word": {
+        "language": "greek",
+        "strongId": "G5375",
+        "key": "Philippi",
+        "checkedVerses": 1,
+        "example": [
+          2,
+          2
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Φίλιπποι",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Phílippoi"
+      }
     }
   ],
   "campaigns": [],
   "ancientRoads": [],
   "regions": [],
   "words": [
+    {
+      "id": "glossary-gentiles-2-G1484-gentiles",
+      "label": "Gentiles",
+      "matches": [
+        "Gentiles"
+      ],
+      "chapter": 2,
+      "verses": [
+        16
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "ἔθνος",
+      "greekNote": "",
+      "meaning": "People of nations other than Israel.",
+      "grammar": "This is the dictionary form of Greek word G1484. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G1484",
+      "language": "greek",
+      "greekTransliteration": "éthnos",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-gentiles-4-G1484-gentiles",
+      "label": "Gentiles",
+      "matches": [
+        "Gentiles"
+      ],
+      "chapter": 4,
+      "verses": [
+        5
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "ἔθνος",
+      "greekNote": "",
+      "meaning": "People of nations other than Israel.",
+      "grammar": "This is the dictionary form of Greek word G1484. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G1484",
+      "language": "greek",
+      "greekTransliteration": "éthnos",
+      "chapterDefault": true
+    },
     {
       "id": "glossary-gentiles",
       "label": "Gentiles",
@@ -495,7 +619,37 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "greek"
+    },
+    {
+      "id": "glossary-apostles-2-G652-apostles",
+      "label": "Apostles",
+      "matches": [
+        "apostles"
+      ],
+      "chapter": 2,
+      "verses": [
+        6
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "ἀπόστολος",
+      "greekNote": "",
+      "meaning": "People sent out with a message. In the Gospels the word names twelve whom Jesus chose.",
+      "grammar": "This is the dictionary form of Greek word G652. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G652",
+      "language": "greek",
+      "greekTransliteration": "apóstolos",
+      "chapterDefault": true
     },
     {
       "id": "glossary-apostles",
@@ -517,7 +671,37 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "greek"
+    },
+    {
+      "id": "glossary-saints-3-G40-saints",
+      "label": "Saints",
+      "matches": [
+        "saints"
+      ],
+      "chapter": 3,
+      "verses": [
+        13
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "ἅγιος",
+      "greekNote": "",
+      "meaning": "People set apart as holy. In the letters the word means the believers in a place.",
+      "grammar": "This is the dictionary form of Greek word G40. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G40",
+      "language": "greek",
+      "greekTransliteration": "hágios",
+      "chapterDefault": true
     },
     {
       "id": "glossary-saints",
@@ -538,7 +722,66 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "greek"
+    },
+    {
+      "id": "glossary-assembly-2-G1577-assemblies",
+      "label": "Assembly",
+      "matches": [
+        "assemblies"
+      ],
+      "chapter": 2,
+      "verses": [
+        14
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "ἐκκλησία",
+      "greekNote": "",
+      "meaning": "A gathering of people. In the New Testament letters it means a group of believers. Many translations say “church.”",
+      "grammar": "This is the dictionary form of Greek word G1577. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G1577",
+      "language": "greek",
+      "greekTransliteration": "ekklēsía",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-assembly-1-G1577-assembly",
+      "label": "Assembly",
+      "matches": [
+        "assembly"
+      ],
+      "chapter": 1,
+      "verses": [
+        1
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "ἐκκλησία",
+      "greekNote": "",
+      "meaning": "A gathering of people. In the New Testament letters it means a group of believers. Many translations say “church.”",
+      "grammar": "This is the dictionary form of Greek word G1577. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G1577",
+      "language": "greek",
+      "greekTransliteration": "ekklēsía",
+      "chapterDefault": true
     },
     {
       "id": "glossary-assembly",
@@ -560,7 +803,66 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "greek"
+    },
+    {
+      "id": "glossary-unclean-2-G167-uncleanness",
+      "label": "Unclean",
+      "matches": [
+        "uncleanness"
+      ],
+      "chapter": 2,
+      "verses": [
+        3
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "ἀκαθαρσία",
+      "greekNote": "",
+      "meaning": "Unfit to take part in worship until a set cleansing is done. Leviticus 11–15 gives the rules.",
+      "grammar": "This is the dictionary form of Greek word G167. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G167",
+      "language": "greek",
+      "greekTransliteration": "akatharsía",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-unclean-4-G167-uncleanness",
+      "label": "Unclean",
+      "matches": [
+        "uncleanness"
+      ],
+      "chapter": 4,
+      "verses": [
+        7
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "ἀκαθαρσία",
+      "greekNote": "",
+      "meaning": "Unfit to take part in worship until a set cleansing is done. Leviticus 11–15 gives the rules.",
+      "grammar": "This is the dictionary form of Greek word G167. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G167",
+      "language": "greek",
+      "greekTransliteration": "akatharsía",
+      "chapterDefault": true
     },
     {
       "id": "glossary-unclean",
@@ -582,7 +884,8 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "greek"
     }
   ],
   "guides": [
@@ -667,9 +970,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "Markers identify the addressed city and named places in the teachers' remembered work.",
+      "note": "Markers show the city addressed and the cities Paul names from his past work.",
       "narrative": "Paul, Silvanus, and Timothy write to the assembly of the Thessalonians. They thank God for the readers’ faith, love, and enduring hope. The good news came to them in power and in the Holy Spirit. They received the word in much affliction with joy. They became an example to believers in Macedonia and Achaia. People everywhere tell how they turned from idols to serve the living God. They wait for his Son from heaven, whom he raised.",
-      "limits": "Markers identify the addressed city and named places in the teachers' remembered work.",
+      "limits": "Markers show the city addressed and the cities Paul names from his past work.",
       "sourceIds": [
         "web"
       ]
@@ -687,9 +990,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "Markers identify the addressed city and named places in the teachers' remembered work.",
+      "note": "Markers show the city addressed and the cities Paul names from his past work.",
       "narrative": "Paul recalls that they came to Thessalonica after being mistreated at Philippi. They did not use flattery or seek glory or money. They were gentle, like a nursing mother with her children. They worked night and day so as not to burden anyone. They urged each one as a father does. The readers accepted the message as God’s word and suffered from their own countrymen. Paul speaks sharply of those in Judea who opposed the assemblies there. He wanted to return, but Satan hindered him, and the readers are his joy.",
-      "limits": "Markers identify the addressed city and named places in the teachers' remembered work.",
+      "limits": "Markers show the city addressed and the cities Paul names from his past work.",
       "sourceIds": [
         "web",
         "carr-thessalonians"
@@ -708,9 +1011,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "Markers identify the addressed city and named places in the teachers' remembered work.",
+      "note": "Markers show the city addressed and the cities Paul names from his past work.",
       "narrative": "Paul could not bear the separation and sent Timothy from Athens. Timothy was to strengthen them so that no one would be shaken by afflictions. Paul had warned them that suffering would come. He feared the tempter had tempted them and the work was wasted. Timothy has now returned with good news of their faith and love. Paul says he lives if they stand firm in the Lord. He prays night and day to see them and supply what their faith lacks. He prays that their love will increase.",
-      "limits": "Markers identify the addressed city and named places in the teachers' remembered work.",
+      "limits": "Markers show the city addressed and the cities Paul names from his past work.",
       "sourceIds": [
         "web"
       ]
@@ -724,9 +1027,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "Markers identify the addressed city and named places in the teachers' remembered work.",
+      "note": "Markers show the city addressed and the cities Paul names from his past work.",
       "narrative": "Paul urges them to live so as to please God, more and more. God’s will is their holiness, and they are to abstain from sexual immorality. No one should wrong a brother in this matter. They already love one another and should do so more. They should live quietly, mind their own business, and work with their hands. Paul then writes about those who have fallen asleep. The dead in Christ will rise first, when the Lord descends with a shout. Then the living will be caught up to be with the Lord always.",
-      "limits": "Markers identify the addressed city and named places in the teachers' remembered work.",
+      "limits": "Markers show the city addressed and the cities Paul names from his past work.",
       "sourceIds": [
         "web"
       ]
@@ -740,9 +1043,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "Markers identify the addressed city and named places in the teachers' remembered work.",
+      "note": "Markers show the city addressed and the cities Paul names from his past work.",
       "narrative": "Paul says they need no letter about times and seasons. The day of the Lord comes like a thief in the night. They are children of light and should stay awake and sober. They wear faith and love as a breastplate and hope as a helmet. They should respect those who labor among them and lead them. Paul gives short commands: rejoice always, pray without ceasing, give thanks in everything. They should not quench the Spirit, and they should test all things. He asks that the letter be read to all the brothers.",
-      "limits": "Markers identify the addressed city and named places in the teachers' remembered work.",
+      "limits": "Markers show the city addressed and the cities Paul names from his past work.",
       "sourceIds": [
         "web"
       ]

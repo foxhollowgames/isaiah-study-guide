@@ -4,7 +4,7 @@ import { initModalDragging } from './modal-drag.js';
 import { chapterFocus, chapterRoutes, chapterPoints, movementStyle } from './chapter-map.js';
 const $ = (s, root = document) => root.querySelector(s);
 const $$ = (s, root = document) => [...root.querySelectorAll(s)];
-const releaseVersion = '20261009.1';
+const releaseVersion = '20261009.3';
 const chapters = Array.from({ length: 66 }, (_, i) => i + 1);
 const defaults = { chapter: 1, verse: 1, studyMode: 'read', view: 'map', perspective: 'historical', portraitMode: 'generated', date: -701, layers: { places: true, regions: true, campaigns: true, roads: false, history: false }, sidebar: 'scripture', map: { center: [32.1, 35.0], zoom: 7 } };
 let state = { ...defaults, ...readSaved(), layers: { ...defaults.layers, ...(readSaved().layers || {}) } };
@@ -123,7 +123,7 @@ function linkedEntityHtml(text = '', options = {}) {
   return html + esc(text.slice(cursor));
 }
 function linkedPersonProfileHtml(id, options = {}) {
-  return personProfileHtml(id, {...options, linkHtml:text => linkedEntityHtml(text, {excludePersonId:id})});
+  return personProfileHtml(id, {...options, linkHtml:text => linkedEntityHtml(text, {excludePersonId:id})}) + (people[id]?.word ? wordLanguagesHtml(people[id].word) : '');
 }
 
 async function load() {
@@ -440,15 +440,15 @@ function renderVerse(v, prefix = 'side') {
 function openWord(word, trigger) { if (!word) return; savedScroll = $('#sidebarContent').scrollTop; const verseNode = trigger.closest('.verse'); const same = '[data-word-id="' + CSS.escape(word.id) + '"]'; const peers = verseNode ? $$(same, verseNode) : []; selectedWordButton = { verse: Number(verseNode?.id.match(/verse-(\d+)/)?.[1] || state.verse), selector: same, index: Math.max(0, peers.indexOf(trigger)) }; state.sidebar = 'word'; state.wordId = word.id; state.wordLabel = word.label; renderScripture(); $('#sidebarContent').scrollTop = 0; requestAnimationFrame(() => $('#sidebarContent .back-button')?.focus({preventScroll:true})); persist(); }
 function wordReferences(word) {
   const ids = word.sourceIds || [];
-  const greek = ids.filter(id => id.startsWith('lxx'));
+  const greek = ids.filter(id => id.startsWith('lxx') || id === 'strong-greek' || id === 'byz');
   const hebrew = ids.filter(id => id === 'strong' || id === 'oshb');
-  const meaning = ids.filter(id => id === 'strong' || id.startsWith('web'));
+  const meaning = ids.filter(id => (id === 'strong' && word.scope !== 'glossary') || id.startsWith('web'));
   const ordered = [...new Set([...greek, ...hebrew, ...ids])].filter(id => source(id));
   return { greek, hebrew, meaning, discussion: ordered, ordered, cite: passageFootnotes({ sourceIds: ordered }) };
 }
 function wordLanguagesHtml(word) {
-  const refs = wordReferences(word), cite = refs.cite;
-  return `<div class="word-section word-languages"><div class="word-language-grid"><div class="word-language"><h3>Greek (Septuagint)</h3>${word.greek ? `<p class="term" lang="grc">${esc(word.greek)}${cite(refs.greek)}</p>` : '<p>No Greek match was found.</p>'}</div><div class="word-language word-language-hebrew"><h3>Hebrew</h3>${word.hebrew ? `<p class="term hebrew-term"><bdi lang="he" dir="rtl">${esc(word.hebrew)}</bdi>${cite(refs.hebrew)}</p><p>${esc(word.transliteration || '')}</p>` : '<p>No Hebrew match was found.</p>'}</div></div>${word.greek && word.greekNote ? `<p class="word-language-note">${esc(word.greekNote)}${cite(refs.greek)}</p>` : ''}</div>`;
+  const refs = wordReferences(word), cite = refs.cite, greekBook = word.language === 'greek';
+  return `<div class="word-section word-languages"><div class="word-language-grid"><div class="word-language"><h3>${greekBook ? 'Greek' : 'Greek (Septuagint)'}</h3>${word.greek ? `<p class="term" lang="grc">${esc(word.greek)}${cite(refs.greek)}</p>${word.greekTransliteration ? `<p>${esc(word.greekTransliteration)}</p>` : ''}` : '<p>No Greek match was found.</p>'}</div><div class="word-language word-language-hebrew"><h3>Hebrew</h3>${word.hebrew ? `<p class="term hebrew-term"><bdi lang="he" dir="rtl">${esc(word.hebrew)}</bdi>${cite(refs.hebrew)}</p><p>${esc(word.transliteration || '')}</p>` : `<p>${greekBook ? 'This book has no Hebrew text.' : 'No Hebrew match was found.'}</p>`}</div></div>${word.greek && word.greekNote ? `<p class="word-language-note">${esc(word.greekNote)}${cite(refs.greek)}</p>` : ''}${word.languageNote ? `<p class="word-language-note">${esc(word.languageNote)}</p>` : ''}</div>`;
 }
 function wordStudyBodyHtml(word, title = word?.label || 'Selected word') {
   const personId = personIdForLabel(title);
@@ -456,7 +456,7 @@ function wordStudyBodyHtml(word, title = word?.label || 'Selected word') {
   if (!word) html += `<p class="translation">No study note yet</p><div class="word-section"><p>This word has no study note yet. The app does not give a Hebrew or Greek match for it.</p></div>`;
   else {
     const refs = wordReferences(word), cite = refs.cite;
-    if (word.scope !== 'glossary') html += wordLanguagesHtml(word);
+    html += wordLanguagesHtml(word);
     if (word.meaning) html += `<div class="word-section"><h3>${word.scope === 'dictionary' ? 'Dictionary meaning' : word.scope === 'glossary' ? 'Plain meaning' : 'Meaning in this passage'}</h3><p>${linkedEntityHtml(word.meaning, {excludeType:'word', excludeId:word.id}).replace(/\n/g, '<br>')}${cite(refs.meaning)}</p></div>`;
     if (word.discussion) html += `<div class="word-section"><h3>Study note</h3><p>${linkedEntityHtml(word.discussion, {excludeType:'word', excludeId:word.id}).replace(/\n/g, '<br>')}${cite(refs.discussion)}</p></div>`;
 
@@ -683,7 +683,7 @@ function featureBodyHtml(feature) {
 function featureDetailBodyHtml(feature) {
   const context = featureChapterContext(feature);
   const lds = state.perspective === 'lds' && feature.lds?.text ? `<div class="word-section"><h3>LDS reading</h3><p>${linkedEntityHtml(feature.lds.text, {excludeType:'feature', excludeId:feature.id})}</p>${sourceInsightsHtml(feature.lds.sourceIds)}</div>` : '';
-  return `<span class="eyebrow">${featureType(feature)}</span><h2>${esc(mapDisplayName(feature.name || feature.title))}</h2>${featurePortraits(feature, state.date)}${feature.dateLabel ? `<span class="badge">${esc(feature.dateLabel)}</span>` : ''}${featureBodyHtml(feature)}${lds}<div class="word-section"><h3>Sources</h3>${sourcesHtml([...context.sourceIds, ...(state.perspective === 'lds' ? feature.lds?.sourceIds || [] : [])])}</div>`;
+  return `<span class="eyebrow">${featureType(feature)}</span><h2>${esc(mapDisplayName(feature.name || feature.title))}</h2>${featurePortraits(feature, state.date)}${feature.dateLabel ? `<span class="badge">${esc(feature.dateLabel)}</span>` : ''}${featureBodyHtml(feature)}${feature.word ? wordLanguagesHtml(feature.word) : ''}${lds}<div class="word-section"><h3>Sources</h3>${sourcesHtml([...context.sourceIds, ...(state.perspective === 'lds' ? feature.lds?.sourceIds || [] : [])])}</div>`;
 }
 function linkedDetail(type, id) {
   if (type === 'person') return people[id] ? {type, id, label:people[id].name} : null;
@@ -695,7 +695,7 @@ function detailReturnSelector(type, id) {
   return type === 'person' ? `[data-person-id="${CSS.escape(id)}"]` : `[data-detail-type="${CSS.escape(type)}"][data-detail-id="${CSS.escape(id)}"]`;
 }
 function linkedDetailBodyHtml(detail, backLabel, context = 'sidebar') {
-  const back = `<button class="back-button person-profile-back" data-action="${context === 'context' ? 'person-profile-back' : 'sidebar-person-back'}">← Back to ${esc(backLabel)}</button>`;
+  const back = `<button class="back-button person-profile-back" data-action="${context === 'context' ? 'person-profile-back' : 'sidebar-person-back'}" aria-label="Back to ${esc(backLabel)}">Back</button>`;
   if (detail.type === 'person') return context === 'context'
     ? linkedPersonProfileHtml(detail.id, {backLabel:`Back to ${backLabel}`})
     : `<section class="word-view">${back}${linkedPersonProfileHtml(detail.id)}</section>`;

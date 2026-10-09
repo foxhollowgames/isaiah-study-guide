@@ -222,9 +222,9 @@
       "eventOrder": 1,
       "dateLabel": "Book order",
       "historicalNote": "The greeting connects knowledge of truth with godliness before describing Titus's unfinished work on Crete. Elders need tested household conduct because care for the assembly includes responsibility toward dependent people. Anger, violence, and greed would contradict the trust required for that care. The opposing teachers threaten whole households, so correction concerns consequences rather than disagreement alone. The quoted insult against Cretans serves the letter's accusation rather than establishing every inhabitant's character. The final contrast tests claims to know God against deeds that make those claims empty.",
-      "mapNote": "No exact location is assigned to unnamed or heavenly settings.",
+      "mapNote": "Where Crete appears, the map marks it as one island point. Nicopolis has no point.",
       "route": [],
-      "routeEvidence": "No exact travel route is reconstructed.",
+      "routeEvidence": "The letter gives no travel route.",
       "contextNote": {
         "title": "Tested conduct and sound teaching must answer disruption within households",
         "text": "Verses 6–8 describe an elder’s home and character. Verse 9 adds what he must do with the teaching. He must hold to the faithful word as he was taught. That gives him two abilities. He can encourage with sound doctrine, and he can refute those who contradict. Verses 10–11 show why both are needed in Crete. Teachers there upset whole households, and their mouths must be stopped.",
@@ -258,9 +258,9 @@
       "eventOrder": 2,
       "dateLabel": "Book order",
       "historicalNote": "Directions to older and younger people organize teaching through relationships within the household. Older women receive a teaching role, while wives and bound workers receive unequal instructions. The repeated concern about outsiders' judgment explains why visible behavior matters to the argument. Pietz reads grace as the basis for good work rather than self-improvement alone. Grace also instructs present conduct while the hearers wait for the promised appearing of Christ. His self-giving creates a people eager to do good rather than merely avoid criticism.",
-      "mapNote": "No exact location is assigned to unnamed or heavenly settings.",
+      "mapNote": "Where Crete appears, the map marks it as one island point. Nicopolis has no point.",
       "route": [],
-      "routeEvidence": "No exact travel route is reconstructed.",
+      "routeEvidence": "The letter gives no travel route.",
       "contextNote": {
         "title": "Grace supplies the reason for instruction and eagerness to do good",
         "text": "Verses 2–10 give instructions to five groups in the household. Verse 11 begins with “for” and gives the ground: God’s grace has appeared. Verse 12 says grace trains people to deny ungodliness and live soberly. Verse 14 names the act behind that grace. Christ “gave himself for us.” Two purposes follow: to redeem from all iniquity and to purify a people. That people is marked by one trait: zeal for good works.",
@@ -293,9 +293,9 @@
       "eventOrder": 3,
       "dateLabel": "Book order",
       "historicalNote": "The opening requires gentle conduct toward others under rulers and authorities. Remembered foolishness prevents believers from treating former failures as belonging only to outsiders. God's kindness and mercy then explain salvation rather than earlier achievements that earned it. This account makes good work a response to received grace instead of its purchase price. Repeated disputes cannot replace that response, and warnings limit the treatment of a divisive person. The closing travel requests make useful work concrete through care for workers who need support.",
-      "mapNote": "No exact location is assigned to unnamed or heavenly settings.",
+      "mapNote": "Where Crete appears, the map marks it as one island point. Nicopolis has no point.",
       "route": [],
-      "routeEvidence": "No exact travel route is reconstructed.",
+      "routeEvidence": "The letter gives no travel route.",
       "contextNote": {
         "title": "Received mercy directs attention from disputes toward work that meets needs",
         "text": "Verses 4–7 say God saved by mercy and not by works done in righteousness. Verse 8 calls this a faithful saying and tells Titus to insist on it. The purpose is that believers be careful to do good works. Works do not earn the mercy; they follow it. The verse calls them good and profitable to people. Verse 9 names the contrast: disputes about the law are unprofitable. Verse 14 gives the practical form: good works that meet pressing needs.",
@@ -310,10 +310,10 @@
     {
       "id": "paul",
       "name": "Paul",
-      "role": "Named letter speaker who directs Titus to complete work on Crete",
+      "role": "Writer who leaves Titus on Crete to set things in order",
       "relations": "He calls Titus a true child in their common faith.",
       "passages": "Titus 1–3",
-      "meaning": "His instructions connect sound teaching with tested care and work that meets needs.",
+      "meaning": "Paul says he left Titus on Crete to appoint elders in every city. He lists what an elder must be. He warns of deceivers who overthrow whole houses. He tells Titus to reprove them sharply. He then asks Titus to meet him at Nicopolis.",
       "life": "Birth and death years are not securely known.",
       "sourceIds": [
         "web"
@@ -327,10 +327,10 @@
     {
       "id": "jesus",
       "name": "Jesus Christ",
-      "role": "Savior whose grace and self-giving ground the call to good work",
-      "relations": "The letter connects his past gift and promised appearing with present conduct.",
+      "role": "Savior whose grace and gift are the reason for good work",
+      "relations": "Paul calls him Savior and our great God and Savior. Paul says he gave himself for us.",
       "passages": "Titus 1–3",
-      "meaning": "His work makes good deeds a response to grace rather than its purchase price.",
+      "meaning": "Paul says Jesus gave himself to redeem us from all iniquity. He says God saved us through mercy, and not by our works. Paul then asks his people to keep up good works.",
       "life": "Birth and death years are not securely known.",
       "sourceIds": [
         "web"
@@ -345,10 +345,10 @@
     {
       "id": "titus",
       "name": "Titus",
-      "role": "Addressed worker charged with appointing elders and teaching conduct that fits sound doctrine",
-      "relations": "Paul asks him to continue work on Crete and later come to Nicopolis.",
+      "role": "Paul’s true child, told to appoint elders on Crete",
+      "relations": "Paul calls him his true child in a common faith. Paul asks him to come to Nicopolis.",
       "passages": "Titus 1–3",
-      "meaning": "His task connects tested leaders, household instruction, and support for traveling workers.",
+      "meaning": "Paul left Titus on Crete to appoint elders and set things in order. Paul tells him to teach each group what fits sound doctrine. Paul tells him to remind them to do good works. Paul asks him to come to Nicopolis once Artemas or Tychicus arrives.",
       "life": "Birth and death years are not securely known.",
       "sourceIds": [
         "web"
@@ -362,10 +362,10 @@
     {
       "id": "tychicus",
       "name": "Tychicus",
-      "role": "Worker named as a possible replacement before Titus leaves for Nicopolis",
-      "relations": "The speaker may send him or Artemas to Titus.",
+      "role": "Worker Paul may send to Titus",
+      "relations": "Paul says he will send Artemas or Tychicus to Titus.",
       "passages": "Titus 3:12",
-      "meaning": "The alternative sending keeps care for the assembly within shared work.",
+      "meaning": "Paul says he will send Artemas or Tychicus to Titus. Then Titus is to come to Paul at Nicopolis. The letter does not say which of the two Paul sends.",
       "life": "Birth and death years are not securely known.",
       "sourceIds": [
         "web"
@@ -379,10 +379,10 @@
     {
       "id": "apollos",
       "name": "Apollos",
-      "role": "Traveling worker whom Titus must help continue his journey",
-      "relations": "The speaker asks that he and Zenas lack nothing for their journey.",
+      "role": "Traveler Titus must send on his journey",
+      "relations": "Paul names him with Zenas the lawyer.",
       "passages": "Titus 3:13",
-      "meaning": "His need makes the call to useful work concrete through material support.",
+      "meaning": "Paul tells Titus to send Zenas the lawyer and Apollos on their journey. He must do it quickly. Nothing may be lacking for them.",
       "life": "Birth and death years are not securely known.",
       "sourceIds": [
         "web"
@@ -400,8 +400,8 @@
       "name": "Crete",
       "lat": 35.166666666666664,
       "lng": 25,
-      "summary": "Crete is the island where Titus remains to complete work and appoint elders.",
-      "limits": "Island reference rather than an exact town or meeting house.",
+      "summary": "Paul left Titus on Crete in chapter 1. Titus is to appoint elders in every city there. Paul warns him about deceivers on the island.",
+      "limits": "Crete is an island. The letter names no town or meeting place on it.",
       "sourceIds": [
         "web",
         "net-crete"
@@ -421,10 +421,10 @@
       "id": "web",
       "title": "Titus · World English Bible",
       "url": "https://ebible.org/engwebp/TIT01.htm",
-      "summary": "Complete Scripture supplies the primary text for original close readings.",
+      "summary": "The full Scripture text is the main text for original close readings.",
       "category": "Scripture",
       "perspective": "historical",
-      "limits": "Paul is the named letter speaker. Historical authorship, dates, Greek forms, manuscripts, ethnic generalizations, and a complete travel harmony were not independently verified. The quoted insult is not independent evidence for every Cretan. Nicopolis is not assigned a secure location.",
+      "limits": "Paul is the named writer. The guide did not check authorship, dates, Greek forms, or manuscripts. It did not check claims about whole peoples. It did not check the full travel plan. The quoted insult is not independent evidence about every Cretan. Nicopolis has no secure location here.",
       "author": "World English Bible translators",
       "publisher": "eBible.org",
       "chapterCoverage": [
@@ -446,8 +446,8 @@
       "year": 2023,
       "category": "LDS Come, Follow Me",
       "perspective": "lds",
-      "summary": "The lesson connects sound doctrine with protection from false teaching.",
-      "limits": "Titus coverage follows actual discussion of chapters one and two. The title alone does not establish chapter three or Philemon coverage. Linked Restoration passages were not independently reviewed.",
+      "summary": "The lesson links sound doctrine with protection from false teaching.",
+      "limits": "Titus coverage follows what the lesson discusses in chapters one and two. The title alone does not show coverage of chapter three or Philemon. The guide did not check the linked Restoration passages.",
       "chapterCoverage": [
         1,
         2
@@ -466,8 +466,8 @@
       "year": 2017,
       "category": "Scholarly study",
       "perspective": "historical",
-      "summary": "Pietz reads grace as the basis of changed conduct and good work.",
-      "limits": "This is Pietz's interpretation. Greek analysis, authorship, broader social claims about Crete, household codes, and cited books were not independently verified.",
+      "summary": "Pietz reads grace as the reason for changed conduct and good work.",
+      "limits": "This is Pietz’s own reading. The guide did not check her Greek analysis, authorship, or social claims about Crete. It did not check household codes or the books she cites.",
       "chapterCoverage": [
         2
       ],
@@ -484,8 +484,8 @@
       "publisher": "Bible.org",
       "category": "Reference work",
       "perspective": "historical",
-      "summary": "The dictionary identifies Crete as an island and supplies reference coordinates.",
-      "limits": "Only the opening locality description and coordinate line support the island marker. Old historical claims, ethnic stereotypes, exact towns, and travel sequences were not independently verified.",
+      "summary": "The dictionary names Crete as an island and gives map coordinates.",
+      "limits": "Only the opening place description and the coordinates support the island marker. The guide did not check the old history or the ethnic stereotypes. It did not check the towns or the travel order.",
       "reviewed": {
         "date": "2026-10-07",
         "scope": "Opening island description and coordinate line read: 35 degrees 10 minutes north, 25 degrees east."

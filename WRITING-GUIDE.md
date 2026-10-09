@@ -61,6 +61,36 @@ Check each new sentence against the verse it describes. A simple word must not c
 
 Isaiah's summaries and questions live in `scripts/full-isaiah.mjs`. Its verse notes live in `scripts/chapter-enrichment.mjs`. For added books, summaries and questions live in `scripts/book-copy-chapters/<book-id>.json`. Their verse notes live in `scripts/book-context-complete/<book-id>.json`. Use `node scripts/show-chapter.mjs <book-id> <first> <last>` to read chapters. Use `node scripts/apply-chapter-copy.mjs <book-id> <batch-file>` to apply a batch. The apply script rejects long sentences and banned terms before it writes. In an added book's LDS lens, keep the sentence that names a Church source. Then add the passage question.
 
+## Write reference notes
+
+Reference notes are the profiles, place notes, word notes, source notes, and map notes. Hold them to the chapter standard.
+
+**Cut what the reader already knows.**
+
+- Do not tell the reader to read the verse. Cut “The passage determines the sense.”
+- Do not list what a note leaves out. Cut “No house, road, or border is shown.”
+- Do not describe the work behind the guide in a profile, place note, or word note.
+- Do not end a note with a general lesson.
+- A short true note is better than a padded one. “Honey.” is too thin. “A sweet food from bees or fruit syrup” needs a source.
+
+**Profile.** Read every passage the profile lists before writing.
+
+- `role` is a label with no full stop. Name the office or the act the reader will meet.
+- `relations` names family and the named people this person deals with. Use one or two sentences.
+- `meaning` says what the person does in this book, in order. Then say what changes because of it. Use two to four sentences.
+- Write the act, not a description of the act. Write “He tells the officials what Baruch read.” Do not write “His report extends the message's audience.”
+- Keep people with the same name apart. Keep a doubt that the text leaves open.
+
+**Place note.** `summary` says what happens at the place in this book. Name the people and the chapter. `limits` states the real doubt about the location in one or two sentences. Keep a named site proposal. Do not add one.
+
+**Word note.** Give the plain meaning first. Add a second sentence only for a real second use, with the kind of passage where it occurs.
+
+**Source note.** `summary` says what the source contains for this book. `limits` says what the source cannot support and what was not read. Keep every fact about review scope, dates, names, and disagreement. Simple words must not turn “not reviewed” into “reviewed.”
+
+**Map note.** Say what the points and lines show. State the one doubt that affects this chapter.
+
+For added books, reference notes live in `scripts/book-copy-reference/<book-id>.json`. Keys are `people.<id>.role`, `people.<id>.relations`, `people.<id>.meaning`, `places.<id>.summary`, `places.<id>.limits`, `sources.<id>.summary`, `sources.<id>.limits`, `chapters.<n>.mapNote`, and `chapters.<n>.routeEvidence`. Use `chapters.*.mapNote` for every chapter. Use `node scripts/show-reference.mjs <book-id>` to read the current notes. Use `node scripts/lint-reference-copy.mjs <book-id>` to check the file. Isaiah's reference notes live in the generator files named below and in `dist/portraits.js`.
+
 ## Preserve source text
 
 Preserve scripture quotations, source titles, proper names, Hebrew and Greek text, and attribution. Simplify the study guide’s surrounding explanations. Do not present a paraphrase as a quotation.

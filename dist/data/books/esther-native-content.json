@@ -319,6 +319,34 @@
       ],
       "type": "museum",
       "limitations": "It comes from Pasargadae, not the biblical court scene. Its exact original use remains uncertain."
+    },
+    {
+      "id": "strong",
+      "title": "A Concise Dictionary of the Words in the Hebrew Bible",
+      "author": "James Strong · Open Scriptures XML edition",
+      "year": "1894 / digital edition",
+      "perspective": "historical",
+      "category": "Historical lexicon",
+      "url": "https://github.com/openscriptures/strongs",
+      "summary": "Lists Hebrew dictionary forms and their possible meanings. Use it with the passage to study a word.",
+      "limits": "This is an older dictionary. Compare its meanings with the passage. A list of meanings alone cannot show which one applies.",
+      "license": "Source XML declares Public Domain. Only selected headwords are used.",
+      "type": "Historical lexicon",
+      "limitations": "This is an older dictionary. Compare its meanings with the passage. A list of meanings alone cannot show which one applies."
+    },
+    {
+      "id": "oshb",
+      "title": "Open Scriptures Hebrew Bible",
+      "author": "Open Scriptures contributors / Westminster Leningrad Codex",
+      "year": "Digital edition",
+      "perspective": "historical",
+      "category": "Hebrew text",
+      "url": "https://hb.openscriptures.org/",
+      "summary": "Provides the Hebrew text and word identifiers. This study guide uses these to check selected words against their verses.",
+      "limits": "The app checks selected words, not every English–Hebrew match. It shows Hebrew dictionary forms. The forms in the verses can differ.",
+      "license": "Hebrew text public domain; lemma/morphology data CC BY 4.0. Original work of the Open Scriptures Hebrew Bible, https://hb.openscriptures.org/.",
+      "type": "Hebrew text",
+      "limitations": "The app checks selected words, not every English–Hebrew match. It shows Hebrew dictionary forms. The forms in the verses can differ."
     }
   ],
   "passages": [
@@ -1000,7 +1028,25 @@
       ],
       "detail": "The family account recalls people carried away from Jerusalem before the palace story.",
       "uncertainty": "Reference marker only. Exact houses, camps, battle lines, property boundaries, and ancient roads remain uncertain.",
-      "chapterLocation": true
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H3389",
+        "key": "Jerusalem",
+        "checkedVerses": 1,
+        "example": [
+          2,
+          6
+        ],
+        "hebrew": "יְרוּשָׁלַ͏ִם",
+        "transliteration": "Yᵉrûwshâlaim",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "babylon",
@@ -1016,13 +1062,87 @@
       ],
       "detail": "Nebuchadnezzar’s earlier capture of people forms part of the family account.",
       "uncertainty": "Approximate reference marker. It does not establish an exact ascent, house, camp, deportation settlement, ancient road, or battle position.",
-      "chapterLocation": true
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H894",
+        "key": "Babylon",
+        "checkedVerses": 1,
+        "example": [
+          2,
+          6
+        ],
+        "hebrew": "בָּבֶל",
+        "transliteration": "Bâbel",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     }
   ],
   "campaigns": [],
   "ancientRoads": [],
   "regions": [],
   "words": [
+    {
+      "id": "glossary-scribes-3-H5608-scribes",
+      "label": "Scribes",
+      "matches": [
+        "scribes"
+      ],
+      "chapter": 3,
+      "verses": [
+        12
+      ],
+      "hebrew": "סָפַר",
+      "transliteration": "çâphar",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "People trained to write and to keep records. In the Gospels, scribes also teach the law.",
+      "grammar": "This is the dictionary form of Hebrew word H5608. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H5608",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-scribes-8-H5608-scribes",
+      "label": "Scribes",
+      "matches": [
+        "scribes"
+      ],
+      "chapter": 8,
+      "verses": [
+        9
+      ],
+      "hebrew": "סָפַר",
+      "transliteration": "çâphar",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "People trained to write and to keep records. In the Gospels, scribes also teach the law.",
+      "grammar": "This is the dictionary form of Hebrew word H5608. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H5608",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
     {
       "id": "glossary-scribes",
       "label": "Scribes",
@@ -1043,7 +1163,39 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-sackcloth-4-H8242-sackcloth",
+      "label": "Sackcloth",
+      "matches": [
+        "sackcloth"
+      ],
+      "chapter": 4,
+      "verses": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "hebrew": "שַׂק",
+      "transliteration": "saq",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "Rough cloth worn to show grief or repentance.",
+      "grammar": "This is the dictionary form of Hebrew word H8242. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H8242",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-sackcloth",
@@ -1064,7 +1216,182 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-eunuch-1-H5631-eunuchs",
+      "label": "Eunuch",
+      "matches": [
+        "eunuchs"
+      ],
+      "chapter": 1,
+      "verses": [
+        10,
+        12,
+        15
+      ],
+      "hebrew": "סָרִיס",
+      "transliteration": "çârîyç",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A court official. The word often means a man who was castrated.",
+      "grammar": "This is the dictionary form of Hebrew word H5631. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H5631",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-eunuch-2-H5631-eunuchs",
+      "label": "Eunuch",
+      "matches": [
+        "eunuchs"
+      ],
+      "chapter": 2,
+      "verses": [
+        21
+      ],
+      "hebrew": "סָרִיס",
+      "transliteration": "çârîyç",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A court official. The word often means a man who was castrated.",
+      "grammar": "This is the dictionary form of Hebrew word H5631. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H5631",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-eunuch-4-H5631-eunuchs",
+      "label": "Eunuch",
+      "matches": [
+        "eunuchs"
+      ],
+      "chapter": 4,
+      "verses": [
+        4,
+        5
+      ],
+      "hebrew": "סָרִיס",
+      "transliteration": "çârîyç",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A court official. The word often means a man who was castrated.",
+      "grammar": "This is the dictionary form of Hebrew word H5631. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H5631",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-eunuch-6-H5631-eunuchs",
+      "label": "Eunuch",
+      "matches": [
+        "eunuchs"
+      ],
+      "chapter": 6,
+      "verses": [
+        2,
+        14
+      ],
+      "hebrew": "סָרִיס",
+      "transliteration": "çârîyç",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A court official. The word often means a man who was castrated.",
+      "grammar": "This is the dictionary form of Hebrew word H5631. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H5631",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-eunuch-7-H5631-eunuchs",
+      "label": "Eunuch",
+      "matches": [
+        "eunuchs"
+      ],
+      "chapter": 7,
+      "verses": [
+        9
+      ],
+      "hebrew": "סָרִיס",
+      "transliteration": "çârîyç",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A court official. The word often means a man who was castrated.",
+      "grammar": "This is the dictionary form of Hebrew word H5631. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H5631",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-eunuch-2-H5631-eunuch",
+      "label": "Eunuch",
+      "matches": [
+        "eunuch"
+      ],
+      "chapter": 2,
+      "verses": [
+        3,
+        14,
+        15
+      ],
+      "hebrew": "סָרִיס",
+      "transliteration": "çârîyç",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A court official. The word often means a man who was castrated.",
+      "grammar": "This is the dictionary form of Hebrew word H5631. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H5631",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-eunuch",
@@ -1086,7 +1413,36 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-concubine-2-H6370-concubines",
+      "label": "Concubine",
+      "matches": [
+        "concubines"
+      ],
+      "chapter": 2,
+      "verses": [
+        14
+      ],
+      "hebrew": "פִּילֶגֶשׁ",
+      "transliteration": "pîylegesh",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A woman joined to a man’s household with lower standing than a wife.",
+      "grammar": "This is the dictionary form of Hebrew word H6370. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H6370",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-concubine",
@@ -1108,7 +1464,64 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-cubit-5-H520-cubits",
+      "label": "Cubit",
+      "matches": [
+        "cubits"
+      ],
+      "chapter": 5,
+      "verses": [
+        14
+      ],
+      "hebrew": "אַמָּה",
+      "transliteration": "ʼammâh",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A length from the elbow to the fingertip, about 46 centimeters.",
+      "grammar": "This is the dictionary form of Hebrew word H520. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H520",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-cubit-7-H520-cubits",
+      "label": "Cubit",
+      "matches": [
+        "cubits"
+      ],
+      "chapter": 7,
+      "verses": [
+        9
+      ],
+      "hebrew": "אַמָּה",
+      "transliteration": "ʼammâh",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A length from the elbow to the fingertip, about 46 centimeters.",
+      "grammar": "This is the dictionary form of Hebrew word H520. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H520",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-cubit",
@@ -1130,7 +1543,36 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-talent-3-H3603-talents",
+      "label": "Talent",
+      "matches": [
+        "talents"
+      ],
+      "chapter": 3,
+      "verses": [
+        9
+      ],
+      "hebrew": "כִּכָּר",
+      "transliteration": "kikkâr",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A large unit of weight, about 30 kilograms.",
+      "grammar": "This is the dictionary form of Hebrew word H3603. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H3603",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-talent",
@@ -1152,7 +1594,8 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
     }
   ],
   "guides": [

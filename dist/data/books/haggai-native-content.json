@@ -67,6 +67,34 @@
       "type": "LDS Come, Follow Me",
       "limitations": "The comparison with Doctrine and Covenants 95 is a later Church application.",
       "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "strong",
+      "title": "A Concise Dictionary of the Words in the Hebrew Bible",
+      "author": "James Strong · Open Scriptures XML edition",
+      "year": "1894 / digital edition",
+      "perspective": "historical",
+      "category": "Historical lexicon",
+      "url": "https://github.com/openscriptures/strongs",
+      "summary": "Lists Hebrew dictionary forms and their possible meanings. Use it with the passage to study a word.",
+      "limits": "This is an older dictionary. Compare its meanings with the passage. A list of meanings alone cannot show which one applies.",
+      "license": "Source XML declares Public Domain. Only selected headwords are used.",
+      "type": "Historical lexicon",
+      "limitations": "This is an older dictionary. Compare its meanings with the passage. A list of meanings alone cannot show which one applies."
+    },
+    {
+      "id": "oshb",
+      "title": "Open Scriptures Hebrew Bible",
+      "author": "Open Scriptures contributors / Westminster Leningrad Codex",
+      "year": "Digital edition",
+      "perspective": "historical",
+      "category": "Hebrew text",
+      "url": "https://hb.openscriptures.org/",
+      "summary": "Provides the Hebrew text and word identifiers. This study guide uses these to check selected words against their verses.",
+      "limits": "The app checks selected words, not every English–Hebrew match. It shows Hebrew dictionary forms. The forms in the verses can differ.",
+      "license": "Hebrew text public domain; lemma/morphology data CC BY 4.0. Original work of the Open Scriptures Hebrew Bible, https://hb.openscriptures.org/.",
+      "type": "Hebrew text",
+      "limitations": "The app checks selected words, not every English–Hebrew match. It shows Hebrew dictionary forms. The forms in the verses can differ."
     }
   ],
   "passages": [
@@ -214,13 +242,59 @@
       ],
       "detail": "Egypt appears in God’s reminder of the promise made when the people came out.",
       "uncertainty": "Broad regional reference. The remembered rescue has no reconstructed route in Haggai.",
-      "chapterLocation": true
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H4714",
+        "key": "Egypt",
+        "checkedVerses": 1,
+        "example": [
+          2,
+          5
+        ],
+        "hebrew": "מִצְרַיִם",
+        "transliteration": "Mitsrayim",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     }
   ],
   "campaigns": [],
   "ancientRoads": [],
   "regions": [],
   "words": [
+    {
+      "id": "glossary-unclean-2-H2931-unclean",
+      "label": "Unclean",
+      "matches": [
+        "unclean"
+      ],
+      "chapter": 2,
+      "verses": [
+        14
+      ],
+      "hebrew": "טָמֵא",
+      "transliteration": "ṭâmêʼ",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "Unfit to take part in worship until a set cleansing is done. Leviticus 11–15 gives the rules.",
+      "grammar": "This is the dictionary form of Hebrew word H2931. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H2931",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
     {
       "id": "glossary-unclean",
       "label": "Unclean",
@@ -241,7 +315,65 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-remnant-1-H7611-remnant",
+      "label": "Remnant",
+      "matches": [
+        "remnant"
+      ],
+      "chapter": 1,
+      "verses": [
+        12,
+        14
+      ],
+      "hebrew": "שְׁאֵרִית",
+      "transliteration": "shᵉʼêrîyth",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "The part of a people that survives a disaster.",
+      "grammar": "This is the dictionary form of Hebrew word H7611. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H7611",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-remnant-2-H7611-remnant",
+      "label": "Remnant",
+      "matches": [
+        "remnant"
+      ],
+      "chapter": 2,
+      "verses": [
+        2
+      ],
+      "hebrew": "שְׁאֵרִית",
+      "transliteration": "shᵉʼêrîyth",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "The part of a people that survives a disaster.",
+      "grammar": "This is the dictionary form of Hebrew word H7611. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H7611",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-remnant",
@@ -262,7 +394,8 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
     }
   ],
   "guides": [

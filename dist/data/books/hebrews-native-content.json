@@ -4,10 +4,10 @@
       "id": "web",
       "title": "Hebrews · World English Bible",
       "url": "https://ebible.org/engwebp/HEB01.htm",
-      "summary": "Complete Scripture supplies the primary text for original close readings.",
+      "summary": "The full text of Hebrews is the main text for the close readings.",
       "category": "Scripture",
       "perspective": "historical",
-      "limits": "The work does not name its speaker. Historical authorship, dates, Greek forms, manuscripts, exact audience, and archaeological reconstruction of its tent description were not independently verified. The comparisons state the writer's argument rather than an independent dismissal of all Jewish worship. Heavenly Jerusalem is not assigned an earthly marker.",
+      "limits": "The work does not name its writer. Authorship, dates, Greek forms, manuscripts, and the audience were not checked independently. Any archaeological picture of its tent description was not checked either. The comparisons give the writer’s own argument. They do not dismiss all Jewish worship. Heavenly Jerusalem has no marker on the earth.",
       "author": "World English Bible translators",
       "publisher": "eBible.org",
       "chapterCoverage": [
@@ -30,7 +30,7 @@
         "scope": "All 303 verses read for 13 original contextual explanations and exact selections. Surroundings, counts, and character integrity checked."
       },
       "type": "Scripture",
-      "limitations": "The work does not name its speaker. Historical authorship, dates, Greek forms, manuscripts, exact audience, and archaeological reconstruction of its tent description were not independently verified. The comparisons state the writer's argument rather than an independent dismissal of all Jewish worship. Heavenly Jerusalem is not assigned an earthly marker.",
+      "limitations": "The work does not name its writer. Authorship, dates, Greek forms, manuscripts, and the audience were not checked independently. Any archaeological picture of its tent description was not checked either. The comparisons give the writer’s own argument. They do not dismiss all Jewish worship. Heavenly Jerusalem has no marker on the earth.",
       "license": "Public domain"
     },
     {
@@ -42,8 +42,8 @@
       "year": 2023,
       "category": "LDS Come, Follow Me",
       "perspective": "lds",
-      "summary": "The lesson connects Christ's suffering with help, responsive hearts, and called service.",
-      "limits": "Coverage follows the actual lesson body rather than its title. Church applications to callings and ordinances remain distinct from independent historical evidence. The lesson's naming of Paul does not settle authorship. Linked videos, talks, and Restoration texts were not independently reviewed.",
+      "summary": "The lesson links Christ’s suffering to help, open hearts, and called service.",
+      "limits": "Coverage follows the lesson’s text, not its title. Church uses for callings and ordinances are separate from independent historical evidence. The lesson names Paul, but that does not settle authorship. Linked videos, talks, and Restoration texts were not reviewed independently.",
       "chapterCoverage": [
         1,
         2,
@@ -56,7 +56,7 @@
         "scope": "Complete lesson body and resource list read. Actual discussion covers chapters one through five. Chapter six is not separately discussed."
       },
       "type": "LDS Come, Follow Me",
-      "limitations": "Coverage follows the actual lesson body rather than its title. Church applications to callings and ordinances remain distinct from independent historical evidence. The lesson's naming of Paul does not settle authorship. Linked videos, talks, and Restoration texts were not independently reviewed.",
+      "limitations": "Coverage follows the lesson’s text, not its title. Church uses for callings and ordinances are separate from independent historical evidence. The lesson names Paul, but that does not settle authorship. Linked videos, talks, and Restoration texts were not reviewed independently.",
       "license": "Linked source. Original guide summaries."
     },
     {
@@ -68,8 +68,8 @@
       "year": 2023,
       "category": "LDS Come, Follow Me",
       "perspective": "lds",
-      "summary": "The lesson connects ordinances with Christ and faith with trust in unfinished promises.",
-      "limits": "Coverage follows the actual lesson body rather than its title. Church applications to callings and ordinances remain distinct from independent historical evidence. The lesson's naming of Paul does not settle authorship. Linked videos, talks, and Restoration texts were not independently reviewed.",
+      "summary": "The lesson links ordinances to Christ and faith to trust in promises not yet fulfilled.",
+      "limits": "Coverage follows the lesson’s text, not its title. Church uses for callings and ordinances are separate from independent historical evidence. The lesson names Paul, but that does not settle authorship. Linked videos, talks, and Restoration texts were not reviewed independently.",
       "chapterCoverage": [
         7,
         8,
@@ -82,7 +82,7 @@
         "scope": "Complete lesson body and included Holland quotation read. Actual discussion covers chapters seven through eleven. Linked full talks and videos were not reviewed."
       },
       "type": "LDS Come, Follow Me",
-      "limitations": "Coverage follows the actual lesson body rather than its title. Church applications to callings and ordinances remain distinct from independent historical evidence. The lesson's naming of Paul does not settle authorship. Linked videos, talks, and Restoration texts were not independently reviewed.",
+      "limitations": "Coverage follows the lesson’s text, not its title. Church uses for callings and ordinances are separate from independent historical evidence. The lesson names Paul, but that does not settle authorship. Linked videos, talks, and Restoration texts were not reviewed independently.",
       "license": "Linked source. Original guide summaries."
     },
     {
@@ -94,8 +94,8 @@
       "year": 2019,
       "category": "Scholarly study",
       "perspective": "historical",
-      "summary": "Foskett connects present hearers with a wider history of faithful endurance.",
-      "limits": "This is Foskett's interpretation. Specific unnamed sufferers, authorship, precise audience history, and Greek forms were not independently verified. Endurance is not presented as approval of every form of suffering.",
+      "summary": "Foskett links the present readers to a long history of faithful endurance.",
+      "limits": "This is Foskett’s own reading. Unnamed sufferers, authorship, the audience’s history, and Greek forms were not checked independently. She does not present endurance as approval of every kind of suffering.",
       "chapterCoverage": [
         11
       ],
@@ -104,7 +104,7 @@
         "scope": "Complete commentary body read. The guide attributes its connection of present hearers with earlier lives of endurance."
       },
       "type": "Scholarly study",
-      "limitations": "This is Foskett's interpretation. Specific unnamed sufferers, authorship, precise audience history, and Greek forms were not independently verified. Endurance is not presented as approval of every form of suffering.",
+      "limitations": "This is Foskett’s own reading. Unnamed sufferers, authorship, the audience’s history, and Greek forms were not checked independently. She does not present endurance as approval of every kind of suffering.",
       "license": "Linked source. Original guide summaries."
     },
     {
@@ -113,10 +113,10 @@
       "perspective": "historical",
       "category": "Geography",
       "url": "https://www.churchofjesuschrist.org/study/scriptures/bible-maps/map-10?lang=eng",
-      "summary": "This Church-published atlas identifies towns and regions in Canaan.",
-      "limits": "Coordinates are display estimates. A town marker does not verify each Genesis event.",
+      "summary": "This atlas from the Church shows towns and regions in Canaan.",
+      "limits": "The coordinates are estimates for display. A town marker does not prove each event in the text.",
       "type": "Geography",
-      "limitations": "Coordinates are display estimates. A town marker does not verify each Genesis event.",
+      "limitations": "The coordinates are estimates for display. A town marker does not prove each event in the text.",
       "license": "Linked source. Original guide summaries."
     },
     {
@@ -129,13 +129,41 @@
       "url": "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/128?lang=eng&id=p15#p15",
       "summary": "The section applies Paul’s words about the fathers to the living and the dead.",
       "reviewed": "2026-10-08: The linked verses were read on the official Church page.",
-      "limits": "This is later Latter-day Saint scripture. It is a Church reading, separate from the Bible passage’s own words.",
+      "limits": "This is later Latter-day Saint scripture. It is a Church reading, apart from the words of the Bible passage.",
       "license": "Linked official scripture. Original guide summary.",
       "chapterCoverage": [
         11
       ],
       "type": "LDS scripture",
-      "limitations": "This is later Latter-day Saint scripture. It is a Church reading, separate from the Bible passage’s own words."
+      "limitations": "This is later Latter-day Saint scripture. It is a Church reading, apart from the words of the Bible passage."
+    },
+    {
+      "id": "strong-greek",
+      "title": "A Concise Dictionary of the Words in the Greek Testament",
+      "author": "James Strong · Open Scriptures XML edition",
+      "year": "1890 / digital edition",
+      "perspective": "historical",
+      "category": "Historical lexicon",
+      "url": "https://github.com/openscriptures/strongs",
+      "summary": "Lists Greek dictionary forms and their possible meanings. Use it with the passage to study a word.",
+      "limits": "This is an older dictionary. Compare its meanings with the passage. A list of meanings alone cannot show which one applies.",
+      "license": "Source XML declares Public Domain. Only selected headwords are used.",
+      "type": "Historical lexicon",
+      "limitations": "This is an older dictionary. Compare its meanings with the passage. A list of meanings alone cannot show which one applies."
+    },
+    {
+      "id": "byz",
+      "title": "The New Testament in the Original Greek: Byzantine Textform",
+      "author": "Maurice A. Robinson and William G. Pierpont",
+      "year": "2018 digital edition",
+      "perspective": "historical",
+      "category": "Greek text",
+      "url": "https://github.com/byztxt/byzantine-majority-text",
+      "summary": "Provides a Greek New Testament text with dictionary numbers. This study guide uses these to check selected words against their verses.",
+      "limits": "The app checks selected words, not every English–Greek match. It shows Greek dictionary forms. The forms in the verses can differ. Other Greek editions differ in some verses.",
+      "license": "Public domain.",
+      "type": "Greek text",
+      "limitations": "The app checks selected words, not every English–Greek match. It shows Greek dictionary forms. The forms in the verses can differ. Other Greek editions differ in some verses."
     }
   ],
   "passages": [
@@ -148,7 +176,7 @@
       "summary": "The writer says God spoke long ago through the prophets and now through a Son. The Son is heir of all things, and through him God made the worlds. He is the radiance of God’s glory and upholds all things. After making purification for sins he sat down at God’s right hand. He is as much greater than the angels as his name is greater. The writer quotes a chain of Scriptures to show it. God calls him Son, and the angels are told to worship him. Angels are serving spirits sent to help those who will inherit salvation.",
       "year": null,
       "dateLabel": "Book order",
-      "uncertainty": "No exact location is assigned to unnamed or heavenly settings.",
+      "uncertainty": "The Jericho marker shows Tell es-Sultan. The map gives no location to heavenly or unnamed settings.",
       "placeIds": [],
       "sourceIds": [
         "web"
@@ -177,7 +205,7 @@
       "summary": "The writer warns the readers not to drift from what they heard. The message spoken through angels was binding, and this salvation is greater. God did not put the coming world under angels. The writer quotes a psalm about man, made a little lower than the angels. Jesus was made lower for a time and is crowned because he died. He tasted death for everyone and calls those he saves his brothers. He shared flesh and blood to destroy the one who held death’s power. He became a merciful and faithful high priest.",
       "year": null,
       "dateLabel": "Book order",
-      "uncertainty": "No exact location is assigned to unnamed or heavenly settings.",
+      "uncertainty": "The Jericho marker shows Tell es-Sultan. The map gives no location to heavenly or unnamed settings.",
       "placeIds": [],
       "sourceIds": [
         "web"
@@ -206,7 +234,7 @@
       "summary": "The writer calls Jesus the apostle and high priest of their confession. Moses was faithful in God’s house as a servant. Christ is faithful over the house as a Son, and believers are that house. The writer quotes a psalm that warns against hard hearts “today.” The fathers tested God in the wilderness for forty years. God swore they would not enter his rest. The readers must encourage one another daily. Those who left Egypt could not enter because of unbelief.",
       "year": null,
       "dateLabel": "Book order",
-      "uncertainty": "No exact location is assigned to unnamed or heavenly settings.",
+      "uncertainty": "The Jericho marker shows Tell es-Sultan. The map gives no location to heavenly or unnamed settings.",
       "placeIds": [],
       "sourceIds": [
         "web"
@@ -235,7 +263,7 @@
       "summary": "The writer says a promise of entering God’s rest still stands. The wilderness generation heard good news but did not join it with faith. God rested on the seventh day, and the psalm still says “today.” If Joshua had given them rest, God would not have spoken of another day. So a Sabbath rest remains for God’s people. God’s word is living and sharper than a two-edged sword. Nothing is hidden from him. Jesus the high priest was tempted in every way, yet without sin.",
       "year": null,
       "dateLabel": "Book order",
-      "uncertainty": "No exact location is assigned to unnamed or heavenly settings.",
+      "uncertainty": "The Jericho marker shows Tell es-Sultan. The map gives no location to heavenly or unnamed settings.",
       "placeIds": [],
       "sourceIds": [
         "web"
@@ -264,7 +292,7 @@
       "summary": "Every high priest is chosen from among men to offer gifts and sacrifices. He can deal gently with the ignorant because he is weak himself. No one takes this honor; God calls him, as he called Aaron. Christ also did not glorify himself. God named him a priest forever after the order of Melchizedek. In his days of flesh he prayed with loud cries and tears. He learned obedience through what he suffered. The writer says the readers are slow to hear and still need milk.",
       "year": null,
       "dateLabel": "Book order",
-      "uncertainty": "No exact location is assigned to unnamed or heavenly settings.",
+      "uncertainty": "The Jericho marker shows Tell es-Sultan. The map gives no location to heavenly or unnamed settings.",
       "placeIds": [],
       "sourceIds": [
         "web"
@@ -293,7 +321,7 @@
       "summary": "The writer urges the readers to go on to maturity. He warns that those who fall away after enlightenment cannot be renewed. Land that drinks rain and bears thorns is burned. Yet he is persuaded of better things for these readers. God will not forget their work and their love in serving the saints. They should imitate those who inherit the promises through faith and patience. God swore to Abraham by himself. That oath gives strong encouragement and a hope like an anchor.",
       "year": null,
       "dateLabel": "Book order",
-      "uncertainty": "No exact location is assigned to unnamed or heavenly settings.",
+      "uncertainty": "The Jericho marker shows Tell es-Sultan. The map gives no location to heavenly or unnamed settings.",
       "placeIds": [],
       "sourceIds": [
         "web"
@@ -320,7 +348,7 @@
       "summary": "Melchizedek was king of Salem and priest of God Most High. He met Abraham, blessed him, and received a tenth from him. Scripture gives him no father, mother, or end of days. The writer argues that he is greater than Abraham and so than Levi. If the Levitical priesthood had brought perfection, no other priest would be needed. Jesus came from Judah and is priest by the power of an endless life. God swore that he is a priest forever. The former priests died, but he holds his priesthood permanently.",
       "year": null,
       "dateLabel": "Book order",
-      "uncertainty": "No exact location is assigned to unnamed or heavenly settings.",
+      "uncertainty": "The Jericho marker shows Tell es-Sultan. The map gives no location to heavenly or unnamed settings.",
       "placeIds": [],
       "sourceIds": [
         "web"
@@ -349,7 +377,7 @@
       "summary": "The writer gives the main point: we have a high priest seated in heaven. He serves in the true tabernacle, which the Lord set up. Priests on earth serve a copy and shadow of heavenly things. Moses was told to make everything by the pattern shown on the mountain. Jesus is mediator of a better covenant with better promises. The writer quotes Jeremiah on a new covenant with Israel and Judah. God will write his laws on hearts and remember sins no more. By saying “new,” God has made the first covenant old.",
       "year": null,
       "dateLabel": "Book order",
-      "uncertainty": "No exact location is assigned to unnamed or heavenly settings.",
+      "uncertainty": "The Jericho marker shows Tell es-Sultan. The map gives no location to heavenly or unnamed settings.",
       "placeIds": [],
       "sourceIds": [
         "web"
@@ -378,7 +406,7 @@
       "summary": "The writer describes the tabernacle: lampstand, table, and the Holy of Holies. Priests entered the outer room daily. Only the high priest entered the inner room, once a year, with blood. The Spirit showed by this that the way in was not yet open. Christ entered the greater tabernacle once, with his own blood. A will takes effect at death, and the first covenant began with blood. Without shedding of blood there is no forgiveness. Christ appeared once to put away sin and will appear again to save.",
       "year": null,
       "dateLabel": "Book order",
-      "uncertainty": "No exact location is assigned to unnamed or heavenly settings.",
+      "uncertainty": "The Jericho marker shows Tell es-Sultan. The map gives no location to heavenly or unnamed settings.",
       "placeIds": [],
       "sourceIds": [
         "web"
@@ -407,7 +435,7 @@
       "summary": "The law has a shadow of good things and repeats the same sacrifices each year. The blood of bulls and goats cannot take away sins. Christ came to do God’s will and offered his body once for all. Priests stand daily, but he sat down after one sacrifice. So believers may enter the holy place by the blood of Jesus. They should hold fast their hope and not give up meeting together. The writer warns of judgment for those who sin willfully after knowing the truth. He reminds them how they endured loss with joy.",
       "year": null,
       "dateLabel": "Book order",
-      "uncertainty": "No exact location is assigned to unnamed or heavenly settings.",
+      "uncertainty": "The Jericho marker shows Tell es-Sultan. The map gives no location to heavenly or unnamed settings.",
       "placeIds": [],
       "sourceIds": [
         "web"
@@ -436,7 +464,7 @@
       "summary": "Faith is assurance of things hoped for and proof of things not seen. By faith Abel offered, Enoch pleased God, and Noah built an ark. Abraham left for an unknown land, and Sarah received power to conceive. They died without receiving the promises and looked for a heavenly country. Abraham offered Isaac, and Moses chose mistreatment with God’s people. The walls of Jericho fell, and Rahab was spared. Some conquered kingdoms and escaped the sword. Others were tortured, stoned, sawn apart, and went about destitute.",
       "year": null,
       "dateLabel": "Book order",
-      "uncertainty": "No exact location is assigned to unnamed or heavenly settings.",
+      "uncertainty": "The Jericho marker shows Tell es-Sultan. The map gives no location to heavenly or unnamed settings.",
       "placeIds": [
         "jericho"
       ],
@@ -469,7 +497,7 @@
       "summary": "The writer pictures a race with a great cloud of witnesses around it. The readers should lay aside every weight and run with endurance. They should look to Jesus, who endured the cross. They have not yet resisted to blood. The Lord disciplines those he loves, as a father does his sons. So they should lift tired hands and make straight paths for the lame. They should pursue peace and not sell their birthright as Esau did. They have come to Mount Zion and receive a kingdom that cannot be shaken.",
       "year": null,
       "dateLabel": "Book order",
-      "uncertainty": "No exact location is assigned to unnamed or heavenly settings.",
+      "uncertainty": "The Jericho marker shows Tell es-Sultan. The map gives no location to heavenly or unnamed settings.",
       "placeIds": [],
       "sourceIds": [
         "web"
@@ -496,7 +524,7 @@
       "summary": "The writer gives closing directions. Let brotherly love continue, and do not forget hospitality to strangers. Remember prisoners as if bound with them. Honor marriage, and be free from the love of money. Remember your leaders, for Jesus Christ is the same yesterday, today, and forever. Jesus suffered outside the gate, so the readers should go out to him. They are to offer praise and to share. The writer asks for prayer, mentions Timothy’s release, and sends greetings from Italy.",
       "year": null,
       "dateLabel": "Book order",
-      "uncertainty": "No exact location is assigned to unnamed or heavenly settings.",
+      "uncertainty": "The Jericho marker shows Tell es-Sultan. The map gives no location to heavenly or unnamed settings.",
       "placeIds": [],
       "sourceIds": [
         "web"
@@ -525,7 +553,7 @@
       "summary": "The writer says God spoke long ago through the prophets and now through a Son. The Son is heir of all things, and through him God made the worlds. He is the radiance of God’s glory and upholds all things. After making purification for sins he sat down at God’s right hand. He is as much greater than the angels as his name is greater. The writer quotes a chain of Scriptures to show it. God calls him Son, and the angels are told to worship him. Angels are serving spirits sent to help those who will inherit salvation.",
       "detail": "Verse 2 says God has now spoken through a Son. Verse 3 says who that Son is, in order to weigh the message. He is the radiance of God’s glory and the exact image of his being. He upholds all things by his word. He made purification for sins and then sat down at God’s right hand. Sitting marks a finished work, as 10:11–12 will say of priests who stand. Verse 2:1 draws the point: pay closer attention to what was heard.",
       "dateLabel": "Book order",
-      "uncertainty": "No exact location is assigned to unnamed or heavenly settings.",
+      "uncertainty": "The Jericho marker shows Tell es-Sultan. The map gives no location to heavenly or unnamed settings.",
       "sourceIds": [
         "web"
       ],
@@ -546,7 +574,7 @@
       "summary": "The writer warns the readers not to drift from what they heard. The message spoken through angels was binding, and this salvation is greater. God did not put the coming world under angels. The writer quotes a psalm about man, made a little lower than the angels. Jesus was made lower for a time and is crowned because he died. He tasted death for everyone and calls those he saves his brothers. He shared flesh and blood to destroy the one who held death’s power. He became a merciful and faithful high priest.",
       "detail": "Chapter 1 placed the Son above the angels. Chapter 2 must explain why he was made lower and died (verse 9). Verse 14 says the children share flesh and blood, so he shared the same. Verse 17 says he had to be made like his brothers in all things. Verse 18 gives the result of that likeness. He himself suffered when tempted. So he is able to help those who are tempted.",
       "dateLabel": "Book order",
-      "uncertainty": "No exact location is assigned to unnamed or heavenly settings.",
+      "uncertainty": "The Jericho marker shows Tell es-Sultan. The map gives no location to heavenly or unnamed settings.",
       "sourceIds": [
         "web"
       ],
@@ -567,7 +595,7 @@
       "summary": "The writer calls Jesus the apostle and high priest of their confession. Moses was faithful in God’s house as a servant. Christ is faithful over the house as a Son, and believers are that house. The writer quotes a psalm that warns against hard hearts “today.” The fathers tested God in the wilderness for forty years. God swore they would not enter his rest. The readers must encourage one another daily. Those who left Egypt could not enter because of unbelief.",
       "detail": "The psalm quoted in verses 7–11 begins with the word “today.” It recalls a generation that heard God and hardened its heart. Verse 12 applies it: watch for an unbelieving heart among you. Verse 13 gives the remedy, and it is something they do for each other. They are to exhort one another day by day. The time limit is as long as it is called “today.” The danger named is being hardened by sin’s deceit.",
       "dateLabel": "Book order",
-      "uncertainty": "No exact location is assigned to unnamed or heavenly settings.",
+      "uncertainty": "The Jericho marker shows Tell es-Sultan. The map gives no location to heavenly or unnamed settings.",
       "sourceIds": [
         "web"
       ],
@@ -588,7 +616,7 @@
       "summary": "The writer says a promise of entering God’s rest still stands. The wilderness generation heard good news but did not join it with faith. God rested on the seventh day, and the psalm still says “today.” If Joshua had given them rest, God would not have spoken of another day. So a Sabbath rest remains for God’s people. God’s word is living and sharper than a two-edged sword. Nothing is hidden from him. Jesus the high priest was tempted in every way, yet without sin.",
       "detail": "Verses 12–13 say God’s word judges the heart and nothing is hidden. That could make a reader afraid to come near. Verses 14–15 give the other fact: a high priest who knows weakness. He was tempted in every way as they are, yet without sin. Verse 16 draws the result with “therefore.” They may come boldly to a throne that is called a throne of grace. What they find there is mercy and grace for help in time of need.",
       "dateLabel": "Book order",
-      "uncertainty": "No exact location is assigned to unnamed or heavenly settings.",
+      "uncertainty": "The Jericho marker shows Tell es-Sultan. The map gives no location to heavenly or unnamed settings.",
       "sourceIds": [
         "web"
       ],
@@ -609,7 +637,7 @@
       "summary": "Every high priest is chosen from among men to offer gifts and sacrifices. He can deal gently with the ignorant because he is weak himself. No one takes this honor; God calls him, as he called Aaron. Christ also did not glorify himself. God named him a priest forever after the order of Melchizedek. In his days of flesh he prayed with loud cries and tears. He learned obedience through what he suffered. The writer says the readers are slow to hear and still need milk.",
       "detail": "Verse 10 names Melchizedek, and verse 11 stops. The writer says there is much to say, and the readers are dull of hearing. Verse 12 says they should be teachers by now and still need first lessons. Milk is for infants (verse 13). Verse 14 says who can take solid food: the full grown. It also says how they got there: by use. Their senses are trained by practice to tell good from evil.",
       "dateLabel": "Book order",
-      "uncertainty": "No exact location is assigned to unnamed or heavenly settings.",
+      "uncertainty": "The Jericho marker shows Tell es-Sultan. The map gives no location to heavenly or unnamed settings.",
       "sourceIds": [
         "web"
       ],
@@ -630,7 +658,7 @@
       "summary": "The writer urges the readers to go on to maturity. He warns that those who fall away after enlightenment cannot be renewed. Land that drinks rain and bears thorns is burned. Yet he is persuaded of better things for these readers. God will not forget their work and their love in serving the saints. They should imitate those who inherit the promises through faith and patience. God swore to Abraham by himself. That oath gives strong encouragement and a hope like an anchor.",
       "detail": "Verses 4–8 give a severe warning. Verse 9 turns at once: the writer expects better of these readers. Verses 13–17 base that confidence on God’s oath to Abraham. Verse 18 names two unchangeable things, the promise and the oath. Verse 19 calls the resulting hope an anchor, sure and steadfast. The anchor holds inside the veil. Verse 20 explains why it holds: Jesus has entered there ahead of us.",
       "dateLabel": "Book order",
-      "uncertainty": "No exact location is assigned to unnamed or heavenly settings.",
+      "uncertainty": "The Jericho marker shows Tell es-Sultan. The map gives no location to heavenly or unnamed settings.",
       "sourceIds": [
         "web"
       ],
@@ -649,7 +677,7 @@
       "summary": "Melchizedek was king of Salem and priest of God Most High. He met Abraham, blessed him, and received a tenth from him. Scripture gives him no father, mother, or end of days. The writer argues that he is greater than Abraham and so than Levi. If the Levitical priesthood had brought perfection, no other priest would be needed. Jesus came from Judah and is priest by the power of an endless life. God swore that he is a priest forever. The former priests died, but he holds his priesthood permanently.",
       "detail": "Verse 23 states a limit of the old priesthood: there were many priests. Death kept each from continuing. Verse 24 says Jesus lives forever, so his priesthood does not pass on. Verse 25 draws the result with “therefore.” He can save completely those who come to God through him. The reason is repeated: he always lives. His living has a purpose in the verse, to make intercession for them.",
       "dateLabel": "Book order",
-      "uncertainty": "No exact location is assigned to unnamed or heavenly settings.",
+      "uncertainty": "The Jericho marker shows Tell es-Sultan. The map gives no location to heavenly or unnamed settings.",
       "sourceIds": [
         "web"
       ],
@@ -670,7 +698,7 @@
       "summary": "The writer gives the main point: we have a high priest seated in heaven. He serves in the true tabernacle, which the Lord set up. Priests on earth serve a copy and shadow of heavenly things. Moses was told to make everything by the pattern shown on the mountain. Jesus is mediator of a better covenant with better promises. The writer quotes Jeremiah on a new covenant with Israel and Judah. God will write his laws on hearts and remember sins no more. By saying “new,” God has made the first covenant old.",
       "detail": "Verse 7 says a faultless first covenant would need no second. Verse 8 places the fault with the people, and then quotes Jeremiah. Verse 9 says the fathers did not continue in the earlier covenant. Verse 10 gives the difference in the new one. God puts his laws into the mind and writes them on the heart. The promise is made to “the house of Israel.” It ends: “I will be their God, and they will be my people.”",
       "dateLabel": "Book order",
-      "uncertainty": "No exact location is assigned to unnamed or heavenly settings.",
+      "uncertainty": "The Jericho marker shows Tell es-Sultan. The map gives no location to heavenly or unnamed settings.",
       "sourceIds": [
         "web"
       ],
@@ -691,7 +719,7 @@
       "summary": "The writer describes the tabernacle: lampstand, table, and the Holy of Holies. Priests entered the outer room daily. Only the high priest entered the inner room, once a year, with blood. The Spirit showed by this that the way in was not yet open. Christ entered the greater tabernacle once, with his own blood. A will takes effect at death, and the first covenant began with blood. Without shedding of blood there is no forgiveness. Christ appeared once to put away sin and will appear again to save.",
       "detail": "Verses 9–10 say the old gifts could not perfect the worshiper’s conscience. They dealt with food, drink, and washings of the body. Verse 13 grants that animal blood cleansed the flesh. Verse 14 argues from the lesser to the greater with “how much more.” Christ offered himself, without defect, through the eternal Spirit. That offering reaches the conscience and cleanses it from dead works. The purpose is stated last: to serve the living God.",
       "dateLabel": "Book order",
-      "uncertainty": "No exact location is assigned to unnamed or heavenly settings.",
+      "uncertainty": "The Jericho marker shows Tell es-Sultan. The map gives no location to heavenly or unnamed settings.",
       "sourceIds": [
         "web"
       ],
@@ -712,7 +740,7 @@
       "summary": "The law has a shadow of good things and repeats the same sacrifices each year. The blood of bulls and goats cannot take away sins. Christ came to do God’s will and offered his body once for all. Priests stand daily, but he sat down after one sacrifice. So believers may enter the holy place by the blood of Jesus. They should hold fast their hope and not give up meeting together. The writer warns of judgment for those who sin willfully after knowing the truth. He reminds them how they endured loss with joy.",
       "detail": "Verses 19–21 state what they have: boldness to enter and a great priest. Three “let’s” commands follow. Draw near (verse 22), hold fast hope (verse 23), and consider one another (verse 24). The third turns attention from one’s own access to other people. They are to stir each other to love and good works. Verse 25 says how: by not giving up their meetings and by encouraging. The warning in verses 26–31 shows what withdrawal risks.",
       "dateLabel": "Book order",
-      "uncertainty": "No exact location is assigned to unnamed or heavenly settings.",
+      "uncertainty": "The Jericho marker shows Tell es-Sultan. The map gives no location to heavenly or unnamed settings.",
       "sourceIds": [
         "web"
       ],
@@ -733,7 +761,7 @@
       "summary": "Faith is assurance of things hoped for and proof of things not seen. By faith Abel offered, Enoch pleased God, and Noah built an ark. Abraham left for an unknown land, and Sarah received power to conceive. They died without receiving the promises and looked for a heavenly country. Abraham offered Isaac, and Moses chose mistreatment with God’s people. The walls of Jericho fell, and Rahab was spared. Some conquered kingdoms and escaped the sword. Others were tortured, stoned, sawn apart, and went about destitute.",
       "detail": "The chapter lists two kinds of outcome. Verses 33–35 name those who shut lions’ mouths and escaped the sword. Verses 35–38 name those who were tortured, stoned, and killed. Verse 39 puts both groups under one statement. All were commended for their faith, and none received the promise. Verse 13 said the same of Abraham’s family: they saw it from afar. Verse 40 gives the reason: they are not made perfect apart from us.",
       "dateLabel": "Book order",
-      "uncertainty": "No exact location is assigned to unnamed or heavenly settings.",
+      "uncertainty": "The Jericho marker shows Tell es-Sultan. The map gives no location to heavenly or unnamed settings.",
       "sourceIds": [
         "web",
         "foskett-hebrews"
@@ -758,7 +786,7 @@
       "summary": "The writer pictures a race with a great cloud of witnesses around it. The readers should lay aside every weight and run with endurance. They should look to Jesus, who endured the cross. They have not yet resisted to blood. The Lord disciplines those he loves, as a father does his sons. So they should lift tired hands and make straight paths for the lame. They should pursue peace and not sell their birthright as Esau did. They have come to Mount Zion and receive a kingdom that cannot be shaken.",
       "detail": "Verse 1 calls for endurance in a race already marked out. Verse 2 tells the runners where to look. Jesus is called the author and perfecter of faith. The verse then gives his own race in three steps. He endured the cross, despised its shame, and sat down beside God’s throne. What carried him was “the joy that was set before him.” Verse 3 states the use: consider him, so that you do not grow weary.",
       "dateLabel": "Book order",
-      "uncertainty": "No exact location is assigned to unnamed or heavenly settings.",
+      "uncertainty": "The Jericho marker shows Tell es-Sultan. The map gives no location to heavenly or unnamed settings.",
       "sourceIds": [
         "web"
       ],
@@ -777,7 +805,7 @@
       "summary": "The writer gives closing directions. Let brotherly love continue, and do not forget hospitality to strangers. Remember prisoners as if bound with them. Honor marriage, and be free from the love of money. Remember your leaders, for Jesus Christ is the same yesterday, today, and forever. Jesus suffered outside the gate, so the readers should go out to him. They are to offer praise and to share. The writer asks for prayer, mentions Timothy’s release, and sends greetings from Italy.",
       "detail": "The letter argued that Christ’s one offering ended sacrifices for sin (10:12, 18). Chapter 13 says what offerings remain. Verse 15 names the first: praise, the fruit of lips. Verse 16 names the second: doing good and sharing. Both are called sacrifices, and God is pleased with them. The earlier verses give the forms sharing takes. They are hospitality (verse 2) and care for prisoners (verse 3).",
       "dateLabel": "Book order",
-      "uncertainty": "No exact location is assigned to unnamed or heavenly settings.",
+      "uncertainty": "The Jericho marker shows Tell es-Sultan. The map gives no location to heavenly or unnamed settings.",
       "sourceIds": [
         "web"
       ],
@@ -794,8 +822,8 @@
       "name": "Jericho",
       "lat": 31.871,
       "lng": 35.444,
-      "summary": "Jericho is recalled in the account of the walls falling after repeated circling.",
-      "limits": "The site marker does not establish the date or cause of the narrated destruction.",
+      "summary": "The writer names Jericho in chapter 11. By faith its walls fell after they had been encircled for seven days. Rahab the prostitute, who received the spies, did not perish.",
+      "limits": "The marker shows Tell es-Sultan. It does not give the date or cause of the walls’ fall.",
       "sourceIds": [
         "web",
         "atlas-canaan"
@@ -808,15 +836,63 @@
           30
         ]
       },
-      "detail": "Jericho is recalled in the account of the walls falling after repeated circling.",
-      "uncertainty": "The site marker does not establish the date or cause of the narrated destruction.",
-      "chapterLocation": true
+      "detail": "The writer names Jericho in chapter 11. By faith its walls fell after they had been encircled for seven days. Rahab the prostitute, who received the spies, did not perish.",
+      "uncertainty": "The marker shows Tell es-Sultan. It does not give the date or cause of the walls’ fall.",
+      "chapterLocation": true,
+      "word": {
+        "language": "greek",
+        "strongId": "G2410",
+        "key": "Jericho",
+        "checkedVerses": 1,
+        "example": [
+          11,
+          30
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Ἱεριχώ",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Hierichṓ"
+      }
     }
   ],
   "campaigns": [],
   "ancientRoads": [],
   "regions": [],
   "words": [
+    {
+      "id": "glossary-levites-7-G3020-levitical",
+      "label": "Levites",
+      "matches": [
+        "Levitical"
+      ],
+      "chapter": 7,
+      "verses": [
+        11
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "Λευϊτικός",
+      "greekNote": "",
+      "meaning": "Members of the tribe of Levi. They cared for the tabernacle and later the temple. The priests came from one Levite family, Aaron’s.",
+      "grammar": "This is the dictionary form of Greek word G3020. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G3020",
+      "language": "greek",
+      "greekTransliteration": "Leuïtikós",
+      "chapterDefault": true
+    },
     {
       "id": "glossary-levites",
       "label": "Levites",
@@ -838,7 +914,37 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "greek"
+    },
+    {
+      "id": "glossary-ark-9-G2787-ark",
+      "label": "Ark",
+      "matches": [
+        "ark"
+      ],
+      "chapter": 9,
+      "verses": [
+        4
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "κιβωτός",
+      "greekNote": "",
+      "meaning": "A chest or a boat. In Genesis it is Noah’s boat. Later it is the gold-covered chest that held the covenant tablets.",
+      "grammar": "This is the dictionary form of Greek word G2787. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G2787",
+      "language": "greek",
+      "greekTransliteration": "kibōtós",
+      "chapterDefault": true
     },
     {
       "id": "glossary-ark",
@@ -859,7 +965,188 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "greek"
+    },
+    {
+      "id": "glossary-covenant-7-G1242-covenant",
+      "label": "Covenant",
+      "matches": [
+        "covenant"
+      ],
+      "chapter": 7,
+      "verses": [
+        22
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "διαθήκη",
+      "greekNote": "",
+      "meaning": "A binding agreement with promises and duties. In the Bible, God makes covenants with people.",
+      "grammar": "This is the dictionary form of Greek word G1242. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G1242",
+      "language": "greek",
+      "greekTransliteration": "diathḗkē",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-covenant-8-G1242-covenant",
+      "label": "Covenant",
+      "matches": [
+        "covenant"
+      ],
+      "chapter": 8,
+      "verses": [
+        6,
+        8,
+        9,
+        10
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "διαθήκη",
+      "greekNote": "",
+      "meaning": "A binding agreement with promises and duties. In the Bible, God makes covenants with people.",
+      "grammar": "This is the dictionary form of Greek word G1242. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G1242",
+      "language": "greek",
+      "greekTransliteration": "diathḗkē",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-covenant-9-G1242-covenant",
+      "label": "Covenant",
+      "matches": [
+        "covenant"
+      ],
+      "chapter": 9,
+      "verses": [
+        4,
+        15,
+        20
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "διαθήκη",
+      "greekNote": "",
+      "meaning": "A binding agreement with promises and duties. In the Bible, God makes covenants with people.",
+      "grammar": "This is the dictionary form of Greek word G1242. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G1242",
+      "language": "greek",
+      "greekTransliteration": "diathḗkē",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-covenant-10-G1242-covenant",
+      "label": "Covenant",
+      "matches": [
+        "covenant"
+      ],
+      "chapter": 10,
+      "verses": [
+        16,
+        29
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "διαθήκη",
+      "greekNote": "",
+      "meaning": "A binding agreement with promises and duties. In the Bible, God makes covenants with people.",
+      "grammar": "This is the dictionary form of Greek word G1242. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G1242",
+      "language": "greek",
+      "greekTransliteration": "diathḗkē",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-covenant-12-G1242-covenant",
+      "label": "Covenant",
+      "matches": [
+        "covenant"
+      ],
+      "chapter": 12,
+      "verses": [
+        24
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "διαθήκη",
+      "greekNote": "",
+      "meaning": "A binding agreement with promises and duties. In the Bible, God makes covenants with people.",
+      "grammar": "This is the dictionary form of Greek word G1242. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G1242",
+      "language": "greek",
+      "greekTransliteration": "diathḗkē",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-covenant-13-G1242-covenant",
+      "label": "Covenant",
+      "matches": [
+        "covenant"
+      ],
+      "chapter": 13,
+      "verses": [
+        20
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "διαθήκη",
+      "greekNote": "",
+      "meaning": "A binding agreement with promises and duties. In the Bible, God makes covenants with people.",
+      "grammar": "This is the dictionary form of Greek word G1242. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G1242",
+      "language": "greek",
+      "greekTransliteration": "diathḗkē",
+      "chapterDefault": true
     },
     {
       "id": "glossary-covenant",
@@ -881,7 +1168,8 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "greek"
     },
     {
       "id": "glossary-sabbath",
@@ -903,7 +1191,37 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "greek"
+    },
+    {
+      "id": "glossary-apostles-3-G652-apostle",
+      "label": "Apostles",
+      "matches": [
+        "apostle"
+      ],
+      "chapter": 3,
+      "verses": [
+        1
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "ἀπόστολος",
+      "greekNote": "",
+      "meaning": "People sent out with a message. In the Gospels the word names twelve whom Jesus chose.",
+      "grammar": "This is the dictionary form of Greek word G652. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G652",
+      "language": "greek",
+      "greekTransliteration": "apóstolos",
+      "chapterDefault": true
     },
     {
       "id": "glossary-apostles",
@@ -925,7 +1243,66 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "greek"
+    },
+    {
+      "id": "glossary-saints-6-G40-saints",
+      "label": "Saints",
+      "matches": [
+        "saints"
+      ],
+      "chapter": 6,
+      "verses": [
+        10
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "ἅγιος",
+      "greekNote": "",
+      "meaning": "People set apart as holy. In the letters the word means the believers in a place.",
+      "grammar": "This is the dictionary form of Greek word G40. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G40",
+      "language": "greek",
+      "greekTransliteration": "hágios",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-saints-13-G40-saints",
+      "label": "Saints",
+      "matches": [
+        "saints"
+      ],
+      "chapter": 13,
+      "verses": [
+        24
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "ἅγιος",
+      "greekNote": "",
+      "meaning": "People set apart as holy. In the letters the word means the believers in a place.",
+      "grammar": "This is the dictionary form of Greek word G40. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G40",
+      "language": "greek",
+      "greekTransliteration": "hágios",
+      "chapterDefault": true
     },
     {
       "id": "glossary-saints",
@@ -946,7 +1323,37 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "greek"
+    },
+    {
+      "id": "glossary-assembly-12-G1577-assembly",
+      "label": "Assembly",
+      "matches": [
+        "assembly"
+      ],
+      "chapter": 12,
+      "verses": [
+        23
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "ἐκκλησία",
+      "greekNote": "",
+      "meaning": "A gathering of people. In the New Testament letters it means a group of believers. Many translations say “church.”",
+      "grammar": "This is the dictionary form of Greek word G1577. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G1577",
+      "language": "greek",
+      "greekTransliteration": "ekklēsía",
+      "chapterDefault": true
     },
     {
       "id": "glossary-assembly",
@@ -968,7 +1375,101 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "greek"
+    },
+    {
+      "id": "glossary-tabernacle-8-G4633-tabernacle",
+      "label": "Tabernacle",
+      "matches": [
+        "tabernacle"
+      ],
+      "chapter": 8,
+      "verses": [
+        2,
+        5
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "σκηνή",
+      "greekNote": "",
+      "meaning": "The tent sanctuary Israel carried in the wilderness. Exodus 25–40 describes it.",
+      "grammar": "This is the dictionary form of Greek word G4633. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G4633",
+      "language": "greek",
+      "greekTransliteration": "skēnḗ",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-tabernacle-9-G4633-tabernacle",
+      "label": "Tabernacle",
+      "matches": [
+        "tabernacle"
+      ],
+      "chapter": 9,
+      "verses": [
+        2,
+        3,
+        6,
+        8,
+        11,
+        21
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "σκηνή",
+      "greekNote": "",
+      "meaning": "The tent sanctuary Israel carried in the wilderness. Exodus 25–40 describes it.",
+      "grammar": "This is the dictionary form of Greek word G4633. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G4633",
+      "language": "greek",
+      "greekTransliteration": "skēnḗ",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-tabernacle-13-G4633-tabernacle",
+      "label": "Tabernacle",
+      "matches": [
+        "tabernacle"
+      ],
+      "chapter": 13,
+      "verses": [
+        10
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "σκηνή",
+      "greekNote": "",
+      "meaning": "The tent sanctuary Israel carried in the wilderness. Exodus 25–40 describes it.",
+      "grammar": "This is the dictionary form of Greek word G4633. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G4633",
+      "language": "greek",
+      "greekTransliteration": "skēnḗ",
+      "chapterDefault": true
     },
     {
       "id": "glossary-tabernacle",
@@ -989,7 +1490,37 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "greek"
+    },
+    {
+      "id": "glossary-passover-11-G3957-passover",
+      "label": "Passover",
+      "matches": [
+        "Passover"
+      ],
+      "chapter": 11,
+      "verses": [
+        28
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "πάσχα",
+      "greekNote": "",
+      "meaning": "A yearly feast that recalls Israel’s escape from Egypt. Exodus 12 gives its first account.",
+      "grammar": "This is the dictionary form of Greek word G3957. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G3957",
+      "language": "greek",
+      "greekTransliteration": "páscha",
+      "chapterDefault": true
     },
     {
       "id": "glossary-passover",
@@ -1010,7 +1541,37 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "greek"
+    },
+    {
+      "id": "glossary-atonement-2-G2433-atonement",
+      "label": "Atonement",
+      "matches": [
+        "atonement"
+      ],
+      "chapter": 2,
+      "verses": [
+        17
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "ἱλάσκομαι",
+      "greekNote": "",
+      "meaning": "The covering or removal of guilt, so that people and God are reconciled. Leviticus 16 describes a yearly day for it.",
+      "grammar": "This is the dictionary form of Greek word G2433. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G2433",
+      "language": "greek",
+      "greekTransliteration": "hiláskomai",
+      "chapterDefault": true
     },
     {
       "id": "glossary-atonement",
@@ -1031,7 +1592,95 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "greek"
+    },
+    {
+      "id": "glossary-tithe-7-G586-tithes",
+      "label": "Tithe",
+      "matches": [
+        "tithes"
+      ],
+      "chapter": 7,
+      "verses": [
+        5
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "ἀποδεκατόω",
+      "greekNote": "",
+      "meaning": "A tenth of produce or income given to God.",
+      "grammar": "This is the dictionary form of Greek word G586. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G586",
+      "language": "greek",
+      "greekTransliteration": "apodekatóō",
+      "chapterDefault": false
+    },
+    {
+      "id": "glossary-tithe-7-G1183-tithes",
+      "label": "Tithe",
+      "matches": [
+        "tithes"
+      ],
+      "chapter": 7,
+      "verses": [
+        6
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "δεκατόω",
+      "greekNote": "",
+      "meaning": "A tenth of produce or income given to God.",
+      "grammar": "This is the dictionary form of Greek word G1183. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G1183",
+      "language": "greek",
+      "greekTransliteration": "dekatóō",
+      "chapterDefault": false
+    },
+    {
+      "id": "glossary-tithe-7-G1181-tithes",
+      "label": "Tithe",
+      "matches": [
+        "tithes"
+      ],
+      "chapter": 7,
+      "verses": [
+        8
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "δεκάτη",
+      "greekNote": "",
+      "meaning": "A tenth of produce or income given to God.",
+      "grammar": "This is the dictionary form of Greek word G1181. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G1181",
+      "language": "greek",
+      "greekTransliteration": "dekátē",
+      "chapterDefault": false
     },
     {
       "id": "glossary-tithe",
@@ -1053,7 +1702,37 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "greek"
+    },
+    {
+      "id": "glossary-cherubim-9-G5502-cherubim",
+      "label": "Cherubim",
+      "matches": [
+        "cherubim"
+      ],
+      "chapter": 9,
+      "verses": [
+        5
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "χερουβίμ",
+      "greekNote": "",
+      "meaning": "Winged heavenly beings. Gold figures of them stood over the ark (Exodus 25:18–20).",
+      "grammar": "This is the dictionary form of Greek word G5502. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G5502",
+      "language": "greek",
+      "greekTransliteration": "cheroubím",
+      "chapterDefault": true
     },
     {
       "id": "glossary-cherubim",
@@ -1075,7 +1754,95 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "greek"
+    },
+    {
+      "id": "glossary-firstborn-1-G4416-firstborn",
+      "label": "Firstborn",
+      "matches": [
+        "firstborn"
+      ],
+      "chapter": 1,
+      "verses": [
+        6
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "πρωτότοκος",
+      "greekNote": "",
+      "meaning": "The oldest child. A firstborn son received a double share of the inheritance (Deuteronomy 21:17).",
+      "grammar": "This is the dictionary form of Greek word G4416. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G4416",
+      "language": "greek",
+      "greekTransliteration": "prōtótokos",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-firstborn-11-G4416-firstborn",
+      "label": "Firstborn",
+      "matches": [
+        "firstborn"
+      ],
+      "chapter": 11,
+      "verses": [
+        28
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "πρωτότοκος",
+      "greekNote": "",
+      "meaning": "The oldest child. A firstborn son received a double share of the inheritance (Deuteronomy 21:17).",
+      "grammar": "This is the dictionary form of Greek word G4416. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G4416",
+      "language": "greek",
+      "greekTransliteration": "prōtótokos",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-firstborn-12-G4416-firstborn",
+      "label": "Firstborn",
+      "matches": [
+        "firstborn"
+      ],
+      "chapter": 12,
+      "verses": [
+        23
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "πρωτότοκος",
+      "greekNote": "",
+      "meaning": "The oldest child. A firstborn son received a double share of the inheritance (Deuteronomy 21:17).",
+      "grammar": "This is the dictionary form of Greek word G4416. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G4416",
+      "language": "greek",
+      "greekTransliteration": "prōtótokos",
+      "chapterDefault": true
     },
     {
       "id": "glossary-firstborn",
@@ -1096,7 +1863,37 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "greek"
+    },
+    {
+      "id": "glossary-birthright-12-G4415-birthright",
+      "label": "Birthright",
+      "matches": [
+        "birthright"
+      ],
+      "chapter": 12,
+      "verses": [
+        16
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "πρωτοτόκια",
+      "greekNote": "",
+      "meaning": "The firstborn son’s right to the larger share of the inheritance.",
+      "grammar": "This is the dictionary form of Greek word G4415. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G4415",
+      "language": "greek",
+      "greekTransliteration": "prōtotókia",
+      "chapterDefault": true
     },
     {
       "id": "glossary-birthright",
@@ -1117,7 +1914,37 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "greek"
+    },
+    {
+      "id": "glossary-manna-9-G3131-manna",
+      "label": "Manna",
+      "matches": [
+        "manna"
+      ],
+      "chapter": 9,
+      "verses": [
+        4
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "μάννα",
+      "greekNote": "",
+      "meaning": "The food Israel gathered in the wilderness. Exodus 16 describes it.",
+      "grammar": "This is the dictionary form of Greek word G3131. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G3131",
+      "language": "greek",
+      "greekTransliteration": "mánna",
+      "chapterDefault": true
     },
     {
       "id": "glossary-manna",
@@ -1138,7 +1965,66 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "greek"
+    },
+    {
+      "id": "glossary-redeem-9-G3085-redemption",
+      "label": "Redeem",
+      "matches": [
+        "redemption"
+      ],
+      "chapter": 9,
+      "verses": [
+        12
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "λύτρωσις",
+      "greekNote": "",
+      "meaning": "To buy back a person or property. The word is also used for God’s rescue of people.",
+      "grammar": "This is the dictionary form of Greek word G3085. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G3085",
+      "language": "greek",
+      "greekTransliteration": "lýtrōsis",
+      "chapterDefault": false
+    },
+    {
+      "id": "glossary-redeem-9-G629-redemption",
+      "label": "Redeem",
+      "matches": [
+        "redemption"
+      ],
+      "chapter": 9,
+      "verses": [
+        15
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "ἀπολύτρωσις",
+      "greekNote": "",
+      "meaning": "To buy back a person or property. The word is also used for God’s rescue of people.",
+      "grammar": "This is the dictionary form of Greek word G629. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G629",
+      "language": "greek",
+      "greekTransliteration": "apolýtrōsis",
+      "chapterDefault": false
     },
     {
       "id": "glossary-redeem",
@@ -1163,7 +2049,37 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "greek"
+    },
+    {
+      "id": "glossary-anoint-1-G5548-anointed",
+      "label": "Anoint",
+      "matches": [
+        "anointed"
+      ],
+      "chapter": 1,
+      "verses": [
+        9
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "χρίω",
+      "greekNote": "",
+      "meaning": "To pour oil on a person or thing to set it apart. Kings and priests were anointed.",
+      "grammar": "This is the dictionary form of Greek word G5548. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G5548",
+      "language": "greek",
+      "greekTransliteration": "chríō",
+      "chapterDefault": true
     },
     {
       "id": "glossary-anoint",
@@ -1187,7 +2103,37 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "greek"
+    },
+    {
+      "id": "glossary-zion-12-G4622-zion",
+      "label": "Zion",
+      "matches": [
+        "Zion"
+      ],
+      "chapter": 12,
+      "verses": [
+        22
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "Σιών",
+      "greekNote": "",
+      "meaning": "A hill in Jerusalem. The name is also used for the city and its people.",
+      "grammar": "This is the dictionary form of Greek word G4622. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G4622",
+      "language": "greek",
+      "greekTransliteration": "Siṓn",
+      "chapterDefault": true
     },
     {
       "id": "glossary-zion",
@@ -1208,7 +2154,8 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "greek"
     }
   ],
   "guides": [
@@ -1289,9 +2236,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "No exact location is assigned to unnamed or heavenly settings.",
+      "note": "The Jericho marker shows Tell es-Sultan. The map gives no location to heavenly or unnamed settings.",
       "narrative": "The writer says God spoke long ago through the prophets and now through a Son. The Son is heir of all things, and through him God made the worlds. He is the radiance of God’s glory and upholds all things. After making purification for sins he sat down at God’s right hand. He is as much greater than the angels as his name is greater. The writer quotes a chain of Scriptures to show it. God calls him Son, and the angels are told to worship him. Angels are serving spirits sent to help those who will inherit salvation.",
-      "limits": "No exact location is assigned to unnamed or heavenly settings.",
+      "limits": "The Jericho marker shows Tell es-Sultan. The map gives no location to heavenly or unnamed settings.",
       "sourceIds": [
         "web"
       ]
@@ -1305,9 +2252,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "No exact location is assigned to unnamed or heavenly settings.",
+      "note": "The Jericho marker shows Tell es-Sultan. The map gives no location to heavenly or unnamed settings.",
       "narrative": "The writer warns the readers not to drift from what they heard. The message spoken through angels was binding, and this salvation is greater. God did not put the coming world under angels. The writer quotes a psalm about man, made a little lower than the angels. Jesus was made lower for a time and is crowned because he died. He tasted death for everyone and calls those he saves his brothers. He shared flesh and blood to destroy the one who held death’s power. He became a merciful and faithful high priest.",
-      "limits": "No exact location is assigned to unnamed or heavenly settings.",
+      "limits": "The Jericho marker shows Tell es-Sultan. The map gives no location to heavenly or unnamed settings.",
       "sourceIds": [
         "web"
       ]
@@ -1321,9 +2268,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "No exact location is assigned to unnamed or heavenly settings.",
+      "note": "The Jericho marker shows Tell es-Sultan. The map gives no location to heavenly or unnamed settings.",
       "narrative": "The writer calls Jesus the apostle and high priest of their confession. Moses was faithful in God’s house as a servant. Christ is faithful over the house as a Son, and believers are that house. The writer quotes a psalm that warns against hard hearts “today.” The fathers tested God in the wilderness for forty years. God swore they would not enter his rest. The readers must encourage one another daily. Those who left Egypt could not enter because of unbelief.",
-      "limits": "No exact location is assigned to unnamed or heavenly settings.",
+      "limits": "The Jericho marker shows Tell es-Sultan. The map gives no location to heavenly or unnamed settings.",
       "sourceIds": [
         "web"
       ]
@@ -1337,9 +2284,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "No exact location is assigned to unnamed or heavenly settings.",
+      "note": "The Jericho marker shows Tell es-Sultan. The map gives no location to heavenly or unnamed settings.",
       "narrative": "The writer says a promise of entering God’s rest still stands. The wilderness generation heard good news but did not join it with faith. God rested on the seventh day, and the psalm still says “today.” If Joshua had given them rest, God would not have spoken of another day. So a Sabbath rest remains for God’s people. God’s word is living and sharper than a two-edged sword. Nothing is hidden from him. Jesus the high priest was tempted in every way, yet without sin.",
-      "limits": "No exact location is assigned to unnamed or heavenly settings.",
+      "limits": "The Jericho marker shows Tell es-Sultan. The map gives no location to heavenly or unnamed settings.",
       "sourceIds": [
         "web"
       ]
@@ -1353,9 +2300,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "No exact location is assigned to unnamed or heavenly settings.",
+      "note": "The Jericho marker shows Tell es-Sultan. The map gives no location to heavenly or unnamed settings.",
       "narrative": "Every high priest is chosen from among men to offer gifts and sacrifices. He can deal gently with the ignorant because he is weak himself. No one takes this honor; God calls him, as he called Aaron. Christ also did not glorify himself. God named him a priest forever after the order of Melchizedek. In his days of flesh he prayed with loud cries and tears. He learned obedience through what he suffered. The writer says the readers are slow to hear and still need milk.",
-      "limits": "No exact location is assigned to unnamed or heavenly settings.",
+      "limits": "The Jericho marker shows Tell es-Sultan. The map gives no location to heavenly or unnamed settings.",
       "sourceIds": [
         "web"
       ]
@@ -1369,9 +2316,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "No exact location is assigned to unnamed or heavenly settings.",
+      "note": "The Jericho marker shows Tell es-Sultan. The map gives no location to heavenly or unnamed settings.",
       "narrative": "The writer urges the readers to go on to maturity. He warns that those who fall away after enlightenment cannot be renewed. Land that drinks rain and bears thorns is burned. Yet he is persuaded of better things for these readers. God will not forget their work and their love in serving the saints. They should imitate those who inherit the promises through faith and patience. God swore to Abraham by himself. That oath gives strong encouragement and a hope like an anchor.",
-      "limits": "No exact location is assigned to unnamed or heavenly settings.",
+      "limits": "The Jericho marker shows Tell es-Sultan. The map gives no location to heavenly or unnamed settings.",
       "sourceIds": [
         "web"
       ]
@@ -1385,9 +2332,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "No exact location is assigned to unnamed or heavenly settings.",
+      "note": "The Jericho marker shows Tell es-Sultan. The map gives no location to heavenly or unnamed settings.",
       "narrative": "Melchizedek was king of Salem and priest of God Most High. He met Abraham, blessed him, and received a tenth from him. Scripture gives him no father, mother, or end of days. The writer argues that he is greater than Abraham and so than Levi. If the Levitical priesthood had brought perfection, no other priest would be needed. Jesus came from Judah and is priest by the power of an endless life. God swore that he is a priest forever. The former priests died, but he holds his priesthood permanently.",
-      "limits": "No exact location is assigned to unnamed or heavenly settings.",
+      "limits": "The Jericho marker shows Tell es-Sultan. The map gives no location to heavenly or unnamed settings.",
       "sourceIds": [
         "web"
       ]
@@ -1401,9 +2348,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "No exact location is assigned to unnamed or heavenly settings.",
+      "note": "The Jericho marker shows Tell es-Sultan. The map gives no location to heavenly or unnamed settings.",
       "narrative": "The writer gives the main point: we have a high priest seated in heaven. He serves in the true tabernacle, which the Lord set up. Priests on earth serve a copy and shadow of heavenly things. Moses was told to make everything by the pattern shown on the mountain. Jesus is mediator of a better covenant with better promises. The writer quotes Jeremiah on a new covenant with Israel and Judah. God will write his laws on hearts and remember sins no more. By saying “new,” God has made the first covenant old.",
-      "limits": "No exact location is assigned to unnamed or heavenly settings.",
+      "limits": "The Jericho marker shows Tell es-Sultan. The map gives no location to heavenly or unnamed settings.",
       "sourceIds": [
         "web"
       ]
@@ -1417,9 +2364,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "No exact location is assigned to unnamed or heavenly settings.",
+      "note": "The Jericho marker shows Tell es-Sultan. The map gives no location to heavenly or unnamed settings.",
       "narrative": "The writer describes the tabernacle: lampstand, table, and the Holy of Holies. Priests entered the outer room daily. Only the high priest entered the inner room, once a year, with blood. The Spirit showed by this that the way in was not yet open. Christ entered the greater tabernacle once, with his own blood. A will takes effect at death, and the first covenant began with blood. Without shedding of blood there is no forgiveness. Christ appeared once to put away sin and will appear again to save.",
-      "limits": "No exact location is assigned to unnamed or heavenly settings.",
+      "limits": "The Jericho marker shows Tell es-Sultan. The map gives no location to heavenly or unnamed settings.",
       "sourceIds": [
         "web"
       ]
@@ -1433,9 +2380,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "No exact location is assigned to unnamed or heavenly settings.",
+      "note": "The Jericho marker shows Tell es-Sultan. The map gives no location to heavenly or unnamed settings.",
       "narrative": "The law has a shadow of good things and repeats the same sacrifices each year. The blood of bulls and goats cannot take away sins. Christ came to do God’s will and offered his body once for all. Priests stand daily, but he sat down after one sacrifice. So believers may enter the holy place by the blood of Jesus. They should hold fast their hope and not give up meeting together. The writer warns of judgment for those who sin willfully after knowing the truth. He reminds them how they endured loss with joy.",
-      "limits": "No exact location is assigned to unnamed or heavenly settings.",
+      "limits": "The Jericho marker shows Tell es-Sultan. The map gives no location to heavenly or unnamed settings.",
       "sourceIds": [
         "web"
       ]
@@ -1453,9 +2400,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "No exact location is assigned to unnamed or heavenly settings.",
+      "note": "The Jericho marker shows Tell es-Sultan. The map gives no location to heavenly or unnamed settings.",
       "narrative": "Faith is assurance of things hoped for and proof of things not seen. By faith Abel offered, Enoch pleased God, and Noah built an ark. Abraham left for an unknown land, and Sarah received power to conceive. They died without receiving the promises and looked for a heavenly country. Abraham offered Isaac, and Moses chose mistreatment with God’s people. The walls of Jericho fell, and Rahab was spared. Some conquered kingdoms and escaped the sword. Others were tortured, stoned, sawn apart, and went about destitute.",
-      "limits": "No exact location is assigned to unnamed or heavenly settings.",
+      "limits": "The Jericho marker shows Tell es-Sultan. The map gives no location to heavenly or unnamed settings.",
       "sourceIds": [
         "web",
         "foskett-hebrews"
@@ -1470,9 +2417,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "No exact location is assigned to unnamed or heavenly settings.",
+      "note": "The Jericho marker shows Tell es-Sultan. The map gives no location to heavenly or unnamed settings.",
       "narrative": "The writer pictures a race with a great cloud of witnesses around it. The readers should lay aside every weight and run with endurance. They should look to Jesus, who endured the cross. They have not yet resisted to blood. The Lord disciplines those he loves, as a father does his sons. So they should lift tired hands and make straight paths for the lame. They should pursue peace and not sell their birthright as Esau did. They have come to Mount Zion and receive a kingdom that cannot be shaken.",
-      "limits": "No exact location is assigned to unnamed or heavenly settings.",
+      "limits": "The Jericho marker shows Tell es-Sultan. The map gives no location to heavenly or unnamed settings.",
       "sourceIds": [
         "web"
       ]
@@ -1486,9 +2433,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "No exact location is assigned to unnamed or heavenly settings.",
+      "note": "The Jericho marker shows Tell es-Sultan. The map gives no location to heavenly or unnamed settings.",
       "narrative": "The writer gives closing directions. Let brotherly love continue, and do not forget hospitality to strangers. Remember prisoners as if bound with them. Honor marriage, and be free from the love of money. Remember your leaders, for Jesus Christ is the same yesterday, today, and forever. Jesus suffered outside the gate, so the readers should go out to him. They are to offer praise and to share. The writer asks for prayer, mentions Timothy’s release, and sends greetings from Italy.",
-      "limits": "No exact location is assigned to unnamed or heavenly settings.",
+      "limits": "The Jericho marker shows Tell es-Sultan. The map gives no location to heavenly or unnamed settings.",
       "sourceIds": [
         "web"
       ]

@@ -324,9 +324,9 @@
       "eventOrder": 1,
       "dateLabel": "Book order",
       "historicalNote": "The opening asks elders to remember a disaster severe enough to teach future generations. Successive insects consume what earlier swarms leave, making loss seem impossible to escape. Missing grain and wine stop offerings and meals, joining farmers' grief with priestly mourning. The call to gather therefore answers a shared crisis rather than an isolated household failure. Animals also suffer because pasture and water disappear with the damaged crops. Their final appeal widens the human prayer to include the land's other living creatures.",
-      "mapNote": "The chapter names no specific place for the crop disaster.",
+      "mapNote": "The chapter names no place for the crop disaster.",
       "route": [],
-      "routeEvidence": "No military or visionary route is reconstructed.",
+      "routeEvidence": "The army and the gathering of nations are pictured in speech. The text gives no route.",
       "contextNote": {
         "title": "Destroyed crops bring every household into mourning",
         "text": "The locusts strike one group after another. Drinkers lose their wine (verse 5), and farmers lose their harvest (verse 11). Verse 9 says the offerings in God’s house have stopped. With no grain or wine there is nothing to bring. So the disaster reaches worship as well as food. Verse 14 treats it as a summons. Everyone must gather, fast, and cry to the LORD.",
@@ -360,9 +360,9 @@
       "eventOrder": 2,
       "dateLabel": "Book order",
       "historicalNote": "Army pictures turn the crop disaster into an overwhelming threat against homes and defenses. The trumpet then changes from a warning signal into a call for the whole people. Returning with the heart requires more than torn garments that display grief. Infants, elders, and newly married people must join the gathering because the crisis reaches everyone. Promised grain and rain answer earlier losses, while restored pasture includes the frightened animals. The later gift of God's Spirit crosses differences of age, sex, and household standing.",
-      "mapNote": "Selected city and region references appear as approximate markers. Visions do not establish traveled routes.",
+      "mapNote": "Markers show named places from the speeches. They do not show a route.",
       "route": [],
-      "routeEvidence": "No military or visionary route is reconstructed.",
+      "routeEvidence": "The army and the gathering of nations are pictured in speech. The text gives no route.",
       "contextNote": {
         "title": "An alarm becomes a call to gather and return",
         "text": "Tearing one’s clothes was a visible sign of grief. Verse 13 asks for the inward form of it. Its ground is God’s character, quoted from Exodus 34:6. Verse 14 adds “Who knows?” The people may hope, and they may not presume. Verse 16 calls everyone, even infants and a bride and groom. Peter quotes verses 28–32 in Acts 2:16–21.",
@@ -397,9 +397,9 @@
       "eventOrder": 3,
       "dateLabel": "Book order",
       "historicalNote": "The gathered nations face charges for dividing land and trading children for ordinary pleasures. These concrete exchanges explain the judgment as a response to harm against vulnerable people. The warning also threatens the traders' children with sale, preserving a disturbing pattern of repayment. Making weapons from farming tools draws the nations toward judgment rather than lasting victory. Harvest and winepress pictures then describe wickedness reaching its limit. Water and secure homes reverse the earlier ruined land while God remains among the people.",
-      "mapNote": "Selected city and region references appear as approximate markers. Visions do not establish traveled routes.",
+      "mapNote": "Markers show named places from the speeches. They do not show a route.",
       "route": [],
-      "routeEvidence": "No military or visionary route is reconstructed.",
+      "routeEvidence": "The army and the gathering of nations are pictured in speech. The text gives no route.",
       "contextNote": {
         "title": "Judgment answers the sale and scattering of people",
         "text": "The charge in verse 3 is the sale of children. A boy was traded for a night with a prostitute. A girl was sold for the price of a drink. The cheapness of the price shows how little their lives counted. Verses 6–8 add that Judah’s children were sold to distant peoples. The judgment answers in kind. Verse 10 reverses the hope of Isaiah 2:4, and plows become swords.",
@@ -414,10 +414,10 @@
     {
       "id": "joel",
       "name": "Joel",
-      "role": "Prophet who calls the people to gather during a crop disaster",
+      "role": "Prophet who calls the people to gather in a crop disaster",
       "relations": "The opening identifies him as Pethuel’s son.",
       "passages": "Joel 1–3",
-      "meaning": "His speeches connect shared grief with return, restoration, and judgment against those who trade people.",
+      "meaning": "Joel speaks to the elders and all who live in the land. He tells them to mourn the lost crops. He tells the priests to fast and to gather the people at the LORD’s house. He speaks the LORD’s promise of grain, new wine, and oil. He also speaks the charges against Tyre, Sidon, Egypt, and Edom.",
       "life": "Birth and death years are not securely known.",
       "sourceIds": [
         "web"
@@ -434,8 +434,8 @@
       "name": "Jerusalem",
       "lat": 31.778,
       "lng": 35.235,
-      "summary": "Jerusalem is the place named in promises of escape and God’s continued presence.",
-      "limits": "Approximate city or broad region reference. The valley of judgment and visionary water remain unmapped.",
+      "summary": "The LORD names Jerusalem in chapters 2 and 3. He says some will escape on Mount Zion and in Jerusalem. He says he will roar from Jerusalem. He promises that Jerusalem will be holy and full of people.",
+      "limits": "The marker shows the city. The text gives no exact spot for the valley of Jehoshaphat.",
       "sourceIds": [
         "web"
       ]
@@ -445,8 +445,8 @@
       "name": "Tyre",
       "lat": 33.27,
       "lng": 35.2,
-      "summary": "Tyre is addressed with charges about stolen treasures and the sale of captives.",
-      "limits": "Approximate city or broad region reference. The valley of judgment and visionary water remain unmapped.",
+      "summary": "In chapter 3 the LORD speaks to Tyre, Sidon, and Philistia. He says they took his silver and gold into their temples. He says they sold the children of Judah and Jerusalem to the Greeks.",
+      "limits": "The marker shows the city or its nearby region. The text gives no exact spot.",
       "sourceIds": [
         "web"
       ]
@@ -456,8 +456,8 @@
       "name": "Sidon",
       "lat": 33.56,
       "lng": 35.37,
-      "summary": "Sidon is addressed beside Tyre in the charges about trade in captives.",
-      "limits": "Approximate city or broad region reference. The valley of judgment and visionary water remain unmapped.",
+      "summary": "In chapter 3 the LORD speaks to Sidon together with Tyre and Philistia. He charges them with selling the children of Judah and Jerusalem. He says he will return the payment on their heads.",
+      "limits": "The marker shows the city or its nearby region. The text gives no exact spot.",
       "sourceIds": [
         "web"
       ]
@@ -467,8 +467,8 @@
       "name": "Egypt · broad region",
       "lat": 30.05,
       "lng": 31.23,
-      "summary": "Egypt receives a warning tied to violence against Judah.",
-      "limits": "Approximate city or broad region reference. The valley of judgment and visionary water remain unmapped.",
+      "summary": "At the end of chapter 3 the LORD says Egypt will become a desolation. He gives the reason: violence done to the children of Judah.",
+      "limits": "The marker shows the whole land of Egypt, not one site.",
       "sourceIds": [
         "web"
       ]
@@ -478,8 +478,8 @@
       "name": "Edom · broad region",
       "lat": 30.75,
       "lng": 35.55,
-      "summary": "Edom receives a warning tied to the shedding of innocent blood.",
-      "limits": "Approximate city or broad region reference. The valley of judgment and visionary water remain unmapped.",
+      "summary": "At the end of chapter 3 the LORD says Edom will become a desolate wilderness. He gives the reason: Edom shed innocent blood in Judah’s land.",
+      "limits": "The marker shows the broad land of Edom, not one site.",
       "sourceIds": [
         "web"
       ]
@@ -493,7 +493,7 @@
       "summary": "All three chapters appear in the reading text.",
       "category": "Scripture",
       "perspective": "historical",
-      "limits": "This edition has three chapters. No exact disaster date or modern fulfillment is assigned.",
+      "limits": "This edition has three chapters. It gives no exact date for the disaster and no modern fulfillment.",
       "author": "World English Bible translators",
       "publisher": "eBible.org",
       "chapterCoverage": [
@@ -513,7 +513,7 @@
       "summary": "Howard explains the shared gathering, the changed trumpet call, and hope in mercy.",
       "category": "Scholarly study",
       "perspective": "historical",
-      "limits": "The commentary interprets the locust disaster and the selected passage. It does not supply a certain date.",
+      "limits": "The commentary interprets the locust disaster and the selected passage. It gives no certain date.",
       "author": "Cameron B.R. Howard",
       "year": 2024,
       "publisher": "Luther Seminary",

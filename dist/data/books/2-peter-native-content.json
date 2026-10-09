@@ -4,10 +4,10 @@
       "id": "web",
       "title": "2 Peter · World English Bible",
       "url": "https://ebible.org/engwebp/2PE01.htm",
-      "summary": "Complete Scripture supplies the primary text for original close readings.",
+      "summary": "The full text of Second Peter is the main text for the close readings.",
       "category": "Scripture",
       "perspective": "historical",
-      "limits": "Peter is the named speaker. Historical authorship, dates, Greek forms, exact audience conditions, and the mountain's identity were not independently verified. The coming day has no calculated date. Sodom remains a disputed regional marker.",
+      "limits": "Peter is the named speaker. Authorship, dates, Greek forms, and the audience’s situation were not checked independently. The holy mountain’s identity was not checked either. The text gives no calculated date for the coming day. Sodom is only a marker for a disputed region.",
       "author": "World English Bible translators",
       "publisher": "eBible.org",
       "chapterCoverage": [
@@ -20,7 +20,7 @@
         "scope": "All 61 verses read for 3 original contextual explanations and exact selections. Surroundings, counts, and character integrity checked."
       },
       "type": "Scripture",
-      "limitations": "Peter is the named speaker. Historical authorship, dates, Greek forms, exact audience conditions, and the mountain's identity were not independently verified. The coming day has no calculated date. Sodom remains a disputed regional marker.",
+      "limitations": "Peter is the named speaker. Authorship, dates, Greek forms, and the audience’s situation were not checked independently. The holy mountain’s identity was not checked either. The text gives no calculated date for the coming day. Sodom is only a marker for a disputed region.",
       "license": "Public domain"
     },
     {
@@ -32,8 +32,8 @@
       "year": 2023,
       "category": "LDS Come, Follow Me",
       "perspective": "lds",
-      "summary": "The lesson connects growth in Christlike qualities with developing divine nature.",
-      "limits": "Only actual Second Peter chapter one discussion supports this reference. First Peter applications, linked talks, and Restoration texts do not extend coverage to other chapters.",
+      "summary": "The lesson links growth in Christlike qualities to sharing in the divine nature.",
+      "limits": "Only the lesson’s talk about Second Peter chapter 1 supports this reference. First Peter ideas, linked talks, and Restoration texts do not extend it to other chapters.",
       "chapterCoverage": [
         1
       ],
@@ -42,7 +42,7 @@
         "scope": "Complete lesson body and included resource excerpt read. Second Peter coverage follows the actual discussion of 1:1–11."
       },
       "type": "LDS Come, Follow Me",
-      "limitations": "Only actual Second Peter chapter one discussion supports this reference. First Peter applications, linked talks, and Restoration texts do not extend coverage to other chapters.",
+      "limitations": "Only the lesson’s talk about Second Peter chapter 1 supports this reference. First Peter ideas, linked talks, and Restoration texts do not extend it to other chapters.",
       "license": "Linked source. Original guide summaries."
     },
     {
@@ -54,8 +54,8 @@
       "year": 2011,
       "category": "Scholarly study",
       "perspective": "historical",
-      "summary": "Lange reads waiting as hope that changes present conduct.",
-      "limits": "This is Lange's interpretation. His historical authorship assertion, Greek comparisons, and wider historical claims were not independently verified. The guide assigns no exact date to the promised coming.",
+      "summary": "Lange reads waiting as hope that changes how people live now.",
+      "limits": "This is Lange’s own reading. His claim about the author was not checked independently. His Greek comparisons and wider historical claims were not checked either. The text gives no date for the promised coming.",
       "chapterCoverage": [
         3
       ],
@@ -64,7 +64,7 @@
         "scope": "Complete commentary body read. The guide attributes his connection between waiting, hope, and present conduct."
       },
       "type": "Scholarly study",
-      "limitations": "This is Lange's interpretation. His historical authorship assertion, Greek comparisons, and wider historical claims were not independently verified. The guide assigns no exact date to the promised coming.",
+      "limitations": "This is Lange’s own reading. His claim about the author was not checked independently. His Greek comparisons and wider historical claims were not checked either. The text gives no date for the promised coming.",
       "license": "Linked source. Original guide summaries."
     },
     {
@@ -73,10 +73,10 @@
       "perspective": "historical",
       "category": "Geography",
       "url": "https://www.churchofjesuschrist.org/study/scriptures/bible-maps/map-9?lang=eng",
-      "summary": "This Church-published atlas locates the wider setting and marks some disputed places.",
-      "limits": "Use the geographic labels as context. The linked atlas also includes LDS commentary.",
+      "summary": "This atlas from the Church shows the wider setting and marks some disputed places.",
+      "limits": "Treat the place labels as background. The linked atlas also has Latter-day Saint commentary.",
       "type": "Geography",
-      "limitations": "Use the geographic labels as context. The linked atlas also includes LDS commentary.",
+      "limitations": "Treat the place labels as background. The linked atlas also has Latter-day Saint commentary.",
       "license": "Linked source. Original guide summaries."
     },
     {
@@ -85,11 +85,39 @@
       "perspective": "historical",
       "category": "Geography",
       "url": "https://www.churchofjesuschrist.org/study/scriptures/bible-maps/map-10?lang=eng",
-      "summary": "This Church-published atlas identifies towns and regions in Canaan.",
-      "limits": "Coordinates are display estimates. A town marker does not verify each Genesis event.",
+      "summary": "This atlas from the Church shows towns and regions in Canaan.",
+      "limits": "The coordinates are estimates for display. A town marker does not prove each event in the text.",
       "type": "Geography",
-      "limitations": "Coordinates are display estimates. A town marker does not verify each Genesis event.",
+      "limitations": "The coordinates are estimates for display. A town marker does not prove each event in the text.",
       "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "strong-greek",
+      "title": "A Concise Dictionary of the Words in the Greek Testament",
+      "author": "James Strong · Open Scriptures XML edition",
+      "year": "1890 / digital edition",
+      "perspective": "historical",
+      "category": "Historical lexicon",
+      "url": "https://github.com/openscriptures/strongs",
+      "summary": "Lists Greek dictionary forms and their possible meanings. Use it with the passage to study a word.",
+      "limits": "This is an older dictionary. Compare its meanings with the passage. A list of meanings alone cannot show which one applies.",
+      "license": "Source XML declares Public Domain. Only selected headwords are used.",
+      "type": "Historical lexicon",
+      "limitations": "This is an older dictionary. Compare its meanings with the passage. A list of meanings alone cannot show which one applies."
+    },
+    {
+      "id": "byz",
+      "title": "The New Testament in the Original Greek: Byzantine Textform",
+      "author": "Maurice A. Robinson and William G. Pierpont",
+      "year": "2018 digital edition",
+      "perspective": "historical",
+      "category": "Greek text",
+      "url": "https://github.com/byztxt/byzantine-majority-text",
+      "summary": "Provides a Greek New Testament text with dictionary numbers. This study guide uses these to check selected words against their verses.",
+      "limits": "The app checks selected words, not every English–Greek match. It shows Greek dictionary forms. The forms in the verses can differ. Other Greek editions differ in some verses.",
+      "license": "Public domain.",
+      "type": "Greek text",
+      "limitations": "The app checks selected words, not every English–Greek match. It shows Greek dictionary forms. The forms in the verses can differ. Other Greek editions differ in some verses."
     }
   ],
   "passages": [
@@ -102,7 +130,7 @@
       "summary": "Simon Peter writes to those who share the same precious faith. God’s power has given them all they need for life and godliness. Through his promises they share in the divine nature. They are to add goodness, knowledge, self-control, endurance, godliness, affection, and love to faith. With these they will not be idle or unfruitful. Peter says he will soon put off his tent and wants them to remember. He was an eyewitness of Christ’s majesty on the holy mountain. Prophecy came as the Holy Spirit moved men, not by human will.",
       "year": null,
       "dateLabel": "Book order",
-      "uncertainty": "No exact location is assigned to unnamed or heavenly settings.",
+      "uncertainty": "The Sodom marker shows a disputed region, not a confirmed city.",
       "placeIds": [],
       "sourceIds": [
         "web"
@@ -131,7 +159,7 @@
       "summary": "Peter warns that false teachers will come among them, as false prophets did. In greed they will exploit the readers with made-up words. God did not spare the angels who sinned or the ancient world. He saved Noah and rescued Lot from Sodom. These teachers despise authority and are like unreasoning animals. They have followed the way of Balaam, who loved the wages of wrongdoing. They are springs without water. They promise freedom, and their last state is worse than the first.",
       "year": null,
       "dateLabel": "Book order",
-      "uncertainty": "No exact location is assigned to unnamed or heavenly settings.",
+      "uncertainty": "The Sodom marker shows a disputed region, not a confirmed city.",
       "placeIds": [
         "sodom"
       ],
@@ -160,7 +188,7 @@
       "summary": "Peter says this is his second letter and reminds them of the prophets’ words. Mockers will ask where the promise of his coming is. They forget that the world was once destroyed by water. The present heavens and earth are kept for fire. With the Lord one day is as a thousand years. The day of the Lord will come like a thief. They should live in holiness and look for new heavens and a new earth. Peter mentions Paul’s letters, which some twist.",
       "year": null,
       "dateLabel": "Book order",
-      "uncertainty": "No exact location is assigned to unnamed or heavenly settings.",
+      "uncertainty": "The Sodom marker shows a disputed region, not a confirmed city.",
       "placeIds": [],
       "sourceIds": [
         "web",
@@ -190,7 +218,7 @@
       "summary": "Simon Peter writes to those who share the same precious faith. God’s power has given them all they need for life and godliness. Through his promises they share in the divine nature. They are to add goodness, knowledge, self-control, endurance, godliness, affection, and love to faith. With these they will not be idle or unfruitful. Peter says he will soon put off his tent and wants them to remember. He was an eyewitness of Christ’s majesty on the holy mountain. Prophecy came as the Holy Spirit moved men, not by human will.",
       "detail": "Verses 3–4 say God has given everything needed and great promises. Verses 5–7 list what to add, from faith through to love. Verse 8 gives the result if these qualities are theirs and growing. They will not be idle or unfruitful in knowing the Lord Jesus Christ. Knowledge is meant to bear fruit. Verse 9 says one who lacks them is blind and forgets his cleansing. Verse 10 tells them to make their calling sure.",
       "dateLabel": "Book order",
-      "uncertainty": "No exact location is assigned to unnamed or heavenly settings.",
+      "uncertainty": "The Sodom marker shows a disputed region, not a confirmed city.",
       "sourceIds": [
         "web"
       ],
@@ -211,7 +239,7 @@
       "summary": "Peter warns that false teachers will come among them, as false prophets did. In greed they will exploit the readers with made-up words. God did not spare the angels who sinned or the ancient world. He saved Noah and rescued Lot from Sodom. These teachers despise authority and are like unreasoning animals. They have followed the way of Balaam, who loved the wages of wrongdoing. They are springs without water. They promise freedom, and their last state is worse than the first.",
       "detail": "Verse 18 says these teachers entice people who are just escaping from error. Verse 19 names the bait: a promise of liberty. It then names the teachers’ real condition: they are bondservants of corruption. The verse gives a general rule to prove it. A person is a slave of whatever overcomes him. Verses 20–22 apply it to those who return to the world’s defilements. Their last state is worse than the first.",
       "dateLabel": "Book order",
-      "uncertainty": "No exact location is assigned to unnamed or heavenly settings.",
+      "uncertainty": "The Sodom marker shows a disputed region, not a confirmed city.",
       "sourceIds": [
         "web"
       ],
@@ -232,7 +260,7 @@
       "summary": "Peter says this is his second letter and reminds them of the prophets’ words. Mockers will ask where the promise of his coming is. They forget that the world was once destroyed by water. The present heavens and earth are kept for fire. With the Lord one day is as a thousand years. The day of the Lord will come like a thief. They should live in holiness and look for new heavens and a new earth. Peter mentions Paul’s letters, which some twist.",
       "detail": "Verse 4 gives the mockers’ argument: nothing has changed since the fathers died. Verse 8 answers about time: a thousand years are as a day. Verse 9 answers about motive. The delay is not slowness; it is patience. God does not wish anyone to perish. He wants all to come to repentance. Verse 15 repeats it: count the Lord’s patience as salvation.",
       "dateLabel": "Book order",
-      "uncertainty": "No exact location is assigned to unnamed or heavenly settings.",
+      "uncertainty": "The Sodom marker shows a disputed region, not a confirmed city.",
       "sourceIds": [
         "web",
         "lange-peter"
@@ -250,8 +278,8 @@
       "name": "Sodom",
       "lat": 31.2,
       "lng": 35.5,
-      "summary": "The letter recalls Sodom's destruction beside Lot's rescue.",
-      "limits": "The site is disputed. This marker shows a region rather than a confirmed city.",
+      "summary": "Peter recalls Sodom and Gomorrah in chapter 2. God turned the cities to ashes as an example. He delivered righteous Lot from there.",
+      "limits": "The site is disputed. The marker shows a region, not a confirmed city.",
       "sourceIds": [
         "web",
         "atlas",
@@ -265,15 +293,92 @@
       "linkNames": [
         "Sodom"
       ],
-      "detail": "The letter recalls Sodom's destruction beside Lot's rescue.",
-      "uncertainty": "The site is disputed. This marker shows a region rather than a confirmed city.",
-      "chapterLocation": true
+      "detail": "Peter recalls Sodom and Gomorrah in chapter 2. God turned the cities to ashes as an example. He delivered righteous Lot from there.",
+      "uncertainty": "The site is disputed. The marker shows a region, not a confirmed city.",
+      "chapterLocation": true,
+      "word": {
+        "language": "greek",
+        "strongId": "G4670",
+        "key": "Sodom",
+        "checkedVerses": 1,
+        "example": [
+          2,
+          6
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Σόδομα",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Sódoma"
+      }
     }
   ],
   "campaigns": [],
   "ancientRoads": [],
   "regions": [],
   "words": [
+    {
+      "id": "glossary-apostles-3-G652-apostles",
+      "label": "Apostles",
+      "matches": [
+        "apostles"
+      ],
+      "chapter": 3,
+      "verses": [
+        2
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "ἀπόστολος",
+      "greekNote": "",
+      "meaning": "People sent out with a message. In the Gospels the word names twelve whom Jesus chose.",
+      "grammar": "This is the dictionary form of Greek word G652. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G652",
+      "language": "greek",
+      "greekTransliteration": "apóstolos",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-apostles-1-G652-apostle",
+      "label": "Apostles",
+      "matches": [
+        "apostle"
+      ],
+      "chapter": 1,
+      "verses": [
+        1
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "ἀπόστολος",
+      "greekNote": "",
+      "meaning": "People sent out with a message. In the Gospels the word names twelve whom Jesus chose.",
+      "grammar": "This is the dictionary form of Greek word G652. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G652",
+      "language": "greek",
+      "greekTransliteration": "apóstolos",
+      "chapterDefault": true
+    },
     {
       "id": "glossary-apostles",
       "label": "Apostles",
@@ -294,7 +399,37 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "greek"
+    },
+    {
+      "id": "glossary-bondservant-2-G1401-bondservants",
+      "label": "Bondservant",
+      "matches": [
+        "bondservants"
+      ],
+      "chapter": 2,
+      "verses": [
+        19
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "δοῦλος",
+      "greekNote": "",
+      "meaning": "A slave or bound servant.",
+      "grammar": "This is the dictionary form of Greek word G1401. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G1401",
+      "language": "greek",
+      "greekTransliteration": "doûlos",
+      "chapterDefault": true
     },
     {
       "id": "glossary-bondservant",
@@ -316,7 +451,8 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "greek"
     }
   ],
   "guides": [
@@ -388,9 +524,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "No exact location is assigned to unnamed or heavenly settings.",
+      "note": "The Sodom marker shows a disputed region, not a confirmed city.",
       "narrative": "Simon Peter writes to those who share the same precious faith. God’s power has given them all they need for life and godliness. Through his promises they share in the divine nature. They are to add goodness, knowledge, self-control, endurance, godliness, affection, and love to faith. With these they will not be idle or unfruitful. Peter says he will soon put off his tent and wants them to remember. He was an eyewitness of Christ’s majesty on the holy mountain. Prophecy came as the Holy Spirit moved men, not by human will.",
-      "limits": "No exact location is assigned to unnamed or heavenly settings.",
+      "limits": "The Sodom marker shows a disputed region, not a confirmed city.",
       "sourceIds": [
         "web"
       ]
@@ -408,9 +544,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "No exact location is assigned to unnamed or heavenly settings.",
+      "note": "The Sodom marker shows a disputed region, not a confirmed city.",
       "narrative": "Peter warns that false teachers will come among them, as false prophets did. In greed they will exploit the readers with made-up words. God did not spare the angels who sinned or the ancient world. He saved Noah and rescued Lot from Sodom. These teachers despise authority and are like unreasoning animals. They have followed the way of Balaam, who loved the wages of wrongdoing. They are springs without water. They promise freedom, and their last state is worse than the first.",
-      "limits": "No exact location is assigned to unnamed or heavenly settings.",
+      "limits": "The Sodom marker shows a disputed region, not a confirmed city.",
       "sourceIds": [
         "web"
       ]
@@ -424,9 +560,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "No exact location is assigned to unnamed or heavenly settings.",
+      "note": "The Sodom marker shows a disputed region, not a confirmed city.",
       "narrative": "Peter says this is his second letter and reminds them of the prophets’ words. Mockers will ask where the promise of his coming is. They forget that the world was once destroyed by water. The present heavens and earth are kept for fire. With the Lord one day is as a thousand years. The day of the Lord will come like a thief. They should live in holiness and look for new heavens and a new earth. Peter mentions Paul’s letters, which some twist.",
-      "limits": "No exact location is assigned to unnamed or heavenly settings.",
+      "limits": "The Sodom marker shows a disputed region, not a confirmed city.",
       "sourceIds": [
         "web",
         "lange-peter"

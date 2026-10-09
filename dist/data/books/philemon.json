@@ -134,9 +134,9 @@
       "eventOrder": 1,
       "dateLabel": "Book order",
       "historicalNote": "The household assembly shares the greeting, so the appeal reaches beyond a private exchange. Praise for Philemon's love prepares the request that he receive Onesimus as Paul's own heart. Paul chooses an appeal over a command, yet remembered obligation gives that appeal real pressure. His offer to carry any debt makes partnership costly rather than merely a friendly title. Pietz emphasizes changed relationships while recognizing that the letter does not clearly require legal freedom. The promised visit leaves Philemon facing continued accountability, while Onesimus's own response remains unrecorded.",
-      "mapNote": "No exact location is assigned to unnamed or heavenly settings.",
+      "mapNote": "The letter names no place, so the map shows no point.",
       "route": [],
-      "routeEvidence": "No exact travel route is reconstructed.",
+      "routeEvidence": "The letter gives no travel route.",
       "contextNote": {
         "title": "Receiving Onesimus as a brother tests love within an unequal relationship",
         "text": "Verse 8 says Paul could command Philemon and chooses to appeal. Verse 16 asks that Onesimus be received as a beloved brother. Verse 17 puts the request in terms of partnership. If Philemon counts Paul a partner, he must receive Onesimus as he would Paul. That puts the returning servant in the apostle’s place at the door. Verse 18 removes the money objection: Paul will pay what is owed. Verse 21 adds that Paul expects Philemon to do even more than he asks.",
@@ -151,10 +151,10 @@
     {
       "id": "paul",
       "name": "Paul",
-      "role": "Prisoner and letter speaker who appeals for Onesimus and offers to carry any debt",
+      "role": "Prisoner who writes to Philemon about Onesimus",
       "relations": "He names Timothy beside himself and asks Philemon to receive Onesimus as a partner.",
       "passages": "Philemon 1",
-      "meaning": "His appeal combines affection, remembered obligation, and material responsibility rather than a bare command.",
+      "meaning": "Paul writes from chains and calls himself aged. He chooses to appeal and not to command. He asks Philemon to receive Onesimus as he would receive Paul. He offers to repay anything Onesimus owes, and he signs this with his own hand.",
       "life": "Birth and death years are not securely known.",
       "sourceIds": [
         "web"
@@ -168,10 +168,10 @@
     {
       "id": "timothy",
       "name": "Timothy",
-      "role": "Worker named beside Paul in the opening greeting",
+      "role": "Brother named with Paul in the greeting",
       "relations": "Paul calls him a brother before addressing the household assembly.",
       "passages": "Philemon 1",
-      "meaning": "His named presence keeps the appeal within shared relationships.",
+      "meaning": "Paul names Timothy as a brother in the first line. Timothy sends the greeting with Paul. The letter says nothing else about him.",
       "life": "Birth and death years are not securely known.",
       "sourceIds": [
         "web"
@@ -185,10 +185,10 @@
     {
       "id": "jesus",
       "name": "Jesus Christ",
-      "role": "Lord whose grace and shared faith ground the appeal for Onesimus",
-      "relations": "Paul connects love, partnership, and the closing blessing with him.",
+      "role": "Lord named in the greetings, the thanks, and the blessing",
+      "relations": "Paul calls himself a prisoner of Christ Jesus. He ends with grace from the Lord Jesus Christ.",
       "passages": "Philemon 1",
-      "meaning": "Shared belonging supplies the reason to receive Onesimus as more than a bound worker.",
+      "meaning": "Paul gives thanks for Philemon’s faith toward the Lord Jesus. He asks that Onesimus be a beloved brother in the Lord. The letter ends with the grace of the Lord Jesus Christ.",
       "life": "Birth and death years are not securely known.",
       "sourceIds": [
         "web"
@@ -203,10 +203,10 @@
     {
       "id": "philemon",
       "name": "Philemon",
-      "role": "Addressed household host asked to receive Onesimus as a beloved brother",
+      "role": "Beloved fellow worker asked to receive Onesimus",
       "relations": "Paul praises his love and asks him to receive Onesimus as Paul himself.",
       "passages": "Philemon 1:1–22",
-      "meaning": "The appeal tests whether praised love can change conduct within an unequal relationship.",
+      "meaning": "Paul thanks Philemon for his love and for refreshing the saints. Then Paul asks him to receive Onesimus as a beloved brother. Paul wants Philemon to act by free will. Paul also asks him to prepare a guest room.",
       "life": "Birth and death years are not securely known.",
       "sourceIds": [
         "web"
@@ -220,10 +220,10 @@
     {
       "id": "onesimus",
       "name": "Onesimus",
-      "role": "Person sent back with an appeal for reception as a beloved brother",
+      "role": "Paul’s child, sent back to Philemon",
       "relations": "Paul calls him his child and own heart, and offers to carry any debt.",
       "passages": "Philemon 1:10–21",
-      "meaning": "His place makes partnership demand care for a person whose own response remains unrecorded.",
+      "meaning": "Paul became his father in chains. Paul calls him once useless and now useful. Paul sends him back to Philemon and asks Philemon to receive him as a brother. The letter does not say how Philemon answered.",
       "life": "Birth and death years are not securely known.",
       "sourceIds": [
         "web"
@@ -237,10 +237,10 @@
     {
       "id": "epaphras",
       "name": "Epaphras",
-      "role": "Fellow prisoner who sends a greeting beside the closing workers",
+      "role": "Fellow prisoner who sends greetings",
       "relations": "Paul names him before Mark, Aristarchus, Demas, and Luke.",
       "passages": "Philemon 1:23",
-      "meaning": "His greeting places imprisonment within a continuing network of shared work.",
+      "meaning": "Paul calls Epaphras his fellow prisoner in Christ Jesus. Epaphras sends greetings to Philemon. The letter says nothing else about him.",
       "life": "Birth and death years are not securely known.",
       "sourceIds": [
         "web"
@@ -258,10 +258,10 @@
       "id": "web",
       "title": "Philemon · World English Bible",
       "url": "https://ebible.org/engwebp/PHM01.htm",
-      "summary": "Complete Scripture supplies the primary text for original close readings.",
+      "summary": "The full Scripture text is the main text for original close readings.",
       "category": "Scripture",
       "perspective": "historical",
-      "limits": "Paul is the named letter speaker. Historical authorship, dates, Greek forms, manuscripts, the reason for separation, exact location, legal freedom, and the eventual response were not independently verified. Colossae and a prison city are not inferred.",
+      "limits": "Paul is the named writer. The guide did not check authorship, dates, Greek forms, or manuscripts. It did not check why Onesimus was away, where Paul was, or Onesimus’s legal freedom. It did not check what Philemon did later. It does not name Colossae or a prison city.",
       "author": "World English Bible translators",
       "publisher": "eBible.org",
       "chapterCoverage": [
@@ -281,8 +281,8 @@
       "year": 2019,
       "category": "Scholarly study",
       "perspective": "historical",
-      "summary": "Pietz emphasizes changed relationships while recognizing uncertainty about a request for legal freedom.",
-      "limits": "This is Pietz's interpretation. Her proposed runaway account, precise legal setting, broader history of slavery, and the eventual outcome were not independently verified. The letter does not record Onesimus's own response.",
+      "summary": "Pietz stresses changed relationships. She says it is unclear whether Paul asks for legal freedom.",
+      "limits": "This is Pietz’s own reading. The guide did not check her runaway theory or the legal setting. It did not check the history of slavery or the outcome. The letter does not record Onesimus’s own response.",
       "chapterCoverage": [
         1
       ],

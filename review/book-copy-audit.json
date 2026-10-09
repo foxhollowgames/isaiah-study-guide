@@ -1,0 +1,46 @@
+{
+  "1-chronicles": {},
+  "1-kings": {},
+  "1-samuel": {},
+  "2-chronicles": {},
+  "2-kings": {},
+  "2-samuel": {},
+  "deuteronomy": {},
+  "ecclesiastes": {},
+  "esther": {},
+  "exodus": {},
+  "ezra": {},
+  "genesis": {},
+  "jeremiah": {
+    "people.jehoiachin.relations": {
+      "flags": [
+        "terms"
+      ],
+      "text": "He is Jehoiakim’s son. His mother and officials share the deportation."
+    }
+  },
+  "job": {},
+  "joshua": {
+    "chapters.3.meaning": {
+      "flags": [
+        "filler"
+      ],
+      "text": "The crossing helps the people trust Joshua as they trusted Moses. The exact crossing place remains uncertain."
+    }
+  },
+  "judges": {},
+  "leviticus": {},
+  "nehemiah": {},
+  "numbers": {},
+  "proverbs": {},
+  "psalms": {},
+  "ruth": {},
+  "song-of-solomon": {
+    "chapters.1.lds": {
+      "flags": [
+        "length"
+      ],
+      "text": "The Church’s Bible Dictionary reports the JST: “the Songs of Solomon are not inspired writings.” How does the woman answer those who stare at her skin?"
+    }
+  }
+}

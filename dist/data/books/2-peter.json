@@ -279,9 +279,9 @@
       "eventOrder": 1,
       "dateLabel": "Book order",
       "historicalNote": "The opening joins received faith with gifts that make a changed life possible. The list of qualities connects faith with knowledge, self-control, endurance, affection, and love. Their growth prevents knowledge from becoming idle while their absence suggests forgotten cleansing. The speaker therefore repeats reminders because his approaching death will remove his present voice. The remembered mountain voice supports the promise through witness rather than an invented story. Prophecy appears as a lamp whose source lies with God's Spirit rather than human will.",
-      "mapNote": "No exact location is assigned to unnamed or heavenly settings.",
+      "mapNote": "The Sodom marker shows a disputed region, not a confirmed city.",
       "route": [],
-      "routeEvidence": "No exact travel route is reconstructed.",
+      "routeEvidence": "Second Peter names no travel route, so the map draws none.",
       "contextNote": {
         "title": "Received gifts require growth while remembered witness supports the coming promise",
         "text": "Verses 3–4 say God has given everything needed and great promises. Verses 5–7 list what to add, from faith through to love. Verse 8 gives the result if these qualities are theirs and growing. They will not be idle or unfruitful in knowing the Lord Jesus Christ. Knowledge is meant to bear fruit. Verse 9 says one who lacks them is blind and forgets his cleansing. Verse 10 tells them to make their calling sure.",
@@ -316,9 +316,9 @@
       "eventOrder": 2,
       "dateLabel": "Book order",
       "historicalNote": "False teachers appear through destructive teaching, greed, and exploitation rather than harmless disagreement. Earlier judgments supply comparisons, while Noah and Lot show that rescue can accompany judgment. These recalled events make present power unable to remove accountability before God. Balaam's rebuke introduces the contradiction between claimed insight and desire for payment. Empty wells describe teachers whose promises offer refreshment without supplying it. Their promised freedom conceals slavery to corruption, while the final animal comparisons describe destructive return.",
-      "mapNote": "No exact location is assigned to unnamed or heavenly settings.",
+      "mapNote": "The Sodom marker shows a disputed region, not a confirmed city.",
       "route": [],
-      "routeEvidence": "No exact travel route is reconstructed.",
+      "routeEvidence": "Second Peter names no travel route, so the map draws none.",
       "contextNote": {
         "title": "Promises of freedom conceal greed and renewed slavery when conduct denies the message",
         "text": "Verse 18 says these teachers entice people who are just escaping from error. Verse 19 names the bait: a promise of liberty. It then names the teachers’ real condition: they are bondservants of corruption. The verse gives a general rule to prove it. A person is a slave of whatever overcomes him. Verses 20–22 apply it to those who return to the world’s defilements. Their last state is worse than the first.",
@@ -350,9 +350,9 @@
       "eventOrder": 3,
       "dateLabel": "Book order",
       "historicalNote": "Mockers treat the world's apparent continuity as proof that the promised coming will fail. The reply recalls creation and the flood to challenge that account of unchanged conditions. The comparison between days and years prevents human measures from controlling God's promise. Lange reads the delay as an occasion for hope that changes present conduct. Patience allows repentance, while the unexpected day calls for holiness rather than a calculated date. The closing warning about twisted letters joins careful reading with growth in grace and knowledge.",
-      "mapNote": "No exact location is assigned to unnamed or heavenly settings.",
+      "mapNote": "The Sodom marker shows a disputed region, not a confirmed city.",
       "route": [],
-      "routeEvidence": "No exact travel route is reconstructed.",
+      "routeEvidence": "Second Peter names no travel route, so the map draws none.",
       "contextNote": {
         "title": "The delayed promise calls for patient hope and changed conduct without an exact countdown",
         "text": "Verse 4 gives the mockers’ argument: nothing has changed since the fathers died. Verse 8 answers about time: a thousand years are as a day. Verse 9 answers about motive. The delay is not slowness; it is patience. God does not wish anyone to perish. He wants all to come to repentance. Verse 15 repeats it: count the Lord’s patience as salvation.",
@@ -367,10 +367,10 @@
     {
       "id": "peter",
       "name": "Peter",
-      "role": "Named speaker who recalls the mountain witness and prepares reminders before his death",
-      "relations": "He addresses believers and later names Paul as a beloved brother.",
+      "role": "Simon Peter, servant and apostle of Jesus Christ",
+      "relations": "He writes to believers who share his precious faith. He calls Paul our beloved brother.",
       "passages": "Second Peter 1, 2, 3",
-      "meaning": "His reminders connect received knowledge with conduct and continued growth.",
+      "meaning": "He says he will keep reminding the readers, because his death is near. He says he and others heard the voice from heaven on the holy mountain. He warns of false teachers and mockers. He ends by telling the readers to grow in grace and knowledge.",
       "life": "Birth and death years are not securely known.",
       "sourceIds": [
         "web"
@@ -384,10 +384,10 @@
     {
       "id": "jesus",
       "name": "Jesus Christ",
-      "role": "Lord whose power supplies gifts for life and whose coming remains promised",
-      "relations": "The speaker recalls the voice identifying him as the beloved Son.",
+      "role": "Lord and Savior, whose coming is promised",
+      "relations": "Peter says the voice from the Majestic Glory called him “my beloved Son.”",
       "passages": "Second Peter 1, 2, 3",
-      "meaning": "His promised coming makes present conduct significant even when waiting continues.",
+      "meaning": "Peter says God’s power gives all things for life and godliness through knowing him. On the holy mountain, Peter heard the Father’s voice honor him. Mockers ask where the promise of his coming is. Peter tells the readers to be patient. They should keep growing in grace and knowledge of him.",
       "life": "Birth and death years are not securely known.",
       "sourceIds": [
         "web"
@@ -402,10 +402,10 @@
     {
       "id": "noah",
       "name": "Noah",
-      "role": "Herald of righteousness recalled as preserved during the flood",
-      "relations": "He appears among earlier examples of judgment and rescue.",
+      "role": "Preacher of righteousness, kept safe in the flood",
+      "relations": "God kept him with seven others when the flood came.",
       "passages": "Second Peter 2",
-      "meaning": "His preservation prevents the judgment comparisons from excluding the possibility of rescue.",
+      "meaning": "Peter says God did not spare the ancient world. He kept Noah with seven others when the flood came. Noah is one of Peter’s proofs that the Lord knows how to deliver the godly.",
       "life": "Birth and death years are not securely known.",
       "sourceIds": [
         "web"
@@ -419,10 +419,10 @@
     {
       "id": "lot",
       "name": "Lot",
-      "role": "Man recalled as distressed by wrongdoing and rescued from destruction",
-      "relations": "His rescue stands beside the destruction of Sodom and Gomorrah.",
+      "role": "Righteous man rescued from Sodom",
+      "relations": "Peter names him with the destruction of Sodom and Gomorrah.",
       "passages": "Second Peter 2",
-      "meaning": "The comparison connects judgment with the Lord's ability to rescue the godly.",
+      "meaning": "Peter says Lot lived among the wicked. Their lawless deeds tormented him day by day. God delivered him. Sodom and Gomorrah were turned to ashes. Peter says the Lord knows how to deliver the godly.",
       "life": "Birth and death years are not securely known.",
       "sourceIds": [
         "web"
@@ -436,10 +436,10 @@
     {
       "id": "balaam",
       "name": "Balaam",
-      "role": "Prophet recalled through his desire for payment and the donkey's rebuke",
-      "relations": "His recalled error supplies a comparison for the false teachers' greed.",
+      "role": "Son of Beor, a prophet who loved wages",
+      "relations": "He is called the son of Beor. Peter says the false teachers followed his way.",
       "passages": "Second Peter 2",
-      "meaning": "The rebuke exposes the contradiction between claimed knowledge and corrupt desire.",
+      "meaning": "Peter says Balaam loved the wages of wrongdoing. He was rebuked for his disobedience. A speechless donkey spoke with a man’s voice and stopped his madness. Peter says the false teachers left the right way as he did.",
       "life": "Birth and death years are not securely known.",
       "sourceIds": [
         "web"
@@ -453,10 +453,10 @@
     {
       "id": "paul",
       "name": "Paul",
-      "role": "Beloved brother whose letters the speaker says contain difficult passages",
-      "relations": "The speaker warns that unstable readers twist his letters alongside other Scriptures.",
+      "role": "Our beloved brother, who wrote letters",
+      "relations": "Peter calls him our beloved brother. Peter says Paul wrote to these readers.",
       "passages": "Second Peter 3",
-      "meaning": "His mention makes responsible reading part of the final call to growth.",
+      "meaning": "Peter says Paul wrote to the readers about the Lord’s patience. Peter says some things in Paul’s letters are hard to understand. The ignorant and unsettled twist them, as they twist the other Scriptures.",
       "life": "Birth and death years are not securely known.",
       "sourceIds": [
         "web"
@@ -474,8 +474,8 @@
       "name": "Sodom / Dead Sea region",
       "lat": 31.2,
       "lng": 35.5,
-      "summary": "The letter recalls Sodom's destruction beside Lot's rescue.",
-      "limits": "The site is disputed. This marker shows a region rather than a confirmed city.",
+      "summary": "Peter recalls Sodom and Gomorrah in chapter 2. God turned the cities to ashes as an example. He delivered righteous Lot from there.",
+      "limits": "The site is disputed. The marker shows a region, not a confirmed city.",
       "sourceIds": [
         "web",
         "atlas",
@@ -496,10 +496,10 @@
       "id": "web",
       "title": "2 Peter · World English Bible",
       "url": "https://ebible.org/engwebp/2PE01.htm",
-      "summary": "Complete Scripture supplies the primary text for original close readings.",
+      "summary": "The full text of Second Peter is the main text for the close readings.",
       "category": "Scripture",
       "perspective": "historical",
-      "limits": "Peter is the named speaker. Historical authorship, dates, Greek forms, exact audience conditions, and the mountain's identity were not independently verified. The coming day has no calculated date. Sodom remains a disputed regional marker.",
+      "limits": "Peter is the named speaker. Authorship, dates, Greek forms, and the audience’s situation were not checked independently. The holy mountain’s identity was not checked either. The text gives no calculated date for the coming day. Sodom is only a marker for a disputed region.",
       "author": "World English Bible translators",
       "publisher": "eBible.org",
       "chapterCoverage": [
@@ -521,8 +521,8 @@
       "year": 2023,
       "category": "LDS Come, Follow Me",
       "perspective": "lds",
-      "summary": "The lesson connects growth in Christlike qualities with developing divine nature.",
-      "limits": "Only actual Second Peter chapter one discussion supports this reference. First Peter applications, linked talks, and Restoration texts do not extend coverage to other chapters.",
+      "summary": "The lesson links growth in Christlike qualities to sharing in the divine nature.",
+      "limits": "Only the lesson’s talk about Second Peter chapter 1 supports this reference. First Peter ideas, linked talks, and Restoration texts do not extend it to other chapters.",
       "chapterCoverage": [
         1
       ],
@@ -540,8 +540,8 @@
       "year": 2011,
       "category": "Scholarly study",
       "perspective": "historical",
-      "summary": "Lange reads waiting as hope that changes present conduct.",
-      "limits": "This is Lange's interpretation. His historical authorship assertion, Greek comparisons, and wider historical claims were not independently verified. The guide assigns no exact date to the promised coming.",
+      "summary": "Lange reads waiting as hope that changes how people live now.",
+      "limits": "This is Lange’s own reading. His claim about the author was not checked independently. His Greek comparisons and wider historical claims were not checked either. The text gives no date for the promised coming.",
       "chapterCoverage": [
         3
       ],
@@ -556,8 +556,8 @@
       "perspective": "historical",
       "category": "Geography",
       "url": "https://www.churchofjesuschrist.org/study/scriptures/bible-maps/map-9?lang=eng",
-      "summary": "This Church-published atlas locates the wider setting and marks some disputed places.",
-      "limits": "Use the geographic labels as context. The linked atlas also includes LDS commentary."
+      "summary": "This atlas from the Church shows the wider setting and marks some disputed places.",
+      "limits": "Treat the place labels as background. The linked atlas also has Latter-day Saint commentary."
     },
     {
       "id": "atlas-canaan",
@@ -565,8 +565,8 @@
       "perspective": "historical",
       "category": "Geography",
       "url": "https://www.churchofjesuschrist.org/study/scriptures/bible-maps/map-10?lang=eng",
-      "summary": "This Church-published atlas identifies towns and regions in Canaan.",
-      "limits": "Coordinates are display estimates. A town marker does not verify each Genesis event."
+      "summary": "This atlas from the Church shows towns and regions in Canaan.",
+      "limits": "The coordinates are estimates for display. A town marker does not prove each event in the text."
     }
   ],
   "review": {

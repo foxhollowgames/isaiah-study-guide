@@ -51,13 +51,13 @@ export function addSourcePreviews(content) {
     attribution: 'Sennacherib’s royal account · translated by Daniel David Luckenbill (1924)',
     location: 'Chicago Prism, column III, lines 27–28 · printed page 33',
     url: 'https://isac-assets.s3.amazonaws.com/isac-publications/oip2.pdf#page=47',
-    context: 'The king describes Hezekiah confined in Jerusalem. This royal claim does not report the city’s capture. The translation is from the Chicago Prism; the photograph shows the separate Taylor Prism.',
+    context: 'The king says he shut Hezekiah up in Jerusalem. He does not say he took the city. The translation is from the Chicago Prism. The photograph shows the separate Taylor Prism.',
     checked: '2026-09-29: wording checked against the university PDF, printed page 33.'
   };
   const previewNotes = {
     'prism-taylor': 'This clay prism tells King Sennacherib’s story. Its words use wedge-shaped marks. The prism was made in 691 BCE. That was ten years after the war.',
     lachish: 'The wall picture shows King Sennacherib on his throne. He gets goods taken from Lachish. The picture tells the story from Assyria’s side.',
-    cyrus: 'The cylinder records Cyrus’s support for restoring worship. It does not name Judah’s returning exiles.'
+    cyrus: 'On this clay cylinder, Cyrus says he gave holy places back to some people. The writing does not name Judah or its exiles.'
   };
   for (const source of content.sources) if (previewNotes[source.id]) source.previewText = previewNotes[source.id];
   // Add the objects used to explain the campaign, not every source about Assyria.

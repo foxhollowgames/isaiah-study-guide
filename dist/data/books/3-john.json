@@ -89,9 +89,9 @@
       "eventOrder": 1,
       "dateLabel": "Book order",
       "historicalNote": "The elder's joy rests on reports of Gaius's conduct rather than a claim alone. Welcome includes strangers whose work receives material help for the next part of their journey. Because these travelers accept nothing from Gentiles, shared support makes hosts fellow workers for truth. Diotrephes instead rejects the elder's message and excludes people willing to welcome the brothers. The USCCB introduction presents several motives, so the letter does not settle his full position. Demetrius's recommendation and promised visit keep good conduct and personal testimony central to this conflict.",
-      "mapNote": "No exact location is assigned to unnamed or heavenly settings.",
+      "mapNote": "Third John names no place, so the map shows none.",
       "route": [],
-      "routeEvidence": "No exact travel route is reconstructed.",
+      "routeEvidence": "The brothers travel, but the letter names no route. The map draws none.",
       "contextNote": {
         "title": "Support for traveling believers makes truth practical while exclusion reveals a conflict over authority",
         "text": "Verse 5 praises Gaius for what he does for brothers who are strangers. Verse 7 explains their need. They went out for the Name and accepted nothing from the Gentiles. Verse 8 gives the duty that follows: we “ought to receive such.” It also gives the host a title. Those who support them are fellow workers for the truth. Verses 9–10 show the opposite: Diotrephes refuses the brothers and stops others.",
@@ -106,10 +106,10 @@
     {
       "id": "gaius-letter",
       "name": "Gaius",
-      "role": "Recipient praised for faithful welcome and help given to traveling believers",
-      "relations": "The elder rejoices at reports about his conduct and asks him to continue his support.",
+      "role": "Man the elder loves, praised for helping traveling believers",
+      "relations": "The elder writes to him and calls him beloved. He asks Gaius to keep helping the brothers.",
       "passages": "Third John 1",
-      "meaning": "His hospitality makes received truth visible through help for people beyond his familiar circle.",
+      "meaning": "Brothers come to the elder and tell how Gaius walks in truth. They say he cared for brothers who were strangers. They testified about his love before the assembly. The elder asks him to help them journey on in a way worthy of God.",
       "life": "Birth and death years are not securely known.",
       "sourceIds": [
         "web"
@@ -123,10 +123,10 @@
     {
       "id": "diotrephes",
       "name": "Diotrephes",
-      "role": "Assembly member accused of rejecting the elder and excluding people who welcome the brothers",
-      "relations": "The elder says he loves to be first and refuses the visiting brothers.",
+      "role": "Man in the assembly who loves to be first",
+      "relations": "The elder wrote to the assembly, but Diotrephes did not accept what the elder said.",
       "passages": "Third John 1",
-      "meaning": "His conduct introduces a conflict over welcome and authority without preserving his own account.",
+      "meaning": "The elder says Diotrephes does not accept what the elder writes. He accuses the elder with wicked words. He does not receive the brothers himself. He forbids others to receive them and throws them out of the assembly. The elder says he will call attention to these deeds if he comes. We hear only the elder’s side.",
       "life": "Birth and death years are not securely known.",
       "sourceIds": [
         "web"
@@ -140,10 +140,10 @@
     {
       "id": "demetrius-letter",
       "name": "Demetrius",
-      "role": "Person recommended through testimony about his conduct",
-      "relations": "The elder adds his own testimony to the good report from others.",
+      "role": "Man with a good report from all",
+      "relations": "The elder names him in a note to Gaius.",
       "passages": "Third John 1",
-      "meaning": "His recommendation gives Gaius a positive example beside the warning about Diotrephes.",
+      "meaning": "The elder says Demetrius has the testimony of all, and of the truth itself. The elder adds his own testimony. The letter says nothing more about him. It comes right after the warning about Diotrephes.",
       "life": "Birth and death years are not securely known.",
       "sourceIds": [
         "web"
@@ -161,10 +161,10 @@
       "id": "web",
       "title": "3 John · World English Bible",
       "url": "https://ebible.org/engwebp/3JN01.htm",
-      "summary": "Complete Scripture supplies the primary text for original close readings.",
+      "summary": "The full text of Third John is the main text for the close readings.",
       "category": "Scripture",
       "perspective": "historical",
-      "limits": "The elder has no assigned personal identity. Gaius and Demetrius are not identified with same-name people elsewhere. Historical authorship, dates, Greek forms, exact local setting, and the opposing party's own account were not independently verified.",
+      "limits": "The text gives the elder no personal name. Gaius and Demetrius are not tied to people with the same names elsewhere. Authorship, dates, Greek forms, and the exact local setting were not checked independently. The letter gives no account from the opposing side. No such account was checked.",
       "author": "World English Bible translators",
       "publisher": "eBible.org",
       "chapterCoverage": [
@@ -184,8 +184,8 @@
       "year": 2023,
       "category": "LDS Come, Follow Me",
       "perspective": "lds",
-      "summary": "The lesson connects joy with helping others walk in truth and warns against harmful conduct.",
-      "limits": "Third John coverage follows actual discussion of 1:1–4 and 9–11. Linked Restoration texts and reference entries were not independently reviewed.",
+      "summary": "The lesson links joy to helping others walk in truth. It also warns against harmful conduct.",
+      "limits": "For Third John, the lesson covers verses 1–4 and 9–11. Linked Restoration texts and reference entries were not reviewed independently.",
       "chapterCoverage": [
         1
       ],
@@ -202,8 +202,8 @@
       "publisher": "United States Conference of Catholic Bishops",
       "category": "Scholarly study",
       "perspective": "historical",
-      "summary": "The introduction offers several possible motives for Diotrephes' refusal.",
-      "limits": "These are competing interpretations rather than established motives. Historical authorship, exact local offices, audience conditions, and Demetrius' possible delivery role were not independently verified.",
+      "summary": "The introduction gives several possible reasons why Diotrephes refused to receive the brothers.",
+      "limits": "These are rival readings, not established reasons. Authorship, local offices, and the audience’s situation were not checked independently. A possible role for Demetrius as letter carrier was not checked either.",
       "chapterCoverage": [
         1
       ],

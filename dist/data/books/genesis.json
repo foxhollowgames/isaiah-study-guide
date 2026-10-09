@@ -6265,7 +6265,7 @@
       },
       "eventOrder": 1,
       "dateLabel": "Narrative order · historical year unknown",
-      "mapNote": "No verified location is supplied for this chapter.",
+      "mapNote": "The map has no sure location for this chapter.",
       "route": [],
       "routeEvidence": "",
       "contextNote": {
@@ -6302,7 +6302,7 @@
       },
       "eventOrder": 2,
       "dateLabel": "Narrative order · historical year unknown",
-      "mapNote": "No verified location is supplied for this chapter.",
+      "mapNote": "The map has no sure location for this chapter.",
       "route": [],
       "routeEvidence": "",
       "contextNote": {
@@ -6340,7 +6340,7 @@
       },
       "eventOrder": 3,
       "dateLabel": "Narrative order · historical year unknown",
-      "mapNote": "No verified location is supplied for this chapter.",
+      "mapNote": "The map has no sure location for this chapter.",
       "route": [],
       "routeEvidence": "",
       "contextNote": {
@@ -6378,7 +6378,7 @@
       },
       "eventOrder": 4,
       "dateLabel": "Narrative order · historical year unknown",
-      "mapNote": "No verified location is supplied for this chapter.",
+      "mapNote": "The map has no sure location for this chapter.",
       "route": [],
       "routeEvidence": "",
       "contextNote": {
@@ -6416,7 +6416,7 @@
       },
       "eventOrder": 5,
       "dateLabel": "Narrative order · historical year unknown",
-      "mapNote": "No verified location is supplied for this chapter.",
+      "mapNote": "The map has no sure location for this chapter.",
       "route": [],
       "routeEvidence": "",
       "contextNote": {
@@ -6453,7 +6453,7 @@
       },
       "eventOrder": 6,
       "dateLabel": "Narrative order · historical year unknown",
-      "mapNote": "No verified location is supplied for this chapter.",
+      "mapNote": "The map has no sure location for this chapter.",
       "route": [],
       "routeEvidence": "",
       "contextNote": {
@@ -6489,7 +6489,7 @@
       },
       "eventOrder": 7,
       "dateLabel": "Narrative order · historical year unknown",
-      "mapNote": "No verified location is supplied for this chapter.",
+      "mapNote": "The map has no sure location for this chapter.",
       "route": [],
       "routeEvidence": "",
       "contextNote": {
@@ -6566,7 +6566,7 @@
       },
       "eventOrder": 9,
       "dateLabel": "Narrative order · historical year unknown",
-      "mapNote": "No verified location is supplied for this chapter.",
+      "mapNote": "The map has no sure location for this chapter.",
       "route": [],
       "routeEvidence": "",
       "contextNote": {
@@ -8316,9 +8316,9 @@
       "id": "adam",
       "name": "Adam",
       "role": "First man in the Genesis account",
-      "relations": "Partner of Eve. Father of Cain, Abel, and Seth.",
+      "relations": "Husband of Eve. Father of Cain, Abel, and Seth.",
       "passages": "Genesis 2–5",
-      "meaning": "God gives him work and a command. His choices shape life outside Eden.",
+      "meaning": "God puts him in the garden of Eden to work and keep it. God tells him not to eat from one tree. He eats the fruit that Eve gives him. God sends him out to farm the ground.",
       "life": "Birth and death years are not securely known.",
       "sourceIds": [
         "web"
@@ -8329,9 +8329,9 @@
       "id": "eve",
       "name": "Eve",
       "role": "First woman in the Genesis account",
-      "relations": "Partner of Adam. Mother of Cain, Abel, and Seth.",
+      "relations": "Wife of Adam. Mother of Cain, Abel, and Seth.",
       "passages": "Genesis 2–4",
-      "meaning": "She acts in the garden story. Her later words express hope through childbirth.",
+      "meaning": "The serpent talks with her, and she eats the fruit. She gives some to Adam. Adam names her Eve, the mother of all the living. She later names Seth as the child God gave in place of Abel.",
       "life": "Birth and death years are not securely known.",
       "sourceIds": [
         "web"
@@ -8342,9 +8342,9 @@
       "id": "cain",
       "name": "Cain",
       "role": "Farmer and brother of Abel",
-      "relations": "Son of Adam and Eve. Father of Enoch in Cain's line.",
+      "relations": "Son of Adam and Eve. Brother of Abel. Father of the Enoch in Cain’s line.",
       "passages": "Genesis 4",
-      "meaning": "He kills Abel. His story exposes anger, violence, and denied responsibility.",
+      "meaning": "He farms the ground and brings an offering. God respects Abel’s offering and not his. He kills Abel in the field. God sends him away, and he lives in the land of Nod.",
       "life": "Birth and death years are not securely known.",
       "sourceIds": [
         "web"
@@ -8357,7 +8357,7 @@
       "role": "Shepherd killed by his brother",
       "relations": "Son of Adam and Eve. Brother of Cain.",
       "passages": "Genesis 4",
-      "meaning": "God accepts his offering. His brother Cain then kills him.",
+      "meaning": "He keeps sheep and brings an offering from his flock. God respects him and his offering. Cain kills him in the field. God says Abel’s blood cries from the ground.",
       "life": "Birth and death years are not securely known.",
       "sourceIds": [
         "web"
@@ -8368,9 +8368,9 @@
       "id": "enoch",
       "name": "Enoch",
       "role": "Ancestor who walks with God",
-      "relations": "Descendant of Seth. Father of Methuselah.",
+      "relations": "Son of Jared in Seth’s line. Father of Methuselah. Cain’s son Enoch is another man.",
       "passages": "Genesis 5:18–24",
-      "meaning": "God takes him. Moses 6–7 expands his role within LDS scripture.",
+      "meaning": "He walks with God for three hundred years after Methuselah’s birth. Then he is not found, for God takes him. Moses 6–7 gives him a larger part in LDS scripture.",
       "life": "Birth and death years are not securely known.",
       "sourceIds": [
         "web"
@@ -8380,10 +8380,10 @@
     {
       "id": "noah",
       "name": "Noah",
-      "role": "Ark builder and covenant recipient",
-      "relations": "Father of Shem, Ham, and Japheth.",
+      "role": "Builder of the ship in the flood",
+      "relations": "Son of Lamech. Father of Shem, Ham, and Japheth.",
       "passages": "Genesis 5–9",
-      "meaning": "He follows the ark command. His story joins judgment, preservation, and covenant.",
+      "meaning": "God tells him to build a ship, and he does all that God commands. He takes his family and the animals inside. After the flood he builds an altar. God makes a covenant never to destroy the earth by flood again.",
       "life": "Birth and death years are not securely known.",
       "sourceIds": [
         "web"
@@ -8397,9 +8397,9 @@
       "id": "shem",
       "name": "Shem",
       "role": "Son of Noah",
-      "relations": "Brother of Ham and Japheth. Ancestor in Abraham's family record.",
+      "relations": "Brother of Ham and Japheth. Abram comes from his line.",
       "passages": "Genesis 5–11",
-      "meaning": "His line connects Noah's household with Terah and Abraham.",
+      "meaning": "He and Japheth cover their father Noah without looking at him. Noah blesses the LORD, the God of Shem. Genesis 11 follows his line down to Terah and Abram.",
       "life": "Birth and death years are not securely known.",
       "sourceIds": [
         "web"
@@ -8414,7 +8414,7 @@
       "role": "Son of Noah",
       "relations": "Father of Canaan. Brother of Shem and Japheth.",
       "passages": "Genesis 5–10",
-      "meaning": "Genesis 9 directs Noah's curse at Canaan. The passage does not justify racial slavery.",
+      "meaning": "He sees his father Noah uncovered and tells his two brothers. Noah then curses Ham’s son Canaan, not Ham. The passage gives no support for racial slavery.",
       "life": "Birth and death years are not securely known.",
       "sourceIds": [
         "web"
@@ -8429,7 +8429,7 @@
       "role": "Son of Noah",
       "relations": "Brother of Shem and Ham.",
       "passages": "Genesis 5–10",
-      "meaning": "His descendants appear in the table of nations. The account places many peoples within one family.",
+      "meaning": "He helps Shem cover their father Noah. Noah asks God to enlarge Japheth. Genesis 10 lists his sons and the peoples that come from them.",
       "life": "Birth and death years are not securely known.",
       "sourceIds": [
         "web"
@@ -8442,9 +8442,9 @@
       "id": "nimrod",
       "name": "Nimrod",
       "role": "Mighty hunter and ruler",
-      "relations": "Descendant of Ham through Cush.",
+      "relations": "Son of Cush. Grandson of Ham.",
       "passages": "Genesis 10:8–12",
-      "meaning": "His kingdom begins in Babel and nearby cities. His skill as a hunter makes him famous.",
+      "meaning": "He becomes a mighty one on the earth. People say, “like Nimrod, a mighty hunter before the LORD.” His kingdom begins with Babel, Erech, Accad, and Calneh in Shinar.",
       "life": "Birth and death years are not securely known.",
       "sourceIds": [
         "web"
@@ -8458,10 +8458,10 @@
     {
       "id": "abraham",
       "name": "Abraham / Abram",
-      "role": "Covenant recipient and migrating ancestor",
+      "role": "Man God calls to Canaan and promises a nation",
       "relations": "Husband of Sarah. Father of Ishmael and Isaac. Uncle of Lot.",
       "passages": "Genesis 11–25",
-      "meaning": "God calls him to Canaan. His story includes faith, failure, hospitality, and covenant.",
+      "meaning": "God tells him to leave Haran, and he goes to Canaan. Out of fear he twice calls Sarah his sister. God promises him land and a son, and Sarah bears Isaac. He goes to offer Isaac, and the LORD’s angel stops him.",
       "life": "Birth and death years are not securely known.",
       "sourceIds": [
         "web"
@@ -8490,7 +8490,7 @@
       "role": "Mother of Isaac",
       "relations": "Wife of Abraham. Mistress of Hagar.",
       "passages": "Genesis 11–23",
-      "meaning": "She receives the promise of a son. Her treatment of Hagar also requires careful reading.",
+      "meaning": "She has no child and gives Hagar to Abram. She then treats Hagar harshly. She laughs when she hears she will bear a son. She bears Isaac and tells Abraham to send Hagar and Ishmael away.",
       "life": "Birth and death years are not securely known.",
       "sourceIds": [
         "web"
@@ -8515,7 +8515,7 @@
       "role": "Abraham's nephew",
       "relations": "Son of Haran. Father of two daughters in Genesis 19.",
       "passages": "Genesis 11–19",
-      "meaning": "He chooses the Jordan plain. His story explores danger, hospitality, and family harm.",
+      "meaning": "He parts from Abram and chooses the plain of the Jordan near Sodom. Kings carry him off, and Abram rescues him. Two angels lead him out before Sodom is destroyed. His two daughters later make him drunk and bear his sons.",
       "life": "Birth and death years are not securely known.",
       "sourceIds": [
         "web"
@@ -8539,9 +8539,9 @@
       "id": "hagar",
       "name": "Hagar",
       "role": "Egyptian servant and mother of Ishmael",
-      "relations": "Servant of Sarah. Mother of Abraham's first son.",
+      "relations": "Servant of Sarah. Mother of Ishmael, Abraham’s first son.",
       "passages": "Genesis 16; 21",
-      "meaning": "Hagar names God as the one who sees her. God hears her distress.",
+      "meaning": "She conceives by Abram and runs from Sarai’s harsh treatment. The LORD’s angel finds her by a spring. She calls the LORD “a God who sees.” Later Abraham sends her away, and God hears her son’s voice.",
       "life": "Birth and death years are not securely known.",
       "sourceIds": [
         "web"
@@ -8554,10 +8554,10 @@
     {
       "id": "ishmael",
       "name": "Ishmael",
-      "role": "Abraham and Hagar's son",
-      "relations": "Half-brother of Isaac. Father of twelve named sons.",
+      "role": "Abraham and Hagar’s son",
+      "relations": "Half-brother of Isaac. Father of twelve princes.",
       "passages": "Genesis 16–25",
-      "meaning": "God hears and preserves him. He receives a promise distinct from Isaac's covenant line.",
+      "meaning": "The LORD’s angel tells Hagar to name him Ishmael. Abraham sends him away with Hagar, and God hears his voice. God promises to make him a great nation. He and Isaac later bury Abraham.",
       "life": "Birth and death years are not securely known.",
       "sourceIds": [
         "web"
@@ -8572,9 +8572,9 @@
       "id": "melchizedek",
       "name": "Melchizedek",
       "role": "King of Salem and priest",
-      "relations": "He blesses Abram after Lot's rescue.",
+      "relations": "Genesis names no family for him. He meets Abram after Lot’s rescue.",
       "passages": "Genesis 14:18–20",
-      "meaning": "His blessing links God with Abram's deliverance. LDS scripture expands his priestly role.",
+      "meaning": "He brings out bread and wine after Abram rescues Lot. He blesses Abram and blesses God Most High. Abram gives him a tenth of all. LDS scripture says more about his work as priest.",
       "life": "Birth and death years are not securely known.",
       "sourceIds": [
         "web"
@@ -8591,7 +8591,7 @@
       "role": "Son of Abraham and Sarah",
       "relations": "Husband of Rebekah. Father of Esau and Jacob.",
       "passages": "Genesis 17–35",
-      "meaning": "The covenant continues through him. Wells and family blessings shape his story.",
+      "meaning": "God promises him to Abraham and Sarah, and Sarah bears him. Abraham binds him on an altar, and God provides a ram. He marries Rebekah and digs his father’s wells again. When he is old and cannot see, he blesses Jacob in place of Esau.",
       "life": "Birth and death years are not securely known.",
       "sourceIds": [
         "web"
@@ -8611,9 +8611,9 @@
       "id": "rebekah",
       "name": "Rebekah",
       "role": "Mother of Esau and Jacob",
-      "relations": "Wife of Isaac. Sister of Laban.",
+      "relations": "Daughter of Bethuel. Sister of Laban. Wife of Isaac.",
       "passages": "Genesis 24–28",
-      "meaning": "She agrees to travel to Isaac. She later directs the deception that secures Jacob's blessing.",
+      "meaning": "She draws water for Abraham’s servant and his camels. She agrees to go to Canaan and marry Isaac. She bears twins, Esau and Jacob, and loves Jacob. She dresses Jacob as Esau so that Isaac blesses him.",
       "life": "Birth and death years are not securely known.",
       "sourceIds": [
         "web"
@@ -8629,10 +8629,10 @@
     {
       "id": "abimelech",
       "name": "Abimelech",
-      "role": "King associated with Gerar",
-      "relations": "He makes agreements with Abraham or Isaac.",
+      "role": "King who deals with Abraham and Isaac",
+      "relations": "He deals with Abraham in Genesis 20–21. An Abimelech deals with Isaac in Genesis 26. Phicol leads his army.",
       "passages": "Genesis 20–21; 26",
-      "meaning": "Kings with this name face disputes about marriage and water. Each story concerns a different meeting.",
+      "meaning": "He takes Sarah, and God warns him in a dream. He gives her back and swears an oath with Abraham at Beersheba. In Genesis 26 an Abimelech learns that Rebekah is Isaac’s wife. Genesis does not say if this is the same king.",
       "life": "Birth and death years are not securely known.",
       "sourceIds": [
         "web"
@@ -8645,10 +8645,10 @@
     {
       "id": "esau",
       "name": "Esau / Edom",
-      "role": "Isaac's elder son",
+      "role": "Isaac’s elder son",
       "relations": "Twin brother of Jacob. Ancestor of Edom.",
       "passages": "Genesis 25–36",
-      "meaning": "He loses the birthright and blessing. He later welcomes Jacob rather than taking revenge.",
+      "meaning": "He sells his birthright to Jacob for bread and lentil stew. Jacob then takes his blessing, and Esau plans to kill him. Years later he runs to meet Jacob and kisses him. He settles in the hill country of Seir.",
       "life": "Birth and death years are not securely known.",
       "sourceIds": [
         "web"
@@ -8668,10 +8668,10 @@
     {
       "id": "jacob",
       "name": "Jacob / Israel",
-      "role": "Ancestor of Israel's tribes",
+      "role": "Father of Israel’s twelve tribes",
       "relations": "Son of Isaac and Rebekah. Father of twelve sons and Dinah.",
       "passages": "Genesis 25–50",
-      "meaning": "He deceives and suffers deception. His later life joins struggle, reconciliation, and grief.",
+      "meaning": "He buys Esau’s birthright and tricks Isaac to get the blessing. Laban then tricks him, and he works twenty years for Laban. He wrestles a man at night and is named Israel. In old age he goes to Egypt to see Joseph.",
       "life": "Birth and death years are not securely known.",
       "sourceIds": [
         "web"
@@ -8696,10 +8696,10 @@
     {
       "id": "laban",
       "name": "Laban",
-      "role": "Rebekah's brother",
-      "relations": "Father of Leah and Rachel. Jacob's employer and father-in-law.",
+      "role": "Rebekah’s brother and Jacob’s father-in-law",
+      "relations": "Father of Leah and Rachel. Jacob works for him.",
       "passages": "Genesis 24; 29–31",
-      "meaning": "He controls marriage and labor agreements. His disputes with Jacob end at a marked boundary.",
+      "meaning": "He welcomes Abraham’s servant and lets Rebekah go. He gives Jacob Leah in place of Rachel after seven years of work. Jacob says Laban changed his wages ten times. Laban chases Jacob to Gilead, and they make a covenant there.",
       "life": "Birth and death years are not securely known.",
       "sourceIds": [
         "web"
@@ -8716,7 +8716,7 @@
       "role": "Mother of six sons and Dinah",
       "relations": "Daughter of Laban. Wife of Jacob. Sister of Rachel.",
       "passages": "Genesis 29–35; 49",
-      "meaning": "Her children's names express pain and praise. Her story exposes unequal affection within the household.",
+      "meaning": "Laban gives her to Jacob in place of Rachel. Jacob loves Rachel more, and the LORD gives Leah children. She names Reuben for her pain and Judah for her praise. Jacob buries her in the cave of Machpelah.",
       "life": "Birth and death years are not securely known.",
       "sourceIds": [
         "web"
@@ -8738,7 +8738,7 @@
       "role": "Mother of Joseph and Benjamin",
       "relations": "Daughter of Laban. Wife of Jacob. Sister of Leah.",
       "passages": "Genesis 29–35",
-      "meaning": "She longs for children. Her death on the road brings grief during the family's return.",
+      "meaning": "Jacob loves her and works fourteen years for her and Leah. She has no child for years, then bears Joseph. She takes her father’s teraphim when the family leaves. She dies giving birth to Benjamin on the way to Ephrath.",
       "life": "Birth and death years are not securely known.",
       "sourceIds": [
         "web"
@@ -8758,9 +8758,9 @@
       "id": "bilhah",
       "name": "Bilhah",
       "role": "Mother of Dan and Naphtali",
-      "relations": "Rachel's servant. Mother of two of Jacob's sons.",
+      "relations": "Rachel’s servant. Mother of two of Jacob’s sons.",
       "passages": "Genesis 29–35",
-      "meaning": "The household treats her within unequal power. Genesis records little of her own voice.",
+      "meaning": "Laban gives her to Rachel as a servant. Rachel gives her to Jacob, and she bears Dan and Naphtali. Rachel names both boys. Reuben later lies with her, and Genesis gives her no words.",
       "life": "Birth and death years are not securely known.",
       "sourceIds": [
         "web"
@@ -8773,9 +8773,9 @@
       "id": "zilpah",
       "name": "Zilpah",
       "role": "Mother of Gad and Asher",
-      "relations": "Leah's servant. Mother of two of Jacob's sons.",
+      "relations": "Leah’s servant. Mother of two of Jacob’s sons.",
       "passages": "Genesis 29–30",
-      "meaning": "Her sons join the family record. The account gives few details about her own choices.",
+      "meaning": "Laban gives her to Leah as a servant. Leah gives her to Jacob, and she bears Gad and Asher. Leah names both boys. Genesis gives Zilpah no words.",
       "life": "Birth and death years are not securely known.",
       "sourceIds": [
         "web"
@@ -8790,7 +8790,7 @@
       "role": "Daughter of Jacob and Leah",
       "relations": "Sister of Simeon and Levi.",
       "passages": "Genesis 30; 34",
-      "meaning": "She suffers sexual violence. The account focuses on others' actions and records no speech from her.",
+      "meaning": "She goes out to see the daughters of the land. Shechem, son of Hamor, takes her and lies with her. Simeon and Levi kill the city’s men and take her from Shechem’s house. Genesis gives her no words.",
       "life": "Birth and death years are not securely known.",
       "sourceIds": [
         "web"
@@ -8802,10 +8802,10 @@
     {
       "id": "joseph",
       "name": "Joseph",
-      "role": "Son sold into Egypt and later royal official",
+      "role": "Son sold into Egypt who later rules under Pharaoh",
       "relations": "Son of Jacob and Rachel. Husband of Asenath. Father of Ephraim and Manasseh.",
       "passages": "Genesis 30; 37–50",
-      "meaning": "He survives betrayal and false accusation. His later authority preserves the family during famine.",
+      "meaning": "His brothers hate him and sell him, and he is taken to Egypt. Potiphar’s wife accuses him falsely, and he goes to prison. He explains Pharaoh’s dreams and stores grain for the famine. He feeds his family and tells his brothers God meant it for good.",
       "life": "Birth and death years are not securely known.",
       "sourceIds": [
         "web"
@@ -8827,7 +8827,7 @@
       "role": "Brother who later protects Benjamin",
       "relations": "Son of Jacob and Leah. Father of Perez and Zerah through Tamar.",
       "passages": "Genesis 29; 37–50",
-      "meaning": "He helps sell Joseph. His later offer to protect Benjamin shows a change in responsibility.",
+      "meaning": "He tells his brothers to sell Joseph and not kill him. He keeps Tamar from his son Shelah, then says she is more righteous. He promises Jacob to bring Benjamin back. In Egypt he offers to stay as a slave in Benjamin’s place.",
       "life": "Birth and death years are not securely known.",
       "sourceIds": [
         "web"
@@ -8847,10 +8847,10 @@
     {
       "id": "reuben",
       "name": "Reuben",
-      "role": "Jacob's eldest son",
+      "role": "Jacob’s eldest son",
       "relations": "Son of Jacob and Leah. Brother of Joseph.",
       "passages": "Genesis 29; 35; 37; 42; 49",
-      "meaning": "He tries to rescue Joseph. His later loss of rank connects with his father's final speech.",
+      "meaning": "He lies with Bilhah, and his father hears of it. He tells his brothers not to kill Joseph and plans to bring him home. He offers his two sons as a pledge for Benjamin. Jacob says Reuben will not excel.",
       "life": "Birth and death years are not securely known.",
       "sourceIds": [
         "web"
@@ -8870,7 +8870,7 @@
       "role": "Son of Jacob and Leah",
       "relations": "Brother of Levi and Dinah.",
       "passages": "Genesis 29; 34; 42–43; 49",
-      "meaning": "He joins the attack at Shechem. Joseph later keeps him in Egypt as a pledge.",
+      "meaning": "He and Levi kill the men of Shechem after Shechem defiles Dinah. Joseph later binds him and keeps him in Egypt. He goes free when the brothers bring Benjamin. Jacob curses the anger of Simeon and Levi.",
       "life": "Birth and death years are not securely known.",
       "sourceIds": [
         "web"
@@ -8889,7 +8889,7 @@
       "role": "Son of Jacob and Leah",
       "relations": "Brother of Simeon and Dinah.",
       "passages": "Genesis 29; 34; 49",
-      "meaning": "His violence at Shechem shapes Jacob's final words. Later priestly history belongs to other books.",
+      "meaning": "He and Simeon kill the men of Shechem and take Dinah away. Jacob says they have brought him trouble. In his last words Jacob curses their anger and says he will scatter them.",
       "life": "Birth and death years are not securely known.",
       "sourceIds": [
         "web"
@@ -8903,10 +8903,10 @@
     {
       "id": "benjamin",
       "name": "Benjamin",
-      "role": "Jacob's youngest son",
-      "relations": "Son of Rachel. Full brother of Joseph.",
+      "role": "Jacob’s youngest son",
+      "relations": "Son of Jacob and Rachel. Full brother of Joseph.",
       "passages": "Genesis 35; 42–49",
-      "meaning": "His safety becomes the test of his brothers' changed conduct.",
+      "meaning": "Rachel dies at his birth and names him Benoni, but Jacob names him Benjamin. Jacob fears to send him to Egypt. Joseph’s cup is found in his sack. Judah offers to stay as a slave in his place.",
       "life": "Birth and death years are not securely known.",
       "sourceIds": [
         "web"
@@ -8923,10 +8923,10 @@
     {
       "id": "tamar",
       "name": "Tamar",
-      "role": "Woman who claims Judah's family duty",
+      "role": "Judah’s daughter-in-law who bears his twin sons",
       "relations": "Widow of Er and Onan. Mother of Perez and Zerah.",
       "passages": "Genesis 38",
-      "meaning": "Judah withholds the expected marriage arrangement. Her action makes him acknowledge his failure.",
+      "meaning": "Judah sends her home and does not give her to his son Shelah. She veils herself, and Judah lies with her without knowing her. She keeps his signet, cords, and staff. When Judah sees them he says she is more righteous.",
       "life": "Birth and death years are not securely known.",
       "sourceIds": [
         "web"
@@ -8942,7 +8942,7 @@
       "role": "Egyptian officer who buys Joseph",
       "relations": "Husband of the unnamed woman who accuses Joseph.",
       "passages": "Genesis 37:36; 39",
-      "meaning": "He gives Joseph household responsibility. Joseph's later imprisonment follows a false accusation.",
+      "meaning": "He buys Joseph and puts him over his whole house. His wife says Joseph tried to lie with her. He grows angry and puts Joseph in the king’s prison.",
       "life": "Birth and death years are not securely known.",
       "sourceIds": [
         "web"
@@ -8954,10 +8954,10 @@
     {
       "id": "pharaoh",
       "name": "Pharaoh",
-      "role": "Title of Egypt's ruler",
-      "relations": "The ruler appoints Joseph and receives Jacob.",
+      "role": "Title of Egypt’s ruler",
+      "relations": "The Pharaoh of Genesis 12 deals with Abram and Sarai. A later Pharaoh deals with Joseph and Jacob.",
       "passages": "Genesis 12; 40–47",
-      "meaning": "Egypt's rulers affect Abraham's and Joseph's families. Genesis leaves their personal names unstated.",
+      "meaning": "In Genesis 12 a Pharaoh takes Sarai and then sends Abram away. In Joseph’s time a Pharaoh dreams of seven fat and seven thin cattle. He sets Joseph over Egypt and gives Jacob’s family land in Goshen. Genesis names no Pharaoh.",
       "life": "Birth and death years are not securely known.",
       "sourceIds": [
         "web"
@@ -8970,10 +8970,10 @@
     {
       "id": "asenath",
       "name": "Asenath",
-      "role": "Joseph's Egyptian wife",
-      "relations": "Daughter of Potiphera. Mother of Manasseh and Ephraim.",
+      "role": "Joseph’s Egyptian wife",
+      "relations": "Daughter of Potiphera, priest of On. Mother of Manasseh and Ephraim.",
       "passages": "Genesis 41; 46",
-      "meaning": "Her marriage joins Joseph to an Egyptian household. Genesis gives little direct detail about her life.",
+      "meaning": "Pharaoh gives her to Joseph as a wife. She bears Manasseh and Ephraim before the famine. Genesis tells nothing else about her.",
       "life": "Birth and death years are not securely known.",
       "sourceIds": [
         "web"
@@ -8985,10 +8985,10 @@
     {
       "id": "ephraim",
       "name": "Ephraim",
-      "role": "Joseph's younger son",
+      "role": "Joseph’s younger son",
       "relations": "Son of Joseph and Asenath. Brother of Manasseh.",
       "passages": "Genesis 41; 48",
-      "meaning": "Jacob gives him the leading blessing. His name later identifies a major Israelite tribe.",
+      "meaning": "He is born in Egypt before the famine. Jacob takes him as his own son. Jacob puts his right hand on Ephraim, the younger. Jacob says the younger brother will be greater.",
       "life": "Birth and death years are not securely known.",
       "sourceIds": [
         "web"
@@ -9000,10 +9000,10 @@
     {
       "id": "manasseh",
       "name": "Manasseh",
-      "role": "Joseph's elder son",
+      "role": "Joseph’s elder son",
       "relations": "Son of Joseph and Asenath. Brother of Ephraim.",
       "passages": "Genesis 41; 48",
-      "meaning": "Jacob includes him among his own sons. His descendants share Joseph's family inheritance.",
+      "meaning": "He is Joseph’s firstborn, born in Egypt. Jacob takes him as his own son. Jacob puts his left hand on Manasseh and his right on Ephraim. Joseph objects, but Jacob says Manasseh will also be great.",
       "life": "Birth and death years are not securely known.",
       "sourceIds": [
         "web"
@@ -9019,8 +9019,8 @@
       "name": "Ur",
       "lat": 30.962,
       "lng": 46.103,
-      "summary": "Genesis 11 names Ur of the Chaldeans. Southern Ur is a common identification.",
-      "limits": "The identification remains debated. This marker does not settle Abraham's origin.",
+      "summary": "Terah’s son Haran dies in Ur of the Chaldees. Terah leaves Ur with Abram, Sarai, and Lot in Genesis 11. Southern Ur is a common choice for the site.",
+      "limits": "Scholars still debate which place Genesis means.",
       "sourceIds": [
         "web",
         "atlas"
@@ -9031,7 +9031,7 @@
       "name": "Haran",
       "lat": 36.865,
       "lng": 39.032,
-      "summary": "Terah's household settles here. Abraham later leaves for Canaan.",
+      "summary": "Terah’s family settles here, and Terah dies (Genesis 11). Abram leaves Haran for Canaan in Genesis 12. Jacob later flees here to Laban.",
       "limits": "The ancient city is near modern Harran.",
       "sourceIds": [
         "web",
@@ -9043,8 +9043,8 @@
       "name": "Babel / Babylon",
       "lat": 32.543,
       "lng": 44.421,
-      "summary": "Genesis 11 places Babel in Shinar. The story links its name with confused speech.",
-      "limits": "Babylon is the usual city identification. The tower itself is not identified.",
+      "summary": "Nimrod’s kingdom begins at Babel in Genesis 10. In Genesis 11 people build a city and a tower in Shinar. The LORD confuses their language, and the city is named Babel.",
+      "limits": "Babylon is the usual choice for the city. No one has identified the tower.",
       "sourceIds": [
         "web",
         "atlas"
@@ -9055,8 +9055,8 @@
       "name": "Mountains of Ararat",
       "lat": 38.7,
       "lng": 43.3,
-      "summary": "Genesis 8 names a mountain region where the ark rests.",
-      "limits": "This marker represents a broad region. It does not locate the ark or one mountain.",
+      "summary": "The ship rests on Ararat’s mountains in Genesis 8.",
+      "limits": "The marker shows a broad mountain region, not one peak.",
       "sourceIds": [
         "web",
         "atlas"
@@ -9067,7 +9067,7 @@
       "name": "Shechem",
       "lat": 32.213,
       "lng": 35.282,
-      "summary": "Abraham builds an altar nearby. Jacob later buys land here.",
+      "summary": "Abram builds an altar here in Genesis 12. Jacob buys land here in Genesis 33. In Genesis 34 Simeon and Levi kill the men of the city. Joseph looks for his brothers here in Genesis 37.",
       "limits": "Tell Balata is the usual ancient city site.",
       "sourceIds": [
         "web",
@@ -9080,8 +9080,8 @@
       "name": "Bethel",
       "lat": 31.929,
       "lng": 35.238,
-      "summary": "Abraham camps nearby. Jacob names the site after his dream.",
-      "limits": "Beitin is a common identification. Exact ancient boundaries remain uncertain.",
+      "summary": "Abram builds an altar near Bethel in Genesis 12 and returns in Genesis 13. Jacob dreams here and names the place Bethel (Genesis 28). God sends Jacob back here in Genesis 35.",
+      "limits": "Beitin is a common identification. The exact ancient site is not sure.",
       "sourceIds": [
         "web",
         "atlas",
@@ -9093,8 +9093,8 @@
       "name": "Hebron / Machpelah",
       "lat": 31.532,
       "lng": 35.1,
-      "summary": "Abraham lives near Hebron. Sarah's burial establishes a family grave.",
-      "limits": "The marker shows Hebron. It does not verify the burial chamber.",
+      "summary": "Abram lives by the oaks of Mamre in Hebron (Genesis 13). Sarah dies here, and Abraham buys the cave of Machpelah (Genesis 23). Abraham, Isaac, and Jacob are later buried in that cave.",
+      "limits": "The marker shows Hebron. It does not prove where the burial cave is.",
       "sourceIds": [
         "web",
         "atlas",
@@ -9106,8 +9106,8 @@
       "name": "Beersheba",
       "lat": 31.245,
       "lng": 34.84,
-      "summary": "Abraham and Isaac make agreements here. Jacob stops before entering Egypt.",
-      "limits": "The marker shows the ancient settlement area.",
+      "summary": "Abraham and Abimelech swear an oath here in Genesis 21. Isaac makes his own oath with Abimelech in Genesis 26. Jacob offers sacrifices here on his way to Egypt (Genesis 46).",
+      "limits": "The marker shows the area of the ancient town.",
       "sourceIds": [
         "web",
         "atlas",
@@ -9119,8 +9119,8 @@
       "name": "Egypt / Nile valley",
       "lat": 30.1,
       "lng": 31.2,
-      "summary": "Famine draws Abraham and later Jacob's family into Egypt. Joseph rises to royal service.",
-      "limits": "This regional marker does not identify Joseph's palace or Pharaoh.",
+      "summary": "Abram goes to Egypt in a famine (Genesis 12). Joseph is sold there and rises to rule under Pharaoh. Jacob’s family moves there in Genesis 46.",
+      "limits": "The marker shows the whole region, not one city.",
       "sourceIds": [
         "web",
         "atlas"
@@ -9131,8 +9131,8 @@
       "name": "Goshen / eastern delta",
       "lat": 30.7,
       "lng": 31.8,
-      "summary": "Genesis places Jacob's household in Goshen, within Egypt.",
-      "limits": "The broad delta placement is approximate. Its exact limits are unknown.",
+      "summary": "Joseph settles Jacob’s family in Goshen in Genesis 46–47. Pharaoh calls it the best of the land.",
+      "limits": "The marker shows a broad part of the delta. Goshen’s exact limits are unknown.",
       "sourceIds": [
         "web",
         "atlas"
@@ -9143,8 +9143,8 @@
       "name": "Sodom / Dead Sea region",
       "lat": 31.2,
       "lng": 35.5,
-      "summary": "Lot lives in Sodom. Genesis 19 tells how the city is destroyed.",
-      "limits": "The site is disputed. This marker shows a region rather than a confirmed city.",
+      "summary": "Lot moves his tent as far as Sodom in Genesis 13. Abraham pleads for the city in Genesis 18. In Genesis 19 the LORD rains sulfur and fire on it.",
+      "limits": "The site is disputed. The marker shows a region, not a known city.",
       "sourceIds": [
         "web",
         "atlas",
@@ -9156,8 +9156,8 @@
       "name": "Zoar / Dead Sea region",
       "lat": 31.0,
       "lng": 35.5,
-      "summary": "Lot seeks refuge in Zoar when he leaves Sodom.",
-      "limits": "The exact Genesis site is uncertain.",
+      "summary": "Lot asks to flee to this small city in Genesis 19. He reaches Zoar at sunrise, then leaves for the mountain.",
+      "limits": "The exact site is not sure.",
       "sourceIds": [
         "web",
         "atlas",
@@ -9169,8 +9169,8 @@
       "name": "Gerar",
       "lat": 31.39,
       "lng": 34.61,
-      "summary": "Abraham and Isaac deal with Abimelech near Gerar.",
-      "limits": "Tell Haror is a proposed identification. The marker is approximate.",
+      "summary": "Abraham stays in Gerar in Genesis 20, and Abimelech takes Sarah. Isaac stays here in Genesis 26, and herdsmen argue over his wells.",
+      "limits": "Tell Haror is a proposed site. The marker is a rough guide.",
       "sourceIds": [
         "web",
         "atlas",
@@ -9182,8 +9182,8 @@
       "name": "Beer Lahai Roi / Negev",
       "lat": 30.8,
       "lng": 34.8,
-      "summary": "Hagar names the well after her encounter. Isaac later lives nearby.",
-      "limits": "Its location is unknown. The marker represents the Negev region only.",
+      "summary": "The LORD’s angel finds Hagar by a spring in Genesis 16. The well is then called Beer Lahai Roi. Isaac later lives near it.",
+      "limits": "Its site is unknown. The marker shows only the Negev region.",
       "sourceIds": [
         "web",
         "atlas",
@@ -9195,8 +9195,8 @@
       "name": "Land of Moriah",
       "lat": 31.778,
       "lng": 35.235,
-      "summary": "Genesis 22 places Abraham's test in the land of Moriah.",
-      "limits": "Jerusalem reflects a later biblical association. Genesis does not give a verified site.",
+      "summary": "God sends Abraham to the land of Moriah to offer Isaac (Genesis 22). The LORD’s angel stops him there, and Abraham offers a ram.",
+      "limits": "A later Bible book links Moriah with Jerusalem. Genesis gives no sure site.",
       "sourceIds": [
         "web",
         "atlas",
@@ -9208,8 +9208,8 @@
       "name": "Salem",
       "lat": 31.778,
       "lng": 35.235,
-      "summary": "Melchizedek is king of Salem and priest of God Most High.",
-      "limits": "Jerusalem is a traditional identification. Genesis alone does not establish it.",
+      "summary": "Melchizedek, king of Salem, meets Abram in Genesis 14. He is priest of God Most High.",
+      "limits": "Tradition identifies Salem with Jerusalem. Genesis alone does not prove it.",
       "sourceIds": [
         "web",
         "atlas",
@@ -9221,8 +9221,8 @@
       "name": "Dan",
       "lat": 33.249,
       "lng": 35.652,
-      "summary": "Abram pursues Lot's captors as far as Dan.",
-      "limits": "The name may reflect the narrator's later geography.",
+      "summary": "Abram chases the kings who took Lot as far as Dan (Genesis 14).",
+      "limits": "The name Dan may come from a later time than Abram.",
       "sourceIds": [
         "web",
         "atlas",
@@ -9234,8 +9234,8 @@
       "name": "Damascus region",
       "lat": 33.514,
       "lng": 36.277,
-      "summary": "Genesis 14 places Hobah north of Damascus.",
-      "limits": "This marker shows Damascus. Hobah's exact site is unknown.",
+      "summary": "Abram chases the kings to Hobah in Genesis 14. The text puts Hobah on the left hand of Damascus.",
+      "limits": "The marker shows Damascus. Hobah’s exact site is unknown.",
       "sourceIds": [
         "web",
         "atlas",
@@ -9247,8 +9247,8 @@
       "name": "Gilead",
       "lat": 32.2,
       "lng": 35.85,
-      "summary": "Jacob and Laban make their agreement in this hill region.",
-      "limits": "This is a regional marker.",
+      "summary": "Laban catches up with Jacob in the mountain of Gilead (Genesis 31). They heap up stones and make a covenant there.",
+      "limits": "The marker shows a hill region, not one spot.",
       "sourceIds": [
         "web",
         "atlas",
@@ -9260,8 +9260,8 @@
       "name": "Mahanaim",
       "lat": 32.21,
       "lng": 35.62,
-      "summary": "Jacob names the place after meeting God's messengers.",
-      "limits": "The site is uncertain. The marker shows the broader region.",
+      "summary": "God’s angels meet Jacob here in Genesis 32. Jacob says, “This is God’s army,” and names the place Mahanaim.",
+      "limits": "The site is not sure. The marker shows the wider region.",
       "sourceIds": [
         "web",
         "atlas",
@@ -9273,7 +9273,7 @@
       "name": "Penuel / Jabbok",
       "lat": 32.184,
       "lng": 35.702,
-      "summary": "Jacob wrestles near the Jabbok before meeting Esau.",
+      "summary": "Jacob wrestles a man until dawn near the ford of the Jabbok (Genesis 32). He names the place Peniel. He then meets Esau in Genesis 33.",
       "limits": "The marker follows a proposed site near the river.",
       "sourceIds": [
         "web",
@@ -9286,7 +9286,7 @@
       "name": "Succoth",
       "lat": 32.18,
       "lng": 35.62,
-      "summary": "Jacob builds shelters here after meeting Esau.",
+      "summary": "Jacob builds a house and shelters for his livestock here in Genesis 33.",
       "limits": "The marker follows a proposed Jordan valley site.",
       "sourceIds": [
         "web",
@@ -9299,8 +9299,8 @@
       "name": "Bethlehem / Ephrath",
       "lat": 31.705,
       "lng": 35.202,
-      "summary": "Rachel dies on the journey toward Ephrath, identified in the text as Bethlehem.",
-      "limits": "The marker shows the town. Rachel's burial site has competing traditions.",
+      "summary": "Rachel dies giving birth to Benjamin on the way to Ephrath (Genesis 35). The text says Ephrath is also called Bethlehem.",
+      "limits": "The marker shows the town. Traditions differ about where Rachel is buried.",
       "sourceIds": [
         "web",
         "atlas",
@@ -9312,8 +9312,8 @@
       "name": "Edom / Seir",
       "lat": 30.7,
       "lng": 35.5,
-      "summary": "Genesis 36 associates Esau's descendants with Seir and Edom.",
-      "limits": "This is a regional marker, not a political boundary.",
+      "summary": "Esau lives in the hill country of Seir in Genesis 36. The chapter lists his sons and the chiefs of Edom.",
+      "limits": "The marker shows a region, not a border.",
       "sourceIds": [
         "web",
         "atlas",
@@ -9325,7 +9325,7 @@
       "name": "Dothan",
       "lat": 32.413,
       "lng": 35.238,
-      "summary": "Joseph finds his brothers near Dothan before they sell him.",
+      "summary": "Joseph finds his brothers at Dothan in Genesis 37. They throw him into a pit and sell him.",
       "limits": "Tell Dothan is the usual identification.",
       "sourceIds": [
         "web",
@@ -9338,7 +9338,7 @@
       "name": "Adullam",
       "lat": 31.65,
       "lng": 35.0,
-      "summary": "Judah goes down to Adullam in Genesis 38.",
+      "summary": "Judah visits Hirah, an Adullamite, in Genesis 38. Hirah later goes with Judah to Timnah.",
       "limits": "The marker follows the usual hill-country identification.",
       "sourceIds": [
         "web",
@@ -9351,8 +9351,8 @@
       "name": "Timnah region",
       "lat": 31.75,
       "lng": 34.94,
-      "summary": "Judah travels to Timnah for sheep shearing.",
-      "limits": "More than one ancient site has this name. The identification is uncertain.",
+      "summary": "Judah goes up to Timnah to shear his sheep in Genesis 38. Tamar waits for him on the road there.",
+      "limits": "More than one ancient site has this name. The right one is not sure.",
       "sourceIds": [
         "web",
         "atlas",
@@ -9364,8 +9364,8 @@
       "name": "Canaan",
       "lat": 32.0,
       "lng": 35.15,
-      "summary": "The promised land forms the main setting of the ancestral stories.",
-      "limits": "This is a regional marker, not a surveyed border.",
+      "summary": "Jacob lives in Canaan during the famine. His sons travel from Canaan to Egypt for grain in Genesis 42–43. In Genesis 45 Joseph sends them back to bring Jacob.",
+      "limits": "The marker shows a region, not a border.",
       "sourceIds": [
         "web",
         "atlas",
@@ -9381,7 +9381,7 @@
       "category": "Scripture",
       "url": "https://ebible.org/engwebp/GEN01.htm",
       "summary": "The public-domain reading text supplies all 50 chapters.",
-      "limits": "Chapter notes describe the narrative. They do not prove every narrated event."
+      "limits": "Chapter notes describe the account. They do not prove every event in it."
     },
     {
       "id": "flood-tablet",
@@ -9417,7 +9417,7 @@
       "category": "Scholarly study",
       "url": "https://oyc.yale.edu/religious-studies/rlst-145/lecture-3",
       "summary": "Christine Hayes compares the creation stories with their ancient Near Eastern setting.",
-      "limits": "This academic interpretation remains separate from LDS teaching. Scholars disagree about composition and historicity."
+      "limits": "This is a university reading, separate from LDS teaching. Scholars disagree about how Genesis was written. They also disagree about how much is history."
     },
     {
       "id": "yale-flood",
@@ -9426,7 +9426,7 @@
       "category": "Scholarly study",
       "url": "https://oyc.yale.edu/religious-studies/rlst-145/lecture-4",
       "summary": "Christine Hayes examines repeated accounts and literary sources in Genesis.",
-      "limits": "This academic interpretation remains separate from LDS teaching. Scholars disagree about composition and historicity."
+      "limits": "This is a university reading, separate from LDS teaching. Scholars disagree about how Genesis was written. They also disagree about how much is history."
     },
     {
       "id": "yale-ancestors",
@@ -9434,8 +9434,8 @@
       "perspective": "historical",
       "category": "Scholarly study",
       "url": "https://oyc.yale.edu/religious-studies/rlst-145/lecture-5",
-      "summary": "Christine Hayes introduces methods for reading the ancestral narratives.",
-      "limits": "This academic interpretation remains separate from LDS teaching. Scholars disagree about composition and historicity."
+      "summary": "Christine Hayes introduces ways to read the stories of the ancestors.",
+      "limits": "This is a university reading, separate from LDS teaching. Scholars disagree about how Genesis was written. They also disagree about how much is history."
     },
     {
       "id": "yale-patriarchs",
@@ -9444,7 +9444,7 @@
       "category": "Scholarly study",
       "url": "https://oyc.yale.edu/religious-studies/rlst-145/lecture-6",
       "summary": "Christine Hayes studies covenant, family conflict, and the limits of historical evidence.",
-      "limits": "This academic interpretation remains separate from LDS teaching. Scholars disagree about composition and historicity."
+      "limits": "This is a university reading, separate from LDS teaching. Scholars disagree about how Genesis was written. They also disagree about how much is history."
     },
     {
       "id": "creation",
@@ -9642,7 +9642,7 @@
       "category": "Geography",
       "url": "https://registry.opendata.aws/terrain-tiles/",
       "summary": "Cached terrain shows modern elevation. Natural Earth supplies the land and water outlines.",
-      "limits": "Modern terrain is a geographic aid. It does not reconstruct ancient shorelines or settlements."
+      "limits": "Modern terrain is a map aid. It does not show ancient shorelines or settlements."
     },
     {
       "id": "cfm-2026-03",
@@ -9835,7 +9835,7 @@
       "url": "https://en.wikipedia.org/wiki/Book_of_Genesis",
       "revisionId": "1378152197",
       "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1378152197",
-      "summary": "Genesis moves from creation and early humanity to the families of Abraham, Isaac, Jacob, and Joseph. This overview helps explain the book’s structure.",
+      "summary": "Genesis starts with creation and the first people. It then follows the families of Abraham, Isaac, Jacob, and Joseph. This overview helps explain how the book is built.",
       "reviewed": "2026-10-05: Opening overview and book structure reviewed. These notes make no claim about exact composition dates.",
       "limits": "Anyone can edit this source. Use it for background and source discovery. Its disputed historical claims require separate scholarly review.",
       "license": "CC BY-SA 4.0",
@@ -9872,7 +9872,7 @@
       "perspective": "historical",
       "group": "mcclellan",
       "url": "https://www.mormonstories.org/10-things-bible-dan-mcclellan/",
-      "summary": "McClellan discusses different creation accounts and older flood traditions. He states uncertainty about Babel’s possible sources. He also describes Genesis 49 as poetry preserved within a larger narrative.",
+      "summary": "McClellan discusses different creation accounts and older flood traditions. He states uncertainty about Babel’s possible sources. He also describes Genesis 49 as poetry kept inside a larger story.",
       "timestamps": [
         {
           "seconds": 1409,
@@ -9891,7 +9891,7 @@
         }
       ],
       "reviewed": "2026-10-05: Relevant sections of the publisher’s machine-generated, lightly edited transcript reviewed. Audio and video were not independently checked. Transcript errors remain possible.",
-      "limits": "This is one scholar’s interpretation, separate from Church teaching. Proposed dates and claims about scholarly agreement were not independently verified.",
+      "limits": "This is one scholar’s interpretation, separate from Church teaching. His proposed dates and his claims about scholarly agreement were not checked separately.",
       "license": "Linked interview. Original summary. Transcript text is not reproduced.",
       "chapterCoverage": [
         1,

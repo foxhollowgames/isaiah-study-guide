@@ -69,6 +69,34 @@
       "type": "LDS Come, Follow Me",
       "limitations": "Church applications remain separate from Habakkuk’s complaints and the prayer’s own images.",
       "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "strong",
+      "title": "A Concise Dictionary of the Words in the Hebrew Bible",
+      "author": "James Strong · Open Scriptures XML edition",
+      "year": "1894 / digital edition",
+      "perspective": "historical",
+      "category": "Historical lexicon",
+      "url": "https://github.com/openscriptures/strongs",
+      "summary": "Lists Hebrew dictionary forms and their possible meanings. Use it with the passage to study a word.",
+      "limits": "This is an older dictionary. Compare its meanings with the passage. A list of meanings alone cannot show which one applies.",
+      "license": "Source XML declares Public Domain. Only selected headwords are used.",
+      "type": "Historical lexicon",
+      "limitations": "This is an older dictionary. Compare its meanings with the passage. A list of meanings alone cannot show which one applies."
+    },
+    {
+      "id": "oshb",
+      "title": "Open Scriptures Hebrew Bible",
+      "author": "Open Scriptures contributors / Westminster Leningrad Codex",
+      "year": "Digital edition",
+      "perspective": "historical",
+      "category": "Hebrew text",
+      "url": "https://hb.openscriptures.org/",
+      "summary": "Provides the Hebrew text and word identifiers. This study guide uses these to check selected words against their verses.",
+      "limits": "The app checks selected words, not every English–Hebrew match. It shows Hebrew dictionary forms. The forms in the verses can differ.",
+      "license": "Hebrew text public domain; lemma/morphology data CC BY 4.0. Original work of the Open Scriptures Hebrew Bible, https://hb.openscriptures.org/.",
+      "type": "Hebrew text",
+      "limitations": "The app checks selected words, not every English–Hebrew match. It shows Hebrew dictionary forms. The forms in the verses can differ."
     }
   ],
   "passages": [
@@ -250,7 +278,25 @@
       ],
       "detail": "Lebanon appears among the places harmed by violence in the taunt against the oppressor.",
       "uncertainty": "Broad regional reference. The poem does not identify particular forests or an army route.",
-      "chapterLocation": true
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H3844",
+        "key": "Lebanon",
+        "checkedVerses": 1,
+        "example": [
+          2,
+          17
+        ],
+        "hebrew": "לְבָנוֹן",
+        "transliteration": "Lᵉbânôwn",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "midian",
@@ -264,13 +310,59 @@
       ],
       "detail": "Midian appears among the trembling dwellings in the prayer’s description of God’s arrival.",
       "uncertainty": "Broad regional reference. The prayer’s movement does not establish an ordinary traveled path.",
-      "chapterLocation": true
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H4080",
+        "key": "Midian",
+        "checkedVerses": 1,
+        "example": [
+          3,
+          7
+        ],
+        "hebrew": "מִדְיָן",
+        "transliteration": "Midyân",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     }
   ],
   "campaigns": [],
   "ancientRoads": [],
   "regions": [],
   "words": [
+    {
+      "id": "glossary-sheol-2-H7585-sheol",
+      "label": "Sheol",
+      "matches": [
+        "Sheol"
+      ],
+      "chapter": 2,
+      "verses": [
+        5
+      ],
+      "hebrew": "שְׁאוֹל",
+      "transliteration": "shᵉʼôwl",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "The Hebrew name for the place of the dead.",
+      "grammar": "This is the dictionary form of Hebrew word H7585. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H7585",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
     {
       "id": "glossary-sheol",
       "label": "Sheol",
@@ -290,7 +382,36 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-anoint-3-H4899-anointed",
+      "label": "Anoint",
+      "matches": [
+        "anointed"
+      ],
+      "chapter": 3,
+      "verses": [
+        13
+      ],
+      "hebrew": "מָשִׁיחַ",
+      "transliteration": "mâshîyach",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "To pour oil on a person or thing to set it apart. Kings and priests were anointed.",
+      "grammar": "This is the dictionary form of Hebrew word H4899. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H4899",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-anoint",
@@ -314,7 +435,36 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-remnant-2-H3499-remnant",
+      "label": "Remnant",
+      "matches": [
+        "remnant"
+      ],
+      "chapter": 2,
+      "verses": [
+        8
+      ],
+      "hebrew": "יֶתֶר",
+      "transliteration": "yether",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "The part of a people that survives a disaster.",
+      "grammar": "This is the dictionary form of Hebrew word H3499. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H3499",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-remnant",
@@ -335,7 +485,36 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-parable-2-H4912-parable",
+      "label": "Parable",
+      "matches": [
+        "parable"
+      ],
+      "chapter": 2,
+      "verses": [
+        6
+      ],
+      "hebrew": "מָשָׁל",
+      "transliteration": "mâshâl",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A short story or comparison that teaches a point.",
+      "grammar": "This is the dictionary form of Hebrew word H4912. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H4912",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-parable",
@@ -357,7 +536,38 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-selah-3-H5542-selah",
+      "label": "Selah",
+      "matches": [
+        "Selah"
+      ],
+      "chapter": 3,
+      "verses": [
+        3,
+        9,
+        13
+      ],
+      "hebrew": "סֶלָה",
+      "transliteration": "çelâh",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A word in the Psalms whose meaning is not known. It may mark a pause.",
+      "grammar": "This is the dictionary form of Hebrew word H5542. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H5542",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-selah",
@@ -378,7 +588,8 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
     }
   ],
   "guides": [

@@ -7,7 +7,7 @@
       "summary": "All fourteen chapters appear in the reading text.",
       "category": "Scripture",
       "perspective": "historical",
-      "limits": "The guide preserves the WEB wording. Family comparisons do not supply a complete household biography.",
+      "limits": "This edition keeps the WEB wording. Family comparisons do not give a full household biography.",
       "author": "World English Bible translators",
       "publisher": "eBible.org",
       "chapterCoverage": [
@@ -31,7 +31,7 @@
         "scope": "All 197 verses read from cached publisher text. Chapter verse counts and character integrity checked."
       },
       "type": "Scripture",
-      "limitations": "The guide preserves the WEB wording. Family comparisons do not supply a complete household biography.",
+      "limitations": "This edition keeps the WEB wording. Family comparisons do not give a full household biography.",
       "license": "Public domain"
     },
     {
@@ -81,6 +81,34 @@
       "type": "LDS Come, Follow Me",
       "limitations": "Applied Hosea notes cover chapters 1–3, 6, and 14. Its later Christian applications remain in the LDS perspective.",
       "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "strong",
+      "title": "A Concise Dictionary of the Words in the Hebrew Bible",
+      "author": "James Strong · Open Scriptures XML edition",
+      "year": "1894 / digital edition",
+      "perspective": "historical",
+      "category": "Historical lexicon",
+      "url": "https://github.com/openscriptures/strongs",
+      "summary": "Lists Hebrew dictionary forms and their possible meanings. Use it with the passage to study a word.",
+      "limits": "This is an older dictionary. Compare its meanings with the passage. A list of meanings alone cannot show which one applies.",
+      "license": "Source XML declares Public Domain. Only selected headwords are used.",
+      "type": "Historical lexicon",
+      "limitations": "This is an older dictionary. Compare its meanings with the passage. A list of meanings alone cannot show which one applies."
+    },
+    {
+      "id": "oshb",
+      "title": "Open Scriptures Hebrew Bible",
+      "author": "Open Scriptures contributors / Westminster Leningrad Codex",
+      "year": "Digital edition",
+      "perspective": "historical",
+      "category": "Hebrew text",
+      "url": "https://hb.openscriptures.org/",
+      "summary": "Provides the Hebrew text and word identifiers. This study guide uses these to check selected words against their verses.",
+      "limits": "The app checks selected words, not every English–Hebrew match. It shows Hebrew dictionary forms. The forms in the verses can differ.",
+      "license": "Hebrew text public domain; lemma/morphology data CC BY 4.0. Original work of the Open Scriptures Hebrew Bible, https://hb.openscriptures.org/.",
+      "type": "Hebrew text",
+      "limitations": "The app checks selected words, not every English–Hebrew match. It shows Hebrew dictionary forms. The forms in the verses can differ."
     }
   ],
   "passages": [
@@ -93,7 +121,7 @@
       "summary": "The LORD’s word comes to Hosea in the days of King Jeroboam of Israel. God tells him to marry an unfaithful woman, since the land is unfaithful. He marries Gomer, and she has three children. The first is named Jezreel, for blood shed there. The second is named “No Mercy.” The third is named “Not My People.” Yet Israel will one day be as many as the sand. Where they were called “not my people,” they will be called God’s children.",
       "year": null,
       "dateLabel": "Book order",
-      "uncertainty": "This chapter has no mapped places. Uncertain sites and unnamed settings remain unmapped.",
+      "uncertainty": "This chapter has no mapped places. Unnamed or uncertain settings stay off the map.",
       "placeIds": [],
       "sourceIds": [
         "web"
@@ -122,7 +150,7 @@
       "summary": "God speaks of Israel as a wife who has gone after other lovers. She thinks they gave her bread, wool, oil, and drink. She does not know that God gave her the grain and the wine. He will block her path and take back his gifts. Then he will lead her into the desert and speak kindly to her. She will call him “my husband.” He will betroth her to himself forever. He will say to “Not My People,” “You are my people.”",
       "year": null,
       "dateLabel": "Book order",
-      "uncertainty": "Markers locate selected named references. Warnings and comparisons do not establish traveled routes.",
+      "uncertainty": "Markers show named places from the speeches. They do not show a route.",
       "placeIds": [
         "egypt"
       ],
@@ -153,7 +181,7 @@
       "summary": "The LORD tells Hosea to love a woman again, though she is unfaithful. This is how the LORD loves Israel, who turn to other gods. Hosea buys her for silver and barley. He tells her to stay with him many days and belong to no other man. He will wait for her in the same way. Israel too will live many days without king or sacrifice. Afterward they will return and seek the LORD and David their king.",
       "year": null,
       "dateLabel": "Book order",
-      "uncertainty": "This chapter has no mapped places. Uncertain sites and unnamed settings remain unmapped.",
+      "uncertainty": "This chapter has no mapped places. Unnamed or uncertain settings stay off the map.",
       "placeIds": [],
       "sourceIds": [
         "web"
@@ -182,7 +210,7 @@
       "summary": "The LORD brings a charge against the people of the land. There is no truth, kindness, or knowledge of God. There is cursing, lying, murder, theft, and adultery. The land mourns, and even the animals waste away. God’s dispute is with the priests. His people are destroyed for lack of knowledge. The priests feed on the people’s sin. God will not punish the daughters, since the men themselves go to prostitutes.",
       "year": null,
       "dateLabel": "Book order",
-      "uncertainty": "This chapter has no mapped places. Uncertain sites and unnamed settings remain unmapped.",
+      "uncertainty": "This chapter has no mapped places. Unnamed or uncertain settings stay off the map.",
       "placeIds": [],
       "sourceIds": [
         "web"
@@ -209,7 +237,7 @@
       "summary": "God calls the priests, the people, and the royal house to listen. They have been a trap for others. Their deeds will not let them return to God. They will seek the LORD with flocks and not find him. Judah’s leaders are like men who move boundary stones. God is like a moth to Ephraim and like rot to Judah. Ephraim saw its sickness and sent to the king of Assyria. He cannot heal them, and God will wait until they seek him.",
       "year": null,
       "dateLabel": "Book order",
-      "uncertainty": "This chapter has no mapped places. Uncertain sites and unnamed settings remain unmapped.",
+      "uncertainty": "This chapter has no mapped places. Unnamed or uncertain settings stay off the map.",
       "placeIds": [],
       "sourceIds": [
         "web"
@@ -236,7 +264,7 @@
       "summary": "The people say, “Let’s return to the LORD.” He has torn them, and he will heal them. He will revive them and come like the spring rain. God answers by asking what he can do with them. Their love is like a morning cloud and like dew that soon vanishes. He desires mercy and not sacrifice. He wants knowledge of God more than burnt offerings. Instead they have broken the covenant, and priests murder on the road.",
       "year": null,
       "dateLabel": "Book order",
-      "uncertainty": "This chapter has no mapped places. Uncertain sites and unnamed settings remain unmapped.",
+      "uncertainty": "This chapter has no mapped places. Unnamed or uncertain settings stay off the map.",
       "placeIds": [],
       "sourceIds": [
         "web"
@@ -265,7 +293,7 @@
       "summary": "God would heal Israel, but its guilt keeps coming to light. Thieves break in, and bands raid outside. The people do not consider that God remembers. Plotters are like an oven that smolders all night and blazes at dawn. All their kings have fallen, and none calls on God. Ephraim is like a cake baked on one side. Ephraim is like a silly dove, calling to Egypt and flying to Assyria. God will spread his net over them.",
       "year": null,
       "dateLabel": "Book order",
-      "uncertainty": "Markers locate selected named references. Warnings and comparisons do not establish traveled routes.",
+      "uncertainty": "Markers show named places from the speeches. They do not show a route.",
       "placeIds": [
         "samaria",
         "egypt"
@@ -295,7 +323,7 @@
       "summary": "A trumpet warns that an enemy is coming like an eagle. Israel cries that it knows God, yet it has rejected what is good. The people set up kings without asking God. They made idols of silver and gold. God rejects the calf of Samaria. A workman made it, and it is not God. They sow the wind and will reap the whirlwind. Israel has forgotten its Maker and built palaces.",
       "year": null,
       "dateLabel": "Book order",
-      "uncertainty": "Markers locate selected named references. Warnings and comparisons do not establish traveled routes.",
+      "uncertainty": "Markers show named places from the speeches. They do not show a route.",
       "placeIds": [
         "samaria",
         "egypt"
@@ -325,7 +353,7 @@
       "summary": "Hosea tells Israel not to rejoice at the harvest. The people have been unfaithful on every threshing floor. They will not stay in the LORD’s land. They will return to Egypt and eat unclean food in Assyria. They will have no offerings to bring on feast days. The days of reckoning have come. The people call the prophet a fool and the inspired man mad. Their children will be lost, and they will wander among the nations.",
       "year": null,
       "dateLabel": "Book order",
-      "uncertainty": "Markers locate selected named references. Warnings and comparisons do not establish traveled routes.",
+      "uncertainty": "Markers show named places from the speeches. They do not show a route.",
       "placeIds": [
         "egypt"
       ],
@@ -354,7 +382,7 @@
       "summary": "Israel is a spreading vine that bears much fruit. The more it prospered, the more altars it built. Its heart is divided. The calf of Bethel will be carried to Assyria as a gift. Samaria’s king will vanish like a twig on water. God tells them to sow righteousness and reap kindness. They must break up their unplowed ground and seek the LORD. Instead they have plowed wickedness and trusted in their soldiers.",
       "year": null,
       "dateLabel": "Book order",
-      "uncertainty": "Markers locate selected named references. Warnings and comparisons do not establish traveled routes.",
+      "uncertainty": "Markers show named places from the speeches. They do not show a route.",
       "placeIds": [
         "samaria"
       ],
@@ -383,7 +411,7 @@
       "summary": "God says he loved Israel as a child and called his son out of Egypt. The more he called, the more they went away. He taught Ephraim to walk and carried them in his arms. He bent down and fed them. Now they refuse to return, and the sword will come. Then God asks how he can give them up. His heart turns over, and his compassion grows warm. He will roar like a lion, and his children will come trembling home.",
       "year": null,
       "dateLabel": "Book order",
-      "uncertainty": "Markers locate selected named references. Warnings and comparisons do not establish traveled routes.",
+      "uncertainty": "Markers show named places from the speeches. They do not show a route.",
       "placeIds": [
         "egypt"
       ],
@@ -413,7 +441,7 @@
       "summary": "Ephraim chases the wind and makes treaties with Assyria and Egypt. The LORD has a charge against Judah and Jacob. In the womb Jacob grasped his brother’s heel. As a man he struggled with God, wept, and asked for favor. So the people must turn to their God. They must keep kindness and justice and wait for him. A merchant with false scales loves to cheat. Ephraim says its wealth proves it has done no wrong.",
       "year": null,
       "dateLabel": "Book order",
-      "uncertainty": "Markers locate selected named references. Warnings and comparisons do not establish traveled routes.",
+      "uncertainty": "Markers show named places from the speeches. They do not show a route.",
       "placeIds": [
         "egypt"
       ],
@@ -442,7 +470,7 @@
       "summary": "Ephraim once spoke and others trembled, but he died through Baal. Now the people make silver idols and kiss calves. They will vanish like morning mist. Yet the LORD has been their God since Egypt. He cared for them in the desert. When they were fed, they grew proud and forgot him. So he will meet them like a lion and a bear. Their kings cannot save them, and Samaria will bear its guilt.",
       "year": null,
       "dateLabel": "Book order",
-      "uncertainty": "Markers locate selected named references. Warnings and comparisons do not establish traveled routes.",
+      "uncertainty": "Markers show named places from the speeches. They do not show a route.",
       "placeIds": [
         "samaria",
         "egypt"
@@ -472,7 +500,7 @@
       "summary": "Hosea calls Israel to return to the LORD. He tells them to bring words with them. They should ask God to forgive and accept their praise. They should say that Assyria cannot save them. They will not trust horses or call their handmade things gods. God says he will heal them and love them freely. He will be like dew to Israel. Israel will blossom like a lily and spread like an olive tree.",
       "year": null,
       "dateLabel": "Book order",
-      "uncertainty": "This chapter has no mapped places. Uncertain sites and unnamed settings remain unmapped.",
+      "uncertainty": "This chapter has no mapped places. Unnamed or uncertain settings stay off the map.",
       "placeIds": [],
       "sourceIds": [
         "web"
@@ -503,7 +531,7 @@
       "summary": "The LORD’s word comes to Hosea in the days of King Jeroboam of Israel. God tells him to marry an unfaithful woman, since the land is unfaithful. He marries Gomer, and she has three children. The first is named Jezreel, for blood shed there. The second is named “No Mercy.” The third is named “Not My People.” Yet Israel will one day be as many as the sand. Where they were called “not my people,” they will be called God’s children.",
       "detail": "Each child’s name carries a message people hear daily. The names grow harsher: a place of bloodshed, then no mercy. Verse 9 gives the third name and its reason. God says, “you are not my people.” That reverses his promise at the exodus (Exodus 6:7). Verse 10 begins with “Yet” and turns at once. It repeats the promise to Abraham of countless descendants (Genesis 22:17).",
       "dateLabel": "Book order",
-      "uncertainty": "This chapter has no mapped places. Uncertain sites and unnamed settings remain unmapped.",
+      "uncertainty": "This chapter has no mapped places. Unnamed or uncertain settings stay off the map.",
       "sourceIds": [
         "web"
       ],
@@ -524,7 +552,7 @@
       "summary": "God speaks of Israel as a wife who has gone after other lovers. She thinks they gave her bread, wool, oil, and drink. She does not know that God gave her the grain and the wine. He will block her path and take back his gifts. Then he will lead her into the desert and speak kindly to her. She will call him “my husband.” He will betroth her to himself forever. He will say to “Not My People,” “You are my people.”",
       "detail": "The chapter says “therefore” three times (verses 6, 9, 14). The first two announce loss. The third surprises: God will court her again in the desert. Verses 19–20 list what he brings to the betrothal. He gives righteousness, justice, loving kindness, compassion, and faithfulness. These are the qualities the marriage lacked. Verse 23 then reverses the children’s names from chapter 1.",
       "dateLabel": "Book order",
-      "uncertainty": "Markers locate selected named references. Warnings and comparisons do not establish traveled routes.",
+      "uncertainty": "Markers show named places from the speeches. They do not show a route.",
       "sourceIds": [
         "web"
       ],
@@ -547,7 +575,7 @@
       "summary": "The LORD tells Hosea to love a woman again, though she is unfaithful. This is how the LORD loves Israel, who turn to other gods. Hosea buys her for silver and barley. He tells her to stay with him many days and belong to no other man. He will wait for her in the same way. Israel too will live many days without king or sacrifice. Afterward they will return and seek the LORD and David their king.",
       "detail": "This chapter is five verses long. Hosea pays partly in silver and partly in grain (verse 2). He then sets a time of waiting with no intimacy (verse 3). Verse 4 applies that to the nation. Israel will lose king, sacrifice, sacred stone, and idols alike. Both its proper supports and its false ones are removed. Verse 5 says the waiting ends in return, so it is a pause.",
       "dateLabel": "Book order",
-      "uncertainty": "This chapter has no mapped places. Uncertain sites and unnamed settings remain unmapped.",
+      "uncertainty": "This chapter has no mapped places. Unnamed or uncertain settings stay off the map.",
       "sourceIds": [
         "web"
       ],
@@ -568,7 +596,7 @@
       "summary": "The LORD brings a charge against the people of the land. There is no truth, kindness, or knowledge of God. There is cursing, lying, murder, theft, and adultery. The land mourns, and even the animals waste away. God’s dispute is with the priests. His people are destroyed for lack of knowledge. The priests feed on the people’s sin. God will not punish the daughters, since the men themselves go to prostitutes.",
       "detail": "Verse 6 says the people perish for lack of knowledge. The lack is no accident. The priests have “rejected” knowledge and “forgotten” God’s law. Teaching was their work (Malachi 2:7). Verse 8 says they profit from the people’s sins. Verse 14 refuses to blame the women alone. The men lead in the wrong, so the daughters are not singled out.",
       "dateLabel": "Book order",
-      "uncertainty": "This chapter has no mapped places. Uncertain sites and unnamed settings remain unmapped.",
+      "uncertainty": "This chapter has no mapped places. Unnamed or uncertain settings stay off the map.",
       "sourceIds": [
         "web"
       ],
@@ -587,7 +615,7 @@
       "summary": "God calls the priests, the people, and the royal house to listen. They have been a trap for others. Their deeds will not let them return to God. They will seek the LORD with flocks and not find him. Judah’s leaders are like men who move boundary stones. God is like a moth to Ephraim and like rot to Judah. Ephraim saw its sickness and sent to the king of Assyria. He cannot heal them, and God will wait until they seek him.",
       "detail": "Verse 12 says God himself is the moth and the rot. The nation’s sickness comes from him. In verse 13 Ephraim notices the illness and chooses a doctor. It goes to Assyria and sends to King Jareb. Second Kings 15:19 and 17:3 record such payments. Assyria cannot cure what God is causing. Verse 15 says God will withdraw until they admit their guilt.",
       "dateLabel": "Book order",
-      "uncertainty": "This chapter has no mapped places. Uncertain sites and unnamed settings remain unmapped.",
+      "uncertainty": "This chapter has no mapped places. Unnamed or uncertain settings stay off the map.",
       "sourceIds": [
         "web"
       ],
@@ -606,7 +634,7 @@
       "summary": "The people say, “Let’s return to the LORD.” He has torn them, and he will heal them. He will revive them and come like the spring rain. God answers by asking what he can do with them. Their love is like a morning cloud and like dew that soon vanishes. He desires mercy and not sacrifice. He wants knowledge of God more than burnt offerings. Instead they have broken the covenant, and priests murder on the road.",
       "detail": "The words of verses 1–3 sound like true repentance. God’s reply in verse 4 is weary. The people expect him to be as sure as rain. Their own love lasts as long as mist. Verse 6 names what he wants: steady loving kindness, not offerings. Jesus quotes this verse twice (Matthew 9:13; 12:7). Verses 8–9 show what the people are still doing.",
       "dateLabel": "Book order",
-      "uncertainty": "This chapter has no mapped places. Uncertain sites and unnamed settings remain unmapped.",
+      "uncertainty": "This chapter has no mapped places. Unnamed or uncertain settings stay off the map.",
       "sourceIds": [
         "web"
       ],
@@ -627,7 +655,7 @@
       "summary": "God would heal Israel, but its guilt keeps coming to light. Thieves break in, and bands raid outside. The people do not consider that God remembers. Plotters are like an oven that smolders all night and blazes at dawn. All their kings have fallen, and none calls on God. Ephraim is like a cake baked on one side. Ephraim is like a silly dove, calling to Egypt and flying to Assyria. God will spread his net over them.",
       "detail": "Two pictures explain the kingdom’s failure. Verses 4–7 show an oven: plots heat up overnight and burn by morning. Second Kings 15 records four kings murdered in a few years. Verse 11 shows a dove that flutters between two empires. It has no fixed direction. Verse 9 adds that foreigners drain Ephraim’s strength unnoticed. Inside there is heat, and outside there is aimless flight.",
       "dateLabel": "Book order",
-      "uncertainty": "Markers locate selected named references. Warnings and comparisons do not establish traveled routes.",
+      "uncertainty": "Markers show named places from the speeches. They do not show a route.",
       "sourceIds": [
         "web"
       ],
@@ -649,7 +677,7 @@
       "summary": "A trumpet warns that an enemy is coming like an eagle. Israel cries that it knows God, yet it has rejected what is good. The people set up kings without asking God. They made idols of silver and gold. God rejects the calf of Samaria. A workman made it, and it is not God. They sow the wind and will reap the whirlwind. Israel has forgotten its Maker and built palaces.",
       "detail": "Verse 6 makes its case in a few words. A workman made the calf, so it is not God. The verse adds that it came “from Israel.” The idol is homemade. First Kings 12:28 tells how the calves were set up. Verse 4 says the same about the kings: made by the people, not by God. What people make for themselves cannot save its makers.",
       "dateLabel": "Book order",
-      "uncertainty": "Markers locate selected named references. Warnings and comparisons do not establish traveled routes.",
+      "uncertainty": "Markers show named places from the speeches. They do not show a route.",
       "sourceIds": [
         "web"
       ],
@@ -671,7 +699,7 @@
       "summary": "Hosea tells Israel not to rejoice at the harvest. The people have been unfaithful on every threshing floor. They will not stay in the LORD’s land. They will return to Egypt and eat unclean food in Assyria. They will have no offerings to bring on feast days. The days of reckoning have come. The people call the prophet a fool and the inspired man mad. Their children will be lost, and they will wander among the nations.",
       "detail": "The setting is a harvest festival (verse 1). Hosea says the celebration will end. Verses 3–5 link land and worship. In a foreign land there will be no wine offering and no feast. Verse 7 then shows how the nation treats its prophets. It calls them fools and madmen. The verse gives the cause: the people’s great guilt and hostility.",
       "dateLabel": "Book order",
-      "uncertainty": "Markers locate selected named references. Warnings and comparisons do not establish traveled routes.",
+      "uncertainty": "Markers show named places from the speeches. They do not show a route.",
       "sourceIds": [
         "web"
       ],
@@ -692,7 +720,7 @@
       "summary": "Israel is a spreading vine that bears much fruit. The more it prospered, the more altars it built. Its heart is divided. The calf of Bethel will be carried to Assyria as a gift. Samaria’s king will vanish like a twig on water. God tells them to sow righteousness and reap kindness. They must break up their unplowed ground and seek the LORD. Instead they have plowed wickedness and trusted in their soldiers.",
       "detail": "This chapter speaks in farming terms throughout. Verse 1 says prosperity fed the building of altars. Verse 12 describes a different crop. The people must sow what is right and break new ground. Unplowed ground takes hard work to open. Then they must wait for God to send rain. Verse 13 says what they planted in its place: wickedness and lies.",
       "dateLabel": "Book order",
-      "uncertainty": "Markers locate selected named references. Warnings and comparisons do not establish traveled routes.",
+      "uncertainty": "Markers show named places from the speeches. They do not show a route.",
       "sourceIds": [
         "web"
       ],
@@ -713,7 +741,7 @@
       "summary": "God says he loved Israel as a child and called his son out of Egypt. The more he called, the more they went away. He taught Ephraim to walk and carried them in his arms. He bent down and fed them. Now they refuse to return, and the sword will come. Then God asks how he can give them up. His heart turns over, and his compassion grows warm. He will roar like a lion, and his children will come trembling home.",
       "detail": "Verses 1–4 are a parent’s memories of a small child. Verse 8 asks four questions in a row. God seems to argue with himself. Admah and Zeboiim were destroyed with Sodom (Deuteronomy 29:23). Verse 9 gives his reason for holding back. He is God and not a man. In verse 10 the lion’s roar calls the children home.",
       "dateLabel": "Book order",
-      "uncertainty": "Markers locate selected named references. Warnings and comparisons do not establish traveled routes.",
+      "uncertainty": "Markers show named places from the speeches. They do not show a route.",
       "sourceIds": [
         "web",
         "couey-hosea-11"
@@ -735,7 +763,7 @@
       "summary": "Ephraim chases the wind and makes treaties with Assyria and Egypt. The LORD has a charge against Judah and Jacob. In the womb Jacob grasped his brother’s heel. As a man he struggled with God, wept, and asked for favor. So the people must turn to their God. They must keep kindness and justice and wait for him. A merchant with false scales loves to cheat. Ephraim says its wealth proves it has done no wrong.",
       "detail": "Hosea holds up Jacob as a mirror for his descendants. Jacob began as a grasper (verse 3). He also wrestled, wept, and sought God’s favor (verse 4). Verse 6 says “Therefore” and applies it. The people must turn as he did. It names three duties: kindness, justice, and waiting. Verses 7–8 show the opposite: false scales and pride in wealth.",
       "dateLabel": "Book order",
-      "uncertainty": "Markers locate selected named references. Warnings and comparisons do not establish traveled routes.",
+      "uncertainty": "Markers show named places from the speeches. They do not show a route.",
       "sourceIds": [
         "web"
       ],
@@ -756,7 +784,7 @@
       "summary": "Ephraim once spoke and others trembled, but he died through Baal. Now the people make silver idols and kiss calves. They will vanish like morning mist. Yet the LORD has been their God since Egypt. He cared for them in the desert. When they were fed, they grew proud and forgot him. So he will meet them like a lion and a bear. Their kings cannot save them, and Samaria will bear its guilt.",
       "detail": "Verse 4 states God’s claim: no savior exists besides him. Verse 5 recalls his care in a dry land. Verse 6 traces what went wrong in four steps. They were fed, they were satisfied, they grew proud, and they forgot. Deuteronomy 8:11–14 warned of that very sequence. Forgetting after such care is worse than never knowing. Verses 7–8 show the shepherd become a wild beast.",
       "dateLabel": "Book order",
-      "uncertainty": "Markers locate selected named references. Warnings and comparisons do not establish traveled routes.",
+      "uncertainty": "Markers show named places from the speeches. They do not show a route.",
       "sourceIds": [
         "web"
       ],
@@ -778,7 +806,7 @@
       "summary": "Hosea calls Israel to return to the LORD. He tells them to bring words with them. They should ask God to forgive and accept their praise. They should say that Assyria cannot save them. They will not trust horses or call their handmade things gods. God says he will heal them and love them freely. He will be like dew to Israel. Israel will blossom like a lily and spread like an olive tree.",
       "detail": "Verses 2–3 give the people a prayer to say. It gives up three false helps named through the book. They are Assyria, war horses, and gods made by hand. Verse 4 gives God’s answer: he will love them “freely.” Their words do not buy it. In 6:4 dew stood for Israel’s vanishing love. In verse 5 God himself is the dew that makes them grow.",
       "dateLabel": "Book order",
-      "uncertainty": "This chapter has no mapped places. Uncertain sites and unnamed settings remain unmapped.",
+      "uncertainty": "This chapter has no mapped places. Unnamed or uncertain settings stay off the map.",
       "sourceIds": [
         "web"
       ],
@@ -797,34 +825,210 @@
       "name": "Samaria",
       "lat": 32.276,
       "lng": 35.194,
-      "summary": "Samaria appears in accusations and warnings about failed royal and religious protection.",
-      "limits": "Approximate city or broad region marker. It does not trace a journey or establish a precise battle site.",
+      "summary": "The LORD speaks about Samaria in chapters 7, 8, 10, and 13. He names its lies and its calf idol. He says Samaria and its king will float away like a twig. It will fall by the sword.",
+      "limits": "The marker shows the city or its wider region. The text gives no exact spot.",
       "sourceIds": [
         "web"
       ],
-      "detail": "Samaria appears in accusations and warnings about failed royal and religious protection.",
-      "uncertainty": "Approximate city or broad region marker. It does not trace a journey or establish a precise battle site.",
-      "chapterLocation": true
+      "detail": "The LORD speaks about Samaria in chapters 7, 8, 10, and 13. He names its lies and its calf idol. He says Samaria and its king will float away like a twig. It will fall by the sword.",
+      "uncertainty": "The marker shows the city or its wider region. The text gives no exact spot.",
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H8111",
+        "key": "Samaria",
+        "checkedVerses": 6,
+        "example": [
+          7,
+          1
+        ],
+        "hebrew": "שֹׁמְרוֹן",
+        "transliteration": "Shômᵉrôwn",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "egypt",
       "name": "Egypt",
       "lat": 30.05,
       "lng": 31.23,
-      "summary": "Egypt appears in memories of rescue, foreign appeals, and warnings about displacement.",
-      "limits": "Approximate city or broad region marker. It does not trace a journey or establish a precise battle site.",
+      "summary": "Egypt comes up in chapters 2, 7, 8, 9, 11, 12, and 13. The LORD recalls Israel’s rescue from Egypt. He says Ephraim calls to Egypt for help. He warns that Israel will return to Egypt, where Memphis will bury them.",
+      "limits": "The marker shows the whole land of Egypt, not one site. Chapter 11 says Israel will not return there. Chapters 8 and 9 say it will.",
       "sourceIds": [
         "web"
       ],
-      "detail": "Egypt appears in memories of rescue, foreign appeals, and warnings about displacement.",
-      "uncertainty": "Approximate city or broad region marker. It does not trace a journey or establish a precise battle site.",
-      "chapterLocation": true
+      "detail": "Egypt comes up in chapters 2, 7, 8, 9, 11, 12, and 13. The LORD recalls Israel’s rescue from Egypt. He says Ephraim calls to Egypt for help. He warns that Israel will return to Egypt, where Memphis will bury them.",
+      "uncertainty": "The marker shows the whole land of Egypt, not one site. Chapter 11 says Israel will not return there. Chapters 8 and 9 say it will.",
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H4714",
+        "key": "Egypt",
+        "checkedVerses": 13,
+        "example": [
+          2,
+          15
+        ],
+        "hebrew": "מִצְרַיִם",
+        "transliteration": "Mitsrayim",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     }
   ],
   "campaigns": [],
   "ancientRoads": [],
   "regions": [],
   "words": [
+    {
+      "id": "glossary-covenant-10-H1285-covenants",
+      "label": "Covenant",
+      "matches": [
+        "covenants"
+      ],
+      "chapter": 10,
+      "verses": [
+        4
+      ],
+      "hebrew": "בְּרִית",
+      "transliteration": "bᵉrîyth",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A binding agreement with promises and duties. In the Bible, God makes covenants with people.",
+      "grammar": "This is the dictionary form of Hebrew word H1285. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H1285",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-covenant-2-H1285-covenant",
+      "label": "Covenant",
+      "matches": [
+        "covenant"
+      ],
+      "chapter": 2,
+      "verses": [
+        18
+      ],
+      "hebrew": "בְּרִית",
+      "transliteration": "bᵉrîyth",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A binding agreement with promises and duties. In the Bible, God makes covenants with people.",
+      "grammar": "This is the dictionary form of Hebrew word H1285. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H1285",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-covenant-6-H1285-covenant",
+      "label": "Covenant",
+      "matches": [
+        "covenant"
+      ],
+      "chapter": 6,
+      "verses": [
+        7
+      ],
+      "hebrew": "בְּרִית",
+      "transliteration": "bᵉrîyth",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A binding agreement with promises and duties. In the Bible, God makes covenants with people.",
+      "grammar": "This is the dictionary form of Hebrew word H1285. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H1285",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-covenant-8-H1285-covenant",
+      "label": "Covenant",
+      "matches": [
+        "covenant"
+      ],
+      "chapter": 8,
+      "verses": [
+        1
+      ],
+      "hebrew": "בְּרִית",
+      "transliteration": "bᵉrîyth",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A binding agreement with promises and duties. In the Bible, God makes covenants with people.",
+      "grammar": "This is the dictionary form of Hebrew word H1285. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H1285",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-covenant-12-H1285-covenant",
+      "label": "Covenant",
+      "matches": [
+        "covenant"
+      ],
+      "chapter": 12,
+      "verses": [
+        1
+      ],
+      "hebrew": "בְּרִית",
+      "transliteration": "bᵉrîyth",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A binding agreement with promises and duties. In the Bible, God makes covenants with people.",
+      "grammar": "This is the dictionary form of Hebrew word H1285. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H1285",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
     {
       "id": "glossary-covenant",
       "label": "Covenant",
@@ -845,7 +1049,36 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-sabbath-2-H7676-sabbaths",
+      "label": "Sabbath",
+      "matches": [
+        "Sabbaths"
+      ],
+      "chapter": 2,
+      "verses": [
+        11
+      ],
+      "hebrew": "שַׁבָּת",
+      "transliteration": "shabbâth",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "The seventh day of the week, kept as a day of rest.",
+      "grammar": "This is the dictionary form of Hebrew word H7676. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H7676",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-sabbath",
@@ -867,7 +1100,8 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
     },
     {
       "id": "glossary-assembly",
@@ -889,7 +1123,121 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-baal-2-H1168-baals",
+      "label": "Baal",
+      "matches": [
+        "Baals"
+      ],
+      "chapter": 2,
+      "verses": [
+        13,
+        17
+      ],
+      "hebrew": "בַּעַל",
+      "transliteration": "Baʻal",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A god worshiped by Israel’s neighbors. The prophets condemn Israel for serving him.",
+      "grammar": "This is the dictionary form of Hebrew word H1168. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H1168",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-baal-11-H1168-baals",
+      "label": "Baal",
+      "matches": [
+        "Baals"
+      ],
+      "chapter": 11,
+      "verses": [
+        2
+      ],
+      "hebrew": "בַּעַל",
+      "transliteration": "Baʻal",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A god worshiped by Israel’s neighbors. The prophets condemn Israel for serving him.",
+      "grammar": "This is the dictionary form of Hebrew word H1168. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H1168",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-baal-2-H1168-baal",
+      "label": "Baal",
+      "matches": [
+        "Baal"
+      ],
+      "chapter": 2,
+      "verses": [
+        8
+      ],
+      "hebrew": "בַּעַל",
+      "transliteration": "Baʻal",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A god worshiped by Israel’s neighbors. The prophets condemn Israel for serving him.",
+      "grammar": "This is the dictionary form of Hebrew word H1168. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H1168",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-baal-13-H1168-baal",
+      "label": "Baal",
+      "matches": [
+        "Baal"
+      ],
+      "chapter": 13,
+      "verses": [
+        1
+      ],
+      "hebrew": "בַּעַל",
+      "transliteration": "Baʻal",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A god worshiped by Israel’s neighbors. The prophets condemn Israel for serving him.",
+      "grammar": "This is the dictionary form of Hebrew word H1168. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H1168",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-baal",
@@ -911,7 +1259,36 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-ephod-3-H646-ephod",
+      "label": "Ephod",
+      "matches": [
+        "ephod"
+      ],
+      "chapter": 3,
+      "verses": [
+        4
+      ],
+      "hebrew": "אֵפוֹד",
+      "transliteration": "ʼêphôwd",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A garment worn by priests. The high priest’s ephod carried a breastplate with twelve stones (Exodus 28).",
+      "grammar": "This is the dictionary form of Hebrew word H646. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H646",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-ephod",
@@ -932,7 +1309,36 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-sheol-13-H7585-sheol",
+      "label": "Sheol",
+      "matches": [
+        "Sheol"
+      ],
+      "chapter": 13,
+      "verses": [
+        14
+      ],
+      "hebrew": "שְׁאוֹל",
+      "transliteration": "shᵉʼôwl",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "The Hebrew name for the place of the dead.",
+      "grammar": "This is the dictionary form of Hebrew word H7585. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H7585",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-sheol",
@@ -953,7 +1359,36 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-redeem-7-H6299-redeem",
+      "label": "Redeem",
+      "matches": [
+        "redeem"
+      ],
+      "chapter": 7,
+      "verses": [
+        13
+      ],
+      "hebrew": "פָּדָה",
+      "transliteration": "pâdâh",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "To buy back a person or property. The word is also used for God’s rescue of people.",
+      "grammar": "This is the dictionary form of Hebrew word H6299. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H6299",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-redeem",
@@ -978,7 +1413,36 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-unclean-9-H2931-unclean",
+      "label": "Unclean",
+      "matches": [
+        "unclean"
+      ],
+      "chapter": 9,
+      "verses": [
+        3
+      ],
+      "hebrew": "טָמֵא",
+      "transliteration": "ṭâmêʼ",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "Unfit to take part in worship until a set cleansing is done. Leviticus 11–15 gives the rules.",
+      "grammar": "This is the dictionary form of Hebrew word H2931. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H2931",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-unclean",
@@ -1000,7 +1464,8 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
     },
     {
       "id": "glossary-parable",
@@ -1022,7 +1487,36 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-yeast-7-H2556-leavened",
+      "label": "Yeast",
+      "matches": [
+        "leavened"
+      ],
+      "chapter": 7,
+      "verses": [
+        4
+      ],
+      "hebrew": "חָמֵץ",
+      "transliteration": "châmêts",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "Yeast, or leaven, makes dough rise. Bread made without it is called unleavened.",
+      "grammar": "This is the dictionary form of Hebrew word H2556. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H2556",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-yeast",
@@ -1046,7 +1540,8 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
     }
   ],
   "guides": [
@@ -1118,9 +1613,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "This chapter has no mapped places. Uncertain sites and unnamed settings remain unmapped.",
+      "note": "This chapter has no mapped places. Unnamed or uncertain settings stay off the map.",
       "narrative": "The LORD’s word comes to Hosea in the days of King Jeroboam of Israel. God tells him to marry an unfaithful woman, since the land is unfaithful. He marries Gomer, and she has three children. The first is named Jezreel, for blood shed there. The second is named “No Mercy.” The third is named “Not My People.” Yet Israel will one day be as many as the sand. Where they were called “not my people,” they will be called God’s children.",
-      "limits": "This chapter has no mapped places. Uncertain sites and unnamed settings remain unmapped.",
+      "limits": "This chapter has no mapped places. Unnamed or uncertain settings stay off the map.",
       "sourceIds": [
         "web"
       ]
@@ -1138,9 +1633,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "Markers locate selected named references. Warnings and comparisons do not establish traveled routes.",
+      "note": "Markers show named places from the speeches. They do not show a route.",
       "narrative": "God speaks of Israel as a wife who has gone after other lovers. She thinks they gave her bread, wool, oil, and drink. She does not know that God gave her the grain and the wine. He will block her path and take back his gifts. Then he will lead her into the desert and speak kindly to her. She will call him “my husband.” He will betroth her to himself forever. He will say to “Not My People,” “You are my people.”",
-      "limits": "Markers locate selected named references. Warnings and comparisons do not establish traveled routes.",
+      "limits": "Markers show named places from the speeches. They do not show a route.",
       "sourceIds": [
         "web"
       ]
@@ -1154,9 +1649,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "This chapter has no mapped places. Uncertain sites and unnamed settings remain unmapped.",
+      "note": "This chapter has no mapped places. Unnamed or uncertain settings stay off the map.",
       "narrative": "The LORD tells Hosea to love a woman again, though she is unfaithful. This is how the LORD loves Israel, who turn to other gods. Hosea buys her for silver and barley. He tells her to stay with him many days and belong to no other man. He will wait for her in the same way. Israel too will live many days without king or sacrifice. Afterward they will return and seek the LORD and David their king.",
-      "limits": "This chapter has no mapped places. Uncertain sites and unnamed settings remain unmapped.",
+      "limits": "This chapter has no mapped places. Unnamed or uncertain settings stay off the map.",
       "sourceIds": [
         "web"
       ]
@@ -1170,9 +1665,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "This chapter has no mapped places. Uncertain sites and unnamed settings remain unmapped.",
+      "note": "This chapter has no mapped places. Unnamed or uncertain settings stay off the map.",
       "narrative": "The LORD brings a charge against the people of the land. There is no truth, kindness, or knowledge of God. There is cursing, lying, murder, theft, and adultery. The land mourns, and even the animals waste away. God’s dispute is with the priests. His people are destroyed for lack of knowledge. The priests feed on the people’s sin. God will not punish the daughters, since the men themselves go to prostitutes.",
-      "limits": "This chapter has no mapped places. Uncertain sites and unnamed settings remain unmapped.",
+      "limits": "This chapter has no mapped places. Unnamed or uncertain settings stay off the map.",
       "sourceIds": [
         "web"
       ]
@@ -1186,9 +1681,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "This chapter has no mapped places. Uncertain sites and unnamed settings remain unmapped.",
+      "note": "This chapter has no mapped places. Unnamed or uncertain settings stay off the map.",
       "narrative": "God calls the priests, the people, and the royal house to listen. They have been a trap for others. Their deeds will not let them return to God. They will seek the LORD with flocks and not find him. Judah’s leaders are like men who move boundary stones. God is like a moth to Ephraim and like rot to Judah. Ephraim saw its sickness and sent to the king of Assyria. He cannot heal them, and God will wait until they seek him.",
-      "limits": "This chapter has no mapped places. Uncertain sites and unnamed settings remain unmapped.",
+      "limits": "This chapter has no mapped places. Unnamed or uncertain settings stay off the map.",
       "sourceIds": [
         "web"
       ]
@@ -1202,9 +1697,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "This chapter has no mapped places. Uncertain sites and unnamed settings remain unmapped.",
+      "note": "This chapter has no mapped places. Unnamed or uncertain settings stay off the map.",
       "narrative": "The people say, “Let’s return to the LORD.” He has torn them, and he will heal them. He will revive them and come like the spring rain. God answers by asking what he can do with them. Their love is like a morning cloud and like dew that soon vanishes. He desires mercy and not sacrifice. He wants knowledge of God more than burnt offerings. Instead they have broken the covenant, and priests murder on the road.",
-      "limits": "This chapter has no mapped places. Uncertain sites and unnamed settings remain unmapped.",
+      "limits": "This chapter has no mapped places. Unnamed or uncertain settings stay off the map.",
       "sourceIds": [
         "web"
       ]
@@ -1224,9 +1719,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "Markers locate selected named references. Warnings and comparisons do not establish traveled routes.",
+      "note": "Markers show named places from the speeches. They do not show a route.",
       "narrative": "God would heal Israel, but its guilt keeps coming to light. Thieves break in, and bands raid outside. The people do not consider that God remembers. Plotters are like an oven that smolders all night and blazes at dawn. All their kings have fallen, and none calls on God. Ephraim is like a cake baked on one side. Ephraim is like a silly dove, calling to Egypt and flying to Assyria. God will spread his net over them.",
-      "limits": "Markers locate selected named references. Warnings and comparisons do not establish traveled routes.",
+      "limits": "Markers show named places from the speeches. They do not show a route.",
       "sourceIds": [
         "web"
       ]
@@ -1246,9 +1741,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "Markers locate selected named references. Warnings and comparisons do not establish traveled routes.",
+      "note": "Markers show named places from the speeches. They do not show a route.",
       "narrative": "A trumpet warns that an enemy is coming like an eagle. Israel cries that it knows God, yet it has rejected what is good. The people set up kings without asking God. They made idols of silver and gold. God rejects the calf of Samaria. A workman made it, and it is not God. They sow the wind and will reap the whirlwind. Israel has forgotten its Maker and built palaces.",
-      "limits": "Markers locate selected named references. Warnings and comparisons do not establish traveled routes.",
+      "limits": "Markers show named places from the speeches. They do not show a route.",
       "sourceIds": [
         "web"
       ]
@@ -1266,9 +1761,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "Markers locate selected named references. Warnings and comparisons do not establish traveled routes.",
+      "note": "Markers show named places from the speeches. They do not show a route.",
       "narrative": "Hosea tells Israel not to rejoice at the harvest. The people have been unfaithful on every threshing floor. They will not stay in the LORD’s land. They will return to Egypt and eat unclean food in Assyria. They will have no offerings to bring on feast days. The days of reckoning have come. The people call the prophet a fool and the inspired man mad. Their children will be lost, and they will wander among the nations.",
-      "limits": "Markers locate selected named references. Warnings and comparisons do not establish traveled routes.",
+      "limits": "Markers show named places from the speeches. They do not show a route.",
       "sourceIds": [
         "web"
       ]
@@ -1286,9 +1781,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "Markers locate selected named references. Warnings and comparisons do not establish traveled routes.",
+      "note": "Markers show named places from the speeches. They do not show a route.",
       "narrative": "Israel is a spreading vine that bears much fruit. The more it prospered, the more altars it built. Its heart is divided. The calf of Bethel will be carried to Assyria as a gift. Samaria’s king will vanish like a twig on water. God tells them to sow righteousness and reap kindness. They must break up their unplowed ground and seek the LORD. Instead they have plowed wickedness and trusted in their soldiers.",
-      "limits": "Markers locate selected named references. Warnings and comparisons do not establish traveled routes.",
+      "limits": "Markers show named places from the speeches. They do not show a route.",
       "sourceIds": [
         "web"
       ]
@@ -1306,9 +1801,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "Markers locate selected named references. Warnings and comparisons do not establish traveled routes.",
+      "note": "Markers show named places from the speeches. They do not show a route.",
       "narrative": "God says he loved Israel as a child and called his son out of Egypt. The more he called, the more they went away. He taught Ephraim to walk and carried them in his arms. He bent down and fed them. Now they refuse to return, and the sword will come. Then God asks how he can give them up. His heart turns over, and his compassion grows warm. He will roar like a lion, and his children will come trembling home.",
-      "limits": "Markers locate selected named references. Warnings and comparisons do not establish traveled routes.",
+      "limits": "Markers show named places from the speeches. They do not show a route.",
       "sourceIds": [
         "web",
         "couey-hosea-11"
@@ -1327,9 +1822,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "Markers locate selected named references. Warnings and comparisons do not establish traveled routes.",
+      "note": "Markers show named places from the speeches. They do not show a route.",
       "narrative": "Ephraim chases the wind and makes treaties with Assyria and Egypt. The LORD has a charge against Judah and Jacob. In the womb Jacob grasped his brother’s heel. As a man he struggled with God, wept, and asked for favor. So the people must turn to their God. They must keep kindness and justice and wait for him. A merchant with false scales loves to cheat. Ephraim says its wealth proves it has done no wrong.",
-      "limits": "Markers locate selected named references. Warnings and comparisons do not establish traveled routes.",
+      "limits": "Markers show named places from the speeches. They do not show a route.",
       "sourceIds": [
         "web"
       ]
@@ -1349,9 +1844,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "Markers locate selected named references. Warnings and comparisons do not establish traveled routes.",
+      "note": "Markers show named places from the speeches. They do not show a route.",
       "narrative": "Ephraim once spoke and others trembled, but he died through Baal. Now the people make silver idols and kiss calves. They will vanish like morning mist. Yet the LORD has been their God since Egypt. He cared for them in the desert. When they were fed, they grew proud and forgot him. So he will meet them like a lion and a bear. Their kings cannot save them, and Samaria will bear its guilt.",
-      "limits": "Markers locate selected named references. Warnings and comparisons do not establish traveled routes.",
+      "limits": "Markers show named places from the speeches. They do not show a route.",
       "sourceIds": [
         "web"
       ]
@@ -1365,9 +1860,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "This chapter has no mapped places. Uncertain sites and unnamed settings remain unmapped.",
+      "note": "This chapter has no mapped places. Unnamed or uncertain settings stay off the map.",
       "narrative": "Hosea calls Israel to return to the LORD. He tells them to bring words with them. They should ask God to forgive and accept their praise. They should say that Assyria cannot save them. They will not trust horses or call their handmade things gods. God says he will heal them and love them freely. He will be like dew to Israel. Israel will blossom like a lily and spread like an olive tree.",
-      "limits": "This chapter has no mapped places. Uncertain sites and unnamed settings remain unmapped.",
+      "limits": "This chapter has no mapped places. Unnamed or uncertain settings stay off the map.",
       "sourceIds": [
         "web"
       ]

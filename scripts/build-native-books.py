@@ -3,6 +3,7 @@ import json,re,time
 from bible_source_enrichment import enrich
 from book_copy import revise
 from book_context import enrich_context
+from book_words import glossary_words,name_words
 from pathlib import Path
 ROOT=Path(__file__).resolve().parent.parent
 D=ROOT/'dist';OUT=D/'data/books'
@@ -51,9 +52,14 @@ for entry in json.loads((OUT/'directory.json').read_text(encoding='utf-8')):
     step=max(1,count//3)
     for i,(a,z) in enumerate([(1,step),(step+1,step*2),(step*2+1,count)]):content['periods'].append(dict(id=f'part-{i}',label=f'{name} {a}–{z}',start=a,end=z,description='Chapter order'))
     content['guides']=[b['contextGuide']]
-    # Plain-meaning glossary terms that occur in this book. They are not Hebrew or Greek word studies.
-    haystack=' '.join(v['text'] for ch in b['scripture'].values() for v in ch)+' '+' '.join(c['summary']+' '+c['meaning'] for c in b['chapters'])
-    content['words']=[dict(id='glossary-'+g['id'],label=g['label'],matches=g['matches'],chapter=None,verses=[],hebrew='',transliteration='',greek='',greekNote='',meaning=g['meaning'],grammar='',discussion='',sourceIds=['web'],related=[],scope='glossary') for g in glossary if re.search(r'\b(?:'+'|'.join(map(re.escape,g['matches']))+r')\b',haystack)]
+    # Glossary terms that occur in this book. Verse entries add a Hebrew or Greek dictionary form checked against that verse.
+    content['words'],word_sources=glossary_words(b,glossary)
+    # Names of people and places get the dictionary form found in a verse that names them.
+    person_words,place_words,name_sources=name_words(b)
+    for place in content['places']:
+        if place['id'] in place_words:place['word']=place_words[place['id']]
+    for s in word_sources+name_sources:
+        if not any(x['id']==s['id'] for x in content['sources']):content['sources'].append(dict(s,type=s['category'],limitations=s['limits']))
     write(OUT/f'{slug}-native-content.json',content)
     write(OUT/f'{slug}-native-scripture.json',dict(translation=b['translation'],copyright=b['copyright'],chapters=b['scripture']))
     profiles={p['id']:dict(name=p['name'],role=p['role'],life=p['life'],dateNote='Historical life dates remain uncertain.',locations=[next(q for q in b['places'] if q['id']==pid)['name'] for pid in p.get('placeIds',[])],passages=[p['passages']],importance=p['meaning'],connections=p['relations'],verseScope=p.get('verseScope',{})) for p in b['people']}
@@ -64,6 +70,7 @@ for entry in json.loads((OUT/'directory.json').read_text(encoding='utf-8')):
         chapter_ids=set(c['chapter'] for c in b['chapters'] if p['id'] in c['people'])
         for m in re.finditer(r'(?:'+re.escape(name)+r'\s+|;\s*)(\d+)(?:[–-](\d+))?(?=:|;|$)',p['passages']):chapter_ids.update(range(int(m[1]),int(m[2] or m[1])+1))
         profiles[p['id']]['chapterIds']=sorted(chapter_ids)
+        if p['id'] in person_words:profiles[p['id']]['word']=person_words[p['id']]
     pm=portraits
     pm=re.sub(r'export const people = \{.*?\n\};',lambda _: 'export const people = '+json.dumps(profiles,ensure_ascii=False)+';',pm,count=1,flags=re.S)
     pm=re.sub(r'const featurePeople = \{.*?\n\};',lambda _: 'const featurePeople = '+json.dumps(feature_people,ensure_ascii=False)+';',pm,count=1,flags=re.S)
@@ -76,8 +83,8 @@ for entry in json.loads((OUT/'directory.json').read_text(encoding='utf-8')):
     # Match Isaiah: generated art has no repeated credit beneath each portrait.
     # Keep licensed artwork credits and descriptive image alt text.
     write_text(D/f'book-{slug}-portraits.js',pm)
-    app=native.replace("'./portraits.js'",f"'./book-{slug}-portraits.js?v=20261009.1'").replace('Isaiah',name).replace('ISA${',code+'${')
-    app=app.replace("const releaseVersion = '20261009.1';", "const releaseVersion = '20261009.2';")
+    app=native.replace("'./portraits.js'",f"'./book-{slug}-portraits.js?v=20261009.3'").replace('Isaiah',name).replace('ISA${',code+'${')
+    app=app.replace("const releaseVersion = '20261009.3';", "const releaseVersion = '20261009.4';")
     # Psalms uses three-digit publisher chapter filenames.
     if code=='PSA':app=app.replace("String(chapter).padStart(2, '0')", "String(chapter).padStart(3, '0')")
     # Added books have one complete Scripture source, not Isaiah's chapter sources.
@@ -128,6 +135,9 @@ for entry in json.loads((OUT/'directory.json').read_text(encoding='utf-8')):
     app=app.replace("${esc(p.summary)}${cite(ids)}", "${linkedEntityHtml(p.summary)}${cite(ids)}")
     app=app.replace('for (const [id, person] of Object.entries(people)) {','for (const [id, person] of Object.entries(people)) {\n    if (!person.chapterIds.includes(state.chapter)) continue;')
     app=app.replace('function entityLinkTerms() {','function entityLinkTerms(verse = null) {')
+    # A verse links to the entry checked for that verse. Other text uses the chapter entry or the plain entry.
+    app=app.replace("const words = data.words.filter(word => word.scope === 'glossary' || Number(word.chapter) === state.chapter);", "const words = data.words.filter(word => word.chapter == null || (Number(word.chapter) === state.chapter && (verse == null ? word.chapterDefault : word.verses.includes(verse))));")
+    app=app.replace("for (const label of [word.label, ...(word.matches || [])]) add(label, 'word', word.id, word.label);", "for (const label of word.chapter == null ? [word.label, ...(word.matches || [])] : word.matches) add(label, 'word', word.id, word.label);")
     app=app.replace('entityLinkCache.chapter === state.chapter && entityLinkCache.terms.length','entityLinkCache.chapter === state.chapter && entityLinkCache.verse === verse && entityLinkCache.terms.length')
     app=app.replace('entityLinkCache = {chapter:state.chapter, terms:','entityLinkCache = {chapter:state.chapter, verse, terms:')
     app=app.replace('const terms = entityLinkTerms().filter(', 'const terms = entityLinkTerms(options.verse ?? null).filter(')
@@ -140,6 +150,6 @@ html=(D/'index.html').read_text(encoding='utf-8')
 html=re.sub(r'  <meta (?:property="og:[^\n]+|name="twitter:[^\n]+)\n','',html)
 html=re.sub(r'  <link rel="canonical"[^\n]+\n','',html)
 html=html.replace('<title>Isaiah Study Guide</title>','<title>Bible Study Guide</title>').replace('<b>ISAIAH<small>STUDY GUIDE</small></b>','<b id="bookBrand">BIBLE<small>STUDY GUIDE</small></b>')
-html=html.replace('app.js?v=20261009.1','native-book.js?v=20261009.1')
+html=html.replace('app.js?v=20261009.3','native-book.js?v=20261009.3')
 html=html.replace('<span class="map-label label-assyria">ASSYRIA</span><span class="map-label label-judah">JUDAH</span>','')
 write_text(D/'book.html',html)

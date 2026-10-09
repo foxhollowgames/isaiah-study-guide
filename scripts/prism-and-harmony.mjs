@@ -61,7 +61,7 @@ export function addPrismAndHarmony(content) {
       author: 'British Museum · museum number 91032', year: '691 BCE', type: 'Primary evidence · museum record',
       url: 'https://www.britishmuseum.org/collection/object/W_1855-1003-1',
       summary: 'The Taylor Prism preserves an Assyrian royal account. The museum dates this object to 691 BCE. The campaign against Judah occurred in 701 BCE. The photograph shows two views of one object.',
-      limitations: 'The Taylor, Chicago, and Jerusalem prisms are separate objects. Their dates must not be used as the date of the campaign. The royal account promotes Sennacherib’s rule.',
+      limitations: 'The Taylor, Chicago, and Jerusalem prisms are separate objects. Do not use their dates as the date of the campaign. The royal account promotes Sennacherib’s rule.',
       reviewed: reviewed + 'Object identity and date checked in the museum’s indexed collection record. Direct access to the object page returned HTTP 403. Photograph and public-domain release checked on Wikimedia Commons.',
       license: 'Museum record linked only. Photograph by David Castor, released into the public domain by its creator.'
     },
@@ -81,7 +81,7 @@ export function addPrismAndHarmony(content) {
       author: 'Laura A. Peri · The Israel Museum, Jerusalem', year: '2025 exhibition page · object dated 691 BCE', type: 'Museum scholarship',
       url: 'https://imj.org.il/en/exhibitions/special-display-assyrian-campaign-judah-told-sennacherib-prism',
       summary: 'The museum identifies its Jerusalem Prism as IMJ 71.72.249, from Nineveh. Its display page links the royal account with Isaiah 36–37. It also links it with 2 Kings 18–19 and 2 Chronicles 32. The page links to a translation, sign copy, object record, and campaign notes. The museum says the text does not clearly describe an attack on Jerusalem.',
-      limitations: 'This page concerns the Jerusalem object, not the Taylor Prism. The linked translation pages returned no readable text during this check. Their full contents were not reviewed. Confinement language alone does not establish the details of military operations.',
+      limitations: 'This page concerns the Jerusalem object, not the Taylor Prism. The linked translation pages returned no readable text during this check. Their full contents were not reviewed. Words about shutting a king in do not show how the army fought.',
       reviewed: reviewed + 'English exhibition text and object metadata reviewed.', license: linked
     },
     {

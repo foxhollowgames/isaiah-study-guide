@@ -4,10 +4,10 @@
       "id": "web",
       "title": "Galatians · World English Bible",
       "url": "https://ebible.org/engwebp/GAL01.htm",
-      "summary": "All six chapters supply the primary text for original close readings.",
+      "summary": "All six chapters are the main text for original close readings.",
       "category": "Scripture",
       "perspective": "historical",
-      "limits": "Paul’s reported disputes remain his account. Original manuscripts, exact dates, opponents’ identities, Greek vocabulary, and harmony with Acts were not independently verified. Hagar and Jerusalem remain part of Paul’s stated symbolic comparison rather than an independent description of Jewish belief.",
+      "limits": "Paul’s accounts of his disputes are his own view. The guide did not check manuscripts, exact dates, or who his opponents were. It did not check the Greek words or any match with Acts. Hagar and Jerusalem are part of Paul’s own comparison. They are not an independent description of Jewish belief.",
       "author": "World English Bible translators",
       "publisher": "eBible.org",
       "chapterCoverage": [
@@ -23,17 +23,17 @@
         "scope": "All 149 verses read for six original contextual explanations and exact selections. Surroundings, counts, and character integrity checked."
       },
       "type": "Scripture",
-      "limitations": "Paul’s reported disputes remain his account. Original manuscripts, exact dates, opponents’ identities, Greek vocabulary, and harmony with Acts were not independently verified. Hagar and Jerusalem remain part of Paul’s stated symbolic comparison rather than an independent description of Jewish belief.",
+      "limitations": "Paul’s accounts of his disputes are his own view. The guide did not check manuscripts, exact dates, or who his opponents were. It did not check the Greek words or any match with Acts. Hagar and Jerusalem are part of Paul’s own comparison. They are not an independent description of Jewish belief.",
       "license": "Public domain"
     },
     {
       "id": "works-galatians",
       "title": "Commentary on Galatians 3:23-29",
       "url": "https://www.workingpreacher.org/commentaries/revised-common-lectionary/ordinary-12-3/commentary-on-galatians-323-29-5",
-      "summary": "Works reads shared belonging through Christ within continuing difference.",
+      "summary": "Works reads shared belonging through Christ alongside continuing difference.",
       "category": "Scholarly study",
       "perspective": "historical",
-      "limits": "This is Works’ interpretation. Her broader historical account of household guardians, baptismal practice, slavery, and the later church was not independently verified. Linked commentaries and podcasts were not reviewed.",
+      "limits": "This is Works’ own reading. The guide did not check her wider history of household guardians or baptism. It did not check her history of slavery or the later church. It did not review the linked commentaries and podcasts.",
       "author": "Carla Works",
       "publisher": "Luther Seminary",
       "year": 2022,
@@ -45,17 +45,17 @@
         "scope": "Complete commentary body read. The guide attributes her reading of shared belonging within continuing difference. Opponents’ exact positions remain a reconstruction rather than an independently preserved reply."
       },
       "type": "Scholarly study",
-      "limitations": "This is Works’ interpretation. Her broader historical account of household guardians, baptismal practice, slavery, and the later church was not independently verified. Linked commentaries and podcasts were not reviewed.",
+      "limitations": "This is Works’ own reading. The guide did not check her wider history of household guardians or baptism. It did not check her history of slavery or the later church. It did not review the linked commentaries and podcasts.",
       "license": "Linked source. Original guide summaries."
     },
     {
       "id": "cfm-nt-2023-40",
       "title": "September 25–October 1 · Galatians",
       "url": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-sunday-school-new-testament-2023/40?lang=eng",
-      "summary": "The lesson studies freedom, the Spirit’s fruit, and patient work.",
+      "summary": "The lesson studies freedom, the fruit of the Spirit, and patient work.",
       "category": "LDS Come, Follow Me",
       "perspective": "lds",
-      "limits": "Coverage follows actual chapter discussion. The lesson does not independently review chapter two. Included Hinckley and Soares passages were read here, not in their complete original works.",
+      "limits": "Coverage follows the chapters the lesson discusses. The lesson does not review chapter two on its own. The guide read the Hinckley and Soares passages as quoted there. It did not read their full original works.",
       "author": "The Church of Jesus Christ of Latter-day Saints",
       "publisher": "The Church of Jesus Christ of Latter-day Saints",
       "year": 2023,
@@ -71,7 +71,7 @@
         "scope": "Complete lesson body and included resources read. Linked full talks, manuals, videos, and Restoration passages were not independently reviewed."
       },
       "type": "LDS Come, Follow Me",
-      "limitations": "Coverage follows actual chapter discussion. The lesson does not independently review chapter two. Included Hinckley and Soares passages were read here, not in their complete original works.",
+      "limitations": "Coverage follows the chapters the lesson discusses. The lesson does not review chapter two on its own. The guide read the Hinckley and Soares passages as quoted there. It did not read their full original works.",
       "license": "Linked source. Original guide summaries."
     },
     {
@@ -80,20 +80,20 @@
       "perspective": "historical",
       "category": "Geography",
       "url": "https://www.churchofjesuschrist.org/study/scriptures/bible-maps/map-10?lang=eng",
-      "summary": "This Church-published atlas identifies towns and regions in Canaan.",
-      "limits": "Existing selected reference coordinates only. The earlier review record remains unchanged. This source does not verify Gospel events or exact routes.",
+      "summary": "This Church-published atlas names towns and regions in Canaan.",
+      "limits": "It supplies only the chosen reference coordinates. The earlier review record is unchanged. This source does not confirm Gospel events or exact routes.",
       "type": "Geography",
-      "limitations": "Existing selected reference coordinates only. The earlier review record remains unchanged. This source does not verify Gospel events or exact routes.",
+      "limitations": "It supplies only the chosen reference coordinates. The earlier review record is unchanged. This source does not confirm Gospel events or exact routes.",
       "license": "Linked source. Original guide summaries."
     },
     {
       "id": "net-acts-map",
       "title": "NET Bible · selected Acts location references",
       "url": "https://classic.net.bible.org/dictionary.php?word=Antioch",
-      "summary": "Selected opening descriptions and coordinates distinguish cities named in Acts.",
+      "summary": "Opening descriptions and coordinates mark the cities named in Acts.",
       "category": "Geographic reference",
       "perspective": "historical",
-      "limits": "Broad reference points do not verify ancient events, travel paths, buildings, or coastlines. Older encyclopedia claims about authorship, law, populations, and exact dates were not adopted.",
+      "limits": "These broad points do not confirm ancient events, travel paths, buildings, or coastlines. The guide did not adopt older encyclopedia claims about authorship, law, population, or exact dates.",
       "author": "NET Bible editors and linked reference contributors",
       "publisher": "Bible.org",
       "year": null,
@@ -128,8 +128,36 @@
         }
       ],
       "type": "Geographic reference",
-      "limitations": "Broad reference points do not verify ancient events, travel paths, buildings, or coastlines. Older encyclopedia claims about authorship, law, populations, and exact dates were not adopted.",
+      "limitations": "These broad points do not confirm ancient events, travel paths, buildings, or coastlines. The guide did not adopt older encyclopedia claims about authorship, law, population, or exact dates.",
       "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "strong-greek",
+      "title": "A Concise Dictionary of the Words in the Greek Testament",
+      "author": "James Strong · Open Scriptures XML edition",
+      "year": "1890 / digital edition",
+      "perspective": "historical",
+      "category": "Historical lexicon",
+      "url": "https://github.com/openscriptures/strongs",
+      "summary": "Lists Greek dictionary forms and their possible meanings. Use it with the passage to study a word.",
+      "limits": "This is an older dictionary. Compare its meanings with the passage. A list of meanings alone cannot show which one applies.",
+      "license": "Source XML declares Public Domain. Only selected headwords are used.",
+      "type": "Historical lexicon",
+      "limitations": "This is an older dictionary. Compare its meanings with the passage. A list of meanings alone cannot show which one applies."
+    },
+    {
+      "id": "byz",
+      "title": "The New Testament in the Original Greek: Byzantine Textform",
+      "author": "Maurice A. Robinson and William G. Pierpont",
+      "year": "2018 digital edition",
+      "perspective": "historical",
+      "category": "Greek text",
+      "url": "https://github.com/byztxt/byzantine-majority-text",
+      "summary": "Provides a Greek New Testament text with dictionary numbers. This study guide uses these to check selected words against their verses.",
+      "limits": "The app checks selected words, not every English–Greek match. It shows Greek dictionary forms. The forms in the verses can differ. Other Greek editions differ in some verses.",
+      "license": "Public domain.",
+      "type": "Greek text",
+      "limitations": "The app checks selected words, not every English–Greek match. It shows Greek dictionary forms. The forms in the verses can differ. Other Greek editions differ in some verses."
     }
   ],
   "passages": [
@@ -142,7 +170,7 @@
       "summary": "Paul writes to the assemblies of Galatia as an apostle sent by Jesus Christ. He gives no thanks. He is amazed that they are turning so quickly to a different good news. He says anyone who brings another message is cursed. His message did not come from a human source. He once persecuted the assembly and advanced in Judaism. God called him, and he went to Arabia, not to Jerusalem. After three years he visited Peter for fifteen days and saw James.",
       "year": null,
       "dateLabel": "Book order",
-      "uncertainty": "Markers show named earthly cities in Paul’s memories and comparison. Jerusalem above and Mount Sinai have no invented location.",
+      "uncertainty": "Markers show the cities Paul names in his memories. Mount Sinai and the Jerusalem above have no point.",
       "placeIds": [
         "jerusalem",
         "damascus"
@@ -174,7 +202,7 @@
       "summary": "After fourteen years Paul goes to Jerusalem with Barnabas and Titus. Titus, a Greek, is not forced to be circumcised. James, Peter, and John give Paul and Barnabas the right hand of fellowship. They ask only that he remember the poor. In Antioch Peter eats with Gentiles, then draws back when men come from James. Barnabas is carried along too. Paul rebukes Peter before everyone. He says a person is justified by faith in Christ, not by law.",
       "year": null,
       "dateLabel": "Book order",
-      "uncertainty": "Markers show named earthly cities in Paul’s memories and comparison. Jerusalem above and Mount Sinai have no invented location.",
+      "uncertainty": "Markers show the cities Paul names in his memories. Mount Sinai and the Jerusalem above have no point.",
       "placeIds": [
         "jerusalem",
         "antioch-syria"
@@ -204,7 +232,7 @@
       "summary": "Paul calls the Galatians foolish and asks how they received the Spirit. It was by hearing with faith, not by works of the law. Abraham believed God, and those of faith are his children. The law curses all who fail to keep it, and Christ redeemed us. The promise to Abraham came 430 years before the law. The law cannot cancel it. The law was a tutor to bring us to Christ. In Christ there is neither Jew nor Greek, slave nor free, male nor female.",
       "year": null,
       "dateLabel": "Book order",
-      "uncertainty": "Markers show named earthly cities in Paul’s memories and comparison. Jerusalem above and Mount Sinai have no invented location.",
+      "uncertainty": "Markers show the cities Paul names in his memories. Mount Sinai and the Jerusalem above have no point.",
       "placeIds": [],
       "sourceIds": [
         "web",
@@ -234,7 +262,7 @@
       "summary": "Paul says an heir who is a child is no different from a servant. God sent his Son, born of a woman, to redeem those under the law. Now they are sons and call God Abba, Father. He asks why they turn back to weak principles and observe days and seasons. He recalls how they welcomed him when he was ill. He is in labor again until Christ is formed in them. Then he tells of Abraham’s two sons, by Hagar and by the free woman. He says believers are children of the free woman.",
       "year": null,
       "dateLabel": "Book order",
-      "uncertainty": "Markers show named earthly cities in Paul’s memories and comparison. Jerusalem above and Mount Sinai have no invented location.",
+      "uncertainty": "Markers show the cities Paul names in his memories. Mount Sinai and the Jerusalem above have no point.",
       "placeIds": [
         "jerusalem"
       ],
@@ -265,7 +293,7 @@
       "summary": "Paul tells the Galatians to stand firm in freedom. If they accept circumcision, they must keep the whole law. What counts is faith working through love. He says a little yeast leavens the whole lump. They were called to freedom, to serve one another through love. The whole law is fulfilled in loving a neighbor as oneself. He lists the works of the flesh and then the fruit of the Spirit. The fruit is love, joy, peace, patience, kindness, goodness, faith, gentleness, and self-control.",
       "year": null,
       "dateLabel": "Book order",
-      "uncertainty": "Markers show named earthly cities in Paul’s memories and comparison. Jerusalem above and Mount Sinai have no invented location.",
+      "uncertainty": "Markers show the cities Paul names in his memories. Mount Sinai and the Jerusalem above have no point.",
       "placeIds": [],
       "sourceIds": [
         "web"
@@ -294,7 +322,7 @@
       "summary": "Paul tells the spiritual to restore gently anyone caught in a fault. They should bear one another’s burdens. Each should test his own work and carry his own load. A person reaps what he sows, to the flesh or to the Spirit. They should not grow tired of doing good, especially to the household of faith. Paul writes the ending in large letters with his own hand. He says those pressing circumcision want to avoid persecution. He will boast only in the cross, and a new creation is what counts.",
       "year": null,
       "dateLabel": "Book order",
-      "uncertainty": "Markers show named earthly cities in Paul’s memories and comparison. Jerusalem above and Mount Sinai have no invented location.",
+      "uncertainty": "Markers show the cities Paul names in his memories. Mount Sinai and the Jerusalem above have no point.",
       "placeIds": [],
       "sourceIds": [
         "web"
@@ -325,7 +353,7 @@
       "summary": "Paul writes to the assemblies of Galatia as an apostle sent by Jesus Christ. He gives no thanks. He is amazed that they are turning so quickly to a different good news. He says anyone who brings another message is cursed. His message did not come from a human source. He once persecuted the assembly and advanced in Judaism. God called him, and he went to Arabia, not to Jerusalem. After three years he visited Peter for fifteen days and saw James.",
       "detail": "Verse 11 says Paul’s good news is not of human origin. Verse 12 denies two human routes: he neither received it nor was taught it. It came through revelation of Jesus Christ. The rest of the chapter gives evidence from his movements. He did not consult anyone or go to Jerusalem (verses 16–17). His first visit came three years later and lasted fifteen days (verse 18). Verse 20 swears before God that this is no lie.",
       "dateLabel": "Book order",
-      "uncertainty": "Markers show named earthly cities in Paul’s memories and comparison. Jerusalem above and Mount Sinai have no invented location.",
+      "uncertainty": "Markers show the cities Paul names in his memories. Mount Sinai and the Jerusalem above have no point.",
       "sourceIds": [
         "web"
       ],
@@ -349,7 +377,7 @@
       "summary": "After fourteen years Paul goes to Jerusalem with Barnabas and Titus. Titus, a Greek, is not forced to be circumcised. James, Peter, and John give Paul and Barnabas the right hand of fellowship. They ask only that he remember the poor. In Antioch Peter eats with Gentiles, then draws back when men come from James. Barnabas is carried along too. Paul rebukes Peter before everyone. He says a person is justified by faith in Christ, not by law.",
       "detail": "Verse 12 gives the facts: Peter ate with Gentiles and then withdrew in fear. Verse 13 says the other Jewish believers and Barnabas followed him. Verse 14 names the fault: not walking by the truth of the good news. Paul answers “before them all.” His question points to the gap. Peter himself had lived like a Gentile. Now his withdrawal pressed Gentiles to live like Jews.",
       "dateLabel": "Book order",
-      "uncertainty": "Markers show named earthly cities in Paul’s memories and comparison. Jerusalem above and Mount Sinai have no invented location.",
+      "uncertainty": "Markers show the cities Paul names in his memories. Mount Sinai and the Jerusalem above have no point.",
       "sourceIds": [
         "web"
       ],
@@ -371,7 +399,7 @@
       "summary": "Paul calls the Galatians foolish and asks how they received the Spirit. It was by hearing with faith, not by works of the law. Abraham believed God, and those of faith are his children. The law curses all who fail to keep it, and Christ redeemed us. The promise to Abraham came 430 years before the law. The law cannot cancel it. The law was a tutor to bring us to Christ. In Christ there is neither Jew nor Greek, slave nor free, male nor female.",
       "detail": "The dispute is who counts as Abraham’s offspring and heir. Verse 16 says the promised offspring is Christ. Verse 17 says the later law cannot cancel that promise. Verses 26–28 say all who are baptized into Christ are one in him. Verse 29 draws the conclusion in two steps. If they belong to Christ, they are Abraham’s offspring. If offspring, they are heirs by promise.",
       "dateLabel": "Book order",
-      "uncertainty": "Markers show named earthly cities in Paul’s memories and comparison. Jerusalem above and Mount Sinai have no invented location.",
+      "uncertainty": "Markers show the cities Paul names in his memories. Mount Sinai and the Jerusalem above have no point.",
       "sourceIds": [
         "web",
         "works-galatians"
@@ -393,7 +421,7 @@
       "summary": "Paul says an heir who is a child is no different from a servant. God sent his Son, born of a woman, to redeem those under the law. Now they are sons and call God Abba, Father. He asks why they turn back to weak principles and observe days and seasons. He recalls how they welcomed him when he was ill. He is in labor again until Christ is formed in them. Then he tells of Abraham’s two sons, by Hagar and by the free woman. He says believers are children of the free woman.",
       "detail": "Verse 21 addresses those who want to be under the law. Paul answers them from the law’s own account of Abraham (verse 22). Verse 24 says plainly that he reads it as an allegory. The two women stand for two covenants, and Hagar stands for Sinai. Verse 26 sets the free Jerusalem above against her. This is Paul’s comparison for this dispute, not a verdict on a people. Verse 31 gives its point: believers are children of the free woman.",
       "dateLabel": "Book order",
-      "uncertainty": "Markers show named earthly cities in Paul’s memories and comparison. Jerusalem above and Mount Sinai have no invented location.",
+      "uncertainty": "Markers show the cities Paul names in his memories. Mount Sinai and the Jerusalem above have no point.",
       "sourceIds": [
         "web"
       ],
@@ -416,7 +444,7 @@
       "summary": "Paul tells the Galatians to stand firm in freedom. If they accept circumcision, they must keep the whole law. What counts is faith working through love. He says a little yeast leavens the whole lump. They were called to freedom, to serve one another through love. The whole law is fulfilled in loving a neighbor as oneself. He lists the works of the flesh and then the fruit of the Spirit. The fruit is love, joy, peace, patience, kindness, goodness, faith, gentleness, and self-control.",
       "detail": "Verse 1 said Christ set them free and warned against a yoke of bondage. Verse 13 guards that freedom from the other side. Freedom must not become an opening for the flesh. The verse then tells free people to be servants to one another. Love is the means. Verse 14 gives the reason: the whole law is fulfilled in loving a neighbor. Verse 15 shows the alternative: biting and devouring until they consume each other.",
       "dateLabel": "Book order",
-      "uncertainty": "Markers show named earthly cities in Paul’s memories and comparison. Jerusalem above and Mount Sinai have no invented location.",
+      "uncertainty": "Markers show the cities Paul names in his memories. Mount Sinai and the Jerusalem above have no point.",
       "sourceIds": [
         "web"
       ],
@@ -437,7 +465,7 @@
       "summary": "Paul tells the spiritual to restore gently anyone caught in a fault. They should bear one another’s burdens. Each should test his own work and carry his own load. A person reaps what he sows, to the flesh or to the Spirit. They should not grow tired of doing good, especially to the household of faith. Paul writes the ending in large letters with his own hand. He says those pressing circumcision want to avoid persecution. He will boast only in the cross, and a new creation is what counts.",
       "detail": "Verse 1 gives a case: someone is caught in a fault. Those who restore him must be gentle and watch themselves. Verse 2 widens the case to a rule: bear one another’s burdens. It calls this fulfilling “the law of Christ.” The letter has argued against the law as a requirement for Gentiles. Here Paul names a law they do keep, and 5:14 called it love. Verse 5 adds that each still carries his own load.",
       "dateLabel": "Book order",
-      "uncertainty": "Markers show named earthly cities in Paul’s memories and comparison. Jerusalem above and Mount Sinai have no invented location.",
+      "uncertainty": "Markers show the cities Paul names in his memories. Mount Sinai and the Jerusalem above have no point.",
       "sourceIds": [
         "web"
       ],
@@ -456,8 +484,8 @@
       "name": "Jerusalem",
       "lat": 31.778,
       "lng": 35.235,
-      "summary": "Jerusalem appears in Paul’s remembered visits and his later symbolic comparison.",
-      "limits": "Approximate reference marker. It identifies no exact house, road, execution site, or ancient border.",
+      "summary": "Paul went up to Jerusalem to visit Peter in chapter 1. He went again with Barnabas and Titus in chapter 2. In chapter 4 he sets the Jerusalem that exists now beside the Jerusalem above.",
+      "limits": "The marker shows the city’s general location. The Jerusalem above has no map point.",
       "sourceIds": [
         "web",
         "atlas-canaan"
@@ -467,47 +495,163 @@
           25
         ]
       },
-      "detail": "Jerusalem appears in Paul’s remembered visits and his later symbolic comparison.",
-      "uncertainty": "Approximate reference marker. It identifies no exact house, road, execution site, or ancient border.",
-      "chapterLocation": true
+      "detail": "Paul went up to Jerusalem to visit Peter in chapter 1. He went again with Barnabas and Titus in chapter 2. In chapter 4 he sets the Jerusalem that exists now beside the Jerusalem above.",
+      "uncertainty": "The marker shows the city’s general location. The Jerusalem above has no map point.",
+      "chapterLocation": true,
+      "word": {
+        "language": "greek",
+        "strongId": "G2414",
+        "key": "Jerusalem",
+        "checkedVerses": 3,
+        "example": [
+          1,
+          17
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Ἱεροσόλυμα",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Hierosólyma"
+      }
     },
     {
       "id": "damascus",
       "name": "Damascus",
       "lat": 33.513,
       "lng": 36.292,
-      "summary": "Damascus appears in Paul’s remembered account of his early travels.",
-      "limits": "Approximate location. Region markers do not define ancient borders. Anathoth, Mizpah, Ramah, and Heshbon have competing site identifications.",
+      "summary": "After he went into Arabia, Paul says he returned to Damascus (chapter 1).",
+      "limits": "The marker shows the city’s general location.",
       "sourceIds": [
         "web",
         "atlas-canaan"
       ],
       "verseScope": {},
-      "detail": "Damascus appears in Paul’s remembered account of his early travels.",
-      "uncertainty": "Approximate location. Region markers do not define ancient borders. Anathoth, Mizpah, Ramah, and Heshbon have competing site identifications.",
-      "chapterLocation": true
+      "detail": "After he went into Arabia, Paul says he returned to Damascus (chapter 1).",
+      "uncertainty": "The marker shows the city’s general location.",
+      "chapterLocation": true,
+      "word": {
+        "language": "greek",
+        "strongId": "G1154",
+        "key": "Damascus",
+        "checkedVerses": 1,
+        "example": [
+          1,
+          17
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Δαμασκός",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Damaskós"
+      }
     },
     {
       "id": "antioch-syria",
       "name": "Antioch",
       "lat": 36.2,
       "lng": 36.15,
-      "summary": "Antioch is the recalled setting of the dispute over shared meals.",
-      "limits": "Broad city reference. Exact houses, riverside meeting points, courtrooms, and ancient routes remain unassigned.",
+      "summary": "Paul says Peter came to Antioch in chapter 2. Peter ate with Gentiles there, then drew back. Paul opposed him to his face.",
+      "limits": "The marker shows the city’s general location.",
       "sourceIds": [
         "web",
         "net-acts-map"
       ],
       "verseScope": {},
-      "detail": "Antioch is the recalled setting of the dispute over shared meals.",
-      "uncertainty": "Broad city reference. Exact houses, riverside meeting points, courtrooms, and ancient routes remain unassigned.",
-      "chapterLocation": true
+      "detail": "Paul says Peter came to Antioch in chapter 2. Peter ate with Gentiles there, then drew back. Paul opposed him to his face.",
+      "uncertainty": "The marker shows the city’s general location.",
+      "chapterLocation": true,
+      "word": {
+        "language": "greek",
+        "strongId": "G490",
+        "key": "Antioch",
+        "checkedVerses": 1,
+        "example": [
+          2,
+          11
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Ἀντιόχεια",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Antiócheia"
+      }
     }
   ],
   "campaigns": [],
   "ancientRoads": [],
   "regions": [],
   "words": [
+    {
+      "id": "glossary-covenant-4-G1242-covenants",
+      "label": "Covenant",
+      "matches": [
+        "covenants"
+      ],
+      "chapter": 4,
+      "verses": [
+        24
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "διαθήκη",
+      "greekNote": "",
+      "meaning": "A binding agreement with promises and duties. In the Bible, God makes covenants with people.",
+      "grammar": "This is the dictionary form of Greek word G1242. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G1242",
+      "language": "greek",
+      "greekTransliteration": "diathḗkē",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-covenant-3-G1242-covenant",
+      "label": "Covenant",
+      "matches": [
+        "covenant"
+      ],
+      "chapter": 3,
+      "verses": [
+        15,
+        17
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "διαθήκη",
+      "greekNote": "",
+      "meaning": "A binding agreement with promises and duties. In the Bible, God makes covenants with people.",
+      "grammar": "This is the dictionary form of Greek word G1242. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G1242",
+      "language": "greek",
+      "greekTransliteration": "diathḗkē",
+      "chapterDefault": true
+    },
     {
       "id": "glossary-covenant",
       "label": "Covenant",
@@ -528,7 +672,128 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "greek"
+    },
+    {
+      "id": "glossary-gentiles-1-G1484-gentiles",
+      "label": "Gentiles",
+      "matches": [
+        "Gentiles"
+      ],
+      "chapter": 1,
+      "verses": [
+        16
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "ἔθνος",
+      "greekNote": "",
+      "meaning": "People of nations other than Israel.",
+      "grammar": "This is the dictionary form of Greek word G1484. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G1484",
+      "language": "greek",
+      "greekTransliteration": "éthnos",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-gentiles-2-G1484-gentiles",
+      "label": "Gentiles",
+      "matches": [
+        "Gentiles"
+      ],
+      "chapter": 2,
+      "verses": [
+        2,
+        8,
+        9,
+        12
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "ἔθνος",
+      "greekNote": "",
+      "meaning": "People of nations other than Israel.",
+      "grammar": "This is the dictionary form of Greek word G1484. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G1484",
+      "language": "greek",
+      "greekTransliteration": "éthnos",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-gentiles-3-G1484-gentiles",
+      "label": "Gentiles",
+      "matches": [
+        "Gentiles"
+      ],
+      "chapter": 3,
+      "verses": [
+        8,
+        14
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "ἔθνος",
+      "greekNote": "",
+      "meaning": "People of nations other than Israel.",
+      "grammar": "This is the dictionary form of Greek word G1484. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G1484",
+      "language": "greek",
+      "greekTransliteration": "éthnos",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-gentiles-2-G1484-gentile",
+      "label": "Gentiles",
+      "matches": [
+        "Gentile"
+      ],
+      "chapter": 2,
+      "verses": [
+        15
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "ἔθνος",
+      "greekNote": "",
+      "meaning": "People of nations other than Israel.",
+      "grammar": "This is the dictionary form of Greek word G1484. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G1484",
+      "language": "greek",
+      "greekTransliteration": "éthnos",
+      "chapterDefault": true
     },
     {
       "id": "glossary-gentiles",
@@ -550,7 +815,67 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "greek"
+    },
+    {
+      "id": "glossary-apostles-1-G652-apostles",
+      "label": "Apostles",
+      "matches": [
+        "apostles"
+      ],
+      "chapter": 1,
+      "verses": [
+        17,
+        19
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "ἀπόστολος",
+      "greekNote": "",
+      "meaning": "People sent out with a message. In the Gospels the word names twelve whom Jesus chose.",
+      "grammar": "This is the dictionary form of Greek word G652. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G652",
+      "language": "greek",
+      "greekTransliteration": "apóstolos",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-apostles-1-G652-apostle",
+      "label": "Apostles",
+      "matches": [
+        "apostle"
+      ],
+      "chapter": 1,
+      "verses": [
+        1
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "ἀπόστολος",
+      "greekNote": "",
+      "meaning": "People sent out with a message. In the Gospels the word names twelve whom Jesus chose.",
+      "grammar": "This is the dictionary form of Greek word G652. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G652",
+      "language": "greek",
+      "greekTransliteration": "apóstolos",
+      "chapterDefault": true
     },
     {
       "id": "glossary-apostles",
@@ -572,7 +897,67 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "greek"
+    },
+    {
+      "id": "glossary-assembly-1-G1577-assemblies",
+      "label": "Assembly",
+      "matches": [
+        "assemblies"
+      ],
+      "chapter": 1,
+      "verses": [
+        2,
+        22
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "ἐκκλησία",
+      "greekNote": "",
+      "meaning": "A gathering of people. In the New Testament letters it means a group of believers. Many translations say “church.”",
+      "grammar": "This is the dictionary form of Greek word G1577. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G1577",
+      "language": "greek",
+      "greekTransliteration": "ekklēsía",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-assembly-1-G1577-assembly",
+      "label": "Assembly",
+      "matches": [
+        "assembly"
+      ],
+      "chapter": 1,
+      "verses": [
+        13
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "ἐκκλησία",
+      "greekNote": "",
+      "meaning": "A gathering of people. In the New Testament letters it means a group of believers. Many translations say “church.”",
+      "grammar": "This is the dictionary form of Greek word G1577. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G1577",
+      "language": "greek",
+      "greekTransliteration": "ekklēsía",
+      "chapterDefault": true
     },
     {
       "id": "glossary-assembly",
@@ -594,7 +979,243 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "greek"
+    },
+    {
+      "id": "glossary-circumcision-5-G203-uncircumcision",
+      "label": "Circumcision",
+      "matches": [
+        "uncircumcision"
+      ],
+      "chapter": 5,
+      "verses": [
+        6
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "ἀκροβυστία",
+      "greekNote": "",
+      "meaning": "The cutting of the foreskin. Genesis 17 makes it the sign of God’s covenant with Abraham.",
+      "grammar": "This is the dictionary form of Greek word G203. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G203",
+      "language": "greek",
+      "greekTransliteration": "akrobystía",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-circumcision-6-G203-uncircumcision",
+      "label": "Circumcision",
+      "matches": [
+        "uncircumcision"
+      ],
+      "chapter": 6,
+      "verses": [
+        15
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "ἀκροβυστία",
+      "greekNote": "",
+      "meaning": "The cutting of the foreskin. Genesis 17 makes it the sign of God’s covenant with Abraham.",
+      "grammar": "This is the dictionary form of Greek word G203. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G203",
+      "language": "greek",
+      "greekTransliteration": "akrobystía",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-circumcision-2-G203-uncircumcised",
+      "label": "Circumcision",
+      "matches": [
+        "uncircumcised"
+      ],
+      "chapter": 2,
+      "verses": [
+        7
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "ἀκροβυστία",
+      "greekNote": "",
+      "meaning": "The cutting of the foreskin. Genesis 17 makes it the sign of God’s covenant with Abraham.",
+      "grammar": "This is the dictionary form of Greek word G203. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G203",
+      "language": "greek",
+      "greekTransliteration": "akrobystía",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-circumcision-2-G4059-circumcised",
+      "label": "Circumcision",
+      "matches": [
+        "circumcised"
+      ],
+      "chapter": 2,
+      "verses": [
+        3
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "περιτέμνω",
+      "greekNote": "",
+      "meaning": "The cutting of the foreskin. Genesis 17 makes it the sign of God’s covenant with Abraham.",
+      "grammar": "This is the dictionary form of Greek word G4059. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G4059",
+      "language": "greek",
+      "greekTransliteration": "peritémnō",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-circumcision-6-G4059-circumcised",
+      "label": "Circumcision",
+      "matches": [
+        "circumcised"
+      ],
+      "chapter": 6,
+      "verses": [
+        12,
+        13
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "περιτέμνω",
+      "greekNote": "",
+      "meaning": "The cutting of the foreskin. Genesis 17 makes it the sign of God’s covenant with Abraham.",
+      "grammar": "This is the dictionary form of Greek word G4059. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G4059",
+      "language": "greek",
+      "greekTransliteration": "peritémnō",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-circumcision-2-G4061-circumcision",
+      "label": "Circumcision",
+      "matches": [
+        "circumcision"
+      ],
+      "chapter": 2,
+      "verses": [
+        9,
+        12
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "περιτομή",
+      "greekNote": "",
+      "meaning": "The cutting of the foreskin. Genesis 17 makes it the sign of God’s covenant with Abraham.",
+      "grammar": "This is the dictionary form of Greek word G4061. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G4061",
+      "language": "greek",
+      "greekTransliteration": "peritomḗ",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-circumcision-5-G4061-circumcision",
+      "label": "Circumcision",
+      "matches": [
+        "circumcision"
+      ],
+      "chapter": 5,
+      "verses": [
+        6,
+        11
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "περιτομή",
+      "greekNote": "",
+      "meaning": "The cutting of the foreskin. Genesis 17 makes it the sign of God’s covenant with Abraham.",
+      "grammar": "This is the dictionary form of Greek word G4061. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G4061",
+      "language": "greek",
+      "greekTransliteration": "peritomḗ",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-circumcision-6-G4061-circumcision",
+      "label": "Circumcision",
+      "matches": [
+        "circumcision"
+      ],
+      "chapter": 6,
+      "verses": [
+        15
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "περιτομή",
+      "greekNote": "",
+      "meaning": "The cutting of the foreskin. Genesis 17 makes it the sign of God’s covenant with Abraham.",
+      "grammar": "This is the dictionary form of Greek word G4061. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G4061",
+      "language": "greek",
+      "greekTransliteration": "peritomḗ",
+      "chapterDefault": true
     },
     {
       "id": "glossary-circumcision",
@@ -619,7 +1240,66 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "greek"
+    },
+    {
+      "id": "glossary-redeem-3-G1805-redeemed",
+      "label": "Redeem",
+      "matches": [
+        "redeemed"
+      ],
+      "chapter": 3,
+      "verses": [
+        13
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "ἐξαγοράζω",
+      "greekNote": "",
+      "meaning": "To buy back a person or property. The word is also used for God’s rescue of people.",
+      "grammar": "This is the dictionary form of Greek word G1805. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G1805",
+      "language": "greek",
+      "greekTransliteration": "exagorázō",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-redeem-4-G1805-redeem",
+      "label": "Redeem",
+      "matches": [
+        "redeem"
+      ],
+      "chapter": 4,
+      "verses": [
+        5
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "ἐξαγοράζω",
+      "greekNote": "",
+      "meaning": "To buy back a person or property. The word is also used for God’s rescue of people.",
+      "grammar": "This is the dictionary form of Greek word G1805. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G1805",
+      "language": "greek",
+      "greekTransliteration": "exagorázō",
+      "chapterDefault": true
     },
     {
       "id": "glossary-redeem",
@@ -644,7 +1324,37 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "greek"
+    },
+    {
+      "id": "glossary-unclean-5-G167-uncleanness",
+      "label": "Unclean",
+      "matches": [
+        "uncleanness"
+      ],
+      "chapter": 5,
+      "verses": [
+        19
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "ἀκαθαρσία",
+      "greekNote": "",
+      "meaning": "Unfit to take part in worship until a set cleansing is done. Leviticus 11–15 gives the rules.",
+      "grammar": "This is the dictionary form of Greek word G167. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G167",
+      "language": "greek",
+      "greekTransliteration": "akatharsía",
+      "chapterDefault": true
     },
     {
       "id": "glossary-unclean",
@@ -666,7 +1376,38 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "greek"
+    },
+    {
+      "id": "glossary-bondservant-4-G1401-bondservant",
+      "label": "Bondservant",
+      "matches": [
+        "bondservant"
+      ],
+      "chapter": 4,
+      "verses": [
+        1,
+        7
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "δοῦλος",
+      "greekNote": "",
+      "meaning": "A slave or bound servant.",
+      "grammar": "This is the dictionary form of Greek word G1401. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G1401",
+      "language": "greek",
+      "greekTransliteration": "doûlos",
+      "chapterDefault": true
     },
     {
       "id": "glossary-bondservant",
@@ -688,7 +1429,37 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "greek"
+    },
+    {
+      "id": "glossary-abba-4-G5-abba",
+      "label": "Abba",
+      "matches": [
+        "Abba"
+      ],
+      "chapter": 4,
+      "verses": [
+        6
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "Ἀββᾶ",
+      "greekNote": "",
+      "meaning": "An Aramaic word for father. The text gives the translation beside it.",
+      "grammar": "This is the dictionary form of Greek word G5. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G5",
+      "language": "greek",
+      "greekTransliteration": "Abbâ",
+      "chapterDefault": true
     },
     {
       "id": "glossary-abba",
@@ -709,7 +1480,37 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "greek"
+    },
+    {
+      "id": "glossary-yeast-5-G2219-yeast",
+      "label": "Yeast",
+      "matches": [
+        "yeast"
+      ],
+      "chapter": 5,
+      "verses": [
+        9
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "ζύμη",
+      "greekNote": "",
+      "meaning": "Yeast, or leaven, makes dough rise. Bread made without it is called unleavened.",
+      "grammar": "This is the dictionary form of Greek word G2219. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G2219",
+      "language": "greek",
+      "greekTransliteration": "zýmē",
+      "chapterDefault": true
     },
     {
       "id": "glossary-yeast",
@@ -733,7 +1534,8 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "greek"
     }
   ],
   "guides": [
@@ -820,9 +1622,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "Markers show named earthly cities in Paul’s memories and comparison. Jerusalem above and Mount Sinai have no invented location.",
+      "note": "Markers show the cities Paul names in his memories. Mount Sinai and the Jerusalem above have no point.",
       "narrative": "Paul writes to the assemblies of Galatia as an apostle sent by Jesus Christ. He gives no thanks. He is amazed that they are turning so quickly to a different good news. He says anyone who brings another message is cursed. His message did not come from a human source. He once persecuted the assembly and advanced in Judaism. God called him, and he went to Arabia, not to Jerusalem. After three years he visited Peter for fifteen days and saw James.",
-      "limits": "Markers show named earthly cities in Paul’s memories and comparison. Jerusalem above and Mount Sinai have no invented location.",
+      "limits": "Markers show the cities Paul names in his memories. Mount Sinai and the Jerusalem above have no point.",
       "sourceIds": [
         "web"
       ]
@@ -842,9 +1644,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "Markers show named earthly cities in Paul’s memories and comparison. Jerusalem above and Mount Sinai have no invented location.",
+      "note": "Markers show the cities Paul names in his memories. Mount Sinai and the Jerusalem above have no point.",
       "narrative": "After fourteen years Paul goes to Jerusalem with Barnabas and Titus. Titus, a Greek, is not forced to be circumcised. James, Peter, and John give Paul and Barnabas the right hand of fellowship. They ask only that he remember the poor. In Antioch Peter eats with Gentiles, then draws back when men come from James. Barnabas is carried along too. Paul rebukes Peter before everyone. He says a person is justified by faith in Christ, not by law.",
-      "limits": "Markers show named earthly cities in Paul’s memories and comparison. Jerusalem above and Mount Sinai have no invented location.",
+      "limits": "Markers show the cities Paul names in his memories. Mount Sinai and the Jerusalem above have no point.",
       "sourceIds": [
         "web"
       ]
@@ -858,9 +1660,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "Markers show named earthly cities in Paul’s memories and comparison. Jerusalem above and Mount Sinai have no invented location.",
+      "note": "Markers show the cities Paul names in his memories. Mount Sinai and the Jerusalem above have no point.",
       "narrative": "Paul calls the Galatians foolish and asks how they received the Spirit. It was by hearing with faith, not by works of the law. Abraham believed God, and those of faith are his children. The law curses all who fail to keep it, and Christ redeemed us. The promise to Abraham came 430 years before the law. The law cannot cancel it. The law was a tutor to bring us to Christ. In Christ there is neither Jew nor Greek, slave nor free, male nor female.",
-      "limits": "Markers show named earthly cities in Paul’s memories and comparison. Jerusalem above and Mount Sinai have no invented location.",
+      "limits": "Markers show the cities Paul names in his memories. Mount Sinai and the Jerusalem above have no point.",
       "sourceIds": [
         "web",
         "works-galatians"
@@ -879,9 +1681,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "Markers show named earthly cities in Paul’s memories and comparison. Jerusalem above and Mount Sinai have no invented location.",
+      "note": "Markers show the cities Paul names in his memories. Mount Sinai and the Jerusalem above have no point.",
       "narrative": "Paul says an heir who is a child is no different from a servant. God sent his Son, born of a woman, to redeem those under the law. Now they are sons and call God Abba, Father. He asks why they turn back to weak principles and observe days and seasons. He recalls how they welcomed him when he was ill. He is in labor again until Christ is formed in them. Then he tells of Abraham’s two sons, by Hagar and by the free woman. He says believers are children of the free woman.",
-      "limits": "Markers show named earthly cities in Paul’s memories and comparison. Jerusalem above and Mount Sinai have no invented location.",
+      "limits": "Markers show the cities Paul names in his memories. Mount Sinai and the Jerusalem above have no point.",
       "sourceIds": [
         "web"
       ]
@@ -895,9 +1697,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "Markers show named earthly cities in Paul’s memories and comparison. Jerusalem above and Mount Sinai have no invented location.",
+      "note": "Markers show the cities Paul names in his memories. Mount Sinai and the Jerusalem above have no point.",
       "narrative": "Paul tells the Galatians to stand firm in freedom. If they accept circumcision, they must keep the whole law. What counts is faith working through love. He says a little yeast leavens the whole lump. They were called to freedom, to serve one another through love. The whole law is fulfilled in loving a neighbor as oneself. He lists the works of the flesh and then the fruit of the Spirit. The fruit is love, joy, peace, patience, kindness, goodness, faith, gentleness, and self-control.",
-      "limits": "Markers show named earthly cities in Paul’s memories and comparison. Jerusalem above and Mount Sinai have no invented location.",
+      "limits": "Markers show the cities Paul names in his memories. Mount Sinai and the Jerusalem above have no point.",
       "sourceIds": [
         "web"
       ]
@@ -911,9 +1713,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "Markers show named earthly cities in Paul’s memories and comparison. Jerusalem above and Mount Sinai have no invented location.",
+      "note": "Markers show the cities Paul names in his memories. Mount Sinai and the Jerusalem above have no point.",
       "narrative": "Paul tells the spiritual to restore gently anyone caught in a fault. They should bear one another’s burdens. Each should test his own work and carry his own load. A person reaps what he sows, to the flesh or to the Spirit. They should not grow tired of doing good, especially to the household of faith. Paul writes the ending in large letters with his own hand. He says those pressing circumcision want to avoid persecution. He will boast only in the cross, and a new creation is what counts.",
-      "limits": "Markers show named earthly cities in Paul’s memories and comparison. Jerusalem above and Mount Sinai have no invented location.",
+      "limits": "Markers show the cities Paul names in his memories. Mount Sinai and the Jerusalem above have no point.",
       "sourceIds": [
         "web"
       ]

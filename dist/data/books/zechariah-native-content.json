@@ -86,6 +86,34 @@
       "type": "LDS Come, Follow Me",
       "limitations": "Later Gospel and Restoration connections remain Church readings. They do not identify every unnamed figure in the original visions.",
       "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "strong",
+      "title": "A Concise Dictionary of the Words in the Hebrew Bible",
+      "author": "James Strong · Open Scriptures XML edition",
+      "year": "1894 / digital edition",
+      "perspective": "historical",
+      "category": "Historical lexicon",
+      "url": "https://github.com/openscriptures/strongs",
+      "summary": "Lists Hebrew dictionary forms and their possible meanings. Use it with the passage to study a word.",
+      "limits": "This is an older dictionary. Compare its meanings with the passage. A list of meanings alone cannot show which one applies.",
+      "license": "Source XML declares Public Domain. Only selected headwords are used.",
+      "type": "Historical lexicon",
+      "limitations": "This is an older dictionary. Compare its meanings with the passage. A list of meanings alone cannot show which one applies."
+    },
+    {
+      "id": "oshb",
+      "title": "Open Scriptures Hebrew Bible",
+      "author": "Open Scriptures contributors / Westminster Leningrad Codex",
+      "year": "Digital edition",
+      "perspective": "historical",
+      "category": "Hebrew text",
+      "url": "https://hb.openscriptures.org/",
+      "summary": "Provides the Hebrew text and word identifiers. This study guide uses these to check selected words against their verses.",
+      "limits": "The app checks selected words, not every English–Hebrew match. It shows Hebrew dictionary forms. The forms in the verses can differ.",
+      "license": "Hebrew text public domain; lemma/morphology data CC BY 4.0. Original work of the Open Scriptures Hebrew Bible, https://hb.openscriptures.org/.",
+      "type": "Hebrew text",
+      "limitations": "The app checks selected words, not every English–Hebrew match. It shows Hebrew dictionary forms. The forms in the verses can differ."
     }
   ],
   "passages": [
@@ -865,7 +893,25 @@
       ],
       "detail": "Jerusalem receives promises of rebuilding, changed conduct, protection, and worship by many nations.",
       "uncertainty": "Approximate city or regional reference. No visionary boundaries, split mountain path, or battle route is reconstructed.",
-      "chapterLocation": true
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H3389",
+        "key": "Jerusalem",
+        "checkedVerses": 37,
+        "example": [
+          1,
+          12
+        ],
+        "hebrew": "יְרוּשָׁלַ͏ִם",
+        "transliteration": "Yᵉrûwshâlaim",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "babylon",
@@ -879,7 +925,25 @@
       ],
       "detail": "Babylon appears as the place from which people must leave or have brought gifts.",
       "uncertainty": "Approximate city or regional reference. No visionary boundaries, split mountain path, or battle route is reconstructed.",
-      "chapterLocation": true
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H894",
+        "key": "Babylon",
+        "checkedVerses": 2,
+        "example": [
+          2,
+          7
+        ],
+        "hebrew": "בָּבֶל",
+        "transliteration": "Bâbel",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "damascus",
@@ -893,7 +957,25 @@
       ],
       "detail": "Damascus appears at the beginning of the warning against northern and coastal cities.",
       "uncertainty": "Approximate city or regional reference. No visionary boundaries, split mountain path, or battle route is reconstructed.",
-      "chapterLocation": true
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H1834",
+        "key": "Damascus",
+        "checkedVerses": 1,
+        "example": [
+          9,
+          1
+        ],
+        "hebrew": "דַּמֶּשֶׂק",
+        "transliteration": "Dammeseq",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "tyre",
@@ -907,7 +989,25 @@
       ],
       "detail": "Tyre’s stored wealth and sea power face judgment before the promised king arrives.",
       "uncertainty": "Approximate city or regional reference. No visionary boundaries, split mountain path, or battle route is reconstructed.",
-      "chapterLocation": true
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H6865",
+        "key": "Tyre",
+        "checkedVerses": 2,
+        "example": [
+          9,
+          2
+        ],
+        "hebrew": "צֹר",
+        "transliteration": "Tsôr",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "sidon",
@@ -921,7 +1021,25 @@
       ],
       "detail": "Sidon appears with Tyre among places addressed in the opening warning of chapter nine.",
       "uncertainty": "Approximate city or regional reference. No visionary boundaries, split mountain path, or battle route is reconstructed.",
-      "chapterLocation": true
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H6721",
+        "key": "Sidon",
+        "checkedVerses": 1,
+        "example": [
+          9,
+          2
+        ],
+        "hebrew": "צִידוֹן",
+        "transliteration": "Tsîydôwn",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "gaza",
@@ -935,7 +1053,25 @@
       ],
       "detail": "Gaza’s king faces loss after the threatened fall of Tyre.",
       "uncertainty": "Approximate city or regional reference. No visionary boundaries, split mountain path, or battle route is reconstructed.",
-      "chapterLocation": true
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H5804",
+        "key": "Gaza",
+        "checkedVerses": 1,
+        "example": [
+          9,
+          5
+        ],
+        "hebrew": "עַזָּה",
+        "transliteration": "ʻAzzâh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "ashkelon",
@@ -949,7 +1085,25 @@
       ],
       "detail": "Ashkelon appears among cities threatened with fear and abandonment.",
       "uncertainty": "Approximate city or regional reference. No visionary boundaries, split mountain path, or battle route is reconstructed.",
-      "chapterLocation": true
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H831",
+        "key": "Ashkelon",
+        "checkedVerses": 1,
+        "example": [
+          9,
+          5
+        ],
+        "hebrew": "אַשְׁקְלוֹן",
+        "transliteration": "ʼAshqᵉlôwn",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "ashdod",
@@ -963,7 +1117,25 @@
       ],
       "detail": "Ashdod appears where outsiders will dwell as Philistine pride is removed.",
       "uncertainty": "Approximate city or regional reference. No visionary boundaries, split mountain path, or battle route is reconstructed.",
-      "chapterLocation": true
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H795",
+        "key": "Ashdod",
+        "checkedVerses": 1,
+        "example": [
+          9,
+          6
+        ],
+        "hebrew": "אַשְׁדּוֹד",
+        "transliteration": "ʼAshdôwd",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "ekron",
@@ -977,7 +1149,25 @@
       ],
       "detail": "Ekron faces disappointed hope before a later promise of inclusion among God’s people.",
       "uncertainty": "Approximate city or regional reference. No visionary boundaries, split mountain path, or battle route is reconstructed.",
-      "chapterLocation": true
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H6138",
+        "key": "Ekron",
+        "checkedVerses": 2,
+        "example": [
+          9,
+          5
+        ],
+        "hebrew": "עֶקְרוֹן",
+        "transliteration": "ʻEqrôwn",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "egypt",
@@ -991,7 +1181,25 @@
       ],
       "detail": "Egypt appears in promised gathering and the warning about nations refusing to worship.",
       "uncertainty": "Approximate city or regional reference. No visionary boundaries, split mountain path, or battle route is reconstructed.",
-      "chapterLocation": true
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H4714",
+        "key": "Egypt",
+        "checkedVerses": 4,
+        "example": [
+          10,
+          10
+        ],
+        "hebrew": "מִצְרַיִם",
+        "transliteration": "Mitsrayim",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "gilead",
@@ -1005,7 +1213,25 @@
       ],
       "detail": "Gilead appears among places where the gathered people will live.",
       "uncertainty": "Approximate city or regional reference. No visionary boundaries, split mountain path, or battle route is reconstructed.",
-      "chapterLocation": true
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H1568",
+        "key": "Gilead",
+        "checkedVerses": 1,
+        "example": [
+          10,
+          10
+        ],
+        "hebrew": "גִּלְעָד",
+        "transliteration": "Gilʻâd",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "lebanon",
@@ -1019,7 +1245,25 @@
       ],
       "detail": "Lebanon appears in gathering promises and the lament over destroyed forests.",
       "uncertainty": "Approximate city or regional reference. No visionary boundaries, split mountain path, or battle route is reconstructed.",
-      "chapterLocation": true
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H3844",
+        "key": "Lebanon",
+        "checkedVerses": 2,
+        "example": [
+          10,
+          10
+        ],
+        "hebrew": "לְבָנוֹן",
+        "transliteration": "Lᵉbânôwn",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "bethel",
@@ -1033,7 +1277,25 @@
       ],
       "detail": "Bethel sends visitors who ask whether their long practice of fasting should continue.",
       "uncertainty": "Approximate city or regional reference. No visionary boundaries, split mountain path, or battle route is reconstructed.",
-      "chapterLocation": true
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H1008",
+        "key": "Bethel",
+        "checkedVerses": 1,
+        "example": [
+          7,
+          2
+        ],
+        "hebrew": "בֵּית־אֵל",
+        "transliteration": "Bêyth-ʼÊl",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "olives",
@@ -1055,6 +1317,62 @@
   "regions": [],
   "words": [
     {
+      "id": "glossary-covenant-9-H1285-covenant",
+      "label": "Covenant",
+      "matches": [
+        "covenant"
+      ],
+      "chapter": 9,
+      "verses": [
+        11
+      ],
+      "hebrew": "בְּרִית",
+      "transliteration": "bᵉrîyth",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A binding agreement with promises and duties. In the Bible, God makes covenants with people.",
+      "grammar": "This is the dictionary form of Hebrew word H1285. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H1285",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-covenant-11-H1285-covenant",
+      "label": "Covenant",
+      "matches": [
+        "covenant"
+      ],
+      "chapter": 11,
+      "verses": [
+        10
+      ],
+      "hebrew": "בְּרִית",
+      "transliteration": "bᵉrîyth",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A binding agreement with promises and duties. In the Bible, God makes covenants with people.",
+      "grammar": "This is the dictionary form of Hebrew word H1285. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H1285",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
       "id": "glossary-covenant",
       "label": "Covenant",
       "matches": [
@@ -1074,7 +1392,36 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-firstborn-12-H1060-firstborn",
+      "label": "Firstborn",
+      "matches": [
+        "firstborn"
+      ],
+      "chapter": 12,
+      "verses": [
+        10
+      ],
+      "hebrew": "בְּכוֹר",
+      "transliteration": "bᵉkôwr",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "The oldest child. A firstborn son received a double share of the inheritance (Deuteronomy 21:17).",
+      "grammar": "This is the dictionary form of Hebrew word H1060. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H1060",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-firstborn",
@@ -1095,7 +1442,36 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-redeem-10-H6299-redeemed",
+      "label": "Redeem",
+      "matches": [
+        "redeemed"
+      ],
+      "chapter": 10,
+      "verses": [
+        8
+      ],
+      "hebrew": "פָּדָה",
+      "transliteration": "pâdâh",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "To buy back a person or property. The word is also used for God’s rescue of people.",
+      "grammar": "This is the dictionary form of Hebrew word H6299. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H6299",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-redeem",
@@ -1120,7 +1496,36 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-unclean-13-H5079-uncleanness",
+      "label": "Unclean",
+      "matches": [
+        "uncleanness"
+      ],
+      "chapter": 13,
+      "verses": [
+        1
+      ],
+      "hebrew": "נִדָּה",
+      "transliteration": "niddâh",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "Unfit to take part in worship until a set cleansing is done. Leviticus 11–15 gives the rules.",
+      "grammar": "This is the dictionary form of Hebrew word H5079. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H5079",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-unclean",
@@ -1142,7 +1547,8 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
     },
     {
       "id": "glossary-anoint",
@@ -1166,7 +1572,38 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-remnant-8-H7611-remnant",
+      "label": "Remnant",
+      "matches": [
+        "remnant"
+      ],
+      "chapter": 8,
+      "verses": [
+        6,
+        11,
+        12
+      ],
+      "hebrew": "שְׁאֵרִית",
+      "transliteration": "shᵉʼêrîyth",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "The part of a people that survives a disaster.",
+      "grammar": "This is the dictionary form of Hebrew word H7611. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H7611",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-remnant",
@@ -1187,7 +1624,124 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-zion-1-H6726-zion",
+      "label": "Zion",
+      "matches": [
+        "Zion"
+      ],
+      "chapter": 1,
+      "verses": [
+        14,
+        17
+      ],
+      "hebrew": "צִיּוֹן",
+      "transliteration": "Tsîyôwn",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A hill in Jerusalem. The name is also used for the city and its people.",
+      "grammar": "This is the dictionary form of Hebrew word H6726. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H6726",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-zion-2-H6726-zion",
+      "label": "Zion",
+      "matches": [
+        "Zion"
+      ],
+      "chapter": 2,
+      "verses": [
+        7,
+        10
+      ],
+      "hebrew": "צִיּוֹן",
+      "transliteration": "Tsîyôwn",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A hill in Jerusalem. The name is also used for the city and its people.",
+      "grammar": "This is the dictionary form of Hebrew word H6726. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H6726",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-zion-8-H6726-zion",
+      "label": "Zion",
+      "matches": [
+        "Zion"
+      ],
+      "chapter": 8,
+      "verses": [
+        2,
+        3
+      ],
+      "hebrew": "צִיּוֹן",
+      "transliteration": "Tsîyôwn",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A hill in Jerusalem. The name is also used for the city and its people.",
+      "grammar": "This is the dictionary form of Hebrew word H6726. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H6726",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-zion-9-H6726-zion",
+      "label": "Zion",
+      "matches": [
+        "Zion"
+      ],
+      "chapter": 9,
+      "verses": [
+        9,
+        13
+      ],
+      "hebrew": "צִיּוֹן",
+      "transliteration": "Tsîyôwn",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A hill in Jerusalem. The name is also used for the city and its people.",
+      "grammar": "This is the dictionary form of Hebrew word H6726. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H6726",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-zion",
@@ -1208,7 +1762,8 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
     },
     {
       "id": "glossary-bondservant",
@@ -1230,7 +1785,36 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-cubit-5-H520-cubits",
+      "label": "Cubit",
+      "matches": [
+        "cubits"
+      ],
+      "chapter": 5,
+      "verses": [
+        2
+      ],
+      "hebrew": "אַמָּה",
+      "transliteration": "ʼammâh",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A length from the elbow to the fingertip, about 46 centimeters.",
+      "grammar": "This is the dictionary form of Hebrew word H520. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H520",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-cubit",
@@ -1252,7 +1836,36 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-talent-5-H3603-talent",
+      "label": "Talent",
+      "matches": [
+        "talent"
+      ],
+      "chapter": 5,
+      "verses": [
+        7
+      ],
+      "hebrew": "כִּכָּר",
+      "transliteration": "kikkâr",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A large unit of weight, about 30 kilograms.",
+      "grammar": "This is the dictionary form of Hebrew word H3603. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H3603",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-talent",
@@ -1274,7 +1887,40 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-ephah-5-H374-ephah",
+      "label": "Ephah",
+      "matches": [
+        "ephah"
+      ],
+      "chapter": 5,
+      "verses": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "hebrew": "אֵיפָה",
+      "transliteration": "ʼêyphâh",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A dry measure of about 22 liters.",
+      "grammar": "This is the dictionary form of Hebrew word H374. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H374",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-ephah",
@@ -1296,7 +1942,8 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
     }
   ],
   "guides": [

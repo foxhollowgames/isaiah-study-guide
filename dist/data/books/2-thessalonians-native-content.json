@@ -4,10 +4,10 @@
       "id": "web",
       "title": "Second Thessalonians · World English Bible",
       "url": "https://ebible.org/engwebp/2TH01.htm",
-      "summary": "All three chapters supply the primary text for original close readings.",
+      "summary": "All three chapters are the main text for original close readings.",
       "category": "Scripture",
       "perspective": "historical",
-      "limits": "The letter names Paul as its speaker. Authorship, dates, original manuscripts, Greek forms, the lawless figure's identity, the restraining force, and the cause of refused work were not independently verified. No present person or event is assigned to the predicted sequence.",
+      "limits": "The letter names Paul as its writer. The guide did not check authorship, dates, manuscripts, or Greek forms. It did not check who the lawless one is or what restrains him. It did not check why some refused work. The guide names no present person or event as part of the predicted sequence.",
       "author": "World English Bible translators",
       "publisher": "eBible.org",
       "chapterCoverage": [
@@ -20,17 +20,17 @@
         "scope": "All 47 verses read for three original contextual explanations and exact selections. Surroundings, counts, and character integrity checked."
       },
       "type": "Scripture",
-      "limitations": "The letter names Paul as its speaker. Authorship, dates, original manuscripts, Greek forms, the lawless figure's identity, the restraining force, and the cause of refused work were not independently verified. No present person or event is assigned to the predicted sequence.",
+      "limitations": "The letter names Paul as its writer. The guide did not check authorship, dates, manuscripts, or Greek forms. It did not check who the lawless one is or what restrains him. It did not check why some refused work. The guide names no present person or event as part of the predicted sequence.",
       "license": "Public domain"
     },
     {
       "id": "wyant-thessalonians",
       "title": "Commentary on 2 Thessalonians 3:6-13",
       "url": "https://www.workingpreacher.org/commentaries/revised-common-lectionary/ordinary-33-3/commentary-on-2-thessalonians-36-13-5",
-      "summary": "Wyant reads the work commands within the group's problem of irresponsible conduct.",
+      "summary": "Wyant reads the work commands as an answer to irresponsible conduct in the group.",
       "category": "Scholarly study",
       "perspective": "historical",
-      "limits": "This is Wyant's interpretation. Her proposed identities of the busybodies remain alternatives. Greek analysis, ancient military usage, the Didache, and the linked news report were not independently reviewed.",
+      "limits": "This is Wyant’s own reading. Her ideas about who the busybodies were are only options. The guide did not check her Greek analysis, military usage, or the Didache. It did not check the linked news report.",
       "author": "Jennifer S. Wyant",
       "publisher": "Luther Seminary",
       "year": 2022,
@@ -42,17 +42,17 @@
         "scope": "Complete commentary body and notes read. The guide attributes her reading of irresponsible work and interference within the group."
       },
       "type": "Scholarly study",
-      "limitations": "This is Wyant's interpretation. Her proposed identities of the busybodies remain alternatives. Greek analysis, ancient military usage, the Didache, and the linked news report were not independently reviewed.",
+      "limitations": "This is Wyant’s own reading. Her ideas about who the busybodies were are only options. The guide did not check her Greek analysis, military usage, or the Didache. It did not check the linked news report.",
       "license": "Linked source. Original guide summaries."
     },
     {
       "id": "cfm-nt-2023-43",
       "title": "October 16–22 · First and Second Thessalonians",
       "url": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-sunday-school-new-testament-2023/43?lang=eng",
-      "summary": "The lesson studies work and a falling away before Christ's return.",
+      "summary": "The lesson studies work and a falling away before Christ’s return.",
       "category": "LDS Come, Follow Me",
       "perspective": "lds",
-      "limits": "Second Thessalonians coverage follows actual discussion of chapters two and three. Its application to the Great Apostasy remains Church teaching rather than independent historical evidence. Linked Restoration passages were not independently reviewed.",
+      "limits": "Second Thessalonians coverage follows what the lesson discusses in chapters two and three. Its link to the Great Apostasy is Church teaching. It is not independent historical evidence. The guide did not check the linked Restoration passages.",
       "author": "The Church of Jesus Christ of Latter-day Saints",
       "publisher": "The Church of Jesus Christ of Latter-day Saints",
       "year": 2023,
@@ -65,17 +65,17 @@
         "scope": "Complete lesson body and resource list read. Its Second Thessalonians sections discuss falling away and useful work."
       },
       "type": "LDS Come, Follow Me",
-      "limitations": "Second Thessalonians coverage follows actual discussion of chapters two and three. Its application to the Great Apostasy remains Church teaching rather than independent historical evidence. Linked Restoration passages were not independently reviewed.",
+      "limitations": "Second Thessalonians coverage follows what the lesson discusses in chapters two and three. Its link to the Great Apostasy is Church teaching. It is not independent historical evidence. The guide did not check the linked Restoration passages.",
       "license": "Linked source. Original guide summaries."
     },
     {
       "id": "net-thessalonica",
       "title": "NET Bible · Thessalonica",
       "url": "https://classic.net.bible.org/dictionary.php?word=Thessalonica",
-      "summary": "The dictionary identifies the city on the Thermaic Gulf and supplies coordinates.",
+      "summary": "The dictionary places the city on the Thermaic Gulf and gives coordinates.",
       "category": "Reference work",
       "perspective": "historical",
-      "limits": "Only the opening locality description and coordinate line support the marker. Old population figures, wider historical claims, inscriptions, exact buildings, and routes were not independently verified.",
+      "limits": "Only the opening place description and the coordinates support the marker. The guide did not check old population figures, wider history, inscriptions, buildings, or routes.",
       "author": "NET Bible reference editors",
       "publisher": "Bible.org",
       "reviewed": {
@@ -83,8 +83,36 @@
         "scope": "Opening location description and coordinate line read: 40 degrees 37 minutes north, 22 degrees 55 minutes east. Only the city reference is used."
       },
       "type": "Reference work",
-      "limitations": "Only the opening locality description and coordinate line support the marker. Old population figures, wider historical claims, inscriptions, exact buildings, and routes were not independently verified.",
+      "limitations": "Only the opening place description and the coordinates support the marker. The guide did not check old population figures, wider history, inscriptions, buildings, or routes.",
       "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "strong-greek",
+      "title": "A Concise Dictionary of the Words in the Greek Testament",
+      "author": "James Strong · Open Scriptures XML edition",
+      "year": "1890 / digital edition",
+      "perspective": "historical",
+      "category": "Historical lexicon",
+      "url": "https://github.com/openscriptures/strongs",
+      "summary": "Lists Greek dictionary forms and their possible meanings. Use it with the passage to study a word.",
+      "limits": "This is an older dictionary. Compare its meanings with the passage. A list of meanings alone cannot show which one applies.",
+      "license": "Source XML declares Public Domain. Only selected headwords are used.",
+      "type": "Historical lexicon",
+      "limitations": "This is an older dictionary. Compare its meanings with the passage. A list of meanings alone cannot show which one applies."
+    },
+    {
+      "id": "byz",
+      "title": "The New Testament in the Original Greek: Byzantine Textform",
+      "author": "Maurice A. Robinson and William G. Pierpont",
+      "year": "2018 digital edition",
+      "perspective": "historical",
+      "category": "Greek text",
+      "url": "https://github.com/byztxt/byzantine-majority-text",
+      "summary": "Provides a Greek New Testament text with dictionary numbers. This study guide uses these to check selected words against their verses.",
+      "limits": "The app checks selected words, not every English–Greek match. It shows Greek dictionary forms. The forms in the verses can differ. Other Greek editions differ in some verses.",
+      "license": "Public domain.",
+      "type": "Greek text",
+      "limitations": "The app checks selected words, not every English–Greek match. It shows Greek dictionary forms. The forms in the verses can differ. Other Greek editions differ in some verses."
     }
   ],
   "passages": [
@@ -97,7 +125,7 @@
       "summary": "Paul, Silvanus, and Timothy write again to the Thessalonians. They thank God that the readers’ faith grows and their love increases. They boast of the readers’ endurance in persecutions. They say God will repay the afflicters and give relief to the afflicted. That will happen when the Lord Jesus is revealed from heaven with his angels. Those who do not obey the good news will be punished. He will be glorified in his saints on that day. The writers pray that God will count the readers worthy of their calling.",
       "year": null,
       "dateLabel": "Book order",
-      "uncertainty": "The marker identifies the addressed city. No exact temple or heavenly location is assigned.",
+      "uncertainty": "The map marks Thessalonica as one city point. The map has no point for the temple of God.",
       "placeIds": [
         "thessalonica"
       ],
@@ -126,7 +154,7 @@
       "summary": "Paul asks them not to be shaken by a letter said to be his. Such a message says the day of the Lord has already come. That day will not come before the rebellion and the man of sin. That man will sit in God’s temple and claim to be God. Something now restrains him. The Lord Jesus will destroy him by the breath of his mouth. Those who refused to love the truth will be deceived. Paul thanks God for choosing the readers and tells them to stand firm.",
       "year": null,
       "dateLabel": "Book order",
-      "uncertainty": "The marker identifies the addressed city. No exact temple or heavenly location is assigned.",
+      "uncertainty": "The map marks Thessalonica as one city point. The map has no point for the temple of God.",
       "placeIds": [],
       "sourceIds": [
         "web"
@@ -155,7 +183,7 @@
       "summary": "Paul asks for prayer that the Lord’s word will spread quickly. The Lord is faithful and will guard them. He commands them to withdraw from any brother who refuses to work. He worked night and day and ate no one’s bread for free. He gave the rule that one who will not work should not eat. Some are busybodies and should work quietly. Anyone who ignores this letter should be noted and avoided. Paul signs with his own hand.",
       "year": null,
       "dateLabel": "Book order",
-      "uncertainty": "The marker identifies the addressed city. No exact temple or heavenly location is assigned.",
+      "uncertainty": "The map marks Thessalonica as one city point. The map has no point for the temple of God.",
       "placeIds": [],
       "sourceIds": [
         "web",
@@ -187,7 +215,7 @@
       "summary": "Paul, Silvanus, and Timothy write again to the Thessalonians. They thank God that the readers’ faith grows and their love increases. They boast of the readers’ endurance in persecutions. They say God will repay the afflicters and give relief to the afflicted. That will happen when the Lord Jesus is revealed from heaven with his angels. Those who do not obey the good news will be punished. He will be glorified in his saints on that day. The writers pray that God will count the readers worthy of their calling.",
       "detail": "Verses 6–10 promise relief at the Lord’s revealing, which is still future. Verse 11 says what the writers ask for the time between. “To this end” ties the prayer to that day. They ask God to count the readers worthy of their calling. They ask him to complete every good desire and work of faith with power. The work is the readers’, and the power is God’s. Verse 12 gives the aim: the name of Jesus glorified in them.",
       "dateLabel": "Book order",
-      "uncertainty": "The marker identifies the addressed city. No exact temple or heavenly location is assigned.",
+      "uncertainty": "The map marks Thessalonica as one city point. The map has no point for the temple of God.",
       "sourceIds": [
         "web"
       ],
@@ -208,7 +236,7 @@
       "summary": "Paul asks them not to be shaken by a letter said to be his. Such a message says the day of the Lord has already come. That day will not come before the rebellion and the man of sin. That man will sit in God’s temple and claim to be God. Something now restrains him. The Lord Jesus will destroy him by the breath of his mouth. Those who refused to love the truth will be deceived. Paul thanks God for choosing the readers and tells them to stand firm.",
       "detail": "Verse 2 names three ways a false report could come: spirit, word, or letter. Any of them might claim the writers’ authority. Verse 5 reminds them that Paul told them these things in person. Verse 15 gives the test that follows. They are to hold what the writers taught, by word or by letter. A new claim is measured against that teaching. Verse 3:17 adds a safeguard: Paul’s own handwriting marks every letter.",
       "dateLabel": "Book order",
-      "uncertainty": "The marker identifies the addressed city. No exact temple or heavenly location is assigned.",
+      "uncertainty": "The map marks Thessalonica as one city point. The map has no point for the temple of God.",
       "sourceIds": [
         "web"
       ],
@@ -229,7 +257,7 @@
       "summary": "Paul asks for prayer that the Lord’s word will spread quickly. The Lord is faithful and will guard them. He commands them to withdraw from any brother who refuses to work. He worked night and day and ate no one’s bread for free. He gave the rule that one who will not work should not eat. Some are busybodies and should work quietly. Anyone who ignores this letter should be noted and avoided. Paul signs with his own hand.",
       "detail": "Verse 14 tells them to note a disobedient person and keep away. The stated aim is that he be ashamed. Verse 15 limits how far that goes. He is not to be counted an enemy. He is to be admonished, and the word used for him is still “brother.” Verse 6 used the same word at the start of the instruction. The distance is meant to correct him, not to disown him.",
       "dateLabel": "Book order",
-      "uncertainty": "The marker identifies the addressed city. No exact temple or heavenly location is assigned.",
+      "uncertainty": "The map marks Thessalonica as one city point. The map has no point for the temple of God.",
       "sourceIds": [
         "web",
         "wyant-thessalonians"
@@ -249,8 +277,8 @@
       "name": "Thessalonica",
       "lat": 40.61666666666667,
       "lng": 22.916666666666668,
-      "summary": "Thessalonica identifies the assembly addressed in the opening greeting.",
-      "limits": "City reference rather than an exact meeting house.",
+      "summary": "The letter is addressed to the assembly of the Thessalonians in chapter 1. Paul, Silvanus, and Timothy greet them.",
+      "limits": "The marker shows the city’s general location.",
       "sourceIds": [
         "web",
         "net-thessalonica"
@@ -259,8 +287,8 @@
       "linkNames": [
         "Thessalonians"
       ],
-      "detail": "Thessalonica identifies the assembly addressed in the opening greeting.",
-      "uncertainty": "City reference rather than an exact meeting house.",
+      "detail": "The letter is addressed to the assembly of the Thessalonians in chapter 1. Paul, Silvanus, and Timothy greet them.",
+      "uncertainty": "The marker shows the city’s general location.",
       "chapterLocation": true
     }
   ],
@@ -268,6 +296,35 @@
   "ancientRoads": [],
   "regions": [],
   "words": [
+    {
+      "id": "glossary-saints-1-G40-saints",
+      "label": "Saints",
+      "matches": [
+        "saints"
+      ],
+      "chapter": 1,
+      "verses": [
+        10
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "ἅγιος",
+      "greekNote": "",
+      "meaning": "People set apart as holy. In the letters the word means the believers in a place.",
+      "grammar": "This is the dictionary form of Greek word G40. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G40",
+      "language": "greek",
+      "greekTransliteration": "hágios",
+      "chapterDefault": true
+    },
     {
       "id": "glossary-saints",
       "label": "Saints",
@@ -287,7 +344,66 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "greek"
+    },
+    {
+      "id": "glossary-assembly-1-G1577-assemblies",
+      "label": "Assembly",
+      "matches": [
+        "assemblies"
+      ],
+      "chapter": 1,
+      "verses": [
+        4
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "ἐκκλησία",
+      "greekNote": "",
+      "meaning": "A gathering of people. In the New Testament letters it means a group of believers. Many translations say “church.”",
+      "grammar": "This is the dictionary form of Greek word G1577. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G1577",
+      "language": "greek",
+      "greekTransliteration": "ekklēsía",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-assembly-1-G1577-assembly",
+      "label": "Assembly",
+      "matches": [
+        "assembly"
+      ],
+      "chapter": 1,
+      "verses": [
+        1
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "ἐκκλησία",
+      "greekNote": "",
+      "meaning": "A gathering of people. In the New Testament letters it means a group of believers. Many translations say “church.”",
+      "grammar": "This is the dictionary form of Greek word G1577. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G1577",
+      "language": "greek",
+      "greekTransliteration": "ekklēsía",
+      "chapterDefault": true
     },
     {
       "id": "glossary-assembly",
@@ -309,7 +425,8 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "greek"
     }
   ],
   "guides": [
@@ -385,9 +502,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "The marker identifies the addressed city. No exact temple or heavenly location is assigned.",
+      "note": "The map marks Thessalonica as one city point. The map has no point for the temple of God.",
       "narrative": "Paul, Silvanus, and Timothy write again to the Thessalonians. They thank God that the readers’ faith grows and their love increases. They boast of the readers’ endurance in persecutions. They say God will repay the afflicters and give relief to the afflicted. That will happen when the Lord Jesus is revealed from heaven with his angels. Those who do not obey the good news will be punished. He will be glorified in his saints on that day. The writers pray that God will count the readers worthy of their calling.",
-      "limits": "The marker identifies the addressed city. No exact temple or heavenly location is assigned.",
+      "limits": "The map marks Thessalonica as one city point. The map has no point for the temple of God.",
       "sourceIds": [
         "web"
       ]
@@ -401,9 +518,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "The marker identifies the addressed city. No exact temple or heavenly location is assigned.",
+      "note": "The map marks Thessalonica as one city point. The map has no point for the temple of God.",
       "narrative": "Paul asks them not to be shaken by a letter said to be his. Such a message says the day of the Lord has already come. That day will not come before the rebellion and the man of sin. That man will sit in God’s temple and claim to be God. Something now restrains him. The Lord Jesus will destroy him by the breath of his mouth. Those who refused to love the truth will be deceived. Paul thanks God for choosing the readers and tells them to stand firm.",
-      "limits": "The marker identifies the addressed city. No exact temple or heavenly location is assigned.",
+      "limits": "The map marks Thessalonica as one city point. The map has no point for the temple of God.",
       "sourceIds": [
         "web"
       ]
@@ -417,9 +534,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "The marker identifies the addressed city. No exact temple or heavenly location is assigned.",
+      "note": "The map marks Thessalonica as one city point. The map has no point for the temple of God.",
       "narrative": "Paul asks for prayer that the Lord’s word will spread quickly. The Lord is faithful and will guard them. He commands them to withdraw from any brother who refuses to work. He worked night and day and ate no one’s bread for free. He gave the rule that one who will not work should not eat. Some are busybodies and should work quietly. Anyone who ignores this letter should be noted and avoided. Paul signs with his own hand.",
-      "limits": "The marker identifies the addressed city. No exact temple or heavenly location is assigned.",
+      "limits": "The map marks Thessalonica as one city point. The map has no point for the temple of God.",
       "sourceIds": [
         "web",
         "wyant-thessalonians"

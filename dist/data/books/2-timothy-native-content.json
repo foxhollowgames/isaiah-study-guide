@@ -4,10 +4,10 @@
       "id": "web",
       "title": "2 Timothy · World English Bible",
       "url": "https://ebible.org/engwebp/2TI01.htm",
-      "summary": "Complete Scripture supplies the primary text for original close readings.",
+      "summary": "The full Scripture text is the main text for original close readings.",
       "category": "Scripture",
       "perspective": "historical",
-      "limits": "Paul is the named letter speaker. Historical authorship, dates, Greek forms, manuscripts, and a complete harmony of the travel notices were not independently verified. No exact prison site is assigned.",
+      "limits": "Paul is the named writer. The guide did not check authorship, dates, Greek forms, or manuscripts. It did not match the travel notices into one full plan. No exact prison site is given.",
       "author": "World English Bible translators",
       "publisher": "eBible.org",
       "chapterCoverage": [
@@ -21,7 +21,7 @@
         "scope": "All 83 verses read for 4 original contextual explanations and exact selections. Surroundings, counts, and character integrity checked."
       },
       "type": "Scripture",
-      "limitations": "Paul is the named letter speaker. Historical authorship, dates, Greek forms, manuscripts, and a complete harmony of the travel notices were not independently verified. No exact prison site is assigned.",
+      "limitations": "Paul is the named writer. The guide did not check authorship, dates, Greek forms, or manuscripts. It did not match the travel notices into one full plan. No exact prison site is given.",
       "license": "Public domain"
     },
     {
@@ -33,8 +33,8 @@
       "year": 2023,
       "category": "LDS Come, Follow Me",
       "perspective": "lds",
-      "summary": "The lesson connects courage, Scripture, and continued faithful teaching.",
-      "limits": "Second Timothy coverage follows actual discussion of chapters one, three, and four. Linked talks and Restoration passages were not independently reviewed.",
+      "summary": "The lesson links courage, Scripture, and steady teaching.",
+      "limits": "Second Timothy coverage follows what the lesson discusses in chapters one, three, and four. The guide did not check the linked talks or Restoration passages.",
       "chapterCoverage": [
         1,
         3,
@@ -45,7 +45,7 @@
         "scope": "Complete lesson body and resources read. Only its actual Second Timothy discussion supports these Church references."
       },
       "type": "LDS Come, Follow Me",
-      "limitations": "Second Timothy coverage follows actual discussion of chapters one, three, and four. Linked talks and Restoration passages were not independently reviewed.",
+      "limitations": "Second Timothy coverage follows what the lesson discusses in chapters one, three, and four. The guide did not check the linked talks or Restoration passages.",
       "license": "Linked source. Original guide summaries."
     },
     {
@@ -57,8 +57,8 @@
       "year": 2013,
       "category": "Scholarly study",
       "perspective": "historical",
-      "summary": "Skinner emphasizes Scripture's usefulness for faithful service and patient teaching.",
-      "limits": "This is Skinner's interpretation. His Greek analysis, authorship discussion linked elsewhere, and a reconstructed history of Scripture were not independently verified.",
+      "summary": "Skinner stresses that Scripture helps faithful service and patient teaching.",
+      "limits": "This is Skinner’s own reading. The guide did not check his Greek analysis or his authorship discussion. That discussion is linked elsewhere. It did not check any rebuilt history of how Scripture formed.",
       "chapterCoverage": [
         3
       ],
@@ -67,17 +67,17 @@
         "scope": "Complete commentary body read. The guide attributes his emphasis on Scripture's usefulness for Timothy's work."
       },
       "type": "Scholarly study",
-      "limitations": "This is Skinner's interpretation. His Greek analysis, authorship discussion linked elsewhere, and a reconstructed history of Scripture were not independently verified.",
+      "limitations": "This is Skinner’s own reading. The guide did not check his Greek analysis or his authorship discussion. That discussion is linked elsewhere. It did not check any rebuilt history of how Scripture formed.",
       "license": "Linked source. Original guide summaries."
     },
     {
       "id": "net-acts-map",
       "title": "NET Bible · selected Acts location references",
       "url": "https://classic.net.bible.org/dictionary.php?word=Antioch",
-      "summary": "Selected opening descriptions and coordinates distinguish cities named in Acts.",
+      "summary": "Opening descriptions and coordinates mark the cities named in Acts.",
       "category": "Geographic reference",
       "perspective": "historical",
-      "limits": "Broad reference points do not verify ancient events, travel paths, buildings, or coastlines. Older encyclopedia claims about authorship, law, populations, and exact dates were not adopted.",
+      "limits": "These broad points do not confirm ancient events, travel paths, buildings, or coastlines. The guide did not adopt older encyclopedia claims about authorship, law, population, or exact dates.",
       "author": "NET Bible editors and linked reference contributors",
       "publisher": "Bible.org",
       "year": null,
@@ -112,8 +112,36 @@
         }
       ],
       "type": "Geographic reference",
-      "limitations": "Broad reference points do not verify ancient events, travel paths, buildings, or coastlines. Older encyclopedia claims about authorship, law, populations, and exact dates were not adopted.",
+      "limitations": "These broad points do not confirm ancient events, travel paths, buildings, or coastlines. The guide did not adopt older encyclopedia claims about authorship, law, population, or exact dates.",
       "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "strong-greek",
+      "title": "A Concise Dictionary of the Words in the Greek Testament",
+      "author": "James Strong · Open Scriptures XML edition",
+      "year": "1890 / digital edition",
+      "perspective": "historical",
+      "category": "Historical lexicon",
+      "url": "https://github.com/openscriptures/strongs",
+      "summary": "Lists Greek dictionary forms and their possible meanings. Use it with the passage to study a word.",
+      "limits": "This is an older dictionary. Compare its meanings with the passage. A list of meanings alone cannot show which one applies.",
+      "license": "Source XML declares Public Domain. Only selected headwords are used.",
+      "type": "Historical lexicon",
+      "limitations": "This is an older dictionary. Compare its meanings with the passage. A list of meanings alone cannot show which one applies."
+    },
+    {
+      "id": "byz",
+      "title": "The New Testament in the Original Greek: Byzantine Textform",
+      "author": "Maurice A. Robinson and William G. Pierpont",
+      "year": "2018 digital edition",
+      "perspective": "historical",
+      "category": "Greek text",
+      "url": "https://github.com/byztxt/byzantine-majority-text",
+      "summary": "Provides a Greek New Testament text with dictionary numbers. This study guide uses these to check selected words against their verses.",
+      "limits": "The app checks selected words, not every English–Greek match. It shows Greek dictionary forms. The forms in the verses can differ. Other Greek editions differ in some verses.",
+      "license": "Public domain.",
+      "type": "Greek text",
+      "limitations": "The app checks selected words, not every English–Greek match. It shows Greek dictionary forms. The forms in the verses can differ. Other Greek editions differ in some verses."
     }
   ],
   "passages": [
@@ -126,7 +154,7 @@
       "summary": "The letter is addressed from Paul to Timothy, his beloved child. Paul remembers Timothy’s tears and longs to see him. He recalls the faith of Timothy’s grandmother Lois and mother Eunice. Timothy is to stir up God’s gift, given through Paul’s hands. God gave a spirit of power, love, and self-control, not fear. Timothy should not be ashamed of the Lord or of Paul the prisoner. All in Asia turned away from Paul. Onesiphorus was not ashamed of his chain and searched for him in Rome.",
       "year": null,
       "dateLabel": "Book order",
-      "uncertainty": "No exact location is assigned to unnamed or heavenly settings.",
+      "uncertainty": "The map marks Rome, Ephesus, and Corinth as city points where each is named.",
       "placeIds": [
         "rome",
         "ephesus"
@@ -158,7 +186,7 @@
       "summary": "Timothy is to be strong in grace and pass the teaching to faithful people. He should endure hardship like a soldier, an athlete, and a farmer. Paul suffers in chains, but God’s word is not chained. A trustworthy saying follows: if we died with him, we will live with him. Timothy should avoid word fights and empty talk. Hymenaeus and Philetus say the resurrection has already happened. A great house has vessels for honor and for dishonor. The Lord’s servant must be gentle and correct opponents with patience.",
       "year": null,
       "dateLabel": "Book order",
-      "uncertainty": "No exact location is assigned to unnamed or heavenly settings.",
+      "uncertainty": "The map marks Rome, Ephesus, and Corinth as city points where each is named.",
       "placeIds": [],
       "sourceIds": [
         "web"
@@ -185,7 +213,7 @@
       "summary": "The letter warns that hard times will come in the last days. People will love themselves, money, and pleasure more than God. They will hold a form of godliness and deny its power. Such teachers resist the truth as Jannes and Jambres opposed Moses. Timothy has followed Paul’s teaching, conduct, and sufferings at Antioch, Iconium, and Lystra. All who live godly lives in Christ will be persecuted. Timothy should continue in what he learned from childhood in the holy Scriptures. Every Scripture is God-breathed and useful.",
       "year": null,
       "dateLabel": "Book order",
-      "uncertainty": "No exact location is assigned to unnamed or heavenly settings.",
+      "uncertainty": "The map marks Rome, Ephesus, and Corinth as city points where each is named.",
       "placeIds": [],
       "sourceIds": [
         "web",
@@ -215,7 +243,7 @@
       "summary": "Paul charges Timothy before God and Christ, the judge of living and dead. Timothy is to announce the word and be ready at all times. A time will come when people gather teachers who please their ears. Paul says he is already being poured out. He has fought the good fight and kept the faith. He asks Timothy to come soon and bring Mark, a cloak, and the books. At his first defense no one stood with him, but the Lord did. He sends greetings and a blessing.",
       "year": null,
       "dateLabel": "Book order",
-      "uncertainty": "No exact location is assigned to unnamed or heavenly settings.",
+      "uncertainty": "The map marks Rome, Ephesus, and Corinth as city points where each is named.",
       "placeIds": [
         "ephesus",
         "corinth"
@@ -249,7 +277,7 @@
       "summary": "The letter is addressed from Paul to Timothy, his beloved child. Paul remembers Timothy’s tears and longs to see him. He recalls the faith of Timothy’s grandmother Lois and mother Eunice. Timothy is to stir up God’s gift, given through Paul’s hands. God gave a spirit of power, love, and self-control, not fear. Timothy should not be ashamed of the Lord or of Paul the prisoner. All in Asia turned away from Paul. Onesiphorus was not ashamed of his chain and searched for him in Rome.",
       "detail": "Paul writes as a prisoner (verse 8), and many have left him (verse 15). Shame is the danger the chapter names three times. Verse 8 tells Timothy not to be ashamed of the Lord’s testimony or of Paul. Verse 12 says Paul is not ashamed, for he knows whom he trusted. Verse 16 praises Onesiphorus, who was not ashamed of the chain. The ground for courage comes just before, in verse 7. God gave a spirit of power, love, and self-control.",
       "dateLabel": "Book order",
-      "uncertainty": "No exact location is assigned to unnamed or heavenly settings.",
+      "uncertainty": "The map marks Rome, Ephesus, and Corinth as city points where each is named.",
       "sourceIds": [
         "web"
       ],
@@ -273,7 +301,7 @@
       "summary": "Timothy is to be strong in grace and pass the teaching to faithful people. He should endure hardship like a soldier, an athlete, and a farmer. Paul suffers in chains, but God’s word is not chained. A trustworthy saying follows: if we died with him, we will live with him. Timothy should avoid word fights and empty talk. Hymenaeus and Philetus say the resurrection has already happened. A great house has vessels for honor and for dishonor. The Lord’s servant must be gentle and correct opponents with patience.",
       "detail": "Verse 23 tells Timothy to refuse foolish questions, because they breed quarrels. Verse 24 gives the rule for the Lord’s servant: he must not quarrel. Three qualities replace quarreling: gentle toward all, able to teach, and patient. Verse 25 keeps correction in place but sets its tone: gentleness. The reason is hope for the opponent. God may give them repentance and knowledge of the truth. Verse 26 says they may yet escape the devil’s snare.",
       "dateLabel": "Book order",
-      "uncertainty": "No exact location is assigned to unnamed or heavenly settings.",
+      "uncertainty": "The map marks Rome, Ephesus, and Corinth as city points where each is named.",
       "sourceIds": [
         "web"
       ],
@@ -292,7 +320,7 @@
       "summary": "The letter warns that hard times will come in the last days. People will love themselves, money, and pleasure more than God. They will hold a form of godliness and deny its power. Such teachers resist the truth as Jannes and Jambres opposed Moses. Timothy has followed Paul’s teaching, conduct, and sufferings at Antioch, Iconium, and Lystra. All who live godly lives in Christ will be persecuted. Timothy should continue in what he learned from childhood in the holy Scriptures. Every Scripture is God-breathed and useful.",
       "detail": "Verse 13 says deceivers will grow worse. Verse 14 tells Timothy to stay with what he has learned. Verse 15 says the holy Scriptures can make him wise for salvation. Verse 16 lists four uses: teaching, reproof, correction, and training in righteousness. Verse 17 gives the purpose of all four. The person who belongs to God becomes complete. He is equipped “for every good work,” so the end of the list is action.",
       "dateLabel": "Book order",
-      "uncertainty": "No exact location is assigned to unnamed or heavenly settings.",
+      "uncertainty": "The map marks Rome, Ephesus, and Corinth as city points where each is named.",
       "sourceIds": [
         "web",
         "skinner-timothy"
@@ -314,7 +342,7 @@
       "summary": "Paul charges Timothy before God and Christ, the judge of living and dead. Timothy is to announce the word and be ready at all times. A time will come when people gather teachers who please their ears. Paul says he is already being poured out. He has fought the good fight and kept the faith. He asks Timothy to come soon and bring Mark, a cloak, and the books. At his first defense no one stood with him, but the Lord did. He sends greetings and a blessing.",
       "detail": "Verse 1 sets the charge before God and Christ the judge. Verse 2 gives five commands in a row. The first is to announce the word. The second is to be ready in season and out of season. Reprove, rebuke, and exhort follow, with patience and teaching. Verses 3–4 explain the urgency: hearers will turn from the truth to fables. Verse 6 adds another reason: Paul’s own departure is near.",
       "dateLabel": "Book order",
-      "uncertainty": "No exact location is assigned to unnamed or heavenly settings.",
+      "uncertainty": "The map marks Rome, Ephesus, and Corinth as city points where each is named.",
       "sourceIds": [
         "web"
       ],
@@ -336,8 +364,8 @@
       "name": "Rome",
       "lat": 41.9,
       "lng": 12.483333333333333,
-      "summary": "Rome is where Onesiphorus sought the chained speaker.",
-      "limits": "Broad city reference. Exact houses, riverside meeting points, courtrooms, and ancient routes remain unassigned.",
+      "summary": "Onesiphorus was in Rome in chapter 1. He looked hard for Paul there and found him.",
+      "limits": "The marker shows the city’s general location.",
       "sourceIds": [
         "web",
         "net-acts-map"
@@ -346,17 +374,36 @@
       "linkNames": [
         "Rome"
       ],
-      "detail": "Rome is where Onesiphorus sought the chained speaker.",
-      "uncertainty": "Broad city reference. Exact houses, riverside meeting points, courtrooms, and ancient routes remain unassigned.",
-      "chapterLocation": true
+      "detail": "Onesiphorus was in Rome in chapter 1. He looked hard for Paul there and found him.",
+      "uncertainty": "The marker shows the city’s general location.",
+      "chapterLocation": true,
+      "word": {
+        "language": "greek",
+        "strongId": "G4516",
+        "key": "Rome",
+        "checkedVerses": 1,
+        "example": [
+          1,
+          17
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Ῥώμη",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Rhṓmē"
+      }
     },
     {
       "id": "ephesus",
       "name": "Ephesus",
       "lat": 37.95,
       "lng": 27.366666666666667,
-      "summary": "Ephesus appears in remembered service and the sending of Tychicus.",
-      "limits": "Broad city reference. Exact houses, riverside meeting points, courtrooms, and ancient routes remain unassigned.",
+      "summary": "Onesiphorus served at Ephesus, as Timothy knows well (chapter 1). Paul says he sent Tychicus to Ephesus (chapter 4).",
+      "limits": "The marker shows the city’s general location.",
       "sourceIds": [
         "web",
         "net-acts-map"
@@ -365,17 +412,36 @@
       "linkNames": [
         "Ephesus"
       ],
-      "detail": "Ephesus appears in remembered service and the sending of Tychicus.",
-      "uncertainty": "Broad city reference. Exact houses, riverside meeting points, courtrooms, and ancient routes remain unassigned.",
-      "chapterLocation": true
+      "detail": "Onesiphorus served at Ephesus, as Timothy knows well (chapter 1). Paul says he sent Tychicus to Ephesus (chapter 4).",
+      "uncertainty": "The marker shows the city’s general location.",
+      "chapterLocation": true,
+      "word": {
+        "language": "greek",
+        "strongId": "G2181",
+        "key": "Ephesus",
+        "checkedVerses": 2,
+        "example": [
+          1,
+          18
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Ἔφεσος",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Éphesos"
+      }
     },
     {
       "id": "corinth",
       "name": "Corinth",
       "lat": 37.9,
       "lng": 22.866666666666667,
-      "summary": "Corinth is named in the closing notice about Erastus.",
-      "limits": "Broad city reference. Exact houses, riverside meeting points, courtrooms, and ancient routes remain unassigned.",
+      "summary": "Paul says Erastus stayed at Corinth, in his closing notes in chapter 4.",
+      "limits": "The marker shows the city’s general location.",
       "sourceIds": [
         "web",
         "net-acts-map"
@@ -384,15 +450,92 @@
       "linkNames": [
         "Corinth"
       ],
-      "detail": "Corinth is named in the closing notice about Erastus.",
-      "uncertainty": "Broad city reference. Exact houses, riverside meeting points, courtrooms, and ancient routes remain unassigned.",
-      "chapterLocation": true
+      "detail": "Paul says Erastus stayed at Corinth, in his closing notes in chapter 4.",
+      "uncertainty": "The marker shows the city’s general location.",
+      "chapterLocation": true,
+      "word": {
+        "language": "greek",
+        "strongId": "G2882",
+        "key": "Corinth",
+        "checkedVerses": 1,
+        "example": [
+          4,
+          20
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Κόρινθος",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Kórinthos"
+      }
     }
   ],
   "campaigns": [],
   "ancientRoads": [],
   "regions": [],
   "words": [
+    {
+      "id": "glossary-gentiles-1-G1484-gentiles",
+      "label": "Gentiles",
+      "matches": [
+        "Gentiles"
+      ],
+      "chapter": 1,
+      "verses": [
+        11
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "ἔθνος",
+      "greekNote": "",
+      "meaning": "People of nations other than Israel.",
+      "grammar": "This is the dictionary form of Greek word G1484. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G1484",
+      "language": "greek",
+      "greekTransliteration": "éthnos",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-gentiles-4-G1484-gentiles",
+      "label": "Gentiles",
+      "matches": [
+        "Gentiles"
+      ],
+      "chapter": 4,
+      "verses": [
+        17
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "ἔθνος",
+      "greekNote": "",
+      "meaning": "People of nations other than Israel.",
+      "grammar": "This is the dictionary form of Greek word G1484. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G1484",
+      "language": "greek",
+      "greekTransliteration": "éthnos",
+      "chapterDefault": true
+    },
     {
       "id": "glossary-gentiles",
       "label": "Gentiles",
@@ -413,7 +556,38 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "greek"
+    },
+    {
+      "id": "glossary-apostles-1-G652-apostle",
+      "label": "Apostles",
+      "matches": [
+        "apostle"
+      ],
+      "chapter": 1,
+      "verses": [
+        1,
+        11
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "ἀπόστολος",
+      "greekNote": "",
+      "meaning": "People sent out with a message. In the Gospels the word names twelve whom Jesus chose.",
+      "grammar": "This is the dictionary form of Greek word G652. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G652",
+      "language": "greek",
+      "greekTransliteration": "apóstolos",
+      "chapterDefault": true
     },
     {
       "id": "glossary-apostles",
@@ -435,7 +609,8 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "greek"
     }
   ],
   "guides": [
@@ -522,9 +697,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "No exact location is assigned to unnamed or heavenly settings.",
+      "note": "The map marks Rome, Ephesus, and Corinth as city points where each is named.",
       "narrative": "The letter is addressed from Paul to Timothy, his beloved child. Paul remembers Timothy’s tears and longs to see him. He recalls the faith of Timothy’s grandmother Lois and mother Eunice. Timothy is to stir up God’s gift, given through Paul’s hands. God gave a spirit of power, love, and self-control, not fear. Timothy should not be ashamed of the Lord or of Paul the prisoner. All in Asia turned away from Paul. Onesiphorus was not ashamed of his chain and searched for him in Rome.",
-      "limits": "No exact location is assigned to unnamed or heavenly settings.",
+      "limits": "The map marks Rome, Ephesus, and Corinth as city points where each is named.",
       "sourceIds": [
         "web"
       ]
@@ -538,9 +713,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "No exact location is assigned to unnamed or heavenly settings.",
+      "note": "The map marks Rome, Ephesus, and Corinth as city points where each is named.",
       "narrative": "Timothy is to be strong in grace and pass the teaching to faithful people. He should endure hardship like a soldier, an athlete, and a farmer. Paul suffers in chains, but God’s word is not chained. A trustworthy saying follows: if we died with him, we will live with him. Timothy should avoid word fights and empty talk. Hymenaeus and Philetus say the resurrection has already happened. A great house has vessels for honor and for dishonor. The Lord’s servant must be gentle and correct opponents with patience.",
-      "limits": "No exact location is assigned to unnamed or heavenly settings.",
+      "limits": "The map marks Rome, Ephesus, and Corinth as city points where each is named.",
       "sourceIds": [
         "web"
       ]
@@ -554,9 +729,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "No exact location is assigned to unnamed or heavenly settings.",
+      "note": "The map marks Rome, Ephesus, and Corinth as city points where each is named.",
       "narrative": "The letter warns that hard times will come in the last days. People will love themselves, money, and pleasure more than God. They will hold a form of godliness and deny its power. Such teachers resist the truth as Jannes and Jambres opposed Moses. Timothy has followed Paul’s teaching, conduct, and sufferings at Antioch, Iconium, and Lystra. All who live godly lives in Christ will be persecuted. Timothy should continue in what he learned from childhood in the holy Scriptures. Every Scripture is God-breathed and useful.",
-      "limits": "No exact location is assigned to unnamed or heavenly settings.",
+      "limits": "The map marks Rome, Ephesus, and Corinth as city points where each is named.",
       "sourceIds": [
         "web",
         "skinner-timothy"
@@ -577,9 +752,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "No exact location is assigned to unnamed or heavenly settings.",
+      "note": "The map marks Rome, Ephesus, and Corinth as city points where each is named.",
       "narrative": "Paul charges Timothy before God and Christ, the judge of living and dead. Timothy is to announce the word and be ready at all times. A time will come when people gather teachers who please their ears. Paul says he is already being poured out. He has fought the good fight and kept the faith. He asks Timothy to come soon and bring Mark, a cloak, and the books. At his first defense no one stood with him, but the Lord did. He sends greetings and a blessing.",
-      "limits": "No exact location is assigned to unnamed or heavenly settings.",
+      "limits": "The map marks Rome, Ephesus, and Corinth as city points where each is named.",
       "sourceIds": [
         "web"
       ]

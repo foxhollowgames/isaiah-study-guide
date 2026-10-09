@@ -71,6 +71,34 @@
       "type": "LDS Come, Follow Me",
       "limitations": "Church applications remain separate from the original explanations of Jonah’s words and actions.",
       "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "strong",
+      "title": "A Concise Dictionary of the Words in the Hebrew Bible",
+      "author": "James Strong · Open Scriptures XML edition",
+      "year": "1894 / digital edition",
+      "perspective": "historical",
+      "category": "Historical lexicon",
+      "url": "https://github.com/openscriptures/strongs",
+      "summary": "Lists Hebrew dictionary forms and their possible meanings. Use it with the passage to study a word.",
+      "limits": "This is an older dictionary. Compare its meanings with the passage. A list of meanings alone cannot show which one applies.",
+      "license": "Source XML declares Public Domain. Only selected headwords are used.",
+      "type": "Historical lexicon",
+      "limitations": "This is an older dictionary. Compare its meanings with the passage. A list of meanings alone cannot show which one applies."
+    },
+    {
+      "id": "oshb",
+      "title": "Open Scriptures Hebrew Bible",
+      "author": "Open Scriptures contributors / Westminster Leningrad Codex",
+      "year": "Digital edition",
+      "perspective": "historical",
+      "category": "Hebrew text",
+      "url": "https://hb.openscriptures.org/",
+      "summary": "Provides the Hebrew text and word identifiers. This study guide uses these to check selected words against their verses.",
+      "limits": "The app checks selected words, not every English–Hebrew match. It shows Hebrew dictionary forms. The forms in the verses can differ.",
+      "license": "Hebrew text public domain; lemma/morphology data CC BY 4.0. Original work of the Open Scriptures Hebrew Bible, https://hb.openscriptures.org/.",
+      "type": "Hebrew text",
+      "limitations": "The app checks selected words, not every English–Hebrew match. It shows Hebrew dictionary forms. The forms in the verses can differ."
     }
   ],
   "passages": [
@@ -308,7 +336,25 @@
       ],
       "detail": "Nineveh is the city Jonah must address and the object of God’s final question.",
       "uncertainty": "Approximate ancient city marker. No king, palace room, or walking path is identified.",
-      "chapterLocation": true
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H5210",
+        "key": "Nineveh",
+        "checkedVerses": 8,
+        "example": [
+          1,
+          2
+        ],
+        "hebrew": "נִינְוֵה",
+        "transliteration": "Nîynᵉvêh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "joppa",
@@ -322,13 +368,59 @@
       ],
       "detail": "Joppa is the port where Jonah finds the ship bound for Tarshish.",
       "uncertainty": "Approximate port marker. Tarshish and the ship’s course remain uncertain and unmapped.",
-      "chapterLocation": true
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H3305",
+        "key": "Joppa",
+        "checkedVerses": 1,
+        "example": [
+          1,
+          3
+        ],
+        "hebrew": "יָפוֹ",
+        "transliteration": "Yâphôw",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     }
   ],
   "campaigns": [],
   "ancientRoads": [],
   "regions": [],
   "words": [
+    {
+      "id": "glossary-sheol-2-H7585-sheol",
+      "label": "Sheol",
+      "matches": [
+        "Sheol"
+      ],
+      "chapter": 2,
+      "verses": [
+        2
+      ],
+      "hebrew": "שְׁאוֹל",
+      "transliteration": "shᵉʼôwl",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "The Hebrew name for the place of the dead.",
+      "grammar": "This is the dictionary form of Hebrew word H7585. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H7585",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
     {
       "id": "glossary-sheol",
       "label": "Sheol",
@@ -348,7 +440,38 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-sackcloth-3-H8242-sackcloth",
+      "label": "Sackcloth",
+      "matches": [
+        "sackcloth"
+      ],
+      "chapter": 3,
+      "verses": [
+        5,
+        6,
+        8
+      ],
+      "hebrew": "שַׂק",
+      "transliteration": "saq",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "Rough cloth worn to show grief or repentance.",
+      "grammar": "This is the dictionary form of Hebrew word H8242. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H8242",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-sackcloth",
@@ -369,7 +492,8 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
     }
   ],
   "guides": [

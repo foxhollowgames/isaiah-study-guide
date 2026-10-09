@@ -7,7 +7,7 @@
       "summary": "All three chapters appear in the reading text.",
       "category": "Scripture",
       "perspective": "historical",
-      "limits": "This edition has three chapters. No exact disaster date or modern fulfillment is assigned.",
+      "limits": "This edition has three chapters. It gives no exact date for the disaster and no modern fulfillment.",
       "author": "World English Bible translators",
       "publisher": "eBible.org",
       "chapterCoverage": [
@@ -20,7 +20,7 @@
         "scope": "All 73 verses read. Chapter counts and character integrity checked."
       },
       "type": "Scripture",
-      "limitations": "This edition has three chapters. No exact disaster date or modern fulfillment is assigned.",
+      "limitations": "This edition has three chapters. It gives no exact date for the disaster and no modern fulfillment.",
       "license": "Public domain"
     },
     {
@@ -30,7 +30,7 @@
       "summary": "Howard explains the shared gathering, the changed trumpet call, and hope in mercy.",
       "category": "Scholarly study",
       "perspective": "historical",
-      "limits": "The commentary interprets the locust disaster and the selected passage. It does not supply a certain date.",
+      "limits": "The commentary interprets the locust disaster and the selected passage. It gives no certain date.",
       "author": "Cameron B.R. Howard",
       "year": 2024,
       "publisher": "Luther Seminary",
@@ -42,7 +42,7 @@
         "scope": "Complete commentary read. Its linked references were not separately reviewed."
       },
       "type": "Scholarly study",
-      "limitations": "The commentary interprets the locust disaster and the selected passage. It does not supply a certain date.",
+      "limitations": "The commentary interprets the locust disaster and the selected passage. It gives no certain date.",
       "license": "Linked source. Original guide summaries."
     },
     {
@@ -66,6 +66,34 @@
       "type": "LDS Come, Follow Me",
       "limitations": "Its applications through Acts and Joseph Smith’s account remain later Church readings.",
       "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "strong",
+      "title": "A Concise Dictionary of the Words in the Hebrew Bible",
+      "author": "James Strong · Open Scriptures XML edition",
+      "year": "1894 / digital edition",
+      "perspective": "historical",
+      "category": "Historical lexicon",
+      "url": "https://github.com/openscriptures/strongs",
+      "summary": "Lists Hebrew dictionary forms and their possible meanings. Use it with the passage to study a word.",
+      "limits": "This is an older dictionary. Compare its meanings with the passage. A list of meanings alone cannot show which one applies.",
+      "license": "Source XML declares Public Domain. Only selected headwords are used.",
+      "type": "Historical lexicon",
+      "limitations": "This is an older dictionary. Compare its meanings with the passage. A list of meanings alone cannot show which one applies."
+    },
+    {
+      "id": "oshb",
+      "title": "Open Scriptures Hebrew Bible",
+      "author": "Open Scriptures contributors / Westminster Leningrad Codex",
+      "year": "Digital edition",
+      "perspective": "historical",
+      "category": "Hebrew text",
+      "url": "https://hb.openscriptures.org/",
+      "summary": "Provides the Hebrew text and word identifiers. This study guide uses these to check selected words against their verses.",
+      "limits": "The app checks selected words, not every English–Hebrew match. It shows Hebrew dictionary forms. The forms in the verses can differ.",
+      "license": "Hebrew text public domain; lemma/morphology data CC BY 4.0. Original work of the Open Scriptures Hebrew Bible, https://hb.openscriptures.org/.",
+      "type": "Hebrew text",
+      "limitations": "The app checks selected words, not every English–Hebrew match. It shows Hebrew dictionary forms. The forms in the verses can differ."
     }
   ],
   "passages": [
@@ -78,7 +106,7 @@
       "summary": "The LORD’s word comes to Joel. He asks the old men whether anything like this has happened before. Swarm after swarm of locusts has eaten everything. Vines are ruined, and fig trees are stripped bare. Grain and wine offerings have stopped in the LORD’s house. Farmers despair, and the joy of the people dries up. Joel tells the priests to call a fast and gather everyone. Even the wild animals cry to God as the streams dry up.",
       "year": null,
       "dateLabel": "Book order",
-      "uncertainty": "The chapter names no specific place for the crop disaster.",
+      "uncertainty": "The chapter names no place for the crop disaster.",
       "placeIds": [],
       "sourceIds": [
         "web"
@@ -105,7 +133,7 @@
       "summary": "A trumpet sounds in Zion, for the day of the LORD is near. An army advances like fire, and nothing escapes it. Yet even now God calls the people to return with all their heart. They should tear their hearts and not their clothes. He is gracious, merciful, and slow to anger. Everyone must gather, from elders to nursing infants. Then God will restore the years the locusts ate. Afterward he will pour out his Spirit on all people.",
       "year": null,
       "dateLabel": "Book order",
-      "uncertainty": "Selected city and region references appear as approximate markers. Visions do not establish traveled routes.",
+      "uncertainty": "Markers show named places from the speeches. They do not show a route.",
       "placeIds": [
         "jerusalem"
       ],
@@ -137,7 +165,7 @@
       "summary": "In those days God will gather all nations for judgment. They scattered his people and divided his land. They cast lots for his people. They traded a boy for a prostitute and sold a girl for wine. Tyre, Sidon, and Philistia sold Judah’s children far away. God will return their deeds on their own heads. Crowds gather in the valley of decision. The LORD will shelter his people, and Judah will be lived in forever.",
       "year": null,
       "dateLabel": "Book order",
-      "uncertainty": "Selected city and region references appear as approximate markers. Visions do not establish traveled routes.",
+      "uncertainty": "Markers show named places from the speeches. They do not show a route.",
       "placeIds": [
         "jerusalem",
         "tyre",
@@ -172,7 +200,7 @@
       "summary": "The LORD’s word comes to Joel. He asks the old men whether anything like this has happened before. Swarm after swarm of locusts has eaten everything. Vines are ruined, and fig trees are stripped bare. Grain and wine offerings have stopped in the LORD’s house. Farmers despair, and the joy of the people dries up. Joel tells the priests to call a fast and gather everyone. Even the wild animals cry to God as the streams dry up.",
       "detail": "The locusts strike one group after another. Drinkers lose their wine (verse 5), and farmers lose their harvest (verse 11). Verse 9 says the offerings in God’s house have stopped. With no grain or wine there is nothing to bring. So the disaster reaches worship as well as food. Verse 14 treats it as a summons. Everyone must gather, fast, and cry to the LORD.",
       "dateLabel": "Book order",
-      "uncertainty": "The chapter names no specific place for the crop disaster.",
+      "uncertainty": "The chapter names no place for the crop disaster.",
       "sourceIds": [
         "web"
       ],
@@ -191,7 +219,7 @@
       "summary": "A trumpet sounds in Zion, for the day of the LORD is near. An army advances like fire, and nothing escapes it. Yet even now God calls the people to return with all their heart. They should tear their hearts and not their clothes. He is gracious, merciful, and slow to anger. Everyone must gather, from elders to nursing infants. Then God will restore the years the locusts ate. Afterward he will pour out his Spirit on all people.",
       "detail": "Tearing one’s clothes was a visible sign of grief. Verse 13 asks for the inward form of it. Its ground is God’s character, quoted from Exodus 34:6. Verse 14 adds “Who knows?” The people may hope, and they may not presume. Verse 16 calls everyone, even infants and a bride and groom. Peter quotes verses 28–32 in Acts 2:16–21.",
       "dateLabel": "Book order",
-      "uncertainty": "Selected city and region references appear as approximate markers. Visions do not establish traveled routes.",
+      "uncertainty": "Markers show named places from the speeches. They do not show a route.",
       "sourceIds": [
         "web",
         "howard-joel-2"
@@ -215,7 +243,7 @@
       "summary": "In those days God will gather all nations for judgment. They scattered his people and divided his land. They cast lots for his people. They traded a boy for a prostitute and sold a girl for wine. Tyre, Sidon, and Philistia sold Judah’s children far away. God will return their deeds on their own heads. Crowds gather in the valley of decision. The LORD will shelter his people, and Judah will be lived in forever.",
       "detail": "The charge in verse 3 is the sale of children. A boy was traded for a night with a prostitute. A girl was sold for the price of a drink. The cheapness of the price shows how little their lives counted. Verses 6–8 add that Judah’s children were sold to distant peoples. The judgment answers in kind. Verse 10 reverses the hope of Isaiah 2:4, and plows become swords.",
       "dateLabel": "Book order",
-      "uncertainty": "Selected city and region references appear as approximate markers. Visions do not establish traveled routes.",
+      "uncertainty": "Markers show named places from the speeches. They do not show a route.",
       "sourceIds": [
         "web"
       ],
@@ -238,76 +266,250 @@
       "name": "Jerusalem",
       "lat": 31.778,
       "lng": 35.235,
-      "summary": "Jerusalem is the place named in promises of escape and God’s continued presence.",
-      "limits": "Approximate city or broad region reference. The valley of judgment and visionary water remain unmapped.",
+      "summary": "The LORD names Jerusalem in chapters 2 and 3. He says some will escape on Mount Zion and in Jerusalem. He says he will roar from Jerusalem. He promises that Jerusalem will be holy and full of people.",
+      "limits": "The marker shows the city. The text gives no exact spot for the valley of Jehoshaphat.",
       "sourceIds": [
         "web"
       ],
-      "detail": "Jerusalem is the place named in promises of escape and God’s continued presence.",
-      "uncertainty": "Approximate city or broad region reference. The valley of judgment and visionary water remain unmapped.",
-      "chapterLocation": true
+      "detail": "The LORD names Jerusalem in chapters 2 and 3. He says some will escape on Mount Zion and in Jerusalem. He says he will roar from Jerusalem. He promises that Jerusalem will be holy and full of people.",
+      "uncertainty": "The marker shows the city. The text gives no exact spot for the valley of Jehoshaphat.",
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H3389",
+        "key": "Jerusalem",
+        "checkedVerses": 6,
+        "example": [
+          2,
+          32
+        ],
+        "hebrew": "יְרוּשָׁלַ͏ִם",
+        "transliteration": "Yᵉrûwshâlaim",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "tyre",
       "name": "Tyre",
       "lat": 33.27,
       "lng": 35.2,
-      "summary": "Tyre is addressed with charges about stolen treasures and the sale of captives.",
-      "limits": "Approximate city or broad region reference. The valley of judgment and visionary water remain unmapped.",
+      "summary": "In chapter 3 the LORD speaks to Tyre, Sidon, and Philistia. He says they took his silver and gold into their temples. He says they sold the children of Judah and Jerusalem to the Greeks.",
+      "limits": "The marker shows the city or its nearby region. The text gives no exact spot.",
       "sourceIds": [
         "web"
       ],
-      "detail": "Tyre is addressed with charges about stolen treasures and the sale of captives.",
-      "uncertainty": "Approximate city or broad region reference. The valley of judgment and visionary water remain unmapped.",
-      "chapterLocation": true
+      "detail": "In chapter 3 the LORD speaks to Tyre, Sidon, and Philistia. He says they took his silver and gold into their temples. He says they sold the children of Judah and Jerusalem to the Greeks.",
+      "uncertainty": "The marker shows the city or its nearby region. The text gives no exact spot.",
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H6865",
+        "key": "Tyre",
+        "checkedVerses": 1,
+        "example": [
+          3,
+          4
+        ],
+        "hebrew": "צֹר",
+        "transliteration": "Tsôr",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "sidon",
       "name": "Sidon",
       "lat": 33.56,
       "lng": 35.37,
-      "summary": "Sidon is addressed beside Tyre in the charges about trade in captives.",
-      "limits": "Approximate city or broad region reference. The valley of judgment and visionary water remain unmapped.",
+      "summary": "In chapter 3 the LORD speaks to Sidon together with Tyre and Philistia. He charges them with selling the children of Judah and Jerusalem. He says he will return the payment on their heads.",
+      "limits": "The marker shows the city or its nearby region. The text gives no exact spot.",
       "sourceIds": [
         "web"
       ],
-      "detail": "Sidon is addressed beside Tyre in the charges about trade in captives.",
-      "uncertainty": "Approximate city or broad region reference. The valley of judgment and visionary water remain unmapped.",
-      "chapterLocation": true
+      "detail": "In chapter 3 the LORD speaks to Sidon together with Tyre and Philistia. He charges them with selling the children of Judah and Jerusalem. He says he will return the payment on their heads.",
+      "uncertainty": "The marker shows the city or its nearby region. The text gives no exact spot.",
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H6721",
+        "key": "Sidon",
+        "checkedVerses": 1,
+        "example": [
+          3,
+          4
+        ],
+        "hebrew": "צִידוֹן",
+        "transliteration": "Tsîydôwn",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "egypt",
       "name": "Egypt",
       "lat": 30.05,
       "lng": 31.23,
-      "summary": "Egypt receives a warning tied to violence against Judah.",
-      "limits": "Approximate city or broad region reference. The valley of judgment and visionary water remain unmapped.",
+      "summary": "At the end of chapter 3 the LORD says Egypt will become a desolation. He gives the reason: violence done to the children of Judah.",
+      "limits": "The marker shows the whole land of Egypt, not one site.",
       "sourceIds": [
         "web"
       ],
-      "detail": "Egypt receives a warning tied to violence against Judah.",
-      "uncertainty": "Approximate city or broad region reference. The valley of judgment and visionary water remain unmapped.",
-      "chapterLocation": true
+      "detail": "At the end of chapter 3 the LORD says Egypt will become a desolation. He gives the reason: violence done to the children of Judah.",
+      "uncertainty": "The marker shows the whole land of Egypt, not one site.",
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H4714",
+        "key": "Egypt",
+        "checkedVerses": 1,
+        "example": [
+          3,
+          19
+        ],
+        "hebrew": "מִצְרַיִם",
+        "transliteration": "Mitsrayim",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "edom",
       "name": "Edom",
       "lat": 30.75,
       "lng": 35.55,
-      "summary": "Edom receives a warning tied to the shedding of innocent blood.",
-      "limits": "Approximate city or broad region reference. The valley of judgment and visionary water remain unmapped.",
+      "summary": "At the end of chapter 3 the LORD says Edom will become a desolate wilderness. He gives the reason: Edom shed innocent blood in Judah’s land.",
+      "limits": "The marker shows the broad land of Edom, not one site.",
       "sourceIds": [
         "web"
       ],
-      "detail": "Edom receives a warning tied to the shedding of innocent blood.",
-      "uncertainty": "Approximate city or broad region reference. The valley of judgment and visionary water remain unmapped.",
-      "chapterLocation": true
+      "detail": "At the end of chapter 3 the LORD says Edom will become a desolate wilderness. He gives the reason: Edom shed innocent blood in Judah’s land.",
+      "uncertainty": "The marker shows the broad land of Edom, not one site.",
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H123",
+        "key": "Edom",
+        "checkedVerses": 1,
+        "example": [
+          3,
+          19
+        ],
+        "hebrew": "אֱדֹם",
+        "transliteration": "ʼĔdôm",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     }
   ],
   "campaigns": [],
   "ancientRoads": [],
   "regions": [],
   "words": [
+    {
+      "id": "glossary-assembly-1-H6116-assembly",
+      "label": "Assembly",
+      "matches": [
+        "assembly"
+      ],
+      "chapter": 1,
+      "verses": [
+        14
+      ],
+      "hebrew": "עֲצָרָה",
+      "transliteration": "ʻătsârâh",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A gathering of people. In the New Testament letters it means a group of believers. Many translations say “church.”",
+      "grammar": "This is the dictionary form of Hebrew word H6116. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H6116",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-assembly-2-H6116-assembly",
+      "label": "Assembly",
+      "matches": [
+        "assembly"
+      ],
+      "chapter": 2,
+      "verses": [
+        15
+      ],
+      "hebrew": "עֲצָרָה",
+      "transliteration": "ʻătsârâh",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A gathering of people. In the New Testament letters it means a group of believers. Many translations say “church.”",
+      "grammar": "This is the dictionary form of Hebrew word H6116. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H6116",
+      "language": "hebrew",
+      "chapterDefault": false
+    },
+    {
+      "id": "glossary-assembly-2-H6951-assembly",
+      "label": "Assembly",
+      "matches": [
+        "assembly"
+      ],
+      "chapter": 2,
+      "verses": [
+        16
+      ],
+      "hebrew": "קָהָל",
+      "transliteration": "qâhâl",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A gathering of people. In the New Testament letters it means a group of believers. Many translations say “church.”",
+      "grammar": "This is the dictionary form of Hebrew word H6951. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H6951",
+      "language": "hebrew",
+      "chapterDefault": false
+    },
     {
       "id": "glossary-assembly",
       "label": "Assembly",
@@ -328,7 +530,37 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-sackcloth-1-H8242-sackcloth",
+      "label": "Sackcloth",
+      "matches": [
+        "sackcloth"
+      ],
+      "chapter": 1,
+      "verses": [
+        8,
+        13
+      ],
+      "hebrew": "שַׂק",
+      "transliteration": "saq",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "Rough cloth worn to show grief or repentance.",
+      "grammar": "This is the dictionary form of Hebrew word H8242. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H8242",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-sackcloth",
@@ -349,7 +581,8 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
     },
     {
       "id": "glossary-remnant",
@@ -370,7 +603,69 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-zion-2-H6726-zion",
+      "label": "Zion",
+      "matches": [
+        "Zion"
+      ],
+      "chapter": 2,
+      "verses": [
+        1,
+        15,
+        23,
+        32
+      ],
+      "hebrew": "צִיּוֹן",
+      "transliteration": "Tsîyôwn",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A hill in Jerusalem. The name is also used for the city and its people.",
+      "grammar": "This is the dictionary form of Hebrew word H6726. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H6726",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-zion-3-H6726-zion",
+      "label": "Zion",
+      "matches": [
+        "Zion"
+      ],
+      "chapter": 3,
+      "verses": [
+        16,
+        17,
+        21
+      ],
+      "hebrew": "צִיּוֹן",
+      "transliteration": "Tsîyôwn",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A hill in Jerusalem. The name is also used for the city and its people.",
+      "grammar": "This is the dictionary form of Hebrew word H6726. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H6726",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-zion",
@@ -391,7 +686,8 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
     }
   ],
   "guides": [
@@ -463,9 +759,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "The chapter names no specific place for the crop disaster.",
+      "note": "The chapter names no place for the crop disaster.",
       "narrative": "The LORD’s word comes to Joel. He asks the old men whether anything like this has happened before. Swarm after swarm of locusts has eaten everything. Vines are ruined, and fig trees are stripped bare. Grain and wine offerings have stopped in the LORD’s house. Farmers despair, and the joy of the people dries up. Joel tells the priests to call a fast and gather everyone. Even the wild animals cry to God as the streams dry up.",
-      "limits": "The chapter names no specific place for the crop disaster.",
+      "limits": "The chapter names no place for the crop disaster.",
       "sourceIds": [
         "web"
       ]
@@ -483,9 +779,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "Selected city and region references appear as approximate markers. Visions do not establish traveled routes.",
+      "note": "Markers show named places from the speeches. They do not show a route.",
       "narrative": "A trumpet sounds in Zion, for the day of the LORD is near. An army advances like fire, and nothing escapes it. Yet even now God calls the people to return with all their heart. They should tear their hearts and not their clothes. He is gracious, merciful, and slow to anger. Everyone must gather, from elders to nursing infants. Then God will restore the years the locusts ate. Afterward he will pour out his Spirit on all people.",
-      "limits": "Selected city and region references appear as approximate markers. Visions do not establish traveled routes.",
+      "limits": "Markers show named places from the speeches. They do not show a route.",
       "sourceIds": [
         "web",
         "howard-joel-2"
@@ -512,9 +808,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "Selected city and region references appear as approximate markers. Visions do not establish traveled routes.",
+      "note": "Markers show named places from the speeches. They do not show a route.",
       "narrative": "In those days God will gather all nations for judgment. They scattered his people and divided his land. They cast lots for his people. They traded a boy for a prostitute and sold a girl for wine. Tyre, Sidon, and Philistia sold Judah’s children far away. God will return their deeds on their own heads. Crowds gather in the valley of decision. The LORD will shelter his people, and Judah will be lived in forever.",
-      "limits": "Selected city and region references appear as approximate markers. Visions do not establish traveled routes.",
+      "limits": "Markers show named places from the speeches. They do not show a route.",
       "sourceIds": [
         "web"
       ]

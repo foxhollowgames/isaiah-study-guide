@@ -454,9 +454,9 @@
       "eventOrder": 1,
       "dateLabel": "Book order",
       "historicalNote": "The opening prayer treats the hearers as partners rather than distant recipients of advice. Paul then reports that his chains have encouraged others to speak more boldly. Rival workers cause pain, yet their motives do not become his only measure of events. His reflection on death and continued life places desire beside the hearers' need for him. Remaining would permit more work for their progress and joy. The closing appeal asks them to stand together whether his hoped visit happens or not.",
-      "mapNote": "The marker identifies the named recipient city. No exact prison, home, or heavenly location is assigned.",
+      "mapNote": "The map marks Philippi as one city point. It shows no prison or home.",
       "route": [],
-      "routeEvidence": "The letter does not establish an exact delivery route or prison city.",
+      "routeEvidence": "The letter gives no delivery route and does not name the prison city.",
       "contextNote": {
         "title": "Paul measures uncertain imprisonment through the hearers' continuing need",
         "text": "Paul writes in chains and does not know the outcome (verses 13 and 20). Verse 21 says both outcomes are good to him. Verse 23 states his own wish: to depart and be with Christ. Verse 24 sets the readers’ need against that wish. To remain is “more needful” for them. Verse 25 says this convinces him that he will stay. His reason for staying is their progress and joy in the faith.",
@@ -490,9 +490,9 @@
       "eventOrder": 2,
       "dateLabel": "Book order",
       "historicalNote": "Paul answers rivalry by asking each person to consider another's interests alongside their own. Christ's movement through servanthood and death gives that request its central pattern. His later raised position follows that lowered path rather than replacing its importance. The commands about obedience and shared joy bring this pattern into the hearers' conduct. Timothy's genuine concern and Epaphroditus' dangerous service then give the appeal two personal examples. Paul asks the group to honor service rather than treating illness as a worker's failure.",
-      "mapNote": "The marker identifies the named recipient city. No exact prison, home, or heavenly location is assigned.",
+      "mapNote": "The map marks Philippi as one city point. It shows no prison or home.",
       "route": [],
-      "routeEvidence": "The letter does not establish an exact delivery route or prison city.",
+      "routeEvidence": "The letter gives no delivery route and does not name the prison city.",
       "contextNote": {
         "title": "Christ's lowered position supplies the pattern for workers who serve others",
         "text": "Verse 3 forbids rivalry and conceit. Verse 4 states the same thing as a direction for the eyes. Each is to look to the things of others, not only his own. Verses 6–8 give the pattern: Christ did not grasp equality with God. He emptied himself and became obedient to death. The chapter then names two people who do this. Timothy cares for their state (verse 20), and Epaphroditus risked his life (verse 30).",
@@ -522,9 +522,9 @@
       "eventOrder": 3,
       "dateLabel": "Book order",
       "historicalNote": "The warning against rival workers leads into Paul's own former reasons for confidence. His inherited standing and strict practice show that he understands the claims he now rejects. He counts those gains as loss because knowing Christ supplies a different measure. Yet receiving that new direction does not mean that Paul claims completed perfection. The reaching image places continued effort within a goal that still lies ahead. Waiting for changed bodies then connects shared hope with Christ rather than present bodily rank.",
-      "mapNote": "The marker identifies the named recipient city. No exact prison, home, or heavenly location is assigned.",
+      "mapNote": "The map marks Philippi as one city point. It shows no prison or home.",
       "route": [],
-      "routeEvidence": "The letter does not establish an exact delivery route or prison city.",
+      "routeEvidence": "The letter gives no delivery route and does not name the prison city.",
       "contextNote": {
         "title": "Paul exchanges claims to rank for a pursuit he has not yet completed",
         "text": "Verses 5–6 give a proud record, and verse 7 calls it loss. Verses 10–11 say what he wants: to know Christ and reach the resurrection. Verse 12 stops any claim that he has arrived. He has not obtained it and is not yet perfect. Two verbs carry the verse. Paul presses on to take hold, because Christ first took hold of him. Verse 13 repeats the denial, and verse 14 keeps him running toward the prize.",
@@ -560,9 +560,9 @@
       "eventOrder": 4,
       "dateLabel": "Book order",
       "historicalNote": "Paul addresses Euodia and Syntyche as fellow workers who need help to agree. Their service remains recognized rather than disappearing behind the present dispute. Carla Works reads the appeal to rejoice within danger rather than as denial of suffering. Paul then explains learned contentment through both hunger and plenty. Strength through Christ supports endurance in those conditions rather than promising every desired achievement. His thanks for the group's gift shows that contentment still welcomes practical help from others.",
-      "mapNote": "The marker identifies the named recipient city. No exact prison, home, or heavenly location is assigned.",
+      "mapNote": "The map marks Philippi as one city point. It shows no prison or home.",
       "route": [],
-      "routeEvidence": "The letter does not establish an exact delivery route or prison city.",
+      "routeEvidence": "The letter gives no delivery route and does not name the prison city.",
       "contextNote": {
         "title": "Strength through Christ supports contentment within need and shared practical help",
         "text": "Verse 10 thanks the Philippians for their gift. Verse 11 at once says Paul does not speak from need. He has learned to be content in every state. Verse 12 names the states: hunger and plenty, abundance and want. “All things” in verse 13 means those conditions. Christ gives him strength to live through each one. Verse 14 still says they did well to share in his trouble.",
@@ -577,10 +577,10 @@
     {
       "id": "paul",
       "name": "Paul",
-      "role": "Imprisoned letter speaker who depends on shared prayer and support",
-      "relations": "Timothy shares the opening greeting, and Epaphroditus brings the group's gift.",
+      "role": "Writer in chains who thanks the Philippians for their gift",
+      "relations": "He writes with Timothy. Epaphroditus brought him the Philippians’ gift.",
       "passages": "Philippians 1–4",
-      "meaning": "His uncertain condition gives the appeals to unity and joy their immediate setting.",
+      "meaning": "Paul is in chains and does not know whether he will live or die. He says his chains have helped the Good News. He plans to send Timothy and Epaphroditus. He thanks the Philippians for the gift. He tells Euodia and Syntyche to agree.",
       "life": "Birth and death years are not securely known.",
       "sourceIds": [
         "web"
@@ -594,10 +594,10 @@
     {
       "id": "jesus",
       "name": "Jesus Christ",
-      "role": "Lord whose self-giving path supplies the pattern for shared conduct",
-      "relations": "Paul connects his own changed measure of life and the group's hope with him.",
+      "role": "Lord who humbled himself and was raised high",
+      "relations": "Paul calls himself and Timothy servants of Jesus Christ. Paul says to have the mind that was in him.",
       "passages": "Philippians 1–4",
-      "meaning": "His service and raised position give humility and hope a common center.",
+      "meaning": "Paul says Jesus took the form of a servant. He was obedient to death on a cross. Paul says God then raised him high. Every tongue will confess that he is Lord. Paul uses this to call the Philippians to humility.",
       "life": "Birth and death years are not securely known.",
       "sourceIds": [
         "web"
@@ -612,10 +612,10 @@
     {
       "id": "timothy",
       "name": "Timothy",
-      "role": "Trusted worker whom Paul hopes to send for news of the hearers",
-      "relations": "He shares the opening greeting and has served beside Paul.",
+      "role": "Worker Paul hopes to send to Philippi",
+      "relations": "He is named with Paul in the greeting. Paul says he served with him like a child with a father.",
       "passages": "Philippians 1:1; 2:19–23",
-      "meaning": "His genuine concern gives the appeal to consider others a personal example.",
+      "meaning": "Paul hopes to send Timothy soon to learn how the Philippians are doing. Paul says no one else is so like-minded and truly cares about them. Paul says Timothy has proved himself. Paul will send him once he sees how things go.",
       "life": "Birth and death years are not securely known.",
       "sourceIds": [
         "web"
@@ -629,10 +629,10 @@
     {
       "id": "epaphroditus",
       "name": "Epaphroditus",
-      "role": "Messenger whose service for Paul brings him close to death",
-      "relations": "He carries the group's gift and longs to return to them.",
+      "role": "Philippian messenger who was nearly dead",
+      "relations": "Paul calls him brother, fellow worker, and fellow soldier. He brought the Philippians’ gift.",
       "passages": "Philippians 2:25–30; 4:18",
-      "meaning": "Paul asks the group to honor his costly service and welcome his return.",
+      "meaning": "Epaphroditus brought the Philippians’ gift to Paul. He fell sick nearly to death and longed for the Philippians. Paul sends him back. Paul asks them to receive him with joy and hold him in honor.",
       "life": "Birth and death years are not securely known.",
       "sourceIds": [
         "web"
@@ -646,10 +646,10 @@
     {
       "id": "euodia",
       "name": "Euodia",
-      "role": "Recognized fellow worker whom Paul asks to agree with Syntyche",
-      "relations": "An unnamed partner is asked to help both women.",
+      "role": "Fellow worker told to agree with Syntyche",
+      "relations": "Paul names her with Syntyche. He asks a true partner to help both women.",
       "passages": "Philippians 4:2–3",
-      "meaning": "Her earlier service remains recognized within the present appeal for agreement.",
+      "meaning": "Paul urges Euodia to think the same way as Syntyche in the Lord. He says both women labored with him in the Good News. The letter does not say what they disagree about.",
       "life": "Birth and death years are not securely known.",
       "sourceIds": [
         "web"
@@ -663,10 +663,10 @@
     {
       "id": "syntyche",
       "name": "Syntyche",
-      "role": "Recognized fellow worker whom Paul asks to agree with Euodia",
-      "relations": "An unnamed partner is asked to help both women.",
+      "role": "Fellow worker told to agree with Euodia",
+      "relations": "Paul names her with Euodia. He asks a true partner to help both women.",
       "passages": "Philippians 4:2–3",
-      "meaning": "Her earlier service remains recognized within the present appeal for agreement.",
+      "meaning": "Paul urges Syntyche to think the same way as Euodia in the Lord. He says both women labored with him in the Good News. The letter does not say what they disagree about.",
       "life": "Birth and death years are not securely known.",
       "sourceIds": [
         "web"
@@ -684,8 +684,8 @@
       "name": "Philippi",
       "lat": 41,
       "lng": 24.283333333333335,
-      "summary": "Philippi is named as the recipients' city in the opening greeting.",
-      "limits": "Broad city reference. Exact houses, riverside meeting points, courtrooms, and ancient routes remain unassigned.",
+      "summary": "Paul writes in chapter 1 to the saints at Philippi, with the overseers and servants. In chapter 4 he calls them Philippians.",
+      "limits": "The marker shows the city’s general location.",
       "sourceIds": [
         "web",
         "net-acts-map"
@@ -701,10 +701,10 @@
       "id": "web",
       "title": "Philippians · World English Bible",
       "url": "https://ebible.org/engwebp/PHP01.htm",
-      "summary": "All four chapters supply the primary text for original close readings.",
+      "summary": "All four chapters are the main text for original close readings.",
       "category": "Scripture",
       "perspective": "historical",
-      "limits": "Exact dates, the prison city, original manuscripts, Greek forms, rival workers' identities, and the cause of the women's disagreement were not independently verified. The letter supplies Paul's perspective rather than a complete reply from others.",
+      "limits": "The guide did not check exact dates, the prison city, manuscripts, or Greek forms. It did not check who the rival workers were or why the two women disagree. The letter gives Paul’s view. It does not give a full reply from others.",
       "author": "World English Bible translators",
       "publisher": "eBible.org",
       "chapterCoverage": [
@@ -722,10 +722,10 @@
       "id": "works-philippians",
       "title": "Commentary on Philippians 4:4-7",
       "url": "https://www.workingpreacher.org/commentaries/revised-common-lectionary/third-sunday-of-advent-3/commentary-on-philippians-44-7-5",
-      "summary": "Works reads joy within suffering and uncertain waiting.",
+      "summary": "Works reads joy in the middle of suffering and uncertain waiting.",
       "category": "Scholarly study",
       "perspective": "historical",
-      "limits": "This is Works' interpretation. Her Greek analysis, wider Roman setting, and broader account of peace were not independently verified. Linked works were not reviewed.",
+      "limits": "This is Works’ own reading. The guide did not check her Greek analysis or her Roman setting. It did not check her wider account of peace. It did not review the linked works.",
       "author": "Carla Works",
       "publisher": "Luther Seminary",
       "year": 2021,
@@ -744,7 +744,7 @@
       "summary": "The lesson studies changed conduct and joy through Christ.",
       "category": "LDS Come, Follow Me",
       "perspective": "lds",
-      "limits": "Philippians coverage follows actual discussion of chapters two and four. The lesson title does not establish coverage of every chapter. Linked talks, videos, and Restoration passages were not independently reviewed.",
+      "limits": "Philippians coverage follows what the lesson discusses in chapters two and four. The lesson title does not show coverage of every chapter. The guide did not check the linked talks, videos, or Restoration passages.",
       "author": "The Church of Jesus Christ of Latter-day Saints",
       "publisher": "The Church of Jesus Christ of Latter-day Saints",
       "year": 2023,
@@ -763,17 +763,17 @@
       "perspective": "historical",
       "category": "Geography",
       "url": "https://www.churchofjesuschrist.org/study/scriptures/bible-maps/map-10?lang=eng",
-      "summary": "This Church-published atlas identifies towns and regions in Canaan.",
-      "limits": "Existing selected reference coordinates only. The earlier review record remains unchanged. This source does not verify Gospel events or exact routes."
+      "summary": "This Church-published atlas names towns and regions in Canaan.",
+      "limits": "It supplies only the chosen reference coordinates. The earlier review record is unchanged. This source does not confirm Gospel events or exact routes."
     },
     {
       "id": "net-acts-map",
       "title": "NET Bible · selected Acts location references",
       "url": "https://classic.net.bible.org/dictionary.php?word=Antioch",
-      "summary": "Selected opening descriptions and coordinates distinguish cities named in Acts.",
+      "summary": "Opening descriptions and coordinates mark the cities named in Acts.",
       "category": "Geographic reference",
       "perspective": "historical",
-      "limits": "Broad reference points do not verify ancient events, travel paths, buildings, or coastlines. Older encyclopedia claims about authorship, law, populations, and exact dates were not adopted.",
+      "limits": "These broad points do not confirm ancient events, travel paths, buildings, or coastlines. The guide did not adopt older encyclopedia claims about authorship, law, population, or exact dates.",
       "author": "NET Bible editors and linked reference contributors",
       "publisher": "Bible.org",
       "year": null,

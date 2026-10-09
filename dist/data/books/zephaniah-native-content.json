@@ -69,6 +69,34 @@
       "type": "LDS Come, Follow Me",
       "limitations": "Its connection with 3 Nephi is a later Church reading, separate from the original vision.",
       "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "strong",
+      "title": "A Concise Dictionary of the Words in the Hebrew Bible",
+      "author": "James Strong · Open Scriptures XML edition",
+      "year": "1894 / digital edition",
+      "perspective": "historical",
+      "category": "Historical lexicon",
+      "url": "https://github.com/openscriptures/strongs",
+      "summary": "Lists Hebrew dictionary forms and their possible meanings. Use it with the passage to study a word.",
+      "limits": "This is an older dictionary. Compare its meanings with the passage. A list of meanings alone cannot show which one applies.",
+      "license": "Source XML declares Public Domain. Only selected headwords are used.",
+      "type": "Historical lexicon",
+      "limitations": "This is an older dictionary. Compare its meanings with the passage. A list of meanings alone cannot show which one applies."
+    },
+    {
+      "id": "oshb",
+      "title": "Open Scriptures Hebrew Bible",
+      "author": "Open Scriptures contributors / Westminster Leningrad Codex",
+      "year": "Digital edition",
+      "perspective": "historical",
+      "category": "Hebrew text",
+      "url": "https://hb.openscriptures.org/",
+      "summary": "Provides the Hebrew text and word identifiers. This study guide uses these to check selected words against their verses.",
+      "limits": "The app checks selected words, not every English–Hebrew match. It shows Hebrew dictionary forms. The forms in the verses can differ.",
+      "license": "Hebrew text public domain; lemma/morphology data CC BY 4.0. Original work of the Open Scriptures Hebrew Bible, https://hb.openscriptures.org/.",
+      "type": "Hebrew text",
+      "limitations": "The app checks selected words, not every English–Hebrew match. It shows Hebrew dictionary forms. The forms in the verses can differ."
     }
   ],
   "passages": [
@@ -264,7 +292,25 @@
       ],
       "detail": "Jerusalem receives warnings about worship and violence before the final promise of singing and gathering.",
       "uncertainty": "Approximate city or regional reference. The warnings supply no reconstructed army path.",
-      "chapterLocation": true
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H3389",
+        "key": "Jerusalem",
+        "checkedVerses": 4,
+        "example": [
+          1,
+          4
+        ],
+        "hebrew": "יְרוּשָׁלַ͏ִם",
+        "transliteration": "Yᵉrûwshâlaim",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "gaza",
@@ -278,7 +324,25 @@
       ],
       "detail": "Gaza appears among coastal towns threatened with abandonment.",
       "uncertainty": "Approximate city or regional reference. The warnings supply no reconstructed army path.",
-      "chapterLocation": true
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H5804",
+        "key": "Gaza",
+        "checkedVerses": 1,
+        "example": [
+          2,
+          4
+        ],
+        "hebrew": "עַזָּה",
+        "transliteration": "ʻAzzâh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "ashkelon",
@@ -292,7 +356,25 @@
       ],
       "detail": "Ashkelon appears in the warning and the promise of shelter for Judah’s remnant.",
       "uncertainty": "Approximate city or regional reference. The warnings supply no reconstructed army path.",
-      "chapterLocation": true
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H831",
+        "key": "Ashkelon",
+        "checkedVerses": 2,
+        "example": [
+          2,
+          4
+        ],
+        "hebrew": "אַשְׁקְלוֹן",
+        "transliteration": "ʼAshqᵉlôwn",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "ashdod",
@@ -306,7 +388,25 @@
       ],
       "detail": "Ashdod appears among coastal towns whose inhabitants face removal.",
       "uncertainty": "Approximate city or regional reference. The warnings supply no reconstructed army path.",
-      "chapterLocation": true
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H795",
+        "key": "Ashdod",
+        "checkedVerses": 1,
+        "example": [
+          2,
+          4
+        ],
+        "hebrew": "אַשְׁדּוֹד",
+        "transliteration": "ʼAshdôwd",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "ekron",
@@ -320,7 +420,25 @@
       ],
       "detail": "Ekron appears among coastal towns threatened with destruction.",
       "uncertainty": "Approximate city or regional reference. The warnings supply no reconstructed army path.",
-      "chapterLocation": true
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H6138",
+        "key": "Ekron",
+        "checkedVerses": 1,
+        "example": [
+          2,
+          4
+        ],
+        "hebrew": "עֶקְרוֹן",
+        "transliteration": "ʻEqrôwn",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "moab",
@@ -334,7 +452,25 @@
       ],
       "detail": "Moab receives a warning after insults directed against God’s people.",
       "uncertainty": "Approximate city or regional reference. The warnings supply no reconstructed army path.",
-      "chapterLocation": true
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H4124",
+        "key": "Moab",
+        "checkedVerses": 2,
+        "example": [
+          2,
+          8
+        ],
+        "hebrew": "מוֹאָב",
+        "transliteration": "Môwʼâb",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "nineveh",
@@ -348,13 +484,59 @@
       ],
       "detail": "Nineveh’s proud claim of unmatched security ends in buildings occupied by animals.",
       "uncertainty": "Approximate city or regional reference. The warnings supply no reconstructed army path.",
-      "chapterLocation": true
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H5210",
+        "key": "Nineveh",
+        "checkedVerses": 1,
+        "example": [
+          2,
+          13
+        ],
+        "hebrew": "נִינְוֵה",
+        "transliteration": "Nîynᵉvêh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     }
   ],
   "campaigns": [],
   "ancientRoads": [],
   "regions": [],
   "words": [
+    {
+      "id": "glossary-baal-1-H1168-baal",
+      "label": "Baal",
+      "matches": [
+        "Baal"
+      ],
+      "chapter": 1,
+      "verses": [
+        4
+      ],
+      "hebrew": "בַּעַל",
+      "transliteration": "Baʻal",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A god worshiped by Israel’s neighbors. The prophets condemn Israel for serving him.",
+      "grammar": "This is the dictionary form of Hebrew word H1168. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H1168",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
     {
       "id": "glossary-baal",
       "label": "Baal",
@@ -375,7 +557,92 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-remnant-1-H7605-remnant",
+      "label": "Remnant",
+      "matches": [
+        "remnant"
+      ],
+      "chapter": 1,
+      "verses": [
+        4
+      ],
+      "hebrew": "שְׁאָר",
+      "transliteration": "shᵉʼâr",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "The part of a people that survives a disaster.",
+      "grammar": "This is the dictionary form of Hebrew word H7605. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H7605",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-remnant-2-H7611-remnant",
+      "label": "Remnant",
+      "matches": [
+        "remnant"
+      ],
+      "chapter": 2,
+      "verses": [
+        7
+      ],
+      "hebrew": "שְׁאֵרִית",
+      "transliteration": "shᵉʼêrîyth",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "The part of a people that survives a disaster.",
+      "grammar": "This is the dictionary form of Hebrew word H7611. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H7611",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-remnant-3-H7611-remnant",
+      "label": "Remnant",
+      "matches": [
+        "remnant"
+      ],
+      "chapter": 3,
+      "verses": [
+        13
+      ],
+      "hebrew": "שְׁאֵרִית",
+      "transliteration": "shᵉʼêrîyth",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "The part of a people that survives a disaster.",
+      "grammar": "This is the dictionary form of Hebrew word H7611. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H7611",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-remnant",
@@ -396,7 +663,37 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-zion-3-H6726-zion",
+      "label": "Zion",
+      "matches": [
+        "Zion"
+      ],
+      "chapter": 3,
+      "verses": [
+        14,
+        16
+      ],
+      "hebrew": "צִיּוֹן",
+      "transliteration": "Tsîyôwn",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A hill in Jerusalem. The name is also used for the city and its people.",
+      "grammar": "This is the dictionary form of Hebrew word H6726. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H6726",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-zion",
@@ -417,7 +714,8 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
     }
   ],
   "guides": [

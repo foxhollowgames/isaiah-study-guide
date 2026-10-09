@@ -7,9 +7,9 @@
       "summary": "The public-domain reading text supplies all four chapters.",
       "category": "Scripture",
       "perspective": "historical",
-      "limits": "The text supplies the narrated actions and genealogy. It does not independently verify event years or personal appearance.",
+      "limits": "The text supplies the events and the family list. It cannot confirm event years or how people looked.",
       "type": "Scripture",
-      "limitations": "The text supplies the narrated actions and genealogy. It does not independently verify event years or personal appearance.",
+      "limitations": "The text supplies the events and the family list. It cannot confirm event years or how people looked.",
       "license": "Public domain"
     },
     {
@@ -31,9 +31,9 @@
       "category": "Geography",
       "url": "https://www.churchofjesuschrist.org/study/scriptures/bible-maps/map-10?lang=eng",
       "summary": "This Church-published atlas identifies towns and regions in Canaan.",
-      "limits": "Coordinates are display estimates. A town marker does not verify each Genesis event.",
+      "limits": "Coordinates are display estimates. A town marker does not confirm an event at that town.",
       "type": "Geography",
-      "limitations": "Coordinates are display estimates. A town marker does not verify each Genesis event.",
+      "limitations": "Coordinates are display estimates. A town marker does not confirm an event at that town.",
       "license": "Linked source. Original guide summaries."
     },
     {
@@ -43,19 +43,19 @@
       "category": "Geography",
       "url": "https://registry.opendata.aws/terrain-tiles/",
       "summary": "Cached terrain shows modern elevation. Natural Earth supplies the land and water outlines.",
-      "limits": "Modern terrain is a geographic aid. It does not reconstruct ancient shorelines or settlements.",
+      "limits": "Modern terrain is a map aid. It does not show ancient shorelines or towns.",
       "type": "Geography",
-      "limitations": "Modern terrain is a geographic aid. It does not reconstruct ancient shorelines or settlements.",
+      "limitations": "Modern terrain is a map aid. It does not show ancient shorelines or towns.",
       "license": "Linked source. Original guide summaries."
     },
     {
       "id": "yale-ruth",
       "title": "The Book of Ruth, Part 2 · Yale Bible Study",
       "url": "https://yalebiblestudy.org/courses/ruth-song-of-songs-lamentations-and-esther/lessons/the-book-of-ruth-part-2-study-guide/",
-      "summary": "The study examines the women’s relationship, household survival, devotion, and uncertainty about the threshing-floor encounter.",
+      "summary": "The study examines the two women’s bond, household survival, and devotion. It also covers doubt about the threshing-floor meeting.",
       "category": "Scholarly study",
       "perspective": "historical",
-      "limits": "The published study guide was reviewed, not its video. Its final paragraph incorrectly contrasts Ruth with Boaz in the genealogy. Ruth 4:18–22 names Boaz; this guide follows the biblical text.",
+      "limits": "The published study guide was reviewed, not its video. Its final paragraph wrongly contrasts Ruth with Boaz in the family list. Ruth 4:18–22 names Boaz. This guide follows the biblical text.",
       "author": "Yale Bible Study · course presenters Joel S. Baden and Jacqueline Vayntrub",
       "reviewed": "2026-10-05: Published study guide and course presenter record reviewed.",
       "chapterCoverage": [
@@ -65,7 +65,7 @@
         4
       ],
       "type": "Scholarly study",
-      "limitations": "The published study guide was reviewed, not its video. Its final paragraph incorrectly contrasts Ruth with Boaz in the genealogy. Ruth 4:18–22 names Boaz; this guide follows the biblical text.",
+      "limitations": "The published study guide was reviewed, not its video. Its final paragraph wrongly contrasts Ruth with Boaz in the family list. Ruth 4:18–22 names Boaz. This guide follows the biblical text.",
       "license": "Linked source. Original guide summaries."
     },
     {
@@ -93,10 +93,10 @@
       "id": "dm-ruth",
       "title": "Ruth 2: Translation and Notes",
       "url": "https://danielomcclellan.wordpress.com/2010/05/05/ruth-2-translation-and-notes/",
-      "summary": "McClellan discusses Hebrew grammar and differences between Hebrew and Greek readings in Ruth 2, including the uncertain wording of verse 7.",
+      "summary": "McClellan discusses Hebrew grammar in Ruth 2. He also compares the Hebrew and Greek readings. He notes the uncertain wording of verse 7.",
       "category": "Scholar commentary",
       "perspective": "historical",
-      "limits": "This is one scholar’s 2010 translation and notes. The guide retains the World English Bible reading and does not treat each proposed reconstruction as settled.",
+      "limits": "This is one scholar’s 2010 translation and notes. This guide keeps the World English Bible reading. His proposed readings are not treated as settled.",
       "author": "Dan McClellan",
       "year": "May 5, 2010",
       "group": "mcclellan",
@@ -105,7 +105,7 @@
         2
       ],
       "type": "Scholar commentary",
-      "limitations": "This is one scholar’s 2010 translation and notes. The guide retains the World English Bible reading and does not treat each proposed reconstruction as settled.",
+      "limitations": "This is one scholar’s 2010 translation and notes. This guide keeps the World English Bible reading. His proposed readings are not treated as settled.",
       "license": "Linked source. Original guide summaries."
     },
     {
@@ -115,7 +115,7 @@
       "summary": "The manual explains gleaning, family redemption, the proposal, and the witnessed gate agreement.",
       "category": "LDS study manual",
       "perspective": "lds",
-      "limits": "The Ruth sections of the 1980 manual were reviewed. Its historical explanations remain distinct from independent evidence. Boaz is a relative, not Mahlon’s stated brother.",
+      "limits": "The Ruth sections of the 1980 manual were reviewed. Its history claims are kept apart from independent evidence. Boaz is a relative, not Mahlon’s stated brother.",
       "author": "The Church of Jesus Christ of Latter-day Saints",
       "year": 1980,
       "reviewed": "2026-10-05: Sections 23-14–23-20 and the Ruth portion of 23-22 reviewed.",
@@ -126,7 +126,7 @@
         4
       ],
       "type": "LDS study manual",
-      "limitations": "The Ruth sections of the 1980 manual were reviewed. Its historical explanations remain distinct from independent evidence. Boaz is a relative, not Mahlon’s stated brother.",
+      "limitations": "The Ruth sections of the 1980 manual were reviewed. Its history claims are kept apart from independent evidence. Boaz is a relative, not Mahlon’s stated brother.",
       "license": "Linked source. Original guide summaries."
     },
     {
@@ -139,7 +139,7 @@
       "url": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/23?lang=eng",
       "summary": "The lesson studies faith through loss, practical kindness, and family redemption. It compares Ruth and Boaz with Jesus Christ.",
       "reviewed": "2026-10-05: Official lesson heading, selected chapter coverage, and relevant study sections reviewed.",
-      "limits": "This is Church teaching and application. It does not independently establish archaeological evidence or event dates.",
+      "limits": "This is Church teaching and application. It does not supply archaeological evidence or event dates.",
       "license": "Linked official Church lesson. Original guide summary.",
       "chapterCoverage": [
         1,
@@ -148,7 +148,7 @@
         4
       ],
       "type": "LDS study manual",
-      "limitations": "This is Church teaching and application. It does not independently establish archaeological evidence or event dates."
+      "limitations": "This is Church teaching and application. It does not supply archaeological evidence or event dates."
     },
     {
       "id": "wiki-ruth",
@@ -159,9 +159,9 @@
       "url": "https://en.wikipedia.org/wiki/Book_of_Ruth",
       "revisionId": "1374486736",
       "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1374486736",
-      "summary": "Ruth follows a Moabite widow’s return with Naomi to Bethlehem. The household account ends with a genealogy connected to David.",
+      "summary": "Ruth follows a Moabite widow’s return with Naomi to Bethlehem. The household account ends with a family list connected to David.",
       "reviewed": "2026-10-05: Opening overview and book structure reviewed. These notes make no claim about exact composition dates.",
-      "limits": "Anyone can edit this source. Use it for background and source discovery. Its disputed historical claims require separate scholarly review.",
+      "limits": "Anyone can edit this source. Use it for background and to find other sources. Its disputed history claims need separate scholarly review.",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
       "chapterCoverage": [
@@ -169,7 +169,7 @@
         4
       ],
       "type": "Encyclopedia background",
-      "limitations": "Anyone can edit this source. Use it for background and source discovery. Its disputed historical claims require separate scholarly review."
+      "limitations": "Anyone can edit this source. Use it for background and to find other sources. Its disputed history claims need separate scholarly review."
     },
     {
       "id": "met-321953",
@@ -211,6 +211,34 @@
       ],
       "type": "museum",
       "limitations": "It shows that land sales could have written records. It is earlier regional evidence, not the biblical deed."
+    },
+    {
+      "id": "strong",
+      "title": "A Concise Dictionary of the Words in the Hebrew Bible",
+      "author": "James Strong · Open Scriptures XML edition",
+      "year": "1894 / digital edition",
+      "perspective": "historical",
+      "category": "Historical lexicon",
+      "url": "https://github.com/openscriptures/strongs",
+      "summary": "Lists Hebrew dictionary forms and their possible meanings. Use it with the passage to study a word.",
+      "limits": "This is an older dictionary. Compare its meanings with the passage. A list of meanings alone cannot show which one applies.",
+      "license": "Source XML declares Public Domain. Only selected headwords are used.",
+      "type": "Historical lexicon",
+      "limitations": "This is an older dictionary. Compare its meanings with the passage. A list of meanings alone cannot show which one applies."
+    },
+    {
+      "id": "oshb",
+      "title": "Open Scriptures Hebrew Bible",
+      "author": "Open Scriptures contributors / Westminster Leningrad Codex",
+      "year": "Digital edition",
+      "perspective": "historical",
+      "category": "Hebrew text",
+      "url": "https://hb.openscriptures.org/",
+      "summary": "Provides the Hebrew text and word identifiers. This study guide uses these to check selected words against their verses.",
+      "limits": "The app checks selected words, not every English–Hebrew match. It shows Hebrew dictionary forms. The forms in the verses can differ.",
+      "license": "Hebrew text public domain; lemma/morphology data CC BY 4.0. Original work of the Open Scriptures Hebrew Bible, https://hb.openscriptures.org/.",
+      "type": "Hebrew text",
+      "limitations": "The app checks selected words, not every English–Hebrew match. It shows Hebrew dictionary forms. The forms in the verses can differ."
     }
   ],
   "passages": [
@@ -223,7 +251,7 @@
       "summary": "In the days of the judges a famine strikes Bethlehem. Elimelech takes his wife Naomi and two sons to Moab. He dies, and the sons marry Moabite women, Orpah and Ruth. After about ten years both sons die. Naomi hears there is food in Judah and starts home. She tells her daughters-in-law to go back to their mothers. Orpah leaves, but Ruth promises to share Naomi’s people, God, and grave. They reach Bethlehem at the start of the barley harvest.",
       "year": null,
       "dateLabel": "Chapter order · historical year uncertain",
-      "uncertainty": "The map shows the named town and broad region. It does not identify private buildings or an ancient road.",
+      "uncertainty": "The points show Bethlehem and the region of Moab. The Moab point marks a region, not a town.",
       "placeIds": [
         "moab",
         "bethlehem"
@@ -260,7 +288,7 @@
       "summary": "Ruth asks Naomi to let her gather leftover grain behind the harvesters. She happens to come to the field of Boaz, a relative of Elimelech. Boaz asks who she is, and the foreman reports her request and steady work. Boaz tells her to stay in his field and drink from his water. He has heard what she did for Naomi. He shares his meal and tells his men to leave extra stalks for her. Ruth carries home a large measure of barley. Naomi blesses Boaz and says he is a close relative.",
       "year": null,
       "dateLabel": "Chapter order · historical year uncertain",
-      "uncertainty": "The map shows the named town and broad region. It does not identify private buildings or an ancient road.",
+      "uncertainty": "The points show Bethlehem and the region of Moab. The Moab point marks a region, not a town.",
       "placeIds": [
         "bethlehem"
       ],
@@ -296,7 +324,7 @@
       "summary": "Naomi wants a secure home for Ruth. She sends her to the threshing floor where Boaz winnows barley at night. Ruth washes, dresses, and waits until he has eaten and lies down. She uncovers his feet and lies there. At midnight he wakes and asks who she is. She asks him to spread his garment over her as a near kinsman. Boaz blesses her and promises to act, but a nearer kinsman has first right. He sends her home before dawn with six measures of barley.",
       "year": null,
       "dateLabel": "Chapter order · historical year uncertain",
-      "uncertainty": "The map shows the named town and broad region. It does not identify private buildings or an ancient road.",
+      "uncertainty": "The points show Bethlehem and the region of Moab. The Moab point marks a region, not a town.",
       "placeIds": [
         "bethlehem"
       ],
@@ -331,7 +359,7 @@
       "summary": "Boaz sits at the town gate and stops the nearer kinsman. He gathers ten elders as witnesses. He says Naomi is selling Elimelech’s field, and the man agrees to buy it. Boaz adds that the buyer must marry Ruth and raise an heir for the dead. The man withdraws and hands over his sandal to confirm it. Boaz declares that he has bought the land and taken Ruth as his wife. Ruth bears Obed, and the women tell Naomi her life is restored. Obed becomes the grandfather of David.",
       "year": null,
       "dateLabel": "Chapter order · historical year uncertain",
-      "uncertainty": "The map shows the named town and broad region. It does not identify private buildings or an ancient road.",
+      "uncertainty": "The points show Bethlehem and the region of Moab. The Moab point marks a region, not a town.",
       "placeIds": [
         "bethlehem"
       ],
@@ -372,7 +400,7 @@
       "summary": "In the days of the judges a famine strikes Bethlehem. Elimelech takes his wife Naomi and two sons to Moab. He dies, and the sons marry Moabite women, Orpah and Ruth. After about ten years both sons die. Naomi hears there is food in Judah and starts home. She tells her daughters-in-law to go back to their mothers. Orpah leaves, but Ruth promises to share Naomi’s people, God, and grave. They reach Bethlehem at the start of the barley harvest.",
       "detail": "Naomi returns to a town that still knows her name (verse 19). She asks to be called Mara, and the verse ties that name to bitterness. She blames the Almighty directly in verses 20–21. She left full, she says, and the LORD brought her back empty. Ruth stands beside her as she says “empty.” The book lets the complaint stand without any rebuke. Verse 22 then quietly adds two things: Ruth and the harvest.",
       "dateLabel": "Chapter order · historical year uncertain",
-      "uncertainty": "The map shows the named town and broad region. It does not identify private buildings or an ancient road.",
+      "uncertainty": "The points show Bethlehem and the region of Moab. The Moab point marks a region, not a town.",
       "sourceIds": [
         "web",
         "yale-ruth",
@@ -401,7 +429,7 @@
       "summary": "Ruth asks Naomi to let her gather leftover grain behind the harvesters. She happens to come to the field of Boaz, a relative of Elimelech. Boaz asks who she is, and the foreman reports her request and steady work. Boaz tells her to stay in his field and drink from his water. He has heard what she did for Naomi. He shares his meal and tells his men to leave extra stalks for her. Ruth carries home a large measure of barley. Naomi blesses Boaz and says he is a close relative.",
       "detail": "The law left the edges of a field for the poor and the foreigner. Leviticus 19:9–10 and Deuteronomy 24:19 state the rule. Ruth is both, and in verse 7 she still asks permission. Verses 9 and 22 show why: a woman alone in a field risked harm. Boaz first gives what the law requires and then more. He orders his men to pull stalks out for her (verse 16). In verse 20 Naomi’s speech changes, and she blesses the LORD’s kindness.",
       "dateLabel": "Chapter order · historical year uncertain",
-      "uncertainty": "The map shows the named town and broad region. It does not identify private buildings or an ancient road.",
+      "uncertainty": "The points show Bethlehem and the region of Moab. The Moab point marks a region, not a town.",
       "sourceIds": [
         "web",
         "yale-ruth",
@@ -429,7 +457,7 @@
       "summary": "Naomi wants a secure home for Ruth. She sends her to the threshing floor where Boaz winnows barley at night. Ruth washes, dresses, and waits until he has eaten and lies down. She uncovers his feet and lies there. At midnight he wakes and asks who she is. She asks him to spread his garment over her as a near kinsman. Boaz blesses her and promises to act, but a nearer kinsman has first right. He sends her home before dawn with six measures of barley.",
       "detail": "Naomi’s plan ends with Boaz telling Ruth what to do (verse 4). In verse 9 Ruth tells Boaz what to do. She asks for his covering and gives the reason: he is a near kinsman. That ties her marriage to his family duty toward Naomi’s house. In 2:12 Boaz prayed that the LORD would shelter her. Now she asks him to be that shelter. Boaz calls her request a kindness and names her a worthy woman (verses 10–11).",
       "dateLabel": "Chapter order · historical year uncertain",
-      "uncertainty": "The map shows the named town and broad region. It does not identify private buildings or an ancient road.",
+      "uncertainty": "The points show Bethlehem and the region of Moab. The Moab point marks a region, not a town.",
       "sourceIds": [
         "web",
         "yale-ruth",
@@ -456,7 +484,7 @@
       "summary": "Boaz sits at the town gate and stops the nearer kinsman. He gathers ten elders as witnesses. He says Naomi is selling Elimelech’s field, and the man agrees to buy it. Boaz adds that the buyer must marry Ruth and raise an heir for the dead. The man withdraws and hands over his sandal to confirm it. Boaz declares that he has bought the land and taken Ruth as his wife. Ruth bears Obed, and the women tell Naomi her life is restored. Obed becomes the grandfather of David.",
       "detail": "The gate is the town’s court, and ten elders make the act public. The nearer kinsman accepts the field (verse 4) and refuses Ruth (verse 6). A son by Ruth would carry Mahlon’s name and inherit the land. Boaz accepts that cost in verses 9–10 before witnesses. The man who guarded his own estate is never named in the book. A cuneiform tablet shows how another people recorded a field sale. The women tell Naomi that Ruth is better than seven sons (verse 15).",
       "dateLabel": "Chapter order · historical year uncertain",
-      "uncertainty": "The map shows the named town and broad region. It does not identify private buildings or an ancient road.",
+      "uncertainty": "The points show Bethlehem and the region of Moab. The Moab point marks a region, not a town.",
       "sourceIds": [
         "web",
         "yale-ruth",
@@ -483,36 +511,129 @@
       "name": "Moab",
       "lat": 31.5,
       "lng": 35.75,
-      "summary": "The household’s destination during famine. Naomi and Ruth later leave this region.",
-      "limits": "Regional marker only. The family’s home and the journey’s exact path are unknown.",
+      "summary": "Elimelech takes his family here in a famine in chapter 1. He and both sons die here. Naomi and Ruth then leave for Bethlehem.",
+      "limits": "The marker shows the region only. The text does not say where the family lived.",
       "sourceIds": [
         "web",
         "atlas-canaan"
       ],
-      "detail": "The household’s destination during famine. Naomi and Ruth later leave this region.",
-      "uncertainty": "Regional marker only. The family’s home and the journey’s exact path are unknown.",
-      "chapterLocation": true
+      "detail": "Elimelech takes his family here in a famine in chapter 1. He and both sons die here. Naomi and Ruth then leave for Bethlehem.",
+      "uncertainty": "The marker shows the region only. The text does not say where the family lived.",
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H4124",
+        "key": "Moab",
+        "checkedVerses": 6,
+        "example": [
+          1,
+          1
+        ],
+        "hebrew": "מוֹאָב",
+        "transliteration": "Môwʼâb",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "bethlehem",
       "name": "Bethlehem",
       "lat": 31.705,
       "lng": 35.202,
-      "summary": "Naomi’s return town and the setting of Ruth’s work and marriage agreement.",
-      "limits": "Town locality only. Boaz’s field, threshing floor, and gate are not securely identified.",
+      "summary": "Elimelech’s family leaves this town in chapter 1, and Naomi returns with Ruth. Ruth gathers grain in Boaz’s field in chapter 2. Boaz settles the matter at the town gate in chapter 4.",
+      "limits": "The marker shows the town’s general location. No one knows where Boaz’s field, threshing floor, or gate stood.",
       "sourceIds": [
         "web",
         "atlas-canaan"
       ],
-      "detail": "Naomi’s return town and the setting of Ruth’s work and marriage agreement.",
-      "uncertainty": "Town locality only. Boaz’s field, threshing floor, and gate are not securely identified.",
-      "chapterLocation": true
+      "detail": "Elimelech’s family leaves this town in chapter 1, and Naomi returns with Ruth. Ruth gathers grain in Boaz’s field in chapter 2. Boaz settles the matter at the town gate in chapter 4.",
+      "uncertainty": "The marker shows the town’s general location. No one knows where Boaz’s field, threshing floor, or gate stood.",
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H1035",
+        "key": "Bethlehem",
+        "checkedVerses": 6,
+        "example": [
+          1,
+          1
+        ],
+        "hebrew": "בֵּית לֶחֶם",
+        "transliteration": "Bêyth Lechem",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     }
   ],
   "campaigns": [],
   "ancientRoads": [],
   "regions": [],
   "words": [
+    {
+      "id": "glossary-redeem-4-H1353-redemption",
+      "label": "Redeem",
+      "matches": [
+        "redemption"
+      ],
+      "chapter": 4,
+      "verses": [
+        6
+      ],
+      "hebrew": "גְּאֻלָּה",
+      "transliteration": "gᵉʼullâh",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "To buy back a person or property. The word is also used for God’s rescue of people.",
+      "grammar": "This is the dictionary form of Hebrew word H1353. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H1353",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-redeem-4-H1350-redeem",
+      "label": "Redeem",
+      "matches": [
+        "redeem"
+      ],
+      "chapter": 4,
+      "verses": [
+        4,
+        6
+      ],
+      "hebrew": "גָּאַל",
+      "transliteration": "gâʼal",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "To buy back a person or property. The word is also used for God’s rescue of people.",
+      "grammar": "This is the dictionary form of Hebrew word H1350. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H1350",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
     {
       "id": "glossary-redeem",
       "label": "Redeem",
@@ -536,7 +657,98 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-kinsman-2-H1350-kinsmen",
+      "label": "Kinsman",
+      "matches": [
+        "kinsmen"
+      ],
+      "chapter": 2,
+      "verses": [
+        20
+      ],
+      "hebrew": "גָּאַל",
+      "transliteration": "gâʼal",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A near relative. In Ruth, a near kinsman may buy back a relative’s land.",
+      "grammar": "This is the dictionary form of Hebrew word H1350. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H1350",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-kinsman-3-H1350-kinsman",
+      "label": "Kinsman",
+      "matches": [
+        "kinsman"
+      ],
+      "chapter": 3,
+      "verses": [
+        9,
+        12,
+        13
+      ],
+      "hebrew": "גָּאַל",
+      "transliteration": "gâʼal",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A near relative. In Ruth, a near kinsman may buy back a relative’s land.",
+      "grammar": "This is the dictionary form of Hebrew word H1350. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H1350",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-kinsman-4-H1350-kinsman",
+      "label": "Kinsman",
+      "matches": [
+        "kinsman"
+      ],
+      "chapter": 4,
+      "verses": [
+        1,
+        3,
+        6,
+        8,
+        14
+      ],
+      "hebrew": "גָּאַל",
+      "transliteration": "gâʼal",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A near relative. In Ruth, a near kinsman may buy back a relative’s land.",
+      "grammar": "This is the dictionary form of Hebrew word H1350. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H1350",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-kinsman",
@@ -558,7 +770,8 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
     },
     {
       "id": "glossary-anoint",
@@ -582,7 +795,36 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-ephah-2-H374-ephah",
+      "label": "Ephah",
+      "matches": [
+        "ephah"
+      ],
+      "chapter": 2,
+      "verses": [
+        17
+      ],
+      "hebrew": "אֵיפָה",
+      "transliteration": "ʼêyphâh",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A dry measure of about 22 liters.",
+      "grammar": "This is the dictionary form of Hebrew word H374. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H374",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-ephah",
@@ -604,7 +846,8 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
     }
   ],
   "guides": [
@@ -681,9 +924,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "The map shows the named town and broad region. It does not identify private buildings or an ancient road.",
+      "note": "The points show Bethlehem and the region of Moab. The Moab point marks a region, not a town.",
       "narrative": "In the days of the judges a famine strikes Bethlehem. Elimelech takes his wife Naomi and two sons to Moab. He dies, and the sons marry Moabite women, Orpah and Ruth. After about ten years both sons die. Naomi hears there is food in Judah and starts home. She tells her daughters-in-law to go back to their mothers. Orpah leaves, but Ruth promises to share Naomi’s people, God, and grave. They reach Bethlehem at the start of the barley harvest.",
-      "limits": "The map shows the named town and broad region. It does not identify private buildings or an ancient road.",
+      "limits": "The points show Bethlehem and the region of Moab. The Moab point marks a region, not a town.",
       "sourceIds": [
         "web",
         "yale-ruth",
@@ -705,9 +948,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "The map shows the named town and broad region. It does not identify private buildings or an ancient road.",
+      "note": "The points show Bethlehem and the region of Moab. The Moab point marks a region, not a town.",
       "narrative": "Ruth asks Naomi to let her gather leftover grain behind the harvesters. She happens to come to the field of Boaz, a relative of Elimelech. Boaz asks who she is, and the foreman reports her request and steady work. Boaz tells her to stay in his field and drink from his water. He has heard what she did for Naomi. He shares his meal and tells his men to leave extra stalks for her. Ruth carries home a large measure of barley. Naomi blesses Boaz and says he is a close relative.",
-      "limits": "The map shows the named town and broad region. It does not identify private buildings or an ancient road.",
+      "limits": "The points show Bethlehem and the region of Moab. The Moab point marks a region, not a town.",
       "sourceIds": [
         "web",
         "yale-ruth",
@@ -729,9 +972,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "The map shows the named town and broad region. It does not identify private buildings or an ancient road.",
+      "note": "The points show Bethlehem and the region of Moab. The Moab point marks a region, not a town.",
       "narrative": "Naomi wants a secure home for Ruth. She sends her to the threshing floor where Boaz winnows barley at night. Ruth washes, dresses, and waits until he has eaten and lies down. She uncovers his feet and lies there. At midnight he wakes and asks who she is. She asks him to spread his garment over her as a near kinsman. Boaz blesses her and promises to act, but a nearer kinsman has first right. He sends her home before dawn with six measures of barley.",
-      "limits": "The map shows the named town and broad region. It does not identify private buildings or an ancient road.",
+      "limits": "The points show Bethlehem and the region of Moab. The Moab point marks a region, not a town.",
       "sourceIds": [
         "web",
         "yale-ruth",
@@ -752,9 +995,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "The map shows the named town and broad region. It does not identify private buildings or an ancient road.",
+      "note": "The points show Bethlehem and the region of Moab. The Moab point marks a region, not a town.",
       "narrative": "Boaz sits at the town gate and stops the nearer kinsman. He gathers ten elders as witnesses. He says Naomi is selling Elimelech’s field, and the man agrees to buy it. Boaz adds that the buyer must marry Ruth and raise an heir for the dead. The man withdraws and hands over his sandal to confirm it. Boaz declares that he has bought the land and taken Ruth as his wife. Ruth bears Obed, and the women tell Naomi her life is restored. Obed becomes the grandfather of David.",
-      "limits": "The map shows the named town and broad region. It does not identify private buildings or an ancient road.",
+      "limits": "The points show Bethlehem and the region of Moab. The Moab point marks a region, not a town.",
       "sourceIds": [
         "web",
         "yale-ruth",
@@ -783,8 +1026,8 @@
       "verse": 1,
       "summary": "In the days of the judges a famine strikes Bethlehem. Elimelech takes his wife Naomi and two sons to Moab. He dies, and the sons marry Moabite women, Orpah and Ruth. After about ten years both sons die. Naomi hears there is food in Judah and starts home. She tells her daughters-in-law to go back to their mothers. Orpah leaves, but Ruth promises to share Naomi’s people, God, and grave. They reach Bethlehem at the start of the barley harvest.",
       "detail": "Naomi returns to a town that still knows her name (verse 19). She asks to be called Mara, and the verse ties that name to bitterness. She blames the Almighty directly in verses 20–21. She left full, she says, and the LORD brought her back empty. Ruth stands beside her as she says “empty.” The book lets the complaint stand without any rebuke. Verse 22 then quietly adds two things: Ruth and the harvest.",
-      "uncertainty": "The text names departure from Moab and arrival at Bethlehem. The line omits an unknown path around the Dead Sea.",
-      "evidence": "The text names departure from Moab and arrival at Bethlehem. The line omits an unknown path around the Dead Sea.",
+      "uncertainty": "The line joins Moab and Bethlehem, the two ends the text names. The real path around the Dead Sea is unknown.",
+      "evidence": "The line joins Moab and Bethlehem, the two ends the text names. The real path around the Dead Sea is unknown.",
       "kind": "journey",
       "direction": true,
       "textRoute": true,

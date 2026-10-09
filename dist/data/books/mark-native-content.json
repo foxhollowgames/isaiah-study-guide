@@ -7,7 +7,7 @@
       "summary": "All sixteen chapters appear in the reading text.",
       "category": "Scripture",
       "perspective": "historical",
-      "limits": "The account supports close reading. The publisher retains verses 9–20 in chapter sixteen with textual notes.",
+      "limits": "The account supports close reading. The publisher keeps verses 9–20 of chapter sixteen and adds notes about the text.",
       "author": "World English Bible translators",
       "publisher": "eBible.org",
       "chapterCoverage": [
@@ -33,7 +33,7 @@
         "scope": "All 678 verses read, including surrounding passages and the publisher’s chapter sixteen ending notes. Character integrity and verse counts checked."
       },
       "type": "Scripture",
-      "limitations": "The account supports close reading. The publisher retains verses 9–20 in chapter sixteen with textual notes.",
+      "limitations": "The account supports close reading. The publisher keeps verses 9–20 of chapter sixteen and adds notes about the text.",
       "license": "Public domain"
     },
     {
@@ -43,7 +43,7 @@
       "summary": "Black discusses fear, the message to Peter, and competing endings after verse eight.",
       "category": "Scholarly study",
       "perspective": "historical",
-      "limits": "Black supplies the textual interpretation. Original manuscripts were not examined. The guide does not adopt proposed lost-ending explanations as facts.",
+      "limits": "Black gives the reading of the text. Original manuscripts were not examined. Proposed lost-ending explanations are not treated as facts here.",
       "author": "C. Clifton Black",
       "publisher": "Luther Seminary",
       "year": 2016,
@@ -55,7 +55,7 @@
         "scope": "Complete commentary body read. Linked commentaries and podcast were not reviewed."
       },
       "type": "Scholarly study",
-      "limitations": "Black supplies the textual interpretation. Original manuscripts were not examined. The guide does not adopt proposed lost-ending explanations as facts.",
+      "limitations": "Black gives the reading of the text. Original manuscripts were not examined. Proposed lost-ending explanations are not treated as facts here.",
       "license": "Linked source. Original guide summaries."
     },
     {
@@ -65,7 +65,7 @@
       "summary": "The lesson studies carriers’ faith, unity, and peace during the storm.",
       "category": "LDS Come, Follow Me",
       "perspective": "lds",
-      "limits": "This is selected Church teaching. Heading references alone do not establish teaching coverage.",
+      "limits": "This is selected Church teaching. A chapter named only in the lesson heading is not counted as covered.",
       "author": "The Church of Jesus Christ of Latter-day Saints",
       "publisher": "The Church of Jesus Christ of Latter-day Saints",
       "year": 2023,
@@ -79,7 +79,7 @@
         "scope": "Complete lesson body and additional resources read. Only specified Mark chapters receive coverage. Linked talks, videos, dictionary articles, and other editions were not separately reviewed."
       },
       "type": "LDS Come, Follow Me",
-      "limitations": "This is selected Church teaching. Heading references alone do not establish teaching coverage.",
+      "limitations": "This is selected Church teaching. A chapter named only in the lesson heading is not counted as covered.",
       "license": "Linked source. Original guide summaries."
     },
     {
@@ -89,7 +89,7 @@
       "summary": "The lesson studies the wealthy man’s question and the demand to follow Jesus.",
       "category": "LDS Come, Follow Me",
       "perspective": "lds",
-      "limits": "This is selected Church teaching. Heading references alone do not establish teaching coverage.",
+      "limits": "This is selected Church teaching. A chapter named only in the lesson heading is not counted as covered.",
       "author": "The Church of Jesus Christ of Latter-day Saints",
       "publisher": "The Church of Jesus Christ of Latter-day Saints",
       "year": 2023,
@@ -101,7 +101,7 @@
         "scope": "Complete lesson body and additional resources read. Only specified Mark chapters receive coverage. Linked talks, videos, dictionary articles, and other editions were not separately reviewed."
       },
       "type": "LDS Come, Follow Me",
-      "limitations": "This is selected Church teaching. Heading references alone do not establish teaching coverage.",
+      "limitations": "This is selected Church teaching. A chapter named only in the lesson heading is not counted as covered.",
       "license": "Linked source. Original guide summaries."
     },
     {
@@ -111,7 +111,7 @@
       "summary": "The lesson teaches resurrection through the Gospel accounts.",
       "category": "LDS Come, Follow Me",
       "perspective": "lds",
-      "limits": "This is selected Church teaching. Heading references alone do not establish teaching coverage.",
+      "limits": "This is selected Church teaching. A chapter named only in the lesson heading is not counted as covered.",
       "author": "The Church of Jesus Christ of Latter-day Saints",
       "publisher": "The Church of Jesus Christ of Latter-day Saints",
       "year": 2023,
@@ -123,17 +123,17 @@
         "scope": "Complete lesson body and additional resources read. Only specified Mark chapters receive coverage. Linked talks, videos, dictionary articles, and other editions were not separately reviewed."
       },
       "type": "LDS Come, Follow Me",
-      "limitations": "This is selected Church teaching. Heading references alone do not establish teaching coverage.",
+      "limitations": "This is selected Church teaching. A chapter named only in the lesson heading is not counted as covered.",
       "license": "Linked source. Original guide summaries."
     },
     {
       "id": "net-nt-map",
       "title": "Israel During the Time of Jesus · NET Study Map NT1",
       "url": "https://classic.net.bible.org/map.php?map=nt1",
-      "summary": "The map index supplies selected city and regional references.",
+      "summary": "The map index gives selected city and region points.",
       "category": "Geographic reference",
       "perspective": "historical",
-      "limits": "Geographic reference only. It does not verify events, ancient roads, houses, tombs, or the unnamed mountains.",
+      "limits": "This is a map reference only. It does not prove events, ancient roads, houses, tombs, or the unnamed mountains.",
       "author": "NET Bible and ROHR Productions",
       "publisher": "bible.org",
       "reviewed": {
@@ -142,7 +142,7 @@
       },
       "license": "Linked reference. No map image or dictionary prose reproduced.",
       "type": "Geographic reference",
-      "limitations": "Geographic reference only. It does not verify events, ancient roads, houses, tombs, or the unnamed mountains."
+      "limitations": "This is a map reference only. It does not prove events, ancient roads, houses, tombs, or the unnamed mountains."
     },
     {
       "id": "atlas-canaan",
@@ -150,11 +150,39 @@
       "perspective": "historical",
       "category": "Geography",
       "url": "https://www.churchofjesuschrist.org/study/scriptures/bible-maps/map-10?lang=eng",
-      "summary": "This Church-published atlas identifies towns and regions in Canaan.",
-      "limits": "Existing selected reference coordinates only. The earlier review record remains unchanged. This source does not verify Gospel events or exact routes.",
+      "summary": "This Church-published atlas names towns and regions in Canaan.",
+      "limits": "Only selected map points come from this atlas. The earlier review record remains unchanged. The atlas does not prove Gospel events or exact routes.",
       "type": "Geography",
-      "limitations": "Existing selected reference coordinates only. The earlier review record remains unchanged. This source does not verify Gospel events or exact routes.",
+      "limitations": "Only selected map points come from this atlas. The earlier review record remains unchanged. The atlas does not prove Gospel events or exact routes.",
       "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "strong-greek",
+      "title": "A Concise Dictionary of the Words in the Greek Testament",
+      "author": "James Strong · Open Scriptures XML edition",
+      "year": "1890 / digital edition",
+      "perspective": "historical",
+      "category": "Historical lexicon",
+      "url": "https://github.com/openscriptures/strongs",
+      "summary": "Lists Greek dictionary forms and their possible meanings. Use it with the passage to study a word.",
+      "limits": "This is an older dictionary. Compare its meanings with the passage. A list of meanings alone cannot show which one applies.",
+      "license": "Source XML declares Public Domain. Only selected headwords are used.",
+      "type": "Historical lexicon",
+      "limitations": "This is an older dictionary. Compare its meanings with the passage. A list of meanings alone cannot show which one applies."
+    },
+    {
+      "id": "byz",
+      "title": "The New Testament in the Original Greek: Byzantine Textform",
+      "author": "Maurice A. Robinson and William G. Pierpont",
+      "year": "2018 digital edition",
+      "perspective": "historical",
+      "category": "Greek text",
+      "url": "https://github.com/byztxt/byzantine-majority-text",
+      "summary": "Provides a Greek New Testament text with dictionary numbers. This study guide uses these to check selected words against their verses.",
+      "limits": "The app checks selected words, not every English–Greek match. It shows Greek dictionary forms. The forms in the verses can differ. Other Greek editions differ in some verses.",
+      "license": "Public domain.",
+      "type": "Greek text",
+      "limitations": "The app checks selected words, not every English–Greek match. It shows Greek dictionary forms. The forms in the verses can differ. Other Greek editions differ in some verses."
     }
   ],
   "passages": [
@@ -167,7 +195,7 @@
       "summary": "Mark begins with John the Baptist preaching in the desert. Jesus is baptized, and a voice from heaven calls him the beloved Son. He is tested in the desert for forty days. He announces that God’s Kingdom is near and calls four fishermen. In Capernaum he teaches with authority and drives out an unclean spirit. He heals Simon’s mother-in-law and many others at the door. Before dawn he goes out alone to pray. He then leaves for other towns and heals a man with a skin disease.",
       "year": null,
       "dateLabel": "Book order",
-      "uncertainty": "Selected markers separate named settings from remembered places. Exact houses, tombs, unnamed mountains, and travel routes remain unassigned.",
+      "uncertainty": "The points mark places this chapter names, as settings or in speech. The exact houses, roads, and tombs are not known.",
       "placeIds": [
         "nazareth",
         "jordan",
@@ -200,7 +228,7 @@
       "summary": "Four men carry a paralyzed man to Jesus and lower him through the roof. Jesus forgives his sins and heals him. He calls Levi the tax collector and eats with sinners. He is asked why his disciples do not fast. He says no one puts new wine into old wineskins. On a Sabbath his disciples pick grain as they walk. Pharisees object, and he recalls what David did when hungry. He says the Sabbath was made for people.",
       "year": null,
       "dateLabel": "Book order",
-      "uncertainty": "Selected markers separate named settings from remembered places. Exact houses, tombs, unnamed mountains, and travel routes remain unassigned.",
+      "uncertainty": "The points mark places this chapter names, as settings or in speech. The exact houses, roads, and tombs are not known.",
       "placeIds": [
         "capernaum"
       ],
@@ -231,7 +259,7 @@
       "summary": "Jesus enters a synagogue where a man has a withered hand. His opponents watch to see whether he will heal on the Sabbath. He asks whether the Sabbath is for doing good or harm, saving life or killing. They say nothing, and he heals the man. The Pharisees begin to plot his death. Crowds press on him, and he appoints twelve to be with him. Scribes say he drives out demons by their ruler. He says those who do God’s will are his family.",
       "year": null,
       "dateLabel": "Book order",
-      "uncertainty": "Selected markers separate named settings from remembered places. Exact houses, tombs, unnamed mountains, and travel routes remain unassigned.",
+      "uncertainty": "The points mark places this chapter names, as settings or in speech. The exact houses, roads, and tombs are not known.",
       "placeIds": [
         "galilee",
         "jerusalem",
@@ -267,7 +295,7 @@
       "summary": "Jesus teaches a large crowd from a boat. A farmer sows seed on path, rock, thorns, and good soil. He explains the story to his disciples in private. A lamp is meant to be set on a stand. Seed grows by itself while the farmer sleeps. The Kingdom is like a tiny mustard seed that becomes a large plant. That evening a storm fills the boat while Jesus sleeps. He rebukes the wind, and the disciples are terrified.",
       "year": null,
       "dateLabel": "Book order",
-      "uncertainty": "Selected markers separate named settings from remembered places. Exact houses, tombs, unnamed mountains, and travel routes remain unassigned.",
+      "uncertainty": "The points mark places this chapter names, as settings or in speech. The exact houses, roads, and tombs are not known.",
       "placeIds": [
         "sea-galilee"
       ],
@@ -298,7 +326,7 @@
       "summary": "Jesus crosses the lake and frees a man held by many demons. The man had lived among tombs, and no chain could hold him. The townspeople beg Jesus to leave. Jairus, a synagogue leader, begs him to come to his dying daughter. On the way a woman who has bled for twelve years touches his cloak. She is healed, and Jesus stops to find her. Word comes that the girl has died. Jesus takes her hand, and she gets up.",
       "year": null,
       "dateLabel": "Book order",
-      "uncertainty": "Selected markers separate named settings from remembered places. Exact houses, tombs, unnamed mountains, and travel routes remain unassigned.",
+      "uncertainty": "The points mark places this chapter names, as settings or in speech. The exact houses, roads, and tombs are not known.",
       "placeIds": [
         "sea-galilee"
       ],
@@ -327,7 +355,7 @@
       "summary": "Jesus teaches in his home town, and the people take offense. He sends the twelve out two by two. Herod has John the Baptist beheaded after a rash promise at a feast. The twelve return, and Jesus takes them aside to rest. A crowd follows, and he feeds five thousand with five loaves and two fish. That night he walks on the sea toward the disciples’ boat. They are terrified, and he gets in with them. People bring the sick wherever he goes.",
       "year": null,
       "dateLabel": "Book order",
-      "uncertainty": "Selected markers separate named settings from remembered places. Exact houses, tombs, unnamed mountains, and travel routes remain unassigned.",
+      "uncertainty": "The points mark places this chapter names, as settings or in speech. The exact houses, roads, and tombs are not known.",
       "placeIds": [
         "galilee",
         "sea-galilee",
@@ -358,7 +386,7 @@
       "summary": "Pharisees ask why Jesus’s disciples eat with unwashed hands. He says they honor God with their lips and hold to human tradition. The law says to honor father and mother. They let a man declare his goods “Corban,” a gift to God. He then gives his parents nothing. Jesus says evil comes from within, out of the heart. He heals a foreign woman’s daughter. He opens the ears and mouth of a deaf man.",
       "year": null,
       "dateLabel": "Book order",
-      "uncertainty": "Selected markers separate named settings from remembered places. Exact houses, tombs, unnamed mountains, and travel routes remain unassigned.",
+      "uncertainty": "The points mark places this chapter names, as settings or in speech. The exact houses, roads, and tombs are not known.",
       "placeIds": [
         "jerusalem",
         "tyre",
@@ -390,7 +418,7 @@
       "summary": "Jesus feeds four thousand people with seven loaves. Pharisees ask for a sign, and he refuses. In the boat the disciples worry that they have one loaf. He asks whether they still do not understand. At Bethsaida he heals a blind man in two stages. He asks who they say he is, and Peter calls him the Christ. Jesus says he must suffer, and Peter rebukes him. Jesus says his followers must take up their cross.",
       "year": null,
       "dateLabel": "Book order",
-      "uncertainty": "Selected markers separate named settings from remembered places. Exact houses, tombs, unnamed mountains, and travel routes remain unassigned.",
+      "uncertainty": "The points mark places this chapter names, as settings or in speech. The exact houses, roads, and tombs are not known.",
       "placeIds": [
         "sea-galilee",
         "bethsaida",
@@ -422,7 +450,7 @@
       "summary": "Jesus is changed in appearance on a mountain before three disciples. A voice from the cloud tells them to listen to him. Below, a father has brought a son whom the disciples could not heal. The father asks Jesus to help if he can. Jesus says all things are possible for one who believes. The father cries that he believes and asks help for his unbelief. Jesus heals the boy and again foretells his death. The disciples argue about who is greatest.",
       "year": null,
       "dateLabel": "Book order",
-      "uncertainty": "Selected markers separate named settings from remembered places. Exact houses, tombs, unnamed mountains, and travel routes remain unassigned.",
+      "uncertainty": "The points mark places this chapter names, as settings or in speech. The exact houses, roads, and tombs are not known.",
       "placeIds": [
         "galilee",
         "capernaum"
@@ -452,7 +480,7 @@
       "summary": "Jesus teaches about marriage and blesses the children. A rich man asks how to inherit eternal life and leaves in sorrow. Jesus foretells his death a third time. James and John ask to sit at his right and left in glory. He says whoever would be great must be a servant. At Jericho a blind beggar named Bartimaeus cries out to him. Jesus asks what he wants. He asks to see, receives his sight, and follows Jesus.",
       "year": null,
       "dateLabel": "Book order",
-      "uncertainty": "Selected markers separate named settings from remembered places. Exact houses, tombs, unnamed mountains, and travel routes remain unassigned.",
+      "uncertainty": "The points mark places this chapter names, as settings or in speech. The exact houses, roads, and tombs are not known.",
       "placeIds": [
         "jordan",
         "jerusalem",
@@ -485,7 +513,7 @@
       "summary": "Jesus rides into Jerusalem on a colt, and people shout “Hosanna.” The next day he finds a fig tree with leaves and no fruit. He says no one will eat from it again. He drives the buyers and sellers out of the temple. He says God’s house should be a house of prayer for all nations. The following morning the fig tree has withered. He teaches about faith, prayer, and forgiveness. The leaders ask by what authority he does these things.",
       "year": null,
       "dateLabel": "Book order",
-      "uncertainty": "Selected markers separate named settings from remembered places. Exact houses, tombs, unnamed mountains, and travel routes remain unassigned.",
+      "uncertainty": "The points mark places this chapter names, as settings or in speech. The exact houses, roads, and tombs are not known.",
       "placeIds": [
         "jerusalem",
         "bethany",
@@ -516,7 +544,7 @@
       "summary": "Jesus tells of tenants who kill a vineyard owner’s son. He is asked about paying taxes to Caesar and about the resurrection. A scribe asks which commandment is first. Jesus names love of God and love of neighbor. He warns about scribes who love honor and devour widows’ houses. He sits and watches people put money in the temple treasury. Rich people give large sums. A poor widow gives two small coins, all she has.",
       "year": null,
       "dateLabel": "Book order",
-      "uncertainty": "Selected markers separate named settings from remembered places. Exact houses, tombs, unnamed mountains, and travel routes remain unassigned.",
+      "uncertainty": "The points mark places this chapter names, as settings or in speech. The exact houses, roads, and tombs are not known.",
       "placeIds": [
         "jerusalem"
       ],
@@ -545,7 +573,7 @@
       "summary": "A disciple admires the temple’s great stones. Jesus says not one will be left on another. Four disciples ask when this will happen. He warns of deceivers, wars, earthquakes, and trials before councils. They must flee when they see the desolating sacrilege. The Son of Man will come in the clouds. No one knows the day or the hour. They must stay awake, like servants whose master is away.",
       "year": null,
       "dateLabel": "Book order",
-      "uncertainty": "Selected markers separate named settings from remembered places. Exact houses, tombs, unnamed mountains, and travel routes remain unassigned.",
+      "uncertainty": "The points mark places this chapter names, as settings or in speech. The exact houses, roads, and tombs are not known.",
       "placeIds": [
         "jerusalem",
         "olives"
@@ -575,7 +603,7 @@
       "summary": "The leaders look for a way to arrest Jesus. At Bethany a woman pours costly perfume on his head. Some scold her, and Jesus defends her. Judas agrees to betray him. Jesus eats the Passover and gives the bread and the cup. In Gethsemane he prays in anguish while his friends sleep. He is arrested, and all the disciples run. The council condemns him, and Peter denies him three times.",
       "year": null,
       "dateLabel": "Book order",
-      "uncertainty": "Selected markers separate named settings from remembered places. Exact houses, tombs, unnamed mountains, and travel routes remain unassigned.",
+      "uncertainty": "The points mark places this chapter names, as settings or in speech. The exact houses, roads, and tombs are not known.",
       "placeIds": [
         "jerusalem",
         "bethany",
@@ -607,7 +635,7 @@
       "summary": "The council hands Jesus to Pilate. Pilate offers to release him, and the crowd chooses Barabbas. Soldiers dress Jesus in purple and mock him as king. Simon of Cyrene is made to carry his cross. He is crucified with two robbers, and passersby mock him. Darkness covers the land, and he cries out and dies. The temple curtain tears in two. A Roman officer says this man was the Son of God.",
       "year": null,
       "dateLabel": "Book order",
-      "uncertainty": "Selected markers separate named settings from remembered places. Exact houses, tombs, unnamed mountains, and travel routes remain unassigned.",
+      "uncertainty": "The points mark places this chapter names, as settings or in speech. The exact houses, roads, and tombs are not known.",
       "placeIds": [
         "jerusalem",
         "galilee"
@@ -637,7 +665,7 @@
       "summary": "After the Sabbath three women bring spices to the tomb. They wonder who will roll away the stone. They find it moved and a young man in white inside. He says Jesus has risen and is not there. They must tell his disciples and Peter that he goes ahead to Galilee. The women flee, trembling and afraid. The longer ending tells of Jesus appearing to Mary Magdalene and others. He sends the eleven into all the world.",
       "year": null,
       "dateLabel": "Book order",
-      "uncertainty": "Selected markers separate named settings from remembered places. Exact houses, tombs, unnamed mountains, and travel routes remain unassigned.",
+      "uncertainty": "The points mark places this chapter names, as settings or in speech. The exact houses, roads, and tombs are not known.",
       "placeIds": [
         "jerusalem",
         "galilee"
@@ -672,7 +700,7 @@
       "summary": "Mark begins with John the Baptist preaching in the desert. Jesus is baptized, and a voice from heaven calls him the beloved Son. He is tested in the desert for forty days. He announces that God’s Kingdom is near and calls four fishermen. In Capernaum he teaches with authority and drives out an unclean spirit. He heals Simon’s mother-in-law and many others at the door. Before dawn he goes out alone to pray. He then leaves for other towns and heals a man with a skin disease.",
       "detail": "By the evening of verse 33 the whole town is at the door. Jesus has healed many. Before dawn he leaves to pray alone (verse 35). The disciples find him and say everyone is looking for him. Verse 38 gives his answer: “Let’s go elsewhere.” He came to preach, and other towns have not heard. Success in one place does not decide where he goes next.",
       "dateLabel": "Book order",
-      "uncertainty": "Selected markers separate named settings from remembered places. Exact houses, tombs, unnamed mountains, and travel routes remain unassigned.",
+      "uncertainty": "The points mark places this chapter names, as settings or in speech. The exact houses, roads, and tombs are not known.",
       "sourceIds": [
         "web"
       ],
@@ -697,7 +725,7 @@
       "summary": "Four men carry a paralyzed man to Jesus and lower him through the roof. Jesus forgives his sins and heals him. He calls Levi the tax collector and eats with sinners. He is asked why his disciples do not fast. He says no one puts new wine into old wineskins. On a Sabbath his disciples pick grain as they walk. Pharisees object, and he recalls what David did when hungry. He says the Sabbath was made for people.",
       "detail": "Each scene in this chapter raises a complaint. Jesus forgives, eats with sinners, and does not have his disciples fast. The last complaint is about picking grain on the Sabbath. Verse 25 answers with David’s need and hunger. Verse 27 then states the purpose of the day. The Sabbath was made for people’s good. A rule about rest should not be turned against the hungry.",
       "dateLabel": "Book order",
-      "uncertainty": "Selected markers separate named settings from remembered places. Exact houses, tombs, unnamed mountains, and travel routes remain unassigned.",
+      "uncertainty": "The points mark places this chapter names, as settings or in speech. The exact houses, roads, and tombs are not known.",
       "sourceIds": [
         "web"
       ],
@@ -720,7 +748,7 @@
       "summary": "Jesus enters a synagogue where a man has a withered hand. His opponents watch to see whether he will heal on the Sabbath. He asks whether the Sabbath is for doing good or harm, saving life or killing. They say nothing, and he heals the man. The Pharisees begin to plot his death. Crowds press on him, and he appoints twelve to be with him. Scribes say he drives out demons by their ruler. He says those who do God’s will are his family.",
       "detail": "The watchers in verse 2 hope to accuse Jesus. Verse 4 puts a question to them with two pairs. Is the Sabbath for doing good or harm, for saving life or killing? They stay silent. He heals the man, which is the good. Verse 6 shows what they do on that same Sabbath. They go out and plan how to destroy him.",
       "dateLabel": "Book order",
-      "uncertainty": "Selected markers separate named settings from remembered places. Exact houses, tombs, unnamed mountains, and travel routes remain unassigned.",
+      "uncertainty": "The points mark places this chapter names, as settings or in speech. The exact houses, roads, and tombs are not known.",
       "sourceIds": [
         "web"
       ],
@@ -748,7 +776,7 @@
       "summary": "Jesus teaches a large crowd from a boat. A farmer sows seed on path, rock, thorns, and good soil. He explains the story to his disciples in private. A lamp is meant to be set on a stand. Seed grows by itself while the farmer sleeps. The Kingdom is like a tiny mustard seed that becomes a large plant. That evening a storm fills the boat while Jesus sleeps. He rebukes the wind, and the disciples are terrified.",
       "detail": "The disciples have spent the day hearing about trust in a hidden Kingdom. That night the waves break into the boat. Verse 38 gives their question: does he not care that they are dying? They doubt his concern, not his power. He stills the storm and asks why they have no faith (verse 40). Verse 41 says they were then even more afraid. They ask who this can be.",
       "dateLabel": "Book order",
-      "uncertainty": "Selected markers separate named settings from remembered places. Exact houses, tombs, unnamed mountains, and travel routes remain unassigned.",
+      "uncertainty": "The points mark places this chapter names, as settings or in speech. The exact houses, roads, and tombs are not known.",
       "sourceIds": [
         "web"
       ],
@@ -771,7 +799,7 @@
       "summary": "Jesus crosses the lake and frees a man held by many demons. The man had lived among tombs, and no chain could hold him. The townspeople beg Jesus to leave. Jairus, a synagogue leader, begs him to come to his dying daughter. On the way a woman who has bled for twelve years touches his cloak. She is healed, and Jesus stops to find her. Word comes that the girl has died. Jesus takes her hand, and she gets up.",
       "detail": "A leader’s daughter is dying, and every moment counts. A woman in the crowd touches Jesus and is healed at once (verse 29). He could have kept walking. He stops and asks who touched him (verse 30). She comes forward in fear and tells him everything. Verse 34 calls her “Daughter” and sends her away in peace. She receives his attention as well as her cure, while Jairus waits.",
       "dateLabel": "Book order",
-      "uncertainty": "Selected markers separate named settings from remembered places. Exact houses, tombs, unnamed mountains, and travel routes remain unassigned.",
+      "uncertainty": "The points mark places this chapter names, as settings or in speech. The exact houses, roads, and tombs are not known.",
       "sourceIds": [
         "web"
       ],
@@ -792,7 +820,7 @@
       "summary": "Jesus teaches in his home town, and the people take offense. He sends the twelve out two by two. Herod has John the Baptist beheaded after a rash promise at a feast. The twelve return, and Jesus takes them aside to rest. A crowd follows, and he feeds five thousand with five loaves and two fish. That night he walks on the sea toward the disciples’ boat. They are terrified, and he gets in with them. People bring the sick wherever he goes.",
       "detail": "The disciples have just handed out bread to thousands (verses 41–43). Hours later they see Jesus on the water and cry out in fear. Verse 52 explains their reaction. They had not understood about the loaves. The feeding should have shown them who was with them. Their hearts were hardened. In Mark the people closest to Jesus are often slow to see.",
       "dateLabel": "Book order",
-      "uncertainty": "Selected markers separate named settings from remembered places. Exact houses, tombs, unnamed mountains, and travel routes remain unassigned.",
+      "uncertainty": "The points mark places this chapter names, as settings or in speech. The exact houses, roads, and tombs are not known.",
       "sourceIds": [
         "web"
       ],
@@ -815,7 +843,7 @@
       "summary": "Pharisees ask why Jesus’s disciples eat with unwashed hands. He says they honor God with their lips and hold to human tradition. The law says to honor father and mother. They let a man declare his goods “Corban,” a gift to God. He then gives his parents nothing. Jesus says evil comes from within, out of the heart. He heals a foreign woman’s daughter. He opens the ears and mouth of a deaf man.",
       "detail": "“Corban” in verse 11 means something pledged to God. A man could say this about the support he owed his parents. Verse 12 states the result. He is then not allowed to do anything for his father or mother. A religious vow cancels a plain commandment. Jesus says this makes God’s word void (verse 13). The example shows how piety can excuse neglect.",
       "dateLabel": "Book order",
-      "uncertainty": "Selected markers separate named settings from remembered places. Exact houses, tombs, unnamed mountains, and travel routes remain unassigned.",
+      "uncertainty": "The points mark places this chapter names, as settings or in speech. The exact houses, roads, and tombs are not known.",
       "sourceIds": [
         "web"
       ],
@@ -839,7 +867,7 @@
       "summary": "Jesus feeds four thousand people with seven loaves. Pharisees ask for a sign, and he refuses. In the boat the disciples worry that they have one loaf. He asks whether they still do not understand. At Bethsaida he heals a blind man in two stages. He asks who they say he is, and Peter calls him the Christ. Jesus says he must suffer, and Peter rebukes him. Jesus says his followers must take up their cross.",
       "detail": "This is the only healing in the Gospels done in two steps. After the first touch the man sees people like walking trees (verse 24). After the second he sees clearly (verse 25). Mark places the story between two scenes of poor sight. The disciples fail to understand the loaves (verses 17–21). Peter then names Jesus rightly and rejects his suffering (verses 29–32). Their sight is also partial.",
       "dateLabel": "Book order",
-      "uncertainty": "Selected markers separate named settings from remembered places. Exact houses, tombs, unnamed mountains, and travel routes remain unassigned.",
+      "uncertainty": "The points mark places this chapter names, as settings or in speech. The exact houses, roads, and tombs are not known.",
       "sourceIds": [
         "web"
       ],
@@ -863,7 +891,7 @@
       "summary": "Jesus is changed in appearance on a mountain before three disciples. A voice from the cloud tells them to listen to him. Below, a father has brought a son whom the disciples could not heal. The father asks Jesus to help if he can. Jesus says all things are possible for one who believes. The father cries that he believes and asks help for his unbelief. Jesus heals the boy and again foretells his death. The disciples argue about who is greatest.",
       "detail": "The father’s cry in verse 24 holds two things together. He believes, and he knows his belief is weak. He says both aloud and asks for help. The disciples behave differently in this chapter. They do not understand and are afraid to ask (verse 32). They argue about rank and fall silent when questioned (verse 34). The father admits his weakness, and they hide theirs.",
       "dateLabel": "Book order",
-      "uncertainty": "Selected markers separate named settings from remembered places. Exact houses, tombs, unnamed mountains, and travel routes remain unassigned.",
+      "uncertainty": "The points mark places this chapter names, as settings or in speech. The exact houses, roads, and tombs are not known.",
       "sourceIds": [
         "web"
       ],
@@ -885,7 +913,7 @@
       "summary": "Jesus teaches about marriage and blesses the children. A rich man asks how to inherit eternal life and leaves in sorrow. Jesus foretells his death a third time. James and John ask to sit at his right and left in glory. He says whoever would be great must be a servant. At Jericho a blind beggar named Bartimaeus cries out to him. Jesus asks what he wants. He asks to see, receives his sight, and follows Jesus.",
       "detail": "Jesus asks the same question twice in this chapter. In verse 36 he asks James and John what they want. They ask for the seats of honor. In verse 51 he asks a blind beggar. The beggar asks to see. One request seeks rank, and the other seeks sight. Verse 52 says the beggar then followed Jesus on the road.",
       "dateLabel": "Book order",
-      "uncertainty": "Selected markers separate named settings from remembered places. Exact houses, tombs, unnamed mountains, and travel routes remain unassigned.",
+      "uncertainty": "The points mark places this chapter names, as settings or in speech. The exact houses, roads, and tombs are not known.",
       "sourceIds": [
         "web"
       ],
@@ -910,7 +938,7 @@
       "summary": "Jesus rides into Jerusalem on a colt, and people shout “Hosanna.” The next day he finds a fig tree with leaves and no fruit. He says no one will eat from it again. He drives the buyers and sellers out of the temple. He says God’s house should be a house of prayer for all nations. The following morning the fig tree has withered. He teaches about faith, prayer, and forgiveness. The leaders ask by what authority he does these things.",
       "detail": "Mark wraps the temple scene inside the fig tree story. The tree is cursed in verses 12–14 and found dead in verses 20–21. Between them Jesus stops the temple’s trade. Verse 17 quotes Isaiah 56:7 and Jeremiah 7:11. The house was meant for the prayer of all nations. A tree with leaves and no fruit frames that charge. The show of life without its purpose is what is judged.",
       "dateLabel": "Book order",
-      "uncertainty": "Selected markers separate named settings from remembered places. Exact houses, tombs, unnamed mountains, and travel routes remain unassigned.",
+      "uncertainty": "The points mark places this chapter names, as settings or in speech. The exact houses, roads, and tombs are not known.",
       "sourceIds": [
         "web"
       ],
@@ -933,7 +961,7 @@
       "summary": "Jesus tells of tenants who kill a vineyard owner’s son. He is asked about paying taxes to Caesar and about the resurrection. A scribe asks which commandment is first. Jesus names love of God and love of neighbor. He warns about scribes who love honor and devour widows’ houses. He sits and watches people put money in the temple treasury. Rich people give large sums. A poor widow gives two small coins, all she has.",
       "detail": "Verse 40 warns of scribes who “devour widows’ houses.” The next scene shows a widow at the treasury. Verse 44 says she gave everything she had to live on. Jesus praises the size of her gift measured by her means. The warning just before should stay in the reader’s mind. A system that takes a widow’s last coins is also in view. The next chapter opens with the temple’s coming ruin (13:2).",
       "dateLabel": "Book order",
-      "uncertainty": "Selected markers separate named settings from remembered places. Exact houses, tombs, unnamed mountains, and travel routes remain unassigned.",
+      "uncertainty": "The points mark places this chapter names, as settings or in speech. The exact houses, roads, and tombs are not known.",
       "sourceIds": [
         "web"
       ],
@@ -954,7 +982,7 @@
       "summary": "A disciple admires the temple’s great stones. Jesus says not one will be left on another. Four disciples ask when this will happen. He warns of deceivers, wars, earthquakes, and trials before councils. They must flee when they see the desolating sacrilege. The Son of Man will come in the clouds. No one knows the day or the hour. They must stay awake, like servants whose master is away.",
       "detail": "The disciples ask for timing and a sign (verse 4). Verse 32 says no one knows the day, not even the Son. So the chapter cannot be used as a timetable. Verse 34 gives a different picture. A man leaves home and gives each servant his work. The doorkeeper is told to watch. The command to stay awake is a command to keep at one’s task.",
       "dateLabel": "Book order",
-      "uncertainty": "Selected markers separate named settings from remembered places. Exact houses, tombs, unnamed mountains, and travel routes remain unassigned.",
+      "uncertainty": "The points mark places this chapter names, as settings or in speech. The exact houses, roads, and tombs are not known.",
       "sourceIds": [
         "web"
       ],
@@ -976,7 +1004,7 @@
       "summary": "The leaders look for a way to arrest Jesus. At Bethany a woman pours costly perfume on his head. Some scold her, and Jesus defends her. Judas agrees to betray him. Jesus eats the Passover and gives the bread and the cup. In Gethsemane he prays in anguish while his friends sleep. He is arrested, and all the disciples run. The council condemns him, and Peter denies him three times.",
       "detail": "Some at the table call the woman’s gift a waste (verses 4–5). Verse 8 gives Jesus’s reading of it. She has done what she could and prepared his body for burial. She alone acts as if his death is near. The disciples make promises in this chapter. Peter swears he will die before denying him (verse 31). By verse 50 they have all fled.",
       "dateLabel": "Book order",
-      "uncertainty": "Selected markers separate named settings from remembered places. Exact houses, tombs, unnamed mountains, and travel routes remain unassigned.",
+      "uncertainty": "The points mark places this chapter names, as settings or in speech. The exact houses, roads, and tombs are not known.",
       "sourceIds": [
         "web"
       ],
@@ -1000,7 +1028,7 @@
       "summary": "The council hands Jesus to Pilate. Pilate offers to release him, and the crowd chooses Barabbas. Soldiers dress Jesus in purple and mock him as king. Simon of Cyrene is made to carry his cross. He is crucified with two robbers, and passersby mock him. Darkness covers the land, and he cries out and dies. The temple curtain tears in two. A Roman officer says this man was the Son of God.",
       "detail": "Mockers tell Jesus to come down from the cross so they can believe (verse 32). He does not come down. Verse 39 says the officer saw how he died. The officer then calls him Son of God. This is the first human in Mark to say so. He is a foreign soldier at an execution. Recognition comes at the death, not through an escape from it.",
       "dateLabel": "Book order",
-      "uncertainty": "Selected markers separate named settings from remembered places. Exact houses, tombs, unnamed mountains, and travel routes remain unassigned.",
+      "uncertainty": "The points mark places this chapter names, as settings or in speech. The exact houses, roads, and tombs are not known.",
       "sourceIds": [
         "web"
       ],
@@ -1022,7 +1050,7 @@
       "summary": "After the Sabbath three women bring spices to the tomb. They wonder who will roll away the stone. They find it moved and a young man in white inside. He says Jesus has risen and is not there. They must tell his disciples and Peter that he goes ahead to Galilee. The women flee, trembling and afraid. The longer ending tells of Jesus appearing to Mary Magdalene and others. He sends the eleven into all the world.",
       "detail": "The disciples fled at the arrest (14:50). Peter denied Jesus three times (14:66–72). Verse 7 sends a message to “his disciples and Peter.” Peter is named on his own. The one who failed most publicly is not left out. The message also promises a meeting in Galilee, as Jesus said (14:28). The first word to those who ran is an invitation back.",
       "dateLabel": "Book order",
-      "uncertainty": "Selected markers separate named settings from remembered places. Exact houses, tombs, unnamed mountains, and travel routes remain unassigned.",
+      "uncertainty": "The points mark places this chapter names, as settings or in speech. The exact houses, roads, and tombs are not known.",
       "sourceIds": [
         "web",
         "black-mark"
@@ -1045,111 +1073,225 @@
       "name": "Jerusalem",
       "lat": 31.778,
       "lng": 35.235,
-      "summary": "Jerusalem holds the temple disputes, arrest, execution, and burial setting.",
-      "limits": "Approximate reference marker. It identifies no exact house, road, execution site, or ancient border.",
+      "summary": "Jesus enters Jerusalem and clears the temple in chapter 11. He is arrested and tried there in chapters 14 and 15.",
+      "limits": "The marker shows the city’s general location.",
       "sourceIds": [
         "web",
         "atlas-canaan"
       ],
       "verseScope": {},
-      "detail": "Jerusalem holds the temple disputes, arrest, execution, and burial setting.",
-      "uncertainty": "Approximate reference marker. It identifies no exact house, road, execution site, or ancient border.",
-      "chapterLocation": true
+      "detail": "Jesus enters Jerusalem and clears the temple in chapter 11. He is arrested and tried there in chapters 14 and 15.",
+      "uncertainty": "The marker shows the city’s general location.",
+      "chapterLocation": true,
+      "word": {
+        "language": "greek",
+        "strongId": "G2414",
+        "key": "Jerusalem",
+        "checkedVerses": 9,
+        "example": [
+          3,
+          8
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Ἱεροσόλυμα",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Hierosólyma"
+      }
     },
     {
       "id": "jordan",
       "name": "Jordan",
       "lat": 31.86,
       "lng": 35.55,
-      "summary": "John baptizes Jesus in the Jordan. No exact baptism site is assigned.",
-      "limits": "Approximate reference marker. It identifies no exact house, road, execution site, or ancient border.",
+      "summary": "John baptizes the crowds and Jesus in the Jordan in chapter 1. Jesus teaches beyond the Jordan in chapter 10.",
+      "limits": "The text does not say where on the river John baptized.",
       "sourceIds": [
         "web",
         "atlas-canaan"
       ],
       "verseScope": {},
-      "detail": "John baptizes Jesus in the Jordan. No exact baptism site is assigned.",
-      "uncertainty": "Approximate reference marker. It identifies no exact house, road, execution site, or ancient border.",
-      "chapterLocation": true
+      "detail": "John baptizes the crowds and Jesus in the Jordan in chapter 1. Jesus teaches beyond the Jordan in chapter 10.",
+      "uncertainty": "The text does not say where on the river John baptized.",
+      "chapterLocation": true,
+      "word": {
+        "language": "greek",
+        "strongId": "G2446",
+        "key": "Jordan",
+        "checkedVerses": 4,
+        "example": [
+          1,
+          5
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Ἰορδάνης",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Iordánēs"
+      }
     },
     {
       "id": "galilee",
       "name": "Galilee",
       "lat": 32.85,
       "lng": 35.3,
-      "summary": "Galilee holds early work and the promised meeting named at the tomb.",
-      "limits": "Approximate reference marker. It identifies no exact house, road, execution site, or ancient border.",
+      "summary": "Jesus begins to preach in Galilee in chapter 1. In chapter 16 the young man says Jesus goes there ahead of the disciples.",
+      "limits": "Galilee is a wide region. The marker shows only its general location.",
       "sourceIds": [
         "web",
         "atlas-canaan"
       ],
       "verseScope": {},
-      "detail": "Galilee holds early work and the promised meeting named at the tomb.",
-      "uncertainty": "Approximate reference marker. It identifies no exact house, road, execution site, or ancient border.",
-      "chapterLocation": true
+      "detail": "Jesus begins to preach in Galilee in chapter 1. In chapter 16 the young man says Jesus goes there ahead of the disciples.",
+      "uncertainty": "Galilee is a wide region. The marker shows only its general location.",
+      "chapterLocation": true,
+      "word": {
+        "language": "greek",
+        "strongId": "G1056",
+        "key": "Galilee",
+        "checkedVerses": 12,
+        "example": [
+          1,
+          9
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Γαλιλαία",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Galilaía"
+      }
     },
     {
       "id": "tyre",
       "name": "Tyre",
       "lat": 33.27,
       "lng": 35.2,
-      "summary": "The region of Tyre supplies the setting of the woman’s request for her daughter.",
-      "limits": "Approximate reference marker. It identifies no exact house, road, execution site, or ancient border.",
+      "summary": "People from around Tyre come to Jesus in chapter 3. In chapter 7 a Greek woman there begs him to help her daughter.",
+      "limits": "The marker shows the city’s general location. The text names only the area around it.",
       "sourceIds": [
         "web",
         "atlas-canaan"
       ],
       "verseScope": {},
-      "detail": "The region of Tyre supplies the setting of the woman’s request for her daughter.",
-      "uncertainty": "Approximate reference marker. It identifies no exact house, road, execution site, or ancient border.",
-      "chapterLocation": true
+      "detail": "People from around Tyre come to Jesus in chapter 3. In chapter 7 a Greek woman there begs him to help her daughter.",
+      "uncertainty": "The marker shows the city’s general location. The text names only the area around it.",
+      "chapterLocation": true,
+      "word": {
+        "language": "greek",
+        "strongId": "G5184",
+        "key": "Tyre",
+        "checkedVerses": 3,
+        "example": [
+          3,
+          8
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Τύρος",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Týros"
+      }
     },
     {
       "id": "sidon",
       "name": "Sidon",
       "lat": 33.56,
       "lng": 35.37,
-      "summary": "Sidon appears among the crowd’s origins and in the return from Tyre.",
-      "limits": "Approximate reference marker. It identifies no exact house, road, execution site, or ancient border.",
+      "summary": "People from around Sidon come to Jesus in chapter 3. Jesus goes into the borders of Tyre and Sidon in chapter 7.",
+      "limits": "The marker shows the city’s general location. The text names only the area around it.",
       "sourceIds": [
         "web",
         "atlas-canaan"
       ],
       "verseScope": {},
-      "detail": "Sidon appears among the crowd’s origins and in the return from Tyre.",
-      "uncertainty": "Approximate reference marker. It identifies no exact house, road, execution site, or ancient border.",
-      "chapterLocation": true
+      "detail": "People from around Sidon come to Jesus in chapter 3. Jesus goes into the borders of Tyre and Sidon in chapter 7.",
+      "uncertainty": "The marker shows the city’s general location. The text names only the area around it.",
+      "chapterLocation": true,
+      "word": {
+        "language": "greek",
+        "strongId": "G4605",
+        "key": "Sidon",
+        "checkedVerses": 3,
+        "example": [
+          3,
+          8
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Σιδών",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Sidṓn"
+      }
     },
     {
       "id": "jericho",
       "name": "Jericho",
       "lat": 31.87,
       "lng": 35.45,
-      "summary": "Bartimaeus asks for sight as Jesus leaves Jericho.",
-      "limits": "Approximate reference marker. It identifies no exact house, road, execution site, or ancient border.",
+      "summary": "Blind Bartimaeus calls out as Jesus leaves Jericho in chapter 10. Jesus gives him sight.",
+      "limits": "The marker shows the town’s general location.",
       "sourceIds": [
         "web",
         "atlas-canaan"
       ],
       "verseScope": {},
-      "detail": "Bartimaeus asks for sight as Jesus leaves Jericho.",
-      "uncertainty": "Approximate reference marker. It identifies no exact house, road, execution site, or ancient border.",
-      "chapterLocation": true
+      "detail": "Blind Bartimaeus calls out as Jesus leaves Jericho in chapter 10. Jesus gives him sight.",
+      "uncertainty": "The marker shows the town’s general location.",
+      "chapterLocation": true,
+      "word": {
+        "language": "greek",
+        "strongId": "G2410",
+        "key": "Jericho",
+        "checkedVerses": 1,
+        "example": [
+          10,
+          46
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Ἱεριχώ",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Hierichṓ"
+      }
     },
     {
       "id": "olives",
       "name": "Mount of Olives",
       "lat": 31.779,
       "lng": 35.247,
-      "summary": "The Mount of Olives holds the private warning and the departure after supper.",
-      "limits": "Approximate reference marker. It identifies no exact house, road, execution site, or ancient border.",
+      "summary": "Jesus sends two disciples from the Mount of Olives in chapter 11. He warns four disciples there in chapter 13. He goes there after the supper in chapter 14.",
+      "limits": "The marker shows the mount’s general location.",
       "sourceIds": [
         "web",
         "atlas-canaan"
       ],
       "verseScope": {},
-      "detail": "The Mount of Olives holds the private warning and the departure after supper.",
-      "uncertainty": "Approximate reference marker. It identifies no exact house, road, execution site, or ancient border.",
+      "detail": "Jesus sends two disciples from the Mount of Olives in chapter 11. He warns four disciples there in chapter 13. He goes there after the supper in chapter 14.",
+      "uncertainty": "The marker shows the mount’s general location.",
       "chapterLocation": true
     },
     {
@@ -1157,47 +1299,85 @@
       "name": "Nazareth",
       "lat": 32.7,
       "lng": 35.3,
-      "summary": "Jesus comes from Nazareth for baptism. The hometown question later names his family.",
-      "limits": "Approximate town reference from the NET coordinate line. No house or workshop is identified.",
+      "summary": "Jesus comes from Nazareth of Galilee in chapter 1, and John baptizes him.",
+      "limits": "The marker shows the town’s general location.",
       "sourceIds": [
         "web",
         "net-nt-map"
       ],
       "verseScope": {},
-      "detail": "Jesus comes from Nazareth for baptism. The hometown question later names his family.",
-      "uncertainty": "Approximate town reference from the NET coordinate line. No house or workshop is identified.",
-      "chapterLocation": true
+      "detail": "Jesus comes from Nazareth of Galilee in chapter 1, and John baptizes him.",
+      "uncertainty": "The marker shows the town’s general location.",
+      "chapterLocation": true,
+      "word": {
+        "language": "greek",
+        "strongId": "G3478",
+        "key": "Nazareth",
+        "checkedVerses": 1,
+        "example": [
+          1,
+          9
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Ναζαρέθ",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Nazaréth"
+      }
     },
     {
       "id": "capernaum",
       "name": "Capernaum",
       "lat": 32.86666666666667,
       "lng": 35.56666666666667,
-      "summary": "Capernaum holds teaching, healing, and disputes inside crowded houses.",
-      "limits": "Approximate town reference from the NET coordinate line. No specific synagogue or house is reconstructed.",
+      "summary": "Jesus teaches in the synagogue at Capernaum in chapter 1. Four men lower a paralyzed man through a roof there in chapter 2. In chapter 9 he asks the disciples what they argued about.",
+      "limits": "The marker shows the town’s general location.",
       "sourceIds": [
         "web",
         "net-nt-map"
       ],
       "verseScope": {},
-      "detail": "Capernaum holds teaching, healing, and disputes inside crowded houses.",
-      "uncertainty": "Approximate town reference from the NET coordinate line. No specific synagogue or house is reconstructed.",
-      "chapterLocation": true
+      "detail": "Jesus teaches in the synagogue at Capernaum in chapter 1. Four men lower a paralyzed man through a roof there in chapter 2. In chapter 9 he asks the disciples what they argued about.",
+      "uncertainty": "The marker shows the town’s general location.",
+      "chapterLocation": true,
+      "word": {
+        "language": "greek",
+        "strongId": "G2584",
+        "key": "Capernaum",
+        "checkedVerses": 3,
+        "example": [
+          1,
+          21
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Καπερναούμ",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Kapernaoúm"
+      }
     },
     {
       "id": "caesarea-philippi",
       "name": "Caesarea Philippi",
       "lat": 33.233333333333334,
       "lng": 35.68333333333333,
-      "summary": "The villages of Caesarea Philippi surround the question about Jesus’ identity.",
-      "limits": "The marker locates the town as a regional reference. It does not locate the conversation or mountain.",
+      "summary": "In chapter 8 Jesus goes to the villages of Caesarea Philippi. On the way Peter calls him the Christ.",
+      "limits": "The text names only the villages around the town. The marker shows the town.",
       "sourceIds": [
         "web",
         "net-nt-map"
       ],
       "verseScope": {},
-      "detail": "The villages of Caesarea Philippi surround the question about Jesus’ identity.",
-      "uncertainty": "The marker locates the town as a regional reference. It does not locate the conversation or mountain.",
+      "detail": "In chapter 8 Jesus goes to the villages of Caesarea Philippi. On the way Peter calls him the Christ.",
+      "uncertainty": "The text names only the villages around the town. The marker shows the town.",
       "chapterLocation": true
     },
     {
@@ -1205,52 +1385,140 @@
       "name": "Bethany near Jerusalem",
       "lat": 31.766666666666666,
       "lng": 35.25,
-      "summary": "Bethany appears beside the Jerusalem visits and the unnamed woman’s anointing.",
-      "limits": "Approximate reference from the NET coordinate line. This is not Bethany beyond the Jordan or an identified house.",
+      "summary": "Jesus goes out to Bethany with the twelve in chapter 11. In chapter 14 a woman pours costly ointment over his head there.",
+      "limits": "The marker shows the town’s general location. This is not Bethany beyond the Jordan.",
       "sourceIds": [
         "web",
         "net-nt-map"
       ],
       "verseScope": {},
-      "detail": "Bethany appears beside the Jerusalem visits and the unnamed woman’s anointing.",
-      "uncertainty": "Approximate reference from the NET coordinate line. This is not Bethany beyond the Jordan or an identified house.",
-      "chapterLocation": true
+      "detail": "Jesus goes out to Bethany with the twelve in chapter 11. In chapter 14 a woman pours costly ointment over his head there.",
+      "uncertainty": "The marker shows the town’s general location. This is not Bethany beyond the Jordan.",
+      "chapterLocation": true,
+      "word": {
+        "language": "greek",
+        "strongId": "G963",
+        "key": "Bethany",
+        "checkedVerses": 4,
+        "example": [
+          11,
+          1
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Βηθανία",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Bēthanía",
+        "languageNote": "This is the dictionary form of the name “Bethany.”"
+      }
     },
     {
       "id": "bethsaida",
       "name": "Bethsaida",
       "lat": 32.9,
       "lng": 35.61666666666667,
-      "summary": "A blind man receives sight in two stages near Bethsaida.",
-      "limits": "Broad vicinity from the NET reference. This marker does not identify one ancient ruin or a boat landing.",
+      "summary": "Jesus sends the disciples ahead by boat toward Bethsaida in chapter 6. In chapter 8 people bring a blind man to him there. Jesus heals him in two steps outside the village.",
+      "limits": "The marker shows the general area. It does not point to one ancient ruin.",
       "sourceIds": [
         "web",
         "net-nt-map"
       ],
-      "detail": "A blind man receives sight in two stages near Bethsaida.",
-      "uncertainty": "Broad vicinity from the NET reference. This marker does not identify one ancient ruin or a boat landing.",
-      "chapterLocation": true
+      "detail": "Jesus sends the disciples ahead by boat toward Bethsaida in chapter 6. In chapter 8 people bring a blind man to him there. Jesus heals him in two steps outside the village.",
+      "uncertainty": "The marker shows the general area. It does not point to one ancient ruin.",
+      "chapterLocation": true,
+      "word": {
+        "language": "greek",
+        "strongId": "G966",
+        "key": "Bethsaida",
+        "checkedVerses": 2,
+        "example": [
+          6,
+          45
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Βηθσαϊδά",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Bēthsaïdá"
+      }
     },
     {
       "id": "sea-galilee",
       "name": "Sea of Galilee",
       "lat": 32.8,
       "lng": 35.583333333333336,
-      "summary": "The lake connects crossings, storms, and questions about Jesus’ identity.",
-      "limits": "Lake reference from the NET coordinate line. No exact storm position or crossing route is assigned.",
+      "summary": "Jesus calls four fishermen by the sea of Galilee in chapter 1. He calms a storm on it in chapter 4. He walks on it in chapter 6.",
+      "limits": "The marker shows the lake. The text gives no exact place for the storm or the crossings.",
       "sourceIds": [
         "web",
         "net-nt-map"
       ],
-      "detail": "The lake connects crossings, storms, and questions about Jesus’ identity.",
-      "uncertainty": "Lake reference from the NET coordinate line. No exact storm position or crossing route is assigned.",
-      "chapterLocation": true
+      "detail": "Jesus calls four fishermen by the sea of Galilee in chapter 1. He calms a storm on it in chapter 4. He walks on it in chapter 6.",
+      "uncertainty": "The marker shows the lake. The text gives no exact place for the storm or the crossings.",
+      "chapterLocation": true,
+      "word": {
+        "language": "greek",
+        "strongId": "G1056",
+        "key": "Galilee",
+        "checkedVerses": 12,
+        "example": [
+          1,
+          9
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Γαλιλαία",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Galilaía",
+        "languageNote": "This is the dictionary form of the name “Galilee.”"
+      }
     }
   ],
   "campaigns": [],
   "ancientRoads": [],
   "regions": [],
   "words": [
+    {
+      "id": "glossary-covenant-14-G1242-covenant",
+      "label": "Covenant",
+      "matches": [
+        "covenant"
+      ],
+      "chapter": 14,
+      "verses": [
+        24
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "διαθήκη",
+      "greekNote": "",
+      "meaning": "A binding agreement with promises and duties. In the Bible, God makes covenants with people.",
+      "grammar": "This is the dictionary form of Greek word G1242. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G1242",
+      "language": "greek",
+      "greekTransliteration": "diathḗkē",
+      "chapterDefault": true
+    },
     {
       "id": "glossary-covenant",
       "label": "Covenant",
@@ -1271,7 +1539,157 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "greek"
+    },
+    {
+      "id": "glossary-sabbath-1-G4521-sabbath",
+      "label": "Sabbath",
+      "matches": [
+        "Sabbath"
+      ],
+      "chapter": 1,
+      "verses": [
+        21
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "σάββατον",
+      "greekNote": "",
+      "meaning": "The seventh day of the week, kept as a day of rest.",
+      "grammar": "This is the dictionary form of Greek word G4521. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G4521",
+      "language": "greek",
+      "greekTransliteration": "sábbaton",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-sabbath-2-G4521-sabbath",
+      "label": "Sabbath",
+      "matches": [
+        "Sabbath"
+      ],
+      "chapter": 2,
+      "verses": [
+        23,
+        24,
+        27,
+        28
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "σάββατον",
+      "greekNote": "",
+      "meaning": "The seventh day of the week, kept as a day of rest.",
+      "grammar": "This is the dictionary form of Greek word G4521. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G4521",
+      "language": "greek",
+      "greekTransliteration": "sábbaton",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-sabbath-3-G4521-sabbath",
+      "label": "Sabbath",
+      "matches": [
+        "Sabbath"
+      ],
+      "chapter": 3,
+      "verses": [
+        2,
+        4
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "σάββατον",
+      "greekNote": "",
+      "meaning": "The seventh day of the week, kept as a day of rest.",
+      "grammar": "This is the dictionary form of Greek word G4521. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G4521",
+      "language": "greek",
+      "greekTransliteration": "sábbaton",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-sabbath-6-G4521-sabbath",
+      "label": "Sabbath",
+      "matches": [
+        "Sabbath"
+      ],
+      "chapter": 6,
+      "verses": [
+        2
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "σάββατον",
+      "greekNote": "",
+      "meaning": "The seventh day of the week, kept as a day of rest.",
+      "grammar": "This is the dictionary form of Greek word G4521. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G4521",
+      "language": "greek",
+      "greekTransliteration": "sábbaton",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-sabbath-16-G4521-sabbath",
+      "label": "Sabbath",
+      "matches": [
+        "Sabbath"
+      ],
+      "chapter": 16,
+      "verses": [
+        1
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "σάββατον",
+      "greekNote": "",
+      "meaning": "The seventh day of the week, kept as a day of rest.",
+      "grammar": "This is the dictionary form of Greek word G4521. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G4521",
+      "language": "greek",
+      "greekTransliteration": "sábbaton",
+      "chapterDefault": true
     },
     {
       "id": "glossary-sabbath",
@@ -1293,7 +1711,37 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "greek"
+    },
+    {
+      "id": "glossary-gentiles-10-G1484-gentiles",
+      "label": "Gentiles",
+      "matches": [
+        "Gentiles"
+      ],
+      "chapter": 10,
+      "verses": [
+        33
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "ἔθνος",
+      "greekNote": "",
+      "meaning": "People of nations other than Israel.",
+      "grammar": "This is the dictionary form of Greek word G1484. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G1484",
+      "language": "greek",
+      "greekTransliteration": "éthnos",
+      "chapterDefault": true
     },
     {
       "id": "glossary-gentiles",
@@ -1315,7 +1763,187 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "greek"
+    },
+    {
+      "id": "glossary-pharisees-2-G5330-pharisees",
+      "label": "Pharisees",
+      "matches": [
+        "Pharisees"
+      ],
+      "chapter": 2,
+      "verses": [
+        16,
+        18,
+        24
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "Φαρισαῖος",
+      "greekNote": "",
+      "meaning": "A Jewish group known for careful keeping of the law. Acts 23:8 says they believed in resurrection, angels, and spirits.",
+      "grammar": "This is the dictionary form of Greek word G5330. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G5330",
+      "language": "greek",
+      "greekTransliteration": "Pharisaîos",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-pharisees-3-G5330-pharisees",
+      "label": "Pharisees",
+      "matches": [
+        "Pharisees"
+      ],
+      "chapter": 3,
+      "verses": [
+        6
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "Φαρισαῖος",
+      "greekNote": "",
+      "meaning": "A Jewish group known for careful keeping of the law. Acts 23:8 says they believed in resurrection, angels, and spirits.",
+      "grammar": "This is the dictionary form of Greek word G5330. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G5330",
+      "language": "greek",
+      "greekTransliteration": "Pharisaîos",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-pharisees-7-G5330-pharisees",
+      "label": "Pharisees",
+      "matches": [
+        "Pharisees"
+      ],
+      "chapter": 7,
+      "verses": [
+        1,
+        3,
+        5
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "Φαρισαῖος",
+      "greekNote": "",
+      "meaning": "A Jewish group known for careful keeping of the law. Acts 23:8 says they believed in resurrection, angels, and spirits.",
+      "grammar": "This is the dictionary form of Greek word G5330. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G5330",
+      "language": "greek",
+      "greekTransliteration": "Pharisaîos",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-pharisees-8-G5330-pharisees",
+      "label": "Pharisees",
+      "matches": [
+        "Pharisees"
+      ],
+      "chapter": 8,
+      "verses": [
+        11,
+        15
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "Φαρισαῖος",
+      "greekNote": "",
+      "meaning": "A Jewish group known for careful keeping of the law. Acts 23:8 says they believed in resurrection, angels, and spirits.",
+      "grammar": "This is the dictionary form of Greek word G5330. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G5330",
+      "language": "greek",
+      "greekTransliteration": "Pharisaîos",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-pharisees-10-G5330-pharisees",
+      "label": "Pharisees",
+      "matches": [
+        "Pharisees"
+      ],
+      "chapter": 10,
+      "verses": [
+        2
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "Φαρισαῖος",
+      "greekNote": "",
+      "meaning": "A Jewish group known for careful keeping of the law. Acts 23:8 says they believed in resurrection, angels, and spirits.",
+      "grammar": "This is the dictionary form of Greek word G5330. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G5330",
+      "language": "greek",
+      "greekTransliteration": "Pharisaîos",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-pharisees-12-G5330-pharisees",
+      "label": "Pharisees",
+      "matches": [
+        "Pharisees"
+      ],
+      "chapter": 12,
+      "verses": [
+        13
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "Φαρισαῖος",
+      "greekNote": "",
+      "meaning": "A Jewish group known for careful keeping of the law. Acts 23:8 says they believed in resurrection, angels, and spirits.",
+      "grammar": "This is the dictionary form of Greek word G5330. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G5330",
+      "language": "greek",
+      "greekTransliteration": "Pharisaîos",
+      "chapterDefault": true
     },
     {
       "id": "glossary-pharisees",
@@ -1337,7 +1965,37 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "greek"
+    },
+    {
+      "id": "glossary-sadducees-12-G4523-sadducees",
+      "label": "Sadducees",
+      "matches": [
+        "Sadducees"
+      ],
+      "chapter": 12,
+      "verses": [
+        18
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "Σαδδουκαῖος",
+      "greekNote": "",
+      "meaning": "A Jewish group close to the high priest (Acts 5:17). Acts 23:8 says they denied resurrection, angels, and spirits.",
+      "grammar": "This is the dictionary form of Greek word G4523. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G4523",
+      "language": "greek",
+      "greekTransliteration": "Saddoukaîos",
+      "chapterDefault": true
     },
     {
       "id": "glossary-sadducees",
@@ -1359,7 +2017,366 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "greek"
+    },
+    {
+      "id": "glossary-scribes-1-G1122-scribes",
+      "label": "Scribes",
+      "matches": [
+        "scribes"
+      ],
+      "chapter": 1,
+      "verses": [
+        22
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "γραμματεύς",
+      "greekNote": "",
+      "meaning": "People trained to write and to keep records. In the Gospels, scribes also teach the law.",
+      "grammar": "This is the dictionary form of Greek word G1122. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G1122",
+      "language": "greek",
+      "greekTransliteration": "grammateús",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-scribes-2-G1122-scribes",
+      "label": "Scribes",
+      "matches": [
+        "scribes"
+      ],
+      "chapter": 2,
+      "verses": [
+        6,
+        16
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "γραμματεύς",
+      "greekNote": "",
+      "meaning": "People trained to write and to keep records. In the Gospels, scribes also teach the law.",
+      "grammar": "This is the dictionary form of Greek word G1122. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G1122",
+      "language": "greek",
+      "greekTransliteration": "grammateús",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-scribes-3-G1122-scribes",
+      "label": "Scribes",
+      "matches": [
+        "scribes"
+      ],
+      "chapter": 3,
+      "verses": [
+        22
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "γραμματεύς",
+      "greekNote": "",
+      "meaning": "People trained to write and to keep records. In the Gospels, scribes also teach the law.",
+      "grammar": "This is the dictionary form of Greek word G1122. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G1122",
+      "language": "greek",
+      "greekTransliteration": "grammateús",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-scribes-7-G1122-scribes",
+      "label": "Scribes",
+      "matches": [
+        "scribes"
+      ],
+      "chapter": 7,
+      "verses": [
+        1,
+        5
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "γραμματεύς",
+      "greekNote": "",
+      "meaning": "People trained to write and to keep records. In the Gospels, scribes also teach the law.",
+      "grammar": "This is the dictionary form of Greek word G1122. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G1122",
+      "language": "greek",
+      "greekTransliteration": "grammateús",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-scribes-8-G1122-scribes",
+      "label": "Scribes",
+      "matches": [
+        "scribes"
+      ],
+      "chapter": 8,
+      "verses": [
+        31
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "γραμματεύς",
+      "greekNote": "",
+      "meaning": "People trained to write and to keep records. In the Gospels, scribes also teach the law.",
+      "grammar": "This is the dictionary form of Greek word G1122. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G1122",
+      "language": "greek",
+      "greekTransliteration": "grammateús",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-scribes-9-G1122-scribes",
+      "label": "Scribes",
+      "matches": [
+        "scribes"
+      ],
+      "chapter": 9,
+      "verses": [
+        11,
+        14,
+        16
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "γραμματεύς",
+      "greekNote": "",
+      "meaning": "People trained to write and to keep records. In the Gospels, scribes also teach the law.",
+      "grammar": "This is the dictionary form of Greek word G1122. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G1122",
+      "language": "greek",
+      "greekTransliteration": "grammateús",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-scribes-10-G1122-scribes",
+      "label": "Scribes",
+      "matches": [
+        "scribes"
+      ],
+      "chapter": 10,
+      "verses": [
+        33
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "γραμματεύς",
+      "greekNote": "",
+      "meaning": "People trained to write and to keep records. In the Gospels, scribes also teach the law.",
+      "grammar": "This is the dictionary form of Greek word G1122. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G1122",
+      "language": "greek",
+      "greekTransliteration": "grammateús",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-scribes-11-G1122-scribes",
+      "label": "Scribes",
+      "matches": [
+        "scribes"
+      ],
+      "chapter": 11,
+      "verses": [
+        18,
+        27
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "γραμματεύς",
+      "greekNote": "",
+      "meaning": "People trained to write and to keep records. In the Gospels, scribes also teach the law.",
+      "grammar": "This is the dictionary form of Greek word G1122. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G1122",
+      "language": "greek",
+      "greekTransliteration": "grammateús",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-scribes-12-G1122-scribes",
+      "label": "Scribes",
+      "matches": [
+        "scribes"
+      ],
+      "chapter": 12,
+      "verses": [
+        28,
+        35,
+        38
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "γραμματεύς",
+      "greekNote": "",
+      "meaning": "People trained to write and to keep records. In the Gospels, scribes also teach the law.",
+      "grammar": "This is the dictionary form of Greek word G1122. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G1122",
+      "language": "greek",
+      "greekTransliteration": "grammateús",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-scribes-14-G1122-scribes",
+      "label": "Scribes",
+      "matches": [
+        "scribes"
+      ],
+      "chapter": 14,
+      "verses": [
+        1,
+        43,
+        53
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "γραμματεύς",
+      "greekNote": "",
+      "meaning": "People trained to write and to keep records. In the Gospels, scribes also teach the law.",
+      "grammar": "This is the dictionary form of Greek word G1122. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G1122",
+      "language": "greek",
+      "greekTransliteration": "grammateús",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-scribes-15-G1122-scribes",
+      "label": "Scribes",
+      "matches": [
+        "scribes"
+      ],
+      "chapter": 15,
+      "verses": [
+        1,
+        31
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "γραμματεύς",
+      "greekNote": "",
+      "meaning": "People trained to write and to keep records. In the Gospels, scribes also teach the law.",
+      "grammar": "This is the dictionary form of Greek word G1122. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G1122",
+      "language": "greek",
+      "greekTransliteration": "grammateús",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-scribes-12-G1122-scribe",
+      "label": "Scribes",
+      "matches": [
+        "scribe"
+      ],
+      "chapter": 12,
+      "verses": [
+        32
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "γραμματεύς",
+      "greekNote": "",
+      "meaning": "People trained to write and to keep records. In the Gospels, scribes also teach the law.",
+      "grammar": "This is the dictionary form of Greek word G1122. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G1122",
+      "language": "greek",
+      "greekTransliteration": "grammateús",
+      "chapterDefault": true
     },
     {
       "id": "glossary-scribes",
@@ -1381,7 +2398,184 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "greek"
+    },
+    {
+      "id": "glossary-synagogue-1-G4864-synagogues",
+      "label": "Synagogue",
+      "matches": [
+        "synagogues"
+      ],
+      "chapter": 1,
+      "verses": [
+        39
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "συναγωγή",
+      "greekNote": "",
+      "meaning": "A local Jewish meeting place for prayer and for reading Scripture.",
+      "grammar": "This is the dictionary form of Greek word G4864. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G4864",
+      "language": "greek",
+      "greekTransliteration": "synagōgḗ",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-synagogue-12-G4864-synagogues",
+      "label": "Synagogue",
+      "matches": [
+        "synagogues"
+      ],
+      "chapter": 12,
+      "verses": [
+        39
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "συναγωγή",
+      "greekNote": "",
+      "meaning": "A local Jewish meeting place for prayer and for reading Scripture.",
+      "grammar": "This is the dictionary form of Greek word G4864. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G4864",
+      "language": "greek",
+      "greekTransliteration": "synagōgḗ",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-synagogue-13-G4864-synagogues",
+      "label": "Synagogue",
+      "matches": [
+        "synagogues"
+      ],
+      "chapter": 13,
+      "verses": [
+        9
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "συναγωγή",
+      "greekNote": "",
+      "meaning": "A local Jewish meeting place for prayer and for reading Scripture.",
+      "grammar": "This is the dictionary form of Greek word G4864. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G4864",
+      "language": "greek",
+      "greekTransliteration": "synagōgḗ",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-synagogue-1-G4864-synagogue",
+      "label": "Synagogue",
+      "matches": [
+        "synagogue"
+      ],
+      "chapter": 1,
+      "verses": [
+        21,
+        23,
+        29
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "συναγωγή",
+      "greekNote": "",
+      "meaning": "A local Jewish meeting place for prayer and for reading Scripture.",
+      "grammar": "This is the dictionary form of Greek word G4864. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G4864",
+      "language": "greek",
+      "greekTransliteration": "synagōgḗ",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-synagogue-3-G4864-synagogue",
+      "label": "Synagogue",
+      "matches": [
+        "synagogue"
+      ],
+      "chapter": 3,
+      "verses": [
+        1
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "συναγωγή",
+      "greekNote": "",
+      "meaning": "A local Jewish meeting place for prayer and for reading Scripture.",
+      "grammar": "This is the dictionary form of Greek word G4864. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G4864",
+      "language": "greek",
+      "greekTransliteration": "synagōgḗ",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-synagogue-6-G4864-synagogue",
+      "label": "Synagogue",
+      "matches": [
+        "synagogue"
+      ],
+      "chapter": 6,
+      "verses": [
+        2
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "συναγωγή",
+      "greekNote": "",
+      "meaning": "A local Jewish meeting place for prayer and for reading Scripture.",
+      "grammar": "This is the dictionary form of Greek word G4864. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G4864",
+      "language": "greek",
+      "greekTransliteration": "synagōgḗ",
+      "chapterDefault": true
     },
     {
       "id": "glossary-synagogue",
@@ -1403,7 +2597,37 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "greek"
+    },
+    {
+      "id": "glossary-apostles-6-G652-apostles",
+      "label": "Apostles",
+      "matches": [
+        "apostles"
+      ],
+      "chapter": 6,
+      "verses": [
+        30
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "ἀπόστολος",
+      "greekNote": "",
+      "meaning": "People sent out with a message. In the Gospels the word names twelve whom Jesus chose.",
+      "grammar": "This is the dictionary form of Greek word G652. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G652",
+      "language": "greek",
+      "greekTransliteration": "apóstolos",
+      "chapterDefault": true
     },
     {
       "id": "glossary-apostles",
@@ -1425,7 +2649,40 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "greek"
+    },
+    {
+      "id": "glossary-passover-14-G3957-passover",
+      "label": "Passover",
+      "matches": [
+        "Passover"
+      ],
+      "chapter": 14,
+      "verses": [
+        1,
+        12,
+        14,
+        16
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "πάσχα",
+      "greekNote": "",
+      "meaning": "A yearly feast that recalls Israel’s escape from Egypt. Exodus 12 gives its first account.",
+      "grammar": "This is the dictionary form of Greek word G3957. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G3957",
+      "language": "greek",
+      "greekTransliteration": "páscha",
+      "chapterDefault": true
     },
     {
       "id": "glossary-passover",
@@ -1446,7 +2703,187 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "greek"
+    },
+    {
+      "id": "glossary-unclean-1-G169-unclean",
+      "label": "Unclean",
+      "matches": [
+        "unclean"
+      ],
+      "chapter": 1,
+      "verses": [
+        23,
+        26,
+        27
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "ἀκάθαρτος",
+      "greekNote": "",
+      "meaning": "Unfit to take part in worship until a set cleansing is done. Leviticus 11–15 gives the rules.",
+      "grammar": "This is the dictionary form of Greek word G169. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G169",
+      "language": "greek",
+      "greekTransliteration": "akáthartos",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-unclean-3-G169-unclean",
+      "label": "Unclean",
+      "matches": [
+        "unclean"
+      ],
+      "chapter": 3,
+      "verses": [
+        11,
+        30
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "ἀκάθαρτος",
+      "greekNote": "",
+      "meaning": "Unfit to take part in worship until a set cleansing is done. Leviticus 11–15 gives the rules.",
+      "grammar": "This is the dictionary form of Greek word G169. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G169",
+      "language": "greek",
+      "greekTransliteration": "akáthartos",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-unclean-5-G169-unclean",
+      "label": "Unclean",
+      "matches": [
+        "unclean"
+      ],
+      "chapter": 5,
+      "verses": [
+        2,
+        8,
+        13
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "ἀκάθαρτος",
+      "greekNote": "",
+      "meaning": "Unfit to take part in worship until a set cleansing is done. Leviticus 11–15 gives the rules.",
+      "grammar": "This is the dictionary form of Greek word G169. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G169",
+      "language": "greek",
+      "greekTransliteration": "akáthartos",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-unclean-6-G169-unclean",
+      "label": "Unclean",
+      "matches": [
+        "unclean"
+      ],
+      "chapter": 6,
+      "verses": [
+        7
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "ἀκάθαρτος",
+      "greekNote": "",
+      "meaning": "Unfit to take part in worship until a set cleansing is done. Leviticus 11–15 gives the rules.",
+      "grammar": "This is the dictionary form of Greek word G169. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G169",
+      "language": "greek",
+      "greekTransliteration": "akáthartos",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-unclean-7-G169-unclean",
+      "label": "Unclean",
+      "matches": [
+        "unclean"
+      ],
+      "chapter": 7,
+      "verses": [
+        25
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "ἀκάθαρτος",
+      "greekNote": "",
+      "meaning": "Unfit to take part in worship until a set cleansing is done. Leviticus 11–15 gives the rules.",
+      "grammar": "This is the dictionary form of Greek word G169. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G169",
+      "language": "greek",
+      "greekTransliteration": "akáthartos",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-unclean-9-G169-unclean",
+      "label": "Unclean",
+      "matches": [
+        "unclean"
+      ],
+      "chapter": 9,
+      "verses": [
+        25
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "ἀκάθαρτος",
+      "greekNote": "",
+      "meaning": "Unfit to take part in worship until a set cleansing is done. Leviticus 11–15 gives the rules.",
+      "grammar": "This is the dictionary form of Greek word G169. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G169",
+      "language": "greek",
+      "greekTransliteration": "akáthartos",
+      "chapterDefault": true
     },
     {
       "id": "glossary-unclean",
@@ -1468,7 +2905,95 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "greek"
+    },
+    {
+      "id": "glossary-leprosy-1-G3014-leprosy",
+      "label": "Leprosy",
+      "matches": [
+        "leprosy"
+      ],
+      "chapter": 1,
+      "verses": [
+        42
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "λέπρα",
+      "greekNote": "",
+      "meaning": "A skin disease. Leviticus 13 uses the word for several conditions and sets rules for them.",
+      "grammar": "This is the dictionary form of Greek word G3014. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G3014",
+      "language": "greek",
+      "greekTransliteration": "lépra",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-leprosy-1-G3015-leper",
+      "label": "Leprosy",
+      "matches": [
+        "leper"
+      ],
+      "chapter": 1,
+      "verses": [
+        40
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "λεπρός",
+      "greekNote": "",
+      "meaning": "A skin disease. Leviticus 13 uses the word for several conditions and sets rules for them.",
+      "grammar": "This is the dictionary form of Greek word G3015. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G3015",
+      "language": "greek",
+      "greekTransliteration": "leprós",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-leprosy-14-G3015-leper",
+      "label": "Leprosy",
+      "matches": [
+        "leper"
+      ],
+      "chapter": 14,
+      "verses": [
+        3
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "λεπρός",
+      "greekNote": "",
+      "meaning": "A skin disease. Leviticus 13 uses the word for several conditions and sets rules for them.",
+      "grammar": "This is the dictionary form of Greek word G3015. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G3015",
+      "language": "greek",
+      "greekTransliteration": "leprós",
+      "chapterDefault": true
     },
     {
       "id": "glossary-leprosy",
@@ -1492,7 +3017,66 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "greek"
+    },
+    {
+      "id": "glossary-anoint-6-G218-anointed",
+      "label": "Anoint",
+      "matches": [
+        "anointed"
+      ],
+      "chapter": 6,
+      "verses": [
+        13
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "ἀλείφω",
+      "greekNote": "",
+      "meaning": "To pour oil on a person or thing to set it apart. Kings and priests were anointed.",
+      "grammar": "This is the dictionary form of Greek word G218. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G218",
+      "language": "greek",
+      "greekTransliteration": "aleíphō",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-anoint-16-G218-anoint",
+      "label": "Anoint",
+      "matches": [
+        "anoint"
+      ],
+      "chapter": 16,
+      "verses": [
+        1
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "ἀλείφω",
+      "greekNote": "",
+      "meaning": "To pour oil on a person or thing to set it apart. Kings and priests were anointed.",
+      "grammar": "This is the dictionary form of Greek word G218. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G218",
+      "language": "greek",
+      "greekTransliteration": "aleíphō",
+      "chapterDefault": true
     },
     {
       "id": "glossary-anoint",
@@ -1516,7 +3100,95 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "greek"
+    },
+    {
+      "id": "glossary-rabbi-9-G4461-rabbi",
+      "label": "Rabbi",
+      "matches": [
+        "Rabbi"
+      ],
+      "chapter": 9,
+      "verses": [
+        5
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "ῥαββί",
+      "greekNote": "",
+      "meaning": "A title of respect for a teacher. John 1:38 gives the meaning as “Teacher.”",
+      "grammar": "This is the dictionary form of Greek word G4461. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G4461",
+      "language": "greek",
+      "greekTransliteration": "rhabbí",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-rabbi-11-G4461-rabbi",
+      "label": "Rabbi",
+      "matches": [
+        "Rabbi"
+      ],
+      "chapter": 11,
+      "verses": [
+        21
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "ῥαββί",
+      "greekNote": "",
+      "meaning": "A title of respect for a teacher. John 1:38 gives the meaning as “Teacher.”",
+      "grammar": "This is the dictionary form of Greek word G4461. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G4461",
+      "language": "greek",
+      "greekTransliteration": "rhabbí",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-rabbi-14-G4461-rabbi",
+      "label": "Rabbi",
+      "matches": [
+        "Rabbi"
+      ],
+      "chapter": 14,
+      "verses": [
+        45
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "ῥαββί",
+      "greekNote": "",
+      "meaning": "A title of respect for a teacher. John 1:38 gives the meaning as “Teacher.”",
+      "grammar": "This is the dictionary form of Greek word G4461. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G4461",
+      "language": "greek",
+      "greekTransliteration": "rhabbí",
+      "chapterDefault": true
     },
     {
       "id": "glossary-rabbi",
@@ -1537,7 +3209,217 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "greek"
+    },
+    {
+      "id": "glossary-parable-3-G3850-parables",
+      "label": "Parable",
+      "matches": [
+        "parables"
+      ],
+      "chapter": 3,
+      "verses": [
+        23
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "παραβολή",
+      "greekNote": "",
+      "meaning": "A short story or comparison that teaches a point.",
+      "grammar": "This is the dictionary form of Greek word G3850. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G3850",
+      "language": "greek",
+      "greekTransliteration": "parabolḗ",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-parable-4-G3850-parables",
+      "label": "Parable",
+      "matches": [
+        "parables"
+      ],
+      "chapter": 4,
+      "verses": [
+        2,
+        10,
+        11,
+        13,
+        33
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "παραβολή",
+      "greekNote": "",
+      "meaning": "A short story or comparison that teaches a point.",
+      "grammar": "This is the dictionary form of Greek word G3850. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G3850",
+      "language": "greek",
+      "greekTransliteration": "parabolḗ",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-parable-12-G3850-parables",
+      "label": "Parable",
+      "matches": [
+        "parables"
+      ],
+      "chapter": 12,
+      "verses": [
+        1
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "παραβολή",
+      "greekNote": "",
+      "meaning": "A short story or comparison that teaches a point.",
+      "grammar": "This is the dictionary form of Greek word G3850. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G3850",
+      "language": "greek",
+      "greekTransliteration": "parabolḗ",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-parable-4-G3850-parable",
+      "label": "Parable",
+      "matches": [
+        "parable"
+      ],
+      "chapter": 4,
+      "verses": [
+        13,
+        30,
+        34
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "παραβολή",
+      "greekNote": "",
+      "meaning": "A short story or comparison that teaches a point.",
+      "grammar": "This is the dictionary form of Greek word G3850. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G3850",
+      "language": "greek",
+      "greekTransliteration": "parabolḗ",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-parable-7-G3850-parable",
+      "label": "Parable",
+      "matches": [
+        "parable"
+      ],
+      "chapter": 7,
+      "verses": [
+        17
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "παραβολή",
+      "greekNote": "",
+      "meaning": "A short story or comparison that teaches a point.",
+      "grammar": "This is the dictionary form of Greek word G3850. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G3850",
+      "language": "greek",
+      "greekTransliteration": "parabolḗ",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-parable-12-G3850-parable",
+      "label": "Parable",
+      "matches": [
+        "parable"
+      ],
+      "chapter": 12,
+      "verses": [
+        12
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "παραβολή",
+      "greekNote": "",
+      "meaning": "A short story or comparison that teaches a point.",
+      "grammar": "This is the dictionary form of Greek word G3850. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G3850",
+      "language": "greek",
+      "greekTransliteration": "parabolḗ",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-parable-13-G3850-parable",
+      "label": "Parable",
+      "matches": [
+        "parable"
+      ],
+      "chapter": 13,
+      "verses": [
+        28
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "παραβολή",
+      "greekNote": "",
+      "meaning": "A short story or comparison that teaches a point.",
+      "grammar": "This is the dictionary form of Greek word G3850. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G3850",
+      "language": "greek",
+      "greekTransliteration": "parabolḗ",
+      "chapterDefault": true
     },
     {
       "id": "glossary-parable",
@@ -1559,7 +3441,39 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "greek"
+    },
+    {
+      "id": "glossary-centurion-15-G2760-centurion",
+      "label": "Centurion",
+      "matches": [
+        "centurion"
+      ],
+      "chapter": 15,
+      "verses": [
+        39,
+        44,
+        45
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "κεντυρίων",
+      "greekNote": "",
+      "meaning": "A Roman officer in command of about a hundred soldiers.",
+      "grammar": "This is the dictionary form of Greek word G2760. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G2760",
+      "language": "greek",
+      "greekTransliteration": "kentyríōn",
+      "chapterDefault": true
     },
     {
       "id": "glossary-centurion",
@@ -1581,7 +3495,37 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "greek"
+    },
+    {
+      "id": "glossary-bondservant-10-G1401-bondservant",
+      "label": "Bondservant",
+      "matches": [
+        "bondservant"
+      ],
+      "chapter": 10,
+      "verses": [
+        44
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "δοῦλος",
+      "greekNote": "",
+      "meaning": "A slave or bound servant.",
+      "grammar": "This is the dictionary form of Greek word G1401. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G1401",
+      "language": "greek",
+      "greekTransliteration": "doûlos",
+      "chapterDefault": true
     },
     {
       "id": "glossary-bondservant",
@@ -1603,7 +3547,95 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "greek"
+    },
+    {
+      "id": "glossary-denarius-6-G1220-denarii",
+      "label": "Denarius",
+      "matches": [
+        "denarii"
+      ],
+      "chapter": 6,
+      "verses": [
+        37
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "δηνάριον",
+      "greekNote": "",
+      "meaning": "A Roman silver coin. Matthew 20:2 gives it as a worker’s pay for one day.",
+      "grammar": "This is the dictionary form of Greek word G1220. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G1220",
+      "language": "greek",
+      "greekTransliteration": "dēnárion",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-denarius-14-G1220-denarii",
+      "label": "Denarius",
+      "matches": [
+        "denarii"
+      ],
+      "chapter": 14,
+      "verses": [
+        5
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "δηνάριον",
+      "greekNote": "",
+      "meaning": "A Roman silver coin. Matthew 20:2 gives it as a worker’s pay for one day.",
+      "grammar": "This is the dictionary form of Greek word G1220. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G1220",
+      "language": "greek",
+      "greekTransliteration": "dēnárion",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-denarius-12-G1220-denarius",
+      "label": "Denarius",
+      "matches": [
+        "denarius"
+      ],
+      "chapter": 12,
+      "verses": [
+        15
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "δηνάριον",
+      "greekNote": "",
+      "meaning": "A Roman silver coin. Matthew 20:2 gives it as a worker’s pay for one day.",
+      "grammar": "This is the dictionary form of Greek word G1220. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G1220",
+      "language": "greek",
+      "greekTransliteration": "dēnárion",
+      "chapterDefault": true
     },
     {
       "id": "glossary-denarius",
@@ -1625,7 +3657,37 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "greek"
+    },
+    {
+      "id": "glossary-abba-14-G5-abba",
+      "label": "Abba",
+      "matches": [
+        "Abba"
+      ],
+      "chapter": 14,
+      "verses": [
+        36
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "Ἀββᾶ",
+      "greekNote": "",
+      "meaning": "An Aramaic word for father. The text gives the translation beside it.",
+      "grammar": "This is the dictionary form of Greek word G5. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G5",
+      "language": "greek",
+      "greekTransliteration": "Abbâ",
+      "chapterDefault": true
     },
     {
       "id": "glossary-abba",
@@ -1646,7 +3708,67 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "greek"
+    },
+    {
+      "id": "glossary-yeast-14-G106-unleavened",
+      "label": "Yeast",
+      "matches": [
+        "unleavened"
+      ],
+      "chapter": 14,
+      "verses": [
+        1,
+        12
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "ἄζυμος",
+      "greekNote": "",
+      "meaning": "Yeast, or leaven, makes dough rise. Bread made without it is called unleavened.",
+      "grammar": "This is the dictionary form of Greek word G106. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G106",
+      "language": "greek",
+      "greekTransliteration": "ázymos",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-yeast-8-G2219-yeast",
+      "label": "Yeast",
+      "matches": [
+        "yeast"
+      ],
+      "chapter": 8,
+      "verses": [
+        15
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "ζύμη",
+      "greekNote": "",
+      "meaning": "Yeast, or leaven, makes dough rise. Bread made without it is called unleavened.",
+      "grammar": "This is the dictionary form of Greek word G2219. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G2219",
+      "language": "greek",
+      "greekTransliteration": "zýmē",
+      "chapterDefault": true
     },
     {
       "id": "glossary-yeast",
@@ -1670,7 +3792,8 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "greek"
     }
   ],
   "guides": [
@@ -1763,9 +3886,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "Selected markers separate named settings from remembered places. Exact houses, tombs, unnamed mountains, and travel routes remain unassigned.",
+      "note": "The points mark places this chapter names, as settings or in speech. The exact houses, roads, and tombs are not known.",
       "narrative": "Mark begins with John the Baptist preaching in the desert. Jesus is baptized, and a voice from heaven calls him the beloved Son. He is tested in the desert for forty days. He announces that God’s Kingdom is near and calls four fishermen. In Capernaum he teaches with authority and drives out an unclean spirit. He heals Simon’s mother-in-law and many others at the door. Before dawn he goes out alone to pray. He then leaves for other towns and heals a man with a skin disease.",
-      "limits": "Selected markers separate named settings from remembered places. Exact houses, tombs, unnamed mountains, and travel routes remain unassigned.",
+      "limits": "The points mark places this chapter names, as settings or in speech. The exact houses, roads, and tombs are not known.",
       "sourceIds": [
         "web"
       ]
@@ -1783,9 +3906,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "Selected markers separate named settings from remembered places. Exact houses, tombs, unnamed mountains, and travel routes remain unassigned.",
+      "note": "The points mark places this chapter names, as settings or in speech. The exact houses, roads, and tombs are not known.",
       "narrative": "Four men carry a paralyzed man to Jesus and lower him through the roof. Jesus forgives his sins and heals him. He calls Levi the tax collector and eats with sinners. He is asked why his disciples do not fast. He says no one puts new wine into old wineskins. On a Sabbath his disciples pick grain as they walk. Pharisees object, and he recalls what David did when hungry. He says the Sabbath was made for people.",
-      "limits": "Selected markers separate named settings from remembered places. Exact houses, tombs, unnamed mountains, and travel routes remain unassigned.",
+      "limits": "The points mark places this chapter names, as settings or in speech. The exact houses, roads, and tombs are not known.",
       "sourceIds": [
         "web"
       ]
@@ -1813,9 +3936,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "Selected markers separate named settings from remembered places. Exact houses, tombs, unnamed mountains, and travel routes remain unassigned.",
+      "note": "The points mark places this chapter names, as settings or in speech. The exact houses, roads, and tombs are not known.",
       "narrative": "Jesus enters a synagogue where a man has a withered hand. His opponents watch to see whether he will heal on the Sabbath. He asks whether the Sabbath is for doing good or harm, saving life or killing. They say nothing, and he heals the man. The Pharisees begin to plot his death. Crowds press on him, and he appoints twelve to be with him. Scribes say he drives out demons by their ruler. He says those who do God’s will are his family.",
-      "limits": "Selected markers separate named settings from remembered places. Exact houses, tombs, unnamed mountains, and travel routes remain unassigned.",
+      "limits": "The points mark places this chapter names, as settings or in speech. The exact houses, roads, and tombs are not known.",
       "sourceIds": [
         "web"
       ]
@@ -1833,9 +3956,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "Selected markers separate named settings from remembered places. Exact houses, tombs, unnamed mountains, and travel routes remain unassigned.",
+      "note": "The points mark places this chapter names, as settings or in speech. The exact houses, roads, and tombs are not known.",
       "narrative": "Jesus teaches a large crowd from a boat. A farmer sows seed on path, rock, thorns, and good soil. He explains the story to his disciples in private. A lamp is meant to be set on a stand. Seed grows by itself while the farmer sleeps. The Kingdom is like a tiny mustard seed that becomes a large plant. That evening a storm fills the boat while Jesus sleeps. He rebukes the wind, and the disciples are terrified.",
-      "limits": "Selected markers separate named settings from remembered places. Exact houses, tombs, unnamed mountains, and travel routes remain unassigned.",
+      "limits": "The points mark places this chapter names, as settings or in speech. The exact houses, roads, and tombs are not known.",
       "sourceIds": [
         "web"
       ]
@@ -1853,9 +3976,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "Selected markers separate named settings from remembered places. Exact houses, tombs, unnamed mountains, and travel routes remain unassigned.",
+      "note": "The points mark places this chapter names, as settings or in speech. The exact houses, roads, and tombs are not known.",
       "narrative": "Jesus crosses the lake and frees a man held by many demons. The man had lived among tombs, and no chain could hold him. The townspeople beg Jesus to leave. Jairus, a synagogue leader, begs him to come to his dying daughter. On the way a woman who has bled for twelve years touches his cloak. She is healed, and Jesus stops to find her. Word comes that the girl has died. Jesus takes her hand, and she gets up.",
-      "limits": "Selected markers separate named settings from remembered places. Exact houses, tombs, unnamed mountains, and travel routes remain unassigned.",
+      "limits": "The points mark places this chapter names, as settings or in speech. The exact houses, roads, and tombs are not known.",
       "sourceIds": [
         "web"
       ]
@@ -1877,9 +4000,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "Selected markers separate named settings from remembered places. Exact houses, tombs, unnamed mountains, and travel routes remain unassigned.",
+      "note": "The points mark places this chapter names, as settings or in speech. The exact houses, roads, and tombs are not known.",
       "narrative": "Jesus teaches in his home town, and the people take offense. He sends the twelve out two by two. Herod has John the Baptist beheaded after a rash promise at a feast. The twelve return, and Jesus takes them aside to rest. A crowd follows, and he feeds five thousand with five loaves and two fish. That night he walks on the sea toward the disciples’ boat. They are terrified, and he gets in with them. People bring the sick wherever he goes.",
-      "limits": "Selected markers separate named settings from remembered places. Exact houses, tombs, unnamed mountains, and travel routes remain unassigned.",
+      "limits": "The points mark places this chapter names, as settings or in speech. The exact houses, roads, and tombs are not known.",
       "sourceIds": [
         "web"
       ]
@@ -1903,9 +4026,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "Selected markers separate named settings from remembered places. Exact houses, tombs, unnamed mountains, and travel routes remain unassigned.",
+      "note": "The points mark places this chapter names, as settings or in speech. The exact houses, roads, and tombs are not known.",
       "narrative": "Pharisees ask why Jesus’s disciples eat with unwashed hands. He says they honor God with their lips and hold to human tradition. The law says to honor father and mother. They let a man declare his goods “Corban,” a gift to God. He then gives his parents nothing. Jesus says evil comes from within, out of the heart. He heals a foreign woman’s daughter. He opens the ears and mouth of a deaf man.",
-      "limits": "Selected markers separate named settings from remembered places. Exact houses, tombs, unnamed mountains, and travel routes remain unassigned.",
+      "limits": "The points mark places this chapter names, as settings or in speech. The exact houses, roads, and tombs are not known.",
       "sourceIds": [
         "web"
       ]
@@ -1929,9 +4052,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "Selected markers separate named settings from remembered places. Exact houses, tombs, unnamed mountains, and travel routes remain unassigned.",
+      "note": "The points mark places this chapter names, as settings or in speech. The exact houses, roads, and tombs are not known.",
       "narrative": "Jesus feeds four thousand people with seven loaves. Pharisees ask for a sign, and he refuses. In the boat the disciples worry that they have one loaf. He asks whether they still do not understand. At Bethsaida he heals a blind man in two stages. He asks who they say he is, and Peter calls him the Christ. Jesus says he must suffer, and Peter rebukes him. Jesus says his followers must take up their cross.",
-      "limits": "Selected markers separate named settings from remembered places. Exact houses, tombs, unnamed mountains, and travel routes remain unassigned.",
+      "limits": "The points mark places this chapter names, as settings or in speech. The exact houses, roads, and tombs are not known.",
       "sourceIds": [
         "web"
       ]
@@ -1951,9 +4074,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "Selected markers separate named settings from remembered places. Exact houses, tombs, unnamed mountains, and travel routes remain unassigned.",
+      "note": "The points mark places this chapter names, as settings or in speech. The exact houses, roads, and tombs are not known.",
       "narrative": "Jesus is changed in appearance on a mountain before three disciples. A voice from the cloud tells them to listen to him. Below, a father has brought a son whom the disciples could not heal. The father asks Jesus to help if he can. Jesus says all things are possible for one who believes. The father cries that he believes and asks help for his unbelief. Jesus heals the boy and again foretells his death. The disciples argue about who is greatest.",
-      "limits": "Selected markers separate named settings from remembered places. Exact houses, tombs, unnamed mountains, and travel routes remain unassigned.",
+      "limits": "The points mark places this chapter names, as settings or in speech. The exact houses, roads, and tombs are not known.",
       "sourceIds": [
         "web"
       ]
@@ -1975,9 +4098,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "Selected markers separate named settings from remembered places. Exact houses, tombs, unnamed mountains, and travel routes remain unassigned.",
+      "note": "The points mark places this chapter names, as settings or in speech. The exact houses, roads, and tombs are not known.",
       "narrative": "Jesus teaches about marriage and blesses the children. A rich man asks how to inherit eternal life and leaves in sorrow. Jesus foretells his death a third time. James and John ask to sit at his right and left in glory. He says whoever would be great must be a servant. At Jericho a blind beggar named Bartimaeus cries out to him. Jesus asks what he wants. He asks to see, receives his sight, and follows Jesus.",
-      "limits": "Selected markers separate named settings from remembered places. Exact houses, tombs, unnamed mountains, and travel routes remain unassigned.",
+      "limits": "The points mark places this chapter names, as settings or in speech. The exact houses, roads, and tombs are not known.",
       "sourceIds": [
         "web"
       ]
@@ -1999,9 +4122,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "Selected markers separate named settings from remembered places. Exact houses, tombs, unnamed mountains, and travel routes remain unassigned.",
+      "note": "The points mark places this chapter names, as settings or in speech. The exact houses, roads, and tombs are not known.",
       "narrative": "Jesus rides into Jerusalem on a colt, and people shout “Hosanna.” The next day he finds a fig tree with leaves and no fruit. He says no one will eat from it again. He drives the buyers and sellers out of the temple. He says God’s house should be a house of prayer for all nations. The following morning the fig tree has withered. He teaches about faith, prayer, and forgiveness. The leaders ask by what authority he does these things.",
-      "limits": "Selected markers separate named settings from remembered places. Exact houses, tombs, unnamed mountains, and travel routes remain unassigned.",
+      "limits": "The points mark places this chapter names, as settings or in speech. The exact houses, roads, and tombs are not known.",
       "sourceIds": [
         "web"
       ]
@@ -2019,9 +4142,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "Selected markers separate named settings from remembered places. Exact houses, tombs, unnamed mountains, and travel routes remain unassigned.",
+      "note": "The points mark places this chapter names, as settings or in speech. The exact houses, roads, and tombs are not known.",
       "narrative": "Jesus tells of tenants who kill a vineyard owner’s son. He is asked about paying taxes to Caesar and about the resurrection. A scribe asks which commandment is first. Jesus names love of God and love of neighbor. He warns about scribes who love honor and devour widows’ houses. He sits and watches people put money in the temple treasury. Rich people give large sums. A poor widow gives two small coins, all she has.",
-      "limits": "Selected markers separate named settings from remembered places. Exact houses, tombs, unnamed mountains, and travel routes remain unassigned.",
+      "limits": "The points mark places this chapter names, as settings or in speech. The exact houses, roads, and tombs are not known.",
       "sourceIds": [
         "web"
       ]
@@ -2041,9 +4164,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "Selected markers separate named settings from remembered places. Exact houses, tombs, unnamed mountains, and travel routes remain unassigned.",
+      "note": "The points mark places this chapter names, as settings or in speech. The exact houses, roads, and tombs are not known.",
       "narrative": "A disciple admires the temple’s great stones. Jesus says not one will be left on another. Four disciples ask when this will happen. He warns of deceivers, wars, earthquakes, and trials before councils. They must flee when they see the desolating sacrilege. The Son of Man will come in the clouds. No one knows the day or the hour. They must stay awake, like servants whose master is away.",
-      "limits": "Selected markers separate named settings from remembered places. Exact houses, tombs, unnamed mountains, and travel routes remain unassigned.",
+      "limits": "The points mark places this chapter names, as settings or in speech. The exact houses, roads, and tombs are not known.",
       "sourceIds": [
         "web"
       ]
@@ -2067,9 +4190,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "Selected markers separate named settings from remembered places. Exact houses, tombs, unnamed mountains, and travel routes remain unassigned.",
+      "note": "The points mark places this chapter names, as settings or in speech. The exact houses, roads, and tombs are not known.",
       "narrative": "The leaders look for a way to arrest Jesus. At Bethany a woman pours costly perfume on his head. Some scold her, and Jesus defends her. Judas agrees to betray him. Jesus eats the Passover and gives the bread and the cup. In Gethsemane he prays in anguish while his friends sleep. He is arrested, and all the disciples run. The council condemns him, and Peter denies him three times.",
-      "limits": "Selected markers separate named settings from remembered places. Exact houses, tombs, unnamed mountains, and travel routes remain unassigned.",
+      "limits": "The points mark places this chapter names, as settings or in speech. The exact houses, roads, and tombs are not known.",
       "sourceIds": [
         "web"
       ]
@@ -2089,9 +4212,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "Selected markers separate named settings from remembered places. Exact houses, tombs, unnamed mountains, and travel routes remain unassigned.",
+      "note": "The points mark places this chapter names, as settings or in speech. The exact houses, roads, and tombs are not known.",
       "narrative": "The council hands Jesus to Pilate. Pilate offers to release him, and the crowd chooses Barabbas. Soldiers dress Jesus in purple and mock him as king. Simon of Cyrene is made to carry his cross. He is crucified with two robbers, and passersby mock him. Darkness covers the land, and he cries out and dies. The temple curtain tears in two. A Roman officer says this man was the Son of God.",
-      "limits": "Selected markers separate named settings from remembered places. Exact houses, tombs, unnamed mountains, and travel routes remain unassigned.",
+      "limits": "The points mark places this chapter names, as settings or in speech. The exact houses, roads, and tombs are not known.",
       "sourceIds": [
         "web"
       ]
@@ -2111,9 +4234,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "Selected markers separate named settings from remembered places. Exact houses, tombs, unnamed mountains, and travel routes remain unassigned.",
+      "note": "The points mark places this chapter names, as settings or in speech. The exact houses, roads, and tombs are not known.",
       "narrative": "After the Sabbath three women bring spices to the tomb. They wonder who will roll away the stone. They find it moved and a young man in white inside. He says Jesus has risen and is not there. They must tell his disciples and Peter that he goes ahead to Galilee. The women flee, trembling and afraid. The longer ending tells of Jesus appearing to Mary Magdalene and others. He sends the eleven into all the world.",
-      "limits": "Selected markers separate named settings from remembered places. Exact houses, tombs, unnamed mountains, and travel routes remain unassigned.",
+      "limits": "The points mark places this chapter names, as settings or in speech. The exact houses, roads, and tombs are not known.",
       "sourceIds": [
         "web",
         "black-mark"

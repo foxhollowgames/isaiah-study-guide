@@ -76,6 +76,34 @@
       "type": "LDS Come, Follow Me",
       "limitations": "Notes cover Amos 3–5 and 7–8. The later Apostasy and Restoration application remains Church teaching.",
       "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "strong",
+      "title": "A Concise Dictionary of the Words in the Hebrew Bible",
+      "author": "James Strong · Open Scriptures XML edition",
+      "year": "1894 / digital edition",
+      "perspective": "historical",
+      "category": "Historical lexicon",
+      "url": "https://github.com/openscriptures/strongs",
+      "summary": "Lists Hebrew dictionary forms and their possible meanings. Use it with the passage to study a word.",
+      "limits": "This is an older dictionary. Compare its meanings with the passage. A list of meanings alone cannot show which one applies.",
+      "license": "Source XML declares Public Domain. Only selected headwords are used.",
+      "type": "Historical lexicon",
+      "limitations": "This is an older dictionary. Compare its meanings with the passage. A list of meanings alone cannot show which one applies."
+    },
+    {
+      "id": "oshb",
+      "title": "Open Scriptures Hebrew Bible",
+      "author": "Open Scriptures contributors / Westminster Leningrad Codex",
+      "year": "Digital edition",
+      "perspective": "historical",
+      "category": "Hebrew text",
+      "url": "https://hb.openscriptures.org/",
+      "summary": "Provides the Hebrew text and word identifiers. This study guide uses these to check selected words against their verses.",
+      "limits": "The app checks selected words, not every English–Hebrew match. It shows Hebrew dictionary forms. The forms in the verses can differ.",
+      "license": "Hebrew text public domain; lemma/morphology data CC BY 4.0. Original work of the Open Scriptures Hebrew Bible, https://hb.openscriptures.org/.",
+      "type": "Hebrew text",
+      "limitations": "The app checks selected words, not every English–Hebrew match. It shows Hebrew dictionary forms. The forms in the verses can differ."
     }
   ],
   "passages": [
@@ -583,7 +611,25 @@
       ],
       "detail": "Jerusalem is named in warnings directed toward Judah and the opening divine roar.",
       "uncertainty": "Approximate geographic reference. Prophetic warnings do not establish a traveled route or an exact battlefield.",
-      "chapterLocation": true
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H3389",
+        "key": "Jerusalem",
+        "checkedVerses": 2,
+        "example": [
+          1,
+          2
+        ],
+        "hebrew": "יְרוּשָׁלַ͏ִם",
+        "transliteration": "Yᵉrûwshâlaim",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "damascus",
@@ -597,7 +643,25 @@
       ],
       "detail": "Damascus receives a charge about violence and later marks a warning of distant captivity.",
       "uncertainty": "Approximate geographic reference. Prophetic warnings do not establish a traveled route or an exact battlefield.",
-      "chapterLocation": true
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H1834",
+        "key": "Damascus",
+        "checkedVerses": 3,
+        "example": [
+          1,
+          3
+        ],
+        "hebrew": "דַּמֶּשֶׂק",
+        "transliteration": "Dammeseq",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "tyre",
@@ -611,7 +675,25 @@
       ],
       "detail": "Tyre faces a charge about handing over whole captive communities.",
       "uncertainty": "Approximate geographic reference. Prophetic warnings do not establish a traveled route or an exact battlefield.",
-      "chapterLocation": true
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H6865",
+        "key": "Tyre",
+        "checkedVerses": 2,
+        "example": [
+          1,
+          9
+        ],
+        "hebrew": "צֹר",
+        "transliteration": "Tsôr",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "edom",
@@ -625,7 +707,25 @@
       ],
       "detail": "Edom faces charges about continuing violence against a brother people.",
       "uncertainty": "Approximate geographic reference. Prophetic warnings do not establish a traveled route or an exact battlefield.",
-      "chapterLocation": true
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H123",
+        "key": "Edom",
+        "checkedVerses": 5,
+        "example": [
+          1,
+          6
+        ],
+        "hebrew": "אֱדֹם",
+        "transliteration": "ʼĔdôm",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "rabbah",
@@ -639,7 +739,25 @@
       ],
       "detail": "Rabbah receives a warning within the speech against Ammon.",
       "uncertainty": "Approximate geographic reference. Prophetic warnings do not establish a traveled route or an exact battlefield.",
-      "chapterLocation": true
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H7237",
+        "key": "Rabbah",
+        "checkedVerses": 1,
+        "example": [
+          1,
+          14
+        ],
+        "hebrew": "רַבָּה",
+        "transliteration": "Rabbâh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "samaria",
@@ -653,7 +771,25 @@
       ],
       "detail": "Samaria is the city where wealth, oppression, and false security receive public scrutiny.",
       "uncertainty": "Approximate geographic reference. Prophetic warnings do not establish a traveled route or an exact battlefield.",
-      "chapterLocation": true
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H8111",
+        "key": "Samaria",
+        "checkedVerses": 5,
+        "example": [
+          3,
+          9
+        ],
+        "hebrew": "שֹׁמְרוֹן",
+        "transliteration": "Shômᵉrôwn",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "egypt",
@@ -667,13 +803,59 @@
       ],
       "detail": "Egypt appears among the remembered places of rescue and the witnesses to Samaria’s wrongdoing.",
       "uncertainty": "Approximate geographic reference. Prophetic warnings do not establish a traveled route or an exact battlefield.",
-      "chapterLocation": true
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H4714",
+        "key": "Egypt",
+        "checkedVerses": 7,
+        "example": [
+          2,
+          10
+        ],
+        "hebrew": "מִצְרַיִם",
+        "transliteration": "Mitsrayim",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     }
   ],
   "campaigns": [],
   "ancientRoads": [],
   "regions": [],
   "words": [
+    {
+      "id": "glossary-covenant-1-H1285-covenant",
+      "label": "Covenant",
+      "matches": [
+        "covenant"
+      ],
+      "chapter": 1,
+      "verses": [
+        9
+      ],
+      "hebrew": "בְּרִית",
+      "transliteration": "bᵉrîyth",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A binding agreement with promises and duties. In the Bible, God makes covenants with people.",
+      "grammar": "This is the dictionary form of Hebrew word H1285. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H1285",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
     {
       "id": "glossary-covenant",
       "label": "Covenant",
@@ -694,7 +876,36 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-sabbath-8-H7676-sabbath",
+      "label": "Sabbath",
+      "matches": [
+        "Sabbath"
+      ],
+      "chapter": 8,
+      "verses": [
+        5
+      ],
+      "hebrew": "שַׁבָּת",
+      "transliteration": "shabbâth",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "The seventh day of the week, kept as a day of rest.",
+      "grammar": "This is the dictionary form of Hebrew word H7676. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H7676",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-sabbath",
@@ -716,7 +927,36 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-assembly-5-H6116-assemblies",
+      "label": "Assembly",
+      "matches": [
+        "assemblies"
+      ],
+      "chapter": 5,
+      "verses": [
+        21
+      ],
+      "hebrew": "עֲצָרָה",
+      "transliteration": "ʻătsârâh",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A gathering of people. In the New Testament letters it means a group of believers. Many translations say “church.”",
+      "grammar": "This is the dictionary form of Hebrew word H6116. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H6116",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-assembly",
@@ -738,7 +978,36 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-tithe-4-H4643-tithes",
+      "label": "Tithe",
+      "matches": [
+        "tithes"
+      ],
+      "chapter": 4,
+      "verses": [
+        4
+      ],
+      "hebrew": "מַעֲשֵׂר",
+      "transliteration": "maʻăsêr",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A tenth of produce or income given to God.",
+      "grammar": "This is the dictionary form of Hebrew word H4643. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H4643",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-tithe",
@@ -760,7 +1029,36 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-sheol-9-H7585-sheol",
+      "label": "Sheol",
+      "matches": [
+        "Sheol"
+      ],
+      "chapter": 9,
+      "verses": [
+        2
+      ],
+      "hebrew": "שְׁאוֹל",
+      "transliteration": "shᵉʼôwl",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "The Hebrew name for the place of the dead.",
+      "grammar": "This is the dictionary form of Hebrew word H7585. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H7585",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-sheol",
@@ -781,7 +1079,36 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-sackcloth-8-H8242-sackcloth",
+      "label": "Sackcloth",
+      "matches": [
+        "sackcloth"
+      ],
+      "chapter": 8,
+      "verses": [
+        10
+      ],
+      "hebrew": "שַׂק",
+      "transliteration": "saq",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "Rough cloth worn to show grief or repentance.",
+      "grammar": "This is the dictionary form of Hebrew word H8242. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H8242",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-sackcloth",
@@ -802,7 +1129,37 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-nazirite-2-H5139-nazirites",
+      "label": "Nazirite",
+      "matches": [
+        "Nazirites"
+      ],
+      "chapter": 2,
+      "verses": [
+        11,
+        12
+      ],
+      "hebrew": "נָזִיר",
+      "transliteration": "nâzîyr",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A person under a special vow. Numbers 6 forbids wine, haircuts, and contact with the dead.",
+      "grammar": "This is the dictionary form of Hebrew word H5139. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H5139",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-nazirite",
@@ -824,7 +1181,36 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-unclean-7-H2931-unclean",
+      "label": "Unclean",
+      "matches": [
+        "unclean"
+      ],
+      "chapter": 7,
+      "verses": [
+        17
+      ],
+      "hebrew": "טָמֵא",
+      "transliteration": "ṭâmêʼ",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "Unfit to take part in worship until a set cleansing is done. Leviticus 11–15 gives the rules.",
+      "grammar": "This is the dictionary form of Hebrew word H2931. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H2931",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-unclean",
@@ -846,7 +1232,36 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-anoint-6-H4886-anoint",
+      "label": "Anoint",
+      "matches": [
+        "anoint"
+      ],
+      "chapter": 6,
+      "verses": [
+        6
+      ],
+      "hebrew": "מָשַׁח",
+      "transliteration": "mâshach",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "To pour oil on a person or thing to set it apart. Kings and priests were anointed.",
+      "grammar": "This is the dictionary form of Hebrew word H4886. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H4886",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-anoint",
@@ -870,7 +1285,92 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-remnant-1-H7611-remnant",
+      "label": "Remnant",
+      "matches": [
+        "remnant"
+      ],
+      "chapter": 1,
+      "verses": [
+        8
+      ],
+      "hebrew": "שְׁאֵרִית",
+      "transliteration": "shᵉʼêrîyth",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "The part of a people that survives a disaster.",
+      "grammar": "This is the dictionary form of Hebrew word H7611. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H7611",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-remnant-5-H7611-remnant",
+      "label": "Remnant",
+      "matches": [
+        "remnant"
+      ],
+      "chapter": 5,
+      "verses": [
+        15
+      ],
+      "hebrew": "שְׁאֵרִית",
+      "transliteration": "shᵉʼêrîyth",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "The part of a people that survives a disaster.",
+      "grammar": "This is the dictionary form of Hebrew word H7611. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H7611",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-remnant-9-H7611-remnant",
+      "label": "Remnant",
+      "matches": [
+        "remnant"
+      ],
+      "chapter": 9,
+      "verses": [
+        12
+      ],
+      "hebrew": "שְׁאֵרִית",
+      "transliteration": "shᵉʼêrîyth",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "The part of a people that survives a disaster.",
+      "grammar": "This is the dictionary form of Hebrew word H7611. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H7611",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-remnant",
@@ -891,7 +1391,64 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-zion-1-H6726-zion",
+      "label": "Zion",
+      "matches": [
+        "Zion"
+      ],
+      "chapter": 1,
+      "verses": [
+        2
+      ],
+      "hebrew": "צִיּוֹן",
+      "transliteration": "Tsîyôwn",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A hill in Jerusalem. The name is also used for the city and its people.",
+      "grammar": "This is the dictionary form of Hebrew word H6726. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H6726",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-zion-6-H6726-zion",
+      "label": "Zion",
+      "matches": [
+        "Zion"
+      ],
+      "chapter": 6,
+      "verses": [
+        1
+      ],
+      "hebrew": "צִיּוֹן",
+      "transliteration": "Tsîyôwn",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A hill in Jerusalem. The name is also used for the city and its people.",
+      "grammar": "This is the dictionary form of Hebrew word H6726. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H6726",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-zion",
@@ -912,7 +1469,36 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-shekel-8-H8255-shekel",
+      "label": "Shekel",
+      "matches": [
+        "shekel"
+      ],
+      "chapter": 8,
+      "verses": [
+        5
+      ],
+      "hebrew": "שֶׁקֶל",
+      "transliteration": "sheqel",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A unit of weight, about 10 grams. Silver was weighed in shekels as money.",
+      "grammar": "This is the dictionary form of Hebrew word H8255. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H8255",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-shekel",
@@ -934,7 +1520,36 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-ephah-8-H374-ephah",
+      "label": "Ephah",
+      "matches": [
+        "ephah"
+      ],
+      "chapter": 8,
+      "verses": [
+        5
+      ],
+      "hebrew": "אֵיפָה",
+      "transliteration": "ʼêyphâh",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A dry measure of about 22 liters.",
+      "grammar": "This is the dictionary form of Hebrew word H374. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H374",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-ephah",
@@ -956,7 +1571,36 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-yeast-4-H2557-leavened",
+      "label": "Yeast",
+      "matches": [
+        "leavened"
+      ],
+      "chapter": 4,
+      "verses": [
+        5
+      ],
+      "hebrew": "חָמֵץ",
+      "transliteration": "châmêts",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "Yeast, or leaven, makes dough rise. Bread made without it is called unleavened.",
+      "grammar": "This is the dictionary form of Hebrew word H2557. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H2557",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-yeast",
@@ -980,7 +1624,8 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
     }
   ],
   "guides": [

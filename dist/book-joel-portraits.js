@@ -43,7 +43,7 @@ document.addEventListener('error', event => {
     art.querySelector('.portrait-initial').removeAttribute('aria-hidden');
   }
 }, true);
-export const people = {"joel": {"name": "Joel", "role": "Prophet who calls the people to gather during a crop disaster", "life": "Birth and death years are not securely known.", "dateNote": "Historical life dates remain uncertain.", "locations": ["Jerusalem"], "passages": ["Joel 1–3"], "importance": "His speeches connect shared grief with return, restoration, and judgment against those who trade people.", "connections": "The opening identifies him as Pethuel’s son.", "verseScope": {}, "linkNames": [], "chapterIds": [1, 2, 3]}};
+export const people = {"joel": {"name": "Joel", "role": "Prophet who calls the people to gather in a crop disaster", "life": "Birth and death years are not securely known.", "dateNote": "Historical life dates remain uncertain.", "locations": ["Jerusalem"], "passages": ["Joel 1–3"], "importance": "Joel speaks to the elders and all who live in the land. He tells them to mourn the lost crops. He tells the priests to fast and to gather the people at the LORD’s house. He speaks the LORD’s promise of grain, new wine, and oil. He also speaks the charges against Tyre, Sidon, Egypt, and Edom.", "connections": "The opening identifies him as Pethuel’s son.", "verseScope": {}, "linkNames": [], "chapterIds": [1, 2, 3], "word": {"language": "hebrew", "strongId": "H3100", "key": "Joel", "checkedVerses": 1, "example": [1, 1], "hebrew": "יוֹאֵל", "transliteration": "Yôwʼêl", "greek": "", "greekNote": "", "sourceIds": ["strong", "oshb"]}}};
 
 function linkedPeopleHtml(text, currentId) {
   const terms = [];
@@ -93,7 +93,7 @@ export function personProfileHtml(id, options = {}) {
   const person = people[id];
   if (!person) return '';
   const linkHtml = options.linkHtml || (text => linkedPeopleHtml(text, id));
-  const back = options.backLabel ? `<button class="back-button person-profile-back" data-action="person-profile-back">← ${escapeHtml(options.backLabel)}</button>` : '';
+  const back = options.backLabel ? `<button class="back-button person-profile-back" data-action="person-profile-back" aria-label="${escapeHtml(options.backLabel)}">Back</button>` : '';
   return `<section class="person-profile" data-person-profile="${id}">${back}<h2>${escapeHtml(person.name)}</h2>${portraitsHtml([id], {interactive:false})}<dl class="person-facts">${person.locations.length ? `<div><dt>Key locations</dt><dd>${person.locations.map(linkHtml).join(' · ')}</dd></div>` : ""}</dl><div class="word-section"><h3>Why this person matters</h3><p>${linkHtml(person.importance)}</p></div><div class="word-section"><h3>Story connections</h3><p>${linkHtml(person.connections)}</p></div><div class="word-section"><h3>Relevant passages</h3><ul class="profile-passages">${person.passages.map(passage => `<li>${escapeHtml(passage)}</li>`).join('')}</ul></div></section>`;
 }
 

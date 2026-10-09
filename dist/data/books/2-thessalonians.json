@@ -225,9 +225,9 @@
       "eventOrder": 1,
       "dateLabel": "Book order",
       "historicalNote": "The shared greeting leads into thanks for growing faith and love amid continued suffering. The teachers treat endurance as reason for praise rather than proof that God abandoned them. Relief and repayment belong to the Lord's future judgment instead of the hearers' immediate control. The severe image of fire places that reversal beyond the present advantage of their persecutors. The prayer returns attention to good desires and work that God can bring to completion. Future judgment therefore supports continued faithful conduct rather than supplying a private task of revenge.",
-      "mapNote": "The marker identifies the addressed city. No exact temple or heavenly location is assigned.",
+      "mapNote": "The map marks Thessalonica as one city point. The map has no point for the temple of God.",
       "route": [],
-      "routeEvidence": "The letter supplies no exact delivery route.",
+      "routeEvidence": "The letter gives no delivery route.",
       "contextNote": {
         "title": "Growing faith amid suffering leads into hope for relief and prayer for good work",
         "text": "Verses 6–10 promise relief at the Lord’s revealing, which is still future. Verse 11 says what the writers ask for the time between. “To this end” ties the prayer to that day. They ask God to count the readers worthy of their calling. They ask him to complete every good desire and work of faith with power. The work is the readers’, and the power is God’s. Verse 12 gives the aim: the name of Jesus glorified in them.",
@@ -259,9 +259,9 @@
       "eventOrder": 2,
       "dateLabel": "Book order",
       "historicalNote": "The opening addresses alarm caused by a message claimed to come from the teachers. The hearers must not accept that claim simply because it invokes a spirit or letter. Rebellion and the self-exalting figure belong to the sequence offered against that alarming message. The restraining force remains unnamed because the speaker assumes knowledge not fully explained here. Signs and wonders cannot secure trust when they serve deception rather than love of truth. The ending directs the hearers toward received teaching, comfort, and good work instead of alarm.",
-      "mapNote": "The marker identifies the addressed city. No exact temple or heavenly location is assigned.",
+      "mapNote": "The map marks Thessalonica as one city point. The map has no point for the temple of God.",
       "route": [],
-      "routeEvidence": "The letter supplies no exact delivery route.",
+      "routeEvidence": "The letter gives no delivery route.",
       "contextNote": {
         "title": "Claims that the day has arrived must answer the instruction already received",
         "text": "Verse 2 names three ways a false report could come: spirit, word, or letter. Any of them might claim the writers’ authority. Verse 5 reminds them that Paul told them these things in person. Verse 15 gives the test that follows. They are to hold what the writers taught, by word or by letter. A new claim is measured against that teaching. Verse 3:17 adds a safeguard: Paul’s own handwriting marks every letter.",
@@ -294,9 +294,9 @@
       "eventOrder": 3,
       "dateLabel": "Book order",
       "historicalNote": "The request for prayer makes the teachers' work depend on support from the hearers. Their remembered labor then supplies an example for the present problem of refusal and interference. The food command addresses unwillingness to work rather than every condition that prevents work. Jennifer Wyant reads the passage within the group's problem of irresponsible work and meddling. Separation aims at correction, yet the ending still forbids treating the person as an enemy. The handwritten greeting answers the earlier concern about messages falsely claiming the teachers' authority.",
-      "mapNote": "The marker identifies the addressed city. No exact temple or heavenly location is assigned.",
+      "mapNote": "The map marks Thessalonica as one city point. The map has no point for the temple of God.",
       "route": [],
-      "routeEvidence": "The letter supplies no exact delivery route.",
+      "routeEvidence": "The letter gives no delivery route.",
       "contextNote": {
         "title": "Refusal of work calls for correction that still recognizes a brother",
         "text": "Verse 14 tells them to note a disobedient person and keep away. The stated aim is that he be ashamed. Verse 15 limits how far that goes. He is not to be counted an enemy. He is to be admonished, and the word used for him is still “brother.” Verse 6 used the same word at the start of the instruction. The distance is meant to correct him, not to disown him.",
@@ -311,10 +311,10 @@
     {
       "id": "paul",
       "name": "Paul",
-      "role": "Named letter speaker who asks for prayer and recalls the teachers' example",
-      "relations": "Silvanus and Timothy share the opening greeting.",
+      "role": "Writer who corrects the Thessalonians and asks for prayer",
+      "relations": "He writes with Silvanus and Timothy. He calls the readers brothers.",
       "passages": "Second Thessalonians 1:1; 2:5; 3:1–18",
-      "meaning": "His handwritten greeting answers concern about messages falsely claiming the teachers' authority.",
+      "meaning": "Paul thanks the Thessalonians for growing faith in suffering. He asks them not to be shaken by a letter said to come from him. He tells them to withdraw from brothers who will not work. He signs the greeting with his own hand as the sign in every letter.",
       "life": "Birth and death years are not securely known.",
       "sourceIds": [
         "web"
@@ -328,10 +328,10 @@
     {
       "id": "silas",
       "name": "Silvanus",
-      "role": "Worker named beside Paul and Timothy in the shared greeting",
-      "relations": "The greeting introduces a repeated appeal from the teachers to the hearers.",
+      "role": "Co-sender named with Paul and Timothy",
+      "relations": "The letter names him first after Paul. Timothy follows him.",
       "passages": "Second Thessalonians 1:1",
-      "meaning": "His named presence keeps the message connected with shared work.",
+      "meaning": "The letter names Silvanus in the opening line with Paul and Timothy. The letter says “we” after that. It says nothing else about him by name.",
       "life": "Birth and death years are not securely known.",
       "sourceIds": [
         "web"
@@ -345,10 +345,10 @@
     {
       "id": "timothy",
       "name": "Timothy",
-      "role": "Worker named beside Paul and Silvanus in the shared greeting",
-      "relations": "The greeting introduces the teachers' praise, instruction, and requests for prayer.",
+      "role": "Co-sender named with Paul and Silvanus",
+      "relations": "The letter names him last, after Paul and Silvanus.",
       "passages": "Second Thessalonians 1:1",
-      "meaning": "His named presence keeps the message connected with shared work.",
+      "meaning": "The letter names Timothy in the opening line with Paul and Silvanus. The letter says “we” after that. It says nothing else about him by name.",
       "life": "Birth and death years are not securely known.",
       "sourceIds": [
         "web"
@@ -362,10 +362,10 @@
     {
       "id": "jesus",
       "name": "Jesus Christ",
-      "role": "Lord whose coming brings judgment, relief, and the defeat of deception",
-      "relations": "The teachers connect patient work and received comfort with him.",
+      "role": "Lord who will come, bring relief, and judge",
+      "relations": "Paul calls him the Lord Jesus Christ. Paul links the readers’ calling and comfort with him.",
       "passages": "Second Thessalonians 1–3",
-      "meaning": "His promised coming answers alarm without supplying a calculated date.",
+      "meaning": "Paul says the Lord Jesus will be revealed from heaven. He will give relief to the afflicted and punish those who do not obey. Some claim the day of Christ has already come. Paul answers that it has not, and he gives no date.",
       "life": "Birth and death years are not securely known.",
       "sourceIds": [
         "web"
@@ -384,8 +384,8 @@
       "name": "Thessalonica",
       "lat": 40.61666666666667,
       "lng": 22.916666666666668,
-      "summary": "Thessalonica identifies the assembly addressed in the opening greeting.",
-      "limits": "City reference rather than an exact meeting house.",
+      "summary": "The letter is addressed to the assembly of the Thessalonians in chapter 1. Paul, Silvanus, and Timothy greet them.",
+      "limits": "The marker shows the city’s general location.",
       "sourceIds": [
         "web",
         "net-thessalonica"
@@ -401,10 +401,10 @@
       "id": "web",
       "title": "Second Thessalonians · World English Bible",
       "url": "https://ebible.org/engwebp/2TH01.htm",
-      "summary": "All three chapters supply the primary text for original close readings.",
+      "summary": "All three chapters are the main text for original close readings.",
       "category": "Scripture",
       "perspective": "historical",
-      "limits": "The letter names Paul as its speaker. Authorship, dates, original manuscripts, Greek forms, the lawless figure's identity, the restraining force, and the cause of refused work were not independently verified. No present person or event is assigned to the predicted sequence.",
+      "limits": "The letter names Paul as its writer. The guide did not check authorship, dates, manuscripts, or Greek forms. It did not check who the lawless one is or what restrains him. It did not check why some refused work. The guide names no present person or event as part of the predicted sequence.",
       "author": "World English Bible translators",
       "publisher": "eBible.org",
       "chapterCoverage": [
@@ -421,10 +421,10 @@
       "id": "wyant-thessalonians",
       "title": "Commentary on 2 Thessalonians 3:6-13",
       "url": "https://www.workingpreacher.org/commentaries/revised-common-lectionary/ordinary-33-3/commentary-on-2-thessalonians-36-13-5",
-      "summary": "Wyant reads the work commands within the group's problem of irresponsible conduct.",
+      "summary": "Wyant reads the work commands as an answer to irresponsible conduct in the group.",
       "category": "Scholarly study",
       "perspective": "historical",
-      "limits": "This is Wyant's interpretation. Her proposed identities of the busybodies remain alternatives. Greek analysis, ancient military usage, the Didache, and the linked news report were not independently reviewed.",
+      "limits": "This is Wyant’s own reading. Her ideas about who the busybodies were are only options. The guide did not check her Greek analysis, military usage, or the Didache. It did not check the linked news report.",
       "author": "Jennifer S. Wyant",
       "publisher": "Luther Seminary",
       "year": 2022,
@@ -440,10 +440,10 @@
       "id": "cfm-nt-2023-43",
       "title": "October 16–22 · First and Second Thessalonians",
       "url": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-sunday-school-new-testament-2023/43?lang=eng",
-      "summary": "The lesson studies work and a falling away before Christ's return.",
+      "summary": "The lesson studies work and a falling away before Christ’s return.",
       "category": "LDS Come, Follow Me",
       "perspective": "lds",
-      "limits": "Second Thessalonians coverage follows actual discussion of chapters two and three. Its application to the Great Apostasy remains Church teaching rather than independent historical evidence. Linked Restoration passages were not independently reviewed.",
+      "limits": "Second Thessalonians coverage follows what the lesson discusses in chapters two and three. Its link to the Great Apostasy is Church teaching. It is not independent historical evidence. The guide did not check the linked Restoration passages.",
       "author": "The Church of Jesus Christ of Latter-day Saints",
       "publisher": "The Church of Jesus Christ of Latter-day Saints",
       "year": 2023,
@@ -460,10 +460,10 @@
       "id": "net-thessalonica",
       "title": "NET Bible · Thessalonica",
       "url": "https://classic.net.bible.org/dictionary.php?word=Thessalonica",
-      "summary": "The dictionary identifies the city on the Thermaic Gulf and supplies coordinates.",
+      "summary": "The dictionary places the city on the Thermaic Gulf and gives coordinates.",
       "category": "Reference work",
       "perspective": "historical",
-      "limits": "Only the opening locality description and coordinate line support the marker. Old population figures, wider historical claims, inscriptions, exact buildings, and routes were not independently verified.",
+      "limits": "Only the opening place description and the coordinates support the marker. The guide did not check old population figures, wider history, inscriptions, buildings, or routes.",
       "author": "NET Bible reference editors",
       "publisher": "Bible.org",
       "reviewed": {

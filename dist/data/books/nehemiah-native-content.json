@@ -4,12 +4,12 @@
       "id": "web",
       "title": "Nehemiah · World English Bible",
       "url": "https://ebible.org/engwebp/NEH01.htm",
-      "summary": "Complete public-domain reading text for thirteen chapters.",
+      "summary": "A complete public-domain reading text for all thirteen chapters.",
       "category": "Scripture",
       "perspective": "historical",
-      "limits": "The text presents the account and its speakers’ claims. It does not independently verify every event.",
+      "limits": "The text gives the account and what its speakers say. It does not prove each event.",
       "type": "Scripture",
-      "limitations": "The text presents the account and its speakers’ claims. It does not independently verify every event.",
+      "limitations": "The text gives the account and what its speakers say. It does not prove each event.",
       "license": "Public domain"
     },
     {
@@ -19,9 +19,9 @@
       "category": "Geography",
       "url": "https://www.churchofjesuschrist.org/study/scriptures/bible-maps/map-9?lang=eng",
       "summary": "This Church-published atlas locates the wider setting and marks some disputed places.",
-      "limits": "Use the geographic labels as context. The linked atlas also includes LDS commentary.",
+      "limits": "Use the place labels as background. The linked atlas also includes LDS commentary.",
       "type": "Geography",
-      "limitations": "Use the geographic labels as context. The linked atlas also includes LDS commentary.",
+      "limitations": "Use the place labels as background. The linked atlas also includes LDS commentary.",
       "license": "Linked source. Original guide summaries."
     },
     {
@@ -31,8 +31,8 @@
       "category": "Geography",
       "url": "https://www.churchofjesuschrist.org/study/scriptures/bible-maps/map-10?lang=eng",
       "summary": "This Church-published atlas identifies towns and regions in Canaan.",
-      "limits": "Coordinates are display estimates. A town marker does not verify each Genesis event.",
-      "limitations": "Coordinates are display estimates. A town marker does not verify each Genesis event.",
+      "limits": "The map points are estimates. A town marker does not prove that an event happened there.",
+      "limitations": "The map points are estimates. A town marker does not prove that an event happened there.",
       "type": "Geography",
       "license": "Linked source. Original guide summaries."
     },
@@ -43,19 +43,19 @@
       "category": "Geography",
       "url": "https://registry.opendata.aws/terrain-tiles/",
       "summary": "Cached terrain shows modern elevation. Natural Earth supplies the land and water outlines.",
-      "limits": "Modern terrain is a geographic aid. It does not reconstruct ancient shorelines or settlements.",
+      "limits": "Modern terrain helps show the land. It does not show ancient shorelines or settlements.",
       "type": "Geography",
-      "limitations": "Modern terrain is a geographic aid. It does not reconstruct ancient shorelines or settlements.",
+      "limitations": "Modern terrain helps show the land. It does not show ancient shorelines or settlements.",
       "license": "Linked source. Original guide summaries."
     },
     {
       "id": "luther-nehemiah",
       "title": "Summary of Nehemiah · Luther Seminary",
       "url": "https://enterthebible.org/courses/nehemiah/lessons/summary-of-nehemiah/",
-      "summary": "The overview connects the walls, public law reading, settlement, and later changes.",
+      "summary": "The overview connects the walls, the public law reading, the settling of Jerusalem, and later changes.",
       "category": "Scholarly study",
       "perspective": "historical",
-      "limits": "A scholarly teaching overview. Precise editing dates and authorship remain uncertain.",
+      "limits": "A scholarly teaching overview. The exact editing dates and the author remain uncertain.",
       "author": "Mark Throntveit · revised Jione Havea",
       "year": 2023,
       "chapterCoverage": [
@@ -75,17 +75,17 @@
       ],
       "reviewed": "2026-10-05: Complete main summary and introductory sections reviewed.",
       "type": "Scholarly study",
-      "limitations": "A scholarly teaching overview. Precise editing dates and authorship remain uncertain.",
+      "limitations": "A scholarly teaching overview. The exact editing dates and the author remain uncertain.",
       "license": "Linked source. Original guide summaries."
     },
     {
       "id": "luther-nehemiah-background",
       "title": "Background of Nehemiah · Luther Seminary",
       "url": "https://enterthebible.org/courses/nehemiah/lessons/background-of-nehemiah/",
-      "summary": "The discussion studies how returning families understand their losses and shared past.",
+      "summary": "The discussion studies how the returning families understand their losses and their shared past.",
       "category": "Scholarly study",
       "perspective": "historical",
-      "limits": "A named reading of community identity. Its historical outline does not verify every scene.",
+      "limits": "A named reading of community identity. Its outline of the history does not prove every scene.",
       "author": "Mark Throntveit · revised Jione Havea",
       "year": 2023,
       "chapterCoverage": [
@@ -96,17 +96,17 @@
       ],
       "reviewed": "2026-10-05: Complete main Background section reviewed.",
       "type": "Scholarly study",
-      "limitations": "A named reading of community identity. Its historical outline does not verify every scene.",
+      "limitations": "A named reading of community identity. Its outline of the history does not prove every scene.",
       "license": "Linked source. Original guide summaries."
     },
     {
       "id": "havea-nehemiah",
       "title": "Bible in the World: Nehemiah · Luther Seminary",
       "url": "https://enterthebible.org/courses/nehemiah/lessons/bible-in-the-world-nehemiah/",
-      "summary": "Havea emphasizes the workers’ choices and questions the harsh rules about foreign wives.",
+      "summary": "Havea stresses the workers’ choices. He questions the harsh rules about foreign wives.",
       "category": "Scholarly study",
       "perspective": "historical",
-      "limits": "A scholarly interpretation and modern comparison. It does not recover the wives’ individual beliefs.",
+      "limits": "This is a scholar’s reading with a modern comparison. It does not recover what each wife believed.",
       "author": "Jione Havea",
       "year": "Date not displayed",
       "chapterCoverage": [
@@ -116,17 +116,17 @@
       ],
       "reviewed": "2026-10-05: Complete main sections reviewed.",
       "type": "Scholarly study",
-      "limitations": "A scholarly interpretation and modern comparison. It does not recover the wives’ individual beliefs.",
+      "limitations": "This is a scholar’s reading with a modern comparison. It does not recover what each wife believed.",
       "license": "Linked source. Original guide summaries."
     },
     {
       "id": "mcclellan-nehemiah",
       "title": "Ezra–Nehemiah and foreign marriages · McClellan interview",
       "url": "https://www.relationscapes.org/p/mcclellan-transcript/",
-      "summary": "McClellan interprets the foreign-marriage policy as protecting a post-exilic community boundary.",
+      "summary": "McClellan reads the foreign-marriage rule as guarding a community line after the exile.",
       "category": "McClellan commentary",
       "perspective": "historical",
-      "limits": "The timestamp locates the section, not the exact utterance. This interpretation does not prove the wives’ beliefs or supply Church teaching.",
+      "limits": "The timestamp finds the section, not the exact words. This reading does not prove the wives’ beliefs. It is not Church teaching.",
       "author": "Dan McClellan · interview with Blair Hodges",
       "year": "Publisher transcript; date not displayed",
       "chapterCoverage": [
@@ -135,33 +135,33 @@
       "reviewed": "2026-10-05: Publisher transcript paragraphs on Ezra–Nehemiah marriages reviewed again. Section begins 01:08:49. Audio and the complete interview were not reviewed.",
       "group": "mcclellan",
       "type": "McClellan commentary",
-      "limitations": "The timestamp locates the section, not the exact utterance. This interpretation does not prove the wives’ beliefs or supply Church teaching.",
+      "limitations": "The timestamp finds the section, not the exact words. This reading does not prove the wives’ beliefs. It is not Church teaching.",
       "license": "Linked source. Original guide summaries."
     },
     {
       "id": "throntveit-record",
       "title": "Ezra–Nehemiah · verified bibliography",
       "url": "https://books.google.com/books/about/Ezra_Nehemiah.html?id=VI1bMiMXLs0C",
-      "summary": "The record identifies Throntveit’s commentary, publisher, year, and ISBN.",
+      "summary": "The record names Throntveit’s commentary, its publisher, year, and ISBN.",
       "category": "Verified bibliography",
       "perspective": "historical",
-      "limits": "Bibliographic record reviewed. The full commentary was not read.",
+      "limits": "The book record was reviewed. The full commentary was not read.",
       "author": "Mark A. Throntveit",
       "year": 1992,
       "reviewed": "2026-10-05: Publisher-supplied bibliographic metadata reviewed.",
       "isbn": "9780664237448",
       "type": "Verified bibliography",
-      "limitations": "Bibliographic record reviewed. The full commentary was not read.",
+      "limitations": "The book record was reviewed. The full commentary was not read.",
       "license": "Linked source. Original guide summaries."
     },
     {
       "id": "wiki-nehemiah",
       "title": "Book of Nehemiah · Wikipedia",
       "url": "https://en.wikipedia.org/w/index.php?oldid=1377330731&title=Book_of_Nehemiah",
-      "summary": "The opening describes the book and supplies bibliography.",
+      "summary": "The opening describes the book and gives a list of sources.",
       "category": "Encyclopedia background",
       "perspective": "historical",
-      "limits": "Opening four paragraphs reviewed. Disputed historical claims are not adopted from this page alone.",
+      "limits": "The opening four paragraphs were reviewed. Disputed history claims are not taken from this page alone.",
       "author": "Wikipedia contributors",
       "year": "Reviewed revision",
       "revisionId": "1377330731",
@@ -173,16 +173,16 @@
       ],
       "reviewed": "2026-10-05: Opening four paragraphs and cited Throntveit bibliography record reviewed.",
       "type": "Encyclopedia background",
-      "limitations": "Opening four paragraphs reviewed. Disputed historical claims are not adopted from this page alone."
+      "limitations": "The opening four paragraphs were reviewed. Disputed history claims are not taken from this page alone."
     },
     {
       "id": "cfm-nehemiah-2026",
       "title": "Come, Follow Me 2026 · Nehemiah 2; 4–6; 8",
       "url": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/31?lang=eng",
-      "summary": "The lesson studies work despite opposition and help in understanding scripture.",
+      "summary": "The lesson studies work in the face of opposition and help in understanding scripture.",
       "category": "Come, Follow Me",
       "perspective": "lds",
-      "limits": "Selected chapters only. The lesson’s detailed opposition questions concern chapters 2, 4, and 6.",
+      "limits": "Selected chapters only. The lesson’s detailed questions about opposition cover chapters 2, 4, and 6.",
       "author": "The Church of Jesus Christ of Latter-day Saints",
       "year": 2026,
       "chapterCoverage": [
@@ -194,7 +194,7 @@
       ],
       "reviewed": "2026-10-05: Complete main and children’s lesson sections reviewed. Linked supplements were not reviewed.",
       "type": "Come, Follow Me",
-      "limitations": "Selected chapters only. The lesson’s detailed opposition questions concern chapters 2, 4, and 6.",
+      "limitations": "Selected chapters only. The lesson’s detailed questions about opposition cover chapters 2, 4, and 6.",
       "license": "Linked source. Original guide summaries."
     },
     {
@@ -204,7 +204,7 @@
       "summary": "The lesson teaches shared work, focus, scripture study, and keeping covenants.",
       "category": "LDS study manual",
       "perspective": "lds",
-      "limits": "Chapters 7–13 receive a brief overview rather than detailed treatment. Church application remains separate from historical evidence.",
+      "limits": "Chapters 7–13 get a brief overview, not detailed treatment. Church application stays separate from historical evidence.",
       "author": "The Church of Jesus Christ of Latter-day Saints",
       "year": 2018,
       "chapterCoverage": [
@@ -224,7 +224,7 @@
       ],
       "reviewed": "2026-10-05: Main lesson through The Lord’s Work reviewed. Linked talks and the separate doctrinal mastery quiz were not reviewed.",
       "type": "LDS study manual",
-      "limitations": "Chapters 7–13 receive a brief overview rather than detailed treatment. Church application remains separate from historical evidence.",
+      "limitations": "Chapters 7–13 get a brief overview, not detailed treatment. Church application stays separate from historical evidence.",
       "license": "Linked source. Original guide summaries."
     },
     {
@@ -269,6 +269,34 @@
       ],
       "type": "museum",
       "limitations": "It comes from Pasargadae, not the biblical court scene. Its exact original use remains uncertain."
+    },
+    {
+      "id": "strong",
+      "title": "A Concise Dictionary of the Words in the Hebrew Bible",
+      "author": "James Strong · Open Scriptures XML edition",
+      "year": "1894 / digital edition",
+      "perspective": "historical",
+      "category": "Historical lexicon",
+      "url": "https://github.com/openscriptures/strongs",
+      "summary": "Lists Hebrew dictionary forms and their possible meanings. Use it with the passage to study a word.",
+      "limits": "This is an older dictionary. Compare its meanings with the passage. A list of meanings alone cannot show which one applies.",
+      "license": "Source XML declares Public Domain. Only selected headwords are used.",
+      "type": "Historical lexicon",
+      "limitations": "This is an older dictionary. Compare its meanings with the passage. A list of meanings alone cannot show which one applies."
+    },
+    {
+      "id": "oshb",
+      "title": "Open Scriptures Hebrew Bible",
+      "author": "Open Scriptures contributors / Westminster Leningrad Codex",
+      "year": "Digital edition",
+      "perspective": "historical",
+      "category": "Hebrew text",
+      "url": "https://hb.openscriptures.org/",
+      "summary": "Provides the Hebrew text and word identifiers. This study guide uses these to check selected words against their verses.",
+      "limits": "The app checks selected words, not every English–Hebrew match. It shows Hebrew dictionary forms. The forms in the verses can differ.",
+      "license": "Hebrew text public domain; lemma/morphology data CC BY 4.0. Original work of the Open Scriptures Hebrew Bible, https://hb.openscriptures.org/.",
+      "type": "Hebrew text",
+      "limitations": "The app checks selected words, not every English–Hebrew match. It shows Hebrew dictionary forms. The forms in the verses can differ."
     }
   ],
   "passages": [
@@ -281,7 +309,7 @@
       "summary": "Nehemiah serves in the Persian fortress of Susa. His brother Hanani arrives with men from Judah. They report that the survivors are in great trouble. Jerusalem’s wall is broken, and its gates are burned. Nehemiah sits down and weeps, fasts, and prays for days. He confesses the sins of Israel, his family, and himself. He recalls God’s promise to gather those who return to him. He asks for favor before the king, whose cupbearer he is.",
       "year": null,
       "dateLabel": "Chapter order",
-      "uncertainty": "Town markers show named places. The city’s gates and individual wall sections are not mapped.",
+      "uncertainty": "The points show named towns and regions. Jerusalem’s gates and wall parts are not placed on the map.",
       "placeIds": [
         "susa",
         "jerusalem"
@@ -317,7 +345,7 @@
       "summary": "Four months later Nehemiah serves wine to the king with a sad face. The king asks why, and Nehemiah is very afraid. He says his fathers’ city lies in ruins. He prays quickly and asks to be sent to rebuild it. He asks for letters to governors and for timber from the king’s forest. The king grants it and sends officers with him. In Jerusalem he inspects the walls by night. He tells the leaders, and they agree to build despite mockery.",
       "year": null,
       "dateLabel": "Chapter order",
-      "uncertainty": "Town markers show named places. The city’s gates and individual wall sections are not mapped.",
+      "uncertainty": "The points show named towns and regions. Jerusalem’s gates and wall parts are not placed on the map.",
       "placeIds": [
         "susa",
         "jerusalem"
@@ -356,7 +384,7 @@
       "summary": "The high priest and his fellow priests rebuild the Sheep Gate. The chapter then moves around the wall section by section. Each group is named with the part it repairs. Goldsmiths, perfume makers, and merchants work beside district rulers. One ruler repairs his section with his daughters. Many people repair the wall opposite their own houses. The men of Tekoa repair two sections. Their nobles, however, refuse to work.",
       "year": null,
       "dateLabel": "Chapter order",
-      "uncertainty": "Town markers show named places. The city’s gates and individual wall sections are not mapped.",
+      "uncertainty": "The points show named towns and regions. Jerusalem’s gates and wall parts are not placed on the map.",
       "placeIds": [
         "jerusalem",
         "jericho",
@@ -394,7 +422,7 @@
       "summary": "Sanballat and Tobiah mock the builders and their wall. Nehemiah prays, and the wall rises to half its height. The enemies plot to attack Jerusalem. The people pray and post a guard day and night. Workers grow tired, and neighbors warn of raids ten times. Nehemiah stations families with swords, spears, and bows. Half his men work while half hold weapons. A trumpeter stays beside him, and they work from dawn until the stars appear.",
       "year": null,
       "dateLabel": "Chapter order",
-      "uncertainty": "Town markers show named places. The city’s gates and individual wall sections are not mapped.",
+      "uncertainty": "The points show named towns and regions. Jerusalem’s gates and wall parts are not placed on the map.",
       "placeIds": [
         "jerusalem",
         "samaria",
@@ -431,7 +459,7 @@
       "summary": "A great outcry rises from the people and their wives against fellow Jews. Some have pledged fields and houses to buy grain in the famine. Some have borrowed to pay the king’s tax. Their children are being sold as servants. Nehemiah is very angry and accuses the nobles of charging interest. He says the community has been buying back Jews sold abroad. The nobles are silent and then promise to restore everything. As governor Nehemiah refuses the food allowance and feeds many at his own cost.",
       "year": null,
       "dateLabel": "Chapter order",
-      "uncertainty": "Town markers show named places. The city’s gates and individual wall sections are not mapped.",
+      "uncertainty": "The points show named towns and regions. Jerusalem’s gates and wall parts are not placed on the map.",
       "placeIds": [
         "jerusalem"
       ],
@@ -467,7 +495,7 @@
       "summary": "The wall is nearly finished, with only the gate doors missing. Sanballat and Geshem invite Nehemiah to a meeting four times, meaning harm. He answers that he is doing a great work and cannot come down. A fifth letter accuses him of planning to be king. A hired prophet urges him to hide inside the temple. Nehemiah refuses and sees the plot. The wall is finished in fifty-two days, and the enemies lose heart. Yet Judah’s nobles keep exchanging letters with Tobiah.",
       "year": null,
       "dateLabel": "Chapter order",
-      "uncertainty": "Town markers show named places. The city’s gates and individual wall sections are not mapped.",
+      "uncertainty": "The points show named towns and regions. Jerusalem’s gates and wall parts are not placed on the map.",
       "placeIds": [
         "jerusalem"
       ],
@@ -502,7 +530,7 @@
       "summary": "The wall is built, and the doors are hung. Nehemiah puts his brother Hanani and a trusted commander over Jerusalem. The gates are to stay shut until the sun is hot. Residents stand guard, each near his own house. The city is wide, but few people live in it. God moves Nehemiah to register the people by families. He finds the record of those who first returned. The list of families, numbers, and gifts follows.",
       "year": null,
       "dateLabel": "Chapter order",
-      "uncertainty": "Town markers show named places. The city’s gates and individual wall sections are not mapped.",
+      "uncertainty": "The points show named towns and regions. Jerusalem’s gates and wall parts are not placed on the map.",
       "placeIds": [
         "jerusalem",
         "babylon",
@@ -541,7 +569,7 @@
       "summary": "In the seventh month all the people gather at the Water Gate. They ask Ezra to bring the book of the law of Moses. He reads from early morning until noon on a wooden platform. Men, women, and all who can understand listen. Levites explain the reading, and the people weep. The leaders tell them not to grieve, since the day is holy. On the second day they read about the Feast of Booths. They build shelters of branches and keep the feast with great joy.",
       "year": null,
       "dateLabel": "Chapter order",
-      "uncertainty": "Town markers show named places. The city’s gates and individual wall sections are not mapped.",
+      "uncertainty": "The points show named towns and regions. Jerusalem’s gates and wall parts are not placed on the map.",
       "placeIds": [
         "jerusalem"
       ],
@@ -576,7 +604,7 @@
       "summary": "On the twenty-fourth day the people fast in sackcloth. They read the law for a quarter of the day and confess for another quarter. The Levites lead a long prayer. It recalls creation, Abraham, Egypt, the sea, Sinai, and the manna. It admits that the fathers rebelled again and again. Each time God was merciful and did not abandon them. The prayer says God has been just and the people have done wrong. They are servants in their own land, so they make a written agreement.",
       "year": null,
       "dateLabel": "Chapter order",
-      "uncertainty": "Town markers show named places. The city’s gates and individual wall sections are not mapped.",
+      "uncertainty": "The points show named towns and regions. Jerusalem’s gates and wall parts are not placed on the map.",
       "placeIds": [
         "jerusalem",
         "egypt"
@@ -612,7 +640,7 @@
       "summary": "The agreement is sealed by Nehemiah, the priests, the Levites, and the leaders. The rest of the people join with an oath. They will not marry their children to the peoples of the land. They will not buy on the Sabbath, and they will cancel debts every seventh year. Each will pay a yearly sum for the temple’s service. They cast lots for bringing wood to the altar. They promise firstfruits and tithes for the priests and Levites. They say they will not neglect the house of their God.",
       "year": null,
       "dateLabel": "Chapter order",
-      "uncertainty": "Town markers show named places. The city’s gates and individual wall sections are not mapped.",
+      "uncertainty": "The points show named towns and regions. Jerusalem’s gates and wall parts are not placed on the map.",
       "placeIds": [
         "jerusalem"
       ],
@@ -650,7 +678,7 @@
       "summary": "The leaders live in Jerusalem. The other people cast lots to bring one family in ten into the city. The other nine stay in their towns. The people bless those who volunteer to move. The chapter lists the families of Judah and Benjamin who settle there. It lists priests, Levites, gatekeepers, and singers. An official at the king’s side handles the people’s affairs. The villages of Judah and Benjamin are named last.",
       "year": null,
       "dateLabel": "Chapter order",
-      "uncertainty": "Town markers show named places. The city’s gates and individual wall sections are not mapped.",
+      "uncertainty": "The points show named towns and regions. Jerusalem’s gates and wall parts are not placed on the map.",
       "placeIds": [
         "jerusalem",
         "beersheba",
@@ -688,7 +716,7 @@
       "summary": "The chapter lists the priests and Levites from the first return onward. For the wall’s dedication the Levites and singers are gathered from their villages. Priests and Levites purify themselves, the people, the gates, and the wall. Two large choirs walk along the top of the wall in opposite directions. Ezra leads one, and Nehemiah follows the other. They meet at the temple and sing loudly. The people offer great sacrifices and rejoice. Men are appointed that day over the storerooms for offerings.",
       "year": null,
       "dateLabel": "Chapter order",
-      "uncertainty": "Town markers show named places. The city’s gates and individual wall sections are not mapped.",
+      "uncertainty": "The points show named towns and regions. Jerusalem’s gates and wall parts are not placed on the map.",
       "placeIds": [
         "jerusalem"
       ],
@@ -722,7 +750,7 @@
       "summary": "The law is read, and the people separate from foreigners. Nehemiah has been away at the king’s court. On his return he finds Tobiah in a temple storeroom and throws him out. The Levites have not been paid and have gone back to their fields. Traders are selling on the Sabbath, so he shuts the gates. Jews have married women of Ashdod, Ammon, and Moab. He rebukes them harshly and drives out a priest’s son. He ends by asking God to remember him for good.",
       "year": null,
       "dateLabel": "Chapter order",
-      "uncertainty": "Town markers show named places. The city’s gates and individual wall sections are not mapped.",
+      "uncertainty": "The points show named towns and regions. Jerusalem’s gates and wall parts are not placed on the map.",
       "placeIds": [
         "jerusalem",
         "tyre",
@@ -762,7 +790,7 @@
       "summary": "Nehemiah serves in the Persian fortress of Susa. His brother Hanani arrives with men from Judah. They report that the survivors are in great trouble. Jerusalem’s wall is broken, and its gates are burned. Nehemiah sits down and weeps, fasts, and prays for days. He confesses the sins of Israel, his family, and himself. He recalls God’s promise to gather those who return to him. He asks for favor before the king, whose cupbearer he is.",
       "detail": "The prayer in verses 5–11 comes before any plan is spoken. Nehemiah includes himself in the confession (verse 6). He rests his request on a promise given through Moses (verses 8–9). In verse 11 he calls the king of Persia “this man.” Only the last line reveals his post. A cupbearer stands near the king every day. His position at court is where the answer will begin.",
       "dateLabel": "Chapter order",
-      "uncertainty": "Town markers show named places. The city’s gates and individual wall sections are not mapped.",
+      "uncertainty": "The points show named towns and regions. Jerusalem’s gates and wall parts are not placed on the map.",
       "sourceIds": [
         "web",
         "atlas",
@@ -790,7 +818,7 @@
       "summary": "Four months later Nehemiah serves wine to the king with a sad face. The king asks why, and Nehemiah is very afraid. He says his fathers’ city lies in ruins. He prays quickly and asks to be sent to rebuild it. He asks for letters to governors and for timber from the king’s forest. The king grants it and sends officers with him. In Jerusalem he inspects the walls by night. He tells the leaders, and they agree to build despite mockery.",
       "detail": "Between the king’s question and his own answer Nehemiah prays (verse 4). Then he names a time, letters for safe travel, and timber (verses 6–8). A bulla of the Persian period shows how letters were sealed. Verse 8 lists three uses for the wood. Safe travel and building materials depend on the king’s support. Nehemiah credits “the good hand of my God.” He also inspects the walls himself before he speaks to anyone (verses 12–16).",
       "dateLabel": "Chapter order",
-      "uncertainty": "Town markers show named places. The city’s gates and individual wall sections are not mapped.",
+      "uncertainty": "The points show named towns and regions. Jerusalem’s gates and wall parts are not placed on the map.",
       "sourceIds": [
         "web",
         "atlas",
@@ -819,7 +847,7 @@
       "summary": "The high priest and his fellow priests rebuild the Sheep Gate. The chapter then moves around the wall section by section. Each group is named with the part it repairs. Goldsmiths, perfume makers, and merchants work beside district rulers. One ruler repairs his section with his daughters. Many people repair the wall opposite their own houses. The men of Tekoa repair two sections. Their nobles, however, refuse to work.",
       "detail": "The list honors people by name, trade, and place. Verse 8 puts goldsmiths and perfume makers on the wall. Verse 12 names a ruler’s daughters among the builders. Many repair the stretch beside their own homes (verses 10, 23, 28–30). Verse 5 records the one refusal. The nobles of Tekoa would not bend their necks to the work. The ordinary men of Tekoa take a second section in verse 27.",
       "dateLabel": "Chapter order",
-      "uncertainty": "Town markers show named places. The city’s gates and individual wall sections are not mapped.",
+      "uncertainty": "The points show named towns and regions. Jerusalem’s gates and wall parts are not placed on the map.",
       "sourceIds": [
         "web",
         "atlas",
@@ -849,7 +877,7 @@
       "summary": "Sanballat and Tobiah mock the builders and their wall. Nehemiah prays, and the wall rises to half its height. The enemies plot to attack Jerusalem. The people pray and post a guard day and night. Workers grow tired, and neighbors warn of raids ten times. Nehemiah stations families with swords, spears, and bows. Half his men work while half hold weapons. A trumpeter stays beside him, and they work from dawn until the stars appear.",
       "detail": "Verse 19 states the problem. The wall is long, and the workers are far apart. An attack on one section could succeed before others knew. Verse 20 gives the answer: one trumpet and one rallying point. The same verse says, “Our God will fight for us.” Trust and planning stand in one sentence, as in verse 9. Verse 14 names what the people defend: families and homes.",
       "dateLabel": "Chapter order",
-      "uncertainty": "Town markers show named places. The city’s gates and individual wall sections are not mapped.",
+      "uncertainty": "The points show named towns and regions. Jerusalem’s gates and wall parts are not placed on the map.",
       "sourceIds": [
         "web",
         "atlas",
@@ -878,7 +906,7 @@
       "summary": "A great outcry rises from the people and their wives against fellow Jews. Some have pledged fields and houses to buy grain in the famine. Some have borrowed to pay the king’s tax. Their children are being sold as servants. Nehemiah is very angry and accuses the nobles of charging interest. He says the community has been buying back Jews sold abroad. The nobles are silent and then promise to restore everything. As governor Nehemiah refuses the food allowance and feeds many at his own cost.",
       "detail": "The enemy in this chapter is inside the walls. Verse 1 notes that wives join the outcry. Their argument in verse 5 is shared family: the same flesh, the same children. Yet their daughters are already in bondage, and the fields belong to others. Deuteronomy 23:19–20 forbids charging interest to a fellow Israelite. In verse 10 Nehemiah admits that he and his men have also lent. He ends the practice and gives up his own allowance (verses 14–18).",
       "dateLabel": "Chapter order",
-      "uncertainty": "Town markers show named places. The city’s gates and individual wall sections are not mapped.",
+      "uncertainty": "The points show named towns and regions. Jerusalem’s gates and wall parts are not placed on the map.",
       "sourceIds": [
         "web",
         "atlas",
@@ -906,7 +934,7 @@
       "summary": "The wall is nearly finished, with only the gate doors missing. Sanballat and Geshem invite Nehemiah to a meeting four times, meaning harm. He answers that he is doing a great work and cannot come down. A fifth letter accuses him of planning to be king. A hired prophet urges him to hide inside the temple. Nehemiah refuses and sees the plot. The wall is finished in fifty-two days, and the enemies lose heart. Yet Judah’s nobles keep exchanging letters with Tobiah.",
       "detail": "Verse 15 reports the finished wall. Verse 17 begins “Moreover” and turns to a problem stone cannot fix. Nobles of Judah trade letters with Tobiah. Verse 18 explains that many are bound to him by oath and marriage. They praise him to Nehemiah and carry Nehemiah’s words back (verse 19). Loyalties pass through the gates in both directions. In 13:4–5 Tobiah will be given a room in the temple.",
       "dateLabel": "Chapter order",
-      "uncertainty": "Town markers show named places. The city’s gates and individual wall sections are not mapped.",
+      "uncertainty": "The points show named towns and regions. Jerusalem’s gates and wall parts are not placed on the map.",
       "sourceIds": [
         "web",
         "atlas",
@@ -933,7 +961,7 @@
       "summary": "The wall is built, and the doors are hung. Nehemiah puts his brother Hanani and a trusted commander over Jerusalem. The gates are to stay shut until the sun is hot. Residents stand guard, each near his own house. The city is wide, but few people live in it. God moves Nehemiah to register the people by families. He finds the record of those who first returned. The list of families, numbers, and gifts follows.",
       "detail": "Verse 4 describes a finished wall around a nearly empty city. The houses have not been rebuilt. A wall protects a people, and the people are missing. So the next task is to learn who belongs (verse 5). The old list in verses 6–73 matches Ezra 2. It ties the present community to the first return. Chapter 11 will use lots to move families into the city.",
       "dateLabel": "Chapter order",
-      "uncertainty": "Town markers show named places. The city’s gates and individual wall sections are not mapped.",
+      "uncertainty": "The points show named towns and regions. Jerusalem’s gates and wall parts are not placed on the map.",
       "sourceIds": [
         "web",
         "atlas",
@@ -964,7 +992,7 @@
       "summary": "In the seventh month all the people gather at the Water Gate. They ask Ezra to bring the book of the law of Moses. He reads from early morning until noon on a wooden platform. Men, women, and all who can understand listen. Levites explain the reading, and the people weep. The leaders tell them not to grieve, since the day is holy. On the second day they read about the Feast of Booths. They build shelters of branches and keep the feast with great joy.",
       "detail": "The people themselves ask for the book (verse 1). Verse 2 names the audience as men, women, and all who could understand. Verse 7 names thirteen Levites who helped them. Verse 8 gives their method: read clearly and give the sense. The goal is that the people understand what is read. Verse 12 traces the day’s joy to that understanding. On the next day they act on what they find (verses 14–16).",
       "dateLabel": "Chapter order",
-      "uncertainty": "Town markers show named places. The city’s gates and individual wall sections are not mapped.",
+      "uncertainty": "The points show named towns and regions. Jerusalem’s gates and wall parts are not placed on the map.",
       "sourceIds": [
         "web",
         "atlas",
@@ -991,7 +1019,7 @@
       "summary": "On the twenty-fourth day the people fast in sackcloth. They read the law for a quarter of the day and confess for another quarter. The Levites lead a long prayer. It recalls creation, Abraham, Egypt, the sea, Sinai, and the manna. It admits that the fathers rebelled again and again. Each time God was merciful and did not abandon them. The prayer says God has been just and the people have done wrong. They are servants in their own land, so they make a written agreement.",
       "detail": "The prayer tells Israel’s history as mercy answered by rebellion. It does not end with a triumph. Verse 36 says the people are servants in the land given to their fathers. Verse 37 adds that its rich yield goes to foreign kings. The return has not ended their dependence. Verse 33 refuses to blame God for this. Out of that honest account they write and seal an agreement (verse 38).",
       "dateLabel": "Chapter order",
-      "uncertainty": "Town markers show named places. The city’s gates and individual wall sections are not mapped.",
+      "uncertainty": "The points show named towns and regions. Jerusalem’s gates and wall parts are not placed on the map.",
       "sourceIds": [
         "web",
         "atlas",
@@ -1019,7 +1047,7 @@
       "summary": "The agreement is sealed by Nehemiah, the priests, the Levites, and the leaders. The rest of the people join with an oath. They will not marry their children to the peoples of the land. They will not buy on the Sabbath, and they will cancel debts every seventh year. Each will pay a yearly sum for the temple’s service. They cast lots for bringing wood to the altar. They promise firstfruits and tithes for the priests and Levites. They say they will not neglect the house of their God.",
       "detail": "The written agreement names wood, produce, money, and the workers who need support. Verse 1 lists those who sealed it; a bulla is a seal’s impression. Temple service cannot continue through one large celebration alone. The promise turns shared identity into repeated duties. Verse 39 ends with a pledge not to neglect God’s house. Chapter 13:10–11 uses nearly the same words for a failure. Its later failures test whether those duties survive ordinary life.",
       "dateLabel": "Chapter order",
-      "uncertainty": "Town markers show named places. The city’s gates and individual wall sections are not mapped.",
+      "uncertainty": "The points show named towns and regions. Jerusalem’s gates and wall parts are not placed on the map.",
       "sourceIds": [
         "web",
         "atlas",
@@ -1047,7 +1075,7 @@
       "summary": "The leaders live in Jerusalem. The other people cast lots to bring one family in ten into the city. The other nine stay in their towns. The people bless those who volunteer to move. The chapter lists the families of Judah and Benjamin who settle there. It lists priests, Levites, gatekeepers, and singers. An official at the king’s side handles the people’s affairs. The villages of Judah and Benjamin are named last.",
       "detail": "Chapter 7:4 said the city was large and nearly empty. Verse 1 fills it by lot, one family in ten. Verse 2 adds those who offered themselves freely. The people bless them, which shows the move was costly. A family left its fields and village for a city still in ruins. The lists that follow count the temple workers by name and number (verses 10–19). The city needs residents before it can serve as a center.",
       "dateLabel": "Chapter order",
-      "uncertainty": "Town markers show named places. The city’s gates and individual wall sections are not mapped.",
+      "uncertainty": "The points show named towns and regions. Jerusalem’s gates and wall parts are not placed on the map.",
       "sourceIds": [
         "web",
         "atlas",
@@ -1077,7 +1105,7 @@
       "summary": "The chapter lists the priests and Levites from the first return onward. For the wall’s dedication the Levites and singers are gathered from their villages. Priests and Levites purify themselves, the people, the gates, and the wall. Two large choirs walk along the top of the wall in opposite directions. Ezra leads one, and Nehemiah follows the other. They meet at the temple and sing loudly. The people offer great sacrifices and rejoice. Men are appointed that day over the storerooms for offerings.",
       "detail": "Tobiah had said a fox could break this wall (4:3). Now two choirs walk along its top (verses 31 and 38). Verse 43 says God gave the joy. It names women and children among those who rejoiced. The sound was heard far away. In Ezra 3:13 a mixed sound of joy and weeping carried far. Verses 44–47 arrange the workers’ daily portions on the same day.",
       "dateLabel": "Chapter order",
-      "uncertainty": "Town markers show named places. The city’s gates and individual wall sections are not mapped.",
+      "uncertainty": "The points show named towns and regions. Jerusalem’s gates and wall parts are not placed on the map.",
       "sourceIds": [
         "web",
         "atlas",
@@ -1103,7 +1131,7 @@
       "summary": "The law is read, and the people separate from foreigners. Nehemiah has been away at the king’s court. On his return he finds Tobiah in a temple storeroom and throws him out. The Levites have not been paid and have gone back to their fields. Traders are selling on the Sabbath, so he shuts the gates. Jews have married women of Ashdod, Ammon, and Moab. He rebukes them harshly and drives out a priest’s son. He ends by asking God to remember him for good.",
       "detail": "The people promised in 10:39 not to neglect God’s house. Verse 10 shows that promise broken. The Levites’ portions have stopped, so they have left to farm. The room meant for their supplies went to Tobiah (verse 5). Nehemiah’s repair is practical: honest treasurers to hand out shares (verse 13). Support, Sabbath, and marriage were the three pledges of chapter 10. All three have failed here, and the book ends with a prayer.",
       "dateLabel": "Chapter order",
-      "uncertainty": "Town markers show named places. The city’s gates and individual wall sections are not mapped.",
+      "uncertainty": "The points show named towns and regions. Jerusalem’s gates and wall parts are not placed on the map.",
       "sourceIds": [
         "web",
         "atlas",
@@ -1131,15 +1159,15 @@
       "name": "Susa",
       "lat": 32.189,
       "lng": 48.257,
-      "summary": "Nehemiah serves the king here before asking to go to Jerusalem.",
-      "limits": "Ancient city location. No precise palace room or journey road is reconstructed.",
+      "summary": "In chapter 1 Nehemiah is in Susa the palace when Hanani brings news. In chapter 2 he serves the king wine and asks to go to Judah.",
+      "limits": "The marker shows the ancient city’s location. It does not show the palace.",
       "sourceIds": [
         "web",
         "atlas",
         "atlas-canaan"
       ],
-      "detail": "Nehemiah serves the king here before asking to go to Jerusalem.",
-      "uncertainty": "Ancient city location. No precise palace room or journey road is reconstructed.",
+      "detail": "In chapter 1 Nehemiah is in Susa the palace when Hanani brings news. In chapter 2 he serves the king wine and asks to go to Judah.",
+      "uncertainty": "The marker shows the ancient city’s location. It does not show the palace.",
       "chapterLocation": true
     },
     {
@@ -1147,95 +1175,185 @@
       "name": "Jerusalem",
       "lat": 31.778,
       "lng": 35.235,
-      "summary": "Families repair the walls, gather for the law reading, and plan daily temple service.",
-      "limits": "Reference marker only. Exact houses, camps, battle lines, property boundaries, and ancient roads remain uncertain.",
+      "summary": "Nehemiah and the families repair the wall here in chapters 2 to 6. Ezra reads the law here in chapter 8. Two companies give thanks on the wall in chapter 12.",
+      "limits": "The marker shows the city’s general location. The gates and wall parts are not placed.",
       "sourceIds": [
         "web",
         "atlas",
         "atlas-canaan"
       ],
-      "detail": "Families repair the walls, gather for the law reading, and plan daily temple service.",
-      "uncertainty": "Reference marker only. Exact houses, camps, battle lines, property boundaries, and ancient roads remain uncertain.",
-      "chapterLocation": true
+      "detail": "Nehemiah and the families repair the wall here in chapters 2 to 6. Ezra reads the law here in chapter 8. Two companies give thanks on the wall in chapter 12.",
+      "uncertainty": "The marker shows the city’s general location. The gates and wall parts are not placed.",
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H3389",
+        "key": "Jerusalem",
+        "checkedVerses": 34,
+        "example": [
+          1,
+          2
+        ],
+        "hebrew": "יְרוּשָׁלַ͏ִם",
+        "transliteration": "Yᵉrûwshâlaim",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "jericho",
       "name": "Jericho",
       "lat": 31.87,
       "lng": 35.45,
-      "summary": "Men from Jericho repair a section of Jerusalem’s wall.",
-      "limits": "Reference marker only. Exact houses, camps, battle lines, property boundaries, and ancient roads remain uncertain.",
+      "summary": "In chapter 3 the men of Jericho build next to Eliashib and the priests. The return list in chapter 7 counts 345 children of Jericho.",
+      "limits": "The marker shows the town’s general location.",
       "sourceIds": [
         "web",
         "atlas",
         "atlas-canaan"
       ],
-      "detail": "Men from Jericho repair a section of Jerusalem’s wall.",
-      "uncertainty": "Reference marker only. Exact houses, camps, battle lines, property boundaries, and ancient roads remain uncertain.",
-      "chapterLocation": true
+      "detail": "In chapter 3 the men of Jericho build next to Eliashib and the priests. The return list in chapter 7 counts 345 children of Jericho.",
+      "uncertainty": "The marker shows the town’s general location.",
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H3405",
+        "key": "Jericho",
+        "checkedVerses": 2,
+        "example": [
+          3,
+          2
+        ],
+        "hebrew": "יְרִיחוֹ",
+        "transliteration": "Yᵉrîychôw",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "gibeon",
       "name": "Gibeon",
       "lat": 31.85,
       "lng": 35.18,
-      "summary": "Workers from Gibeon join the wall repairs.",
-      "limits": "Reference marker only. Exact houses, camps, battle lines, property boundaries, and ancient roads remain uncertain.",
+      "summary": "In chapter 3 Melatiah the Gibeonite repairs part of the wall. The men of Gibeon work with him.",
+      "limits": "The marker shows the town’s general location.",
       "sourceIds": [
         "web",
         "atlas",
         "atlas-canaan"
       ],
-      "detail": "Workers from Gibeon join the wall repairs.",
-      "uncertainty": "Reference marker only. Exact houses, camps, battle lines, property boundaries, and ancient roads remain uncertain.",
-      "chapterLocation": true
+      "detail": "In chapter 3 Melatiah the Gibeonite repairs part of the wall. The men of Gibeon work with him.",
+      "uncertainty": "The marker shows the town’s general location.",
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H1391",
+        "key": "Gibeon",
+        "checkedVerses": 2,
+        "example": [
+          3,
+          7
+        ],
+        "hebrew": "גִּבְעוֹן",
+        "transliteration": "Gibʻôwn",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "mizpah",
       "name": "Mizpah",
       "lat": 31.886,
       "lng": 35.215,
-      "summary": "The repair list names people and district leaders from Mizpah.",
-      "limits": "Reference marker only. Proposed or broad locations do not establish an exact house, shrine, brook, mountain, battle position, or ancient road.",
+      "summary": "In chapter 3 men of Mizpah repair the wall. Shallun rules the district of Mizpah and repairs the spring gate. Ezer, the ruler of Mizpah, repairs another part.",
+      "limits": "It is not certain which Mizpah this is. The marker shows a possible location in Benjamin.",
       "sourceIds": [
         "web",
         "atlas",
         "atlas-canaan"
       ],
-      "detail": "The repair list names people and district leaders from Mizpah.",
-      "uncertainty": "Reference marker only. Proposed or broad locations do not establish an exact house, shrine, brook, mountain, battle position, or ancient road.",
-      "chapterLocation": true
+      "detail": "In chapter 3 men of Mizpah repair the wall. Shallun rules the district of Mizpah and repairs the spring gate. Ezer, the ruler of Mizpah, repairs another part.",
+      "uncertainty": "It is not certain which Mizpah this is. The marker shows a possible location in Benjamin.",
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H4709",
+        "key": "Mizpah",
+        "checkedVerses": 3,
+        "example": [
+          3,
+          7
+        ],
+        "hebrew": "מִצְפָּה",
+        "transliteration": "Mitspâh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "samaria",
       "name": "Samaria",
       "lat": 32.276,
       "lng": 35.194,
-      "summary": "Sanballat speaks about the builders before the army of Samaria.",
-      "limits": "Reference marker only. Proposed or broad locations do not establish an exact house, shrine, brook, mountain, battle position, or ancient road.",
+      "summary": "In chapter 4 Sanballat mocks the Jews before his brothers and the army of Samaria.",
+      "limits": "The marker shows the city’s general location.",
       "sourceIds": [
         "web",
         "atlas",
         "atlas-canaan"
       ],
-      "detail": "Sanballat speaks about the builders before the army of Samaria.",
-      "uncertainty": "Reference marker only. Proposed or broad locations do not establish an exact house, shrine, brook, mountain, battle position, or ancient road.",
-      "chapterLocation": true
+      "detail": "In chapter 4 Sanballat mocks the Jews before his brothers and the army of Samaria.",
+      "uncertainty": "The marker shows the city’s general location.",
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H8111",
+        "key": "Samaria",
+        "checkedVerses": 1,
+        "example": [
+          4,
+          2
+        ],
+        "hebrew": "שֹׁמְרוֹן",
+        "transliteration": "Shômᵉrôwn",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "ashdod",
       "name": "Ashdod",
       "lat": 31.75,
       "lng": 34.66,
-      "summary": "Ashdodites oppose the work. Later, Nehemiah speaks about wives and children from Ashdod.",
-      "limits": "Reference marker only. The guide does not identify a private house, exact camp, cave, field, shrine room, or ancient road. Proposed localities remain uncertain.",
+      "summary": "In chapter 4 the Ashdodites join the plan to fight Jerusalem. In chapter 13 Nehemiah sees Jews who married women of Ashdod.",
+      "limits": "The marker shows the city’s general location.",
       "sourceIds": [
         "web",
         "atlas",
         "atlas-canaan"
       ],
-      "detail": "Ashdodites oppose the work. Later, Nehemiah speaks about wives and children from Ashdod.",
-      "uncertainty": "Reference marker only. The guide does not identify a private house, exact camp, cave, field, shrine room, or ancient road. Proposed localities remain uncertain.",
+      "detail": "In chapter 4 the Ashdodites join the plan to fight Jerusalem. In chapter 13 Nehemiah sees Jews who married women of Ashdod.",
+      "uncertainty": "The marker shows the city’s general location.",
       "chapterLocation": true
     },
     {
@@ -1243,127 +1361,253 @@
       "name": "Babylon",
       "lat": 32.54,
       "lng": 44.42,
-      "summary": "The earlier return list recalls families carried away under Nebuchadnezzar.",
-      "limits": "Approximate reference marker. It does not establish an exact ascent, house, camp, deportation settlement, ancient road, or battle position.",
+      "summary": "The return list in chapter 7 names the king of Babylon. Nebuchadnezzar had carried the people away.",
+      "limits": "The marker shows the city’s general location.",
       "sourceIds": [
         "web",
         "atlas",
         "atlas-canaan"
       ],
-      "detail": "The earlier return list recalls families carried away under Nebuchadnezzar.",
-      "uncertainty": "Approximate reference marker. It does not establish an exact ascent, house, camp, deportation settlement, ancient road, or battle position.",
-      "chapterLocation": true
+      "detail": "The return list in chapter 7 names the king of Babylon. Nebuchadnezzar had carried the people away.",
+      "uncertainty": "The marker shows the city’s general location.",
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H894",
+        "key": "Babylon",
+        "checkedVerses": 2,
+        "example": [
+          7,
+          6
+        ],
+        "hebrew": "בָּבֶל",
+        "transliteration": "Bâbel",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "bethlehem",
       "name": "Bethlehem",
       "lat": 31.705,
       "lng": 35.202,
-      "summary": "The return list includes people from Bethlehem and Netophah.",
-      "limits": "Reference marker only. The guide does not identify a private house, exact camp, cave, field, shrine room, or ancient road. Proposed localities remain uncertain.",
+      "summary": "The return list in chapter 7 counts 188 men of Bethlehem and Netophah.",
+      "limits": "The marker shows the town’s general location.",
       "sourceIds": [
         "web",
         "atlas",
         "atlas-canaan"
       ],
-      "detail": "The return list includes people from Bethlehem and Netophah.",
-      "uncertainty": "Reference marker only. The guide does not identify a private house, exact camp, cave, field, shrine room, or ancient road. Proposed localities remain uncertain.",
-      "chapterLocation": true
+      "detail": "The return list in chapter 7 counts 188 men of Bethlehem and Netophah.",
+      "uncertainty": "The marker shows the town’s general location.",
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H1035",
+        "key": "Bethlehem",
+        "checkedVerses": 1,
+        "example": [
+          7,
+          26
+        ],
+        "hebrew": "בֵּית לֶחֶם",
+        "transliteration": "Bêyth Lechem",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "bethel",
       "name": "Bethel",
       "lat": 31.93,
       "lng": 35.22,
-      "summary": "Bethel appears in the return list and the later list of towns.",
-      "limits": "Reference marker only. Proposed or broad locations do not establish an exact house, shrine, brook, mountain, battle position, or ancient road.",
+      "summary": "The return list in chapter 7 counts 123 men of Bethel and Ai. In chapter 11 children of Benjamin live at Bethel and its towns.",
+      "limits": "The marker shows a proposed location for Bethel.",
       "sourceIds": [
         "web",
         "atlas",
         "atlas-canaan"
       ],
-      "detail": "Bethel appears in the return list and the later list of towns.",
-      "uncertainty": "Reference marker only. Proposed or broad locations do not establish an exact house, shrine, brook, mountain, battle position, or ancient road.",
-      "chapterLocation": true
+      "detail": "The return list in chapter 7 counts 123 men of Bethel and Ai. In chapter 11 children of Benjamin live at Bethel and its towns.",
+      "uncertainty": "The marker shows a proposed location for Bethel.",
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H1008",
+        "key": "Bethel",
+        "checkedVerses": 2,
+        "example": [
+          7,
+          32
+        ],
+        "hebrew": "בֵּית־אֵל",
+        "transliteration": "Bêyth-ʼÊl",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "egypt",
       "name": "Egypt",
       "lat": 30.05,
       "lng": 31.23,
-      "summary": "The public prayer recalls rescue from Egypt. The praying people gather in Jerusalem.",
-      "limits": "Reference marker only. Proposed or broad locations do not establish an exact house, shrine, brook, mountain, battle position, or ancient road.",
+      "summary": "The prayer in chapter 9 says God saw the fathers’ trouble in Egypt. It also recalls the calf they made after leaving.",
+      "limits": "Egypt is a wide region. The marker shows only its general area.",
       "sourceIds": [
         "web",
         "atlas",
         "atlas-canaan"
       ],
-      "detail": "The public prayer recalls rescue from Egypt. The praying people gather in Jerusalem.",
-      "uncertainty": "Reference marker only. Proposed or broad locations do not establish an exact house, shrine, brook, mountain, battle position, or ancient road.",
-      "chapterLocation": true
+      "detail": "The prayer in chapter 9 says God saw the fathers’ trouble in Egypt. It also recalls the calf they made after leaving.",
+      "uncertainty": "Egypt is a wide region. The marker shows only its general area.",
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H4714",
+        "key": "Egypt",
+        "checkedVerses": 2,
+        "example": [
+          9,
+          9
+        ],
+        "hebrew": "מִצְרַיִם",
+        "transliteration": "Mitsrayim",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "beersheba",
       "name": "Beersheba",
       "lat": 31.245,
       "lng": 34.842,
-      "summary": "The settlement list names villages extending south to Beersheba.",
-      "limits": "Reference marker only. The guide does not identify a private house, exact camp, cave, field, shrine room, or ancient road. Proposed localities remain uncertain.",
+      "summary": "In chapter 11 some children of Judah live in Beersheba and its towns. They camp from Beersheba to the valley of Hinnom.",
+      "limits": "The marker shows the town’s general location.",
       "sourceIds": [
         "web",
         "atlas",
         "atlas-canaan"
       ],
-      "detail": "The settlement list names villages extending south to Beersheba.",
-      "uncertainty": "Reference marker only. The guide does not identify a private house, exact camp, cave, field, shrine room, or ancient road. Proposed localities remain uncertain.",
-      "chapterLocation": true
+      "detail": "In chapter 11 some children of Judah live in Beersheba and its towns. They camp from Beersheba to the valley of Hinnom.",
+      "uncertainty": "The marker shows the town’s general location.",
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H884",
+        "key": "Beersheba",
+        "checkedVerses": 2,
+        "example": [
+          11,
+          27
+        ],
+        "hebrew": "בְּאֵר שֶׁבַע",
+        "transliteration": "Bᵉʼêr Shebaʻ",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "lachish",
       "name": "Lachish",
       "lat": 31.565,
       "lng": 34.849,
-      "summary": "Families live near Lachish and its fields after the return.",
-      "limits": "Approximate reference marker. It does not establish an exact ascent, house, camp, deportation settlement, ancient road, or battle position.",
+      "summary": "In chapter 11 some children of Judah live in Lachish and its fields.",
+      "limits": "The marker shows the town’s general location.",
       "sourceIds": [
         "web",
         "atlas",
         "atlas-canaan"
       ],
-      "detail": "Families live near Lachish and its fields after the return.",
-      "uncertainty": "Approximate reference marker. It does not establish an exact ascent, house, camp, deportation settlement, ancient road, or battle position.",
-      "chapterLocation": true
+      "detail": "In chapter 11 some children of Judah live in Lachish and its fields.",
+      "uncertainty": "The marker shows the town’s general location.",
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H3923",
+        "key": "Lachish",
+        "checkedVerses": 1,
+        "example": [
+          11,
+          30
+        ],
+        "hebrew": "לָכִישׁ",
+        "transliteration": "Lâkîysh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "anathoth",
       "name": "Anathoth",
       "lat": 31.815,
       "lng": 35.261,
-      "summary": "The town appears among the places where families settle.",
-      "limits": "Reference marker only. Proposed or broad locations do not establish an exact house, shrine, brook, mountain, battle position, or ancient road.",
+      "summary": "In chapter 11 the children of Benjamin live at Anathoth and other towns.",
+      "limits": "The marker shows a proposed location for Anathoth.",
       "sourceIds": [
         "web",
         "atlas",
         "atlas-canaan"
       ],
-      "detail": "The town appears among the places where families settle.",
-      "uncertainty": "Reference marker only. Proposed or broad locations do not establish an exact house, shrine, brook, mountain, battle position, or ancient road.",
-      "chapterLocation": true
+      "detail": "In chapter 11 the children of Benjamin live at Anathoth and other towns.",
+      "uncertainty": "The marker shows a proposed location for Anathoth.",
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H6068",
+        "key": "Anathoth",
+        "checkedVerses": 3,
+        "example": [
+          7,
+          27
+        ],
+        "hebrew": "עֲנָתוֹת",
+        "transliteration": "ʻĂnâthôwth",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "tyre",
       "name": "Tyre",
       "lat": 33.27,
       "lng": 35.2,
-      "summary": "Merchants from Tyre bring fish and goods to Jerusalem on the Sabbath.",
-      "limits": "Reference marker only. Exact houses, camps, battle lines, property boundaries, and ancient roads remain uncertain.",
+      "summary": "In chapter 13 men of Tyre live in Jerusalem. They sell fish and other goods on the Sabbath. Nehemiah shuts the gates.",
+      "limits": "The marker shows the city’s general location.",
       "sourceIds": [
         "web",
         "atlas",
         "atlas-canaan"
       ],
-      "detail": "Merchants from Tyre bring fish and goods to Jerusalem on the Sabbath.",
-      "uncertainty": "Reference marker only. Exact houses, camps, battle lines, property boundaries, and ancient roads remain uncertain.",
+      "detail": "In chapter 13 men of Tyre live in Jerusalem. They sell fish and other goods on the Sabbath. Nehemiah shuts the gates.",
+      "uncertainty": "The marker shows the city’s general location.",
       "chapterLocation": true
     }
   ],
@@ -1371,6 +1615,259 @@
   "ancientRoads": [],
   "regions": [],
   "words": [
+    {
+      "id": "glossary-levites-3-H3881-levites",
+      "label": "Levites",
+      "matches": [
+        "Levites"
+      ],
+      "chapter": 3,
+      "verses": [
+        17
+      ],
+      "hebrew": "לֵוִיִּי",
+      "transliteration": "Lêvîyîy",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "Members of the tribe of Levi. They cared for the tabernacle and later the temple. The priests came from one Levite family, Aaron’s.",
+      "grammar": "This is the dictionary form of Hebrew word H3881. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H3881",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-levites-7-H3881-levites",
+      "label": "Levites",
+      "matches": [
+        "Levites"
+      ],
+      "chapter": 7,
+      "verses": [
+        1,
+        43,
+        73
+      ],
+      "hebrew": "לֵוִיִּי",
+      "transliteration": "Lêvîyîy",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "Members of the tribe of Levi. They cared for the tabernacle and later the temple. The priests came from one Levite family, Aaron’s.",
+      "grammar": "This is the dictionary form of Hebrew word H3881. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H3881",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-levites-8-H3881-levites",
+      "label": "Levites",
+      "matches": [
+        "Levites"
+      ],
+      "chapter": 8,
+      "verses": [
+        7,
+        9,
+        11,
+        13
+      ],
+      "hebrew": "לֵוִיִּי",
+      "transliteration": "Lêvîyîy",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "Members of the tribe of Levi. They cared for the tabernacle and later the temple. The priests came from one Levite family, Aaron’s.",
+      "grammar": "This is the dictionary form of Hebrew word H3881. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H3881",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-levites-9-H3881-levites",
+      "label": "Levites",
+      "matches": [
+        "Levites"
+      ],
+      "chapter": 9,
+      "verses": [
+        4,
+        5,
+        38
+      ],
+      "hebrew": "לֵוִיִּי",
+      "transliteration": "Lêvîyîy",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "Members of the tribe of Levi. They cared for the tabernacle and later the temple. The priests came from one Levite family, Aaron’s.",
+      "grammar": "This is the dictionary form of Hebrew word H3881. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H3881",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-levites-10-H3881-levites",
+      "label": "Levites",
+      "matches": [
+        "Levites"
+      ],
+      "chapter": 10,
+      "verses": [
+        9,
+        28,
+        34,
+        37,
+        38
+      ],
+      "hebrew": "לֵוִיִּי",
+      "transliteration": "Lêvîyîy",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "Members of the tribe of Levi. They cared for the tabernacle and later the temple. The priests came from one Levite family, Aaron’s.",
+      "grammar": "This is the dictionary form of Hebrew word H3881. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H3881",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-levites-11-H3881-levites",
+      "label": "Levites",
+      "matches": [
+        "Levites"
+      ],
+      "chapter": 11,
+      "verses": [
+        3,
+        15,
+        16,
+        18,
+        20,
+        22,
+        36
+      ],
+      "hebrew": "לֵוִיִּי",
+      "transliteration": "Lêvîyîy",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "Members of the tribe of Levi. They cared for the tabernacle and later the temple. The priests came from one Levite family, Aaron’s.",
+      "grammar": "This is the dictionary form of Hebrew word H3881. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H3881",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-levites-12-H3881-levites",
+      "label": "Levites",
+      "matches": [
+        "Levites"
+      ],
+      "chapter": 12,
+      "verses": [
+        1,
+        8,
+        22,
+        24,
+        27,
+        30,
+        44,
+        47
+      ],
+      "hebrew": "לֵוִיִּי",
+      "transliteration": "Lêvîyîy",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "Members of the tribe of Levi. They cared for the tabernacle and later the temple. The priests came from one Levite family, Aaron’s.",
+      "grammar": "This is the dictionary form of Hebrew word H3881. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H3881",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-levites-13-H3881-levites",
+      "label": "Levites",
+      "matches": [
+        "Levites"
+      ],
+      "chapter": 13,
+      "verses": [
+        5,
+        10,
+        13,
+        22,
+        29,
+        30
+      ],
+      "hebrew": "לֵוִיִּי",
+      "transliteration": "Lêvîyîy",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "Members of the tribe of Levi. They cared for the tabernacle and later the temple. The priests came from one Levite family, Aaron’s.",
+      "grammar": "This is the dictionary form of Hebrew word H3881. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H3881",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
     {
       "id": "glossary-levites",
       "label": "Levites",
@@ -1392,7 +1889,93 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-covenant-1-H1285-covenant",
+      "label": "Covenant",
+      "matches": [
+        "covenant"
+      ],
+      "chapter": 1,
+      "verses": [
+        5
+      ],
+      "hebrew": "בְּרִית",
+      "transliteration": "bᵉrîyth",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A binding agreement with promises and duties. In the Bible, God makes covenants with people.",
+      "grammar": "This is the dictionary form of Hebrew word H1285. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H1285",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-covenant-9-H1285-covenant",
+      "label": "Covenant",
+      "matches": [
+        "covenant"
+      ],
+      "chapter": 9,
+      "verses": [
+        8,
+        32
+      ],
+      "hebrew": "בְּרִית",
+      "transliteration": "bᵉrîyth",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A binding agreement with promises and duties. In the Bible, God makes covenants with people.",
+      "grammar": "This is the dictionary form of Hebrew word H1285. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H1285",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-covenant-13-H1285-covenant",
+      "label": "Covenant",
+      "matches": [
+        "covenant"
+      ],
+      "chapter": 13,
+      "verses": [
+        29
+      ],
+      "hebrew": "בְּרִית",
+      "transliteration": "bᵉrîyth",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A binding agreement with promises and duties. In the Bible, God makes covenants with people.",
+      "grammar": "This is the dictionary form of Hebrew word H1285. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H1285",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-covenant",
@@ -1414,7 +1997,126 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-sabbath-10-H7676-sabbaths",
+      "label": "Sabbath",
+      "matches": [
+        "Sabbaths"
+      ],
+      "chapter": 10,
+      "verses": [
+        33
+      ],
+      "hebrew": "שַׁבָּת",
+      "transliteration": "shabbâth",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "The seventh day of the week, kept as a day of rest.",
+      "grammar": "This is the dictionary form of Hebrew word H7676. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H7676",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-sabbath-9-H7676-sabbath",
+      "label": "Sabbath",
+      "matches": [
+        "Sabbath"
+      ],
+      "chapter": 9,
+      "verses": [
+        14
+      ],
+      "hebrew": "שַׁבָּת",
+      "transliteration": "shabbâth",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "The seventh day of the week, kept as a day of rest.",
+      "grammar": "This is the dictionary form of Hebrew word H7676. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H7676",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-sabbath-10-H7676-sabbath",
+      "label": "Sabbath",
+      "matches": [
+        "Sabbath"
+      ],
+      "chapter": 10,
+      "verses": [
+        31
+      ],
+      "hebrew": "שַׁבָּת",
+      "transliteration": "shabbâth",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "The seventh day of the week, kept as a day of rest.",
+      "grammar": "This is the dictionary form of Hebrew word H7676. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H7676",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-sabbath-13-H7676-sabbath",
+      "label": "Sabbath",
+      "matches": [
+        "Sabbath"
+      ],
+      "chapter": 13,
+      "verses": [
+        15,
+        16,
+        17,
+        18,
+        19,
+        21,
+        22
+      ],
+      "hebrew": "שַׁבָּת",
+      "transliteration": "shabbâth",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "The seventh day of the week, kept as a day of rest.",
+      "grammar": "This is the dictionary form of Hebrew word H7676. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H7676",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-sabbath",
@@ -1436,7 +2138,96 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-scribes-8-H5608-scribe",
+      "label": "Scribes",
+      "matches": [
+        "scribe"
+      ],
+      "chapter": 8,
+      "verses": [
+        1,
+        4,
+        9,
+        13
+      ],
+      "hebrew": "סָפַר",
+      "transliteration": "çâphar",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "People trained to write and to keep records. In the Gospels, scribes also teach the law.",
+      "grammar": "This is the dictionary form of Hebrew word H5608. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H5608",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-scribes-12-H5608-scribe",
+      "label": "Scribes",
+      "matches": [
+        "scribe"
+      ],
+      "chapter": 12,
+      "verses": [
+        26,
+        36
+      ],
+      "hebrew": "סָפַר",
+      "transliteration": "çâphar",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "People trained to write and to keep records. In the Gospels, scribes also teach the law.",
+      "grammar": "This is the dictionary form of Hebrew word H5608. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H5608",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-scribes-13-H5608-scribe",
+      "label": "Scribes",
+      "matches": [
+        "scribe"
+      ],
+      "chapter": 13,
+      "verses": [
+        13
+      ],
+      "hebrew": "סָפַר",
+      "transliteration": "çâphar",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "People trained to write and to keep records. In the Gospels, scribes also teach the law.",
+      "grammar": "This is the dictionary form of Hebrew word H5608. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H5608",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-scribes",
@@ -1458,7 +2249,149 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-assembly-5-H6951-assembly",
+      "label": "Assembly",
+      "matches": [
+        "assembly"
+      ],
+      "chapter": 5,
+      "verses": [
+        13
+      ],
+      "hebrew": "קָהָל",
+      "transliteration": "qâhâl",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A gathering of people. In the New Testament letters it means a group of believers. Many translations say “church.”",
+      "grammar": "This is the dictionary form of Hebrew word H6951. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H6951",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-assembly-7-H6951-assembly",
+      "label": "Assembly",
+      "matches": [
+        "assembly"
+      ],
+      "chapter": 7,
+      "verses": [
+        66
+      ],
+      "hebrew": "קָהָל",
+      "transliteration": "qâhâl",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A gathering of people. In the New Testament letters it means a group of believers. Many translations say “church.”",
+      "grammar": "This is the dictionary form of Hebrew word H6951. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H6951",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-assembly-8-H6951-assembly",
+      "label": "Assembly",
+      "matches": [
+        "assembly"
+      ],
+      "chapter": 8,
+      "verses": [
+        2,
+        17
+      ],
+      "hebrew": "קָהָל",
+      "transliteration": "qâhâl",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A gathering of people. In the New Testament letters it means a group of believers. Many translations say “church.”",
+      "grammar": "This is the dictionary form of Hebrew word H6951. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H6951",
+      "language": "hebrew",
+      "chapterDefault": false
+    },
+    {
+      "id": "glossary-assembly-8-H6116-assembly",
+      "label": "Assembly",
+      "matches": [
+        "assembly"
+      ],
+      "chapter": 8,
+      "verses": [
+        18
+      ],
+      "hebrew": "עֲצָרָה",
+      "transliteration": "ʻătsârâh",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A gathering of people. In the New Testament letters it means a group of believers. Many translations say “church.”",
+      "grammar": "This is the dictionary form of Hebrew word H6116. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H6116",
+      "language": "hebrew",
+      "chapterDefault": false
+    },
+    {
+      "id": "glossary-assembly-13-H6951-assembly",
+      "label": "Assembly",
+      "matches": [
+        "assembly"
+      ],
+      "chapter": 13,
+      "verses": [
+        1
+      ],
+      "hebrew": "קָהָל",
+      "transliteration": "qâhâl",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A gathering of people. In the New Testament letters it means a group of believers. Many translations say “church.”",
+      "grammar": "This is the dictionary form of Hebrew word H6951. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H6951",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-assembly",
@@ -1480,7 +2413,36 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-atonement-10-H3722-atonement",
+      "label": "Atonement",
+      "matches": [
+        "atonement"
+      ],
+      "chapter": 10,
+      "verses": [
+        33
+      ],
+      "hebrew": "כָּפַר",
+      "transliteration": "kâphar",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "The covering or removal of guilt, so that people and God are reconciled. Leviticus 16 describes a yearly day for it.",
+      "grammar": "This is the dictionary form of Hebrew word H3722. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H3722",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-atonement",
@@ -1501,7 +2463,92 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-tithe-12-H4643-tithes",
+      "label": "Tithe",
+      "matches": [
+        "tithes"
+      ],
+      "chapter": 12,
+      "verses": [
+        44
+      ],
+      "hebrew": "מַעֲשֵׂר",
+      "transliteration": "maʻăsêr",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A tenth of produce or income given to God.",
+      "grammar": "This is the dictionary form of Hebrew word H4643. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H4643",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-tithe-13-H4643-tithes",
+      "label": "Tithe",
+      "matches": [
+        "tithes"
+      ],
+      "chapter": 13,
+      "verses": [
+        5
+      ],
+      "hebrew": "מַעֲשֵׂר",
+      "transliteration": "maʻăsêr",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A tenth of produce or income given to God.",
+      "grammar": "This is the dictionary form of Hebrew word H4643. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H4643",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-tithe-13-H4643-tithe",
+      "label": "Tithe",
+      "matches": [
+        "tithe"
+      ],
+      "chapter": 13,
+      "verses": [
+        12
+      ],
+      "hebrew": "מַעֲשֵׂר",
+      "transliteration": "maʻăsêr",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A tenth of produce or income given to God.",
+      "grammar": "This is the dictionary form of Hebrew word H4643. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H4643",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-tithe",
@@ -1523,7 +2570,87 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-cherubim",
+      "label": "Cherubim",
+      "matches": [
+        "cherub",
+        "cherubim"
+      ],
+      "chapter": null,
+      "verses": [],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "Winged heavenly beings. Gold figures of them stood over the ark (Exodus 25:18–20).",
+      "grammar": "",
+      "discussion": "",
+      "sourceIds": [
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-urim-7-H8550-thummim",
+      "label": "Urim and Thummim",
+      "matches": [
+        "Thummim"
+      ],
+      "chapter": 7,
+      "verses": [
+        65
+      ],
+      "hebrew": "תֻּמִּים",
+      "transliteration": "Tummîym",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "Objects the high priest used to ask for God’s decision. The Bible does not describe them.",
+      "grammar": "This is the dictionary form of Hebrew word H8550. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H8550",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-urim-7-H224-urim",
+      "label": "Urim and Thummim",
+      "matches": [
+        "Urim"
+      ],
+      "chapter": 7,
+      "verses": [
+        65
+      ],
+      "hebrew": "אוּרִים",
+      "transliteration": "ʼÛwrîym",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "Objects the high priest used to ask for God’s decision. The Bible does not describe them.",
+      "grammar": "This is the dictionary form of Hebrew word H224. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H224",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-urim",
@@ -1545,7 +2672,36 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-sackcloth-9-H8242-sackcloth",
+      "label": "Sackcloth",
+      "matches": [
+        "sackcloth"
+      ],
+      "chapter": 9,
+      "verses": [
+        1
+      ],
+      "hebrew": "שַׂק",
+      "transliteration": "saq",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "Rough cloth worn to show grief or repentance.",
+      "grammar": "This is the dictionary form of Hebrew word H8242. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H8242",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-sackcloth",
@@ -1566,7 +2722,36 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-firstborn-10-H1060-firstborn",
+      "label": "Firstborn",
+      "matches": [
+        "firstborn"
+      ],
+      "chapter": 10,
+      "verses": [
+        36
+      ],
+      "hebrew": "בְּכוֹר",
+      "transliteration": "bᵉkôwr",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "The oldest child. A firstborn son received a double share of the inheritance (Deuteronomy 21:17).",
+      "grammar": "This is the dictionary form of Hebrew word H1060. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H1060",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-firstborn",
@@ -1587,7 +2772,36 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-manna-9-H4478-manna",
+      "label": "Manna",
+      "matches": [
+        "manna"
+      ],
+      "chapter": 9,
+      "verses": [
+        20
+      ],
+      "hebrew": "מָן",
+      "transliteration": "mân",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "The food Israel gathered in the wilderness. Exodus 16 describes it.",
+      "grammar": "This is the dictionary form of Hebrew word H4478. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H4478",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-manna",
@@ -1608,7 +2822,36 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-redeem-1-H6299-redeemed",
+      "label": "Redeem",
+      "matches": [
+        "redeemed"
+      ],
+      "chapter": 1,
+      "verses": [
+        10
+      ],
+      "hebrew": "פָּדָה",
+      "transliteration": "pâdâh",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "To buy back a person or property. The word is also used for God’s rescue of people.",
+      "grammar": "This is the dictionary form of Hebrew word H6299. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H6299",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-redeem",
@@ -1633,7 +2876,8 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
     },
     {
       "id": "glossary-remnant",
@@ -1654,7 +2898,36 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-cubit-3-H520-cubits",
+      "label": "Cubit",
+      "matches": [
+        "cubits"
+      ],
+      "chapter": 3,
+      "verses": [
+        13
+      ],
+      "hebrew": "אַמָּה",
+      "transliteration": "ʼammâh",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A length from the elbow to the fingertip, about 46 centimeters.",
+      "grammar": "This is the dictionary form of Hebrew word H520. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H520",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-cubit",
@@ -1676,7 +2949,64 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-shekel-5-H8255-shekels",
+      "label": "Shekel",
+      "matches": [
+        "shekels"
+      ],
+      "chapter": 5,
+      "verses": [
+        15
+      ],
+      "hebrew": "שֶׁקֶל",
+      "transliteration": "sheqel",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A unit of weight, about 10 grams. Silver was weighed in shekels as money.",
+      "grammar": "This is the dictionary form of Hebrew word H8255. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H8255",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-shekel-10-H8255-shekel",
+      "label": "Shekel",
+      "matches": [
+        "shekel"
+      ],
+      "chapter": 10,
+      "verses": [
+        32
+      ],
+      "hebrew": "שֶׁקֶל",
+      "transliteration": "sheqel",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A unit of weight, about 10 grams. Silver was weighed in shekels as money.",
+      "grammar": "This is the dictionary form of Hebrew word H8255. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H8255",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-shekel",
@@ -1698,7 +3028,8 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
     }
   ],
   "guides": [
@@ -1777,9 +3108,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "Town markers show named places. The city’s gates and individual wall sections are not mapped.",
+      "note": "The points show named towns and regions. Jerusalem’s gates and wall parts are not placed on the map.",
       "narrative": "Nehemiah serves in the Persian fortress of Susa. His brother Hanani arrives with men from Judah. They report that the survivors are in great trouble. Jerusalem’s wall is broken, and its gates are burned. Nehemiah sits down and weeps, fasts, and prays for days. He confesses the sins of Israel, his family, and himself. He recalls God’s promise to gather those who return to him. He asks for favor before the king, whose cupbearer he is.",
-      "limits": "Town markers show named places. The city’s gates and individual wall sections are not mapped.",
+      "limits": "The points show named towns and regions. Jerusalem’s gates and wall parts are not placed on the map.",
       "sourceIds": [
         "web",
         "atlas",
@@ -1803,9 +3134,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "Town markers show named places. The city’s gates and individual wall sections are not mapped.",
+      "note": "The points show named towns and regions. Jerusalem’s gates and wall parts are not placed on the map.",
       "narrative": "Four months later Nehemiah serves wine to the king with a sad face. The king asks why, and Nehemiah is very afraid. He says his fathers’ city lies in ruins. He prays quickly and asks to be sent to rebuild it. He asks for letters to governors and for timber from the king’s forest. The king grants it and sends officers with him. In Jerusalem he inspects the walls by night. He tells the leaders, and they agree to build despite mockery.",
-      "limits": "Town markers show named places. The city’s gates and individual wall sections are not mapped.",
+      "limits": "The points show named towns and regions. Jerusalem’s gates and wall parts are not placed on the map.",
       "sourceIds": [
         "web",
         "atlas",
@@ -1833,9 +3164,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "Town markers show named places. The city’s gates and individual wall sections are not mapped.",
+      "note": "The points show named towns and regions. Jerusalem’s gates and wall parts are not placed on the map.",
       "narrative": "The high priest and his fellow priests rebuild the Sheep Gate. The chapter then moves around the wall section by section. Each group is named with the part it repairs. Goldsmiths, perfume makers, and merchants work beside district rulers. One ruler repairs his section with his daughters. Many people repair the wall opposite their own houses. The men of Tekoa repair two sections. Their nobles, however, refuse to work.",
-      "limits": "Town markers show named places. The city’s gates and individual wall sections are not mapped.",
+      "limits": "The points show named towns and regions. Jerusalem’s gates and wall parts are not placed on the map.",
       "sourceIds": [
         "web",
         "atlas",
@@ -1861,9 +3192,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "Town markers show named places. The city’s gates and individual wall sections are not mapped.",
+      "note": "The points show named towns and regions. Jerusalem’s gates and wall parts are not placed on the map.",
       "narrative": "Sanballat and Tobiah mock the builders and their wall. Nehemiah prays, and the wall rises to half its height. The enemies plot to attack Jerusalem. The people pray and post a guard day and night. Workers grow tired, and neighbors warn of raids ten times. Nehemiah stations families with swords, spears, and bows. Half his men work while half hold weapons. A trumpeter stays beside him, and they work from dawn until the stars appear.",
-      "limits": "Town markers show named places. The city’s gates and individual wall sections are not mapped.",
+      "limits": "The points show named towns and regions. Jerusalem’s gates and wall parts are not placed on the map.",
       "sourceIds": [
         "web",
         "atlas",
@@ -1884,9 +3215,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "Town markers show named places. The city’s gates and individual wall sections are not mapped.",
+      "note": "The points show named towns and regions. Jerusalem’s gates and wall parts are not placed on the map.",
       "narrative": "A great outcry rises from the people and their wives against fellow Jews. Some have pledged fields and houses to buy grain in the famine. Some have borrowed to pay the king’s tax. Their children are being sold as servants. Nehemiah is very angry and accuses the nobles of charging interest. He says the community has been buying back Jews sold abroad. The nobles are silent and then promise to restore everything. As governor Nehemiah refuses the food allowance and feeds many at his own cost.",
-      "limits": "Town markers show named places. The city’s gates and individual wall sections are not mapped.",
+      "limits": "The points show named towns and regions. Jerusalem’s gates and wall parts are not placed on the map.",
       "sourceIds": [
         "web",
         "atlas",
@@ -1908,9 +3239,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "Town markers show named places. The city’s gates and individual wall sections are not mapped.",
+      "note": "The points show named towns and regions. Jerusalem’s gates and wall parts are not placed on the map.",
       "narrative": "The wall is nearly finished, with only the gate doors missing. Sanballat and Geshem invite Nehemiah to a meeting four times, meaning harm. He answers that he is doing a great work and cannot come down. A fifth letter accuses him of planning to be king. A hired prophet urges him to hide inside the temple. Nehemiah refuses and sees the plot. The wall is finished in fifty-two days, and the enemies lose heart. Yet Judah’s nobles keep exchanging letters with Tobiah.",
-      "limits": "Town markers show named places. The city’s gates and individual wall sections are not mapped.",
+      "limits": "The points show named towns and regions. Jerusalem’s gates and wall parts are not placed on the map.",
       "sourceIds": [
         "web",
         "atlas",
@@ -1939,9 +3270,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "Town markers show named places. The city’s gates and individual wall sections are not mapped.",
+      "note": "The points show named towns and regions. Jerusalem’s gates and wall parts are not placed on the map.",
       "narrative": "The wall is built, and the doors are hung. Nehemiah puts his brother Hanani and a trusted commander over Jerusalem. The gates are to stay shut until the sun is hot. Residents stand guard, each near his own house. The city is wide, but few people live in it. God moves Nehemiah to register the people by families. He finds the record of those who first returned. The list of families, numbers, and gifts follows.",
-      "limits": "Town markers show named places. The city’s gates and individual wall sections are not mapped.",
+      "limits": "The points show named towns and regions. Jerusalem’s gates and wall parts are not placed on the map.",
       "sourceIds": [
         "web",
         "atlas",
@@ -1963,9 +3294,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "Town markers show named places. The city’s gates and individual wall sections are not mapped.",
+      "note": "The points show named towns and regions. Jerusalem’s gates and wall parts are not placed on the map.",
       "narrative": "In the seventh month all the people gather at the Water Gate. They ask Ezra to bring the book of the law of Moses. He reads from early morning until noon on a wooden platform. Men, women, and all who can understand listen. Levites explain the reading, and the people weep. The leaders tell them not to grieve, since the day is holy. On the second day they read about the Feast of Booths. They build shelters of branches and keep the feast with great joy.",
-      "limits": "Town markers show named places. The city’s gates and individual wall sections are not mapped.",
+      "limits": "The points show named towns and regions. Jerusalem’s gates and wall parts are not placed on the map.",
       "sourceIds": [
         "web",
         "atlas",
@@ -1988,9 +3319,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "Town markers show named places. The city’s gates and individual wall sections are not mapped.",
+      "note": "The points show named towns and regions. Jerusalem’s gates and wall parts are not placed on the map.",
       "narrative": "On the twenty-fourth day the people fast in sackcloth. They read the law for a quarter of the day and confess for another quarter. The Levites lead a long prayer. It recalls creation, Abraham, Egypt, the sea, Sinai, and the manna. It admits that the fathers rebelled again and again. Each time God was merciful and did not abandon them. The prayer says God has been just and the people have done wrong. They are servants in their own land, so they make a written agreement.",
-      "limits": "Town markers show named places. The city’s gates and individual wall sections are not mapped.",
+      "limits": "The points show named towns and regions. Jerusalem’s gates and wall parts are not placed on the map.",
       "sourceIds": [
         "web",
         "atlas",
@@ -2012,9 +3343,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "Town markers show named places. The city’s gates and individual wall sections are not mapped.",
+      "note": "The points show named towns and regions. Jerusalem’s gates and wall parts are not placed on the map.",
       "narrative": "The agreement is sealed by Nehemiah, the priests, the Levites, and the leaders. The rest of the people join with an oath. They will not marry their children to the peoples of the land. They will not buy on the Sabbath, and they will cancel debts every seventh year. Each will pay a yearly sum for the temple’s service. They cast lots for bringing wood to the altar. They promise firstfruits and tithes for the priests and Levites. They say they will not neglect the house of their God.",
-      "limits": "Town markers show named places. The city’s gates and individual wall sections are not mapped.",
+      "limits": "The points show named towns and regions. Jerusalem’s gates and wall parts are not placed on the map.",
       "sourceIds": [
         "web",
         "atlas",
@@ -2045,9 +3376,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "Town markers show named places. The city’s gates and individual wall sections are not mapped.",
+      "note": "The points show named towns and regions. Jerusalem’s gates and wall parts are not placed on the map.",
       "narrative": "The leaders live in Jerusalem. The other people cast lots to bring one family in ten into the city. The other nine stay in their towns. The people bless those who volunteer to move. The chapter lists the families of Judah and Benjamin who settle there. It lists priests, Levites, gatekeepers, and singers. An official at the king’s side handles the people’s affairs. The villages of Judah and Benjamin are named last.",
-      "limits": "Town markers show named places. The city’s gates and individual wall sections are not mapped.",
+      "limits": "The points show named towns and regions. Jerusalem’s gates and wall parts are not placed on the map.",
       "sourceIds": [
         "web",
         "atlas",
@@ -2068,9 +3399,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "Town markers show named places. The city’s gates and individual wall sections are not mapped.",
+      "note": "The points show named towns and regions. Jerusalem’s gates and wall parts are not placed on the map.",
       "narrative": "The chapter lists the priests and Levites from the first return onward. For the wall’s dedication the Levites and singers are gathered from their villages. Priests and Levites purify themselves, the people, the gates, and the wall. Two large choirs walk along the top of the wall in opposite directions. Ezra leads one, and Nehemiah follows the other. They meet at the temple and sing loudly. The people offer great sacrifices and rejoice. Men are appointed that day over the storerooms for offerings.",
-      "limits": "Town markers show named places. The city’s gates and individual wall sections are not mapped.",
+      "limits": "The points show named towns and regions. Jerusalem’s gates and wall parts are not placed on the map.",
       "sourceIds": [
         "web",
         "atlas",
@@ -2095,9 +3426,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "Town markers show named places. The city’s gates and individual wall sections are not mapped.",
+      "note": "The points show named towns and regions. Jerusalem’s gates and wall parts are not placed on the map.",
       "narrative": "The law is read, and the people separate from foreigners. Nehemiah has been away at the king’s court. On his return he finds Tobiah in a temple storeroom and throws him out. The Levites have not been paid and have gone back to their fields. Traders are selling on the Sabbath, so he shuts the gates. Jews have married women of Ashdod, Ammon, and Moab. He rebukes them harshly and drives out a priest’s son. He ends by asking God to remember him for good.",
-      "limits": "Town markers show named places. The city’s gates and individual wall sections are not mapped.",
+      "limits": "The points show named towns and regions. Jerusalem’s gates and wall parts are not placed on the map.",
       "sourceIds": [
         "web",
         "atlas",

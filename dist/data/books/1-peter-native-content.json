@@ -4,10 +4,10 @@
       "id": "web",
       "title": "1 Peter · World English Bible",
       "url": "https://ebible.org/engwebp/1PE01.htm",
-      "summary": "Complete Scripture supplies the primary text for original close readings.",
+      "summary": "The full text of First Peter is the main text for the close readings.",
       "category": "Scripture",
       "perspective": "historical",
-      "limits": "Peter is the named letter speaker. Historical authorship, dates, Greek forms, manuscripts, exact audience conditions, identity of the imprisoned spirits, and whether Babylon identifies a literal city were not independently verified. No spirit-world or Babylon location is assigned.",
+      "limits": "Peter is the named speaker. Authorship, dates, Greek forms, manuscripts, and the audience’s situation were not checked independently. The identity of the imprisoned spirits was not checked either. Whether Babylon means a real city was not checked. The text assigns no location to the spirits or to Babylon.",
       "author": "World English Bible translators",
       "publisher": "eBible.org",
       "chapterCoverage": [
@@ -22,7 +22,7 @@
         "scope": "All 105 verses read for 5 original contextual explanations and exact selections. Surroundings, counts, and character integrity checked."
       },
       "type": "Scripture",
-      "limitations": "Peter is the named letter speaker. Historical authorship, dates, Greek forms, manuscripts, exact audience conditions, identity of the imprisoned spirits, and whether Babylon identifies a literal city were not independently verified. No spirit-world or Babylon location is assigned.",
+      "limitations": "Peter is the named speaker. Authorship, dates, Greek forms, manuscripts, and the audience’s situation were not checked independently. The identity of the imprisoned spirits was not checked either. Whether Babylon means a real city was not checked. The text assigns no location to the spirits or to Babylon.",
       "license": "Public domain"
     },
     {
@@ -34,8 +34,8 @@
       "year": 2023,
       "category": "LDS Come, Follow Me",
       "perspective": "lds",
-      "summary": "The lesson connects trials, belonging to God, and teaching to the dead.",
-      "limits": "First Peter coverage follows actual discussion of chapters one through four. The spirit-world explanation is Church teaching. The included Christofferson excerpt was read, but the linked full talk, Restoration texts, and Greek meanings were not independently reviewed.",
+      "summary": "The lesson links trials, belonging to God, and teaching to the dead.",
+      "limits": "For First Peter, the lesson covers chapters 1 through 4. Its account of the spirit world is Church teaching. The Christofferson excerpt in the lesson was read. The full linked talk, Restoration texts, and Greek meanings were not reviewed independently.",
       "chapterCoverage": [
         1,
         2,
@@ -47,7 +47,7 @@
         "scope": "Complete lesson body and included resource quotation read. Only actual First Peter discussion supports these chapter references."
       },
       "type": "LDS Come, Follow Me",
-      "limitations": "First Peter coverage follows actual discussion of chapters one through four. The spirit-world explanation is Church teaching. The included Christofferson excerpt was read, but the linked full talk, Restoration texts, and Greek meanings were not independently reviewed.",
+      "limitations": "For First Peter, the lesson covers chapters 1 through 4. Its account of the spirit world is Church teaching. The Christofferson excerpt in the lesson was read. The full linked talk, Restoration texts, and Greek meanings were not reviewed independently.",
       "license": "Linked source. Original guide summaries."
     },
     {
@@ -59,8 +59,8 @@
       "year": 2017,
       "category": "Scholarly study",
       "perspective": "historical",
-      "summary": "Brown reads direct address to bound workers as giving vulnerable hearers a meaningful role.",
-      "limits": "This is Brown's interpretation. Wider household-code history, Greek analysis, precise audience conditions, and cited books were not independently verified. The actual instructions retain unequal power and do not explicitly abolish the relationship.",
+      "summary": "Brown says Peter speaks directly to bound workers. She reads this as giving vulnerable hearers a real role.",
+      "limits": "This is Brown’s own reading. Wider history of household rules and her Greek analysis were not checked independently. The audience’s situation and the books she cites were not checked either. The letter’s instructions keep unequal power. They do not say outright that the relationship should end.",
       "chapterCoverage": [
         2
       ],
@@ -69,8 +69,36 @@
         "scope": "Complete commentary body and four notes read. The guide attributes her emphasis on direct address to vulnerable hearers."
       },
       "type": "Scholarly study",
-      "limitations": "This is Brown's interpretation. Wider household-code history, Greek analysis, precise audience conditions, and cited books were not independently verified. The actual instructions retain unequal power and do not explicitly abolish the relationship.",
+      "limitations": "This is Brown’s own reading. Wider history of household rules and her Greek analysis were not checked independently. The audience’s situation and the books she cites were not checked either. The letter’s instructions keep unequal power. They do not say outright that the relationship should end.",
       "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "strong-greek",
+      "title": "A Concise Dictionary of the Words in the Greek Testament",
+      "author": "James Strong · Open Scriptures XML edition",
+      "year": "1890 / digital edition",
+      "perspective": "historical",
+      "category": "Historical lexicon",
+      "url": "https://github.com/openscriptures/strongs",
+      "summary": "Lists Greek dictionary forms and their possible meanings. Use it with the passage to study a word.",
+      "limits": "This is an older dictionary. Compare its meanings with the passage. A list of meanings alone cannot show which one applies.",
+      "license": "Source XML declares Public Domain. Only selected headwords are used.",
+      "type": "Historical lexicon",
+      "limitations": "This is an older dictionary. Compare its meanings with the passage. A list of meanings alone cannot show which one applies."
+    },
+    {
+      "id": "byz",
+      "title": "The New Testament in the Original Greek: Byzantine Textform",
+      "author": "Maurice A. Robinson and William G. Pierpont",
+      "year": "2018 digital edition",
+      "perspective": "historical",
+      "category": "Greek text",
+      "url": "https://github.com/byztxt/byzantine-majority-text",
+      "summary": "Provides a Greek New Testament text with dictionary numbers. This study guide uses these to check selected words against their verses.",
+      "limits": "The app checks selected words, not every English–Greek match. It shows Greek dictionary forms. The forms in the verses can differ. Other Greek editions differ in some verses.",
+      "license": "Public domain.",
+      "type": "Greek text",
+      "limitations": "The app checks selected words, not every English–Greek match. It shows Greek dictionary forms. The forms in the verses can differ. Other Greek editions differ in some verses."
     }
   ],
   "passages": [
@@ -83,7 +111,7 @@
       "summary": "Peter writes to chosen exiles in Pontus, Galatia, Cappadocia, Asia, and Bithynia. He blesses God for a living hope through the resurrection of Jesus Christ. An inheritance is kept in heaven for them. For a little while trials grieve them and test their faith like gold. The prophets searched for this salvation. The readers are to be holy, for they were redeemed with Christ’s precious blood. They are to love one another from the heart. They were born again through God’s word, which remains forever.",
       "year": null,
       "dateLabel": "Book order",
-      "uncertainty": "No exact location is assigned to unnamed or heavenly settings.",
+      "uncertainty": "The map gives no exact location to the unnamed or heavenly settings in First Peter.",
       "placeIds": [],
       "sourceIds": [
         "web"
@@ -112,7 +140,7 @@
       "summary": "Peter tells them to put away malice and to long for pure milk. They come to Christ, a living stone, and are built into a spiritual house. They are a chosen race, a royal priesthood, and a holy nation. They once were not a people and now are God’s people. As foreigners they should live well among the Gentiles. They should be subject to kings and governors for the Lord’s sake. Servants should be subject even to harsh masters. Christ suffered for them and left an example.",
       "year": null,
       "dateLabel": "Book order",
-      "uncertainty": "No exact location is assigned to unnamed or heavenly settings.",
+      "uncertainty": "The map gives no exact location to the unnamed or heavenly settings in First Peter.",
       "placeIds": [],
       "sourceIds": [
         "web",
@@ -142,7 +170,7 @@
       "summary": "Wives are told to be subject to their husbands and to value a gentle spirit. Husbands are told to honor their wives as joint heirs of life. All should be compassionate and not repay evil for evil. Peter quotes a psalm about seeking peace. If they suffer for righteousness, they are blessed. They should be ready to answer anyone who asks about their hope. Christ suffered once, the righteous for the unrighteous. He spoke to the spirits in prison, and baptism now saves.",
       "year": null,
       "dateLabel": "Book order",
-      "uncertainty": "No exact location is assigned to unnamed or heavenly settings.",
+      "uncertainty": "The map gives no exact location to the unnamed or heavenly settings in First Peter.",
       "placeIds": [],
       "sourceIds": [
         "web"
@@ -171,7 +199,7 @@
       "summary": "Peter says Christ suffered in the flesh, and the readers should have the same mind. They have spent enough time in the ways of the Gentiles. Former companions think it strange and speak evil of them. The end of all things is near, so they should be sober and pray. Above all they should love one another earnestly, for love covers many sins. They should be hospitable without grumbling and use their gifts to serve. They should not be surprised at the fiery trial. If anyone suffers as a Christian, he should not be ashamed.",
       "year": null,
       "dateLabel": "Book order",
-      "uncertainty": "No exact location is assigned to unnamed or heavenly settings.",
+      "uncertainty": "The map gives no exact location to the unnamed or heavenly settings in First Peter.",
       "placeIds": [],
       "sourceIds": [
         "web"
@@ -200,7 +228,7 @@
       "summary": "Peter writes to the elders as a fellow elder who saw Christ’s sufferings. They are to shepherd God’s flock willingly, not for gain. They are not to lord it over the flock but to be examples. When the chief Shepherd appears, they will receive a crown of glory. The younger should be subject to the elder, and all should be humble. They should cast their worries on God, who cares for them. The devil prowls like a roaring lion, and they should resist him. Peter writes through Silvanus and sends greetings from Babylon and from Mark.",
       "year": null,
       "dateLabel": "Book order",
-      "uncertainty": "No exact location is assigned to unnamed or heavenly settings.",
+      "uncertainty": "The map gives no exact location to the unnamed or heavenly settings in First Peter.",
       "placeIds": [],
       "sourceIds": [
         "web"
@@ -229,7 +257,7 @@
       "summary": "Peter writes to chosen exiles in Pontus, Galatia, Cappadocia, Asia, and Bithynia. He blesses God for a living hope through the resurrection of Jesus Christ. An inheritance is kept in heaven for them. For a little while trials grieve them and test their faith like gold. The prophets searched for this salvation. The readers are to be holy, for they were redeemed with Christ’s precious blood. They are to love one another from the heart. They were born again through God’s word, which remains forever.",
       "detail": "Verses 18–19 say the readers were redeemed with the blood of Christ. Verse 22 says they have purified their souls by obeying the truth. That purifying has an aim stated in the verse: sincere brotherly affection. Then the command follows: love one another from the heart, fervently. Verse 23 gives the ground for it. They were born again of seed that does not perish. Verses 24–25 contrast that with grass, which withers.",
       "dateLabel": "Book order",
-      "uncertainty": "No exact location is assigned to unnamed or heavenly settings.",
+      "uncertainty": "The map gives no exact location to the unnamed or heavenly settings in First Peter.",
       "sourceIds": [
         "web"
       ],
@@ -250,7 +278,7 @@
       "summary": "Peter tells them to put away malice and to long for pure milk. They come to Christ, a living stone, and are built into a spiritual house. They are a chosen race, a royal priesthood, and a holy nation. They once were not a people and now are God’s people. As foreigners they should live well among the Gentiles. They should be subject to kings and governors for the Lord’s sake. Servants should be subject even to harsh masters. Christ suffered for them and left an example.",
       "detail": "Verse 18 tells servants to submit even to harsh masters. Verse 20 says there is no credit in bearing a deserved beating. Bearing unjust suffering is what God commends. Verse 21 gives Christ as the example for that case. Verse 23 says what he did not do: he did not curse back or threaten. He entrusted himself to the one who judges justly. Verse 24 adds that he bore our sins in his body on the tree.",
       "dateLabel": "Book order",
-      "uncertainty": "No exact location is assigned to unnamed or heavenly settings.",
+      "uncertainty": "The map gives no exact location to the unnamed or heavenly settings in First Peter.",
       "sourceIds": [
         "web",
         "brown-peter"
@@ -272,7 +300,7 @@
       "summary": "Wives are told to be subject to their husbands and to value a gentle spirit. Husbands are told to honor their wives as joint heirs of life. All should be compassionate and not repay evil for evil. Peter quotes a psalm about seeking peace. If they suffer for righteousness, they are blessed. They should be ready to answer anyone who asks about their hope. Christ suffered once, the righteous for the unrighteous. He spoke to the spirits in prison, and baptism now saves.",
       "detail": "Verse 15 tells them to be ready with an answer about their hope. It adds the manner: with humility and fear. Verse 16 adds a third condition, a good conscience. The reason is practical. They are being spoken against as evildoers. A good way of life disappoints those who curse it. Verse 17 says suffering for doing good is better than for doing evil.",
       "dateLabel": "Book order",
-      "uncertainty": "No exact location is assigned to unnamed or heavenly settings.",
+      "uncertainty": "The map gives no exact location to the unnamed or heavenly settings in First Peter.",
       "sourceIds": [
         "web"
       ],
@@ -293,7 +321,7 @@
       "summary": "Peter says Christ suffered in the flesh, and the readers should have the same mind. They have spent enough time in the ways of the Gentiles. Former companions think it strange and speak evil of them. The end of all things is near, so they should be sober and pray. Above all they should love one another earnestly, for love covers many sins. They should be hospitable without grumbling and use their gifts to serve. They should not be surprised at the fiery trial. If anyone suffers as a Christian, he should not be ashamed.",
       "detail": "Verse 4 says former companions now speak evil of the readers. The next verses turn to life inside the group. Verse 8 asks for earnest love, and verse 9 for hospitality without grumbling. Verse 10 gives the rule for every member. Each has received a gift and is to use it to serve others. The verse calls them managers of God’s grace, which takes many forms. Verse 11 names two kinds of gift: speaking and serving.",
       "dateLabel": "Book order",
-      "uncertainty": "No exact location is assigned to unnamed or heavenly settings.",
+      "uncertainty": "The map gives no exact location to the unnamed or heavenly settings in First Peter.",
       "sourceIds": [
         "web"
       ],
@@ -314,7 +342,7 @@
       "summary": "Peter writes to the elders as a fellow elder who saw Christ’s sufferings. They are to shepherd God’s flock willingly, not for gain. They are not to lord it over the flock but to be examples. When the chief Shepherd appears, they will receive a crown of glory. The younger should be subject to the elder, and all should be humble. They should cast their worries on God, who cares for them. The devil prowls like a roaring lion, and they should resist him. Peter writes through Silvanus and sends greetings from Babylon and from Mark.",
       "detail": "Verse 2 gives three contrasts for elders, and verse 3 is the third. They serve willingly, not under pressure. They serve eagerly, not for dishonest gain. They lead by example, not by lording it over the flock. The flock is called “those entrusted to you,” so it is not theirs. Verse 4 names the chief Shepherd, who will appear. Verse 5 then asks humility of everyone, elders included.",
       "dateLabel": "Book order",
-      "uncertainty": "No exact location is assigned to unnamed or heavenly settings.",
+      "uncertainty": "The map gives no exact location to the unnamed or heavenly settings in First Peter.",
       "sourceIds": [
         "web"
       ],
@@ -330,6 +358,35 @@
   "ancientRoads": [],
   "regions": [],
   "words": [
+    {
+      "id": "glossary-gentiles-4-G1484-gentiles",
+      "label": "Gentiles",
+      "matches": [
+        "Gentiles"
+      ],
+      "chapter": 4,
+      "verses": [
+        3
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "ἔθνος",
+      "greekNote": "",
+      "meaning": "People of nations other than Israel.",
+      "grammar": "This is the dictionary form of Greek word G1484. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G1484",
+      "language": "greek",
+      "greekTransliteration": "éthnos",
+      "chapterDefault": true
+    },
     {
       "id": "glossary-gentiles",
       "label": "Gentiles",
@@ -350,7 +407,37 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "greek"
+    },
+    {
+      "id": "glossary-apostles-1-G652-apostle",
+      "label": "Apostles",
+      "matches": [
+        "apostle"
+      ],
+      "chapter": 1,
+      "verses": [
+        1
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "ἀπόστολος",
+      "greekNote": "",
+      "meaning": "People sent out with a message. In the Gospels the word names twelve whom Jesus chose.",
+      "grammar": "This is the dictionary form of Greek word G652. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G652",
+      "language": "greek",
+      "greekTransliteration": "apóstolos",
+      "chapterDefault": true
     },
     {
       "id": "glossary-apostles",
@@ -372,7 +459,37 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "greek"
+    },
+    {
+      "id": "glossary-redeem-1-G3084-redeemed",
+      "label": "Redeem",
+      "matches": [
+        "redeemed"
+      ],
+      "chapter": 1,
+      "verses": [
+        18
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "λυτρόω",
+      "greekNote": "",
+      "meaning": "To buy back a person or property. The word is also used for God’s rescue of people.",
+      "grammar": "This is the dictionary form of Greek word G3084. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G3084",
+      "language": "greek",
+      "greekTransliteration": "lytróō",
+      "chapterDefault": true
     },
     {
       "id": "glossary-redeem",
@@ -397,7 +514,37 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "greek"
+    },
+    {
+      "id": "glossary-zion-2-G4622-zion",
+      "label": "Zion",
+      "matches": [
+        "Zion"
+      ],
+      "chapter": 2,
+      "verses": [
+        6
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "Σιών",
+      "greekNote": "",
+      "meaning": "A hill in Jerusalem. The name is also used for the city and its people.",
+      "grammar": "This is the dictionary form of Greek word G4622. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G4622",
+      "language": "greek",
+      "greekTransliteration": "Siṓn",
+      "chapterDefault": true
     },
     {
       "id": "glossary-zion",
@@ -418,7 +565,37 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "greek"
+    },
+    {
+      "id": "glossary-bondservant-2-G1401-bondservants",
+      "label": "Bondservant",
+      "matches": [
+        "bondservants"
+      ],
+      "chapter": 2,
+      "verses": [
+        16
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "δοῦλος",
+      "greekNote": "",
+      "meaning": "A slave or bound servant.",
+      "grammar": "This is the dictionary form of Greek word G1401. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G1401",
+      "language": "greek",
+      "greekTransliteration": "doûlos",
+      "chapterDefault": true
     },
     {
       "id": "glossary-bondservant",
@@ -440,7 +617,8 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "greek"
     }
   ],
   "guides": [
@@ -521,9 +699,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "No exact location is assigned to unnamed or heavenly settings.",
+      "note": "The map gives no exact location to the unnamed or heavenly settings in First Peter.",
       "narrative": "Peter writes to chosen exiles in Pontus, Galatia, Cappadocia, Asia, and Bithynia. He blesses God for a living hope through the resurrection of Jesus Christ. An inheritance is kept in heaven for them. For a little while trials grieve them and test their faith like gold. The prophets searched for this salvation. The readers are to be holy, for they were redeemed with Christ’s precious blood. They are to love one another from the heart. They were born again through God’s word, which remains forever.",
-      "limits": "No exact location is assigned to unnamed or heavenly settings.",
+      "limits": "The map gives no exact location to the unnamed or heavenly settings in First Peter.",
       "sourceIds": [
         "web"
       ]
@@ -537,9 +715,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "No exact location is assigned to unnamed or heavenly settings.",
+      "note": "The map gives no exact location to the unnamed or heavenly settings in First Peter.",
       "narrative": "Peter tells them to put away malice and to long for pure milk. They come to Christ, a living stone, and are built into a spiritual house. They are a chosen race, a royal priesthood, and a holy nation. They once were not a people and now are God’s people. As foreigners they should live well among the Gentiles. They should be subject to kings and governors for the Lord’s sake. Servants should be subject even to harsh masters. Christ suffered for them and left an example.",
-      "limits": "No exact location is assigned to unnamed or heavenly settings.",
+      "limits": "The map gives no exact location to the unnamed or heavenly settings in First Peter.",
       "sourceIds": [
         "web",
         "brown-peter"
@@ -554,9 +732,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "No exact location is assigned to unnamed or heavenly settings.",
+      "note": "The map gives no exact location to the unnamed or heavenly settings in First Peter.",
       "narrative": "Wives are told to be subject to their husbands and to value a gentle spirit. Husbands are told to honor their wives as joint heirs of life. All should be compassionate and not repay evil for evil. Peter quotes a psalm about seeking peace. If they suffer for righteousness, they are blessed. They should be ready to answer anyone who asks about their hope. Christ suffered once, the righteous for the unrighteous. He spoke to the spirits in prison, and baptism now saves.",
-      "limits": "No exact location is assigned to unnamed or heavenly settings.",
+      "limits": "The map gives no exact location to the unnamed or heavenly settings in First Peter.",
       "sourceIds": [
         "web"
       ]
@@ -570,9 +748,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "No exact location is assigned to unnamed or heavenly settings.",
+      "note": "The map gives no exact location to the unnamed or heavenly settings in First Peter.",
       "narrative": "Peter says Christ suffered in the flesh, and the readers should have the same mind. They have spent enough time in the ways of the Gentiles. Former companions think it strange and speak evil of them. The end of all things is near, so they should be sober and pray. Above all they should love one another earnestly, for love covers many sins. They should be hospitable without grumbling and use their gifts to serve. They should not be surprised at the fiery trial. If anyone suffers as a Christian, he should not be ashamed.",
-      "limits": "No exact location is assigned to unnamed or heavenly settings.",
+      "limits": "The map gives no exact location to the unnamed or heavenly settings in First Peter.",
       "sourceIds": [
         "web"
       ]
@@ -586,9 +764,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "No exact location is assigned to unnamed or heavenly settings.",
+      "note": "The map gives no exact location to the unnamed or heavenly settings in First Peter.",
       "narrative": "Peter writes to the elders as a fellow elder who saw Christ’s sufferings. They are to shepherd God’s flock willingly, not for gain. They are not to lord it over the flock but to be examples. When the chief Shepherd appears, they will receive a crown of glory. The younger should be subject to the elder, and all should be humble. They should cast their worries on God, who cares for them. The devil prowls like a roaring lion, and they should resist him. Peter writes through Silvanus and sends greetings from Babylon and from Mark.",
-      "limits": "No exact location is assigned to unnamed or heavenly settings.",
+      "limits": "The map gives no exact location to the unnamed or heavenly settings in First Peter.",
       "sourceIds": [
         "web"
       ]

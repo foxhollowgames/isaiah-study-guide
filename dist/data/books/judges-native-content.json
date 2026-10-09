@@ -7,9 +7,9 @@
       "summary": "The public-domain reading text supplies all 21 chapters.",
       "category": "Scripture",
       "perspective": "historical",
-      "limits": "The text supplies the narrated events and named people. It does not independently verify dates or each historical claim.",
+      "limits": "The text supplies the events and named people. It cannot confirm dates or each historical claim.",
       "type": "Scripture",
-      "limitations": "The text supplies the narrated events and named people. It does not independently verify dates or each historical claim.",
+      "limitations": "The text supplies the events and named people. It cannot confirm dates or each historical claim.",
       "license": "Public domain"
     },
     {
@@ -31,9 +31,9 @@
       "category": "Geography",
       "url": "https://www.churchofjesuschrist.org/study/scriptures/bible-maps/map-10?lang=eng",
       "summary": "This Church-published atlas identifies towns and regions in Canaan.",
-      "limits": "Coordinates are display estimates. A town marker does not verify each Genesis event.",
+      "limits": "Coordinates are display estimates. A town marker does not confirm an event at that town.",
       "type": "Geography",
-      "limitations": "Coordinates are display estimates. A town marker does not verify each Genesis event.",
+      "limitations": "Coordinates are display estimates. A town marker does not confirm an event at that town.",
       "license": "Linked source. Original guide summaries."
     },
     {
@@ -43,9 +43,9 @@
       "category": "Geography",
       "url": "https://registry.opendata.aws/terrain-tiles/",
       "summary": "Cached terrain shows modern elevation. Natural Earth supplies the land and water outlines.",
-      "limits": "Modern terrain is a geographic aid. It does not reconstruct ancient shorelines or settlements.",
+      "limits": "Modern terrain is a map aid. It does not show ancient shorelines or towns.",
       "type": "Geography",
-      "limitations": "Modern terrain is a geographic aid. It does not reconstruct ancient shorelines or settlements.",
+      "limitations": "Modern terrain is a map aid. It does not show ancient shorelines or towns.",
       "license": "Linked source. Original guide summaries."
     },
     {
@@ -55,31 +55,31 @@
       "summary": "The Church-published map marks a traditional route and several uncertain sites.",
       "category": "Geography",
       "perspective": "historical",
-      "limits": "The displayed route is a study tradition. It does not establish a verified sea crossing or Sinai site.",
+      "limits": "The route shown is a study tradition. It does not prove a sea crossing or a Sinai site.",
       "type": "Geography",
-      "limitations": "The displayed route is a study tradition. It does not establish a verified sea crossing or Sinai site.",
+      "limitations": "The route shown is a study tradition. It does not prove a sea crossing or a Sinai site.",
       "license": "Linked source. Original guide summaries."
     },
     {
       "id": "yale-13",
       "title": "The Deuteronomistic History: Prophets and Kings · Judges section",
       "url": "https://oyc.yale.edu/religious-studies/rlst-145/lecture-13",
-      "summary": "Hayes studies local leaders, the repeated crisis pattern, competing views of kingship, and the violence of the closing chapters.",
+      "summary": "Hayes studies local leaders and the repeated crisis pattern. She also covers competing views of kingship and the violence of the closing chapters.",
       "category": "Scholarly study",
       "perspective": "historical",
-      "limits": "The reviewed section is a 2006 lecture interpretation. Proposed source layers and dates are not independently verified here.",
+      "limits": "The reviewed section is a 2006 lecture interpretation. This guide did not check its proposed source layers and dates.",
       "author": "Christine Hayes",
       "year": "Fall 2006 course",
       "reviewed": "2026-10-05: Published transcript sections on the tribal setting and Judges, approximately 1:53–23:05, reviewed.",
       "type": "Scholarly study",
-      "limitations": "The reviewed section is a 2006 lecture interpretation. Proposed source layers and dates are not independently verified here.",
+      "limitations": "The reviewed section is a 2006 lecture interpretation. This guide did not check its proposed source layers and dates.",
       "license": "Linked source. Original guide summaries."
     },
     {
       "id": "sbl-gender",
       "title": "Reading Gender in Judges: An Intertextual Approach",
       "url": "https://cart.sbl-site.org/books/0603109C",
-      "summary": "The volume studies how gender, social position, and relationships with other biblical texts shape readings of Judges.",
+      "summary": "The volume studies gender and social position in Judges. It also studies how links to other biblical texts shape readings.",
       "category": "Scholarly study",
       "perspective": "historical",
       "limits": "Publisher description, editor affiliations, and the indexed opening introduction excerpt were reviewed. The full volume and individual essays were not read.",
@@ -102,17 +102,17 @@
       "id": "net-judges-18",
       "title": "NET Bible · Judges 18:30 textual note",
       "url": "https://classic.net.bible.org/passage.php?mode=print&passage=Jdg+18%3A30",
-      "summary": "The translators compare Moses and Manasseh readings in Jonathan’s genealogy. They prefer Moses and discuss a suspended letter in Hebrew manuscripts.",
+      "summary": "The translators compare the Moses and Manasseh readings in Jonathan’s family line. They prefer Moses. They discuss a suspended letter in Hebrew manuscripts.",
       "category": "Scholarly study",
       "perspective": "historical",
-      "limits": "The published textual note was reviewed. Its explanation of scribal intention is an editorial judgment, not a complete manuscript review by this guide.",
+      "limits": "The published textual note was reviewed. Its account of the scribes’ purpose is an editorial judgment. This guide did not review the manuscripts in full.",
       "author": "NET Bible translation team",
       "reviewed": "2026-10-05: Published reading and textual note 3 reviewed.",
       "chapterCoverage": [
         18
       ],
       "type": "Scholarly study",
-      "limitations": "The published textual note was reviewed. Its explanation of scribal intention is an editorial judgment, not a complete manuscript review by this guide.",
+      "limitations": "The published textual note was reviewed. Its account of the scribes’ purpose is an editorial judgment. This guide did not review the manuscripts in full.",
       "license": "Linked source. Original guide summaries."
     },
     {
@@ -180,7 +180,7 @@
       "url": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/22?lang=eng",
       "summary": "The lesson studies repeated repentance, Deborah’s influence, trust through Gideon’s experience, and Samson’s covenant conduct.",
       "reviewed": "2026-10-05: Official lesson heading, selected chapter coverage, and relevant study sections reviewed.",
-      "limits": "This is Church teaching and application. It does not independently establish archaeological evidence or event dates.",
+      "limits": "This is Church teaching and application. It does not supply archaeological evidence or event dates.",
       "license": "Linked official Church lesson. Original guide summary.",
       "chapterCoverage": [
         2,
@@ -195,7 +195,7 @@
         16
       ],
       "type": "LDS study manual",
-      "limitations": "This is Church teaching and application. It does not independently establish archaeological evidence or event dates."
+      "limitations": "This is Church teaching and application. It does not supply archaeological evidence or event dates."
     },
     {
       "id": "wiki-judges",
@@ -208,7 +208,7 @@
       "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1376864244",
       "summary": "Judges combines local deliverance accounts with a repeated crisis pattern. Its closing episodes concern a shrine, migration, and conflict within Israel.",
       "reviewed": "2026-10-05: Opening overview and book structure reviewed. These notes make no claim about exact composition dates.",
-      "limits": "Anyone can edit this source. Use it for background and source discovery. Its disputed historical claims require separate scholarly review.",
+      "limits": "Anyone can edit this source. Use it for background and to find other sources. Its disputed history claims need separate scholarly review.",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
       "chapterCoverage": [
@@ -218,7 +218,7 @@
         21
       ],
       "type": "Encyclopedia background",
-      "limitations": "Anyone can edit this source. Use it for background and source discovery. Its disputed historical claims require separate scholarly review."
+      "limitations": "Anyone can edit this source. Use it for background and to find other sources. Its disputed history claims need separate scholarly review."
     },
     {
       "id": "dm-judges",
@@ -231,13 +231,41 @@
       "url": "https://danielomcclellan.wordpress.com/2013/01/07/the-song-of-deborah-and-the-rise-of-israel/",
       "summary": "McClellan studies participating and absent tribes in Judges 5. He proposes that the song preserves an earlier pattern of cooperation among groups.",
       "reviewed": "2026-10-05: Original post reviewed. Its proposed dates and reconstruction of early Israel were not independently verified.",
-      "limits": "This is one scholar’s older interpretation. The guide does not adopt its speculative link between Sisera’s name and Ramses II or treat it as a verified event date.",
+      "limits": "This is one scholar’s older interpretation. It makes a speculative link between Sisera’s name and Ramses II. This guide leaves that link out and takes no event date from it.",
       "license": "Linked original post. Original guide summary.",
       "chapterCoverage": [
         5
       ],
       "type": "Scholar commentary",
-      "limitations": "This is one scholar’s older interpretation. The guide does not adopt its speculative link between Sisera’s name and Ramses II or treat it as a verified event date."
+      "limitations": "This is one scholar’s older interpretation. It makes a speculative link between Sisera’s name and Ramses II. This guide leaves that link out and takes no event date from it."
+    },
+    {
+      "id": "strong",
+      "title": "A Concise Dictionary of the Words in the Hebrew Bible",
+      "author": "James Strong · Open Scriptures XML edition",
+      "year": "1894 / digital edition",
+      "perspective": "historical",
+      "category": "Historical lexicon",
+      "url": "https://github.com/openscriptures/strongs",
+      "summary": "Lists Hebrew dictionary forms and their possible meanings. Use it with the passage to study a word.",
+      "limits": "This is an older dictionary. Compare its meanings with the passage. A list of meanings alone cannot show which one applies.",
+      "license": "Source XML declares Public Domain. Only selected headwords are used.",
+      "type": "Historical lexicon",
+      "limitations": "This is an older dictionary. Compare its meanings with the passage. A list of meanings alone cannot show which one applies."
+    },
+    {
+      "id": "oshb",
+      "title": "Open Scriptures Hebrew Bible",
+      "author": "Open Scriptures contributors / Westminster Leningrad Codex",
+      "year": "Digital edition",
+      "perspective": "historical",
+      "category": "Hebrew text",
+      "url": "https://hb.openscriptures.org/",
+      "summary": "Provides the Hebrew text and word identifiers. This study guide uses these to check selected words against their verses.",
+      "limits": "The app checks selected words, not every English–Hebrew match. It shows Hebrew dictionary forms. The forms in the verses can differ.",
+      "license": "Hebrew text public domain; lemma/morphology data CC BY 4.0. Original work of the Open Scriptures Hebrew Bible, https://hb.openscriptures.org/.",
+      "type": "Hebrew text",
+      "limitations": "The app checks selected words, not every English–Hebrew match. It shows Hebrew dictionary forms. The forms in the verses can differ."
     }
   ],
   "passages": [
@@ -250,7 +278,7 @@
       "summary": "After Joshua dies, Israel asks the LORD who should fight first. Judah goes up with Simeon and defeats Adoni-Bezek. Caleb’s daughter Achsah again receives her springs. Judah takes the hill country but cannot drive out the plain’s iron chariots. Benjamin does not drive the Jebusites from Jerusalem. Joseph’s house takes Bethel with help from a man of the city. Manasseh, Ephraim, Zebulun, Asher, and Naphtali leave Canaanites in their towns. When Israel grows strong, it puts them to forced labor.",
       "year": null,
       "dateLabel": "Chapter order · historical year uncertain",
-      "uncertainty": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "uncertainty": "The points show the towns and regions the chapter names. Many locations are approximate.",
       "placeIds": [
         "canaan",
         "hebron",
@@ -289,7 +317,7 @@
       "summary": "The LORD’s angel comes to Bochim and says Israel has not obeyed. So the nations will stay as thorns and their gods as a snare. The people weep. The account then looks back: Israel served the LORD while Joshua and the elders lived. A new generation arose that did not know the LORD or his works. They served the Baals, and the LORD gave them to raiders. He raised up judges to save them, but after each judge they turned back. So the LORD left the nations to test Israel.",
       "year": null,
       "dateLabel": "Chapter order · historical year uncertain",
-      "uncertainty": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "uncertainty": "The points show the towns and regions the chapter names. Many locations are approximate.",
       "placeIds": [
         "canaan",
         "gilgal"
@@ -325,7 +353,7 @@
       "summary": "The LORD leaves several nations to test Israel. Israel marries among them and serves their gods. A king of Mesopotamia rules them eight years, and Othniel, of Caleb’s family, saves them. Then Eglon king of Moab rules Israel eighteen years. The LORD raises up Ehud, a left-handed man of Benjamin. Ehud hides a sword on his right thigh and kills Eglon in private. He escapes, calls Israel to fight, and Moab is subdued. Shamgar later kills six hundred Philistines with an ox goad.",
       "year": null,
       "dateLabel": "Chapter order · historical year uncertain",
-      "uncertainty": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "uncertainty": "The points show the towns and regions the chapter names. Many locations are approximate.",
       "placeIds": [
         "canaan",
         "moab",
@@ -362,7 +390,7 @@
       "summary": "Israel does evil again, and Jabin king of Canaan oppresses them twenty years. His general Sisera has nine hundred iron chariots. Deborah, a prophetess, judges Israel under a palm tree. She tells Barak that the LORD commands him to gather ten thousand men. Barak will go only if she goes with him. She agrees but says a woman will get the honor. The LORD routs Sisera’s army, and Sisera flees on foot to Jael’s tent. Jael gives him milk and kills him with a tent peg as he sleeps.",
       "year": null,
       "dateLabel": "Chapter order · historical year uncertain",
-      "uncertainty": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "uncertainty": "The points show the towns and regions the chapter names. Many locations are approximate.",
       "placeIds": [
         "hazor",
         "tabor",
@@ -399,7 +427,7 @@
       "summary": "Deborah and Barak sing after the victory. They praise leaders and people who offered themselves willingly. The song recalls empty roads and villages before Deborah arose. It praises the tribes that came: Ephraim, Benjamin, Zebulun, Issachar, and Naphtali. It asks why Reuben, Gilead, Dan, and Asher stayed home. The stars and the river Kishon fought against Sisera. Jael is called most blessed of women for killing him. The song ends with Sisera’s mother waiting at her window for him.",
       "year": null,
       "dateLabel": "Chapter order · historical year uncertain",
-      "uncertainty": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "uncertainty": "The points show the towns and regions the chapter names. Many locations are approximate.",
       "placeIds": [
         "tabor",
         "kishon",
@@ -435,7 +463,7 @@
       "summary": "Midian raids Israel for seven years and strips the land at harvest. Israel cries out, and a prophet reminds them they did not listen. The LORD’s angel finds Gideon threshing wheat in a winepress to hide it. He calls Gideon a mighty man and sends him to save Israel. Gideon says his family is the poorest and he is the least. At night he tears down his father’s altar to Baal. His father Joash tells the angry town to let Baal defend himself. Gideon gathers an army and twice asks for a sign with a fleece.",
       "year": null,
       "dateLabel": "Chapter order · historical year uncertain",
-      "uncertainty": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "uncertainty": "The points show the towns and regions the chapter names. Many locations are approximate.",
       "placeIds": [
         "ophrah",
         "jezreel"
@@ -470,7 +498,7 @@
       "summary": "Gideon camps with thirty-two thousand men. The LORD says they are too many, or Israel will boast that it saved itself. The fearful go home, and ten thousand remain. At the water the LORD keeps only the three hundred who lap from their hands. Gideon sneaks to the enemy camp and hears a man tell a dream of defeat. He gives each man a trumpet, a jar, and a torch. At night they blow, break the jars, and shout. The Midianites turn on each other and flee.",
       "year": null,
       "dateLabel": "Chapter order · historical year uncertain",
-      "uncertainty": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "uncertainty": "The points show the towns and regions the chapter names. Many locations are approximate.",
       "placeIds": [
         "jezreel",
         "jordan"
@@ -505,7 +533,7 @@
       "summary": "Ephraim complains at being called late, and Gideon calms them with praise. He chases two Midianite kings across the Jordan with his tired three hundred. Succoth and Penuel refuse him bread. He captures the kings, then punishes Succoth’s elders and kills the men of Penuel. He kills the two kings for the death of his brothers. Israel asks him to rule, and he says the LORD will rule. But he collects gold earrings and makes an ephod that Israel worships. After his death Israel turns to the Baals and forgets his family.",
       "year": null,
       "dateLabel": "Chapter order · historical year uncertain",
-      "uncertainty": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "uncertainty": "The points show the towns and regions the chapter names. Many locations are approximate.",
       "placeIds": [
         "succoth",
         "penuel",
@@ -541,7 +569,7 @@
       "summary": "Abimelech, Gideon’s son by a woman of Shechem, asks Shechem to make him ruler. They give him silver, and he hires men and kills his seventy brothers. Only the youngest, Jotham, escapes. Jotham shouts a story from Mount Gerizim about trees choosing a king. The olive, fig, and vine refuse, and the bramble accepts. Three years later Shechem turns against Abimelech. He destroys the city and burns its tower with the people inside. At Thebez a woman drops a millstone on his head, and he dies.",
       "year": null,
       "dateLabel": "Chapter order · historical year uncertain",
-      "uncertainty": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "uncertainty": "The points show the towns and regions the chapter names. Many locations are approximate.",
       "placeIds": [
         "shechem",
         "gerizim",
@@ -576,7 +604,7 @@
       "summary": "Tola judges Israel twenty-three years, and Jair twenty-two. Israel again serves the gods of the nations around it. The LORD gives them to the Philistines and Ammonites for eighteen years. Israel cries out and admits its sin. The LORD lists his past rescues and says he will save them no more. He tells them to cry to the gods they chose. Israel confesses again, puts away the foreign gods, and serves the LORD. He can bear their misery no longer, and Ammon gathers for war.",
       "year": null,
       "dateLabel": "Chapter order · historical year uncertain",
-      "uncertainty": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "uncertainty": "The points show the towns and regions the chapter names. Many locations are approximate.",
       "placeIds": [
         "canaan",
         "gilead",
@@ -611,7 +639,7 @@
       "summary": "Jephthah is a strong fighter, but his brothers drive him out as a prostitute’s son. When Ammon attacks, the elders of Gilead ask him to lead them. He agrees on condition that he stay their head. He sends Ammon’s king a long case from history that Israel took no Ammonite land. The king does not listen. Jephthah vows to offer whatever first comes from his house if he wins. He wins, and his only daughter comes out dancing to meet him. She asks two months to mourn, and he does to her as he vowed.",
       "year": null,
       "dateLabel": "Chapter order · historical year uncertain",
-      "uncertainty": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "uncertainty": "The points show the towns and regions the chapter names. Many locations are approximate.",
       "placeIds": [
         "gilead",
         "ammon",
@@ -647,7 +675,7 @@
       "summary": "The men of Ephraim are angry that Jephthah fought Ammon without them. They threaten to burn his house. Jephthah says he called and they did not come. Gilead fights Ephraim and takes the Jordan crossings. Each fleeing man is told to say “Shibboleth.” An Ephraimite says “Sibboleth” and is killed. Forty-two thousand of Ephraim die. Jephthah judges six years, and Ibzan, Elon, and Abdon follow him.",
       "year": null,
       "dateLabel": "Chapter order · historical year uncertain",
-      "uncertainty": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "uncertainty": "The points show the towns and regions the chapter names. Many locations are approximate.",
       "placeIds": [
         "gilead",
         "jordan"
@@ -681,7 +709,7 @@
       "summary": "Israel does evil, and the Philistines rule them forty years. The LORD’s angel appears to the childless wife of Manoah of Dan. She will bear a son who must be a Nazirite from birth. She must drink no wine, and no razor may touch his head. Manoah prays for the man to return, and the angel comes again to the woman. Manoah offers a goat, and the angel goes up in the altar flame. Manoah fears they will die for seeing God. His wife says God would not accept their offering and then kill them.",
       "year": null,
       "dateLabel": "Chapter order · historical year uncertain",
-      "uncertainty": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "uncertainty": "The points show the towns and regions the chapter names. Many locations are approximate.",
       "placeIds": [
         "zorah",
         "eshtaol"
@@ -717,7 +745,7 @@
       "summary": "Samson sees a Philistine woman in Timnah and demands her as his wife. His parents object, not knowing the LORD is seeking an occasion against the Philistines. On the way Samson tears a young lion apart with his hands. Later he finds honey in its carcass and eats it. At his wedding feast he bets thirty guests they cannot solve his riddle. They threaten to burn his wife and her father’s house unless she gets the answer. She weeps until Samson tells her, and she tells them. Samson kills thirty men to pay the bet, and his wife is given away.",
       "year": null,
       "dateLabel": "Chapter order · historical year uncertain",
-      "uncertainty": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "uncertainty": "The points show the towns and regions the chapter names. Many locations are approximate.",
       "placeIds": [
         "timnah",
         "ashkelon"
@@ -752,7 +780,7 @@
       "summary": "Samson returns for his wife and learns she was given to another man. He ties torches to three hundred foxes and burns the Philistines’ grain. The Philistines burn his wife and her father. Samson strikes them down and hides in a rock cleft. Three thousand men of Judah come to hand him over. He lets them bind him, then snaps the ropes when the Spirit comes on him. He kills a thousand men with a donkey’s jawbone. He is thirsty and calls on the LORD, and God opens a spring.",
       "year": null,
       "dateLabel": "Chapter order · historical year uncertain",
-      "uncertainty": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "uncertainty": "The points show the towns and regions the chapter names. Many locations are approximate.",
       "placeIds": [
         "timnah",
         "lehi"
@@ -787,7 +815,7 @@
       "summary": "Samson visits a prostitute in Gaza and carries off the city gates at midnight. He loves Delilah, and Philistine lords pay her to learn his secret. Three times he lies to her, and each time she tests it. She presses him daily until he tells her about his uncut hair. She has his head shaved while he sleeps, and the LORD leaves him. The Philistines blind him and make him grind grain in prison. At a feast for their god Dagon they bring him out for sport. He prays, pushes down the two pillars, and dies with them.",
       "year": null,
       "dateLabel": "Chapter order · historical year uncertain",
-      "uncertainty": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "uncertainty": "The points show the towns and regions the chapter names. Many locations are approximate.",
       "placeIds": [
         "gaza",
         "sorek"
@@ -822,7 +850,7 @@
       "summary": "Micah of Ephraim admits he took his mother’s eleven hundred pieces of silver. She blesses him and has part of it made into an idol. Micah has a shrine, an ephod, and household gods, and makes a son his priest. In those days Israel had no king, and everyone did what seemed right. A young Levite from Bethlehem comes looking for a place. Micah hires him for ten pieces of silver a year, clothes, and food. The Levite becomes his priest. Micah says the LORD will surely do him good now.",
       "year": null,
       "dateLabel": "Chapter order · historical year uncertain",
-      "uncertainty": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "uncertainty": "The points show the towns and regions the chapter names. Many locations are approximate.",
       "placeIds": [
         "ephraim-region",
         "bethlehem"
@@ -857,7 +885,7 @@
       "summary": "The tribe of Dan is looking for land. Five scouts stay at Micah’s house and ask his Levite for a word from God. They find Laish, a quiet town with no defender. Six hundred armed Danites set out. On the way they take Micah’s idol, ephod, and gods, and invite the priest along. The priest is glad to serve a tribe in place of one man. Micah chases them and is warned off. Dan burns Laish, kills its people, renames it Dan, and sets up the idol.",
       "year": null,
       "dateLabel": "Chapter order · historical year uncertain",
-      "uncertainty": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "uncertainty": "The points show the towns and regions the chapter names. Many locations are approximate.",
       "placeIds": [
         "zorah",
         "eshtaol",
@@ -894,7 +922,7 @@
       "summary": "A Levite’s concubine leaves him and returns to her father in Bethlehem. He goes to bring her back and is kept there for days. On the way home they pass a foreign town and reach Gibeah of Benjamin. Only an old man takes them in. Men of the city surround the house and demand the Levite. He pushes his concubine out to them, and they abuse her all night. In the morning she lies dead at the door. He cuts her body into twelve pieces and sends them through Israel.",
       "year": null,
       "dateLabel": "Chapter order · historical year uncertain",
-      "uncertainty": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "uncertainty": "The points show the towns and regions the chapter names. Many locations are approximate.",
       "placeIds": [
         "bethlehem",
         "jerusalem",
@@ -930,7 +958,7 @@
       "summary": "All Israel gathers at Mizpah, four hundred thousand armed men. The Levite tells what Gibeah did but leaves out his own part. The tribes demand that Benjamin hand over the guilty men. Benjamin refuses and gathers its army. Israel asks God who should go first and loses twenty-two thousand men. They weep, ask again, and lose eighteen thousand more. After fasting and offerings, they set an ambush and win on the third day. Benjamin loses twenty-five thousand men, and only six hundred escape.",
       "year": null,
       "dateLabel": "Chapter order · historical year uncertain",
-      "uncertainty": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "uncertainty": "The points show the towns and regions the chapter names. Many locations are approximate.",
       "placeIds": [
         "mizpah",
         "gibeah",
@@ -966,7 +994,7 @@
       "summary": "Israel had sworn not to give daughters to Benjamin. Now the people weep that a tribe is nearly gone. Six hundred Benjamite men survive and need wives. Israel finds that Jabesh Gilead sent no one to the assembly. They kill its people and take four hundred young women for Benjamin. That is not enough. The elders tell the remaining men to seize dancers at the Shiloh feast. The book ends: there was no king, and everyone did what seemed right.",
       "year": null,
       "dateLabel": "Chapter order · historical year uncertain",
-      "uncertainty": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "uncertainty": "The points show the towns and regions the chapter names. Many locations are approximate.",
       "placeIds": [
         "jabesh-gilead",
         "shiloh",
@@ -1005,7 +1033,7 @@
       "summary": "After Joshua dies, Israel asks the LORD who should fight first. Judah goes up with Simeon and defeats Adoni-Bezek. Caleb’s daughter Achsah again receives her springs. Judah takes the hill country but cannot drive out the plain’s iron chariots. Benjamin does not drive the Jebusites from Jerusalem. Joseph’s house takes Bethel with help from a man of the city. Manasseh, Ephraim, Zebulun, Asher, and Naphtali leave Canaanites in their towns. When Israel grows strong, it puts them to forced labor.",
       "detail": "The chapter starts with victories and ends with a list of failures. Verses 27–33 repeat one phrase for five tribes: they “didn’t drive out” the people. Verse 28 adds what Israel did when it was strong enough to finish. It chose forced labor over the command. In verse 34 the Amorites even push Dan into the hills. Chapter 2:1–3 gives the LORD’s response to this.",
       "dateLabel": "Chapter order · historical year uncertain",
-      "uncertainty": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "uncertainty": "The points show the towns and regions the chapter names. Many locations are approximate.",
       "sourceIds": [
         "web",
         "yale-13",
@@ -1036,7 +1064,7 @@
       "summary": "The LORD’s angel comes to Bochim and says Israel has not obeyed. So the nations will stay as thorns and their gods as a snare. The people weep. The account then looks back: Israel served the LORD while Joshua and the elders lived. A new generation arose that did not know the LORD or his works. They served the Baals, and the LORD gave them to raiders. He raised up judges to save them, but after each judge they turned back. So the LORD left the nations to test Israel.",
       "detail": "Verse 7 says Israel served the LORD while people lived who “had seen” his work. Verse 10 says the next generation “didn’t know the LORD” or what he had done. The text does not say they were told and refused. It says they did not know. Deuteronomy 6:7 and Joshua 4:6–7 had ordered parents to tell the story. Verses 11–19 then lay out the cycle the book will repeat. The trouble begins as a failure of memory between parents and children.",
       "dateLabel": "Chapter order · historical year uncertain",
-      "uncertainty": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "uncertainty": "The points show the towns and regions the chapter names. Many locations are approximate.",
       "sourceIds": [
         "web",
         "yale-13",
@@ -1064,7 +1092,7 @@
       "summary": "The LORD leaves several nations to test Israel. Israel marries among them and serves their gods. A king of Mesopotamia rules them eight years, and Othniel, of Caleb’s family, saves them. Then Eglon king of Moab rules Israel eighteen years. The LORD raises up Ehud, a left-handed man of Benjamin. Ehud hides a sword on his right thigh and kills Eglon in private. He escapes, calls Israel to fight, and Moab is subdued. Shamgar later kills six hundred Philistines with an ox goad.",
       "detail": "Verse 15 calls Ehud “a left-handed man” before he does anything. The detail explains the plan. Ehud straps his sword on the right thigh, under his clothes (verse 16). That is not the side where one would look for a weapon. He draws it with his left hand (verse 21). The text treats a trait that set him apart as the means of rescue. Each rescue in this chapter begins the same way: Israel “cried to the LORD.”",
       "dateLabel": "Chapter order · historical year uncertain",
-      "uncertainty": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "uncertainty": "The points show the towns and regions the chapter names. Many locations are approximate.",
       "sourceIds": [
         "web",
         "yale-13",
@@ -1093,7 +1121,7 @@
       "summary": "Israel does evil again, and Jabin king of Canaan oppresses them twenty years. His general Sisera has nine hundred iron chariots. Deborah, a prophetess, judges Israel under a palm tree. She tells Barak that the LORD commands him to gather ten thousand men. Barak will go only if she goes with him. She agrees but says a woman will get the honor. The LORD routs Sisera’s army, and Sisera flees on foot to Jael’s tent. Jael gives him milk and kills him with a tent peg as he sleeps.",
       "detail": "Deborah holds two roles in verse 4: prophetess and judge. Barak is the general, yet he will not march without her (verse 8). Verse 9 says the cost: the honor will go to “a woman.” A reader might expect that woman to be Deborah. Verses 17–21 give the victory to Jael, a tent dweller and not an Israelite. Sisera had nine hundred iron chariots and dies by a tent peg. The chapter credits God with the result (verse 23).",
       "dateLabel": "Chapter order · historical year uncertain",
-      "uncertainty": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "uncertainty": "The points show the towns and regions the chapter names. Many locations are approximate.",
       "sourceIds": [
         "web",
         "yale-13",
@@ -1122,7 +1150,7 @@
       "summary": "Deborah and Barak sing after the victory. They praise leaders and people who offered themselves willingly. The song recalls empty roads and villages before Deborah arose. It praises the tribes that came: Ephraim, Benjamin, Zebulun, Issachar, and Naphtali. It asks why Reuben, Gilead, Dan, and Asher stayed home. The stars and the river Kishon fought against Sisera. Jael is called most blessed of women for killing him. The song ends with Sisera’s mother waiting at her window for him.",
       "detail": "The song praises God and also keeps a record of who came. Verses 14–15 and 18 name tribes that risked their lives. Verses 16–17 name those that did not: Reuben, Gilead, Dan, and Asher. Each is pictured at its ordinary work, with flocks or ships. The poem asks them why and gives no excuse. Verse 23 curses a town that would not help. The poem closes with an enemy’s mother waiting, and it lets the reader see her.",
       "dateLabel": "Chapter order · historical year uncertain",
-      "uncertainty": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "uncertainty": "The points show the towns and regions the chapter names. Many locations are approximate.",
       "sourceIds": [
         "web",
         "yale-13",
@@ -1150,7 +1178,7 @@
       "summary": "Midian raids Israel for seven years and strips the land at harvest. Israel cries out, and a prophet reminds them they did not listen. The LORD’s angel finds Gideon threshing wheat in a winepress to hide it. He calls Gideon a mighty man and sends him to save Israel. Gideon says his family is the poorest and he is the least. At night he tears down his father’s altar to Baal. His father Joash tells the angry town to let Baal defend himself. Gideon gathers an army and twice asks for a sign with a fleece.",
       "detail": "Gideon’s first task is at home, not on a battlefield. The Baal altar belongs to his own father (verse 25). He does it at night because he fears his family and the town (verse 27). The town demands his death. In verse 31 his father, the altar’s owner, defends him. His argument is simple: a real god can fight for himself. So the first person won over is inside Gideon’s household.",
       "dateLabel": "Chapter order · historical year uncertain",
-      "uncertainty": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "uncertainty": "The points show the towns and regions the chapter names. Many locations are approximate.",
       "sourceIds": [
         "web",
         "yale-13",
@@ -1177,7 +1205,7 @@
       "summary": "Gideon camps with thirty-two thousand men. The LORD says they are too many, or Israel will boast that it saved itself. The fearful go home, and ten thousand remain. At the water the LORD keeps only the three hundred who lap from their hands. Gideon sneaks to the enemy camp and hears a man tell a dream of defeat. He gives each man a trumpet, a jar, and a torch. At night they blow, break the jars, and shout. The Midianites turn on each other and flee.",
       "detail": "Armies want more soldiers, and the LORD orders fewer. Verse 2 gives the reason before the cuts begin. With a large force Israel would say its own hand had saved it. So the number drops from thousands to three hundred (verses 3–7). Their gear is trumpets, jars, and torches, not swords in hand (verse 16). Verse 22 says the LORD turned the enemy’s swords on each other. The size of the army is set so the credit cannot be mistaken.",
       "dateLabel": "Chapter order · historical year uncertain",
-      "uncertainty": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "uncertainty": "The points show the towns and regions the chapter names. Many locations are approximate.",
       "sourceIds": [
         "web",
         "yale-13",
@@ -1204,7 +1232,7 @@
       "summary": "Ephraim complains at being called late, and Gideon calms them with praise. He chases two Midianite kings across the Jordan with his tired three hundred. Succoth and Penuel refuse him bread. He captures the kings, then punishes Succoth’s elders and kills the men of Penuel. He kills the two kings for the death of his brothers. Israel asks him to rule, and he says the LORD will rule. But he collects gold earrings and makes an ephod that Israel worships. After his death Israel turns to the Baals and forgets his family.",
       "detail": "Gideon began by tearing down an idol’s altar (6:27). In verse 23 he refuses to be king and says the LORD will rule. His very next act is to ask for gold (verse 24). He makes an ephod, a priestly object, and sets it up in his town. Verse 27 says all Israel went after it and it became “a snare.” Aaron also made an idol from gold earrings (Exodus 32:2–4). The deliverer leaves behind a new thing for Israel to worship.",
       "dateLabel": "Chapter order · historical year uncertain",
-      "uncertainty": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "uncertainty": "The points show the towns and regions the chapter names. Many locations are approximate.",
       "sourceIds": [
         "web",
         "yale-13",
@@ -1232,7 +1260,7 @@
       "summary": "Abimelech, Gideon’s son by a woman of Shechem, asks Shechem to make him ruler. They give him silver, and he hires men and kills his seventy brothers. Only the youngest, Jotham, escapes. Jotham shouts a story from Mount Gerizim about trees choosing a king. The olive, fig, and vine refuse, and the bramble accepts. Three years later Shechem turns against Abimelech. He destroys the city and burns its tower with the people inside. At Thebez a woman drops a millstone on his head, and he dies.",
       "detail": "In Jotham’s story the useful trees refuse to rule. Each has oil, fruit, or wine to give and will not leave it. Only the bramble says yes. A bramble has no real shade to offer, and it burns easily. Its speech in verse 15 offers “refuge” and threatens fire in the same breath. Jotham applies it to Shechem: they chose a killer as king (verses 16–20). Verses 49 and 57 report that fire did come on Shechem.",
       "dateLabel": "Chapter order · historical year uncertain",
-      "uncertainty": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "uncertainty": "The points show the towns and regions the chapter names. Many locations are approximate.",
       "sourceIds": [
         "web",
         "yale-13",
@@ -1259,7 +1287,7 @@
       "summary": "Tola judges Israel twenty-three years, and Jair twenty-two. Israel again serves the gods of the nations around it. The LORD gives them to the Philistines and Ammonites for eighteen years. Israel cries out and admits its sin. The LORD lists his past rescues and says he will save them no more. He tells them to cry to the gods they chose. Israel confesses again, puts away the foreign gods, and serves the LORD. He can bear their misery no longer, and Ammon gathers for war.",
       "detail": "Israel’s first confession in verse 10 is quick. The LORD’s answer in verses 11–14 is a refusal. He has rescued them many times, and each time they left. Verse 14 tells them to ask their chosen gods for help. The second confession adds two things (verses 15–16). They accept whatever God decides, and they put the foreign gods away. Only then does the text say his soul was grieved for their misery.",
       "dateLabel": "Chapter order · historical year uncertain",
-      "uncertainty": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "uncertainty": "The points show the towns and regions the chapter names. Many locations are approximate.",
       "sourceIds": [
         "web",
         "yale-13",
@@ -1286,7 +1314,7 @@
       "summary": "Jephthah is a strong fighter, but his brothers drive him out as a prostitute’s son. When Ammon attacks, the elders of Gilead ask him to lead them. He agrees on condition that he stay their head. He sends Ammon’s king a long case from history that Israel took no Ammonite land. The king does not listen. Jephthah vows to offer whatever first comes from his house if he wins. He wins, and his only daughter comes out dancing to meet him. She asks two months to mourn, and he does to her as he vowed.",
       "detail": "The LORD’s Spirit is already on Jephthah in verse 29. He still adds a vow in verses 30–31, as if a bargain were needed. The vow is loose: “whatever comes out” of his door. His daughter comes out, as women did to greet victors (Exodus 15:20). In verse 35 he says she has brought him low. The words put the weight on her, though the vow was his. The text never says God asked for this vow or approved it.",
       "dateLabel": "Chapter order · historical year uncertain",
-      "uncertainty": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "uncertainty": "The points show the towns and regions the chapter names. Many locations are approximate.",
       "sourceIds": [
         "web",
         "yale-13",
@@ -1314,7 +1342,7 @@
       "summary": "The men of Ephraim are angry that Jephthah fought Ammon without them. They threaten to burn his house. Jephthah says he called and they did not come. Gilead fights Ephraim and takes the Jordan crossings. Each fleeing man is told to say “Shibboleth.” An Ephraimite says “Sibboleth” and is killed. Forty-two thousand of Ephraim die. Jephthah judges six years, and Ibzan, Elon, and Abdon follow him.",
       "detail": "Ephraim made the same complaint to Gideon in 8:1. Gideon answered softly, and the anger passed. Jephthah answers with a charge and then with war (verses 2–4). The test at the river in verse 6 uses one word. A small difference in speech marks a man as the enemy. These are Israelites killing Israelites, tribe against tribe. The count in verse 6 is forty-two thousand of their own people.",
       "dateLabel": "Chapter order · historical year uncertain",
-      "uncertainty": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "uncertainty": "The points show the towns and regions the chapter names. Many locations are approximate.",
       "sourceIds": [
         "web",
         "yale-13",
@@ -1340,7 +1368,7 @@
       "summary": "Israel does evil, and the Philistines rule them forty years. The LORD’s angel appears to the childless wife of Manoah of Dan. She will bear a son who must be a Nazirite from birth. She must drink no wine, and no razor may touch his head. Manoah prays for the man to return, and the angel comes again to the woman. Manoah offers a goat, and the angel goes up in the altar flame. Manoah fears they will die for seeing God. His wife says God would not accept their offering and then kill them.",
       "detail": "The angel comes to the woman both times, not to Manoah (verses 3 and 9). She is never named, yet she receives the message and the rules. Manoah asks for a repeat and then for the angel’s name. In verse 22 he concludes they will die. His wife answers with three plain reasons in verse 23. God took their offering, showed them these things, and told them of a son. She reads the event correctly while her husband panics.",
       "dateLabel": "Chapter order · historical year uncertain",
-      "uncertainty": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "uncertainty": "The points show the towns and regions the chapter names. Many locations are approximate.",
       "sourceIds": [
         "web",
         "yale-13",
@@ -1368,7 +1396,7 @@
       "summary": "Samson sees a Philistine woman in Timnah and demands her as his wife. His parents object, not knowing the LORD is seeking an occasion against the Philistines. On the way Samson tears a young lion apart with his hands. Later he finds honey in its carcass and eats it. At his wedding feast he bets thirty guests they cannot solve his riddle. They threaten to burn his wife and her father’s house unless she gets the answer. She weeps until Samson tells her, and she tells them. Samson kills thirty men to pay the bet, and his wife is given away.",
       "detail": "The riddle is a contest between Samson and thirty men. In verse 15 the men turn on the one person outside the bet. They threaten to burn the bride and her father’s house. She has no protector, since her husband is on the other side. She weeps for seven days until he tells her (verse 17). Samson then blames her in verse 18. In 15:6 the Philistines burn her and her father anyway.",
       "dateLabel": "Chapter order · historical year uncertain",
-      "uncertainty": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "uncertainty": "The points show the towns and regions the chapter names. Many locations are approximate.",
       "sourceIds": [
         "web",
         "yale-13",
@@ -1395,7 +1423,7 @@
       "summary": "Samson returns for his wife and learns she was given to another man. He ties torches to three hundred foxes and burns the Philistines’ grain. The Philistines burn his wife and her father. Samson strikes them down and hides in a rock cleft. Three thousand men of Judah come to hand him over. He lets them bind him, then snaps the ropes when the Spirit comes on him. He kills a thousand men with a donkey’s jawbone. He is thirsty and calls on the LORD, and God opens a spring.",
       "detail": "Each side in this chapter says it is only paying back. Samson says so in verses 3 and 7, and the Philistines in verse 10. In verse 11 Samson says he did to them as they did to him. The first victims in verse 6 are the woman and her father. They are burned for a wrong done to them, not by them. Judah’s men then side with their rulers against Samson (verse 11). No one in the chapter stops the chain; it only grows.",
       "dateLabel": "Chapter order · historical year uncertain",
-      "uncertainty": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "uncertainty": "The points show the towns and regions the chapter names. Many locations are approximate.",
       "sourceIds": [
         "web",
         "yale-13",
@@ -1422,7 +1450,7 @@
       "summary": "Samson visits a prostitute in Gaza and carries off the city gates at midnight. He loves Delilah, and Philistine lords pay her to learn his secret. Three times he lies to her, and each time she tests it. She presses him daily until he tells her about his uncut hair. She has his head shaved while he sleeps, and the LORD leaves him. The Philistines blind him and make him grind grain in prison. At a feast for their god Dagon they bring him out for sport. He prays, pushes down the two pillars, and dies with them.",
       "detail": "Until now Samson has acted by his own strength and for his own reasons. In verse 20 he does not know the LORD has left him. The Philistines take his eyes, which led him from the start (14:1). Verse 28 is only his second recorded prayer (15:18 is the first). He asks to be remembered and strengthened “only this once.” His stated reason is still personal: revenge for his two eyes. Verse 30 says he killed more in his death than in his life.",
       "dateLabel": "Chapter order · historical year uncertain",
-      "uncertainty": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "uncertainty": "The points show the towns and regions the chapter names. Many locations are approximate.",
       "sourceIds": [
         "web",
         "yale-13",
@@ -1449,7 +1477,7 @@
       "summary": "Micah of Ephraim admits he took his mother’s eleven hundred pieces of silver. She blesses him and has part of it made into an idol. Micah has a shrine, an ephod, and household gods, and makes a son his priest. In those days Israel had no king, and everyone did what seemed right. A young Levite from Bethlehem comes looking for a place. Micah hires him for ten pieces of silver a year, clothes, and food. The Levite becomes his priest. Micah says the LORD will surely do him good now.",
       "detail": "Micah’s religion mixes the LORD’s name with things the law forbids. His mother dedicates silver “to the LORD” for a carved image (verse 3). He owns a private shrine and appoints his own priest (verse 5). Hiring a real Levite seems to him to fix everything. Verse 13 shows his reasoning: a proper priest guarantees God’s favor. Verse 6 gives the writer’s comment on the whole scene. Everyone did what was right in his own eyes.",
       "dateLabel": "Chapter order · historical year uncertain",
-      "uncertainty": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "uncertainty": "The points show the towns and regions the chapter names. Many locations are approximate.",
       "sourceIds": [
         "web",
         "yale-13",
@@ -1476,7 +1504,7 @@
       "summary": "The tribe of Dan is looking for land. Five scouts stay at Micah’s house and ask his Levite for a word from God. They find Laish, a quiet town with no defender. Six hundred armed Danites set out. On the way they take Micah’s idol, ephod, and gods, and invite the priest along. The priest is glad to serve a tribe in place of one man. Micah chases them and is warned off. Dan burns Laish, kills its people, renames it Dan, and sets up the idol.",
       "detail": "Micah stole from his mother in 17:2. Now armed men steal from him. His cry in verse 24 is honest about his gods: “which I made.” A god that can be made can also be carried off. The priest goes with the stronger party without protest (verse 20). Verse 27 calls the people of Laish “quiet and unsuspecting” when Dan kills them. Verse 30 traces the new shrine’s priests to a grandson of Moses.",
       "dateLabel": "Chapter order · historical year uncertain",
-      "uncertainty": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "uncertainty": "The points show the towns and regions the chapter names. Many locations are approximate.",
       "sourceIds": [
         "web",
         "yale-13",
@@ -1505,7 +1533,7 @@
       "summary": "A Levite’s concubine leaves him and returns to her father in Bethlehem. He goes to bring her back and is kept there for days. On the way home they pass a foreign town and reach Gibeah of Benjamin. Only an old man takes them in. Men of the city surround the house and demand the Levite. He pushes his concubine out to them, and they abuse her all night. In the morning she lies dead at the door. He cuts her body into twelve pieces and sends them through Israel.",
       "detail": "The travelers pass Jebus because it is not an Israelite town (verse 12). They expect safety among their own people in Gibeah. What happens there copies Sodom in Genesis 19. This time no angel steps in, and the woman is handed out. The Levite who gave her up is the one who reports the crime. Verse 30 says nothing like it had been seen since Egypt. The woman is never named and never speaks.",
       "dateLabel": "Chapter order · historical year uncertain",
-      "uncertainty": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "uncertainty": "The points show the towns and regions the chapter names. Many locations are approximate.",
       "sourceIds": [
         "web",
         "yale-13",
@@ -1533,7 +1561,7 @@
       "summary": "All Israel gathers at Mizpah, four hundred thousand armed men. The Levite tells what Gibeah did but leaves out his own part. The tribes demand that Benjamin hand over the guilty men. Benjamin refuses and gathers its army. Israel asks God who should go first and loses twenty-two thousand men. They weep, ask again, and lose eighteen thousand more. After fasting and offerings, they set an ambush and win on the third day. Benjamin loses twenty-five thousand men, and only six hundred escape.",
       "detail": "The assembly hears one witness, the Levite (verses 4–6). He says the men of Gibeah meant to kill him. He does not say he put the woman outside himself (19:25). On that account he asks all Israel for a verdict (verse 7). The tribes swear to act before anyone questions him. Benjamin’s refusal in verse 13 then turns a trial into a war. By verse 48 Israel is burning Benjamin’s towns and killing all in them.",
       "dateLabel": "Chapter order · historical year uncertain",
-      "uncertainty": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "uncertainty": "The points show the towns and regions the chapter names. Many locations are approximate.",
       "sourceIds": [
         "web",
         "yale-13",
@@ -1561,7 +1589,7 @@
       "summary": "Israel had sworn not to give daughters to Benjamin. Now the people weep that a tribe is nearly gone. Six hundred Benjamite men survive and need wives. Israel finds that Jabesh Gilead sent no one to the assembly. They kill its people and take four hundred young women for Benjamin. That is not enough. The elders tell the remaining men to seize dancers at the Shiloh feast. The book ends: there was no king, and everyone did what seemed right.",
       "detail": "Israel made two oaths in anger and now feels trapped (verses 1 and 5). The leaders look for ways around their own words. One oath is kept by destroying Jabesh Gilead (verses 10–11). The other is dodged by letting women be taken, not “given” (verse 22). The elders prepare a legal excuse for the fathers in advance. No one asks the women of Jabesh or Shiloh. The last verse judges all of it: everyone did what seemed right.",
       "dateLabel": "Chapter order · historical year uncertain",
-      "uncertainty": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "uncertainty": "The points show the towns and regions the chapter names. Many locations are approximate.",
       "sourceIds": [
         "web",
         "yale-13",
@@ -1588,119 +1616,246 @@
       "name": "Canaan",
       "lat": 31.7,
       "lng": 35.1,
-      "summary": "Named place or region in Judges.",
-      "limits": "This is a broad locality or traditional identification. It does not verify the event’s date, exact route, or tribal boundary.",
+      "summary": "Israel’s tribes fight for this land in chapter 1. Many Canaanites stay in their towns. Chapter 3 names the peoples the LORD left there to test Israel.",
+      "limits": "The marker shows a broad region. Its borders are not exact.",
       "sourceIds": [
         "web",
         "atlas-canaan"
       ],
-      "detail": "Named place or region in Judges.",
-      "uncertainty": "This is a broad locality or traditional identification. It does not verify the event’s date, exact route, or tribal boundary.",
-      "chapterLocation": true
+      "detail": "Israel’s tribes fight for this land in chapter 1. Many Canaanites stay in their towns. Chapter 3 names the peoples the LORD left there to test Israel.",
+      "uncertainty": "The marker shows a broad region. Its borders are not exact.",
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H3667",
+        "key": "Canaan",
+        "checkedVerses": 6,
+        "example": [
+          3,
+          1
+        ],
+        "hebrew": "כְּנַעַן",
+        "transliteration": "Kᵉnaʻan",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "hebron",
       "name": "Hebron",
       "lat": 31.53,
       "lng": 35.1,
-      "summary": "Named place or region in Judges.",
-      "limits": "This is a broad locality or traditional identification. It does not verify the event’s date, exact route, or tribal boundary.",
+      "summary": "Judah fights the Canaanites here in chapter 1. Caleb receives the town and drives out the three sons of Anak. Its older name was Kiriath Arba.",
+      "limits": "The marker shows the town’s general location.",
       "sourceIds": [
         "web",
         "atlas-canaan"
       ],
-      "detail": "Named place or region in Judges.",
-      "uncertainty": "This is a broad locality or traditional identification. It does not verify the event’s date, exact route, or tribal boundary.",
-      "chapterLocation": true
+      "detail": "Judah fights the Canaanites here in chapter 1. Caleb receives the town and drives out the three sons of Anak. Its older name was Kiriath Arba.",
+      "uncertainty": "The marker shows the town’s general location.",
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H2275",
+        "key": "Hebron",
+        "checkedVerses": 3,
+        "example": [
+          1,
+          10
+        ],
+        "hebrew": "חֶבְרוֹן",
+        "transliteration": "Chebrôwn",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "heshbon",
       "name": "Heshbon",
       "lat": 31.8,
       "lng": 35.81,
-      "summary": "Named place or region in Judges.",
-      "limits": "This is a broad locality or traditional identification. It does not verify the event’s date, exact route, or tribal boundary.",
+      "summary": "Jephthah names this town in chapter 11. He says Sihon ruled here and Israel later lived in it.",
+      "limits": "The location is a proposal. The marker shows a general area.",
       "sourceIds": [
         "web",
         "atlas-canaan"
       ],
-      "detail": "Named place or region in Judges.",
-      "uncertainty": "This is a broad locality or traditional identification. It does not verify the event’s date, exact route, or tribal boundary.",
-      "chapterLocation": true
+      "detail": "Jephthah names this town in chapter 11. He says Sihon ruled here and Israel later lived in it.",
+      "uncertainty": "The location is a proposal. The marker shows a general area.",
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H2809",
+        "key": "Heshbon",
+        "checkedVerses": 2,
+        "example": [
+          11,
+          19
+        ],
+        "hebrew": "חֶשְׁבּוֹן",
+        "transliteration": "Cheshbôwn",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "gilead",
       "name": "Gilead",
       "lat": 32.1,
       "lng": 35.8,
-      "summary": "Named place or region in Judges.",
-      "limits": "This is a broad locality or traditional identification. It does not verify the event’s date, exact route, or tribal boundary.",
+      "summary": "Jair’s thirty towns are here in chapter 10. Ammon camps here, and the elders make Jephthah their head in chapter 11. Gilead’s men fight Ephraim in chapter 12.",
+      "limits": "The marker shows a broad region beyond the Jordan. Its borders are not exact.",
       "sourceIds": [
         "web",
         "atlas-canaan"
       ],
-      "detail": "Named place or region in Judges.",
-      "uncertainty": "This is a broad locality or traditional identification. It does not verify the event’s date, exact route, or tribal boundary.",
-      "chapterLocation": true
+      "detail": "Jair’s thirty towns are here in chapter 10. Ammon camps here, and the elders make Jephthah their head in chapter 11. Gilead’s men fight Ephraim in chapter 12.",
+      "uncertainty": "The marker shows a broad region beyond the Jordan. Its borders are not exact.",
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H1568",
+        "key": "Gilead",
+        "checkedVerses": 24,
+        "example": [
+          5,
+          17
+        ],
+        "hebrew": "גִּלְעָד",
+        "transliteration": "Gilʻâd",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "gerizim",
       "name": "Mount Gerizim",
       "lat": 32.2,
       "lng": 35.27,
-      "summary": "Named place or region in Judges.",
-      "limits": "This is a broad locality or traditional identification. It does not verify the event’s date, exact route, or tribal boundary.",
+      "summary": "Jotham stands on top of this mountain in chapter 9. He calls out his story of the trees to the men of Shechem.",
+      "limits": "The marker shows the mountain. The spot where Jotham stood is unknown.",
       "sourceIds": [
         "web",
         "atlas-canaan"
       ],
-      "detail": "Named place or region in Judges.",
-      "uncertainty": "This is a broad locality or traditional identification. It does not verify the event’s date, exact route, or tribal boundary.",
-      "chapterLocation": true
+      "detail": "Jotham stands on top of this mountain in chapter 9. He calls out his story of the trees to the men of Shechem.",
+      "uncertainty": "The marker shows the mountain. The spot where Jotham stood is unknown.",
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H1630",
+        "key": "Gerizim",
+        "checkedVerses": 1,
+        "example": [
+          9,
+          7
+        ],
+        "hebrew": "גְּרִזִים",
+        "transliteration": "Gᵉrizîym",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ],
+        "languageNote": "This is the dictionary form of the name “Gerizim.”"
+      }
     },
     {
       "id": "jordan",
       "name": "Jordan",
       "lat": 31.86,
       "lng": 35.55,
-      "summary": "Named place or region in Judges.",
-      "limits": "This is a broad locality or traditional identification. It does not verify the event’s date, exact route, or tribal boundary.",
+      "summary": "Ehud’s men hold the river crossings against Moab in chapter 3. Ephraim holds them against Midian in chapter 7. Gilead’s men kill fleeing Ephraimites there in chapter 12.",
+      "limits": "The marker shows a crossing area. The text does not say which crossings were used.",
       "sourceIds": [
         "web",
         "atlas-canaan"
       ],
-      "detail": "Named place or region in Judges.",
-      "uncertainty": "This is a broad locality or traditional identification. It does not verify the event’s date, exact route, or tribal boundary.",
-      "chapterLocation": true
+      "detail": "Ehud’s men hold the river crossings against Moab in chapter 3. Ephraim holds them against Midian in chapter 7. Gilead’s men kill fleeing Ephraimites there in chapter 12.",
+      "uncertainty": "The marker shows a crossing area. The text does not say which crossings were used.",
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H3383",
+        "key": "Jordan",
+        "checkedVerses": 11,
+        "example": [
+          3,
+          28
+        ],
+        "hebrew": "יַרְדֵּן",
+        "transliteration": "Yardên",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "gilgal",
       "name": "Gilgal",
       "lat": 31.86,
       "lng": 35.5,
-      "summary": "Named place or region in Judges.",
-      "limits": "This is a broad locality or traditional identification. It does not verify the event’s date, exact route, or tribal boundary.",
+      "summary": "The LORD’s angel comes up from Gilgal to Bochim in chapter 2. Ehud turns back at the stone idols by Gilgal in chapter 3.",
+      "limits": "The location is approximate.",
       "sourceIds": [
         "web",
         "atlas-canaan"
       ],
-      "detail": "Named place or region in Judges.",
-      "uncertainty": "This is a broad locality or traditional identification. It does not verify the event’s date, exact route, or tribal boundary.",
-      "chapterLocation": true
+      "detail": "The LORD’s angel comes up from Gilgal to Bochim in chapter 2. Ehud turns back at the stone idols by Gilgal in chapter 3.",
+      "uncertainty": "The location is approximate.",
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H1537",
+        "key": "Gilgal",
+        "checkedVerses": 2,
+        "example": [
+          2,
+          1
+        ],
+        "hebrew": "גִּלְגָּל",
+        "transliteration": "Gilgâl",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "jericho",
       "name": "Jericho",
       "lat": 31.871,
       "lng": 35.444,
-      "summary": "Named place or region in Judges.",
-      "limits": "This is a broad locality or traditional identification. It does not verify the event’s date, exact route, or tribal boundary.",
+      "summary": "Chapter 3 says Eglon took the city of palm trees. Judges itself does not use the name Jericho.",
+      "limits": "Judges does not say the city of palm trees is Jericho. The marker follows a traditional identification.",
       "sourceIds": [
         "web",
         "atlas-canaan"
       ],
-      "detail": "Named place or region in Judges.",
-      "uncertainty": "This is a broad locality or traditional identification. It does not verify the event’s date, exact route, or tribal boundary.",
+      "detail": "Chapter 3 says Eglon took the city of palm trees. Judges itself does not use the name Jericho.",
+      "uncertainty": "Judges does not say the city of palm trees is Jericho. The marker follows a traditional identification.",
       "chapterLocation": true
     },
     {
@@ -1708,434 +1863,939 @@
       "name": "Bethel",
       "lat": 31.93,
       "lng": 35.22,
-      "summary": "Named place or region in Judges.",
-      "limits": "This is a broad locality or traditional identification. It does not verify the event’s date, exact route, or tribal boundary.",
+      "summary": "The house of Joseph takes this town in chapter 1. Its older name was Luz. In chapters 20 and 21 Israel comes here to ask God and to weep.",
+      "limits": "The marker follows a traditional identification of the town.",
       "sourceIds": [
         "web",
         "atlas-canaan"
       ],
-      "detail": "Named place or region in Judges.",
-      "uncertainty": "This is a broad locality or traditional identification. It does not verify the event’s date, exact route, or tribal boundary.",
-      "chapterLocation": true
+      "detail": "The house of Joseph takes this town in chapter 1. Its older name was Luz. In chapters 20 and 21 Israel comes here to ask God and to weep.",
+      "uncertainty": "The marker follows a traditional identification of the town.",
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H1008",
+        "key": "Bethel",
+        "checkedVerses": 8,
+        "example": [
+          1,
+          22
+        ],
+        "hebrew": "בֵּית־אֵל",
+        "transliteration": "Bêyth-ʼÊl",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "jerusalem",
       "name": "Jerusalem",
       "lat": 31.777,
       "lng": 35.235,
-      "summary": "Named place or region in Judges.",
-      "limits": "This is a broad locality or traditional identification. It does not verify the event’s date, exact route, or tribal boundary.",
+      "summary": "Judah takes the city and burns it in chapter 1. Benjamin does not drive out the Jebusites. In chapter 19 the Levite will not stay in this foreign city, called Jebus.",
+      "limits": "The marker shows the city’s general location.",
       "sourceIds": [
         "web",
         "atlas-canaan"
       ],
-      "detail": "Named place or region in Judges.",
-      "uncertainty": "This is a broad locality or traditional identification. It does not verify the event’s date, exact route, or tribal boundary.",
-      "chapterLocation": true
+      "detail": "Judah takes the city and burns it in chapter 1. Benjamin does not drive out the Jebusites. In chapter 19 the Levite will not stay in this foreign city, called Jebus.",
+      "uncertainty": "The marker shows the city’s general location.",
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H3389",
+        "key": "Jerusalem",
+        "checkedVerses": 4,
+        "example": [
+          1,
+          7
+        ],
+        "hebrew": "יְרוּשָׁלַ͏ִם",
+        "transliteration": "Yᵉrûwshâlaim",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "hazor",
       "name": "Hazor",
       "lat": 33.017,
       "lng": 35.569,
-      "summary": "Named place or region in Judges.",
-      "limits": "This is a broad locality or traditional identification. It does not verify the event’s date, exact route, or tribal boundary.",
+      "summary": "Jabin king of Canaan reigns here in chapter 4. His captain Sisera lives in another town, Harosheth of the Gentiles.",
+      "limits": "The marker shows the site’s general location.",
       "sourceIds": [
         "web",
         "atlas-canaan"
       ],
-      "detail": "Named place or region in Judges.",
-      "uncertainty": "This is a broad locality or traditional identification. It does not verify the event’s date, exact route, or tribal boundary.",
-      "chapterLocation": true
+      "detail": "Jabin king of Canaan reigns here in chapter 4. His captain Sisera lives in another town, Harosheth of the Gentiles.",
+      "uncertainty": "The marker shows the site’s general location.",
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H2674",
+        "key": "Hazor",
+        "checkedVerses": 2,
+        "example": [
+          4,
+          2
+        ],
+        "hebrew": "חָצוֹר",
+        "transliteration": "Châtsôwr",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "debir-town",
       "name": "Debir",
       "lat": 31.42,
       "lng": 35.02,
-      "summary": "Named place or region in Judges.",
-      "limits": "This is a broad locality or traditional identification. It does not verify the event’s date, exact route, or tribal boundary.",
+      "summary": "Othniel takes this town in chapter 1 and wins Achsah as his wife. Its older name was Kiriath Sepher.",
+      "limits": "The location is approximate. The marker shows a southern region, not a known site.",
       "sourceIds": [
         "web",
         "atlas-canaan"
       ],
-      "detail": "Named place or region in Judges.",
-      "uncertainty": "This is a broad locality or traditional identification. It does not verify the event’s date, exact route, or tribal boundary.",
-      "chapterLocation": true
+      "detail": "Othniel takes this town in chapter 1 and wins Achsah as his wife. Its older name was Kiriath Sepher.",
+      "uncertainty": "The location is approximate. The marker shows a southern region, not a known site.",
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H1688",
+        "key": "Debir",
+        "checkedVerses": 1,
+        "example": [
+          1,
+          11
+        ],
+        "hebrew": "דְּבִיר",
+        "transliteration": "Dᵉbîyr",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "shiloh",
       "name": "Shiloh",
       "lat": 32.055,
       "lng": 35.289,
-      "summary": "Named place or region in Judges.",
-      "limits": "This is a broad locality or traditional identification. It does not verify the event’s date, exact route, or tribal boundary.",
+      "summary": "In chapter 21 Israel brings four hundred young women to the camp here. Men of Benjamin then seize wives from the dancers at Shiloh’s yearly feast.",
+      "limits": "The marker follows a traditional identification. Judges 21:19 places Shiloh north of Bethel.",
       "sourceIds": [
         "web",
         "atlas-canaan"
       ],
-      "detail": "Named place or region in Judges.",
-      "uncertainty": "This is a broad locality or traditional identification. It does not verify the event’s date, exact route, or tribal boundary.",
-      "chapterLocation": true
+      "detail": "In chapter 21 Israel brings four hundred young women to the camp here. Men of Benjamin then seize wives from the dancers at Shiloh’s yearly feast.",
+      "uncertainty": "The marker follows a traditional identification. Judges 21:19 places Shiloh north of Bethel.",
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H7887",
+        "key": "Shiloh",
+        "checkedVerses": 4,
+        "example": [
+          18,
+          31
+        ],
+        "hebrew": "שִׁילֹה",
+        "transliteration": "Shîylôh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "shechem",
       "name": "Shechem",
       "lat": 32.214,
       "lng": 35.282,
-      "summary": "Named place or region in Judges.",
-      "limits": "This is a broad locality or traditional identification. It does not verify the event’s date, exact route, or tribal boundary.",
+      "summary": "Abimelech’s mother’s family lives here, and the town makes him king in chapter 9. Gaal turns the town against him. Abimelech destroys it and sows it with salt.",
+      "limits": "The marker shows the town’s general location.",
       "sourceIds": [
         "web",
         "atlas-canaan"
       ],
-      "detail": "Named place or region in Judges.",
-      "uncertainty": "This is a broad locality or traditional identification. It does not verify the event’s date, exact route, or tribal boundary.",
-      "chapterLocation": true
+      "detail": "Abimelech’s mother’s family lives here, and the town makes him king in chapter 9. Gaal turns the town against him. Abimelech destroys it and sows it with salt.",
+      "uncertainty": "The marker shows the town’s general location.",
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H7927",
+        "key": "Shechem",
+        "checkedVerses": 22,
+        "example": [
+          8,
+          31
+        ],
+        "hebrew": "שְׁכֶם",
+        "transliteration": "Shᵉkem",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "moab",
       "name": "Moab",
       "lat": 31.5,
       "lng": 35.75,
-      "summary": "Named place or region in Judges.",
-      "limits": "Regional marker only.",
+      "summary": "Eglon king of Moab rules Israel eighteen years in chapter 3. Ehud kills him, and Israel defeats Moab at the Jordan.",
+      "limits": "The marker shows a broad region. Its borders are not exact.",
       "sourceIds": [
         "web",
         "atlas-canaan"
       ],
-      "detail": "Named place or region in Judges.",
-      "uncertainty": "Regional marker only.",
-      "chapterLocation": true
+      "detail": "Eglon king of Moab rules Israel eighteen years in chapter 3. Ehud kills him, and Israel defeats Moab at the Jordan.",
+      "uncertainty": "The marker shows a broad region. Its borders are not exact.",
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H4124",
+        "key": "Moab",
+        "checkedVerses": 11,
+        "example": [
+          3,
+          12
+        ],
+        "hebrew": "מוֹאָב",
+        "transliteration": "Môwʼâb",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "ammon",
       "name": "Ammon",
       "lat": 31.95,
       "lng": 35.94,
-      "summary": "Named place or region in Judges.",
-      "limits": "The named territory has no precise boundary polygon here.",
+      "summary": "The children of Ammon trouble Israel for eighteen years in chapter 10. Their king claims Israel’s land in chapter 11. Jephthah defeats them.",
+      "limits": "The marker shows a broad region. No exact border is drawn.",
       "sourceIds": [
         "web",
         "atlas-canaan"
       ],
-      "detail": "Named place or region in Judges.",
-      "uncertainty": "The named territory has no precise boundary polygon here.",
-      "chapterLocation": true
+      "detail": "The children of Ammon trouble Israel for eighteen years in chapter 10. Their king claims Israel’s land in chapter 11. Jephthah defeats them.",
+      "uncertainty": "The marker shows a broad region. No exact border is drawn.",
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H5983",
+        "key": "Ammon",
+        "checkedVerses": 27,
+        "example": [
+          3,
+          13
+        ],
+        "hebrew": "עַמּוֹן",
+        "transliteration": "ʻAmmôwn",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "tabor",
       "name": "Mount Tabor",
       "lat": 32.687,
       "lng": 35.391,
-      "summary": "Named place or region in Judges.",
-      "limits": "The mountain locality does not prove the battle account.",
+      "summary": "Barak gathers ten thousand men here in chapter 4. He charges down the mountain against Sisera. Chapter 8 says Gideon’s brothers were killed at Tabor.",
+      "limits": "The marker shows the mountain. The exact battle ground is unknown.",
       "sourceIds": [
         "web",
         "atlas-canaan"
       ],
-      "detail": "Named place or region in Judges.",
-      "uncertainty": "The mountain locality does not prove the battle account.",
-      "chapterLocation": true
+      "detail": "Barak gathers ten thousand men here in chapter 4. He charges down the mountain against Sisera. Chapter 8 says Gideon’s brothers were killed at Tabor.",
+      "uncertainty": "The marker shows the mountain. The exact battle ground is unknown.",
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H8396",
+        "key": "Tabor",
+        "checkedVerses": 4,
+        "example": [
+          4,
+          6
+        ],
+        "hebrew": "תָּבוֹר",
+        "transliteration": "Tâbôwr",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ],
+        "languageNote": "This is the dictionary form of the name “Tabor.”"
+      }
     },
     {
       "id": "kishon",
       "name": "Kishon",
       "lat": 32.72,
       "lng": 35.1,
-      "summary": "Named place or region in Judges.",
-      "limits": "The ancient battlefield and watercourse are not precisely traced.",
+      "summary": "Sisera brings his chariots to this river in chapter 4. Deborah’s song in chapter 5 says the river swept the enemy away.",
+      "limits": "The old riverbed and the battle ground are not known exactly.",
       "sourceIds": [
         "web",
         "atlas-canaan"
       ],
-      "detail": "Named place or region in Judges.",
-      "uncertainty": "The ancient battlefield and watercourse are not precisely traced.",
-      "chapterLocation": true
+      "detail": "Sisera brings his chariots to this river in chapter 4. Deborah’s song in chapter 5 says the river swept the enemy away.",
+      "uncertainty": "The old riverbed and the battle ground are not known exactly.",
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H7028",
+        "key": "Kishon",
+        "checkedVerses": 3,
+        "example": [
+          4,
+          7
+        ],
+        "hebrew": "קִישׁוֹן",
+        "transliteration": "Qîyshôwn",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "megiddo",
       "name": "Megiddo",
       "lat": 32.585,
       "lng": 35.184,
-      "summary": "Named place or region in Judges.",
-      "limits": "The site marker does not date the song or verify its battle.",
+      "summary": "Manasseh does not drive out its people in chapter 1. Deborah’s song says the kings of Canaan fought at Taanach by the waters of Megiddo.",
+      "limits": "The marker shows the town site. The battle ground by the waters is unknown.",
       "sourceIds": [
         "web",
         "atlas-canaan"
       ],
-      "detail": "Named place or region in Judges.",
-      "uncertainty": "The site marker does not date the song or verify its battle.",
-      "chapterLocation": true
+      "detail": "Manasseh does not drive out its people in chapter 1. Deborah’s song says the kings of Canaan fought at Taanach by the waters of Megiddo.",
+      "uncertainty": "The marker shows the town site. The battle ground by the waters is unknown.",
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H4023",
+        "key": "Megiddo",
+        "checkedVerses": 2,
+        "example": [
+          1,
+          27
+        ],
+        "hebrew": "מְגִדּוֹן",
+        "transliteration": "Mᵉgiddôwn",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "ophrah",
       "name": "Ophrah",
       "lat": 32.15,
       "lng": 35.25,
-      "summary": "Named place or region in Judges.",
-      "limits": "Gideon’s Ophrah is uncertain. This is a regional reference, not an identified house or altar.",
+      "summary": "The LORD’s angel meets Gideon under the oak here in chapter 6. Gideon builds an altar and pulls down Baal’s altar. In chapter 8 he keeps his ephod here and is buried here.",
+      "limits": "The location of Gideon’s Ophrah is uncertain. The marker shows a general area.",
       "sourceIds": [
         "web",
         "atlas-canaan"
       ],
-      "detail": "Named place or region in Judges.",
-      "uncertainty": "Gideon’s Ophrah is uncertain. This is a regional reference, not an identified house or altar.",
-      "chapterLocation": true
+      "detail": "The LORD’s angel meets Gideon under the oak here in chapter 6. Gideon builds an altar and pulls down Baal’s altar. In chapter 8 he keeps his ephod here and is buried here.",
+      "uncertainty": "The location of Gideon’s Ophrah is uncertain. The marker shows a general area.",
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H6084",
+        "key": "Ophrah",
+        "checkedVerses": 5,
+        "example": [
+          6,
+          11
+        ],
+        "hebrew": "עׇפְרָה",
+        "transliteration": "ʻOphrâh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "jezreel",
       "name": "Jezreel",
       "lat": 32.6,
       "lng": 35.25,
-      "summary": "Named place or region in Judges.",
-      "limits": "The marker does not identify Gideon’s precise camp.",
+      "summary": "Midian, Amalek, and the children of the east camp in this valley in chapter 6. Gideon attacks their camp in chapter 7.",
+      "limits": "The marker shows the valley. Gideon’s exact camp is unknown.",
       "sourceIds": [
         "web",
         "atlas-canaan"
       ],
-      "detail": "Named place or region in Judges.",
-      "uncertainty": "The marker does not identify Gideon’s precise camp.",
-      "chapterLocation": true
+      "detail": "Midian, Amalek, and the children of the east camp in this valley in chapter 6. Gideon attacks their camp in chapter 7.",
+      "uncertainty": "The marker shows the valley. Gideon’s exact camp is unknown.",
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H3157",
+        "key": "Jezreel",
+        "checkedVerses": 1,
+        "example": [
+          6,
+          33
+        ],
+        "hebrew": "יִזְרְעֵאל",
+        "transliteration": "Yizrᵉʻêʼl",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "succoth",
       "name": "Succoth",
       "lat": 32.2,
       "lng": 35.62,
-      "summary": "Named place or region in Judges.",
-      "limits": "Identification and ancient routes remain uncertain.",
+      "summary": "Gideon asks its men for bread in chapter 8, and they refuse. He comes back and punishes its elders with thorns.",
+      "limits": "The site is a proposal. Its location remains uncertain.",
       "sourceIds": [
         "web",
         "atlas-canaan"
       ],
-      "detail": "Named place or region in Judges.",
-      "uncertainty": "Identification and ancient routes remain uncertain.",
-      "chapterLocation": true
+      "detail": "Gideon asks its men for bread in chapter 8, and they refuse. He comes back and punishes its elders with thorns.",
+      "uncertainty": "The site is a proposal. Its location remains uncertain.",
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H5523",
+        "key": "Succoth",
+        "checkedVerses": 6,
+        "example": [
+          8,
+          5
+        ],
+        "hebrew": "סֻכּוֹת",
+        "transliteration": "Çukkôwth",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "penuel",
       "name": "Penuel",
       "lat": 32.19,
       "lng": 35.72,
-      "summary": "Named place or region in Judges.",
-      "limits": "The regional marker does not verify the tower or encounter.",
+      "summary": "Its men refuse Gideon bread in chapter 8. He returns, breaks down its tower, and kills the men of the city.",
+      "limits": "The site is a proposal. The marker shows a general area.",
       "sourceIds": [
         "web",
         "atlas-canaan"
       ],
-      "detail": "Named place or region in Judges.",
-      "uncertainty": "The regional marker does not verify the tower or encounter.",
-      "chapterLocation": true
+      "detail": "Its men refuse Gideon bread in chapter 8. He returns, breaks down its tower, and kills the men of the city.",
+      "uncertainty": "The site is a proposal. The marker shows a general area.",
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H6439",
+        "key": "Penuel",
+        "checkedVerses": 3,
+        "example": [
+          8,
+          8
+        ],
+        "hebrew": "פְּנוּאֵל",
+        "transliteration": "Pᵉnûwʼêl",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "thebez",
       "name": "Thebez",
       "lat": 32.32,
       "lng": 35.37,
-      "summary": "Named place or region in Judges.",
-      "limits": "The marker does not identify Abimelech’s siege tower.",
+      "summary": "Abimelech takes this town in chapter 9. Its people flee to a strong tower. A woman drops a millstone from it and breaks his skull.",
+      "limits": "The marker follows a traditional identification.",
       "sourceIds": [
         "web",
         "atlas-canaan"
       ],
-      "detail": "Named place or region in Judges.",
-      "uncertainty": "The marker does not identify Abimelech’s siege tower.",
-      "chapterLocation": true
+      "detail": "Abimelech takes this town in chapter 9. Its people flee to a strong tower. A woman drops a millstone from it and breaks his skull.",
+      "uncertainty": "The marker follows a traditional identification.",
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H8405",
+        "key": "Thebez",
+        "checkedVerses": 1,
+        "example": [
+          9,
+          50
+        ],
+        "hebrew": "תֵּבֵץ",
+        "transliteration": "Têbêts",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "zorah",
       "name": "Zorah",
       "lat": 31.78,
       "lng": 34.96,
-      "summary": "Named place or region in Judges.",
-      "limits": "The marker does not identify Samson’s family home.",
+      "summary": "Manoah lives here, and Samson is born to him in chapter 13. Samson is buried between Zorah and Eshtaol. Dan’s spies and six hundred men set out from here in chapter 18.",
+      "limits": "The marker follows a traditional identification.",
       "sourceIds": [
         "web",
         "atlas-canaan"
       ],
-      "detail": "Named place or region in Judges.",
-      "uncertainty": "The marker does not identify Samson’s family home.",
-      "chapterLocation": true
+      "detail": "Manoah lives here, and Samson is born to him in chapter 13. Samson is buried between Zorah and Eshtaol. Dan’s spies and six hundred men set out from here in chapter 18.",
+      "uncertainty": "The marker follows a traditional identification.",
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H6881",
+        "key": "Zorah",
+        "checkedVerses": 6,
+        "example": [
+          13,
+          2
+        ],
+        "hebrew": "צׇרְעָה",
+        "transliteration": "Tsorʻâh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "eshtaol",
       "name": "Eshtaol",
       "lat": 31.78,
       "lng": 35.01,
-      "summary": "Named place or region in Judges.",
+      "summary": "The LORD’s Spirit first moves Samson between Zorah and Eshtaol in chapter 13. Men of Dan set out from here in chapter 18.",
       "limits": "The location is approximate.",
       "sourceIds": [
         "web",
         "atlas-canaan"
       ],
-      "detail": "Named place or region in Judges.",
+      "detail": "The LORD’s Spirit first moves Samson between Zorah and Eshtaol in chapter 13. Men of Dan set out from here in chapter 18.",
       "uncertainty": "The location is approximate.",
-      "chapterLocation": true
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H847",
+        "key": "Eshtaol",
+        "checkedVerses": 5,
+        "example": [
+          13,
+          25
+        ],
+        "hebrew": "אֶשְׁתָּאֹל",
+        "transliteration": "ʼEshtâʼôl",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "timnah",
       "name": "Timnah",
       "lat": 31.78,
       "lng": 34.91,
-      "summary": "Named place or region in Judges.",
-      "limits": "The marker shows the proposed locality, not an identified wedding house.",
+      "summary": "Samson sees a Philistine woman here in chapter 14 and marries her. He kills a lion near its vineyards. In chapter 15 the Philistines burn her and her father.",
+      "limits": "The marker shows a proposed site.",
       "sourceIds": [
         "web",
         "atlas-canaan"
       ],
-      "detail": "Named place or region in Judges.",
-      "uncertainty": "The marker shows the proposed locality, not an identified wedding house.",
-      "chapterLocation": true
+      "detail": "Samson sees a Philistine woman here in chapter 14 and marries her. He kills a lion near its vineyards. In chapter 15 the Philistines burn her and her father.",
+      "uncertainty": "The marker shows a proposed site.",
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H8553",
+        "key": "Timnah",
+        "checkedVerses": 3,
+        "example": [
+          14,
+          1
+        ],
+        "hebrew": "תִּמְנָה",
+        "transliteration": "Timnâh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "ashkelon",
       "name": "Ashkelon",
       "lat": 31.67,
       "lng": 34.55,
-      "summary": "Named place or region in Judges.",
-      "limits": "The site does not verify Samson’s narrated attack.",
+      "summary": "Judah takes it in chapter 1. In chapter 14 Samson kills thirty men here to pay his bet.",
+      "limits": "The marker shows the old city’s general location.",
       "sourceIds": [
         "web",
         "atlas-canaan"
       ],
-      "detail": "Named place or region in Judges.",
-      "uncertainty": "The site does not verify Samson’s narrated attack.",
-      "chapterLocation": true
+      "detail": "Judah takes it in chapter 1. In chapter 14 Samson kills thirty men here to pay his bet.",
+      "uncertainty": "The marker shows the old city’s general location.",
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H831",
+        "key": "Ashkelon",
+        "checkedVerses": 2,
+        "example": [
+          1,
+          18
+        ],
+        "hebrew": "אַשְׁקְלוֹן",
+        "transliteration": "ʼAshqᵉlôwn",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "lehi",
       "name": "Lehi",
       "lat": 31.73,
       "lng": 35.05,
-      "summary": "Named place or region in Judges.",
-      "limits": "The precise locality is uncertain. No link to the Book of Mormon Lehi is established.",
+      "summary": "The Philistines camp here in chapter 15. Men of Judah bring Samson tied up. He breaks the ropes and kills a thousand men with a jawbone. God then opens a spring for him.",
+      "limits": "The exact place is uncertain. No link to the Book of Mormon Lehi is established.",
       "sourceIds": [
         "web",
         "atlas-canaan"
       ],
-      "detail": "Named place or region in Judges.",
-      "uncertainty": "The precise locality is uncertain. No link to the Book of Mormon Lehi is established.",
-      "chapterLocation": true
+      "detail": "The Philistines camp here in chapter 15. Men of Judah bring Samson tied up. He breaks the ropes and kills a thousand men with a jawbone. God then opens a spring for him.",
+      "uncertainty": "The exact place is uncertain. No link to the Book of Mormon Lehi is established.",
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H3896",
+        "key": "Lehi",
+        "checkedVerses": 3,
+        "example": [
+          15,
+          9
+        ],
+        "hebrew": "לֶחִי",
+        "transliteration": "Lechîy",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "gaza",
       "name": "Gaza",
       "lat": 31.5,
       "lng": 34.46,
-      "summary": "Named place or region in Judges.",
-      "limits": "This locality does not identify Samson’s prison or temple.",
+      "summary": "Samson carries off the city gate in chapter 16. Later the Philistines blind him and make him grind in the prison here. He pulls down their house at a feast for Dagon.",
+      "limits": "The marker shows the old city’s general location.",
       "sourceIds": [
         "web",
         "atlas-canaan"
       ],
-      "detail": "Named place or region in Judges.",
-      "uncertainty": "This locality does not identify Samson’s prison or temple.",
-      "chapterLocation": true
+      "detail": "Samson carries off the city gate in chapter 16. Later the Philistines blind him and make him grind in the prison here. He pulls down their house at a feast for Dagon.",
+      "uncertainty": "The marker shows the old city’s general location.",
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H5804",
+        "key": "Gaza",
+        "checkedVerses": 4,
+        "example": [
+          1,
+          18
+        ],
+        "hebrew": "עַזָּה",
+        "transliteration": "ʻAzzâh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "sorek",
       "name": "Sorek",
       "lat": 31.8,
       "lng": 34.98,
-      "summary": "Named place or region in Judges.",
-      "limits": "The marker does not identify Delilah’s house.",
+      "summary": "Delilah lives in this valley in chapter 16, and Samson loves her. The Philistine lords come up to her here.",
+      "limits": "The marker shows the valley. No exact spot is named.",
       "sourceIds": [
         "web",
         "atlas-canaan"
       ],
-      "detail": "Named place or region in Judges.",
-      "uncertainty": "The marker does not identify Delilah’s house.",
-      "chapterLocation": true
+      "detail": "Delilah lives in this valley in chapter 16, and Samson loves her. The Philistine lords come up to her here.",
+      "uncertainty": "The marker shows the valley. No exact spot is named.",
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H7796",
+        "key": "Sorek",
+        "checkedVerses": 1,
+        "example": [
+          16,
+          4
+        ],
+        "hebrew": "שׂוֹרֵק",
+        "transliteration": "Sôwrêq",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "ephraim-region",
       "name": "Ephraim",
       "lat": 32.0,
       "lng": 35.2,
-      "summary": "Named place or region in Judges.",
-      "limits": "Micah’s house and the Levite’s home are not securely identified.",
+      "summary": "Micah’s house is in this hill country in chapters 17 and 18. The Levite of chapter 19 lives on its far side. Ehud and Gideon call men from these hills earlier in the book.",
+      "limits": "The marker shows a broad hill region. No one knows where Micah’s house stood.",
       "sourceIds": [
         "web",
         "atlas-canaan"
       ],
-      "detail": "Named place or region in Judges.",
-      "uncertainty": "Micah’s house and the Levite’s home are not securely identified.",
-      "chapterLocation": true
+      "detail": "Micah’s house is in this hill country in chapters 17 and 18. The Levite of chapter 19 lives on its far side. Ehud and Gideon call men from these hills earlier in the book.",
+      "uncertainty": "The marker shows a broad hill region. No one knows where Micah’s house stood.",
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H669",
+        "key": "Ephraim",
+        "checkedVerses": 22,
+        "example": [
+          1,
+          29
+        ],
+        "hebrew": "אֶפְרַיִם",
+        "transliteration": "ʼEphrayim",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "bethlehem",
       "name": "Bethlehem",
       "lat": 31.705,
       "lng": 35.202,
-      "summary": "Named place or region in Judges.",
-      "limits": "The town marker does not identify a particular ancient household.",
+      "summary": "The young Levite leaves this town in chapter 17. The woman of chapter 19 comes from here. The Levite fetches her from her father’s house.",
+      "limits": "The marker shows the town’s general location.",
       "sourceIds": [
         "web",
         "atlas-canaan"
       ],
-      "detail": "Named place or region in Judges.",
-      "uncertainty": "The town marker does not identify a particular ancient household.",
-      "chapterLocation": true
+      "detail": "The young Levite leaves this town in chapter 17. The woman of chapter 19 comes from here. The Levite fetches her from her father’s house.",
+      "uncertainty": "The marker shows the town’s general location.",
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H1035",
+        "key": "Bethlehem",
+        "checkedVerses": 8,
+        "example": [
+          12,
+          8
+        ],
+        "hebrew": "בֵּית לֶחֶם",
+        "transliteration": "Bêyth Lechem",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "dan-city",
       "name": "Laish",
       "lat": 33.25,
       "lng": 35.65,
-      "summary": "Named place or region in Judges.",
-      "limits": "The marker does not prove the Danite attack or identify a shrine’s exact date.",
+      "summary": "Five spies of Dan find Laish quiet and safe in chapter 18. Six hundred men of Dan kill its people and burn it. They rebuild it, name it Dan, and set up Micah’s image.",
+      "limits": "The marker shows the site’s general location.",
       "sourceIds": [
         "web",
         "atlas-canaan"
       ],
-      "detail": "Named place or region in Judges.",
-      "uncertainty": "The marker does not prove the Danite attack or identify a shrine’s exact date.",
-      "chapterLocation": true
+      "detail": "Five spies of Dan find Laish quiet and safe in chapter 18. Six hundred men of Dan kill its people and burn it. They rebuild it, name it Dan, and set up Micah’s image.",
+      "uncertainty": "The marker shows the site’s general location.",
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H3919",
+        "key": "Laish",
+        "checkedVerses": 4,
+        "example": [
+          18,
+          7
+        ],
+        "hebrew": "לַיִשׁ",
+        "transliteration": "Layish",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "gibeah",
       "name": "Gibeah",
       "lat": 31.823,
       "lng": 35.231,
-      "summary": "Named place or region in Judges.",
-      "limits": "The identification is traditional. No specific house or crime scene is identified.",
+      "summary": "The Levite and the woman stay here in chapter 19. Men of the town abuse her through the night. In chapter 20 Israel attacks Gibeah and takes it by ambush.",
+      "limits": "The identification is traditional.",
       "sourceIds": [
         "web",
         "atlas-canaan"
       ],
-      "detail": "Named place or region in Judges.",
-      "uncertainty": "The identification is traditional. No specific house or crime scene is identified.",
-      "chapterLocation": true
+      "detail": "The Levite and the woman stay here in chapter 19. Men of the town abuse her through the night. In chapter 20 Israel attacks Gibeah and takes it by ambush.",
+      "uncertainty": "The identification is traditional.",
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H1390",
+        "key": "Gibeah",
+        "checkedVerses": 22,
+        "example": [
+          19,
+          12
+        ],
+        "hebrew": "גִּבְעָה",
+        "transliteration": "Gibʻâh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "mizpah",
       "name": "Mizpah",
       "lat": 31.884,
       "lng": 35.214,
-      "summary": "Named place or region in Judges.",
-      "limits": "The marker does not verify the assembly’s date.",
+      "summary": "All Israel gathers here before the LORD in chapter 20. The Levite tells what happened at Gibeah. The men swear not to give their daughters to Benjamin.",
+      "limits": "The marker follows a traditional identification. Jephthah’s Mizpah of Gilead in chapter 11 is a different place.",
       "sourceIds": [
         "web",
         "atlas-canaan"
       ],
-      "detail": "Named place or region in Judges.",
-      "uncertainty": "The marker does not verify the assembly’s date.",
-      "chapterLocation": true
+      "detail": "All Israel gathers here before the LORD in chapter 20. The Levite tells what happened at Gibeah. The men swear not to give their daughters to Benjamin.",
+      "uncertainty": "The marker follows a traditional identification. Jephthah’s Mizpah of Gilead in chapter 11 is a different place.",
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H4709",
+        "key": "Mizpah",
+        "checkedVerses": 8,
+        "example": [
+          10,
+          17
+        ],
+        "hebrew": "מִצְפָּה",
+        "transliteration": "Mitspâh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "rimmon-rock",
       "name": "Rock of Rimmon",
       "lat": 31.946,
       "lng": 35.3,
-      "summary": "Named place or region in Judges.",
-      "limits": "The precise refuge is uncertain.",
+      "summary": "Six hundred men of Benjamin flee here in chapter 20 and stay four months. In chapter 21 Israel sends them an offer of peace.",
+      "limits": "The exact rock is uncertain.",
       "sourceIds": [
         "web",
         "atlas-canaan"
       ],
-      "detail": "Named place or region in Judges.",
-      "uncertainty": "The precise refuge is uncertain.",
+      "detail": "Six hundred men of Benjamin flee here in chapter 20 and stay four months. In chapter 21 Israel sends them an offer of peace.",
+      "uncertainty": "The exact rock is uncertain.",
       "chapterLocation": true
     },
     {
@@ -2143,14 +2803,14 @@
       "name": "Jabesh-gilead",
       "lat": 32.4,
       "lng": 35.65,
-      "summary": "Named place or region in Judges.",
-      "limits": "Competing site proposals remain. This is a regional reference.",
+      "summary": "No one from this town comes to Mizpah. In chapter 21 Israel kills its people but spares four hundred young women. They are given to Benjamin as wives.",
+      "limits": "More than one site has been proposed. The marker shows a general area.",
       "sourceIds": [
         "web",
         "atlas-canaan"
       ],
-      "detail": "Named place or region in Judges.",
-      "uncertainty": "Competing site proposals remain. This is a regional reference.",
+      "detail": "No one from this town comes to Mizpah. In chapter 21 Israel kills its people but spares four hundred young women. They are given to Benjamin as wives.",
+      "uncertainty": "More than one site has been proposed. The marker shows a general area.",
       "chapterLocation": true
     }
   ],
@@ -2158,6 +2818,124 @@
   "ancientRoads": [],
   "regions": [],
   "words": [
+    {
+      "id": "glossary-levites-17-H3881-levite",
+      "label": "Levites",
+      "matches": [
+        "Levite"
+      ],
+      "chapter": 17,
+      "verses": [
+        7,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "hebrew": "לֵוִיִּי",
+      "transliteration": "Lêvîyîy",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "Members of the tribe of Levi. They cared for the tabernacle and later the temple. The priests came from one Levite family, Aaron’s.",
+      "grammar": "This is the dictionary form of Hebrew word H3881. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H3881",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-levites-18-H3881-levite",
+      "label": "Levites",
+      "matches": [
+        "Levite"
+      ],
+      "chapter": 18,
+      "verses": [
+        3,
+        15
+      ],
+      "hebrew": "לֵוִיִּי",
+      "transliteration": "Lêvîyîy",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "Members of the tribe of Levi. They cared for the tabernacle and later the temple. The priests came from one Levite family, Aaron’s.",
+      "grammar": "This is the dictionary form of Hebrew word H3881. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H3881",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-levites-19-H3881-levite",
+      "label": "Levites",
+      "matches": [
+        "Levite"
+      ],
+      "chapter": 19,
+      "verses": [
+        1
+      ],
+      "hebrew": "לֵוִיִּי",
+      "transliteration": "Lêvîyîy",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "Members of the tribe of Levi. They cared for the tabernacle and later the temple. The priests came from one Levite family, Aaron’s.",
+      "grammar": "This is the dictionary form of Hebrew word H3881. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H3881",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-levites-20-H3881-levite",
+      "label": "Levites",
+      "matches": [
+        "Levite"
+      ],
+      "chapter": 20,
+      "verses": [
+        4
+      ],
+      "hebrew": "לֵוִיִּי",
+      "transliteration": "Lêvîyîy",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "Members of the tribe of Levi. They cared for the tabernacle and later the temple. The priests came from one Levite family, Aaron’s.",
+      "grammar": "This is the dictionary form of Hebrew word H3881. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H3881",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
     {
       "id": "glossary-levites",
       "label": "Levites",
@@ -2179,7 +2957,36 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-ark-20-H727-ark",
+      "label": "Ark",
+      "matches": [
+        "ark"
+      ],
+      "chapter": 20,
+      "verses": [
+        27
+      ],
+      "hebrew": "אָרוֹן",
+      "transliteration": "ʼârôwn",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A chest or a boat. In Genesis it is Noah’s boat. Later it is the gold-covered chest that held the covenant tablets.",
+      "grammar": "This is the dictionary form of Hebrew word H727. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H727",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-ark",
@@ -2200,7 +3007,66 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-covenant-2-H1285-covenant",
+      "label": "Covenant",
+      "matches": [
+        "covenant"
+      ],
+      "chapter": 2,
+      "verses": [
+        1,
+        2,
+        20
+      ],
+      "hebrew": "בְּרִית",
+      "transliteration": "bᵉrîyth",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A binding agreement with promises and duties. In the Bible, God makes covenants with people.",
+      "grammar": "This is the dictionary form of Hebrew word H1285. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H1285",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-covenant-20-H1285-covenant",
+      "label": "Covenant",
+      "matches": [
+        "covenant"
+      ],
+      "chapter": 20,
+      "verses": [
+        27
+      ],
+      "hebrew": "בְּרִית",
+      "transliteration": "bᵉrîyth",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A binding agreement with promises and duties. In the Bible, God makes covenants with people.",
+      "grammar": "This is the dictionary form of Hebrew word H1285. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H1285",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-covenant",
@@ -2222,7 +3088,38 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-gentiles-4-H1471-gentiles",
+      "label": "Gentiles",
+      "matches": [
+        "Gentiles"
+      ],
+      "chapter": 4,
+      "verses": [
+        2,
+        13,
+        16
+      ],
+      "hebrew": "גּוֹי",
+      "transliteration": "gôwy",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "People of nations other than Israel.",
+      "grammar": "This is the dictionary form of Hebrew word H1471. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H1471",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-gentiles",
@@ -2244,7 +3141,65 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-assembly-20-H6951-assembly",
+      "label": "Assembly",
+      "matches": [
+        "assembly"
+      ],
+      "chapter": 20,
+      "verses": [
+        2
+      ],
+      "hebrew": "קָהָל",
+      "transliteration": "qâhâl",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A gathering of people. In the New Testament letters it means a group of believers. Many translations say “church.”",
+      "grammar": "This is the dictionary form of Hebrew word H6951. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H6951",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-assembly-21-H6951-assembly",
+      "label": "Assembly",
+      "matches": [
+        "assembly"
+      ],
+      "chapter": 21,
+      "verses": [
+        5,
+        8
+      ],
+      "hebrew": "קָהָל",
+      "transliteration": "qâhâl",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A gathering of people. In the New Testament letters it means a group of believers. Many translations say “church.”",
+      "grammar": "This is the dictionary form of Hebrew word H6951. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H6951",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-assembly",
@@ -2266,7 +3221,209 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-baal-2-H1168-baals",
+      "label": "Baal",
+      "matches": [
+        "Baals"
+      ],
+      "chapter": 2,
+      "verses": [
+        11
+      ],
+      "hebrew": "בַּעַל",
+      "transliteration": "Baʻal",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A god worshiped by Israel’s neighbors. The prophets condemn Israel for serving him.",
+      "grammar": "This is the dictionary form of Hebrew word H1168. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H1168",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-baal-3-H1168-baals",
+      "label": "Baal",
+      "matches": [
+        "Baals"
+      ],
+      "chapter": 3,
+      "verses": [
+        7
+      ],
+      "hebrew": "בַּעַל",
+      "transliteration": "Baʻal",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A god worshiped by Israel’s neighbors. The prophets condemn Israel for serving him.",
+      "grammar": "This is the dictionary form of Hebrew word H1168. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H1168",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-baal-8-H1168-baals",
+      "label": "Baal",
+      "matches": [
+        "Baals"
+      ],
+      "chapter": 8,
+      "verses": [
+        33
+      ],
+      "hebrew": "בַּעַל",
+      "transliteration": "Baʻal",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A god worshiped by Israel’s neighbors. The prophets condemn Israel for serving him.",
+      "grammar": "This is the dictionary form of Hebrew word H1168. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H1168",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-baal-10-H1168-baals",
+      "label": "Baal",
+      "matches": [
+        "Baals"
+      ],
+      "chapter": 10,
+      "verses": [
+        6,
+        10
+      ],
+      "hebrew": "בַּעַל",
+      "transliteration": "Baʻal",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A god worshiped by Israel’s neighbors. The prophets condemn Israel for serving him.",
+      "grammar": "This is the dictionary form of Hebrew word H1168. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H1168",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-baal-2-H1168-baal",
+      "label": "Baal",
+      "matches": [
+        "Baal"
+      ],
+      "chapter": 2,
+      "verses": [
+        13
+      ],
+      "hebrew": "בַּעַל",
+      "transliteration": "Baʻal",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A god worshiped by Israel’s neighbors. The prophets condemn Israel for serving him.",
+      "grammar": "This is the dictionary form of Hebrew word H1168. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H1168",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-baal-6-H1168-baal",
+      "label": "Baal",
+      "matches": [
+        "Baal"
+      ],
+      "chapter": 6,
+      "verses": [
+        25,
+        28,
+        30,
+        31,
+        32
+      ],
+      "hebrew": "בַּעַל",
+      "transliteration": "Baʻal",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A god worshiped by Israel’s neighbors. The prophets condemn Israel for serving him.",
+      "grammar": "This is the dictionary form of Hebrew word H1168. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H1168",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-baal-8-H1168-baal",
+      "label": "Baal",
+      "matches": [
+        "Baal"
+      ],
+      "chapter": 8,
+      "verses": [
+        33
+      ],
+      "hebrew": "בַּעַל",
+      "transliteration": "Baʻal",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A god worshiped by Israel’s neighbors. The prophets condemn Israel for serving him.",
+      "grammar": "This is the dictionary form of Hebrew word H1168. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H1168",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-baal",
@@ -2288,7 +3445,67 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-asherah-3-H842-asheroth",
+      "label": "Asherah",
+      "matches": [
+        "Asheroth"
+      ],
+      "chapter": 3,
+      "verses": [
+        7
+      ],
+      "hebrew": "אֲשֵׁרָה",
+      "transliteration": "ʼăshêrâh",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A goddess, or a wooden pole set up for her. Deuteronomy 16:21 forbids such poles.",
+      "grammar": "This is the dictionary form of Hebrew word H842. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H842",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-asherah-6-H842-asherah",
+      "label": "Asherah",
+      "matches": [
+        "Asherah"
+      ],
+      "chapter": 6,
+      "verses": [
+        25,
+        26,
+        28,
+        30
+      ],
+      "hebrew": "אֲשֵׁרָה",
+      "transliteration": "ʼăshêrâh",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A goddess, or a wooden pole set up for her. Deuteronomy 16:21 forbids such poles.",
+      "grammar": "This is the dictionary form of Hebrew word H842. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H842",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-asherah",
@@ -2311,7 +3528,64 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-circumcision-14-H6189-uncircumcised",
+      "label": "Circumcision",
+      "matches": [
+        "uncircumcised"
+      ],
+      "chapter": 14,
+      "verses": [
+        3
+      ],
+      "hebrew": "עָרֵל",
+      "transliteration": "ʻârêl",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "The cutting of the foreskin. Genesis 17 makes it the sign of God’s covenant with Abraham.",
+      "grammar": "This is the dictionary form of Hebrew word H6189. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H6189",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-circumcision-15-H6189-uncircumcised",
+      "label": "Circumcision",
+      "matches": [
+        "uncircumcised"
+      ],
+      "chapter": 15,
+      "verses": [
+        18
+      ],
+      "hebrew": "עָרֵל",
+      "transliteration": "ʻârêl",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "The cutting of the foreskin. Genesis 17 makes it the sign of God’s covenant with Abraham.",
+      "grammar": "This is the dictionary form of Hebrew word H6189. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H6189",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-circumcision",
@@ -2336,7 +3610,95 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-ephod-8-H646-ephod",
+      "label": "Ephod",
+      "matches": [
+        "ephod"
+      ],
+      "chapter": 8,
+      "verses": [
+        27
+      ],
+      "hebrew": "אֵפוֹד",
+      "transliteration": "ʼêphôwd",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A garment worn by priests. The high priest’s ephod carried a breastplate with twelve stones (Exodus 28).",
+      "grammar": "This is the dictionary form of Hebrew word H646. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H646",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-ephod-17-H646-ephod",
+      "label": "Ephod",
+      "matches": [
+        "ephod"
+      ],
+      "chapter": 17,
+      "verses": [
+        5
+      ],
+      "hebrew": "אֵפוֹד",
+      "transliteration": "ʼêphôwd",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A garment worn by priests. The high priest’s ephod carried a breastplate with twelve stones (Exodus 28).",
+      "grammar": "This is the dictionary form of Hebrew word H646. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H646",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-ephod-18-H646-ephod",
+      "label": "Ephod",
+      "matches": [
+        "ephod"
+      ],
+      "chapter": 18,
+      "verses": [
+        14,
+        17,
+        18,
+        20
+      ],
+      "hebrew": "אֵפוֹד",
+      "transliteration": "ʼêphôwd",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A garment worn by priests. The high priest’s ephod carried a breastplate with twelve stones (Exodus 28).",
+      "grammar": "This is the dictionary form of Hebrew word H646. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H646",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-ephod",
@@ -2357,7 +3719,36 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-firstborn-8-H1060-firstborn",
+      "label": "Firstborn",
+      "matches": [
+        "firstborn"
+      ],
+      "chapter": 8,
+      "verses": [
+        20
+      ],
+      "hebrew": "בְּכוֹר",
+      "transliteration": "bᵉkôwr",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "The oldest child. A firstborn son received a double share of the inheritance (Deuteronomy 21:17).",
+      "grammar": "This is the dictionary form of Hebrew word H1060. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H1060",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-firstborn",
@@ -2378,7 +3769,65 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-nazirite-13-H5139-nazirite",
+      "label": "Nazirite",
+      "matches": [
+        "Nazirite"
+      ],
+      "chapter": 13,
+      "verses": [
+        5,
+        7
+      ],
+      "hebrew": "נָזִיר",
+      "transliteration": "nâzîyr",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A person under a special vow. Numbers 6 forbids wine, haircuts, and contact with the dead.",
+      "grammar": "This is the dictionary form of Hebrew word H5139. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H5139",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-nazirite-16-H5139-nazirite",
+      "label": "Nazirite",
+      "matches": [
+        "Nazirite"
+      ],
+      "chapter": 16,
+      "verses": [
+        17
+      ],
+      "hebrew": "נָזִיר",
+      "transliteration": "nâzîyr",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A person under a special vow. Numbers 6 forbids wine, haircuts, and contact with the dead.",
+      "grammar": "This is the dictionary form of Hebrew word H5139. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H5139",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-nazirite",
@@ -2400,7 +3849,36 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-unclean-13-H2931-unclean",
+      "label": "Unclean",
+      "matches": [
+        "unclean"
+      ],
+      "chapter": 13,
+      "verses": [
+        4
+      ],
+      "hebrew": "טָמֵא",
+      "transliteration": "ṭâmêʼ",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "Unfit to take part in worship until a set cleansing is done. Leviticus 11–15 gives the rules.",
+      "grammar": "This is the dictionary form of Hebrew word H2931. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H2931",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-unclean",
@@ -2422,7 +3900,37 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-anoint-9-H4886-anoint",
+      "label": "Anoint",
+      "matches": [
+        "anoint"
+      ],
+      "chapter": 9,
+      "verses": [
+        8,
+        15
+      ],
+      "hebrew": "מָשַׁח",
+      "transliteration": "mâshach",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "To pour oil on a person or thing to set it apart. Kings and priests were anointed.",
+      "grammar": "This is the dictionary form of Hebrew word H4886. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H4886",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-anoint",
@@ -2446,7 +3954,36 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-remnant-5-H8300-remnant",
+      "label": "Remnant",
+      "matches": [
+        "remnant"
+      ],
+      "chapter": 5,
+      "verses": [
+        13
+      ],
+      "hebrew": "שָׂרִיד",
+      "transliteration": "sârîyd",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "The part of a people that survives a disaster.",
+      "grammar": "This is the dictionary form of Hebrew word H8300. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H8300",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-remnant",
@@ -2467,7 +4004,101 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-concubine-8-H6370-concubine",
+      "label": "Concubine",
+      "matches": [
+        "concubine"
+      ],
+      "chapter": 8,
+      "verses": [
+        31
+      ],
+      "hebrew": "פִּילֶגֶשׁ",
+      "transliteration": "pîylegesh",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A woman joined to a man’s household with lower standing than a wife.",
+      "grammar": "This is the dictionary form of Hebrew word H6370. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H6370",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-concubine-19-H6370-concubine",
+      "label": "Concubine",
+      "matches": [
+        "concubine"
+      ],
+      "chapter": 19,
+      "verses": [
+        1,
+        2,
+        9,
+        10,
+        24,
+        25,
+        27,
+        29
+      ],
+      "hebrew": "פִּילֶגֶשׁ",
+      "transliteration": "pîylegesh",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A woman joined to a man’s household with lower standing than a wife.",
+      "grammar": "This is the dictionary form of Hebrew word H6370. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H6370",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-concubine-20-H6370-concubine",
+      "label": "Concubine",
+      "matches": [
+        "concubine"
+      ],
+      "chapter": 20,
+      "verses": [
+        4,
+        5,
+        6
+      ],
+      "hebrew": "פִּילֶגֶשׁ",
+      "transliteration": "pîylegesh",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A woman joined to a man’s household with lower standing than a wife.",
+      "grammar": "This is the dictionary form of Hebrew word H6370. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H6370",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-concubine",
@@ -2489,7 +4120,8 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
     },
     {
       "id": "glossary-cubit",
@@ -2511,7 +4143,8 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
     },
     {
       "id": "glossary-shekel",
@@ -2533,7 +4166,36 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-ephah-6-H374-ephah",
+      "label": "Ephah",
+      "matches": [
+        "ephah"
+      ],
+      "chapter": 6,
+      "verses": [
+        19
+      ],
+      "hebrew": "אֵיפָה",
+      "transliteration": "ʼêyphâh",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A dry measure of about 22 liters.",
+      "grammar": "This is the dictionary form of Hebrew word H374. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H374",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-ephah",
@@ -2555,7 +4217,38 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-yeast-6-H4682-unleavened",
+      "label": "Yeast",
+      "matches": [
+        "unleavened"
+      ],
+      "chapter": 6,
+      "verses": [
+        19,
+        20,
+        21
+      ],
+      "hebrew": "מַצָּה",
+      "transliteration": "matstsâh",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "Yeast, or leaven, makes dough rise. Bread made without it is called unleavened.",
+      "grammar": "This is the dictionary form of Hebrew word H4682. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H4682",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-yeast",
@@ -2579,7 +4272,8 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
     }
   ],
   "guides": [
@@ -2663,9 +4357,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "note": "The points show the towns and regions the chapter names. Many locations are approximate.",
       "narrative": "After Joshua dies, Israel asks the LORD who should fight first. Judah goes up with Simeon and defeats Adoni-Bezek. Caleb’s daughter Achsah again receives her springs. Judah takes the hill country but cannot drive out the plain’s iron chariots. Benjamin does not drive the Jebusites from Jerusalem. Joseph’s house takes Bethel with help from a man of the city. Manasseh, Ephraim, Zebulun, Asher, and Naphtali leave Canaanites in their towns. When Israel grows strong, it puts them to forced labor.",
-      "limits": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "limits": "The points show the towns and regions the chapter names. Many locations are approximate.",
       "sourceIds": [
         "web",
         "yale-13",
@@ -2689,9 +4383,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "note": "The points show the towns and regions the chapter names. Many locations are approximate.",
       "narrative": "The LORD’s angel comes to Bochim and says Israel has not obeyed. So the nations will stay as thorns and their gods as a snare. The people weep. The account then looks back: Israel served the LORD while Joshua and the elders lived. A new generation arose that did not know the LORD or his works. They served the Baals, and the LORD gave them to raiders. He raised up judges to save them, but after each judge they turned back. So the LORD left the nations to test Israel.",
-      "limits": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "limits": "The points show the towns and regions the chapter names. Many locations are approximate.",
       "sourceIds": [
         "web",
         "yale-13",
@@ -2718,9 +4412,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "note": "The points show the towns and regions the chapter names. Many locations are approximate.",
       "narrative": "The LORD leaves several nations to test Israel. Israel marries among them and serves their gods. A king of Mesopotamia rules them eight years, and Othniel, of Caleb’s family, saves them. Then Eglon king of Moab rules Israel eighteen years. The LORD raises up Ehud, a left-handed man of Benjamin. Ehud hides a sword on his right thigh and kills Eglon in private. He escapes, calls Israel to fight, and Moab is subdued. Shamgar later kills six hundred Philistines with an ox goad.",
-      "limits": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "limits": "The points show the towns and regions the chapter names. Many locations are approximate.",
       "sourceIds": [
         "web",
         "yale-13",
@@ -2751,9 +4445,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "note": "The points show the towns and regions the chapter names. Many locations are approximate.",
       "narrative": "Israel does evil again, and Jabin king of Canaan oppresses them twenty years. His general Sisera has nine hundred iron chariots. Deborah, a prophetess, judges Israel under a palm tree. She tells Barak that the LORD commands him to gather ten thousand men. Barak will go only if she goes with him. She agrees but says a woman will get the honor. The LORD routs Sisera’s army, and Sisera flees on foot to Jael’s tent. Jael gives him milk and kills him with a tent peg as he sleeps.",
-      "limits": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "limits": "The points show the towns and regions the chapter names. Many locations are approximate.",
       "sourceIds": [
         "web",
         "yale-13",
@@ -2778,9 +4472,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "note": "The points show the towns and regions the chapter names. Many locations are approximate.",
       "narrative": "Deborah and Barak sing after the victory. They praise leaders and people who offered themselves willingly. The song recalls empty roads and villages before Deborah arose. It praises the tribes that came: Ephraim, Benjamin, Zebulun, Issachar, and Naphtali. It asks why Reuben, Gilead, Dan, and Asher stayed home. The stars and the river Kishon fought against Sisera. Jael is called most blessed of women for killing him. The song ends with Sisera’s mother waiting at her window for him.",
-      "limits": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "limits": "The points show the towns and regions the chapter names. Many locations are approximate.",
       "sourceIds": [
         "web",
         "yale-13",
@@ -2803,9 +4497,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "note": "The points show the towns and regions the chapter names. Many locations are approximate.",
       "narrative": "Midian raids Israel for seven years and strips the land at harvest. Israel cries out, and a prophet reminds them they did not listen. The LORD’s angel finds Gideon threshing wheat in a winepress to hide it. He calls Gideon a mighty man and sends him to save Israel. Gideon says his family is the poorest and he is the least. At night he tears down his father’s altar to Baal. His father Joash tells the angry town to let Baal defend himself. Gideon gathers an army and twice asks for a sign with a fleece.",
-      "limits": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "limits": "The points show the towns and regions the chapter names. Many locations are approximate.",
       "sourceIds": [
         "web",
         "yale-13",
@@ -2827,9 +4521,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "note": "The points show the towns and regions the chapter names. Many locations are approximate.",
       "narrative": "Gideon camps with thirty-two thousand men. The LORD says they are too many, or Israel will boast that it saved itself. The fearful go home, and ten thousand remain. At the water the LORD keeps only the three hundred who lap from their hands. Gideon sneaks to the enemy camp and hears a man tell a dream of defeat. He gives each man a trumpet, a jar, and a torch. At night they blow, break the jars, and shout. The Midianites turn on each other and flee.",
-      "limits": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "limits": "The points show the towns and regions the chapter names. Many locations are approximate.",
       "sourceIds": [
         "web",
         "yale-13",
@@ -2860,9 +4554,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "note": "The points show the towns and regions the chapter names. Many locations are approximate.",
       "narrative": "Ephraim complains at being called late, and Gideon calms them with praise. He chases two Midianite kings across the Jordan with his tired three hundred. Succoth and Penuel refuse him bread. He captures the kings, then punishes Succoth’s elders and kills the men of Penuel. He kills the two kings for the death of his brothers. Israel asks him to rule, and he says the LORD will rule. But he collects gold earrings and makes an ephod that Israel worships. After his death Israel turns to the Baals and forgets his family.",
-      "limits": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "limits": "The points show the towns and regions the chapter names. Many locations are approximate.",
       "sourceIds": [
         "web",
         "yale-13",
@@ -2886,9 +4580,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "note": "The points show the towns and regions the chapter names. Many locations are approximate.",
       "narrative": "Abimelech, Gideon’s son by a woman of Shechem, asks Shechem to make him ruler. They give him silver, and he hires men and kills his seventy brothers. Only the youngest, Jotham, escapes. Jotham shouts a story from Mount Gerizim about trees choosing a king. The olive, fig, and vine refuse, and the bramble accepts. Three years later Shechem turns against Abimelech. He destroys the city and burns its tower with the people inside. At Thebez a woman drops a millstone on his head, and he dies.",
-      "limits": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "limits": "The points show the towns and regions the chapter names. Many locations are approximate.",
       "sourceIds": [
         "web",
         "yale-13",
@@ -2912,9 +4606,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "note": "The points show the towns and regions the chapter names. Many locations are approximate.",
       "narrative": "Tola judges Israel twenty-three years, and Jair twenty-two. Israel again serves the gods of the nations around it. The LORD gives them to the Philistines and Ammonites for eighteen years. Israel cries out and admits its sin. The LORD lists his past rescues and says he will save them no more. He tells them to cry to the gods they chose. Israel confesses again, puts away the foreign gods, and serves the LORD. He can bear their misery no longer, and Ammon gathers for war.",
-      "limits": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "limits": "The points show the towns and regions the chapter names. Many locations are approximate.",
       "sourceIds": [
         "web",
         "yale-13",
@@ -2938,9 +4632,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "note": "The points show the towns and regions the chapter names. Many locations are approximate.",
       "narrative": "Jephthah is a strong fighter, but his brothers drive him out as a prostitute’s son. When Ammon attacks, the elders of Gilead ask him to lead them. He agrees on condition that he stay their head. He sends Ammon’s king a long case from history that Israel took no Ammonite land. The king does not listen. Jephthah vows to offer whatever first comes from his house if he wins. He wins, and his only daughter comes out dancing to meet him. She asks two months to mourn, and he does to her as he vowed.",
-      "limits": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "limits": "The points show the towns and regions the chapter names. Many locations are approximate.",
       "sourceIds": [
         "web",
         "yale-13",
@@ -2963,9 +4657,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "note": "The points show the towns and regions the chapter names. Many locations are approximate.",
       "narrative": "The men of Ephraim are angry that Jephthah fought Ammon without them. They threaten to burn his house. Jephthah says he called and they did not come. Gilead fights Ephraim and takes the Jordan crossings. Each fleeing man is told to say “Shibboleth.” An Ephraimite says “Sibboleth” and is killed. Forty-two thousand of Ephraim die. Jephthah judges six years, and Ibzan, Elon, and Abdon follow him.",
-      "limits": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "limits": "The points show the towns and regions the chapter names. Many locations are approximate.",
       "sourceIds": [
         "web",
         "yale-13",
@@ -2987,9 +4681,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "note": "The points show the towns and regions the chapter names. Many locations are approximate.",
       "narrative": "Israel does evil, and the Philistines rule them forty years. The LORD’s angel appears to the childless wife of Manoah of Dan. She will bear a son who must be a Nazirite from birth. She must drink no wine, and no razor may touch his head. Manoah prays for the man to return, and the angel comes again to the woman. Manoah offers a goat, and the angel goes up in the altar flame. Manoah fears they will die for seeing God. His wife says God would not accept their offering and then kill them.",
-      "limits": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "limits": "The points show the towns and regions the chapter names. Many locations are approximate.",
       "sourceIds": [
         "web",
         "yale-13",
@@ -3012,9 +4706,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "note": "The points show the towns and regions the chapter names. Many locations are approximate.",
       "narrative": "Samson sees a Philistine woman in Timnah and demands her as his wife. His parents object, not knowing the LORD is seeking an occasion against the Philistines. On the way Samson tears a young lion apart with his hands. Later he finds honey in its carcass and eats it. At his wedding feast he bets thirty guests they cannot solve his riddle. They threaten to burn his wife and her father’s house unless she gets the answer. She weeps until Samson tells her, and she tells them. Samson kills thirty men to pay the bet, and his wife is given away.",
-      "limits": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "limits": "The points show the towns and regions the chapter names. Many locations are approximate.",
       "sourceIds": [
         "web",
         "yale-13",
@@ -3036,9 +4730,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "note": "The points show the towns and regions the chapter names. Many locations are approximate.",
       "narrative": "Samson returns for his wife and learns she was given to another man. He ties torches to three hundred foxes and burns the Philistines’ grain. The Philistines burn his wife and her father. Samson strikes them down and hides in a rock cleft. Three thousand men of Judah come to hand him over. He lets them bind him, then snaps the ropes when the Spirit comes on him. He kills a thousand men with a donkey’s jawbone. He is thirsty and calls on the LORD, and God opens a spring.",
-      "limits": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "limits": "The points show the towns and regions the chapter names. Many locations are approximate.",
       "sourceIds": [
         "web",
         "yale-13",
@@ -3060,9 +4754,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "note": "The points show the towns and regions the chapter names. Many locations are approximate.",
       "narrative": "Samson visits a prostitute in Gaza and carries off the city gates at midnight. He loves Delilah, and Philistine lords pay her to learn his secret. Three times he lies to her, and each time she tests it. She presses him daily until he tells her about his uncut hair. She has his head shaved while he sleeps, and the LORD leaves him. The Philistines blind him and make him grind grain in prison. At a feast for their god Dagon they bring him out for sport. He prays, pushes down the two pillars, and dies with them.",
-      "limits": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "limits": "The points show the towns and regions the chapter names. Many locations are approximate.",
       "sourceIds": [
         "web",
         "yale-13",
@@ -3084,9 +4778,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "note": "The points show the towns and regions the chapter names. Many locations are approximate.",
       "narrative": "Micah of Ephraim admits he took his mother’s eleven hundred pieces of silver. She blesses him and has part of it made into an idol. Micah has a shrine, an ephod, and household gods, and makes a son his priest. In those days Israel had no king, and everyone did what seemed right. A young Levite from Bethlehem comes looking for a place. Micah hires him for ten pieces of silver a year, clothes, and food. The Levite becomes his priest. Micah says the LORD will surely do him good now.",
-      "limits": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "limits": "The points show the towns and regions the chapter names. Many locations are approximate.",
       "sourceIds": [
         "web",
         "yale-13",
@@ -3120,9 +4814,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "note": "The points show the towns and regions the chapter names. Many locations are approximate.",
       "narrative": "The tribe of Dan is looking for land. Five scouts stay at Micah’s house and ask his Levite for a word from God. They find Laish, a quiet town with no defender. Six hundred armed Danites set out. On the way they take Micah’s idol, ephod, and gods, and invite the priest along. The priest is glad to serve a tribe in place of one man. Micah chases them and is warned off. Dan burns Laish, kills its people, renames it Dan, and sets up the idol.",
-      "limits": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "limits": "The points show the towns and regions the chapter names. Many locations are approximate.",
       "sourceIds": [
         "web",
         "yale-13",
@@ -3154,9 +4848,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "note": "The points show the towns and regions the chapter names. Many locations are approximate.",
       "narrative": "A Levite’s concubine leaves him and returns to her father in Bethlehem. He goes to bring her back and is kept there for days. On the way home they pass a foreign town and reach Gibeah of Benjamin. Only an old man takes them in. Men of the city surround the house and demand the Levite. He pushes his concubine out to them, and they abuse her all night. In the morning she lies dead at the door. He cuts her body into twelve pieces and sends them through Israel.",
-      "limits": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "limits": "The points show the towns and regions the chapter names. Many locations are approximate.",
       "sourceIds": [
         "web",
         "yale-13",
@@ -3183,9 +4877,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "note": "The points show the towns and regions the chapter names. Many locations are approximate.",
       "narrative": "All Israel gathers at Mizpah, four hundred thousand armed men. The Levite tells what Gibeah did but leaves out his own part. The tribes demand that Benjamin hand over the guilty men. Benjamin refuses and gathers its army. Israel asks God who should go first and loses twenty-two thousand men. They weep, ask again, and lose eighteen thousand more. After fasting and offerings, they set an ambush and win on the third day. Benjamin loses twenty-five thousand men, and only six hundred escape.",
-      "limits": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "limits": "The points show the towns and regions the chapter names. Many locations are approximate.",
       "sourceIds": [
         "web",
         "yale-13",
@@ -3209,9 +4903,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "note": "The points show the towns and regions the chapter names. Many locations are approximate.",
       "narrative": "Israel had sworn not to give daughters to Benjamin. Now the people weep that a tribe is nearly gone. Six hundred Benjamite men survive and need wives. Israel finds that Jabesh Gilead sent no one to the assembly. They kill its people and take four hundred young women for Benjamin. That is not enough. The elders tell the remaining men to seize dancers at the Shiloh feast. The book ends: there was no king, and everyone did what seemed right.",
-      "limits": "Markers show named localities and approximate regions. They do not establish exact battle sites, ancient roads, or tribal boundaries.",
+      "limits": "The points show the towns and regions the chapter names. Many locations are approximate.",
       "sourceIds": [
         "web",
         "yale-13",
@@ -3239,8 +4933,8 @@
       "verse": 1,
       "summary": "Israel does evil again, and Jabin king of Canaan oppresses them twenty years. His general Sisera has nine hundred iron chariots. Deborah, a prophetess, judges Israel under a palm tree. She tells Barak that the LORD commands him to gather ten thousand men. Barak will go only if she goes with him. She agrees but says a woman will get the honor. The LORD routs Sisera’s army, and Sisera flees on foot to Jael’s tent. Jael gives him milk and kills him with a tent peg as he sleeps.",
       "detail": "Deborah holds two roles in verse 4: prophetess and judge. Barak is the general, yet he will not march without her (verse 8). Verse 9 says the cost: the honor will go to “a woman.” A reader might expect that woman to be Deborah. Verses 17–21 give the victory to Jael, a tent dweller and not an Israelite. Sisera had nine hundred iron chariots and dies by a tent peg. The chapter credits God with the result (verse 23).",
-      "uncertainty": "The simplified line follows the chapter’s named movement. It omits uncertain intermediate points and is not an excavated road.",
-      "evidence": "The simplified line follows the chapter’s named movement. It omits uncertain intermediate points and is not an excavated road.",
+      "uncertainty": "The line follows the movement the chapter names. The real roads between the points are unknown.",
+      "evidence": "The line follows the movement the chapter names. The real roads between the points are unknown.",
       "kind": "flight",
       "direction": true,
       "textRoute": true,
@@ -3272,8 +4966,8 @@
       "verse": 1,
       "summary": "Ephraim complains at being called late, and Gideon calms them with praise. He chases two Midianite kings across the Jordan with his tired three hundred. Succoth and Penuel refuse him bread. He captures the kings, then punishes Succoth’s elders and kills the men of Penuel. He kills the two kings for the death of his brothers. Israel asks him to rule, and he says the LORD will rule. But he collects gold earrings and makes an ephod that Israel worships. After his death Israel turns to the Baals and forgets his family.",
       "detail": "Gideon began by tearing down an idol’s altar (6:27). In verse 23 he refuses to be king and says the LORD will rule. His very next act is to ask for gold (verse 24). He makes an ephod, a priestly object, and sets it up in his town. Verse 27 says all Israel went after it and it became “a snare.” Aaron also made an idol from gold earrings (Exodus 32:2–4). The deliverer leaves behind a new thing for Israel to worship.",
-      "uncertainty": "The simplified line follows the chapter’s named movement. It omits uncertain intermediate points and is not an excavated road.",
-      "evidence": "The simplified line follows the chapter’s named movement. It omits uncertain intermediate points and is not an excavated road.",
+      "uncertainty": "The line follows the movement the chapter names. The real roads between the points are unknown.",
+      "evidence": "The line follows the movement the chapter names. The real roads between the points are unknown.",
       "kind": "journey",
       "direction": true,
       "textRoute": true,
@@ -3304,8 +4998,8 @@
       "verse": 1,
       "summary": "The tribe of Dan is looking for land. Five scouts stay at Micah’s house and ask his Levite for a word from God. They find Laish, a quiet town with no defender. Six hundred armed Danites set out. On the way they take Micah’s idol, ephod, and gods, and invite the priest along. The priest is glad to serve a tribe in place of one man. Micah chases them and is warned off. Dan burns Laish, kills its people, renames it Dan, and sets up the idol.",
       "detail": "Micah stole from his mother in 17:2. Now armed men steal from him. His cry in verse 24 is honest about his gods: “which I made.” A god that can be made can also be carried off. The priest goes with the stronger party without protest (verse 20). Verse 27 calls the people of Laish “quiet and unsuspecting” when Dan kills them. Verse 30 traces the new shrine’s priests to a grandson of Moses.",
-      "uncertainty": "The simplified line follows the chapter’s named movement. It omits uncertain intermediate points and is not an excavated road.",
-      "evidence": "The simplified line follows the chapter’s named movement. It omits uncertain intermediate points and is not an excavated road.",
+      "uncertainty": "The line follows the movement the chapter names. The real roads between the points are unknown.",
+      "evidence": "The line follows the movement the chapter names. The real roads between the points are unknown.",
       "kind": "journey",
       "direction": true,
       "textRoute": true,
@@ -3337,8 +5031,8 @@
       "verse": 1,
       "summary": "A Levite’s concubine leaves him and returns to her father in Bethlehem. He goes to bring her back and is kept there for days. On the way home they pass a foreign town and reach Gibeah of Benjamin. Only an old man takes them in. Men of the city surround the house and demand the Levite. He pushes his concubine out to them, and they abuse her all night. In the morning she lies dead at the door. He cuts her body into twelve pieces and sends them through Israel.",
       "detail": "The travelers pass Jebus because it is not an Israelite town (verse 12). They expect safety among their own people in Gibeah. What happens there copies Sodom in Genesis 19. This time no angel steps in, and the woman is handed out. The Levite who gave her up is the one who reports the crime. Verse 30 says nothing like it had been seen since Egypt. The woman is never named and never speaks.",
-      "uncertainty": "The simplified line follows the chapter’s named movement. It omits uncertain intermediate points and is not an excavated road.",
-      "evidence": "The simplified line follows the chapter’s named movement. It omits uncertain intermediate points and is not an excavated road.",
+      "uncertainty": "The line follows the movement the chapter names. The real roads between the points are unknown.",
+      "evidence": "The line follows the movement the chapter names. The real roads between the points are unknown.",
       "kind": "journey",
       "direction": true,
       "textRoute": true,

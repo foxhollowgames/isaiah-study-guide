@@ -389,12 +389,12 @@
       "eventOrder": 1,
       "dateLabel": "Chapter order · historical year uncertain",
       "historicalNote": "The story is set in the time of the judges. Its composition date and event dates are not established here.",
-      "mapNote": "The map shows the named town and broad region. It does not identify private buildings or an ancient road.",
+      "mapNote": "The points show Bethlehem and the region of Moab. The Moab point marks a region, not a town.",
       "route": [
         "moab",
         "bethlehem"
       ],
-      "routeEvidence": "The text names departure from Moab and arrival at Bethlehem. The line omits an unknown path around the Dead Sea.",
+      "routeEvidence": "The line joins Moab and Bethlehem, the two ends the text names. The real path around the Dead Sea is unknown.",
       "contextNote": {
         "title": "A changed name expresses an argument about loss",
         "text": "Naomi returns to a town that still knows her name (verse 19). She asks to be called Mara, and the verse ties that name to bitterness. She blames the Almighty directly in verses 20–21. She left full, she says, and the LORD brought her back empty. Ruth stands beside her as she says “empty.” The book lets the complaint stand without any rebuke. Verse 22 then quietly adds two things: Ruth and the harvest.",
@@ -436,9 +436,9 @@
       "eventOrder": 2,
       "dateLabel": "Chapter order · historical year uncertain",
       "historicalNote": "The story is set in the time of the judges. Its composition date and event dates are not established here.",
-      "mapNote": "The map shows the named town and broad region. It does not identify private buildings or an ancient road.",
+      "mapNote": "The points show Bethlehem and the region of Moab. The Moab point marks a region, not a town.",
       "route": [],
-      "routeEvidence": "The text names departure from Moab and arrival at Bethlehem. The line omits an unknown path around the Dead Sea.",
+      "routeEvidence": "The line joins Moab and Bethlehem, the two ends the text names. The real path around the Dead Sea is unknown.",
       "contextNote": {
         "title": "A harvest rule becomes a means of survival",
         "text": "The law left the edges of a field for the poor and the foreigner. Leviticus 19:9–10 and Deuteronomy 24:19 state the rule. Ruth is both, and in verse 7 she still asks permission. Verses 9 and 22 show why: a woman alone in a field risked harm. Boaz first gives what the law requires and then more. He orders his men to pull stalks out for her (verse 16). In verse 20 Naomi’s speech changes, and she blesses the LORD’s kindness.",
@@ -478,9 +478,9 @@
       "eventOrder": 3,
       "dateLabel": "Chapter order · historical year uncertain",
       "historicalNote": "The story is set in the time of the judges. Its composition date and event dates are not established here.",
-      "mapNote": "The map shows the named town and broad region. It does not identify private buildings or an ancient road.",
+      "mapNote": "The points show Bethlehem and the region of Moab. The Moab point marks a region, not a town.",
       "route": [],
-      "routeEvidence": "The text names departure from Moab and arrival at Bethlehem. The line omits an unknown path around the Dead Sea.",
+      "routeEvidence": "The line joins Moab and Bethlehem, the two ends the text names. The real path around the Dead Sea is unknown.",
       "contextNote": {
         "title": "Ruth gives the plan her own words",
         "text": "Naomi’s plan ends with Boaz telling Ruth what to do (verse 4). In verse 9 Ruth tells Boaz what to do. She asks for his covering and gives the reason: he is a near kinsman. That ties her marriage to his family duty toward Naomi’s house. In 2:12 Boaz prayed that the LORD would shelter her. Now she asks him to be that shelter. Boaz calls her request a kindness and names her a worthy woman (verses 10–11).",
@@ -538,9 +538,9 @@
       "eventOrder": 4,
       "dateLabel": "Chapter order · historical year uncertain",
       "historicalNote": "The story is set in the time of the judges. Its composition date and event dates are not established here.",
-      "mapNote": "The map shows the named town and broad region. It does not identify private buildings or an ancient road.",
+      "mapNote": "The points show Bethlehem and the region of Moab. The Moab point marks a region, not a town.",
       "route": [],
-      "routeEvidence": "The text names departure from Moab and arrival at Bethlehem. The line omits an unknown path around the Dead Sea.",
+      "routeEvidence": "The line joins Moab and Bethlehem, the two ends the text names. The real path around the Dead Sea is unknown.",
       "contextNote": {
         "title": "Care requires a public commitment",
         "text": "The gate is the town’s court, and ten elders make the act public. The nearer kinsman accepts the field (verse 4) and refuses Ruth (verse 6). A son by Ruth would carry Mahlon’s name and inherit the land. Boaz accepts that cost in verses 9–10 before witnesses. The man who guarded his own estate is never named in the book. A cuneiform tablet shows how another people recorded a field sale. The women tell Naomi that Ruth is better than seven sons (verse 15).",
@@ -558,9 +558,9 @@
       "id": "elimelech",
       "name": "Elimelech",
       "role": "Naomi’s husband",
-      "relations": "Father of Mahlon and Chilion.",
+      "relations": "Husband of Naomi. Father of Mahlon and Chilion.",
       "passages": "Ruth 1; 4",
-      "meaning": "His household moves during famine. His death begins the account’s family losses.",
+      "meaning": "He leaves Bethlehem in a famine and takes his family to Moab. He dies there. In chapter 4 Boaz buys the land that was his.",
       "life": "Birth and death years are not securely known.",
       "sourceIds": [
         "web"
@@ -574,9 +574,9 @@
       "id": "naomi",
       "name": "Naomi",
       "role": "Widow who returns to Bethlehem",
-      "relations": "Mother-in-law of Ruth and Orpah.",
+      "relations": "Wife of Elimelech. Mother of Mahlon and Chilion. Mother-in-law of Ruth and Orpah.",
       "passages": "Ruth 1–4",
-      "meaning": "She expresses grief, advises Ruth, and receives Obed into her care. Her changing circumstances organize the account.",
+      "meaning": "She loses her husband and both sons in Moab. She returns to Bethlehem and calls herself Mara, meaning bitter. She sends Ruth to Boaz at the threshing floor. At the end she nurses Ruth’s son Obed.",
       "life": "Birth and death years are not securely known.",
       "sourceIds": [
         "web"
@@ -593,9 +593,9 @@
       "id": "mahlon",
       "name": "Mahlon",
       "role": "Naomi’s son and Ruth’s first husband",
-      "relations": "Brother of Chilion. Ruth 4:10 identifies Ruth as his widow.",
+      "relations": "Son of Elimelech and Naomi. Brother of Chilion. Ruth 4:10 names Ruth as his wife.",
       "passages": "Ruth 1; 4",
-      "meaning": "His death leaves Ruth widowed. Boaz’s stated responsibility includes preserving his name.",
+      "meaning": "He moves to Moab with his parents and marries there. He dies with no child named. Boaz later marries Ruth to keep Mahlon’s name on his land.",
       "life": "Birth and death years are not securely known.",
       "sourceIds": [
         "web"
@@ -609,9 +609,9 @@
       "id": "chilion",
       "name": "Chilion",
       "role": "Naomi’s son who dies in Moab",
-      "relations": "Brother of Mahlon. Orpah belongs to the household’s other marriage.",
+      "relations": "Son of Elimelech and Naomi. Brother of Mahlon.",
       "passages": "Ruth 1; 4",
-      "meaning": "His death contributes to Naomi’s loss. The text gives little personal biography.",
+      "meaning": "He moves to Moab with his parents and marries there. He dies with no child named. Ruth was Mahlon’s wife, so Chilion’s wife was Orpah. In chapter 4 Boaz buys what was his.",
       "life": "Birth and death years are not securely known.",
       "sourceIds": [
         "web"
@@ -627,7 +627,7 @@
       "role": "Moabite widow, worker, and mother of Obed",
       "relations": "Daughter-in-law of Naomi. Wife of Mahlon, then Boaz.",
       "passages": "Ruth 1–4",
-      "meaning": "She chooses loyalty, works for food, and makes a direct request for family protection. Her foreign identity remains visible.",
+      "meaning": "She stays with Naomi and goes with her to Bethlehem. She picks up leftover grain in Boaz’s field to feed them both. At the threshing floor she asks Boaz to act as her near relative. She marries him and bears Obed.",
       "life": "Birth and death years are not securely known.",
       "sourceIds": [
         "web"
@@ -642,9 +642,9 @@
       "id": "orpah",
       "name": "Orpah",
       "role": "Widowed daughter-in-law who returns home",
-      "relations": "Related by marriage to Naomi’s household.",
+      "relations": "Daughter-in-law of Naomi. Sister-in-law of Ruth.",
       "passages": "Ruth 1",
-      "meaning": "Orpah weeps when leaving Naomi. She returns home with Naomi’s blessing.",
+      "meaning": "She sets out for Judah with Naomi and Ruth. Naomi tells her twice to go back. She weeps, kisses Naomi, and returns to her people in Moab.",
       "life": "Birth and death years are not securely known.",
       "sourceIds": [
         "web"
@@ -657,10 +657,10 @@
     {
       "id": "boaz",
       "name": "Boaz",
-      "role": "Relative who provides protection and family redemption",
+      "role": "Relative of Elimelech who marries Ruth",
       "relations": "From Elimelech’s family. Husband of Ruth and father of Obed.",
       "passages": "Ruth 2–4",
-      "meaning": "He gives Ruth food and protection. Later, he accepts family duties before witnesses.",
+      "meaning": "He lets Ruth gather grain in his field and keeps her safe. At the threshing floor he promises to help her. At the gate he buys Elimelech’s land before ten elders. He marries Ruth, and Obed is born.",
       "life": "Birth and death years are not securely known.",
       "sourceIds": [
         "web"
@@ -673,10 +673,10 @@
     {
       "id": "harvest-supervisor",
       "name": "The harvest supervisor",
-      "role": "Unnamed servant responsible for Boaz’s reapers",
-      "relations": "Reports Ruth’s work to Boaz.",
+      "role": "Unnamed servant set over Boaz’s reapers",
+      "relations": "Servant of Boaz. He answers Boaz’s question about Ruth.",
       "passages": "Ruth 2:5–7",
-      "meaning": "His report tells Boaz who Ruth is and how she has worked.",
+      "meaning": "Boaz asks him who the young woman is. He says she is the Moabite who came back with Naomi. He says she asked to gather grain and has worked since morning.",
       "life": "Birth and death years are not securely known.",
       "sourceIds": [
         "web"
@@ -691,10 +691,10 @@
     {
       "id": "nearer-redeemer",
       "name": "The nearer relative",
-      "role": "Unnamed relative consulted before Boaz’s agreement",
+      "role": "Unnamed closer relative who gives up his right",
       "relations": "A closer relative of Elimelech than Boaz.",
       "passages": "Ruth 3:12–13; 4:1–8",
-      "meaning": "He offers to buy the land but withdraws when the duty also includes Ruth.",
+      "meaning": "Boaz stops him at the gate and offers him Elimelech’s land. He says he will buy it back. Boaz says the duty also includes Ruth. He gives up his right and takes off his sandal.",
       "life": "Birth and death years are not securely known.",
       "sourceIds": [
         "web"
@@ -710,9 +710,9 @@
       "id": "obed",
       "name": "Obed",
       "role": "Child born to Ruth and Boaz",
-      "relations": "Grandfather of David through Jesse. Naomi cares for him.",
+      "relations": "Son of Boaz and Ruth. Father of Jesse and grandfather of David.",
       "passages": "Ruth 4:13–22",
-      "meaning": "His birth brings joy to Naomi's household. He later becomes David's grandfather.",
+      "meaning": "He is born after Boaz marries Ruth. Naomi takes him and nurses him. The neighbor women name him Obed.",
       "life": "Birth and death years are not securely known.",
       "sourceIds": [
         "web"
@@ -726,9 +726,9 @@
       "id": "jesse",
       "name": "Jesse",
       "role": "Father of David",
-      "relations": "Son of Obed.",
+      "relations": "Son of Obed. Father of David.",
       "passages": "Ruth 4:17,22",
-      "meaning": "The closing family list connects Jesse with Obed and David.",
+      "meaning": "Jesse does nothing in this book. Ruth 4:17 and 4:22 name him as Obed’s son and David’s father.",
       "life": "Birth and death years are not securely known.",
       "sourceIds": [
         "web"
@@ -740,9 +740,9 @@
       "id": "david",
       "name": "David",
       "role": "Later king descended from Ruth and Boaz",
-      "relations": "Son of Jesse.",
+      "relations": "Son of Jesse. Grandson of Obed.",
       "passages": "Ruth 4:17,22",
-      "meaning": "The final family list connects Ruth and Boaz with Israel's future king.",
+      "meaning": "David does nothing in this book. His name ends the family list in Ruth 4:22. The list runs from Perez through Boaz and Obed to him.",
       "life": "Birth and death years are not securely known.",
       "sourceIds": [
         "web"
@@ -756,7 +756,7 @@
       "role": "Ancestor of Boaz",
       "relations": "Son of Judah and Tamar.",
       "passages": "Ruth 4:12,18",
-      "meaning": "The witnesses ask that Ruth’s household grow like Perez’s family.",
+      "meaning": "The people at the gate ask that Boaz’s house be like Perez’s house. The closing family list starts with Perez. It names him as Hezron’s father.",
       "life": "Birth and death years are not securely known.",
       "sourceIds": [
         "web"
@@ -768,9 +768,9 @@
       "id": "hezron",
       "name": "Hezron",
       "role": "Son of Perez and ancestor of Boaz",
-      "relations": "Named between Perez and Ram.",
+      "relations": "Son of Perez. Father of Ram.",
       "passages": "Ruth 4:18–19",
-      "meaning": "Hezron’s name connects Perez with Ram in the closing family list.",
+      "meaning": "Hezron does nothing in this book. The closing list names him as Perez’s son and Ram’s father.",
       "life": "Birth and death years are not securely known.",
       "sourceIds": [
         "web"
@@ -782,9 +782,9 @@
       "id": "ram",
       "name": "Ram",
       "role": "Son of Hezron and ancestor of Boaz",
-      "relations": "Named between Hezron and Amminadab.",
+      "relations": "Son of Hezron. Father of Amminadab.",
       "passages": "Ruth 4:19",
-      "meaning": "Ram appears between Hezron and Amminadab in the family list.",
+      "meaning": "Ram does nothing in this book. The closing list names him as Hezron’s son and Amminadab’s father.",
       "life": "Birth and death years are not securely known.",
       "sourceIds": [
         "web"
@@ -798,7 +798,7 @@
       "role": "Father of Nahshon and ancestor of Boaz",
       "relations": "Son of Ram. Father of Nahshon.",
       "passages": "Ruth 4:19–20",
-      "meaning": "His place in the family list connects earlier generations with Boaz and David.",
+      "meaning": "Amminadab does nothing in this book. The closing list names him as Ram’s son and Nahshon’s father.",
       "life": "Birth and death years are not securely known.",
       "sourceIds": [
         "web"
@@ -810,9 +810,9 @@
       "id": "salmon",
       "name": "Salmon",
       "role": "Father of Boaz",
-      "relations": "Named as father of Boaz.",
+      "relations": "Son of Nahshon. Father of Boaz.",
       "passages": "Ruth 4:20–21",
-      "meaning": "The family list names him as Boaz's father.",
+      "meaning": "Salmon does nothing in this book. The closing list names him as Nahshon’s son and Boaz’s father.",
       "life": "Birth and death years are not securely known.",
       "sourceIds": [
         "web"
@@ -824,9 +824,9 @@
       "id": "nahshon",
       "name": "Nahshon",
       "role": "Father of Salmon and ancestor of Boaz",
-      "relations": "Named between Amminadab and Salmon.",
+      "relations": "Son of Amminadab. Father of Salmon.",
       "passages": "Ruth 4:20",
-      "meaning": "Nahshon’s son Salmon becomes the father of Boaz.",
+      "meaning": "Nahshon does nothing in this book. The closing list names him as Amminadab’s son and Salmon’s father.",
       "life": "Birth and death years are not securely known.",
       "sourceIds": [
         "web"
@@ -840,7 +840,7 @@
       "role": "Mother of six sons and Dinah",
       "relations": "Daughter of Laban. Wife of Jacob. Sister of Rachel.",
       "passages": "Ruth 4",
-      "meaning": "The witnesses recall Leah when blessing Ruth. They honor her part in building Israel’s family.",
+      "meaning": "Leah does not act in this book. The people at the gate name her when they bless Ruth. They say Rachel and Leah built the house of Israel.",
       "life": "Birth and death years are not securely known.",
       "sourceIds": [
         "web"
@@ -854,7 +854,7 @@
       "role": "Mother of Joseph and Benjamin",
       "relations": "Daughter of Laban. Wife of Jacob. Sister of Leah.",
       "passages": "Ruth 4",
-      "meaning": "The witnesses recall Rachel alongside Leah when blessing Ruth’s future household.",
+      "meaning": "Rachel does not act in this book. The people at the gate ask the LORD to make Ruth like her and Leah. They say both women built the house of Israel.",
       "life": "Birth and death years are not securely known.",
       "sourceIds": [
         "web"
@@ -865,10 +865,10 @@
     {
       "id": "judah",
       "name": "Judah",
-      "role": "Brother who later protects Benjamin",
+      "role": "Father of Perez through Tamar",
       "relations": "Son of Jacob and Leah. Father of Perez and Zerah through Tamar.",
       "passages": "Ruth 4",
-      "meaning": "The witnesses remember Judah’s family through Tamar and Perez.",
+      "meaning": "Judah does not act in this book. The people at the gate name him in their blessing. They say Tamar bore Perez to Judah.",
       "life": "Birth and death years are not securely known.",
       "sourceIds": [
         "web"
@@ -879,10 +879,10 @@
     {
       "id": "tamar",
       "name": "Tamar",
-      "role": "Woman who claims Judah's family duty",
+      "role": "Mother of Perez, named in the gate blessing",
       "relations": "Widow of Er and Onan. Mother of Perez and Zerah.",
       "passages": "Ruth 4",
-      "meaning": "The witnesses recall Tamar as Perez’s mother. Her family gives them a pattern for blessing Ruth.",
+      "meaning": "Tamar does not act in this book. The people at the gate say she bore Perez to Judah. They ask that Boaz’s house be like the house of Perez.",
       "life": "Birth and death years are not securely known.",
       "sourceIds": [
         "web"
@@ -897,8 +897,8 @@
       "name": "Moab · broad region",
       "lat": 31.5,
       "lng": 35.75,
-      "summary": "The household’s destination during famine. Naomi and Ruth later leave this region.",
-      "limits": "Regional marker only. The family’s home and the journey’s exact path are unknown.",
+      "summary": "Elimelech takes his family here in a famine in chapter 1. He and both sons die here. Naomi and Ruth then leave for Bethlehem.",
+      "limits": "The marker shows the region only. The text does not say where the family lived.",
       "sourceIds": [
         "web",
         "atlas-canaan"
@@ -909,8 +909,8 @@
       "name": "Bethlehem",
       "lat": 31.705,
       "lng": 35.202,
-      "summary": "Naomi’s return town and the setting of Ruth’s work and marriage agreement.",
-      "limits": "Town locality only. Boaz’s field, threshing floor, and gate are not securely identified.",
+      "summary": "Elimelech’s family leaves this town in chapter 1, and Naomi returns with Ruth. Ruth gathers grain in Boaz’s field in chapter 2. Boaz settles the matter at the town gate in chapter 4.",
+      "limits": "The marker shows the town’s general location. No one knows where Boaz’s field, threshing floor, or gate stood.",
       "sourceIds": [
         "web",
         "atlas-canaan"
@@ -925,7 +925,7 @@
       "summary": "The public-domain reading text supplies all four chapters.",
       "category": "Scripture",
       "perspective": "historical",
-      "limits": "The text supplies the narrated actions and genealogy. It does not independently verify event years or personal appearance."
+      "limits": "The text supplies the events and the family list. It cannot confirm event years or how people looked."
     },
     {
       "id": "atlas",
@@ -943,7 +943,7 @@
       "category": "Geography",
       "url": "https://www.churchofjesuschrist.org/study/scriptures/bible-maps/map-10?lang=eng",
       "summary": "This Church-published atlas identifies towns and regions in Canaan.",
-      "limits": "Coordinates are display estimates. A town marker does not verify each Genesis event."
+      "limits": "Coordinates are display estimates. A town marker does not confirm an event at that town."
     },
     {
       "id": "terrain",
@@ -952,16 +952,16 @@
       "category": "Geography",
       "url": "https://registry.opendata.aws/terrain-tiles/",
       "summary": "Cached terrain shows modern elevation. Natural Earth supplies the land and water outlines.",
-      "limits": "Modern terrain is a geographic aid. It does not reconstruct ancient shorelines or settlements."
+      "limits": "Modern terrain is a map aid. It does not show ancient shorelines or towns."
     },
     {
       "id": "yale-ruth",
       "title": "The Book of Ruth, Part 2 · Yale Bible Study",
       "url": "https://yalebiblestudy.org/courses/ruth-song-of-songs-lamentations-and-esther/lessons/the-book-of-ruth-part-2-study-guide/",
-      "summary": "The study examines the women’s relationship, household survival, devotion, and uncertainty about the threshing-floor encounter.",
+      "summary": "The study examines the two women’s bond, household survival, and devotion. It also covers doubt about the threshing-floor meeting.",
       "category": "Scholarly study",
       "perspective": "historical",
-      "limits": "The published study guide was reviewed, not its video. Its final paragraph incorrectly contrasts Ruth with Boaz in the genealogy. Ruth 4:18–22 names Boaz; this guide follows the biblical text.",
+      "limits": "The published study guide was reviewed, not its video. Its final paragraph wrongly contrasts Ruth with Boaz in the family list. Ruth 4:18–22 names Boaz. This guide follows the biblical text.",
       "author": "Yale Bible Study · course presenters Joel S. Baden and Jacqueline Vayntrub",
       "reviewed": "2026-10-05: Published study guide and course presenter record reviewed.",
       "chapterCoverage": [
@@ -993,10 +993,10 @@
       "id": "dm-ruth",
       "title": "Ruth 2: Translation and Notes",
       "url": "https://danielomcclellan.wordpress.com/2010/05/05/ruth-2-translation-and-notes/",
-      "summary": "McClellan discusses Hebrew grammar and differences between Hebrew and Greek readings in Ruth 2, including the uncertain wording of verse 7.",
+      "summary": "McClellan discusses Hebrew grammar in Ruth 2. He also compares the Hebrew and Greek readings. He notes the uncertain wording of verse 7.",
       "category": "Scholar commentary",
       "perspective": "historical",
-      "limits": "This is one scholar’s 2010 translation and notes. The guide retains the World English Bible reading and does not treat each proposed reconstruction as settled.",
+      "limits": "This is one scholar’s 2010 translation and notes. This guide keeps the World English Bible reading. His proposed readings are not treated as settled.",
       "author": "Dan McClellan",
       "year": "May 5, 2010",
       "group": "mcclellan",
@@ -1012,7 +1012,7 @@
       "summary": "The manual explains gleaning, family redemption, the proposal, and the witnessed gate agreement.",
       "category": "LDS study manual",
       "perspective": "lds",
-      "limits": "The Ruth sections of the 1980 manual were reviewed. Its historical explanations remain distinct from independent evidence. Boaz is a relative, not Mahlon’s stated brother.",
+      "limits": "The Ruth sections of the 1980 manual were reviewed. Its history claims are kept apart from independent evidence. Boaz is a relative, not Mahlon’s stated brother.",
       "author": "The Church of Jesus Christ of Latter-day Saints",
       "year": 1980,
       "reviewed": "2026-10-05: Sections 23-14–23-20 and the Ruth portion of 23-22 reviewed.",
@@ -1033,7 +1033,7 @@
       "url": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/23?lang=eng",
       "summary": "The lesson studies faith through loss, practical kindness, and family redemption. It compares Ruth and Boaz with Jesus Christ.",
       "reviewed": "2026-10-05: Official lesson heading, selected chapter coverage, and relevant study sections reviewed.",
-      "limits": "This is Church teaching and application. It does not independently establish archaeological evidence or event dates.",
+      "limits": "This is Church teaching and application. It does not supply archaeological evidence or event dates.",
       "license": "Linked official Church lesson. Original guide summary.",
       "chapterCoverage": [
         1,
@@ -1051,9 +1051,9 @@
       "url": "https://en.wikipedia.org/wiki/Book_of_Ruth",
       "revisionId": "1374486736",
       "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1374486736",
-      "summary": "Ruth follows a Moabite widow’s return with Naomi to Bethlehem. The household account ends with a genealogy connected to David.",
+      "summary": "Ruth follows a Moabite widow’s return with Naomi to Bethlehem. The household account ends with a family list connected to David.",
       "reviewed": "2026-10-05: Opening overview and book structure reviewed. These notes make no claim about exact composition dates.",
-      "limits": "Anyone can edit this source. Use it for background and source discovery. Its disputed historical claims require separate scholarly review.",
+      "limits": "Anyone can edit this source. Use it for background and to find other sources. Its disputed history claims need separate scholarly review.",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
       "chapterCoverage": [

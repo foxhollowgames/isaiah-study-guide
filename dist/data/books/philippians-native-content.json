@@ -4,10 +4,10 @@
       "id": "web",
       "title": "Philippians · World English Bible",
       "url": "https://ebible.org/engwebp/PHP01.htm",
-      "summary": "All four chapters supply the primary text for original close readings.",
+      "summary": "All four chapters are the main text for original close readings.",
       "category": "Scripture",
       "perspective": "historical",
-      "limits": "Exact dates, the prison city, original manuscripts, Greek forms, rival workers' identities, and the cause of the women's disagreement were not independently verified. The letter supplies Paul's perspective rather than a complete reply from others.",
+      "limits": "The guide did not check exact dates, the prison city, manuscripts, or Greek forms. It did not check who the rival workers were or why the two women disagree. The letter gives Paul’s view. It does not give a full reply from others.",
       "author": "World English Bible translators",
       "publisher": "eBible.org",
       "chapterCoverage": [
@@ -21,17 +21,17 @@
         "scope": "All 104 verses read for four original contextual explanations and exact selections. Surroundings, counts, and character integrity checked."
       },
       "type": "Scripture",
-      "limitations": "Exact dates, the prison city, original manuscripts, Greek forms, rival workers' identities, and the cause of the women's disagreement were not independently verified. The letter supplies Paul's perspective rather than a complete reply from others.",
+      "limitations": "The guide did not check exact dates, the prison city, manuscripts, or Greek forms. It did not check who the rival workers were or why the two women disagree. The letter gives Paul’s view. It does not give a full reply from others.",
       "license": "Public domain"
     },
     {
       "id": "works-philippians",
       "title": "Commentary on Philippians 4:4-7",
       "url": "https://www.workingpreacher.org/commentaries/revised-common-lectionary/third-sunday-of-advent-3/commentary-on-philippians-44-7-5",
-      "summary": "Works reads joy within suffering and uncertain waiting.",
+      "summary": "Works reads joy in the middle of suffering and uncertain waiting.",
       "category": "Scholarly study",
       "perspective": "historical",
-      "limits": "This is Works' interpretation. Her Greek analysis, wider Roman setting, and broader account of peace were not independently verified. Linked works were not reviewed.",
+      "limits": "This is Works’ own reading. The guide did not check her Greek analysis or her Roman setting. It did not check her wider account of peace. It did not review the linked works.",
       "author": "Carla Works",
       "publisher": "Luther Seminary",
       "year": 2021,
@@ -43,7 +43,7 @@
         "scope": "Complete commentary body read. The guide attributes her reading of joy without denial of suffering."
       },
       "type": "Scholarly study",
-      "limitations": "This is Works' interpretation. Her Greek analysis, wider Roman setting, and broader account of peace were not independently verified. Linked works were not reviewed.",
+      "limitations": "This is Works’ own reading. The guide did not check her Greek analysis or her Roman setting. It did not check her wider account of peace. It did not review the linked works.",
       "license": "Linked source. Original guide summaries."
     },
     {
@@ -53,7 +53,7 @@
       "summary": "The lesson studies changed conduct and joy through Christ.",
       "category": "LDS Come, Follow Me",
       "perspective": "lds",
-      "limits": "Philippians coverage follows actual discussion of chapters two and four. The lesson title does not establish coverage of every chapter. Linked talks, videos, and Restoration passages were not independently reviewed.",
+      "limits": "Philippians coverage follows what the lesson discusses in chapters two and four. The lesson title does not show coverage of every chapter. The guide did not check the linked talks, videos, or Restoration passages.",
       "author": "The Church of Jesus Christ of Latter-day Saints",
       "publisher": "The Church of Jesus Christ of Latter-day Saints",
       "year": 2023,
@@ -66,7 +66,7 @@
         "scope": "Complete lesson body read, including its Colossians sections. Only Philippians two and four support this book's lesson references."
       },
       "type": "LDS Come, Follow Me",
-      "limitations": "Philippians coverage follows actual discussion of chapters two and four. The lesson title does not establish coverage of every chapter. Linked talks, videos, and Restoration passages were not independently reviewed.",
+      "limitations": "Philippians coverage follows what the lesson discusses in chapters two and four. The lesson title does not show coverage of every chapter. The guide did not check the linked talks, videos, or Restoration passages.",
       "license": "Linked source. Original guide summaries."
     },
     {
@@ -75,20 +75,20 @@
       "perspective": "historical",
       "category": "Geography",
       "url": "https://www.churchofjesuschrist.org/study/scriptures/bible-maps/map-10?lang=eng",
-      "summary": "This Church-published atlas identifies towns and regions in Canaan.",
-      "limits": "Existing selected reference coordinates only. The earlier review record remains unchanged. This source does not verify Gospel events or exact routes.",
+      "summary": "This Church-published atlas names towns and regions in Canaan.",
+      "limits": "It supplies only the chosen reference coordinates. The earlier review record is unchanged. This source does not confirm Gospel events or exact routes.",
       "type": "Geography",
-      "limitations": "Existing selected reference coordinates only. The earlier review record remains unchanged. This source does not verify Gospel events or exact routes.",
+      "limitations": "It supplies only the chosen reference coordinates. The earlier review record is unchanged. This source does not confirm Gospel events or exact routes.",
       "license": "Linked source. Original guide summaries."
     },
     {
       "id": "net-acts-map",
       "title": "NET Bible · selected Acts location references",
       "url": "https://classic.net.bible.org/dictionary.php?word=Antioch",
-      "summary": "Selected opening descriptions and coordinates distinguish cities named in Acts.",
+      "summary": "Opening descriptions and coordinates mark the cities named in Acts.",
       "category": "Geographic reference",
       "perspective": "historical",
-      "limits": "Broad reference points do not verify ancient events, travel paths, buildings, or coastlines. Older encyclopedia claims about authorship, law, populations, and exact dates were not adopted.",
+      "limits": "These broad points do not confirm ancient events, travel paths, buildings, or coastlines. The guide did not adopt older encyclopedia claims about authorship, law, population, or exact dates.",
       "author": "NET Bible editors and linked reference contributors",
       "publisher": "Bible.org",
       "year": null,
@@ -123,8 +123,36 @@
         }
       ],
       "type": "Geographic reference",
-      "limitations": "Broad reference points do not verify ancient events, travel paths, buildings, or coastlines. Older encyclopedia claims about authorship, law, populations, and exact dates were not adopted.",
+      "limitations": "These broad points do not confirm ancient events, travel paths, buildings, or coastlines. The guide did not adopt older encyclopedia claims about authorship, law, population, or exact dates.",
       "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "strong-greek",
+      "title": "A Concise Dictionary of the Words in the Greek Testament",
+      "author": "James Strong · Open Scriptures XML edition",
+      "year": "1890 / digital edition",
+      "perspective": "historical",
+      "category": "Historical lexicon",
+      "url": "https://github.com/openscriptures/strongs",
+      "summary": "Lists Greek dictionary forms and their possible meanings. Use it with the passage to study a word.",
+      "limits": "This is an older dictionary. Compare its meanings with the passage. A list of meanings alone cannot show which one applies.",
+      "license": "Source XML declares Public Domain. Only selected headwords are used.",
+      "type": "Historical lexicon",
+      "limitations": "This is an older dictionary. Compare its meanings with the passage. A list of meanings alone cannot show which one applies."
+    },
+    {
+      "id": "byz",
+      "title": "The New Testament in the Original Greek: Byzantine Textform",
+      "author": "Maurice A. Robinson and William G. Pierpont",
+      "year": "2018 digital edition",
+      "perspective": "historical",
+      "category": "Greek text",
+      "url": "https://github.com/byztxt/byzantine-majority-text",
+      "summary": "Provides a Greek New Testament text with dictionary numbers. This study guide uses these to check selected words against their verses.",
+      "limits": "The app checks selected words, not every English–Greek match. It shows Greek dictionary forms. The forms in the verses can differ. Other Greek editions differ in some verses.",
+      "license": "Public domain.",
+      "type": "Greek text",
+      "limitations": "The app checks selected words, not every English–Greek match. It shows Greek dictionary forms. The forms in the verses can differ. Other Greek editions differ in some verses."
     }
   ],
   "passages": [
@@ -137,7 +165,7 @@
       "summary": "Paul and Timothy write to the saints at Philippi with their overseers and servants. Paul thanks God for their partnership from the first day. He prays that their love will grow in knowledge. He says his chains have helped the good news spread through the whole guard. Some announce Christ from envy, some from good will, and he rejoices. He does not know whether he will live or die. To live is Christ, and to die is gain. He asks them to stand firm in one spirit and not fear their opponents.",
       "year": null,
       "dateLabel": "Book order",
-      "uncertainty": "The marker identifies the named recipient city. No exact prison, home, or heavenly location is assigned.",
+      "uncertainty": "The map marks Philippi as one city point. It shows no prison or home.",
       "placeIds": [
         "philippi"
       ],
@@ -166,7 +194,7 @@
       "summary": "Paul asks them to be of one mind and to do nothing from rivalry. Each should count others better than himself. He tells them to have the mind of Christ Jesus. Christ existed in the form of God and emptied himself, taking a servant’s form. He was obedient to death on a cross. God exalted him, so that every knee will bow. They are to work out their salvation and shine as lights. Paul plans to send Timothy, and he sends back Epaphroditus, who nearly died.",
       "year": null,
       "dateLabel": "Book order",
-      "uncertainty": "The marker identifies the named recipient city. No exact prison, home, or heavenly location is assigned.",
+      "uncertainty": "The map marks Philippi as one city point. It shows no prison or home.",
       "placeIds": [],
       "sourceIds": [
         "web"
@@ -195,7 +223,7 @@
       "summary": "Paul warns against those who insist on circumcision. He lists his own grounds for confidence in the flesh. He was of Benjamin, a Pharisee, and blameless in the law. He counts all of it loss for the sake of knowing Christ. He wants a righteousness that is through faith. He has not yet reached the goal and presses on toward the prize. He asks them to follow his example. He says their citizenship is in heaven, and Christ will change their bodies.",
       "year": null,
       "dateLabel": "Book order",
-      "uncertainty": "The marker identifies the named recipient city. No exact prison, home, or heavenly location is assigned.",
+      "uncertainty": "The map marks Philippi as one city point. It shows no prison or home.",
       "placeIds": [],
       "sourceIds": [
         "web"
@@ -222,7 +250,7 @@
       "summary": "Paul begs Euodia and Syntyche to agree in the Lord. He tells them to rejoice always and to bring every request to God. God’s peace will guard their hearts. They should think on what is true, honorable, just, pure, and lovely. Paul rejoices that they have renewed their care for him. He has learned to be content in plenty and in hunger. He thanks them for the gifts sent by Epaphroditus. He sends greetings, including from those of Caesar’s household.",
       "year": null,
       "dateLabel": "Book order",
-      "uncertainty": "The marker identifies the named recipient city. No exact prison, home, or heavenly location is assigned.",
+      "uncertainty": "The map marks Philippi as one city point. It shows no prison or home.",
       "placeIds": [],
       "sourceIds": [
         "web",
@@ -254,7 +282,7 @@
       "summary": "Paul and Timothy write to the saints at Philippi with their overseers and servants. Paul thanks God for their partnership from the first day. He prays that their love will grow in knowledge. He says his chains have helped the good news spread through the whole guard. Some announce Christ from envy, some from good will, and he rejoices. He does not know whether he will live or die. To live is Christ, and to die is gain. He asks them to stand firm in one spirit and not fear their opponents.",
       "detail": "Paul writes in chains and does not know the outcome (verses 13 and 20). Verse 21 says both outcomes are good to him. Verse 23 states his own wish: to depart and be with Christ. Verse 24 sets the readers’ need against that wish. To remain is “more needful” for them. Verse 25 says this convinces him that he will stay. His reason for staying is their progress and joy in the faith.",
       "dateLabel": "Book order",
-      "uncertainty": "The marker identifies the named recipient city. No exact prison, home, or heavenly location is assigned.",
+      "uncertainty": "The map marks Philippi as one city point. It shows no prison or home.",
       "sourceIds": [
         "web"
       ],
@@ -275,7 +303,7 @@
       "summary": "Paul asks them to be of one mind and to do nothing from rivalry. Each should count others better than himself. He tells them to have the mind of Christ Jesus. Christ existed in the form of God and emptied himself, taking a servant’s form. He was obedient to death on a cross. God exalted him, so that every knee will bow. They are to work out their salvation and shine as lights. Paul plans to send Timothy, and he sends back Epaphroditus, who nearly died.",
       "detail": "Verse 3 forbids rivalry and conceit. Verse 4 states the same thing as a direction for the eyes. Each is to look to the things of others, not only his own. Verses 6–8 give the pattern: Christ did not grasp equality with God. He emptied himself and became obedient to death. The chapter then names two people who do this. Timothy cares for their state (verse 20), and Epaphroditus risked his life (verse 30).",
       "dateLabel": "Book order",
-      "uncertainty": "The marker identifies the named recipient city. No exact prison, home, or heavenly location is assigned.",
+      "uncertainty": "The map marks Philippi as one city point. It shows no prison or home.",
       "sourceIds": [
         "web"
       ],
@@ -296,7 +324,7 @@
       "summary": "Paul warns against those who insist on circumcision. He lists his own grounds for confidence in the flesh. He was of Benjamin, a Pharisee, and blameless in the law. He counts all of it loss for the sake of knowing Christ. He wants a righteousness that is through faith. He has not yet reached the goal and presses on toward the prize. He asks them to follow his example. He says their citizenship is in heaven, and Christ will change their bodies.",
       "detail": "Verses 5–6 give a proud record, and verse 7 calls it loss. Verses 10–11 say what he wants: to know Christ and reach the resurrection. Verse 12 stops any claim that he has arrived. He has not obtained it and is not yet perfect. Two verbs carry the verse. Paul presses on to take hold, because Christ first took hold of him. Verse 13 repeats the denial, and verse 14 keeps him running toward the prize.",
       "dateLabel": "Book order",
-      "uncertainty": "The marker identifies the named recipient city. No exact prison, home, or heavenly location is assigned.",
+      "uncertainty": "The map marks Philippi as one city point. It shows no prison or home.",
       "sourceIds": [
         "web"
       ],
@@ -315,7 +343,7 @@
       "summary": "Paul begs Euodia and Syntyche to agree in the Lord. He tells them to rejoice always and to bring every request to God. God’s peace will guard their hearts. They should think on what is true, honorable, just, pure, and lovely. Paul rejoices that they have renewed their care for him. He has learned to be content in plenty and in hunger. He thanks them for the gifts sent by Epaphroditus. He sends greetings, including from those of Caesar’s household.",
       "detail": "Verse 10 thanks the Philippians for their gift. Verse 11 at once says Paul does not speak from need. He has learned to be content in every state. Verse 12 names the states: hunger and plenty, abundance and want. “All things” in verse 13 means those conditions. Christ gives him strength to live through each one. Verse 14 still says they did well to share in his trouble.",
       "dateLabel": "Book order",
-      "uncertainty": "The marker identifies the named recipient city. No exact prison, home, or heavenly location is assigned.",
+      "uncertainty": "The map marks Philippi as one city point. It shows no prison or home.",
       "sourceIds": [
         "web",
         "works-philippians"
@@ -335,8 +363,8 @@
       "name": "Philippi",
       "lat": 41,
       "lng": 24.283333333333335,
-      "summary": "Philippi is named as the recipients' city in the opening greeting.",
-      "limits": "Broad city reference. Exact houses, riverside meeting points, courtrooms, and ancient routes remain unassigned.",
+      "summary": "Paul writes in chapter 1 to the saints at Philippi, with the overseers and servants. In chapter 4 he calls them Philippians.",
+      "limits": "The marker shows the city’s general location.",
       "sourceIds": [
         "web",
         "net-acts-map"
@@ -345,15 +373,63 @@
       "linkNames": [
         "Philippi"
       ],
-      "detail": "Philippi is named as the recipients' city in the opening greeting.",
-      "uncertainty": "Broad city reference. Exact houses, riverside meeting points, courtrooms, and ancient routes remain unassigned.",
-      "chapterLocation": true
+      "detail": "Paul writes in chapter 1 to the saints at Philippi, with the overseers and servants. In chapter 4 he calls them Philippians.",
+      "uncertainty": "The marker shows the city’s general location.",
+      "chapterLocation": true,
+      "word": {
+        "language": "greek",
+        "strongId": "G5375",
+        "key": "Philippi",
+        "checkedVerses": 1,
+        "example": [
+          1,
+          1
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Φίλιπποι",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Phílippoi"
+      }
     }
   ],
   "campaigns": [],
   "ancientRoads": [],
   "regions": [],
   "words": [
+    {
+      "id": "glossary-pharisees-3-G5330-pharisee",
+      "label": "Pharisees",
+      "matches": [
+        "Pharisee"
+      ],
+      "chapter": 3,
+      "verses": [
+        5
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "Φαρισαῖος",
+      "greekNote": "",
+      "meaning": "A Jewish group known for careful keeping of the law. Acts 23:8 says they believed in resurrection, angels, and spirits.",
+      "grammar": "This is the dictionary form of Greek word G5330. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G5330",
+      "language": "greek",
+      "greekTransliteration": "Pharisaîos",
+      "chapterDefault": true
+    },
     {
       "id": "glossary-pharisees",
       "label": "Pharisees",
@@ -374,7 +450,37 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "greek"
+    },
+    {
+      "id": "glossary-apostles-2-G652-apostle",
+      "label": "Apostles",
+      "matches": [
+        "apostle"
+      ],
+      "chapter": 2,
+      "verses": [
+        25
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "ἀπόστολος",
+      "greekNote": "",
+      "meaning": "People sent out with a message. In the Gospels the word names twelve whom Jesus chose.",
+      "grammar": "This is the dictionary form of Greek word G652. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G652",
+      "language": "greek",
+      "greekTransliteration": "apóstolos",
+      "chapterDefault": true
     },
     {
       "id": "glossary-apostles",
@@ -396,7 +502,66 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "greek"
+    },
+    {
+      "id": "glossary-saints-1-G40-saints",
+      "label": "Saints",
+      "matches": [
+        "saints"
+      ],
+      "chapter": 1,
+      "verses": [
+        1
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "ἅγιος",
+      "greekNote": "",
+      "meaning": "People set apart as holy. In the letters the word means the believers in a place.",
+      "grammar": "This is the dictionary form of Greek word G40. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G40",
+      "language": "greek",
+      "greekTransliteration": "hágios",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-saints-4-G40-saints",
+      "label": "Saints",
+      "matches": [
+        "saints"
+      ],
+      "chapter": 4,
+      "verses": [
+        22
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "ἅγιος",
+      "greekNote": "",
+      "meaning": "People set apart as holy. In the letters the word means the believers in a place.",
+      "grammar": "This is the dictionary form of Greek word G40. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G40",
+      "language": "greek",
+      "greekTransliteration": "hágios",
+      "chapterDefault": true
     },
     {
       "id": "glossary-saints",
@@ -417,7 +582,66 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "greek"
+    },
+    {
+      "id": "glossary-assembly-3-G1577-assembly",
+      "label": "Assembly",
+      "matches": [
+        "assembly"
+      ],
+      "chapter": 3,
+      "verses": [
+        6
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "ἐκκλησία",
+      "greekNote": "",
+      "meaning": "A gathering of people. In the New Testament letters it means a group of believers. Many translations say “church.”",
+      "grammar": "This is the dictionary form of Greek word G1577. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G1577",
+      "language": "greek",
+      "greekTransliteration": "ekklēsía",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-assembly-4-G1577-assembly",
+      "label": "Assembly",
+      "matches": [
+        "assembly"
+      ],
+      "chapter": 4,
+      "verses": [
+        15
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "ἐκκλησία",
+      "greekNote": "",
+      "meaning": "A gathering of people. In the New Testament letters it means a group of believers. Many translations say “church.”",
+      "grammar": "This is the dictionary form of Greek word G1577. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G1577",
+      "language": "greek",
+      "greekTransliteration": "ekklēsía",
+      "chapterDefault": true
     },
     {
       "id": "glossary-assembly",
@@ -439,7 +663,37 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "greek"
+    },
+    {
+      "id": "glossary-circumcision-3-G4061-circumcision",
+      "label": "Circumcision",
+      "matches": [
+        "circumcision"
+      ],
+      "chapter": 3,
+      "verses": [
+        3
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "περιτομή",
+      "greekNote": "",
+      "meaning": "The cutting of the foreskin. Genesis 17 makes it the sign of God’s covenant with Abraham.",
+      "grammar": "This is the dictionary form of Greek word G4061. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G4061",
+      "language": "greek",
+      "greekTransliteration": "peritomḗ",
+      "chapterDefault": true
     },
     {
       "id": "glossary-circumcision",
@@ -464,7 +718,8 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "greek"
     }
   ],
   "guides": [
@@ -549,9 +804,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "The marker identifies the named recipient city. No exact prison, home, or heavenly location is assigned.",
+      "note": "The map marks Philippi as one city point. It shows no prison or home.",
       "narrative": "Paul and Timothy write to the saints at Philippi with their overseers and servants. Paul thanks God for their partnership from the first day. He prays that their love will grow in knowledge. He says his chains have helped the good news spread through the whole guard. Some announce Christ from envy, some from good will, and he rejoices. He does not know whether he will live or die. To live is Christ, and to die is gain. He asks them to stand firm in one spirit and not fear their opponents.",
-      "limits": "The marker identifies the named recipient city. No exact prison, home, or heavenly location is assigned.",
+      "limits": "The map marks Philippi as one city point. It shows no prison or home.",
       "sourceIds": [
         "web"
       ]
@@ -565,9 +820,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "The marker identifies the named recipient city. No exact prison, home, or heavenly location is assigned.",
+      "note": "The map marks Philippi as one city point. It shows no prison or home.",
       "narrative": "Paul asks them to be of one mind and to do nothing from rivalry. Each should count others better than himself. He tells them to have the mind of Christ Jesus. Christ existed in the form of God and emptied himself, taking a servant’s form. He was obedient to death on a cross. God exalted him, so that every knee will bow. They are to work out their salvation and shine as lights. Paul plans to send Timothy, and he sends back Epaphroditus, who nearly died.",
-      "limits": "The marker identifies the named recipient city. No exact prison, home, or heavenly location is assigned.",
+      "limits": "The map marks Philippi as one city point. It shows no prison or home.",
       "sourceIds": [
         "web"
       ]
@@ -581,9 +836,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "The marker identifies the named recipient city. No exact prison, home, or heavenly location is assigned.",
+      "note": "The map marks Philippi as one city point. It shows no prison or home.",
       "narrative": "Paul warns against those who insist on circumcision. He lists his own grounds for confidence in the flesh. He was of Benjamin, a Pharisee, and blameless in the law. He counts all of it loss for the sake of knowing Christ. He wants a righteousness that is through faith. He has not yet reached the goal and presses on toward the prize. He asks them to follow his example. He says their citizenship is in heaven, and Christ will change their bodies.",
-      "limits": "The marker identifies the named recipient city. No exact prison, home, or heavenly location is assigned.",
+      "limits": "The map marks Philippi as one city point. It shows no prison or home.",
       "sourceIds": [
         "web"
       ]
@@ -597,9 +852,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "The marker identifies the named recipient city. No exact prison, home, or heavenly location is assigned.",
+      "note": "The map marks Philippi as one city point. It shows no prison or home.",
       "narrative": "Paul begs Euodia and Syntyche to agree in the Lord. He tells them to rejoice always and to bring every request to God. God’s peace will guard their hearts. They should think on what is true, honorable, just, pure, and lovely. Paul rejoices that they have renewed their care for him. He has learned to be content in plenty and in hunger. He thanks them for the gifts sent by Epaphroditus. He sends greetings, including from those of Caesar’s household.",
-      "limits": "The marker identifies the named recipient city. No exact prison, home, or heavenly location is assigned.",
+      "limits": "The map marks Philippi as one city point. It shows no prison or home.",
       "sourceIds": [
         "web",
         "works-philippians"

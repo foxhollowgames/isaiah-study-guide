@@ -205,6 +205,34 @@
       "type": "Geography",
       "limitations": "Existing selected reference coordinates only. The earlier review record remains unchanged. This source does not verify Gospel events or exact routes.",
       "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "strong-greek",
+      "title": "A Concise Dictionary of the Words in the Greek Testament",
+      "author": "James Strong · Open Scriptures XML edition",
+      "year": "1890 / digital edition",
+      "perspective": "historical",
+      "category": "Historical lexicon",
+      "url": "https://github.com/openscriptures/strongs",
+      "summary": "Lists Greek dictionary forms and their possible meanings. Use it with the passage to study a word.",
+      "limits": "This is an older dictionary. Compare its meanings with the passage. A list of meanings alone cannot show which one applies.",
+      "license": "Source XML declares Public Domain. Only selected headwords are used.",
+      "type": "Historical lexicon",
+      "limitations": "This is an older dictionary. Compare its meanings with the passage. A list of meanings alone cannot show which one applies."
+    },
+    {
+      "id": "byz",
+      "title": "The New Testament in the Original Greek: Byzantine Textform",
+      "author": "Maurice A. Robinson and William G. Pierpont",
+      "year": "2018 digital edition",
+      "perspective": "historical",
+      "category": "Greek text",
+      "url": "https://github.com/byztxt/byzantine-majority-text",
+      "summary": "Provides a Greek New Testament text with dictionary numbers. This study guide uses these to check selected words against their verses.",
+      "limits": "The app checks selected words, not every English–Greek match. It shows Greek dictionary forms. The forms in the verses can differ. Other Greek editions differ in some verses.",
+      "license": "Public domain.",
+      "type": "Greek text",
+      "limitations": "The app checks selected words, not every English–Greek match. It shows Greek dictionary forms. The forms in the verses can differ. Other Greek editions differ in some verses."
     }
   ],
   "passages": [
@@ -1494,7 +1522,26 @@
       "verseScope": {},
       "detail": "The childhood account places the birth and shepherds’ visit in Bethlehem.",
       "uncertainty": "Approximate reference marker. It identifies no exact house, road, execution site, or ancient border.",
-      "chapterLocation": true
+      "chapterLocation": true,
+      "word": {
+        "language": "greek",
+        "strongId": "G965",
+        "key": "Bethlehem",
+        "checkedVerses": 2,
+        "example": [
+          2,
+          4
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Βηθλεέμ",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Bēthleém"
+      }
     },
     {
       "id": "jerusalem",
@@ -1510,7 +1557,26 @@
       "verseScope": {},
       "detail": "Jerusalem holds temple visits, final teaching, execution, and the beginning of the witness task.",
       "uncertainty": "Approximate reference marker. It identifies no exact house, road, execution site, or ancient border.",
-      "chapterLocation": true
+      "chapterLocation": true,
+      "word": {
+        "language": "greek",
+        "strongId": "G2419",
+        "key": "Jerusalem",
+        "checkedVerses": 27,
+        "example": [
+          2,
+          25
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Ἱερουσαλήμ",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Hierousalḗm"
+      }
     },
     {
       "id": "jordan",
@@ -1526,7 +1592,26 @@
       "verseScope": {},
       "detail": "John teaches and baptizes in the Jordan region. No exact baptism site is assigned.",
       "uncertainty": "Approximate reference marker. It identifies no exact house, road, execution site, or ancient border.",
-      "chapterLocation": true
+      "chapterLocation": true,
+      "word": {
+        "language": "greek",
+        "strongId": "G2446",
+        "key": "Jordan",
+        "checkedVerses": 2,
+        "example": [
+          3,
+          3
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Ἰορδάνης",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Iordánēs"
+      }
     },
     {
       "id": "galilee",
@@ -1542,7 +1627,26 @@
       "verseScope": {},
       "detail": "Galilee holds early work and appears in remembered words at the tomb.",
       "uncertainty": "Approximate reference marker. It identifies no exact house, road, execution site, or ancient border.",
-      "chapterLocation": true
+      "chapterLocation": true,
+      "word": {
+        "language": "greek",
+        "strongId": "G1056",
+        "key": "Galilee",
+        "checkedVerses": 15,
+        "example": [
+          1,
+          26
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Γαλιλαία",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Galilaía"
+      }
     },
     {
       "id": "tyre",
@@ -1558,7 +1662,26 @@
       "verseScope": {},
       "detail": "Tyre appears among the crowd’s origins and in a judgment comparison.",
       "uncertainty": "Approximate reference marker. It identifies no exact house, road, execution site, or ancient border.",
-      "chapterLocation": true
+      "chapterLocation": true,
+      "word": {
+        "language": "greek",
+        "strongId": "G5184",
+        "key": "Tyre",
+        "checkedVerses": 3,
+        "example": [
+          6,
+          17
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Τύρος",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Týros"
+      }
     },
     {
       "id": "sidon",
@@ -1574,7 +1697,26 @@
       "verseScope": {},
       "detail": "Sidon appears in the Elijah comparison, the crowd’s origins, and a town warning.",
       "uncertainty": "Approximate reference marker. It identifies no exact house, road, execution site, or ancient border.",
-      "chapterLocation": true
+      "chapterLocation": true,
+      "word": {
+        "language": "greek",
+        "strongId": "G4605",
+        "key": "Sidon",
+        "checkedVerses": 4,
+        "example": [
+          4,
+          26
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Σιδών",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Sidṓn"
+      }
     },
     {
       "id": "jericho",
@@ -1590,7 +1732,26 @@
       "verseScope": {},
       "detail": "Jericho holds Zacchaeus’ welcome and appears within the Samaritan story.",
       "uncertainty": "Approximate reference marker. It identifies no exact house, road, execution site, or ancient border.",
-      "chapterLocation": true
+      "chapterLocation": true,
+      "word": {
+        "language": "greek",
+        "strongId": "G2410",
+        "key": "Jericho",
+        "checkedVerses": 3,
+        "example": [
+          10,
+          30
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Ἱεριχώ",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Hierichṓ"
+      }
     },
     {
       "id": "olives",
@@ -1622,7 +1783,26 @@
       "verseScope": {},
       "detail": "Nazareth holds the childhood settlement and the disputed hometown teaching.",
       "uncertainty": "Approximate town reference from the NET coordinate line. No house or workshop is identified.",
-      "chapterLocation": true
+      "chapterLocation": true,
+      "word": {
+        "language": "greek",
+        "strongId": "G3478",
+        "key": "Nazareth",
+        "checkedVerses": 5,
+        "example": [
+          1,
+          26
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Ναζαρέθ",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Nazaréth"
+      }
     },
     {
       "id": "capernaum",
@@ -1638,7 +1818,26 @@
       "verseScope": {},
       "detail": "Capernaum appears in teaching, healing, and warnings to towns.",
       "uncertainty": "Approximate town reference from the NET coordinate line. No specific synagogue or house is reconstructed.",
-      "chapterLocation": true
+      "chapterLocation": true,
+      "word": {
+        "language": "greek",
+        "strongId": "G2584",
+        "key": "Capernaum",
+        "checkedVerses": 4,
+        "example": [
+          4,
+          23
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Καπερναούμ",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Kapernaoúm"
+      }
     },
     {
       "id": "bethany",
@@ -1654,7 +1853,27 @@
       "verseScope": {},
       "detail": "Bethany appears beside the entry and the final blessing.",
       "uncertainty": "Approximate reference from the NET coordinate line. This is not Bethany beyond the Jordan or an identified house.",
-      "chapterLocation": true
+      "chapterLocation": true,
+      "word": {
+        "language": "greek",
+        "strongId": "G963",
+        "key": "Bethany",
+        "checkedVerses": 2,
+        "example": [
+          19,
+          29
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Βηθανία",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Bēthanía",
+        "languageNote": "This is the dictionary form of the name “Bethany.”"
+      }
     },
     {
       "id": "bethsaida",
@@ -1670,7 +1889,26 @@
       "verseScope": {},
       "detail": "The feeding setting and a warning name Bethsaida.",
       "uncertainty": "Broad vicinity from the NET reference. This marker does not identify one ancient ruin or a boat landing.",
-      "chapterLocation": true
+      "chapterLocation": true,
+      "word": {
+        "language": "greek",
+        "strongId": "G966",
+        "key": "Bethsaida",
+        "checkedVerses": 2,
+        "example": [
+          9,
+          10
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Βηθσαϊδά",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Bēthsaïdá"
+      }
     },
     {
       "id": "sea-galilee",
@@ -1686,13 +1924,62 @@
       "verseScope": {},
       "detail": "The lake holds fishing and crossings. Gennesaret is the lake name in the fishing account.",
       "uncertainty": "Lake reference from the NET coordinate line. No exact storm position or crossing route is assigned.",
-      "chapterLocation": true
+      "chapterLocation": true,
+      "word": {
+        "language": "greek",
+        "strongId": "G1056",
+        "key": "Galilee",
+        "checkedVerses": 15,
+        "example": [
+          1,
+          26
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Γαλιλαία",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Galilaía",
+        "languageNote": "This is the dictionary form of the name “Galilee.”"
+      }
     }
   ],
   "campaigns": [],
   "ancientRoads": [],
   "regions": [],
   "words": [
+    {
+      "id": "glossary-levites-10-G3019-levite",
+      "label": "Levites",
+      "matches": [
+        "Levite"
+      ],
+      "chapter": 10,
+      "verses": [
+        32
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "Λευΐτης",
+      "greekNote": "",
+      "meaning": "Members of the tribe of Levi. They cared for the tabernacle and later the temple. The priests came from one Levite family, Aaron’s.",
+      "grammar": "This is the dictionary form of Greek word G3019. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G3019",
+      "language": "greek",
+      "greekTransliteration": "Leuḯtēs",
+      "chapterDefault": true
+    },
     {
       "id": "glossary-levites",
       "label": "Levites",
@@ -1714,7 +2001,66 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "greek"
+    },
+    {
+      "id": "glossary-covenant-1-G1242-covenant",
+      "label": "Covenant",
+      "matches": [
+        "covenant"
+      ],
+      "chapter": 1,
+      "verses": [
+        72
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "διαθήκη",
+      "greekNote": "",
+      "meaning": "A binding agreement with promises and duties. In the Bible, God makes covenants with people.",
+      "grammar": "This is the dictionary form of Greek word G1242. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G1242",
+      "language": "greek",
+      "greekTransliteration": "diathḗkē",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-covenant-22-G1242-covenant",
+      "label": "Covenant",
+      "matches": [
+        "covenant"
+      ],
+      "chapter": 22,
+      "verses": [
+        20
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "διαθήκη",
+      "greekNote": "",
+      "meaning": "A binding agreement with promises and duties. In the Bible, God makes covenants with people.",
+      "grammar": "This is the dictionary form of Greek word G1242. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G1242",
+      "language": "greek",
+      "greekTransliteration": "diathḗkē",
+      "chapterDefault": true
     },
     {
       "id": "glossary-covenant",
@@ -1736,7 +2082,165 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "greek"
+    },
+    {
+      "id": "glossary-sabbath-4-G4521-sabbath",
+      "label": "Sabbath",
+      "matches": [
+        "Sabbath"
+      ],
+      "chapter": 4,
+      "verses": [
+        16,
+        31
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "σάββατον",
+      "greekNote": "",
+      "meaning": "The seventh day of the week, kept as a day of rest.",
+      "grammar": "This is the dictionary form of Greek word G4521. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G4521",
+      "language": "greek",
+      "greekTransliteration": "sábbaton",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-sabbath-6-G4521-sabbath",
+      "label": "Sabbath",
+      "matches": [
+        "Sabbath"
+      ],
+      "chapter": 6,
+      "verses": [
+        1,
+        2,
+        5,
+        6,
+        7,
+        9
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "σάββατον",
+      "greekNote": "",
+      "meaning": "The seventh day of the week, kept as a day of rest.",
+      "grammar": "This is the dictionary form of Greek word G4521. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G4521",
+      "language": "greek",
+      "greekTransliteration": "sábbaton",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-sabbath-13-G4521-sabbath",
+      "label": "Sabbath",
+      "matches": [
+        "Sabbath"
+      ],
+      "chapter": 13,
+      "verses": [
+        10,
+        14,
+        15,
+        16
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "σάββατον",
+      "greekNote": "",
+      "meaning": "The seventh day of the week, kept as a day of rest.",
+      "grammar": "This is the dictionary form of Greek word G4521. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G4521",
+      "language": "greek",
+      "greekTransliteration": "sábbaton",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-sabbath-14-G4521-sabbath",
+      "label": "Sabbath",
+      "matches": [
+        "Sabbath"
+      ],
+      "chapter": 14,
+      "verses": [
+        1,
+        3,
+        5
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "σάββατον",
+      "greekNote": "",
+      "meaning": "The seventh day of the week, kept as a day of rest.",
+      "grammar": "This is the dictionary form of Greek word G4521. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G4521",
+      "language": "greek",
+      "greekTransliteration": "sábbaton",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-sabbath-23-G4521-sabbath",
+      "label": "Sabbath",
+      "matches": [
+        "Sabbath"
+      ],
+      "chapter": 23,
+      "verses": [
+        54,
+        56
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "σάββατον",
+      "greekNote": "",
+      "meaning": "The seventh day of the week, kept as a day of rest.",
+      "grammar": "This is the dictionary form of Greek word G4521. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G4521",
+      "language": "greek",
+      "greekTransliteration": "sábbaton",
+      "chapterDefault": true
     },
     {
       "id": "glossary-sabbath",
@@ -1758,7 +2262,66 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "greek"
+    },
+    {
+      "id": "glossary-gentiles-18-G1484-gentiles",
+      "label": "Gentiles",
+      "matches": [
+        "Gentiles"
+      ],
+      "chapter": 18,
+      "verses": [
+        32
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "ἔθνος",
+      "greekNote": "",
+      "meaning": "People of nations other than Israel.",
+      "grammar": "This is the dictionary form of Greek word G1484. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G1484",
+      "language": "greek",
+      "greekTransliteration": "éthnos",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-gentiles-21-G1484-gentiles",
+      "label": "Gentiles",
+      "matches": [
+        "Gentiles"
+      ],
+      "chapter": 21,
+      "verses": [
+        24
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "ἔθνος",
+      "greekNote": "",
+      "meaning": "People of nations other than Israel.",
+      "grammar": "This is the dictionary form of Greek word G1484. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G1484",
+      "language": "greek",
+      "greekTransliteration": "éthnos",
+      "chapterDefault": true
     },
     {
       "id": "glossary-gentiles",
@@ -1780,7 +2343,428 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "greek"
+    },
+    {
+      "id": "glossary-pharisees-5-G5330-pharisees",
+      "label": "Pharisees",
+      "matches": [
+        "Pharisees"
+      ],
+      "chapter": 5,
+      "verses": [
+        17,
+        21,
+        30,
+        33
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "Φαρισαῖος",
+      "greekNote": "",
+      "meaning": "A Jewish group known for careful keeping of the law. Acts 23:8 says they believed in resurrection, angels, and spirits.",
+      "grammar": "This is the dictionary form of Greek word G5330. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G5330",
+      "language": "greek",
+      "greekTransliteration": "Pharisaîos",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-pharisees-6-G5330-pharisees",
+      "label": "Pharisees",
+      "matches": [
+        "Pharisees"
+      ],
+      "chapter": 6,
+      "verses": [
+        2,
+        7
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "Φαρισαῖος",
+      "greekNote": "",
+      "meaning": "A Jewish group known for careful keeping of the law. Acts 23:8 says they believed in resurrection, angels, and spirits.",
+      "grammar": "This is the dictionary form of Greek word G5330. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G5330",
+      "language": "greek",
+      "greekTransliteration": "Pharisaîos",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-pharisees-7-G5330-pharisees",
+      "label": "Pharisees",
+      "matches": [
+        "Pharisees"
+      ],
+      "chapter": 7,
+      "verses": [
+        30,
+        36
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "Φαρισαῖος",
+      "greekNote": "",
+      "meaning": "A Jewish group known for careful keeping of the law. Acts 23:8 says they believed in resurrection, angels, and spirits.",
+      "grammar": "This is the dictionary form of Greek word G5330. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G5330",
+      "language": "greek",
+      "greekTransliteration": "Pharisaîos",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-pharisees-11-G5330-pharisees",
+      "label": "Pharisees",
+      "matches": [
+        "Pharisees"
+      ],
+      "chapter": 11,
+      "verses": [
+        39,
+        42,
+        43,
+        44,
+        53
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "Φαρισαῖος",
+      "greekNote": "",
+      "meaning": "A Jewish group known for careful keeping of the law. Acts 23:8 says they believed in resurrection, angels, and spirits.",
+      "grammar": "This is the dictionary form of Greek word G5330. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G5330",
+      "language": "greek",
+      "greekTransliteration": "Pharisaîos",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-pharisees-12-G5330-pharisees",
+      "label": "Pharisees",
+      "matches": [
+        "Pharisees"
+      ],
+      "chapter": 12,
+      "verses": [
+        1
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "Φαρισαῖος",
+      "greekNote": "",
+      "meaning": "A Jewish group known for careful keeping of the law. Acts 23:8 says they believed in resurrection, angels, and spirits.",
+      "grammar": "This is the dictionary form of Greek word G5330. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G5330",
+      "language": "greek",
+      "greekTransliteration": "Pharisaîos",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-pharisees-13-G5330-pharisees",
+      "label": "Pharisees",
+      "matches": [
+        "Pharisees"
+      ],
+      "chapter": 13,
+      "verses": [
+        31
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "Φαρισαῖος",
+      "greekNote": "",
+      "meaning": "A Jewish group known for careful keeping of the law. Acts 23:8 says they believed in resurrection, angels, and spirits.",
+      "grammar": "This is the dictionary form of Greek word G5330. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G5330",
+      "language": "greek",
+      "greekTransliteration": "Pharisaîos",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-pharisees-14-G5330-pharisees",
+      "label": "Pharisees",
+      "matches": [
+        "Pharisees"
+      ],
+      "chapter": 14,
+      "verses": [
+        1,
+        3
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "Φαρισαῖος",
+      "greekNote": "",
+      "meaning": "A Jewish group known for careful keeping of the law. Acts 23:8 says they believed in resurrection, angels, and spirits.",
+      "grammar": "This is the dictionary form of Greek word G5330. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G5330",
+      "language": "greek",
+      "greekTransliteration": "Pharisaîos",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-pharisees-15-G5330-pharisees",
+      "label": "Pharisees",
+      "matches": [
+        "Pharisees"
+      ],
+      "chapter": 15,
+      "verses": [
+        2
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "Φαρισαῖος",
+      "greekNote": "",
+      "meaning": "A Jewish group known for careful keeping of the law. Acts 23:8 says they believed in resurrection, angels, and spirits.",
+      "grammar": "This is the dictionary form of Greek word G5330. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G5330",
+      "language": "greek",
+      "greekTransliteration": "Pharisaîos",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-pharisees-16-G5330-pharisees",
+      "label": "Pharisees",
+      "matches": [
+        "Pharisees"
+      ],
+      "chapter": 16,
+      "verses": [
+        14
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "Φαρισαῖος",
+      "greekNote": "",
+      "meaning": "A Jewish group known for careful keeping of the law. Acts 23:8 says they believed in resurrection, angels, and spirits.",
+      "grammar": "This is the dictionary form of Greek word G5330. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G5330",
+      "language": "greek",
+      "greekTransliteration": "Pharisaîos",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-pharisees-17-G5330-pharisees",
+      "label": "Pharisees",
+      "matches": [
+        "Pharisees"
+      ],
+      "chapter": 17,
+      "verses": [
+        20
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "Φαρισαῖος",
+      "greekNote": "",
+      "meaning": "A Jewish group known for careful keeping of the law. Acts 23:8 says they believed in resurrection, angels, and spirits.",
+      "grammar": "This is the dictionary form of Greek word G5330. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G5330",
+      "language": "greek",
+      "greekTransliteration": "Pharisaîos",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-pharisees-19-G5330-pharisees",
+      "label": "Pharisees",
+      "matches": [
+        "Pharisees"
+      ],
+      "chapter": 19,
+      "verses": [
+        39
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "Φαρισαῖος",
+      "greekNote": "",
+      "meaning": "A Jewish group known for careful keeping of the law. Acts 23:8 says they believed in resurrection, angels, and spirits.",
+      "grammar": "This is the dictionary form of Greek word G5330. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G5330",
+      "language": "greek",
+      "greekTransliteration": "Pharisaîos",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-pharisees-7-G5330-pharisee",
+      "label": "Pharisees",
+      "matches": [
+        "Pharisee"
+      ],
+      "chapter": 7,
+      "verses": [
+        36,
+        37,
+        39
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "Φαρισαῖος",
+      "greekNote": "",
+      "meaning": "A Jewish group known for careful keeping of the law. Acts 23:8 says they believed in resurrection, angels, and spirits.",
+      "grammar": "This is the dictionary form of Greek word G5330. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G5330",
+      "language": "greek",
+      "greekTransliteration": "Pharisaîos",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-pharisees-11-G5330-pharisee",
+      "label": "Pharisees",
+      "matches": [
+        "Pharisee"
+      ],
+      "chapter": 11,
+      "verses": [
+        37,
+        38
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "Φαρισαῖος",
+      "greekNote": "",
+      "meaning": "A Jewish group known for careful keeping of the law. Acts 23:8 says they believed in resurrection, angels, and spirits.",
+      "grammar": "This is the dictionary form of Greek word G5330. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G5330",
+      "language": "greek",
+      "greekTransliteration": "Pharisaîos",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-pharisees-18-G5330-pharisee",
+      "label": "Pharisees",
+      "matches": [
+        "Pharisee"
+      ],
+      "chapter": 18,
+      "verses": [
+        10,
+        11
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "Φαρισαῖος",
+      "greekNote": "",
+      "meaning": "A Jewish group known for careful keeping of the law. Acts 23:8 says they believed in resurrection, angels, and spirits.",
+      "grammar": "This is the dictionary form of Greek word G5330. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G5330",
+      "language": "greek",
+      "greekTransliteration": "Pharisaîos",
+      "chapterDefault": true
     },
     {
       "id": "glossary-pharisees",
@@ -1802,7 +2786,37 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "greek"
+    },
+    {
+      "id": "glossary-sadducees-20-G4523-sadducees",
+      "label": "Sadducees",
+      "matches": [
+        "Sadducees"
+      ],
+      "chapter": 20,
+      "verses": [
+        27
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "Σαδδουκαῖος",
+      "greekNote": "",
+      "meaning": "A Jewish group close to the high priest (Acts 5:17). Acts 23:8 says they denied resurrection, angels, and spirits.",
+      "grammar": "This is the dictionary form of Greek word G4523. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G4523",
+      "language": "greek",
+      "greekTransliteration": "Saddoukaîos",
+      "chapterDefault": true
     },
     {
       "id": "glossary-sadducees",
@@ -1824,7 +2838,275 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "greek"
+    },
+    {
+      "id": "glossary-scribes-5-G1122-scribes",
+      "label": "Scribes",
+      "matches": [
+        "scribes"
+      ],
+      "chapter": 5,
+      "verses": [
+        21,
+        30
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "γραμματεύς",
+      "greekNote": "",
+      "meaning": "People trained to write and to keep records. In the Gospels, scribes also teach the law.",
+      "grammar": "This is the dictionary form of Greek word G1122. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G1122",
+      "language": "greek",
+      "greekTransliteration": "grammateús",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-scribes-6-G1122-scribes",
+      "label": "Scribes",
+      "matches": [
+        "scribes"
+      ],
+      "chapter": 6,
+      "verses": [
+        7
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "γραμματεύς",
+      "greekNote": "",
+      "meaning": "People trained to write and to keep records. In the Gospels, scribes also teach the law.",
+      "grammar": "This is the dictionary form of Greek word G1122. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G1122",
+      "language": "greek",
+      "greekTransliteration": "grammateús",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-scribes-9-G1122-scribes",
+      "label": "Scribes",
+      "matches": [
+        "scribes"
+      ],
+      "chapter": 9,
+      "verses": [
+        22
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "γραμματεύς",
+      "greekNote": "",
+      "meaning": "People trained to write and to keep records. In the Gospels, scribes also teach the law.",
+      "grammar": "This is the dictionary form of Greek word G1122. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G1122",
+      "language": "greek",
+      "greekTransliteration": "grammateús",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-scribes-11-G1122-scribes",
+      "label": "Scribes",
+      "matches": [
+        "scribes"
+      ],
+      "chapter": 11,
+      "verses": [
+        44,
+        53
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "γραμματεύς",
+      "greekNote": "",
+      "meaning": "People trained to write and to keep records. In the Gospels, scribes also teach the law.",
+      "grammar": "This is the dictionary form of Greek word G1122. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G1122",
+      "language": "greek",
+      "greekTransliteration": "grammateús",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-scribes-15-G1122-scribes",
+      "label": "Scribes",
+      "matches": [
+        "scribes"
+      ],
+      "chapter": 15,
+      "verses": [
+        2
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "γραμματεύς",
+      "greekNote": "",
+      "meaning": "People trained to write and to keep records. In the Gospels, scribes also teach the law.",
+      "grammar": "This is the dictionary form of Greek word G1122. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G1122",
+      "language": "greek",
+      "greekTransliteration": "grammateús",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-scribes-19-G1122-scribes",
+      "label": "Scribes",
+      "matches": [
+        "scribes"
+      ],
+      "chapter": 19,
+      "verses": [
+        47
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "γραμματεύς",
+      "greekNote": "",
+      "meaning": "People trained to write and to keep records. In the Gospels, scribes also teach the law.",
+      "grammar": "This is the dictionary form of Greek word G1122. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G1122",
+      "language": "greek",
+      "greekTransliteration": "grammateús",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-scribes-20-G1122-scribes",
+      "label": "Scribes",
+      "matches": [
+        "scribes"
+      ],
+      "chapter": 20,
+      "verses": [
+        1,
+        19,
+        39,
+        46
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "γραμματεύς",
+      "greekNote": "",
+      "meaning": "People trained to write and to keep records. In the Gospels, scribes also teach the law.",
+      "grammar": "This is the dictionary form of Greek word G1122. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G1122",
+      "language": "greek",
+      "greekTransliteration": "grammateús",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-scribes-22-G1122-scribes",
+      "label": "Scribes",
+      "matches": [
+        "scribes"
+      ],
+      "chapter": 22,
+      "verses": [
+        2,
+        66
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "γραμματεύς",
+      "greekNote": "",
+      "meaning": "People trained to write and to keep records. In the Gospels, scribes also teach the law.",
+      "grammar": "This is the dictionary form of Greek word G1122. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G1122",
+      "language": "greek",
+      "greekTransliteration": "grammateús",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-scribes-23-G1122-scribes",
+      "label": "Scribes",
+      "matches": [
+        "scribes"
+      ],
+      "chapter": 23,
+      "verses": [
+        10
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "γραμματεύς",
+      "greekNote": "",
+      "meaning": "People trained to write and to keep records. In the Gospels, scribes also teach the law.",
+      "grammar": "This is the dictionary form of Greek word G1122. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G1122",
+      "language": "greek",
+      "greekTransliteration": "grammateús",
+      "chapterDefault": true
     },
     {
       "id": "glossary-scribes",
@@ -1846,7 +3128,303 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "greek"
+    },
+    {
+      "id": "glossary-synagogue-4-G4864-synagogues",
+      "label": "Synagogue",
+      "matches": [
+        "synagogues"
+      ],
+      "chapter": 4,
+      "verses": [
+        15,
+        44
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "συναγωγή",
+      "greekNote": "",
+      "meaning": "A local Jewish meeting place for prayer and for reading Scripture.",
+      "grammar": "This is the dictionary form of Greek word G4864. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G4864",
+      "language": "greek",
+      "greekTransliteration": "synagōgḗ",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-synagogue-11-G4864-synagogues",
+      "label": "Synagogue",
+      "matches": [
+        "synagogues"
+      ],
+      "chapter": 11,
+      "verses": [
+        43
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "συναγωγή",
+      "greekNote": "",
+      "meaning": "A local Jewish meeting place for prayer and for reading Scripture.",
+      "grammar": "This is the dictionary form of Greek word G4864. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G4864",
+      "language": "greek",
+      "greekTransliteration": "synagōgḗ",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-synagogue-12-G4864-synagogues",
+      "label": "Synagogue",
+      "matches": [
+        "synagogues"
+      ],
+      "chapter": 12,
+      "verses": [
+        11
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "συναγωγή",
+      "greekNote": "",
+      "meaning": "A local Jewish meeting place for prayer and for reading Scripture.",
+      "grammar": "This is the dictionary form of Greek word G4864. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G4864",
+      "language": "greek",
+      "greekTransliteration": "synagōgḗ",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-synagogue-13-G4864-synagogues",
+      "label": "Synagogue",
+      "matches": [
+        "synagogues"
+      ],
+      "chapter": 13,
+      "verses": [
+        10
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "συναγωγή",
+      "greekNote": "",
+      "meaning": "A local Jewish meeting place for prayer and for reading Scripture.",
+      "grammar": "This is the dictionary form of Greek word G4864. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G4864",
+      "language": "greek",
+      "greekTransliteration": "synagōgḗ",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-synagogue-20-G4864-synagogues",
+      "label": "Synagogue",
+      "matches": [
+        "synagogues"
+      ],
+      "chapter": 20,
+      "verses": [
+        46
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "συναγωγή",
+      "greekNote": "",
+      "meaning": "A local Jewish meeting place for prayer and for reading Scripture.",
+      "grammar": "This is the dictionary form of Greek word G4864. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G4864",
+      "language": "greek",
+      "greekTransliteration": "synagōgḗ",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-synagogue-21-G4864-synagogues",
+      "label": "Synagogue",
+      "matches": [
+        "synagogues"
+      ],
+      "chapter": 21,
+      "verses": [
+        12
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "συναγωγή",
+      "greekNote": "",
+      "meaning": "A local Jewish meeting place for prayer and for reading Scripture.",
+      "grammar": "This is the dictionary form of Greek word G4864. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G4864",
+      "language": "greek",
+      "greekTransliteration": "synagōgḗ",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-synagogue-4-G4864-synagogue",
+      "label": "Synagogue",
+      "matches": [
+        "synagogue"
+      ],
+      "chapter": 4,
+      "verses": [
+        16,
+        20,
+        28,
+        33,
+        38
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "συναγωγή",
+      "greekNote": "",
+      "meaning": "A local Jewish meeting place for prayer and for reading Scripture.",
+      "grammar": "This is the dictionary form of Greek word G4864. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G4864",
+      "language": "greek",
+      "greekTransliteration": "synagōgḗ",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-synagogue-6-G4864-synagogue",
+      "label": "Synagogue",
+      "matches": [
+        "synagogue"
+      ],
+      "chapter": 6,
+      "verses": [
+        6
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "συναγωγή",
+      "greekNote": "",
+      "meaning": "A local Jewish meeting place for prayer and for reading Scripture.",
+      "grammar": "This is the dictionary form of Greek word G4864. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G4864",
+      "language": "greek",
+      "greekTransliteration": "synagōgḗ",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-synagogue-7-G4864-synagogue",
+      "label": "Synagogue",
+      "matches": [
+        "synagogue"
+      ],
+      "chapter": 7,
+      "verses": [
+        5
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "συναγωγή",
+      "greekNote": "",
+      "meaning": "A local Jewish meeting place for prayer and for reading Scripture.",
+      "grammar": "This is the dictionary form of Greek word G4864. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G4864",
+      "language": "greek",
+      "greekTransliteration": "synagōgḗ",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-synagogue-8-G4864-synagogue",
+      "label": "Synagogue",
+      "matches": [
+        "synagogue"
+      ],
+      "chapter": 8,
+      "verses": [
+        41
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "συναγωγή",
+      "greekNote": "",
+      "meaning": "A local Jewish meeting place for prayer and for reading Scripture.",
+      "grammar": "This is the dictionary form of Greek word G4864. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G4864",
+      "language": "greek",
+      "greekTransliteration": "synagōgḗ",
+      "chapterDefault": true
     },
     {
       "id": "glossary-synagogue",
@@ -1868,7 +3446,182 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "greek"
+    },
+    {
+      "id": "glossary-apostles-6-G652-apostles",
+      "label": "Apostles",
+      "matches": [
+        "apostles"
+      ],
+      "chapter": 6,
+      "verses": [
+        13
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "ἀπόστολος",
+      "greekNote": "",
+      "meaning": "People sent out with a message. In the Gospels the word names twelve whom Jesus chose.",
+      "grammar": "This is the dictionary form of Greek word G652. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G652",
+      "language": "greek",
+      "greekTransliteration": "apóstolos",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-apostles-9-G652-apostles",
+      "label": "Apostles",
+      "matches": [
+        "apostles"
+      ],
+      "chapter": 9,
+      "verses": [
+        10
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "ἀπόστολος",
+      "greekNote": "",
+      "meaning": "People sent out with a message. In the Gospels the word names twelve whom Jesus chose.",
+      "grammar": "This is the dictionary form of Greek word G652. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G652",
+      "language": "greek",
+      "greekTransliteration": "apóstolos",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-apostles-11-G652-apostles",
+      "label": "Apostles",
+      "matches": [
+        "apostles"
+      ],
+      "chapter": 11,
+      "verses": [
+        49
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "ἀπόστολος",
+      "greekNote": "",
+      "meaning": "People sent out with a message. In the Gospels the word names twelve whom Jesus chose.",
+      "grammar": "This is the dictionary form of Greek word G652. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G652",
+      "language": "greek",
+      "greekTransliteration": "apóstolos",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-apostles-17-G652-apostles",
+      "label": "Apostles",
+      "matches": [
+        "apostles"
+      ],
+      "chapter": 17,
+      "verses": [
+        5
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "ἀπόστολος",
+      "greekNote": "",
+      "meaning": "People sent out with a message. In the Gospels the word names twelve whom Jesus chose.",
+      "grammar": "This is the dictionary form of Greek word G652. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G652",
+      "language": "greek",
+      "greekTransliteration": "apóstolos",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-apostles-22-G652-apostles",
+      "label": "Apostles",
+      "matches": [
+        "apostles"
+      ],
+      "chapter": 22,
+      "verses": [
+        14
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "ἀπόστολος",
+      "greekNote": "",
+      "meaning": "People sent out with a message. In the Gospels the word names twelve whom Jesus chose.",
+      "grammar": "This is the dictionary form of Greek word G652. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G652",
+      "language": "greek",
+      "greekTransliteration": "apóstolos",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-apostles-24-G652-apostles",
+      "label": "Apostles",
+      "matches": [
+        "apostles"
+      ],
+      "chapter": 24,
+      "verses": [
+        10
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "ἀπόστολος",
+      "greekNote": "",
+      "meaning": "People sent out with a message. In the Gospels the word names twelve whom Jesus chose.",
+      "grammar": "This is the dictionary form of Greek word G652. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G652",
+      "language": "greek",
+      "greekTransliteration": "apóstolos",
+      "chapterDefault": true
     },
     {
       "id": "glossary-apostles",
@@ -1890,7 +3643,8 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "greek"
     },
     {
       "id": "glossary-assembly",
@@ -1912,7 +3666,71 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "greek"
+    },
+    {
+      "id": "glossary-passover-2-G3957-passover",
+      "label": "Passover",
+      "matches": [
+        "Passover"
+      ],
+      "chapter": 2,
+      "verses": [
+        41
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "πάσχα",
+      "greekNote": "",
+      "meaning": "A yearly feast that recalls Israel’s escape from Egypt. Exodus 12 gives its first account.",
+      "grammar": "This is the dictionary form of Greek word G3957. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G3957",
+      "language": "greek",
+      "greekTransliteration": "páscha",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-passover-22-G3957-passover",
+      "label": "Passover",
+      "matches": [
+        "Passover"
+      ],
+      "chapter": 22,
+      "verses": [
+        1,
+        7,
+        8,
+        11,
+        13,
+        15
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "πάσχα",
+      "greekNote": "",
+      "meaning": "A yearly feast that recalls Israel’s escape from Egypt. Exodus 12 gives its first account.",
+      "grammar": "This is the dictionary form of Greek word G3957. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G3957",
+      "language": "greek",
+      "greekTransliteration": "páscha",
+      "chapterDefault": true
     },
     {
       "id": "glossary-passover",
@@ -1933,7 +3751,37 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "greek"
+    },
+    {
+      "id": "glossary-circumcision-1-G4059-circumcise",
+      "label": "Circumcision",
+      "matches": [
+        "circumcise"
+      ],
+      "chapter": 1,
+      "verses": [
+        59
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "περιτέμνω",
+      "greekNote": "",
+      "meaning": "The cutting of the foreskin. Genesis 17 makes it the sign of God’s covenant with Abraham.",
+      "grammar": "This is the dictionary form of Greek word G4059. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G4059",
+      "language": "greek",
+      "greekTransliteration": "peritémnō",
+      "chapterDefault": true
     },
     {
       "id": "glossary-circumcision",
@@ -1958,7 +3806,66 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "greek"
+    },
+    {
+      "id": "glossary-tithe-18-G586-tithes",
+      "label": "Tithe",
+      "matches": [
+        "tithes"
+      ],
+      "chapter": 18,
+      "verses": [
+        12
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "ἀποδεκατόω",
+      "greekNote": "",
+      "meaning": "A tenth of produce or income given to God.",
+      "grammar": "This is the dictionary form of Greek word G586. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G586",
+      "language": "greek",
+      "greekTransliteration": "apodekatóō",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-tithe-11-G586-tithe",
+      "label": "Tithe",
+      "matches": [
+        "tithe"
+      ],
+      "chapter": 11,
+      "verses": [
+        42
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "ἀποδεκατόω",
+      "greekNote": "",
+      "meaning": "A tenth of produce or income given to God.",
+      "grammar": "This is the dictionary form of Greek word G586. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G586",
+      "language": "greek",
+      "greekTransliteration": "apodekatóō",
+      "chapterDefault": true
     },
     {
       "id": "glossary-tithe",
@@ -1980,7 +3887,66 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "greek"
+    },
+    {
+      "id": "glossary-hades-10-G86-hades",
+      "label": "Hades",
+      "matches": [
+        "Hades"
+      ],
+      "chapter": 10,
+      "verses": [
+        15
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "ᾅδης",
+      "greekNote": "",
+      "meaning": "The Greek name for the place of the dead.",
+      "grammar": "This is the dictionary form of Greek word G86. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G86",
+      "language": "greek",
+      "greekTransliteration": "háidēs",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-hades-16-G86-hades",
+      "label": "Hades",
+      "matches": [
+        "Hades"
+      ],
+      "chapter": 16,
+      "verses": [
+        23
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "ᾅδης",
+      "greekNote": "",
+      "meaning": "The Greek name for the place of the dead.",
+      "grammar": "This is the dictionary form of Greek word G86. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G86",
+      "language": "greek",
+      "greekTransliteration": "háidēs",
+      "chapterDefault": true
     },
     {
       "id": "glossary-hades",
@@ -2001,7 +3967,37 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "greek"
+    },
+    {
+      "id": "glossary-sackcloth-10-G4526-sackcloth",
+      "label": "Sackcloth",
+      "matches": [
+        "sackcloth"
+      ],
+      "chapter": 10,
+      "verses": [
+        13
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "σάκκος",
+      "greekNote": "",
+      "meaning": "Rough cloth worn to show grief or repentance.",
+      "grammar": "This is the dictionary form of Greek word G4526. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G4526",
+      "language": "greek",
+      "greekTransliteration": "sákkos",
+      "chapterDefault": true
     },
     {
       "id": "glossary-sackcloth",
@@ -2022,7 +4018,37 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "greek"
+    },
+    {
+      "id": "glossary-firstborn-2-G4416-firstborn",
+      "label": "Firstborn",
+      "matches": [
+        "firstborn"
+      ],
+      "chapter": 2,
+      "verses": [
+        7
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "πρωτότοκος",
+      "greekNote": "",
+      "meaning": "The oldest child. A firstborn son received a double share of the inheritance (Deuteronomy 21:17).",
+      "grammar": "This is the dictionary form of Greek word G4416. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G4416",
+      "language": "greek",
+      "greekTransliteration": "prōtótokos",
+      "chapterDefault": true
     },
     {
       "id": "glossary-firstborn",
@@ -2043,7 +4069,95 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "greek"
+    },
+    {
+      "id": "glossary-redeem-2-G3085-redemption",
+      "label": "Redeem",
+      "matches": [
+        "redemption"
+      ],
+      "chapter": 2,
+      "verses": [
+        38
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "λύτρωσις",
+      "greekNote": "",
+      "meaning": "To buy back a person or property. The word is also used for God’s rescue of people.",
+      "grammar": "This is the dictionary form of Greek word G3085. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G3085",
+      "language": "greek",
+      "greekTransliteration": "lýtrōsis",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-redeem-21-G629-redemption",
+      "label": "Redeem",
+      "matches": [
+        "redemption"
+      ],
+      "chapter": 21,
+      "verses": [
+        28
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "ἀπολύτρωσις",
+      "greekNote": "",
+      "meaning": "To buy back a person or property. The word is also used for God’s rescue of people.",
+      "grammar": "This is the dictionary form of Greek word G629. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G629",
+      "language": "greek",
+      "greekTransliteration": "apolýtrōsis",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-redeem-24-G3084-redeem",
+      "label": "Redeem",
+      "matches": [
+        "redeem"
+      ],
+      "chapter": 24,
+      "verses": [
+        21
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "λυτρόω",
+      "greekNote": "",
+      "meaning": "To buy back a person or property. The word is also used for God’s rescue of people.",
+      "grammar": "This is the dictionary form of Greek word G3084. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G3084",
+      "language": "greek",
+      "greekTransliteration": "lytróō",
+      "chapterDefault": true
     },
     {
       "id": "glossary-redeem",
@@ -2068,7 +4182,37 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "greek"
+    },
+    {
+      "id": "glossary-kinsman-14-G4773-kinsmen",
+      "label": "Kinsman",
+      "matches": [
+        "kinsmen"
+      ],
+      "chapter": 14,
+      "verses": [
+        12
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "συγγενής",
+      "greekNote": "",
+      "meaning": "A near relative. In Ruth, a near kinsman may buy back a relative’s land.",
+      "grammar": "This is the dictionary form of Greek word G4773. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G4773",
+      "language": "greek",
+      "greekTransliteration": "syngenḗs",
+      "chapterDefault": true
     },
     {
       "id": "glossary-kinsman",
@@ -2090,7 +4234,154 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "greek"
+    },
+    {
+      "id": "glossary-unclean-4-G169-unclean",
+      "label": "Unclean",
+      "matches": [
+        "unclean"
+      ],
+      "chapter": 4,
+      "verses": [
+        33,
+        36
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "ἀκάθαρτος",
+      "greekNote": "",
+      "meaning": "Unfit to take part in worship until a set cleansing is done. Leviticus 11–15 gives the rules.",
+      "grammar": "This is the dictionary form of Greek word G169. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G169",
+      "language": "greek",
+      "greekTransliteration": "akáthartos",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-unclean-6-G169-unclean",
+      "label": "Unclean",
+      "matches": [
+        "unclean"
+      ],
+      "chapter": 6,
+      "verses": [
+        18
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "ἀκάθαρτος",
+      "greekNote": "",
+      "meaning": "Unfit to take part in worship until a set cleansing is done. Leviticus 11–15 gives the rules.",
+      "grammar": "This is the dictionary form of Greek word G169. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G169",
+      "language": "greek",
+      "greekTransliteration": "akáthartos",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-unclean-8-G169-unclean",
+      "label": "Unclean",
+      "matches": [
+        "unclean"
+      ],
+      "chapter": 8,
+      "verses": [
+        29
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "ἀκάθαρτος",
+      "greekNote": "",
+      "meaning": "Unfit to take part in worship until a set cleansing is done. Leviticus 11–15 gives the rules.",
+      "grammar": "This is the dictionary form of Greek word G169. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G169",
+      "language": "greek",
+      "greekTransliteration": "akáthartos",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-unclean-9-G169-unclean",
+      "label": "Unclean",
+      "matches": [
+        "unclean"
+      ],
+      "chapter": 9,
+      "verses": [
+        42
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "ἀκάθαρτος",
+      "greekNote": "",
+      "meaning": "Unfit to take part in worship until a set cleansing is done. Leviticus 11–15 gives the rules.",
+      "grammar": "This is the dictionary form of Greek word G169. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G169",
+      "language": "greek",
+      "greekTransliteration": "akáthartos",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-unclean-11-G169-unclean",
+      "label": "Unclean",
+      "matches": [
+        "unclean"
+      ],
+      "chapter": 11,
+      "verses": [
+        24
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "ἀκάθαρτος",
+      "greekNote": "",
+      "meaning": "Unfit to take part in worship until a set cleansing is done. Leviticus 11–15 gives the rules.",
+      "grammar": "This is the dictionary form of Greek word G169. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G169",
+      "language": "greek",
+      "greekTransliteration": "akáthartos",
+      "chapterDefault": true
     },
     {
       "id": "glossary-unclean",
@@ -2112,7 +4403,125 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "greek"
+    },
+    {
+      "id": "glossary-leprosy-5-G3014-leprosy",
+      "label": "Leprosy",
+      "matches": [
+        "leprosy"
+      ],
+      "chapter": 5,
+      "verses": [
+        12,
+        13
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "λέπρα",
+      "greekNote": "",
+      "meaning": "A skin disease. Leviticus 13 uses the word for several conditions and sets rules for them.",
+      "grammar": "This is the dictionary form of Greek word G3014. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G3014",
+      "language": "greek",
+      "greekTransliteration": "lépra",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-leprosy-4-G3015-lepers",
+      "label": "Leprosy",
+      "matches": [
+        "lepers"
+      ],
+      "chapter": 4,
+      "verses": [
+        27
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "λεπρός",
+      "greekNote": "",
+      "meaning": "A skin disease. Leviticus 13 uses the word for several conditions and sets rules for them.",
+      "grammar": "This is the dictionary form of Greek word G3015. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G3015",
+      "language": "greek",
+      "greekTransliteration": "leprós",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-leprosy-7-G3015-lepers",
+      "label": "Leprosy",
+      "matches": [
+        "lepers"
+      ],
+      "chapter": 7,
+      "verses": [
+        22
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "λεπρός",
+      "greekNote": "",
+      "meaning": "A skin disease. Leviticus 13 uses the word for several conditions and sets rules for them.",
+      "grammar": "This is the dictionary form of Greek word G3015. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G3015",
+      "language": "greek",
+      "greekTransliteration": "leprós",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-leprosy-17-G3015-lepers",
+      "label": "Leprosy",
+      "matches": [
+        "lepers"
+      ],
+      "chapter": 17,
+      "verses": [
+        12
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "λεπρός",
+      "greekNote": "",
+      "meaning": "A skin disease. Leviticus 13 uses the word for several conditions and sets rules for them.",
+      "grammar": "This is the dictionary form of Greek word G3015. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G3015",
+      "language": "greek",
+      "greekTransliteration": "leprós",
+      "chapterDefault": true
     },
     {
       "id": "glossary-leprosy",
@@ -2136,7 +4545,96 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "greek"
+    },
+    {
+      "id": "glossary-anoint-4-G5548-anointed",
+      "label": "Anoint",
+      "matches": [
+        "anointed"
+      ],
+      "chapter": 4,
+      "verses": [
+        18
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "χρίω",
+      "greekNote": "",
+      "meaning": "To pour oil on a person or thing to set it apart. Kings and priests were anointed.",
+      "grammar": "This is the dictionary form of Greek word G5548. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G5548",
+      "language": "greek",
+      "greekTransliteration": "chríō",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-anoint-7-G218-anointed",
+      "label": "Anoint",
+      "matches": [
+        "anointed"
+      ],
+      "chapter": 7,
+      "verses": [
+        38,
+        46
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "ἀλείφω",
+      "greekNote": "",
+      "meaning": "To pour oil on a person or thing to set it apart. Kings and priests were anointed.",
+      "grammar": "This is the dictionary form of Greek word G218. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G218",
+      "language": "greek",
+      "greekTransliteration": "aleíphō",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-anoint-7-G218-anoint",
+      "label": "Anoint",
+      "matches": [
+        "anoint"
+      ],
+      "chapter": 7,
+      "verses": [
+        46
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "ἀλείφω",
+      "greekNote": "",
+      "meaning": "To pour oil on a person or thing to set it apart. Kings and priests were anointed.",
+      "grammar": "This is the dictionary form of Greek word G218. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G218",
+      "language": "greek",
+      "greekTransliteration": "aleíphō",
+      "chapterDefault": true
     },
     {
       "id": "glossary-anoint",
@@ -2160,7 +4658,95 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "greek"
+    },
+    {
+      "id": "glossary-samaritans-9-G4541-samaritans",
+      "label": "Samaritans",
+      "matches": [
+        "Samaritans"
+      ],
+      "chapter": 9,
+      "verses": [
+        52
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "Σαμαρείτης",
+      "greekNote": "",
+      "meaning": "People of Samaria, between Judea and Galilee. John 4:9 says Jews had no dealings with them.",
+      "grammar": "This is the dictionary form of Greek word G4541. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G4541",
+      "language": "greek",
+      "greekTransliteration": "Samareítēs",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-samaritans-10-G4541-samaritan",
+      "label": "Samaritans",
+      "matches": [
+        "Samaritan"
+      ],
+      "chapter": 10,
+      "verses": [
+        33
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "Σαμαρείτης",
+      "greekNote": "",
+      "meaning": "People of Samaria, between Judea and Galilee. John 4:9 says Jews had no dealings with them.",
+      "grammar": "This is the dictionary form of Greek word G4541. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G4541",
+      "language": "greek",
+      "greekTransliteration": "Samareítēs",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-samaritans-17-G4541-samaritan",
+      "label": "Samaritans",
+      "matches": [
+        "Samaritan"
+      ],
+      "chapter": 17,
+      "verses": [
+        16
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "Σαμαρείτης",
+      "greekNote": "",
+      "meaning": "People of Samaria, between Judea and Galilee. John 4:9 says Jews had no dealings with them.",
+      "grammar": "This is the dictionary form of Greek word G4541. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G4541",
+      "language": "greek",
+      "greekTransliteration": "Samareítēs",
+      "chapterDefault": true
     },
     {
       "id": "glossary-samaritans",
@@ -2182,7 +4768,361 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "greek"
+    },
+    {
+      "id": "glossary-parable-8-G3850-parables",
+      "label": "Parable",
+      "matches": [
+        "parables"
+      ],
+      "chapter": 8,
+      "verses": [
+        10
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "παραβολή",
+      "greekNote": "",
+      "meaning": "A short story or comparison that teaches a point.",
+      "grammar": "This is the dictionary form of Greek word G3850. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G3850",
+      "language": "greek",
+      "greekTransliteration": "parabolḗ",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-parable-5-G3850-parable",
+      "label": "Parable",
+      "matches": [
+        "parable"
+      ],
+      "chapter": 5,
+      "verses": [
+        36
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "παραβολή",
+      "greekNote": "",
+      "meaning": "A short story or comparison that teaches a point.",
+      "grammar": "This is the dictionary form of Greek word G3850. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G3850",
+      "language": "greek",
+      "greekTransliteration": "parabolḗ",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-parable-6-G3850-parable",
+      "label": "Parable",
+      "matches": [
+        "parable"
+      ],
+      "chapter": 6,
+      "verses": [
+        39
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "παραβολή",
+      "greekNote": "",
+      "meaning": "A short story or comparison that teaches a point.",
+      "grammar": "This is the dictionary form of Greek word G3850. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G3850",
+      "language": "greek",
+      "greekTransliteration": "parabolḗ",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-parable-8-G3850-parable",
+      "label": "Parable",
+      "matches": [
+        "parable"
+      ],
+      "chapter": 8,
+      "verses": [
+        4,
+        9,
+        11
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "παραβολή",
+      "greekNote": "",
+      "meaning": "A short story or comparison that teaches a point.",
+      "grammar": "This is the dictionary form of Greek word G3850. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G3850",
+      "language": "greek",
+      "greekTransliteration": "parabolḗ",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-parable-12-G3850-parable",
+      "label": "Parable",
+      "matches": [
+        "parable"
+      ],
+      "chapter": 12,
+      "verses": [
+        16,
+        41
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "παραβολή",
+      "greekNote": "",
+      "meaning": "A short story or comparison that teaches a point.",
+      "grammar": "This is the dictionary form of Greek word G3850. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G3850",
+      "language": "greek",
+      "greekTransliteration": "parabolḗ",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-parable-13-G3850-parable",
+      "label": "Parable",
+      "matches": [
+        "parable"
+      ],
+      "chapter": 13,
+      "verses": [
+        6
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "παραβολή",
+      "greekNote": "",
+      "meaning": "A short story or comparison that teaches a point.",
+      "grammar": "This is the dictionary form of Greek word G3850. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G3850",
+      "language": "greek",
+      "greekTransliteration": "parabolḗ",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-parable-14-G3850-parable",
+      "label": "Parable",
+      "matches": [
+        "parable"
+      ],
+      "chapter": 14,
+      "verses": [
+        7
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "παραβολή",
+      "greekNote": "",
+      "meaning": "A short story or comparison that teaches a point.",
+      "grammar": "This is the dictionary form of Greek word G3850. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G3850",
+      "language": "greek",
+      "greekTransliteration": "parabolḗ",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-parable-15-G3850-parable",
+      "label": "Parable",
+      "matches": [
+        "parable"
+      ],
+      "chapter": 15,
+      "verses": [
+        3
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "παραβολή",
+      "greekNote": "",
+      "meaning": "A short story or comparison that teaches a point.",
+      "grammar": "This is the dictionary form of Greek word G3850. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G3850",
+      "language": "greek",
+      "greekTransliteration": "parabolḗ",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-parable-18-G3850-parable",
+      "label": "Parable",
+      "matches": [
+        "parable"
+      ],
+      "chapter": 18,
+      "verses": [
+        1,
+        9
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "παραβολή",
+      "greekNote": "",
+      "meaning": "A short story or comparison that teaches a point.",
+      "grammar": "This is the dictionary form of Greek word G3850. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G3850",
+      "language": "greek",
+      "greekTransliteration": "parabolḗ",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-parable-19-G3850-parable",
+      "label": "Parable",
+      "matches": [
+        "parable"
+      ],
+      "chapter": 19,
+      "verses": [
+        11
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "παραβολή",
+      "greekNote": "",
+      "meaning": "A short story or comparison that teaches a point.",
+      "grammar": "This is the dictionary form of Greek word G3850. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G3850",
+      "language": "greek",
+      "greekTransliteration": "parabolḗ",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-parable-20-G3850-parable",
+      "label": "Parable",
+      "matches": [
+        "parable"
+      ],
+      "chapter": 20,
+      "verses": [
+        9,
+        19
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "παραβολή",
+      "greekNote": "",
+      "meaning": "A short story or comparison that teaches a point.",
+      "grammar": "This is the dictionary form of Greek word G3850. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G3850",
+      "language": "greek",
+      "greekTransliteration": "parabolḗ",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-parable-21-G3850-parable",
+      "label": "Parable",
+      "matches": [
+        "parable"
+      ],
+      "chapter": 21,
+      "verses": [
+        29
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "παραβολή",
+      "greekNote": "",
+      "meaning": "A short story or comparison that teaches a point.",
+      "grammar": "This is the dictionary form of Greek word G3850. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G3850",
+      "language": "greek",
+      "greekTransliteration": "parabolḗ",
+      "chapterDefault": true
     },
     {
       "id": "glossary-parable",
@@ -2204,7 +5144,67 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "greek"
+    },
+    {
+      "id": "glossary-centurion-7-G1543-centurion",
+      "label": "Centurion",
+      "matches": [
+        "centurion"
+      ],
+      "chapter": 7,
+      "verses": [
+        2,
+        6
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "ἑκατοντάρχης",
+      "greekNote": "",
+      "meaning": "A Roman officer in command of about a hundred soldiers.",
+      "grammar": "This is the dictionary form of Greek word G1543. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G1543",
+      "language": "greek",
+      "greekTransliteration": "hekatontárchēs",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-centurion-23-G1543-centurion",
+      "label": "Centurion",
+      "matches": [
+        "centurion"
+      ],
+      "chapter": 23,
+      "verses": [
+        47
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "ἑκατοντάρχης",
+      "greekNote": "",
+      "meaning": "A Roman officer in command of about a hundred soldiers.",
+      "grammar": "This is the dictionary form of Greek word G1543. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G1543",
+      "language": "greek",
+      "greekTransliteration": "hekatontárchēs",
+      "chapterDefault": true
     },
     {
       "id": "glossary-centurion",
@@ -2226,7 +5226,37 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "greek"
+    },
+    {
+      "id": "glossary-cubit-12-G4083-cubit",
+      "label": "Cubit",
+      "matches": [
+        "cubit"
+      ],
+      "chapter": 12,
+      "verses": [
+        25
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "πῆχυς",
+      "greekNote": "",
+      "meaning": "A length from the elbow to the fingertip, about 46 centimeters.",
+      "grammar": "This is the dictionary form of Greek word G4083. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G4083",
+      "language": "greek",
+      "greekTransliteration": "pēchys",
+      "chapterDefault": true
     },
     {
       "id": "glossary-cubit",
@@ -2248,7 +5278,95 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "greek"
+    },
+    {
+      "id": "glossary-denarius-7-G1220-denarii",
+      "label": "Denarius",
+      "matches": [
+        "denarii"
+      ],
+      "chapter": 7,
+      "verses": [
+        41
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "δηνάριον",
+      "greekNote": "",
+      "meaning": "A Roman silver coin. Matthew 20:2 gives it as a worker’s pay for one day.",
+      "grammar": "This is the dictionary form of Greek word G1220. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G1220",
+      "language": "greek",
+      "greekTransliteration": "dēnárion",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-denarius-10-G1220-denarii",
+      "label": "Denarius",
+      "matches": [
+        "denarii"
+      ],
+      "chapter": 10,
+      "verses": [
+        35
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "δηνάριον",
+      "greekNote": "",
+      "meaning": "A Roman silver coin. Matthew 20:2 gives it as a worker’s pay for one day.",
+      "grammar": "This is the dictionary form of Greek word G1220. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G1220",
+      "language": "greek",
+      "greekTransliteration": "dēnárion",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-denarius-20-G1220-denarius",
+      "label": "Denarius",
+      "matches": [
+        "denarius"
+      ],
+      "chapter": 20,
+      "verses": [
+        24
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "δηνάριον",
+      "greekNote": "",
+      "meaning": "A Roman silver coin. Matthew 20:2 gives it as a worker’s pay for one day.",
+      "grammar": "This is the dictionary form of Greek word G1220. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G1220",
+      "language": "greek",
+      "greekTransliteration": "dēnárion",
+      "chapterDefault": true
     },
     {
       "id": "glossary-denarius",
@@ -2270,7 +5388,125 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "greek"
+    },
+    {
+      "id": "glossary-yeast-22-G106-unleavened",
+      "label": "Yeast",
+      "matches": [
+        "unleavened"
+      ],
+      "chapter": 22,
+      "verses": [
+        1,
+        7
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "ἄζυμος",
+      "greekNote": "",
+      "meaning": "Yeast, or leaven, makes dough rise. Bread made without it is called unleavened.",
+      "grammar": "This is the dictionary form of Greek word G106. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G106",
+      "language": "greek",
+      "greekTransliteration": "ázymos",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-yeast-13-G2220-leavened",
+      "label": "Yeast",
+      "matches": [
+        "leavened"
+      ],
+      "chapter": 13,
+      "verses": [
+        21
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "ζυμόω",
+      "greekNote": "",
+      "meaning": "Yeast, or leaven, makes dough rise. Bread made without it is called unleavened.",
+      "grammar": "This is the dictionary form of Greek word G2220. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G2220",
+      "language": "greek",
+      "greekTransliteration": "zymóō",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-yeast-12-G2219-yeast",
+      "label": "Yeast",
+      "matches": [
+        "yeast"
+      ],
+      "chapter": 12,
+      "verses": [
+        1
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "ζύμη",
+      "greekNote": "",
+      "meaning": "Yeast, or leaven, makes dough rise. Bread made without it is called unleavened.",
+      "grammar": "This is the dictionary form of Greek word G2219. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G2219",
+      "language": "greek",
+      "greekTransliteration": "zýmē",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-yeast-13-G2219-yeast",
+      "label": "Yeast",
+      "matches": [
+        "yeast"
+      ],
+      "chapter": 13,
+      "verses": [
+        21
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "ζύμη",
+      "greekNote": "",
+      "meaning": "Yeast, or leaven, makes dough rise. Bread made without it is called unleavened.",
+      "grammar": "This is the dictionary form of Greek word G2219. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G2219",
+      "language": "greek",
+      "greekTransliteration": "zýmē",
+      "chapterDefault": true
     },
     {
       "id": "glossary-yeast",
@@ -2294,7 +5530,8 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "greek"
     }
   ],
   "guides": [

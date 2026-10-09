@@ -4,10 +4,10 @@
       "id": "web",
       "title": "1 John · World English Bible",
       "url": "https://ebible.org/engwebp/1JN01.htm",
-      "summary": "Complete Scripture supplies the primary text for original close readings.",
+      "summary": "The full text of First John is the main text for the close readings.",
       "category": "Scripture",
       "perspective": "historical",
-      "limits": "The speaker is unnamed. Historical authorship, dates, Greek forms, manuscripts, exact audience conditions, and the identity of departed opponents were not independently verified. No city or modern opponent is assigned.",
+      "limits": "The speaker is unnamed. Authorship, dates, Greek forms, manuscripts, and the audience’s situation were not checked independently. The identity of the opponents who left was not checked either. The text names no city and no modern opponent.",
       "author": "World English Bible translators",
       "publisher": "eBible.org",
       "chapterCoverage": [
@@ -22,7 +22,7 @@
         "scope": "All 105 verses read for 5 original contextual explanations and exact selections. Surroundings, counts, and character integrity checked."
       },
       "type": "Scripture",
-      "limitations": "The speaker is unnamed. Historical authorship, dates, Greek forms, manuscripts, exact audience conditions, and the identity of departed opponents were not independently verified. No city or modern opponent is assigned.",
+      "limitations": "The speaker is unnamed. Authorship, dates, Greek forms, manuscripts, and the audience’s situation were not checked independently. The identity of the opponents who left was not checked either. The text names no city and no modern opponent.",
       "license": "Public domain"
     },
     {
@@ -34,8 +34,8 @@
       "year": 2023,
       "category": "LDS Come, Follow Me",
       "perspective": "lds",
-      "summary": "The lesson connects God's light and love with conduct and remaining in Christ's teaching.",
-      "limits": "First John coverage follows actual discussion in all five chapters. Linked Restoration texts, hymns, and reference entries were not independently reviewed. The lesson's apostasy application remains Church teaching.",
+      "summary": "The lesson links God’s light and love to conduct and to staying in Christ’s teaching.",
+      "limits": "For First John, the lesson covers all five chapters. Linked Restoration texts, hymns, and reference entries were not reviewed independently. The lesson’s use of apostasy is Church teaching.",
       "chapterCoverage": [
         1,
         2,
@@ -48,7 +48,7 @@
         "scope": "Complete lesson body and resource list read. References follow actual discussion rather than the broad lesson title."
       },
       "type": "LDS Come, Follow Me",
-      "limitations": "First John coverage follows actual discussion in all five chapters. Linked Restoration texts, hymns, and reference entries were not independently reviewed. The lesson's apostasy application remains Church teaching.",
+      "limitations": "For First John, the lesson covers all five chapters. Linked Restoration texts, hymns, and reference entries were not reviewed independently. The lesson’s use of apostasy is Church teaching.",
       "license": "Linked source. Original guide summaries."
     },
     {
@@ -60,8 +60,8 @@
       "year": 2024,
       "category": "Scholarly study",
       "perspective": "historical",
-      "summary": "Ok connects practical love with attention to fellow believers' material needs.",
-      "limits": "This is Ok's interpretation. Greek word analysis, wider claims about unique wording, and modern examples were not independently verified. The guide does not reconstruct exact audience conditions.",
+      "summary": "Ok links practical love to meeting the material needs of fellow believers.",
+      "limits": "This is Ok’s own reading. Her Greek word study and claims about unusual wording were not checked independently. Her modern examples were not checked either. The audience’s situation is not described here.",
       "chapterCoverage": [
         3
       ],
@@ -70,8 +70,36 @@
         "scope": "Complete commentary body read. The guide attributes her connection between practical love and attention to material need."
       },
       "type": "Scholarly study",
-      "limitations": "This is Ok's interpretation. Greek word analysis, wider claims about unique wording, and modern examples were not independently verified. The guide does not reconstruct exact audience conditions.",
+      "limitations": "This is Ok’s own reading. Her Greek word study and claims about unusual wording were not checked independently. Her modern examples were not checked either. The audience’s situation is not described here.",
       "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "strong-greek",
+      "title": "A Concise Dictionary of the Words in the Greek Testament",
+      "author": "James Strong · Open Scriptures XML edition",
+      "year": "1890 / digital edition",
+      "perspective": "historical",
+      "category": "Historical lexicon",
+      "url": "https://github.com/openscriptures/strongs",
+      "summary": "Lists Greek dictionary forms and their possible meanings. Use it with the passage to study a word.",
+      "limits": "This is an older dictionary. Compare its meanings with the passage. A list of meanings alone cannot show which one applies.",
+      "license": "Source XML declares Public Domain. Only selected headwords are used.",
+      "type": "Historical lexicon",
+      "limitations": "This is an older dictionary. Compare its meanings with the passage. A list of meanings alone cannot show which one applies."
+    },
+    {
+      "id": "byz",
+      "title": "The New Testament in the Original Greek: Byzantine Textform",
+      "author": "Maurice A. Robinson and William G. Pierpont",
+      "year": "2018 digital edition",
+      "perspective": "historical",
+      "category": "Greek text",
+      "url": "https://github.com/byztxt/byzantine-majority-text",
+      "summary": "Provides a Greek New Testament text with dictionary numbers. This study guide uses these to check selected words against their verses.",
+      "limits": "The app checks selected words, not every English–Greek match. It shows Greek dictionary forms. The forms in the verses can differ. Other Greek editions differ in some verses.",
+      "license": "Public domain.",
+      "type": "Greek text",
+      "limitations": "The app checks selected words, not every English–Greek match. It shows Greek dictionary forms. The forms in the verses can differ. Other Greek editions differ in some verses."
     }
   ],
   "passages": [
@@ -84,7 +112,7 @@
       "summary": "The writer announces what he has heard, seen, and touched: the Word of life. He writes so readers may share fellowship with the Father and the Son. God is light, and in him is no darkness. Anyone who claims fellowship and walks in darkness lies. If we walk in the light, Jesus’ blood cleanses us from all sin. If we say we have no sin, we deceive ourselves. If we confess our sins, he is faithful to forgive.",
       "year": null,
       "dateLabel": "Book order",
-      "uncertainty": "No exact location is assigned to unnamed or heavenly settings.",
+      "uncertainty": "First John names no place, so the map shows none.",
       "placeIds": [],
       "sourceIds": [
         "web"
@@ -113,7 +141,7 @@
       "summary": "The writer says he writes so that they will not sin. If anyone sins, Jesus Christ the righteous is an advocate with the Father. Those who know him keep his commandments. The command to love is both old and new. Whoever hates his brother is in darkness. He writes to children, fathers, and young men. They must not love the world, which is passing away. Antichrists have gone out, and the readers should remain in what they heard.",
       "year": null,
       "dateLabel": "Book order",
-      "uncertainty": "No exact location is assigned to unnamed or heavenly settings.",
+      "uncertainty": "First John names no place, so the map shows none.",
       "placeIds": [],
       "sourceIds": [
         "web"
@@ -142,7 +170,7 @@
       "summary": "The writer marvels that believers are called children of God. When Christ appears, they will be like him. Whoever remains in him does not keep on sinning. The message from the beginning is to love one another. Cain killed his brother, and whoever hates is a murderer. Christ laid down his life, and they should lay down theirs for the brothers. One who has goods and shuts out a needy brother lacks God’s love. God’s command is to believe in his Son and love one another.",
       "year": null,
       "dateLabel": "Book order",
-      "uncertainty": "No exact location is assigned to unnamed or heavenly settings.",
+      "uncertainty": "First John names no place, so the map shows none.",
       "placeIds": [],
       "sourceIds": [
         "web",
@@ -172,7 +200,7 @@
       "summary": "The writer tells them to test the spirits. Every spirit that confesses Jesus Christ come in the flesh is of God. They should love one another, for love is of God. God showed his love by sending his only Son so that they might live. No one has seen God at any time. If they love one another, God remains in them. God is love, and perfect love casts out fear. We love because he first loved us.",
       "year": null,
       "dateLabel": "Book order",
-      "uncertainty": "No exact location is assigned to unnamed or heavenly settings.",
+      "uncertainty": "First John names no place, so the map shows none.",
       "placeIds": [],
       "sourceIds": [
         "web"
@@ -201,7 +229,7 @@
       "summary": "The writer says whoever believes that Jesus is the Christ is born of God. Loving God means keeping his commandments, and they are not heavy. Faith is the victory that overcomes the world. Jesus Christ came by water and blood, and the Spirit testifies. God has given eternal life, and this life is in his Son. The writer wants believers to know that they have eternal life. They may ask according to God’s will and be heard. He ends by telling the little children to keep themselves from idols.",
       "year": null,
       "dateLabel": "Book order",
-      "uncertainty": "No exact location is assigned to unnamed or heavenly settings.",
+      "uncertainty": "First John names no place, so the map shows none.",
       "placeIds": [],
       "sourceIds": [
         "web"
@@ -232,7 +260,7 @@
       "summary": "The writer announces what he has heard, seen, and touched: the Word of life. He writes so readers may share fellowship with the Father and the Son. God is light, and in him is no darkness. Anyone who claims fellowship and walks in darkness lies. If we walk in the light, Jesus’ blood cleanses us from all sin. If we say we have no sin, we deceive ourselves. If we confess our sins, he is faithful to forgive.",
       "detail": "Verse 5 gives the message: God is light. Verses 6–10 are five sentences that each begin with “if.” Verse 6 rejects a claim of fellowship made by one who walks in darkness. Verse 7 gives the true case, with two results. Those who walk in the light have fellowship with one another. The blood of Jesus also cleanses them from all sin. So walking in the light does not mean having no sin (verses 8–9).",
       "dateLabel": "Book order",
-      "uncertainty": "No exact location is assigned to unnamed or heavenly settings.",
+      "uncertainty": "First John names no place, so the map shows none.",
       "sourceIds": [
         "web"
       ],
@@ -253,7 +281,7 @@
       "summary": "The writer says he writes so that they will not sin. If anyone sins, Jesus Christ the righteous is an advocate with the Father. Those who know him keep his commandments. The command to love is both old and new. Whoever hates his brother is in darkness. He writes to children, fathers, and young men. They must not love the world, which is passing away. Antichrists have gone out, and the readers should remain in what they heard.",
       "detail": "Verse 9 tests a claim to be in the light while hating a brother. The verse says he is still in darkness. Verse 10 gives the opposite case. One who loves his brother remains in the light. Nothing in him causes stumbling. Verse 11 says the hater walks in darkness and cannot see his way. So light and darkness are told apart by conduct toward a brother.",
       "dateLabel": "Book order",
-      "uncertainty": "No exact location is assigned to unnamed or heavenly settings.",
+      "uncertainty": "First John names no place, so the map shows none.",
       "sourceIds": [
         "web"
       ],
@@ -274,7 +302,7 @@
       "summary": "The writer marvels that believers are called children of God. When Christ appears, they will be like him. Whoever remains in him does not keep on sinning. The message from the beginning is to love one another. Cain killed his brother, and whoever hates is a murderer. Christ laid down his life, and they should lay down theirs for the brothers. One who has goods and shuts out a needy brother lacks God’s love. God’s command is to believe in his Son and love one another.",
       "detail": "Verse 16 defines love by an act: Christ laid down his life for us. Verse 17 brings it down to an ordinary case. Someone has the world’s goods and sees a brother in need. If he closes his heart, how does God’s love remain in him? Verse 18 draws the rule. Love is not in word or tongue only; it is in deed and truth. Verse 19 says this is how they know they are of the truth.",
       "dateLabel": "Book order",
-      "uncertainty": "No exact location is assigned to unnamed or heavenly settings.",
+      "uncertainty": "First John names no place, so the map shows none.",
       "sourceIds": [
         "web",
         "ok-john"
@@ -296,7 +324,7 @@
       "summary": "The writer tells them to test the spirits. Every spirit that confesses Jesus Christ come in the flesh is of God. They should love one another, for love is of God. God showed his love by sending his only Son so that they might live. No one has seen God at any time. If they love one another, God remains in them. God is love, and perfect love casts out fear. We love because he first loved us.",
       "detail": "Verse 12 says no one has seen God at any time. That makes a claim to love God hard to check. Verse 20 supplies the check. A brother can be seen. One who does not love a seen brother cannot love the unseen God. A man who says he loves God and hates his brother lies. Verse 21 makes it a command: love God, and love a brother also.",
       "dateLabel": "Book order",
-      "uncertainty": "No exact location is assigned to unnamed or heavenly settings.",
+      "uncertainty": "First John names no place, so the map shows none.",
       "sourceIds": [
         "web"
       ],
@@ -317,7 +345,7 @@
       "summary": "The writer says whoever believes that Jesus is the Christ is born of God. Loving God means keeping his commandments, and they are not heavy. Faith is the victory that overcomes the world. Jesus Christ came by water and blood, and the Spirit testifies. God has given eternal life, and this life is in his Son. The writer wants believers to know that they have eternal life. They may ask according to God’s will and be heard. He ends by telling the little children to keep themselves from idols.",
       "detail": "Verse 13 gives the writer’s purpose: that believers know they have eternal life. Verse 14 names what follows from that knowledge: boldness toward God. The boldness is about prayer. The verse sets one condition: asking “according to his will.” Under that condition, he listens. Verse 15 adds that if he listens, they have what they asked. Verse 16 gives a first use: asking life for a brother who sins.",
       "dateLabel": "Book order",
-      "uncertainty": "No exact location is assigned to unnamed or heavenly settings.",
+      "uncertainty": "First John names no place, so the map shows none.",
       "sourceIds": [
         "web"
       ],
@@ -335,6 +363,36 @@
   "ancientRoads": [],
   "regions": [],
   "words": [
+    {
+      "id": "glossary-anoint-2-G5545-anointing",
+      "label": "Anoint",
+      "matches": [
+        "anointing"
+      ],
+      "chapter": 2,
+      "verses": [
+        20,
+        27
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "χρῖσμα",
+      "greekNote": "",
+      "meaning": "To pour oil on a person or thing to set it apart. Kings and priests were anointed.",
+      "grammar": "This is the dictionary form of Greek word G5545. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G5545",
+      "language": "greek",
+      "greekTransliteration": "chrîsma",
+      "chapterDefault": true
+    },
     {
       "id": "glossary-anoint",
       "label": "Anoint",
@@ -357,7 +415,96 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "greek"
+    },
+    {
+      "id": "glossary-antichrist-2-G500-antichrist",
+      "label": "Antichrist",
+      "matches": [
+        "antichrist"
+      ],
+      "chapter": 2,
+      "verses": [
+        18,
+        22
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "ἀντίχριστος",
+      "greekNote": "",
+      "meaning": "One who opposes Christ. First John 2:22 uses the word for those who deny him.",
+      "grammar": "This is the dictionary form of Greek word G500. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G500",
+      "language": "greek",
+      "greekTransliteration": "antíchristos",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-antichrist-4-G500-antichrist",
+      "label": "Antichrist",
+      "matches": [
+        "antichrist"
+      ],
+      "chapter": 4,
+      "verses": [
+        3
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "ἀντίχριστος",
+      "greekNote": "",
+      "meaning": "One who opposes Christ. First John 2:22 uses the word for those who deny him.",
+      "grammar": "This is the dictionary form of Greek word G500. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G500",
+      "language": "greek",
+      "greekTransliteration": "antíchristos",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-antichrist-2-G500-antichrists",
+      "label": "Antichrist",
+      "matches": [
+        "antichrists"
+      ],
+      "chapter": 2,
+      "verses": [
+        18
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "ἀντίχριστος",
+      "greekNote": "",
+      "meaning": "One who opposes Christ. First John 2:22 uses the word for those who deny him.",
+      "grammar": "This is the dictionary form of Greek word G500. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G500",
+      "language": "greek",
+      "greekTransliteration": "antíchristos",
+      "chapterDefault": true
     },
     {
       "id": "glossary-antichrist",
@@ -380,7 +527,8 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "greek"
     }
   ],
   "guides": [
@@ -461,9 +609,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "No exact location is assigned to unnamed or heavenly settings.",
+      "note": "First John names no place, so the map shows none.",
       "narrative": "The writer announces what he has heard, seen, and touched: the Word of life. He writes so readers may share fellowship with the Father and the Son. God is light, and in him is no darkness. Anyone who claims fellowship and walks in darkness lies. If we walk in the light, Jesus’ blood cleanses us from all sin. If we say we have no sin, we deceive ourselves. If we confess our sins, he is faithful to forgive.",
-      "limits": "No exact location is assigned to unnamed or heavenly settings.",
+      "limits": "First John names no place, so the map shows none.",
       "sourceIds": [
         "web"
       ]
@@ -477,9 +625,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "No exact location is assigned to unnamed or heavenly settings.",
+      "note": "First John names no place, so the map shows none.",
       "narrative": "The writer says he writes so that they will not sin. If anyone sins, Jesus Christ the righteous is an advocate with the Father. Those who know him keep his commandments. The command to love is both old and new. Whoever hates his brother is in darkness. He writes to children, fathers, and young men. They must not love the world, which is passing away. Antichrists have gone out, and the readers should remain in what they heard.",
-      "limits": "No exact location is assigned to unnamed or heavenly settings.",
+      "limits": "First John names no place, so the map shows none.",
       "sourceIds": [
         "web"
       ]
@@ -493,9 +641,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "No exact location is assigned to unnamed or heavenly settings.",
+      "note": "First John names no place, so the map shows none.",
       "narrative": "The writer marvels that believers are called children of God. When Christ appears, they will be like him. Whoever remains in him does not keep on sinning. The message from the beginning is to love one another. Cain killed his brother, and whoever hates is a murderer. Christ laid down his life, and they should lay down theirs for the brothers. One who has goods and shuts out a needy brother lacks God’s love. God’s command is to believe in his Son and love one another.",
-      "limits": "No exact location is assigned to unnamed or heavenly settings.",
+      "limits": "First John names no place, so the map shows none.",
       "sourceIds": [
         "web",
         "ok-john"
@@ -510,9 +658,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "No exact location is assigned to unnamed or heavenly settings.",
+      "note": "First John names no place, so the map shows none.",
       "narrative": "The writer tells them to test the spirits. Every spirit that confesses Jesus Christ come in the flesh is of God. They should love one another, for love is of God. God showed his love by sending his only Son so that they might live. No one has seen God at any time. If they love one another, God remains in them. God is love, and perfect love casts out fear. We love because he first loved us.",
-      "limits": "No exact location is assigned to unnamed or heavenly settings.",
+      "limits": "First John names no place, so the map shows none.",
       "sourceIds": [
         "web"
       ]
@@ -526,9 +674,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "No exact location is assigned to unnamed or heavenly settings.",
+      "note": "First John names no place, so the map shows none.",
       "narrative": "The writer says whoever believes that Jesus is the Christ is born of God. Loving God means keeping his commandments, and they are not heavy. Faith is the victory that overcomes the world. Jesus Christ came by water and blood, and the Spirit testifies. God has given eternal life, and this life is in his Son. The writer wants believers to know that they have eternal life. They may ask according to God’s will and be heard. He ends by telling the little children to keep themselves from idols.",
-      "limits": "No exact location is assigned to unnamed or heavenly settings.",
+      "limits": "First John names no place, so the map shows none.",
       "sourceIds": [
         "web"
       ]

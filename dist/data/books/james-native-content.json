@@ -4,10 +4,10 @@
       "id": "web",
       "title": "James · World English Bible",
       "url": "https://ebible.org/engwebp/JAS01.htm",
-      "summary": "Complete Scripture supplies the primary text for original close readings.",
+      "summary": "The full text of James is the main text for the close readings.",
       "category": "Scripture",
       "perspective": "historical",
-      "limits": "James is the named letter speaker. His identification with a specific historical James, authorship, dates, Greek forms, manuscripts, exact addressed communities, and a full harmony with other letters were not independently verified. The unnamed trading city remains unlocated.",
+      "limits": "James is the named speaker. Which James he is was not checked independently. Authorship, dates, Greek forms, and manuscripts were not checked either. The addressed communities and any full match with other letters were not checked. The unnamed trading city in chapter 4 has no known location.",
       "author": "World English Bible translators",
       "publisher": "eBible.org",
       "chapterCoverage": [
@@ -22,7 +22,7 @@
         "scope": "All 108 verses read for 5 original contextual explanations and exact selections. Surroundings, counts, and character integrity checked."
       },
       "type": "Scripture",
-      "limitations": "James is the named letter speaker. His identification with a specific historical James, authorship, dates, Greek forms, manuscripts, exact addressed communities, and a full harmony with other letters were not independently verified. The unnamed trading city remains unlocated.",
+      "limitations": "James is the named speaker. Which James he is was not checked independently. Authorship, dates, Greek forms, and manuscripts were not checked either. The addressed communities and any full match with other letters were not checked. The unnamed trading city in chapter 4 has no known location.",
       "license": "Public domain"
     },
     {
@@ -34,8 +34,8 @@
       "year": 2023,
       "category": "LDS Come, Follow Me",
       "perspective": "lds",
-      "summary": "The lesson joins seeking wisdom, patient endurance, active faith, and responsible words.",
-      "limits": "Coverage follows actual discussion of chapters one, two, three, and five. Its Joseph Smith application remains Church teaching. Linked Restoration passages, a talk, and a video were not independently reviewed.",
+      "summary": "The lesson joins seeking wisdom, patient endurance, active faith, and careful words.",
+      "limits": "For James, the lesson covers chapters 1, 2, 3, and 5. Its use of Joseph Smith’s experience is Church teaching. Linked Restoration passages, a talk, and a video were not reviewed independently.",
       "chapterCoverage": [
         1,
         2,
@@ -47,7 +47,7 @@
         "scope": "Complete lesson body read. Its teaching sections discuss wisdom, endurance, faith and works, fair treatment, and speech."
       },
       "type": "LDS Come, Follow Me",
-      "limitations": "Coverage follows actual discussion of chapters one, two, three, and five. Its Joseph Smith application remains Church teaching. Linked Restoration passages, a talk, and a video were not independently reviewed.",
+      "limitations": "For James, the lesson covers chapters 1, 2, 3, and 5. Its use of Joseph Smith’s experience is Church teaching. Linked Restoration passages, a talk, and a video were not reviewed independently.",
       "license": "Linked source. Original guide summaries."
     },
     {
@@ -59,8 +59,8 @@
       "year": 2021,
       "category": "Scholarly study",
       "perspective": "historical",
-      "summary": "Sigmon connects preference for wealth with a gap between professed faith and conduct.",
-      "limits": "This is Sigmon's interpretation. Broader economic generalizations, ancient literature, modern political claims, and linked campaign material were not independently verified.",
+      "summary": "Sigmon links favoring the wealthy to a gap between professed faith and conduct.",
+      "limits": "This is Sigmon’s own reading. Her wide claims about money and her use of ancient writings were not checked independently. Her modern political claims and linked campaign material were not checked either.",
       "chapterCoverage": [
         2
       ],
@@ -69,8 +69,36 @@
         "scope": "Complete commentary body read. The guide attributes her connection between preference for wealth and conduct that contradicts professed faith."
       },
       "type": "Scholarly study",
-      "limitations": "This is Sigmon's interpretation. Broader economic generalizations, ancient literature, modern political claims, and linked campaign material were not independently verified.",
+      "limitations": "This is Sigmon’s own reading. Her wide claims about money and her use of ancient writings were not checked independently. Her modern political claims and linked campaign material were not checked either.",
       "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "strong-greek",
+      "title": "A Concise Dictionary of the Words in the Greek Testament",
+      "author": "James Strong · Open Scriptures XML edition",
+      "year": "1890 / digital edition",
+      "perspective": "historical",
+      "category": "Historical lexicon",
+      "url": "https://github.com/openscriptures/strongs",
+      "summary": "Lists Greek dictionary forms and their possible meanings. Use it with the passage to study a word.",
+      "limits": "This is an older dictionary. Compare its meanings with the passage. A list of meanings alone cannot show which one applies.",
+      "license": "Source XML declares Public Domain. Only selected headwords are used.",
+      "type": "Historical lexicon",
+      "limitations": "This is an older dictionary. Compare its meanings with the passage. A list of meanings alone cannot show which one applies."
+    },
+    {
+      "id": "byz",
+      "title": "The New Testament in the Original Greek: Byzantine Textform",
+      "author": "Maurice A. Robinson and William G. Pierpont",
+      "year": "2018 digital edition",
+      "perspective": "historical",
+      "category": "Greek text",
+      "url": "https://github.com/byztxt/byzantine-majority-text",
+      "summary": "Provides a Greek New Testament text with dictionary numbers. This study guide uses these to check selected words against their verses.",
+      "limits": "The app checks selected words, not every English–Greek match. It shows Greek dictionary forms. The forms in the verses can differ. Other Greek editions differ in some verses.",
+      "license": "Public domain.",
+      "type": "Greek text",
+      "limitations": "The app checks selected words, not every English–Greek match. It shows Greek dictionary forms. The forms in the verses can differ. Other Greek editions differ in some verses."
     }
   ],
   "passages": [
@@ -83,7 +111,7 @@
       "summary": "James, a servant of God, writes to the twelve tribes in the Dispersion. He tells them to count trials as joy, because testing produces endurance. Anyone who lacks wisdom should ask God, who gives generously. The rich will fade like a flower in the heat. God tempts no one; each is drawn by his own desire. Every good gift comes from the Father of lights. All should be quick to hear, slow to speak, and slow to anger. Pure religion is to visit orphans and widows and stay unstained by the world.",
       "year": null,
       "dateLabel": "Book order",
-      "uncertainty": "No exact location is assigned to unnamed or heavenly settings.",
+      "uncertainty": "James names no place, so the map shows none. The city in chapter 4 is unnamed.",
       "placeIds": [],
       "sourceIds": [
         "web"
@@ -112,7 +140,7 @@
       "summary": "James tells the readers not to show favoritism. A man with a gold ring gets a seat, and a poor man stands. God chose the poor to be rich in faith. Favoritism breaks the royal law to love a neighbor as oneself. James then asks what good faith is without works. Even the demons believe that God is one, and they shudder. Abraham offered Isaac, and Rahab received the messengers. As the body without the spirit is dead, so faith without works is dead.",
       "year": null,
       "dateLabel": "Book order",
-      "uncertainty": "No exact location is assigned to unnamed or heavenly settings.",
+      "uncertainty": "James names no place, so the map shows none. The city in chapter 4 is unnamed.",
       "placeIds": [],
       "sourceIds": [
         "web",
@@ -142,7 +170,7 @@
       "summary": "James warns that not many should become teachers, for they are judged more strictly. A bit turns a horse, and a small rudder turns a ship. The tongue is small and boasts great things. It is a fire that can set a forest ablaze. People tame animals, but no one can tame the tongue. The same mouth blesses God and curses people. James asks if a spring gives fresh and bitter water. Wisdom from above is pure, peaceful, gentle, and full of mercy.",
       "year": null,
       "dateLabel": "Book order",
-      "uncertainty": "No exact location is assigned to unnamed or heavenly settings.",
+      "uncertainty": "James names no place, so the map shows none. The city in chapter 4 is unnamed.",
       "placeIds": [],
       "sourceIds": [
         "web"
@@ -171,7 +199,7 @@
       "summary": "James asks where their fights come from and answers: from their desires. They ask and do not receive, because they ask wrongly. Friendship with the world is enmity with God. God resists the proud and gives grace to the humble. They should draw near to God, and he will draw near to them. They should not speak against or judge one another. James then addresses those who plan a year of trade and profit. They do not know what tomorrow holds, for life is a vapor.",
       "year": null,
       "dateLabel": "Book order",
-      "uncertainty": "No exact location is assigned to unnamed or heavenly settings.",
+      "uncertainty": "James names no place, so the map shows none. The city in chapter 4 is unnamed.",
       "placeIds": [],
       "sourceIds": [
         "web"
@@ -198,7 +226,7 @@
       "summary": "James tells the rich to weep, for their wealth has rotted. The wages they kept back from their field workers cry out. They have lived in luxury and condemned the righteous. The brothers are to be patient, like a farmer waiting for rain. They should remember the prophets and the endurance of Job. They should not swear, but let their yes be yes. The sick should call the elders to pray and anoint with oil. Elijah prayed, and one who turns a sinner back saves a soul.",
       "year": null,
       "dateLabel": "Book order",
-      "uncertainty": "No exact location is assigned to unnamed or heavenly settings.",
+      "uncertainty": "James names no place, so the map shows none. The city in chapter 4 is unnamed.",
       "placeIds": [],
       "sourceIds": [
         "web"
@@ -229,7 +257,7 @@
       "summary": "James, a servant of God, writes to the twelve tribes in the Dispersion. He tells them to count trials as joy, because testing produces endurance. Anyone who lacks wisdom should ask God, who gives generously. The rich will fade like a flower in the heat. God tempts no one; each is drawn by his own desire. Every good gift comes from the Father of lights. All should be quick to hear, slow to speak, and slow to anger. Pure religion is to visit orphans and widows and stay unstained by the world.",
       "detail": "Verse 19 told the readers to be quick to hear. Verse 22 adds that hearing is not enough. One who only hears deceives himself. Verses 23–24 compare him to a man who sees his face in a mirror. He looks, goes away, and forgets what he was like. Verse 25 describes the doer, who looks into the law and continues. Verse 27 names what doing looks like: care for orphans and widows.",
       "dateLabel": "Book order",
-      "uncertainty": "No exact location is assigned to unnamed or heavenly settings.",
+      "uncertainty": "James names no place, so the map shows none. The city in chapter 4 is unnamed.",
       "sourceIds": [
         "web"
       ],
@@ -250,7 +278,7 @@
       "summary": "James tells the readers not to show favoritism. A man with a gold ring gets a seat, and a poor man stands. God chose the poor to be rich in faith. Favoritism breaks the royal law to love a neighbor as oneself. James then asks what good faith is without works. Even the demons believe that God is one, and they shudder. Abraham offered Isaac, and Rahab received the messengers. As the body without the spirit is dead, so faith without works is dead.",
       "detail": "Verse 14 asks whether a faith with no works can save. Verses 15–16 answer with a case. A brother or sister lacks clothing and daily food. Someone wishes them peace, warmth, and food, and gives nothing. The words are kind, and the body still has nothing. Verse 16 asks what good that is. Verse 17 applies the case: faith by itself, without works, is dead.",
       "dateLabel": "Book order",
-      "uncertainty": "No exact location is assigned to unnamed or heavenly settings.",
+      "uncertainty": "James names no place, so the map shows none. The city in chapter 4 is unnamed.",
       "sourceIds": [
         "web",
         "sigmon-james"
@@ -272,7 +300,7 @@
       "summary": "James warns that not many should become teachers, for they are judged more strictly. A bit turns a horse, and a small rudder turns a ship. The tongue is small and boasts great things. It is a fire that can set a forest ablaze. People tame animals, but no one can tame the tongue. The same mouth blesses God and curses people. James asks if a spring gives fresh and bitter water. Wisdom from above is pure, peaceful, gentle, and full of mercy.",
       "detail": "Verse 8 calls the tongue a restless evil. Verse 9 gives the evidence, and it comes from worship. With the tongue we bless our God and Father. With the same tongue we curse people. The verse says why the two cannot fit: people are made in God’s image. To curse the image while blessing the one it reflects is a contradiction. Verses 11–12 add that a spring does not give two kinds of water.",
       "dateLabel": "Book order",
-      "uncertainty": "No exact location is assigned to unnamed or heavenly settings.",
+      "uncertainty": "James names no place, so the map shows none. The city in chapter 4 is unnamed.",
       "sourceIds": [
         "web"
       ],
@@ -293,7 +321,7 @@
       "summary": "James asks where their fights come from and answers: from their desires. They ask and do not receive, because they ask wrongly. Friendship with the world is enmity with God. God resists the proud and gives grace to the humble. They should draw near to God, and he will draw near to them. They should not speak against or judge one another. James then addresses those who plan a year of trade and profit. They do not know what tomorrow holds, for life is a vapor.",
       "detail": "Verse 13 quotes merchants who plan a city, a year, trade, and gain. Verse 14 gives two facts against the plan. They do not know tomorrow, and their life is a vapor. Verse 15 does not forbid planning. It gives the sentence they should say first: “If the Lord wills.” Even living is put under that condition, before “do this or that.” Verse 16 names the fault in the first speech: it was boasting.",
       "dateLabel": "Book order",
-      "uncertainty": "No exact location is assigned to unnamed or heavenly settings.",
+      "uncertainty": "James names no place, so the map shows none. The city in chapter 4 is unnamed.",
       "sourceIds": [
         "web"
       ],
@@ -312,7 +340,7 @@
       "summary": "James tells the rich to weep, for their wealth has rotted. The wages they kept back from their field workers cry out. They have lived in luxury and condemned the righteous. The brothers are to be patient, like a farmer waiting for rain. They should remember the prophets and the endurance of Job. They should not swear, but let their yes be yes. The sick should call the elders to pray and anoint with oil. Elijah prayed, and one who turns a sinner back saves a soul.",
       "detail": "Verses 1–3 warn the rich that their stored wealth will witness against them. Verse 4 names one source of that wealth. Laborers mowed their fields, and the pay was kept back by fraud. Two things cry out: the wages and the reapers. The cries reach “the Lord of Armies,” a title of power. Verse 6 adds that the righteous one does not resist them. Verse 7 then tells the brothers to be patient until the Lord comes.",
       "dateLabel": "Book order",
-      "uncertainty": "No exact location is assigned to unnamed or heavenly settings.",
+      "uncertainty": "James names no place, so the map shows none. The city in chapter 4 is unnamed.",
       "sourceIds": [
         "web"
       ],
@@ -330,6 +358,35 @@
   "ancientRoads": [],
   "regions": [],
   "words": [
+    {
+      "id": "glossary-synagogue-2-G4864-synagogue",
+      "label": "Synagogue",
+      "matches": [
+        "synagogue"
+      ],
+      "chapter": 2,
+      "verses": [
+        2
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "συναγωγή",
+      "greekNote": "",
+      "meaning": "A local Jewish meeting place for prayer and for reading Scripture.",
+      "grammar": "This is the dictionary form of Greek word G4864. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G4864",
+      "language": "greek",
+      "greekTransliteration": "synagōgḗ",
+      "chapterDefault": true
+    },
     {
       "id": "glossary-synagogue",
       "label": "Synagogue",
@@ -350,7 +407,37 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "greek"
+    },
+    {
+      "id": "glossary-assembly-5-G1577-assembly",
+      "label": "Assembly",
+      "matches": [
+        "assembly"
+      ],
+      "chapter": 5,
+      "verses": [
+        14
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "ἐκκλησία",
+      "greekNote": "",
+      "meaning": "A gathering of people. In the New Testament letters it means a group of believers. Many translations say “church.”",
+      "grammar": "This is the dictionary form of Greek word G1577. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G1577",
+      "language": "greek",
+      "greekTransliteration": "ekklēsía",
+      "chapterDefault": true
     },
     {
       "id": "glossary-assembly",
@@ -372,7 +459,8 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "greek"
     },
     {
       "id": "glossary-anoint",
@@ -396,7 +484,8 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "greek"
     }
   ],
   "guides": [
@@ -477,9 +566,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "No exact location is assigned to unnamed or heavenly settings.",
+      "note": "James names no place, so the map shows none. The city in chapter 4 is unnamed.",
       "narrative": "James, a servant of God, writes to the twelve tribes in the Dispersion. He tells them to count trials as joy, because testing produces endurance. Anyone who lacks wisdom should ask God, who gives generously. The rich will fade like a flower in the heat. God tempts no one; each is drawn by his own desire. Every good gift comes from the Father of lights. All should be quick to hear, slow to speak, and slow to anger. Pure religion is to visit orphans and widows and stay unstained by the world.",
-      "limits": "No exact location is assigned to unnamed or heavenly settings.",
+      "limits": "James names no place, so the map shows none. The city in chapter 4 is unnamed.",
       "sourceIds": [
         "web"
       ]
@@ -493,9 +582,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "No exact location is assigned to unnamed or heavenly settings.",
+      "note": "James names no place, so the map shows none. The city in chapter 4 is unnamed.",
       "narrative": "James tells the readers not to show favoritism. A man with a gold ring gets a seat, and a poor man stands. God chose the poor to be rich in faith. Favoritism breaks the royal law to love a neighbor as oneself. James then asks what good faith is without works. Even the demons believe that God is one, and they shudder. Abraham offered Isaac, and Rahab received the messengers. As the body without the spirit is dead, so faith without works is dead.",
-      "limits": "No exact location is assigned to unnamed or heavenly settings.",
+      "limits": "James names no place, so the map shows none. The city in chapter 4 is unnamed.",
       "sourceIds": [
         "web",
         "sigmon-james"
@@ -510,9 +599,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "No exact location is assigned to unnamed or heavenly settings.",
+      "note": "James names no place, so the map shows none. The city in chapter 4 is unnamed.",
       "narrative": "James warns that not many should become teachers, for they are judged more strictly. A bit turns a horse, and a small rudder turns a ship. The tongue is small and boasts great things. It is a fire that can set a forest ablaze. People tame animals, but no one can tame the tongue. The same mouth blesses God and curses people. James asks if a spring gives fresh and bitter water. Wisdom from above is pure, peaceful, gentle, and full of mercy.",
-      "limits": "No exact location is assigned to unnamed or heavenly settings.",
+      "limits": "James names no place, so the map shows none. The city in chapter 4 is unnamed.",
       "sourceIds": [
         "web"
       ]
@@ -526,9 +615,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "No exact location is assigned to unnamed or heavenly settings.",
+      "note": "James names no place, so the map shows none. The city in chapter 4 is unnamed.",
       "narrative": "James asks where their fights come from and answers: from their desires. They ask and do not receive, because they ask wrongly. Friendship with the world is enmity with God. God resists the proud and gives grace to the humble. They should draw near to God, and he will draw near to them. They should not speak against or judge one another. James then addresses those who plan a year of trade and profit. They do not know what tomorrow holds, for life is a vapor.",
-      "limits": "No exact location is assigned to unnamed or heavenly settings.",
+      "limits": "James names no place, so the map shows none. The city in chapter 4 is unnamed.",
       "sourceIds": [
         "web"
       ]
@@ -542,9 +631,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "No exact location is assigned to unnamed or heavenly settings.",
+      "note": "James names no place, so the map shows none. The city in chapter 4 is unnamed.",
       "narrative": "James tells the rich to weep, for their wealth has rotted. The wages they kept back from their field workers cry out. They have lived in luxury and condemned the righteous. The brothers are to be patient, like a farmer waiting for rain. They should remember the prophets and the endurance of Job. They should not swear, but let their yes be yes. The sick should call the elders to pray and anoint with oil. Elijah prayed, and one who turns a sinner back saves a soul.",
-      "limits": "No exact location is assigned to unnamed or heavenly settings.",
+      "limits": "James names no place, so the map shows none. The city in chapter 4 is unnamed.",
       "sourceIds": [
         "web"
       ]

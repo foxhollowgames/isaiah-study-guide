@@ -43,7 +43,7 @@ document.addEventListener('error', event => {
     art.querySelector('.portrait-initial').removeAttribute('aria-hidden');
   }
 }, true);
-export const people = {"jesus": {"name": "Jesus Christ", "role": "Son whose coming in flesh is the stated test of received teaching", "life": "Birth and death years are not securely known.", "dateNote": "Historical life dates remain uncertain.", "locations": [], "passages": ["Second John 1:3, 7–9"], "importance": "The confession about him gives the warning its specific content.", "connections": "The elder connects remaining in his teaching with having the Father and Son.", "verseScope": {}, "linkNames": ["Jesus", "Christ"], "chapterIds": [1]}};
+export const people = {"jesus": {"name": "Jesus Christ", "role": "Son of the Father, whose teaching the elder urges readers to keep", "life": "Birth and death years are not securely known.", "dateNote": "Historical life dates remain uncertain.", "locations": [], "passages": ["Second John 1:3, 7–9"], "importance": "The elder names grace, mercy, and peace from the Lord Jesus Christ. He warns of deceivers who do not confess that Jesus Christ came in the flesh. Anyone who stays in Christ’s teaching has both the Father and the Son.", "connections": "The elder calls him the Son of the Father and the Lord Jesus Christ.", "verseScope": {}, "linkNames": ["Jesus", "Christ"], "chapterIds": [1], "word": {"language": "greek", "strongId": "G5547", "key": "Christ", "checkedVerses": 3, "example": [1, 3], "hebrew": "", "transliteration": "", "greek": "Χριστός", "greekNote": "", "sourceIds": ["strong-greek", "byz"], "greekTransliteration": "Christós", "languageNote": "This is the dictionary form of the name “Christ.”"}}};
 
 function linkedPeopleHtml(text, currentId) {
   const terms = [];
@@ -93,7 +93,7 @@ export function personProfileHtml(id, options = {}) {
   const person = people[id];
   if (!person) return '';
   const linkHtml = options.linkHtml || (text => linkedPeopleHtml(text, id));
-  const back = options.backLabel ? `<button class="back-button person-profile-back" data-action="person-profile-back">← ${escapeHtml(options.backLabel)}</button>` : '';
+  const back = options.backLabel ? `<button class="back-button person-profile-back" data-action="person-profile-back" aria-label="${escapeHtml(options.backLabel)}">Back</button>` : '';
   return `<section class="person-profile" data-person-profile="${id}">${back}<h2>${escapeHtml(person.name)}</h2>${portraitsHtml([id], {interactive:false})}<dl class="person-facts">${person.locations.length ? `<div><dt>Key locations</dt><dd>${person.locations.map(linkHtml).join(' · ')}</dd></div>` : ""}</dl><div class="word-section"><h3>Why this person matters</h3><p>${linkHtml(person.importance)}</p></div><div class="word-section"><h3>Story connections</h3><p>${linkHtml(person.connections)}</p></div><div class="word-section"><h3>Relevant passages</h3><ul class="profile-passages">${person.passages.map(passage => `<li>${escapeHtml(passage)}</li>`).join('')}</ul></div></section>`;
 }
 

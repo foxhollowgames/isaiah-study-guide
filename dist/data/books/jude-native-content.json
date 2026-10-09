@@ -4,10 +4,10 @@
       "id": "web",
       "title": "Jude · World English Bible",
       "url": "https://ebible.org/engwebp/JUD01.htm",
-      "summary": "Complete Scripture supplies the primary text for original close readings.",
+      "summary": "The full text of Jude is the main text for the close readings.",
       "category": "Scripture",
       "perspective": "historical",
-      "limits": "Jude is the named letter speaker, without secure identification with a Gospel relative or apostle. Historical authorship, dates, Greek forms, exact opponents, and the earlier transmission of the Michael and Enoch accounts were not independently verified. Sodom remains a disputed regional marker.",
+      "limits": "Jude names himself as the letter’s writer. The text does not tie him to a Gospel relative or an apostle. Authorship, dates, Greek forms, and the exact opponents were not checked independently. The earlier sources for the Michael and Enoch accounts were not checked either. Sodom is only a marker for a disputed region.",
       "author": "World English Bible translators",
       "publisher": "eBible.org",
       "chapterCoverage": [
@@ -18,7 +18,7 @@
         "scope": "All 25 verses read for 1 original contextual explanations and exact selections. Surroundings, counts, and character integrity checked."
       },
       "type": "Scripture",
-      "limitations": "Jude is the named letter speaker, without secure identification with a Gospel relative or apostle. Historical authorship, dates, Greek forms, exact opponents, and the earlier transmission of the Michael and Enoch accounts were not independently verified. Sodom remains a disputed regional marker.",
+      "limitations": "Jude names himself as the letter’s writer. The text does not tie him to a Gospel relative or an apostle. Authorship, dates, Greek forms, and the exact opponents were not checked independently. The earlier sources for the Michael and Enoch accounts were not checked either. Sodom is only a marker for a disputed region.",
       "license": "Public domain"
     },
     {
@@ -30,8 +30,8 @@
       "year": 2023,
       "category": "LDS Come, Follow Me",
       "perspective": "lds",
-      "summary": "The lesson connects Jude's warning images with resisting false teaching and showing compassion.",
-      "limits": "Coverage follows the lesson's actual Jude discussion. Linked reference entries and Restoration passages were not independently reviewed. The apostasy application remains Church teaching.",
+      "summary": "The lesson links Jude’s warning images to resisting false teaching and showing compassion.",
+      "limits": "Coverage follows what the lesson says about Jude. Linked reference entries and Restoration passages were not checked independently. The idea of apostasy is Church teaching.",
       "chapterCoverage": [
         1
       ],
@@ -40,7 +40,7 @@
         "scope": "Complete shared lesson body and resource list read. Jude discussion includes warning imagery, prayer, and compassion."
       },
       "type": "LDS Come, Follow Me",
-      "limitations": "Coverage follows the lesson's actual Jude discussion. Linked reference entries and Restoration passages were not independently reviewed. The apostasy application remains Church teaching.",
+      "limitations": "Coverage follows what the lesson says about Jude. Linked reference entries and Restoration passages were not checked independently. The idea of apostasy is Church teaching.",
       "license": "Linked source. Original guide summaries."
     },
     {
@@ -51,8 +51,8 @@
       "publisher": "United States Conference of Catholic Bishops",
       "category": "Scholarly study",
       "perspective": "historical",
-      "summary": "The introduction reads the change of subject as an urgent response to harmful teachers.",
-      "limits": "This is the introduction's interpretation. Historical identities, authorship proposals, dates, reconstructed opponents, literary borrowing, and the cited earlier works were not independently verified.",
+      "summary": "The introduction says Jude changed his subject to answer harmful teachers urgently.",
+      "limits": "This is the introduction’s own reading. Historical identities, proposals about the author, dates, and the opponents were not checked independently. Borrowing between texts and the earlier works it cites were not checked either.",
       "chapterCoverage": [
         1
       ],
@@ -61,7 +61,7 @@
         "scope": "Complete five-paragraph introduction read through indexed source text. The guide attributes only its reading of the changed purpose and urgent warning."
       },
       "type": "Scholarly study",
-      "limitations": "This is the introduction's interpretation. Historical identities, authorship proposals, dates, reconstructed opponents, literary borrowing, and the cited earlier works were not independently verified.",
+      "limitations": "This is the introduction’s own reading. Historical identities, proposals about the author, dates, and the opponents were not checked independently. Borrowing between texts and the earlier works it cites were not checked either.",
       "license": "Linked source. Original guide summaries."
     },
     {
@@ -70,10 +70,10 @@
       "perspective": "historical",
       "category": "Geography",
       "url": "https://www.churchofjesuschrist.org/study/scriptures/bible-maps/map-9?lang=eng",
-      "summary": "This Church-published atlas locates the wider setting and marks some disputed places.",
-      "limits": "Use the geographic labels as context. The linked atlas also includes LDS commentary.",
+      "summary": "This atlas from the Church shows the wider setting and marks some disputed places.",
+      "limits": "Treat the place labels as background. The linked atlas also has Latter-day Saint commentary.",
       "type": "Geography",
-      "limitations": "Use the geographic labels as context. The linked atlas also includes LDS commentary.",
+      "limitations": "Treat the place labels as background. The linked atlas also has Latter-day Saint commentary.",
       "license": "Linked source. Original guide summaries."
     },
     {
@@ -82,11 +82,39 @@
       "perspective": "historical",
       "category": "Geography",
       "url": "https://www.churchofjesuschrist.org/study/scriptures/bible-maps/map-10?lang=eng",
-      "summary": "This Church-published atlas identifies towns and regions in Canaan.",
-      "limits": "Coordinates are display estimates. A town marker does not verify each Genesis event.",
+      "summary": "This atlas from the Church shows towns and regions in Canaan.",
+      "limits": "The coordinates are estimates for display. A town marker does not prove each event in the text.",
       "type": "Geography",
-      "limitations": "Coordinates are display estimates. A town marker does not verify each Genesis event.",
+      "limitations": "The coordinates are estimates for display. A town marker does not prove each event in the text.",
       "license": "Linked source. Original guide summaries."
+    },
+    {
+      "id": "strong-greek",
+      "title": "A Concise Dictionary of the Words in the Greek Testament",
+      "author": "James Strong · Open Scriptures XML edition",
+      "year": "1890 / digital edition",
+      "perspective": "historical",
+      "category": "Historical lexicon",
+      "url": "https://github.com/openscriptures/strongs",
+      "summary": "Lists Greek dictionary forms and their possible meanings. Use it with the passage to study a word.",
+      "limits": "This is an older dictionary. Compare its meanings with the passage. A list of meanings alone cannot show which one applies.",
+      "license": "Source XML declares Public Domain. Only selected headwords are used.",
+      "type": "Historical lexicon",
+      "limitations": "This is an older dictionary. Compare its meanings with the passage. A list of meanings alone cannot show which one applies."
+    },
+    {
+      "id": "byz",
+      "title": "The New Testament in the Original Greek: Byzantine Textform",
+      "author": "Maurice A. Robinson and William G. Pierpont",
+      "year": "2018 digital edition",
+      "perspective": "historical",
+      "category": "Greek text",
+      "url": "https://github.com/byztxt/byzantine-majority-text",
+      "summary": "Provides a Greek New Testament text with dictionary numbers. This study guide uses these to check selected words against their verses.",
+      "limits": "The app checks selected words, not every English–Greek match. It shows Greek dictionary forms. The forms in the verses can differ. Other Greek editions differ in some verses.",
+      "license": "Public domain.",
+      "type": "Greek text",
+      "limitations": "The app checks selected words, not every English–Greek match. It shows Greek dictionary forms. The forms in the verses can differ. Other Greek editions differ in some verses."
     }
   ],
   "passages": [
@@ -99,7 +127,7 @@
       "summary": "Jude, brother of James, writes to those who are called. He urges them to contend for the faith delivered to the saints. Certain people have crept in and turn God’s grace into license. He recalls Israel in the wilderness, the angels who left their place, and Sodom. He says the archangel Michael did not bring an abusive charge against the devil. He quotes a prophecy of Enoch about judgment. The readers should build themselves up in faith, pray, and wait for mercy. He ends with praise to God, who can keep them from stumbling.",
       "year": null,
       "dateLabel": "Book order",
-      "uncertainty": "No exact location is assigned to unnamed or heavenly settings.",
+      "uncertainty": "The Sodom marker shows a disputed region, not a confirmed city.",
       "placeIds": [
         "sodom"
       ],
@@ -133,7 +161,7 @@
       "summary": "Jude, brother of James, writes to those who are called. He urges them to contend for the faith delivered to the saints. Certain people have crept in and turn God’s grace into license. He recalls Israel in the wilderness, the angels who left their place, and Sodom. He says the archangel Michael did not bring an abusive charge against the devil. He quotes a prophecy of Enoch about judgment. The readers should build themselves up in faith, pray, and wait for mercy. He ends with praise to God, who can keep them from stumbling.",
       "detail": "Most of the letter condemns the people who crept in (verses 4–16). Verses 20–21 turn to the readers’ own faith, prayer, and waiting. Verse 22 then turns to how the readers treat others. It asks for compassion and for “making a distinction.” Not everyone is treated the same way. Verse 23 names a second group to be saved with fear, snatched from the fire. Verse 24 says who finally keeps anyone from stumbling: God.",
       "dateLabel": "Book order",
-      "uncertainty": "No exact location is assigned to unnamed or heavenly settings.",
+      "uncertainty": "The Sodom marker shows a disputed region, not a confirmed city.",
       "sourceIds": [
         "web",
         "usccb-jude"
@@ -155,8 +183,8 @@
       "name": "Sodom",
       "lat": 31.2,
       "lng": 35.5,
-      "summary": "Jude recalls Sodom's destruction within the warning comparisons.",
-      "limits": "The site is disputed. This marker shows a region rather than a confirmed city.",
+      "summary": "Jude recalls Sodom and Gomorrah and the cities around them in chapter 1. They gave themselves over to sexual immorality and strange flesh. Jude says they are shown as an example and suffer the punishment of eternal fire.",
+      "limits": "The site is disputed. The marker shows a region, not a confirmed city.",
       "sourceIds": [
         "web",
         "atlas",
@@ -170,15 +198,63 @@
       "linkNames": [
         "Sodom"
       ],
-      "detail": "Jude recalls Sodom's destruction within the warning comparisons.",
-      "uncertainty": "The site is disputed. This marker shows a region rather than a confirmed city.",
-      "chapterLocation": true
+      "detail": "Jude recalls Sodom and Gomorrah and the cities around them in chapter 1. They gave themselves over to sexual immorality and strange flesh. Jude says they are shown as an example and suffer the punishment of eternal fire.",
+      "uncertainty": "The site is disputed. The marker shows a region, not a confirmed city.",
+      "chapterLocation": true,
+      "word": {
+        "language": "greek",
+        "strongId": "G4670",
+        "key": "Sodom",
+        "checkedVerses": 1,
+        "example": [
+          1,
+          7
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Σόδομα",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Sódoma"
+      }
     }
   ],
   "campaigns": [],
   "ancientRoads": [],
   "regions": [],
   "words": [
+    {
+      "id": "glossary-apostles-1-G652-apostles",
+      "label": "Apostles",
+      "matches": [
+        "apostles"
+      ],
+      "chapter": 1,
+      "verses": [
+        17
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "ἀπόστολος",
+      "greekNote": "",
+      "meaning": "People sent out with a message. In the Gospels the word names twelve whom Jesus chose.",
+      "grammar": "This is the dictionary form of Greek word G652. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G652",
+      "language": "greek",
+      "greekTransliteration": "apóstolos",
+      "chapterDefault": true
+    },
     {
       "id": "glossary-apostles",
       "label": "Apostles",
@@ -199,7 +275,37 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "greek"
+    },
+    {
+      "id": "glossary-saints-1-G40-saints",
+      "label": "Saints",
+      "matches": [
+        "saints"
+      ],
+      "chapter": 1,
+      "verses": [
+        3
+      ],
+      "hebrew": "",
+      "transliteration": "",
+      "greek": "ἅγιος",
+      "greekNote": "",
+      "meaning": "People set apart as holy. In the letters the word means the believers in a place.",
+      "grammar": "This is the dictionary form of Greek word G40. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong-greek",
+        "byz",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "G40",
+      "language": "greek",
+      "greekTransliteration": "hágios",
+      "chapterDefault": true
     },
     {
       "id": "glossary-saints",
@@ -220,7 +326,8 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "greek"
     }
   ],
   "guides": [
@@ -278,9 +385,9 @@
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "No exact location is assigned to unnamed or heavenly settings.",
+      "note": "The Sodom marker shows a disputed region, not a confirmed city.",
       "narrative": "Jude, brother of James, writes to those who are called. He urges them to contend for the faith delivered to the saints. Certain people have crept in and turn God’s grace into license. He recalls Israel in the wilderness, the angels who left their place, and Sodom. He says the archangel Michael did not bring an abusive charge against the devil. He quotes a prophecy of Enoch about judgment. The readers should build themselves up in faith, pray, and wait for mercy. He ends with praise to God, who can keep them from stumbling.",
-      "limits": "No exact location is assigned to unnamed or heavenly settings.",
+      "limits": "The Sodom marker shows a disputed region, not a confirmed city.",
       "sourceIds": [
         "web",
         "usccb-jude"

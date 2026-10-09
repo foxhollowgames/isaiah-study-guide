@@ -421,9 +421,9 @@
       "eventOrder": 1,
       "dateLabel": "Book order",
       "historicalNote": "The opening thanks connects the hearers' faith with Epaphras' teaching and report. Prayer then asks for conduct and endurance that fit the gift already received. The account of Christ places creation and the assembly under the same head. Every named power therefore stands within that larger claim rather than offering a competing source. Peace through the cross brings the hearers' former distance into the same account. The speaker's costly work serves their growth without supplying an independent source of belonging.",
-      "mapNote": "Markers identify named cities rather than exact homes or a prison setting.",
+      "mapNote": "Markers show the cities the letter names. They do not show homes or the place where Paul is held.",
       "route": [],
-      "routeEvidence": "Named messengers do not establish an exact delivery route.",
+      "routeEvidence": "The letter names messengers but gives no delivery route.",
       "contextNote": {
         "title": "Christ's place above every power supports the hearers' received hope",
         "text": "Verse 16 says all things were created through the Son. It lists them: things in heaven and on earth, thrones and powers. Verse 20 uses the same range for reconciliation. God reconciles all things, on earth and in the heavens. The means is stated without softening: peace through the blood of his cross. Verses 21–22 apply it to the readers. They were once alienated, and now he has reconciled them.",
@@ -457,9 +457,9 @@
       "eventOrder": 2,
       "dateLabel": "Book order",
       "historicalNote": "The speaker seeks comfort and shared understanding for people who have not seen his face. Christ's treasures answer persuasive claims that could move the hearers away from received faith. Burial and rising in baptism describe changed belonging through God's work rather than bodily rank. The canceled writing image connects forgiveness with the cross's defeat of hostile powers. Food judgments, angel worship, and severe rules then become examples of competing demands. Holding the head keeps the body joined and growing instead of dependent on those demands.",
-      "mapNote": "Markers identify named cities rather than exact homes or a prison setting.",
+      "mapNote": "Markers show the cities the letter names. They do not show homes or the place where Paul is held.",
       "route": [],
-      "routeEvidence": "Named messengers do not establish an exact delivery route.",
+      "routeEvidence": "The letter names messengers but gives no delivery route.",
       "contextNote": {
         "title": "The joined body grows through its head rather than added claims to special wisdom",
         "text": "Verse 18 describes a person who would rob the readers of their prize. He insists on false humility and the worship of angels. Verse 19 names what is wrong with him. He does not hold firmly to the Head. The body grows only from there, and the growth is God’s. Verse 10 has already said the readers are made full in Christ. So verses 20–23 ask why they submit to added rules.",
@@ -491,9 +491,9 @@
       "eventOrder": 3,
       "dateLabel": "Book order",
       "historicalNote": "Seeking what is above follows the earlier claim that the hearers rose with Christ. The harmful acts listed next give that direction concrete consequences within earthly relationships. Richard Carlson connects the new identity with changed conduct rather than escape from shared life. The clothing image makes compassion and forgiveness practices that replace harmful speech and anger. Songs and thanks then give those practices a shared voice within one body. The household commands retain unequal roles while requiring love and refusing the discouragement of children.",
-      "mapNote": "Markers identify named cities rather than exact homes or a prison setting.",
+      "mapNote": "Markers show the cities the letter names. They do not show homes or the place where Paul is held.",
       "route": [],
-      "routeEvidence": "Named messengers do not establish an exact delivery route.",
+      "routeEvidence": "The letter names messengers but gives no delivery route.",
       "contextNote": {
         "title": "Received new life requires changed speech and care within still unequal households",
         "text": "Verses 8–9 use the picture of clothing: put away anger, malice, and lying. Verse 10 says they have put on the new man. Verse 12 tells them what the new clothing is. It first names who they are: God’s chosen ones, holy and beloved. The five garments all concern other people: compassion, kindness, lowliness, humility, and perseverance. Verse 13 adds forgiving one another as Christ forgave. Verse 14 puts love over all of it as the bond.",
@@ -529,9 +529,9 @@
       "eventOrder": 4,
       "dateLabel": "Book order",
       "historicalNote": "The command to masters completes the household instructions by placing them under another master's authority. The speaker then asks for prayer so that chains will not prevent clear speech. Tychicus and Onesimus carry personal news that the written message alone does not supply. Epaphras' prayers connect the hearers with nearby groups rather than treating their assembly as isolated. Exchanging letters with Laodicea gives written teaching a wider shared hearing. The final handwritten greeting returns this network of help to the speaker's own chains.",
-      "mapNote": "Markers identify named cities rather than exact homes or a prison setting.",
+      "mapNote": "Markers show the cities the letter names. They do not show homes or the place where Paul is held.",
       "route": [],
-      "routeEvidence": "Named messengers do not establish an exact delivery route.",
+      "routeEvidence": "The letter names messengers but gives no delivery route.",
       "contextNote": {
         "title": "Letters, messengers, and prayer connect separate assemblies with the chained speaker",
         "text": "Paul cannot visit; he is in chains (verses 3 and 18). The letter stands in for him, and people carry it. Verses 7–9 send Tychicus and Onesimus to tell what the letter does not. Verse 16 then orders two public readings. This letter is to be read at Colossae and at Laodicea. A letter from Laodicea is to be read at Colossae in exchange. The verse shows these letters were written to be heard by whole assemblies.",
@@ -546,10 +546,10 @@
     {
       "id": "paul",
       "name": "Paul",
-      "role": "Named letter speaker who describes costly work and imprisonment",
-      "relations": "Timothy shares the opening greeting, and messengers carry news of his condition.",
+      "role": "Writer in chains who prays for the Colossians",
+      "relations": "He writes with Timothy. He sends Tychicus and Onesimus to tell the readers his news.",
       "passages": "Colossians 1:1, 23–29; 2:1; 4:3, 18",
-      "meaning": "His appeal depends on prayer and personal help as well as written instruction.",
+      "meaning": "Paul gives thanks for the Colossians’ faith and love. He says he labors and suffers for them. He asks them to pray for him. He asks them to read this letter to the Laodiceans. He signs with his own hand and asks them to remember his chains.",
       "life": "Birth and death years are not securely known.",
       "sourceIds": [
         "web"
@@ -563,10 +563,10 @@
     {
       "id": "jesus",
       "name": "Jesus Christ",
-      "role": "Lord described as creation's center and the assembly's head",
-      "relations": "The hearers' changed belonging and conduct are measured through him.",
+      "role": "Lord, image of God, and head of the assembly",
+      "relations": "Paul calls him the Son and the head of the body, the assembly. Paul says all things were created by him.",
       "passages": "Colossians 1–4",
-      "meaning": "His place above every power answers competing claims to wisdom and acceptance.",
+      "meaning": "Paul says all things were created by Jesus and through him. Paul says he is above thrones and powers. Paul says he reconciled the readers through his death. Paul then tells them to walk in him and to live as his people.",
       "life": "Birth and death years are not securely known.",
       "sourceIds": [
         "web"
@@ -586,10 +586,10 @@
     {
       "id": "timothy",
       "name": "Timothy",
-      "role": "Brother who shares the opening greeting with Paul",
-      "relations": "The letter names him beside Paul before addressing the hearers.",
+      "role": "Brother named with Paul in the greeting",
+      "relations": "The letter names him beside Paul, before it greets the Colossians.",
       "passages": "Colossians 1:1",
-      "meaning": "His presence places the message within shared work rather than a solitary voice.",
+      "meaning": "Paul names Timothy as our brother in the first line. The letter says nothing else about him.",
       "life": "Birth and death years are not securely known.",
       "sourceIds": [
         "web"
@@ -603,10 +603,10 @@
     {
       "id": "tychicus",
       "name": "Tychicus",
-      "role": "Trusted messenger sent to explain the speaker's condition",
-      "relations": "He travels with Onesimus to bring news and comfort.",
+      "role": "Messenger Paul sends to tell his news",
+      "relations": "Paul calls him a beloved brother, faithful servant, and fellow bondservant. He goes with Onesimus.",
       "passages": "Colossians 4:7–9",
-      "meaning": "His personal report joins written instruction with care for the hearers.",
+      "meaning": "Paul says Tychicus will make all his affairs known to the Colossians. Paul sends him to learn their circumstances. He is also to comfort their hearts. Onesimus goes with him.",
       "life": "Birth and death years are not securely known.",
       "sourceIds": [
         "web"
@@ -620,10 +620,10 @@
     {
       "id": "epaphras",
       "name": "Epaphras",
-      "role": "Teacher whose report and prayers connect the hearers with the speaker",
-      "relations": "He has concern for Colossae, Laodicea, and Hierapolis.",
+      "role": "Colossian who taught them and prays for them",
+      "relations": "Paul says Epaphras is one of them. He cares for those in Colossae, Laodicea, and Hierapolis.",
       "passages": "Colossians 1:7–8; 4:12–13",
-      "meaning": "His teaching and prayer connect faith's beginning with continued growth.",
+      "meaning": "Paul says the Colossians learned the Good News from Epaphras. He told Paul about their love. Paul says Epaphras always strives for them in prayer. He has great zeal for them and for Laodicea and Hierapolis.",
       "life": "Birth and death years are not securely known.",
       "sourceIds": [
         "web"
@@ -637,10 +637,10 @@
     {
       "id": "onesimus",
       "name": "Onesimus",
-      "role": "Faithful brother who joins Tychicus in carrying news",
-      "relations": "The letter describes him as one of the hearers.",
+      "role": "Faithful brother sent with Tychicus",
+      "relations": "Paul says he is one of you, the Colossians. He goes with Tychicus.",
       "passages": "Colossians 4:9",
-      "meaning": "His named belonging joins personal recognition with the wider message of shared life.",
+      "meaning": "Paul calls Onesimus the faithful and beloved brother. He sends Onesimus with Tychicus. Together they will tell the Colossians everything that is going on.",
       "life": "Birth and death years are not securely known.",
       "sourceIds": [
         "web"
@@ -658,8 +658,8 @@
       "name": "Colossae",
       "lat": 37.766666666666666,
       "lng": 29.25,
-      "summary": "Colossae is named as the recipients' city in the opening address.",
-      "limits": "City reference rather than an exact meeting house.",
+      "summary": "Paul writes in chapter 1 to the saints and faithful brothers at Colossae. Epaphras is one of them.",
+      "limits": "The marker shows the city’s general location.",
       "sourceIds": [
         "web",
         "net-colossae"
@@ -674,8 +674,8 @@
       "name": "Laodicea",
       "lat": 37.766666666666666,
       "lng": 29.05,
-      "summary": "Laodicea shares the speaker's concern and the request for exchanged letters.",
-      "limits": "City reference rather than an exact meeting house.",
+      "summary": "Paul struggles for the Laodiceans in chapter 2. In chapter 4 he asks that this letter be read to them. He asks the Colossians to read the letter from Laodicea. He greets Nymphas and the assembly in his house.",
+      "limits": "The marker shows the city’s general location.",
       "sourceIds": [
         "web",
         "net-laodicea"
@@ -690,8 +690,8 @@
       "name": "Hierapolis",
       "lat": 37.916666666666664,
       "lng": 29.116666666666667,
-      "summary": "Hierapolis is named among the places for which Epaphras has concern.",
-      "limits": "City reference rather than an exact assembly location.",
+      "summary": "In chapter 4 Paul says Epaphras has great zeal for those in Hierapolis. He has the same zeal for Laodicea.",
+      "limits": "The marker shows the city’s general location.",
       "sourceIds": [
         "web",
         "net-hierapolis"
@@ -707,10 +707,10 @@
       "id": "web",
       "title": "Colossians · World English Bible",
       "url": "https://ebible.org/engwebp/COL01.htm",
-      "summary": "All four chapters supply the primary text for original close readings.",
+      "summary": "All four chapters are the main text for original close readings.",
       "category": "Scripture",
       "perspective": "historical",
-      "limits": "The letter names Paul as its speaker. Authorship, date, prison city, original manuscripts, Greek forms, and the exact rival teaching were not independently verified. Jesus called Justus is not linked to Jesus Christ. Household commands do not establish that unequal conditions disappeared.",
+      "limits": "The letter names Paul as its writer. The guide did not check authorship, date, manuscripts, or Greek forms. It did not check the prison city or the exact rival teaching. Jesus called Justus is not linked to Jesus Christ. The household commands do not show that unequal conditions ended.",
       "author": "World English Bible translators",
       "publisher": "eBible.org",
       "chapterCoverage": [
@@ -728,10 +728,10 @@
       "id": "carlson-colossians",
       "title": "Commentary on Colossians 3:1-11",
       "url": "https://www.workingpreacher.org/commentaries/revised-common-lectionary/ordinary-18-3/commentary-on-colossians-31-11-3",
-      "summary": "Carlson connects received new identity with changed conduct.",
+      "summary": "Carlson links the readers’ new identity with changed conduct.",
       "category": "Scholarly study",
       "perspective": "historical",
-      "limits": "This is Carlson's interpretation. His Greek analysis, proposed links with other letters, and account of the barbarian and Scythian pair were not independently verified. Linked works were not reviewed.",
+      "limits": "This is Carlson’s own reading. The guide did not check his Greek analysis or his links with other letters. It did not check his account of the barbarian and Scythian pair. It did not review the linked works.",
       "author": "Richard Carlson",
       "publisher": "Luther Seminary",
       "year": 2013,
@@ -750,7 +750,7 @@
       "summary": "The lesson studies changed conduct and being rooted in Christ.",
       "category": "LDS Come, Follow Me",
       "perspective": "lds",
-      "limits": "Colossians coverage follows actual discussion of chapters one through three. The lesson does not independently discuss chapter four. Linked talks, videos, and Restoration passages were not independently reviewed.",
+      "limits": "Colossians coverage follows what the lesson discusses in chapters one through three. The lesson does not discuss chapter four on its own. The guide did not check the linked talks, videos, or Restoration passages.",
       "author": "The Church of Jesus Christ of Latter-day Saints",
       "publisher": "The Church of Jesus Christ of Latter-day Saints",
       "year": 2023,
@@ -768,10 +768,10 @@
       "id": "net-colossae",
       "title": "NET Bible · Colossae",
       "url": "https://classic.net.bible.org/dictionary.php/xml/xml/dictionary.php?word=Colossae",
-      "summary": "The dictionary supplies a general city reference and a coordinate line.",
+      "summary": "The dictionary gives a general city reference and a coordinate line.",
       "category": "Reference work",
       "perspective": "historical",
-      "limits": "Only the opening location description and coordinate line support this marker. Historical dictionary claims, exact buildings, and delivery routes were not independently verified.",
+      "limits": "Only the opening place description and the coordinates support this marker. The guide did not check the dictionary’s history, the buildings, or the delivery routes.",
       "author": "NET Bible reference editors",
       "publisher": "Bible.org",
       "reviewed": {
@@ -783,10 +783,10 @@
       "id": "net-laodicea",
       "title": "NET Bible · Laodicea",
       "url": "https://classic.net.bible.org/dictionary.php?word=Laodicea",
-      "summary": "The dictionary supplies a general city reference and a coordinate line.",
+      "summary": "The dictionary gives a general city reference and a coordinate line.",
       "category": "Reference work",
       "perspective": "historical",
-      "limits": "Only the opening location description and coordinate line support this marker. Historical dictionary claims, exact buildings, and delivery routes were not independently verified.",
+      "limits": "Only the opening place description and the coordinates support this marker. The guide did not check the dictionary’s history, the buildings, or the delivery routes.",
       "author": "NET Bible reference editors",
       "publisher": "Bible.org",
       "reviewed": {
@@ -798,10 +798,10 @@
       "id": "net-hierapolis",
       "title": "NET Bible · Hierapolis",
       "url": "https://classic.net.bible.org/dictionary.php?word=Hierapolis",
-      "summary": "The dictionary supplies a general city reference and a coordinate line.",
+      "summary": "The dictionary gives a general city reference and a coordinate line.",
       "category": "Reference work",
       "perspective": "historical",
-      "limits": "Only the opening location description and coordinate line support this marker. Historical dictionary claims, exact buildings, and delivery routes were not independently verified.",
+      "limits": "Only the opening place description and the coordinates support this marker. The guide did not check the dictionary’s history, the buildings, or the delivery routes.",
       "author": "NET Bible reference editors",
       "publisher": "Bible.org",
       "reviewed": {

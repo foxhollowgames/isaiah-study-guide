@@ -415,6 +415,34 @@
       ],
       "type": "museum",
       "limitations": "The palette offers a comparison for writing tools. It is not an Israelite object or Baruch’s equipment."
+    },
+    {
+      "id": "strong",
+      "title": "A Concise Dictionary of the Words in the Hebrew Bible",
+      "author": "James Strong · Open Scriptures XML edition",
+      "year": "1894 / digital edition",
+      "perspective": "historical",
+      "category": "Historical lexicon",
+      "url": "https://github.com/openscriptures/strongs",
+      "summary": "Lists Hebrew dictionary forms and their possible meanings. Use it with the passage to study a word.",
+      "limits": "This is an older dictionary. Compare its meanings with the passage. A list of meanings alone cannot show which one applies.",
+      "license": "Source XML declares Public Domain. Only selected headwords are used.",
+      "type": "Historical lexicon",
+      "limitations": "This is an older dictionary. Compare its meanings with the passage. A list of meanings alone cannot show which one applies."
+    },
+    {
+      "id": "oshb",
+      "title": "Open Scriptures Hebrew Bible",
+      "author": "Open Scriptures contributors / Westminster Leningrad Codex",
+      "year": "Digital edition",
+      "perspective": "historical",
+      "category": "Hebrew text",
+      "url": "https://hb.openscriptures.org/",
+      "summary": "Provides the Hebrew text and word identifiers. This study guide uses these to check selected words against their verses.",
+      "limits": "The app checks selected words, not every English–Hebrew match. It shows Hebrew dictionary forms. The forms in the verses can differ.",
+      "license": "Hebrew text public domain; lemma/morphology data CC BY 4.0. Original work of the Open Scriptures Hebrew Bible, https://hb.openscriptures.org/.",
+      "type": "Hebrew text",
+      "limitations": "The app checks selected words, not every English–Hebrew match. It shows Hebrew dictionary forms. The forms in the verses can differ."
     }
   ],
   "passages": [
@@ -2853,7 +2881,25 @@
       ],
       "detail": "Famine draws Abraham and later Jacob's family into Egypt. Joseph rises to royal service.",
       "uncertainty": "This regional marker does not identify Joseph's palace or Pharaoh.",
-      "chapterLocation": true
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H4714",
+        "key": "Egypt",
+        "checkedVerses": 108,
+        "example": [
+          1,
+          1
+        ],
+        "hebrew": "מִצְרַיִם",
+        "transliteration": "Mitsrayim",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "goshen",
@@ -2868,7 +2914,25 @@
       ],
       "detail": "Genesis places Jacob's household in Goshen, within Egypt.",
       "uncertainty": "The broad delta placement is approximate. Its exact limits are unknown.",
-      "chapterLocation": true
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H1657",
+        "key": "Goshen",
+        "checkedVerses": 2,
+        "example": [
+          8,
+          22
+        ],
+        "hebrew": "גֹּשֶׁן",
+        "transliteration": "Gôshen",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "rameses",
@@ -2883,7 +2947,25 @@
       ],
       "detail": "Israel builds storage cities and later departs from Rameses.",
       "uncertainty": "The marker represents a proposed eastern delta setting. The chronology remains debated.",
-      "chapterLocation": true
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H7486",
+        "key": "Rameses",
+        "checkedVerses": 1,
+        "example": [
+          12,
+          37
+        ],
+        "hebrew": "רַעְמְסֵס",
+        "transliteration": "Raʻmᵉçêç",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "pithom",
@@ -2898,7 +2980,25 @@
       ],
       "detail": "Exodus names Pithom as a storage city built under forced labor.",
       "uncertainty": "The identification is debated. This is an approximate regional marker.",
-      "chapterLocation": true
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H6619",
+        "key": "Pithom",
+        "checkedVerses": 1,
+        "example": [
+          1,
+          11
+        ],
+        "hebrew": "פִּתֹם",
+        "transliteration": "Pithôm",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "midian",
@@ -2913,7 +3013,25 @@
       ],
       "detail": "Moses seeks refuge among Jethro’s household in Midian.",
       "uncertainty": "This marker shows a broad region. It does not identify Moses’s home.",
-      "chapterLocation": true
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H4080",
+        "key": "Midian",
+        "checkedVerses": 5,
+        "example": [
+          2,
+          15
+        ],
+        "hebrew": "מִדְיָן",
+        "transliteration": "Midyân",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "horeb",
@@ -2928,7 +3046,25 @@
       ],
       "detail": "God calls Moses at Horeb, the mountain of God.",
       "uncertainty": "The southern Sinai placement reflects a tradition. Other proposed locations exist.",
-      "chapterLocation": true
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H2722",
+        "key": "Horeb",
+        "checkedVerses": 3,
+        "example": [
+          3,
+          1
+        ],
+        "hebrew": "חֹרֵב",
+        "transliteration": "Chôrêb",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "sinai",
@@ -2943,7 +3079,25 @@
       ],
       "detail": "Israel receives the covenant and builds the sanctuary near Sinai.",
       "uncertainty": "The mountain’s identity is disputed. This marker is not a verified site.",
-      "chapterLocation": true
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H5514",
+        "key": "Sinai",
+        "checkedVerses": 13,
+        "example": [
+          16,
+          1
+        ],
+        "hebrew": "סִינַי",
+        "transliteration": "Çîynay",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "succoth",
@@ -2958,7 +3112,25 @@
       ],
       "detail": "Exodus names Succoth after the departure from Rameses.",
       "uncertainty": "The exact campsite is unknown. This is an approximate regional placement.",
-      "chapterLocation": true
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H5523",
+        "key": "Succoth",
+        "checkedVerses": 2,
+        "example": [
+          12,
+          37
+        ],
+        "hebrew": "סֻכּוֹת",
+        "transliteration": "Çukkôwth",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "etham",
@@ -2973,7 +3145,25 @@
       ],
       "detail": "Israel reaches Etham at the wilderness edge.",
       "uncertainty": "The exact place is unknown. The marker follows a broad eastern delta setting.",
-      "chapterLocation": true
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H864",
+        "key": "Etham",
+        "checkedVerses": 1,
+        "example": [
+          13,
+          20
+        ],
+        "hebrew": "אֵתָם",
+        "transliteration": "ʼÊthâm",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "sea-region",
@@ -3003,7 +3193,25 @@
       ],
       "detail": "Israel reaches bitter water after leaving the sea.",
       "uncertainty": "The site is uncertain. This placement follows a traditional Sinai-region reading.",
-      "chapterLocation": true
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H4785",
+        "key": "Marah",
+        "checkedVerses": 1,
+        "example": [
+          15,
+          23
+        ],
+        "hebrew": "מָרָה",
+        "transliteration": "Mârâh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "elim",
@@ -3018,7 +3226,25 @@
       ],
       "detail": "Exodus describes twelve springs and seventy palms at Elim.",
       "uncertainty": "The exact oasis is uncertain. The marker is a regional reference.",
-      "chapterLocation": true
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H362",
+        "key": "Elim",
+        "checkedVerses": 2,
+        "example": [
+          15,
+          27
+        ],
+        "hebrew": "אֵילִם",
+        "transliteration": "ʼÊylim",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "wilderness-sin",
@@ -3033,7 +3259,26 @@
       ],
       "detail": "Israel receives manna in the wilderness between Elim and Sinai.",
       "uncertainty": "Its boundaries are unknown. The marker follows a traditional southern route.",
-      "chapterLocation": true
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H5512",
+        "key": "Sin",
+        "checkedVerses": 2,
+        "example": [
+          16,
+          1
+        ],
+        "hebrew": "סִין",
+        "transliteration": "Çîyn",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ],
+        "languageNote": "This is the dictionary form of the name “Sin.”"
+      }
     },
     {
       "id": "rephidim",
@@ -3048,13 +3293,115 @@
       ],
       "detail": "Israel needs water and fights Amalek near Rephidim.",
       "uncertainty": "The site is uncertain. The marker does not identify the rock or battlefield.",
-      "chapterLocation": true
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H7508",
+        "key": "Rephidim",
+        "checkedVerses": 3,
+        "example": [
+          17,
+          1
+        ],
+        "hebrew": "רְפִידִים",
+        "transliteration": "Rᵉphîydîym",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     }
   ],
   "campaigns": [],
   "ancientRoads": [],
   "regions": [],
   "words": [
+    {
+      "id": "glossary-levites-6-H3881-levites",
+      "label": "Levites",
+      "matches": [
+        "Levites"
+      ],
+      "chapter": 6,
+      "verses": [
+        25
+      ],
+      "hebrew": "לֵוִיִּי",
+      "transliteration": "Lêvîyîy",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "Members of the tribe of Levi. They cared for the tabernacle and later the temple. The priests came from one Levite family, Aaron’s.",
+      "grammar": "This is the dictionary form of Hebrew word H3881. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H3881",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-levites-38-H3881-levites",
+      "label": "Levites",
+      "matches": [
+        "Levites"
+      ],
+      "chapter": 38,
+      "verses": [
+        21
+      ],
+      "hebrew": "לֵוִיִּי",
+      "transliteration": "Lêvîyîy",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "Members of the tribe of Levi. They cared for the tabernacle and later the temple. The priests came from one Levite family, Aaron’s.",
+      "grammar": "This is the dictionary form of Hebrew word H3881. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H3881",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-levites-4-H3881-levite",
+      "label": "Levites",
+      "matches": [
+        "Levite"
+      ],
+      "chapter": 4,
+      "verses": [
+        14
+      ],
+      "hebrew": "לֵוִיִּי",
+      "transliteration": "Lêvîyîy",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "Members of the tribe of Levi. They cared for the tabernacle and later the temple. The priests came from one Levite family, Aaron’s.",
+      "grammar": "This is the dictionary form of Hebrew word H3881. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H3881",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
     {
       "id": "glossary-levites",
       "label": "Levites",
@@ -3076,7 +3423,243 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-ark-25-H727-ark",
+      "label": "Ark",
+      "matches": [
+        "ark"
+      ],
+      "chapter": 25,
+      "verses": [
+        10,
+        14,
+        15,
+        16,
+        21,
+        22
+      ],
+      "hebrew": "אָרוֹן",
+      "transliteration": "ʼârôwn",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A chest or a boat. In Genesis it is Noah’s boat. Later it is the gold-covered chest that held the covenant tablets.",
+      "grammar": "This is the dictionary form of Hebrew word H727. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H727",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-ark-26-H727-ark",
+      "label": "Ark",
+      "matches": [
+        "ark"
+      ],
+      "chapter": 26,
+      "verses": [
+        33,
+        34
+      ],
+      "hebrew": "אָרוֹן",
+      "transliteration": "ʼârôwn",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A chest or a boat. In Genesis it is Noah’s boat. Later it is the gold-covered chest that held the covenant tablets.",
+      "grammar": "This is the dictionary form of Hebrew word H727. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H727",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-ark-30-H727-ark",
+      "label": "Ark",
+      "matches": [
+        "ark"
+      ],
+      "chapter": 30,
+      "verses": [
+        6,
+        26
+      ],
+      "hebrew": "אָרוֹן",
+      "transliteration": "ʼârôwn",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A chest or a boat. In Genesis it is Noah’s boat. Later it is the gold-covered chest that held the covenant tablets.",
+      "grammar": "This is the dictionary form of Hebrew word H727. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H727",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-ark-31-H727-ark",
+      "label": "Ark",
+      "matches": [
+        "ark"
+      ],
+      "chapter": 31,
+      "verses": [
+        7
+      ],
+      "hebrew": "אָרוֹן",
+      "transliteration": "ʼârôwn",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A chest or a boat. In Genesis it is Noah’s boat. Later it is the gold-covered chest that held the covenant tablets.",
+      "grammar": "This is the dictionary form of Hebrew word H727. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H727",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-ark-35-H727-ark",
+      "label": "Ark",
+      "matches": [
+        "ark"
+      ],
+      "chapter": 35,
+      "verses": [
+        12
+      ],
+      "hebrew": "אָרוֹן",
+      "transliteration": "ʼârôwn",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A chest or a boat. In Genesis it is Noah’s boat. Later it is the gold-covered chest that held the covenant tablets.",
+      "grammar": "This is the dictionary form of Hebrew word H727. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H727",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-ark-37-H727-ark",
+      "label": "Ark",
+      "matches": [
+        "ark"
+      ],
+      "chapter": 37,
+      "verses": [
+        1,
+        5
+      ],
+      "hebrew": "אָרוֹן",
+      "transliteration": "ʼârôwn",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A chest or a boat. In Genesis it is Noah’s boat. Later it is the gold-covered chest that held the covenant tablets.",
+      "grammar": "This is the dictionary form of Hebrew word H727. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H727",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-ark-39-H727-ark",
+      "label": "Ark",
+      "matches": [
+        "ark"
+      ],
+      "chapter": 39,
+      "verses": [
+        35
+      ],
+      "hebrew": "אָרוֹן",
+      "transliteration": "ʼârôwn",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A chest or a boat. In Genesis it is Noah’s boat. Later it is the gold-covered chest that held the covenant tablets.",
+      "grammar": "This is the dictionary form of Hebrew word H727. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H727",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-ark-40-H727-ark",
+      "label": "Ark",
+      "matches": [
+        "ark"
+      ],
+      "chapter": 40,
+      "verses": [
+        3,
+        5,
+        20,
+        21
+      ],
+      "hebrew": "אָרוֹן",
+      "transliteration": "ʼârôwn",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A chest or a boat. In Genesis it is Noah’s boat. Later it is the gold-covered chest that held the covenant tablets.",
+      "grammar": "This is the dictionary form of Hebrew word H727. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H727",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-ark",
@@ -3097,7 +3680,210 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-covenant-2-H1285-covenant",
+      "label": "Covenant",
+      "matches": [
+        "covenant"
+      ],
+      "chapter": 2,
+      "verses": [
+        24
+      ],
+      "hebrew": "בְּרִית",
+      "transliteration": "bᵉrîyth",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A binding agreement with promises and duties. In the Bible, God makes covenants with people.",
+      "grammar": "This is the dictionary form of Hebrew word H1285. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H1285",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-covenant-6-H1285-covenant",
+      "label": "Covenant",
+      "matches": [
+        "covenant"
+      ],
+      "chapter": 6,
+      "verses": [
+        4,
+        5
+      ],
+      "hebrew": "בְּרִית",
+      "transliteration": "bᵉrîyth",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A binding agreement with promises and duties. In the Bible, God makes covenants with people.",
+      "grammar": "This is the dictionary form of Hebrew word H1285. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H1285",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-covenant-19-H1285-covenant",
+      "label": "Covenant",
+      "matches": [
+        "covenant"
+      ],
+      "chapter": 19,
+      "verses": [
+        5
+      ],
+      "hebrew": "בְּרִית",
+      "transliteration": "bᵉrîyth",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A binding agreement with promises and duties. In the Bible, God makes covenants with people.",
+      "grammar": "This is the dictionary form of Hebrew word H1285. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H1285",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-covenant-23-H1285-covenant",
+      "label": "Covenant",
+      "matches": [
+        "covenant"
+      ],
+      "chapter": 23,
+      "verses": [
+        32
+      ],
+      "hebrew": "בְּרִית",
+      "transliteration": "bᵉrîyth",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A binding agreement with promises and duties. In the Bible, God makes covenants with people.",
+      "grammar": "This is the dictionary form of Hebrew word H1285. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H1285",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-covenant-24-H1285-covenant",
+      "label": "Covenant",
+      "matches": [
+        "covenant"
+      ],
+      "chapter": 24,
+      "verses": [
+        7,
+        8
+      ],
+      "hebrew": "בְּרִית",
+      "transliteration": "bᵉrîyth",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A binding agreement with promises and duties. In the Bible, God makes covenants with people.",
+      "grammar": "This is the dictionary form of Hebrew word H1285. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H1285",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-covenant-31-H1285-covenant",
+      "label": "Covenant",
+      "matches": [
+        "covenant"
+      ],
+      "chapter": 31,
+      "verses": [
+        16
+      ],
+      "hebrew": "בְּרִית",
+      "transliteration": "bᵉrîyth",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A binding agreement with promises and duties. In the Bible, God makes covenants with people.",
+      "grammar": "This is the dictionary form of Hebrew word H1285. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H1285",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-covenant-34-H1285-covenant",
+      "label": "Covenant",
+      "matches": [
+        "covenant"
+      ],
+      "chapter": 34,
+      "verses": [
+        10,
+        12,
+        15,
+        27,
+        28
+      ],
+      "hebrew": "בְּרִית",
+      "transliteration": "bᵉrîyth",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A binding agreement with promises and duties. In the Bible, God makes covenants with people.",
+      "grammar": "This is the dictionary form of Hebrew word H1285. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H1285",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-covenant",
@@ -3119,7 +3905,156 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-sabbath-31-H7676-sabbaths",
+      "label": "Sabbath",
+      "matches": [
+        "Sabbaths"
+      ],
+      "chapter": 31,
+      "verses": [
+        13
+      ],
+      "hebrew": "שַׁבָּת",
+      "transliteration": "shabbâth",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "The seventh day of the week, kept as a day of rest.",
+      "grammar": "This is the dictionary form of Hebrew word H7676. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H7676",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-sabbath-16-H7676-sabbath",
+      "label": "Sabbath",
+      "matches": [
+        "Sabbath"
+      ],
+      "chapter": 16,
+      "verses": [
+        23,
+        25,
+        26,
+        29
+      ],
+      "hebrew": "שַׁבָּת",
+      "transliteration": "shabbâth",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "The seventh day of the week, kept as a day of rest.",
+      "grammar": "This is the dictionary form of Hebrew word H7676. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H7676",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-sabbath-20-H7676-sabbath",
+      "label": "Sabbath",
+      "matches": [
+        "Sabbath"
+      ],
+      "chapter": 20,
+      "verses": [
+        8,
+        10,
+        11
+      ],
+      "hebrew": "שַׁבָּת",
+      "transliteration": "shabbâth",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "The seventh day of the week, kept as a day of rest.",
+      "grammar": "This is the dictionary form of Hebrew word H7676. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H7676",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-sabbath-31-H7676-sabbath",
+      "label": "Sabbath",
+      "matches": [
+        "Sabbath"
+      ],
+      "chapter": 31,
+      "verses": [
+        14,
+        15,
+        16
+      ],
+      "hebrew": "שַׁבָּת",
+      "transliteration": "shabbâth",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "The seventh day of the week, kept as a day of rest.",
+      "grammar": "This is the dictionary form of Hebrew word H7676. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H7676",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-sabbath-35-H7676-sabbath",
+      "label": "Sabbath",
+      "matches": [
+        "Sabbath"
+      ],
+      "chapter": 35,
+      "verses": [
+        2,
+        3
+      ],
+      "hebrew": "שַׁבָּת",
+      "transliteration": "shabbâth",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "The seventh day of the week, kept as a day of rest.",
+      "grammar": "This is the dictionary form of Hebrew word H7676. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H7676",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-sabbath",
@@ -3141,7 +4076,8 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
     },
     {
       "id": "glossary-scribes",
@@ -3163,7 +4099,36 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-assembly-16-H6951-assembly",
+      "label": "Assembly",
+      "matches": [
+        "assembly"
+      ],
+      "chapter": 16,
+      "verses": [
+        3
+      ],
+      "hebrew": "קָהָל",
+      "transliteration": "qâhâl",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A gathering of people. In the New Testament letters it means a group of believers. Many translations say “church.”",
+      "grammar": "This is the dictionary form of Hebrew word H6951. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H6951",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-assembly",
@@ -3185,7 +4150,279 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-tabernacle-25-H4908-tabernacle",
+      "label": "Tabernacle",
+      "matches": [
+        "tabernacle"
+      ],
+      "chapter": 25,
+      "verses": [
+        9
+      ],
+      "hebrew": "מִשְׁכָּן",
+      "transliteration": "mishkân",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "The tent sanctuary Israel carried in the wilderness. Exodus 25–40 describes it.",
+      "grammar": "This is the dictionary form of Hebrew word H4908. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H4908",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-tabernacle-26-H4908-tabernacle",
+      "label": "Tabernacle",
+      "matches": [
+        "tabernacle"
+      ],
+      "chapter": 26,
+      "verses": [
+        1,
+        6,
+        7,
+        12,
+        13,
+        15,
+        17,
+        18,
+        20,
+        22,
+        23,
+        26,
+        27,
+        30,
+        35
+      ],
+      "hebrew": "מִשְׁכָּן",
+      "transliteration": "mishkân",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "The tent sanctuary Israel carried in the wilderness. Exodus 25–40 describes it.",
+      "grammar": "This is the dictionary form of Hebrew word H4908. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H4908",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-tabernacle-27-H4908-tabernacle",
+      "label": "Tabernacle",
+      "matches": [
+        "tabernacle"
+      ],
+      "chapter": 27,
+      "verses": [
+        9,
+        19
+      ],
+      "hebrew": "מִשְׁכָּן",
+      "transliteration": "mishkân",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "The tent sanctuary Israel carried in the wilderness. Exodus 25–40 describes it.",
+      "grammar": "This is the dictionary form of Hebrew word H4908. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H4908",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-tabernacle-35-H4908-tabernacle",
+      "label": "Tabernacle",
+      "matches": [
+        "tabernacle"
+      ],
+      "chapter": 35,
+      "verses": [
+        11,
+        15,
+        18
+      ],
+      "hebrew": "מִשְׁכָּן",
+      "transliteration": "mishkân",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "The tent sanctuary Israel carried in the wilderness. Exodus 25–40 describes it.",
+      "grammar": "This is the dictionary form of Hebrew word H4908. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H4908",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-tabernacle-36-H4908-tabernacle",
+      "label": "Tabernacle",
+      "matches": [
+        "tabernacle"
+      ],
+      "chapter": 36,
+      "verses": [
+        8,
+        13,
+        14,
+        20,
+        22,
+        23,
+        25,
+        27,
+        28,
+        31,
+        32
+      ],
+      "hebrew": "מִשְׁכָּן",
+      "transliteration": "mishkân",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "The tent sanctuary Israel carried in the wilderness. Exodus 25–40 describes it.",
+      "grammar": "This is the dictionary form of Hebrew word H4908. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H4908",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-tabernacle-38-H4908-tabernacle",
+      "label": "Tabernacle",
+      "matches": [
+        "tabernacle"
+      ],
+      "chapter": 38,
+      "verses": [
+        20,
+        21,
+        31
+      ],
+      "hebrew": "מִשְׁכָּן",
+      "transliteration": "mishkân",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "The tent sanctuary Israel carried in the wilderness. Exodus 25–40 describes it.",
+      "grammar": "This is the dictionary form of Hebrew word H4908. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H4908",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-tabernacle-39-H4908-tabernacle",
+      "label": "Tabernacle",
+      "matches": [
+        "tabernacle"
+      ],
+      "chapter": 39,
+      "verses": [
+        32,
+        33,
+        40
+      ],
+      "hebrew": "מִשְׁכָּן",
+      "transliteration": "mishkân",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "The tent sanctuary Israel carried in the wilderness. Exodus 25–40 describes it.",
+      "grammar": "This is the dictionary form of Hebrew word H4908. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H4908",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-tabernacle-40-H4908-tabernacle",
+      "label": "Tabernacle",
+      "matches": [
+        "tabernacle"
+      ],
+      "chapter": 40,
+      "verses": [
+        2,
+        5,
+        6,
+        9,
+        17,
+        18,
+        19,
+        21,
+        22,
+        24,
+        28,
+        29,
+        33,
+        34,
+        35,
+        36,
+        38
+      ],
+      "hebrew": "מִשְׁכָּן",
+      "transliteration": "mishkân",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "The tent sanctuary Israel carried in the wilderness. Exodus 25–40 describes it.",
+      "grammar": "This is the dictionary form of Hebrew word H4908. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H4908",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-tabernacle",
@@ -3206,7 +4443,68 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-passover-12-H6453-passover",
+      "label": "Passover",
+      "matches": [
+        "Passover"
+      ],
+      "chapter": 12,
+      "verses": [
+        11,
+        21,
+        27,
+        43,
+        48
+      ],
+      "hebrew": "פֶּסַח",
+      "transliteration": "peçach",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A yearly feast that recalls Israel’s escape from Egypt. Exodus 12 gives its first account.",
+      "grammar": "This is the dictionary form of Hebrew word H6453. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H6453",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-passover-34-H6453-passover",
+      "label": "Passover",
+      "matches": [
+        "Passover"
+      ],
+      "chapter": 34,
+      "verses": [
+        25
+      ],
+      "hebrew": "פֶּסַח",
+      "transliteration": "peçach",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A yearly feast that recalls Israel’s escape from Egypt. Exodus 12 gives its first account.",
+      "grammar": "This is the dictionary form of Hebrew word H6453. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H6453",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-passover",
@@ -3227,7 +4525,8 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
     },
     {
       "id": "glossary-baal",
@@ -3249,7 +4548,36 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-asherah-34-H842-asherah",
+      "label": "Asherah",
+      "matches": [
+        "Asherah"
+      ],
+      "chapter": 34,
+      "verses": [
+        13
+      ],
+      "hebrew": "אֲשֵׁרָה",
+      "transliteration": "ʼăshêrâh",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A goddess, or a wooden pole set up for her. Deuteronomy 16:21 forbids such poles.",
+      "grammar": "This is the dictionary form of Hebrew word H842. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H842",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-asherah",
@@ -3272,7 +4600,94 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-circumcision-6-H6189-uncircumcised",
+      "label": "Circumcision",
+      "matches": [
+        "uncircumcised"
+      ],
+      "chapter": 6,
+      "verses": [
+        12,
+        30
+      ],
+      "hebrew": "עָרֵל",
+      "transliteration": "ʻârêl",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "The cutting of the foreskin. Genesis 17 makes it the sign of God’s covenant with Abraham.",
+      "grammar": "This is the dictionary form of Hebrew word H6189. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H6189",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-circumcision-12-H6189-uncircumcised",
+      "label": "Circumcision",
+      "matches": [
+        "uncircumcised"
+      ],
+      "chapter": 12,
+      "verses": [
+        48
+      ],
+      "hebrew": "עָרֵל",
+      "transliteration": "ʻârêl",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "The cutting of the foreskin. Genesis 17 makes it the sign of God’s covenant with Abraham.",
+      "grammar": "This is the dictionary form of Hebrew word H6189. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H6189",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-circumcision-12-H4135-circumcised",
+      "label": "Circumcision",
+      "matches": [
+        "circumcised"
+      ],
+      "chapter": 12,
+      "verses": [
+        44,
+        48
+      ],
+      "hebrew": "מוּל",
+      "transliteration": "mûwl",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "The cutting of the foreskin. Genesis 17 makes it the sign of God’s covenant with Abraham.",
+      "grammar": "This is the dictionary form of Hebrew word H4135. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H4135",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-circumcision",
@@ -3297,7 +4712,94 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-atonement-29-H3722-atonement",
+      "label": "Atonement",
+      "matches": [
+        "atonement"
+      ],
+      "chapter": 29,
+      "verses": [
+        33,
+        37
+      ],
+      "hebrew": "כָּפַר",
+      "transliteration": "kâphar",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "The covering or removal of guilt, so that people and God are reconciled. Leviticus 16 describes a yearly day for it.",
+      "grammar": "This is the dictionary form of Hebrew word H3722. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H3722",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-atonement-30-H3722-atonement",
+      "label": "Atonement",
+      "matches": [
+        "atonement"
+      ],
+      "chapter": 30,
+      "verses": [
+        15,
+        16
+      ],
+      "hebrew": "כָּפַר",
+      "transliteration": "kâphar",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "The covering or removal of guilt, so that people and God are reconciled. Leviticus 16 describes a yearly day for it.",
+      "grammar": "This is the dictionary form of Hebrew word H3722. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H3722",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-atonement-32-H3722-atonement",
+      "label": "Atonement",
+      "matches": [
+        "atonement"
+      ],
+      "chapter": 32,
+      "verses": [
+        30
+      ],
+      "hebrew": "כָּפַר",
+      "transliteration": "kâphar",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "The covering or removal of guilt, so that people and God are reconciled. Leviticus 16 describes a yearly day for it.",
+      "grammar": "This is the dictionary form of Hebrew word H3722. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H3722",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-atonement",
@@ -3318,7 +4820,183 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-cherubim-25-H3742-cherubim",
+      "label": "Cherubim",
+      "matches": [
+        "cherubim"
+      ],
+      "chapter": 25,
+      "verses": [
+        18,
+        19,
+        20,
+        22
+      ],
+      "hebrew": "כְּרוּב",
+      "transliteration": "kᵉrûwb",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "Winged heavenly beings. Gold figures of them stood over the ark (Exodus 25:18–20).",
+      "grammar": "This is the dictionary form of Hebrew word H3742. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H3742",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-cherubim-26-H3742-cherubim",
+      "label": "Cherubim",
+      "matches": [
+        "cherubim"
+      ],
+      "chapter": 26,
+      "verses": [
+        1,
+        31
+      ],
+      "hebrew": "כְּרוּב",
+      "transliteration": "kᵉrûwb",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "Winged heavenly beings. Gold figures of them stood over the ark (Exodus 25:18–20).",
+      "grammar": "This is the dictionary form of Hebrew word H3742. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H3742",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-cherubim-36-H3742-cherubim",
+      "label": "Cherubim",
+      "matches": [
+        "cherubim"
+      ],
+      "chapter": 36,
+      "verses": [
+        8,
+        35
+      ],
+      "hebrew": "כְּרוּב",
+      "transliteration": "kᵉrûwb",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "Winged heavenly beings. Gold figures of them stood over the ark (Exodus 25:18–20).",
+      "grammar": "This is the dictionary form of Hebrew word H3742. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H3742",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-cherubim-37-H3742-cherubim",
+      "label": "Cherubim",
+      "matches": [
+        "cherubim"
+      ],
+      "chapter": 37,
+      "verses": [
+        7,
+        8,
+        9
+      ],
+      "hebrew": "כְּרוּב",
+      "transliteration": "kᵉrûwb",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "Winged heavenly beings. Gold figures of them stood over the ark (Exodus 25:18–20).",
+      "grammar": "This is the dictionary form of Hebrew word H3742. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H3742",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-cherubim-25-H3742-cherub",
+      "label": "Cherubim",
+      "matches": [
+        "cherub"
+      ],
+      "chapter": 25,
+      "verses": [
+        19
+      ],
+      "hebrew": "כְּרוּב",
+      "transliteration": "kᵉrûwb",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "Winged heavenly beings. Gold figures of them stood over the ark (Exodus 25:18–20).",
+      "grammar": "This is the dictionary form of Hebrew word H3742. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H3742",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-cherubim-37-H3742-cherub",
+      "label": "Cherubim",
+      "matches": [
+        "cherub"
+      ],
+      "chapter": 37,
+      "verses": [
+        8
+      ],
+      "hebrew": "כְּרוּב",
+      "transliteration": "kᵉrûwb",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "Winged heavenly beings. Gold figures of them stood over the ark (Exodus 25:18–20).",
+      "grammar": "This is the dictionary form of Hebrew word H3742. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H3742",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-cherubim",
@@ -3340,7 +5018,164 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-ephod-25-H646-ephod",
+      "label": "Ephod",
+      "matches": [
+        "ephod"
+      ],
+      "chapter": 25,
+      "verses": [
+        7
+      ],
+      "hebrew": "אֵפוֹד",
+      "transliteration": "ʼêphôwd",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A garment worn by priests. The high priest’s ephod carried a breastplate with twelve stones (Exodus 28).",
+      "grammar": "This is the dictionary form of Hebrew word H646. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H646",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-ephod-28-H646-ephod",
+      "label": "Ephod",
+      "matches": [
+        "ephod"
+      ],
+      "chapter": 28,
+      "verses": [
+        4,
+        6,
+        12,
+        15,
+        25,
+        26,
+        27,
+        28,
+        31
+      ],
+      "hebrew": "אֵפוֹד",
+      "transliteration": "ʼêphôwd",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A garment worn by priests. The high priest’s ephod carried a breastplate with twelve stones (Exodus 28).",
+      "grammar": "This is the dictionary form of Hebrew word H646. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H646",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-ephod-29-H646-ephod",
+      "label": "Ephod",
+      "matches": [
+        "ephod"
+      ],
+      "chapter": 29,
+      "verses": [
+        5
+      ],
+      "hebrew": "אֵפוֹד",
+      "transliteration": "ʼêphôwd",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A garment worn by priests. The high priest’s ephod carried a breastplate with twelve stones (Exodus 28).",
+      "grammar": "This is the dictionary form of Hebrew word H646. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H646",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-ephod-35-H646-ephod",
+      "label": "Ephod",
+      "matches": [
+        "ephod"
+      ],
+      "chapter": 35,
+      "verses": [
+        9,
+        27
+      ],
+      "hebrew": "אֵפוֹד",
+      "transliteration": "ʼêphôwd",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A garment worn by priests. The high priest’s ephod carried a breastplate with twelve stones (Exodus 28).",
+      "grammar": "This is the dictionary form of Hebrew word H646. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H646",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-ephod-39-H646-ephod",
+      "label": "Ephod",
+      "matches": [
+        "ephod"
+      ],
+      "chapter": 39,
+      "verses": [
+        2,
+        7,
+        8,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "hebrew": "אֵפוֹד",
+      "transliteration": "ʼêphôwd",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A garment worn by priests. The high priest’s ephod carried a breastplate with twelve stones (Exodus 28).",
+      "grammar": "This is the dictionary form of Hebrew word H646. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H646",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-ephod",
@@ -3361,7 +5196,64 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-urim-28-H8550-thummim",
+      "label": "Urim and Thummim",
+      "matches": [
+        "Thummim"
+      ],
+      "chapter": 28,
+      "verses": [
+        30
+      ],
+      "hebrew": "תֻּמִּים",
+      "transliteration": "Tummîym",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "Objects the high priest used to ask for God’s decision. The Bible does not describe them.",
+      "grammar": "This is the dictionary form of Hebrew word H8550. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H8550",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-urim-28-H224-urim",
+      "label": "Urim and Thummim",
+      "matches": [
+        "Urim"
+      ],
+      "chapter": 28,
+      "verses": [
+        30
+      ],
+      "hebrew": "אוּרִים",
+      "transliteration": "ʼÛwrîym",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "Objects the high priest used to ask for God’s decision. The Bible does not describe them.",
+      "grammar": "This is the dictionary form of Hebrew word H224. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H224",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-urim",
@@ -3383,7 +5275,208 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-firstborn-4-H1060-firstborn",
+      "label": "Firstborn",
+      "matches": [
+        "firstborn"
+      ],
+      "chapter": 4,
+      "verses": [
+        22,
+        23
+      ],
+      "hebrew": "בְּכוֹר",
+      "transliteration": "bᵉkôwr",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "The oldest child. A firstborn son received a double share of the inheritance (Deuteronomy 21:17).",
+      "grammar": "This is the dictionary form of Hebrew word H1060. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H1060",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-firstborn-6-H1060-firstborn",
+      "label": "Firstborn",
+      "matches": [
+        "firstborn"
+      ],
+      "chapter": 6,
+      "verses": [
+        14
+      ],
+      "hebrew": "בְּכוֹר",
+      "transliteration": "bᵉkôwr",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "The oldest child. A firstborn son received a double share of the inheritance (Deuteronomy 21:17).",
+      "grammar": "This is the dictionary form of Hebrew word H1060. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H1060",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-firstborn-11-H1060-firstborn",
+      "label": "Firstborn",
+      "matches": [
+        "firstborn"
+      ],
+      "chapter": 11,
+      "verses": [
+        5
+      ],
+      "hebrew": "בְּכוֹר",
+      "transliteration": "bᵉkôwr",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "The oldest child. A firstborn son received a double share of the inheritance (Deuteronomy 21:17).",
+      "grammar": "This is the dictionary form of Hebrew word H1060. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H1060",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-firstborn-12-H1060-firstborn",
+      "label": "Firstborn",
+      "matches": [
+        "firstborn"
+      ],
+      "chapter": 12,
+      "verses": [
+        12,
+        29
+      ],
+      "hebrew": "בְּכוֹר",
+      "transliteration": "bᵉkôwr",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "The oldest child. A firstborn son received a double share of the inheritance (Deuteronomy 21:17).",
+      "grammar": "This is the dictionary form of Hebrew word H1060. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H1060",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-firstborn-13-H1060-firstborn",
+      "label": "Firstborn",
+      "matches": [
+        "firstborn"
+      ],
+      "chapter": 13,
+      "verses": [
+        2,
+        13,
+        15
+      ],
+      "hebrew": "בְּכוֹר",
+      "transliteration": "bᵉkôwr",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "The oldest child. A firstborn son received a double share of the inheritance (Deuteronomy 21:17).",
+      "grammar": "This is the dictionary form of Hebrew word H1060. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H1060",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-firstborn-22-H1060-firstborn",
+      "label": "Firstborn",
+      "matches": [
+        "firstborn"
+      ],
+      "chapter": 22,
+      "verses": [
+        29
+      ],
+      "hebrew": "בְּכוֹר",
+      "transliteration": "bᵉkôwr",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "The oldest child. A firstborn son received a double share of the inheritance (Deuteronomy 21:17).",
+      "grammar": "This is the dictionary form of Hebrew word H1060. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H1060",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-firstborn-34-H1060-firstborn",
+      "label": "Firstborn",
+      "matches": [
+        "firstborn"
+      ],
+      "chapter": 34,
+      "verses": [
+        20
+      ],
+      "hebrew": "בְּכוֹר",
+      "transliteration": "bᵉkôwr",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "The oldest child. A firstborn son received a double share of the inheritance (Deuteronomy 21:17).",
+      "grammar": "This is the dictionary form of Hebrew word H1060. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H1060",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-firstborn",
@@ -3404,7 +5497,38 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-manna-16-H4478-manna",
+      "label": "Manna",
+      "matches": [
+        "manna"
+      ],
+      "chapter": 16,
+      "verses": [
+        31,
+        33,
+        35
+      ],
+      "hebrew": "מָן",
+      "transliteration": "mân",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "The food Israel gathered in the wilderness. Exodus 16 describes it.",
+      "grammar": "This is the dictionary form of Hebrew word H4478. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H4478",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-manna",
@@ -3425,7 +5549,177 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-redeem-21-H6306-redemption",
+      "label": "Redeem",
+      "matches": [
+        "redemption"
+      ],
+      "chapter": 21,
+      "verses": [
+        30
+      ],
+      "hebrew": "פִּדְיוֹם",
+      "transliteration": "pidyôwm",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "To buy back a person or property. The word is also used for God’s rescue of people.",
+      "grammar": "This is the dictionary form of Hebrew word H6306. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H6306",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-redeem-15-H1350-redeemed",
+      "label": "Redeem",
+      "matches": [
+        "redeemed"
+      ],
+      "chapter": 15,
+      "verses": [
+        13
+      ],
+      "hebrew": "גָּאַל",
+      "transliteration": "gâʼal",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "To buy back a person or property. The word is also used for God’s rescue of people.",
+      "grammar": "This is the dictionary form of Hebrew word H1350. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H1350",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-redeem-21-H6299-redeemed",
+      "label": "Redeem",
+      "matches": [
+        "redeemed"
+      ],
+      "chapter": 21,
+      "verses": [
+        8
+      ],
+      "hebrew": "פָּדָה",
+      "transliteration": "pâdâh",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "To buy back a person or property. The word is also used for God’s rescue of people.",
+      "grammar": "This is the dictionary form of Hebrew word H6299. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H6299",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-redeem-6-H1350-redeem",
+      "label": "Redeem",
+      "matches": [
+        "redeem"
+      ],
+      "chapter": 6,
+      "verses": [
+        6
+      ],
+      "hebrew": "גָּאַל",
+      "transliteration": "gâʼal",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "To buy back a person or property. The word is also used for God’s rescue of people.",
+      "grammar": "This is the dictionary form of Hebrew word H1350. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H1350",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-redeem-13-H6299-redeem",
+      "label": "Redeem",
+      "matches": [
+        "redeem"
+      ],
+      "chapter": 13,
+      "verses": [
+        13,
+        15
+      ],
+      "hebrew": "פָּדָה",
+      "transliteration": "pâdâh",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "To buy back a person or property. The word is also used for God’s rescue of people.",
+      "grammar": "This is the dictionary form of Hebrew word H6299. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H6299",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-redeem-34-H6299-redeem",
+      "label": "Redeem",
+      "matches": [
+        "redeem"
+      ],
+      "chapter": 34,
+      "verses": [
+        20
+      ],
+      "hebrew": "פָּדָה",
+      "transliteration": "pâdâh",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "To buy back a person or property. The word is also used for God’s rescue of people.",
+      "grammar": "This is the dictionary form of Hebrew word H6299. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H6299",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-redeem",
@@ -3450,7 +5744,36 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-leprosy-4-H6879-leprous",
+      "label": "Leprosy",
+      "matches": [
+        "leprous"
+      ],
+      "chapter": 4,
+      "verses": [
+        6
+      ],
+      "hebrew": "צָרַע",
+      "transliteration": "tsâraʻ",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A skin disease. Leviticus 13 uses the word for several conditions and sets rules for them.",
+      "grammar": "This is the dictionary form of Hebrew word H6879. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H6879",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-leprosy",
@@ -3474,7 +5797,411 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-anoint-25-H4888-anointing",
+      "label": "Anoint",
+      "matches": [
+        "anointing"
+      ],
+      "chapter": 25,
+      "verses": [
+        6
+      ],
+      "hebrew": "מִשְׁחָה",
+      "transliteration": "mishchâh",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "To pour oil on a person or thing to set it apart. Kings and priests were anointed.",
+      "grammar": "This is the dictionary form of Hebrew word H4888. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H4888",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-anoint-29-H4888-anointing",
+      "label": "Anoint",
+      "matches": [
+        "anointing"
+      ],
+      "chapter": 29,
+      "verses": [
+        7,
+        21
+      ],
+      "hebrew": "מִשְׁחָה",
+      "transliteration": "mishchâh",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "To pour oil on a person or thing to set it apart. Kings and priests were anointed.",
+      "grammar": "This is the dictionary form of Hebrew word H4888. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H4888",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-anoint-30-H4888-anointing",
+      "label": "Anoint",
+      "matches": [
+        "anointing"
+      ],
+      "chapter": 30,
+      "verses": [
+        25,
+        31
+      ],
+      "hebrew": "מִשְׁחָה",
+      "transliteration": "mishchâh",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "To pour oil on a person or thing to set it apart. Kings and priests were anointed.",
+      "grammar": "This is the dictionary form of Hebrew word H4888. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H4888",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-anoint-31-H4888-anointing",
+      "label": "Anoint",
+      "matches": [
+        "anointing"
+      ],
+      "chapter": 31,
+      "verses": [
+        11
+      ],
+      "hebrew": "מִשְׁחָה",
+      "transliteration": "mishchâh",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "To pour oil on a person or thing to set it apart. Kings and priests were anointed.",
+      "grammar": "This is the dictionary form of Hebrew word H4888. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H4888",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-anoint-35-H4888-anointing",
+      "label": "Anoint",
+      "matches": [
+        "anointing"
+      ],
+      "chapter": 35,
+      "verses": [
+        8,
+        15,
+        28
+      ],
+      "hebrew": "מִשְׁחָה",
+      "transliteration": "mishchâh",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "To pour oil on a person or thing to set it apart. Kings and priests were anointed.",
+      "grammar": "This is the dictionary form of Hebrew word H4888. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H4888",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-anoint-37-H4888-anointing",
+      "label": "Anoint",
+      "matches": [
+        "anointing"
+      ],
+      "chapter": 37,
+      "verses": [
+        29
+      ],
+      "hebrew": "מִשְׁחָה",
+      "transliteration": "mishchâh",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "To pour oil on a person or thing to set it apart. Kings and priests were anointed.",
+      "grammar": "This is the dictionary form of Hebrew word H4888. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H4888",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-anoint-39-H4888-anointing",
+      "label": "Anoint",
+      "matches": [
+        "anointing"
+      ],
+      "chapter": 39,
+      "verses": [
+        38
+      ],
+      "hebrew": "מִשְׁחָה",
+      "transliteration": "mishchâh",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "To pour oil on a person or thing to set it apart. Kings and priests were anointed.",
+      "grammar": "This is the dictionary form of Hebrew word H4888. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H4888",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-anoint-40-H4888-anointing",
+      "label": "Anoint",
+      "matches": [
+        "anointing"
+      ],
+      "chapter": 40,
+      "verses": [
+        9,
+        15
+      ],
+      "hebrew": "מִשְׁחָה",
+      "transliteration": "mishchâh",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "To pour oil on a person or thing to set it apart. Kings and priests were anointed.",
+      "grammar": "This is the dictionary form of Hebrew word H4888. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H4888",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-anoint-29-H4886-anointed",
+      "label": "Anoint",
+      "matches": [
+        "anointed"
+      ],
+      "chapter": 29,
+      "verses": [
+        2
+      ],
+      "hebrew": "מָשַׁח",
+      "transliteration": "mâshach",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "To pour oil on a person or thing to set it apart. Kings and priests were anointed.",
+      "grammar": "This is the dictionary form of Hebrew word H4886. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H4886",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-anoint-40-H4886-anointed",
+      "label": "Anoint",
+      "matches": [
+        "anointed"
+      ],
+      "chapter": 40,
+      "verses": [
+        15
+      ],
+      "hebrew": "מָשַׁח",
+      "transliteration": "mâshach",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "To pour oil on a person or thing to set it apart. Kings and priests were anointed.",
+      "grammar": "This is the dictionary form of Hebrew word H4886. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H4886",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-anoint-28-H4886-anoint",
+      "label": "Anoint",
+      "matches": [
+        "anoint"
+      ],
+      "chapter": 28,
+      "verses": [
+        41
+      ],
+      "hebrew": "מָשַׁח",
+      "transliteration": "mâshach",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "To pour oil on a person or thing to set it apart. Kings and priests were anointed.",
+      "grammar": "This is the dictionary form of Hebrew word H4886. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H4886",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-anoint-29-H4886-anoint",
+      "label": "Anoint",
+      "matches": [
+        "anoint"
+      ],
+      "chapter": 29,
+      "verses": [
+        7,
+        36
+      ],
+      "hebrew": "מָשַׁח",
+      "transliteration": "mâshach",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "To pour oil on a person or thing to set it apart. Kings and priests were anointed.",
+      "grammar": "This is the dictionary form of Hebrew word H4886. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H4886",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-anoint-30-H4886-anoint",
+      "label": "Anoint",
+      "matches": [
+        "anoint"
+      ],
+      "chapter": 30,
+      "verses": [
+        26,
+        30
+      ],
+      "hebrew": "מָשַׁח",
+      "transliteration": "mâshach",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "To pour oil on a person or thing to set it apart. Kings and priests were anointed.",
+      "grammar": "This is the dictionary form of Hebrew word H4886. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H4886",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-anoint-40-H4886-anoint",
+      "label": "Anoint",
+      "matches": [
+        "anoint"
+      ],
+      "chapter": 40,
+      "verses": [
+        9,
+        10,
+        11,
+        13,
+        15
+      ],
+      "hebrew": "מָשַׁח",
+      "transliteration": "mâshach",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "To pour oil on a person or thing to set it apart. Kings and priests were anointed.",
+      "grammar": "This is the dictionary form of Hebrew word H4886. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H4886",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-anoint",
@@ -3498,7 +6225,371 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-cubit-25-H520-cubits",
+      "label": "Cubit",
+      "matches": [
+        "cubits"
+      ],
+      "chapter": 25,
+      "verses": [
+        10,
+        17,
+        23
+      ],
+      "hebrew": "אַמָּה",
+      "transliteration": "ʼammâh",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A length from the elbow to the fingertip, about 46 centimeters.",
+      "grammar": "This is the dictionary form of Hebrew word H520. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H520",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-cubit-26-H520-cubits",
+      "label": "Cubit",
+      "matches": [
+        "cubits"
+      ],
+      "chapter": 26,
+      "verses": [
+        2,
+        8,
+        16
+      ],
+      "hebrew": "אַמָּה",
+      "transliteration": "ʼammâh",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A length from the elbow to the fingertip, about 46 centimeters.",
+      "grammar": "This is the dictionary form of Hebrew word H520. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H520",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-cubit-27-H520-cubits",
+      "label": "Cubit",
+      "matches": [
+        "cubits"
+      ],
+      "chapter": 27,
+      "verses": [
+        1,
+        9,
+        12,
+        13,
+        14,
+        16,
+        18
+      ],
+      "hebrew": "אַמָּה",
+      "transliteration": "ʼammâh",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A length from the elbow to the fingertip, about 46 centimeters.",
+      "grammar": "This is the dictionary form of Hebrew word H520. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H520",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-cubit-30-H520-cubits",
+      "label": "Cubit",
+      "matches": [
+        "cubits"
+      ],
+      "chapter": 30,
+      "verses": [
+        2
+      ],
+      "hebrew": "אַמָּה",
+      "transliteration": "ʼammâh",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A length from the elbow to the fingertip, about 46 centimeters.",
+      "grammar": "This is the dictionary form of Hebrew word H520. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H520",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-cubit-36-H520-cubits",
+      "label": "Cubit",
+      "matches": [
+        "cubits"
+      ],
+      "chapter": 36,
+      "verses": [
+        9,
+        15,
+        21
+      ],
+      "hebrew": "אַמָּה",
+      "transliteration": "ʼammâh",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A length from the elbow to the fingertip, about 46 centimeters.",
+      "grammar": "This is the dictionary form of Hebrew word H520. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H520",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-cubit-37-H520-cubits",
+      "label": "Cubit",
+      "matches": [
+        "cubits"
+      ],
+      "chapter": 37,
+      "verses": [
+        1,
+        6,
+        10,
+        25
+      ],
+      "hebrew": "אַמָּה",
+      "transliteration": "ʼammâh",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A length from the elbow to the fingertip, about 46 centimeters.",
+      "grammar": "This is the dictionary form of Hebrew word H520. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H520",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-cubit-38-H520-cubits",
+      "label": "Cubit",
+      "matches": [
+        "cubits"
+      ],
+      "chapter": 38,
+      "verses": [
+        1,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15,
+        18
+      ],
+      "hebrew": "אַמָּה",
+      "transliteration": "ʼammâh",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A length from the elbow to the fingertip, about 46 centimeters.",
+      "grammar": "This is the dictionary form of Hebrew word H520. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H520",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-cubit-25-H520-cubit",
+      "label": "Cubit",
+      "matches": [
+        "cubit"
+      ],
+      "chapter": 25,
+      "verses": [
+        10,
+        17,
+        23
+      ],
+      "hebrew": "אַמָּה",
+      "transliteration": "ʼammâh",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A length from the elbow to the fingertip, about 46 centimeters.",
+      "grammar": "This is the dictionary form of Hebrew word H520. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H520",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-cubit-26-H520-cubit",
+      "label": "Cubit",
+      "matches": [
+        "cubit"
+      ],
+      "chapter": 26,
+      "verses": [
+        13
+      ],
+      "hebrew": "אַמָּה",
+      "transliteration": "ʼammâh",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A length from the elbow to the fingertip, about 46 centimeters.",
+      "grammar": "This is the dictionary form of Hebrew word H520. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H520",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-cubit-30-H520-cubit",
+      "label": "Cubit",
+      "matches": [
+        "cubit"
+      ],
+      "chapter": 30,
+      "verses": [
+        2
+      ],
+      "hebrew": "אַמָּה",
+      "transliteration": "ʼammâh",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A length from the elbow to the fingertip, about 46 centimeters.",
+      "grammar": "This is the dictionary form of Hebrew word H520. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H520",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-cubit-36-H520-cubit",
+      "label": "Cubit",
+      "matches": [
+        "cubit"
+      ],
+      "chapter": 36,
+      "verses": [
+        21
+      ],
+      "hebrew": "אַמָּה",
+      "transliteration": "ʼammâh",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A length from the elbow to the fingertip, about 46 centimeters.",
+      "grammar": "This is the dictionary form of Hebrew word H520. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H520",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-cubit-37-H520-cubit",
+      "label": "Cubit",
+      "matches": [
+        "cubit"
+      ],
+      "chapter": 37,
+      "verses": [
+        1,
+        6,
+        10,
+        25
+      ],
+      "hebrew": "אַמָּה",
+      "transliteration": "ʼammâh",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A length from the elbow to the fingertip, about 46 centimeters.",
+      "grammar": "This is the dictionary form of Hebrew word H520. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H520",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-cubit",
@@ -3520,7 +6611,126 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-shekel-21-H8255-shekels",
+      "label": "Shekel",
+      "matches": [
+        "shekels"
+      ],
+      "chapter": 21,
+      "verses": [
+        32
+      ],
+      "hebrew": "שֶׁקֶל",
+      "transliteration": "sheqel",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A unit of weight, about 10 grams. Silver was weighed in shekels as money.",
+      "grammar": "This is the dictionary form of Hebrew word H8255. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H8255",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-shekel-38-H8255-shekels",
+      "label": "Shekel",
+      "matches": [
+        "shekels"
+      ],
+      "chapter": 38,
+      "verses": [
+        24,
+        25,
+        29
+      ],
+      "hebrew": "שֶׁקֶל",
+      "transliteration": "sheqel",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A unit of weight, about 10 grams. Silver was weighed in shekels as money.",
+      "grammar": "This is the dictionary form of Hebrew word H8255. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H8255",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-shekel-30-H8255-shekel",
+      "label": "Shekel",
+      "matches": [
+        "shekel"
+      ],
+      "chapter": 30,
+      "verses": [
+        13,
+        15,
+        24
+      ],
+      "hebrew": "שֶׁקֶל",
+      "transliteration": "sheqel",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A unit of weight, about 10 grams. Silver was weighed in shekels as money.",
+      "grammar": "This is the dictionary form of Hebrew word H8255. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H8255",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-shekel-38-H8255-shekel",
+      "label": "Shekel",
+      "matches": [
+        "shekel"
+      ],
+      "chapter": 38,
+      "verses": [
+        24,
+        25,
+        26
+      ],
+      "hebrew": "שֶׁקֶל",
+      "transliteration": "sheqel",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A unit of weight, about 10 grams. Silver was weighed in shekels as money.",
+      "grammar": "This is the dictionary form of Hebrew word H8255. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H8255",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-shekel",
@@ -3542,7 +6752,123 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-talent-38-H3603-talents",
+      "label": "Talent",
+      "matches": [
+        "talents"
+      ],
+      "chapter": 38,
+      "verses": [
+        24,
+        25,
+        27,
+        29
+      ],
+      "hebrew": "כִּכָּר",
+      "transliteration": "kikkâr",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A large unit of weight, about 30 kilograms.",
+      "grammar": "This is the dictionary form of Hebrew word H3603. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H3603",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-talent-25-H3603-talent",
+      "label": "Talent",
+      "matches": [
+        "talent"
+      ],
+      "chapter": 25,
+      "verses": [
+        39
+      ],
+      "hebrew": "כִּכָּר",
+      "transliteration": "kikkâr",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A large unit of weight, about 30 kilograms.",
+      "grammar": "This is the dictionary form of Hebrew word H3603. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H3603",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-talent-37-H3603-talent",
+      "label": "Talent",
+      "matches": [
+        "talent"
+      ],
+      "chapter": 37,
+      "verses": [
+        24
+      ],
+      "hebrew": "כִּכָּר",
+      "transliteration": "kikkâr",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A large unit of weight, about 30 kilograms.",
+      "grammar": "This is the dictionary form of Hebrew word H3603. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H3603",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-talent-38-H3603-talent",
+      "label": "Talent",
+      "matches": [
+        "talent"
+      ],
+      "chapter": 38,
+      "verses": [
+        27
+      ],
+      "hebrew": "כִּכָּר",
+      "transliteration": "kikkâr",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A large unit of weight, about 30 kilograms.",
+      "grammar": "This is the dictionary form of Hebrew word H3603. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H3603",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-talent",
@@ -3564,7 +6890,36 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-ephah-16-H374-ephah",
+      "label": "Ephah",
+      "matches": [
+        "ephah"
+      ],
+      "chapter": 16,
+      "verses": [
+        36
+      ],
+      "hebrew": "אֵיפָה",
+      "transliteration": "ʼêyphâh",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A dry measure of about 22 liters.",
+      "grammar": "This is the dictionary form of Hebrew word H374. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H374",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-ephah",
@@ -3586,7 +6941,299 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-yeast-12-H4682-unleavened",
+      "label": "Yeast",
+      "matches": [
+        "unleavened"
+      ],
+      "chapter": 12,
+      "verses": [
+        8,
+        15,
+        17,
+        18,
+        20,
+        39
+      ],
+      "hebrew": "מַצָּה",
+      "transliteration": "matstsâh",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "Yeast, or leaven, makes dough rise. Bread made without it is called unleavened.",
+      "grammar": "This is the dictionary form of Hebrew word H4682. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H4682",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-yeast-13-H4682-unleavened",
+      "label": "Yeast",
+      "matches": [
+        "unleavened"
+      ],
+      "chapter": 13,
+      "verses": [
+        6,
+        7
+      ],
+      "hebrew": "מַצָּה",
+      "transliteration": "matstsâh",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "Yeast, or leaven, makes dough rise. Bread made without it is called unleavened.",
+      "grammar": "This is the dictionary form of Hebrew word H4682. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H4682",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-yeast-23-H4682-unleavened",
+      "label": "Yeast",
+      "matches": [
+        "unleavened"
+      ],
+      "chapter": 23,
+      "verses": [
+        15
+      ],
+      "hebrew": "מַצָּה",
+      "transliteration": "matstsâh",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "Yeast, or leaven, makes dough rise. Bread made without it is called unleavened.",
+      "grammar": "This is the dictionary form of Hebrew word H4682. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H4682",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-yeast-29-H4682-unleavened",
+      "label": "Yeast",
+      "matches": [
+        "unleavened"
+      ],
+      "chapter": 29,
+      "verses": [
+        2,
+        23
+      ],
+      "hebrew": "מַצָּה",
+      "transliteration": "matstsâh",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "Yeast, or leaven, makes dough rise. Bread made without it is called unleavened.",
+      "grammar": "This is the dictionary form of Hebrew word H4682. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H4682",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-yeast-34-H4682-unleavened",
+      "label": "Yeast",
+      "matches": [
+        "unleavened"
+      ],
+      "chapter": 34,
+      "verses": [
+        18
+      ],
+      "hebrew": "מַצָּה",
+      "transliteration": "matstsâh",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "Yeast, or leaven, makes dough rise. Bread made without it is called unleavened.",
+      "grammar": "This is the dictionary form of Hebrew word H4682. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H4682",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-yeast-12-H2557-leavened",
+      "label": "Yeast",
+      "matches": [
+        "leavened"
+      ],
+      "chapter": 12,
+      "verses": [
+        15,
+        19,
+        20
+      ],
+      "hebrew": "חָמֵץ",
+      "transliteration": "châmêts",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "Yeast, or leaven, makes dough rise. Bread made without it is called unleavened.",
+      "grammar": "This is the dictionary form of Hebrew word H2557. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H2557",
+      "language": "hebrew",
+      "chapterDefault": false
+    },
+    {
+      "id": "glossary-yeast-12-H2556-leavened",
+      "label": "Yeast",
+      "matches": [
+        "leavened"
+      ],
+      "chapter": 12,
+      "verses": [
+        34,
+        39
+      ],
+      "hebrew": "חָמֵץ",
+      "transliteration": "châmêts",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "Yeast, or leaven, makes dough rise. Bread made without it is called unleavened.",
+      "grammar": "This is the dictionary form of Hebrew word H2556. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H2556",
+      "language": "hebrew",
+      "chapterDefault": false
+    },
+    {
+      "id": "glossary-yeast-13-H2557-leavened",
+      "label": "Yeast",
+      "matches": [
+        "leavened"
+      ],
+      "chapter": 13,
+      "verses": [
+        3,
+        7
+      ],
+      "hebrew": "חָמֵץ",
+      "transliteration": "châmêts",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "Yeast, or leaven, makes dough rise. Bread made without it is called unleavened.",
+      "grammar": "This is the dictionary form of Hebrew word H2557. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H2557",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-yeast-23-H2557-leavened",
+      "label": "Yeast",
+      "matches": [
+        "leavened"
+      ],
+      "chapter": 23,
+      "verses": [
+        18
+      ],
+      "hebrew": "חָמֵץ",
+      "transliteration": "châmêts",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "Yeast, or leaven, makes dough rise. Bread made without it is called unleavened.",
+      "grammar": "This is the dictionary form of Hebrew word H2557. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H2557",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-yeast-34-H2557-leavened",
+      "label": "Yeast",
+      "matches": [
+        "leavened"
+      ],
+      "chapter": 34,
+      "verses": [
+        25
+      ],
+      "hebrew": "חָמֵץ",
+      "transliteration": "châmêts",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "Yeast, or leaven, makes dough rise. Bread made without it is called unleavened.",
+      "grammar": "This is the dictionary form of Hebrew word H2557. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H2557",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-yeast",
@@ -3610,7 +7257,8 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
     }
   ],
   "guides": [

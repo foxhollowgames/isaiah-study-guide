@@ -43,7 +43,7 @@ document.addEventListener('error', event => {
     art.querySelector('.portrait-initial').removeAttribute('aria-hidden');
   }
 }, true);
-export const people = {"micah-prophet": {"name": "Micah, the Morashtite", "role": "Prophet from Moresheth who warns rulers and promises gathering", "life": "Birth and death years are not securely known.", "dateNote": "Historical life dates remain uncertain.", "locations": ["Samaria", "Jerusalem"], "passages": ["Micah 1–7"], "importance": "His warning exposes violence hidden beneath paid assurances of peace and confidence in God’s presence.", "connections": "He names Samaria and Jerusalem while addressing rulers, prophets, priests, and the people.", "verseScope": {}, "linkNames": ["Micah"], "chapterIds": [1, 2, 3, 4, 5, 6, 7]}};
+export const people = {"micah-prophet": {"name": "Micah, the Morashtite", "role": "Prophet from Moresheth who warns rulers and promises gathering", "life": "Birth and death years are not securely known.", "dateNote": "Historical life dates remain uncertain.", "locations": ["Samaria", "Jerusalem"], "passages": ["Micah 1–7"], "importance": "His warning exposes violence hidden beneath paid assurances of peace and confidence in God’s presence.", "connections": "He names Samaria and Jerusalem while addressing rulers, prophets, priests, and the people.", "verseScope": {}, "linkNames": ["Micah"], "chapterIds": [1, 2, 3, 4, 5, 6, 7], "word": {"language": "hebrew", "strongId": "H4318", "key": "Micah", "checkedVerses": 1, "example": [1, 1], "hebrew": "מִיכָה", "transliteration": "Mîykâh", "greek": "", "greekNote": "", "sourceIds": ["strong", "oshb"]}}};
 
 function linkedPeopleHtml(text, currentId) {
   const terms = [];
@@ -93,7 +93,7 @@ export function personProfileHtml(id, options = {}) {
   const person = people[id];
   if (!person) return '';
   const linkHtml = options.linkHtml || (text => linkedPeopleHtml(text, id));
-  const back = options.backLabel ? `<button class="back-button person-profile-back" data-action="person-profile-back">← ${escapeHtml(options.backLabel)}</button>` : '';
+  const back = options.backLabel ? `<button class="back-button person-profile-back" data-action="person-profile-back" aria-label="${escapeHtml(options.backLabel)}">Back</button>` : '';
   return `<section class="person-profile" data-person-profile="${id}">${back}<h2>${escapeHtml(person.name)}</h2>${portraitsHtml([id], {interactive:false})}<dl class="person-facts">${person.locations.length ? `<div><dt>Key locations</dt><dd>${person.locations.map(linkHtml).join(' · ')}</dd></div>` : ""}</dl><div class="word-section"><h3>Why this person matters</h3><p>${linkHtml(person.importance)}</p></div><div class="word-section"><h3>Story connections</h3><p>${linkHtml(person.connections)}</p></div><div class="word-section"><h3>Relevant passages</h3><ul class="profile-passages">${person.passages.map(passage => `<li>${escapeHtml(passage)}</li>`).join('')}</ul></div></section>`;
 }
 

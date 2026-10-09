@@ -238,6 +238,34 @@
       ],
       "type": "Scholar interview",
       "limitations": "This is one scholar’s interpretation, separate from Church teaching. Proposed dates and claims about scholarly agreement were not independently verified."
+    },
+    {
+      "id": "strong",
+      "title": "A Concise Dictionary of the Words in the Hebrew Bible",
+      "author": "James Strong · Open Scriptures XML edition",
+      "year": "1894 / digital edition",
+      "perspective": "historical",
+      "category": "Historical lexicon",
+      "url": "https://github.com/openscriptures/strongs",
+      "summary": "Lists Hebrew dictionary forms and their possible meanings. Use it with the passage to study a word.",
+      "limits": "This is an older dictionary. Compare its meanings with the passage. A list of meanings alone cannot show which one applies.",
+      "license": "Source XML declares Public Domain. Only selected headwords are used.",
+      "type": "Historical lexicon",
+      "limitations": "This is an older dictionary. Compare its meanings with the passage. A list of meanings alone cannot show which one applies."
+    },
+    {
+      "id": "oshb",
+      "title": "Open Scriptures Hebrew Bible",
+      "author": "Open Scriptures contributors / Westminster Leningrad Codex",
+      "year": "Digital edition",
+      "perspective": "historical",
+      "category": "Hebrew text",
+      "url": "https://hb.openscriptures.org/",
+      "summary": "Provides the Hebrew text and word identifiers. This study guide uses these to check selected words against their verses.",
+      "limits": "The app checks selected words, not every English–Hebrew match. It shows Hebrew dictionary forms. The forms in the verses can differ.",
+      "license": "Hebrew text public domain; lemma/morphology data CC BY 4.0. Original work of the Open Scriptures Hebrew Bible, https://hb.openscriptures.org/.",
+      "type": "Hebrew text",
+      "limitations": "The app checks selected words, not every English–Hebrew match. It shows Hebrew dictionary forms. The forms in the verses can differ."
     }
   ],
   "passages": [
@@ -1784,7 +1812,25 @@
       ],
       "detail": "Named geographical reference in Joshua.",
       "uncertainty": "The marker shows a broad locality or traditional identification. It does not verify occupation dates, an event, or precise tribal boundaries.",
-      "chapterLocation": true
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H4714",
+        "key": "Egypt",
+        "checkedVerses": 16,
+        "example": [
+          2,
+          10
+        ],
+        "hebrew": "מִצְרַיִם",
+        "transliteration": "Mitsrayim",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "canaan",
@@ -1799,7 +1845,25 @@
       ],
       "detail": "Named geographical reference in Joshua.",
       "uncertainty": "The marker shows a broad locality or traditional identification. It does not verify occupation dates, an event, or precise tribal boundaries.",
-      "chapterLocation": true
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H3667",
+        "key": "Canaan",
+        "checkedVerses": 8,
+        "example": [
+          5,
+          12
+        ],
+        "hebrew": "כְּנַעַן",
+        "transliteration": "Kᵉnaʻan",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "hebron",
@@ -1814,7 +1878,25 @@
       ],
       "detail": "Named geographical reference in Joshua.",
       "uncertainty": "The marker shows a broad locality or traditional identification. It does not verify occupation dates, an event, or precise tribal boundaries.",
-      "chapterLocation": true
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H2275",
+        "key": "Hebron",
+        "checkedVerses": 15,
+        "example": [
+          10,
+          3
+        ],
+        "hebrew": "חֶבְרוֹן",
+        "transliteration": "Chebrôwn",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "heshbon",
@@ -1829,7 +1911,25 @@
       ],
       "detail": "Named geographical reference in Joshua.",
       "uncertainty": "The marker shows a broad locality or traditional identification. It does not verify occupation dates, an event, or precise tribal boundaries.",
-      "chapterLocation": true
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H2809",
+        "key": "Heshbon",
+        "checkedVerses": 9,
+        "example": [
+          9,
+          10
+        ],
+        "hebrew": "חֶשְׁבּוֹן",
+        "transliteration": "Cheshbôwn",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "bashan",
@@ -1844,7 +1944,25 @@
       ],
       "detail": "Named geographical reference in Joshua.",
       "uncertainty": "The marker shows a broad locality or traditional identification. It does not verify occupation dates, an event, or precise tribal boundaries.",
-      "chapterLocation": true
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H1316",
+        "key": "Bashan",
+        "checkedVerses": 13,
+        "example": [
+          9,
+          10
+        ],
+        "hebrew": "בָּשָׁן",
+        "transliteration": "Bâshân",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "gilead",
@@ -1859,7 +1977,25 @@
       ],
       "detail": "Named geographical reference in Joshua.",
       "uncertainty": "The marker shows a broad locality or traditional identification. It does not verify occupation dates, an event, or precise tribal boundaries.",
-      "chapterLocation": true
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H1568",
+        "key": "Gilead",
+        "checkedVerses": 15,
+        "example": [
+          12,
+          2
+        ],
+        "hebrew": "גִּלְעָד",
+        "transliteration": "Gilʻâd",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "gerizim",
@@ -1874,7 +2010,26 @@
       ],
       "detail": "Named geographical reference in Joshua.",
       "uncertainty": "The marker shows a broad locality or traditional identification. It does not verify occupation dates, an event, or precise tribal boundaries.",
-      "chapterLocation": true
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H1630",
+        "key": "Gerizim",
+        "checkedVerses": 1,
+        "example": [
+          8,
+          33
+        ],
+        "hebrew": "גְּרִזִים",
+        "transliteration": "Gᵉrizîym",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ],
+        "languageNote": "This is the dictionary form of the name “Gerizim.”"
+      }
     },
     {
       "id": "ebal",
@@ -1889,7 +2044,26 @@
       ],
       "detail": "Named geographical reference in Joshua.",
       "uncertainty": "The marker shows a broad locality or traditional identification. It does not verify occupation dates, an event, or precise tribal boundaries.",
-      "chapterLocation": true
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H5858",
+        "key": "Ebal",
+        "checkedVerses": 2,
+        "example": [
+          8,
+          30
+        ],
+        "hebrew": "עֵיבָל",
+        "transliteration": "ʻÊybâl",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ],
+        "languageNote": "This is the dictionary form of the name “Ebal.”"
+      }
     },
     {
       "id": "shittim",
@@ -1904,7 +2078,25 @@
       ],
       "detail": "Named locality or region in Joshua.",
       "uncertainty": "The precise camp location is uncertain.",
-      "chapterLocation": true
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H7851",
+        "key": "Shittim",
+        "checkedVerses": 2,
+        "example": [
+          2,
+          1
+        ],
+        "hebrew": "שִׁטִּים",
+        "transliteration": "Shiṭṭîym",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "jordan",
@@ -1919,7 +2111,25 @@
       ],
       "detail": "Named locality or region in Joshua.",
       "uncertainty": "This shows a river region, not an identified ancient ford.",
-      "chapterLocation": true
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H3383",
+        "key": "Jordan",
+        "checkedVerses": 58,
+        "example": [
+          1,
+          2
+        ],
+        "hebrew": "יַרְדֵּן",
+        "transliteration": "Yardên",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "gilgal",
@@ -1934,7 +2144,25 @@
       ],
       "detail": "Named locality or region in Joshua.",
       "uncertainty": "The camp’s precise identification is uncertain.",
-      "chapterLocation": true
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H1537",
+        "key": "Gilgal",
+        "checkedVerses": 13,
+        "example": [
+          4,
+          19
+        ],
+        "hebrew": "גִּלְגָּל",
+        "transliteration": "Gilgâl",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "jericho",
@@ -1949,7 +2177,25 @@
       ],
       "detail": "Named locality or region in Joshua.",
       "uncertainty": "The site marker does not establish the date or cause of the narrated destruction.",
-      "chapterLocation": true
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H3405",
+        "key": "Jericho",
+        "checkedVerses": 26,
+        "example": [
+          2,
+          1
+        ],
+        "hebrew": "יְרִיחוֹ",
+        "transliteration": "Yᵉrîychôw",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "ai",
@@ -1964,7 +2210,25 @@
       ],
       "detail": "Named locality or region in Joshua.",
       "uncertainty": "The identification and conquest chronology are disputed.",
-      "chapterLocation": true
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H5857",
+        "key": "Ai",
+        "checkedVerses": 26,
+        "example": [
+          7,
+          2
+        ],
+        "hebrew": "עַי",
+        "transliteration": "ʻAy",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "bethel",
@@ -1979,7 +2243,25 @@
       ],
       "detail": "Named locality or region in Joshua.",
       "uncertainty": "The marker is a traditional locality, not an event verification.",
-      "chapterLocation": true
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H1008",
+        "key": "Bethel",
+        "checkedVerses": 10,
+        "example": [
+          7,
+          2
+        ],
+        "hebrew": "בֵּית־אֵל",
+        "transliteration": "Bêyth-ʼÊl",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "gibeon",
@@ -1994,7 +2276,25 @@
       ],
       "detail": "Named locality or region in Joshua.",
       "uncertainty": "The location does not identify a precise battle site.",
-      "chapterLocation": true
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H1391",
+        "key": "Gibeon",
+        "checkedVerses": 13,
+        "example": [
+          9,
+          3
+        ],
+        "hebrew": "גִּבְעוֹן",
+        "transliteration": "Gibʻôwn",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "jerusalem",
@@ -2009,7 +2309,25 @@
       ],
       "detail": "Named locality or region in Joshua.",
       "uncertainty": "The marker does not identify a particular king or campaign.",
-      "chapterLocation": true
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H3389",
+        "key": "Jerusalem",
+        "checkedVerses": 8,
+        "example": [
+          10,
+          1
+        ],
+        "hebrew": "יְרוּשָׁלַ͏ִם",
+        "transliteration": "Yᵉrûwshâlaim",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "jarmuth",
@@ -2024,7 +2342,25 @@
       ],
       "detail": "Named locality or region in Joshua.",
       "uncertainty": "The marker shows the traditional site, not a verified king’s residence.",
-      "chapterLocation": true
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H3412",
+        "key": "Jarmuth",
+        "checkedVerses": 6,
+        "example": [
+          10,
+          3
+        ],
+        "hebrew": "יַרְמוּת",
+        "transliteration": "Yarmûwth",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "lachish",
@@ -2039,7 +2375,25 @@
       ],
       "detail": "Named locality or region in Joshua.",
       "uncertainty": "The site has a long history. Its presence does not verify Joshua’s campaign.",
-      "chapterLocation": true
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H3923",
+        "key": "Lachish",
+        "checkedVerses": 10,
+        "example": [
+          10,
+          3
+        ],
+        "hebrew": "לָכִישׁ",
+        "transliteration": "Lâkîysh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "beth-horon",
@@ -2054,7 +2408,25 @@
       ],
       "detail": "Named locality or region in Joshua.",
       "uncertainty": "This shows the pass region, not an excavated campaign road.",
-      "chapterLocation": true
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H1032",
+        "key": "Beth-horon",
+        "checkedVerses": 7,
+        "example": [
+          10,
+          10
+        ],
+        "hebrew": "בֵּית חוֹרוֹן",
+        "transliteration": "Bêyth Chôwrôwn",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "azekah",
@@ -2069,7 +2441,25 @@
       ],
       "detail": "Named locality or region in Joshua.",
       "uncertainty": "The marker does not identify the described pursuit route.",
-      "chapterLocation": true
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H5825",
+        "key": "Azekah",
+        "checkedVerses": 3,
+        "example": [
+          10,
+          10
+        ],
+        "hebrew": "עֲזֵקָה",
+        "transliteration": "ʻĂzêqâh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "hazor",
@@ -2085,7 +2475,25 @@
       ],
       "detail": "Named locality or region in Joshua.",
       "uncertainty": "Excavated fire deposits do not identify Joshua as their cause.",
-      "chapterLocation": true
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H2674",
+        "key": "Hazor",
+        "checkedVerses": 7,
+        "example": [
+          11,
+          1
+        ],
+        "hebrew": "חָצוֹר",
+        "transliteration": "Châtsôwr",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "debir-town",
@@ -2100,7 +2508,25 @@
       ],
       "detail": "Named locality or region in Joshua.",
       "uncertainty": "Competing site identifications remain. This regional marker is not a certain town location.",
-      "chapterLocation": true
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H1688",
+        "key": "Debir",
+        "checkedVerses": 10,
+        "example": [
+          10,
+          3
+        ],
+        "hebrew": "דְּבִיר",
+        "transliteration": "Dᵉbîyr",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "gezer",
@@ -2115,7 +2541,25 @@
       ],
       "detail": "Named locality or region in Joshua.",
       "uncertainty": "The marker does not establish the chronology of forced labor described in the chapter.",
-      "chapterLocation": true
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H1507",
+        "key": "Gezer",
+        "checkedVerses": 5,
+        "example": [
+          10,
+          33
+        ],
+        "hebrew": "גֶּזֶר",
+        "transliteration": "Gezer",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "shiloh",
@@ -2130,7 +2574,25 @@
       ],
       "detail": "Named locality or region in Joshua.",
       "uncertainty": "The marker does not independently date the assembly or sanctuary.",
-      "chapterLocation": true
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H7887",
+        "key": "Shiloh",
+        "checkedVerses": 8,
+        "example": [
+          18,
+          1
+        ],
+        "hebrew": "שִׁילֹה",
+        "transliteration": "Shîylôh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "shechem",
@@ -2145,7 +2607,25 @@
       ],
       "detail": "Named locality or region in Joshua.",
       "uncertainty": "The locality does not verify the covenant ceremony or Joseph’s burial.",
-      "chapterLocation": true
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H7927",
+        "key": "Shechem",
+        "checkedVerses": 6,
+        "example": [
+          17,
+          7
+        ],
+        "hebrew": "שְׁכֶם",
+        "transliteration": "Shᵉkem",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "timnath-serah",
@@ -2168,6 +2648,155 @@
   "regions": [],
   "words": [
     {
+      "id": "glossary-levites-3-H3881-levitical",
+      "label": "Levites",
+      "matches": [
+        "Levitical"
+      ],
+      "chapter": 3,
+      "verses": [
+        3
+      ],
+      "hebrew": "לֵוִיִּי",
+      "transliteration": "Lêvîyîy",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "Members of the tribe of Levi. They cared for the tabernacle and later the temple. The priests came from one Levite family, Aaron’s.",
+      "grammar": "This is the dictionary form of Hebrew word H3881. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H3881",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-levites-8-H3881-levitical",
+      "label": "Levites",
+      "matches": [
+        "Levitical"
+      ],
+      "chapter": 8,
+      "verses": [
+        33
+      ],
+      "hebrew": "לֵוִיִּי",
+      "transliteration": "Lêvîyîy",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "Members of the tribe of Levi. They cared for the tabernacle and later the temple. The priests came from one Levite family, Aaron’s.",
+      "grammar": "This is the dictionary form of Hebrew word H3881. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H3881",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-levites-14-H3881-levites",
+      "label": "Levites",
+      "matches": [
+        "Levites"
+      ],
+      "chapter": 14,
+      "verses": [
+        3,
+        4
+      ],
+      "hebrew": "לֵוִיִּי",
+      "transliteration": "Lêvîyîy",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "Members of the tribe of Levi. They cared for the tabernacle and later the temple. The priests came from one Levite family, Aaron’s.",
+      "grammar": "This is the dictionary form of Hebrew word H3881. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H3881",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-levites-18-H3881-levites",
+      "label": "Levites",
+      "matches": [
+        "Levites"
+      ],
+      "chapter": 18,
+      "verses": [
+        7
+      ],
+      "hebrew": "לֵוִיִּי",
+      "transliteration": "Lêvîyîy",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "Members of the tribe of Levi. They cared for the tabernacle and later the temple. The priests came from one Levite family, Aaron’s.",
+      "grammar": "This is the dictionary form of Hebrew word H3881. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H3881",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-levites-21-H3881-levites",
+      "label": "Levites",
+      "matches": [
+        "Levites"
+      ],
+      "chapter": 21,
+      "verses": [
+        1,
+        3,
+        4,
+        8,
+        20,
+        27,
+        34,
+        40,
+        41
+      ],
+      "hebrew": "לֵוִיִּי",
+      "transliteration": "Lêvîyîy",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "Members of the tribe of Levi. They cared for the tabernacle and later the temple. The priests came from one Levite family, Aaron’s.",
+      "grammar": "This is the dictionary form of Hebrew word H3881. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H3881",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
       "id": "glossary-levites",
       "label": "Levites",
       "matches": [
@@ -2188,7 +2817,168 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-ark-3-H727-ark",
+      "label": "Ark",
+      "matches": [
+        "ark"
+      ],
+      "chapter": 3,
+      "verses": [
+        3,
+        6,
+        8,
+        11,
+        13,
+        14,
+        15,
+        17
+      ],
+      "hebrew": "אָרוֹן",
+      "transliteration": "ʼârôwn",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A chest or a boat. In Genesis it is Noah’s boat. Later it is the gold-covered chest that held the covenant tablets.",
+      "grammar": "This is the dictionary form of Hebrew word H727. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H727",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-ark-4-H727-ark",
+      "label": "Ark",
+      "matches": [
+        "ark"
+      ],
+      "chapter": 4,
+      "verses": [
+        5,
+        7,
+        9,
+        10,
+        11,
+        16,
+        18
+      ],
+      "hebrew": "אָרוֹן",
+      "transliteration": "ʼârôwn",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A chest or a boat. In Genesis it is Noah’s boat. Later it is the gold-covered chest that held the covenant tablets.",
+      "grammar": "This is the dictionary form of Hebrew word H727. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H727",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-ark-6-H727-ark",
+      "label": "Ark",
+      "matches": [
+        "ark"
+      ],
+      "chapter": 6,
+      "verses": [
+        4,
+        6,
+        7,
+        8,
+        9,
+        11,
+        12,
+        13
+      ],
+      "hebrew": "אָרוֹן",
+      "transliteration": "ʼârôwn",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A chest or a boat. In Genesis it is Noah’s boat. Later it is the gold-covered chest that held the covenant tablets.",
+      "grammar": "This is the dictionary form of Hebrew word H727. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H727",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-ark-7-H727-ark",
+      "label": "Ark",
+      "matches": [
+        "ark"
+      ],
+      "chapter": 7,
+      "verses": [
+        6
+      ],
+      "hebrew": "אָרוֹן",
+      "transliteration": "ʼârôwn",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A chest or a boat. In Genesis it is Noah’s boat. Later it is the gold-covered chest that held the covenant tablets.",
+      "grammar": "This is the dictionary form of Hebrew word H727. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H727",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-ark-8-H727-ark",
+      "label": "Ark",
+      "matches": [
+        "ark"
+      ],
+      "chapter": 8,
+      "verses": [
+        33
+      ],
+      "hebrew": "אָרוֹן",
+      "transliteration": "ʼârôwn",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A chest or a boat. In Genesis it is Noah’s boat. Later it is the gold-covered chest that held the covenant tablets.",
+      "grammar": "This is the dictionary form of Hebrew word H727. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H727",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-ark",
@@ -2209,7 +2999,245 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-covenant-3-H1285-covenant",
+      "label": "Covenant",
+      "matches": [
+        "covenant"
+      ],
+      "chapter": 3,
+      "verses": [
+        3,
+        6,
+        8,
+        11,
+        14,
+        17
+      ],
+      "hebrew": "בְּרִית",
+      "transliteration": "bᵉrîyth",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A binding agreement with promises and duties. In the Bible, God makes covenants with people.",
+      "grammar": "This is the dictionary form of Hebrew word H1285. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H1285",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-covenant-4-H1285-covenant",
+      "label": "Covenant",
+      "matches": [
+        "covenant"
+      ],
+      "chapter": 4,
+      "verses": [
+        7,
+        9,
+        18
+      ],
+      "hebrew": "בְּרִית",
+      "transliteration": "bᵉrîyth",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A binding agreement with promises and duties. In the Bible, God makes covenants with people.",
+      "grammar": "This is the dictionary form of Hebrew word H1285. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H1285",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-covenant-6-H1285-covenant",
+      "label": "Covenant",
+      "matches": [
+        "covenant"
+      ],
+      "chapter": 6,
+      "verses": [
+        6,
+        8
+      ],
+      "hebrew": "בְּרִית",
+      "transliteration": "bᵉrîyth",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A binding agreement with promises and duties. In the Bible, God makes covenants with people.",
+      "grammar": "This is the dictionary form of Hebrew word H1285. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H1285",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-covenant-7-H1285-covenant",
+      "label": "Covenant",
+      "matches": [
+        "covenant"
+      ],
+      "chapter": 7,
+      "verses": [
+        11,
+        15
+      ],
+      "hebrew": "בְּרִית",
+      "transliteration": "bᵉrîyth",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A binding agreement with promises and duties. In the Bible, God makes covenants with people.",
+      "grammar": "This is the dictionary form of Hebrew word H1285. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H1285",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-covenant-8-H1285-covenant",
+      "label": "Covenant",
+      "matches": [
+        "covenant"
+      ],
+      "chapter": 8,
+      "verses": [
+        33
+      ],
+      "hebrew": "בְּרִית",
+      "transliteration": "bᵉrîyth",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A binding agreement with promises and duties. In the Bible, God makes covenants with people.",
+      "grammar": "This is the dictionary form of Hebrew word H1285. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H1285",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-covenant-9-H1285-covenant",
+      "label": "Covenant",
+      "matches": [
+        "covenant"
+      ],
+      "chapter": 9,
+      "verses": [
+        6,
+        7,
+        11,
+        15,
+        16
+      ],
+      "hebrew": "בְּרִית",
+      "transliteration": "bᵉrîyth",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A binding agreement with promises and duties. In the Bible, God makes covenants with people.",
+      "grammar": "This is the dictionary form of Hebrew word H1285. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H1285",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-covenant-23-H1285-covenant",
+      "label": "Covenant",
+      "matches": [
+        "covenant"
+      ],
+      "chapter": 23,
+      "verses": [
+        16
+      ],
+      "hebrew": "בְּרִית",
+      "transliteration": "bᵉrîyth",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A binding agreement with promises and duties. In the Bible, God makes covenants with people.",
+      "grammar": "This is the dictionary form of Hebrew word H1285. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H1285",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-covenant-24-H1285-covenant",
+      "label": "Covenant",
+      "matches": [
+        "covenant"
+      ],
+      "chapter": 24,
+      "verses": [
+        25
+      ],
+      "hebrew": "בְּרִית",
+      "transliteration": "bᵉrîyth",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A binding agreement with promises and duties. In the Bible, God makes covenants with people.",
+      "grammar": "This is the dictionary form of Hebrew word H1285. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H1285",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-covenant",
@@ -2231,7 +3259,36 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-assembly-8-H6951-assembly",
+      "label": "Assembly",
+      "matches": [
+        "assembly"
+      ],
+      "chapter": 8,
+      "verses": [
+        35
+      ],
+      "hebrew": "קָהָל",
+      "transliteration": "qâhâl",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A gathering of people. In the New Testament letters it means a group of believers. Many translations say “church.”",
+      "grammar": "This is the dictionary form of Hebrew word H6951. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H6951",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-assembly",
@@ -2253,7 +3310,37 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-tabernacle-22-H4908-tabernacle",
+      "label": "Tabernacle",
+      "matches": [
+        "tabernacle"
+      ],
+      "chapter": 22,
+      "verses": [
+        19,
+        29
+      ],
+      "hebrew": "מִשְׁכָּן",
+      "transliteration": "mishkân",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "The tent sanctuary Israel carried in the wilderness. Exodus 25–40 describes it.",
+      "grammar": "This is the dictionary form of Hebrew word H4908. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H4908",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-tabernacle",
@@ -2274,7 +3361,37 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-passover-5-H6453-passover",
+      "label": "Passover",
+      "matches": [
+        "Passover"
+      ],
+      "chapter": 5,
+      "verses": [
+        10,
+        11
+      ],
+      "hebrew": "פֶּסַח",
+      "transliteration": "peçach",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A yearly feast that recalls Israel’s escape from Egypt. Exodus 12 gives its first account.",
+      "grammar": "This is the dictionary form of Hebrew word H6453. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H6453",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-passover",
@@ -2295,7 +3412,8 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
     },
     {
       "id": "glossary-baal",
@@ -2317,7 +3435,95 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-circumcision-5-H6189-uncircumcised",
+      "label": "Circumcision",
+      "matches": [
+        "uncircumcised"
+      ],
+      "chapter": 5,
+      "verses": [
+        7
+      ],
+      "hebrew": "עָרֵל",
+      "transliteration": "ʻârêl",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "The cutting of the foreskin. Genesis 17 makes it the sign of God’s covenant with Abraham.",
+      "grammar": "This is the dictionary form of Hebrew word H6189. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H6189",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-circumcision-5-H4135-circumcise",
+      "label": "Circumcision",
+      "matches": [
+        "circumcise"
+      ],
+      "chapter": 5,
+      "verses": [
+        2
+      ],
+      "hebrew": "מוּל",
+      "transliteration": "mûwl",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "The cutting of the foreskin. Genesis 17 makes it the sign of God’s covenant with Abraham.",
+      "grammar": "This is the dictionary form of Hebrew word H4135. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H4135",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-circumcision-5-H4135-circumcised",
+      "label": "Circumcision",
+      "matches": [
+        "circumcised"
+      ],
+      "chapter": 5,
+      "verses": [
+        3,
+        4,
+        5,
+        7
+      ],
+      "hebrew": "מוּל",
+      "transliteration": "mûwl",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "The cutting of the foreskin. Genesis 17 makes it the sign of God’s covenant with Abraham.",
+      "grammar": "This is the dictionary form of Hebrew word H4135. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H4135",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-circumcision",
@@ -2342,7 +3548,64 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-firstborn-6-H1060-firstborn",
+      "label": "Firstborn",
+      "matches": [
+        "firstborn"
+      ],
+      "chapter": 6,
+      "verses": [
+        26
+      ],
+      "hebrew": "בְּכוֹר",
+      "transliteration": "bᵉkôwr",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "The oldest child. A firstborn son received a double share of the inheritance (Deuteronomy 21:17).",
+      "grammar": "This is the dictionary form of Hebrew word H1060. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H1060",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-firstborn-17-H1060-firstborn",
+      "label": "Firstborn",
+      "matches": [
+        "firstborn"
+      ],
+      "chapter": 17,
+      "verses": [
+        1
+      ],
+      "hebrew": "בְּכוֹר",
+      "transliteration": "bᵉkôwr",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "The oldest child. A firstborn son received a double share of the inheritance (Deuteronomy 21:17).",
+      "grammar": "This is the dictionary form of Hebrew word H1060. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H1060",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-firstborn",
@@ -2363,7 +3626,36 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-manna-5-H4478-manna",
+      "label": "Manna",
+      "matches": [
+        "manna"
+      ],
+      "chapter": 5,
+      "verses": [
+        12
+      ],
+      "hebrew": "מָן",
+      "transliteration": "mân",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "The food Israel gathered in the wilderness. Exodus 16 describes it.",
+      "grammar": "This is the dictionary form of Hebrew word H4478. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H4478",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-manna",
@@ -2384,7 +3676,36 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-unclean-22-H2931-unclean",
+      "label": "Unclean",
+      "matches": [
+        "unclean"
+      ],
+      "chapter": 22,
+      "verses": [
+        19
+      ],
+      "hebrew": "טָמֵא",
+      "transliteration": "ṭâmêʼ",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "Unfit to take part in worship until a set cleansing is done. Leviticus 11–15 gives the rules.",
+      "grammar": "This is the dictionary form of Hebrew word H2931. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H2931",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-unclean",
@@ -2406,7 +3727,120 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-remnant-10-H8300-remnant",
+      "label": "Remnant",
+      "matches": [
+        "remnant"
+      ],
+      "chapter": 10,
+      "verses": [
+        20
+      ],
+      "hebrew": "שָׂרִיד",
+      "transliteration": "sârîyd",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "The part of a people that survives a disaster.",
+      "grammar": "This is the dictionary form of Hebrew word H8300. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H8300",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-remnant-12-H3499-remnant",
+      "label": "Remnant",
+      "matches": [
+        "remnant"
+      ],
+      "chapter": 12,
+      "verses": [
+        4
+      ],
+      "hebrew": "יֶתֶר",
+      "transliteration": "yether",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "The part of a people that survives a disaster.",
+      "grammar": "This is the dictionary form of Hebrew word H3499. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H3499",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-remnant-13-H3499-remnant",
+      "label": "Remnant",
+      "matches": [
+        "remnant"
+      ],
+      "chapter": 13,
+      "verses": [
+        12
+      ],
+      "hebrew": "יֶתֶר",
+      "transliteration": "yether",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "The part of a people that survives a disaster.",
+      "grammar": "This is the dictionary form of Hebrew word H3499. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H3499",
+      "language": "hebrew",
+      "chapterDefault": true
+    },
+    {
+      "id": "glossary-remnant-23-H3499-remnant",
+      "label": "Remnant",
+      "matches": [
+        "remnant"
+      ],
+      "chapter": 23,
+      "verses": [
+        12
+      ],
+      "hebrew": "יֶתֶר",
+      "transliteration": "yether",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "The part of a people that survives a disaster.",
+      "grammar": "This is the dictionary form of Hebrew word H3499. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H3499",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-remnant",
@@ -2427,7 +3861,36 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-cubit-3-H520-cubits",
+      "label": "Cubit",
+      "matches": [
+        "cubits"
+      ],
+      "chapter": 3,
+      "verses": [
+        4
+      ],
+      "hebrew": "אַמָּה",
+      "transliteration": "ʼammâh",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A length from the elbow to the fingertip, about 46 centimeters.",
+      "grammar": "This is the dictionary form of Hebrew word H520. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H520",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-cubit",
@@ -2449,7 +3912,36 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-shekel-7-H8255-shekels",
+      "label": "Shekel",
+      "matches": [
+        "shekels"
+      ],
+      "chapter": 7,
+      "verses": [
+        21
+      ],
+      "hebrew": "שֶׁקֶל",
+      "transliteration": "sheqel",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A unit of weight, about 10 grams. Silver was weighed in shekels as money.",
+      "grammar": "This is the dictionary form of Hebrew word H8255. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H8255",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-shekel",
@@ -2471,7 +3963,36 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-yeast-5-H4682-unleavened",
+      "label": "Yeast",
+      "matches": [
+        "unleavened"
+      ],
+      "chapter": 5,
+      "verses": [
+        11
+      ],
+      "hebrew": "מַצָּה",
+      "transliteration": "matstsâh",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "Yeast, or leaven, makes dough rise. Bread made without it is called unleavened.",
+      "grammar": "This is the dictionary form of Hebrew word H4682. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H4682",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-yeast",
@@ -2495,7 +4016,8 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
     }
   ],
   "guides": [

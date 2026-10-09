@@ -204,6 +204,34 @@
       ],
       "type": "museum",
       "limitations": "The vessel offers a comparison for the use of scent. It is not an object named in this passage."
+    },
+    {
+      "id": "strong",
+      "title": "A Concise Dictionary of the Words in the Hebrew Bible",
+      "author": "James Strong · Open Scriptures XML edition",
+      "year": "1894 / digital edition",
+      "perspective": "historical",
+      "category": "Historical lexicon",
+      "url": "https://github.com/openscriptures/strongs",
+      "summary": "Lists Hebrew dictionary forms and their possible meanings. Use it with the passage to study a word.",
+      "limits": "This is an older dictionary. Compare its meanings with the passage. A list of meanings alone cannot show which one applies.",
+      "license": "Source XML declares Public Domain. Only selected headwords are used.",
+      "type": "Historical lexicon",
+      "limitations": "This is an older dictionary. Compare its meanings with the passage. A list of meanings alone cannot show which one applies."
+    },
+    {
+      "id": "oshb",
+      "title": "Open Scriptures Hebrew Bible",
+      "author": "Open Scriptures contributors / Westminster Leningrad Codex",
+      "year": "Digital edition",
+      "perspective": "historical",
+      "category": "Hebrew text",
+      "url": "https://hb.openscriptures.org/",
+      "summary": "Provides the Hebrew text and word identifiers. This study guide uses these to check selected words against their verses.",
+      "limits": "The app checks selected words, not every English–Hebrew match. It shows Hebrew dictionary forms. The forms in the verses can differ.",
+      "license": "Hebrew text public domain; lemma/morphology data CC BY 4.0. Original work of the Open Scriptures Hebrew Bible, https://hb.openscriptures.org/.",
+      "type": "Hebrew text",
+      "limitations": "The app checks selected words, not every English–Hebrew match. It shows Hebrew dictionary forms. The forms in the verses can differ."
     }
   ],
   "passages": [
@@ -676,7 +704,25 @@
       ],
       "detail": "The poems name Jerusalem’s women and compare beauty with the city.",
       "uncertainty": "This marker locates a named reference in the poem. It does not establish a visit by the lovers.",
-      "chapterLocation": true
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H3389",
+        "key": "Jerusalem",
+        "checkedVerses": 8,
+        "example": [
+          1,
+          5
+        ],
+        "hebrew": "יְרוּשָׁלַ͏ִם",
+        "transliteration": "Yᵉrûwshâlaim",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "en-gedi",
@@ -691,7 +737,25 @@
       ],
       "detail": "The woman compares her lover with henna blossoms from En Gedi.",
       "uncertainty": "This marker locates a named reference in the poem. It does not establish a visit by the lovers.",
-      "chapterLocation": true
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H5872",
+        "key": "En Gedi",
+        "checkedVerses": 1,
+        "example": [
+          1,
+          14
+        ],
+        "hebrew": "עֵין גֶּדִי",
+        "transliteration": "ʻÊyn Gedîy",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "gilead",
@@ -706,7 +770,25 @@
       ],
       "detail": "The lover compares the woman’s hair with goats on Gilead.",
       "uncertainty": "This marker locates a named reference in the poem. It does not establish a visit by the lovers.",
-      "chapterLocation": true
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H1568",
+        "key": "Gilead",
+        "checkedVerses": 2,
+        "example": [
+          4,
+          1
+        ],
+        "hebrew": "גִּלְעָד",
+        "transliteration": "Gilʻâd",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "damascus",
@@ -721,7 +803,25 @@
       ],
       "detail": "A tower facing Damascus appears in praise of the woman.",
       "uncertainty": "This marker locates a named reference in the poem. It does not establish a visit by the lovers.",
-      "chapterLocation": true
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H1834",
+        "key": "Damascus",
+        "checkedVerses": 1,
+        "example": [
+          7,
+          4
+        ],
+        "hebrew": "דַּמֶּשֶׂק",
+        "transliteration": "Dammeseq",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "lebanon",
@@ -736,7 +836,25 @@
       ],
       "detail": "The poems use Lebanon’s wood, scent, and appearance in praise.",
       "uncertainty": "This approximate marker locates a poetic reference. The exact pool, dance setting, or lovers’ visit is not established.",
-      "chapterLocation": true
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H3844",
+        "key": "Lebanon",
+        "checkedVerses": 6,
+        "example": [
+          3,
+          9
+        ],
+        "hebrew": "לְבָנוֹן",
+        "transliteration": "Lᵉbânôwn",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "tirzah",
@@ -751,7 +869,25 @@
       ],
       "detail": "The lover compares the woman’s beauty with Tirzah.",
       "uncertainty": "This approximate marker locates a poetic reference. The exact pool, dance setting, or lovers’ visit is not established.",
-      "chapterLocation": true
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H8656",
+        "key": "Tirzah",
+        "checkedVerses": 1,
+        "example": [
+          6,
+          4
+        ],
+        "hebrew": "תִּרְצָה",
+        "transliteration": "Tirtsâh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "carmel",
@@ -766,7 +902,26 @@
       ],
       "detail": "The lover compares the woman’s head with Carmel.",
       "uncertainty": "This approximate marker locates a poetic reference. The exact pool, dance setting, or lovers’ visit is not established.",
-      "chapterLocation": true
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H3760",
+        "key": "Carmel",
+        "checkedVerses": 1,
+        "example": [
+          7,
+          5
+        ],
+        "hebrew": "כַּרְמֶל",
+        "transliteration": "Karmel",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ],
+        "languageNote": "This is the dictionary form of the name “Carmel.”"
+      }
     },
     {
       "id": "mahanaim",
@@ -796,7 +951,25 @@
       ],
       "detail": "The lover compares the woman’s eyes with pools in Heshbon.",
       "uncertainty": "This approximate marker locates a poetic reference. The exact pool, dance setting, or lovers’ visit is not established.",
-      "chapterLocation": true
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H2809",
+        "key": "Heshbon",
+        "checkedVerses": 1,
+        "example": [
+          7,
+          4
+        ],
+        "hebrew": "חֶשְׁבּוֹן",
+        "transliteration": "Cheshbôwn",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "sharon",
@@ -811,7 +984,25 @@
       ],
       "detail": "The woman calls herself a rose of Sharon.",
       "uncertainty": "A display point for the coastal plain. It does not locate the woman.",
-      "chapterLocation": true
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H8289",
+        "key": "Sharon",
+        "checkedVerses": 1,
+        "example": [
+          2,
+          1
+        ],
+        "hebrew": "שָׁרוֹן",
+        "transliteration": "Shârôwn",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
     },
     {
       "id": "hermon",
@@ -826,7 +1017,26 @@
       ],
       "detail": "The lover names Hermon and Senir in his invitation.",
       "uncertainty": "An approximate mountain marker. The invitation does not establish a literal visit.",
-      "chapterLocation": true
+      "chapterLocation": true,
+      "word": {
+        "language": "hebrew",
+        "strongId": "H2768",
+        "key": "Hermon",
+        "checkedVerses": 1,
+        "example": [
+          4,
+          8
+        ],
+        "hebrew": "חֶרְמוֹן",
+        "transliteration": "Chermôwn",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ],
+        "languageNote": "This is the dictionary form of the name “Hermon.”"
+      }
     }
   ],
   "campaigns": [],
@@ -853,7 +1063,36 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-sheol-8-H7585-sheol",
+      "label": "Sheol",
+      "matches": [
+        "Sheol"
+      ],
+      "chapter": 8,
+      "verses": [
+        6
+      ],
+      "hebrew": "שְׁאוֹל",
+      "transliteration": "shᵉʼôwl",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "The Hebrew name for the place of the dead.",
+      "grammar": "This is the dictionary form of Hebrew word H7585. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H7585",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-sheol",
@@ -874,7 +1113,36 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-zion-3-H6726-zion",
+      "label": "Zion",
+      "matches": [
+        "Zion"
+      ],
+      "chapter": 3,
+      "verses": [
+        11
+      ],
+      "hebrew": "צִיּוֹן",
+      "transliteration": "Tsîyôwn",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A hill in Jerusalem. The name is also used for the city and its people.",
+      "grammar": "This is the dictionary form of Hebrew word H6726. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H6726",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-zion",
@@ -895,7 +1163,37 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
+    },
+    {
+      "id": "glossary-concubine-6-H6370-concubines",
+      "label": "Concubine",
+      "matches": [
+        "concubines"
+      ],
+      "chapter": 6,
+      "verses": [
+        8,
+        9
+      ],
+      "hebrew": "פִּילֶגֶשׁ",
+      "transliteration": "pîylegesh",
+      "greek": "",
+      "greekNote": "",
+      "meaning": "A woman joined to a man’s household with lower standing than a wife.",
+      "grammar": "This is the dictionary form of Hebrew word H6370. The verse may use another form.",
+      "discussion": "",
+      "sourceIds": [
+        "strong",
+        "oshb",
+        "web"
+      ],
+      "related": [],
+      "scope": "glossary",
+      "strongId": "H6370",
+      "language": "hebrew",
+      "chapterDefault": true
     },
     {
       "id": "glossary-concubine",
@@ -917,7 +1215,8 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
     },
     {
       "id": "glossary-shekel",
@@ -939,7 +1238,8 @@
         "web"
       ],
       "related": [],
-      "scope": "glossary"
+      "scope": "glossary",
+      "language": "hebrew"
     }
   ],
   "guides": [
