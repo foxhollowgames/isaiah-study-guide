@@ -4,6 +4,7 @@ from bible_source_enrichment import enrich
 from book_copy import revise
 from book_context import enrich_context
 from book_words import glossary_words,name_words
+from book_maps import add_map_context
 from pathlib import Path
 ROOT=Path(__file__).resolve().parent.parent
 D=ROOT/'dist';OUT=D/'data/books'
@@ -52,6 +53,8 @@ for entry in json.loads((OUT/'directory.json').read_text(encoding='utf-8')):
     step=max(1,count//3)
     for i,(a,z) in enumerate([(1,step),(step+1,step*2),(step*2+1,count)]):content['periods'].append(dict(id=f'part-{i}',label=f'{name} {a}–{z}',start=a,end=z,description='Chapter order'))
     content['guides']=[b['contextGuide']]
+    # Nations, ancient roads, and atlas areas come from scripts/book-map-context.json.
+    add_map_context(slug,b,content)
     # Glossary terms that occur in this book. Verse entries add a Hebrew or Greek dictionary form checked against that verse.
     content['words'],word_sources=glossary_words(b,glossary)
     # Names of people and places get the dictionary form found in a verse that names them.
@@ -83,15 +86,17 @@ for entry in json.loads((OUT/'directory.json').read_text(encoding='utf-8')):
     # Match Isaiah: generated art has no repeated credit beneath each portrait.
     # Keep licensed artwork credits and descriptive image alt text.
     write_text(D/f'book-{slug}-portraits.js',pm)
-    app=native.replace("'./portraits.js'",f"'./book-{slug}-portraits.js?v=20261009.4'").replace('Isaiah',name).replace('ISA${',code+'${')
-    app=app.replace("const releaseVersion = '20261009.4';", "const releaseVersion = '20261009.4';")
+    app=native.replace("'./portraits.js'",f"'./book-{slug}-portraits.js?v=20261009.5'").replace('Isaiah',name).replace('ISA${',code+'${')
+    app=app.replace("const releaseVersion = '20261009.5';", "const releaseVersion = '20261009.5';")
     # Psalms uses three-digit publisher chapter filenames.
     if code=='PSA':app=app.replace("String(chapter).padStart(2, '0')", "String(chapter).padStart(3, '0')")
     # Added books have one complete Scripture source, not Isaiah's chapter sources.
     app=app.replace("const webChapter = id === 'web' ? 36 : id.match(/^web(\\d+)$/)?.[1];", "const webChapter = id.match(/^web(\\d+)$/)?.[1];\n  if (id === 'web') return chapters;")
     app=app.replace("const webId = state.chapter === 36 ? 'web' : `web${state.chapter}`;", "const webId = 'web';")
     # Hide controls for data that this book does not contain.
-    app=app.replace("['history','Nations','region']].map", "['history','Nations','region']].filter(([key]) => ({places:data.places.length, regions:data.regions.length || data.narrativeRegions?.length, campaigns:data.textRoutes?.length || data.campaigns.length, roads:data.ancientRoads.length, history:data.regions.length})[key]).map")
+    app=app.replace("['history','Nations','region']].map", "['history','Nations','region']].filter(([key]) => ({places:data.places.length, regions:data.narrativeRegions?.length, campaigns:data.textRoutes?.length || data.campaigns.length, roads:data.ancientRoads.length, history:data.regions.length})[key]).map")
+    # Added books have no date slider. A nation shows in the chapters its record lists.
+    app=app.replace("visibleAt(region) && (state.studyMode === 'map' || (!region.chapterCoverage || region.chapterCoverage.includes(state.chapter)))", "region.chapterCoverage.includes(state.chapter)")
     # Explain empty maps and expose the actual location limits in Map context.
     app=app.replace('class="chapter-focus-button">Focus ', 'class="chapter-focus-button" ${chapterPoints(data, state.chapter).length ? \'\' : \'disabled\'}>Focus ')
     app=app.replace('${focus?.narrative ? `<details><summary>Map context</summary>${esc(focus.narrative)}</details>` : \'\'}', '${!chapterPoints(data, state.chapter).length ? \'<p>This chapter has no mapped places.</p>\' : \'\'}${focus?.narrative || focus?.limits ? `<details><summary>Map context</summary>${[focus.narrative, focus.limits].filter(Boolean).map(text => `<p>${esc(text)}</p>`).join(\'\')}</details>` : \'\'}')
@@ -150,6 +155,6 @@ html=(D/'index.html').read_text(encoding='utf-8')
 html=re.sub(r'  <meta (?:property="og:[^\n]+|name="twitter:[^\n]+)\n','',html)
 html=re.sub(r'  <link rel="canonical"[^\n]+\n','',html)
 html=html.replace('<title>Isaiah Study Guide</title>','<title>Bible Study Guide</title>').replace('<b>ISAIAH<small>STUDY GUIDE</small></b>','<b id="bookBrand">BIBLE<small>STUDY GUIDE</small></b>')
-html=html.replace('app.js?v=20261009.4','native-book.js?v=20261009.4')
+html=html.replace('app.js?v=20261009.5','native-book.js?v=20261009.5')
 html=html.replace('<span class="map-label label-assyria">ASSYRIA</span><span class="map-label label-judah">JUDAH</span>','')
 write_text(D/'book.html',html)

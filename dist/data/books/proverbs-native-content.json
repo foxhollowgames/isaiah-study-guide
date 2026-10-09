@@ -267,6 +267,20 @@
       "limitations": "It shows a regional practice of marked weights. It does not establish the standard weight used in Israel."
     },
     {
+      "id": "geo",
+      "title": "Bible geographic atlas",
+      "author": "OpenBible.info",
+      "year": "Digital gazetteer",
+      "type": "Geographic reference",
+      "url": "https://www.openbible.info/geo/",
+      "summary": "This source helps us place Bible sites on the map.",
+      "limitations": "Some old sites are hard to find. A map point shows the common choice. The app marks places that are not known for sure.",
+      "license": "OpenBible.info geographic dataset: Creative Commons Attribution. Some data © OpenStreetMap contributors under their open license. Representative locations selected from the Isaiah KML; alternatives may exist.",
+      "category": "Geographic reference",
+      "perspective": "historical",
+      "limits": "Some old sites are hard to find. A map point shows the common choice. The app marks places that are not known for sure."
+    },
+    {
       "id": "strong",
       "title": "A Concise Dictionary of the Words in the Hebrew Bible",
       "author": "James Strong · Open Scriptures XML edition",
@@ -3068,7 +3082,72 @@
     }
   ],
   "textRoutes": [],
-  "narrativeRegions": [],
+  "narrativeRegions": [
+    {
+      "id": "geographic:egypt",
+      "placeId": "egypt",
+      "name": "Egypt",
+      "points": [
+        [
+          28.47113,
+          30.16363
+        ],
+        [
+          28.27022,
+          30.38034
+        ],
+        [
+          28.06932,
+          30.59705
+        ],
+        [
+          27.86841,
+          30.81376
+        ],
+        [
+          27.46659,
+          32.54744
+        ],
+        [
+          27.6675,
+          32.54744
+        ],
+        [
+          31.08292,
+          31.6806
+        ],
+        [
+          31.08292,
+          31.46389
+        ],
+        [
+          31.08292,
+          31.24718
+        ],
+        [
+          31.08292,
+          31.03047
+        ],
+        [
+          30.88202,
+          30.38034
+        ],
+        [
+          29.07385,
+          29.94692
+        ],
+        [
+          28.47113,
+          30.16363
+        ]
+      ],
+      "narrativeRegion": true,
+      "summary": "Egypt is the land along the Nile River.",
+      "sourceIds": [
+        "geo"
+      ]
+    }
+  ],
   "chapterStudies": [
     {
       "chapter": 1,

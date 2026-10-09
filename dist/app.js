@@ -4,7 +4,7 @@ import { initModalDragging } from './modal-drag.js';
 import { chapterFocus, chapterRoutes, chapterPoints, movementStyle } from './chapter-map.js';
 const $ = (s, root = document) => root.querySelector(s);
 const $$ = (s, root = document) => [...root.querySelectorAll(s)];
-const releaseVersion = '20261009.4';
+const releaseVersion = '20261009.5';
 const chapters = Array.from({ length: 66 }, (_, i) => i + 1);
 const defaults = { chapter: 1, verse: 1, studyMode: 'read', view: 'map', perspective: 'historical', portraitMode: 'generated', date: -701, layers: { places: true, regions: true, campaigns: true, roads: false, history: false }, sidebar: 'scripture', map: { center: [32.1, 35.0], zoom: 7 } };
 let state = { ...defaults, ...readSaved(), layers: { ...defaults.layers, ...(readSaved().layers || {}) } };
@@ -519,7 +519,7 @@ function initTimelineTooltip() {
 function eventsNear(year, range = 10) { return data.events.filter(e => Math.abs(Number(e.year) - year) <= range).sort((a,b) => Math.abs(a.year-year)-Math.abs(b.year-year)); }
 function selectEvent(event) { state.date = Number(event.year); renderTimeline(); drawOverlays(); persist(); openFeature(event, true, null); }
 function findFeature(id) { return [...data.places, ...data.events, ...data.campaigns, ...data.ancientRoads, ...data.regions, ...focusedRoutes(), ...chapterImpacts(), ...chapterAreas()].find(f => f.id === id); }
-function featureType(f) { return f.narrativeRegion ? 'Map area' : f.impact ? 'Loss or pain' : f.chapterRoute || f.textRoute ? 'Chapter path' : data.ancientRoads.includes(f) ? 'Major road' : data.campaigns.includes(f) ? 'Army path' : data.regions.includes(f) ? 'Area of rule' : data.places.includes(f) ? 'Place' : 'Event'; }
+function featureType(f) { return f.narrativeRegion ? 'Map area' : f.impact ? 'Loss or pain' : f.chapterRoute || f.textRoute ? 'Chapter path' : data.ancientRoads.includes(f) ? 'Major road' : data.campaigns.includes(f) ? 'Army path' : data.regions.includes(f) ? (f.typeLabel || 'Area of rule') : data.places.includes(f) ? 'Place' : 'Event'; }
 function mapDisplayText(text = '') {
   const footerCovered = /\b(?:map|line|connection|route|road|itinerary|coordinate|pin|location|border|area of influence|travel order|sequence of (?:movement|stops))\b/i;
   const caveat = /\b(?:approximate|schematic|representative|precise|exact|verified|confirmed|unknown|uncertain|does not (?:establish|show|trace|identify|reconstruct)|not (?:a|an|the)|remain debated)\b/i;
@@ -898,7 +898,9 @@ const factions = {
   babylonia: { name: 'Babylonia', color: '#783951', selectedBorder: '#431b2d' },
   persian: { name: 'Persia', color: '#694529', selectedBorder: '#3d2718' }
 };
-function factionFor(feature) { return factions[feature.faction || feature.id] || { name: 'Place', color: '#594530', selectedBorder: '#34271b' }; }
+// A book can supply its own powers in data.factions. The built-in list stays the default.
+function factionById(id) { return factions[id] || data.factions?.[id]; }
+function factionFor(feature) { return factionById(feature.faction || feature.id) || { name: 'Place', color: '#594530', selectedBorder: '#34271b' }; }
 let lastMapChapter;
 function focusChapterMap(animate = true) {
   if (!map) return;
@@ -948,7 +950,7 @@ function regionMentionedInChapter(region) {
     babylonia: /\bBabylon(?:ia|ian|ians)?\b/i,
     persian: /\b(?:Persia|Persian|Cyrus)\b/i
   };
-  return patterns[region.id]?.test(text) || false;
+  return (region.pattern ? new RegExp(region.pattern, 'i') : patterns[region.id])?.test(text) || false;
 }
 function drawOverlays() {
   if (!map) return;
@@ -999,7 +1001,7 @@ function drawOverlays() {
   });
   retireMapFeatures(mapFeatures, wanted);
   const active = [...new Set([...regions, ...campaigns].map(f => f.faction || f.id))];
-  $('#factionLegend').innerHTML = active.map(id => factions[id] ? '<span><i style="background:' + factions[id].color + '"></i>' + factions[id].name + '</span>' : '').join('');
+  $('#factionLegend').innerHTML = active.map(id => factionById(id) ? '<span><i style="background:' + factionById(id).color + '"></i>' + esc(factionById(id).name) + '</span>' : '').join('');
   $('#factionLegend').hidden = !active.length;
   const focus = chapterFocus(data, state.chapter);
   const kinds = [...new Set(campaigns.filter(c=>c.chapterRoute).map(c=>c.kind))];

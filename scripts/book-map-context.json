@@ -1,0 +1,652 @@
+{
+  "reviewed": "2026-10-09",
+  "wikipedia": [
+    ["wiki-israel-north", "Kingdom of Israel (Samaria)", "1351791549", "The article gives the northern kingdom’s lands, capitals, and fall to Assyria about 720 BCE."],
+    ["wiki-judah", "Kingdom of Judah", "1379223437", "The article gives Judah’s place, capital, and ruling family. It also reports the debate about its early size."],
+    ["wiki-israel-united", "Kingdom of Israel (united monarchy)", "1378042138", "The article reports the debate about the kingdom of Saul, David, and Solomon. Scholars disagree on whether it existed and how large it was."],
+    ["wiki-aram-damascus", "Aram-Damascus", "1366520884", "The article gives the place, neighbors, and end date of the kingdom centered on Damascus."],
+    ["wiki-philistia", "Philistia", "1377540669", "The article names the five Philistine cities and their coast land. It dates Babylon’s conquest to 604 BCE."],
+    ["wiki-phoenicia", "Phoenicia", "1379234740", "The article describes the Phoenician coast cities, their separate rule, and their sea trade."],
+    ["wiki-moab", "Moab", "1376047065", "The article places Moab east of the Dead Sea. It names Dibon and the stone of King Mesha."],
+    ["wiki-edom", "Edom", "1379317820", "The article places Edom and follows its people’s later move into southern Judah."],
+    ["wiki-ammon", "Ammon", "1360610202", "The article places Ammon east of the Jordan and names Rabbah as its chief city."],
+    ["wiki-midian", "Midian", "1369535816", "The article places Midian in northwest Arabia. It reports the view that the name first meant a league of tribes."],
+    ["wiki-canaan", "Canaan", "1373261872", "The article describes Canaan as a region of the southern Levant with many peoples."],
+    ["wiki-neo-assyrian", "Neo-Assyrian Empire", "1378031687", "The article follows Assyria’s growth from the Tigris to rule over the Levant and Egypt."],
+    ["wiki-neo-babylonian", "Neo-Babylonian Empire", "1379364272", "The article dates Babylon’s empire from 626 to 539 BCE. It reports the fall of Assyria."],
+    ["wiki-achaemenid", "Achaemenid Empire", "1379183362", "The article gives the Persian Empire’s founding, its reach, and its end under Alexander."],
+    ["wiki-yehud", "Yehud (Persian province)", "1378908486", "The article describes the Persian province around Jerusalem and names the provinces beside it."],
+    ["wiki-samaria-city", "Samaria (ancient city)", "1379213380", "The article says Samaria stayed a seat of government under Assyria, Babylon, and Persia."],
+    ["wiki-twelve-tribes", "Twelve Tribes of Israel", "1378173908", "The article sums up the Bible’s account of the tribes. It reports that some scholars doubt the twelve-tribe picture."],
+    ["wiki-bashan", "Bashan", "1377291618", "The article places Bashan in northern Transjordan and reports the Bible’s account of King Og."],
+    ["wiki-paddan-aram", "Paddan Aram", "1374975170", "The article describes Paddan Aram as the northern plain of Aram Naharaim."],
+    ["wiki-herodian-kingdom", "Herodian kingdom", "1378590167", "The article dates Herod the Great’s rule and lists the regions of his kingdom."],
+    ["wiki-herodian-tetrarchy", "Herodian tetrarchy", "1378590288", "The article tells how Herod’s kingdom was divided. It dates when each part came under direct Roman rule."],
+    ["wiki-judaea-province", "Judaea (Roman province)", "1371707272", "The article dates the Roman province of Judaea and names Caesarea as the governor’s seat."],
+    ["wiki-perea", "Perea", "1368381963", "The article places Perea east of the Jordan, across from Judea and Samaria."],
+    ["wiki-decapolis", "Decapolis", "1361319953", "The article lists the ten cities and describes their self-rule under Rome."],
+    ["wiki-roman-syria", "Roman Syria", "1379043312", "The article dates the Roman province of Syria. It reports that Syria later took Philip’s lands."],
+    ["wiki-asia-province", "Asia (Roman province)", "1360078875", "The article places the province in western Asia Minor and says a proconsul governed it."],
+    ["wiki-galatia-province", "Galatia (Roman province)", "1368089573", "The article dates the province to 25 BCE and names Ancyra as its capital."],
+    ["wiki-lycia-pamphylia", "Lycia et Pamphylia", "1350839004", "The article says Pamphylia belonged to Galatia before a later emperor joined it to Lycia."],
+    ["wiki-macedonia-province", "Macedonia (Roman province)", "1373587746", "The article dates the province. It says the Via Egnatia crossed it from west to east."],
+    ["wiki-achaia-province", "Achaia (Roman province)", "1364143228", "The article lists the parts of southern Greece in the province. It says Augustus separated it from Macedonia."],
+    ["wiki-roman-cyprus", "Roman Cyprus", "1377255859", "The article dates Roman rule of Cyprus and names Paphos as its capital."],
+    ["wiki-cilicia-province", "Cilicia (Roman province)", "1350841773", "The article places Cilicia on the south coast of Asia Minor. It dates Roman rule from 64 BCE."],
+    ["wiki-bithynia-pontus", "Bithynia and Pontus", "1369966735", "The article tells how Rome joined Bithynia and Pontus into one Black Sea province."],
+    ["wiki-cappadocia-province", "Cappadocia (Roman province)", "1369966727", "The article dates the province to 17 CE and names Caesarea as its capital."],
+    ["wiki-crete-cyrenaica", "Crete and Cyrenaica", "1365583993", "The article says Rome governed Crete and Cyrenaica as one province."],
+    ["wiki-roman-italy", "Roman Italy", "1372002980", "The article says Italy kept a special status and was not governed like the provinces."],
+    ["wiki-via-egnatia", "Via Egnatia", "1379255988", "The article gives the road’s course from the Adriatic Sea to Byzantium. It places Paul’s trip from Philippi to Thessalonica on it."],
+    ["wiki-appian-way", "Appian Way", "1378039336", "The article lists the road’s stops from Rome to Capua and on to Brundisium. The stops include the Three Taverns and the Market of Appius."],
+    ["wiki-via-sebaste", "Via Sebaste", "1316787763", "The article gives the road’s course from Perga to Antioch of Pisidia. It names a branch to Iconium and Lystra. It dates the road to 6 BCE."],
+    ["wiki-cilician-gates", "Cilician Gates", "1367508335", "The article describes the pass north of Tarsus. Armies and traders used it for a long time."],
+    ["wiki-royal-road", "Royal Road", "1358792912", "The article describes the Persian road from Susa to Sardis and its messenger stations."],
+    ["wiki-via-maris", "Via Maris", "1370934861", "The article follows the coast road from Egypt to Damascus. It lists “Way of the Philistines” among the road’s names."],
+    ["wiki-kings-highway", "King's Highway (ancient)", "1374648997", "The article follows the trade road across Transjordan to Damascus. It names Edom, Moab, and Ammon among the states that used it."]
+  ],
+  "sources": [
+    {
+      "id": "herodotus-royal-road",
+      "title": "The History of Herodotus, Book 5, chapters 52–54",
+      "author": "Herodotus; translated by G. C. Macaulay",
+      "year": "1890 translation",
+      "category": "Ancient history",
+      "url": "https://en.wikisource.org/wiki/The_History_of_Herodotus_(Macaulay)/Book_V",
+      "summary": "Herodotus describes the royal road from Sardis to Susa. He counts 111 stations and names the lands and rivers on the way.",
+      "limits": "Herodotus wrote as a Greek from the west of the empire. He names lands and rivers, not towns. Only chapters 52–54 were read.",
+      "license": "Public domain translation",
+      "reviewed": "2026-10-09: chapters 52–54 read on Wikisource, revision 14640489."
+    }
+  ],
+  "factions": {
+    "israel": {"name": "Israel", "color": "#2f6f8f", "selectedBorder": "#173f53"},
+    "aram": {"name": "Aram", "color": "#8c6d1f", "selectedBorder": "#4e3c0f"},
+    "phoenicia": {"name": "Phoenicia", "color": "#6a4c93", "selectedBorder": "#3a2855"},
+    "moab": {"name": "Moab", "color": "#9a5b3c", "selectedBorder": "#55301e"},
+    "ammon": {"name": "Ammon", "color": "#5f7a3a", "selectedBorder": "#34451e"},
+    "edom": {"name": "Edom", "color": "#a3423a", "selectedBorder": "#5b221d"},
+    "midian": {"name": "Midian", "color": "#b07a2a", "selectedBorder": "#614214"},
+    "canaan": {"name": "Canaan", "color": "#6b7f4e", "selectedBorder": "#3b4729"},
+    "amorite": {"name": "Amorite kings", "color": "#7a5c6e", "selectedBorder": "#43313c"},
+    "samaria": {"name": "Samaria", "color": "#2f6f8f", "selectedBorder": "#173f53"},
+    "rome": {"name": "Roman province", "color": "#a3423a", "selectedBorder": "#5b221d"},
+    "italy": {"name": "Italy", "color": "#7b2f45", "selectedBorder": "#431726"},
+    "herodian": {"name": "Herod’s family", "color": "#8a5908", "selectedBorder": "#4d3003"},
+    "decapolis": {"name": "Decapolis", "color": "#4f8278", "selectedBorder": "#285047"}
+  },
+  "regions": {
+    "land-egypt": {
+      "name": "Egypt · approximate", "faction": "egypt", "typeLabel": "Land in the text", "isaiahRegion": "egypt-region",
+      "pattern": "\\bEgypt(?:ian|ians)?\\b|\\bPharaoh\\b",
+      "summary": "Egypt lay along the Nile River. Pharaoh ruled it.",
+      "uncertainty": "The shape is a simple guide. The text does not date these events to a named Pharaoh.",
+      "sourceIds": ["web", "geo"]
+    },
+    "land-canaan": {
+      "name": "Land of Canaan · approximate", "faction": "canaan", "typeLabel": "Land in the text",
+      "points": [[33.3,35.15],[33.3,35.65],[32.7,35.6],[31.5,35.5],[31.05,35.4],[31.0,34.9],[31.2,34.3],[31.6,34.5],[32.5,34.88],[32.85,35.05]],
+      "pattern": "\\bCanaan(?:ite|ites)?\\b",
+      "summary": "Canaan is the Bible’s name for the land west of the Jordan. Many peoples and towns shared it.",
+      "uncertainty": "The shape is a simple guide. Canaan had no single ruler or fixed border.",
+      "sourceIds": ["web", "wiki-canaan"]
+    },
+    "land-paddan-aram": {
+      "name": "Paddan Aram · approximate", "faction": "aram", "typeLabel": "Land in the text",
+      "points": [[37.3,38.3],[37.3,40.4],[36.3,40.4],[36.2,38.3]],
+      "pattern": "\\bPaddan Aram\\b|\\bHaran\\b|\\bAram Naharaim\\b",
+      "summary": "Paddan Aram is the plain around Haran in upper Mesopotamia.",
+      "uncertainty": "The shape marks the plain around Haran. The text gives no borders.",
+      "sourceIds": ["web", "wiki-paddan-aram"]
+    },
+    "midian": {
+      "name": "Midian · approximate", "faction": "midian", "typeLabel": "Land in the text",
+      "points": [[29.5,35.0],[29.4,36.6],[27.6,37.0],[27.3,35.6],[28.0,34.9]],
+      "pattern": "\\bMidian(?:ite|ites)?\\b",
+      "summary": "Midian lay east of the Gulf of Aqaba in northwest Arabia. Scholars think the name first meant a league of tribes.",
+      "uncertainty": "The shape marks a home region. Midianite herders and raiders moved far outside it.",
+      "sourceIds": ["web", "wiki-midian"]
+    },
+    "amorite-sihon": {
+      "name": "Sihon’s kingdom · as Numbers describes it", "faction": "amorite", "typeLabel": "Land in the text",
+      "points": [[32.2,35.6],[32.2,35.88],[31.45,35.95],[31.45,35.6]],
+      "pattern": "\\bSihon\\b|\\bHeshbon\\b",
+      "summary": "Numbers 21 says Sihon, an Amorite king, ruled from the Arnon to the Jabbok. Heshbon was his city.",
+      "uncertainty": "The shape follows the two rivers that Numbers 21:24 names. No other record marks this kingdom.",
+      "sourceIds": ["web"]
+    },
+    "bashan-og": {
+      "name": "Og’s kingdom in Bashan · as Numbers describes it", "faction": "amorite", "typeLabel": "Land in the text",
+      "points": [[33.3,35.7],[33.3,36.7],[32.6,36.7],[32.5,35.75]],
+      "pattern": "\\bBashan\\b|\\bOg\\b",
+      "summary": "Bashan is the high land east of the Sea of Galilee. Numbers 21 names Og as its king.",
+      "uncertainty": "The shape is a simple guide to Bashan. The text gives no exact border.",
+      "sourceIds": ["web", "wiki-bashan"]
+    },
+    "edom": {
+      "name": "Edom · approximate", "faction": "edom",
+      "points": [[30.95,35.4],[30.95,35.95],[30.2,35.85],[29.6,35.5],[29.55,35.0],[30.3,35.15]],
+      "pattern": "\\bEdom(?:ite|ites)?\\b|\\bSeir\\b|\\bEsau\\b",
+      "summary": "Edom was a kingdom south of the Dead Sea. The Bible calls its people the children of Esau.",
+      "uncertainty": "The shape is a simple guide. Edom’s people later moved west into southern Judah.",
+      "sourceIds": ["web", "wiki-edom"]
+    },
+    "moab": {
+      "name": "Moab · approximate", "faction": "moab",
+      "points": [[31.75,35.6],[31.8,36.0],[31.0,36.0],[30.95,35.45],[31.3,35.5]],
+      "pattern": "\\bMoab(?:ite|ites|itess)?\\b",
+      "summary": "Moab was a kingdom on the high land east of the Dead Sea. Dibon was its capital.",
+      "uncertainty": "The shape is a simple guide. Numbers 21:26 says Moab once lost land north of the Arnon.",
+      "sourceIds": ["web", "wiki-moab"]
+    },
+    "ammon": {
+      "name": "Ammon · approximate", "faction": "ammon",
+      "points": [[32.25,35.85],[32.25,36.3],[31.75,36.3],[31.75,35.9]],
+      "pattern": "\\bAmmon(?:ite|ites)?\\b|\\bRabbah\\b",
+      "summary": "Ammon was a kingdom east of the Jordan. Its chief city was Rabbah, now Amman.",
+      "uncertainty": "The shape is a simple guide to the land around Rabbah.",
+      "sourceIds": ["web", "wiki-ammon"]
+    },
+    "israel-tribes": {
+      "name": "Tribes of Israel · approximate", "faction": "israel",
+      "points": [[33.25,35.2],[33.25,35.65],[32.7,35.9],[32.0,35.95],[31.75,35.6],[31.2,35.35],[31.2,34.85],[31.75,34.95],[32.45,35.0],[32.85,35.1]],
+      "pattern": "\\bIsrael(?:ite|ites)?\\b",
+      "summary": "Israel’s tribes held hill country on both sides of the Jordan. No king ruled them all before Saul.",
+      "uncertainty": "The shape is a simple guide. Judges 1 lists towns the tribes did not take. Some scholars doubt the twelve-tribe picture.",
+      "sourceIds": ["web", "wiki-twelve-tribes"]
+    },
+    "israel-united": {
+      "name": "Israel under David and Solomon · approximate", "faction": "israel",
+      "points": [[33.25,35.15],[33.3,35.7],[32.75,36.0],[32.0,36.0],[31.6,35.75],[31.75,35.55],[31.1,35.4],[31.1,34.75],[31.6,34.85],[32.0,34.85],[32.5,34.9],[32.85,35.05]],
+      "pattern": "\\bIsrael(?:ite|ites)?\\b|\\bJudah\\b",
+      "summary": "The Bible says Saul, David, and Solomon ruled all the tribes as one kingdom. Scholars disagree on how large it was.",
+      "uncertainty": "The shape covers the tribal lands from Dan to Beersheba. It leaves out lands that paid tribute.",
+      "sourceIds": ["web", "wiki-israel-united"]
+    },
+    "israel-north": {
+      "name": "Kingdom of Israel · approximate", "faction": "israel",
+      "points": [[33.25,35.2],[33.25,35.65],[32.7,35.9],[32.05,35.95],[31.85,35.55],[31.9,35.0],[32.1,34.82],[32.6,34.92],[32.85,35.1]],
+      "pattern": "\\bIsrael\\b|\\bEphraim\\b|\\bSamaria\\b",
+      "summary": "Ten tribes followed Jeroboam and formed a northern kingdom. Samaria became its capital under Omri.",
+      "uncertainty": "The shape is a simple guide. Its borders with Aram, Moab, and Judah moved often.",
+      "sourceIds": ["web", "wiki-israel-north"]
+    },
+    "judah": {
+      "name": "Kingdom of Judah · approximate", "faction": "judah", "isaiahRegion": "judah",
+      "pattern": "\\bJudah\\b",
+      "summary": "Judah was the southern kingdom. David’s family ruled it from Jerusalem for about four centuries.",
+      "uncertainty": "The shape is a simple guide. It is not a border for one year.",
+      "sourceIds": ["web", "wiki-judah"]
+    },
+    "aram": {
+      "name": "Aram of Damascus · approximate", "faction": "aram",
+      "points": [[34.2,36.0],[34.3,37.0],[33.3,37.1],[32.9,36.6],[33.0,35.85],[33.6,35.85]],
+      "pattern": "\\bSyria(?:n|ns)?\\b|\\bAram\\b|\\bDamascus\\b",
+      "summary": "Aram was a kingdom centered on Damascus. Assyria ended it in 732 BCE.",
+      "uncertainty": "The shape is a simple guide. Aram and Israel traded control of Gilead and Bashan.",
+      "sourceIds": ["web", "wiki-aram-damascus"]
+    },
+    "phoenicia": {
+      "name": "Phoenician cities · approximate", "faction": "phoenicia",
+      "points": [[34.9,35.85],[34.9,36.1],[33.9,35.75],[33.15,35.4],[32.85,35.15],[32.85,35.05],[33.3,35.15],[33.9,35.45]],
+      "pattern": "\\bTyre\\b|\\bSidon(?:ian|ians)?\\b",
+      "summary": "Tyre, Sidon, and other coast cities each had their own king. They lived by ships and trade.",
+      "uncertainty": "The shape joins separate cities along one coast. They were never one kingdom.",
+      "sourceIds": ["web", "wiki-phoenicia"]
+    },
+    "philistia": {
+      "name": "Philistine cities · approximate", "faction": "philistia", "isaiahRegion": "philistia",
+      "pattern": "\\bPhilist(?:ia|ine|ines)\\b",
+      "summary": "Five Philistine cities held the southern coast: Gaza, Ashkelon, Ashdod, Ekron, and Gath.",
+      "uncertainty": "The shape is a simple guide. Each city had its own ruler.",
+      "sourceIds": ["web", "wiki-philistia"]
+    },
+    "egypt": {
+      "name": "Egypt · approximate", "faction": "egypt", "isaiahRegion": "egypt-region",
+      "pattern": "\\bEgypt(?:ian|ians)?\\b|\\bPharaoh\\b",
+      "summary": "Egypt’s kings ruled the Nile valley and delta.",
+      "uncertainty": "The shape is a simple guide. Egypt’s ruling families and power changed across these centuries.",
+      "sourceIds": ["web", "geo"]
+    },
+    "assyria-heartland": {
+      "name": "Assyria · home region", "faction": "assyria",
+      "points": [[37.2,42.0],[37.2,44.4],[35.2,44.6],[35.0,43.0],[36.2,41.9]],
+      "pattern": "\\bAssyria(?:n|ns)?\\b|\\bNineveh\\b",
+      "summary": "Assyria’s home lay on the upper Tigris around Assur, Kalhu, and Nineveh. From 745 BCE its kings pushed hard to the west.",
+      "uncertainty": "The shape shows only the home region. Assyria’s reach to the west grew and shrank.",
+      "sourceIds": ["web", "wiki-neo-assyrian"]
+    },
+    "assyria-empire": {
+      "name": "Lands under Assyria · approximate", "faction": "assyria", "isaiahRegion": "assyria",
+      "pattern": "\\bAssyria(?:n|ns)?\\b|\\bNineveh\\b",
+      "summary": "Assyria ruled from the Tigris to the Mediterranean through governors and client kings. Its empire fell between 612 and 609 BCE.",
+      "uncertainty": "Assyria did not rule all these lands in the same way. The shape is not a border for one year.",
+      "sourceIds": ["web", "wiki-neo-assyrian", "wiki-neo-babylonian"]
+    },
+    "babylon-empire": {
+      "name": "Lands under Babylon · approximate", "faction": "babylonia", "isaiahRegion": "babylonia",
+      "pattern": "\\bBabylon(?:ia|ian|ians)?\\b|\\bChaldea(?:n|ns)?\\b",
+      "summary": "Babylon replaced Assyria as the great power. Its empire lasted from 626 to 539 BCE.",
+      "uncertainty": "The shape is a simple guide. It is not a border for one year.",
+      "sourceIds": ["web", "wiki-neo-babylonian"]
+    },
+    "persia-empire": {
+      "name": "Persian Empire · part shown", "faction": "persian",
+      "points": [[41.0,26.5],[41.5,36.0],[41.5,45.0],[38.0,50.5],[29.5,50.5],[29.8,47.8],[30.5,40.0],[29.5,35.0],[24.0,35.0],[24.0,30.0],[31.3,29.5],[31.2,33.5],[31.6,34.4],[33.0,35.1],[36.2,35.9],[36.6,34.0],[36.2,30.0],[37.0,27.2]],
+      "pattern": "\\bPersia(?:n|ns)?\\b|\\bCyrus\\b|\\bDarius\\b|\\bArtaxerxes\\b|\\bAhasuerus\\b|\\bMedes?\\b",
+      "summary": "Cyrus founded the Persian Empire in 550 BCE and took Babylon in 539 BCE. It reached from Egypt and Asia Minor to the Indus Valley.",
+      "uncertainty": "The shape shows only the western part of the empire. Its eastern lands lie off this map.",
+      "sourceIds": ["web", "wiki-achaemenid"]
+    },
+    "yehud": {
+      "name": "Yehud · Persian province of Judah", "faction": "judah",
+      "points": [[31.95,34.95],[31.95,35.5],[31.5,35.45],[31.5,34.95]],
+      "pattern": "\\bJudah\\b|\\bJerusalem\\b",
+      "summary": "Yehud was the Persian province around Jerusalem. It ran from the western foothills to the Dead Sea.",
+      "uncertainty": "The shape is a simple guide to the land around Jerusalem.",
+      "sourceIds": ["web", "wiki-yehud"]
+    },
+    "samaria-province": {
+      "name": "Samaria · Persian province", "faction": "samaria",
+      "points": [[32.55,34.95],[32.55,35.5],[32.0,35.5],[32.0,34.95]],
+      "pattern": "\\bSamaria\\b|\\bSanballat\\b",
+      "summary": "Samaria stayed a seat of government under Assyria, Babylon, and Persia.",
+      "uncertainty": "The shape is a simple guide to the province north of Yehud.",
+      "sourceIds": ["web", "wiki-samaria-city", "wiki-yehud"]
+    },
+    "herod-kingdom": {
+      "name": "Herod’s kingdom · approximate", "faction": "herodian",
+      "points": [[33.3,35.2],[33.3,36.6],[32.6,36.6],[32.5,35.9],[31.4,35.8],[31.1,35.4],[31.0,34.9],[31.3,34.4],[32.5,34.88],[32.9,35.1]],
+      "pattern": "\\bHerod\\b",
+      "summary": "Herod the Great ruled as king under Rome from 37 to 4 BCE. His kingdom held Judea, Samaria, Galilee, and lands east of the Jordan.",
+      "uncertainty": "The shape is a simple guide to the regions the article lists.",
+      "sourceIds": ["web", "wiki-herodian-kingdom"]
+    },
+    "judea-province": {
+      "name": "Judea · Roman province", "faction": "rome",
+      "points": [[32.55,34.9],[32.55,35.5],[31.75,35.55],[31.1,35.4],[31.0,34.85],[31.3,34.4]],
+      "pattern": "\\bJudea\\b|\\bPilate\\b|\\bFelix\\b|\\bFestus\\b",
+      "summary": "Rome removed Herod’s son Archelaus in 6 CE and made Judea a province. Its governor lived at Caesarea on the coast.",
+      "uncertainty": "The shape joins Judea, Samaria, and Idumea. The province grew after 44 CE.",
+      "sourceIds": ["web", "wiki-judaea-province", "wiki-herodian-tetrarchy"]
+    },
+    "galilee-antipas": {
+      "name": "Galilee · under Herod Antipas", "faction": "herodian",
+      "points": [[33.2,35.2],[33.2,35.62],[32.72,35.62],[32.55,35.55],[32.6,35.1],[32.9,35.12]],
+      "pattern": "\\bGalilee\\b|\\bHerod\\b",
+      "summary": "Herod Antipas, a son of Herod the Great, ruled Galilee and Perea until 39 CE.",
+      "uncertainty": "The shape is a simple guide to Galilee.",
+      "sourceIds": ["web", "wiki-herodian-tetrarchy"]
+    },
+    "perea-antipas": {
+      "name": "Perea · under Herod Antipas", "faction": "herodian",
+      "points": [[32.4,35.58],[32.4,35.85],[31.5,35.8],[31.45,35.58]],
+      "pattern": "beyond the Jordan",
+      "summary": "Perea lay east of the Jordan, across from Judea and Samaria. Herod Antipas ruled it with Galilee.",
+      "uncertainty": "The shape is a simple guide. The Gospels do not use the name Perea.",
+      "sourceIds": ["web", "wiki-perea", "wiki-herodian-tetrarchy"]
+    },
+    "philip-tetrarchy": {
+      "name": "Philip’s lands · approximate", "faction": "herodian",
+      "points": [[33.35,35.62],[33.35,36.7],[32.75,36.7],[32.75,35.65]],
+      "pattern": "\\bPhilip tetrarch\\b|\\bItura?ea\\b|\\bTrachonitis\\b|\\bCaesarea Philippi\\b",
+      "summary": "Philip, another son of Herod, ruled lands northeast of the Jordan until 34 CE.",
+      "uncertainty": "The shape is a simple guide. Syria took these lands after Philip died.",
+      "sourceIds": ["web", "wiki-herodian-tetrarchy", "wiki-roman-syria"]
+    },
+    "decapolis": {
+      "name": "Decapolis · approximate", "faction": "decapolis",
+      "points": [[32.85,35.65],[32.85,36.2],[32.2,36.0],[32.2,35.6],[32.45,35.48],[32.55,35.58]],
+      "pattern": "\\bDecapolis\\b|\\bGadarenes\\b|\\bGerasenes\\b",
+      "summary": "The Decapolis was a group of ten Greek-style cities, most east of the Jordan. Each ran itself under Rome.",
+      "uncertainty": "The shape covers the southern cities only. Some scholars doubt the cities formed one league.",
+      "sourceIds": ["web", "wiki-decapolis"]
+    },
+    "roman-syria": {
+      "name": "Syria · Roman province", "faction": "rome",
+      "points": [[36.9,35.9],[36.9,38.3],[35.0,38.6],[33.3,37.2],[33.3,36.75],[33.4,35.65],[33.25,35.2],[34.5,35.9],[35.8,35.75]],
+      "pattern": "\\bSyria\\b|\\bAntioch\\b|\\bDamascus\\b|\\bTyre\\b|\\bSidon\\b",
+      "summary": "Rome made Syria a province in 64 BCE. It bordered the lands of Herod’s family on the north.",
+      "uncertainty": "The shape is a simple guide to the province.",
+      "sourceIds": ["web", "wiki-roman-syria"]
+    },
+    "cilicia": {
+      "name": "Cilicia · approximate", "faction": "rome",
+      "points": [[37.5,34.5],[37.6,36.3],[36.7,36.3],[36.5,35.5],[36.7,34.4]],
+      "pattern": "\\bCilicia\\b|\\bTarsus\\b",
+      "summary": "Cilicia lay on the south coast of Asia Minor. Rome took it in 64 BCE.",
+      "uncertainty": "The shape shows the eastern plain around Tarsus only.",
+      "sourceIds": ["web", "wiki-cilicia-province"]
+    },
+    "cyprus": {
+      "name": "Cyprus · Roman province", "faction": "rome", "atlas": "Cyprus",
+      "pattern": "\\bCyprus\\b|\\bPaphos\\b|\\bSalamis\\b",
+      "summary": "Cyprus was a Roman province under a proconsul. Paphos was its capital.",
+      "uncertainty": "The shape follows the modern coast of the island.",
+      "sourceIds": ["web", "wiki-roman-cyprus", "geo"]
+    },
+    "galatia": {
+      "name": "Galatia · Roman province", "faction": "rome",
+      "points": [[40.6,31.6],[40.8,34.5],[39.2,35.0],[37.6,34.2],[37.2,32.6],[36.8,31.9],[36.85,30.6],[37.9,30.5],[38.9,31.2]],
+      "pattern": "\\bGalatia(?:ns?)?\\b|\\bIconium\\b|\\bLystra\\b|\\bDerbe\\b|\\bPisidia\\b|\\bPamphylia\\b",
+      "summary": "Augustus made Galatia a province in 25 BCE. Ancyra was its capital.",
+      "uncertainty": "The shape is a simple guide. Pamphylia on the south coast belonged to Galatia for a time.",
+      "sourceIds": ["web", "wiki-galatia-province", "wiki-lycia-pamphylia"]
+    },
+    "asia": {
+      "name": "Asia · Roman province", "faction": "rome",
+      "points": [[40.4,26.2],[40.3,29.2],[39.3,31.0],[38.0,30.4],[37.0,29.6],[36.6,28.0],[37.0,27.2],[38.4,26.3],[39.4,26.0]],
+      "pattern": "\\bAsia\\b|\\bEphes(?:us|ians?)\\b|\\bColossae\\b|\\bLaodicea(?:ns)?\\b",
+      "summary": "Asia was a rich Roman province in western Asia Minor. A proconsul governed it.",
+      "uncertainty": "The shape is a simple guide to the province.",
+      "sourceIds": ["web", "wiki-asia-province"]
+    },
+    "bithynia-pontus": {
+      "name": "Bithynia and Pontus · Roman province", "faction": "rome",
+      "points": [[41.2,29.0],[41.9,33.0],[42.0,35.2],[41.0,36.6],[40.6,34.6],[40.5,31.6],[40.2,29.3],[40.6,28.9]],
+      "pattern": "\\bBithynia\\b|\\bPontus\\b",
+      "summary": "Rome joined Bithynia and Pontus into one province on the Black Sea coast.",
+      "uncertainty": "The shape is a simple guide to the coast lands.",
+      "sourceIds": ["web", "wiki-bithynia-pontus", "wiki-cappadocia-province"]
+    },
+    "cappadocia": {
+      "name": "Cappadocia · Roman province", "faction": "rome",
+      "points": [[39.6,35.0],[39.9,38.3],[38.3,38.6],[37.6,36.4],[37.6,34.3]],
+      "pattern": "\\bCappadocia\\b",
+      "summary": "Cappadocia became a Roman province in 17 CE. Its capital was a city named Caesarea.",
+      "uncertainty": "The shape is a simple guide. This Caesarea is not the port in Judea.",
+      "sourceIds": ["web", "wiki-cappadocia-province"]
+    },
+    "macedonia": {
+      "name": "Macedonia · Roman province", "faction": "rome",
+      "points": [[41.3,19.4],[41.5,22.0],[41.5,24.6],[40.8,24.7],[40.2,23.9],[40.0,22.6],[39.3,22.9],[39.2,20.5],[40.3,19.4]],
+      "pattern": "\\bMacedonia(?:n|ns)?\\b|\\bPhilippi(?:ans)?\\b|\\bThessalonica\\b|\\bThessalonians\\b",
+      "summary": "Rome made Macedonia a province in 146 BCE. The Via Egnatia crossed it from west to east.",
+      "uncertainty": "The shape is a simple guide. It includes Thessaly and Epirus, which the province held.",
+      "sourceIds": ["web", "wiki-macedonia-province"]
+    },
+    "achaia": {
+      "name": "Achaia · Roman province", "faction": "rome",
+      "points": [[39.2,20.7],[39.25,22.95],[38.95,23.4],[38.3,24.35],[37.6,24.2],[37.2,23.3],[36.3,23.2],[36.3,22.3],[36.6,21.6],[37.6,21.0],[38.3,20.9]],
+      "pattern": "\\bAchaia\\b|\\bCorinth(?:ians)?\\b|\\bAthens\\b",
+      "summary": "Achaia covered southern Greece. Augustus made it a province apart from Macedonia.",
+      "uncertainty": "The shape is a simple guide. The province’s islands are not marked.",
+      "sourceIds": ["web", "wiki-achaia-province"]
+    },
+    "crete": {
+      "name": "Crete · part of a Roman province", "faction": "rome",
+      "points": [[35.7,23.5],[35.35,26.35],[34.95,26.2],[34.9,24.7],[35.2,23.5]],
+      "pattern": "\\bCrete\\b|\\bCretans?\\b",
+      "summary": "Rome governed Crete together with Cyrenaica in North Africa.",
+      "uncertainty": "The shape is a simple outline of the island. Cyrenaica is not marked.",
+      "sourceIds": ["web", "wiki-crete-cyrenaica"]
+    },
+    "italy": {
+      "name": "Italy", "faction": "italy",
+      "points": [[44.4,8.2],[43.9,10.1],[42.4,11.0],[41.2,13.4],[40.0,15.5],[38.9,16.0],[37.95,15.7],[39.0,17.2],[40.3,16.9],[39.8,18.4],[40.7,18.0],[41.9,16.2],[42.4,14.2],[43.6,13.6],[44.5,12.4],[45.7,13.6],[46.0,11.0],[45.5,8.5]],
+      "pattern": "\\bItal(?:y|ians?)\\b|\\bRom(?:e|ans?)\\b|\\bCaesar\\b",
+      "summary": "Italy was the home region of Rome. It had a special status among Roman lands.",
+      "uncertainty": "The shape is a simple outline of the peninsula.",
+      "sourceIds": ["web", "wiki-roman-italy"]
+    }
+  },
+  "eras": {
+    "genesis": {
+      "land-egypt": "Joseph is sold into Egypt and rises to rule under Pharaoh. Jacob’s family moves there in the famine.",
+      "land-canaan": "God promises this land to Abraham’s children. Abraham, Isaac, and Jacob live in it as outsiders.",
+      "land-paddan-aram": "Abraham’s family settles at Haran. Isaac and Jacob both take wives from the family there.",
+      "edom": "Esau settles in the hill country of Seir. Genesis 36 lists the chiefs and kings of Edom."
+    },
+    "wilderness": {
+      "land-egypt": "Pharaoh enslaves Israel in Egypt. Israel leaves, and the later laws keep recalling that slavery.",
+      "midian": "Moses flees to Midian and marries a priest’s daughter there. Midian’s elders join Moab against Israel in Numbers 22.",
+      "land-canaan": "God promises to bring Israel into Canaan (Exodus 3:8). Twelve spies enter it in Numbers 13.",
+      "edom": "Edom’s king refuses to let Israel pass on the king’s highway (Numbers 20). Israel turns and goes around.",
+      "moab": "Balak king of Moab hires Balaam to curse Israel (Numbers 22–24). Moses speaks Deuteronomy in the plains of Moab.",
+      "ammon": "Deuteronomy 2:19 tells Israel not to take Ammon’s land. The text gives it to the children of Lot.",
+      "amorite-sihon": "Sihon refuses to let Israel pass and attacks. Israel defeats him and settles in his towns.",
+      "bashan-og": "Og meets Israel at Edrei and is defeated (Numbers 21:33–35). Half of Manasseh later receives Bashan."
+    },
+    "early": {
+      "israel-tribes": "Joshua divides the land by tribe. In Judges each tribe faces its own enemies, and Saul first draws them together.",
+      "philistia": "Samson fights the Philistines, and they capture the ark in 1 Samuel 4. Saul dies in battle against them on Gilboa.",
+      "phoenicia": "Joshua and Judges place the Sidonians at Israel’s northern edge. Judges 18:7 says Laish lived quietly like them.",
+      "ammon": "Jephthah fights Ammon in Judges 11. Nahash of Ammon besieges Jabesh Gilead, and Saul rescues it (1 Samuel 11).",
+      "moab": "Eglon of Moab rules Israel for eighteen years until Ehud kills him (Judges 3). Ruth comes from Moab.",
+      "edom": "Joshua 15:1 sets Judah’s southern border at Edom. Saul fights Edom in 1 Samuel 14:47.",
+      "midian": "Midianite raiders strip Israel’s fields for seven years. Gideon drives them out in Judges 6–8."
+    },
+    "united": {
+      "israel-united": "David takes Jerusalem and makes it his capital (2 Samuel 5). Solomon builds the temple there, and the kingdom splits after his death.",
+      "philistia": "David defeats the Philistines after he becomes king (2 Samuel 5). Earlier he had lived among them at Gath and Ziklag.",
+      "phoenicia": "Hiram king of Tyre sends cedar and builders to David and Solomon. Solomon pays him in wheat and oil (1 Kings 5).",
+      "aram": "David defeats Aram of Damascus and puts garrisons there (2 Samuel 8:5–6). Rezon later rules Damascus against Solomon (1 Kings 11:23–25).",
+      "ammon": "Ammon shames David’s messengers, and war follows (2 Samuel 10). Joab takes Rabbah in 2 Samuel 12.",
+      "moab": "David defeats Moab and makes it pay tribute (2 Samuel 8:2).",
+      "edom": "David puts garrisons in Edom (2 Samuel 8:14). Hadad of Edom later troubles Solomon (1 Kings 11).",
+      "egypt": "Solomon marries Pharaoh’s daughter (1 Kings 3:1). Jeroboam flees to Shishak king of Egypt (1 Kings 11:40)."
+    },
+    "divided": {
+      "israel-north": "Kings and Chronicles follow its kings beside Judah’s. Assyria takes Samaria and deports its people in 2 Kings 17.",
+      "judah": "Judah keeps David’s line when the north breaks away. Its kings fight Israel, pay it, and join it by turns.",
+      "aram": "Ben Hadad and Hazael fight Israel for Gilead. Naaman, healed in 2 Kings 5, commands Aram’s army.",
+      "phoenicia": "Ahab marries Jezebel, daughter of the king of the Sidonians (1 Kings 16:31). Elijah stays with a widow at Zarephath near Sidon.",
+      "philistia": "Philistine towns sit on Judah’s western border. Israel besieges Gibbethon, a Philistine town, twice in 1 Kings 15–16.",
+      "ammon": "Ammon joins Moab against Jehoshaphat in 2 Chronicles 20. Amos 1 accuses Ammon of cruelty in Gilead.",
+      "moab": "Mesha king of Moab rebels after Ahab dies (2 Kings 3). A stone that Mesha set up tells his side.",
+      "edom": "Edom revolts against Judah in the days of Jehoram (2 Kings 8:20–22). Amos 1 accuses Edom of chasing his brother with the sword.",
+      "egypt": "Shishak king of Egypt takes the temple treasures from Rehoboam (1 Kings 14:25–26). Hosea warns Israel against calling on Egypt.",
+      "assyria-heartland": "Menahem of Israel and Ahaz of Judah pay Assyria’s kings. Assyria takes Damascus, then Samaria, in 2 Kings 16–17."
+    },
+    "late": {
+      "judah": "Judah stands alone after Samaria falls. Hezekiah and Josiah reform its worship while Assyria and Egypt press it.",
+      "assyria-empire": "Sennacherib takes Judah’s walled towns and threatens Jerusalem (2 Kings 18–19). Nahum announces Nineveh’s fall.",
+      "egypt": "Pharaoh Necoh kills Josiah at Megiddo (2 Kings 23:29). He then sets Jehoiakim on Judah’s throne.",
+      "philistia": "Hezekiah strikes the Philistines as far as Gaza (2 Kings 18:8). Zephaniah 2 warns four of their cities.",
+      "moab": "Zephaniah 2 warns Moab for taunting Judah.",
+      "ammon": "Zephaniah 2 warns Ammon together with Moab.",
+      "edom": "Edom lies on Judah’s southern side in these years. The books of this period seldom name it."
+    },
+    "babylonian": {
+      "judah": "Babylon takes Jerusalem and deports its people in stages. The temple burns in 2 Kings 25.",
+      "babylon-empire": "Nebuchadnezzar takes Jerusalem and carries its people to Babylon. Jeremiah and Ezekiel speak during those years.",
+      "egypt": "Judah’s last kings look to Egypt for help against Babylon. Jeremiah is taken to Egypt after Jerusalem falls (Jeremiah 43).",
+      "philistia": "Jeremiah 47 speaks against the Philistines. Babylon’s army took their land in 604 BCE.",
+      "phoenicia": "Ezekiel 26–28 speaks against Tyre and its sea trade. Jeremiah 27 warns the kings of Tyre and Sidon to serve Babylon.",
+      "ammon": "Ammon’s king sends Ishmael to kill Gedaliah (Jeremiah 40:14). Ezekiel 25 speaks against Ammon.",
+      "moab": "Jeremiah 48 speaks against Moab. Moabite raiders attack Judah in 2 Kings 24:2.",
+      "edom": "Obadiah and Lamentations 4 speak against Edom. Obadiah says Edom stood aside when strangers took Jerusalem."
+    },
+    "persian": {
+      "persia-empire": "Persian kings let Judeans go home and rebuild the temple (Ezra 1; 6). Nehemiah serves the king at Susa.",
+      "yehud": "Zerubbabel and Jeshua rebuild the temple here. Nehemiah, as governor, rebuilds Jerusalem’s wall.",
+      "samaria-province": "Officials in Samaria write to the king against the builders (Ezra 4). Sanballat mocks the wall before the army of Samaria (Nehemiah 4:2)."
+    },
+    "herod": {
+      "herod-kingdom": "Matthew 2 sets Jesus’ birth in Herod’s days. After Herod dies, his son Archelaus rules Judea (Matthew 2:22)."
+    },
+    "gospels": {
+      "judea-province": "Pontius Pilate governs Judea in the Gospels (Luke 3:1). He tries Jesus in Jerusalem.",
+      "galilee-antipas": "Jesus grows up and teaches in Galilee under Antipas. Antipas kills John the Baptist (Mark 6).",
+      "perea-antipas": "Matthew 19:1 and Mark 10:1 take Jesus beyond the Jordan. He is on his way to Jerusalem.",
+      "philip-tetrarchy": "Luke 3:1 names Philip as tetrarch of Ituraea and Trachonitis. A tetrarch ruled one part of a divided kingdom.",
+      "decapolis": "Crowds from the Decapolis follow Jesus (Matthew 4:25). The healed man of Mark 5 tells his story there.",
+      "roman-syria": "Luke 2:2 dates a census by Quirinius, governor of Syria. Jesus visits the coast near Tyre and Sidon in Mark 7:24."
+    },
+    "church": {
+      "judea-province": "Governors Felix and Festus hold Paul at Caesarea (Acts 23–26). Acts 12 names an earlier ruler King Herod; historians call him Agrippa I.",
+      "roman-syria": "Believers are first called Christians at Antioch in Syria (Acts 11:26). Antioch sends out Barnabas and Saul in Acts 13.",
+      "cilicia": "Paul comes from Tarsus in Cilicia (Acts 21:39). He passes through Syria and Cilicia in Acts 15:41.",
+      "cyprus": "Barnabas comes from Cyprus (Acts 4:36). He and Saul cross the island from Salamis to Paphos in Acts 13.",
+      "galatia": "Paul writes to the assemblies of Galatia. Acts 13–14 places him at Antioch of Pisidia, Iconium, Lystra, and Derbe.",
+      "asia": "Paul teaches in Ephesus for two years (Acts 19:10). Revelation 1–3 writes to seven assemblies in Asia.",
+      "bithynia-pontus": "The Spirit keeps Paul from entering Bithynia (Acts 16:7). First Peter greets believers in Pontus and Bithynia.",
+      "cappadocia": "People from Cappadocia hear Peter at Pentecost (Acts 2:9). First Peter 1:1 greets believers there.",
+      "macedonia": "A vision calls Paul to Macedonia (Acts 16:9). He teaches in Philippi, Thessalonica, and Beroea.",
+      "achaia": "Paul speaks in Athens and stays in Corinth (Acts 17–18). Gallio, proconsul of Achaia, hears a charge against him.",
+      "crete": "Paul’s ship shelters along Crete in Acts 27. Paul leaves Titus in Crete to appoint elders (Titus 1:5).",
+      "italy": "Paul lands at Puteoli and goes on to Rome (Acts 28). Hebrews 13:24 sends greetings from the Italians."
+    }
+  },
+  "roads": [
+    {
+      "id": "road-via-egnatia", "title": "Via Egnatia", "confidence": "strong",
+      "points": [[41.32,19.45],[41.11,20.80],[41.01,21.34],[40.80,22.05],[40.76,22.52],[40.64,22.94],[40.63,23.48],[40.82,23.85],[41.01,24.29],[40.94,24.41],[40.87,25.98],[40.93,26.38],[40.97,27.95],[41.01,28.98]],
+      "summary": "Rome built this road across Macedonia in the second century BCE. It ran from the Adriatic coast to Thessalonica and on to Byzantium.",
+      "detail": "Acts 16:11–17:1 takes Paul through Neapolis, Philippi, Amphipolis, Apollonia, and Thessalonica. The encyclopedia article places that trip on this road.",
+      "uncertainty": "Milestones mark the road as far as the edge of Thrace. The line joins known towns and smooths the bends.",
+      "sourceIds": ["wiki-via-egnatia", "web"]
+    },
+    {
+      "id": "road-via-appia", "title": "Appian Way", "confidence": "strong",
+      "points": [[41.89,12.49],[41.72,12.67],[41.47,12.99],[41.29,13.25],[41.36,13.43],[41.26,13.61],[41.24,13.77],[41.08,14.25],[41.13,14.78],[41.05,15.00],[40.96,15.82],[40.47,17.24],[40.63,17.94]],
+      "summary": "The Appian Way joined Rome with Capua and the port of Brundisium. Rome began it in 312 BCE.",
+      "detail": "Acts 28:15 says believers met Paul at the Market of Appius and Three Taverns. Both were stops on this road south of Rome.",
+      "uncertainty": "The road’s course is well known. The line joins its main towns and smooths the bends.",
+      "sourceIds": ["wiki-appian-way", "web"]
+    },
+    {
+      "id": "road-via-sebaste", "title": "Via Sebaste", "confidence": "strong",
+      "points": [[36.96,30.85],[37.33,30.45],[38.08,30.45],[38.31,31.19],[37.87,32.49],[37.58,32.45]],
+      "summary": "Rome finished this army road in 6 BCE. It climbed from Perga on the coast to Antioch of Pisidia. A branch reached Iconium and Lystra.",
+      "detail": "Acts 13:14 takes Paul from Perga to Antioch of Pisidia. He may have used this road, but Acts does not say.",
+      "uncertainty": "Milestones fix parts of the road. The line between the towns is simplified.",
+      "sourceIds": ["wiki-via-sebaste", "web"]
+    },
+    {
+      "id": "road-cilician-gates", "title": "Cilician Gates pass", "confidence": "probable",
+      "points": [[36.92,34.89],[37.28,34.79],[37.42,34.87],[37.85,34.61]],
+      "summary": "This pass crosses the Taurus Mountains north of Tarsus. It joins the plain of Cilicia with the high plateau.",
+      "detail": "Armies and traders used the pass for a very long time. Acts 15:41 sends Paul through Cilicia but does not name the pass.",
+      "uncertainty": "The pass is certain. The line beyond it is a broad guide.",
+      "sourceIds": ["wiki-cilician-gates", "web"]
+    },
+    {
+      "id": "road-persian-royal", "title": "Persian royal road", "confidence": "probable",
+      "points": [[38.49,28.04],[38.9,30.2],[39.65,31.98],[39.6,33.4],[38.72,35.48],[38.35,38.3],[37.3,41.2],[36.36,43.15],[36.19,44.01],[33.5,46.3],[32.19,48.26]],
+      "summary": "Persian kings kept a road with rest stations from Sardis to Susa. Herodotus counted 111 stations on it.",
+      "detail": "Royal messengers changed horses at the stations. Esther 8:10 sends the king’s letters by riders on royal horses.",
+      "uncertainty": "Herodotus names lands and rivers, not towns. The line between Sardis and Susa is a broad guide.",
+      "sourceIds": ["herodotus-royal-road", "wiki-royal-road", "web"]
+    }
+  ],
+  "roadText": {
+    "road-beth-horon": {"uncertainty": "The pass and connection are well supported. The line does not claim an exact roadbed at every point."},
+    "road-lachish-jerusalem": {
+      "detail": "Second Kings 18:17 sends an Assyrian army from Lachish up to Jerusalem. The text does not name the road. This line shows one common approach.",
+      "uncertainty": "The regional connection is probable. The exact track is unknown, so the line is dashed.",
+      "sourceIds": ["dorsey-roads", "aharoni-land"]
+    },
+    "road-kings-highway": {"uncertainty": "This broad route is well known. It was not one fully built road. Its path and local branches remain uncertain."},
+    "road-aleppo-euphrates": {"summary": "This road linked Aleppo with the Euphrates crossing near Til Barsip. Assyria’s state road began there."}
+  },
+  "roadSets": {
+    "moses": {
+      "roads": ["road-coastal-highway", "road-jezreel-damascus", "road-central-ridge", "road-jordan-arabah", "road-shephelah", "road-beth-horon", "road-jerusalem-jericho", "road-kings-highway", "road-syrian-inland"],
+      "uncertainty": "The sources rebuild this route mostly from Iron Age and later evidence. The books of Moses describe an earlier time.",
+      "detailNote": "The line follows Iron Age and later evidence. The books of Moses describe an earlier time.",
+      "notes": {
+        "road-kings-highway": "Numbers 20:17 and 21:22 name “the king’s highway” east of the Jordan.",
+        "road-coastal-highway": "Exodus 13:17 names a near road, “the way of the land of the Philistines.” The encyclopedia article lists that name for this coast road."
+      },
+      "noteSourceIds": {"road-kings-highway": ["wiki-kings-highway", "web"], "road-coastal-highway": ["wiki-via-maris", "web"]}
+    },
+    "israel": {
+      "roads": ["road-coastal-highway", "road-jezreel-damascus", "road-central-ridge", "road-jordan-arabah", "road-shephelah", "road-beth-horon", "road-lachish-jerusalem", "road-jerusalem-jericho", "road-kings-highway", "road-syrian-inland"]
+    },
+    "empires": {
+      "roads": ["road-coastal-highway", "road-jezreel-damascus", "road-central-ridge", "road-jordan-arabah", "road-shephelah", "road-beth-horon", "road-lachish-jerusalem", "road-jerusalem-jericho", "road-kings-highway", "road-syrian-inland", "road-aleppo-euphrates", "road-assyrian-kings-road", "road-assyrian-tigris", "road-arbela-babylonia"]
+    },
+    "persian": {
+      "roads": ["road-coastal-highway", "road-jezreel-damascus", "road-central-ridge", "road-jordan-arabah", "road-shephelah", "road-beth-horon", "road-jerusalem-jericho", "road-kings-highway", "road-syrian-inland", "road-persian-royal"]
+    },
+    "gospels": {
+      "roads": ["road-coastal-highway", "road-jezreel-damascus", "road-central-ridge", "road-jordan-arabah", "road-beth-horon", "road-jerusalem-jericho", "road-kings-highway"],
+      "uncertainty": "The sources rebuild this route from Iron Age evidence, about 1200–587 BCE. This guide has not reviewed a first-century road study for it.",
+      "detailNote": "The line follows Iron Age evidence, not a first-century road study.",
+      "notes": {"road-jerusalem-jericho": "Luke 10:30 sets a parable on the way down from Jerusalem to Jericho."},
+      "noteSourceIds": {"road-jerusalem-jericho": ["web"]}
+    },
+    "church": {
+      "roads": ["road-via-appia", "road-via-egnatia", "road-via-sebaste", "road-cilician-gates", "road-coastal-highway", "road-jezreel-damascus", "road-beth-horon"],
+      "uncertainty": "The sources rebuild this route from Iron Age evidence, about 1200–587 BCE. This guide has not reviewed a first-century road study for it.",
+      "detailNote": "The line follows Iron Age evidence, not a first-century road study.",
+      "uncertaintyOnly": ["road-coastal-highway", "road-jezreel-damascus", "road-beth-horon"]
+    }
+  },
+  "areas": {
+    "ammon": {"atlas": "Ammon", "name": "Ammon", "summary": "Ammon is the high land east of the Jordan around Rabbah."},
+    "ararat": {"atlas": "Ararat", "name": "Ararat", "summary": "Ararat is a mountain land north of Assyria."},
+    "assyria": {"atlas": "Assyria", "name": "Assyria", "summary": "Assyria is the land on the upper Tigris River."},
+    "bashan": {"atlas": "Bashan", "name": "Bashan", "summary": "Bashan is the high land east of the Sea of Galilee."},
+    "canaan": {"atlas": "Canaan", "name": "Canaan", "summary": "Canaan is the land between the Jordan River and the Mediterranean Sea."},
+    "edom": {"atlas": "Edom", "name": "Edom", "summary": "Edom is the dry hill country south of the Dead Sea."},
+    "egypt": {"atlas": "Egypt", "name": "Egypt", "summary": "Egypt is the land along the Nile River."},
+    "galilee": {"atlas": "Galilee 1", "name": "Galilee", "summary": "Galilee is the hill country west of the Sea of Galilee."},
+    "lebanon": {"atlas": "Lebanon", "name": "Lebanon", "summary": "Lebanon is the mountain range north of Galilee."},
+    "midian": {"atlas": "Midian", "name": "Midian", "summary": "Midian is the land east of the Gulf of Aqaba."},
+    "moab": {"atlas": "Moab 1", "name": "Moab", "summary": "Moab is the high land east of the Dead Sea."},
+    "sheba": {"atlas": "Sheba 1", "name": "Sheba", "summary": "Sheba is a land in southern Arabia."}
+  },
+  "books": {
+    "genesis": {"roads": "moses", "nations": [{"from": 12, "to": 50, "era": "genesis"}]},
+    "exodus": {"roads": "moses", "nations": [{"from": 1, "to": 40, "era": "wilderness", "only": ["land-egypt", "midian", "land-canaan"]}]},
+    "numbers": {"roads": "moses", "nations": [{"from": 1, "to": 36, "era": "wilderness"}]},
+    "deuteronomy": {"roads": "moses", "nations": [{"from": 1, "to": 34, "era": "wilderness"}]},
+    "joshua": {"roads": "israel", "nations": [{"from": 1, "to": 24, "era": "early", "without": ["midian"]}]},
+    "judges": {"roads": "israel", "roadNotes": {"road-central-ridge": "Judges 21:19 names a highway that goes up from Bethel to Shechem."}, "nations": [{"from": 1, "to": 21, "era": "early"}]},
+    "ruth": {"roads": "israel", "nations": [{"from": 1, "to": 4, "era": "early", "only": ["israel-tribes", "moab"]}]},
+    "1-samuel": {"roads": "israel", "nations": [{"from": 1, "to": 31, "era": "early", "without": ["midian"]}]},
+    "2-samuel": {"roads": "israel", "nations": [{"from": 1, "to": 24, "era": "united"}]},
+    "1-kings": {"roads": "israel", "nations": [{"from": 1, "to": 11, "era": "united"}, {"from": 12, "to": 22, "era": "divided", "without": ["assyria-heartland"]}]},
+    "2-kings": {"roads": "empires", "nations": [{"from": 1, "to": 17, "era": "divided"}, {"from": 18, "to": 23, "era": "late"}, {"from": 24, "to": 25, "era": "babylonian"}]},
+    "1-chronicles": {"roads": "israel", "nations": [{"from": 10, "to": 29, "era": "united"}]},
+    "2-chronicles": {"roads": "empires", "nations": [{"from": 1, "to": 9, "era": "united"}, {"from": 10, "to": 28, "era": "divided"}, {"from": 29, "to": 35, "era": "late"}, {"from": 36, "to": 36, "era": "babylonian"}]},
+    "ezra": {"roads": "persian", "nations": [{"from": 1, "to": 10, "era": "persian"}]},
+    "nehemiah": {"roads": "persian", "nations": [{"from": 1, "to": 13, "era": "persian"}]},
+    "esther": {"roads": "persian", "nations": [{"from": 1, "to": 10, "era": "persian", "only": ["persia-empire"], "details": {"persia-empire": "Esther opens with a king who rules 127 provinces from Susa. His sealed letters reach every province."}}]},
+    "psalms": {"roads": "israel"},
+    "song-of-solomon": {"roads": "israel"},
+    "joel": {"roads": "israel"},
+    "jeremiah": {"roads": "empires", "nations": [{"from": 1, "to": 52, "era": "babylonian"}]},
+    "lamentations": {"roads": "israel", "nations": [{"from": 1, "to": 5, "era": "babylonian", "only": ["judah", "edom", "egypt"], "details": {"judah": "The poems mourn Jerusalem after its fall. Judah has gone into exile (Lamentations 1:3).", "egypt": "Lamentations 5:6 says the people gave their hand to Egypt and Assyria for bread.", "edom": "Lamentations 4:21–22 tells Edom that the cup will pass to her too."}}]},
+    "ezekiel": {"roads": "empires", "nations": [{"from": 1, "to": 48, "era": "babylonian"}]},
+    "daniel": {"roads": "empires", "nations": [
+      {"from": 1, "to": 5, "era": "babylonian", "only": ["babylon-empire", "judah"], "details": {"babylon-empire": "Daniel and his friends serve at Nebuchadnezzar’s court in Babylon.", "judah": "Nebuchadnezzar besieges Jerusalem and takes young nobles to Babylon (Daniel 1:1–4)."}},
+      {"from": 6, "to": 6, "era": "persian", "only": ["persia-empire"], "details": {"persia-empire": "Daniel serves under Darius the Mede and Cyrus the Persian (Daniel 6:28)."}},
+      {"from": 7, "to": 8, "era": "babylonian", "only": ["babylon-empire"], "details": {"babylon-empire": "Daniel dates these two visions to the reign of Belshazzar king of Babylon."}},
+      {"from": 9, "to": 12, "era": "persian", "only": ["persia-empire"], "details": {"persia-empire": "Daniel dates these chapters to Darius the Mede and to Cyrus king of Persia."}}
+    ]},
+    "hosea": {"roads": "empires", "nations": [{"from": 1, "to": 14, "era": "divided"}]},
+    "amos": {"roads": "empires", "nations": [{"from": 1, "to": 9, "era": "divided"}]},
+    "obadiah": {"roads": "israel", "nations": [{"from": 1, "to": 1, "era": "babylonian", "only": ["edom", "judah"], "details": {"judah": "Obadiah 1:11 speaks of the day strangers entered Jerusalem’s gates and cast lots."}}]},
+    "jonah": {"roads": "empires", "nations": [{"from": 1, "to": 4, "era": "divided", "only": ["assyria-heartland"], "details": {"assyria-heartland": "God sends Jonah to Nineveh, Assyria’s great city. Its people turn from evil, and God spares it."}}]},
+    "micah": {"roads": "empires", "nations": [{"from": 1, "to": 7, "era": "divided"}]},
+    "nahum": {"roads": "empires", "nations": [{"from": 1, "to": 3, "era": "late", "only": ["assyria-empire", "judah", "egypt"], "details": {"assyria-empire": "Nahum announces the fall of Nineveh, Assyria’s capital.", "judah": "Nahum 1:15 tells Judah to keep its feasts, for the enemy is cut off.", "egypt": "Nahum 3:8–10 compares Nineveh with No Amon, an Egyptian city that fell."}}]},
+    "habakkuk": {"roads": "empires", "nations": [{"from": 1, "to": 3, "era": "babylonian", "only": ["judah", "babylon-empire"], "details": {"babylon-empire": "God tells Habakkuk that he is raising up the Chaldeans (Habakkuk 1:6).", "judah": "Habakkuk complains of violence and unjust courts among his own people (Habakkuk 1:2–4)."}}]},
+    "zephaniah": {"roads": "empires", "nations": [{"from": 1, "to": 3, "era": "late"}]},
+    "haggai": {"roads": "persian", "nations": [{"from": 1, "to": 2, "era": "persian", "only": ["persia-empire", "yehud"], "details": {"persia-empire": "Haggai dates each message by the year of Darius the king.", "yehud": "Haggai speaks to Zerubbabel, governor of Judah, and to Joshua the high priest."}}]},
+    "zechariah": {"roads": "persian", "nations": [{"from": 1, "to": 14, "era": "persian", "only": ["persia-empire", "yehud"], "details": {"persia-empire": "Zechariah dates his first visions by the year of Darius.", "yehud": "Zechariah urges Zerubbabel and Joshua the high priest to finish the temple."}}]},
+    "malachi": {"roads": "persian", "nations": [{"from": 1, "to": 4, "era": "persian", "only": ["persia-empire", "yehud"], "details": {"persia-empire": "Malachi 1:8 speaks of a governor over the people. The book names no king of Judah.", "yehud": "Malachi speaks to priests and people who worship at the rebuilt temple."}}]},
+    "matthew": {"roads": "gospels", "nations": [{"from": 2, "to": 2, "era": "herod"}, {"from": 3, "to": 28, "era": "gospels"}]},
+    "mark": {"roads": "gospels", "nations": [{"from": 1, "to": 16, "era": "gospels"}]},
+    "luke": {"roads": "gospels", "nations": [{"from": 1, "to": 1, "era": "herod", "details": {"herod-kingdom": "Luke 1:5 sets the story of Zacharias in the days of Herod, Judea’s king."}}, {"from": 2, "to": 2, "era": "gospels", "only": ["roman-syria"], "details": {"roman-syria": "Luke 2:2 dates a census by Quirinius, governor of Syria."}}, {"from": 3, "to": 24, "era": "gospels"}]},
+    "john": {"roads": "gospels", "nations": [{"from": 1, "to": 21, "era": "gospels"}]},
+    "acts": {"roads": "church", "nations": [{"from": 1, "to": 28, "era": "church"}]},
+    "romans": {"roads": "church", "nations": [{"from": 1, "to": 16, "era": "church"}]},
+    "1-corinthians": {"roads": "church", "nations": [{"from": 1, "to": 16, "era": "church"}]},
+    "2-corinthians": {"roads": "church", "nations": [{"from": 1, "to": 13, "era": "church"}]},
+    "galatians": {"roads": "church", "nations": [{"from": 1, "to": 6, "era": "church"}]},
+    "ephesians": {"roads": "church", "nations": [{"from": 1, "to": 6, "era": "church"}]},
+    "philippians": {"roads": "church", "nations": [{"from": 1, "to": 4, "era": "church"}]},
+    "colossians": {"roads": "church", "nations": [{"from": 1, "to": 4, "era": "church"}]},
+    "1-thessalonians": {"roads": "church", "nations": [{"from": 1, "to": 5, "era": "church"}]},
+    "2-thessalonians": {"roads": "church", "nations": [{"from": 1, "to": 3, "era": "church"}]},
+    "1-timothy": {"roads": "church", "nations": [{"from": 1, "to": 6, "era": "church"}]},
+    "2-timothy": {"roads": "church", "nations": [{"from": 1, "to": 4, "era": "church"}]},
+    "titus": {"roads": "church", "nations": [{"from": 1, "to": 3, "era": "church"}]},
+    "hebrews": {"nations": [{"from": 1, "to": 13, "era": "church"}]},
+    "1-peter": {"nations": [{"from": 1, "to": 5, "era": "church"}]},
+    "revelation": {"roads": "church", "nations": [{"from": 1, "to": 22, "era": "church"}]}
+  }
+}

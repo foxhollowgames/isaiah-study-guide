@@ -1,10 +1,10 @@
 import { initChapterPicker } from './chapter-picker.js';
-import { people, featurePortraits, wordPortraits, personProfileHtml, personIdForLabel, setPortraitMode, webpCopy, webpSourceHtml } from './book-romans-portraits.js?v=20261009.4';
+import { people, featurePortraits, wordPortraits, personProfileHtml, personIdForLabel, setPortraitMode, webpCopy, webpSourceHtml } from './book-romans-portraits.js?v=20261009.5';
 import { initModalDragging } from './modal-drag.js';
 import { chapterFocus, chapterRoutes, chapterPoints, movementStyle } from './chapter-map.js';
 const $ = (s, root = document) => root.querySelector(s);
 const $$ = (s, root = document) => [...root.querySelectorAll(s)];
-const releaseVersion = '20261009.4';
+const releaseVersion = '20261009.5';
 const chapters = Array.from({ length: 16 }, (_, i) => i + 1);
 const defaults = { chapter: 1, verse: 1, studyMode: 'read', view: 'map', perspective: 'historical', portraitMode: 'generated', date: 1, layers: { places: true, regions: true, campaigns: true, roads: false, history: false }, sidebar: 'scripture', map: { center: [32.1, 35.0], zoom: 7 } };
 let state = { ...defaults, ...readSaved(), layers: { ...defaults.layers, ...(readSaved().layers || {}) } };
@@ -169,7 +169,7 @@ function buildStaticUi() {
   initTimelineTooltip();
   const layerOptions = ensureLayerOptions();
   if (!layerOptions) throw new Error('Map layer controls are unavailable.');
-  layerOptions.innerHTML = [['places','Places','place'],['regions','Areas','region'],['campaigns','Paths','route'],['roads','Ancient roads','road'],['history','Nations','region']].filter(([key]) => ({places:data.places.length, regions:data.regions.length || data.narrativeRegions?.length, campaigns:data.textRoutes?.length || data.campaigns.length, roads:data.ancientRoads.length, history:data.regions.length})[key]).map(([key,label,kind]) => `<label class="layer-option"><input type="checkbox" data-layer="${key}"><span class="layer-swatch ${kind}"></span>${label}</label>`).join('');
+  layerOptions.innerHTML = [['places','Places','place'],['regions','Areas','region'],['campaigns','Paths','route'],['roads','Ancient roads','road'],['history','Nations','region']].filter(([key]) => ({places:data.places.length, regions:data.narrativeRegions?.length, campaigns:data.textRoutes?.length || data.campaigns.length, roads:data.ancientRoads.length, history:data.regions.length})[key]).map(([key,label,kind]) => `<label class="layer-option"><input type="checkbox" data-layer="${key}"><span class="layer-swatch ${kind}"></span>${label}</label>`).join('');
   $('#periods').innerHTML = (data.periods.length ? data.periods : [{id:'pre',label:'Before Romans',description:'Earlier eighth-century setting'},{id:'isaiah',label:'Romans',description:'Assyria, Judah, and Romans’s ministry'},{id:'post',label:'After Romans',description:'Later events in Babylon and Persia'}]).slice(0,3).map(p => `<button data-period="${esc(p.id)}">${esc(p.label)}<small>${esc(p.description || '')}</small></button>`).join('');
   document.addEventListener('click', onClick);
   document.addEventListener('change', onChange);
@@ -518,7 +518,7 @@ function initTimelineTooltip() {
 function eventsNear(year, range = 10) { return data.events.filter(e => Math.abs(Number(e.year) - year) <= range).sort((a,b) => Math.abs(a.year-year)-Math.abs(b.year-year)); }
 function selectEvent(event) { selectChapter(event.chapter); focusChapterMap(); openFeature(event,true,null); }
 function findFeature(id) { return [...data.places, ...data.events, ...data.campaigns, ...data.ancientRoads, ...data.regions, ...focusedRoutes(), ...chapterImpacts(), ...chapterAreas()].find(f => f.id === id); }
-function featureType(f) { return f.narrativeRegion ? 'Map area' : f.impact ? 'Loss or pain' : f.chapterRoute || f.textRoute ? 'Chapter path' : data.ancientRoads.includes(f) ? 'Major road' : data.campaigns.includes(f) ? 'Army path' : data.regions.includes(f) ? 'Area of rule' : data.places.includes(f) ? 'Place' : 'Event'; }
+function featureType(f) { return f.narrativeRegion ? 'Map area' : f.impact ? 'Loss or pain' : f.chapterRoute || f.textRoute ? 'Chapter path' : data.ancientRoads.includes(f) ? 'Major road' : data.campaigns.includes(f) ? 'Army path' : data.regions.includes(f) ? (f.typeLabel || 'Area of rule') : data.places.includes(f) ? 'Place' : 'Event'; }
 function mapDisplayText(text = '') {
   const footerCovered = /\b(?:map|line|connection|route|road|itinerary|coordinate|pin|location|border|area of influence|travel order|sequence of (?:movement|stops))\b/i;
   const caveat = /\b(?:approximate|schematic|representative|precise|exact|verified|confirmed|unknown|uncertain|does not (?:establish|show|trace|identify|reconstruct)|not (?:a|an|the)|remain debated)\b/i;
@@ -879,7 +879,9 @@ const factions = {
   babylonia: { name: 'Babylonia', color: '#783951', selectedBorder: '#431b2d' },
   persian: { name: 'Persia', color: '#694529', selectedBorder: '#3d2718' }
 };
-function factionFor(feature) { return factions[feature.faction || feature.id] || { name: 'Place', color: '#594530', selectedBorder: '#34271b' }; }
+// A book can supply its own powers in data.factions. The built-in list stays the default.
+function factionById(id) { return factions[id] || data.factions?.[id]; }
+function factionFor(feature) { return factionById(feature.faction || feature.id) || { name: 'Place', color: '#594530', selectedBorder: '#34271b' }; }
 let lastMapChapter;
 function focusChapterMap(animate = true) {
   if (!map) return;
@@ -929,7 +931,7 @@ function regionMentionedInChapter(region) {
     babylonia: /\bBabylon(?:ia|ian|ians)?\b/i,
     persian: /\b(?:Persia|Persian|Cyrus)\b/i
   };
-  return patterns[region.id]?.test(text) || false;
+  return (region.pattern ? new RegExp(region.pattern, 'i') : patterns[region.id])?.test(text) || false;
 }
 function drawOverlays() {
   if (!map) return;
@@ -944,7 +946,7 @@ function drawOverlays() {
   };
   const current = findFeature($('#contextCard').dataset.feature);
   if (current && !visibleAt(current)) hideModalPanel($('#contextCard'));
-  const regions = state.layers.history ? data.regions.filter(region => visibleAt(region) && (state.studyMode === 'map' || (!region.chapterCoverage || region.chapterCoverage.includes(state.chapter)))) : [];
+  const regions = state.layers.history ? data.regions.filter(region => region.chapterCoverage.includes(state.chapter)) : [];
   if (state.layers.regions && state.studyMode === 'read') chapterAreas().forEach(r => {
     feature(r.id,()=>L.polygon(r.points,{pane:'areas',color:'#79501b',weight:2.5,dashArray:'6 4',fillColor:'#d39a48',fillOpacity:.32,className:'chapter-area'}),r);
   });
@@ -980,7 +982,7 @@ function drawOverlays() {
   });
   retireMapFeatures(mapFeatures, wanted);
   const active = [...new Set([...regions, ...campaigns].map(f => f.faction || f.id))];
-  $('#factionLegend').innerHTML = active.map(id => factions[id] ? '<span><i style="background:' + factions[id].color + '"></i>' + factions[id].name + '</span>' : '').join('');
+  $('#factionLegend').innerHTML = active.map(id => factionById(id) ? '<span><i style="background:' + factionById(id).color + '"></i>' + esc(factionById(id).name) + '</span>' : '').join('');
   $('#factionLegend').hidden = !active.length;
   const focus = chapterFocus(data, state.chapter);
   const kinds = [...new Set(campaigns.filter(c=>c.chapterRoute).map(c=>c.kind))];
