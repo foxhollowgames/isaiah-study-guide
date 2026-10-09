@@ -10,6 +10,7 @@ ROOT=Path(__file__).resolve().parent.parent
 CONFIG=json.loads((ROOT/'scripts/book-map-context.json').read_text(encoding='utf-8'))
 ISAIAH=json.loads((ROOT/'dist/data/content.json').read_text(encoding='utf-8'))
 KML=(ROOT/'scripts/isaiah-geography.kml').read_text(encoding='utf-8')
+JOURNEYS=json.loads((ROOT/'scripts/book-journeys.json').read_text(encoding='utf-8'))
 # The reader already knows these powers and their colors.
 BUILT_IN={'judah':'#8a5908','philistia':'#a4634f','egypt':'#4f8278','cush':'#7b5f8e','assyria':'#ae3924','babylonia':'#783951','persian':'#694529'}
 ROAD_ARTICLES={'wiki-via-egnatia','wiki-appian-way','wiki-via-sebaste','wiki-cilician-gates','wiki-royal-road','wiki-via-maris','wiki-kings-highway'}
@@ -88,10 +89,43 @@ def _areas(book):
         out.append(dict(id=f"geographic:{place['id']}",placeId=place['id'],name=area['name'],points=ring,narrativeRegion=True,summary=area['summary'],sourceIds=['geo']))
     return out
 
+def _site_source(pid,place):
+    limits='Anyone can edit this source. Use it as a place to start. The article marks the modern or excavated site.'
+    return dict(id=f'wiki-site-{pid}',title=f"{place['article']} · Wikipedia",author='Wikipedia contributors',category='Encyclopedia background',type='Encyclopedia background',
+        perspective='historical',url='https://en.wikipedia.org/wiki/'+quote(place['article'].replace(' ','_')),summary=f"The article gives the location used for {place['name']}.",
+        revisionId=place['revisionId'],revisionUrl=f"https://en.wikipedia.org/w/index.php?oldid={place['revisionId']}",license='CC BY-SA 4.0',
+        licenseUrl='https://creativecommons.org/licenses/by-sa/4.0/',reviewed=f"{JOURNEYS['reviewed']}: site coordinates read. The article text was not reviewed.",limits=limits,limitations=limits)
+
+def _journeys(slug,book,content):
+    """Add chapter paths that join the places a book names, in the order it names them."""
+    plan=JOURNEYS.get(slug)
+    if not plan:return
+    have={p['id']:p for p in content['places']};focus={f['chapter']:f for f in content['chapterMaps']}
+    for chapter,routes in plan['routes'].items():
+        n=int(chapter);item=focus[n]
+        for route in routes:
+            for pid in route['placeIds']:
+                if pid in have:continue
+                new=plan['places'][pid];source=_site_source(pid,new);content['sources'].append(source)
+                have[pid]=dict(id=pid,name=new['name'],lat=new['lat'],lng=new['lng'],summary=new['summary'],detail=new['summary'],limits=new['limits'],uncertainty=new['limits'],
+                    sourceIds=['web',source['id']],verseScope=new.get('verseScope',{}),chapterLocation=True)
+                content['places'].append(have[pid])
+            rid=f"{slug}-{n}-{route['id']}";points=[[have[pid]['lat'],have[pid]['lng']] for pid in route['placeIds']]
+            content['textRoutes'].append(dict(id=rid,title=route['title'],points=points,placeIds=route['placeIds'],chapter=n,verse=route['verse'],endVerse=route['endVerse'],
+                summary=route['summary'],detail=plan['uncertainty'],uncertainty=plan['uncertainty'],evidence=route['evidence'],kind=route['kind'],direction=True,textRoute=True,sourceIds=['web']))
+            span=str(route['verse'])+('' if route['endVerse']==route['verse'] else f"–{route['endVerse']}")
+            item['routes'].append({'id':rid,'from':0,'to':len(points)-1,'reference':f"{book['name']} {n}:{span}"})
+            for key in ('focusPlaceIds','placeIds'):item[key]=list(dict.fromkeys(item[key]+route['placeIds']))
+        # The old note said no journey was drawn. Say what the new lines show.
+        item['note']=item['limits']=plan['note']
+        for row in content['passages']+content['events']:
+            if row['chapter']==n:row['uncertainty']=plan['note']
+
 def add_map_context(slug,book,content):
     """Add the layers for one book. A book with no entry keeps its place markers only."""
     cfg=CONFIG['books'].get(slug,{})
     content['regions']=_regions(cfg);content['ancientRoads']=_roads(cfg);content['narrativeRegions']=_areas(book)
+    _journeys(slug,book,content)
     used={r['faction'] for r in content['regions']}-set(BUILT_IN)
     if used:content['factions']={k:v for k,v in CONFIG['factions'].items() if k in used}
     have={s['id'] for s in content['sources']}

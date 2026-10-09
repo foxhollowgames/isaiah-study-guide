@@ -89,3 +89,9 @@ Do not give a book nations when its text sets no political period. Job, Psalms, 
 `areas` maps a place id to an outline in `scripts/isaiah-geography.kml`. The builder adds an area when the book has that place and its marker lies inside the outline's extent.
 
 `wikipedia` rows hold the source id, article, reviewed revision, and summary. Introductions were read on 2026-10-09. Road articles were read for their route descriptions. Herodotus 5.52–54 was read on Wikisource for the Persian royal road. A new nation or road needs a reviewed source row before its note.
+
+## Added-book chapter journeys
+
+`scripts/book-journeys.json` holds chapter paths for a book. Acts is the first. `places` gives each new stop a name, a point, the encyclopedia article and revision that supplied the point, a summary, and a limit. `routes.<chapter>` lists paths with `id`, `title`, `kind`, `placeIds`, `verse`, `endVerse`, `summary`, and `evidence`. `scripts/book_maps.py` adds the places, the paths, and the chapter focus. It also replaces the chapter map note with the journey note.
+
+A path joins places the text names, in the text's order. It is not a road or a sea lane. Each new stop must be named in that chapter or the one beside it. Only site coordinates were read from the place articles. The Market of Appius has no point because its article gives none.

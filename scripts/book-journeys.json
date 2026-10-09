@@ -1,0 +1,105 @@
+{
+  "reviewed": "2026-10-09",
+  "acts": {
+    "note": "Lines join the places Acts names, in order. They do not trace real roads or sea lanes.",
+    "uncertainty": "The line joins the places Acts names, in order. It does not trace a road or a sea lane.",
+    "places": {
+      "seleucia": {"name": "Seleucia", "lat": 36.1239, "lng": 35.9219, "article": "Seleucia Pieria", "revisionId": "1364719071", "summary": "Barnabas and Saul sail from Seleucia to Cyprus (Acts 13:4).", "limits": "The point marks the site in the encyclopedia article. It marks no exact house or harbor."},
+      "salamis": {"name": "Salamis", "lat": 35.1833, "lng": 33.9, "article": "Salamis, Cyprus", "revisionId": "1379196958", "summary": "Barnabas and Saul preach in the synagogues at Salamis on Cyprus (Acts 13:5).", "limits": "The point marks the site in the encyclopedia article. It marks no exact house or harbor."},
+      "paphos": {"name": "Paphos", "lat": 34.7667, "lng": 32.4167, "article": "Paphos", "revisionId": "1377353119", "summary": "At Paphos the proconsul Sergius Paulus believes (Acts 13:6–12).", "limits": "The point marks the site in the encyclopedia article. It marks no exact house or harbor."},
+      "perga": {"name": "Perga", "lat": 36.9614, "lng": 30.8539, "article": "Perga", "revisionId": "1365659311", "summary": "John leaves the group at Perga (Acts 13:13). Paul and Barnabas preach there on the way back (14:25).", "limits": "The point marks the site in the encyclopedia article. It marks no exact house or harbor."},
+      "iconium": {"name": "Iconium", "lat": 37.8744, "lng": 32.4931, "article": "Konya", "revisionId": "1379290316", "summary": "Many Jews and Greeks believe at Iconium. A plot to stone Paul and Barnabas drives them out (Acts 14:1–6).", "limits": "The point marks the site in the encyclopedia article. It marks no exact house or harbor."},
+      "lystra": {"name": "Lystra", "lat": 37.6019, "lng": 32.3383, "article": "Lystra", "revisionId": "1364716313", "summary": "Paul heals a lame man at Lystra, and the crowd calls him a god. He is later stoned there (Acts 14:8–19).", "limits": "The point marks the site in the encyclopedia article. It marks no exact house or harbor."},
+      "derbe": {"name": "Derbe", "lat": 37.3493, "lng": 33.3617, "article": "Derbe", "revisionId": "1373542285", "summary": "Paul and Barnabas make many disciples at Derbe, then turn back (Acts 14:20–21).", "limits": "The point marks the site in the encyclopedia article. It marks no exact house or harbor."},
+      "attalia": {"name": "Attalia", "lat": 36.8869, "lng": 30.7033, "article": "Antalya", "revisionId": "1378218937", "summary": "Paul and Barnabas sail from Attalia back to Antioch (Acts 14:25–26).", "limits": "The point marks the site in the encyclopedia article. It marks no exact house or harbor."},
+      "troas": {"name": "Troas", "lat": 39.7517, "lng": 26.1586, "article": "Alexandria Troas", "revisionId": "1373712912", "summary": "At Troas Paul sees a man of Macedonia in a vision (Acts 16:8–9). Eutychus falls from a window there (20:7–12).", "limits": "The point marks the site in the encyclopedia article. It marks no exact house or harbor."},
+      "samothrace": {"name": "Samothrace", "lat": 40.45, "lng": 25.5875, "article": "Samothrace", "revisionId": "1375875277", "summary": "Paul’s ship reaches Samothrace the day before Neapolis (Acts 16:11).", "limits": "The point stands for the island. Acts names no harbor."},
+      "neapolis": {"name": "Neapolis", "lat": 40.935, "lng": 24.415, "article": "Neapolis (Thrace)", "revisionId": "1376844201", "summary": "Paul lands at Neapolis and goes on to Philippi (Acts 16:11–12).", "limits": "The point marks the site in the encyclopedia article. It marks no exact house or harbor."},
+      "amphipolis": {"name": "Amphipolis", "lat": 40.8183, "lng": 23.84, "article": "Amphipolis", "revisionId": "1373753322", "summary": "Paul and Silas pass through Amphipolis on the way to Thessalonica (Acts 17:1).", "limits": "The point marks the site in the encyclopedia article. It marks no exact house or harbor."},
+      "apollonia": {"name": "Apollonia", "lat": 40.6237, "lng": 23.4697, "article": "Apollonia (Mygdonia)", "revisionId": "1367652191", "summary": "Paul and Silas pass through Apollonia on the way to Thessalonica (Acts 17:1).", "limits": "The point marks the site in the encyclopedia article. It marks no exact house or harbor."},
+      "thessalonica": {"name": "Thessalonica", "lat": 40.6403, "lng": 22.9356, "article": "Thessaloniki", "revisionId": "1379043326", "summary": "Paul reasons in the synagogue for three Sabbaths. A mob attacks Jason’s house (Acts 17:1–9).", "limits": "The point marks the site in the encyclopedia article. It marks no exact house or harbor."},
+      "beroea": {"name": "Beroea", "lat": 40.5167, "lng": 22.2, "article": "Veria", "revisionId": "1375879844", "summary": "The Beroeans examine the Scriptures daily. Men from Thessalonica stir up the crowds (Acts 17:10–13).", "limits": "The point marks the site in the encyclopedia article. It marks no exact house or harbor."},
+      "cenchreae": {"name": "Cenchreae", "lat": 37.885, "lng": 22.9875, "article": "Kechries", "revisionId": "1375808687", "summary": "Paul shaves his head at Cenchreae because of a vow (Acts 18:18).", "limits": "The point marks the site in the encyclopedia article. It marks no exact house or harbor."},
+      "miletus": {"name": "Miletus", "lat": 37.5303, "lng": 27.2783, "article": "Miletus", "revisionId": "1376640211", "summary": "Paul calls the Ephesian elders to Miletus and says farewell (Acts 20:17–38).", "limits": "The point marks the site in the encyclopedia article. It marks no exact house or harbor."},
+      "assos": {"name": "Assos", "lat": 39.4878, "lng": 26.3369, "article": "Assos", "revisionId": "1364710295", "summary": "Paul goes to Assos by land and boards the ship there (Acts 20:13–14).", "limits": "The point marks the site in the encyclopedia article. It marks no exact house or harbor."},
+      "mitylene": {"name": "Mitylene", "lat": 39.1036, "lng": 26.5547, "article": "Mytilene", "revisionId": "1377100118", "summary": "The ship comes to Mitylene after Assos (Acts 20:14).", "limits": "The point marks the site in the encyclopedia article. It marks no exact house or harbor."},
+      "chios": {"name": "Chios", "lat": 38.3725, "lng": 26.1375, "article": "Chios (town)", "revisionId": "1375796384", "summary": "The ship comes opposite Chios the day after Mitylene (Acts 20:15).", "limits": "The point stands for the island. Acts names no harbor."},
+      "samos": {"name": "Samos", "lat": 37.75, "lng": 26.8333, "article": "Samos", "revisionId": "1378908030", "summary": "The ship touches at Samos the day before Miletus (Acts 20:15).", "limits": "The point stands for the island. Acts names no harbor."},
+      "cos": {"name": "Cos", "lat": 36.85, "lng": 27.2333, "article": "Kos", "revisionId": "1375842151", "summary": "The ship runs a straight course to Cos (Acts 21:1).", "limits": "The point stands for the island. Acts names no harbor."},
+      "rhodes": {"name": "Rhodes", "lat": 36.4333, "lng": 28.2167, "article": "Rhodes (city)", "revisionId": "1378375369", "summary": "The ship reaches Rhodes the day after Cos (Acts 21:1).", "limits": "The point marks the site in the encyclopedia article. It marks no exact house or harbor."},
+      "patara": {"name": "Patara", "lat": 36.2662, "lng": 29.3172, "article": "Patara (Lycia)", "revisionId": "1379164107", "summary": "At Patara Paul’s group finds a ship crossing to Phoenicia (Acts 21:1–2).", "limits": "The point marks the site in the encyclopedia article. It marks no exact house or harbor."},
+      "ptolemais": {"name": "Ptolemais", "lat": 32.9278, "lng": 35.0817, "article": "Acre, Israel", "revisionId": "1376936504", "summary": "Paul’s group greets the brothers at Ptolemais and stays one day (Acts 21:7).", "limits": "The point marks the site in the encyclopedia article. It marks no exact house or harbor."},
+      "antipatris": {"name": "Antipatris", "lat": 32.105, "lng": 34.9304, "article": "Antipatris", "revisionId": "1369215117", "summary": "Soldiers bring Paul to Antipatris by night (Acts 23:31).", "limits": "The point marks the site in the encyclopedia article. It marks no exact house or harbor."},
+      "myra": {"name": "Myra", "lat": 36.2592, "lng": 29.9853, "article": "Myra", "revisionId": "1379057982", "summary": "At Myra the centurion finds a ship sailing for Italy (Acts 27:5–6).", "limits": "The point marks the site in the encyclopedia article. It marks no exact house or harbor."},
+      "cnidus": {"name": "Cnidus", "lat": 36.6858, "lng": 27.375, "article": "Knidos", "revisionId": "1364715693", "summary": "The ship reaches Cnidus slowly, and the wind turns it toward Crete (Acts 27:7).", "limits": "The point marks the site in the encyclopedia article. It marks no exact house or harbor."},
+      "fair-havens": {"name": "Fair Havens", "lat": 34.9297, "lng": 24.8003, "article": "Kaloi Limenes", "revisionId": "1375806970", "summary": "Paul warns the crew at Fair Havens not to sail on (Acts 27:8–10).", "limits": "The point marks the site in the encyclopedia article. It marks no exact house or harbor."},
+      "malta": {"name": "Malta", "lat": 35.9, "lng": 14.5167, "article": "Malta", "revisionId": "1379401656", "summary": "The people of the wrecked ship reach Malta. Paul heals the father of Publius there (Acts 28:1–8).", "limits": "Acts does not say where on Malta the ship ran aground."},
+      "syracuse": {"name": "Syracuse", "lat": 37.0692, "lng": 15.2875, "article": "Syracuse, Sicily", "revisionId": "1378595422", "summary": "Paul’s ship stays three days at Syracuse (Acts 28:12).", "limits": "The point marks the site in the encyclopedia article. It marks no exact house or harbor."},
+      "rhegium": {"name": "Rhegium", "lat": 38.1114, "lng": 15.6619, "article": "Reggio Calabria", "revisionId": "1376162684", "summary": "The ship reaches Rhegium and waits one day for a south wind (Acts 28:13).", "limits": "The point marks the site in the encyclopedia article. It marks no exact house or harbor."},
+      "puteoli": {"name": "Puteoli", "lat": 40.8444, "lng": 14.0933, "article": "Pozzuoli", "revisionId": "1376928395", "summary": "Paul lands at Puteoli and stays seven days with the brothers (Acts 28:13–14).", "limits": "The point marks the site in the encyclopedia article. It marks no exact house or harbor."},
+      "three-taverns": {"name": "Three Taverns", "lat": 41.5619, "lng": 12.8739, "article": "Tre Taverne", "revisionId": "1347262371", "summary": "Brothers from Rome come to meet Paul at the Three Taverns (Acts 28:15).", "limits": "The point marks the site in the encyclopedia article. It marks no exact house or harbor."},
+      "tarsus": {"name": "Tarsus", "lat": 36.9165, "lng": 34.8951, "article": "Tarsus, Mersin", "revisionId": "1376952448", "summary": "Tarsus is Paul’s home city. The brothers send him there (Acts 9:30). Barnabas later looks for him there (11:25).", "limits": "The point marks the site in the encyclopedia article. It marks no exact house or harbor."},
+      "lydda": {"name": "Lydda", "lat": 31.9519, "lng": 34.8881, "article": "Lod", "revisionId": "1378734909", "summary": "Peter heals Aeneas at Lydda (Acts 9:32–35).", "limits": "The point marks the site in the encyclopedia article. It marks no exact house or harbor."},
+      "azotus": {"name": "Azotus", "lat": 31.7536, "lng": 34.6617, "article": "Ashdod (ancient city)", "revisionId": "1365084074", "summary": "Philip is found at Azotus. He preaches in the towns up to Caesarea (Acts 8:40).", "limits": "The point marks the site in the encyclopedia article. It marks no exact house or harbor."},
+      "gaza": {"name": "Gaza", "lat": 31.5075, "lng": 34.4597, "article": "Gaza City", "revisionId": "1377692588", "summary": "An angel sends Philip to the road from Jerusalem down to Gaza (Acts 8:26).", "limits": "The point marks the site in the encyclopedia article. It marks no exact house or harbor."},
+      "samaria": {"name": "Samaria", "lat": 32.2764, "lng": 35.195, "article": "Samaria (ancient city)", "revisionId": "1379213380", "summary": "Philip proclaims the Christ in the city of Samaria. Peter and John come and pray for the believers (Acts 8:5–17).", "limits": "The point marks the site in the encyclopedia article. It marks no exact house or harbor.", "verseScope": {"1": [], "8": [5, 9, 14], "9": [], "15": []}}
+    },
+    "routes": {
+      "8": [
+        {"id": "philip-samaria", "title": "Philip goes to Samaria", "kind": "journey", "placeIds": ["jerusalem", "samaria"], "verse": 5, "endVerse": 5, "summary": "Persecution scatters the Jerusalem assembly. Philip goes down to the city of Samaria and proclaims the Christ.", "evidence": "Narrated journey"},
+        {"id": "gaza-road", "title": "The road from Jerusalem to Gaza", "kind": "journey", "placeIds": ["jerusalem", "gaza"], "verse": 26, "endVerse": 26, "summary": "An angel sends Philip to this road. He meets the Ethiopian official on it. Acts does not say where.", "evidence": "Named road; meeting point unknown"},
+        {"id": "philip-coast", "title": "Philip from Azotus to Caesarea", "kind": "journey", "placeIds": ["azotus", "caesarea"], "verse": 40, "endVerse": 40, "summary": "Philip is found at Azotus. He preaches in the towns until he reaches Caesarea.", "evidence": "Narrated journey"}
+      ],
+      "9": [
+        {"id": "saul-damascus", "title": "Saul sets out for Damascus", "kind": "journey", "placeIds": ["jerusalem", "damascus"], "verse": 1, "endVerse": 3, "summary": "Saul sets out for Damascus with letters from the high priest. A light stops him near the city.", "evidence": "Narrated journey; road not named"},
+        {"id": "saul-escape", "title": "Saul escapes to Tarsus", "kind": "flight", "placeIds": ["damascus", "jerusalem", "caesarea", "tarsus"], "verse": 25, "endVerse": 30, "summary": "Disciples lower Saul over the Damascus wall in a basket. He goes to Jerusalem. The brothers then send him to Tarsus by Caesarea.", "evidence": "Narrated escape"},
+        {"id": "peter-joppa", "title": "Peter from Lydda to Joppa", "kind": "journey", "placeIds": ["lydda", "joppa"], "verse": 32, "endVerse": 39, "summary": "Peter heals Aeneas at Lydda. Two men bring him to Joppa, where Tabitha has died.", "evidence": "Narrated journey"}
+      ],
+      "10": [
+        {"id": "cornelius-men", "title": "Cornelius sends for Peter", "kind": "diplomacy", "placeIds": ["caesarea", "joppa"], "verse": 7, "endVerse": 8, "summary": "Cornelius sends two servants and a soldier to Joppa to fetch Peter.", "evidence": "Narrated errand"},
+        {"id": "peter-caesarea", "title": "Peter goes to Caesarea", "kind": "journey", "placeIds": ["joppa", "caesarea"], "verse": 23, "endVerse": 24, "summary": "Peter goes with them the next day. Some brothers from Joppa go too.", "evidence": "Narrated journey"}
+      ],
+      "11": [
+        {"id": "barnabas-antioch", "title": "Barnabas is sent to Antioch", "kind": "journey", "placeIds": ["jerusalem", "antioch-syria"], "verse": 22, "endVerse": 22, "summary": "The Jerusalem assembly hears that Greeks in Antioch believe. It sends Barnabas there.", "evidence": "Narrated journey"},
+        {"id": "saul-antioch", "title": "Barnabas brings Saul from Tarsus", "kind": "journey", "placeIds": ["tarsus", "antioch-syria"], "verse": 25, "endVerse": 26, "summary": "Barnabas goes to Tarsus to look for Saul and brings him to Antioch.", "evidence": "Narrated journey"},
+        {"id": "famine-relief", "title": "Relief for Judea", "kind": "diplomacy", "placeIds": ["antioch-syria", "jerusalem"], "verse": 29, "endVerse": 30, "summary": "The disciples at Antioch send relief to the elders in Judea. Barnabas and Saul carry it. Jerusalem stands for Judea here.", "evidence": "Narrated gift; city not named"}
+      ],
+      "13": [
+        {"id": "cyprus-pisidia", "title": "From Antioch to Cyprus and Pisidia", "kind": "journey", "placeIds": ["antioch-syria", "seleucia", "salamis", "paphos", "perga", "antioch-pisidia", "iconium"], "verse": 4, "endVerse": 51, "summary": "Barnabas and Saul sail to Cyprus and cross the island. They sail to Perga and go up to Antioch of Pisidia. Driven out, they go to Iconium.", "evidence": "Named stops in order"}
+      ],
+      "14": [
+        {"id": "lycaonia-flight", "title": "Flight to Lystra and Derbe", "kind": "flight", "placeIds": ["iconium", "lystra", "derbe"], "verse": 6, "endVerse": 20, "summary": "Paul and Barnabas flee a plot at Iconium. Paul is stoned at Lystra, and they go on to Derbe.", "evidence": "Narrated escape"},
+        {"id": "return-antioch", "title": "Return to Antioch", "kind": "journey", "placeIds": ["derbe", "lystra", "iconium", "antioch-pisidia", "perga", "attalia", "antioch-syria"], "verse": 21, "endVerse": 26, "summary": "They go back through the same cities and appoint elders. They sail from Attalia to Antioch.", "evidence": "Named stops in order"}
+      ],
+      "15": [
+        {"id": "council-trip", "title": "Up to Jerusalem about the dispute", "kind": "journey", "placeIds": ["antioch-syria", "jerusalem"], "verse": 2, "endVerse": 4, "summary": "Antioch sends Paul and Barnabas to the apostles and elders. They pass through Phoenicia and Samaria.", "evidence": "Narrated journey; regions named"},
+        {"id": "council-letter", "title": "The letter goes to Antioch", "kind": "diplomacy", "placeIds": ["jerusalem", "antioch-syria"], "verse": 30, "endVerse": 30, "summary": "Judas and Silas carry the council’s letter to Antioch with Paul and Barnabas.", "evidence": "Narrated delivery"}
+      ],
+      "16": [
+        {"id": "to-macedonia", "title": "From Lystra to Philippi", "kind": "journey", "placeIds": ["derbe", "lystra", "troas", "samothrace", "neapolis", "philippi"], "verse": 1, "endVerse": 12, "summary": "Paul meets Timothy at Lystra. They pass through Phrygia and Galatia to Troas. After the vision they sail to Macedonia.", "evidence": "Named stops; inland course unknown"}
+      ],
+      "17": [
+        {"id": "macedonia-athens", "title": "From Philippi to Athens", "kind": "journey", "placeIds": ["philippi", "amphipolis", "apollonia", "thessalonica", "beroea", "athens"], "verse": 1, "endVerse": 15, "summary": "Paul and Silas go to Thessalonica, then to Beroea by night. Brothers take Paul to the sea and on to Athens.", "evidence": "Named stops in order"}
+      ],
+      "18": [
+        {"id": "athens-corinth", "title": "Paul comes to Corinth", "kind": "journey", "placeIds": ["athens", "corinth"], "verse": 1, "endVerse": 1, "summary": "Paul leaves Athens for Corinth and stays a year and six months.", "evidence": "Narrated journey"},
+        {"id": "sail-syria", "title": "From Corinth back to Antioch", "kind": "journey", "placeIds": ["corinth", "cenchreae", "ephesus", "caesarea", "antioch-syria"], "verse": 18, "endVerse": 22, "summary": "Paul sails for Syria by Cenchreae and Ephesus. He lands at Caesarea, greets the assembly, and goes down to Antioch.", "evidence": "Named stops; Acts does not name the assembly’s city"}
+      ],
+      "20": [
+        {"id": "troas-miletus", "title": "From Philippi to Miletus", "kind": "journey", "placeIds": ["philippi", "troas", "assos", "mitylene", "chios", "samos", "miletus"], "verse": 6, "endVerse": 15, "summary": "The group sails from Philippi to Troas. Paul goes to Assos by land. The ship then passes the islands to Miletus.", "evidence": "Named stops in order"}
+      ],
+      "21": [
+        {"id": "miletus-jerusalem", "title": "From Miletus to Jerusalem", "kind": "journey", "placeIds": ["miletus", "cos", "rhodes", "patara", "tyre", "ptolemais", "caesarea", "jerusalem"], "verse": 1, "endVerse": 17, "summary": "The ship passes Cos and Rhodes to Patara. A second ship crosses to Tyre. The group goes on by Ptolemais and Caesarea to Jerusalem.", "evidence": "Named stops in order"}
+      ],
+      "23": [
+        {"id": "paul-escort", "title": "Paul is taken to Caesarea", "kind": "journey", "placeIds": ["jerusalem", "antipatris", "caesarea"], "verse": 31, "endVerse": 33, "summary": "Soldiers take Paul to Antipatris by night. Horsemen bring him on to the governor at Caesarea.", "evidence": "Narrated transfer; road not named"}
+      ],
+      "27": [
+        {"id": "voyage-malta", "title": "The voyage toward Italy", "kind": "journey", "placeIds": ["caesarea", "sidon", "myra", "cnidus", "fair-havens", "malta"], "verse": 1, "endVerse": 44, "summary": "The ship touches at Sidon and reaches Myra. A second ship leaves Fair Havens, and a storm drives it to Malta.", "evidence": "Named stops; storm course unknown"}
+      ],
+      "28": [
+        {"id": "malta-rome", "title": "From Malta to Rome", "kind": "journey", "placeIds": ["malta", "syracuse", "rhegium", "puteoli", "three-taverns", "rome"], "verse": 11, "endVerse": 16, "summary": "Paul sails by Syracuse and Rhegium to Puteoli. Brothers meet him at the Market of Appius and the Three Taverns. This guide has no checked point for the Market of Appius.", "evidence": "Named stops in order"}
+      ]
+    }
+  }
+}
