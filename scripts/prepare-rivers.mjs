@@ -3,7 +3,7 @@ import { readFile, writeFile } from 'node:fs/promises';
 // Natural Earth 1:10m rivers, public domain. Keep the map's regional extent.
 // Source: https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-rivers-lake-centerlines/
 const source = JSON.parse(await readFile(process.argv[2], 'utf8'));
-const inside = ([x, y]) => x >= 20 && x <= 57 && y >= 8 && y <= 45;
+const inside = ([x, y]) => x >= 1 && x <= 57 && y >= 8 && y <= 48;
 const features = source.features.flatMap(feature => {
   if (/canal/i.test(feature.properties.name_en || feature.properties.name || '')) return [];
   const lines = feature.geometry.type === 'LineString' ? [feature.geometry.coordinates] : feature.geometry.coordinates;

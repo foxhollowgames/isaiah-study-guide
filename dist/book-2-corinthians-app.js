@@ -744,8 +744,8 @@ function closeCard() { const card = $('#contextCard'); if (card.classList.contai
 
 function initMap() {
   if (!window.L) { showToast('The map did not load. Reload the page to try again.'); return; }
-  const stored = state.map || defaults.map; const center = Array.isArray(stored.center) && stored.center[0] >= 8 && stored.center[0] <= 45 && stored.center[1] >= 20 && stored.center[1] <= 57 ? stored.center : defaults.map.center; const zoom = stored.zoom >= 3 && stored.zoom <= 14 ? stored.zoom : defaults.map.zoom;
-  map = L.map('map', { zoomControl: false, attributionControl: true, preferCanvas: false, minZoom: 3, maxZoom: 14, zoomSnap: .25, maxBounds: [[8,20],[45,57]], maxBoundsViscosity: .8 }).setView(center, zoom);
+  const stored = state.map || defaults.map; const center = Array.isArray(stored.center) && stored.center[0] >= 8 && stored.center[0] <= 48 && stored.center[1] >= 1 && stored.center[1] <= 57 ? stored.center : defaults.map.center; const zoom = stored.zoom >= 3 && stored.zoom <= 14 ? stored.zoom : defaults.map.zoom;
+  map = L.map('map', { zoomControl: false, attributionControl: true, preferCanvas: false, minZoom: 3, maxZoom: 14, zoomSnap: .25, maxBounds: [[8,1],[48,57]], maxBoundsViscosity: .8 }).setView(center, zoom);
   L.control.zoom({position:'bottomright'}).addTo(map);
   L.control.scale({position:'bottomleft',imperial:false}).addTo(map);
   map.attributionControl.setPrefix(false);
