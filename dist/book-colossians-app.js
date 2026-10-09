@@ -1,5 +1,5 @@
 import { initChapterPicker } from './chapter-picker.js';
-import { people, featurePortraits, wordPortraits, personProfileHtml, personIdForLabel, setPortraitMode, webpCopy, webpSourceHtml } from './book-colossians-portraits.js?v=20261009.3';
+import { people, featurePortraits, wordPortraits, personProfileHtml, personIdForLabel, setPortraitMode, webpCopy, webpSourceHtml } from './book-colossians-portraits.js?v=20261009.4';
 import { initModalDragging } from './modal-drag.js';
 import { chapterFocus, chapterRoutes, chapterPoints, movementStyle } from './chapter-map.js';
 const $ = (s, root = document) => root.querySelector(s);
@@ -676,7 +676,7 @@ function detailReturnSelector(type, id) {
   return type === 'person' ? `[data-person-id="${CSS.escape(id)}"]` : `[data-detail-type="${CSS.escape(type)}"][data-detail-id="${CSS.escape(id)}"]`;
 }
 function linkedDetailBodyHtml(detail, backLabel, context = 'sidebar') {
-  const back = `<button class="back-button person-profile-back" data-action="${context === 'context' ? 'person-profile-back' : 'sidebar-person-back'}" aria-label="Back to ${esc(backLabel)}">Back</button>`;
+  const back = `<button class="back-button person-profile-back" data-action="${context === 'context' ? 'person-profile-back' : 'sidebar-person-back'}" aria-label="Back to ${esc(backLabel)}">← Back</button>`;
   if (detail.type === 'person') return context === 'context'
     ? linkedPersonProfileHtml(detail.id, {backLabel:`Back to ${backLabel}`})
     : `<section class="word-view">${back}${linkedPersonProfileHtml(detail.id)}</section>`;

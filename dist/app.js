@@ -4,7 +4,7 @@ import { initModalDragging } from './modal-drag.js';
 import { chapterFocus, chapterRoutes, chapterPoints, movementStyle } from './chapter-map.js';
 const $ = (s, root = document) => root.querySelector(s);
 const $$ = (s, root = document) => [...root.querySelectorAll(s)];
-const releaseVersion = '20261009.3';
+const releaseVersion = '20261009.4';
 const chapters = Array.from({ length: 66 }, (_, i) => i + 1);
 const defaults = { chapter: 1, verse: 1, studyMode: 'read', view: 'map', perspective: 'historical', portraitMode: 'generated', date: -701, layers: { places: true, regions: true, campaigns: true, roads: false, history: false }, sidebar: 'scripture', map: { center: [32.1, 35.0], zoom: 7 } };
 let state = { ...defaults, ...readSaved(), layers: { ...defaults.layers, ...(readSaved().layers || {}) } };
@@ -695,7 +695,7 @@ function detailReturnSelector(type, id) {
   return type === 'person' ? `[data-person-id="${CSS.escape(id)}"]` : `[data-detail-type="${CSS.escape(type)}"][data-detail-id="${CSS.escape(id)}"]`;
 }
 function linkedDetailBodyHtml(detail, backLabel, context = 'sidebar') {
-  const back = `<button class="back-button person-profile-back" data-action="${context === 'context' ? 'person-profile-back' : 'sidebar-person-back'}" aria-label="Back to ${esc(backLabel)}">Back</button>`;
+  const back = `<button class="back-button person-profile-back" data-action="${context === 'context' ? 'person-profile-back' : 'sidebar-person-back'}" aria-label="Back to ${esc(backLabel)}">← Back</button>`;
   if (detail.type === 'person') return context === 'context'
     ? linkedPersonProfileHtml(detail.id, {backLabel:`Back to ${backLabel}`})
     : `<section class="word-view">${back}${linkedPersonProfileHtml(detail.id)}</section>`;
